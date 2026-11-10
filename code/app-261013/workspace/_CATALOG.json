@@ -1,0 +1,6589 @@
+{
+ "module": "workspace",
+ "generated_at": "2026-10-17T04:58:47.446Z",
+ "files_scanned": 115,
+ "message_count": 464,
+ "messages": [
+  {
+   "id": "chatgpt.codeBlocks.latex.compile.button",
+   "text": "Compile PDF",
+   "description": "Button in the ChatGPT LaTeX editor toolbar that compiles the current source into a PDF preview using the desktop runtime. Keep this action label short; PDF is a file format.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.compile.error",
+   "text": "Couldn’t compile this document. Check the compiler details, fix the source, and try again",
+   "description": "Error in ChatGPT's LaTeX editor after compilation fails. The previous PDF remains visible and source edits are preserved. Direct the user to the diagnostic log below the message.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.compiler.busy",
+   "text": "Another document is compiling. Try again when it finishes",
+   "description": "Error when the desktop LaTeX compiler is processing a different document. Ask the user to retry shortly; their edits remain intact.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.compiler.disconnected",
+   "text": "The LaTeX compiler disconnected. Restart the desktop app and try again",
+   "description": "Error in ChatGPT's LaTeX editor when its connection to the desktop compiler fails. The user can continue editing and downloading source.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.compiler.sizeLimit",
+   "text": "This document exceeds the preview limit. Use a source file under 1 MB and a PDF under 20 MB",
+   "description": "Error in the ChatGPT LaTeX editor when source or generated PDF exceeds the compiler's resource limits. MB means megabytes. Source editing and source download remain available.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.compiler.unavailable",
+   "text": "LaTeX compilation isn’t available in this installation. You can still edit your source",
+   "description": "Error in ChatGPT's LaTeX editor when this app installation has no compiler available. Source editing remains available.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.compiling.status",
+   "text": "Compiling…",
+   "description": "Status above the PDF pane while ChatGPT's LaTeX editor compiles a document. The ellipsis indicates work is in progress.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.downloadPdf.button",
+   "text": "Download PDF",
+   "description": "Menu action in the ChatGPT LaTeX editor that downloads the PDF compiled from the current source. Disabled until the current source compiles successfully.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.log.label",
+   "text": "Compiler details",
+   "description": "Expandable label for the diagnostic log returned by the LaTeX compiler in ChatGPT's document editor.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.preparing.status",
+   "text": "Preparing preview…",
+   "description": "Status above the PDF pane while preparing the first LaTeX preview. The ellipsis indicates work is in progress.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.preview.empty",
+   "text": "Your PDF preview updates automatically as you edit",
+   "description": "Empty PDF pane before the first successful LaTeX compile, explaining that previews update automatically.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.preview.label",
+   "text": "PDF preview",
+   "description": "Heading above the rendered PDF pane in ChatGPT's LaTeX editor, beside the editable source.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.preview.unavailable",
+   "text": "PDF compilation isn’t available here. You can still edit your source",
+   "description": "Empty PDF pane when the current host or app installation has no LaTeX compiler. Source editing remains available.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.source.label",
+   "text": "Source",
+   "description": "Heading above the editable LaTeX source pane in ChatGPT's LaTeX editor, beside a PDF preview pane. Keep this label short.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.stale.status",
+   "text": "Source changed—preview will update automatically",
+   "description": "Status above the PDF pane when the LaTeX source has changed since the displayed PDF was compiled. Tells the user that the visible preview is an older version and must be recompiled.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.codeBlocks.latex.title",
+   "text": "LaTeX editor",
+   "description": "Title of the document editing dialog opened from a LaTeX code block in ChatGPT. LaTeX is the typesetting language name; keep the title concise.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.revision.error",
+   "text": "Couldn’t revise the document. Your source is unchanged—try again",
+   "description": "Error after ChatGPT fails to produce a proposed LaTeX revision.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.revision.fix",
+   "text": "Help fix errors",
+   "description": "Asks ChatGPT to propose a correction using the current LaTeX source and compiler diagnostics.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.revision.input",
+   "text": "Describe a document edit",
+   "description": "Accessible label for instructions to revise the current LaTeX document with ChatGPT.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.revision.placeholder",
+   "text": "Ask ChatGPT to revise this document…",
+   "description": "Placeholder in the LaTeX document's AI editing input.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.revision.request",
+   "text": "Suggest edit",
+   "description": "Asks ChatGPT to propose an edit to the current LaTeX source.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.revision.stale",
+   "text": "The document changed while this edit was being prepared. Request a new edit to preserve your changes",
+   "description": "Explains why a proposed AI edit can no longer be applied to a LaTeX document that has been edited since the request.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.revision.undo",
+   "text": "Undo AI edit",
+   "description": "Restores the source before the last AI edit, available only if no later edits would be overwritten.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.latex.workspace",
+   "text": "LaTeX document editor",
+   "description": "Accessible name of the LaTeX editor panel beside a ChatGPT conversation.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.stepWorkspaceLayout",
+   "text": "Cycle workspace layout",
+   "description": "Command menu item that cycles between full, split, and hidden tabs",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleBrowserPanel",
+   "text": "Toggle browser panel",
+   "description": "Title for the command that shows or hides the browser panel",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.showWorkspaceTabView",
+   "text": "Enter or exit full view",
+   "description": "Description for the command that toggles full view for the workspace",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.stepPersistentWorkspaceLayout",
+   "text": "Switch between full and split view",
+   "description": "Description for the layout command in a workspace whose tabs always stay visible",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.stepWorkspaceLayout",
+   "text": "Step from full view to split view, hide tabs, or show tabs beside Chat",
+   "description": "Description for the command that steps down through workspace layouts and restores split view from hidden tabs",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleBrowserPanel",
+   "text": "Show or hide the browser panel",
+   "description": "Description for the command that toggles the browser panel",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.togglePersistentWorkspaceTabs",
+   "text": "Switch between Chat and content in full view, or enter full view from split view",
+   "description": "Description for the command that changes the selected workspace surface while keeping its tab strip visible",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleWorkspaceTabs",
+   "text": "Switch between Chat and tabs in full view, or show or hide tabs in split view",
+   "description": "Description for the command that switches between Chat and the previous content tab in full view or toggles workspace tab visibility in split view",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.adjustComparisonEnd",
+   "text": "Adjust comparison end",
+   "description": "Accessible label and tooltip for the filled comparison timeline handle; click then choose a version, drag, or use arrow keys and Enter to change the later displayed version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.adjustComparisonStart",
+   "text": "Adjust comparison start",
+   "description": "Accessible label and tooltip for the outlined comparison timeline handle; click then choose a version, drag, or use arrow keys and Enter to change the earlier version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.baseline.empty",
+   "text": "No matching versions",
+   "description": "Empty state when no loaded saved Page versions match the entered date or time",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.baseline.loadingMore",
+   "text": "Loading older versions…",
+   "description": "Status while fetching another page of older saved Page revision metadata",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.baseline.loadMore",
+   "text": "Load older versions",
+   "description": "Fetch earlier saved Page revisions to browse or search in the comparison picker",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.baseline.loadMoreError",
+   "text": "Couldn’t load older versions",
+   "description": "Error in the comparison picker when fetching another page of revision metadata failed; the action below retries the request",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.baseline.search",
+   "text": "Find a date or time…",
+   "description": "Placeholder for filtering the loaded Page version history by its local date or time",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.cancelDraggedRange",
+   "text": "Esc to cancel",
+   "description": "Keyboard hint while dragging a Page comparison timeline endpoint: press Escape to discard the drag and keep the previous comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.cancelEndpointSelection",
+   "text": "Cancel",
+   "description": "Cancel changing a Page comparison timeline endpoint without changing either selected version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.chooseComparisonRow",
+   "text": "Choose a comparison version",
+   "description": "Instruction while choosing a new comparison version directly in the Page history timeline",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.chooseSelectedVersion",
+   "text": "Choose the selected version",
+   "description": "Instruction while choosing which Page version to show directly in the history timeline",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.closeHistory",
+   "text": "Close version history",
+   "description": "Close version history and show the document's current contents",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.addedDestinations",
+   "text": "{count, plural, one {Added destination} other {Added destinations}}",
+   "description": "Heading for saved destinations of hyperlinks added between the comparison baseline and selected Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.addedFiles",
+   "text": "{count, plural, one {Added file} other {Added files}}",
+   "description": "Heading for saved file references added between the comparison baseline and selected Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.changeSide",
+   "text": "{before, select, true {Before these changes} other {After these changes}}",
+   "description": "Boundary for the reference content (Before) or selected content (After) inside an expanded change; direction follows Compare from to Selected version, including reverse chronological comparisons",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.contentAdded",
+   "text": "{content, select, paragraph {Paragraph added} heading {Heading added} table {Table added} checklist {Checklist added} list {List added} code {Code added} sections {Sections added} other {Content added}}",
+   "description": "Names the kind of content added from the comparison's starting version to the selected version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.contentAndLayoutChanged",
+   "text": "Content and layout changed",
+   "description": "Expandable label when a Page block's content and its width, image size, table column width, or code wrapping both changed",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.contentEdited",
+   "text": "{content, select, paragraph {Paragraph edited} heading {Heading changed} table {Table changed} checklist {Checklist changed} list {List changed} code {Code changed} sections {Sections changed} other {Content changed}}",
+   "description": "Names the kind of Page content that changed; when expandable, opens the exact content before the change alongside the selected content",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.contentRemoved",
+   "text": "{content, select, paragraph {Paragraph removed} heading {Heading removed} table {Table removed} checklist {Checklist removed} list {List removed} code {Code removed} sections {Sections removed} other {Content removed}}",
+   "description": "Names content that exists in the comparison's starting version but is absent from the selected version; also labels an expandable preview of large removals",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.datedChangeSide",
+   "text": "{before, select, true {Before} other {After}} · {current, select, true {Current version} other {{date}}}",
+   "description": "Identifies exact version content within an expanded change. Before is Compare from and After is Selected version, even when the comparison runs backwards in time. Current version is a frozen local capture.",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.detailLimitSelected",
+   "text": "Some large changes aren’t highlighted word by word. Expand a change to compare the full content before and after.",
+   "description": "Explains the word-level comparison limit without suggesting that any saved content is missing; full before and after content remains available in each expandable change",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.fileReferencesChanged",
+   "text": "File replaced",
+   "description": "Opens details of changed file references between Page versions, showing saved filenames instead of internal file IDs",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.filesAdded",
+   "text": "{count, plural, one {File added} other {Files added}}",
+   "description": "Opens the saved file references added between the comparison baseline and selected Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.filesChanged",
+   "text": "Files changed",
+   "description": "Opens saved comparison-version and selected-version file references when several attachments changed in one Page passage",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.filesRemoved",
+   "text": "{count, plural, one {File removed} other {Files removed}}",
+   "description": "Opens the saved file references removed between the comparison baseline and selected Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.groupedContentChanged",
+   "text": "{content, select, sections {Content changed across sections} other {Several passages changed}}",
+   "description": "Expandable label for a group of changed Page content shown together; individual block correspondence may be uncertain, so this does not claim a particular movement or replacement",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.inlineFormattingChanged",
+   "text": "Formatting changed",
+   "description": "The highlighted text has different inline formatting, such as bold or italic, without changing its words",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.layoutChanged",
+   "text": "Layout changed",
+   "description": "Expandable label for a Page block whose width, image size, table column width, or code wrapping changed",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.linkAdded",
+   "text": "Link added",
+   "description": "Opens the destination of a hyperlink added to existing Page content",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.linkRemoved",
+   "text": "Link removed",
+   "description": "Opens the original destination of a hyperlink removed from existing Page content",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.linkTargetsChanged",
+   "text": "Link updated",
+   "description": "Opens the previous and new destinations of changed links, relative to the selected comparison direction",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.movedElsewhere",
+   "text": "{edited, select, true {Moved elsewhere and edited} other {Moved elsewhere}}",
+   "description": "Label above an old passage inside a grouped comparison; it still exists at a different position in the selected version, outside a named section",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.movedToSection",
+   "text": "{edited, select, true {Moved to {section} and edited} other {Moved to {section}}}",
+   "description": "Label above an old passage inside a grouped comparison naming the section where it appears in the selected version; edited means its content or formatting also changed",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.newDestinations",
+   "text": "{count, plural, one {New destination} other {New destinations}}",
+   "description": "Heading for hyperlink destinations in the selected Page version, which is the destination of the comparison even when chronologically older",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.newFiles",
+   "text": "{count, plural, one {New file} other {New files}}",
+   "description": "Heading for saved file references in the selected Page version, which is the destination of the comparison even when chronologically older",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.originalLocation",
+   "text": "Original location",
+   "description": "Title of a preview showing moved content at its source location in the comparison baseline, regardless of the chronological order of the two compared versions",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.previousDestinations",
+   "text": "{count, plural, one {Previous destination} other {Previous destinations}}",
+   "description": "Heading for hyperlink destinations in the comparison baseline, regardless of the chronological order of the two compared versions",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.previousFiles",
+   "text": "{count, plural, one {Previous file} other {Previous files}}",
+   "description": "Heading for saved file references in the comparison baseline, regardless of the chronological order of the two compared versions",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.removedDestinations",
+   "text": "{count, plural, one {Removed destination} other {Removed destinations}}",
+   "description": "Heading for saved destinations of hyperlinks removed between the comparison baseline and selected Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.removedFiles",
+   "text": "{count, plural, one {Removed file} other {Removed files}}",
+   "description": "Heading for saved file references removed between the comparison baseline and selected Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.sameNameReplacement",
+   "text": "The linked file was replaced with a different file of the same name",
+   "description": "Explains why two identical filenames appear in before/after details: the saved file reference was replaced, not merely renamed",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.tableStructure",
+   "text": "Table structure changed",
+   "description": "Expandable label for a table whose rows, columns, or merged cells changed; opening shows both table versions",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.unnamedFile",
+   "text": "File",
+   "description": "Fallback name for a historical file reference without a readable saved filename",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.unnamedLink",
+   "text": "Linked content",
+   "description": "Fallback name for an internal historical link without a readable saved label",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.viewEditedMoveOrigin",
+   "text": "Moved and edited · View original location",
+   "description": "Button beside Page content that moved and changed between the two compared versions; opens its exact content and location in the comparison baseline",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.viewMoveOrigin",
+   "text": "Moved · View original location",
+   "description": "Button beside moved Page content that previews its location in the comparison baseline, regardless of the chronological order of the two compared versions",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.viewNamedEditedMoveOrigin",
+   "text": "Moved from {section} · Edited",
+   "description": "Button beside Page content that moved from the named section and also changed between compared versions; opens its exact content and location in the comparison baseline",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.viewNamedMoveOrigin",
+   "text": "Moved from {section}",
+   "description": "Button beside moved Page content that names its section in the comparison version and opens a preview of that location",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparison.visualizationUnavailable",
+   "text": "Interactive content can’t be previewed in version history",
+   "description": "Explanation beneath a saved visualization title; version history does not execute interactive content or replace it with the live version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparisonError",
+   "text": "Could not compare these versions",
+   "description": "Error when loading or comparing Page versions failed; the adjacent action retries",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.comparisonVersionDescription",
+   "text": "Version used for comparison",
+   "description": "Accessible description identifying the Page version used as the baseline for comparison highlights",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.confirmDraggedRange",
+   "text": "Release to compare",
+   "description": "Instruction while dragging a comparison endpoint along the Page revision timeline",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.confirmKeyboardRange",
+   "text": "Arrow keys to adjust · Enter to compare",
+   "description": "Instruction while a timeline endpoint is being adjusted with the keyboard; Enter confirms and loads the comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.current",
+   "text": "Current version",
+   "description": "The current live Page document captured when its version preview was opened",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.currentCaptureDetail",
+   "text": "Captured when history opened; may include unsaved changes and does not update with live edits",
+   "description": "Tooltip and accessible description for the current Page version captured when history was opened; it may contain local edits that have not been saved",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.currentCaptureTooltip",
+   "text": "Captured on opening. May include unsaved edits",
+   "description": "Brief tooltip for the frozen current Page snapshot, captured when version history opened",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.fromLabel",
+   "text": "From",
+   "description": "Label for the earlier endpoint of a Page version comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.historyError",
+   "text": "Could not load version history",
+   "description": "Error when the list of saved Page versions could not be loaded; the adjacent action retries",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.listLabel",
+   "text": "Page versions",
+   "description": "Accessible label for the current Page and its saved checkpoints grouped by date",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.loadingComparison",
+   "text": "Loading comparison…",
+   "description": "Status while the requested Page comparison is loading; document content and changes appear together when ready",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.loadingHistory",
+   "text": "Loading history…",
+   "description": "Status while the list of saved Page versions loads",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.loadingPreview",
+   "text": "Loading version…",
+   "description": "Status while downloading and verifying a historical Page checkpoint",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.loadOlder",
+   "text": "Load older versions",
+   "description": "Load older checkpoints in the Page version history panel",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.noSavedVersions",
+   "text": "No saved versions yet",
+   "description": "Empty state when a Page has no stored historical checkpoints",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.previewError",
+   "text": "Could not load this version",
+   "description": "Error when a saved Page checkpoint is unavailable or cannot be verified",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.readOnlyDescription",
+   "text": "History previews are read only",
+   "description": "Accessible description of the Page version history region, which previews versions without editing the live document",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.cancel",
+   "text": "Cancel",
+   "description": "Cancel restoring a historical Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.chooseAnother",
+   "text": "Choose another version",
+   "description": "Return to Page version history after the selected version cannot be restored",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.confirm",
+   "text": "Restore version",
+   "description": "Confirm replacing the current Page content with the selected historical version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.description",
+   "text": "Replace the current page content with the version from {date}. Current comments will be kept.",
+   "description": "Confirmation explaining which historical Page version will replace the current content, while preserving current comments",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.error",
+   "text": "Could not restore this version. Check your connection and editing access, then try again",
+   "description": "Error when downloading or applying a historical Page version fails; the dialog remains open for retry",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.limitExceeded",
+   "text": "This version is too large to restore in one edit. Choose another version",
+   "description": "Error when restoring a historical Page version would exceed the document update size limit",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.open",
+   "text": "Restore",
+   "description": "Open confirmation to restore the saved Page version beside this button",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.pending",
+   "text": "Restoring version…",
+   "description": "Status while preparing and applying the selected historical Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.target",
+   "text": "Restore version from {date}",
+   "description": "Accessible label and tooltip identifying the exact saved Page version that the Restore button will restore",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.title",
+   "text": "Restore this version?",
+   "description": "Confirmation title before restoring a historical Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.restore.unsupported",
+   "text": "This version includes changes that can’t be restored. Choose another version",
+   "description": "Error when a historical Page version cannot be restored because its changes conflict with protected document content or current editing capabilities",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.retry",
+   "text": "Try again",
+   "description": "Retry loading Page version history or a historical checkpoint after a failure",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.retryOlder",
+   "text": "Retry loading older versions",
+   "description": "Retry action after loading older Page versions failed",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.selectComparisonNode",
+   "text": "{endpoint, select, from {Use {date} for comparison} other {Select version from {date}}}",
+   "description": "Accessible label for a timeline node when moving a comparison endpoint; date is the full checkpoint date and time",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.selectCurrentComparisonNode",
+   "text": "{endpoint, select, from {Use current version for comparison} other {Select current version}}",
+   "description": "Choose the frozen Current snapshot using its timeline node, either as the comparison version or the selected version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.sessionUnavailable",
+   "text": "Version history is no longer available. Your account or Page access may have changed",
+   "description": "Shown when Page version history loses its account context or authorization, requiring the user to leave the history session",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.timelineHandleHint",
+   "text": "Click or drag to change version",
+   "description": "Tooltip for a Page version comparison handle; clicking lets the user choose a version from the list, and dragging moves the comparison endpoint",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.timestamp.compact",
+   "text": "{date} · {time}",
+   "description": "Compact date and time identifying one saved Page version; time may include seconds to distinguish versions saved within the same minute",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.title",
+   "text": "Version history",
+   "description": "Title of the Page side panel listing saved checkpoints",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toLabel",
+   "text": "To",
+   "description": "Label for the later endpoint of a Page version comparison, which is displayed in the document",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.changeCount",
+   "text": "{count, plural, one {# change} other {# changes}}",
+   "description": "Number of changed sections between two Page versions before navigating to a particular change",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.changePosition",
+   "text": "{position} of {count}",
+   "description": "Position of the active changed section within the Page comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.chooseComparison",
+   "text": "Choose a comparison version",
+   "description": "Status when no valid baseline is available for the selected Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.chooseEndVersion",
+   "text": "Choose end version",
+   "description": "Open the menu to choose the later Page version at the end of a comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.chooseStartVersion",
+   "text": "Choose start version",
+   "description": "Open the menu to choose the earlier Page version at the start of a comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.chooseVersion",
+   "text": "Choose version",
+   "description": "Placeholder for a Page comparison endpoint before a version is selected",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.chosenVersion",
+   "text": "Chosen version",
+   "description": "Comparison endpoint selector when the chosen version is outside the loaded version history",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.comparing",
+   "text": "Comparing…",
+   "description": "Status while fetching Page versions and computing the differences between them",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.comparisonError",
+   "text": "Comparison unavailable",
+   "description": "Status when a Page comparison failed; detailed error and retry controls appear in the document area",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.navigateChanges",
+   "text": "Navigate changes",
+   "description": "Accessible label for the previous and next change controls in Page version history",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.nextChange",
+   "text": "Next change",
+   "description": "Navigate to the next changed section in the formatted Page comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.noChanges",
+   "text": "No changes",
+   "description": "Status when two compared Page versions have identical document content",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.noEarlierComparison",
+   "text": "No earlier version to compare",
+   "description": "Status when automatic Page comparison has no earlier saved version; this does not mean the document has no changes",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.previousChange",
+   "text": "Previous change",
+   "description": "Navigate to the preceding changed section in the formatted Page comparison",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.sameVersion",
+   "text": "Same version selected",
+   "description": "Status when the viewed Page version and the comparison version are identical",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.toolbar.showChanges",
+   "text": "Show changes",
+   "description": "Toggle comparison highlights on the selected historical Page version",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.viewingDescription",
+   "text": "Version shown in the document",
+   "description": "Accessible description identifying the selected Page version displayed in the document canvas",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.versions.workspaceLabel",
+   "text": "Page version history",
+   "description": "Accessible label for the read-only Page history and comparison workspace",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.close",
+   "text": "Close page activity",
+   "description": "Accessible label for closing the Page activity side panel",
+   "files": [
+    "pages/workspace-e2c423bd7432.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.close.byDocumentType",
+   "text": "{documentType, select, granola_presentation {Close slide activity} granola_workbook {Close sheet activity} other {Close page activity}}",
+   "description": "Accessible label for closing the Page activity side panel. documentType selects slide, sheet, or page for the current document.",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.edits",
+   "text": "Edits",
+   "description": "Tab showing who last edited each section of the current Page",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.emptySection",
+   "text": "Empty section",
+   "description": "Edit preview for an available Page section with no content",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.goToSection",
+   "text": "Go to section",
+   "description": "Tooltip for the action that scrolls the Page to the section shown in an edit preview",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.imageSection",
+   "text": "Image",
+   "description": "Edit preview for an image without a text description",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.moreEdits",
+   "text": "Show more",
+   "description": "Button that reveals more recently edited sections in the Page activity panel",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.pageLinkSection",
+   "text": "Page link",
+   "description": "Edit preview for a Page link that has no text label",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.recentSections",
+   "text": "Recently edited sections",
+   "description": "Accessible label for the Page edits list, which shows the latest edit to each section rather than a complete version history",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.sectionWithoutText",
+   "text": "Section without text",
+   "description": "Edit preview for an available section that contains no readable text",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.structuredSectionExcerpt",
+   "text": "{type, select, table {Table} code {Code block} thematicBreak {Divider} html {HTML block} other {Section}}",
+   "description": "Plain-string edit preview used in a section link and its tooltip instead of flattening table cells, code, or HTML",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.title.byDocumentType",
+   "text": "{documentType, select, granola_presentation {Slide activity} granola_workbook {Sheet activity} other {Page activity}}",
+   "description": "Heading for the side panel containing versions, edits, and views of the current Page. documentType selects slide, sheet, or page for the current document.",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.unavailableSection",
+   "text": "Section unavailable",
+   "description": "Edit preview when the section is no longer available in the current Page",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.versions",
+   "text": "Versions",
+   "description": "Tab showing saved Page versions and comparison controls",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.activity.views",
+   "text": "Views",
+   "description": "Tab showing the people who viewed the current Page",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.attribution.actor",
+   "text": "{type, select, agent {AI agent} system {System} user {A collaborator} other {Another contributor}}",
+   "description": "Display label for the person, AI agent, system, or unknown actor that last edited a shared Page block when a personal display name is unavailable",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.attribution.authorizedAgent",
+   "text": "AI agent authorized by {name}",
+   "description": "Label for a Page block edited by an AI agent acting with permission from the named user; name identifies who authorized the agent, not the direct editor",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.attribution.empty",
+   "text": "No edit details available",
+   "description": "Empty state shown when a shared Page has no block-level authorship information",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.attribution.error",
+   "text": "Edit details unavailable",
+   "description": "Error shown when recent block edit attribution for a shared Page cannot be loaded",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.attribution.loading",
+   "text": "Loading edit details…",
+   "description": "Accessible status while recent Page edit details are fetched",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.attribution.retry",
+   "text": "Try again",
+   "description": "Button that retries loading recent Page edits",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.empty",
+   "text": "No views yet",
+   "description": "Empty state shown when nobody has recorded a view of the current shared Page",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.error",
+   "text": "Could not load view history",
+   "description": "Error shown when the owner-only list of people who viewed a shared Page cannot be retrieved",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.loading",
+   "text": "Loading…",
+   "description": "Accessible status while the list of people who viewed a shared Page is loading",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.moreError",
+   "text": "Couldn’t load more views. Try again below.",
+   "description": "Message shown when loading another page of viewers fails; the existing viewers remain visible and the load-more button retries",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.retry",
+   "text": "Try again",
+   "description": "Button that retries loading the list of people who viewed a shared Page after the request failed",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.showMoreViewers",
+   "text": "Show more viewers",
+   "description": "Button that reveals more people who viewed a shared Page, loading the next group when needed",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.unknownPerson",
+   "text": "Unknown person",
+   "description": "Privacy-safe fallback name shown when a shared Page viewer's workspace display name is unavailable",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.viewHistory.viewers.byDocumentType",
+   "text": "{documentType, select, granola_presentation {Slide viewers} granola_workbook {Sheet viewers} other {Page viewers}}",
+   "description": "Accessible label for the list of people who viewed the current Page. documentType selects slide, sheet, or page for the current document.",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.workspaceRenewalPaymentBanner.description",
+   "text": "Update your payment method before {date} to keep access to your workspace",
+   "description": "Warning that a Business workspace payment must be updated before {date}, when the grace period ends",
+   "files": [
+    "pages/workspace-renewal-payment-a33960e1f2f0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.workspaceRenewalPaymentBanner.title",
+   "text": "Workspace renewal failed",
+   "description": "Title shown when a Business workspace renewal payment fails",
+   "files": [
+    "pages/workspace-renewal-payment-a33960e1f2f0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.workspaceRenewalPaymentBanner.updatePayment",
+   "text": "Update payment",
+   "description": "Opens workspace billing settings to update the payment method",
+   "files": [
+    "pages/workspace-renewal-payment-a33960e1f2f0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.footer.v2.cloudTab",
+   "text": "Cloud",
+   "description": "Cloud mode label",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.hotkeyWindow.mode.localSlashCommand.description",
+   "text": "Run this chat locally",
+   "description": "Description for the Quick Chat local mode slash command",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.hotkeyWindow.mode.worktreeSlashCommand.description",
+   "text": "Run this chat in a new worktree",
+   "description": "Description for the Quick Chat worktree mode slash command",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.hotkeyWindow.modeDropdown.cloudUnavailable",
+   "text": "Cloud is unavailable",
+   "description": "Tooltip for disabled hotkey-window Cloud mode",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.hotkeyWindow.modeDropdown.localOnly",
+   "text": "Initialize a git repo to run chats in worktrees",
+   "description": "Tooltip for disabled hotkey-window worktree mode selector",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.hotkeyWindow.modeDropdown.localProject",
+   "text": "Local project",
+   "description": "Hotkey window overflow menu label for local project mode",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.hotkeyWindow.modeDropdown.tooltip",
+   "text": "Select where to run the chat",
+   "description": "Tooltip for the hotkey-window mode selector",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local",
+   "text": "Work locally",
+   "description": "Local mode label",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.worktree",
+   "text": "New worktree",
+   "description": "Worktree mode label",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.worktreeSegment",
+   "text": "Worktree",
+   "description": "Worktree mode label for the segmented toggle",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.worktreeSlashCommand.disableDescription",
+   "text": "Turn worktree mode off",
+   "description": "Description for the worktree slash command when the new task is set to run in a worktree",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.continue",
+   "text": "Continue",
+   "description": "Button label to continue after selecting workspaces during onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.empty",
+   "text": "Add a project to continue.",
+   "description": "Empty state shown when no workspaces are selected during onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.listLabel",
+   "text": "Available projects",
+   "description": "Aria label for the available workspaces list during onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.loading",
+   "text": "Loading projects…",
+   "description": "Loading state while onboarding workspace options are fetched",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.openFolder",
+   "text": "Add project",
+   "description": "Button label to add a workspace during desktop onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.selectAll",
+   "text": "Select all",
+   "description": "Checkbox label for selecting all workspaces during onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.skip",
+   "text": "Skip",
+   "description": "Button label to skip workspace selection during onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.skip.error",
+   "text": "Couldn't create a new project: {message}",
+   "description": "Error shown when creating a new project fails during onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.skipping",
+   "text": "Creating a new project…",
+   "description": "Button label shown while creating a new project during onboarding",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.subtitle",
+   "text": "ChatGPT will be able to edit files and run commands in selected folders",
+   "description": "Subtitle on the desktop onboarding workspace selection page",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.workspace.title",
+   "text": "Select a project",
+   "description": "Title on the desktop onboarding workspace selection page",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.taskSuggestions.dismiss",
+   "text": "Dismiss suggestion",
+   "description": "Accessible label for the X button on one suggested task below the Home composer. It removes only this suggestion without starting the task or changing the draft.",
+   "files": [
+    "_deps/home-suggestion-list-3dfbdedc041d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.placeholder.cloud",
+   "text": "Ask ChatGPT anything in the cloud",
+   "description": "Hotkey window placeholder for cloud mode",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.placeholder.local",
+   "text": "Ask ChatGPT anything locally in {project}",
+   "description": "Hotkey window placeholder for local mode",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.placeholder.projectless",
+   "text": "Ask ChatGPT anything locally",
+   "description": "Hotkey window placeholder for projectless local mode",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.placeholder.unknownProject",
+   "text": "this project",
+   "description": "Fallback project name in the hotkey window composer placeholder",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.placeholder.worktree",
+   "text": "Ask ChatGPT anything in a worktree in {project}",
+   "description": "Hotkey window placeholder for worktree mode",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.branch",
+   "text": "Branch",
+   "description": "Label for the hotkey window branch row",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.environment",
+   "text": "Environment",
+   "description": "Label for the hotkey window environment row",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.label",
+   "text": "Chat settings",
+   "description": "Accessible label for the hotkey window chat settings menu",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.permissions",
+   "text": "Permissions",
+   "description": "Label for the hotkey window permissions row",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.project",
+   "text": "Project",
+   "description": "Label for the hotkey window project row",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.startIn",
+   "text": "Start in",
+   "description": "Label for the hotkey window mode row on the home page",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.startIn.disabledTooltip",
+   "text": "Initialize a git repo to start in cloud or worktree mode",
+   "description": "Tooltip shown when the hotkey-window start-in control is disabled because the project is not a git repo",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.startIn.loadingTooltip",
+   "text": "Loading project",
+   "description": "Tooltip shown when the hotkey-window project is still loading",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.home.taskMenu.startIn.projectlessTooltip",
+   "text": "Standalone chats run in a local folder",
+   "description": "Tooltip shown when the hotkey-window start-in control is disabled for projectless chats",
+   "files": [
+    "pages/hotkey-window-home-page-e0fe251d5dc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.chat.document",
+   "text": "Continue in ChatGPT",
+   "description": "Adds the LaTeX document to the conversation composer for a follow-up question or edit request.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.chat.selection",
+   "text": "Ask ChatGPT about selection",
+   "description": "Adds the selected LaTeX source to the conversation composer for a follow-up question or edit request.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.compile.automatic",
+   "text": "Auto-compile",
+   "description": "Toggle in the LaTeX Compile menu that automatically updates the PDF preview after source edits",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.compile.automaticSaveError",
+   "text": "Could not save auto-compile preference",
+   "description": "Error shown when saving whether LaTeX documents compile automatically fails",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.compile.options",
+   "text": "Compilation options",
+   "description": "Accessible label for the LaTeX Compile button's automatic compilation settings menu",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.downloads.button",
+   "text": "Download",
+   "description": "Opens the LaTeX editor menu for downloading the PDF or a ZIP project",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.images.compileError",
+   "text": "Couldn’t load an image used by this document. Reconnect and try again, or insert the image again from the conversation",
+   "description": "Shown when a LaTeX preview cannot load one of its referenced conversation images; the previous PDF and source are preserved",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.images.downloadProject",
+   "text": "Download project",
+   "description": "Downloads a ZIP containing the LaTeX source and all inserted images so the document can be compiled elsewhere",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.images.exportError",
+   "text": "Couldn’t download the project. Check that its images are available and try again",
+   "description": "Error when creating a portable ZIP of the LaTeX source and its images fails",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.emptyManual",
+   "text": "Compile your document to see the PDF preview",
+   "description": "Empty PDF pane when automatic LaTeX compilation is turned off",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.firstCompileDownloads",
+   "text": "Preparing your PDF. On first use, LaTeX downloads the packages and fonts your document needs, which can take a few minutes. Keep your internet connection active; downloaded files are saved for future compilations.",
+   "description": "Explains the initial wait in the empty PDF pane while a LaTeX compilation is running. Packages and fonts are downloaded only when missing and cached for reuse; this is not a live download progress indicator.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.hide",
+   "text": "Hide PDF preview",
+   "description": "Tooltip for the toolbar button that hides the PDF preview pane in the LaTeX editor, giving the source editor more space",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.missingMainDocument",
+   "text": "No complete TeX document was found in this project. Open a file containing a document class to compile it",
+   "description": "Empty PDF pane when the project has no complete TeX document to compile; chapters alone cannot produce a PDF",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.noPages",
+   "text": "This document has no pages yet. Add content to see a PDF preview",
+   "description": "Neutral message in the PDF pane after valid LaTeX produces no pages, for example an empty document body. This is not a source error; the user can keep editing.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.show",
+   "text": "Show PDF preview",
+   "description": "Tooltip for the toolbar button that restores the PDF preview pane beside the source in the LaTeX editor",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.staleManual",
+   "text": "Source changed—compile to update the preview",
+   "description": "Status above an outdated LaTeX PDF preview when automatic compilation is turned off",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.preview.toggle",
+   "text": "PDF preview",
+   "description": "Stable accessible name for the LaTeX PDF preview toggle; its pressed state indicates whether the preview is visible",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.project.openFileFailed",
+   "text": "Could not open the project file",
+   "description": "Error when saving or opening another source in the current LaTeX project fails",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "latex.revision.selection",
+   "text": "Editing selected source",
+   "description": "Indicates that ChatGPT will revise only the highlighted LaTeX source. Expand to inspect the selected text.",
+   "files": [
+    "pages/workspace-59f0a622fbad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.academicResearchersLabel",
+   "text": "Academic Researchers",
+   "description": "Short Academic Researchers plan label shown beneath the name of a Science workspace in the ChatGPT sidebar profile and account-switcher dropdown. Keep this audience-specific label concise because it appears on a single line in narrow sidebars.",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.cfcLabel",
+   "text": "ChatGPT for Clinicians",
+   "description": "ChatGPT for Clinicians label shown for workspace account in the profile dropdown.",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.eduLabel",
+   "text": "EDU",
+   "description": "EDU label shown for workspace account in the profile dropdown.",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.enterpriseLabel",
+   "text": "Enterprise",
+   "description": "Enterprise label shown for workspace account in the profile dropdown.",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "onboarding.workspace.consentError",
+   "text": "Could not add the selected folders",
+   "description": "Error shown when checking or adding onboarding project folders fails",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.free.name",
+   "text": "Free",
+   "description": "Name of the free pricing plan",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.go.name",
+   "text": "Go",
+   "description": "Name of the Go pricing plan",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.plus.name",
+   "text": "Plus",
+   "description": "Name of the ChatGPT Plus pricing plan",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.pro.name",
+   "text": "Pro",
+   "description": "Name of the pro pricing plan",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.addProjectMenu.startFromScratch",
+   "text": "Start from scratch",
+   "description": "Menu item that creates a new local project folder",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.addProjectMenu.useExistingFolder",
+   "text": "Use an existing folder",
+   "description": "Menu item that opens the existing folder picker",
+   "files": [
+    "pages/select-workspace-page-a00798febe09.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.createLocalProject.saveError",
+   "text": "Failed to create project",
+   "description": "Toast shown when creating a local project fails",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.createProject.sourceFolders",
+   "text": "Source folders",
+   "description": "Label for project source folders on the selected device",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.createProject.submit",
+   "text": "Create project",
+   "description": "Confirm button label for creating a local or remote project",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.createProject.title",
+   "text": "Create project",
+   "description": "Title for the project creation dialog for local and remote devices",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.remoteSource.cancel",
+   "text": "Cancel",
+   "description": "Cancels choosing a remote project source folder",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.remoteSource.choose",
+   "text": "Choose a source folder",
+   "description": "Title of the remote source folder picker opened from project creation",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.remoteSource.remove",
+   "text": "Remove folder",
+   "description": "Removes the chosen folder from the new remote project",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetup.remoteSource.useFolder",
+   "text": "Use folder",
+   "description": "Adds the selected remote folder to the project creation form",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.conflict.remoteProjectAlreadyMapped.standalone",
+   "text": "This remote project on {remoteName} is already set up for {projectName}. Choose a different folder or remove that setup first.",
+   "description": "Error shown after submitting a remote project that is already set up for a different sidebar project on the same host",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.createMissingRemoteFolderCancel",
+   "text": "Cancel",
+   "description": "Button label that cancels creating a missing folder on a remote host",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.createMissingRemoteFolderConfirm",
+   "text": "Create folder",
+   "description": "Button label that confirms creating a missing folder on a remote host",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.createMissingRemoteFolderDescription",
+   "text": "Create {path} on {remoteName} before adding the project?",
+   "description": "Confirmation question shown before creating a missing folder on a remote host. The path is the folder path and the remote name identifies the remote host",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.createMissingRemoteFolderTitle",
+   "text": "Create missing folder?",
+   "description": "Title for a confirmation dialog shown before creating a missing folder on a remote host",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.noConnectedRemotes",
+   "text": "No remote hosts are connected right now.",
+   "description": "Message shown in the remote project setup dialog when no remote hosts are connected",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.pathVerificationFailed",
+   "text": "We couldn’t verify this folder on the remote host. Check that it exists and try again",
+   "description": "Error shown after the app cannot verify a submitted remote folder path",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.saveError",
+   "text": "Failed to save project",
+   "description": "Toast shown when project setup fails",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "projectSetupDialog.selectedRemoteUnavailable",
+   "text": "Choose a connected remote host to continue.",
+   "description": "Message shown when the selected remote host is no longer available for project setup",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "splitView.resize",
+   "text": "Resize panels",
+   "description": "Accessible name for the split-view resize handle",
+   "files": [
+    "_deps/page-activity-panel-4c5c6ff94e28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadWorkspace.layout.focusChat",
+   "text": "Focus Chat",
+   "description": "Command that selects the Chat tab and focuses its composer while preserving full view",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadWorkspace.layout.focusPreviousTab",
+   "text": "Focus previous tab",
+   "description": "Command that returns from Chat to the previously selected content tab while preserving full view",
+   "files": [
+    "pages/workspace-layout-step-handler-def11fc6845c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.defaultWorkspaceTitle",
+   "text": "Untitled Workspace",
+   "description": "title for workspace without a name",
+   "files": [
+    "pages/workspace-auto-generated-name-23c98449bf82.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.freeWorkspacePlanName",
+   "text": "Business Free",
+   "description": "Label for the Business Free workspace tier shown in workspace settings and membership screens.",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.k12PlanName",
+   "text": "ChatGPT for Teachers",
+   "description": "label for K12 tier account",
+   "files": [
+    "pages/workspace-type-label-f946c500d087.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.personaldefaultWorkspaceTitle",
+   "text": "{name}'s Workspace",
+   "description": "title for default personal workspace",
+   "files": [
+    "pages/workspace-auto-generated-name-23c98449bf82.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.personalWorkspaceTitle",
+   "text": "Personal account",
+   "description": "title for personal workspace",
+   "files": [
+    "pages/workspace-auto-generated-name-23c98449bf82.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.buildPermissionRequired",
+   "text": "You don’t have permission to build agents",
+   "description": "Tooltip on disabled agent creation or publishing actions when the current workspace does not grant agent-building permission",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.connect",
+   "text": "Connect",
+   "description": "Button that connects a personal app for use by an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.connected",
+   "text": "Connected",
+   "description": "Status when the server confirms that an app connection is ready for an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.failed",
+   "text": "Unable to connect the app. Try again",
+   "description": "Error when a required personal app connection did not complete for an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.loadError",
+   "text": "Unable to check app connections",
+   "description": "Error when required app connections for an agent could not be loaded",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.loading",
+   "text": "Checking app connections…",
+   "description": "Status while required personal app connections are loading for an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.none",
+   "text": "This agent does not need a personal app connection",
+   "description": "Message when a published agent does not require the user to connect an app",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.reconnect",
+   "text": "Reconnect",
+   "description": "Button that repairs the selected app account connection for an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.retry",
+   "text": "Retry",
+   "description": "Button that retries loading app connections for an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.unavailable",
+   "text": "Unavailable",
+   "description": "Status when the user cannot repair an app connection required by an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.connections.unnamed",
+   "text": "Unnamed app",
+   "description": "Fallback name of an app required by an agent",
+   "files": [
+    "_deps/personal-apps-bcb923c96925.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.aborted",
+   "text": "Run stopped",
+   "description": "Status of a stopped Workspace Agent run",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.api",
+   "text": "API",
+   "description": "Source of a Workspace Agent conversation started through its API",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.blocked",
+   "text": "Needs your attention",
+   "description": "Status of a Workspace Agent run blocked on user input",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.chatgpt",
+   "text": "ChatGPT",
+   "description": "Source of a direct conversation with a Workspace Agent",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.completed",
+   "text": "Task completed",
+   "description": "Status of a completed Workspace Agent run",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.empty",
+   "text": "No activity yet. Conversations and automation runs will show up here.",
+   "description": "Message shown when a Workspace Agent has no activity",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.failed",
+   "text": "Could not complete task",
+   "description": "Status of a failed Workspace Agent run",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.loading",
+   "text": "Loading activity…",
+   "description": "Status while the recent activity and upcoming runs of a published agent load",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.loadMore",
+   "text": "Load more",
+   "description": "Button that loads more Workspace Agent activity",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.loadMoreError",
+   "text": "Unable to load more activity",
+   "description": "Error shown when another page of Workspace Agent activity cannot be loaded",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.newChat",
+   "text": "New chat",
+   "description": "Fallback title for a Workspace Agent conversation",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.openUpcoming",
+   "text": "Open automation for {timestamp}",
+   "description": "Accessible action for an upcoming agent run. timestamp is the complete localized date and time.",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.queued",
+   "text": "{agentName} is queued",
+   "description": "Status when a Workspace Agent run has been accepted but has not started; agentName is the agent's display name",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.refresh",
+   "text": "Refresh activity",
+   "description": "Button that refreshes an agent's recent conversations and next scheduled runs",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.responding",
+   "text": "{agentName} is responding",
+   "description": "Status when a Workspace Agent is actively producing a response; agentName is the agent's display name",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.unknown",
+   "text": "Unknown status",
+   "description": "Fallback status for a Workspace Agent run",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.unknownTime",
+   "text": "Time unavailable",
+   "description": "Fallback when an agent activity timestamp cannot be read",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.upcoming",
+   "text": "Upcoming run",
+   "description": "Title of an upcoming scheduled Workspace Agent run in the activity timeline",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.activity.working",
+   "text": "{agentName} is working",
+   "description": "Status when a Workspace Agent is actively running without producing a response yet; agentName is the agent's display name",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.apps.edit",
+   "text": "Edit app permissions",
+   "description": "Button that opens the agent Studio to edit app actions, approvals, and shared accounts",
+   "files": [
+    "_deps/apps-263d5791a9a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.apps.empty",
+   "text": "No connected apps yet",
+   "description": "Empty state shown when a Workspace Agent has no connected apps",
+   "files": [
+    "_deps/apps-263d5791a9a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.apps.personal",
+   "text": "Your connections",
+   "description": "Heading for the app accounts that the current user needs to connect to use an agent",
+   "files": [
+    "_deps/apps-263d5791a9a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.apps.unavailable",
+   "text": "App details aren't available",
+   "description": "State shown when app details for a Workspace Agent cannot be read",
+   "files": [
+    "_deps/apps-263d5791a9a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.creator",
+   "text": "By {creatorName}",
+   "description": "Creator attribution on a Workspace Agent page",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.edit",
+   "text": "Edit agent",
+   "description": "Button that opens a Workspace Agent in the native draft editor",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.error.back",
+   "text": "Back to agents",
+   "description": "Button that returns to the agent directory when an agent is missing or access is denied",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.error.description",
+   "text": "Check your connection and try again",
+   "description": "Description shown when a Workspace Agent cannot be loaded because of a temporary error",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.error.retry",
+   "text": "Retry",
+   "description": "Button label that retries loading a Workspace Agent",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.error.title",
+   "text": "Unable to load agent",
+   "description": "Title shown when a Workspace Agent cannot be loaded because of a temporary error",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.forbidden.title",
+   "text": "You don't have access to this agent",
+   "description": "Title shown when the user cannot access a Workspace Agent from a deep link",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.loading",
+   "text": "Loading…",
+   "description": "Loading state for Workspace Agent detail tabs",
+   "files": [
+    "_deps/apps-263d5791a9a3.js",
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "workspaceAgents.detail.notFound.title",
+   "text": "Agent not found",
+   "description": "Title shown when a Workspace Agent deep link points to an agent that does not exist",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.pinError",
+   "text": "Couldn't update the sidebar",
+   "description": "Error shown when pinning or unpinning a Workspace Agent fails",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.private",
+   "text": "Private to you",
+   "description": "Badge on a Workspace Agent page when only its creator can access it",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.tabs.activity",
+   "text": "Activity",
+   "description": "Tab on a Workspace Agent page that lists its recent activity",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.tabs.apps",
+   "text": "Apps",
+   "description": "Tab on a Workspace Agent page that lists its connected apps",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.tabs.label",
+   "text": "Agent details tabs",
+   "description": "Accessible label for tabs on a Workspace Agent page",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.tabs.memory",
+   "text": "Memory",
+   "description": "Tab on a Workspace Agent page that lists files saved in its memory",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.detail.view",
+   "text": "View agent",
+   "description": "Button that opens an agent's configuration in the native read-only editor",
+   "files": [
+    "pages/workspace-agent-landing-83af3497cf6b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.back",
+   "text": "Back",
+   "description": "Button that returns from required app setup to agent details",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.by",
+   "text": "By {creatorName}",
+   "description": "Creator attribution on an agent directory card",
+   "files": [
+    "_deps/details-a705f35245e0.js",
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "workspaceAgents.discovery.details",
+   "text": "Agent details",
+   "description": "Title while loading details for an agent selected from the directory",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.open",
+   "text": "Open agent",
+   "description": "Button that opens the selected agent after optional app setup and pinning",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.pin",
+   "text": "Pin agent to sidebar",
+   "description": "Checkbox that pins an agent when it is opened from the directory",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.pinError",
+   "text": "Unable to pin this agent. Try again",
+   "description": "Error when an agent could not be pinned before opening it from the directory",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.retry",
+   "text": "Retry",
+   "description": "Button that reloads details for an agent selected from the directory",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.setup",
+   "text": "Set up apps",
+   "description": "Button that checks personal app connections before opening an agent from the directory",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.discovery.unavailable",
+   "text": "This agent is unavailable",
+   "description": "Error when an agent selected from the directory cannot be accessed",
+   "files": [
+    "_deps/details-a705f35245e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.byCreator",
+   "text": "By {creatorName}",
+   "description": "Creator byline for an agent",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.copyLink",
+   "text": "Copy link",
+   "description": "Action that copies an agent link",
+   "files": [
+    "_deps/agent-menu-c3dd02be85a2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.create",
+   "text": "Create",
+   "description": "Button that opens the native Workspace Agent editor to create an agent",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.directory.empty.description",
+   "text": "List agents in the team directory so anyone from your workspace can use them",
+   "description": "Description for an empty workspace agent directory",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.directory.empty.title",
+   "text": "No agents in team directory",
+   "description": "Empty-state title for an empty workspace agent directory",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.draftEdited",
+   "text": "Draft · Edited {time}",
+   "description": "Status and last edit time for an unpublished agent",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.edit",
+   "text": "Edit",
+   "description": "Action that opens an agent in the native draft editor",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.error.retry",
+   "text": "Retry",
+   "description": "Button that retries loading Workspace Agents",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.error.title",
+   "text": "Couldn’t load agents",
+   "description": "Error shown when agents cannot be loaded",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.lastUsed",
+   "text": "Used {time}",
+   "description": "Last used time for an agent",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.loadingMore",
+   "text": "Loading more agents",
+   "description": "Button label while more Workspace Agents load",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.loadMore",
+   "text": "Load more",
+   "description": "Button that loads more Workspace Agents",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.mine.empty.description",
+   "text": "Create agents to run weekly reports, answer Slack questions, and update systems",
+   "description": "Description shown when the current user has not built any agents",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.mine.empty.title",
+   "text": "You haven’t built any agents yet",
+   "description": "Empty state for the current user's Agents view",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.mobilePageTitle",
+   "text": "Agents",
+   "description": "Short title for the Agents index page when the Slate mobile header has limited room beside search and create controls",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.moreActions",
+   "text": "More actions",
+   "description": "Accessible label for an agent row action menu",
+   "files": [
+    "_deps/agent-menu-c3dd02be85a2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.needsAttention",
+   "text": "Needs your attention",
+   "description": "Status for a recently used agent with a blocked run",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.noDescription",
+   "text": "No description",
+   "description": "Fallback description for an agent directory row",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.noRecentActivity",
+   "text": "Recently used",
+   "description": "Fallback status for a recently used agent",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.pageTitle",
+   "text": "Workspace Agents",
+   "description": "Title of the Agents index page",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.pin",
+   "text": "Pin to sidebar",
+   "description": "Action that pins an agent to the sidebar",
+   "files": [
+    "_deps/agent-menu-c3dd02be85a2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.pinFailed",
+   "text": "Couldn’t update agent pin",
+   "description": "Error message when an agent pin cannot be updated",
+   "files": [
+    "_deps/agent-menu-c3dd02be85a2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.publishedUpdated",
+   "text": "{visibility} · Updated {time}",
+   "description": "Visibility and last update time for a published agent",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.recent.empty.description",
+   "text": "Create an agent or browse agents built by your team",
+   "description": "Description shown when there are no recently used agents",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.recent.empty.title",
+   "text": "No recently used agents",
+   "description": "Empty state for the recently used Agents view",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.search.empty.title",
+   "text": "No agents found for “{query}”",
+   "description": "Empty state when no Workspace Agents match a directory search",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.search.error.title",
+   "text": "Couldn’t search agents",
+   "description": "Error shown when agents cannot be searched",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.search.label",
+   "text": "Search agents",
+   "description": "Accessible label for the Agents search input",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.search.placeholder",
+   "text": "Search agents",
+   "description": "Placeholder for the Agents search input",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.subtitle",
+   "text": "Keep work moving 24/7 with agents",
+   "description": "Subtitle on the Agents index page",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.unknownAuthor",
+   "text": "Unknown author",
+   "description": "Fallback creator name for an agent directory row",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.unnamed",
+   "text": "Unnamed agent",
+   "description": "Fallback name for a Workspace Agent without a name",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.unpin",
+   "text": "Unpin from sidebar",
+   "description": "Action that removes an agent from the sidebar",
+   "files": [
+    "_deps/agent-menu-c3dd02be85a2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.view.mine",
+   "text": "Built by me",
+   "description": "Tab for agents built by the current user",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.view.recent",
+   "text": "Recently used",
+   "description": "Tab for recently used agents",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.view.teamDirectory",
+   "text": "Team directory",
+   "description": "Fallback tab label for the workspace agent directory",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.view.workspaceDirectory",
+   "text": "{workspaceName} directory",
+   "description": "Tab label for the current workspace agent directory",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.views.ariaLabel",
+   "text": "Agent views",
+   "description": "Accessible label for the Agents page tabs",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.visibility.directory",
+   "text": "Published to {workspaceName}’s directory",
+   "description": "Visibility label for an agent published to the named workspace directory",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.visibility.directoryFallback",
+   "text": "Published to your workspace’s directory",
+   "description": "Visibility label for an agent published to a workspace directory",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.visibility.private",
+   "text": "Private to you",
+   "description": "Visibility label for an agent visible only to its owner",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.index.visibility.shared",
+   "text": "Shared with your workspace",
+   "description": "Visibility label for an agent shared by link in the workspace",
+   "files": [
+    "pages/workspace-agents-page-a6f24fce6b87.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.legacyRoute.description",
+   "text": "Workspace Agents isn't available in Codex yet",
+   "description": "Description shown when the native Codex Workspace Agents experience is unavailable",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.legacyRoute.open",
+   "text": "Open in ChatGPT",
+   "description": "Button that opens a Workspace Agent in the existing ChatGPT web experience",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.legacyRoute.title",
+   "text": "Open this agent in ChatGPT",
+   "description": "Title shown when a Workspace Agent deep link must open in the existing ChatGPT web experience",
+   "files": [
+    "pages/workspace-agent-detail-page-59192f4d01d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.management.delete",
+   "text": "Delete",
+   "description": "Button that permanently deletes a Workspace Agent",
+   "files": [
+    "_deps/agent-menu-c3dd02be85a2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.schedules.open",
+   "text": "Automations",
+   "description": "Opens a Workspace Agent's scheduled automations",
+   "files": [
+    "_deps/button-b8f6289915e3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.sharing.open",
+   "text": "Share",
+   "description": "Button that opens access settings for a published Workspace Agent",
+   "files": [
+    "_deps/button-b8f6289915e3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.audiowave",
+   "text": "Audio",
+   "description": "Name of the audio icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.bolt",
+   "text": "Lightning",
+   "description": "Name of the lightning icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.book-open",
+   "text": "Book",
+   "description": "Name of the book icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.briefcase",
+   "text": "Briefcase",
+   "description": "Name of the briefcase icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.bubble",
+   "text": "Speech bubble",
+   "description": "Name of the speech bubble icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.bubble-on-bubble",
+   "text": "Conversation",
+   "description": "Name of the conversation icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.calculator",
+   "text": "Calculator",
+   "description": "Name of the calculator icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.calendar",
+   "text": "Calendar",
+   "description": "Name of the calendar icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.chart",
+   "text": "Chart",
+   "description": "Name of the chart icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.chat",
+   "text": "Chat",
+   "description": "Name of the chat icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.checklist",
+   "text": "Checklist",
+   "description": "Name of the checklist icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.code",
+   "text": "Code",
+   "description": "Name of the code icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.color-swatches",
+   "text": "Colors",
+   "description": "Name of the colors icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.components-window",
+   "text": "Components",
+   "description": "Name of the components icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.credit-card",
+   "text": "Credit card",
+   "description": "Name of the credit card icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.cursor",
+   "text": "Cursor",
+   "description": "Name of the cursor icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.deep-research",
+   "text": "Research",
+   "description": "Name of the research icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.document-search",
+   "text": "Document search",
+   "description": "Name of the document search icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.envelope",
+   "text": "Envelope",
+   "description": "Name of the envelope icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.file-video",
+   "text": "Video",
+   "description": "Name of the video icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.flask",
+   "text": "Flask",
+   "description": "Name of the flask icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.game-controller",
+   "text": "Game controller",
+   "description": "Name of the game controller icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.gear",
+   "text": "Settings",
+   "description": "Name of the settings icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.globe",
+   "text": "Globe",
+   "description": "Name of the globe icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.heart",
+   "text": "Heart",
+   "description": "Name of the heart icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.heart-text-clipboard",
+   "text": "Care",
+   "description": "Name of the care icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.hierarchy",
+   "text": "Hierarchy",
+   "description": "Name of the hierarchy icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.lightbulb",
+   "text": "Light bulb",
+   "description": "Name of the light bulb icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.map",
+   "text": "Map",
+   "description": "Name of the map icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.map-pin",
+   "text": "Map pin",
+   "description": "Name of the map pin icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.media",
+   "text": "Photo",
+   "description": "Name of the photo icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.microphone",
+   "text": "Microphone",
+   "description": "Name of the microphone icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.newspaper",
+   "text": "Newspaper",
+   "description": "Name of the newspaper icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.notepad",
+   "text": "Notebook",
+   "description": "Name of the notebook icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.paint-palette",
+   "text": "Paint palette",
+   "description": "Name of the paint palette icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.paperclip",
+   "text": "Paperclip",
+   "description": "Name of the paperclip icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.pen",
+   "text": "Pen",
+   "description": "Name of the pen icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.person",
+   "text": "Person",
+   "description": "Name of the person icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.pointer",
+   "text": "Pointer",
+   "description": "Name of the pointer icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.presentation",
+   "text": "Presentation",
+   "description": "Name of the presentation icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.puzzle",
+   "text": "Puzzle",
+   "description": "Name of the puzzle icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.radar",
+   "text": "Radar",
+   "description": "Name of the radar icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.search",
+   "text": "Search",
+   "description": "Name of the search icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.star-bookmark",
+   "text": "Star",
+   "description": "Name of the star icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.summary",
+   "text": "Summary",
+   "description": "Name of the summary icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.terminal",
+   "text": "Terminal",
+   "description": "Name of the terminal icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.text-bubble-figure",
+   "text": "Text message",
+   "description": "Name of the text message icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceAgents.skillIcon.toolbox",
+   "text": "Tools",
+   "description": "Name of the tools icon in the workspace agent skill icon picker",
+   "files": [
+    "pages/workspace-agent-skill-icons-8e48380d39c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.accessAndJoinCounts",
+   "text": "{email} has access to {accessCount, plural, one {# workspace} other {# workspaces}} and can join {joinCount, plural, one {# workspace} other {# workspaces}}",
+   "description": "Accessible and requestable workspace counts for the signed-in email",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.accessCount",
+   "text": "{email} has access to {count, plural, one {# workspace} other {# workspaces}}",
+   "description": "Number of accessible workspaces for the signed-in email",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.collaboration",
+   "text": "Securely collaborate with coworkers using{lineBreak}tools like projects and custom GPTs",
+   "description": "Optional workspace collaboration benefits shown above the workspace counts",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.create",
+   "text": "Create workspace",
+   "description": "Create a new ChatGPT Business workspace",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.done",
+   "text": "Done",
+   "description": "Close workspace discovery",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.empty",
+   "text": "No workspaces to join",
+   "description": "No discoverable workspaces are available",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.full",
+   "text": "This workspace is full. Your request has been sent to an admin",
+   "description": "An access request was sent because a workspace has no available seats",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.hidden",
+   "text": "Some workspaces are not shown. Contact your admin if you don’t see yours",
+   "description": "Additional discoverable workspaces are hidden",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.join",
+   "text": "Join",
+   "description": "Join a discoverable workspace immediately",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.joinCount",
+   "text": "{email} can join {count, plural, one {# workspace} other {# workspaces}}",
+   "description": "Number of workspaces the signed-in email can request to join",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.joinPending",
+   "text": "Your join request is still being processed. Please try again shortly",
+   "description": "Automatic joining remains pending after retries",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.joinTeamTitle",
+   "text": "Join your team’s workspace",
+   "description": "Heading when no accessible or requestable workspace is available",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.joinTitle",
+   "text": "Join workspaces",
+   "description": "Heading when only discoverable workspaces are shown",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.joinWorkspace",
+   "text": "Join workspace",
+   "description": "Primary button in workspace discovery; joins the selected workspace immediately",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.launchTitle",
+   "text": "Launch a workspace",
+   "description": "Heading when only accessible workspaces remain",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.loadIncomplete",
+   "text": "Could not load all workspaces",
+   "description": "Workspace discovery warning when some or all results are unavailable; retry loads fresh results",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.loading",
+   "text": "Loading workspaces…",
+   "description": "Workspace discovery is loading",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.members",
+   "text": "{count, plural, one {# member} other {# members}}",
+   "description": "Number of members in a workspace",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.membersLoading",
+   "text": "Loading members…",
+   "description": "Workspace member count is loading",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.open",
+   "text": "Open",
+   "description": "Open an existing ChatGPT workspace",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.openJoined",
+   "text": "Open workspace",
+   "description": "Button in workspace discovery after membership is confirmed; retries opening the workspace without joining again",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.pages.current",
+   "text": "Page {page}",
+   "description": "Current visible workspace page number; the total is unknown while the server has more results",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.pages.incomplete",
+   "text": "More workspaces may be available. Select Next to keep looking",
+   "description": "Discovery has not finished scanning eligible workspaces; Next continues from the saved server cursor even when a batch adds no results",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.pages.label",
+   "text": "Workspace result pages",
+   "description": "Accessible label for workspace discovery pagination",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.pages.next",
+   "text": "Next",
+   "description": "Show the next five workspace results, fetching another batch if needed",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.pages.previous",
+   "text": "Previous",
+   "description": "Show the previous five workspace results",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.personal",
+   "text": "Personal workspace",
+   "description": "The user's personal ChatGPT workspace",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.refreshFailed",
+   "text": "Could not refresh workspace access. Please try again",
+   "description": "Error toast when checking membership after an uncertain join fails; the user can retry refreshing without sending another join request",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.refreshStatus",
+   "text": "Refresh status",
+   "description": "Button in workspace discovery that checks the result of an uncertain join or request without resubmitting it",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.request",
+   "text": "Request",
+   "description": "Request permission to join a workspace",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.requested",
+   "text": "Requested",
+   "description": "Workspace access has already been requested",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.requestSent",
+   "text": "Your request has been sent",
+   "description": "Confirmation that a workspace access request was submitted",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.requestToJoin",
+   "text": "Request to join",
+   "description": "Primary button in workspace discovery; sends a membership request to workspace administrators",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.retry",
+   "text": "Try again",
+   "description": "Retry loading workspaces",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.search.domainSubtitle",
+   "text": "There are existing ChatGPT Business workspaces on your domain",
+   "description": "Subtitle in workspace discovery explaining that the listed business workspaces share the signed-in user’s email domain",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.search.label",
+   "text": "Search by workspace name",
+   "description": "Accessible name of the workspace discovery search field; searches public workspace names",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.search.placeholder",
+   "text": "Search by workspace name",
+   "description": "Placeholder in the workspace discovery search field",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.search.title",
+   "text": "Find a workspace",
+   "description": "Title of the searchable workspace discovery dialog",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.single.joinTitle",
+   "text": "Join your team’s workspace",
+   "description": "Title of workspace discovery when one workspace is available to join immediately",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.single.requestTitle",
+   "text": "Request to join your team’s workspace",
+   "description": "Title of workspace discovery when one workspace requires administrator approval",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.single.subtitle",
+   "text": "Work alongside your teammates with shared skills and context in one secure workspace",
+   "description": "Description beneath the single-workspace discovery title explaining team collaboration",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.statusUnknown",
+   "text": "We couldn’t confirm the result. Refresh to check your workspace access",
+   "description": "Error toast in workspace discovery after a join or access request has an uncertain result; refresh checks its status without resubmitting",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.switchFailed",
+   "text": "Could not open the workspace. Please try again",
+   "description": "Error after opening a workspace fails",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceDiscovery.title",
+   "text": "Join and launch your workspaces",
+   "description": "Heading above existing and discoverable ChatGPT workspaces",
+   "files": [
+    "pages/workspace-discovery-89b02d9720ca.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRootDialog.cancel",
+   "text": "Cancel",
+   "description": "Cancel button label for the project setup dialog",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRootDialog.confirmPick",
+   "text": "Use folder",
+   "description": "Confirm button label for selecting a remote workspace path",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRootDialog.description.pick",
+   "text": "Enter a folder path on {host} to use for this project.",
+   "description": "Description for the remote workspace path dialog",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRootDialog.title.pick",
+   "text": "Choose folder path",
+   "description": "Title for the remote workspace path dialog when selecting a workspace",
+   "files": [
+    "_deps/create-project-dialog-4edb12713319.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceSwitcher.creationDateIdentifier",
+   "text": "{details, select, date {Created {date}{showId, select, yes { · ID {id}} other {}}} other {ID {id}}}",
+   "description": "Short secondary label in the account menu and workspace picker, helping users distinguish workspaces with the same name. details is date when a creation date is available, otherwise none. date is a localized creation calendar date including the year. showId is yes when the date is missing or matches another workspace, otherwise no. id is a distinguishing workspace ID suffix, not a name.",
+   "files": [
+    "pages/workspace-identifier-c40bd3d45121.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-5851df3f6cb1.js",
+   "count": 471,
+   "names": [
+    "$$",
+    "$3n",
+    "$3t",
+    "$4",
+    "$5t",
+    "$Cr",
+    "$Er",
+    "$Gn",
+    "$Ht",
+    "$Nr",
+    "$Wn",
+    "$ct",
+    "$dn",
+    "$fr",
+    "$m",
+    "$pn",
+    "A0",
+    "A7t",
+    "ACn",
+    "AEr",
+    "AMr",
+    "APr",
+    "ATt",
+    "A_r",
+    "Adt",
+    "Ast",
+    "Awr",
+    "BKt",
+    "BNr",
+    "B_n",
+    "Bbn",
+    "Bnn",
+    "Brn",
+    "Byr",
+    "C$n",
+    "C3n",
+    "CMr",
+    "CN",
+    "CPr",
+    "CPt",
+    "Cur",
+    "Cwr",
+    "D3",
+    "DFr",
+    "DGr",
+    "DPn",
+    "DV",
+    "D_n",
+    "Dh",
+    "Dor",
+    "Drn",
+    "Dwr",
+    "EPr",
+    "EV",
+    "EX",
+    "E_r",
+    "Ek",
+    "Emr",
+    "Ern",
+    "F$",
+    "F3",
+    "FEr",
+    "FFr",
+    "FMr",
+    "FTt",
+    "F_r",
+    "Fct",
+    "Fin",
+    "Fnn",
+    "Fon",
+    "Fr",
+    "Fwr",
+    "G6t",
+    "G8t",
+    "GGn",
+    "GMr",
+    "GO",
+    "Gjt",
+    "Gp",
+    "Grt",
+    "H7",
+    "H9t",
+    "HCn",
+    "HUn",
+    "Hbn",
+    "Her",
+    "Hin",
+    "Hlr",
+    "I1",
+    "I3n",
+    "Ict",
+    "Iin",
+    "Inn",
+    "Ion",
+    "Iur",
+    "J3",
+    "J3t",
+    "J5t",
+    "JCr",
+    "JN",
+    "JPn",
+    "JSr",
+    "JSt",
+    "Jdr",
+    "Jst",
+    "Jun",
+    "Jwn",
+    "Jyr",
+    "K3t",
+    "K5t",
+    "K8t",
+    "KCt",
+    "KO",
+    "KSt",
+    "Kjt",
+    "Kp",
+    "Kwn",
+    "L1",
+    "LEr",
+    "LMr",
+    "LNr",
+    "Lfn",
+    "M$",
+    "MCn",
+    "MCr",
+    "MRt",
+    "MTt",
+    "M_n",
+    "Mct",
+    "Mfr",
+    "Mst",
+    "Mwr",
+    "N$",
+    "NBn",
+    "NNr",
+    "NPr",
+    "NRt",
+    "N_n",
+    "Nfr",
+    "Nst",
+    "Nwr",
+    "O0",
+    "O3",
+    "OCn",
+    "OGt",
+    "ONr",
+    "OPr",
+    "OTt",
+    "OWt",
+    "Oh",
+    "Oor",
+    "Ost",
+    "P$",
+    "P3",
+    "PCn",
+    "PEr",
+    "P_n",
+    "P_r",
+    "Pct",
+    "Pen",
+    "Pnn",
+    "Q$",
+    "Q3n",
+    "Q3t",
+    "Q4",
+    "QCr",
+    "QDr",
+    "QEr",
+    "QGn",
+    "QNr",
+    "QSr",
+    "QTr",
+    "QWn",
+    "Qm",
+    "Qtn",
+    "R1",
+    "RCr",
+    "RSr",
+    "RTt",
+    "Rc",
+    "Rkr",
+    "Rr",
+    "SG",
+    "SN",
+    "SZn",
+    "S_n",
+    "St",
+    "Sur",
+    "TGt",
+    "TMr",
+    "TNr",
+    "TPn",
+    "T_n",
+    "T_r",
+    "Tk",
+    "Tmr",
+    "Tsn",
+    "Tvr",
+    "Twr",
+    "Txn",
+    "U7",
+    "UUn",
+    "Ubn",
+    "Uen",
+    "Urn",
+    "Uwn",
+    "VCt",
+    "VGr",
+    "VNr",
+    "V_n",
+    "WCn",
+    "Wjt",
+    "Wlr",
+    "Wrt",
+    "X3t",
+    "XDr",
+    "XGn",
+    "XHt",
+    "XMr",
+    "XPn",
+    "XPr",
+    "XR",
+    "Xct",
+    "Xd",
+    "Xdr",
+    "Xer",
+    "Xwn",
+    "Xyr",
+    "Y3t",
+    "Y5t",
+    "YHt",
+    "YMr",
+    "YN",
+    "YPr",
+    "YR",
+    "Yd",
+    "Ymr",
+    "Ypn",
+    "Yst",
+    "Z3t",
+    "ZIt",
+    "ZPn",
+    "ZSr",
+    "Zpn",
+    "Ztn",
+    "_Kt",
+    "_vn",
+    "_wr",
+    "_xn",
+    "aDr",
+    "adt",
+    "aj",
+    "akn",
+    "at",
+    "awr",
+    "azt",
+    "b3",
+    "b3n",
+    "bF",
+    "bOn",
+    "bPt",
+    "bTn",
+    "b_n",
+    "b_r",
+    "bct",
+    "c9t",
+    "cEn",
+    "cEr",
+    "cJn",
+    "cct",
+    "cwr",
+    "d3",
+    "dH",
+    "dP",
+    "dRr",
+    "dUr",
+    "d_r",
+    "dfn",
+    "dwn",
+    "dxn",
+    "e6n",
+    "e6t",
+    "e7t",
+    "eDr",
+    "eOr",
+    "ePr",
+    "eUt",
+    "ean",
+    "ehr",
+    "emn",
+    "eor",
+    "epn",
+    "epr",
+    "etr",
+    "f3",
+    "fLt",
+    "fct",
+    "fg",
+    "fur",
+    "fvr",
+    "gCr",
+    "gDn",
+    "gKt",
+    "gOr",
+    "gvn",
+    "gwr",
+    "gyr",
+    "h3",
+    "hDn",
+    "hGt",
+    "hKt",
+    "hNr",
+    "hOr",
+    "h_r",
+    "hp",
+    "hvn",
+    "hwn",
+    "hzt",
+    "i5",
+    "iN",
+    "iPr",
+    "ien",
+    "ifn",
+    "ij",
+    "ipn",
+    "j$",
+    "jCn",
+    "jMr",
+    "jPr",
+    "jTt",
+    "j_n",
+    "j_r",
+    "jct",
+    "jdt",
+    "jkt",
+    "jst",
+    "k7t",
+    "kCn",
+    "kCr",
+    "kEr",
+    "kGt",
+    "kNr",
+    "kPr",
+    "kTt",
+    "kWt",
+    "kZn",
+    "ken",
+    "kfr",
+    "kst",
+    "kvr",
+    "l3",
+    "l9t",
+    "lJn",
+    "lct",
+    "lfn",
+    "llt",
+    "lpn",
+    "ltt",
+    "lwr",
+    "lxn",
+    "lzt",
+    "mDt",
+    "mGt",
+    "mKr",
+    "mKt",
+    "mP",
+    "mPr",
+    "m_r",
+    "mmr",
+    "mp",
+    "mvn",
+    "mvr",
+    "mzt",
+    "n9t",
+    "nDr",
+    "nT",
+    "nfn",
+    "o5",
+    "oEr",
+    "oFr",
+    "oRr",
+    "okn",
+    "ot",
+    "owr",
+    "ozt",
+    "pDt",
+    "pPr",
+    "pUr",
+    "pZn",
+    "pg",
+    "pmr",
+    "ppn",
+    "ptt",
+    "pur",
+    "pvn",
+    "pyr",
+    "q3t",
+    "qMr",
+    "qSr",
+    "qSt",
+    "qdr",
+    "qjt",
+    "r6",
+    "r9t",
+    "rEn",
+    "rN",
+    "rRr",
+    "rT",
+    "rdt",
+    "ren",
+    "rpn",
+    "rtt",
+    "sCr",
+    "sPr",
+    "swr",
+    "t3",
+    "t6",
+    "tEn",
+    "tKn",
+    "tNr",
+    "tXn",
+    "tan",
+    "tfn",
+    "tmn",
+    "tor",
+    "tpr",
+    "uH",
+    "u_r",
+    "uct",
+    "ult",
+    "upn",
+    "uwr",
+    "uzt",
+    "vUr",
+    "v_r",
+    "ven",
+    "vpn",
+    "w$n",
+    "w3n",
+    "wOn",
+    "wPt",
+    "wrn",
+    "wvr",
+    "wwr",
+    "xF",
+    "xFr",
+    "xG",
+    "xkr",
+    "xsn",
+    "xt",
+    "y3",
+    "yCr",
+    "yFr",
+    "yNr",
+    "yTn",
+    "yVn",
+    "yct",
+    "yjn",
+    "yvr",
+    "yxn",
+    "z9t",
+    "zCn",
+    "zFr",
+    "zMr",
+    "zOr",
+    "zSr",
+    "zbn",
+    "zc",
+    "zfn",
+    "zkr",
+    "znn"
+   ]
+  },
+  {
+   "from": "app-shared-bbfeca5e5737.js",
+   "count": 327,
+   "names": [
+    "$4",
+    "$At",
+    "$H",
+    "$It",
+    "$S",
+    "$U",
+    "$X",
+    "$h",
+    "$nt",
+    "$v",
+    "$xt",
+    "ADt",
+    "AG",
+    "AK",
+    "AO",
+    "AR",
+    "AS",
+    "Aw",
+    "B4",
+    "B5",
+    "BB",
+    "BE",
+    "BS",
+    "BSt",
+    "Brt",
+    "CJ",
+    "CO",
+    "CPt",
+    "CS",
+    "Cat",
+    "Cgt",
+    "Cht",
+    "Cjt",
+    "Cot",
+    "Cwt",
+    "Cxt",
+    "Cz",
+    "DG",
+    "DV",
+    "Dht",
+    "Dz",
+    "EB",
+    "EPt",
+    "Eq",
+    "Ewt",
+    "Ext",
+    "F7",
+    "FCt",
+    "FR",
+    "Fat",
+    "GE",
+    "Gct",
+    "Get",
+    "Gut",
+    "HE",
+    "HG",
+    "HK",
+    "HNt",
+    "HT",
+    "Hbt",
+    "Hnt",
+    "Hot",
+    "I7",
+    "IDt",
+    "IS",
+    "Iot",
+    "Irt",
+    "Ixt",
+    "Iy",
+    "JC",
+    "JG",
+    "JR",
+    "Jbt",
+    "Jd",
+    "Jet",
+    "Jut",
+    "KB",
+    "KS",
+    "Kat",
+    "Ket",
+    "Kot",
+    "L7",
+    "LR",
+    "Lot",
+    "Lrt",
+    "Ly",
+    "ME",
+    "MK",
+    "MO",
+    "MS",
+    "MV",
+    "Mdt",
+    "Mot",
+    "Mq",
+    "Mz",
+    "NE",
+    "NG",
+    "NH",
+    "NLt",
+    "NO",
+    "NU",
+    "NV",
+    "Nn",
+    "Not",
+    "Nxt",
+    "Nz",
+    "Odt",
+    "PCt",
+    "PO",
+    "PS",
+    "Pat",
+    "Pn",
+    "Pxt",
+    "QG",
+    "Qh",
+    "Qm",
+    "Qv",
+    "R5",
+    "RE",
+    "RG",
+    "Rnt",
+    "S4",
+    "SJ",
+    "SK",
+    "SO",
+    "SPt",
+    "SU",
+    "SW",
+    "Sj",
+    "Swt",
+    "TDt",
+    "TJ",
+    "TLt",
+    "TO",
+    "Twt",
+    "Tz",
+    "UE",
+    "V5",
+    "VCt",
+    "VDt",
+    "VE",
+    "VS",
+    "VT",
+    "Vot",
+    "Vxt",
+    "WE",
+    "Wlt",
+    "Wnt",
+    "X$",
+    "X1",
+    "XAt",
+    "XD",
+    "XQ",
+    "XV",
+    "XW",
+    "Xot",
+    "Y$",
+    "Y1",
+    "YAt",
+    "YD",
+    "YK",
+    "YQ",
+    "YR",
+    "Yet",
+    "Yot",
+    "Yxt",
+    "Z4",
+    "ZAt",
+    "ZB",
+    "ZG",
+    "ZV",
+    "Zh",
+    "Zm",
+    "Zvt",
+    "Zxt",
+    "_G",
+    "_It",
+    "_K",
+    "_Mt",
+    "_O",
+    "_Pt",
+    "_U",
+    "_ht",
+    "_wt",
+    "_xt",
+    "a",
+    "aq",
+    "awt",
+    "az",
+    "b0",
+    "bj",
+    "cCt",
+    "cE",
+    "cK",
+    "cO",
+    "cf",
+    "ch",
+    "crt",
+    "cut",
+    "cz",
+    "dH",
+    "dV",
+    "dwt",
+    "eLt",
+    "eU",
+    "eZ",
+    "eg",
+    "ert",
+    "fJ",
+    "fO",
+    "fPt",
+    "frt",
+    "fwt",
+    "gG",
+    "gJ",
+    "gMt",
+    "gO",
+    "gPt",
+    "gwt",
+    "hPt",
+    "hV",
+    "hot",
+    "hrt",
+    "i",
+    "i3",
+    "iCt",
+    "iH",
+    "iI",
+    "iO",
+    "ict",
+    "iot",
+    "irt",
+    "iw",
+    "iwt",
+    "iz",
+    "jDt",
+    "jO",
+    "jw",
+    "kDt",
+    "kxt",
+    "kz",
+    "lCt",
+    "lO",
+    "lgt",
+    "lot",
+    "lxt",
+    "mCt",
+    "mO",
+    "mxt",
+    "n",
+    "nCt",
+    "nE",
+    "nG",
+    "nH",
+    "nSt",
+    "nrt",
+    "nst",
+    "o",
+    "oE",
+    "oI",
+    "oO",
+    "oSt",
+    "oot",
+    "oxt",
+    "oz",
+    "pIt",
+    "pLt",
+    "pPt",
+    "pwt",
+    "qC",
+    "qS",
+    "qat",
+    "qd",
+    "qnt",
+    "r",
+    "r3",
+    "rB",
+    "rO",
+    "rW",
+    "rct",
+    "rrt",
+    "rst",
+    "rz",
+    "sG",
+    "sJ",
+    "sK",
+    "sMt",
+    "sO",
+    "sf",
+    "sh",
+    "spt",
+    "srt",
+    "sz",
+    "t",
+    "t3",
+    "tCt",
+    "tct",
+    "tst",
+    "tw",
+    "uSt",
+    "uwt",
+    "vO",
+    "vV",
+    "vht",
+    "vq",
+    "vrt",
+    "vxt",
+    "vzt",
+    "wjt",
+    "wot",
+    "wwt",
+    "wxt",
+    "wz",
+    "x4",
+    "xMt",
+    "xO",
+    "xat",
+    "y0",
+    "yMt",
+    "yW",
+    "yzt",
+    "z4",
+    "z5",
+    "zR",
+    "zSt",
+    "zq",
+    "zxt"
+   ]
+  },
+  {
+   "from": "app-primary-fe8a450b3b04.js",
+   "count": 44,
+   "names": [
+    "$c",
+    "Ad",
+    "Af",
+    "Cb",
+    "Cl",
+    "Cm",
+    "Cy",
+    "Db",
+    "Fb",
+    "Fl",
+    "Jc",
+    "Kc",
+    "Lb",
+    "Mb",
+    "Mf",
+    "Nl",
+    "Ob",
+    "Pb",
+    "Pl",
+    "Qc",
+    "Rb",
+    "Sl",
+    "Sm",
+    "Sy",
+    "Tb",
+    "Xc",
+    "Yc",
+    "Zc",
+    "by",
+    "du",
+    "gu",
+    "hf",
+    "hu",
+    "jd",
+    "kb",
+    "lu",
+    "m",
+    "mf",
+    "oh",
+    "p",
+    "pf",
+    "sh",
+    "wl",
+    "xy"
+   ]
+  },
+  {
+   "from": "workspace-621c2c3096f1.js",
+   "count": 9,
+   "names": [
+    "c",
+    "d",
+    "f",
+    "i",
+    "l",
+    "o",
+    "r",
+    "s",
+    "u"
+   ]
+  },
+  {
+   "from": "images-23c12bd66904.js",
+   "count": 8,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "queries-2cda695a27c9.js",
+   "count": 7,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "worktree-environment-dropdown-4472c8c4acdc.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "builder-analytics-f0ccbf8827ee.js",
+   "count": 6,
+   "names": [
+    "_",
+    "a",
+    "b",
+    "l",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 5,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "duplicate-agent-7155ddee3afa.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "workspace-agent-detail-query-c8301c5fcc0a.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "button-b8f6289915e3.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "chatgpt_agent_directory-1e577bbd474c.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "workspace-identifier-c40bd3d45121.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "preview-3e5329112556.js",
+   "count": 4,
+   "names": [
+    "O",
+    "k",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "images-7c1b1f09d7e2.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "page-activity-panel-4c5c6ff94e28.js",
+   "count": 4,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "t"
+   ]
+  },
+  {
+   "from": "editors-6970ffed9531.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "state-255f3b7248c2.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "workspace-agent-apps-6b85a870e5a0.js",
+   "count": 3,
+   "names": [
+    "i",
+    "n",
+    "r"
+   ]
+  },
+  {
+   "from": "model-80ecbc793fd2.js",
+   "count": 3,
+   "names": [
+    "a",
+    "i",
+    "t"
+   ]
+  },
+  {
+   "from": "skills-page-grid-5f717c30cada.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "view-control-labels-24fdb959e3fb.js",
+   "count": 3,
+   "names": [
+    "i",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Aime-40b2acf8b653.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "apps-query-410f7e452f43.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Appy-4544fa3050f4.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Bloop-ac82583cda9a.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Brief-c4dde30bf003.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Chip-66b4bd94167c.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Clank-1c8b21468d2e.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Clippy-3325000deb18.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Collab-a86ce4229868.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "project-device-picker-c835093b649c.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Dailee-fcd95c6c859e.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Digit-c93245acc4a6.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Dot-c5e087163096.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Fuego-24595e2ed46d.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Kit-4b08bd6ce90c.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "MadamLuminary-130b3e275287.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Mailman-aae37338b8d4.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Paige-6be195be419e.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Pocket-243918ceaf3f.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Scout-80a6bd8f2592.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Scribble-babe6ed5a090.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Starry-864e4abb6607.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Stax-d8d1157988c9.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Tome-e955d718331b.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Whirr-a72b44f54e9a.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Yo-fce53ad0a1fa.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "Zapp-fc358ebf3065.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "use-floating-window-pointer-interactivity-af75b9ceedf3.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "use-hotkey-window-dismiss-on-escape-ee84caeec162.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "create-project-dialog-4edb12713319.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-panel-toggle-button-66afa6499036.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "controller-5717fd004098.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "chatgpt-code-block-editor-d00ca372ec72.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "inline-file-diff-review-2b36b4184acf.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "split-view-9cde6d2314a9.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "session-594d75fbcc25.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "workspace-59f0a622fbad.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 544
+  },
+  {
+   "name": "id",
+   "count": 543
+  },
+  {
+   "name": "description",
+   "count": 503
+  },
+  {
+   "name": "defaultMessage",
+   "count": 482
+  },
+  {
+   "name": "className",
+   "count": 298
+  },
+  {
+   "name": "color",
+   "count": 122
+  },
+  {
+   "name": "size",
+   "count": 92
+  },
+  {
+   "name": "label",
+   "count": 92
+  },
+  {
+   "name": "null",
+   "count": 65
+  },
+  {
+   "name": "onClick",
+   "count": 65
+  },
+  {
+   "name": "icon",
+   "count": 59
+  },
+  {
+   "name": "d",
+   "count": 59
+  },
+  {
+   "name": "disabled",
+   "count": 58
+  },
+  {
+   "name": "values",
+   "count": 49
+  },
+  {
+   "name": "signal",
+   "count": 47
+  },
+  {
+   "name": "width",
+   "count": 47
+  },
+  {
+   "name": "title",
+   "count": 46
+  },
+  {
+   "name": "data",
+   "count": 44
+  },
+  {
+   "name": "height",
+   "count": 44
+  },
+  {
+   "name": "viewBox",
+   "count": 41
+  },
+  {
+   "name": "fill",
+   "count": 41
+  },
+  {
+   "name": "role",
+   "count": 38
+  },
+  {
+   "name": "type",
+   "count": 37
+  },
+  {
+   "name": "hostId",
+   "count": 35
+  },
+  {
+   "name": "name",
+   "count": 35
+  },
+  {
+   "name": "accountId",
+   "count": 35
+  },
+  {
+   "name": "agentId",
+   "count": 35
+  },
+  {
+   "name": "kind",
+   "count": 34
+  },
+  {
+   "name": "enabled",
+   "count": 33
+  },
+  {
+   "name": "onSelect",
+   "count": 31
+  },
+  {
+   "name": "pageId",
+   "count": 31
+  },
+  {
+   "name": "userId",
+   "count": 28
+  },
+  {
+   "name": "content",
+   "count": 27
+  },
+  {
+   "name": "before",
+   "count": 26
+  },
+  {
+   "name": "large",
+   "count": 26
+  },
+  {
+   "name": "small",
+   "count": 26
+  },
+  {
+   "name": "queryKey",
+   "count": 25
+  },
+  {
+   "name": "source",
+   "count": 24
+  },
+  {
+   "name": "path",
+   "count": 24
+  },
+  {
+   "name": "onClose",
+   "count": 22
+  },
+  {
+   "name": "to",
+   "count": 21
+  },
+  {
+   "name": "isLoading",
+   "count": 20
+  },
+  {
+   "name": "staleTime",
+   "count": 20
+  },
+  {
+   "name": "isError",
+   "count": 20
+  },
+  {
+   "name": "after",
+   "count": 19
+  },
+  {
+   "name": "get",
+   "count": 18
+  },
+  {
+   "name": "loading",
+   "count": 18
+  },
+  {
+   "name": "queryFn",
+   "count": 18
+  },
+  {
+   "name": "count",
+   "count": 18
+  },
+  {
+   "name": "error",
+   "count": 17
+  },
+  {
+   "name": "open",
+   "count": 17
+  },
+  {
+   "name": "from",
+   "count": 17
+  },
+  {
+   "name": "refetch",
+   "count": 17
+  },
+  {
+   "name": "scope",
+   "count": 16
+  },
+  {
+   "name": "ref",
+   "count": 16
+  },
+  {
+   "name": "version",
+   "count": 16
+  },
+  {
+   "name": "onOpenChange",
+   "count": 15
+  },
+  {
+   "name": "retry",
+   "count": 15
+  },
+  {
+   "name": "workspaceId",
+   "count": 15
+  },
+  {
+   "name": "variant",
+   "count": 15
+  },
+  {
+   "name": "change",
+   "count": 15
+  },
+  {
+   "name": "tooltipContent",
+   "count": 14
+  },
+  {
+   "name": "href",
+   "count": 14
+  },
+  {
+   "name": "onRetry",
+   "count": 14
+  },
+  {
+   "name": "agent",
+   "count": 14
+  },
+  {
+   "name": "query",
+   "count": 14
+  },
+  {
+   "name": "parameters",
+   "count": 13
+  },
+  {
+   "name": "isPending",
+   "count": 12
+  },
+  {
+   "name": "asset",
+   "count": 12
+  },
+  {
+   "name": "page",
+   "count": 12
+  },
+  {
+   "name": "index",
+   "count": 11
+  },
+  {
+   "name": "workspaceName",
+   "count": 11
+  },
+  {
+   "name": "workspace",
+   "count": 11
+  },
+  {
+   "name": "fallback",
+   "count": 11
+  },
+  {
+   "name": "year",
+   "count": 11
+  },
+  {
+   "name": "month",
+   "count": 11
+  },
+  {
+   "name": "day",
+   "count": 11
+  },
+  {
+   "name": "date",
+   "count": 11
+  },
+  {
+   "name": "replace",
+   "count": 10
+  },
+  {
+   "name": "style",
+   "count": 10
+  },
+  {
+   "name": "action",
+   "count": 10
+  },
+  {
+   "name": "document",
+   "count": 10
+  },
+  {
+   "name": "versions",
+   "count": 10
+  },
+  {
+   "name": "streamKind",
+   "count": 10
+  },
+  {
+   "name": "checkpointId",
+   "count": 10
+  },
+  {
+   "name": "projectId",
+   "count": 9
+  },
+  {
+   "name": "control",
+   "count": 9
+  },
+  {
+   "name": "subtitle",
+   "count": 9
+  },
+  {
+   "name": "ariaLabel",
+   "count": 9
+  },
+  {
+   "name": "e",
+   "count": 9
+  },
+  {
+   "name": "value",
+   "count": 9
+  },
+  {
+   "name": "initiator",
+   "count": 9
+  },
+  {
+   "name": "status",
+   "count": 9
+  },
+  {
+   "name": "layout",
+   "count": 9
+  },
+  {
+   "name": "minute",
+   "count": 9
+  },
+  {
+   "name": "selectedId",
+   "count": 9
+  },
+  {
+   "name": "showChanges",
+   "count": 9
+  },
+  {
+   "name": "endpoint",
+   "count": 9
+  },
+  {
+   "name": "dateStyle",
+   "count": 9
+  },
+  {
+   "name": "timeStyle",
+   "count": 9
+  },
+  {
+   "name": "workspaceRoot",
+   "count": 8
+  },
+  {
+   "name": "section",
+   "count": 8
+  },
+  {
+   "name": "search",
+   "count": 8
+  },
+  {
+   "name": "checked",
+   "count": 8
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 8
+  },
+  {
+   "name": "toastId",
+   "count": 8
+  },
+  {
+   "name": "isSelected",
+   "count": 8
+  },
+  {
+   "name": "gcTime",
+   "count": 8
+  },
+  {
+   "name": "event",
+   "count": 8
+  },
+  {
+   "name": "expectedIdentity",
+   "count": 8
+  },
+  {
+   "name": "agentName",
+   "count": 8
+  },
+  {
+   "name": "onLoadMore",
+   "count": 8
+  },
+  {
+   "name": "links",
+   "count": 8
+  },
+  {
+   "name": "baseline",
+   "count": 8
+  },
+  {
+   "name": "visible",
+   "count": 8
+  },
+  {
+   "name": "as",
+   "count": 8
+  },
+  {
+   "name": "accountUserId",
+   "count": 8
+  },
+  {
+   "name": "documentType",
+   "count": 8
+  },
+  {
+   "name": "composerMode",
+   "count": 7
+  },
+  {
+   "name": "triggerButton",
+   "count": 7
+  },
+  {
+   "name": "project",
+   "count": 7
+  },
+  {
+   "name": "isFetching",
+   "count": 7
+  },
+  {
+   "name": "returnTo",
+   "count": 7
+  },
+  {
+   "name": "projectType",
+   "count": 7
+  },
+  {
+   "name": "isRemoteHost",
+   "count": 7
+  },
+  {
+   "name": "handleSkip",
+   "count": 7
+  },
+  {
+   "name": "pendingAction",
+   "count": 7
+  },
+  {
+   "name": "skipErrorMessage",
+   "count": 7
+  },
+  {
+   "name": "code",
+   "count": 7
+  },
+  {
+   "name": "cursor",
+   "count": 7
+  },
+  {
+   "name": "hour",
+   "count": 7
+  },
+  {
+   "name": "hasNextPage",
+   "count": 7
+  },
+  {
+   "name": "isFetchingNextPage",
+   "count": 7
+  },
+  {
+   "name": "mode",
+   "count": 7
+  },
+  {
+   "name": "markdown",
+   "count": 7
+  },
+  {
+   "name": "node",
+   "count": 7
+  },
+  {
+   "name": "comparison",
+   "count": 7
+  },
+  {
+   "name": "inert",
+   "count": 7
+  },
+  {
+   "name": "initialDirectoryPath",
+   "count": 7
+  },
+  {
+   "name": "Icon",
+   "count": 6
+  },
+  {
+   "name": "pathname",
+   "count": 6
+  },
+  {
+   "name": "align",
+   "count": 6
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 6
+  },
+  {
+   "name": "onSubmit",
+   "count": 6
+  },
+  {
+   "name": "limit",
+   "count": 6
+  },
+  {
+   "name": "bb0",
+   "count": 6
+  },
+  {
+   "name": "dateString",
+   "count": 6
+  },
+  {
+   "name": "density",
+   "count": 6
+  },
+  {
+   "name": "rightText",
+   "count": 6
+  },
+  {
+   "name": "directoryPath",
+   "count": 6
+  },
+  {
+   "name": "$type",
+   "count": 6
+  },
+  {
+   "name": "flowId",
+   "count": 6
+  },
+  {
+   "name": "email",
+   "count": 6
+  },
+  {
+   "name": "continued",
+   "count": 6
+  },
+  {
+   "name": "unit",
+   "count": 6
+  },
+  {
+   "name": "blockId",
+   "count": 6
+  },
+  {
+   "name": "registry",
+   "count": 6
+  },
+  {
+   "name": "baselineDate",
+   "count": 6
+  },
+  {
+   "name": "selectedDate",
+   "count": 6
+  },
+  {
+   "name": "isLoadingMore",
+   "count": 6
+  },
+  {
+   "name": "isLoadMoreError",
+   "count": 6
+  },
+  {
+   "name": "fillRule",
+   "count": 6
+  },
+  {
+   "name": "clipRule",
+   "count": 6
+  },
+  {
+   "name": "selectedHostId",
+   "count": 6
+  },
+  {
+   "name": "isWorktreeAvailable",
+   "count": 5
+  },
+  {
+   "name": "leftIconAsset",
+   "count": 5
+  },
+  {
+   "name": "contentWidth",
+   "count": 5
+  },
+  {
+   "name": "hostConfig",
+   "count": 5
+  },
+  {
+   "name": "surface",
+   "count": 5
+  },
+  {
+   "name": "state",
+   "count": 5
+  },
+  {
+   "name": "side",
+   "count": 5
+  },
+  {
+   "name": "onStartFromScratch",
+   "count": 5
+  },
+  {
+   "name": "onUseExistingFolder",
+   "count": 5
+  },
+  {
+   "name": "params",
+   "count": 5
+  },
+  {
+   "name": "selectedWorkspacesCount",
+   "count": 5
+  },
+  {
+   "name": "totalWorkspacesCount",
+   "count": 5
+  },
+  {
+   "name": "key",
+   "count": 5
+  },
+  {
+   "name": "message",
+   "count": 5
+  },
+  {
+   "name": "conversation",
+   "count": 5
+  },
+  {
+   "name": "src",
+   "count": 5
+  },
+  {
+   "name": "origin",
+   "count": 5
+  },
+  {
+   "name": "once",
+   "count": 5
+  },
+  {
+   "name": "canEdit",
+   "count": 5
+  },
+  {
+   "name": "compact",
+   "count": 5
+  },
+  {
+   "name": "onChange",
+   "count": 5
+  },
+  {
+   "name": "line",
+   "count": 5
+  },
+  {
+   "name": "willRedirect",
+   "count": 5
+  },
+  {
+   "name": "t",
+   "count": 5
+  },
+  {
+   "name": "fetchNextPage",
+   "count": 5
+  },
+  {
+   "name": "tone",
+   "count": 5
+  },
+  {
+   "name": "actionType",
+   "count": 5
+  },
+  {
+   "name": "beaconAttribution",
+   "count": 5
+  },
+  {
+   "name": "onEscapeKeyDown",
+   "count": 5
+  },
+  {
+   "name": "maxEditLength",
+   "count": 5
+  },
+  {
+   "name": "contentChanged",
+   "count": 5
+  },
+  {
+   "name": "moved",
+   "count": 5
+  },
+  {
+   "name": "edited",
+   "count": 5
+  },
+  {
+   "name": "active",
+   "count": 5
+  },
+  {
+   "name": "slots",
+   "count": 5
+  },
+  {
+   "name": "uniform",
+   "count": 5
+  },
+  {
+   "name": "timeLabel",
+   "count": 5
+  },
+  {
+   "name": "connectorId",
+   "count": 5
+  },
+  {
+   "name": "worktreePromptContext",
+   "count": 4
+  },
+  {
+   "name": "setComposerMode",
+   "count": 4
+  },
+  {
+   "name": "projectKey",
+   "count": 4
+  },
+  {
+   "name": "gitRoot",
+   "count": 4
+  },
+  {
+   "name": "root",
+   "count": 4
+  },
+  {
+   "name": "handleOpenFolder",
+   "count": 4
+  },
+  {
+   "name": "intl",
+   "count": 4
+  },
+  {
+   "name": "summary",
+   "count": 4
+  },
+  {
+   "name": "onCheckedChange",
+   "count": 4
+  },
+  {
+   "name": "isDisabled",
+   "count": 4
+  },
+  {
+   "name": "ready",
+   "count": 4
+  },
+  {
+   "name": "mutationFn",
+   "count": 4
+  },
+  {
+   "name": "placeholder",
+   "count": 4
+  },
+  {
+   "name": "a",
+   "count": 4
+  },
+  {
+   "name": "log",
+   "count": 4
+  },
+  {
+   "name": "initialPageParam",
+   "count": 4
+  },
+  {
+   "name": "pageParam",
+   "count": 4
+  },
+  {
+   "name": "getNextPageParam",
+   "count": 4
+  },
+  {
+   "name": "default",
+   "count": 4
+  },
+  {
+   "name": "timestamp",
+   "count": 4
+  },
+  {
+   "name": "dateTime",
+   "count": 4
+  },
+  {
+   "name": "i",
+   "count": 4
+  },
+  {
+   "name": "WorkspaceAgentSchedulesDialog",
+   "count": 4
+  },
+  {
+   "name": "isPublished",
+   "count": 4
+  },
+  {
+   "name": "creatorName",
+   "count": 4
+  },
+  {
+   "name": "options",
+   "count": 4
+  },
+  {
+   "name": "compactSecondLine",
+   "count": 4
+  },
+  {
+   "name": "time",
+   "count": 4
+  },
+  {
+   "name": "o",
+   "count": 4
+  },
+  {
+   "name": "alt",
+   "count": 4
+  },
+  {
+   "name": "view",
+   "count": 4
+  },
+  {
+   "name": "hidden",
+   "count": 4
+  },
+  {
+   "name": "presentationChanged",
+   "count": 4
+  },
+  {
+   "name": "blocks",
+   "count": 4
+  },
+  {
+   "name": "projection",
+   "count": 4
+  },
+  {
+   "name": "class",
+   "count": 4
+  },
+  {
+   "name": "onCancel",
+   "count": 4
+  },
+  {
+   "name": "preventScroll",
+   "count": 4
+  },
+  {
+   "name": "radius",
+   "count": 4
+  },
+  {
+   "name": "onKeyDown",
+   "count": 4
+  },
+  {
+   "name": "names",
+   "count": 4
+  },
+  {
+   "name": "onBaselineChange",
+   "count": 4
+  },
+  {
+   "name": "stream_kind",
+   "count": 4
+  },
+  {
+   "name": "initialData",
+   "count": 4
+  },
+  {
+   "name": "isEligible",
+   "count": 4
+  },
+  {
+   "name": "setActive",
+   "count": 4
+  },
+  {
+   "name": "appearance",
+   "count": 4
+  },
+  {
+   "name": "remoteName",
+   "count": 4
+  }
+ ],
+ "literal_count": 2734,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261013\\workspace.json"
+}

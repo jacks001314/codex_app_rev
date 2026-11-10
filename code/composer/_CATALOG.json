@@ -1,0 +1,3970 @@
+{
+  "module": "composer",
+  "generated_at": "2026-09-11T11:51:55.903Z",
+  "files_scanned": 39,
+  "message_count": 274,
+  "messages": [
+    {
+      "id": "appshotAttachment.removeAriaLabel",
+      "text": "Remove {title}",
+      "description": "Aria label for the remove appshot attachment button",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.muteMicrophone",
+      "text": "Mute microphone",
+      "description": "Accessible label and tooltip for muting microphone input from the floating avatar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.muteOutput",
+      "text": "Mute voice chat",
+      "description": "Accessible label and tooltip for showing realtime voice output as captions from the floating avatar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.quickChatBar.hideActivity",
+      "text": "Hide activity",
+      "description": "Accessible label for hiding activity beside the floating quick-chat bar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.quickChatBar.restore",
+      "text": "Restore Quick Chat",
+      "description": "Accessible label for the screen-edge tab that brings a stashed floating Quick Chat back onscreen",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.quickChatBar.showActivity",
+      "text": "Show activity",
+      "description": "Accessible label for showing activity beside the floating quick-chat bar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.quickChatBar.startNewChat",
+      "text": "Start new chat",
+      "description": "Placeholder and accessible label for the floating Quick Chat bar, shown alone or below a pet",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.quickChatBar.startVoice",
+      "text": "Start voice chat",
+      "description": "Accessible label for the voice control in the floating Quick Chat bar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.stopRealtimeVoice",
+      "text": "Stop voice chat",
+      "description": "Accessible label and tooltip for stopping realtime voice from the floating avatar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.unmuteMicrophone",
+      "text": "Unmute microphone",
+      "description": "Accessible label and tooltip for unmuting microphone input from the floating avatar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "avatarOverlay.unmuteOutput",
+      "text": "Unmute voice chat",
+      "description": "Accessible label and tooltip for resuming realtime voice audio output from the floating avatar",
+      "files": ["quick-chat/avatar-overlay-quick-chat-bar-6faa49a506f3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "browserSkills.commandGroup",
+      "text": "Skills",
+      "description": "Skills group in composer command suggestions",
+      "files": ["core/composer-39c510ee3609.js"],
+      "file_count": 1
+    },
+    {
+      "id": "browserSkills.submissionFailed",
+      "text": "Selected skills couldn't be checked. Please try again.",
+      "description": "The message was not sent because selected skills could not be loaded",
+      "files": ["core/composer-39c510ee3609.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer",
+      "text": "ChatGPT can make mistakes. Check important info.",
+      "description": "Compact legal disclosure above the browser conversation composer for a personal ChatGPT account, reminding users that AI responses may contain mistakes and important information should be checked.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.earlyAccessWorkspace",
+      "text": "ChatGPT can make mistakes. OpenAI uses {workspaceName} workspace data to train its models.",
+      "description": "Legal and privacy disclosure above the browser composer for an early-access workspace whose data is used to train AI models. The {workspaceName} placeholder is the human-readable name of the current workspace.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.earlyAccessWorkspaceWithoutName",
+      "text": "ChatGPT can make mistakes. OpenAI uses your workspace data to train its models.",
+      "description": "Legal and privacy disclosure above the browser composer for an early-access workspace whose data is used to train AI models when the workspace has no display name.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.encryptedK12Workspace",
+      "text": "ChatGPT for Teachers can make mistakes. OpenAI doesn't use {workspaceName} workspace data to train its models. The content of this workspace is encrypted with your organization managed keys.",
+      "description": "Legal and privacy disclosure above the browser composer for a ChatGPT for Teachers workspace protected by organization-managed cryptographic encryption keys. The {workspaceName} placeholder is the human-readable name of the school workspace.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.encryptedK12WorkspaceWithoutName",
+      "text": "ChatGPT for Teachers can make mistakes. OpenAI doesn't use your workspace data to train its models. The content of this workspace is encrypted with your organization managed keys.",
+      "description": "Legal and privacy disclosure above the browser composer for a ChatGPT for Teachers workspace protected by organization-managed cryptographic encryption keys when the school workspace has no display name.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.encryptedWorkspace",
+      "text": "ChatGPT can make mistakes. OpenAI doesn't use {workspaceName} workspace data to train its models. The content of this workspace is encrypted with your organization managed keys.",
+      "description": "Legal and privacy disclosure above the browser composer for a Business or Enterprise workspace protected by organization-managed cryptographic encryption keys. The {workspaceName} placeholder is the human-readable name of the current workspace.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.encryptedWorkspaceWithoutName",
+      "text": "ChatGPT can make mistakes. OpenAI doesn't use your workspace data to train its models. The content of this workspace is encrypted with your organization managed keys.",
+      "description": "Legal and privacy disclosure above the browser composer for a Business or Enterprise workspace protected by organization-managed cryptographic encryption keys when the workspace has no display name.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.k12Workspace",
+      "text": "ChatGPT for Teachers can make mistakes. OpenAI doesn't use {workspaceName} workspace data to train its models.",
+      "description": "Legal and privacy disclosure above the browser composer for a ChatGPT for Teachers workspace, assuring educators that their workspace data is not used to train AI models. The {workspaceName} placeholder is the human-readable name of the school workspace.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.k12WorkspaceWithoutName",
+      "text": "ChatGPT for Teachers can make mistakes. OpenAI doesn't use your workspace data to train its models.",
+      "description": "Legal and privacy disclosure above the browser composer for a ChatGPT for Teachers workspace without a display name, assuring educators that their workspace data is not used to train AI models.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.temporaryChat",
+      "text": "For safety, we may keep a copy of this chat for up to 30 days.",
+      "description": "Compact privacy disclosure above the browser composer before a personal-account user sends the first message in a temporary ChatGPT conversation, explaining its maximum safety-retention period.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.workspace",
+      "text": "ChatGPT can make mistakes. Workspace data isn't used to train models.",
+      "description": "Compact legal and privacy disclosure above the browser composer for a Business or Enterprise workspace that has not opted in to model training, reassuring workspace members that their data is excluded from training.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.workspaceResearchPartner",
+      "text": "ChatGPT can make mistakes. This workspace is opted in to the ChatGPT Business Research Partner Program. <link>Learn more</link>",
+      "description": "Legal and privacy disclosure above the browser composer for a Business workspace opted in to sharing its data through the ChatGPT Business Research Partner Program. The <link> tag wraps a clickable Help Center article labeled Learn more.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.browserDisclaimer.workspaceTemporaryChat",
+      "text": "Workspace data isn't used to train models by default. For safety, we may keep a copy of this chat for up to 30 days.",
+      "description": "Privacy disclosure above the browser composer before a workspace member sends the first message in a temporary ChatGPT conversation, explaining that workspace data is not used for model training and may be retained for safety for up to 30 days.",
+      "files": ["core/browser-composer-disclaimer-72402b5f9ca1.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.composer.searchRepositoryBranches",
+      "text": "Search {repoName} branches",
+      "description": "Placeholder for searching branches in the primary repository",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.environments.environmentSettings",
+      "text": "Environment settings",
+      "description": "Codex code environment settings link",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.environments.learnMore",
+      "text": "Learn more",
+      "description": "Codex code environment learn more link",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.environments.noEnvironmentsFound",
+      "text": "No environments found",
+      "description": "Message shown when no Codex environments were found",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.environmentSelector.noEnvironment",
+      "text": "No environment",
+      "description": "No environment selected message",
+      "files": [
+        "_deps/local-remote-dropdown-3788d6591891.js",
+        "_deps/worktree-environment-dropdown-ea1f88351d40.js"
+      ],
+      "file_count": 2
+    },
+    {
+      "id": "codex.review.noDiff.gitInit.createRepository",
+      "text": "Create git repository",
+      "description": "Button label to create a git repository from the diff empty state",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.review.noDiff.gitInit.creating",
+      "text": "Creating…",
+      "description": "Button label shown while git init is running from the diff empty state",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.review.noDiff.gitInit.error",
+      "text": "Git init failed: {message}",
+      "description": "Error text shown when git initialization fails from the diff empty state",
+      "files": ["_deps/use-create-git-repository-c0b61d3a555e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.review.noDiff.gitInit.success",
+      "text": "Git repository created",
+      "description": "Toast shown after creating a git repository from the diff empty state",
+      "files": ["_deps/use-create-git-repository-c0b61d3a555e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.cloudFollowUp.cloud",
+      "text": "Cloud",
+      "description": "Cloud follow-up option",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.cloudFollowUp.header",
+      "text": "Run follow-up in",
+      "description": "Header above the local and cloud execution choices for a cloud chat follow-up",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.cloudFollowUp.local",
+      "text": "Local",
+      "description": "Local follow-up option",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.cloudFollowUp.whereRun",
+      "text": "Where should this follow-up run?",
+      "description": "Tooltip for choosing between local and cloud follow-ups",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.customCliTooltip",
+      "text": "Using a custom CLI executable",
+      "description": "Tooltip text shown when the user has set a custom Codex CLI executable in their VS Code settings.",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.environmentSelector.createNew",
+      "text": "Create new",
+      "description": "CTA to create a new Codex environment",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.environmentSelector.error",
+      "text": "Error loading environments",
+      "description": "Error state for the cloud environment dropdown",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.environmentSelector.goBack",
+      "text": "Back to composer",
+      "description": "Accessible label for closing environment selector",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.environmentSelector.title",
+      "text": "Select environment",
+      "description": "Title for the cloud environment dropdown",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.environmentSelector.tooltip",
+      "text": "Select a cloud environment",
+      "description": "Tooltip content for environment selector",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.existingWorkspace.fromTask",
+      "text": "From {taskTitle}",
+      "description": "Source task shown in the existing workspace tooltip",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.existingWorkspace.label",
+      "text": "Existing workspace",
+      "description": "Label shown when a new task starts in an existing local workspace",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.existingWorktree.label",
+      "text": "Existing worktree · {worktree}",
+      "description": "Label shown when a new task starts in an existing worktree",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.followUpStartingState.footerCategory",
+      "text": "Starting from",
+      "description": "Category label for the follow-up starting state control in the composer footer",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.footer.branchSwitch.detachedHead",
+      "text": "Detached HEAD",
+      "description": "Label shown when the current Git checkout is not on a branch",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.footer.branchSwitch.loading",
+      "text": "Loading branch…",
+      "description": "Label shown while loading the current Git branch in the composer utility bar",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.home.modeToggle.ariaLabel",
+      "text": "Composer mode",
+      "description": "Accessible label for the toggle that switches the Home composer between Work and Chat modes",
+      "files": ["core/home-composer-mode-toggle-3e742c6c7534.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.home.modeToggle.chat",
+      "text": "Chat",
+      "description": "Label for Chat mode in the Home composer mode toggle",
+      "files": ["core/home-composer-mode-toggle-3e742c6c7534.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.home.modeToggle.chat.tooltip",
+      "text": "Ask questions and explore ideas",
+      "description": "Concise tooltip for the Chat option in the Home composer mode toggle. It explains that Chat is for asking questions and exploring ideas.",
+      "files": ["core/home-composer-mode-toggle-3e742c6c7534.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.home.modeToggle.work",
+      "text": "Work",
+      "description": "Label for Work mode in the Home composer mode toggle",
+      "files": ["core/home-composer-mode-toggle-3e742c6c7534.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.home.modeToggle.work.requiresUpgradeSuffix",
+      "text": "Requires upgrade",
+      "description": "Screen-reader-only text appended to the locked Work option in the Home composer mode toggle shown to Free-plan users. It explains that selecting Work opens an upgrade experience. Keep this suffix concise.",
+      "files": ["core/home-composer-mode-toggle-3e742c6c7534.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.home.modeToggle.work.tooltip",
+      "text": "Get tasks done with your files and apps",
+      "description": "Concise tooltip for the Work option in the Home composer mode toggle. It explains that Work can complete tasks using the user's files and apps.",
+      "files": ["core/home-composer-mode-toggle-3e742c6c7534.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.cloud.additionalFolders",
+      "text": "No access to {count, plural, one {# other folder} other {# other folders}}",
+      "description": "Cloud execution menu description explaining how many additional project folders will be inaccessible",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.cloud.tooltip.forMultiRootProject",
+      "text": "Checkout {repoName} in a cloud environment. Other project source folders won't be accessible.",
+      "description": "Tooltip explaining that only the primary repository is available when a multi-root project runs in the cloud",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.cloud.tooltip.forRepository",
+      "text": "Checkout {repoName} in a cloud environment.",
+      "description": "Tooltip explaining that the primary repository is checked out in a cloud environment",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.cloud.unavailableForPullRequestChat",
+      "text": "Cloud is unavailable for pull request chats",
+      "description": "Tooltip explaining why Cloud execution is disabled for a pull request review task",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.cloudSlashCommand.description",
+      "text": "Run this chat in the cloud",
+      "description": "Description for the cloud mode slash command",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.continueIn",
+      "text": "Continue in",
+      "description": "Heading above supported destinations for continuing a chat",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.currentWorktree",
+      "text": "{host, select, local {This local worktree} remote {This remote worktree} other {This remote worktree}}",
+      "description": "Currently selected Git worktree destination, identifying whether it is local or remote",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.local",
+      "text": "Work locally",
+      "description": "Local mode label",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.local.ratePercent",
+      "text": " {usage}%",
+      "description": "Rate limit remaining percent appended to Local when near limit",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.local.short",
+      "text": "Local",
+      "description": "Short local mode label",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.localRemoteWhereRun",
+      "text": "Select where to run the chat",
+      "description": "Tooltip content for local/remote dropdown",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.localSlashCommand.description",
+      "text": "Run this chat locally",
+      "description": "Description for the local mode slash command",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.newLocalWorktree",
+      "text": "New local worktree",
+      "description": "Label for starting a task in a new local Git worktree",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remote",
+      "text": "Remote",
+      "description": "Remote mode label",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remote.connectToCloud",
+      "text": "Connect Codex web",
+      "description": "Menu item to connect Codex Cloud",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remote.connectToCloudDisabledTooltip",
+      "text": "Set up an environment via Codex web to enable sending tasks to the cloud",
+      "description": "Tooltip for disabled send to cloud item when Cloud is not connected",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remote.selectEnvironment",
+      "text": "Select environment",
+      "description": "Remote mode label when no environment is selected",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remote.setupViaWeb",
+      "text": "Set up an environment via Codex web",
+      "description": "Menu item to set up an environment via Codex web",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remoteWorktree",
+      "text": "New remote worktree",
+      "description": "Worktree mode label when the selected workspace is remote",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remoteWorktree.forRepository",
+      "text": "New remote {repoName} worktree",
+      "description": "Remote worktree execution mode label including the primary repository name",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.remoteWorktree.menuForRepository",
+      "text": "New remote worktree · {repoName}",
+      "description": "Remote worktree execution menu option followed by the primary repository name",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.runInCloud",
+      "text": "Cloud",
+      "description": "Remote mode label when a Codex task will be run in the cloud",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.runInCloud.forRepository",
+      "text": "Cloud for {repoName}",
+      "description": "Cloud execution mode label including the primary repository name",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.runInCloud.menuForRepository",
+      "text": "Cloud · {repoName}",
+      "description": "Cloud execution menu option followed by the primary repository name",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.runInCloudEnvironmentSuffix",
+      "text": " · {environment}",
+      "description": "Environment suffix shown after Cloud in the run location control",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.startInRemote",
+      "text": "Remote",
+      "description": "Dropdown label for starting a task in a remote project",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.startTask.header",
+      "text": "Work in",
+      "description": "Header above execution locations for a new chat",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.workLocally",
+      "text": "Work locally",
+      "description": "Local mode label",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.workLocally.currentBranchFallback",
+      "text": "your branch",
+      "description": "Fallback branch name when current branch cannot be detected",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.workLocally.tooltip",
+      "text": "Work on {branchName}",
+      "description": "Tooltip describing what local mode runs against",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.workRemotely.tooltipWithoutPath",
+      "text": "Work on {hostDisplayName}",
+      "description": "Tooltip describing what where the remote mode is run",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktree.additionalFolders",
+      "text": "Work locally in {count, plural, one {# other folder} other {# other folders}}",
+      "description": "Worktree execution menu description explaining how many additional project folders remain locally accessible",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktree.forRepository",
+      "text": "New {repoName} worktree",
+      "description": "Worktree execution mode label including the primary repository name",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktree.menuForRepository",
+      "text": "New local worktree · {repoName}",
+      "description": "New local worktree menu option followed by the primary repository name",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktree.submoduleWarning",
+      "text": "This repo has git submodules. Worktree creation may fail",
+      "description": "Warning shown when a repo contains git submodules",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktree.tooltip.forMultiRootProject",
+      "text": "Create a copy of {repoName} to work in parallel. Other project source folders will be accessed directly.",
+      "description": "Tooltip explaining that a multi-root project copies only its primary repository and accesses other source folders directly",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktree.tooltip.forRepository",
+      "text": "Create a copy of {repoName} to work in parallel.",
+      "description": "Tooltip explaining that a worktree copies the primary repository for parallel work",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktreeSegment",
+      "text": "Worktree",
+      "description": "Worktree mode label for the segmented toggle",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktreeSlashCommand.description",
+      "text": "Run this chat in a new worktree",
+      "description": "Description for the worktree mode slash command",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.addRemote",
+      "text": "Add remote",
+      "description": "Add a remote machine for running tasks",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.cloud",
+      "text": "Cloud",
+      "description": "Cloud execution environments for a new task",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.loadingRemotes",
+      "text": "Loading remote machines…",
+      "description": "Loading remote machines that can run the selected project",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.local",
+      "text": "Local",
+      "description": "Run a new task on this computer",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.moreRemotes",
+      "text": "More",
+      "description": "Open all remote connections",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.remote",
+      "text": "Remote",
+      "description": "Remote machines for running a new task",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.workIn",
+      "text": "Work in",
+      "description": "Menu for choosing where a new task executes",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.newTask.worktree",
+      "text": "Worktree",
+      "description": "Run the new task in a separate git worktree",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.additionalPastedTextAttachments",
+      "text": "{preview} (+{remainingCount, plural, one {# more pasted text attachment} other {# more pasted text attachments}})",
+      "description": "Summary shown for a queued message with multiple attached large text pastes",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.delete",
+      "text": "Delete queued message",
+      "description": "Aria label for deleting a queued message",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.edit",
+      "text": "Edit message",
+      "description": "Menu item to edit a queued message",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.imageAttachments",
+      "text": "{count, plural, one {# image} other {# images}}",
+      "description": "Summary shown for a queued message with image attachments and no displayable text",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.imagePreview",
+      "text": "Image attachment",
+      "description": "Accessible label for the image preview in a queued message",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.interruptedQueue",
+      "text": "Queue paused because you interrupted",
+      "description": "Header shown above queued messages paused because the user interrupted the running turn",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.more",
+      "text": "Queued message actions",
+      "description": "Aria label for the queued message row actions menu",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.openInSideChat",
+      "text": "Open in side chat",
+      "description": "Menu item to start a queued message as a side chat",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.pastedTextAttachment",
+      "text": "Pasted text",
+      "description": "Summary shown for an attached large text paste without displayable text in a queued message",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.pausedTooltip",
+      "text": "This queued message could not be sent",
+      "description": "Primary tooltip text for a queued message that failed to send",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.pausedTooltipRemedy",
+      "text": "Retry, edit, or delete it to continue the queue",
+      "description": "Secondary tooltip text explaining how to resolve a queued message that failed to send",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.pullRequestActions",
+      "text": "{count, plural, one {Pull latest} other {# Pull latest actions}} · {targets}{hasText, select, true { — {text}} other {}}",
+      "description": "Queued pull request update actions, identified by PR title (or number when unavailable) and repository, optionally followed by the user's message",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.resumeInterruptedQueue",
+      "text": "Resume",
+      "description": "Button label to resume queued messages paused by an interruption",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.retry",
+      "text": "Retry",
+      "description": "Button label to retry a queued follow-up that failed to send",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.retryTooltip",
+      "text": "Try sending this queued message again",
+      "description": "Primary tooltip text for retrying a queued follow-up that failed to send",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.retryTooltipRemedy",
+      "text": "Edit or delete it if retry keeps failing",
+      "description": "Secondary tooltip text explaining alternatives when retrying a queued follow-up keeps failing",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.sendNow",
+      "text": "Steer",
+      "description": "Button label for applying a queued follow-up to the active Codex run immediately instead of waiting in the queue",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.sendNowTooltip",
+      "text": "Submit without interrupting the model",
+      "description": "Primary tooltip text for steering with a queued follow-up without interrupting the current model run",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.turnOff",
+      "text": "Turn off queueing",
+      "description": "Menu item to switch the default follow up behavior to steer",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.queuedMessage.turnOn",
+      "text": "Turn on queueing",
+      "description": "Menu item to switch the default follow up behavior to queue",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.branch",
+      "text": "{branch}",
+      "description": "Label for a specific branch starting point in the composer",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.branchesSectionHeading",
+      "text": "Branches",
+      "description": "Section heading for remote branch search results",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.branchStartingPoint",
+      "text": "What branch should this chat start from?",
+      "description": "Section label for branch starting point selector",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.currentBranch",
+      "text": "{branch} (current)",
+      "description": "Label for the current branch starting point in the composer",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.currentEditsSuffix.followUp",
+      "text": "Create a new chat that references this cloud chat.",
+      "description": "Suffix text indicating the selection includes current edits",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.currentEditsSuffix.useLocal",
+      "text": "with local code changes",
+      "description": "Suffix text indicating the selection includes current edits",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.directFollowUp",
+      "text": "Don't use local changes",
+      "description": "Label for direct follow-up selection in remote composer",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.errorLoadingBranches",
+      "text": "Error loading branches",
+      "description": "Error message for remote starting point selector",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.loadingMoreBranches",
+      "text": "Loading…",
+      "description": "Loading more branches",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.localBranchesSectionHeading",
+      "text": "Local branches",
+      "description": "Section heading for local branch search results",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.localFileStateHeading",
+      "text": "Local file state",
+      "description": "Section heading for local working tree selection",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.localWorkingTree",
+      "text": "Use local changes",
+      "description": "Label for local working tree selection in remote composer",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.remoteBranchesSectionHeading",
+      "text": "Remote branches",
+      "description": "Section heading for fetched remote branch search results",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.remote.startingPoint",
+      "text": "What code should this chat start from?",
+      "description": "Section label for remote starting point selector",
+      "files": ["core/composer-utility-bar-85736f3cc588.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.cloud",
+      "text": "In the cloud",
+      "description": "Option to run a task in the cloud",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.cloud.description",
+      "text": "Can't access local files unless attached",
+      "description": "Description explaining file access limitations when a task runs in the cloud",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.cloud.description.localExecutor",
+      "text": "Can read and edit local files",
+      "description": "Description for the Cloud run location when local execution is enabled. Explains that ChatGPT runs in the cloud while retaining access to files on the user's computer.",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.cloud.tooltip.projectOnlyMemory",
+      "text": "Cloud is unavailable for projects with project-only memory",
+      "description": "Tooltip explaining why cloud Work cannot be selected for a project with project-only memory",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.cloud.tooltip.workspaceDisabled",
+      "text": "Your workspace administrator has disabled Work in the cloud",
+      "description": "Tooltip on the disabled Cloud Work composer option when the member's workspace role does not grant the Work Cloud permission",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.local.description",
+      "text": "Read and edit local files with permission",
+      "description": "Description explaining file access when a task runs on the user's computer",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.local.optionLabel",
+      "text": "On your computer",
+      "description": "Option to run a task on the user's computer",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.local.tooltip.workspaceDisabled",
+      "text": "Your workspace administrator has disabled Work on your computer",
+      "description": "Tooltip on the disabled local Work composer option when the member's workspace role does not grant the Work Local permission",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.title.question",
+      "text": "Where should this chat run?",
+      "description": "Header above the run location options in the composer action bar",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.triggerLabel",
+      "text": "Choose where to run this chat",
+      "description": "Accessible label for the run location menu",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.runLocation.triggerLabel.localExecutorStarting",
+      "text": "Choose where to run this task. Local execution is starting…",
+      "description": "Accessible label for the run location menu while local execution starts",
+      "files": ["core/composer-action-bar-run-location-dropdown-493913fdcca2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.searchEnvironments",
+      "text": "Search environments",
+      "description": "Search environments placeholder",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.slashCommands.cloudEnvironment.description",
+      "text": "Choose the cloud environment",
+      "description": "Description for the cloud environment slash command when no environment is selected",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.slashCommands.cloudEnvironment.title",
+      "text": "Cloud environment",
+      "description": "Title for a composer slash command that makes Codex run in the cloud with a specific environment.",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.browseAll",
+      "text": "Browse all plugins",
+      "description": "Action that opens the full plugin directory from a plugin picker",
+      "files": ["_deps/plugin-picker-menu-content-8fa056f43456.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.connect",
+      "text": "Connect plugins",
+      "description": "Label and action for connecting plugins from the Chat home composer plugin picker",
+      "files": ["_deps/plugin-picker-menu-content-8fa056f43456.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.installed.empty",
+      "text": "No connected plugins",
+      "description": "Empty state when there are no connected and available plugins in the Chat home composer",
+      "files": ["_deps/plugin-picker-menu-content-8fa056f43456.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.installing",
+      "text": "Installing {pluginName}",
+      "description": "Label for the Plugins picker while installing a named plugin",
+      "files": ["core/composer-work-home-plugins-control-40bb3845a52f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.label",
+      "text": "Plugins",
+      "description": "Label for the Plugins picker in the Chat home composer utility bar",
+      "files": ["core/composer-work-home-plugins-control-40bb3845a52f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.loadError",
+      "text": "Couldn't load plugins",
+      "description": "Error shown when plugins fail to load in the Chat home composer",
+      "files": ["_deps/plugin-picker-menu-content-8fa056f43456.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.loading",
+      "text": "Loading {pluginName}",
+      "description": "Label for the Plugins picker while loading a named plugin installation",
+      "files": ["core/composer-work-home-plugins-control-40bb3845a52f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.loadingRecommendations",
+      "text": "Loading plugins…",
+      "description": "Status in the Connect plugins submenu while recommended plugins load. Installed plugins and the Browse all plugins action remain available.",
+      "files": ["_deps/plugin-picker-menu-content-8fa056f43456.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.search",
+      "text": "Search plugins…",
+      "description": "Placeholder for the plugin search field in the Chat home composer",
+      "files": ["_deps/plugin-picker-menu-content-8fa056f43456.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.search.empty",
+      "text": "No plugins found",
+      "description": "Empty state when plugin search has no matches in the Chat home composer",
+      "files": ["_deps/plugin-picker-menu-content-8fa056f43456.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.workMode.plugins.tooltip",
+      "text": "Work with ChatGPT across your favorite tools",
+      "description": "Tooltip for the Plugins picker in the Chat home composer utility bar",
+      "files": ["core/composer-work-home-plugins-control-40bb3845a52f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.default",
+      "text": "Default environment",
+      "description": "Tooltip for default local environment icon",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.error",
+      "text": "Error loading environments",
+      "description": "Error state for worktree environment dropdown",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.loading",
+      "text": "Loading environments…",
+      "description": "Loading label for worktree environment dropdown",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.noEnvironmentOption",
+      "text": "Work without environment",
+      "description": "Option in the worktree environment dropdown that runs without selecting a local environment",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.projectSetupDescription",
+      "text": "Give Codex access to your project’s full dependencies and setup",
+      "description": "Explains that project setup gives Codex access to project dependencies and setup",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.settings",
+      "text": "Environment settings",
+      "description": "CTA to open local environment settings from the worktree dropdown",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.setUpProject",
+      "text": "Set up project",
+      "description": "Action to configure reusable setup for a project without a worktree environment",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.title",
+      "text": "Environment",
+      "description": "Title for worktree environment dropdown",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.titleForRepository",
+      "text": "Environment · {repoName}",
+      "description": "Title for the composer worktree environment dropdown followed by the primary repository name when the project has multiple source folders",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.worktreeEnvironment.tooltip",
+      "text": "Select a local environment",
+      "description": "Tooltip for local environment selector",
+      "files": ["_deps/worktree-environment-dropdown-ea1f88351d40.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.closeWindow",
+      "text": "Close window",
+      "description": "Context menu item that closes the global dictation floating window",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.dismissError",
+      "text": "Dismiss",
+      "description": "Accessible label for the button that dismisses the global dictation error window",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.listening",
+      "text": "Listening",
+      "description": "Status text shown in the global dictation window while recording",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.copiedShortcut",
+      "text": "Text copied — <shortcut>{keys}</shortcut> to paste",
+      "description": "Dictation transcript is on the clipboard; shortcut is the system paste keybinding",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.copy",
+      "text": "Copy transcript",
+      "description": "Explicitly copies the recovered dictation transcript",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.copyToPaste",
+      "text": "Copy your transcript to paste it",
+      "description": "Recovery instruction when the transcript could not be copied automatically",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.dismiss",
+      "text": "Dismiss",
+      "description": "Closes the dictation paste recovery notice",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.enableAccessibility",
+      "text": "Enable Accessibility to paste automatically",
+      "description": "Explains how to enable automatic insertion after dictation",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.manualPaste",
+      "text": "Couldn't paste automatically",
+      "description": "Automatic insertion failed but the copied transcript can be pasted manually",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.notCopied",
+      "text": "Your clipboard changed",
+      "description": "Dictation preserved newer clipboard contents instead of replacing them",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.pasteFailed.settings",
+      "text": "Open Settings",
+      "description": "Opens macOS settings to allow dictation to paste into other apps",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.ready",
+      "text": "Dictation ready",
+      "description": "Status text for the persistent global dictation reminder",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.readyAriaLabel",
+      "text": "Global dictation ready",
+      "description": "Accessible label for the persistent global dictation reminder",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.readyTooltip.hold",
+      "text": "Hold {shortcut} to dictate",
+      "description": "Tooltip explaining the hold-to-dictate shortcut",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.readyTooltip.holdAndToggle",
+      "text": "Hold {holdShortcut} or press {toggleShortcut} to dictate",
+      "description": "Tooltip explaining both global dictation shortcuts",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.readyTooltip.toggle",
+      "text": "Press {shortcut} to dictate",
+      "description": "Tooltip explaining the toggle dictation shortcut",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.retry",
+      "text": "Retry",
+      "description": "Accessible label for the button that retries global dictation transcription",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.transcribing",
+      "text": "Transcribing…",
+      "description": "Status text shown in the global dictation window while audio is being transcribed",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "globalDictation.waveformAriaLabel",
+      "text": "Global dictation waveform",
+      "description": "Accessible label for the minimal global dictation waveform",
+      "files": ["quick-chat/global-dictation-page-526accc365c3.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveThread.destination.remoteChecking",
+      "text": "Checking this host for a matching project",
+      "description": "Tooltip shown while Codex checks whether a remote host can receive this task",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveThread.destination.remoteLookupFailed",
+      "text": "Couldn’t inspect this host for a matching project",
+      "description": "Tooltip shown when Codex cannot inspect a remote host to decide whether it can receive this task",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveThread.destination.thisComputer",
+      "text": "this computer",
+      "description": "Destination label used in cross-host handoff copy when moving a task back to the local machine",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveThread.disabled.finishCurrentHandoff",
+      "text": "Finish the current handoff before starting another",
+      "description": "Tooltip shown on disabled cross-host handoff destinations while another handoff operation still needs attention",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.confirm.branchRequired",
+      "text": "Enter a branch name",
+      "description": "Tooltip shown when the move to local button is disabled because no local branch name was entered",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.confirm.loadingStatus",
+      "text": "Checking local workspace status…",
+      "description": "Tooltip shown when the move to local button is disabled while git status is loading",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.confirm.localChangesBlocked",
+      "text": "Stash or commit your local changes to hand off",
+      "description": "Tooltip shown when the move-to-local button is disabled because the destination workspace has local changes; Stash means the Git stash operation, as distinct from staging files",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.confirm.localStatusError",
+      "text": "Unable to determine whether the local workspace is clean",
+      "description": "Tooltip shown when the move to local button is disabled because the local git status check failed",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.confirm.missingLocalBranch",
+      "text": "Unable to determine the current local branch",
+      "description": "Tooltip shown when the move to local button is disabled because the current local branch is unavailable",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.confirm.missingWorktreeRoot",
+      "text": "Unable to resolve the current worktree",
+      "description": "Tooltip shown when the move to local button is disabled because the source worktree root is unavailable",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.confirm.trailingSlashError",
+      "text": "Branch name cannot end with “/”",
+      "description": "Tooltip shown when the move to local button is disabled because the local branch name ends with a slash",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.disabled.branchCheckedOut",
+      "text": "Branch is already checked out in another worktree",
+      "description": "Tooltip shown when the move to local button is disabled because the branch is checked out elsewhere",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.disabled.loading",
+      "text": "Checking available local workspaces…",
+      "description": "Tooltip shown when the move to local button is disabled while local worktrees are loading",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.disabled.noWorkspace",
+      "text": "No local workspace found for this worktree",
+      "description": "Tooltip shown when the move to local button is disabled because no local workspace is available",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.branchAriaLabel",
+      "text": "Local branch name",
+      "description": "Aria label for the branch name input in the move-to-local modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.bringChangesBack",
+      "text": "Bring changes back",
+      "description": "Primary action that brings worktree changes back to a local checkout",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.continue",
+      "text": "Hand off",
+      "description": "Primary action in the move-to-local modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.loading",
+      "text": "Checking for ability to hand off…",
+      "description": "Button label shown while move-to-local is waiting on required data before it can continue",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.noProjectsFound",
+      "text": "No workspaces found",
+      "description": "Shown when searching handoff workspace targets returns no results",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.projectPlaceholder",
+      "text": "No local workspace found",
+      "description": "Placeholder shown when the move-to-local modal cannot find a local workspace target",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.projectPrefixByDestination",
+      "text": "{destinationLabel, select, local {Bringing changes back to local checkout} remote {Handing off to remote workspace} other {Handing off to remote workspace}}",
+      "description": "Text shown before the project selector in the move-to-local modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.projectSearch",
+      "text": "Search workspaces",
+      "description": "Accessible label and placeholder for searching handoff workspace targets",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.projectSelectorAriaLabelWithPath",
+      "text": "{destinationLabel, select, local {Local workspace: {workspaceLabel}, {workspacePath}} remote {Remote workspace: {workspaceLabel}, {workspacePath}} other {Remote workspace: {workspaceLabel}, {workspacePath}}}",
+      "description": "Accessible label for the workspace selector in the move-to-local modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.subtitleWithBranchControl",
+      "text": "{destinationLabel, select, local {Check out branch <branchControl></branchControl> in a local workspace and detach it from worktree.} remote {Check out branch <branchControl></branchControl> in a remote workspace and detach it from worktree.} other {Check out branch <branchControl></branchControl> in a remote workspace and detach it from worktree.}}",
+      "description": "Subtitle containing the editable branch name control in the move-to-local confirmation modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToLocal.modal.titleByDestination",
+      "text": "{destinationLabel, select, local {Bring changes back to local checkout} remote {Hand off chat to remote} other {Hand off chat to remote}}",
+      "description": "Title for the move-to-local confirmation modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToRemoteHostWorktree.label",
+      "text": "Remote · {host}",
+      "description": "Remote destination and configured host name when multiple remote computers can receive the current chat",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.branchAlreadyExists",
+      "text": "Branch already exists",
+      "description": "Toast shown when moving to worktree with an existing branch name",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.branchAlreadyExistsError",
+      "text": "Branch already exists.",
+      "description": "Validation message shown when the entered worktree branch already exists",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.branchesError",
+      "text": "Unable to load branches",
+      "description": "Error shown in the move-to-worktree modal when branch list fails to load",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.branchesLoading",
+      "text": "Loading branches…",
+      "description": "Label shown while loading branches in the move-to-worktree modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.branchesRetry",
+      "text": "Retry",
+      "description": "Retry button for branch loading errors in the move-to-worktree modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.continue",
+      "text": "Hand off",
+      "description": "Primary action in the move-to-worktree modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.createWorktreeOption",
+      "text": "Create a new worktree",
+      "description": "Worktree selector option that keeps the existing create-and-handoff behavior",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.defaultBranchError",
+      "text": "Worktree branch must be different from the default branch.",
+      "description": "Validation message shown when the entered worktree branch equals the default branch",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.existingWorktreeLabel",
+      "text": "Worktree",
+      "description": "Label for the selector that lets a chat move to an existing linked Git worktree",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.existingWorktreeRunning",
+      "text": "Wait for the current response to finish before moving this chat",
+      "description": "Reason an existing-worktree handoff is disabled while the current chat is still running",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.loading",
+      "text": "Checking for ability to hand off…",
+      "description": "Button label shown while move-to-worktree is waiting on required data before it can continue",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.localBranchPlaceholder",
+      "text": "Select local checkout branch",
+      "description": "Placeholder shown in the move-to-worktree modal branch selector",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.localCheckoutLabel",
+      "text": "Local workspace will switch to",
+      "description": "Label for the local workspace branch switch; the branch selector is shown immediately after this text",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.noTargetBranch",
+      "text": "No other local branches are available",
+      "description": "Message shown when no local branch can be selected for checkout before moving to a worktree",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.subtitle.defaultBranchExistingWorktree",
+      "text": "Create and check out a branch in an existing worktree to continue working in parallel.",
+      "description": "Subtitle for the move-to-worktree modal when the source branch is the default branch and an existing worktree will be reused",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.subtitle.defaultBranchNewWorktree",
+      "text": "Create and check out a branch in a new worktree to continue working in parallel.",
+      "description": "Subtitle for the move-to-worktree modal when the source branch is the default branch and a new worktree will be created",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.subtitle.namedBranchExistingWorktree",
+      "text": "Check out branch <branch>{branchName}</branch> in an existing worktree to continue working in parallel.",
+      "description": "Subtitle for the move-to-worktree modal when a named branch will be checked out in an existing worktree",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.subtitle.namedBranchNewWorktree",
+      "text": "Check out branch <branch>{branchName}</branch> in a new worktree to continue working in parallel.",
+      "description": "Subtitle for the move-to-worktree modal when a named branch will be checked out in a new worktree",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.subtitle.selectedExistingWorktree",
+      "text": "Continue this chat in the selected worktree without changing its branch",
+      "description": "Subtitle when the current chat will move to an existing worktree without changing Git branches",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.title",
+      "text": "Hand off chat to worktree",
+      "description": "Title for the move-to-worktree modal",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.trailingSlashError",
+      "text": "Branch name cannot end with “/”.",
+      "description": "Validation message shown when the worktree branch name ends with a slash",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.worktreeBranchAriaLabel",
+      "text": "Worktree branch name",
+      "description": "Aria label for worktree branch name input when moving from the default branch",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.worktreeBranchLabel",
+      "text": "Branch name",
+      "description": "Label for the target worktree branch when moving from the default branch",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.worktreeBranchPlaceholder",
+      "text": "new-branch",
+      "description": "Placeholder for worktree branch name input when moving from the default branch",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.moveToWorktree.modal.worktreeBranchRequired",
+      "text": "Enter a worktree branch name.",
+      "description": "Inline validation message shown above the move-to-worktree CTA when the worktree branch name is empty",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.threadHandoff.runningWarning",
+      "text": "This chat is running, so handing it off will interrupt the current response",
+      "description": "Warning shown in task handoff confirmation dialogs when the source task is still running",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "localConversation.threadHandoff.tooltip.viewProgress",
+      "text": "View progress",
+      "description": "Tooltip shown when a task handoff is in progress and the button reopens the progress view",
+      "files": ["_deps/local-remote-dropdown-3788d6591891.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.addToComposerFailed",
+      "text": "Could not add this chat to Codex yet",
+      "description": "Toast shown when Quick Chat cannot be added to a Codex composer",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.addToTask",
+      "text": "Add to Codex",
+      "description": "Visible label for adding the Quick Chat conversation to Codex",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.addToTaskTooltip",
+      "text": "Add this chat to Codex",
+      "description": "Tooltip for adding the Quick Chat conversation to Codex",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.close",
+      "text": "Close chat",
+      "description": "Label for closing Quick Chat",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.emptyState.recentChats",
+      "text": "Recent chats",
+      "description": "Label for recent Quick Chat history shown in an empty state heading and first-open header action",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.emptyState.viewAll",
+      "text": "See all",
+      "description": "Button for opening the full Quick Chat conversation history",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.emptyState.welcome.description.startOrResume",
+      "text": "Use the classic Chat experience to get answers and explore ideas. Start a new chat or pick up a past ChatGPT conversation here.",
+      "description": "Body copy in the first-open Quick Chat popover empty state. Explains that the user can start a new classic Chat conversation or resume a past ChatGPT conversation.",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.emptyState.welcome.viewHistory.button.label",
+      "text": "View chat history",
+      "description": "Outlined button in the first-open Quick Chat popover empty state. Opens the user's full classic ChatGPT conversation history.",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.entityBreadcrumbs.showParents",
+      "text": "Show parent pages",
+      "description": "Accessible label for showing hidden parent entity pages in Quick Chat",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.expandFloatingChat",
+      "text": "Expand floating chat",
+      "description": "Accessible label for expanding a compact floating chat",
+      "files": [
+        "quick-chat/content-quick-chat-overlay-4f38c1f284d2.js",
+        "quick-chat/quick-chat-window-e34d91db747a.js"
+      ],
+      "file_count": 2
+    },
+    {
+      "id": "quickChat.history.back",
+      "text": "Back to chat",
+      "description": "Accessible label for returning from Quick Chat history to the current chat",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.history.daysAgo",
+      "text": "{days}d",
+      "description": "Compact number of days ago for a Quick Chat conversation",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.history.open",
+      "text": "View chat history, current chat: {title}",
+      "description": "Accessible label for opening Quick Chat history from the current chat title",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.history.title",
+      "text": "History",
+      "description": "Title of the Quick Chat conversation history view",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.history.today",
+      "text": "Today",
+      "description": "Date label for a Quick Chat conversation updated today",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.history.yesterday",
+      "text": "Yesterday",
+      "description": "Date label for a Quick Chat conversation updated yesterday",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.imageLightbox.imageAlt",
+      "text": "Image {imageNumber}",
+      "description": "Fallback alt text for an image opened in the Quick Chat image lightbox",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.imageLightbox.openAttributedSource",
+      "text": "View on {source}",
+      "description": "Link in the Quick Chat image lightbox that opens the named source website for the image",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.imageLightbox.openSource",
+      "text": "Open image source",
+      "description": "Link in the Quick Chat image lightbox that opens the source website for the image",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.mainConversation",
+      "text": "Chat",
+      "description": "Fallback title for the task's main conversation in the floating chat",
+      "files": ["quick-chat/content-quick-chat-overlay-4f38c1f284d2.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.minimizeToCorner",
+      "text": "Minimize chat to corner",
+      "description": "Accessible label for minimizing a floating chat",
+      "files": [
+        "quick-chat/content-quick-chat-overlay-4f38c1f284d2.js",
+        "quick-chat/quick-chat-window-e34d91db747a.js"
+      ],
+      "file_count": 2
+    },
+    {
+      "id": "quickChat.newChat",
+      "text": "New chat",
+      "description": "Action for starting a new Quick Chat conversation",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.nux.title",
+      "text": "Ask quick questions with Chat",
+      "description": "Title introducing the classic Chat experience in the sidebar coachmark and Quick Chat popover empty state. Chat refers to the classic ChatGPT conversation experience.",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.popOut",
+      "text": "Open in a new window",
+      "description": "Label for moving Quick Chat into a separate ChatGPT window",
+      "files": ["quick-chat/quick-chat-window-e34d91db747a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "quickChat.resizeHeight",
+      "text": "Resize chat height",
+      "description": "Accessible label for resizing the chat height",
+      "files": [
+        "quick-chat/content-quick-chat-overlay-4f38c1f284d2.js",
+        "quick-chat/quick-chat-window-e34d91db747a.js"
+      ],
+      "file_count": 2
+    },
+    {
+      "id": "quickChat.resizeWidth",
+      "text": "Resize chat width",
+      "description": "Accessible label for resizing the chat width",
+      "files": [
+        "quick-chat/content-quick-chat-overlay-4f38c1f284d2.js",
+        "quick-chat/quick-chat-window-e34d91db747a.js"
+      ],
+      "file_count": 2
+    },
+    {
+      "id": "quickChat.restoreFloatingChat",
+      "text": "Restore floating chat: {title}",
+      "description": "Accessible label for restoring a minimized floating chat",
+      "files": [
+        "quick-chat/content-quick-chat-overlay-4f38c1f284d2.js",
+        "quick-chat/quick-chat-window-e34d91db747a.js"
+      ],
+      "file_count": 2
+    },
+    {
+      "id": "quickChat.showCompactFloatingChat",
+      "text": "Show compact floating chat",
+      "description": "Accessible label for collapsing a floating chat",
+      "files": [
+        "quick-chat/content-quick-chat-overlay-4f38c1f284d2.js",
+        "quick-chat/quick-chat-window-e34d91db747a.js"
+      ],
+      "file_count": 2
+    },
+    {
+      "id": "selectedTextAttachments.numSelections",
+      "text": "{count, plural, one {# selection} other {# selections}}",
+      "description": "Number of selected text snippets attached to the message",
+      "files": ["queue/queued-message-list-16b1f97652af.js"],
+      "file_count": 1
+    }
+  ],
+  "imports": [
+    {
+      "from": "app-initial-f094ef01c64d.js",
+      "count": 594,
+      "names": [
+        "$A",
+        "$Ft",
+        "$N",
+        "$V",
+        "$bt",
+        "$et",
+        "$k",
+        "$qt",
+        "$t",
+        "$ut",
+        "$wt",
+        "$y",
+        "A3t",
+        "A7",
+        "AF",
+        "AHt",
+        "AJ",
+        "AMt",
+        "AN",
+        "AV",
+        "Ab",
+        "Ait",
+        "Amn",
+        "Ayt",
+        "B6t",
+        "B7",
+        "B7t",
+        "B8",
+        "B9",
+        "BO",
+        "BP",
+        "BRt",
+        "BV",
+        "Bct",
+        "Bl",
+        "Bnt",
+        "Bt",
+        "C8t",
+        "CW",
+        "Cj",
+        "Cpn",
+        "Cq",
+        "Crt",
+        "Cu",
+        "D3t",
+        "D6t",
+        "DHt",
+        "DI",
+        "DJ",
+        "DW",
+        "Da",
+        "Db",
+        "Dbt",
+        "Dgt",
+        "Dl",
+        "Dln",
+        "Dmn",
+        "Drt",
+        "E",
+        "E$t",
+        "E0t",
+        "E6t",
+        "EI",
+        "EW",
+        "EX",
+        "Ea",
+        "Eb",
+        "Een",
+        "Eln",
+        "Ert",
+        "Est",
+        "F3t",
+        "FI",
+        "FKt",
+        "FL",
+        "FO",
+        "FP",
+        "Fj",
+        "Fl",
+        "Ft",
+        "Fvt",
+        "G",
+        "G3t",
+        "GG",
+        "GK",
+        "GU",
+        "GV",
+        "Ggt",
+        "Gj",
+        "Gt",
+        "Gwt",
+        "Gy",
+        "H0",
+        "H4t",
+        "H8",
+        "HDt",
+        "HLt",
+        "HP",
+        "HV",
+        "Hh",
+        "Hln",
+        "Hnt",
+        "Hxt",
+        "Hy",
+        "I4t",
+        "IHt",
+        "IJ",
+        "IO",
+        "IXt",
+        "Ij",
+        "Il",
+        "Irt",
+        "It",
+        "J8t",
+        "JA",
+        "JG",
+        "JJ",
+        "JK",
+        "JQt",
+        "JXt",
+        "JYt",
+        "J_",
+        "Jdt",
+        "Jft",
+        "Jit",
+        "Jpt",
+        "Jr",
+        "Jt",
+        "Jy",
+        "Jyt",
+        "K",
+        "K0",
+        "K4",
+        "K4t",
+        "KAt",
+        "KG",
+        "KI",
+        "KK",
+        "KKt",
+        "KP",
+        "KV",
+        "KX",
+        "KXt",
+        "KYt",
+        "Kit",
+        "Kj",
+        "Kln",
+        "Kqt",
+        "Kr",
+        "Kt",
+        "Ky",
+        "Kyt",
+        "L0",
+        "LHt",
+        "LJ",
+        "LL",
+        "LO",
+        "LX",
+        "Lo",
+        "Lt",
+        "Lx",
+        "M6t",
+        "MCt",
+        "MHt",
+        "ML",
+        "MMt",
+        "Mut",
+        "N3",
+        "N3t",
+        "N6t",
+        "NCt",
+        "NL",
+        "Nft",
+        "Nmt",
+        "Np",
+        "Nvt",
+        "O3t",
+        "O6t",
+        "O8t",
+        "OJ",
+        "OL",
+        "Oa",
+        "Ob",
+        "Oit",
+        "Omn",
+        "Opn",
+        "Ort",
+        "Ot",
+        "Ow",
+        "PI",
+        "PO",
+        "Pft",
+        "Pmt",
+        "Pp",
+        "Q0t",
+        "QA",
+        "QFt",
+        "QJt",
+        "QKt",
+        "QV",
+        "QWt",
+        "QXt",
+        "Qbt",
+        "Qet",
+        "Qit",
+        "Qq",
+        "Qt",
+        "Qwt",
+        "Qy",
+        "RF",
+        "RKt",
+        "RL",
+        "RWt",
+        "RX",
+        "Rht",
+        "Rl",
+        "Ro",
+        "Rpn",
+        "Rt",
+        "Rvt",
+        "Rx",
+        "S3t",
+        "SC",
+        "SFt",
+        "SJt",
+        "Sdt",
+        "Sj",
+        "Sln",
+        "Smn",
+        "Spn",
+        "Sq",
+        "Su",
+        "T",
+        "T$t",
+        "T6t",
+        "TEt",
+        "TFt",
+        "TJt",
+        "TQ",
+        "TTt",
+        "TW",
+        "TX",
+        "Ta",
+        "Tat",
+        "Trt",
+        "Tst",
+        "U3t",
+        "U4",
+        "UP",
+        "UV",
+        "Uat",
+        "Udt",
+        "Ugt",
+        "Uh",
+        "Unt",
+        "Upt",
+        "Ut",
+        "Uy",
+        "V4t",
+        "V7",
+        "V8",
+        "V9",
+        "VLt",
+        "VTt",
+        "VV",
+        "Vat",
+        "Vnt",
+        "W0",
+        "WA",
+        "WG",
+        "WU",
+        "WV",
+        "Wt",
+        "Wvt",
+        "X8t",
+        "XGt",
+        "XI",
+        "XJ",
+        "XKt",
+        "XXt",
+        "Xdt",
+        "Xit",
+        "Xqt",
+        "Xt",
+        "YFt",
+        "YJ",
+        "YRt",
+        "YTt",
+        "YWt",
+        "YYt",
+        "Y_",
+        "Yit",
+        "Yln",
+        "Yt",
+        "Z0t",
+        "ZFt",
+        "ZG",
+        "ZGt",
+        "ZJ",
+        "ZJt",
+        "ZN",
+        "ZV",
+        "ZXt",
+        "Zit",
+        "Zt",
+        "Zy",
+        "_A",
+        "_Et",
+        "_Jt",
+        "_Ut",
+        "_Yt",
+        "_ct",
+        "_gt",
+        "_lt",
+        "_zt",
+        "a3t",
+        "aEt",
+        "aR",
+        "aSt",
+        "aYt",
+        "ab",
+        "ah",
+        "aj",
+        "akt",
+        "aot",
+        "apt",
+        "atn",
+        "ayt",
+        "b8",
+        "bC",
+        "bK",
+        "bMt",
+        "bdt",
+        "bln",
+        "blt",
+        "bmn",
+        "bpn",
+        "c6t",
+        "cAt",
+        "cFt",
+        "cHt",
+        "cOt",
+        "cR",
+        "cT",
+        "ck",
+        "cot",
+        "ctn",
+        "d3t",
+        "dI",
+        "dKt",
+        "dW",
+        "dWt",
+        "dbt",
+        "dit",
+        "dpt",
+        "dyt",
+        "e0t",
+        "e4t",
+        "e9t",
+        "eA",
+        "eAt",
+        "eH",
+        "eP",
+        "eZt",
+        "eb",
+        "egt",
+        "ej",
+        "ekt",
+        "eo",
+        "eun",
+        "eut",
+        "f9t",
+        "fK",
+        "fKt",
+        "fW",
+        "fit",
+        "fk",
+        "flt",
+        "fpt",
+        "g7",
+        "g8",
+        "gJt",
+        "gMt",
+        "gPt",
+        "gRt",
+        "gSt",
+        "gUt",
+        "gct",
+        "gln",
+        "glt",
+        "gpn",
+        "gq",
+        "h7",
+        "h8",
+        "hEt",
+        "hI",
+        "hMt",
+        "hUt",
+        "hYt",
+        "hZt",
+        "hmn",
+        "hz",
+        "i6t",
+        "iAt",
+        "iH",
+        "iHt",
+        "ib",
+        "ih",
+        "iit",
+        "ij",
+        "in",
+        "it",
+        "itn",
+        "j3",
+        "jCt",
+        "jG",
+        "jHt",
+        "jMt",
+        "jN",
+        "jV",
+        "jXt",
+        "jZt",
+        "jfn",
+        "jit",
+        "jln",
+        "jrn",
+        "kF",
+        "kG",
+        "kL",
+        "kMt",
+        "kRt",
+        "kXt",
+        "kb",
+        "kbt",
+        "kit",
+        "kmn",
+        "krn",
+        "krt",
+        "kt",
+        "kw",
+        "kyt",
+        "l8",
+        "lHt",
+        "lI",
+        "lT",
+        "lTt",
+        "lUt",
+        "lW",
+        "lWt",
+        "lft",
+        "lit",
+        "lk",
+        "llt",
+        "ltn",
+        "lxt",
+        "m6t",
+        "m8",
+        "mI",
+        "mJt",
+        "mK",
+        "mOt",
+        "mR",
+        "mYt",
+        "mqt",
+        "mrn",
+        "mtn",
+        "mxt",
+        "mz",
+        "mzt",
+        "n",
+        "nFt",
+        "nKt",
+        "nTt",
+        "nV",
+        "nZt",
+        "nb",
+        "njt",
+        "nln",
+        "no",
+        "nq",
+        "nun",
+        "o3t",
+        "oAt",
+        "oHt",
+        "oR",
+        "ob",
+        "opt",
+        "out",
+        "pPt",
+        "pR",
+        "pRt",
+        "pSt",
+        "pZt",
+        "pk",
+        "pln",
+        "plt",
+        "pmn",
+        "pq",
+        "pqt",
+        "pzt",
+        "q4",
+        "q4t",
+        "qK",
+        "qKt",
+        "qP",
+        "qX",
+        "qYt",
+        "qft",
+        "qln",
+        "qqt",
+        "qt",
+        "qyt",
+        "r",
+        "r6t",
+        "rH",
+        "rHt",
+        "rJt",
+        "rTt",
+        "rV",
+        "rb",
+        "rjt",
+        "rn",
+        "ro",
+        "rq",
+        "rrn",
+        "rt",
+        "run",
+        "s3t",
+        "s6t",
+        "sAt",
+        "sEt",
+        "sOt",
+        "sR",
+        "sW",
+        "sYt",
+        "snn",
+        "stn",
+        "sxt",
+        "t",
+        "t6t",
+        "tP",
+        "tb",
+        "tit",
+        "tkt",
+        "tmt",
+        "to",
+        "tun",
+        "uFt",
+        "uHt",
+        "uSt",
+        "uUt",
+        "ubt",
+        "uft",
+        "uit",
+        "uln",
+        "uq",
+        "utn",
+        "v6",
+        "vOt",
+        "vit",
+        "vtn",
+        "vzt",
+        "w$t",
+        "wJt",
+        "wQ",
+        "wdt",
+        "wrn",
+        "wtn",
+        "xJt",
+        "xK",
+        "xRt",
+        "xdt",
+        "xmn",
+        "xpn",
+        "xu",
+        "y6",
+        "y8",
+        "yA",
+        "yKt",
+        "yMt",
+        "yYt",
+        "yit",
+        "ytn",
+        "yzt",
+        "z3",
+        "z8",
+        "zF",
+        "zJ",
+        "zO",
+        "zTt",
+        "zV",
+        "zl",
+        "zpn",
+        "zt"
+      ]
+    },
+    {
+      "from": "app-primary-4c40d73a1074.js",
+      "count": 211,
+      "names": [
+        "$",
+        "$b",
+        "$f",
+        "$w",
+        "$x",
+        "$y",
+        "A_",
+        "BT",
+        "Bo",
+        "Bu",
+        "Bw",
+        "Bx",
+        "CE",
+        "Ch",
+        "Cs",
+        "Cv",
+        "DE",
+        "Da",
+        "Dp",
+        "Dx",
+        "EE",
+        "ES",
+        "Ea",
+        "Ep",
+        "Fb",
+        "Fp",
+        "Ft",
+        "Fu",
+        "GT",
+        "Gh",
+        "It",
+        "Iu",
+        "J",
+        "Jh",
+        "Ji",
+        "Jn",
+        "Jo",
+        "Js",
+        "Jx",
+        "K",
+        "Kh",
+        "Lw",
+        "Mu",
+        "Nb",
+        "Nh",
+        "Nu",
+        "OE",
+        "Oa",
+        "Ob",
+        "Oo",
+        "Pb",
+        "Ph",
+        "Pp",
+        "Pu",
+        "Q",
+        "Qb",
+        "Qf",
+        "Qm",
+        "Qo",
+        "Qw",
+        "Qx",
+        "Rw",
+        "Rx",
+        "SE",
+        "Ss",
+        "St",
+        "Sv",
+        "Sx",
+        "TE",
+        "TS",
+        "Ta",
+        "Tf",
+        "Ud",
+        "Ux",
+        "VT",
+        "Vo",
+        "WT",
+        "Wd",
+        "Wx",
+        "X",
+        "Xb",
+        "Xs",
+        "Xw",
+        "Xx",
+        "Xy",
+        "Y",
+        "Y_",
+        "Yn",
+        "Yo",
+        "Ys",
+        "Yw",
+        "Yx",
+        "Z",
+        "Zb",
+        "Zw",
+        "Zx",
+        "Zy",
+        "_E",
+        "_n",
+        "_s",
+        "_t",
+        "aa",
+        "ab",
+        "ah",
+        "at",
+        "bt",
+        "ca",
+        "cb",
+        "ct",
+        "cu",
+        "cx",
+        "db",
+        "dr",
+        "dt",
+        "eS",
+        "eT",
+        "eb",
+        "eh",
+        "et",
+        "ex",
+        "fE",
+        "fp",
+        "fs",
+        "ft",
+        "fv",
+        "fy",
+        "gE",
+        "gS",
+        "gs",
+        "gt",
+        "hE",
+        "hS",
+        "hs",
+        "iS",
+        "iT",
+        "ia",
+        "ib",
+        "ih",
+        "it",
+        "j_",
+        "jb",
+        "jo",
+        "ju",
+        "l",
+        "la",
+        "lr",
+        "lt",
+        "lx",
+        "ms",
+        "n",
+        "nb",
+        "nh",
+        "ns",
+        "nt",
+        "nv",
+        "nx",
+        "oa",
+        "ob",
+        "oh",
+        "om",
+        "ot",
+        "pp",
+        "ps",
+        "pt",
+        "py",
+        "q",
+        "q_",
+        "qh",
+        "qi",
+        "rS",
+        "rT",
+        "ra",
+        "rb",
+        "rh",
+        "rm",
+        "rs",
+        "rt",
+        "rx",
+        "sE",
+        "sa",
+        "sb",
+        "sm",
+        "sr",
+        "st",
+        "su",
+        "t",
+        "tb",
+        "th",
+        "ts",
+        "tt",
+        "tv",
+        "tx",
+        "u",
+        "ua",
+        "ub",
+        "um",
+        "ur",
+        "ut",
+        "vn",
+        "vt",
+        "vv",
+        "wE",
+        "wf",
+        "wh",
+        "xE",
+        "xt",
+        "yt",
+        "zt",
+        "zu",
+        "zw",
+        "zx"
+      ]
+    },
+    {
+      "from": "quick-chat-floating-position-50d00104d2ad.js",
+      "count": 12,
+      "names": ["c", "d", "f", "g", "h", "i", "m", "n", "p", "r", "s", "t"]
+    },
+    {
+      "from": "state-42e575f64eb1.js",
+      "count": 11,
+      "names": ["a", "c", "d", "f", "h", "l", "m", "n", "o", "p", "s"]
+    },
+    {
+      "from": "environment-labels-655533fc7a67.js",
+      "count": 10,
+      "names": ["a", "c", "i", "l", "n", "o", "r", "s", "t", "u"]
+    },
+    {
+      "from": "worktree-environment-dropdown-ea1f88351d40.js",
+      "count": 8,
+      "names": ["a", "c", "i", "n", "o", "r", "s", "t"]
+    },
+    {
+      "from": "avatar-mascot-button-13f6c2a71e01.js",
+      "count": 7,
+      "names": ["a", "i", "m", "o", "p", "s", "u"]
+    },
+    {
+      "from": "plugin-picker-menu-content-8fa056f43456.js",
+      "count": 6,
+      "names": ["a", "i", "n", "o", "r", "t"]
+    },
+    {
+      "from": "composer-provider-7434c8b2fdca.js",
+      "count": 6,
+      "names": ["a", "i", "n", "o", "r", "t"]
+    },
+    {
+      "from": "codex-micro-mini-games-a9011e7b6c9f.js",
+      "count": 5,
+      "names": ["d", "l", "n", "s", "t"]
+    },
+    {
+      "from": "local-remote-dropdown-3788d6591891.js",
+      "count": 4,
+      "names": ["i", "n", "r", "t"]
+    },
+    {
+      "from": "optimistic-metadata-a01dfc49514b.js",
+      "count": 4,
+      "names": ["i", "n", "r", "t"]
+    },
+    {
+      "from": "use-git-recent-branches-4fc6d636eb07.js",
+      "count": 4,
+      "names": ["i", "n", "r", "t"]
+    },
+    {
+      "from": "thread-scroll-layout-4583603e4217.js",
+      "count": 3,
+      "names": ["n", "r", "t"]
+    },
+    {
+      "from": "modifiers.esm-667a798d9391.js",
+      "count": 3,
+      "names": ["i", "n", "t"]
+    },
+    {
+      "from": "rolldown-runtime-c05d78c594d1.js",
+      "count": 2,
+      "names": ["n", "o"]
+    },
+    {
+      "from": "browser-composer-disclaimer-72402b5f9ca1.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "lock-light-16-53cceab671fe.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "right-panel-composer-overlay-7bbacd6f9f94.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "content-quick-chat-overlay-4f38c1f284d2.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "unified-floating-composer.electron-d188e27a467a.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "thread-scroll-controller-context-value-6a9e93eb1505.js",
+      "count": 2,
+      "names": ["n", "r"]
+    },
+    {
+      "from": "codex-light-16-3986f0d27657.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "arrow-branch-light-16-cdf94f439042.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-create-git-repository-c0b61d3a555e.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "connector-logo-stack-25292da058a9.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "messages-e7d64bad4efd.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "realtime-voice-handoff-target-8621c40e6e89.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "collapse-f3eca6f029fa.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "quick-chat-frame-3ad7b171952a.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-floating-window-pointer-interactivity-4227999c8c97.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "local-conversation-thread-a2bcd054c9d2.js",
+      "count": 2,
+      "names": ["a", "n"]
+    },
+    {
+      "from": "quick-chat-window-e34d91db747a.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "toolbar-breadcrumb-76687ef37675.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-chatgpt-composer-controller-f59d12db17ed.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "chevron-up-right-chevron-down-left-sm-light-16-6ab4d5271af9.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "codex-pet-assets-16127cbc3056.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-git-submodule-paths-2adf56e7dea1.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-codex-worktrees-4816d4e23919.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "dock-de9acbce75c2.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "git-branch-picker-dropdown-content-16bc93de7d03.js",
+      "count": 2,
+      "names": ["lt", "ut"]
+    },
+    {
+      "from": "local-environment-workflow-messages-6e2a4950d847.js",
+      "count": 2,
+      "names": ["n", "t"]
+    }
+  ],
+  "hot_props": [
+    {
+      "name": "children",
+      "count": 557
+    },
+    {
+      "name": "className",
+      "count": 435
+    },
+    {
+      "name": "id",
+      "count": 326
+    },
+    {
+      "name": "description",
+      "count": 304
+    },
+    {
+      "name": "defaultMessage",
+      "count": 298
+    },
+    {
+      "name": "width",
+      "count": 121
+    },
+    {
+      "name": "y",
+      "count": 114
+    },
+    {
+      "name": "height",
+      "count": 113
+    },
+    {
+      "name": "x",
+      "count": 109
+    },
+    {
+      "name": "onClick",
+      "count": 72
+    },
+    {
+      "name": "null",
+      "count": 62
+    },
+    {
+      "name": "disabled",
+      "count": 53
+    },
+    {
+      "name": "enabled",
+      "count": 50
+    },
+    {
+      "name": "conversationId",
+      "count": 49
+    },
+    {
+      "name": "opacity",
+      "count": 47
+    },
+    {
+      "name": "data",
+      "count": 46
+    },
+    {
+      "name": "value",
+      "count": 43
+    },
+    {
+      "name": "style",
+      "count": 42
+    },
+    {
+      "name": "hostId",
+      "count": 41
+    },
+    {
+      "name": "duration",
+      "count": 40
+    },
+    {
+      "name": "left",
+      "count": 40
+    },
+    {
+      "name": "type",
+      "count": 39
+    },
+    {
+      "name": "values",
+      "count": 36
+    },
+    {
+      "name": "cwd",
+      "count": 35
+    },
+    {
+      "name": "top",
+      "count": 34
+    },
+    {
+      "name": "onSelect",
+      "count": 33
+    },
+    {
+      "name": "size",
+      "count": 33
+    },
+    {
+      "name": "variant",
+      "count": 33
+    },
+    {
+      "name": "isLoading",
+      "count": 30
+    },
+    {
+      "name": "LeftIcon",
+      "count": 29
+    },
+    {
+      "name": "RightIcon",
+      "count": 29
+    },
+    {
+      "name": "title",
+      "count": 27
+    },
+    {
+      "name": "asset",
+      "count": 27
+    },
+    {
+      "name": "ref",
+      "count": 26
+    },
+    {
+      "name": "color",
+      "count": 26
+    },
+    {
+      "name": "onOpenChange",
+      "count": 26
+    },
+    {
+      "name": "hostConfig",
+      "count": 24
+    },
+    {
+      "name": "source",
+      "count": 24
+    },
+    {
+      "name": "initial",
+      "count": 23
+    },
+    {
+      "name": "transition",
+      "count": 22
+    },
+    {
+      "name": "tooltipContent",
+      "count": 22
+    },
+    {
+      "name": "setComposerMode",
+      "count": 22
+    },
+    {
+      "name": "icon",
+      "count": 22
+    },
+    {
+      "name": "open",
+      "count": 22
+    },
+    {
+      "name": "surface",
+      "count": 20
+    },
+    {
+      "name": "get",
+      "count": 20
+    },
+    {
+      "name": "animate",
+      "count": 19
+    },
+    {
+      "name": "triggerButton",
+      "count": 19
+    },
+    {
+      "name": "composerMode",
+      "count": 19
+    },
+    {
+      "name": "tooltipText",
+      "count": 18
+    },
+    {
+      "name": "inert",
+      "count": 18
+    },
+    {
+      "name": "threadHandoff",
+      "count": 17
+    },
+    {
+      "name": "href",
+      "count": 16
+    },
+    {
+      "name": "ease",
+      "count": 16
+    },
+    {
+      "name": "collapse",
+      "count": 16
+    },
+    {
+      "name": "fill",
+      "count": 16
+    },
+    {
+      "name": "side",
+      "count": 15
+    },
+    {
+      "name": "level",
+      "count": 14
+    },
+    {
+      "name": "categoryLabel",
+      "count": 14
+    },
+    {
+      "name": "bottom",
+      "count": 14
+    },
+    {
+      "name": "frame",
+      "count": 14
+    },
+    {
+      "name": "currentBranch",
+      "count": 14
+    },
+    {
+      "name": "destinationLabel",
+      "count": 14
+    },
+    {
+      "name": "bonus",
+      "count": 13
+    },
+    {
+      "name": "role",
+      "count": 13
+    },
+    {
+      "name": "projectId",
+      "count": 13
+    },
+    {
+      "name": "valueClassName",
+      "count": 13
+    },
+    {
+      "name": "error",
+      "count": 13
+    },
+    {
+      "name": "right",
+      "count": 13
+    },
+    {
+      "name": "sessionId",
+      "count": 13
+    },
+    {
+      "name": "repoName",
+      "count": 13
+    },
+    {
+      "name": "queryKey",
+      "count": 13
+    },
+    {
+      "name": "hover",
+      "count": 12
+    },
+    {
+      "name": "text",
+      "count": 12
+    },
+    {
+      "name": "indicator",
+      "count": 12
+    },
+    {
+      "name": "active",
+      "count": 12
+    },
+    {
+      "name": "setSelectedEnvironment",
+      "count": 12
+    },
+    {
+      "name": "playing",
+      "count": 11
+    },
+    {
+      "name": "uniform",
+      "count": 11
+    },
+    {
+      "name": "retainRepoWatch",
+      "count": 11
+    },
+    {
+      "name": "gitRoot",
+      "count": 11
+    },
+    {
+      "name": "viewBox",
+      "count": 11
+    },
+    {
+      "name": "nativeSurfaceId",
+      "count": 11
+    },
+    {
+      "name": "composerViewState",
+      "count": 11
+    },
+    {
+      "name": "operation",
+      "count": 11
+    },
+    {
+      "name": "destinationHostId",
+      "count": 11
+    },
+    {
+      "name": "destinationWorkspaceRoot",
+      "count": 11
+    },
+    {
+      "name": "projectName",
+      "count": 10
+    },
+    {
+      "name": "shortcut",
+      "count": 10
+    },
+    {
+      "name": "workspaceRoot",
+      "count": 10
+    },
+    {
+      "name": "isFetching",
+      "count": 10
+    },
+    {
+      "name": "state",
+      "count": 10
+    },
+    {
+      "name": "action",
+      "count": 10
+    },
+    {
+      "name": "onPointerEnter",
+      "count": 10
+    },
+    {
+      "name": "onPointerLeave",
+      "count": 10
+    },
+    {
+      "name": "filter",
+      "count": 10
+    },
+    {
+      "name": "scale",
+      "count": 10
+    },
+    {
+      "name": "selectedEnvironment",
+      "count": 10
+    },
+    {
+      "name": "placement",
+      "count": 9
+    },
+    {
+      "name": "radius",
+      "count": 9
+    },
+    {
+      "name": "onResize",
+      "count": 9
+    },
+    {
+      "name": "event",
+      "count": 9
+    },
+    {
+      "name": "name",
+      "count": 9
+    },
+    {
+      "name": "align",
+      "count": 9
+    },
+    {
+      "name": "staleTime",
+      "count": 9
+    },
+    {
+      "name": "autoFocus",
+      "count": 9
+    },
+    {
+      "name": "before",
+      "count": 9
+    },
+    {
+      "name": "isCompact",
+      "count": 9
+    },
+    {
+      "name": "shape",
+      "count": 9
+    },
+    {
+      "name": "maximumSize",
+      "count": 9
+    },
+    {
+      "name": "minimumSize",
+      "count": 9
+    },
+    {
+      "name": "onResizeEnd",
+      "count": 9
+    },
+    {
+      "name": "onResizingChange",
+      "count": 9
+    },
+    {
+      "name": "onClose",
+      "count": 9
+    },
+    {
+      "name": "label",
+      "count": 9
+    },
+    {
+      "name": "character",
+      "count": 8
+    },
+    {
+      "name": "body",
+      "count": 8
+    },
+    {
+      "name": "kind",
+      "count": 8
+    },
+    {
+      "name": "menuOpen",
+      "count": 8
+    },
+    {
+      "name": "compact",
+      "count": 8
+    },
+    {
+      "name": "conversationTitle",
+      "count": 8
+    },
+    {
+      "name": "featuredPlugins",
+      "count": 8
+    },
+    {
+      "name": "onFocusCapture",
+      "count": 8
+    },
+    {
+      "name": "onPointerDown",
+      "count": 8
+    },
+    {
+      "name": "placeholder",
+      "count": 8
+    },
+    {
+      "name": "foreground",
+      "count": 8
+    },
+    {
+      "name": "listToShow",
+      "count": 8
+    },
+    {
+      "name": "refetch",
+      "count": 8
+    },
+    {
+      "name": "velocityX",
+      "count": 7
+    },
+    {
+      "name": "velocityY",
+      "count": 7
+    },
+    {
+      "name": "reducedMotion",
+      "count": 7
+    },
+    {
+      "name": "contentWidth",
+      "count": 7
+    },
+    {
+      "name": "onMenuOpenChange",
+      "count": 7
+    },
+    {
+      "name": "prefersReducedMotion",
+      "count": 7
+    },
+    {
+      "name": "transform",
+      "count": 7
+    },
+    {
+      "name": "onPointerMove",
+      "count": 7
+    },
+    {
+      "name": "tone",
+      "count": 7
+    },
+    {
+      "name": "target",
+      "count": 7
+    },
+    {
+      "name": "onChange",
+      "count": 7
+    },
+    {
+      "name": "canvas",
+      "count": 7
+    },
+    {
+      "name": "inkBounds",
+      "count": 7
+    },
+    {
+      "name": "visualBounds",
+      "count": 7
+    },
+    {
+      "name": "paint",
+      "count": 7
+    },
+    {
+      "name": "optical",
+      "count": 7
+    },
+    {
+      "name": "bounds",
+      "count": 7
+    },
+    {
+      "name": "center",
+      "count": 7
+    },
+    {
+      "name": "insets",
+      "count": 7
+    },
+    {
+      "name": "anchors",
+      "count": 7
+    },
+    {
+      "name": "ink",
+      "count": 7
+    },
+    {
+      "name": "capabilities",
+      "count": 7
+    },
+    {
+      "name": "owner",
+      "count": 7
+    },
+    {
+      "name": "presentation",
+      "count": 7
+    },
+    {
+      "name": "queryFn",
+      "count": 7
+    },
+    {
+      "name": "params",
+      "count": 7
+    },
+    {
+      "name": "closeDropdown",
+      "count": 7
+    },
+    {
+      "name": "rightIcon",
+      "count": 7
+    },
+    {
+      "name": "Yt",
+      "count": 7
+    },
+    {
+      "name": "openOperation",
+      "count": 7
+    },
+    {
+      "name": "branchName",
+      "count": 7
+    },
+    {
+      "name": "hasMultipleProjectRoots",
+      "count": 7
+    },
+    {
+      "name": "isLocalModeRemote",
+      "count": 7
+    },
+    {
+      "name": "primaryRepoName",
+      "count": 7
+    },
+    {
+      "name": "crossHostHandoffEnabled",
+      "count": 7
+    },
+    {
+      "name": "localWorkspaceRootForHandoff",
+      "count": 7
+    },
+    {
+      "name": "openHostWorktreeHandoffDialog",
+      "count": 7
+    },
+    {
+      "name": "R",
+      "count": 7
+    },
+    {
+      "name": "initiator",
+      "count": 6
+    },
+    {
+      "name": "status",
+      "count": 6
+    },
+    {
+      "name": "onExit",
+      "count": 6
+    },
+    {
+      "name": "Icon",
+      "count": 6
+    },
+    {
+      "name": "SubText",
+      "count": 6
+    },
+    {
+      "name": "projectlessTriggerLabel",
+      "count": 6
+    },
+    {
+      "name": "subtleHover",
+      "count": 6
+    },
+    {
+      "name": "connectionDisplayName",
+      "count": 6
+    },
+    {
+      "name": "projectPath",
+      "count": 6
+    },
+    {
+      "name": "connectedPlugins",
+      "count": 6
+    },
+    {
+      "name": "defaultConnectedPluginLimit",
+      "count": 6
+    },
+    {
+      "name": "hasLoadError",
+      "count": 6
+    },
+    {
+      "name": "onConnectPlugin",
+      "count": 6
+    },
+    {
+      "name": "onOpenPluginDirectory",
+      "count": 6
+    },
+    {
+      "name": "workRecommendationsHostId",
+      "count": 6
+    },
+    {
+      "name": "alt",
+      "count": 6
+    },
+    {
+      "name": "query",
+      "count": 6
+    },
+    {
+      "name": "onWheel",
+      "count": 6
+    },
+    {
+      "name": "focus",
+      "count": 6
+    },
+    {
+      "name": "browserTabId",
+      "count": 6
+    },
+    {
+      "name": "shouldAnimate",
+      "count": 6
+    },
+    {
+      "name": "onBlurCapture",
+      "count": 6
+    },
+    {
+      "name": "d",
+      "count": 6
+    },
+    {
+      "name": "count",
+      "count": 6
+    },
+    {
+      "name": "layout",
+      "count": 6
+    },
+    {
+      "name": "onUpdate",
+      "count": 6
+    },
+    {
+      "name": "isMinimized",
+      "count": 6
+    },
+    {
+      "name": "lastAt",
+      "count": 6
+    },
+    {
+      "name": "damping",
+      "count": 6
+    },
+    {
+      "name": "onKeyDown",
+      "count": 6
+    },
+    {
+      "name": "hasConversation",
+      "count": 6
+    },
+    {
+      "name": "activated",
+      "count": 6
+    },
+    {
+      "name": "captured",
+      "count": 6
+    },
+    {
+      "name": "progress",
+      "count": 6
+    },
+    {
+      "name": "envListState",
+      "count": 6
+    },
+    {
+      "name": "branch",
+      "count": 6
+    },
+    {
+      "name": "executionTarget",
+      "count": 6
+    },
+    {
+      "name": "showCrossHostHandoff",
+      "count": 6
+    },
+    {
+      "name": "distance",
+      "count": 5
+    },
+    {
+      "name": "measureText",
+      "count": 5
+    },
+    {
+      "name": "direction",
+      "count": 5
+    },
+    {
+      "name": "requiresEmptyComposer",
+      "count": 5
+    },
+    {
+      "name": "operationSource",
+      "count": 5
+    },
+    {
+      "name": "contentMaxHeight",
+      "count": 5
+    },
+    {
+      "name": "pluginHostId",
+      "count": 5
+    },
+    {
+      "name": "selectedModel",
+      "count": 5
+    },
+    {
+      "name": "onLatestTurnExpandedChange",
+      "count": 5
+    },
+    {
+      "name": "mascot",
+      "count": 5
+    },
+    {
+      "name": "visibleBounds",
+      "count": 5
+    },
+    {
+      "name": "onSubmit",
+      "count": 5
+    },
+    {
+      "name": "isExpanded",
+      "count": 5
+    },
+    {
+      "name": "startedAt",
+      "count": 5
+    },
+    {
+      "name": "ariaLabel",
+      "count": 5
+    },
+    {
+      "name": "onLostPointerCapture",
+      "count": 5
+    },
+    {
+      "name": "onPointerCancel",
+      "count": 5
+    },
+    {
+      "name": "onPointerUp",
+      "count": 5
+    },
+    {
+      "name": "delayOpen",
+      "count": 5
+    },
+    {
+      "name": "currentSize",
+      "count": 5
+    },
+    {
+      "name": "heightLabel",
+      "count": 5
+    },
+    {
+      "name": "widthLabel",
+      "count": 5
+    },
+    {
+      "name": "includeInteractiveRegion",
+      "count": 5
+    },
+    {
+      "name": "keysLabel",
+      "count": 5
+    },
+    {
+      "name": "i",
+      "count": 5
+    },
+    {
+      "name": "conversations",
+      "count": 5
+    },
+    {
+      "name": "onConversationSelect",
+      "count": 5
+    },
+    {
+      "name": "portalContainer",
+      "count": 5
+    },
+    {
+      "name": "authMethod",
+      "count": 5
+    },
+    {
+      "name": "workspaceRootLabels",
+      "count": 5
+    },
+    {
+      "name": "defaultBranch",
+      "count": 5
+    },
+    {
+      "name": "handoffBranch",
+      "count": 5
+    },
+    {
+      "name": "hostDisplayName",
+      "count": 5
+    },
+    {
+      "name": "sourceGitRoot",
+      "count": 5
+    },
+    {
+      "name": "sourceWorkspaceRoot",
+      "count": 5
+    },
+    {
+      "name": "workspaceName",
+      "count": 4
+    },
+    {
+      "name": "workspace",
+      "count": 4
+    },
+    {
+      "name": "n",
+      "count": 4
+    },
+    {
+      "name": "r",
+      "count": 4
+    },
+    {
+      "name": "animateEntrance",
+      "count": 4
+    },
+    {
+      "name": "onFrame",
+      "count": 4
+    },
+    {
+      "name": "t",
+      "count": 4
+    },
+    {
+      "name": "rows",
+      "count": 4
+    },
+    {
+      "name": "_",
+      "count": 4
+    },
+    {
+      "name": "onProjectChange",
+      "count": 4
+    },
+    {
+      "name": "g",
+      "count": 4
+    }
+  ],
+  "literal_count": 1837,
+  "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals\\composer.json"
+}

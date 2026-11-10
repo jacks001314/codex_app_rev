@@ -1,0 +1,5305 @@
+{
+ "module": "spaces",
+ "generated_at": "2026-10-23T01:17:24.760Z",
+ "files_scanned": 49,
+ "message_count": 296,
+ "messages": [
+  {
+   "id": "AccountPaymentModal.extendNoPaymentTrial",
+   "text": "Extend free trial",
+   "description": "Plus pricing card CTA for a no-payment trial with an eligible free-month extension.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AccountPaymentModal.noPaymentTrialEndingTitle",
+   "text": "Your trial is ending in {days} days.<br></br>Keep access to ChatGPT Plus.",
+   "description": "Pricing heading during a no-payment Plus trial without a free extension. Days is the remaining whole-day countdown; br starts a new line.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AccountPaymentModal.noPaymentTrialEndsTodayTitle",
+   "text": "Your trial ends today.<br></br>Keep access to ChatGPT Plus.",
+   "description": "Pricing heading on the last day of a no-payment Plus trial without a free extension. br starts a new line.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AccountPaymentModal.noPaymentTrialExtensionTitle",
+   "text": "Get 30 more days of Plus, free",
+   "description": "Pricing heading for a no-payment Plus trial with an eligible free-month extension offer.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AccountPaymentModal.upgradeNoPaymentTrial",
+   "text": "Upgrade to Plus",
+   "description": "Plus pricing card CTA for a no-payment trial without a free extension offer.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pricing.paidPlanCta.button.buyNow",
+   "text": "Buy now",
+   "description": null,
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pricing.paidPlanCta.button.getStarted",
+   "text": "Get started",
+   "description": null,
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pricing.paidPlanCta.button.startNow",
+   "text": "Start now",
+   "description": null,
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.import.action",
+   "text": "Import",
+   "description": "Open the dialog to import content as a new Page in this Space",
+   "files": [
+    "_deps/page-3ee246ddc74a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.invitation.accountUnavailable",
+   "text": "We couldn’t verify the account for this invitation",
+   "description": "A Page or Space invitation targets a personal account but the signed-in account metadata is unavailable",
+   "files": [
+    "pages/space-page-15df017942a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.activity",
+   "text": "Activity",
+   "description": "Accessible label for the Space activity bell",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.activityUnread",
+   "text": "Activity, unread notifications",
+   "description": "Accessible label for the Space activity bell when there are unread notifications",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.dateGroup",
+   "text": "{group, select, today {Today} yesterday {Yesterday} other {Earlier}}",
+   "description": "Heading grouping Page notifications by their date relative to today",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.emptyDescription",
+   "text": "You’ll get notified when someone shares something with you or mentions you.",
+   "description": "Explanation below the empty Space notification history",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.emptyTitle",
+   "text": "No notifications yet",
+   "description": "Heading for a completely empty Space notification history",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.filter",
+   "text": "Filter notifications",
+   "description": "Open notification filter menu",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.filterAll",
+   "text": "All notifications",
+   "description": "Show both read and unread Page notifications",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.filterUnread",
+   "text": "Unread only",
+   "description": "Show only unread Page notifications",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.inboxError",
+   "text": "Could not load mentions",
+   "description": "Error in the Page mentions inbox when notifications cannot be loaded",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.inboxLoading",
+   "text": "Loading mentions…",
+   "description": "Loading state while fetching the current workspace's Page mentions inbox",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.markAllRead",
+   "text": "Mark all as read",
+   "description": "Mark every unread Page notification in this workspace as read",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.more",
+   "text": "Show more",
+   "description": "Loads the next page of mention notifications",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.noMatches",
+   "text": "No matching mentions",
+   "description": "Empty state when loaded Page mentions do not match the search",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.notificationSentenceWithActorProfile",
+   "text": "{knownActor, select, true {<actorName>{actor}</actorName>} other {Someone}} mentioned you in {page}",
+   "description": "Notification sentence. actor is the person who mentioned the recipient; page is the full Page title.",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.noUnreadNotifications",
+   "text": "No unread notifications",
+   "description": "Empty state when no notifications remain in the unread filter",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.openError",
+   "text": "Could not open this mention. Try again.",
+   "description": "Error when marking a Page mention notification read before navigating to its target",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.retry",
+   "text": "Try again",
+   "description": "Button that retries loading Page mention notifications",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.showLess",
+   "text": "Show less",
+   "description": "Collapse the mentions preview on Space home",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.unread",
+   "text": "Unread",
+   "description": "Accessible indication that a Page mention notification has not been read",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.mentions.viewAll",
+   "text": "View all",
+   "description": "Expand the mentions preview on Space home",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.archive.cancel",
+   "text": "Cancel",
+   "description": "Button label to cancel deleting a shared Space",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.archive.confirm",
+   "text": "Delete",
+   "description": "Button label to confirm deleting a shared Space",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.archive.descriptionWithoutRestore",
+   "text": "This space will move to Trash. You can restore it from Library Trash.",
+   "description": "Explanation shown before deleting a shared Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.archive.descriptionWithoutRestore.space",
+   "text": "This space will move to Trash. You can still restore it from Trash.",
+   "description": "Explanation shown before deleting a shared Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.archive.descriptionWithRetention",
+   "text": "This space and its pages will move to Trash and be permanently deleted after {days, plural, one {# day} other {# days}}. You can restore them from Library Trash before then.",
+   "description": "Explanation before deleting a shared Space when automatic deletion is enabled. Days is the number of days the newly deleted Space and its pages are retained before permanent deletion. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.archive.descriptionWithRetention.space",
+   "text": "This space and its pages will move to Trash and be permanently deleted after {days, plural, one {# day} other {# days}}. You can restore them before then.",
+   "description": "Explanation before deleting a shared Space when automatic deletion is enabled. Days is the number of days the newly deleted Space and its pages are retained before permanent deletion. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.archive.title",
+   "text": "Delete {title}?",
+   "description": "Title of the confirmation dialog for deleting a shared Space",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.discard",
+   "text": "Discard changes",
+   "description": "Button that discards the unsaved Create Space form and closes it",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.discardDescription",
+   "text": "Your changes will be lost",
+   "description": "Warning that closing the Create Space form discards its entered name, icon, and invitation selections",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.discardTitle",
+   "text": "Discard changes?",
+   "description": "Title of the confirmation dialog before closing a Create Space form with unsaved changes",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.invitationsUnavailable",
+   "text": "Invitations are unavailable right now. You can create the space and share it later",
+   "description": "Shown when invitation permissions cannot be loaded or the account does not support sharing; creation without invitations is still available. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.invitedRecipients",
+   "text": "People and teams",
+   "description": "Heading above people and Teams selected for invitation to a new Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.invitePeople",
+   "text": "Invite people",
+   "description": "Disclosure button that reveals invitation controls while creating a Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.keepEditing",
+   "text": "Keep editing",
+   "description": "Button that returns to the Create Space form while preserving all entered changes",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.loadingInvitations",
+   "text": "Loading invitation options…",
+   "description": "Status while checking whether people and Teams can be invited to a new Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.noRecipients",
+   "text": "No matching people or teams",
+   "description": "Empty result in the people and Teams search when creating a Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.overview.about",
+   "text": "About {spaceName}",
+   "description": "Section heading in a new Space's starter Page; spaceName is the name entered when creating the Space",
+   "files": [
+    "pages/space-root-setup-e71e232447d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.overview.aboutPrompt",
+   "text": "Describe what this space is for, or ask ChatGPT to help you get started",
+   "description": "Editable introductory text in a new Space's starter Page, above an interactive prompt that starts a chat. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-root-setup-e71e232447d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.overview.helpPrompt",
+   "text": "Help me write a short introduction for this space. First ask me what it is for, then use my answer to update this page",
+   "description": "Editable prompt in a new Space's starter Page. The user explicitly activates it to start a chat about the current Page; ChatGPT should ask a question before writing the introduction. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-root-setup-e71e232447d6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.peopleAndTeamsPlaceholder",
+   "text": "People or teams",
+   "description": "Placeholder and accessible label for the people and Teams invitation search when creating a Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.peoplePlaceholder",
+   "text": "People",
+   "description": "Placeholder and accessible label for the person invitation search when creating a Space without Team discovery",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.removeInvitation",
+   "text": "Remove invitation",
+   "description": "Menu action that removes a selected person or Team before creating the Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.searchingRecipients",
+   "text": "Searching for people or teams",
+   "description": "Status while searching for recipients to invite when creating a Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.submit",
+   "text": "Create",
+   "description": "Button that creates the named team Space and invites the selected people and Teams",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.title",
+   "text": "Create a space",
+   "description": "Title of the dialog for creating a Space with optional people and Team invitations. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.creation.workspaceDefault",
+   "text": "Make it workspace default space",
+   "description": "Checkbox offered to workspace admins when creating a Space. The selected Space will appear for everyone in the workspace.",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.driveSharing.subtitle",
+   "text": "Access applies to every page in this space",
+   "description": "Explanation in the Space sharing dialog that collaborators inherit access to all its Pages. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.files.title",
+   "text": "Files",
+   "description": "Heading for external files of all types in Space",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.libraryAppearance.saveError",
+   "text": "Could not save space appearance",
+   "description": "Toast shown when saving a Library Space icon and color fails. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-appearance-button-cab15cc62ff2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.openError",
+   "text": "Could not open space",
+   "description": "Error shown when the current account cannot load a Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-3ee246ddc74a.js",
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "codex.space.page.actions.loading",
+   "text": "Loading actions…",
+   "description": "Disabled menu item while permissions for a Page are loading",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.artifact.openError",
+   "text": "Could not open this artifact",
+   "description": "Error shown when an artifact linked in a Page is no longer available",
+   "files": [
+    "_deps/open-e59c2dc64ba2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.copyMarkdownError",
+   "text": "Could not copy page",
+   "description": "Notification when loading a Page to copy its Markdown fails",
+   "files": [
+    "_deps/page-menu-document-f4e5cf204ea3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.create",
+   "text": "New page",
+   "description": "Accessible label and tooltip for the button that creates a top-level shared Page inside Space",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.createError",
+   "text": "Could not create page",
+   "description": "Toast displayed when creating a shared Page fails",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js",
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "codex.space.page.editorPreviewLabel",
+   "text": "Page document preview",
+   "description": "Accessible label for the temporary read-only preview shown while a large Page prepares its full editor",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.loading",
+   "text": "Loading pages…",
+   "description": "Accessible announcement while shared Pages are loading",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.retry",
+   "text": "Try again",
+   "description": "Button that retries loading shared Pages after a failure",
+   "files": [
+    "_deps/page-3ee246ddc74a.js",
+    "_deps/page-9181340ae938.js",
+    "_deps/pinned-pages-ceb6bb4900b3.js",
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.space.page.search.empty",
+   "text": "No matching pages",
+   "description": "Message shown in the Space sidebar when no loaded shared Page titles, previews, exact IDs, or Space names match the current search",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.search.label",
+   "text": "Search pages",
+   "description": "Accessible label for the Space sidebar input that shows flat ranked matches from loaded shared Page and Space metadata",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.search.loadError",
+   "text": "Could not load all search results",
+   "description": "Message shown when shared Page or Space metadata needed for sidebar search is unavailable and no usable matching results remain",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.search.loading",
+   "text": "Searching pages…",
+   "description": "Accessible announcement while loaded shared Page and Space metadata is being prepared for sidebar search",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.search.placeholder",
+   "text": "Search pages",
+   "description": "Placeholder in the Space sidebar input for searching shared Page titles, previews, and IDs",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.search.refreshError",
+   "text": "Could not refresh all search results",
+   "description": "Message shown above usable cached shared Page search results when refreshing Page or Space metadata fails",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.symbol.change",
+   "text": "Change icon",
+   "description": "Accessible label and tooltip for the shared Page and Space symbol picker beside the title",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.archive",
+   "text": "Trash",
+   "description": "Opens Trash to restore deleted Files, Pages, and Spaces",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.archivedDescription",
+   "text": "Restore deleted items to see them in Spaces again",
+   "description": "Explanation for the Page and Space recovery lists in Library Trash. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.archivedDescriptionWithRetention",
+   "text": "Newly deleted items are permanently deleted after {days, plural, one {# day} other {# days}}. Restore items to see them in Spaces again.",
+   "description": "Explanation for the Page and Space lists in Library Trash when automatic deletion is enabled. Older items may have been deleted before this policy applied. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.archivedLoadError",
+   "text": "Some deleted items could not be loaded",
+   "description": "Partial loading error for the Page and Space recovery lists in Library Trash",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.archiveError",
+   "text": "Could not delete space",
+   "description": "Notification shown when deleting a shared Space owned by the signed-in person fails. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-archive-confirmation-dialog-52b8bf081351.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.backToSpaces",
+   "text": "Back to spaces",
+   "description": "Accessible label for the button that returns from a focused Space to the Spaces list. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.loadError",
+   "text": "Could not load pages",
+   "description": "Message displayed in the Space sidebar when shared Pages cannot be loaded",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.loadingRecentItems",
+   "text": "Loading recent items…",
+   "description": "Screen reader announcement while recent Pages, files, and Sites load in the Space sidebar",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.pinItem",
+   "text": "Pin {title}",
+   "description": "Action for pinning a shared Page or Space named {title} to the sidebar's Pinned section",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.restoreError",
+   "text": "Could not restore item",
+   "description": "Notification when restoring a deleted Page or Space from Trash fails",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.restoreSpace",
+   "text": "Restore Space",
+   "description": "Restore a deleted Space and its Pages from Trash. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.searchProjectPages",
+   "text": "Search pages",
+   "description": "Show or hide Page search in the focused Space sidebar",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.spaceDialogCancel",
+   "text": "Cancel",
+   "description": "Button that cancels creating a shared Space",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.spaceNameLabel",
+   "text": "Space name",
+   "description": "Accessible label for the input containing a new shared Space's name. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.spaceNamePlaceholder",
+   "text": "Name the topic or group",
+   "description": "Placeholder for the input containing a new shared Space's name",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.spaceSetupNeedsAttention",
+   "text": "Space setup needs attention",
+   "description": "Toast displayed when a shared Space setup needs retry or recovery. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-e4040a2fa18d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.spacesLoadError",
+   "text": "Could not load spaces",
+   "description": "Message displayed above loose Pages when shared Spaces cannot be loaded. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.spacesRetry",
+   "text": "Try again",
+   "description": "Button that retries loading shared Spaces after a failure",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.unpinItem",
+   "text": "Unpin {title}",
+   "description": "Action for unpinning a shared Page or Space named {title} from the sidebar's Pinned section",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sites.title",
+   "text": "Sites",
+   "description": "Title of the built-in Sites page in Spaces",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.deleteDescription",
+   "text": "{count, plural, one {\"{name}\" will be deleted forever. This can't be undone.} other {These # selected pages will be deleted forever. This can't be undone.}}",
+   "description": "Irreversible deletion confirmation for Pages Trash. count is the number of selected Pages; name is the title of the single selected Page.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.deleteError",
+   "text": "Some pages couldn't be deleted. Try again.",
+   "description": "Pages Trash failure toast when loading all trashed Pages or permanently deleting one or more Pages fails. Failed Pages remain available for retry.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.emptyDescription",
+   "text": "Pages in Trash will be deleted forever. This can't be undone.",
+   "description": "Warning in the Empty pages trash confirmation. Confirming permanently deletes all trashed Pages, including those not loaded or matching the current search.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.emptyPages",
+   "text": "Empty pages trash",
+   "description": "Trash banner button to open the confirmation for permanently deleting all trashed Pages",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.items.empty",
+   "text": "{kind, select, page {No pages in Trash} other {No spaces in Trash}}",
+   "description": "Empty state for the selected Page or Space recovery list in Library Trash. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.items.label",
+   "text": "{kind, select, page {Pages in Trash} other {Spaces in Trash}}",
+   "description": "Accessible label for the selected Page or Space recovery list in Library Trash. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.pages.empty",
+   "text": "No pages found",
+   "description": "Empty state for Pages in Library Trash when there are no deleted Pages or none match the search",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.pagesDescription",
+   "text": "Restore pages you've recently deleted. Pages are deleted forever after 30 days.",
+   "description": "Banner above Pages Trash explaining restoration and the 30 day retention period",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.restore",
+   "text": "Restore",
+   "description": "Action in a deleted Page's overflow menu in Library Trash that restores the Page and its nested Pages",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.restoreTitle",
+   "text": "{count, plural, one {Restore page} other {Restore selected pages}}",
+   "description": "Title of the Pages Trash restore confirmation, count is the number of selected Pages",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.restoreToSpace",
+   "text": "{count, plural, one {\"{name}\" will be restored to your Space} other {These # selected pages will be restored to your Space}}",
+   "description": "Restoration confirmation for deleted Pages. count is the number of Pages; name is the title of the single selected Page. Space is the product destination. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.selectAll",
+   "text": "{selected, select, true {Clear selection} other {Select all}}",
+   "description": "Pages Trash header checkbox, clears an existing selection or selects all loaded Pages",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.trash.selectPage",
+   "text": "Select {name}",
+   "description": "Select a deleted Page in Trash; name is its title",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "frequency",
+   "text": "month",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "frequencyWithTaxInformation",
+   "text": "month (including {tax_type})",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "frequencyWithTaxInformationIncludingAmount",
+   "text": "month (includes {vat_amount} of {tax_type})",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.budgetPlanner",
+   "text": "Budget planner",
+   "description": "Title for a spreadsheet template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.contentCalendar",
+   "text": "Content calendar",
+   "description": "Title for a spreadsheet template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.designReview",
+   "text": "Design review",
+   "description": "Title for a presentation template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.loadError",
+   "text": "Unable to load templates",
+   "description": "Template catalog loading failure",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.meetingNotes",
+   "text": "Meeting notes",
+   "description": "Title for a document template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.monthlyBusinessReview",
+   "text": "Monthly Business Review",
+   "description": "Title for a presentation template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.projectBrief",
+   "text": "Project brief",
+   "description": "Title for a document template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.projectTracker",
+   "text": "Project tracker",
+   "description": "Title for a spreadsheet template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.reportOutline",
+   "text": "Report outline",
+   "description": "Title for a document template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.salesDiscovery",
+   "text": "Sales discovery",
+   "description": "Title for a presentation template card",
+   "files": [
+    "_deps/local-template-catalog-2eeca06107ff.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.useTemplate.prompt",
+   "text": "Use the {templateName} template.",
+   "description": "Composer text added after selecting an artifact template",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.emptyTrash.shortAction",
+   "text": "Empty trash",
+   "description": "Trash banner action that opens a confirmation before permanently deleting items of the selected type",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.trash.actions.permanentlyDelete",
+   "text": "Permanently delete",
+   "description": "Overflow menu action that asks for confirmation before permanently deleting one Library file from Trash",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.actions.menu",
+   "text": "Open actions menu for {name}",
+   "description": "Accessible label for a Library item's overflow menu; name is the file or folder title",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.delete.foreverTitle",
+   "text": "Delete forever",
+   "description": "Title of the irreversible deletion confirmation for Library Trash files",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.filters.images",
+   "text": "Images",
+   "description": "Library image category, shown as a tab, filter menu option, or selected filter chip",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.results.lastActivity",
+   "text": "Last activity",
+   "description": "Library list activity column heading",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.results.name",
+   "text": "Name",
+   "description": "Library list name column heading",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.results.retry",
+   "text": "Try again",
+   "description": "Retry fetching Library results",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js",
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "libraryNext.results.source",
+   "text": "Source",
+   "description": "Column showing the Space an item belongs to",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.trash.confirmAction",
+   "text": "{action, select, restore {Restore} other {Delete forever}}",
+   "description": "Confirmation button for a Library Trash action. action is restore for a reversible restoration or deleteForever for irreversible deletion.",
+   "files": [
+    "pages/space-trash-items-918b69583cc4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.create.menu",
+   "text": "Create new",
+   "description": "Open the menu for creating a Page or another supported document",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.newWindow.unavailable",
+   "text": "This new Page could not be restored",
+   "description": "Shown when an unsaved Page window cannot safely resume creation after reload or an account change",
+   "files": [
+    "pages/space-page-15df017942a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.newWindow.unavailableDescription",
+   "text": "Check Personal for a Page that may already have been created, or open a new Page from Space",
+   "description": "Recovery advice when a new Page window lost its in-memory creation state; Personal and Space name navigation destinations",
+   "files": [
+    "pages/space-page-15df017942a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.sharedViewer.returnToChatGPT",
+   "text": "Back to ChatGPT",
+   "description": "Leave the shared Page viewer and return to the normal ChatGPT website",
+   "files": [
+    "pages/space-page-15df017942a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessBenefits.dataPrivacy",
+   "text": "No model training on your business data by default",
+   "description": "Eighth benefit on the signed-in Business pricing card in both copy treatments and their checkout loading screens. Business data is not used to train models by default.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessBenefits.dotsPremium.literal",
+   "text": "Dots, your always-on agents built to handle everything (Available on Premium)",
+   "description": "First benefit on the signed-in Business pricing card in the productivity experiment and its checkout loading screen. Dots is the product name for always-on agents; keep Dots untranslated. Premium seats are the higher-usage Business seat option; retain that restriction so Standard-seat buyers are not promised this feature.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessBenefits.sharedTasks",
+   "text": "Shared tasks – so your team can do more by delegating busy work",
+   "description": "First benefit on the signed-in Business pricing card in the collaboration experiment. Shared tasks let teammates delegate routine work to agents. Keep this benefit concise; it is shown above the existing workspace benefits.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessBenefits.spaceCollaboration",
+   "text": "ChatGPT Space to collaborate with your team and AI",
+   "description": "Second benefit on the signed-in Business pricing card in the collaboration experiment. ChatGPT Space is the product name for a shared place to work with teammates and agents. Preserve the product name and keep the benefit concise.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessBenefits.spaceDocumentation",
+   "text": "ChatGPT Space to organize project and files you build with AI",
+   "description": "Second benefit on the signed-in Business pricing card in the productivity experiment. ChatGPT Space is the product name for a place to organize work documents. Preserve the product name and keep the benefit concise.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.description.priceFirst",
+   "text": "A secure workspace with company context",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.billing.centralizedAdministration",
+   "text": "Centralized billing and administration",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.connectedTools.workspaceIntegrations",
+   "text": "Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.dataPrivacy.noTrainingByDefault",
+   "text": "No training on your business data by default",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.deviceAccess",
+   "text": "Access across desktop, web, and mobile",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.includedProducts",
+   "text": "All ChatGPT, ChatGPT Work, and Codex features",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.seatTypes.mixAndMatch",
+   "text": "Mix and match seat types",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.usage.analyticsAndSpendControls",
+   "text": "Usage analytics and spend controls",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.workspaceAgents.customizedWorkflows",
+   "text": "Workspace agents for customized workflows",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.feature.workspaceSecurity.ssoMfa",
+   "text": "Secure workspace with SAML, SSO, and MFA",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.features.heading",
+   "text": "Designed for workspaces:",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.public.description.flexibleSeats",
+   "text": "A secure workspace with company context and flexible seat types for any budget.",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.businessPremium.seat.standard.description.everydayWork",
+   "text": "Best for everyday work",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.adsHelp",
+   "text": "This plan may include ads. <link>Learn more</link>",
+   "description": "Go plan footer linking to information about advertisements",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.annual",
+   "text": "Annual",
+   "description": "Annual billing option",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.audience",
+   "text": "Plan type",
+   "description": "Accessible label for choosing personal or business plans",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.billingHelp",
+   "text": "Have an existing plan? <link>See billing help</link>",
+   "description": "Free plan footer linking to billing support for existing subscribers",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.billingPeriod",
+   "text": "Billing period",
+   "description": "Accessible label for the Business annual or monthly billing selector",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.businessHelp",
+   "text": "For teams of 2–200 employees. Unlimited subject to abuse guardrails. <link>Learn more</link>",
+   "description": "Business plan footer explaining the team size, usage guardrails, and link to more details",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.businessTrialSeatLimit",
+   "text": "Trial limited to 5 seats",
+   "description": "Seat restriction for the team-1-month-free Business campaign. The cap applies during the trial, not after it.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.close",
+   "text": "Close pricing",
+   "description": "Accessible label to close the plan comparison and return to ChatGPT",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.current",
+   "text": "Your current plan",
+   "description": "Disabled action on the subscriber's current plan",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.currentWorkspacePlan",
+   "text": "Your current plan",
+   "description": "Disabled button identifying the current free Business workspace plan in pricing",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.downgrade",
+   "text": "Downgrade plan",
+   "description": "Button for changing to a lower subscription tier",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.freeWorkspace",
+   "text": "Free workspace",
+   "description": "Current free Business workspace shown beside the paid Business plan in pricing",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.monthly",
+   "text": "Monthly",
+   "description": "Monthly billing option",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.proUsage",
+   "text": "Pro usage",
+   "description": "Accessible label for the Pro plan usage-level selector",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.retry",
+   "text": "Try again",
+   "description": "Button to retry loading plan prices",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.title",
+   "text": "Upgrade your plan",
+   "description": "Heading of the full-screen plan comparison",
+   "files": [
+    "pages/space-page-15df017942a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.unavailable",
+   "text": "We couldn’t load prices",
+   "description": "Shown when plan pricing could not be loaded; the nearby button retries the request",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.upgradeBusiness",
+   "text": "Upgrade to Business",
+   "description": "Button to continue to Business workspace purchase",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.upgradeGo",
+   "text": "Upgrade to Go",
+   "description": "Button to purchase ChatGPT Go",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.upgradePlus",
+   "text": "Upgrade to Plus",
+   "description": "Button to purchase ChatGPT Plus",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.upgradePro",
+   "text": "Upgrade to Pro",
+   "description": "Button to purchase the selected ChatGPT Pro tier",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.countrySelector.label",
+   "text": "Country or region",
+   "description": null,
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.countrySelector.search",
+   "text": "Search countries",
+   "description": null,
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.currencyCodeWithSlash",
+   "text": "{currencyCode} / ",
+   "description": "Currency code with slash",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.currencyWithDuration",
+   "text": "{currency} {duration}",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.frequencyTaxInformationIncludingAmountSuffix",
+   "text": "(includes {vat_amount} of {tax_type})",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.frequencyTaxInformationSuffix",
+   "text": "(including {tax_type})",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.subscriptionFrequencyTaxInformation",
+   "text": "month ({tax_behavior, select, inclusive {inclusive of} exclusive {exclusive of} other {exclusive of} } {tax_type, select, gst {GST} vat {VAT} jct {JCT} other {tax} })",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.subscriptionFrequencyTaxInformationSuffix",
+   "text": "({tax_behavior, select, inclusive {inclusive of} exclusive {exclusive of} other {exclusive of} } {tax_type, select, gst {GST} vat {VAT} jct {JCT} other {tax} })",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.subscriptionFrequencyTaxInformationWithAmount",
+   "text": "month ({tax_behavior, select, inclusive {includes} exclusive {plus} other {plus} } {tax_amount} of {tax_type, select, gst {GST} vat {VAT} jct {JCT} other {tax} })",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "PricingModalColumn.subscriptionFrequencyTaxInformationWithAmountSuffix",
+   "text": "({tax_behavior, select, inclusive {includes} exclusive {plus} other {plus} } {tax_amount} of {tax_type, select, gst {GST} vat {VAT} jct {JCT} other {tax} })",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanPage.renewCurrentPlan",
+   "text": "Renew subscription",
+   "description": "Button to review renewal of the current canceled but still active paid plan",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "search.empty.title",
+   "text": "No results found",
+   "description": "Heading when a search in a content collection has no matching items",
+   "files": [
+    "pages/space-search-empty-state-4897042a9bda.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.pricingPlanPage.businessTab",
+   "text": "Business",
+   "description": "Business plans tab",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.pricingPlanPage.paidPromotionUnavailable",
+   "text": "This offer isn’t available right now. Please try again later.",
+   "description": "Error shown when a promotional subscription upgrade cannot be completed safely",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.pricingPlanPage.personalTab",
+   "text": "Personal",
+   "description": "Personal plans tab",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.pricingPlanPage.subscriptionUpdate.upgradeSucceeded",
+   "text": "Successfully upgraded plan",
+   "description": "Toast shown after a plan upgrade succeeds",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.subscriptionScheduleConflict.back",
+   "text": "Back",
+   "description": "Returns to plan comparison without changing the subscription",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.subscriptionScheduleConflict.billingSettings",
+   "text": "Go to billing settings",
+   "description": "Opens billing settings to review or cancel an upcoming subscription change before continuing",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.subscriptionScheduleConflict.title",
+   "text": "Confirm plan changes",
+   "description": "Title of the confirmation dialog explaining why a scheduled subscription change must be managed before continuing",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.usage.subscriptionScheduleConflict.upgradeExplanation",
+   "text": "Cancel your upcoming subscription change to continue",
+   "description": "Explanation in a plan confirmation when an upcoming subscription change blocks an upgrade or promotional offer. Cancel refers to the upcoming change, not the subscription; customers can also wait until it takes effect.",
+   "files": [
+    "_deps/pricing-page-bccfea83a0fe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.removeInvitee",
+   "text": "Remove {name} from the invitation",
+   "description": "Accessible label for removing a selected person or group from a sharing invitation; name is the recipient's display name",
+   "files": [
+    "_deps/new-space-dialog-38da9be1f291.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sidebarElectron.search",
+   "text": "Search",
+   "description": "Sidebar navigation item that opens task search",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sidebarElectron.showMore",
+   "text": "Show more",
+   "description": "Button label for expanding a task list in the sidebar",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.activity.title",
+   "text": "Activity",
+   "description": "Heading for the activity feed on Space home",
+   "files": [
+    "_deps/inbox-832e01bb3465.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.create.canvas",
+   "text": "Canvas",
+   "description": "Native Canvas content type in the Space creation menu",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.create.comingSoon",
+   "text": "Coming soon",
+   "description": "Label for native Space content types that cannot be created yet",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.create.sheets",
+   "text": "Sheet",
+   "description": "Native Sheets content type in the Space creation menu",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.create.slides",
+   "text": "Slides",
+   "description": "Native presentation content type in the Space creation menu",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.all.description",
+   "text": "Build a page, presentation, website, and more with ChatGPT",
+   "description": "First-use guidance for the All collection in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.all.title",
+   "text": "Nothing here yet",
+   "description": "Empty state heading for the All collection in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.folder.description",
+   "text": "Upload files to get started",
+   "description": "Guidance for adding content to an empty folder in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.folder.title",
+   "text": "This folder is empty",
+   "description": "Empty state heading for an empty folder in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.images.description",
+   "text": "Create an image with ChatGPT",
+   "description": "First-use guidance for the Images collection in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.images.title",
+   "text": "No images yet",
+   "description": "Empty state heading for the Images collection in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.pages.description",
+   "text": "Write, plan, and bring your ideas together with ChatGPT",
+   "description": "First-use guidance for the Pages collection in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.pages.title",
+   "text": "No pages yet",
+   "description": "Empty state heading for the Pages collection in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.trash.description",
+   "text": "Items moved to Trash will be deleted forever after 30 days",
+   "description": "Retention policy for deleted files and Pages in Space Trash",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.trash.title",
+   "text": "Trash is empty",
+   "description": "Empty state heading for Trash in Space",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.trashFiles.description",
+   "text": "Files moved to Trash will be deleted forever after 30 days",
+   "description": "Retention guidance below the empty Files filter in Trash",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.trashFiles.title",
+   "text": "No files in Trash",
+   "description": "Empty state heading for the Files filter in Trash when other types may still contain deleted items",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.trashPages.description",
+   "text": "Pages moved to Trash will be deleted forever after 30 days",
+   "description": "Retention guidance below the empty Pages filter in Trash",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.empty.trashPages.title",
+   "text": "No pages in Trash",
+   "description": "Empty state heading for the Pages filter in Trash when other types may still contain deleted items",
+   "files": [
+    "pages/space-empty-state-95c5a77c22cc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.explorer.newChat",
+   "text": "New chat",
+   "description": "Start a chat with this Space as context",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.explorer.newPage",
+   "text": "New page",
+   "description": "Create a new Page in this Space",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.allTitle",
+   "text": "All",
+   "description": "Title of the combined Library and Pages homepage",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.create.new",
+   "text": "New",
+   "description": "Button that opens the menu to create a page, spreadsheet, or presentation in the current Space",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.loadingPinnedPages",
+   "text": "Loading pinned pages…",
+   "description": "Status while fetching pinned Pages for the Suggested homepage",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinned.reorderCancelled",
+   "text": "Reordering cancelled",
+   "description": "Screen reader announcement when reordering Suggested pins is cancelled",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinned.reorderEnded",
+   "text": "Pinned item released",
+   "description": "Screen reader announcement when a Suggested pin drag ends",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinned.reorderHandle",
+   "text": "Reorder {title}",
+   "description": "Accessible label for the drag handle on a pinned Suggested preview",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinned.reorderInstructions",
+   "text": "Press Space to pick up a pinned item, use the arrow keys to move it, and press Space to drop it. Press Escape to cancel.",
+   "description": "Keyboard instructions for reordering pinned previews on Suggested",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinned.reorderPosition",
+   "text": "Position {position} of {count}",
+   "description": "Screen reader announcement of the proposed position while reordering Suggested pins",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinned.reorderStarted",
+   "text": "Pinned item picked up",
+   "description": "Screen reader announcement when a Suggested pin drag starts",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinnedHeading",
+   "text": "Pinned",
+   "description": "Pinned Pages shown as previews on the Suggested homepage",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinnedLoadFailed",
+   "text": "Some pinned pages could not be loaded",
+   "description": "Warning when some pinned Pages could not be fetched",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.pinnedPage",
+   "text": "Pinned",
+   "description": "Status beside a Page title indicating it is pinned in the sidebar",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.slidesTitle",
+   "text": "Slides",
+   "description": "Heading and sidebar navigation label for the Space collection containing native Slides and presentation files",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.library.selectPage",
+   "text": "Select {name}",
+   "description": "Accessible label for selecting a Page in the Library; name is the Page title",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.library.selectUntitledPage.byDocumentType",
+   "text": "{documentType, select, granola_presentation {Select untitled slide} granola_workbook {Select untitled sheet} other {Select untitled page}}",
+   "description": "Accessible label for selecting a Page that has no title in the Library. documentType selects slide, sheet, or page for the current document.",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.columnLocation",
+   "text": "Space",
+   "description": "Space or source containing a Page or file. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.columnName",
+   "text": "Name",
+   "description": "Page or file name column",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.columnUpdated",
+   "text": "Updated",
+   "description": "Page or file update time column",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.new",
+   "text": "Create",
+   "description": "Open creation choices on the Space home page",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.newPage",
+   "text": "Page",
+   "description": "Create a Page from the Space home menu",
+   "files": [
+    "_deps/create-menu-d89f2ede6f86.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.openSpace",
+   "text": "Open {name} space",
+   "description": "Open the Space containing this Page. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js",
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "space.list.pages",
+   "text": "Pages",
+   "description": "Accessible label for the list of Pages on Space home and Personal",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.pagesTab",
+   "text": "Pages",
+   "description": "Filter showing all Pages",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.personalLocation",
+   "text": "Personal",
+   "description": "Location for a Page outside a Space",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.pinUntitledPage.byDocumentType",
+   "text": "{documentType, select, granola_presentation {Pin untitled slide} granola_workbook {Pin untitled sheet} other {Pin untitled page}}",
+   "description": "Accessible action to pin a Page with no title. documentType selects slide, sheet, or page for the current document.",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.searchPlaceholder",
+   "text": "Search",
+   "description": "Placeholder for the search field on Space home",
+   "files": [
+    "_deps/page-3ee246ddc74a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.title",
+   "text": "Space",
+   "description": "Title of the page listing the user's Spaces. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.list.unpinUntitledPage.byDocumentType",
+   "text": "{documentType, select, granola_presentation {Unpin untitled slide} granola_workbook {Unpin untitled sheet} other {Unpin untitled page}}",
+   "description": "Accessible action to unpin a Page with no title. documentType selects slide, sheet, or page for the current document.",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.navigator.home",
+   "text": "Home",
+   "description": "Navigation destination for the current Space's root Page",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.page.sharedIndicator",
+   "text": "Shared",
+   "description": "Status beside a Page title indicating that the Page is shared with other people",
+   "files": [
+    "_deps/page-content-item-331f3e1fa38d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTemplates.galleryByline",
+   "text": "Collaborate with ChatGPT and your teammates to create powerful, auto-updating pages",
+   "description": "Caption below the Pages category heading in the Space template gallery modal. Explains that teammates can collaborate with ChatGPT on Pages that update automatically.",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTemplates.galleryHeading",
+   "text": "Pages",
+   "description": "Short category heading for collaborative, auto-updating Page templates in the Space template gallery modal, alongside the other template categories.",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTemplates.heading",
+   "text": "Start with your data",
+   "description": "Heading for Page templates that use the user's connected apps and selected sources",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTemplates.nonWorkByline",
+   "text": "Start with a Page template and make it your own",
+   "description": "Caption for Page templates in the Space gallery or landing page when automated Work setup is unavailable. Selecting a template creates an editable Page with sample content and places an unsent suggested message in Page chat.",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTemplates.pluginsByline",
+   "text": "Create pages using knowledge from Slack, Gmail, Teams, and more",
+   "description": "Caption below Start with your data in the Space Templates gallery. Explains that these Page templates can use any connected apps, and can prompt for connection in chat. Preserve Slack, Gmail and Teams as brand names. This is informational text, not a link or a connection button.",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTemplates.prefilledHeading",
+   "text": "Start with a template",
+   "description": "Heading above Page templates on the Space landing page for users without automated Work setup. Selecting one creates an editable Page with sample content and an unsent suggested chat message.",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTree.collapse",
+   "text": "Collapse {title}",
+   "description": "Hide child rows of the named Page in the Space list",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTree.error",
+   "text": "Could not load subpages",
+   "description": "Error loading child Pages in the Space list",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTree.expand",
+   "text": "Expand {title}",
+   "description": "Show child rows of the named Page in the Space list",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTree.loading",
+   "text": "Loading subpages…",
+   "description": "Status while child Pages load in a list",
+   "files": [
+    "_deps/pinned-pages-ceb6bb4900b3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.personal.title",
+   "text": "Personal",
+   "description": "Title of the Personal collection of Pages outside any Space",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.all",
+   "text": "All",
+   "description": "Sidebar navigation link that opens Space home with all content",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.createTeamSpace",
+   "text": "New space",
+   "description": "Opens the dialog to create a shared Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.loadingTeamSpaces",
+   "text": "Loading spaces",
+   "description": "Accessible status while the shared Space catalog loads. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.navigation",
+   "text": "Space navigation",
+   "description": "Accessible label for the sidebar with Spaces, Pages, and personal assets. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.pinned",
+   "text": "Pinned",
+   "description": "Pinned Pages and artifacts in the Space sidebar",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.recents",
+   "text": "Recents",
+   "description": "Recent items in the Space sidebar",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.retryTeamSpaces",
+   "text": "Could not load spaces. Try again",
+   "description": "Sidebar action to retry loading the shared Space catalog after a failure. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.spaces",
+   "text": "Spaces",
+   "description": "Spaces listed in the Space sidebar. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.sidebar.teamSpaces",
+   "text": "Spaces",
+   "description": "Sidebar section listing the shared Spaces accessible to the user. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-sidebar-451ecf1871b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.continueWithoutAppearance",
+   "text": "Continue without custom icon",
+   "description": "Continue setting up an existing Space without saving the optional icon and color chosen during creation",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.continueWithoutInvitations",
+   "text": "Continue without remaining invitations",
+   "description": "Continue initializing the existing Space while removing unconfirmed invitations from its setup",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.creationError",
+   "text": "Could not finish creating space",
+   "description": "Space creation or root Page initialization failed; the same Space can be retried. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.creationOutcomeUnknown",
+   "text": "We could not confirm whether this space was created. Check your spaces before creating another one",
+   "description": "A reloaded Space creation has no server ID, so creating again could make a duplicate. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.creationRetry",
+   "text": "Check your connection and try again",
+   "description": "Recovery guidance when the initial Space creation request fails",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.dismissUnknownSetup",
+   "text": "Dismiss and view spaces",
+   "description": "Forget an incomplete local setup record without deleting any server Space, then return to Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.invitationShared",
+   "text": "Shared with {name}",
+   "description": "A Space invitation verified by the server's sharing roster",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.invitationUnconfirmed",
+   "text": "Not confirmed: {name}",
+   "description": "The selected person's or team's Space invitation has not been verified",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.noMatchingPages",
+   "text": "No matching pages",
+   "description": "No Pages in this team space match the search",
+   "files": [
+    "_deps/page-3ee246ddc74a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.pagesError",
+   "text": "Could not load all pages",
+   "description": "Error when the team space page list or its scoped search could not finish loading",
+   "files": [
+    "_deps/page-3ee246ddc74a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.removeInvitation",
+   "text": "Remove",
+   "description": "Remove an unconfirmed invitation from unfinished Space setup",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.removeUnconfirmedInvitation",
+   "text": "Remove invitation for {name}",
+   "description": "Remove an unconfirmed recipient from unfinished Space setup without revoking any existing access",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.search",
+   "text": "Search in {name}",
+   "description": "Search field scoped to the named team space",
+   "files": [
+    "_deps/page-3ee246ddc74a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.setupError",
+   "text": "Space setup needs attention",
+   "description": "The Space exists but its initial setup has not finished. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.setupIncomplete",
+   "text": "Your space was created, but setup hasn't finished. Check your connection and try again to continue with the same space",
+   "description": "Retry resumes setup on the existing Space without creating a duplicate; its initial page may still be saving. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "_deps/page-9181340ae938.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.share",
+   "text": "Share",
+   "description": "Open the existing sharing dialog for this team space",
+   "files": [
+    "_deps/page-3ee246ddc74a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templates.useTemplate.pagePrompt",
+   "text": "Use the {templateName} template to create a native Page in Space. Adapt its content and structure to Page blocks, not a Word document, Google Doc, or downloadable file. Save the result as a Page in Space and return its link.",
+   "description": "Editable chat prompt after selecting a document template in Space. Requests a native Space Page rather than a file. templateName is a Markdown link to the selected template. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "pages/space-template-catalog-a49215b2a818.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spaceSearch.empty.descriptionWithQuery",
+   "text": "No matches for “{query}”. <guidance>Try a different search.</guidance>",
+   "description": "Guidance when a Space or Sites search has no matching items. query is the text the user searched for. The guidance tag places the suggestion on a separate line below the no-matches sentence.",
+   "files": [
+    "pages/space-search-empty-state-4897042a9bda.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.businessChatGptAndCodexPriceFrequency",
+   "text": "/ user / month",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.billingCadence.label",
+   "text": "Business billing frequency",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.monthlyPrice.fullPeriod",
+   "text": "{price}<period> / month</period>",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.premium.description.additionalUsage",
+   "text": "More usage than standard seats",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.premium.description.cadenceToggle",
+   "text": "5x more usage than standard, no 5-hour limit",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.premium.label",
+   "text": "Premium seat",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.standard.description",
+   "text": "Workspace controls and enhanced security",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.standard.label",
+   "text": "Standard seat",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "teamColumn.seatPricing.teamSizeDisclaimer",
+   "text": "For teams of 2–200 employees. Unlimited subject to abuse guardrails. <link>Learn more</link>",
+   "description": null,
+   "files": [
+    "_deps/tax-information-2fee61dff4f7.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-ad16eaadf81f.js",
+   "count": 703,
+   "names": [
+    "$4",
+    "$6t",
+    "$B",
+    "$Bt",
+    "$U",
+    "$V",
+    "$Vt",
+    "$cr",
+    "$ir",
+    "A7",
+    "AB",
+    "ABt",
+    "ADn",
+    "AH",
+    "AJ",
+    "ALr",
+    "AU",
+    "AX",
+    "Aa",
+    "Adn",
+    "Aer",
+    "Afn",
+    "Aht",
+    "Air",
+    "Ajt",
+    "Alt",
+    "Ast",
+    "Aut",
+    "Av",
+    "Axn",
+    "Azt",
+    "B0",
+    "B3",
+    "BB",
+    "BRr",
+    "Bdn",
+    "Bfn",
+    "Bk",
+    "Bur",
+    "Bxn",
+    "C3",
+    "C7n",
+    "CAt",
+    "CB",
+    "CEn",
+    "CIr",
+    "CJt",
+    "CK",
+    "CN",
+    "CPt",
+    "CRn",
+    "CW",
+    "Cc",
+    "Cdn",
+    "Cjr",
+    "Clt",
+    "Cmn",
+    "Cnt",
+    "Cqt",
+    "Cy",
+    "D0",
+    "D7",
+    "DB",
+    "DEn",
+    "DH",
+    "DL",
+    "DU",
+    "DW",
+    "Dan",
+    "Ddn",
+    "Djr",
+    "Dlr",
+    "Dlt",
+    "E0",
+    "EB",
+    "EH",
+    "EL",
+    "EU",
+    "EW",
+    "Ean",
+    "Edn",
+    "Efn",
+    "Elt",
+    "Eqt",
+    "Ey",
+    "F0",
+    "F3",
+    "F7",
+    "FB",
+    "FBr",
+    "FBt",
+    "FDn",
+    "FF",
+    "FK",
+    "F_n",
+    "Fan",
+    "Fc",
+    "Fer",
+    "Fjt",
+    "Flr",
+    "Flt",
+    "Fmn",
+    "Fmt",
+    "Fv",
+    "Fxn",
+    "G0",
+    "GB",
+    "GBt",
+    "GLn",
+    "GNr",
+    "GUn",
+    "G_n",
+    "Gdn",
+    "Ghr",
+    "Glt",
+    "H9n",
+    "HB",
+    "HDt",
+    "HOn",
+    "HU",
+    "HV",
+    "Hcn",
+    "Hdn",
+    "Hfn",
+    "Hin",
+    "Hjt",
+    "Hlr",
+    "I0",
+    "I2n",
+    "IAr",
+    "IB",
+    "IBr",
+    "IBt",
+    "IK",
+    "ILr",
+    "IVt",
+    "IW",
+    "IWn",
+    "I_n",
+    "Ian",
+    "Ic",
+    "Ifn",
+    "Ik",
+    "Ilr",
+    "Iut",
+    "Iv",
+    "Ixn",
+    "J6",
+    "JB",
+    "JBt",
+    "JDr",
+    "JV",
+    "JW",
+    "JZ",
+    "J_t",
+    "Jd",
+    "Jdn",
+    "Jdt",
+    "Jft",
+    "Jh",
+    "Jlr",
+    "Jlt",
+    "K0",
+    "K8t",
+    "KAt",
+    "KB",
+    "KIr",
+    "KV",
+    "KVn",
+    "K_n",
+    "Ka",
+    "Khr",
+    "Kht",
+    "Klr",
+    "Klt",
+    "L0",
+    "LB",
+    "LIr",
+    "LLr",
+    "LW",
+    "Lc",
+    "Ldn",
+    "Lfn",
+    "Llr",
+    "Lmn",
+    "Lpn",
+    "Lv",
+    "MB",
+    "MEn",
+    "MOr",
+    "MT",
+    "Mdn",
+    "Mir",
+    "Mjt",
+    "Mlt",
+    "Mst",
+    "Mw",
+    "Mxn",
+    "N2n",
+    "NB",
+    "NBt",
+    "NEn",
+    "NH",
+    "NNn",
+    "NOn",
+    "NUn",
+    "Ndn",
+    "Nir",
+    "Nmt",
+    "Nst",
+    "Nw",
+    "Nxn",
+    "O7",
+    "OB",
+    "OEn",
+    "OH",
+    "OL",
+    "OU",
+    "OW",
+    "Odn",
+    "Ofn",
+    "Ohn",
+    "Ojt",
+    "Okt",
+    "Olr",
+    "Olt",
+    "Ozt",
+    "P6",
+    "P7",
+    "PB",
+    "PBt",
+    "PDn",
+    "PH",
+    "PK",
+    "PL",
+    "PNn",
+    "POn",
+    "P_n",
+    "Pc",
+    "Pdn",
+    "Pjt",
+    "Plr",
+    "Pst",
+    "Put",
+    "Px",
+    "Pxn",
+    "Q4",
+    "Q6t",
+    "QB",
+    "QBt",
+    "QIr",
+    "QU",
+    "QV",
+    "QVt",
+    "Qgn",
+    "Qkn",
+    "Qlt",
+    "Qmt",
+    "Qx",
+    "R0",
+    "R6",
+    "RF",
+    "RW",
+    "Ran",
+    "Rdn",
+    "Rfn",
+    "Rk",
+    "Rv",
+    "Rx",
+    "Rxn",
+    "S3",
+    "SAt",
+    "SB",
+    "SBt",
+    "SEn",
+    "SIr",
+    "SJt",
+    "SLn",
+    "SN",
+    "SPt",
+    "SRn",
+    "SU",
+    "SW",
+    "S_n",
+    "Sc",
+    "Sjr",
+    "Slt",
+    "Smn",
+    "Snt",
+    "Swn",
+    "T3",
+    "TB",
+    "TBt",
+    "TEn",
+    "TU",
+    "Tan",
+    "Tdn",
+    "Tfn",
+    "Tjr",
+    "Tlr",
+    "UAt",
+    "UOn",
+    "UV",
+    "Ucn",
+    "Uin",
+    "Ulr",
+    "Ult",
+    "VB",
+    "VDt",
+    "VNr",
+    "VRr",
+    "Va",
+    "Van",
+    "Vdn",
+    "Vfn",
+    "Vk",
+    "Vlr",
+    "Vur",
+    "Vut",
+    "Vzn",
+    "WB",
+    "Wa",
+    "Wan",
+    "Wdn",
+    "Wht",
+    "Wlr",
+    "Wlt",
+    "Wrr",
+    "X0",
+    "X6",
+    "XEn",
+    "XIr",
+    "X_n",
+    "Xfn",
+    "Xgn",
+    "Xht",
+    "Xjt",
+    "Xmt",
+    "Xst",
+    "Xut",
+    "Xz",
+    "Xzr",
+    "Y0",
+    "Y2",
+    "YBt",
+    "YEn",
+    "YV",
+    "YW",
+    "Ycr",
+    "Yd",
+    "Yfn",
+    "Yft",
+    "Yht",
+    "Yjt",
+    "Ylt",
+    "Ymt",
+    "Ypn",
+    "Yut",
+    "Yx",
+    "Z2",
+    "Z4",
+    "Z6",
+    "ZB",
+    "ZV",
+    "ZVt",
+    "Z_n",
+    "Zdn",
+    "Zfn",
+    "Zgn",
+    "Zht",
+    "Zir",
+    "Zjt",
+    "Zkn",
+    "Zlr",
+    "Zlt",
+    "Zpn",
+    "Zst",
+    "Zx",
+    "Zz",
+    "_2",
+    "_9t",
+    "_En",
+    "_H",
+    "_Lr",
+    "_Q",
+    "_Vt",
+    "_an",
+    "_dn",
+    "_ur",
+    "_ut",
+    "a3",
+    "a4t",
+    "aU",
+    "aV",
+    "adn",
+    "air",
+    "amn",
+    "awn",
+    "b2",
+    "b3",
+    "bBt",
+    "bH",
+    "bLr",
+    "bOr",
+    "bPt",
+    "bRn",
+    "bc",
+    "bjr",
+    "bpn",
+    "c$t",
+    "c3",
+    "cDn",
+    "cMt",
+    "cPr",
+    "cU",
+    "cfn",
+    "co",
+    "con",
+    "cpn",
+    "cut",
+    "d",
+    "dBr",
+    "dH",
+    "dLr",
+    "dV",
+    "dW",
+    "dan",
+    "dmt",
+    "dpn",
+    "dtn",
+    "e3",
+    "eMr",
+    "eOr",
+    "eS",
+    "eV",
+    "eVt",
+    "e_n",
+    "edn",
+    "eer",
+    "efn",
+    "eh",
+    "elr",
+    "epn",
+    "f9t",
+    "fBr",
+    "fEn",
+    "fH",
+    "fU",
+    "fV",
+    "fWt",
+    "fY",
+    "fan",
+    "fdn",
+    "fht",
+    "fo",
+    "fpn",
+    "ftn",
+    "gEn",
+    "gH",
+    "gLr",
+    "gQ",
+    "gdn",
+    "gur",
+    "gut",
+    "hAt",
+    "hBt",
+    "hEn",
+    "hH",
+    "hL",
+    "hPt",
+    "hRr",
+    "hY",
+    "h_n",
+    "hdn",
+    "hen",
+    "hut",
+    "i4t",
+    "iH",
+    "iPt",
+    "iRr",
+    "iV",
+    "idn",
+    "imr",
+    "iut",
+    "jB",
+    "jBt",
+    "jL",
+    "jT",
+    "jU",
+    "jX",
+    "ja",
+    "jcn",
+    "jdn",
+    "jfn",
+    "jht",
+    "jlt",
+    "jmt",
+    "jst",
+    "jv",
+    "jw",
+    "jxn",
+    "k3",
+    "kH",
+    "kJ",
+    "kL",
+    "kLr",
+    "kW",
+    "kdn",
+    "kfn",
+    "kkt",
+    "kut",
+    "kzt",
+    "l3",
+    "lBr",
+    "lDn",
+    "lH",
+    "lLr",
+    "lU",
+    "lWt",
+    "l_r",
+    "lfn",
+    "lo",
+    "lon",
+    "lpn",
+    "lut",
+    "m$t",
+    "mAt",
+    "mBr",
+    "mBt",
+    "mH",
+    "mRr",
+    "mV",
+    "mY",
+    "m_n",
+    "mlr",
+    "mo",
+    "mut",
+    "mwn",
+    "nHt",
+    "nMr",
+    "nS",
+    "nV",
+    "nVt",
+    "ndn",
+    "nfn",
+    "ngn",
+    "nir",
+    "nl",
+    "np",
+    "npn",
+    "npt",
+    "nzr",
+    "o$t",
+    "oH",
+    "oMt",
+    "oPt",
+    "oU",
+    "o_n",
+    "oht",
+    "okn",
+    "omn",
+    "opn",
+    "pBr",
+    "pBt",
+    "pH",
+    "pL",
+    "pV",
+    "pVt",
+    "pW",
+    "pY",
+    "pdn",
+    "pen",
+    "plr",
+    "po",
+    "pur",
+    "q2t",
+    "q8t",
+    "qB",
+    "qBt",
+    "qLn",
+    "qU",
+    "qV",
+    "qZ",
+    "q_n",
+    "q_t",
+    "qa",
+    "qdn",
+    "qdt",
+    "qh",
+    "qlr",
+    "qlt",
+    "r3",
+    "rPt",
+    "rV",
+    "rgt",
+    "rir",
+    "rmr",
+    "rp",
+    "s$t",
+    "s3",
+    "sDn",
+    "sLr",
+    "sMt",
+    "sRr",
+    "sU",
+    "s_n",
+    "sdn",
+    "spn",
+    "sut",
+    "tH",
+    "tHt",
+    "tLr",
+    "tS",
+    "tV",
+    "tdn",
+    "tfn",
+    "th",
+    "tl",
+    "tpn",
+    "tpt",
+    "tut",
+    "tyr",
+    "u",
+    "u3",
+    "uBr",
+    "uH",
+    "uU",
+    "uW",
+    "u_r",
+    "umt",
+    "upn",
+    "uut",
+    "v2",
+    "v4t",
+    "v9t",
+    "vAt",
+    "vEn",
+    "vH",
+    "vIr",
+    "vLn",
+    "vLr",
+    "vRr",
+    "v_n",
+    "van",
+    "vdn",
+    "vh",
+    "vht",
+    "vut",
+    "wB",
+    "wBt",
+    "wEn",
+    "wK",
+    "wLr",
+    "wW",
+    "w_n",
+    "wan",
+    "wcn",
+    "wdn",
+    "wlr",
+    "x0",
+    "x2",
+    "x3",
+    "xB",
+    "xBt",
+    "xH",
+    "xMr",
+    "xN",
+    "xPt",
+    "xU",
+    "xc",
+    "xdn",
+    "xgn",
+    "xht",
+    "xjr",
+    "xlr",
+    "xwn",
+    "y0",
+    "y2",
+    "y7n",
+    "yBt",
+    "yEn",
+    "yH",
+    "yIr",
+    "yLr",
+    "yMr",
+    "yRr",
+    "y_n",
+    "yan",
+    "ygn",
+    "yh",
+    "ypn",
+    "yut",
+    "z0",
+    "zBt",
+    "zLr",
+    "zOr",
+    "zRr",
+    "zan",
+    "zdn",
+    "zfn",
+    "zk",
+    "zmt",
+    "zzn"
+   ]
+  },
+  {
+   "from": "app-shared-2feb3d4c6fcc.js",
+   "count": 270,
+   "names": [
+    "$2",
+    "$3",
+    "$B",
+    "$M",
+    "$O",
+    "$St",
+    "$X",
+    "$mt",
+    "$s",
+    "$st",
+    "$z",
+    "AB",
+    "AQ",
+    "Akt",
+    "At",
+    "BSt",
+    "BV",
+    "Bst",
+    "CB",
+    "CCt",
+    "CI",
+    "CMt",
+    "CNt",
+    "CU",
+    "CY",
+    "Cs",
+    "D$",
+    "DB",
+    "DK",
+    "DQ",
+    "DU",
+    "Dkt",
+    "Ds",
+    "EQ",
+    "Ekt",
+    "Es",
+    "F3",
+    "FBt",
+    "FNt",
+    "FTt",
+    "Ft",
+    "Gat",
+    "HFt",
+    "HO",
+    "I3",
+    "ID",
+    "IH",
+    "IO",
+    "ITt",
+    "It",
+    "JJ",
+    "JO",
+    "JOt",
+    "KO",
+    "KSt",
+    "Kat",
+    "LD",
+    "LNt",
+    "LO",
+    "LV",
+    "Lit",
+    "Lkt",
+    "M0",
+    "MH",
+    "MNt",
+    "MQ",
+    "Mm",
+    "Mst",
+    "Mz",
+    "N0",
+    "NLt",
+    "NNt",
+    "NO",
+    "NSt",
+    "Nq",
+    "Nu",
+    "O$",
+    "OB",
+    "OFt",
+    "OQ",
+    "ORt",
+    "OT",
+    "OU",
+    "Okt",
+    "Os",
+    "Oz",
+    "P0",
+    "PBt",
+    "PH",
+    "PO",
+    "PSt",
+    "Pit",
+    "Pq",
+    "Pu",
+    "QB",
+    "QI",
+    "QX",
+    "QY",
+    "Qst",
+    "Qz",
+    "RFt",
+    "RO",
+    "RV",
+    "Rkt",
+    "Rrt",
+    "SB",
+    "SCt",
+    "SJ",
+    "SLt",
+    "SSt",
+    "Skt",
+    "Smt",
+    "TCt",
+    "TQ",
+    "TY",
+    "Tkt",
+    "Ts",
+    "USt",
+    "UTt",
+    "Ujt",
+    "VRt",
+    "VSt",
+    "Vit",
+    "Vjt",
+    "Vpt",
+    "Vrt",
+    "WK",
+    "WO",
+    "WOt",
+    "WTt",
+    "X3",
+    "XI",
+    "XOt",
+    "XY",
+    "Xo",
+    "Xz",
+    "Y3",
+    "YI",
+    "YJ",
+    "YOt",
+    "YY",
+    "Yjt",
+    "Yo",
+    "Yst",
+    "Z3",
+    "ZI",
+    "ZSt",
+    "ZX",
+    "ZY",
+    "Zst",
+    "Zz",
+    "_D",
+    "_Z",
+    "aCt",
+    "aMt",
+    "as",
+    "bB",
+    "bZ",
+    "bkt",
+    "bs",
+    "c3",
+    "cZ",
+    "cc",
+    "cet",
+    "ck",
+    "cs",
+    "dJ",
+    "dm",
+    "ds",
+    "e4",
+    "e6",
+    "eAt",
+    "eZ",
+    "ec",
+    "ek",
+    "fD",
+    "fN",
+    "fm",
+    "fs",
+    "fst",
+    "gB",
+    "gD",
+    "gI",
+    "gkt",
+    "hB",
+    "hD",
+    "hRt",
+    "hst",
+    "iCt",
+    "iFt",
+    "iMt",
+    "j0",
+    "jQ",
+    "jit",
+    "jm",
+    "jst",
+    "jz",
+    "kB",
+    "kFt",
+    "kH",
+    "kK",
+    "kLt",
+    "kQ",
+    "kRt",
+    "kT",
+    "kgt",
+    "kt",
+    "lB",
+    "lZ",
+    "let",
+    "ls",
+    "mCt",
+    "mD",
+    "mG",
+    "mI",
+    "mN",
+    "mlt",
+    "mst",
+    "n4",
+    "nAt",
+    "nB",
+    "nCt",
+    "nMt",
+    "nN",
+    "oMt",
+    "okt",
+    "os",
+    "pI",
+    "pkt",
+    "qG",
+    "qI",
+    "qO",
+    "qrt",
+    "qst",
+    "rAt",
+    "rB",
+    "rft",
+    "rk",
+    "s3",
+    "sZ",
+    "sc",
+    "sct",
+    "ss",
+    "t4",
+    "tAt",
+    "tk",
+    "tkt",
+    "uB",
+    "uSt",
+    "uZ",
+    "us",
+    "vB",
+    "vH",
+    "vI",
+    "vZ",
+    "vkt",
+    "wB",
+    "wI",
+    "wMt",
+    "ws",
+    "xJ",
+    "yCt",
+    "yU",
+    "yZ",
+    "ykt",
+    "ys",
+    "zO",
+    "zV",
+    "zjt",
+    "zst"
+   ]
+  },
+  {
+   "from": "tax-e50b6a7c0765.js",
+   "count": 44,
+   "names": [
+    "$",
+    "Ct",
+    "Et",
+    "G",
+    "J",
+    "K",
+    "Mt",
+    "Q",
+    "St",
+    "Tt",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "_t",
+    "a",
+    "at",
+    "ct",
+    "dt",
+    "ft",
+    "g",
+    "gt",
+    "ht",
+    "i",
+    "it",
+    "jt",
+    "lt",
+    "mt",
+    "nt",
+    "o",
+    "ot",
+    "pt",
+    "q",
+    "r",
+    "rt",
+    "s",
+    "st",
+    "t",
+    "tt",
+    "u",
+    "ut",
+    "vt",
+    "xt",
+    "yt"
+   ]
+  },
+  {
+   "from": "tax-information-2fee61dff4f7.js",
+   "count": 30,
+   "names": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "O",
+    "S",
+    "T",
+    "_",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y"
+   ]
+  },
+  {
+   "from": "app-primary-3e00728c2a4c.js",
+   "count": 16,
+   "names": [
+    "$g",
+    "Bv",
+    "Gl",
+    "Iv",
+    "Kl",
+    "Lv",
+    "Mv",
+    "Nv",
+    "Qg",
+    "Qo",
+    "Vv",
+    "Wl",
+    "ai",
+    "ii",
+    "n_",
+    "zv"
+   ]
+  },
+  {
+   "from": "pricing-promotions-5aab26ebeddd.js",
+   "count": 15,
+   "names": [
+    "C",
+    "S",
+    "_",
+    "a",
+    "b",
+    "d",
+    "f",
+    "g",
+    "h",
+    "l",
+    "m",
+    "t",
+    "u",
+    "w",
+    "y"
+   ]
+  },
+  {
+   "from": "selectable-library-item-3b495aba5b29.js",
+   "count": 12,
+   "names": [
+    "A",
+    "D",
+    "E",
+    "O",
+    "d",
+    "i",
+    "k",
+    "l",
+    "p",
+    "t",
+    "x",
+    "y"
+   ]
+  },
+  {
+   "from": "template-page-creation-7c74ecaa206d.js",
+   "count": 11,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "library-trash-banner-bfac665ecde4.js",
+   "count": 8,
+   "names": [
+    "a",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "personalized-pages-9830ca1f3831.js",
+   "count": 7,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "l",
+    "o",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "editor-9b1f5c42c48b.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "library-item-b6e80d141813.js",
+   "count": 6,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "o",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "page-content-item-331f3e1fa38d.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "pinned-pages-ceb6bb4900b3.js",
+   "count": 6,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "slides-collection-1fd041e5728e.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "native-drag-91a589044ace.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "slate-create-menu-ba9308284af3.js",
+   "count": 4,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "t"
+   ]
+  },
+  {
+   "from": "space-e4040a2fa18d.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "template-gallery-modal-4f828146e385.js",
+   "count": 4,
+   "names": [
+    "c",
+    "d",
+    "l",
+    "u"
+   ]
+  },
+  {
+   "from": "profile-card-596b3632a9d9.js",
+   "count": 4,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o"
+   ]
+  },
+  {
+   "from": "recipient-picker-5b8b87b8e1c8.js",
+   "count": 4,
+   "names": [
+    "n",
+    "o",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "library-marquee-selection-b21e2d515616.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "sharing-6c4d609745aa.js",
+   "count": 4,
+   "names": [
+    "a",
+    "i",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "checkpoint-preview-8fd05669fdbd.js",
+   "count": 4,
+   "names": [
+    "a",
+    "i",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "creation-intents-51ddf095b952.js",
+   "count": 3,
+   "names": [
+    "a",
+    "i",
+    "r"
+   ]
+  },
+  {
+   "from": "state-96ed81f5e609.js",
+   "count": 3,
+   "names": [
+    "i",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "pending-ab5af760fea1.js",
+   "count": 3,
+   "names": [
+    "a",
+    "i",
+    "r"
+   ]
+  },
+  {
+   "from": "chatgpt_subscription-521a9ceb1ea2.js",
+   "count": 3,
+   "names": [
+    "f",
+    "m",
+    "p"
+   ]
+  },
+  {
+   "from": "payment-upgrade-analytics-c3815a3f6b6a.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "subscription-update-plan-b5de7979cb69.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "o"
+   ]
+  },
+  {
+   "from": "space-BvsuNnwg-6ed9ef4a0318.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "createLucideIcon-BrIFp4GW-442249f15ec0.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "actions-e51654d88035.js",
+   "count": 2,
+   "names": [
+    "a",
+    "n"
+   ]
+  },
+  {
+   "from": "layout-e024e43f5b5b.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "open-e59c2dc64ba2.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "creation-recovery-48644367c50a.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "template-draft-chat-b75e6459498c.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "onboarding-30caadff656c.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "page-menu-document-f4e5cf204ea3.js",
+   "count": 2,
+   "names": [
+    "n",
+    "r"
+   ]
+  },
+  {
+   "from": "page-9181340ae938.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "sharing-dialog-c0de458ff391.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "library-providers-51a2cdb87f24.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "library-provider-filter-56e8962f2aff.js",
+   "count": 2,
+   "names": [
+    "n",
+    "r"
+   ]
+  },
+  {
+   "from": "tree-scroll-3983f2b0617b.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "space-sharing-e039b79b09ff.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "appgen-page-72031c72f68a.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "appgen-publication-terms-route-f53fd8884eb6.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "local-template-catalog-2eeca06107ff.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "space-empty-state-95c5a77c22cc.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "library-selection-toolbar-6dae8ae740fc.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "avatar-b3af498c99de.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "detail-section-state-45be9ee036ee.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "content-section-456efce858c0.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "use-workspace-users-2d1e66aa1ddc.js",
+   "count": 2,
+   "names": [
+    "a",
+    "r"
+   ]
+  },
+  {
+   "from": "access-list-2635d079c875.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "role-label-f76597fae88b.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "model-96b25fa95571.js",
+   "count": 2,
+   "names": [
+    "c",
+    "f"
+   ]
+  },
+  {
+   "from": "popover-df132560e617.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "new-space-dialog-38da9be1f291.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 568
+  },
+  {
+   "name": "id",
+   "count": 383
+  },
+  {
+   "name": "defaultMessage",
+   "count": 321
+  },
+  {
+   "name": "description",
+   "count": 303
+  },
+  {
+   "name": "className",
+   "count": 274
+  },
+  {
+   "name": "label",
+   "count": 125
+  },
+  {
+   "name": "icon",
+   "count": 100
+  },
+  {
+   "name": "title",
+   "count": 93
+  },
+  {
+   "name": "pageId",
+   "count": 91
+  },
+  {
+   "name": "onClick",
+   "count": 71
+  },
+  {
+   "name": "null",
+   "count": 62
+  },
+  {
+   "name": "accountId",
+   "count": 58
+  },
+  {
+   "name": "color",
+   "count": 52
+  },
+  {
+   "name": "space",
+   "count": 51
+  },
+  {
+   "name": "enabled",
+   "count": 51
+  },
+  {
+   "name": "value",
+   "count": 50
+  },
+  {
+   "name": "disabled",
+   "count": 50
+  },
+  {
+   "name": "name",
+   "count": 49
+  },
+  {
+   "name": "type",
+   "count": 48
+  },
+  {
+   "name": "categories",
+   "count": 47
+  },
+  {
+   "name": "md",
+   "count": 47
+  },
+  {
+   "name": "size",
+   "count": 45
+  },
+  {
+   "name": "spaceId",
+   "count": 44
+  },
+  {
+   "name": "data",
+   "count": 43
+  },
+  {
+   "name": "isActive",
+   "count": 43
+  },
+  {
+   "name": "userId",
+   "count": 41
+  },
+  {
+   "name": "page",
+   "count": 38
+  },
+  {
+   "name": "state",
+   "count": 37
+  },
+  {
+   "name": "kind",
+   "count": 37
+  },
+  {
+   "name": "get",
+   "count": 32
+  },
+  {
+   "name": "values",
+   "count": 31
+  },
+  {
+   "name": "redesigned",
+   "count": 31
+  },
+  {
+   "name": "signal",
+   "count": 30
+  },
+  {
+   "name": "replace",
+   "count": 30
+  },
+  {
+   "name": "isError",
+   "count": 28
+  },
+  {
+   "name": "onClose",
+   "count": 25
+  },
+  {
+   "name": "documentType",
+   "count": 25
+  },
+  {
+   "name": "navigation",
+   "count": 25
+  },
+  {
+   "name": "onOpen",
+   "count": 22
+  },
+  {
+   "name": "action",
+   "count": 21
+  },
+  {
+   "name": "actions",
+   "count": 21
+  },
+  {
+   "name": "search",
+   "count": 20
+  },
+  {
+   "name": "pages",
+   "count": 20
+  },
+  {
+   "name": "scope",
+   "count": 20
+  },
+  {
+   "name": "targetPlan",
+   "count": 20
+  },
+  {
+   "name": "open",
+   "count": 19
+  },
+  {
+   "name": "onOpenChange",
+   "count": 19
+  },
+  {
+   "name": "compact",
+   "count": 19
+  },
+  {
+   "name": "ref",
+   "count": 19
+  },
+  {
+   "name": "defaultTab",
+   "count": 19
+  },
+  {
+   "name": "source",
+   "count": 18
+  },
+  {
+   "name": "role",
+   "count": 18
+  },
+  {
+   "name": "viewMode",
+   "count": 18
+  },
+  {
+   "name": "pathname",
+   "count": 17
+  },
+  {
+   "name": "href",
+   "count": 17
+  },
+  {
+   "name": "query",
+   "count": 17
+  },
+  {
+   "name": "onSelect",
+   "count": 17
+  },
+  {
+   "name": "x",
+   "count": 17
+  },
+  {
+   "name": "highlighted",
+   "count": 17
+  },
+  {
+   "name": "refetch",
+   "count": 16
+  },
+  {
+   "name": "isLoading",
+   "count": 16
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 15
+  },
+  {
+   "name": "toastId",
+   "count": 15
+  },
+  {
+   "name": "currentPlan",
+   "count": 15
+  },
+  {
+   "name": "onChange",
+   "count": 15
+  },
+  {
+   "name": "y",
+   "count": 15
+  },
+  {
+   "name": "items",
+   "count": 14
+  },
+  {
+   "name": "onNewChat",
+   "count": 14
+  },
+  {
+   "name": "spaceSidebarAccountId",
+   "count": 14
+  },
+  {
+   "name": "content",
+   "count": 14
+  },
+  {
+   "name": "style",
+   "count": 14
+  },
+  {
+   "name": "planName",
+   "count": 14
+  },
+  {
+   "name": "appearance",
+   "count": 13
+  },
+  {
+   "name": "rootPageId",
+   "count": 13
+  },
+  {
+   "name": "symbol",
+   "count": 13
+  },
+  {
+   "name": "fallback",
+   "count": 13
+  },
+  {
+   "name": "error",
+   "count": 13
+  },
+  {
+   "name": "onShare",
+   "count": 13
+  },
+  {
+   "name": "ariaLabel",
+   "count": 13
+  },
+  {
+   "name": "t",
+   "count": 12
+  },
+  {
+   "name": "variant",
+   "count": 12
+  },
+  {
+   "name": "onPress",
+   "count": 12
+  },
+  {
+   "name": "assets",
+   "count": 12
+  },
+  {
+   "name": "loading",
+   "count": 12
+  },
+  {
+   "name": "onArchive",
+   "count": 12
+  },
+  {
+   "name": "selection",
+   "count": 12
+  },
+  {
+   "name": "currency",
+   "count": 12
+  },
+  {
+   "name": "path",
+   "count": 11
+  },
+  {
+   "name": "metadata",
+   "count": 11
+  },
+  {
+   "name": "status",
+   "count": 11
+  },
+  {
+   "name": "surface",
+   "count": 11
+  },
+  {
+   "name": "isEqual",
+   "count": 11
+  },
+  {
+   "name": "active",
+   "count": 11
+  },
+  {
+   "name": "sidebarPrimaryContent",
+   "count": 11
+  },
+  {
+   "name": "scrollContainerRef",
+   "count": 11
+  },
+  {
+   "name": "queryKey",
+   "count": 11
+  },
+  {
+   "name": "promoCode",
+   "count": 11
+  },
+  {
+   "name": "thumbnail",
+   "count": 11
+  },
+  {
+   "name": "alt",
+   "count": 11
+  },
+  {
+   "name": "headline",
+   "count": 11
+  },
+  {
+   "name": "summary",
+   "count": 11
+  },
+  {
+   "name": "disableExposureLog",
+   "count": 11
+  },
+  {
+   "name": "amount",
+   "count": 11
+  },
+  {
+   "name": "parameters",
+   "count": 10
+  },
+  {
+   "name": "asset",
+   "count": 10
+  },
+  {
+   "name": "modal",
+   "count": 10
+  },
+  {
+   "name": "isFetching",
+   "count": 10
+  },
+  {
+   "name": "to",
+   "count": 10
+  },
+  {
+   "name": "iconAssetSource",
+   "count": 10
+  },
+  {
+   "name": "provider",
+   "count": 10
+  },
+  {
+   "name": "uniform",
+   "count": 10
+  },
+  {
+   "name": "location",
+   "count": 10
+  },
+  {
+   "name": "namespace",
+   "count": 10
+  },
+  {
+   "name": "canCreatePage",
+   "count": 10
+  },
+  {
+   "name": "isPending",
+   "count": 10
+  },
+  {
+   "name": "tabIndex",
+   "count": 10
+  },
+  {
+   "name": "showSource",
+   "count": 10
+  },
+  {
+   "name": "uri",
+   "count": 10
+  },
+  {
+   "name": "ready",
+   "count": 10
+  },
+  {
+   "name": "showCardOutline",
+   "count": 10
+  },
+  {
+   "name": "highlightBackground",
+   "count": 10
+  },
+  {
+   "name": "highlightPlan",
+   "count": 10
+  },
+  {
+   "name": "newDesign",
+   "count": 10
+  },
+  {
+   "name": "dark",
+   "count": 10
+  },
+  {
+   "name": "key",
+   "count": 9
+  },
+  {
+   "name": "roleId",
+   "count": 9
+  },
+  {
+   "name": "target",
+   "count": 9
+  },
+  {
+   "name": "n",
+   "count": 9
+  },
+  {
+   "name": "layout",
+   "count": 9
+  },
+  {
+   "name": "indentLevel",
+   "count": 9
+  },
+  {
+   "name": "onRetry",
+   "count": 9
+  },
+  {
+   "name": "spaces",
+   "count": 9
+  },
+  {
+   "name": "getItems",
+   "count": 9
+  },
+  {
+   "name": "r",
+   "count": 9
+  },
+  {
+   "name": "hostId",
+   "count": 9
+  },
+  {
+   "name": "selected",
+   "count": 9
+  },
+  {
+   "name": "radius",
+   "count": 9
+  },
+  {
+   "name": "filename",
+   "count": 9
+  },
+  {
+   "name": "assetUrl",
+   "count": 9
+  },
+  {
+   "name": "iconColor",
+   "count": 9
+  },
+  {
+   "name": "updatedPlan",
+   "count": 9
+  },
+  {
+   "name": "recipient",
+   "count": 8
+  },
+  {
+   "name": "retry",
+   "count": 8
+  },
+  {
+   "name": "spaceSidebarRootPageId",
+   "count": 8
+  },
+  {
+   "name": "parentSpace",
+   "count": 8
+  },
+  {
+   "name": "isPinned",
+   "count": 8
+  },
+  {
+   "name": "onTogglePinned",
+   "count": 8
+  },
+  {
+   "name": "pageTitle",
+   "count": 8
+  },
+  {
+   "name": "i",
+   "count": 8
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 8
+  },
+  {
+   "name": "failed",
+   "count": 8
+  },
+  {
+   "name": "highlightValueProps",
+   "count": 8
+  },
+  {
+   "name": "initiator",
+   "count": 8
+  },
+  {
+   "name": "wide",
+   "count": 8
+  },
+  {
+   "name": "plan",
+   "count": 8
+  },
+  {
+   "name": "subtitle",
+   "count": 7
+  },
+  {
+   "name": "invitations",
+   "count": 7
+  },
+  {
+   "name": "hash",
+   "count": 7
+  },
+  {
+   "name": "tree",
+   "count": 7
+  },
+  {
+   "name": "align",
+   "count": 7
+  },
+  {
+   "name": "updatedAt",
+   "count": 7
+  },
+  {
+   "name": "isSelected",
+   "count": 7
+  },
+  {
+   "name": "onKeyDown",
+   "count": 7
+  },
+  {
+   "name": "onAddSite",
+   "count": 7
+  },
+  {
+   "name": "onNavigate",
+   "count": 7
+  },
+  {
+   "name": "onOpenPage",
+   "count": 7
+  },
+  {
+   "name": "accountUserId",
+   "count": 7
+  },
+  {
+   "name": "hasNextPage",
+   "count": 7
+  },
+  {
+   "name": "e",
+   "count": 7
+  },
+  {
+   "name": "footer",
+   "count": 7
+  },
+  {
+   "name": "minimumSeats",
+   "count": 7
+  },
+  {
+   "name": "staleTime",
+   "count": 7
+  },
+  {
+   "name": "expansion",
+   "count": 7
+  },
+  {
+   "name": "panelTabId",
+   "count": 7
+  },
+  {
+   "name": "reserveDisclosureSpace",
+   "count": 7
+  },
+  {
+   "name": "pricingCardRedesign",
+   "count": 7
+  },
+  {
+   "name": "price",
+   "count": 7
+  },
+  {
+   "name": "requestBody",
+   "count": 6
+  },
+  {
+   "name": "bb0",
+   "count": 6
+  },
+  {
+   "name": "returnPath",
+   "count": 6
+  },
+  {
+   "name": "depth",
+   "count": 6
+  },
+  {
+   "name": "renderRow",
+   "count": 6
+  },
+  {
+   "name": "creationId",
+   "count": 6
+  },
+  {
+   "name": "sidebarArea",
+   "count": 6
+  },
+  {
+   "name": "onFocus",
+   "count": 6
+  },
+  {
+   "name": "selectedPageId",
+   "count": 6
+  },
+  {
+   "name": "density",
+   "count": 6
+  },
+  {
+   "name": "loadingLabel",
+   "count": 6
+  },
+  {
+   "name": "rowCount",
+   "count": 6
+  },
+  {
+   "name": "isFetchingNextPage",
+   "count": 6
+  },
+  {
+   "name": "once",
+   "count": 6
+  },
+  {
+   "name": "leftIcon",
+   "count": 6
+  },
+  {
+   "name": "artwork",
+   "count": 6
+  },
+  {
+   "name": "pending",
+   "count": 6
+  },
+  {
+   "name": "isCurrent",
+   "count": 6
+  },
+  {
+   "name": "embedded",
+   "count": 6
+  },
+  {
+   "name": "takeInitialBootstrap",
+   "count": 6
+  },
+  {
+   "name": "featureSections",
+   "count": 6
+  },
+  {
+   "name": "advertisedFeatures",
+   "count": 6
+  },
+  {
+   "name": "showNewValueProps",
+   "count": 6
+  },
+  {
+   "name": "showNewDesign",
+   "count": 6
+  },
+  {
+   "name": "selectedTab",
+   "count": 6
+  },
+  {
+   "name": "isNoPaymentTrial",
+   "count": 6
+  },
+  {
+   "name": "hasPromotion",
+   "count": 6
+  },
+  {
+   "name": "planId",
+   "count": 6
+  },
+  {
+   "name": "emoji",
+   "count": 5
+  },
+  {
+   "name": "theme",
+   "count": 5
+  },
+  {
+   "name": "as",
+   "count": 5
+  },
+  {
+   "name": "secondaryLabel",
+   "count": 5
+  },
+  {
+   "name": "createSpace",
+   "count": 5
+  },
+  {
+   "name": "localPageId",
+   "count": 5
+  },
+  {
+   "name": "blockId",
+   "count": 5
+  },
+  {
+   "name": "focusPageTitle",
+   "count": 5
+  },
+  {
+   "name": "options",
+   "count": 5
+  },
+  {
+   "name": "explorer",
+   "count": 5
+  },
+  {
+   "name": "scrollPageToTop",
+   "count": 5
+  },
+  {
+   "name": "spaceSidebarPersonal",
+   "count": 5
+  },
+  {
+   "name": "triggerButton",
+   "count": 5
+  },
+  {
+   "name": "preview",
+   "count": 5
+  },
+  {
+   "name": "createDisabled",
+   "count": 5
+  },
+  {
+   "name": "results",
+   "count": 5
+  },
+  {
+   "name": "onMove",
+   "count": 5
+  },
+  {
+   "name": "heading",
+   "count": 5
+  },
+  {
+   "name": "onBack",
+   "count": 5
+  },
+  {
+   "name": "c",
+   "count": 5
+  },
+  {
+   "name": "fetchNextPage",
+   "count": 5
+  },
+  {
+   "name": "expanded",
+   "count": 5
+  },
+  {
+   "name": "isVisible",
+   "count": 5
+  },
+  {
+   "name": "intl",
+   "count": 5
+  },
+  {
+   "name": "iconSize",
+   "count": 5
+  },
+  {
+   "name": "square",
+   "count": 5
+  },
+  {
+   "name": "count",
+   "count": 5
+  },
+  {
+   "name": "quantity",
+   "count": 5
+  },
+  {
+   "name": "queryFn",
+   "count": 5
+  },
+  {
+   "name": "code",
+   "count": 5
+  },
+  {
+   "name": "libraryPresentation",
+   "count": 5
+  },
+  {
+   "name": "caret",
+   "count": 5
+  },
+  {
+   "name": "document_type",
+   "count": 5
+  },
+  {
+   "name": "contentRef",
+   "count": 5
+  },
+  {
+   "name": "entry",
+   "count": 5
+  },
+  {
+   "name": "showOnHover",
+   "count": 5
+  },
+  {
+   "name": "showGoOnUnifiedPricing",
+   "count": 5
+  },
+  {
+   "name": "isGoEnabled",
+   "count": 5
+  },
+  {
+   "name": "showProToggle",
+   "count": 5
+  },
+  {
+   "name": "isCompact",
+   "count": 5
+  },
+  {
+   "name": "daysUntilPlanRenews",
+   "count": 5
+  },
+  {
+   "name": "openTarget",
+   "count": 5
+  },
+  {
+   "name": "promoMetadata",
+   "count": 5
+  },
+  {
+   "name": "formattedDiscountedCost",
+   "count": 5
+  },
+  {
+   "name": "link",
+   "count": 5
+  }
+ ],
+ "literal_count": 2304,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261016\\spaces.json"
+}

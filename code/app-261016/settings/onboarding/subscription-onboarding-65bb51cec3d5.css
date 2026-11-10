@@ -1,0 +1,38 @@
+@layer components {
+  ._planName_f8ifj_2 {
+    color: var(
+      --theme-blue-text,
+      var(--lightningcss-light, var(--blue-500))
+        var(--lightningcss-dark, var(--chatgpt-blue-200, var(--blue-200)))
+    );
+  }
+  ._button_f8ifj_9 {
+    line-height: 20px;
+  }
+  ._primary_f8ifj_12 {
+    background: var(--checkout-button-background);
+    color: var(--checkout-button-foreground);
+    border-color: #0000;
+  }
+  ._primary_f8ifj_12:hover {
+    background: var(--checkout-button-hover);
+  }
+  ._secondary_f8ifj_20 {
+    color: var(--checkout-text-primary);
+    border-color: var(--checkout-border-heavy);
+    background: 0 0;
+  }
+  ._secondary_f8ifj_20:hover,
+  ._ghost_f8ifj_26:hover {
+    background: var(--checkout-bg-secondary);
+  }
+  ._ghost_f8ifj_26 {
+    color: var(--checkout-text-primary);
+    background: 0 0;
+    border-color: #0000;
+  }
+  ._trialDurationAccent_f8ifj_36 {
+    color: var(--lightningcss-light, var(--blue-500))
+      var(--lightningcss-dark, var(--chatgpt-blue-200, var(--blue-200)));
+  }
+}

@@ -1,0 +1,1731 @@
+{
+ "module": "voice",
+ "generated_at": "2026-11-09T07:51:29.607Z",
+ "files_scanned": 4,
+ "message_count": 77,
+ "messages": [
+  {
+   "id": "codex.composer.appMessage",
+   "text": "App message",
+   "description": "Attachment containing images or data sent by an app",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.composer.appMessageContext",
+   "text": "App message context",
+   "description": "Attachment holding app-supplied images and data when the user edits an app-generated message",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.pluginSelectionRequiresSupportedRuntime",
+   "text": "This Codex runtime does not support chat plugin selection. Update the runtime before sending this chat",
+   "description": "Error when a chat excludes plugins but the selected execution host cannot enforce those exclusions",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.realtime.createThreadError",
+   "text": "Unable to start voice chat",
+   "description": "Toast shown when creating a new thread for realtime voice fails",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.back",
+   "text": "Back",
+   "description": "Button that dismisses a failed realtime voice launch and returns to the previous surface",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.failedDescription",
+   "text": "Try again, or go back",
+   "description": "Description shown when an optimistic realtime voice launch fails",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.failedTitle",
+   "text": "Voice chat couldn’t start",
+   "description": "Title shown when an optimistic realtime voice launch fails",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.feedback",
+   "text": "Send feedback",
+   "description": "Button that opens the feedback dialog with a failed realtime voice startup error",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedDescription",
+   "text": "Allow microphone access in system settings to start a voice chat",
+   "description": "Instructions shown when operating-system microphone permission must be enabled before starting realtime voice chat",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedTitle",
+   "text": "Microphone permission denied",
+   "description": "Title shown when realtime voice chat cannot start because the operating system denied microphone permission",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.openMicrophoneSettings",
+   "text": "Open system settings",
+   "description": "Button that opens the operating-system microphone privacy settings after microphone permission blocks realtime voice chat",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.retry",
+   "text": "Try again",
+   "description": "Button that retries a failed realtime voice launch",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.starting",
+   "text": "Starting voice chat",
+   "description": "Accessible status announced while realtime voice starts",
+   "files": [
+    "723410.56b974f189.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.desktop.description",
+   "text": "Use your files, apps, and connected tools—from Slack and GitHub to Notion and beyond",
+   "description": "Description of the desktop tip in the first-use live voice introduction",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.desktop.description.chatgpt",
+   "text": "Bring together your files, apps, and connected tools—from Slack and Notion to the documents you use every day",
+   "description": "Description of the desktop tip in the first-use live voice introduction shown from ChatGPT",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.desktop.title",
+   "text": "Work across your desktop",
+   "description": "Title of the desktop tip in the first-use live voice introduction",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.learn.description",
+   "text": "Talk through a PR, ask questions about a codebase, or learn a new topic through natural back-and-forth",
+   "description": "Description of the collaborative thinking tip in the first-use live voice introduction",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.learn.description.chatgpt",
+   "text": "Brainstorm ideas, prepare for a big meeting, or learn something new through natural back-and-forth",
+   "description": "Description of the collaborative thinking tip in the first-use live voice introduction shown from ChatGPT",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.learn.title",
+   "text": "Explore, plan, and learn",
+   "description": "Title of the collaborative thinking tip in the first-use live voice introduction",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.projects.description",
+   "text": "Start new tasks, coordinate work in progress, and pick up where you left off—without micromanaging",
+   "description": "Description of the projects tip in the first-use live voice introduction",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.projects.description.chatgpt",
+   "text": "Turn ideas into action, keep work moving, and pick up where you left off—without micromanaging",
+   "description": "Description of the projects tip in the first-use live voice introduction shown from ChatGPT",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.projects.title",
+   "text": "Work across projects",
+   "description": "Title of the projects tip in the first-use live voice introduction",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.title",
+   "text": "Meet ChatGPT Voice",
+   "description": "Title of the first-use introduction inside a live voice chat",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.description",
+   "text": "Appshots let ChatGPT use the active window’s image and text when you ask about what’s on screen",
+   "description": "Description of Appshots in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.error",
+   "text": "Appshots couldn’t be updated",
+   "description": "Error shown when Appshots cannot be updated from realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.saving",
+   "text": "Saving Appshots preference",
+   "description": "Status announced while updating the Appshots preference in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.title",
+   "text": "Bring your screen into the conversation",
+   "description": "Title of the Appshots step in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.toggleAriaLabel",
+   "text": "Use Appshots",
+   "description": "Accessible label for the Appshots toggle in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.toggleDescription",
+   "text": "You can turn this off anytime in Settings",
+   "description": "Description for the Appshots toggle in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.toggleLabel",
+   "text": "Use Appshots",
+   "description": "Label for the Appshots toggle in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.unavailable",
+   "text": "Appshots aren’t available on this device",
+   "description": "Unavailable state for Appshots in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.back",
+   "text": "Back",
+   "description": "Button that returns to the previous realtime voice onboarding step",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.close",
+   "text": "Close voice chat setup",
+   "description": "Accessible label for closing ChatGPT Voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.next",
+   "text": "Next",
+   "description": "Button that advances realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.start",
+   "text": "Start voice chat",
+   "description": "Button that completes realtime voice onboarding and starts voice",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.title",
+   "text": "Set up voice chat",
+   "description": "Accessible title for ChatGPT Voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.voice.description",
+   "text": "You can change this anytime in Settings",
+   "description": "Description of the voice selection step in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.voice.title",
+   "text": "Choose your voice",
+   "description": "Title of the voice selection step in realtime voice onboarding",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.choose",
+   "text": "Choose a voice",
+   "description": "Accessible label for the realtime voice picker",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.loading",
+   "text": "Loading…",
+   "description": "Label shown while the selected realtime voice loads",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.next",
+   "text": "Next voice",
+   "description": "Button to select the next realtime voice",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.noVoices",
+   "text": "No compatible voices are available",
+   "description": "Message shown when no compatible realtime voices are available",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.optionLabel",
+   "text": "{name}: {description}",
+   "description": "Accessible label for one realtime voice option",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewPause",
+   "text": "Pause {name} preview",
+   "description": "Accessible label for pausing a voice preview",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewPlay",
+   "text": "Play {name} preview",
+   "description": "Accessible label for playing a voice preview",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewReplay",
+   "text": "Replay {name} preview",
+   "description": "Accessible label for replaying a voice preview",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewRetry",
+   "text": "Retry {name} preview",
+   "description": "Accessible label for retrying a voice preview",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewUnavailable",
+   "text": "Preview unavailable",
+   "description": "Error shown when a prerecorded voice preview cannot play",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previous",
+   "text": "Previous voice",
+   "description": "Button to select the previous realtime voice",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.retry",
+   "text": "Retry",
+   "description": "Button to retry loading compatible realtime voices",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.saveError",
+   "text": "Unable to save voice",
+   "description": "Error shown when saving the realtime voice fails",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.selectedAnnouncement",
+   "text": "Selected voice: {name}. {description}",
+   "description": "Screen reader announcement after selecting a realtime voice",
+   "files": [
+    "679632.b502a10a11.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictionary.atCapacity",
+   "text": "Your dictionary is full. Your saved words are kept. Remove words to make room for new ones",
+   "description": "Voice dictionary notice when saved entry count reaches or exceeds the current server limit; existing entries are not removed automatically",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.cancelImport",
+   "text": "Cancel",
+   "description": "Cancel the local vocabulary import preview without changing saved words",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.capacityError",
+   "text": "Your dictionary is full. Remove a saved word before adding more. Words from this device are kept for retry",
+   "description": "Voice dictionary capacity error, including imports that may have partially succeeded; local words are retained",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.confirmImport",
+   "text": "Import words",
+   "description": "Confirm importing the selected local words into the current account and workspace",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.duplicateError",
+   "text": "This word is already in your dictionary",
+   "description": "Voice dictionary error when a normalized, case-insensitive equivalent entry is already saved",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.importDescription",
+   "text": "Import these words from this device into your current account and workspace. Saved words will be available on your other devices",
+   "description": "Explains the destination and cross-device availability before importing local dictation vocabulary into the cloud dictionary",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.invalidEntryError",
+   "text": "Check the word’s length and remove any line breaks or attachments.",
+   "description": "Voice dictionary validation error after adding or partially importing entries; refers to the limits shown in the dialog",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.limits",
+   "text": "Dictionary capacity: {maxWords, number}. Each word can contain up to {maxLength, plural, one {# character} other {# characters}} after text normalization. Some characters, including emoji, count as two or more",
+   "description": "Voice dictionary limits: maxWords is the maximum number of entries, maxLength is the maximum UTF-16 length after Unicode and whitespace normalization; emoji can consume multiple units",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.loading",
+   "text": "Loading words…",
+   "description": "Status while saved voice dictionary words load",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.reviewImport",
+   "text": "Import words from this device…",
+   "description": "Button to preview existing local dictionary words before importing them into the current account and workspace",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.saveError",
+   "text": "Couldn’t save dictionary changes. Check the words and try again",
+   "description": "Error toast after adding, deleting, or importing vocabulary fails; unsaved input and local words are retained for retry",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.serverTooLong",
+   "text": "This word is too long after text normalization. Shorten it to the current limit shown above",
+   "description": "Server validation error for a dictionary entry exceeding the normalized UTF-16 length limit",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.addWord.heading",
+   "text": "Add word",
+   "description": "Heading above the input for adding a speech recognition word or short phrase",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.button.add",
+   "text": "Add",
+   "description": "Button for adding a word to the voice dictionary",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.button.remove.ariaLabel",
+   "text": "Remove {word}",
+   "description": "Accessible label for deleting a saved voice dictionary word",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.button.retry",
+   "text": "Retry",
+   "description": "Button for retrying a failed custom dictionary load",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.empty",
+   "text": "No words yet",
+   "description": "Empty state before any voice dictionary words have been added",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.emptySearch",
+   "text": "No matching words",
+   "description": "Empty state when no saved voice dictionary words match the search",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.input.add.placeholder",
+   "text": "Word ChatGPT should recognize when spoken",
+   "description": "Placeholder for a word or short phrase to recognize during dictation",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.input.search.ariaLabel",
+   "text": "Search words",
+   "description": "Accessible label for searching saved speech recognition words",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.input.search.placeholder",
+   "text": "Search",
+   "description": "Placeholder for searching saved voice dictionary words",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.loadError",
+   "text": "We couldn’t load your saved words",
+   "description": "Error when Voice dictionary settings cannot load saved words",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.page.title",
+   "text": "Voice dictionary",
+   "description": "Title for the voice dictionary settings where users manage words to recognize in their speech",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.savedWords.heading",
+   "text": "Words",
+   "description": "Heading above saved voice dictionary entries",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.wordCount",
+   "text": "{wordCount}/{maxWords}",
+   "description": "Saved voice dictionary entry count and maximum, for example 3/200",
+   "files": [
+    "126704.becefcdeca.js",
+    "904323.c376207ffd.js"
+   ],
+   "file_count": 2
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 169
+  },
+  {
+   "name": "className",
+   "count": 148
+  },
+  {
+   "name": "id",
+   "count": 143
+  },
+  {
+   "name": "description",
+   "count": 120
+  },
+  {
+   "name": "defaultMessage",
+   "count": 110
+  },
+  {
+   "name": "hostId",
+   "count": 37
+  },
+  {
+   "name": "type",
+   "count": 30
+  },
+  {
+   "name": "disabled",
+   "count": 29
+  },
+  {
+   "name": "cwd",
+   "count": 28
+  },
+  {
+   "name": "conversationId",
+   "count": 24
+  },
+  {
+   "name": "onClick",
+   "count": 23
+  },
+  {
+   "name": "null",
+   "count": 20
+  },
+  {
+   "name": "context",
+   "count": 19
+  },
+  {
+   "name": "label",
+   "count": 17
+  },
+  {
+   "name": "size",
+   "count": 16
+  },
+  {
+   "name": "serviceTier",
+   "count": 16
+  },
+  {
+   "name": "queryKey",
+   "count": 15
+  },
+  {
+   "name": "name",
+   "count": 15
+  },
+  {
+   "name": "text",
+   "count": 14
+  },
+  {
+   "name": "color",
+   "count": 14
+  },
+  {
+   "name": "error",
+   "count": 14
+  },
+  {
+   "name": "signal",
+   "count": 13
+  },
+  {
+   "name": "role",
+   "count": 13
+  },
+  {
+   "name": "e",
+   "count": 13
+  },
+  {
+   "name": "value",
+   "count": 12
+  },
+  {
+   "name": "kind",
+   "count": 12
+  },
+  {
+   "name": "prompt",
+   "count": 11
+  },
+  {
+   "name": "workspaceRoots",
+   "count": 10
+  },
+  {
+   "name": "agentMode",
+   "count": 10
+  },
+  {
+   "name": "permissionProfileId",
+   "count": 10
+  },
+  {
+   "name": "shouldSendPermissionOverrides",
+   "count": 10
+  },
+  {
+   "name": "phase",
+   "count": 10
+  },
+  {
+   "name": "style",
+   "count": 10
+  },
+  {
+   "name": "ref",
+   "count": 10
+  },
+  {
+   "name": "queryFn",
+   "count": 9
+  },
+  {
+   "name": "staleTime",
+   "count": 9
+  },
+  {
+   "name": "restoreMessage",
+   "count": 9
+  },
+  {
+   "name": "control",
+   "count": 8
+  },
+  {
+   "name": "onChange",
+   "count": 8
+  },
+  {
+   "name": "onSubmit",
+   "count": 8
+  },
+  {
+   "name": "projectId",
+   "count": 8
+  },
+  {
+   "name": "activeCollaborationMode",
+   "count": 8
+  },
+  {
+   "name": "locator",
+   "count": 8
+  },
+  {
+   "name": "safe",
+   "count": 8
+  },
+  {
+   "name": "paletteIndex",
+   "count": 8
+  },
+  {
+   "name": "voiceActivity",
+   "count": 8
+  },
+  {
+   "name": "collaborationMode",
+   "count": 8
+  },
+  {
+   "name": "clientUserMessageId",
+   "count": 8
+  },
+  {
+   "name": "permissionSelection",
+   "count": 8
+  },
+  {
+   "name": "variant",
+   "count": 8
+  },
+  {
+   "name": "surface",
+   "count": 7
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 7
+  },
+  {
+   "name": "expectedErrorStatuses",
+   "count": 7
+  },
+  {
+   "name": "onClose",
+   "count": 7
+  },
+  {
+   "name": "loading",
+   "count": 7
+  },
+  {
+   "name": "scope",
+   "count": 7
+  },
+  {
+   "name": "memoryPreferences",
+   "count": 7
+  },
+  {
+   "name": "source",
+   "count": 7
+  },
+  {
+   "name": "previewAudioLevel",
+   "count": 7
+  },
+  {
+   "name": "mcpAppModelContextAttachments",
+   "count": 7
+  },
+  {
+   "name": "turnTrigger",
+   "count": 7
+  },
+  {
+   "name": "get",
+   "count": 7
+  },
+  {
+   "name": "inheritNativeWorkspacePermissions",
+   "count": 7
+  },
+  {
+   "name": "before",
+   "count": 7
+  },
+  {
+   "name": "after",
+   "count": 7
+  },
+  {
+   "name": "checked",
+   "count": 6
+  },
+  {
+   "name": "autoFocus",
+   "count": 6
+  },
+  {
+   "name": "s",
+   "count": 6
+  },
+  {
+   "name": "primaryAction",
+   "count": 6
+  },
+  {
+   "name": "onBack",
+   "count": 6
+  },
+  {
+   "name": "src",
+   "count": 6
+  },
+  {
+   "name": "enabled",
+   "count": 6
+  },
+  {
+   "name": "sensitive",
+   "count": 6
+  },
+  {
+   "name": "previewTimeMs",
+   "count": 6
+  },
+  {
+   "name": "model",
+   "count": 6
+  },
+  {
+   "name": "useAppServerPermissionDefault",
+   "count": 6
+  },
+  {
+   "name": "stack",
+   "count": 6
+  },
+  {
+   "name": "hasError",
+   "count": 6
+  },
+  {
+   "name": "threadId",
+   "count": 6
+  },
+  {
+   "name": "worktreePath",
+   "count": 6
+  },
+  {
+   "name": "accountId",
+   "count": 5
+  },
+  {
+   "name": "userId",
+   "count": 5
+  },
+  {
+   "name": "onError",
+   "count": 5
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 5
+  },
+  {
+   "name": "toastId",
+   "count": 5
+  },
+  {
+   "name": "values",
+   "count": 5
+  },
+  {
+   "name": "hover",
+   "count": 5
+  },
+  {
+   "name": "entryPoint",
+   "count": 5
+  },
+  {
+   "name": "request",
+   "count": 5
+  },
+  {
+   "name": "presentation",
+   "count": 5
+  },
+  {
+   "name": "reasoningEffort",
+   "count": 5
+  },
+  {
+   "name": "input",
+   "count": 5
+  },
+  {
+   "name": "usePermissionSelection",
+   "count": 5
+  },
+  {
+   "name": "conversation",
+   "count": 5
+  },
+  {
+   "name": "opacity",
+   "count": 5
+  },
+  {
+   "name": "duration",
+   "count": 5
+  },
+  {
+   "name": "icon",
+   "count": 5
+  },
+  {
+   "name": "dark",
+   "count": 5
+  },
+  {
+   "name": "queryClient",
+   "count": 4
+  },
+  {
+   "name": "isPending",
+   "count": 4
+  },
+  {
+   "name": "path",
+   "count": 4
+  },
+  {
+   "name": "maxWords",
+   "count": 4
+  },
+  {
+   "name": "placeholder",
+   "count": 4
+  },
+  {
+   "name": "message",
+   "count": 4
+  },
+  {
+   "name": "t",
+   "count": 4
+  },
+  {
+   "name": "width",
+   "count": 4
+  },
+  {
+   "name": "height",
+   "count": 4
+  },
+  {
+   "name": "projectAssignment",
+   "count": 4
+  },
+  {
+   "name": "x",
+   "count": 4
+  },
+  {
+   "name": "sourceComposerScope",
+   "count": 4
+  },
+  {
+   "name": "originPath",
+   "count": 4
+  },
+  {
+   "name": "workHomePolicyAcceptance",
+   "count": 4
+  },
+  {
+   "name": "isAppshotAvailable",
+   "count": 4
+  },
+  {
+   "name": "updateError",
+   "count": 4
+  },
+  {
+   "name": "onEnabledChange",
+   "count": 4
+  },
+  {
+   "name": "onboarding",
+   "count": 4
+  },
+  {
+   "name": "isOpenRef",
+   "count": 4
+  },
+  {
+   "name": "backAction",
+   "count": 4
+  },
+  {
+   "name": "ariaLabel",
+   "count": 4
+  },
+  {
+   "name": "initialVoice",
+   "count": 4
+  },
+  {
+   "name": "voices",
+   "count": 4
+  },
+  {
+   "name": "onVoiceChange",
+   "count": 4
+  },
+  {
+   "name": "pageCompanion",
+   "count": 4
+  },
+  {
+   "name": "memoryPreferencesToInitialize",
+   "count": 4
+  },
+  {
+   "name": "P",
+   "count": 4
+  },
+  {
+   "name": "glowEnabled",
+   "count": 4
+  },
+  {
+   "name": "onDraw",
+   "count": 4
+  },
+  {
+   "name": "onRenderError",
+   "count": 4
+  },
+  {
+   "name": "onStateSample",
+   "count": 4
+  },
+  {
+   "name": "placement",
+   "count": 4
+  },
+  {
+   "name": "config",
+   "count": 4
+  },
+  {
+   "name": "messageThreadId",
+   "count": 4
+  },
+  {
+   "name": "responsesapiClientMetadata",
+   "count": 4
+  },
+  {
+   "name": "threadAccess",
+   "count": 4
+  },
+  {
+   "name": "shouldRestrictRemoteHostImageSize",
+   "count": 4
+  },
+  {
+   "name": "attachments",
+   "count": 4
+  },
+  {
+   "name": "mode",
+   "count": 4
+  },
+  {
+   "name": "reduceMotion",
+   "count": 4
+  },
+  {
+   "name": "networkMode",
+   "count": 4
+  },
+  {
+   "name": "exact",
+   "count": 4
+  },
+  {
+   "name": "verticalAlignment",
+   "count": 4
+  },
+  {
+   "name": "sm",
+   "count": 4
+  },
+  {
+   "name": "onSuccess",
+   "count": 3
+  },
+  {
+   "name": "requestBody",
+   "count": 3
+  },
+  {
+   "name": "data",
+   "count": 3
+  },
+  {
+   "name": "refetch",
+   "count": 3
+  },
+  {
+   "name": "htmlFor",
+   "count": 3
+  },
+  {
+   "name": "layout",
+   "count": 3
+  },
+  {
+   "name": "open",
+   "count": 3
+  },
+  {
+   "name": "onOpenChange",
+   "count": 3
+  },
+  {
+   "name": "contentProps",
+   "count": 3
+  },
+  {
+   "name": "product",
+   "count": 3
+  },
+  {
+   "name": "S",
+   "count": 3
+  },
+  {
+   "name": "primaryDisabled",
+   "count": 3
+  },
+  {
+   "name": "previewEnabled",
+   "count": 3
+  },
+  {
+   "name": "currentLocalExecutionCwd",
+   "count": 3
+  },
+  {
+   "name": "workspaceRootsForLocalExecution",
+   "count": 3
+  },
+  {
+   "name": "realtimeVoiceDynamicTools",
+   "count": 3
+  },
+  {
+   "name": "V",
+   "count": 3
+  },
+  {
+   "name": "F",
+   "count": 3
+  },
+  {
+   "name": "tabIndex",
+   "count": 3
+  },
+  {
+   "name": "includeLayers",
+   "count": 3
+  },
+  {
+   "name": "priority",
+   "count": 3
+  },
+  {
+   "name": "workspaceKind",
+   "count": 3
+  },
+  {
+   "name": "projectlessOutputDirectory",
+   "count": 3
+  },
+  {
+   "name": "imageAttachments",
+   "count": 3
+  },
+  {
+   "name": "executionHostId",
+   "count": 3
+  },
+  {
+   "name": "untrusted",
+   "count": 3
+  },
+  {
+   "name": "isCloudFollowUp",
+   "count": 3
+  },
+  {
+   "name": "managerHostId",
+   "count": 3
+  },
+  {
+   "name": "targetConversationId",
+   "count": 3
+  },
+  {
+   "name": "additionalContext",
+   "count": 3
+  },
+  {
+   "name": "runtimeWorkspaceRoots",
+   "count": 3
+  },
+  {
+   "name": "responseItems",
+   "count": 3
+  },
+  {
+   "name": "ease",
+   "count": 3
+  },
+  {
+   "name": "animate",
+   "count": 3
+  },
+  {
+   "name": "initial",
+   "count": 3
+  },
+  {
+   "name": "transition",
+   "count": 3
+  },
+  {
+   "name": "high",
+   "count": 3
+  },
+  {
+   "name": "low",
+   "count": 3
+  },
+  {
+   "name": "mid",
+   "count": 3
+  },
+  {
+   "name": "overall",
+   "count": 3
+  },
+  {
+   "name": "y",
+   "count": 3
+  },
+  {
+   "name": "overridden",
+   "count": 3
+  },
+  {
+   "name": "labelSizing",
+   "count": 3
+  },
+  {
+   "name": "labelWeight",
+   "count": 3
+  },
+  {
+   "name": "$type",
+   "count": 2
+  },
+  {
+   "name": "DictionaryDialog",
+   "count": 2
+  },
+  {
+   "name": "max_entry_utf16_units",
+   "count": 2
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 2
+  },
+  {
+   "name": "retry",
+   "count": 2
+  },
+  {
+   "name": "isError",
+   "count": 2
+  },
+  {
+   "name": "isFetching",
+   "count": 2
+  },
+  {
+   "name": "parameters",
+   "count": 2
+  },
+  {
+   "name": "word_id",
+   "count": 2
+  },
+  {
+   "name": "optimistic",
+   "count": 2
+  },
+  {
+   "name": "cancelRefetch",
+   "count": 2
+  },
+  {
+   "name": "mutationFn",
+   "count": 2
+  },
+  {
+   "name": "onSettled",
+   "count": 2
+  },
+  {
+   "name": "mutate",
+   "count": 2
+  },
+  {
+   "name": "variables",
+   "count": 2
+  },
+  {
+   "name": "words",
+   "count": 2
+  },
+  {
+   "name": "title",
+   "count": 2
+  },
+  {
+   "name": "capacity",
+   "count": 2
+  },
+  {
+   "name": "limits",
+   "count": 2
+  },
+  {
+   "name": "maxLength",
+   "count": 2
+  },
+  {
+   "name": "onCheckedChange",
+   "count": 2
+  },
+  {
+   "name": "wordCount",
+   "count": 2
+  },
+  {
+   "name": "word",
+   "count": 2
+  },
+  {
+   "name": "as",
+   "count": 2
+  },
+  {
+   "name": "dictationSessionId",
+   "count": 2
+  },
+  {
+   "name": "productExperience",
+   "count": 2
+  },
+  {
+   "name": "send",
+   "count": 2
+  },
+  {
+   "name": "fill",
+   "count": 2
+  },
+  {
+   "name": "d",
+   "count": 2
+  },
+  {
+   "name": "pendingEnabled",
+   "count": 2
+  },
+  {
+   "name": "onNext",
+   "count": 2
+  },
+  {
+   "name": "isSaving",
+   "count": 2
+  },
+  {
+   "name": "voiceCatalog",
+   "count": 2
+  },
+  {
+   "name": "preserveSelectionOnRefresh",
+   "count": 2
+  },
+  {
+   "name": "promoteSelectedGroup",
+   "count": 2
+  },
+  {
+   "name": "primaryLoading",
+   "count": 2
+  },
+  {
+   "name": "startupAnalytics",
+   "count": 2
+  },
+  {
+   "name": "existingThreadVoiceEnabled",
+   "count": 2
+  },
+  {
+   "name": "newThreadBaseInstructions",
+   "count": 2
+  },
+  {
+   "name": "newThreadDeveloperInstructions",
+   "count": 2
+  },
+  {
+   "name": "realtimeVoiceToolsDeveloperInstructions",
+   "count": 2
+  },
+  {
+   "name": "presentationAnchorRef",
+   "count": 2
+  },
+  {
+   "name": "subscribeToAudio",
+   "count": 2
+  },
+  {
+   "name": "displayScale",
+   "count": 2
+  },
+  {
+   "name": "filter",
+   "count": 2
+  },
+  {
+   "name": "background",
+   "count": 2
+  },
+  {
+   "name": "accentColor",
+   "count": 2
+  },
+  {
+   "name": "fallbackColors",
+   "count": 2
+  },
+  {
+   "name": "b",
+   "count": 2
+  },
+  {
+   "name": "autoFocusSelectedVoice",
+   "count": 2
+  },
+  {
+   "name": "playPreviewOnInitialRender",
+   "count": 2
+  },
+  {
+   "name": "indicator",
+   "count": 2
+  },
+  {
+   "name": "preload",
+   "count": 2
+  },
+  {
+   "name": "onEnded",
+   "count": 2
+  },
+  {
+   "name": "onPause",
+   "count": 2
+  },
+  {
+   "name": "onPlay",
+   "count": 2
+  },
+  {
+   "name": "I",
+   "count": 2
+  },
+  {
+   "name": "readResumeInputs",
+   "count": 2
+  },
+  {
+   "name": "threadSource",
+   "count": 2
+  },
+  {
+   "name": "approvalsReviewer",
+   "count": 2
+  },
+  {
+   "name": "additionalDeveloperInstructions",
+   "count": 2
+  },
+  {
+   "name": "VR",
+   "count": 2
+  },
+  {
+   "name": "mcpAppId",
+   "count": 2
+  },
+  {
+   "name": "content",
+   "count": 2
+  }
+ ],
+ "literal_count": 946,
+ "literals_file": "codex_app_rev\\.work\\literals\\voice.json"
+}

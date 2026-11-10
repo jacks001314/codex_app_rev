@@ -1,0 +1,3392 @@
+{
+ "module": "voice",
+ "generated_at": "2026-10-23T01:17:24.901Z",
+ "files_scanned": 26,
+ "message_count": 160,
+ "messages": [
+  {
+   "id": "browserVoice.enterFocus",
+   "text": "Enter voice focus mode",
+   "description": "Expand and center the voice orb in the conversation",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserVoice.exitFocus",
+   "text": "Exit voice focus mode",
+   "description": "Return the voice orb above the composer",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserVoice.introductionError",
+   "text": "Voice couldn’t start. Please try again",
+   "description": "Shown when Voice onboarding or its settings cannot load before a call starts",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.back.button.label",
+   "text": "Back to theme color selection",
+   "description": "Returns to the previous account accent-color step without saving the previewed voice",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.close.button.label",
+   "text": "Close voice selection",
+   "description": "Accessible label for closing teen voice selection without saving the previewed voice",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.continue.button.label",
+   "text": "Continue",
+   "description": "Saves the selected account voice and completes the teen personalization flow",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.loading.status",
+   "text": "Loading voices",
+   "description": "Loading state while the saved account voice and available previews load in teen onboarding",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.retry",
+   "text": "Try again",
+   "description": "Retries loading the account settings and available voice previews in teen onboarding",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.save.error",
+   "text": "We couldn’t save your voice. Try again",
+   "description": "Error after saving the selected account voice fails; the user stays on voice selection and can retry Continue",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js",
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.title",
+   "text": "Choose a voice",
+   "description": "Heading in teen onboarding where the user previews and selects an existing account voice",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.pepper.personalization.voice.unavailable.error",
+   "text": "Voices aren’t available right now. Try again later",
+   "description": "Error when saved account voice settings or the available voice catalog cannot load or the catalog is empty",
+   "files": [
+    "voice/voice-personalization-dialog-ca52fa342a56.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.voice.assistant_audio.playback_blocked.toast",
+   "text": "Audio playback was blocked. Tap or click to resume.",
+   "description": "Error toast shown during a ChatGPT voice conversation when the browser blocks playback of the assistant's speech. Tell the person to tap or click so browser audio playback can resume without disconnecting the conversation. Keep this as one concise toast message.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.voice.globalCapacityUnavailableModal.body",
+   "text": "Voice is temporarily unavailable due to high demand. Please try again later.",
+   "description": "Body text in a modal shown when an end user cannot start ChatGPT voice because global demand is temporarily too high. The text explains the temporary condition and encourages the user to try again later. This is plain text with no placeholders or markup.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.voice.globalCapacityUnavailableModal.confirm",
+   "text": "Got it",
+   "description": "Confirmation button label in a modal shown when ChatGPT voice is temporarily unavailable because of high global demand. Pressing the button dismisses the modal and performs no other action. Keep this acknowledgement label short.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.voice.globalCapacityUnavailableModal.title",
+   "text": "Voice is currently unavailable",
+   "description": "Title of a modal shown when starting ChatGPT Voice fails because of high global demand. This is a temporary condition, not a permanent or account-specific restriction. The title can wrap on smaller screens.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.voice.temporarilyUnavailableModal.body",
+   "text": "Voice sessions are temporarily at capacity. Please try again shortly.",
+   "description": "Body text in a modal shown after ChatGPT voice startup fails due to temporary session capacity limits. Audience is end users. The tone should be direct and reassuring. This is plain text under the title, with no placeholders or markup.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.voice.temporarilyUnavailableModal.confirm",
+   "text": "OK",
+   "description": "Confirmation button label in the voice temporarily unavailable modal. Pressing it dismisses the modal and performs no other action. Keep the label extremely short.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.voice.temporarilyUnavailableModal.title",
+   "text": "Voice is temporarily unavailable",
+   "description": "Headline in a modal shown when starting ChatGPT voice fails because voice sessions are temporarily at capacity. Audience is end users trying to start voice mode. The tone should be clear and calm. The title can wrap on smaller screens.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.rateLimitBanner.dismiss",
+   "text": "Dismiss",
+   "description": "Button in a Chat rate-limit banner above the composer that hides the banner for its current reset window",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "choose_your_voice",
+   "text": "Choose your voice",
+   "description": "Short heading in the focused ChatGPT Voice picker modal, shown when a user chooses a voice. Also used as the accessible label for the group of available voice options.",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "choose_your_voice.button_ok",
+   "text": "Switch to {voiceName}",
+   "description": "Short primary button label in the focused ChatGPT Voice picker modal. Activating the button confirms the selected voice. Placeholder {voiceName} is the display name of the selected voice, such as Rio or Lua.",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "choose_your_voice.button_ok_disabled",
+   "text": "Select a voice",
+   "description": "Short label for the disabled primary button in the focused ChatGPT Voice picker modal when no voice is available or selected. Prompts the user to select a voice before continuing.",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "choose_your_voice.option_label",
+   "text": "{voiceName} {voiceDescription}",
+   "description": "Accessible label for a voice option in the focused ChatGPT Voice picker. Includes the voice name and its short description.",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hintMessage.lostConnection",
+   "text": "Lost connection",
+   "description": "Short status message in the Voice focus dock shown after an active voice conversation loses its network connection. It appears beside a Retry button and should not include ending punctuation. No placeholders.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hintMessage.openInfoModal",
+   "text": "Open info modal",
+   "description": "Open info modal about voice mode usage",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "micMessages.description_markdown",
+   "text": "To use Voice, you'll need to enable your microphone and try again.",
+   "description": "Instructions after microphone access is denied when starting Voice",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "micMessages.hint",
+   "text": "Enable microphone access in Settings",
+   "description": "Hint shown when Voice microphone permission is denied",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "micMessages.title",
+   "text": "Microphone access required",
+   "description": "Title explaining that Voice requires microphone permission",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.codexStatus.additionalTools",
+   "text": "+{count} more",
+   "description": "Count of additional tools running alongside the visible live Codex activity",
+   "files": [
+    "voice/realtime-voice-codex-status-signal-a9ab5891426e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.codexStatus.editingFiles",
+   "text": "Editing {count, plural, =0 {files} one {a file} other {# files}}",
+   "description": "Live Codex activity shown while files are being edited",
+   "files": [
+    "voice/realtime-voice-codex-status-signal-a9ab5891426e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.codexStatus.runningCommand",
+   "text": "Running command",
+   "description": "Live Codex activity shown while a command is running",
+   "files": [
+    "voice/realtime-voice-codex-status-signal-a9ab5891426e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.codexStatus.searchingWeb",
+   "text": "Searching the web",
+   "description": "Live Codex activity shown while searching the web",
+   "files": [
+    "voice/realtime-voice-codex-status-signal-a9ab5891426e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.codexStatus.searchingWebFor",
+   "text": "Searching the web for {query}",
+   "description": "Live Codex activity shown while searching the web for a query",
+   "files": [
+    "voice/realtime-voice-codex-status-signal-a9ab5891426e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.codexStatus.thinking",
+   "text": "Thinking",
+   "description": "Status shown below the realtime voice transcript while Codex works",
+   "files": [
+    "voice/realtime-voice-codex-status-signal-a9ab5891426e.js",
+    "voice/voice-commentary-message-2f96cb298f06.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "realtimeVoice.codexStatus.waitingForThread",
+   "text": "Waiting for chat",
+   "description": "Live Codex activity shown while waiting for another chat to make progress",
+   "files": [
+    "voice/realtime-voice-codex-status-signal-a9ab5891426e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.back",
+   "text": "Back",
+   "description": "Button that dismisses a failed realtime voice launch and returns to the previous surface",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.failedDescription",
+   "text": "Try again, or go back",
+   "description": "Description shown when an optimistic realtime voice launch fails",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.failedTitle",
+   "text": "Voice chat couldn’t start",
+   "description": "Title shown when an optimistic realtime voice launch fails",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.feedback",
+   "text": "Send feedback",
+   "description": "Button that opens the feedback dialog with a failed realtime voice startup error",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedDescription",
+   "text": "Allow microphone access in system settings to start a voice chat",
+   "description": "Instructions shown when operating-system microphone permission must be enabled before starting realtime voice chat",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedTitle",
+   "text": "Microphone permission denied",
+   "description": "Title shown when realtime voice chat cannot start because the operating system denied microphone permission",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.openMicrophoneSettings",
+   "text": "Open system settings",
+   "description": "Button that opens the operating-system microphone privacy settings after microphone permission blocks realtime voice chat",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.retry",
+   "text": "Try again",
+   "description": "Button that retries a failed realtime voice launch",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.starting",
+   "text": "Starting voice chat",
+   "description": "Accessible status announced while realtime voice starts",
+   "files": [
+    "voice/realtime-voice-launch-surface-61aa357789c3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chatGpt.voice.language",
+   "text": "Language",
+   "description": "Label for ChatGPT voice language",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chatGpt.voice.voice",
+   "text": "Voice",
+   "description": "Label for ChatGPT voice selection",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.dictation",
+   "text": "Dictation",
+   "description": "Heading for global dictation settings group",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.dictationDictionary.addEntry",
+   "text": "Add entry",
+   "description": "Button label for adding one dictation dictionary entry",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.dictationDictionary.description",
+   "text": "Words or phrases dictation should recognize",
+   "description": "Description for dictation cleanup dictionary setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.dictationDictionary.entryLabel",
+   "text": "Dictionary entry {index}",
+   "description": "Aria label for one dictation dictionary entry",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.dictationDictionary.label",
+   "text": "Dictation dictionary",
+   "description": "Label for dictation cleanup dictionary setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.dictationDictionary.removeEntry",
+   "text": "Remove dictionary entry {index}",
+   "description": "Button label for removing one dictation dictionary entry",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.actions",
+   "text": "Recording actions",
+   "description": "Accessible label for the menu containing saved recording actions",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.audioOnly",
+   "text": "{status, select, recording {Recording in progress} cancelled {Recording cancelled} interrupted {Recording interrupted} other {Recording saved}}",
+   "description": "Status shown for a saved dictation recording without a transcript",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.copy",
+   "text": "Copy dictation",
+   "description": "Tooltip and aria label for copying a dictation transcript",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.delete",
+   "text": "Delete recording",
+   "description": "Menu action that deletes a saved dictation recording",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.download",
+   "text": "Download recording",
+   "description": "Menu action that downloads a saved dictation recording",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.emptyTitle",
+   "text": "Recent recordings",
+   "description": "Heading for saved recent dictation recordings",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.recoveryDescription",
+   "text": "Your last {count} recordings are saved on this device",
+   "description": "Description explaining how many recent dictation recordings are saved locally",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.retry",
+   "text": "Retry",
+   "description": "Button that retries transcription of a saved dictation recording",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHistory.retryTranscription",
+   "text": "Retry transcription",
+   "description": "Tooltip and aria label for retrying transcription of a saved dictation recording",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHotkey.captureAriaLabel",
+   "text": "Dictation shortcut capture",
+   "description": "Aria label for dictation shortcut capture input",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHotkey.description",
+   "text": "Hold to dictate, or double-tap for hands-free",
+   "description": "Description for dictation shortcut setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHotkey.errorGeneric",
+   "text": "Failed to update dictation shortcut",
+   "description": "Fallback error shown when dictation shortcut update fails",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHotkey.label",
+   "text": "Dictation shortcut",
+   "description": "Label for dictation shortcut setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationHotkey.off",
+   "text": "Off",
+   "description": "Status label when global dictation hotkey is disabled",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationToggleHotkey.captureAriaLabel",
+   "text": "Single-tap shortcut capture",
+   "description": "Aria label for single-tap dictation shortcut capture input",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationToggleHotkey.description",
+   "text": "Press once to start, and again to finish",
+   "description": "Description for single-tap dictation shortcut setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationToggleHotkey.errorGeneric",
+   "text": "Failed to update single-tap dictation shortcut",
+   "description": "Fallback error shown when single-tap dictation shortcut update fails",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.globalDictationToggleHotkey.label",
+   "text": "Single-tap shortcut",
+   "description": "Label for single-tap dictation shortcut setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.description",
+   "text": "Used for voice chat and dictation",
+   "description": "Description for microphone input selection setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.empty",
+   "text": "No microphones found",
+   "description": "Message shown when no microphone inputs are available",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.fallbackDeviceLabel",
+   "text": "Microphone {index}",
+   "description": "Fallback microphone input label when the browser does not expose the device name",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.label",
+   "text": "Microphone",
+   "description": "Label for microphone input selection setting",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.loadError",
+   "text": "Unable to load microphones",
+   "description": "Message shown when microphone input devices cannot be loaded",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.loading",
+   "text": "Loading microphones",
+   "description": "Message shown while microphone inputs load",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.saveError",
+   "text": "Could not save microphone selection",
+   "description": "Error toast when the selected microphone cannot be saved",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.selected",
+   "text": "Selected microphone",
+   "description": "Microphone input label shown before the selected device name has loaded",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.systemDefault",
+   "text": "System default",
+   "description": "Default microphone input option label",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.unavailable",
+   "text": "Unavailable microphone",
+   "description": "Selected microphone input label when the device is no longer available",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.microphoneInput.unsupported",
+   "text": "Microphone selection is not available on this device",
+   "description": "Description shown when microphone selection is unsupported",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice",
+   "text": "Voice chat",
+   "description": "Heading for settings that configure live two-way spoken conversations with ChatGPT, distinct from one-way dictation",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.accessError",
+   "text": "Unable to verify voice chat access",
+   "description": "Settings row label shown when checking whether the current account or workspace can use live two-way voice conversations fails",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.accessLoading",
+   "text": "Checking voice chat access…",
+   "description": "Settings row label shown while the app checks whether the current account or workspace can use live two-way voice conversations",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.dialog.cancel",
+   "text": "Cancel",
+   "description": "Button to cancel changing the realtime voice",
+   "files": [
+    "voice/realtime-voice-picker-dialog-abfac402a883.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.dialog.close",
+   "text": "Close",
+   "description": "Accessible label for closing the voice picker dialog",
+   "files": [
+    "voice/realtime-voice-picker-dialog-abfac402a883.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.dialog.done",
+   "text": "Done",
+   "description": "Button to save the selected realtime voice",
+   "files": [
+    "voice/realtime-voice-picker-dialog-abfac402a883.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.loadError",
+   "text": "Unable to load voice settings",
+   "description": "Error shown when realtime voice settings cannot load",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.loading",
+   "text": "Loading…",
+   "description": "Label shown while the selected realtime voice loads",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.retry",
+   "text": "Retry",
+   "description": "Button to retry loading compatible realtime voices",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.saveError",
+   "text": "Unable to save voice",
+   "description": "Error shown when saving the realtime voice fails",
+   "files": [
+    "voice/realtime-voice-picker-dialog-abfac402a883.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.unavailable.description",
+   "text": "Your account or workspace does not have access to voice chat",
+   "description": "Explanation shown instead of voice selection and voice chat hotkey controls when the current account or workspace cannot use live two-way voice conversations",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.unavailable.label",
+   "text": "Voice chat unavailable",
+   "description": "Label shown when live two-way voice conversations are unavailable for the current account or workspace",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.voice.description",
+   "text": "Choose the voice for new voice chats",
+   "description": "Helper text for choosing the synthesized voice used in future live two-way spoken conversations with ChatGPT",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.voice.label",
+   "text": "Voice",
+   "description": "Label for choosing the synthesized voice Codex uses in live two-way spoken conversations",
+   "files": [
+    "voice/realtime-voice-picker-dialog-abfac402a883.js",
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.general.realtimeVoiceHotkey.captureAriaLabel",
+   "text": "Voice chat hotkey capture",
+   "description": "Aria label for recording the global shortcut that starts a live two-way spoken conversation",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoiceHotkey.description",
+   "text": "Start voice chat from anywhere on desktop",
+   "description": "Explains that the global shortcut starts a live two-way spoken conversation from any desktop app",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoiceHotkey.errorGeneric",
+   "text": "Failed to update voice chat hotkey",
+   "description": "Fallback error shown when realtime voice hotkey update fails",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoiceHotkey.label",
+   "text": "Voice chat hotkey",
+   "description": "Label for the global keyboard shortcut that starts a live two-way spoken conversation, distinct from dictation shortcuts",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoiceHotkey.off",
+   "text": "Off",
+   "description": "Status label when realtime voice hotkey is disabled",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoiceScreenContext.ariaLabel",
+   "text": "Enable screen context for voice chat",
+   "description": "Aria label for a toggle that lets live voice conversations inspect the foreground app when the user refers to on-screen content",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoiceScreenContext.description",
+   "text": "Let ChatGPT inspect the foreground app when you refer to what's on screen. macOS asks for access the first time ChatGPT needs it",
+   "description": "Explains that references to on-screen content during a live voice conversation can let ChatGPT inspect the foreground app and trigger the first-use macOS permission prompt",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoiceScreenContext.label",
+   "text": "Screen context",
+   "description": "Label for allowing live voice conversations to use visual context from the foreground app",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.allRecordings",
+   "text": "Show all recordings",
+   "description": "Returns from a recovered recording to the recent dictation recording list",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictation.advanced",
+   "text": "Advanced",
+   "description": "Button that expands the optional single-tap dictation shortcut",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictation.shortcutConflict",
+   "text": "Choose a different shortcut for single-tap dictation",
+   "description": "Error when the optional single-tap dictation shortcut matches the hold and double-tap shortcut",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictation.unavailable.description",
+   "text": "Dictation is not available in your current configuration",
+   "description": "Explanation shown when the current account, workspace policy, or device does not support dictation",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictation.unavailable.label",
+   "text": "Dictation unavailable",
+   "description": "Label shown instead of dictation controls when dictation is unavailable",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictationSounds.description",
+   "text": "Play sounds when dictation starts and stops",
+   "description": "Explains that the dictation sounds setting controls the start and stop audio cues",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictationSounds.label",
+   "text": "Dictation sounds",
+   "description": "Label for the setting that controls sounds when dictation starts and stops",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictationSounds.saveError",
+   "text": "Could not save dictation sounds preference",
+   "description": "Error toast when the preference for dictation start and stop sounds cannot be saved",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictationSounds.toggleLabel",
+   "text": "Toggle dictation sounds",
+   "description": "Accessible label for turning dictation start and stop sounds on or off",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictionary.description",
+   "text": "Words or phrases dictation should recognize",
+   "description": "Description of the saved speech recognition vocabulary in Voice settings",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictionary.manage",
+   "text": "Manage",
+   "description": "Button opening the voice dictionary editor in Voice settings",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.downloadRecovered",
+   "text": "Download audio",
+   "description": "Downloads the specific recording opened from a dictation failure notice",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.general",
+   "text": "General",
+   "description": "Heading for general voice settings",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.language.loading",
+   "text": "Loading…",
+   "description": "Label while the account's saved voice language is loading in Voice settings",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.language.retry",
+   "text": "Retry",
+   "description": "Button to retry loading the account's saved voice language in Voice settings",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.language.updateError",
+   "text": "Could not update voice language",
+   "description": "Error toast when saving the account's voice language fails",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "speechSettings.content.customDictionary.page.title",
+   "text": "Voice dictionary",
+   "description": "Title for the voice dictionary settings where users manage words to recognize in their speech",
+   "files": [
+    "voice/voice-settings-da1b7be791f6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useVoiceModeButtonAction.connectionError",
+   "text": "Voice couldn’t connect",
+   "description": "Error message when voice mode fails to start",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useVoiceModeButtonAction.connectionErrorDescription",
+   "text": "Please check your connection and try again",
+   "description": "Supporting text beneath voice mode connection error",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice_onboarding_voice_picker_title",
+   "text": "Choose your voice",
+   "description": "Accessible heading for the first-use Voice picker",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice_wingman_disclosure_description_body_1",
+   "text": "Say what's on your mind. ChatGPT listens, responds, and keeps the conversation flowing naturally.",
+   "description": "Explains natural back-and-forth conversation in the first-use Voice introduction",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice_wingman_disclosure_description_body_2_consumer_no_video",
+   "text": "Audio recordings are saved, and you can delete them at any time. <link>Learn more</link>.",
+   "description": "Consumer audio recording disclosure; link opens the Voice Mode FAQ",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice_wingman_disclosure_description_body_2_consumer_with_video",
+   "text": "Audio and video recordings are saved, and you can delete them at any time. <link>Learn more</link>.",
+   "description": "Consumer audio and video recording disclosure; link opens the Voice Mode FAQ",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice_wingman_disclosure_description_body_2_enterprise_no_video",
+   "text": "Your audio recordings are saved but not used for training. <link>Learn more</link>.",
+   "description": "Enterprise audio recording disclosure; link opens the Voice Mode FAQ",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice_wingman_disclosure_description_body_2_enterprise_with_video",
+   "text": "Audio and video recordings are saved but not used for training. <link>Learn more</link>.",
+   "description": "Enterprise audio and video recording disclosure; link opens the Voice Mode FAQ",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice_wingman_disclosure_title",
+   "text": "Meet Voice",
+   "description": "Heading introducing ChatGPT Voice on first use",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice-completion-request.transcribing",
+   "text": "Transcribing…",
+   "description": "Placeholder for the user's speech while its transcription is being received in a voice conversation",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice-navigation-blocker.cancel",
+   "text": "Cancel",
+   "description": "Button that cancels navigation and keeps the current Voice session active",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice-navigation-blocker.confirm",
+   "text": "Confirm",
+   "description": "Button that ends the active Voice session and continues to the requested page",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice-navigation-blocker.description",
+   "text": "Navigating away from this page will end your Voice session",
+   "description": "Warning in the navigation confirmation dialog explaining that leaving the page ends the active Voice session",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice-navigation-blocker.title",
+   "text": "Voice is still active",
+   "description": "Title of the confirmation dialog when someone leaves the current page during an active Voice session",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice.lostConnection.retry",
+   "text": "Retry",
+   "description": "Button beside the Lost connection message that restarts Voice in the same conversation after a network disconnection",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice.microphonePermission.dismiss",
+   "text": "OK",
+   "description": "Dismiss the explanation of required microphone access without ending Voice startup",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voice.rateLimitModal.dismiss",
+   "text": "OK",
+   "description": "Dismisses the message explaining that the voice session ended because of a usage limit",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceControls.cameraPreview",
+   "text": "Camera preview",
+   "description": "Accessible name of your live webcam preview during a voice call",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceControls.screensharePreview",
+   "text": "Screenshare preview",
+   "description": "Accessible name of your shared-screen preview during a voice call",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrb.addMenu.camera",
+   "text": "Camera",
+   "description": "Menu item to toggle the camera during a voice call",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrb.addMenu.screenshare",
+   "text": "Share screen",
+   "description": "Menu item to toggle screen sharing during a voice call",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrb.addMenu.stopScreenshare",
+   "text": "Stop sharing",
+   "description": "Menu item to stop sharing the screen while keeping the voice call open",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrb.stillConnecting",
+   "text": "Still connecting…",
+   "description": "Message shown when starting a voice conversation takes longer than expected",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrb.stopScreenshare",
+   "text": "Stop sharing",
+   "description": "Accessible label for the close button on the shared-screen preview during a voice call. It stops screen sharing and keeps the call open.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrb.stopVideo",
+   "text": "Stop video",
+   "description": "Accessible label for the close button on the local webcam preview during a voice call. It stops camera sharing and keeps the call open.",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.close",
+   "text": "Close voice settings",
+   "description": "Accessible label for closing in-call voice settings",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.intelligence",
+   "text": "Intelligence",
+   "description": "In-call voice intelligence setting",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.intelligence.high",
+   "text": "High",
+   "description": "Highest in-call voice intelligence option",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.intelligence.instant",
+   "text": "Instant",
+   "description": "Fastest in-call voice intelligence option",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.intelligence.medium",
+   "text": "Medium",
+   "description": "Medium in-call voice intelligence option",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.language",
+   "text": "Language",
+   "description": "In-call spoken language setting",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.loading",
+   "text": "Loading voices…",
+   "description": "Loading state in in-call voice settings",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.retry",
+   "text": "Could not load voices. Retry",
+   "description": "Button to retry loading voices after a failed or empty response in in-call settings",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.title",
+   "text": "Voice settings",
+   "description": "Title for in-call voice settings",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.trigger",
+   "text": "Voice settings",
+   "description": "Tooltip and accessible label for opening in-call voice settings",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceFloatingOrbSettingsModal.updateError",
+   "text": "Could not update voice settings",
+   "description": "Error shown when in-call voice settings cannot be saved",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "voiceIntroduction.retryVoices",
+   "text": "Retry loading voices",
+   "description": "Retries a failed or empty voice catalog request in the first-use Voice introduction",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wingmanVoiceNux.continue",
+   "text": "Continue",
+   "description": "Advances from the Voice introduction to voice selection",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wingmanVoiceNux.startVoice",
+   "text": "Start Voice",
+   "description": "Saves the selected voice and starts the Voice session",
+   "files": [
+    "voice/wingman-voice-nux-692894d6fe4a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "YE2Eng",
+   "text": "Poor connection",
+   "description": "Status text for poor connection quality",
+   "files": [
+    "voice/voice-session-90081ad53c5d.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-ad16eaadf81f.js",
+   "count": 382,
+   "names": [
+    "$Bn",
+    "$Et",
+    "$Jt",
+    "$Ln",
+    "$cr",
+    "A0n",
+    "A5n",
+    "AGn",
+    "ALr",
+    "AN",
+    "APn",
+    "Ar",
+    "B$r",
+    "B1n",
+    "B3",
+    "BCt",
+    "BEt",
+    "BJt",
+    "BRr",
+    "BVn",
+    "CBr",
+    "CGn",
+    "CIr",
+    "CKn",
+    "CLr",
+    "CMr",
+    "CPn",
+    "CQn",
+    "CTn",
+    "Cjr",
+    "D2n",
+    "D5n",
+    "DPn",
+    "Ddn",
+    "Dr",
+    "E2n",
+    "E5n",
+    "EKn",
+    "EPn",
+    "Ejr",
+    "F3",
+    "FAn",
+    "FCt",
+    "FEt",
+    "FF",
+    "FGn",
+    "FIr",
+    "FPn",
+    "FZt",
+    "GCt",
+    "GEt",
+    "GIn",
+    "GJt",
+    "GLn",
+    "GVn",
+    "Gzn",
+    "HCt",
+    "HEt",
+    "HJt",
+    "Hkr",
+    "Hpr",
+    "Hu",
+    "IAn",
+    "IAr",
+    "IEt",
+    "IGn",
+    "IIr",
+    "ILr",
+    "IMr",
+    "IPn",
+    "IQt",
+    "IRr",
+    "IWn",
+    "Inr",
+    "JEt",
+    "JQn",
+    "JRt",
+    "Jlr",
+    "KBr",
+    "KEt",
+    "KJt",
+    "KQn",
+    "KUn",
+    "Kpr",
+    "Kzn",
+    "LEt",
+    "LF",
+    "LFt",
+    "LIr",
+    "LLr",
+    "LPn",
+    "LTn",
+    "LWn",
+    "LXt",
+    "M0n",
+    "MCt",
+    "MGn",
+    "MIn",
+    "MPn",
+    "MRr",
+    "Mir",
+    "Mr",
+    "N0",
+    "N0n",
+    "NAr",
+    "NCt",
+    "NEt",
+    "NPn",
+    "NSr",
+    "NZt",
+    "Ndn",
+    "Nir",
+    "Nqn",
+    "Nr",
+    "O2n",
+    "O5n",
+    "OL",
+    "OPn",
+    "Or",
+    "P0",
+    "P0n",
+    "PCt",
+    "PEt",
+    "PPn",
+    "PRr",
+    "PZt",
+    "Pqn",
+    "QCr",
+    "QEt",
+    "QF",
+    "QOn",
+    "RCt",
+    "REt",
+    "RF",
+    "RFt",
+    "RPn",
+    "RQt",
+    "RWn",
+    "RXt",
+    "Ror",
+    "S0n",
+    "SIr",
+    "SKn",
+    "SPn",
+    "SSr",
+    "Swt",
+    "T2n",
+    "T5n",
+    "TIr",
+    "TKn",
+    "TKt",
+    "TOt",
+    "TPn",
+    "Twt",
+    "UCt",
+    "UEt",
+    "UJt",
+    "Uft",
+    "Ujn",
+    "Uor",
+    "Upr",
+    "Uu",
+    "VCt",
+    "VEt",
+    "VJt",
+    "VPn",
+    "VRr",
+    "VUt",
+    "WCr",
+    "WCt",
+    "WJt",
+    "WNn",
+    "WTn",
+    "Wor",
+    "XCt",
+    "Xzr",
+    "Y1n",
+    "Y2",
+    "YCt",
+    "YPn",
+    "YQn",
+    "YRr",
+    "YRt",
+    "Ycr",
+    "Ydr",
+    "Z1n",
+    "Z2",
+    "ZCt",
+    "ZEt",
+    "ZLn",
+    "ZVn",
+    "Zlr",
+    "_$n",
+    "_Qn",
+    "_Tn",
+    "_Wn",
+    "_wt",
+    "a3n",
+    "aAr",
+    "aDt",
+    "aWn",
+    "aXt",
+    "awt",
+    "axn",
+    "bIr",
+    "bKn",
+    "bwt",
+    "cA",
+    "cAr",
+    "cBr",
+    "cDt",
+    "cFn",
+    "cGn",
+    "cRr",
+    "cT",
+    "cWn",
+    "cd",
+    "cor",
+    "cxn",
+    "dBt",
+    "dVn",
+    "dVt",
+    "dWn",
+    "dZ",
+    "djr",
+    "dwt",
+    "e4n",
+    "eDt",
+    "eFn",
+    "eI",
+    "eLn",
+    "eMr",
+    "fBr",
+    "fNr",
+    "fRr",
+    "fTn",
+    "fVt",
+    "fWn",
+    "fZ",
+    "g$n",
+    "g0n",
+    "g9t",
+    "gSr",
+    "gTn",
+    "gWn",
+    "gwt",
+    "hT",
+    "hTn",
+    "hWn",
+    "hdn",
+    "hwt",
+    "i3n",
+    "iDt",
+    "iLr",
+    "iRr",
+    "iUn",
+    "iWn",
+    "ixn",
+    "j0n",
+    "j2n",
+    "jPn",
+    "jRr",
+    "jSr",
+    "jr",
+    "k2n",
+    "kGn",
+    "kL",
+    "kLr",
+    "kN",
+    "kr",
+    "lAr",
+    "lBr",
+    "lDt",
+    "lNr",
+    "lT",
+    "lVt",
+    "lWn",
+    "lZ",
+    "la",
+    "ld",
+    "lh",
+    "ljr",
+    "lpn",
+    "lwt",
+    "m9t",
+    "mFn",
+    "mSr",
+    "mT",
+    "mWn",
+    "n$n",
+    "n0n",
+    "n4n",
+    "nDt",
+    "nLn",
+    "nLr",
+    "nMr",
+    "njr",
+    "nzr",
+    "o0n",
+    "oDt",
+    "oQt",
+    "oRr",
+    "oWn",
+    "oXt",
+    "owt",
+    "oxn",
+    "pRr",
+    "pT",
+    "pWn",
+    "q1n",
+    "qEt",
+    "qJt",
+    "qLn",
+    "qQn",
+    "qjn",
+    "qpr",
+    "r0n",
+    "rAr",
+    "rDt",
+    "rPn",
+    "rVn",
+    "sA",
+    "sBr",
+    "sDt",
+    "sIn",
+    "sQt",
+    "sRr",
+    "sWn",
+    "sxn",
+    "tLr",
+    "tRr",
+    "tjr",
+    "tkn",
+    "tyr",
+    "uBr",
+    "uBt",
+    "uDt",
+    "uGn",
+    "uKn",
+    "uNr",
+    "uVt",
+    "uWn",
+    "uZ",
+    "ua",
+    "ud",
+    "uh",
+    "upn",
+    "vQn",
+    "vwt",
+    "wGn",
+    "wIr",
+    "wKn",
+    "wKt",
+    "wLr",
+    "wOt",
+    "wPn",
+    "wQn",
+    "wwt",
+    "xBr",
+    "xFn",
+    "xGn",
+    "xIr",
+    "xKn",
+    "xLr",
+    "xMr",
+    "xTn",
+    "xVn",
+    "xjr",
+    "xwt",
+    "yMr",
+    "yQn",
+    "yTn",
+    "yVn",
+    "ywt",
+    "zCt",
+    "zEt",
+    "zPn",
+    "zQt",
+    "zRr",
+    "zUt",
+    "znr",
+    "zor"
+   ]
+  },
+  {
+   "from": "app-shared-2feb3d4c6fcc.js",
+   "count": 180,
+   "names": [
+    "$3",
+    "$C",
+    "$Rt",
+    "$St",
+    "$it",
+    "$mt",
+    "$st",
+    "ATt",
+    "Ait",
+    "Aot",
+    "BLt",
+    "Bq",
+    "Bst",
+    "CCt",
+    "CFt",
+    "CH",
+    "CTt",
+    "CY",
+    "Cit",
+    "DCt",
+    "Dit",
+    "EFt",
+    "F3",
+    "FBt",
+    "FNt",
+    "FTt",
+    "FW",
+    "Flt",
+    "Git",
+    "Got",
+    "HFt",
+    "HO",
+    "HTt",
+    "Hit",
+    "I3",
+    "IH",
+    "IO",
+    "ITt",
+    "IW",
+    "Ilt",
+    "Iot",
+    "JO",
+    "Jx",
+    "KFt",
+    "KO",
+    "LNt",
+    "LO",
+    "LRt",
+    "Lit",
+    "Lst",
+    "MNt",
+    "MTt",
+    "Mit",
+    "Mot",
+    "Mst",
+    "NLt",
+    "NNt",
+    "NO",
+    "NSt",
+    "Nz",
+    "OFt",
+    "ORt",
+    "Oit",
+    "Ok",
+    "PBt",
+    "PNt",
+    "PO",
+    "PSt",
+    "Pit",
+    "Pz",
+    "QY",
+    "Qit",
+    "Qst",
+    "RFt",
+    "RO",
+    "Rst",
+    "SLt",
+    "Sat",
+    "TCt",
+    "TY",
+    "Tit",
+    "Ty",
+    "ULt",
+    "Uit",
+    "Uot",
+    "Uz",
+    "VRt",
+    "VSt",
+    "VTt",
+    "Vit",
+    "Vot",
+    "Vrt",
+    "WO",
+    "Wot",
+    "Wz",
+    "XOt",
+    "XSt",
+    "Y3",
+    "YOt",
+    "Ylt",
+    "Yst",
+    "Yx",
+    "Z3",
+    "ZSt",
+    "ZY",
+    "_q",
+    "_wt",
+    "aCt",
+    "ast",
+    "b2",
+    "bB",
+    "bCt",
+    "bit",
+    "cH",
+    "ck",
+    "d3",
+    "dCt",
+    "dat",
+    "e6",
+    "eat",
+    "ew",
+    "ezt",
+    "f3",
+    "fY",
+    "gFt",
+    "gq",
+    "hRt",
+    "hit",
+    "iCt",
+    "iFt",
+    "ist",
+    "jTt",
+    "jat",
+    "jit",
+    "jst",
+    "kCt",
+    "kFt",
+    "kH",
+    "kLt",
+    "kRt",
+    "kTt",
+    "kit",
+    "kk",
+    "lH",
+    "lit",
+    "lk",
+    "lot",
+    "mot",
+    "nB",
+    "nCt",
+    "nQ",
+    "oit",
+    "okt",
+    "pot",
+    "pwt",
+    "qO",
+    "qrt",
+    "rB",
+    "rk",
+    "sct",
+    "sw",
+    "tQ",
+    "tht",
+    "tk",
+    "tkt",
+    "uk",
+    "uot",
+    "uw",
+    "vB",
+    "vst",
+    "wB",
+    "wTt",
+    "wy",
+    "xB",
+    "y2",
+    "yCt",
+    "yst",
+    "zFt",
+    "zO",
+    "zst"
+   ]
+  },
+  {
+   "from": "voice-session-parameters-aab04323d949.js",
+   "count": 52,
+   "names": [
+    "$",
+    "A",
+    "B",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "_",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z"
+   ]
+  },
+  {
+   "from": "app-primary-3e00728c2a4c.js",
+   "count": 48,
+   "names": [
+    "$i",
+    "B_",
+    "Cc",
+    "Em",
+    "Fg",
+    "H_",
+    "I_",
+    "Ji",
+    "L_",
+    "O_",
+    "Pg",
+    "Qd",
+    "Qi",
+    "R_",
+    "Tc",
+    "Tm",
+    "U_",
+    "V_",
+    "Xi",
+    "Yi",
+    "Zd",
+    "Zi",
+    "ar",
+    "cr",
+    "cv",
+    "dr",
+    "ea",
+    "fo",
+    "fr",
+    "hr",
+    "ir",
+    "k_",
+    "lr",
+    "mr",
+    "ni",
+    "nr",
+    "or",
+    "po",
+    "pr",
+    "ri",
+    "rr",
+    "sr",
+    "sv",
+    "tr",
+    "ur",
+    "vr",
+    "yr",
+    "z_"
+   ]
+  },
+  {
+   "from": "mark-session-create-a7bcbd7e29c8.js",
+   "count": 36,
+   "names": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "F",
+    "I",
+    "M",
+    "N",
+    "O",
+    "P",
+    "S",
+    "T",
+    "_",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y"
+   ]
+  },
+  {
+   "from": "preferences-c6a8f9117081.js",
+   "count": 8,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "timing-signals-6301d26a3c55.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "dsp-bd00ef6e2983.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "realtime-voice-stage-layout-cbd1d7be3317.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "command-state-717db9deb198.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "realtime-voice-motion-1152410890e5.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "content-8d3108c5dbfc.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "contracts-96b363340ff1.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "voice-configuration-manager-f7e817b94a05.js",
+   "count": 4,
+   "names": [
+    "a",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 3,
+   "names": [
+    "n",
+    "o",
+    "r"
+   ]
+  },
+  {
+   "from": "voice-prewarm-968568c5bd61.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "resume-chatgpt-completion-3c085d352474.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "mcp-tool-activity-label-1110f61411ea.js",
+   "count": 2,
+   "names": [
+    "a",
+    "t"
+   ]
+  },
+  {
+   "from": "use-realtime-voice-native-overlay-transition-enabled-389c99d858ca.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "realtime-voice-launch-surface-61aa357789c3.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "browser-voice-mode-redirect-956eef080c8d.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "root.browser-80480432a3e8.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "realtime-voice-picker-dialog-abfac402a883.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "settings-loading-row-1fcc5b514745.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "use-is-realtime-conversation-enabled-74370e979fa5.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "settings-row-disclosure-4167ebc9233a.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 248
+  },
+  {
+   "name": "id",
+   "count": 192
+  },
+  {
+   "name": "description",
+   "count": 183
+  },
+  {
+   "name": "defaultMessage",
+   "count": 168
+  },
+  {
+   "name": "className",
+   "count": 129
+  },
+  {
+   "name": "type",
+   "count": 119
+  },
+  {
+   "name": "conversationId",
+   "count": 47
+  },
+  {
+   "name": "safe",
+   "count": 44
+  },
+  {
+   "name": "sensitive",
+   "count": 43
+  },
+  {
+   "name": "null",
+   "count": 42
+  },
+  {
+   "name": "get",
+   "count": 41
+  },
+  {
+   "name": "size",
+   "count": 41
+  },
+  {
+   "name": "color",
+   "count": 39
+  },
+  {
+   "name": "scope",
+   "count": 38
+  },
+  {
+   "name": "error",
+   "count": 37
+  },
+  {
+   "name": "disabled",
+   "count": 34
+  },
+  {
+   "name": "onClick",
+   "count": 33
+  },
+  {
+   "name": "sessionType",
+   "count": 30
+  },
+  {
+   "name": "label",
+   "count": 26
+  },
+  {
+   "name": "opacity",
+   "count": 26
+  },
+  {
+   "name": "style",
+   "count": 24
+  },
+  {
+   "name": "voiceSessionId",
+   "count": 23
+  },
+  {
+   "name": "voiceMode",
+   "count": 23
+  },
+  {
+   "name": "room",
+   "count": 23
+  },
+  {
+   "name": "payload",
+   "count": 21
+  },
+  {
+   "name": "message",
+   "count": 20
+  },
+  {
+   "name": "name",
+   "count": 20
+  },
+  {
+   "name": "kind",
+   "count": 20
+  },
+  {
+   "name": "signal",
+   "count": 19
+  },
+  {
+   "name": "control",
+   "count": 17
+  },
+  {
+   "name": "state",
+   "count": 17
+  },
+  {
+   "name": "reason",
+   "count": 16
+  },
+  {
+   "name": "role",
+   "count": 16
+  },
+  {
+   "name": "phase",
+   "count": 15
+  },
+  {
+   "name": "t",
+   "count": 15
+  },
+  {
+   "name": "voiceStore",
+   "count": 15
+  },
+  {
+   "name": "video",
+   "count": 15
+  },
+  {
+   "name": "voices",
+   "count": 14
+  },
+  {
+   "name": "title",
+   "count": 14
+  },
+  {
+   "name": "e",
+   "count": 14
+  },
+  {
+   "name": "data",
+   "count": 14
+  },
+  {
+   "name": "sessionId",
+   "count": 14
+  },
+  {
+   "name": "source",
+   "count": 13
+  },
+  {
+   "name": "duration",
+   "count": 13
+  },
+  {
+   "name": "onOpenChange",
+   "count": 13
+  },
+  {
+   "name": "value",
+   "count": 13
+  },
+  {
+   "name": "mode",
+   "count": 13
+  },
+  {
+   "name": "track",
+   "count": 13
+  },
+  {
+   "name": "accountId",
+   "count": 13
+  },
+  {
+   "name": "voice",
+   "count": 13
+  },
+  {
+   "name": "onClose",
+   "count": 12
+  },
+  {
+   "name": "set",
+   "count": 12
+  },
+  {
+   "name": "conversation_id",
+   "count": 12
+  },
+  {
+   "name": "isConnecting",
+   "count": 11
+  },
+  {
+   "name": "initial",
+   "count": 11
+  },
+  {
+   "name": "open",
+   "count": 11
+  },
+  {
+   "name": "n",
+   "count": 11
+  },
+  {
+   "name": "mapping",
+   "count": 11
+  },
+  {
+   "name": "event",
+   "count": 11
+  },
+  {
+   "name": "voiceMetadata",
+   "count": 11
+  },
+  {
+   "name": "ref",
+   "count": 10
+  },
+  {
+   "name": "voiceBackend",
+   "count": 10
+  },
+  {
+   "name": "enabled",
+   "count": 10
+  },
+  {
+   "name": "gizmoId",
+   "count": 10
+  },
+  {
+   "name": "fireImmediately",
+   "count": 10
+  },
+  {
+   "name": "prepend",
+   "count": 10
+  },
+  {
+   "name": "parent_message_id",
+   "count": 10
+  },
+  {
+   "name": "once",
+   "count": 10
+  },
+  {
+   "name": "animate",
+   "count": 9
+  },
+  {
+   "name": "transition",
+   "count": 9
+  },
+  {
+   "name": "voiceActivity",
+   "count": 9
+  },
+  {
+   "name": "duckingDevicePolicy",
+   "count": 9
+  },
+  {
+   "name": "voice_mode",
+   "count": 9
+  },
+  {
+   "name": "accessToken",
+   "count": 9
+  },
+  {
+   "name": "options",
+   "count": 9
+  },
+  {
+   "name": "detail",
+   "count": 9
+  },
+  {
+   "name": "toastId",
+   "count": 9
+  },
+  {
+   "name": "eventSource",
+   "count": 9
+  },
+  {
+   "name": "onSelect",
+   "count": 9
+  },
+  {
+   "name": "actor",
+   "count": 9
+  },
+  {
+   "name": "status",
+   "count": 8
+  },
+  {
+   "name": "server",
+   "count": 8
+  },
+  {
+   "name": "surface",
+   "count": 8
+  },
+  {
+   "name": "reduceMotion",
+   "count": 8
+  },
+  {
+   "name": "onSubmit",
+   "count": 8
+  },
+  {
+   "name": "disableExposureLog",
+   "count": 8
+  },
+  {
+   "name": "microphoneTrack",
+   "count": 8
+  },
+  {
+   "name": "manualDuckingControl",
+   "count": 8
+  },
+  {
+   "name": "onComplete",
+   "count": 8
+  },
+  {
+   "name": "variant",
+   "count": 8
+  },
+  {
+   "name": "currentNode",
+   "count": 8
+  },
+  {
+   "name": "isVoiceModeActive",
+   "count": 8
+  },
+  {
+   "name": "screenshare",
+   "count": 8
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 8
+  },
+  {
+   "name": "deprecateCelsius",
+   "count": 8
+  },
+  {
+   "name": "pc",
+   "count": 8
+  },
+  {
+   "name": "intl",
+   "count": 7
+  },
+  {
+   "name": "isEqual",
+   "count": 7
+  },
+  {
+   "name": "glowEnabled",
+   "count": 7
+  },
+  {
+   "name": "placement",
+   "count": 7
+  },
+  {
+   "name": "deviceId",
+   "count": 7
+  },
+  {
+   "name": "presentation",
+   "count": 7
+  },
+  {
+   "name": "parent",
+   "count": 7
+  },
+  {
+   "name": "action",
+   "count": 7
+  },
+  {
+   "name": "requestedVoiceId",
+   "count": 7
+  },
+  {
+   "name": "errorType",
+   "count": 7
+  },
+  {
+   "name": "packetsLost",
+   "count": 7
+  },
+  {
+   "name": "values",
+   "count": 7
+  },
+  {
+   "name": "outcome",
+   "count": 7
+  },
+  {
+   "name": "y",
+   "count": 6
+  },
+  {
+   "name": "offset",
+   "count": 6
+  },
+  {
+   "name": "height",
+   "count": 6
+  },
+  {
+   "name": "ease",
+   "count": 6
+  },
+  {
+   "name": "slug",
+   "count": 6
+  },
+  {
+   "name": "modelSlug",
+   "count": 6
+  },
+  {
+   "name": "devices",
+   "count": 6
+  },
+  {
+   "name": "notify",
+   "count": 6
+  },
+  {
+   "name": "userActivitySource",
+   "count": 6
+  },
+  {
+   "name": "SileroVoiceActivityDetector",
+   "count": 6
+  },
+  {
+   "name": "refetch",
+   "count": 6
+  },
+  {
+   "name": "sm",
+   "count": 6
+  },
+  {
+   "name": "messageState",
+   "count": 6
+  },
+  {
+   "name": "initialStep",
+   "count": 6
+  },
+  {
+   "name": "errorBucket",
+   "count": 6
+  },
+  {
+   "name": "settings",
+   "count": 6
+  },
+  {
+   "name": "fallback",
+   "count": 6
+  },
+  {
+   "name": "proofOfWorkAnswer",
+   "count": 6
+  },
+  {
+   "name": "onSample",
+   "count": 6
+  },
+  {
+   "name": "audioTransceiver",
+   "count": 6
+  },
+  {
+   "name": "dataChannel",
+   "count": 6
+  },
+  {
+   "name": "preloadSileroVoiceActivityDetector",
+   "count": 6
+  },
+  {
+   "name": "muted",
+   "count": 5
+  },
+  {
+   "name": "query",
+   "count": 5
+  },
+  {
+   "name": "tool",
+   "count": 5
+  },
+  {
+   "name": "fill",
+   "count": 5
+  },
+  {
+   "name": "x",
+   "count": 5
+  },
+  {
+   "name": "transform",
+   "count": 5
+  },
+  {
+   "name": "orb",
+   "count": 5
+  },
+  {
+   "name": "scale",
+   "count": 5
+  },
+  {
+   "name": "initialVoice",
+   "count": 5
+  },
+  {
+   "name": "previewEnabled",
+   "count": 5
+  },
+  {
+   "name": "triggerContent",
+   "count": 5
+  },
+  {
+   "name": "onVoiceChange",
+   "count": 5
+  },
+  {
+   "name": "loading",
+   "count": 5
+  },
+  {
+   "name": "inert",
+   "count": 5
+  },
+  {
+   "name": "disableNoAuthBidiExposureLog",
+   "count": 5
+  },
+  {
+   "name": "voiceModel",
+   "count": 5
+  },
+  {
+   "name": "r",
+   "count": 5
+  },
+  {
+   "name": "promise",
+   "count": 5
+  },
+  {
+   "name": "isError",
+   "count": 5
+  },
+  {
+   "name": "spoken_language",
+   "count": 5
+  },
+  {
+   "name": "userId",
+   "count": 5
+  },
+  {
+   "name": "composerContext",
+   "count": 5
+  },
+  {
+   "name": "hintMessage",
+   "count": 5
+  },
+  {
+   "name": "modalMessage",
+   "count": 5
+  },
+  {
+   "name": "conversationDetailsTarget",
+   "count": 5
+  },
+  {
+   "name": "clientThreadId",
+   "count": 5
+  },
+  {
+   "name": "parts",
+   "count": 5
+  },
+  {
+   "name": "reliable",
+   "count": 5
+  },
+  {
+   "name": "timestamp",
+   "count": 5
+  },
+  {
+   "name": "focusedPicker",
+   "count": 5
+  },
+  {
+   "name": "args",
+   "count": 5
+  },
+  {
+   "name": "errorDetail",
+   "count": 5
+  },
+  {
+   "name": "stopColor",
+   "count": 5
+  },
+  {
+   "name": "language_code",
+   "count": 5
+  },
+  {
+   "name": "thinking_effort",
+   "count": 5
+  },
+  {
+   "name": "align",
+   "count": 5
+  },
+  {
+   "name": "pathname",
+   "count": 5
+  },
+  {
+   "name": "search",
+   "count": 5
+  },
+  {
+   "name": "replace",
+   "count": 5
+  },
+  {
+   "name": "offer",
+   "count": 5
+  },
+  {
+   "name": "logCall",
+   "count": 5
+  },
+  {
+   "name": "sampleIntervalMs",
+   "count": 5
+  },
+  {
+   "name": "_peerConnection",
+   "count": 5
+  },
+  {
+   "name": "eventBuffer",
+   "count": 5
+  },
+  {
+   "name": "rtt",
+   "count": 5
+  },
+  {
+   "name": "isInstantAudioCapturing",
+   "count": 5
+  },
+  {
+   "name": "hostId",
+   "count": 4
+  },
+  {
+   "name": "easing",
+   "count": 4
+  },
+  {
+   "name": "orbDiameter",
+   "count": 4
+  },
+  {
+   "name": "width",
+   "count": 4
+  },
+  {
+   "name": "as",
+   "count": 4
+  },
+  {
+   "name": "audioElement",
+   "count": 4
+  },
+  {
+   "name": "audioOutputDeviceId",
+   "count": 4
+  },
+  {
+   "name": "content",
+   "count": 4
+  },
+  {
+   "name": "userName",
+   "count": 4
+  },
+  {
+   "name": "origin",
+   "count": 4
+  },
+  {
+   "name": "isMicrophone",
+   "count": 4
+  },
+  {
+   "name": "backendReasoningEffort",
+   "count": 4
+  },
+  {
+   "name": "radius",
+   "count": 4
+  },
+  {
+   "name": "index",
+   "count": 4
+  },
+  {
+   "name": "banner_info",
+   "count": 4
+  },
+  {
+   "name": "content_type",
+   "count": 4
+  },
+  {
+   "name": "direction",
+   "count": 4
+  },
+  {
+   "name": "file_uploads",
+   "count": 4
+  },
+  {
+   "name": "image_uploads",
+   "count": 4
+  },
+  {
+   "name": "text_uploads",
+   "count": 4
+  },
+  {
+   "name": "tracks$",
+   "count": 4
+  },
+  {
+   "name": "connectionState",
+   "count": 4
+  },
+  {
+   "name": "dispose",
+   "count": 4
+  },
+  {
+   "name": "request_id",
+   "count": 4
+  },
+  {
+   "name": "update",
+   "count": 4
+  },
+  {
+   "name": "thinkingEffort",
+   "count": 4
+  },
+  {
+   "name": "failure",
+   "count": 4
+  },
+  {
+   "name": "isCapturingBeforeConnection",
+   "count": 4
+  },
+  {
+   "name": "ua",
+   "count": 4
+  },
+  {
+   "name": "triggerButton",
+   "count": 4
+  },
+  {
+   "name": "description_markdown",
+   "count": 4
+  },
+  {
+   "name": "buttons",
+   "count": 4
+  },
+  {
+   "name": "showFeedback",
+   "count": 4
+  },
+  {
+   "name": "chatMode",
+   "count": 4
+  },
+  {
+   "name": "session",
+   "count": 4
+  },
+  {
+   "name": "availableVoiceIds",
+   "count": 4
+  },
+  {
+   "name": "hash",
+   "count": 4
+  },
+  {
+   "name": "dataChannelId",
+   "count": 4
+  },
+  {
+   "name": "serverUfragId",
+   "count": 4
+  },
+  {
+   "name": "vp",
+   "count": 4
+  },
+  {
+   "name": "wm",
+   "count": 4
+  },
+  {
+   "name": "getReportedVoiceMode",
+   "count": 4
+  },
+  {
+   "name": "getPeerConnection",
+   "count": 4
+  },
+  {
+   "name": "candidate",
+   "count": 4
+  },
+  {
+   "name": "onChange",
+   "count": 4
+  },
+  {
+   "name": "accelerator",
+   "count": 4
+  },
+  {
+   "name": "isCapable",
+   "count": 4
+  },
+  {
+   "name": "focusedVoicePicker",
+   "count": 4
+  },
+  {
+   "name": "link",
+   "count": 4
+  },
+  {
+   "name": "expectedVoiceSessionId",
+   "count": 4
+  },
+  {
+   "name": "fractionLost",
+   "count": 4
+  },
+  {
+   "name": "requestId",
+   "count": 3
+  },
+  {
+   "name": "count",
+   "count": 3
+  },
+  {
+   "name": "appContext",
+   "count": 3
+  },
+  {
+   "name": "serverName",
+   "count": 3
+  },
+  {
+   "name": "hideWhileResponding",
+   "count": 3
+  },
+  {
+   "name": "delay",
+   "count": 3
+  },
+  {
+   "name": "ie",
+   "count": 3
+  },
+  {
+   "name": "onAnimationComplete",
+   "count": 3
+  },
+  {
+   "name": "onSave",
+   "count": 3
+  },
+  {
+   "name": "messageId",
+   "count": 3
+  },
+  {
+   "name": "item",
+   "count": 3
+  },
+  {
+   "name": "frameDurationMs",
+   "count": 3
+  },
+  {
+   "name": "configuredDuckedVolume",
+   "count": 3
+  },
+  {
+   "name": "setMuted",
+   "count": 3
+  },
+  {
+   "name": "stream",
+   "count": 3
+  },
+  {
+   "name": "timeoutId",
+   "count": 3
+  },
+  {
+   "name": "previewAudioLevel",
+   "count": 3
+  },
+  {
+   "name": "ambientParameters",
+   "count": 3
+  },
+  {
+   "name": "historyAndTrainingDisabled",
+   "count": 3
+  },
+  {
+   "name": "languageCode",
+   "count": 3
+  },
+  {
+   "name": "liveParameters",
+   "count": 3
+  },
+  {
+   "name": "requestedVoiceMode",
+   "count": 3
+  }
+ ],
+ "literal_count": 1395,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261016\\voice.json"
+}

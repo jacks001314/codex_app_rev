@@ -1,0 +1,141 @@
+{
+ "module": "workspace-agents",
+ "generated_at": "2026-11-09T07:57:19.179Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1103.4239.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1103.32239",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/935979.a5260b2a69.js",
+   "file": "935979.a5260b2a69.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 624413,
+   "formatted_bytes": 1087838,
+   "formatter": "prettier",
+   "sha256_raw": "4a494c157bc6b24f527a97616730910e3aa2d6187374f31184adae210196d121",
+   "message_count": 430,
+   "namespace_score": 380,
+   "namespaces": [
+    "workspaceAgents.builder:313",
+    "workspaceAgents.api:30",
+    "workspaceAgents.resources:17",
+    "workspaceAgents.studio:14"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/880915.62ba2647bd.js",
+   "file": "880915.62ba2647bd.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 63254,
+   "formatted_bytes": 101707,
+   "formatter": "prettier",
+   "sha256_raw": "3ce6f371540ae55972e857beb7159309f23f5186e862182879b4ca5a79438ed8",
+   "message_count": 136,
+   "namespace_score": 100,
+   "namespaces": [
+    "teams.icons:100",
+    "settings.automations:16",
+    "settings.teams:15",
+    "inbox.automations:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/690759.779649148e.js",
+   "file": "690759.779649148e.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 67228,
+   "formatted_bytes": 120176,
+   "formatter": "prettier",
+   "sha256_raw": "4ebb17905824ad7b13f7c33acdd6d91ee437cd32b046c2c3ac0a70c7e4540116",
+   "message_count": 115,
+   "namespace_score": 100,
+   "namespaces": [
+    "teams.icons:100",
+    "settings.teams:15"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/111761.48cb3bc76b.js",
+   "file": "111761.48cb3bc76b.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 56127,
+   "formatted_bytes": 87357,
+   "formatter": "prettier",
+   "sha256_raw": "a75085f4c971c5860ed80e43898136d7af9c1c545ef799bf8a6971844bf732ac",
+   "message_count": 72,
+   "namespace_score": 68,
+   "namespaces": [
+    "workspaceAgents.skillIcon:48",
+    "workspaceAgents.connections:10",
+    "workspaceAgents.discovery:10",
+    "beacons.connectApp:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/306668.a88d898425.js",
+   "file": "306668.a88d898425.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 80856,
+   "formatted_bytes": 110715,
+   "formatter": "prettier",
+   "sha256_raw": "00a4095456c26d10c1c667e5010c49c2956d3c38a386f404f3381682919623d7",
+   "message_count": 60,
+   "namespace_score": 60,
+   "namespaces": [
+    "workspaceAgents.skillIcon:48",
+    "workspaceAgents.schedules:9",
+    "workspaceAgents.detail:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/340441.2eb62c8a93.js",
+   "file": "340441.2eb62c8a93.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 50215,
+   "formatted_bytes": 92895,
+   "formatter": "prettier",
+   "sha256_raw": "c97cfaaa75b896d0fbdd7a0ce8467743cf70ba0e24c32e78d0735be86dd745b9",
+   "message_count": 57,
+   "namespace_score": 57,
+   "namespaces": [
+    "workspaceAgents.resources:23",
+    "workspaceAgents.detail:19",
+    "workspaceAgents.builder:14",
+    "workspaceAgents.skillIcon:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/666535.19b6f124eb.js",
+   "file": "666535.19b6f124eb.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 62750,
+   "formatted_bytes": 126161,
+   "formatter": "prettier",
+   "sha256_raw": "5e37c732df00902ddac57913df35675937cea9758015adcbf457d71bfbfd01a9",
+   "message_count": 86,
+   "namespace_score": 51,
+   "namespaces": [
+    "workspaceAgents.schedules:51",
+    "inbox.automations:29",
+    "settings.automations:4",
+    "automations.schedule:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/278867.6019d877a2.js",
+   "file": "278867.6019d877a2.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 51218,
+   "formatted_bytes": 85644,
+   "formatter": "prettier",
+   "sha256_raw": "823dc381dc8180a1a86002bdea7cbb4704cecb72ed8a1bdc3adab299e92d0566",
+   "message_count": 52,
+   "namespace_score": 50,
+   "namespaces": [
+    "workspaceAgents.index:43",
+    "workspaceAgents.templates:3",
+    "workspaceAgents.discovery:2",
+    "codex.ui:1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-09-11T11:51:43.632Z",
+  "app_version": "26.903.71938",
+  "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.903.9818.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "modules": [
+    {
+      "module": "app-shell",
+      "files": 59,
+      "raw_bytes": 992740,
+      "subdirs": ["_deps", "chrome", "layout", "routing"]
+    },
+    {
+      "module": "composer",
+      "files": 45,
+      "raw_bytes": 476052,
+      "subdirs": ["_deps", "core", "queue", "quick-chat"]
+    },
+    {
+      "module": "conversation",
+      "files": 110,
+      "raw_bytes": 1392962,
+      "subdirs": ["_deps", "markdown", "nav-rail", "pages", "scroll", "thread", "turn"]
+    },
+    {
+      "module": "left-nav",
+      "files": 42,
+      "raw_bytes": 345649,
+      "subdirs": ["_deps", "library", "sidebar"]
+    },
+    {
+      "module": "main-process",
+      "files": 84,
+      "raw_bytes": 8828935,
+      "subdirs": ["build", "native-menu-locales"]
+    },
+    {
+      "module": "settings",
+      "files": 173,
+      "raw_bytes": 4623389,
+      "subdirs": ["_deps", "onboarding", "pages", "search-index", "shell"]
+    },
+    {
+      "module": "side-panel",
+      "files": 164,
+      "raw_bytes": 5130190,
+      "subdirs": ["_deps", "previews", "subagents", "tabs", "terminal"]
+    },
+    {
+      "module": "workspace",
+      "files": 14,
+      "raw_bytes": 124008,
+      "subdirs": ["_deps", "pages"]
+    }
+  ],
+  "shared_external_refs": [
+    {
+      "name": "app-initial-f094ef01c64d.js",
+      "bytes": 10488982
+    },
+    {
+      "name": "app-primary-4c40d73a1074.js",
+      "bytes": 8217634
+    },
+    {
+      "name": "workbook-92b6031c5f2c.js",
+      "bytes": 2377873
+    },
+    {
+      "name": "app-initial-49fc08c26651.css",
+      "bytes": 823559
+    },
+    {
+      "name": "three.module-68e821b1a9b2.js",
+      "bytes": 696835
+    },
+    {
+      "name": "pdf-dc559eb66b2a.js",
+      "bytes": 395708
+    },
+    {
+      "name": "presentation-a54016a6a2f7.js",
+      "bytes": 350981
+    },
+    {
+      "name": "es6-40f481069c89.js",
+      "bytes": 305929
+    },
+    {
+      "name": "viewer-96aa1026c85b.js",
+      "bytes": 199656
+    },
+    {
+      "name": "spreadsheet-6dfdada57279.js",
+      "bytes": 197330
+    },
+    {
+      "name": "app-primary-d815831c9bad.css",
+      "bytes": 147890
+    },
+    {
+      "name": "workbook-review-utils-d8be1d1971f7.js",
+      "bytes": 24045
+    },
+    {
+      "name": "presentation-annotation-cursor-coachmark-ede276f159dd.js",
+      "bytes": 7718
+    },
+    {
+      "name": "spreadsheet-3f2fc42162b3.js",
+      "bytes": 4512
+    },
+    {
+      "name": "presentation-review-utils-3c139023cae0.js",
+      "bytes": 3893
+    },
+    {
+      "name": "presentation-84d5fa8d0044.js",
+      "bytes": 3241
+    },
+    {
+      "name": "spreadsheet-utils-f093c7495702.js",
+      "bytes": 1765
+    },
+    {
+      "name": "pdf-c95b10174555.js",
+      "bytes": 1569
+    },
+    {
+      "name": "presentation-annotation-coachmark-b46c0174f212.js",
+      "bytes": 1492
+    },
+    {
+      "name": "rolldown-runtime-c05d78c594d1.js",
+      "bytes": 1269
+    },
+    {
+      "name": "viewer-12cab97d1ab8.css",
+      "bytes": 795
+    },
+    {
+      "name": "learning-block-katex-84c3a260ea60.js",
+      "bytes": 669
+    },
+    {
+      "name": "workbook-9c048abe246f.js",
+      "bytes": 323
+    }
+  ],
+  "totals": {
+    "chunks": 691,
+    "raw_bytes": 21913925,
+    "formatted_bytes": 31518404
+  }
+}

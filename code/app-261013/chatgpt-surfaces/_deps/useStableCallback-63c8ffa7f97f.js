@@ -1,0 +1,14 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { yzt as t } from "./app-shared-bbfeca5e5737.js";
+function n(e) {
+  let t = (0, r.useRef)(e);
+  return ((t.current = e), (0, r.useCallback)((...e) => t.current(...e), []));
+}
+var r;
+function i() {
+  return (i = e(() => {
+    r = t();
+  }))();
+}
+export { n, i as t };
+//# sourceMappingURL=useStableCallback-63c8ffa7f97f.js.map

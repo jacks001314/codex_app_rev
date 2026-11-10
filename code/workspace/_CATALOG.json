@@ -1,0 +1,2538 @@
+{
+  "module": "workspace",
+  "generated_at": "2026-09-11T11:51:56.396Z",
+  "files_scanned": 13,
+  "message_count": 152,
+  "messages": [
+    {
+      "id": "codex.command.toggleBrowserPanel",
+      "text": "Toggle browser panel",
+      "description": "Title for the command that shows or hides the browser panel",
+      "files": ["pages/workspace-layout-step-handler-d7284cc7accc.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.commandDescription.newTabInFullView",
+      "text": "Create a content tab that fills the workspace",
+      "description": "Description for creating a new tab in full view",
+      "files": ["pages/workspace-layout-step-handler-d7284cc7accc.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.commandDescription.stepWorkspaceLayout",
+      "text": "Show or hide content tabs beside Chat",
+      "description": "Description for the command that toggles content tabs",
+      "files": ["pages/workspace-layout-step-handler-d7284cc7accc.js"],
+      "file_count": 1
+    },
+    {
+      "id": "codex.commandDescription.toggleBrowserPanel",
+      "text": "Show or hide the browser panel",
+      "description": "Description for the command that toggles the browser panel",
+      "files": ["pages/workspace-layout-step-handler-d7284cc7accc.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.footer.v2.cloudTab",
+      "text": "Cloud",
+      "description": "Cloud mode label",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.hotkeyWindow.mode.localSlashCommand.description",
+      "text": "Run this chat locally",
+      "description": "Description for the Quick Chat local mode slash command",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.hotkeyWindow.mode.worktreeSlashCommand.description",
+      "text": "Run this chat in a new worktree",
+      "description": "Description for the Quick Chat worktree mode slash command",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.hotkeyWindow.modeDropdown.cloudUnavailable",
+      "text": "Cloud is unavailable",
+      "description": "Tooltip for disabled hotkey-window Cloud mode",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.hotkeyWindow.modeDropdown.localOnly",
+      "text": "Initialize a git repo to run tasks in worktrees",
+      "description": "Tooltip for disabled hotkey-window worktree mode selector",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.hotkeyWindow.modeDropdown.localProject",
+      "text": "Local project",
+      "description": "Hotkey window overflow menu label for local project mode",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.hotkeyWindow.modeDropdown.tooltip",
+      "text": "Select where to run the chat",
+      "description": "Tooltip for the hotkey-window mode selector",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.local",
+      "text": "Work locally",
+      "description": "Local mode label",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktree",
+      "text": "New worktree",
+      "description": "Worktree mode label",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "composer.mode.worktreeSegment",
+      "text": "Worktree",
+      "description": "Worktree mode label for the segmented toggle",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.continue",
+      "text": "Continue",
+      "description": "Button label to continue after selecting workspaces during onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.empty",
+      "text": "Add a project to continue.",
+      "description": "Empty state shown when no workspaces are selected during onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.listLabel",
+      "text": "Available projects",
+      "description": "Aria label for the available workspaces list during onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.loading",
+      "text": "Loading projects…",
+      "description": "Loading state while onboarding workspace options are fetched",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.openFolder",
+      "text": "Add project",
+      "description": "Button label to add a workspace during desktop onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.selectAll",
+      "text": "Select all",
+      "description": "Checkbox label for selecting all workspaces during onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.skip",
+      "text": "Skip",
+      "description": "Button label to skip workspace selection during onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.skip.error",
+      "text": "Couldn't create a new project: {message}",
+      "description": "Error shown when creating a new project fails during onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.skip.error.unknown",
+      "text": "Unknown error",
+      "description": "Fallback error message when onboarding skip fails without details",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.skipping",
+      "text": "Creating a new project…",
+      "description": "Button label shown while creating a new project during onboarding",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.subtitle",
+      "text": "ChatGPT will be able to edit files and run commands in selected folders",
+      "description": "Subtitle on the desktop onboarding workspace selection page",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "electron.onboarding.workspace.title",
+      "text": "Select a project",
+      "description": "Title on the desktop onboarding workspace selection page",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "home.taskSuggestions.dismiss",
+      "text": "Dismiss suggestion",
+      "description": "Accessible label for the X button on one suggested task below the Home composer. It removes only this suggestion without starting the task or changing the draft.",
+      "files": ["_deps/home-suggestion-list-c5a723041498.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.placeholder.cloud",
+      "text": "Ask ChatGPT anything in the cloud",
+      "description": "Hotkey window placeholder for cloud mode",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.placeholder.local",
+      "text": "Ask ChatGPT anything locally in {project}",
+      "description": "Hotkey window placeholder for local mode",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.placeholder.projectless",
+      "text": "Ask ChatGPT anything locally",
+      "description": "Hotkey window placeholder for projectless local mode",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.placeholder.unknownProject",
+      "text": "this project",
+      "description": "Fallback project name in the hotkey window composer placeholder",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.placeholder.worktree",
+      "text": "Ask ChatGPT anything in a worktree in {project}",
+      "description": "Hotkey window placeholder for worktree mode",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.branch",
+      "text": "Branch",
+      "description": "Label for the hotkey window branch row",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.environment",
+      "text": "Environment",
+      "description": "Label for the hotkey window environment row",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.label",
+      "text": "Chat settings",
+      "description": "Accessible label for the hotkey window chat settings menu",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.permissions",
+      "text": "Permissions",
+      "description": "Label for the hotkey window permissions row",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.project",
+      "text": "Project",
+      "description": "Label for the hotkey window project row",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.startIn",
+      "text": "Start in",
+      "description": "Label for the hotkey window mode row on the home page",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.startIn.disabledTooltip",
+      "text": "Initialize a git repo to start in cloud or worktree mode",
+      "description": "Tooltip shown when the hotkey-window start-in control is disabled because the project is not a git repo",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.startIn.loadingTooltip",
+      "text": "Loading project",
+      "description": "Tooltip shown when the hotkey-window project is still loading",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "hotkeyWindow.home.taskMenu.startIn.projectlessTooltip",
+      "text": "Standalone chats run in a local folder",
+      "description": "Tooltip shown when the hotkey-window start-in control is disabled for projectless chats",
+      "files": ["pages/hotkey-window-home-page-bfc4429f9d4f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetup.addProjectMenu.startFromScratch",
+      "text": "Start from scratch",
+      "description": "Menu item that creates a new local project folder",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetup.addProjectMenu.useExistingFolder",
+      "text": "Use an existing folder",
+      "description": "Menu item that opens the existing folder picker",
+      "files": ["pages/select-workspace-page-7b2efabbff85.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.addRemoteConnection",
+      "text": "Add remote",
+      "description": "Menu item that sets up a new SSH connection while creating a remote project",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.conflict.remoteProjectAlreadyMapped.standalone",
+      "text": "This remote project on {remoteName} is already set up for {projectName}. Choose a different folder or remove that setup first.",
+      "description": "Error shown after submitting a remote project that is already set up for a different sidebar project on the same host",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.createMissingRemoteFolderCancel",
+      "text": "Cancel",
+      "description": "Button label that cancels creating a missing folder on a remote host",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.createMissingRemoteFolderConfirm",
+      "text": "Create folder",
+      "description": "Button label that confirms creating a missing folder on a remote host",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.createMissingRemoteFolderDescription",
+      "text": "Create {path} on {remoteName} before adding the project?",
+      "description": "Confirmation question shown before creating a missing folder on a remote host. The path is the folder path and the remote name identifies the remote host",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.createMissingRemoteFolderTitle",
+      "text": "Create missing folder?",
+      "description": "Title for a confirmation dialog shown before creating a missing folder on a remote host",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.description.noConnectedRemotes",
+      "text": "Set up a remote host first. Then you can choose a host and folder here.",
+      "description": "Description for the remote project setup dialog when no remote hosts are connected",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.newRemoteProjectTitle",
+      "text": "New remote project",
+      "description": "Title for the remote project setup dialog",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.noConnectedRemotes",
+      "text": "No remote hosts are connected right now.",
+      "description": "Message shown in the remote project setup dialog when no remote hosts are connected",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.pathVerificationFailed",
+      "text": "We couldn’t verify this folder on the remote host. Check that it exists and try again",
+      "description": "Error shown after the app cannot verify a submitted remote folder path",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.remoteSourceFolder",
+      "text": "Source folder",
+      "description": "Label for the remote project source folder",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.saveError",
+      "text": "Failed to save project",
+      "description": "Toast shown when project setup fails",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "projectSetupDialog.selectedRemoteUnavailable",
+      "text": "Choose a connected remote host to continue.",
+      "description": "Message shown when the selected remote host is no longer available for project setup",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.buildPermissionRequired",
+      "text": "You don’t have permission to build agents",
+      "description": "Tooltip on disabled agent creation or publishing actions when the current workspace does not grant agent-building permission",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.aborted",
+      "text": "Run stopped",
+      "description": "Status of a stopped Workspace Agent run",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.blocked",
+      "text": "Needs your attention",
+      "description": "Status of a Workspace Agent run blocked on user input",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.channel",
+      "text": "{channel} · ",
+      "description": "Channel name shown before a Workspace Agent run status",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.completed",
+      "text": "Task completed",
+      "description": "Status of a completed Workspace Agent run",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.empty",
+      "text": "No activity yet. Conversations and automation runs will show up here.",
+      "description": "Message shown when a Workspace Agent has no activity",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.failed",
+      "text": "Could not complete task",
+      "description": "Status of a failed Workspace Agent run",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.loadMore",
+      "text": "Load more",
+      "description": "Button that loads more Workspace Agent activity",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.loadMoreError",
+      "text": "Unable to load more activity",
+      "description": "Error shown when another page of Workspace Agent activity cannot be loaded",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.newChat",
+      "text": "New chat",
+      "description": "Fallback title for a Workspace Agent conversation",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.retry",
+      "text": "Try again",
+      "description": "Button that retries loading Workspace Agent activity",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.running",
+      "text": "Running",
+      "description": "Status of a Workspace Agent run that is in progress",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.activity.unknown",
+      "text": "Unknown status",
+      "description": "Fallback status for a Workspace Agent run",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.apps.empty",
+      "text": "No connected apps yet.",
+      "description": "Empty state shown when a Workspace Agent has no connected apps",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.apps.unavailable",
+      "text": "App details aren't available",
+      "description": "State shown when app details for a Workspace Agent cannot be read",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.creator",
+      "text": "By {creatorName}",
+      "description": "Creator attribution on a Workspace Agent page",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.edit",
+      "text": "Edit agent",
+      "description": "Button that opens a Workspace Agent in the native draft editor",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.error.description",
+      "text": "Check your connection and try again",
+      "description": "Description shown when a Workspace Agent cannot be loaded because of a temporary error",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.error.retry",
+      "text": "Retry",
+      "description": "Button label that retries loading a Workspace Agent",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.error.title",
+      "text": "Unable to load agent",
+      "description": "Title shown when a Workspace Agent cannot be loaded because of a temporary error",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.forbidden.title",
+      "text": "You don't have access to this agent",
+      "description": "Title shown when the user cannot access a Workspace Agent from a deep link",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.loading",
+      "text": "Loading…",
+      "description": "Loading state for Workspace Agent detail tabs",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.api",
+      "text": "API",
+      "description": "Name of the API memory channel for a Workspace Agent",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.chatGpt",
+      "text": "ChatGPT",
+      "description": "Name of the private ChatGPT memory channel for a Workspace Agent",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.emptyDescription",
+      "text": "When this agent saves notes and files, they will show up here.",
+      "description": "Description shown when a Workspace Agent has no saved memory",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.emptyTitle",
+      "text": "No memory yet",
+      "description": "Title shown when a Workspace Agent has no saved memory",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.fileEmpty",
+      "text": "This file is empty",
+      "description": "Empty state for a file in Workspace Agent memory",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.fileError",
+      "text": "Could not read this memory file",
+      "description": "Error shown when a Workspace Agent memory file cannot load",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.fileTooLarge",
+      "text": "This file is too large to preview",
+      "description": "State shown when a Workspace Agent memory file exceeds the preview size limit",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.fileTruncated",
+      "text": "This preview is truncated",
+      "description": "State shown when a Workspace Agent memory file preview reaches its size limit",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.fileUnsupported",
+      "text": "This file type can't be previewed",
+      "description": "State shown when a Workspace Agent memory file is not a text file",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.memory.readError",
+      "text": "Could not load memory files",
+      "description": "Error shown when a Workspace Agent memory file list cannot load",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.notFound.title",
+      "text": "Agent not found",
+      "description": "Title shown when a Workspace Agent deep link points to an agent that does not exist",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.pinError",
+      "text": "Couldn't update the sidebar",
+      "description": "Error shown when pinning or unpinning a Workspace Agent fails",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.private",
+      "text": "Private to you",
+      "description": "Badge on a Workspace Agent page when only its creator can access it",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.tabs.activity",
+      "text": "Activity",
+      "description": "Tab on a Workspace Agent page that lists its recent activity",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.tabs.apps",
+      "text": "Apps",
+      "description": "Tab on a Workspace Agent page that lists its connected apps",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.tabs.label",
+      "text": "Agent details tabs",
+      "description": "Accessible label for tabs on a Workspace Agent page",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.tabs.memory",
+      "text": "Memory",
+      "description": "Tab on a Workspace Agent page that lists files saved in its memory",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.detail.view",
+      "text": "View agent",
+      "description": "Button that opens an agent's configuration in the native read-only editor",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.byCreator",
+      "text": "By {creatorName}",
+      "description": "Creator byline for an agent",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.copyLink",
+      "text": "Copy link",
+      "description": "Action that copies an agent link",
+      "files": ["_deps/agent-menu-ecf22be00deb.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.create",
+      "text": "Create",
+      "description": "Button that opens the native Workspace Agent editor to create an agent",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.directory.empty.description",
+      "text": "List agents in the team directory so anyone from your workspace can use them",
+      "description": "Description for an empty workspace agent directory",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.directory.empty.title",
+      "text": "No agents in team directory",
+      "description": "Empty-state title for an empty workspace agent directory",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.draftEdited",
+      "text": "Draft · Edited {time}",
+      "description": "Status and last edit time for an unpublished agent",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.edit",
+      "text": "Edit",
+      "description": "Action that opens an agent in the native draft editor",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.error.retry",
+      "text": "Retry",
+      "description": "Button that retries loading Workspace Agents",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.error.title",
+      "text": "Couldn’t load agents",
+      "description": "Error shown when agents cannot be loaded",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.lastUsed",
+      "text": "Used {time}",
+      "description": "Last used time for an agent",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.linkCopied",
+      "text": "Copied link to clipboard",
+      "description": "Success message after an agent link is copied",
+      "files": ["_deps/agent-menu-ecf22be00deb.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.loadingMore",
+      "text": "Loading more agents",
+      "description": "Button label while more Workspace Agents load",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.loadMore",
+      "text": "Load more",
+      "description": "Button that loads more Workspace Agents",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.mine.empty.description",
+      "text": "Create agents to run weekly reports, answer Slack questions, and update systems",
+      "description": "Description shown when the current user has not built any agents",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.mine.empty.title",
+      "text": "You haven’t built any agents yet",
+      "description": "Empty state for the current user's Agents view",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.moreActions",
+      "text": "More actions",
+      "description": "Accessible label for an agent row action menu",
+      "files": ["_deps/agent-menu-ecf22be00deb.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.needsAttention",
+      "text": "Needs your attention",
+      "description": "Status for a recently used agent with a blocked run",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.noDescription",
+      "text": "No description",
+      "description": "Fallback description for an agent directory row",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.noRecentActivity",
+      "text": "Recently used",
+      "description": "Fallback status for a recently used agent",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.pageTitle",
+      "text": "Workspace Agents",
+      "description": "Title of the Agents index page",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.pin",
+      "text": "Pin to sidebar",
+      "description": "Action that pins an agent to the sidebar",
+      "files": ["_deps/agent-menu-ecf22be00deb.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.pinFailed",
+      "text": "Couldn’t update agent pin",
+      "description": "Error message when an agent pin cannot be updated",
+      "files": ["_deps/agent-menu-ecf22be00deb.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.publishedUpdated",
+      "text": "{visibility} · Updated {time}",
+      "description": "Visibility and last update time for a published agent",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.recent.empty.description",
+      "text": "Create an agent or browse agents built by your team",
+      "description": "Description shown when there are no recently used agents",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.recent.empty.title",
+      "text": "No recently used agents",
+      "description": "Empty state for the recently used Agents view",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.search.empty.title",
+      "text": "No agents found for “{query}”",
+      "description": "Empty state when no Workspace Agents match a directory search",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.search.error.title",
+      "text": "Couldn’t search agents",
+      "description": "Error shown when agents cannot be searched",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.search.label",
+      "text": "Search agents",
+      "description": "Accessible label for the Agents search input",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.search.placeholder",
+      "text": "Search agents",
+      "description": "Placeholder for the Agents search input",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.subtitle",
+      "text": "Keep work moving 24/7 with agents",
+      "description": "Subtitle on the Agents index page",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.unknownAuthor",
+      "text": "Unknown author",
+      "description": "Fallback creator name for an agent directory row",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.unnamed",
+      "text": "Unnamed agent",
+      "description": "Fallback name for a Workspace Agent without a name",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.unpin",
+      "text": "Unpin from sidebar",
+      "description": "Action that removes an agent from the sidebar",
+      "files": ["_deps/agent-menu-ecf22be00deb.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.view.mine",
+      "text": "Built by me",
+      "description": "Tab for agents built by the current user",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.view.recent",
+      "text": "Recently used",
+      "description": "Tab for recently used agents",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.view.teamDirectory",
+      "text": "Team directory",
+      "description": "Fallback tab label for the workspace agent directory",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.view.workspaceDirectory",
+      "text": "{workspaceName} directory",
+      "description": "Tab label for the current workspace agent directory",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.views.ariaLabel",
+      "text": "Agent views",
+      "description": "Accessible label for the Agents page tabs",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.visibility.directory",
+      "text": "Published to {workspaceName}’s directory",
+      "description": "Visibility label for an agent published to the named workspace directory",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.visibility.directoryFallback",
+      "text": "Published to your workspace’s directory",
+      "description": "Visibility label for an agent published to a workspace directory",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.visibility.private",
+      "text": "Private to you",
+      "description": "Visibility label for an agent visible only to its owner",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.index.visibility.shared",
+      "text": "Shared with your workspace",
+      "description": "Visibility label for an agent shared by link in the workspace",
+      "files": ["pages/workspace-agents-page-7cf536ab4a2f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.legacyRoute.description",
+      "text": "Workspace Agents isn't available in Codex yet",
+      "description": "Description shown when the native Codex Workspace Agents experience is unavailable",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.legacyRoute.open",
+      "text": "Open in ChatGPT",
+      "description": "Button that opens a Workspace Agent in the existing ChatGPT web experience",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.legacyRoute.title",
+      "text": "Open this agent in ChatGPT",
+      "description": "Title shown when a Workspace Agent deep link must open in the existing ChatGPT web experience",
+      "files": ["pages/workspace-agent-detail-page-3d0ae7dbd6e0.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.management.delete",
+      "text": "Delete",
+      "description": "Button that permanently deletes a Workspace Agent",
+      "files": ["_deps/agent-menu-ecf22be00deb.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceAgents.schedules.open",
+      "text": "Automations",
+      "description": "Opens a Workspace Agent's scheduled automations",
+      "files": ["pages/workspace-agent-landing-468c3477f48b.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.cancel",
+      "text": "Cancel",
+      "description": "Cancel button label for the project setup dialog",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.confirmAdd",
+      "text": "Add project",
+      "description": "Confirm button label for saving project setup",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.confirmPick",
+      "text": "Use folder",
+      "description": "Confirm button label for selecting a remote workspace path",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.description.pick",
+      "text": "Enter a folder path on {host} to use for this project.",
+      "description": "Description for the remote workspace path dialog",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.pathLabel",
+      "text": "Folder path",
+      "description": "Label for the remote workspace path input",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.remoteEmpty",
+      "text": "No connected remotes",
+      "description": "Label shown when no connected remotes are available in the remote workspace path dialog",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.remoteLabel",
+      "text": "Remote host",
+      "description": "Label for the remote connection dropdown in the remote workspace path dialog",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.remotePlaceholder",
+      "text": "No connected remote",
+      "description": "Placeholder shown when no connected remote is available in the remote workspace path dialog",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    },
+    {
+      "id": "workspaceRootDialog.title.pick",
+      "text": "Choose folder path",
+      "description": "Title for the remote workspace path dialog when selecting a workspace",
+      "files": ["pages/remote-workspace-root-dialog-5b449b8494ed.js"],
+      "file_count": 1
+    }
+  ],
+  "imports": [
+    {
+      "from": "app-initial-f094ef01c64d.js",
+      "count": 301,
+      "names": [
+        "$A",
+        "$Z",
+        "A3t",
+        "AH",
+        "AJ",
+        "AMt",
+        "Amn",
+        "B4t",
+        "B6t",
+        "B7",
+        "B8",
+        "Bq",
+        "C$",
+        "CJt",
+        "CRt",
+        "Cd",
+        "Cpn",
+        "DC",
+        "DJ",
+        "DMt",
+        "DQ",
+        "DRt",
+        "Dbt",
+        "Dd",
+        "Dmn",
+        "EA",
+        "EC",
+        "ERt",
+        "Ed",
+        "F3t",
+        "FKt",
+        "FO",
+        "Fw",
+        "G$t",
+        "GG",
+        "GL",
+        "Gh",
+        "Gx",
+        "H0",
+        "H4t",
+        "HQt",
+        "Hq",
+        "Hqt",
+        "Hut",
+        "I5t",
+        "IJ",
+        "ILt",
+        "IXt",
+        "J$t",
+        "JA",
+        "JG",
+        "JK",
+        "JXt",
+        "Jit",
+        "Jqt",
+        "Jrt",
+        "Jxt",
+        "Jyt",
+        "K$t",
+        "K4t",
+        "KA",
+        "KG",
+        "KKt",
+        "KWt",
+        "KXt",
+        "KYt",
+        "Kit",
+        "Km",
+        "Kqt",
+        "Kx",
+        "Kyt",
+        "L0",
+        "LA",
+        "LC",
+        "LX",
+        "M6t",
+        "MMt",
+        "N3t",
+        "N6t",
+        "N8",
+        "Np",
+        "O3t",
+        "O8t",
+        "OJ",
+        "OMt",
+        "OQ",
+        "ORt",
+        "OW",
+        "Od",
+        "Oen",
+        "Omn",
+        "Opn",
+        "P8",
+        "PO",
+        "Pdt",
+        "Pen",
+        "Pp",
+        "Pw",
+        "QGt",
+        "QLt",
+        "QS",
+        "QV",
+        "QWt",
+        "QXt",
+        "QZ",
+        "RC",
+        "RKt",
+        "RWt",
+        "RX",
+        "Rit",
+        "Rpn",
+        "S8",
+        "SC",
+        "SFt",
+        "SJt",
+        "SRt",
+        "Sdt",
+        "Sh",
+        "Smn",
+        "Spn",
+        "Su",
+        "T8",
+        "TC",
+        "TFt",
+        "TJt",
+        "TRt",
+        "Tbt",
+        "Td",
+        "U3t",
+        "UQt",
+        "Uqt",
+        "V3t",
+        "V7",
+        "VLt",
+        "VQt",
+        "Vdt",
+        "Vnn",
+        "WG",
+        "WL",
+        "Wh",
+        "Wlt",
+        "X8t",
+        "XXt",
+        "Xdt",
+        "Xen",
+        "Xqt",
+        "Xrt",
+        "Xxt",
+        "Y$t",
+        "Y7t",
+        "Ydt",
+        "Yrt",
+        "Yut",
+        "Z7t",
+        "ZG",
+        "ZGt",
+        "ZS",
+        "ZV",
+        "Zqt",
+        "Zrt",
+        "_$",
+        "_8",
+        "_C",
+        "_H",
+        "_Jt",
+        "_bt",
+        "_mn",
+        "_st",
+        "a3t",
+        "aG",
+        "af",
+        "akt",
+        "apt",
+        "b$",
+        "b3t",
+        "bC",
+        "bJt",
+        "bmn",
+        "bpn",
+        "c6t",
+        "c8t",
+        "cFt",
+        "d5t",
+        "dJt",
+        "dXt",
+        "dbt",
+        "dqt",
+        "dut",
+        "e0t",
+        "e4t",
+        "eZt",
+        "eit",
+        "ej",
+        "ekt",
+        "fJt",
+        "fk",
+        "g3t",
+        "gC",
+        "gH",
+        "gMt",
+        "gRt",
+        "gbt",
+        "gmn",
+        "gpn",
+        "gst",
+        "gt",
+        "hC",
+        "hMt",
+        "hYt",
+        "hmn",
+        "hst",
+        "ht",
+        "hz",
+        "i6t",
+        "iR",
+        "iit",
+        "ijt",
+        "jLt",
+        "jMt",
+        "jXt",
+        "kH",
+        "kMt",
+        "kW",
+        "kXt",
+        "kbt",
+        "ken",
+        "kmn",
+        "l8t",
+        "lF",
+        "lG",
+        "lSt",
+        "m1",
+        "mA",
+        "mR",
+        "mYt",
+        "mst",
+        "mz",
+        "nFt",
+        "nJt",
+        "nZt",
+        "nit",
+        "o3t",
+        "o7t",
+        "o8t",
+        "oJt",
+        "ojt",
+        "opt",
+        "os",
+        "p1",
+        "pA",
+        "pJt",
+        "pR",
+        "pk",
+        "pqt",
+        "pst",
+        "qK",
+        "qKt",
+        "qm",
+        "qq",
+        "qqt",
+        "r7t",
+        "rR",
+        "rf",
+        "rit",
+        "rq",
+        "s3t",
+        "sG",
+        "sJt",
+        "ss",
+        "tJt",
+        "tit",
+        "uF",
+        "uG",
+        "uJt",
+        "uSt",
+        "uXt",
+        "ubt",
+        "uq",
+        "v$",
+        "vJt",
+        "vit",
+        "vlt",
+        "wJt",
+        "wRt",
+        "wd",
+        "xJt",
+        "xRt",
+        "xbt",
+        "xh",
+        "xmn",
+        "xu",
+        "y$",
+        "y8",
+        "yYt",
+        "yit",
+        "z5t",
+        "z8",
+        "zJ",
+        "zXt",
+        "zit",
+        "zpn"
+      ]
+    },
+    {
+      "from": "app-primary-4c40d73a1074.js",
+      "count": 52,
+      "names": [
+        "$w",
+        "Ao",
+        "BT",
+        "DE",
+        "EE",
+        "Fm",
+        "Gw",
+        "Im",
+        "It",
+        "Jo",
+        "K",
+        "Kw",
+        "L",
+        "NC",
+        "OE",
+        "PC",
+        "Qu",
+        "Qw",
+        "R",
+        "Rt",
+        "SE",
+        "TE",
+        "VT",
+        "Xm",
+        "Xw",
+        "Ym",
+        "Yo",
+        "Yw",
+        "Zm",
+        "Zu",
+        "Zw",
+        "_E",
+        "bE",
+        "br",
+        "eT",
+        "fs",
+        "hE",
+        "hc",
+        "jo",
+        "l",
+        "mS",
+        "mc",
+        "pS",
+        "ps",
+        "q",
+        "u",
+        "vs",
+        "wE",
+        "xE",
+        "yE",
+        "yr",
+        "ys"
+      ]
+    },
+    {
+      "from": "workspace-agent-detail-query-ee964e0a64ba.js",
+      "count": 8,
+      "names": ["a", "d", "i", "l", "n", "o", "r", "t"]
+    },
+    {
+      "from": "worktree-environment-dropdown-ea1f88351d40.js",
+      "count": 6,
+      "names": ["c", "i", "n", "r", "s", "t"]
+    },
+    {
+      "from": "view-control-labels-12b31a484acb.js",
+      "count": 6,
+      "names": ["a", "i", "n", "o", "r", "t"]
+    },
+    {
+      "from": "duplicate-agent-928696f5ef63.js",
+      "count": 5,
+      "names": ["a", "i", "o", "r", "t"]
+    },
+    {
+      "from": "surface-572ba2609efa.js",
+      "count": 3,
+      "names": ["i", "n", "r"]
+    },
+    {
+      "from": "skills-page-grid-8e6b72ab693e.js",
+      "count": 3,
+      "names": ["n", "r", "t"]
+    },
+    {
+      "from": "rolldown-runtime-c05d78c594d1.js",
+      "count": 2,
+      "names": ["n", "o"]
+    },
+    {
+      "from": "use-floating-window-pointer-interactivity-4227999c8c97.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-hotkey-window-dismiss-on-escape-beb0ce766d08.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "remote-connection-editor-draft-82bd39e6a7c1.js",
+      "count": 2,
+      "names": ["r", "t"]
+    },
+    {
+      "from": "home-suggestion-list-c5a723041498.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "segmented-toggle-30e6111a9bfb.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "compact-empty-state-9a2953b7acb0.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "detail-page-8ad79819368d.js",
+      "count": 2,
+      "names": ["n", "r"]
+    },
+    {
+      "from": "detail-section-state-48ff67356906.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "read-error-f695c821b3d2.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "agent-menu-ecf22be00deb.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "panel-visibility-6143cd2f2ec9.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "home-suggestion-staggered-item-3e4fae8a6ab3.js",
+      "count": 2,
+      "names": ["n", "t"]
+    }
+  ],
+  "hot_props": [
+    {
+      "name": "children",
+      "count": 175
+    },
+    {
+      "name": "id",
+      "count": 171
+    },
+    {
+      "name": "description",
+      "count": 168
+    },
+    {
+      "name": "defaultMessage",
+      "count": 155
+    },
+    {
+      "name": "className",
+      "count": 92
+    },
+    {
+      "name": "null",
+      "count": 30
+    },
+    {
+      "name": "size",
+      "count": 29
+    },
+    {
+      "name": "disabled",
+      "count": 25
+    },
+    {
+      "name": "agentId",
+      "count": 25
+    },
+    {
+      "name": "color",
+      "count": 24
+    },
+    {
+      "name": "hostId",
+      "count": 24
+    },
+    {
+      "name": "enabled",
+      "count": 22
+    },
+    {
+      "name": "title",
+      "count": 22
+    },
+    {
+      "name": "label",
+      "count": 22
+    },
+    {
+      "name": "onSelect",
+      "count": 21
+    },
+    {
+      "name": "signal",
+      "count": 20
+    },
+    {
+      "name": "data",
+      "count": 18
+    },
+    {
+      "name": "onClick",
+      "count": 18
+    },
+    {
+      "name": "kind",
+      "count": 17
+    },
+    {
+      "name": "type",
+      "count": 12
+    },
+    {
+      "name": "values",
+      "count": 12
+    },
+    {
+      "name": "agent",
+      "count": 12
+    },
+    {
+      "name": "error",
+      "count": 11
+    },
+    {
+      "name": "onRetry",
+      "count": 11
+    },
+    {
+      "name": "query",
+      "count": 11
+    },
+    {
+      "name": "path",
+      "count": 10
+    },
+    {
+      "name": "icon",
+      "count": 10
+    },
+    {
+      "name": "LeftIcon",
+      "count": 9
+    },
+    {
+      "name": "initialDirectoryPath",
+      "count": 9
+    },
+    {
+      "name": "queryKey",
+      "count": 9
+    },
+    {
+      "name": "parameters",
+      "count": 9
+    },
+    {
+      "name": "composerMode",
+      "count": 8
+    },
+    {
+      "name": "get",
+      "count": 8
+    },
+    {
+      "name": "source",
+      "count": 8
+    },
+    {
+      "name": "selectedHostId",
+      "count": 8
+    },
+    {
+      "name": "name",
+      "count": 8
+    },
+    {
+      "name": "queryFn",
+      "count": 8
+    },
+    {
+      "name": "retry",
+      "count": 8
+    },
+    {
+      "name": "staleTime",
+      "count": 8
+    },
+    {
+      "name": "workspaceName",
+      "count": 8
+    },
+    {
+      "name": "triggerButton",
+      "count": 7
+    },
+    {
+      "name": "projectId",
+      "count": 7
+    },
+    {
+      "name": "replace",
+      "count": 7
+    },
+    {
+      "name": "align",
+      "count": 7
+    },
+    {
+      "name": "open",
+      "count": 7
+    },
+    {
+      "name": "onOpenChange",
+      "count": 7
+    },
+    {
+      "name": "isRemoteHost",
+      "count": 7
+    },
+    {
+      "name": "handleSkip",
+      "count": 7
+    },
+    {
+      "name": "isSkipPending",
+      "count": 7
+    },
+    {
+      "name": "skipErrorMessage",
+      "count": 7
+    },
+    {
+      "name": "project",
+      "count": 6
+    },
+    {
+      "name": "scope",
+      "count": 6
+    },
+    {
+      "name": "control",
+      "count": 6
+    },
+    {
+      "name": "mode",
+      "count": 6
+    },
+    {
+      "name": "tone",
+      "count": 6
+    },
+    {
+      "name": "isPending",
+      "count": 6
+    },
+    {
+      "name": "refetch",
+      "count": 6
+    },
+    {
+      "name": "layout",
+      "count": 6
+    },
+    {
+      "name": "channel",
+      "count": 6
+    },
+    {
+      "name": "setComposerMode",
+      "count": 5
+    },
+    {
+      "name": "tooltipContent",
+      "count": 5
+    },
+    {
+      "name": "contentWidth",
+      "count": 5
+    },
+    {
+      "name": "isLoading",
+      "count": 5
+    },
+    {
+      "name": "hostConfig",
+      "count": 5
+    },
+    {
+      "name": "workspaceRoot",
+      "count": 5
+    },
+    {
+      "name": "Icon",
+      "count": 5
+    },
+    {
+      "name": "isFetching",
+      "count": 5
+    },
+    {
+      "name": "state",
+      "count": 5
+    },
+    {
+      "name": "ref",
+      "count": 5
+    },
+    {
+      "name": "action",
+      "count": 5
+    },
+    {
+      "name": "subtitle",
+      "count": 5
+    },
+    {
+      "name": "onCloseAutoFocus",
+      "count": 5
+    },
+    {
+      "name": "onStartFromScratch",
+      "count": 5
+    },
+    {
+      "name": "onUseExistingFolder",
+      "count": 5
+    },
+    {
+      "name": "selectedWorkspacesCount",
+      "count": 5
+    },
+    {
+      "name": "totalWorkspacesCount",
+      "count": 5
+    },
+    {
+      "name": "checked",
+      "count": 5
+    },
+    {
+      "name": "conversation",
+      "count": 5
+    },
+    {
+      "name": "isSelected",
+      "count": 5
+    },
+    {
+      "name": "agent_id",
+      "count": 5
+    },
+    {
+      "name": "showWorktree",
+      "count": 4
+    },
+    {
+      "name": "RightIcon",
+      "count": 4
+    },
+    {
+      "name": "gitRoot",
+      "count": 4
+    },
+    {
+      "name": "setActive",
+      "count": 4
+    },
+    {
+      "name": "params",
+      "count": 4
+    },
+    {
+      "name": "projectType",
+      "count": 4
+    },
+    {
+      "name": "remoteName",
+      "count": 4
+    },
+    {
+      "name": "handleOpenFolder",
+      "count": 4
+    },
+    {
+      "name": "ariaLabel",
+      "count": 4
+    },
+    {
+      "name": "accountId",
+      "count": 4
+    },
+    {
+      "name": "cursor",
+      "count": 4
+    },
+    {
+      "name": "limit",
+      "count": 4
+    },
+    {
+      "name": "node",
+      "count": 4
+    },
+    {
+      "name": "hasNextPage",
+      "count": 4
+    },
+    {
+      "name": "isFetchingNextPage",
+      "count": 4
+    },
+    {
+      "name": "z",
+      "count": 3
+    },
+    {
+      "name": "authMethod",
+      "count": 3
+    },
+    {
+      "name": "cwd",
+      "count": 3
+    },
+    {
+      "name": "activationNonce",
+      "count": 3
+    },
+    {
+      "name": "interactiveRegionRef",
+      "count": 3
+    },
+    {
+      "name": "onInteractiveChange",
+      "count": 3
+    },
+    {
+      "name": "message",
+      "count": 3
+    },
+    {
+      "name": "host",
+      "count": 3
+    },
+    {
+      "name": "comparablePath",
+      "count": 3
+    },
+    {
+      "name": "root",
+      "count": 3
+    },
+    {
+      "name": "appearance",
+      "count": 3
+    },
+    {
+      "name": "onConnected",
+      "count": 3
+    },
+    {
+      "name": "role",
+      "count": 3
+    },
+    {
+      "name": "loading",
+      "count": 3
+    },
+    {
+      "name": "onCancel",
+      "count": 3
+    },
+    {
+      "name": "showIcon",
+      "count": 3
+    },
+    {
+      "name": "index",
+      "count": 3
+    },
+    {
+      "name": "e",
+      "count": 3
+    },
+    {
+      "name": "actions",
+      "count": 3
+    },
+    {
+      "name": "reason",
+      "count": 3
+    },
+    {
+      "name": "content",
+      "count": 3
+    },
+    {
+      "name": "onClose",
+      "count": 3
+    },
+    {
+      "name": "isPublished",
+      "count": 3
+    },
+    {
+      "name": "onDeleted",
+      "count": 3
+    },
+    {
+      "name": "bb0",
+      "count": 3
+    },
+    {
+      "name": "time",
+      "count": 3
+    },
+    {
+      "name": "dateString",
+      "count": 3
+    },
+    {
+      "name": "canUseCloud",
+      "count": 2
+    },
+    {
+      "name": "showLabel",
+      "count": 2
+    },
+    {
+      "name": "disabledTooltipText",
+      "count": 2
+    },
+    {
+      "name": "tooltipText",
+      "count": 2
+    },
+    {
+      "name": "activeWorkspaceRoot",
+      "count": 2
+    },
+    {
+      "name": "defaultToProjectless",
+      "count": 2
+    },
+    {
+      "name": "localProjects",
+      "count": 2
+    },
+    {
+      "name": "composerWorkspaceRoot",
+      "count": 2
+    },
+    {
+      "name": "selectedRemoteProjectPath",
+      "count": 2
+    },
+    {
+      "name": "remoteProject",
+      "count": 2
+    },
+    {
+      "name": "projectRoot",
+      "count": 2
+    },
+    {
+      "name": "isProjectless",
+      "count": 2
+    },
+    {
+      "name": "isProjectLoading",
+      "count": 2
+    },
+    {
+      "name": "isGitlessLocalProject",
+      "count": 2
+    },
+    {
+      "name": "projectKey",
+      "count": 2
+    },
+    {
+      "name": "availability",
+      "count": 2
+    },
+    {
+      "name": "effectiveMode",
+      "count": 2
+    },
+    {
+      "name": "requiresEmptyComposer",
+      "count": 2
+    },
+    {
+      "name": "environments",
+      "count": 2
+    },
+    {
+      "name": "repairConfigPath",
+      "count": 2
+    },
+    {
+      "name": "section",
+      "count": 2
+    },
+    {
+      "name": "se",
+      "count": 2
+    },
+    {
+      "name": "search",
+      "count": 2
+    },
+    {
+      "name": "hasConnectedRemoteConnections",
+      "count": 2
+    },
+    {
+      "name": "isRemoteProjectPathReady",
+      "count": 2
+    },
+    {
+      "name": "selectedConnection",
+      "count": 2
+    },
+    {
+      "name": "submitBlocker",
+      "count": 2
+    },
+    {
+      "name": "directoryPath",
+      "count": 2
+    },
+    {
+      "name": "directoriesOnly",
+      "count": 2
+    },
+    {
+      "name": "queryConfig",
+      "count": 2
+    },
+    {
+      "name": "t",
+      "count": 2
+    },
+    {
+      "name": "remotePath",
+      "count": 2
+    },
+    {
+      "name": "result",
+      "count": 2
+    },
+    {
+      "name": "connection",
+      "count": 2
+    },
+    {
+      "name": "setActiveRemoteProject",
+      "count": 2
+    },
+    {
+      "name": "projectName",
+      "count": 2
+    },
+    {
+      "name": "asset",
+      "count": 2
+    },
+    {
+      "name": "onSubmit",
+      "count": 2
+    },
+    {
+      "name": "isCreating",
+      "count": 2
+    },
+    {
+      "name": "missingDirectory",
+      "count": 2
+    },
+    {
+      "name": "onConfirm",
+      "count": 2
+    },
+    {
+      "name": "tasks",
+      "count": 2
+    },
+    {
+      "name": "gitOrigins",
+      "count": 2
+    },
+    {
+      "name": "codexHome",
+      "count": 2
+    },
+    {
+      "name": "autoNavigated",
+      "count": 2
+    },
+    {
+      "name": "isLoadingRoots",
+      "count": 2
+    },
+    {
+      "name": "hasAvailableRoots",
+      "count": 2
+    },
+    {
+      "name": "availableOptions",
+      "count": 2
+    },
+    {
+      "name": "selectedRoots",
+      "count": 2
+    },
+    {
+      "name": "selectAllState",
+      "count": 2
+    },
+    {
+      "name": "handleToggleSelectAll",
+      "count": 2
+    },
+    {
+      "name": "handleToggleWorkspace",
+      "count": 2
+    },
+    {
+      "name": "intl",
+      "count": 2
+    },
+    {
+      "name": "hasSelectedRoots",
+      "count": 2
+    },
+    {
+      "name": "handleContinue",
+      "count": 2
+    },
+    {
+      "name": "o",
+      "count": 2
+    },
+    {
+      "name": "checkboxId",
+      "count": 2
+    },
+    {
+      "name": "checkboxClassName",
+      "count": 2
+    },
+    {
+      "name": "onCheckedChange",
+      "count": 2
+    },
+    {
+      "name": "isDisabled",
+      "count": 2
+    },
+    {
+      "name": "skipExistenceCheck",
+      "count": 2
+    },
+    {
+      "name": "option",
+      "count": 2
+    },
+    {
+      "name": "onToggle",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "count": 2
+    },
+    {
+      "name": "isError",
+      "count": 2
+    },
+    {
+      "name": "debugName",
+      "count": 2
+    },
+    {
+      "name": "fillParent",
+      "count": 2
+    },
+    {
+      "name": "initiator",
+      "count": 2
+    },
+    {
+      "name": "connectorIds",
+      "count": 2
+    },
+    {
+      "name": "apps",
+      "count": 2
+    },
+    {
+      "name": "logoUrl",
+      "count": 2
+    },
+    {
+      "name": "logoDarkUrl",
+      "count": 2
+    },
+    {
+      "name": "truncated",
+      "count": 2
+    },
+    {
+      "name": "stream",
+      "count": 2
+    },
+    {
+      "name": "initialPageParam",
+      "count": 2
+    },
+    {
+      "name": "pageParam",
+      "count": 2
+    },
+    {
+      "name": "getNextPageParam",
+      "count": 2
+    },
+    {
+      "name": "fileId",
+      "count": 2
+    },
+    {
+      "name": "fileName",
+      "count": 2
+    },
+    {
+      "name": "mimeType",
+      "count": 2
+    },
+    {
+      "name": "sizeBytes",
+      "count": 2
+    },
+    {
+      "name": "updatedAt",
+      "count": 2
+    },
+    {
+      "name": "uniform",
+      "count": 2
+    },
+    {
+      "name": "WorkspaceAgentSchedulesDialog",
+      "count": 2
+    },
+    {
+      "name": "canViewConfig",
+      "count": 2
+    },
+    {
+      "name": "version",
+      "count": 2
+    },
+    {
+      "name": "density",
+      "count": 2
+    },
+    {
+      "name": "connectors",
+      "count": 2
+    },
+    {
+      "name": "onPinError",
+      "count": 2
+    },
+    {
+      "name": "variant",
+      "count": 2
+    },
+    {
+      "name": "creatorName",
+      "count": 2
+    },
+    {
+      "name": "placement",
+      "count": 2
+    },
+    {
+      "name": "items",
+      "count": 2
+    },
+    {
+      "name": "selectedId",
+      "count": 2
+    },
+    {
+      "name": "options",
+      "count": 2
+    },
+    {
+      "name": "fetchNextPage",
+      "count": 2
+    },
+    {
+      "name": "rightText",
+      "count": 2
+    },
+    {
+      "name": "app",
+      "count": 2
+    },
+    {
+      "name": "connector",
+      "count": 2
+    },
+    {
+      "name": "isSearch",
+      "count": 2
+    },
+    {
+      "name": "onLoadMore",
+      "count": 2
+    },
+    {
+      "name": "canEdit",
+      "count": 2
+    },
+    {
+      "name": "menuItem",
+      "count": 2
+    },
+    {
+      "name": "surface",
+      "count": 1
+    },
+    {
+      "name": "fallbackMode",
+      "count": 1
+    },
+    {
+      "name": "isAvailabilityLoading",
+      "count": 1
+    },
+    {
+      "name": "cloudUnavailableReason",
+      "count": 1
+    },
+    {
+      "name": "cloudAccess",
+      "count": 1
+    },
+    {
+      "name": "supportsCloud",
+      "count": 1
+    },
+    {
+      "name": "isPrimaryReviewTask",
+      "count": 1
+    },
+    {
+      "name": "isRemoteProject",
+      "count": 1
+    },
+    {
+      "name": "isLocalAvailable",
+      "count": 1
+    },
+    {
+      "name": "isWorktreeAvailable",
+      "count": 1
+    },
+    {
+      "name": "isEverydayWorkMode",
+      "count": 1
+    },
+    {
+      "name": "isEqual",
+      "count": 1
+    },
+    {
+      "name": "floatingElementSelectors",
+      "count": 1
+    },
+    {
+      "name": "includeInteractiveRegion",
+      "count": 1
+    },
+    {
+      "name": "Home",
+      "count": 1
+    },
+    {
+      "name": "HomeShell",
+      "count": 1
+    },
+    {
+      "name": "ShellUnderlay",
+      "count": 1
+    },
+    {
+      "name": "ComposerSurface",
+      "count": 1
+    },
+    {
+      "name": "j",
+      "count": 1
+    },
+    {
+      "name": "resolvedConfigPath",
+      "count": 1
+    },
+    {
+      "name": "updateSelection",
+      "count": 1
+    },
+    {
+      "name": "minimumComposerTopInsetPx",
+      "count": 1
+    },
+    {
+      "name": "restingComposerTopInsetPx",
+      "count": 1
+    },
+    {
+      "name": "childList",
+      "count": 1
+    },
+    {
+      "name": "subtree",
+      "count": 1
+    }
+  ],
+  "literal_count": 746,
+  "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals\\workspace.json"
+}

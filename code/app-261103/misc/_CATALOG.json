@@ -1,0 +1,7169 @@
+{
+ "module": "misc",
+ "generated_at": "2026-11-09T07:51:29.814Z",
+ "files_scanned": 8,
+ "message_count": 684,
+ "messages": [
+  {
+   "id": "annotationPreviewActions.edit",
+   "text": "Edit annotation {annotationNumber}",
+   "description": "Accessible label for the pencil button that edits an individual annotation from the composer's attachment preview",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "annotationPreviewActions.remove",
+   "text": "Delete annotation {annotationNumber}",
+   "description": "Accessible label for the trash button that deletes an individual annotation from the composer's attachment preview",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.shortState.groups",
+   "text": "{groupCount, plural, one {# group} other {# groups}}",
+   "description": "Concise label for a site shared with one or more groups",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.shortState.ownerOnly",
+   "text": "Only you",
+   "description": "Concise label for a site whose access is limited to its owner",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.shortState.people",
+   "text": "{userCount, plural, one {# person} other {# people}}",
+   "description": "Concise label for a site shared with one or more people",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.shortState.peopleAndGroups",
+   "text": "People and groups",
+   "description": "Concise label for a site shared with both people and groups",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.shortState.public",
+   "text": "Everyone",
+   "description": "Concise label for a site shared publicly on the internet",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.shortState.restricted",
+   "text": "Restricted",
+   "description": "Concise sharing status in a Site list when recipient counts are unavailable. Does not imply owner-only access.",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.shortState.workspace",
+   "text": "Your workspace",
+   "description": "Concise label for a site shared with anyone in the workspace",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.siteState.onlyVisibleToYou",
+   "text": "This site is only visible to you",
+   "description": "Tooltip for a site link whose access is limited to its owner",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.siteState.restricted",
+   "text": "This site has restricted access",
+   "description": "Tooltip for a Site link when recipient counts are unavailable. Does not imply that only the owner has access.",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.siteState.visibleToEveryone",
+   "text": "This site is visible to everyone",
+   "description": "Tooltip for a site link shared publicly on the internet",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.siteState.visibleToGroups",
+   "text": "This site is visible to {groupCount, plural, one {# group} other {# groups}}",
+   "description": "Tooltip for a site link shared with one or more groups",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.siteState.visibleToPeople",
+   "text": "This site is visible to {userCount, plural, one {# person} other {# people}}",
+   "description": "Tooltip for a site link shared with one or more people",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.siteState.visibleToPeopleAndGroups",
+   "text": "This site is visible to people and groups",
+   "description": "Tooltip for a site link shared with both people and groups",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.siteState.visibleToWorkspace",
+   "text": "This site is visible to your workspace",
+   "description": "Tooltip for a site link shared with anyone in the workspace",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.onlyVisibleToYou",
+   "text": "Only visible to you",
+   "description": "Label for a site whose access is limited to its owner",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.restricted",
+   "text": "Restricted access",
+   "description": "Sharing status for a Site whose recipient counts are unavailable. Access is restricted, but this label does not imply that only the owner has access.",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.visibleToEveryone",
+   "text": "Visible to everyone",
+   "description": "Label for a site shared publicly on the internet",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.visibleToGroups",
+   "text": "Visible to {groupCount, plural, one {# group} other {# groups}}",
+   "description": "Label for a site shared with one or more groups",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.visibleToPeople",
+   "text": "Visible to {userCount, plural, one {# person} other {# people}}",
+   "description": "Label for a site shared with one or more people",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.visibleToPeopleAndGroups",
+   "text": "Visible to people and groups",
+   "description": "Label for a site shared with both people and groups",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.visibleToWorkspace",
+   "text": "Visible to your workspace",
+   "description": "Label for a site shared with anyone in the workspace",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAnalytics.overview.error",
+   "text": "Unable to load analytics",
+   "description": "Error shown when the site analytics overview cannot load",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAutomations.indicator",
+   "text": "View this Site’s schedules",
+   "description": "Tooltip and accessible label for the clock icon on a Site with scheduled tasks",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.analytics.label",
+   "text": "Analytics",
+   "description": "Menu item for opening site analytics",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.createSite",
+   "text": "Create Site",
+   "description": "Button label for starting a new site from the Sites page",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.disabledBadge",
+   "text": "Disabled",
+   "description": "Status badge shown next to a site name when the site is disabled",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.edit",
+   "text": "Edit {siteTitle}",
+   "description": "Accessible label for starting a new conversation to edit a site from the sites list",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.empty.create",
+   "text": "Create new site",
+   "description": "Button label for creating a new site from the empty state",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.empty.description",
+   "text": "Build websites and apps with databases and sign-in—try “Build a team dashboard” or “Create an event signup page”",
+   "description": "Explanation shown to a first-time Sites user: they can create websites and applications with databases and authentication by asking for a team dashboard or event signup page",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.empty.title",
+   "text": "No sites yet",
+   "description": "Empty state title for the Sites page",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.error.retry",
+   "text": "Retry",
+   "description": "Button label in the Sites error state that retries loading the user's Sites list",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.error.title",
+   "text": "Unable to load sites",
+   "description": "Error state title for the Sites page",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.list.owner",
+   "text": "Owner",
+   "description": "Column header for the owner of a shared site",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.list.sharedWith",
+   "text": "Shared with",
+   "description": "Column header for who can access a site in the Sites list",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.list.site",
+   "text": "Site",
+   "description": "Column header for a site in the Sites list",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.list.visitors",
+   "text": "Visitors (30d)",
+   "description": "Column header above daily unique-visitor graphs and the distinct browser total for page loads across the past 30 days for each site in the Sites list. 30d means 30 days.",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.loading",
+   "text": "Loading sites",
+   "description": "Accessible status while the Sites page is loading",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.loadingMore",
+   "text": "Loading more sites",
+   "description": "Accessible status while another page of Sites is loading",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.notPublished",
+   "text": "Not published",
+   "description": "Sites row status for a Site that has not been published",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.openSharingSettings",
+   "text": ", open sharing settings for {siteTitle}",
+   "description": "Additional accessible button label for opening site sharing settings from the sites list access status",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.ownership.all",
+   "text": "All",
+   "description": "Tab listing owned sites and sites shared with the current user",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.ownership.owned",
+   "text": "Owned by you",
+   "description": "Tab listing sites owned by the current user",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.ownership.shared",
+   "text": "Shared with you",
+   "description": "Tab listing sites shared with the current user",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.ownership.yours",
+   "text": "Your sites",
+   "description": "Tab listing sites owned by the current user",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.ownerUnavailable",
+   "text": "Owner unavailable",
+   "description": "Fallback shown when a shared site's owner display is unavailable",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.ownerYou",
+   "text": "You",
+   "description": "Owner label for a site owned by the current user",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.pagination.error",
+   "text": "Unable to load more sites",
+   "description": "Error below the Sites list when a later page fails to load and the list may be incomplete",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.pagination.retry",
+   "text": "Retry",
+   "description": "Button to retry loading the failed next page of Sites without reloading already loaded sites",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.pins.empty.description",
+   "text": "Choose “Pin” from a site's menu to find it here",
+   "description": "Instructions for adding sites to the empty Pinned tab",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.pins.empty.title",
+   "text": "No pinned sites yet",
+   "description": "Empty state title when the user has not pinned any sites",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.pins.indicator",
+   "text": "Pinned",
+   "description": "Accessible label for the icon marking a site as pinned",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.pins.tab",
+   "text": "Pinned",
+   "description": "Tab listing the current user's pinned sites",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.search.incomplete",
+   "text": "Some search results could not be loaded",
+   "description": "Search remains usable, but some matches may be missing",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.search.retryIncomplete",
+   "text": "Retry",
+   "description": "Retry an incomplete Sites search",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.settings.label",
+   "text": "Settings",
+   "description": "Menu item for opening site settings",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.shared.empty.title",
+   "text": "No sites shared with you",
+   "description": "Empty state title for Sites shared with the current user",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.shared.unavailable",
+   "text": "Shared sites aren’t available right now",
+   "description": "Shown when a Space shared collection cannot use the Sites shared listing; owned sites are not substituted",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.sites.search",
+   "text": "Search sites",
+   "description": "Accessible label and placeholder for searching Sites",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.title",
+   "text": "Sites",
+   "description": "Header title for the Sites page",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.views.label",
+   "text": "Site views",
+   "description": "Accessible label for switching between owned, shared, and pinned sites",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenPage.visit",
+   "text": "Visit {siteTitle}",
+   "description": "Accessible label for opening a live site from the sites list",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.acceptAllChanges",
+   "text": "Accept all",
+   "description": "Action to accept all model changes in the completed artifact annotation batch",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.annotationCount",
+   "text": "{count, plural, one {# annotation} other {# annotations}}",
+   "description": "Number of distinct artifact annotations saved in the current unsent batch",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.annotationPreview",
+   "text": "Annotation preview",
+   "description": "Accessible label for the focus-managed preview of pending artifact annotations shown before sending a batch",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.cancel",
+   "text": "Cancel",
+   "description": "Action to discard the current batch of saved artifact annotations",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.completedChangeCount",
+   "text": "{count, plural, one {# change} other {# changes}}",
+   "description": "Number of model changes in the completed artifact annotation batch awaiting review",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.dismissCompletedReview",
+   "text": "Close change review",
+   "description": "Accessible label for closing the completed artifact annotation review toolbar",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.dismissLatestChanges",
+   "text": "Dismiss latest changes",
+   "description": "Accessible label for dismissing the completed artifact annotation batch action",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.seeLatestChanges",
+   "text": "See latest changes",
+   "description": "Artifact preview action shown when the file has changed after submitting a batch of annotations",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.selectContent",
+   "text": "Select content and ask for changes",
+   "description": "Instruction shown in the artifact annotation toolbar before any requests have been saved",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.send",
+   "text": "Send",
+   "description": "Action to submit all saved artifact annotations together in the existing conversation",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.sendFailed",
+   "text": "Could not send requests. Try again.",
+   "description": "Error shown when an artifact request batch could not be sent; saved requests are retained for retry",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.undoChanges",
+   "text": "Undo",
+   "description": "Action to undo the completed batch of model changes to an artifact",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotationBatch.working",
+   "text": "Working",
+   "description": "Artifact annotation batch status while Codex is processing the saved annotations",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotations.exit.description",
+   "text": "You have annotations that haven't been sent.",
+   "description": "Explanation that the annotations being discarded have not been sent",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotations.exit.leave",
+   "text": "Discard",
+   "description": "Discard pending annotations and leave annotation mode",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotations.exit.stay",
+   "text": "Keep annotations",
+   "description": "Keep pending annotations and return to annotation mode",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactAnnotations.exit.title",
+   "text": "Discard annotations?",
+   "description": "Confirmation title before discarding pending artifact annotations",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.cancel",
+   "text": "Cancel",
+   "description": "Cancel the queued artifact requests without sending them to ChatGPT",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.label",
+   "text": "Artifact review",
+   "description": "Review and send artifact annotations",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.moveToolbar",
+   "text": "Move toolbar",
+   "description": "Accessible label for the drag handle of the artifact annotation toolbar",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.moveToolbarDescription",
+   "text": "Drag or use arrow keys to move. Press Home to reset.",
+   "description": "Keyboard and pointer instructions for moving the artifact annotation toolbar",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.next",
+   "text": "Next request",
+   "description": "Navigate to the next queued annotation on the artifact",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.previous",
+   "text": "Previous request",
+   "description": "Navigate to the previous queued annotation on the artifact",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.stop",
+   "text": "Stop",
+   "description": "Stop the conversation turn processing these artifact annotations",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactReviewBar.stopFailed",
+   "text": "Could not stop this turn",
+   "description": "Error shown when stopping the conversation turn for an artifact review fails",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.privacy",
+   "text": "Privacy Policy",
+   "description": "Link to the OpenAI privacy policy",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.privacySentenceCase",
+   "text": "Privacy policy",
+   "description": "Link to the OpenAI privacy policy in the compact legal footer",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.terms",
+   "text": "Terms of Use",
+   "description": "Link to the OpenAI terms of use",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.termsSentenceCase",
+   "text": "Terms of use",
+   "description": "Link to the OpenAI terms of use in the compact legal footer",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.approvedCredits",
+   "text": "Approved credits",
+   "description": "Heading for the approved annual CME transcripts",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.download",
+   "text": "Download",
+   "description": "Download a CME annual transcript",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.downloadFailedPleaseTryAgain",
+   "text": "Download failed. Please try again.",
+   "description": "Failure downloading a CME annual PDF transcript",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.downloadYearTranscript",
+   "text": "Download {year} transcript",
+   "description": "Download the PDF transcript for a particular CME calendar year",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.downloadYourCmeTranscriptByCalendarYear",
+   "text": "Download your CME transcript by calendar year",
+   "description": "Instructions for annual CME transcript downloads",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.loadingApprovedCredits",
+   "text": "Loading approved credits…",
+   "description": "CME transcript list loading status",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.loadMore",
+   "text": "Load more",
+   "description": "Load the next page of approved CME annual transcripts",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.noApprovedCreditsYet",
+   "text": "No approved credits yet",
+   "description": "Empty list of approved CME credits",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.tryAgain",
+   "text": "Try again",
+   "description": "Retry fetching CME annual transcripts",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.approved.credits.unableToLoadApprovedCredits",
+   "text": "Unable to load approved credits",
+   "description": "CME annual transcript list fetch failure",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.conversation.row.cmeConversation",
+   "text": "CME conversation",
+   "description": "Label below a conversation available for a CME credit claim",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.conversation.row.openConversation",
+   "text": "Open conversation",
+   "description": "Open a conversation from the CME claim list",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.conversation.row.removeConversation",
+   "text": "Remove conversation",
+   "description": "Permanently remove a conversation from the CME claim list",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.conversation.row.selectTitle",
+   "text": "Select {title}",
+   "description": "Select one conversation for a CME credit claim",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.approvedCredits",
+   "text": "Approved credits",
+   "description": "CME dashboard tab listing approved annual transcripts",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.back",
+   "text": "Back",
+   "description": "Return to CME conversation selection without losing survey responses",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.cancel",
+   "text": "Cancel",
+   "description": "Cancel removal of a CME conversation",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.claim",
+   "text": "Claim",
+   "description": "CME dashboard tab for claiming credits",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.claimYourCredits",
+   "text": "Claim your credits",
+   "description": "Heading for the CME credit claim workflow",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.cme",
+   "text": "CME",
+   "description": "Title of the continuing medical education credit dashboard",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.cmeAccreditationInformation",
+   "text": "CME accreditation information",
+   "description": "Accessible name for the CME accreditation disclosure",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.cmeTabs",
+   "text": "CME tabs",
+   "description": "Accessible name for the CME dashboard tab selector",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.completeThisShortQuestionnaireToSubmitYourClaim",
+   "text": "Complete this short questionnaire to submit your claim",
+   "description": "Instructions for the CME credit survey",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.completeYourCmeProfileInAccountSettingsAnd",
+   "text": "Complete your CME profile in Account settings and confirm physician eligibility to claim CME credits",
+   "description": "Explains why the user cannot proceed with CME credit claiming",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.countSelected",
+   "text": "{count} selected",
+   "description": "Number of conversations selected for a CME claim",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.creditsApproved",
+   "text": "Credits approved",
+   "description": "Confirmation after a CME credit claim is approved",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.creditsCouldNotBeApproved",
+   "text": "Credits could not be approved",
+   "description": "CME claim response did not approve the requested credits",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.iAgreeThatOpenaiMayShareMyName",
+   "text": "I agree that OpenAI may share my name, date of birth, NPI and medical license information with our CME vendor and ACCME for credit administration.",
+   "description": "Required consent explaining which personal information OpenAI shares to administer CME claims",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.loadingCmeProfile",
+   "text": "Loading CME profile…",
+   "description": "CME medical profile loading status",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.loadingConversations",
+   "text": "Loading conversations…",
+   "description": "CME eligible conversation loading status",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.loadMore",
+   "text": "Load more",
+   "description": "Load the next page of CME conversations",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.manageYourContinuingMedicalEducationCredits",
+   "text": "Manage your continuing medical education credits",
+   "description": "Accessible description of the CME dashboard",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.next",
+   "text": "Next",
+   "description": "Advance to the CME claim survey",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.noCmeConversationsYet",
+   "text": "No CME conversations yet",
+   "description": "Empty list of conversations eligible for CME",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.openAccountSettings",
+   "text": "Open Account settings",
+   "description": "Open medical profile settings from the CME claim dashboard",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.pleaseAgreeToTheCreditAdministrationDisclosureTo",
+   "text": "Please agree to the credit administration disclosure to submit your claim",
+   "description": "CME consent validation error after trying to submit without consent",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.remove",
+   "text": "Remove",
+   "description": "Confirm permanent removal from the CME claim list",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.removeConversationFromClaim",
+   "text": "Remove conversation from Claim?",
+   "description": "Confirmation title before permanently removing CME eligibility",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.selectAll",
+   "text": "Select all",
+   "description": "Select all currently loaded CME conversations",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.selectCmeConversationsToIncludeInYourCredit",
+   "text": "Select CME conversations to include in your credit claim",
+   "description": "Instructions for CME conversation selection",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.submit",
+   "text": "Submit",
+   "description": "Submit the selected CME credit claim",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.thisActivityHasBeenPlannedAndImplementedIn",
+   "text": "This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of MEDICUSCME and OpenAI. MEDICUSCME is accredited by the ACCME to provide continuing medical education for physicians.",
+   "description": "Accreditation disclosure for the continuing medical education activity",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.thisConversationWillNoLongerAppearInYour",
+   "text": "This conversation will no longer appear in your Claim list",
+   "description": "Explains that removing a CME entry permanently removes it from the claim list, not the conversation",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.tryAgain",
+   "text": "Try again",
+   "description": "Retry fetching the CME medical profile",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.unableToLoadCmeConversations",
+   "text": "Unable to load CME conversations",
+   "description": "CME conversation list fetch failure",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.unableToLoadYourCmeProfile",
+   "text": "Unable to load your CME profile",
+   "description": "CME medical profile loading failure",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.unableToRemoveThisConversationPleaseTryAgain",
+   "text": "Unable to remove this conversation. Please try again.",
+   "description": "Recoverable failure removing a conversation from CME eligibility",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.dialog.unableToSubmitYourClaimPleaseTryAgain",
+   "text": "Unable to submit your claim. Please try again.",
+   "description": "Recoverable failure submitting a CME credit claim",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.accountSettings",
+   "text": "Account settings",
+   "description": "Button to complete the medical profile needed to claim CME credits",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.available",
+   "text": "Available",
+   "description": "Tab listing unclaimed CME activities",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.claim",
+   "text": "Claim CME",
+   "description": "Start the questionnaire and consent step for selected CME activities",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.claimed",
+   "text": "Claimed",
+   "description": "Tab listing previously claimed CME activities",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.conversation",
+   "text": "Conversation",
+   "description": "Table column showing the CME conversation title",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.credits",
+   "text": "Credits",
+   "description": "Table column showing credits awarded for a CME activity",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.date",
+   "text": "Date",
+   "description": "Date the CME conversation was created",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.dateClaimed",
+   "text": "Date claimed",
+   "description": "Date the CME credit claim was approved",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.emptyAvailable",
+   "text": "No CME activities available to claim",
+   "description": "Empty state when no conversations are eligible for CME credit",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.emptyClaimed",
+   "text": "No claimed CME activities yet",
+   "description": "Empty state for previously claimed CME activities",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.loadError",
+   "text": "Unable to load CME activities",
+   "description": "Failure fetching CME activity history",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.loading",
+   "text": "Loading CME activities…",
+   "description": "Status while fetching available or claimed CME activities",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.loadMore",
+   "text": "Load more",
+   "description": "Load more CME activities in the selected tab",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.retryActivities",
+   "text": "Try again",
+   "description": "Retry fetching CME activities",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.retryProfile",
+   "text": "Try again",
+   "description": "Retry loading the CME medical profile",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.selectActivity",
+   "text": "Select {title}",
+   "description": "Select a named CME activity for a credit claim",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.selectAll",
+   "text": "Select all loaded activities",
+   "description": "Select only the CME activities loaded in the current list",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.selected",
+   "text": "{count, plural, one {# activity selected} other {# activities selected}}",
+   "description": "Number of CME activities selected for a claim",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.subtitle",
+   "text": "Claim your CME",
+   "description": "Subtitle for the continuing medical education page",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.tabs",
+   "text": "CME activities",
+   "description": "Accessible label for available and claimed CME activity tabs",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.title",
+   "text": "Continuing Medical Education (CME)",
+   "description": "Heading for the CME credits page",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.unavailableValue",
+   "text": "—",
+   "description": "Placeholder for a missing CME date or credit amount",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.page.untitled",
+   "text": "Untitled conversation",
+   "description": "Fallback title for a CME conversation with no title",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.aPositiveResponseIsRequiredToGrantCredit",
+   "text": "A positive response is required to grant credit for this conversation",
+   "description": "CME warning when a survey answer indicates no educational benefit",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.conversation",
+   "text": "Conversation",
+   "description": "Label above the conversation prompt in the CME credit questionnaire",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.didNotChange",
+   "text": "Did not change",
+   "description": "CME survey option for unchanged medical knowledge",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.didYourMedicalKnowledgeImproveBecauseOfThe",
+   "text": "Did your medical knowledge improve because of the answer and the references used?",
+   "description": "CME survey question about medical knowledge improvement",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.howDidThisResponseAndTheReferencesUsed",
+   "text": "How did this response and the references used affect your clinical practice?",
+   "description": "CME survey question about impact on clinical practice",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.increasedSignificantly",
+   "text": "Increased significantly",
+   "description": "CME survey option for significant increase in medical knowledge",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.increasedSlightly",
+   "text": "Increased slightly",
+   "description": "CME survey option for slight increase in medical knowledge",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.removeConversationFromSurvey",
+   "text": "Remove conversation from survey",
+   "description": "Deselect a conversation without permanently removing CME eligibility",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.thereWasNoCommercialBias",
+   "text": "There was no commercial bias",
+   "description": "Required CME survey confirmation that the conversation contained no commercial bias",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.thisDidNotAffectMyCurrentClinicalPractice",
+   "text": "This did not affect my current clinical practice or healthcare plan",
+   "description": "CME survey option indicating the answer did not affect clinical practice",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.thisModifiedMyClinicalPracticeOrHealthcarePlan",
+   "text": "This modified my clinical practice or healthcare plan",
+   "description": "CME survey option indicating the answer modified clinical practice",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.cme.survey.thisReinforcedMyCurrentClinicalPracticeOrHealthcare",
+   "text": "This reinforced my current clinical practice or healthcare plan",
+   "description": "CME survey option indicating the answer reinforced clinical practice",
+   "files": [
+    "583168.eddaaaa7c5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.annotation.selectedContent",
+   "text": "Selected annotation content",
+   "description": "Accessible label for an image preview of selected document or PDF content in an annotation tooltip",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.browserComment.selectedArea",
+   "text": "Area {number}",
+   "description": "Label for a selected page area in a sent browser annotation",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.browserComment.selectedElement",
+   "text": "Selected page element",
+   "description": "Metadata label shown in a sent user comment attachment when the selected browser element has no readable label",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.browserComment.selectedItems",
+   "text": "{count, plural, one {# selected item} other {# selected items}}",
+   "description": "Number of page elements and areas included in one browser annotation",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.browserComment.selectedRegionAttached",
+   "text": "Selected region attached",
+   "description": "Metadata label shown in a sent user comment attachment when a screenshot of a selected browser region was attached",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.browserComment.selectedText",
+   "text": "Selected text",
+   "description": "Metadata label shown in a sent user comment attachment created from selected browser text",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.comment.screenshotAttached",
+   "text": "Screenshot attached",
+   "description": "Accessible label for a thumbnail shown when a user comment attachment includes a screenshot",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.comment.userGuidance",
+   "text": "Your guidance",
+   "description": "Label for the user's optional guidance shown under a pull request comment attached to the composer",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.designTweak.toggleChange",
+   "text": "<label>{property}: </label><value>{previousValue, select, true {On} other {Off}}</value><arrow> → </arrow><value>{nextValue, select, true {On} other {Off}}</value>",
+   "description": "Website toggle control edit showing its previous and new state. Property is the website-provided control label and optional code reference; previousValue and nextValue are true when enabled and false when disabled. Label and value tags style those fields; arrow separates the previous and new states.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.designTweak.toggleSummary",
+   "text": "{property}: {previousValue, select, true {On} other {Off}} → {nextValue, select, true {On} other {Off}}",
+   "description": "Accessible summary of a website toggle control change. Property is the website-provided control label and optional code reference; previousValue and nextValue are true when enabled and false when disabled.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.designTweak.toggleValue",
+   "text": "<label>{property}: </label><value>{nextValue, select, true {On} other {Off}}</value>",
+   "description": "Selected state of a website toggle control. Property is the website-provided control label and optional code reference; nextValue is true when enabled and false when disabled. Label and value tags style those fields.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.diffCommentLeftSide",
+   "text": "L",
+   "description": "Short label for the left side of a diff on a sent local user comment",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.diffCommentRightSide",
+   "text": "R",
+   "description": "Short label for the right side of a diff on a sent local user comment",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.aria_label",
+   "text": "Use {colorName}",
+   "description": "Accessible label for a project marker color swatch. Placeholder {colorName} is a color name such as Blue or Green.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.black",
+   "text": "Default",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.blue",
+   "text": "Blue",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.green",
+   "text": "Green",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.orange",
+   "text": "Orange",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.pink",
+   "text": "Pink",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.purple",
+   "text": "Purple",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.red",
+   "text": "Red",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.yellow",
+   "text": "Yellow",
+   "description": "Color option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.bar_chart",
+   "text": "Bar Chart",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.book",
+   "text": "Book",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.brain",
+   "text": "Brain",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.currency_dollar",
+   "text": "Currency Dollar",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.customize",
+   "text": "Customize",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.desk_globe",
+   "text": "Globe Spin",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.dumbbell",
+   "text": "Dumbbell",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.edit",
+   "text": "Pencil",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.flask",
+   "text": "Flask",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.folder",
+   "text": "Folder",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.function",
+   "text": "Code Brackets",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.globe",
+   "text": "Globe",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.graduation_cap",
+   "text": "Graduation Cap",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.health",
+   "text": "Health",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.heart",
+   "text": "Heart",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.kettlebell",
+   "text": "Kettlebell",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.logs",
+   "text": "Logs",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.lotus",
+   "text": "Lotus",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.music",
+   "text": "Music",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.palette",
+   "text": "Palette",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.paw",
+   "text": "Paw",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.plane",
+   "text": "Plane",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.plant",
+   "text": "Plant",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.popcorn",
+   "text": "Popcorn",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.scale",
+   "text": "Balancing Scale",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.stethoscope",
+   "text": "Stethoscope",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.suitcase",
+   "text": "Suitcase",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.terminal",
+   "text": "Terminal",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.wrench",
+   "text": "Wrench",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.writing",
+   "text": "Writing",
+   "description": "Icon option name in the project marker popover.",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.shareDialog.accessLink",
+   "text": "Anyone with the link",
+   "description": "General-access setting that allows anyone with the Space link to access it, shown only when the server explicitly permits link sharing",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexAppgenAnnouncementModal.title",
+   "text": "Turn your ideas into live websites",
+   "description": "Title for the Sites announcement modal",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.categories.label",
+   "text": "Emoji categories",
+   "description": "Accessible label for emoji category navigation",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.activities",
+   "text": "Activities",
+   "description": "Emoji browser category for sports, games, and activities",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.flags",
+   "text": "Flags",
+   "description": "Emoji browser category for flags",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.food",
+   "text": "Food and drink",
+   "description": "Emoji browser category for food and drinks",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.nature",
+   "text": "Animals and nature",
+   "description": "Emoji browser category for animals and nature",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.objects",
+   "text": "Objects",
+   "description": "Emoji browser category for everyday objects",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.people",
+   "text": "People and body",
+   "description": "Emoji browser category for people, gestures, and body parts",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.recent",
+   "text": "Recently used",
+   "description": "Emoji browser category containing recent selections",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.smileys",
+   "text": "Smileys and emotion",
+   "description": "Emoji browser category for faces and emotions",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.suggested",
+   "text": "Suggested",
+   "description": "Emoji browser category containing common emoji before any have been selected",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.symbols",
+   "text": "Symbols",
+   "description": "Emoji browser category for signs and symbols",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.travel",
+   "text": "Travel and places",
+   "description": "Emoji browser category for travel, vehicles, and places",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.choices.heading",
+   "text": "Emojis",
+   "description": "Heading above the emoji available to select in a picker",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.grid.label",
+   "text": "Emojis",
+   "description": "Accessible label for the emoji selection grid",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.search.count",
+   "text": "{count, plural, one {# emoji} other {# emojis}}",
+   "description": "Screen reader announcement of the number of emoji in the browser results",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.search.empty",
+   "text": "No matching emoji",
+   "description": "Shown when no emoji name or shortcode matches the search",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.search.results",
+   "text": "Search results",
+   "description": "Heading above emoji matching the search query",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.cardiovascular",
+   "text": "Heart · arteries · veins",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.digestive",
+   "text": "Mouth · stomach · liver · intestines",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.endocrine",
+   "text": "Pituitary · thyroid · pancreas · adrenal glands",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.integumentary",
+   "text": "Skin · hair · nails",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.lymphatic-immune",
+   "text": "Lymph nodes · vessels · spleen",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.muscular",
+   "text": "Shoulder · arm · trunk · leg muscles",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.nervous",
+   "text": "Brain · spinal cord · peripheral nerves",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.reproductive",
+   "text": "Gonads · reproductive organs",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.respiratory",
+   "text": "Nose · trachea · lungs",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.skeletal",
+   "text": "Skull · ribs · spine · joints",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.urinary-excretory",
+   "text": "Kidneys · ureters · bladder",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.movement",
+   "text": "Nerves signal muscles; muscles pull on bones to produce movement",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.nutrient",
+   "text": "Intestines pass nutrients to blood and fats to lymph; vessels deliver both to tissues",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.oxygen",
+   "text": "Lungs pass oxygen to blood; the heart and vessels carry it to body tissues",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.waste",
+   "text": "Carbon dioxide leaves via lungs; dissolved wastes via urine; undigested material via the gut",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.instructions",
+   "text": "Select an organ system and a bodily need to compare locations and trace how systems cooperate.",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.need",
+   "text": "Need",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.need-aria",
+   "text": "Select a bodily need",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.system",
+   "text": "System",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.system-aria",
+   "text": "Select an organ system",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.movement-response",
+   "text": "Move/respond",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.nutrient-delivery",
+   "text": "Nutrients",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.oxygen-delivery",
+   "text": "Oxygen",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.waste-removal",
+   "text": "Waste",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.movement-response",
+   "text": "Movement and response",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.nutrient-delivery",
+   "text": "Nutrient delivery",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.oxygen-delivery",
+   "text": "Oxygen delivery",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.waste-removal",
+   "text": "Waste removal",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.cardiovascular",
+   "text": "Blood moves gases, nutrients, signals, and wastes",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.digestive",
+   "text": "Breaks down food and absorbs nutrients",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.endocrine",
+   "text": "Hormones regulate body processes",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.integumentary",
+   "text": "Protects and senses the outside world",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.lymphatic-immune",
+   "text": "Returns fluid, transports dietary fats, and helps defend",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.muscular",
+   "text": "Pulls on bones to move and maintain posture",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.nervous",
+   "text": "Detects change and coordinates responses",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.reproductive",
+   "text": "Produces sex cells and hormones; supports reproduction",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.respiratory",
+   "text": "Exchanges oxygen and carbon dioxide with air",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.skeletal",
+   "text": "Supports and protects; bones are levers for movement",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.urinary-excretory",
+   "text": "Removes dissolved wastes and balances water",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.movement",
+   "text": "Stimulus → nerves → muscles pull on bones → movement",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.nutrient-blood",
+   "text": "Many nutrients: food → intestines → blood → body tissues",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.nutrient-lymph",
+   "text": "Dietary fats: food → intestines → lymph → blood → body tissues",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.oxygen",
+   "text": "Air → lungs → blood → body tissues",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.waste-carbon-dioxide",
+   "text": "Carbon dioxide: tissues → blood → lungs → air",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.waste-dissolved",
+   "text": "Dissolved wastes: tissues → blood → kidneys → urine",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.waste-undigested",
+   "text": "Undigested material: intestines → digestive tract → out",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.cardiovascular",
+   "text": "Circulation",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.digestive",
+   "text": "Digestion",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.endocrine",
+   "text": "Hormones",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.integumentary",
+   "text": "Skin",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.lymphatic-immune",
+   "text": "Lymph/immune",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.muscular",
+   "text": "Muscles",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.nervous",
+   "text": "Nerves",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.reproductive",
+   "text": "Reproduction",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.respiratory",
+   "text": "Breathing",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.skeletal",
+   "text": "Skeleton",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.urinary-excretory",
+   "text": "Urinary",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.cardiovascular",
+   "text": "Cardiovascular",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.digestive",
+   "text": "Digestive",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.endocrine",
+   "text": "Endocrine",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.integumentary",
+   "text": "Integumentary",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.lymphatic-immune",
+   "text": "Lymphatic/immune",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.muscular",
+   "text": "Muscular",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.nervous",
+   "text": "Nervous",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.reproductive",
+   "text": "Reproductive",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.respiratory",
+   "text": "Respiratory",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.skeletal",
+   "text": "Skeletal",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.urinary-excretory",
+   "text": "Urinary/excretory",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.visualization.aria",
+   "text": "Human body systems map. {system} is selected: {anchors}. {role}. {need} involves {participants}. {routes}. {focusNote}",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.visualization.cooperating",
+   "text": "In this pathway",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.visualization.inspection-aria",
+   "text": "{system} is shown for inspection and is not part of this pathway",
+   "description": null,
+   "files": [
+    "538891.aff4317b01.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.access.incomplete",
+   "text": "Couldn't load all access details. Some sharing actions are unavailable",
+   "description": "Error when collaborators, inherited permissions, or workspace policy cannot be fully loaded; unsafe permission actions remain disabled",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.close",
+   "text": "Close",
+   "description": "Button closing the Library sharing dialog",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaboratorFallback",
+   "text": "Collaborator",
+   "description": "Fallback display name when a Library collaborator has no returned name or email",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.cancelChange",
+   "text": "Cancel",
+   "description": "Button for dismissing an inherited Library access confirmation without applying changes",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.confirmDescription",
+   "text": "Review all access changes for {personName} before continuing",
+   "description": "Body of the inherited Library access confirmation; personName is the collaborator whose effective access is being changed, and the affected resources are listed below",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.confirmDescriptionUnknown",
+   "text": "Review all access changes before continuing",
+   "description": "Body of the inherited Library access confirmation when the collaborator's name and email are unavailable; affected resources are listed below",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.confirmTitle",
+   "text": "Change shared access?",
+   "description": "Title of the confirmation dialog shown before a Library permission change affects parent folders or other members of a group",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.descendantImpact",
+   "text": "This also changes access to other files and folders inside the affected folders",
+   "description": "Warning in the Library inherited access confirmation that changing a parent folder's permissions also changes access to its descendants",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.groupAccess",
+   "text": "Access through a group",
+   "description": "Tooltip on the role of a Library collaborator whose access comes from membership of a shared group",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.groupImpact",
+   "text": "This also changes access for other people in the affected groups",
+   "description": "Warning in the Library permission confirmation that changing a group grant affects other members of that group",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.inherited",
+   "text": "Inherited from {folderName}",
+   "description": "Tooltip on the role of a Library collaborator who has inherited access; folderName is the parent folder's display name",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.inheritedUnnamed",
+   "text": "Inherited from a parent folder",
+   "description": "Tooltip on the role of a Library collaborator who has inherited access from a parent folder whose display name is unavailable",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.inviteSent",
+   "text": "Invite sent",
+   "description": "Status below a pending Library collaborator's email address; their invitation has been sent but not yet accepted",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.noAccess",
+   "text": "No access",
+   "description": "Permission value in the Library access-change confirmation when no role existed before the change or access will be removed",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.partialChange",
+   "text": "Some access changes couldn't be applied. Review the current permissions before trying again",
+   "description": "Warning toast after the Library backend reports a partially applied inherited or group access change; the user must review refreshed permissions before retrying",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.previewFailed",
+   "text": "Couldn't check how this change affects access. Try again",
+   "description": "Error toast when the Library sharing dialog cannot preview an inherited permission change; no access change has been applied",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.remove",
+   "text": "Remove access",
+   "description": "Menu item for removing a collaborator's access to a Library file or folder",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.roleChangeSeparator",
+   "text": "→",
+   "description": "Arrow between the separate previous and new permission labels in the Library access-change confirmation. Point from the old permission to the new one in your language's reading direction; the interface adds spacing.",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.stageChange",
+   "text": "Continue",
+   "description": "Confirmation button staging the listed Library permission changes, including parent-folder or group effects; the user must still save the sharing dialog to apply them",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.unnamed",
+   "text": "Collaborator",
+   "description": "Fallback display name for a person or group with access in the Library sharing dialog when the server has not supplied a name or email",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.unnamedResource",
+   "text": "Shared item",
+   "description": "Fallback resource label in the Library inherited access confirmation when the server does not provide the file or folder name",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.updated",
+   "text": "Access updated",
+   "description": "Success toast after the backend confirms a Library collaborator's role change or removal",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.collaborators.updateFailed",
+   "text": "Couldn't update access. Review the current permissions and try again",
+   "description": "Error toast when changing or removing a Library collaborator's access fails; current permissions are reloaded before a new attempt",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.copy",
+   "text": "Copy link",
+   "description": "Button copying the canonical ChatGPT Library sharing link to this file or folder",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.copy.failed",
+   "text": "Couldn't copy the link. Try again",
+   "description": "Error toast when checking current Library access or writing the share link to the clipboard fails",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.fileTitle",
+   "text": "Share {fileName}",
+   "description": "Title of the Library file or folder sharing dialog; fileName is the item's title",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.alreadyAdded",
+   "text": "This person already has access or is selected",
+   "description": "Validation error when a Library invite includes an existing collaborator or duplicate recipient",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.failed",
+   "text": "{count, plural, one {One invitation failed} other {# invitations failed}}. Failed recipients are still selected so you can try again",
+   "description": "Toast after some or all Library invitations fail; count is only the failed invitations, which remain selected for retry",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.invalidEmails",
+   "text": "Remove invalid email addresses before inviting",
+   "description": "Inline error in the Library sharing dialog after invalid email addresses have become selected tokens; the user must remove those tokens before sending invitations",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.noEligibleRecipient",
+   "text": "No matching recipients",
+   "description": "Empty result when the email entered in the personal Library sharing dialog is not eligible for sharing",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.noWorkspaceMatches",
+   "text": "No matching people or teams",
+   "description": "Empty search result in the Library sharing dialog; only members and eligible groups of the current workspace can be invited",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.personalPlaceholder",
+   "text": "Add emails",
+   "description": "Placeholder and accessible label in the Library sharing recipient input for personal accounts; users enter an email address and select a validated recipient",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.removeSelection",
+   "text": "Remove {name} from the invitation",
+   "description": "Accessible label of a selected Library sharing recipient's remove button; name is the person's display name, group name, or email address",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.searching",
+   "text": "Searching workspace members",
+   "description": "Accessible status while the Library sharing picker searches the current workspace for recipients",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.searchingRecipients",
+   "text": "Searching for people",
+   "description": "Accessible status while the Library sharing picker checks whether the entered email is eligible for sharing",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.searchRestricted",
+   "text": "Your workspace doesn't allow searching for members",
+   "description": "Explanation below the disabled recipient input in the Library sharing dialog when workspace policy prevents member search",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.invite.sent",
+   "text": "{count, plural, one {Invitation sent} other {Invitations sent}}",
+   "description": "Toast after Library sharing invitations are confirmed by the backend; count is the number of invited people or groups",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.collaborators",
+   "text": "Only those invited",
+   "description": "Library share dialog link-access option restricting a file or folder to people who already have access",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.collaboratorsDescription",
+   "text": "People who already have access can use this link",
+   "description": "Explanation of the Collaborators only option in the sharing link-access menu; existing access includes direct invitations and access inherited from a parent, group, or workspace",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.conflict",
+   "text": "Link access changed. Choose your setting again before saving",
+   "description": "Error toast after another sharing change invalidates a staged Library link-access choice; the user must choose again against refreshed permissions",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.failed",
+   "text": "Couldn't update link access. Try again",
+   "description": "Error toast when saving workspace link access for a Library file or folder fails; the prior access policy remains in place",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.saved",
+   "text": "Link access updated",
+   "description": "Success toast after the Library backend confirms a change to a file or folder's workspace link access",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.unavailable",
+   "text": "Link access unavailable",
+   "description": "Shown when the backend's Library link-access policy cannot safely be interpreted; this does not claim the file is private",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.unnamedWorkspaceDescription",
+   "text": "Anyone in this workspace with the link",
+   "description": "Explanation of workspace-wide link access when the current workspace's display name is unavailable",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.workspaceDescription",
+   "text": "Anyone at {workspaceName} with the link",
+   "description": "Explanation of workspace-wide link access in the Library share menu; workspaceName is the current workspace's display name",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.link.wouldLoseAccess",
+   "text": "You can’t make a change that reduces your own access. Ask the owner to make it.",
+   "description": "Error toast when a Library workspace link change would reduce the current editor's own access; the owner must make this change",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.owner",
+   "text": "Owner",
+   "description": "Role label for the owner of a file or folder in the Library sharing dialog",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.ownerFallback",
+   "text": "Owner",
+   "description": "Fallback display name for the owner of a shared Library file or folder",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.approvalRequired",
+   "text": "Owner must approve invites first",
+   "description": "Banner explaining that invitations require the Library owner's approval",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.failed",
+   "text": "Couldn't send the access request. Try again",
+   "description": "Error toast after submitting a Library access request fails; selected recipients remain available to retry",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.historyIncomplete",
+   "text": "Load the remaining requests before sending another request",
+   "description": "Explanation when additional Library access-request history must load to avoid requesting the same access twice",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.loadMoreHistory",
+   "text": "Load requests",
+   "description": "Button loading the next page of the viewer's access-request history in a Library sharing dialog",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.recipientRestriction",
+   "text": "You don’t have permission to manage access",
+   "description": "Explanation that the current Library collaborator cannot manage sharing permissions",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.sent",
+   "text": "Request sent to the owner",
+   "description": "Success toast after a Library reader asks the owner to grant other people access",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.status",
+   "text": "{status, select, approved {Approved} declined {Declined} satisfied {Already had access} other {Pending}}",
+   "description": "Status of a Library access request for a recipient; status is approved, declined, satisfied (access already existed), or pending",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.request.viewerRestriction",
+   "text": "You’re a viewer and can’t manage access",
+   "description": "Explanation that a Library viewer cannot manage sharing permissions",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requestedPerson",
+   "text": "Requested person",
+   "description": "Fallback name for a person included in a Library access request",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requestInvite",
+   "text": "Invite",
+   "description": "Button asking a Library item's owner to grant selected people access; it does not grant permission immediately",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.approve",
+   "text": "Approve",
+   "description": "Button for approving a recipient's requested Library access",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.approveLabel",
+   "text": "Approve access for {name}",
+   "description": "Accessible label for approving requested Library access; name identifies the recipient",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.approveUnknownLabel",
+   "text": "Approve access request",
+   "description": "Accessible label for approving requested Library access when the recipient's name and email are unavailable",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.decline",
+   "text": "Decline",
+   "description": "Button for declining a recipient's requested Library access",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.declineLabel",
+   "text": "Decline access for {name}",
+   "description": "Accessible label for declining requested Library access; name identifies the recipient",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.declineUnknownLabel",
+   "text": "Decline access request",
+   "description": "Accessible label for declining requested Library access when the recipient's name and email are unavailable",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.heading",
+   "text": "Requests to share ({count, number})",
+   "description": "Expandable section in the Library share dialog for an owner to approve or decline requested access; count is the number of pending recipient-and-role groups",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.loadError",
+   "text": "Couldn't load requests to share",
+   "description": "Error shown in the Library share dialog when the owner's pending access requests fail to load",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.loadMore",
+   "text": "Load more requests",
+   "description": "Button loading another page of pending access requests in the Library owner's sharing dialog",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.partial",
+   "text": "Some requests were updated. Review the remaining requests and try again",
+   "description": "Toast after only some duplicate Library access requests for one recipient were confirmed; unconfirmed requests stay visible",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.recipientFallback",
+   "text": "Collaborator",
+   "description": "Fallback name for a Library access-request recipient whose name and email are unavailable",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.requestedBy",
+   "text": "Requested by {name}{otherCount, plural, =0 {} one { and # other} other { and # others}}",
+   "description": "Supporting text under a Library access-request recipient when the requester has only a name or email; name identifies the latest requester and otherCount counts other requesters for the same recipient and role",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.requestedByUnknown",
+   "text": "Requested by a collaborator{otherCount, plural, =0 {} one { and # other} other { and # others}}",
+   "description": "Supporting text under a Library access-request recipient when the latest requester's identity is unavailable; otherCount counts other requesters for the same recipient and role",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.requestedByWithEmail",
+   "text": "Requested by {name} ({email}){otherCount, plural, =0 {} one { and # other} other { and # others}}",
+   "description": "Supporting text under a Library access-request recipient; name and email identify the most recent requester and otherCount counts other people requesting the same role for this recipient",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.retry",
+   "text": "Retry",
+   "description": "Button to retry loading pending Library access requests",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requests.updateError",
+   "text": "Couldn't update this request. Try again",
+   "description": "Error toast when approving or declining a Library access request fails",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.requestTitle",
+   "text": "Request to share {fileName}",
+   "description": "Title for a collaborator requesting the owner's approval to share a Library item",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.retry",
+   "text": "Retry",
+   "description": "Button retrying a failed Library sharing data request",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.sessionUnavailable",
+   "text": "Sharing is unavailable in this session. Reopen the dialog in the original account",
+   "description": "Error when an open Library sharing dialog no longer matches the authenticated account, or required account information is unavailable; no file data is shown",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.viewerSelf",
+   "text": "You",
+   "description": "Label for the currently signed-in reader in the Library sharing dialog",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "librarySharing.workspace",
+   "text": "Workspace",
+   "description": "Fallback current workspace name in the Library link-access menu",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.apple",
+   "text": "Apple logo",
+   "description": "Alt text for the Apple logo",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.google",
+   "text": "Google logo",
+   "description": "Alt text for the Google logo",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.microsoft",
+   "text": "Microsoft logo",
+   "description": "Alt text for the Microsoft logo",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.openAI",
+   "text": "OpenAI logo",
+   "description": "Alt text for the OpenAI logo",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.academicResearchersLabel",
+   "text": "Academic Researchers",
+   "description": "Short Academic Researchers plan label shown beneath the name of a Science workspace in the ChatGPT sidebar profile and account-switcher dropdown. Keep this audience-specific label concise because it appears on a single line in narrow sidebars.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.cfcLabel",
+   "text": "ChatGPT for Clinicians",
+   "description": "ChatGPT for Clinicians label shown for workspace account in the profile dropdown.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.eduLabel",
+   "text": "EDU",
+   "description": "EDU label shown for workspace account in the profile dropdown.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.enterpriseLabel",
+   "text": "Enterprise",
+   "description": "Enterprise label shown for workspace account in the profile dropdown.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oauthConsentChoices.planLimits",
+   "text": "Allow {appName} to consume usage from your ChatGPT Plan's limits.",
+   "description": "Description beneath the ChatPass permission title in SIWC consent and linked-app settings. {appName} is the requesting third-party app display name, such as Acme. The app's usage counts toward the user's ChatGPT plan limits.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.title",
+   "text": "Upgrade your plan",
+   "description": "Heading of the full-screen plan comparison",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.free.name",
+   "text": "Free",
+   "description": "Name of the free pricing plan",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.go.name",
+   "text": "Go",
+   "description": "Name of the Go pricing plan",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.plus.name",
+   "text": "Plus",
+   "description": "Name of the ChatGPT Plus pricing plan",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.pro.name",
+   "text": "Pro",
+   "description": "Name of the pro pricing plan",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.ariaLabel",
+   "text": "Activity",
+   "description": "Accessible label for the activity profile section",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.fastMode",
+   "text": "Fast Mode",
+   "description": "Fast Mode feature label on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.fastModeTooltip",
+   "text": "How often you use /fast mode",
+   "description": "Tooltip explaining the Fast Mode profile metric",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.mostUsedReasoning",
+   "text": "Most used reasoning",
+   "description": "Most used reasoning effort feature label on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.none",
+   "text": "None",
+   "description": "Empty count metric value on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.notUsed",
+   "text": "Not used",
+   "description": "Empty activity metric value on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.reasoningEffortTooltip",
+   "text": "Your most used reasoning effort",
+   "description": "Tooltip explaining the reasoning effort profile metric",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.skillsExplored",
+   "text": "Skills explored",
+   "description": "Unique skills explored feature label on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.skillsExploredTooltip",
+   "text": "The number of unique skills you've used",
+   "description": "Tooltip explaining the skills explored profile metric",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalSkillsUsed",
+   "text": "Total skills used",
+   "description": "Total skills used feature label on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalSkillsUsedTooltip",
+   "text": "Total skill uses",
+   "description": "Tooltip explaining the total skills used profile metric",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalThreads",
+   "text": "Total chats",
+   "description": "Total chats feature label on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalThreadsTooltip",
+   "text": "Total unique conversations",
+   "description": "Tooltip explaining the total tasks profile metric",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.browse",
+   "text": "Browse",
+   "description": "Link to browse plugins from the profile activity empty state",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.empty",
+   "text": "No plugins used yet ·",
+   "description": "Empty state for the most used plugins on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.runs",
+   "text": "{runs, plural, one {# run} other {# runs}}",
+   "description": "Run count shown for a plugin on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.title",
+   "text": "Most used plugins",
+   "description": "Heading for the most used Codex plugins on the profile page",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.unavailable",
+   "text": "Plugin activity unavailable",
+   "description": "Empty state shown when profile plugin usage fails to load",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.unavailable",
+   "text": "Activity insights unavailable",
+   "description": "Empty state shown when profile activity stats fail to load",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.bioInputLabel",
+   "text": "Bio",
+   "description": "Label for the personal biography in the profile editor",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.bioModerationError",
+   "text": "Your bio wasn’t accepted. Try revising it.",
+   "description": "Error shown when safety moderation identifies the biography as the rejected profile field",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.empty",
+   "text": "You haven’t created any sites yet",
+   "description": "Empty state on the owner's profile before they have created their first site",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.emptyPage",
+   "text": "No sites to show on this page",
+   "description": "Status for an empty page of profile sites, where pagination is still available",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.error",
+   "text": "Couldn’t load sites",
+   "description": "Error shown when sites created by the owner of a profile could not be fetched",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.loading",
+   "text": "Loading sites…",
+   "description": "Status shown while fetching sites created by the owner of a profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.next",
+   "text": "Next sites",
+   "description": "Accessible label for the next page of sites on a profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.ownerTitle",
+   "text": "Sites by you",
+   "description": "Heading for sites created by the person viewing their own workspace profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.page",
+   "text": "Page {page}",
+   "description": "Current page number in the list of sites on a profile; the total number of pages is unknown",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.previous",
+   "text": "Previous sites",
+   "description": "Accessible label for the previous page of sites on a profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.retry",
+   "text": "Retry",
+   "description": "Button to retry loading sites on a profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.visitorTitleWithName",
+   "text": "Sites by {name}",
+   "description": "Heading for sites created by the person whose workspace profile is being viewed. Name is their display name, falling back to their username when the display name is missing.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.displayNameModerationError",
+   "text": "Your display name wasn’t accepted. Try a different name.",
+   "description": "Error shown when safety moderation identifies the display name as the rejected profile field",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.displayNameUpdateError",
+   "text": "Unable to update display name",
+   "description": "Fallback error shown when profile display name update fails",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.bioPlaceholder",
+   "text": "A little about you",
+   "description": "Placeholder for an empty biography while editing a profile inline",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.dotVisibility.label",
+   "text": "Show your {dot}",
+   "description": "Toggle label in Edit profile. Turning it on displays the user's personal assistant beside their profile photo in the current account. The dot placeholder is the untranslated name for the user's agent.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.loadingStickers",
+   "text": "Loading stickers…",
+   "description": "Status shown while the saved profile sticker layout loads",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.photo",
+   "text": "Photo",
+   "description": "Heading for profile photo upload and shape choices",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.resizeSticker",
+   "text": "Resize sticker",
+   "description": "Accessible name for the sticker resize handle in the profile editor",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.retryStickers",
+   "text": "Couldn't load stickers. Try again",
+   "description": "Retry action when the saved profile sticker layout cannot be loaded",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.rotateSticker",
+   "text": "Rotate sticker",
+   "description": "Accessible name for the sticker rotation control in the profile editor",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickerCanvas",
+   "text": "Profile sticker placement",
+   "description": "Accessible label for the area where profile stickers are placed",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickerLayoutConflict",
+   "text": "Your stickers changed elsewhere. The latest layout is loaded; reapply your sticker edits and save again.",
+   "description": "Save conflict message explaining that another window or device changed the stickers, the editor loaded that layout, and the user's unsaved sticker changes must be reapplied",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickers",
+   "text": "Stickers",
+   "description": "Heading for the stickers section in the profile editor",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickers.gallery.hint",
+   "text": "Drag onto your profile header, or click to add",
+   "description": "Instruction below the sticker gallery in the profile editor. Users can drag a sticker onto the header around their profile photo, or click a sticker to add it automatically.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickers.internalOnly",
+   "text": "Internal only",
+   "description": "Short non-interactive label beside the Stickers heading in the profile editor. Informs employees that profile stickers are an internal-only feature.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.uploadPhoto",
+   "text": "Upload photo",
+   "description": "Action to upload a new profile photo",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfile",
+   "text": "Edit",
+   "description": "Button label for opening the edit profile dialog",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileCancel",
+   "text": "Cancel",
+   "description": "Button that cancels profile editing",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileDescriptionWithoutUsername",
+   "text": "Update your profile picture and display name",
+   "description": "Accessible description for the edit profile dialog when username editing is unavailable",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileLabel",
+   "text": "Edit profile",
+   "description": "Accessible label for opening the edit profile dialog",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileSave",
+   "text": "Save",
+   "description": "Button that saves profile edits",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileTitle",
+   "text": "Edit profile",
+   "description": "Title for the edit profile dialog",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.fetchError",
+   "text": "We’re having trouble loading your profile. Please try again later.",
+   "description": "Error shown when the profile page cannot be loaded",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.fetchErrorDetail",
+   "text": "[Employee only] Error: {details}",
+   "description": "Internal build diagnostic detail shown when the profile page cannot be loaded",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.nameFallback",
+   "text": "ChatGPT user",
+   "description": "Fallback profile display name",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.nameInputLabel",
+   "text": "Display name",
+   "description": "Accessible label for the editable profile display name",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.notFound",
+   "text": "Profile not found or private",
+   "description": "Message on the signed-in profile page when the requested profile does not exist or the viewer does not have access",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.page.documentTitle",
+   "text": "{displayName} (@{username}) | ChatGPT",
+   "description": "Browser tab title for a ChatGPT profile. displayName is the person's display name and username is their handle without the @ sign.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.cancel",
+   "text": "Cancel",
+   "description": "Button that cancels profile picture cropping",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.description",
+   "text": "Drag the image to reposition it, and adjust zoom with the slider",
+   "description": "Description for the profile picture crop dialog",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.error",
+   "text": "Unable to process the profile picture",
+   "description": "Error shown when profile picture cropping fails",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.save",
+   "text": "Save",
+   "description": "Button that saves a cropped profile picture",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.title",
+   "text": "Adjust your image",
+   "description": "Title for the profile picture crop dialog",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoInputLabel",
+   "text": "Change profile picture",
+   "description": "Accessible label for the profile photo upload input",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoModerationError",
+   "text": "Your profile picture wasn’t accepted. Try another picture.",
+   "description": "Error shown when safety moderation identifies the profile picture as the rejected profile field",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoUpdateError",
+   "text": "Unable to update profile picture",
+   "description": "Fallback error shown when profile picture update fails",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview",
+   "text": "Preview",
+   "description": "Short button label in the profile owner's header that switches the current page to a read-only preview of their saved profile as other people see it.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview.exit",
+   "text": "Exit preview",
+   "description": "Short button label at the top right of a profile owner's read-only preview. Closes preview and returns to their editable profile.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview.publicViewer",
+   "text": "Previewing as a public visitor",
+   "description": "Status in the profile owner's preview header explaining that this read-only view shows what anyone with their profile link sees.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview.workspaceViewer",
+   "text": "Viewing as a workspace member",
+   "description": "Status in the profile owner's preview header explaining that this read-only view shows what other workspace members see.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.private",
+   "text": "Private",
+   "description": "Private visibility badge label",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.privateTooltip",
+   "text": "Only visible to you",
+   "description": "Tooltip explaining private profile visibility",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.retry",
+   "text": "Retry",
+   "description": "Button to retry loading a profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sharing.open",
+   "text": "Share profile",
+   "description": "Accessible label for opening profile link sharing",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sharing.share",
+   "text": "Share",
+   "description": "Button that opens the profile link sharing dialog",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.edit",
+   "text": "Edit showcase",
+   "description": "Button that opens the editor to select and reorder sites and skills on the user's profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.edit.label",
+   "text": "Edit",
+   "description": "Short text button before the Showcase filters on the profile owner's page. Opens the editor to select and reorder featured sites and skills.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty",
+   "text": "Nothing in showcase yet",
+   "description": "Empty Showcase message when viewing another person's profile with no pinned sites or skills and no available name",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.createSite",
+   "text": "Create a site",
+   "description": "Button on an empty profile section. Opens a new composer with the Sites creation prompt prefilled so the owner can create their first site.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.other",
+   "text": "{name} hasn't added anything to their showcase yet",
+   "description": "Empty Showcase on another person's profile. Name is the profile owner's display name, or their username if they have no display name.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.self",
+   "text": "Feature sites and skills on your profile",
+   "description": "Empty Showcase invitation on the viewer's own profile, above the Edit showcase button",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.self.sitesOnly",
+   "text": "Feature sites on your profile",
+   "description": "Empty Showcase invitation on the viewer's own profile when only sites can be pinned, above the Edit showcase button",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.showLess",
+   "text": "Show less",
+   "description": "Button below the expanded current tab of the profile Showcase. Collapses the grid to its first six items.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.showMore",
+   "text": "Show more",
+   "description": "Button below the current tab of the profile Showcase. Reveals the remaining selected sites and skills beyond the first six items.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.addToProfile",
+   "text": "Add to profile",
+   "description": "Opens the showcase editor with suggested sites and skills selected. The owner can change the selection before saving.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.sites.capped",
+   "text": "You have {count, plural, one {{countDisplay} site} other {{countDisplay} sites}} to feature",
+   "description": "Number of eligible sites to feature when the owner has no eligible skills. countDisplay is a localized number, capped at 10+ when greater than 10; count selects the plural form using the count capped at 10.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.sitesAndSkills.capped",
+   "text": "You have {sites, plural, one {{sitesDisplay} site} other {{sitesDisplay} sites}} and {skills, plural, one {{skillsDisplay} skill} other {{skillsDisplay} skills}} to feature",
+   "description": "Counts of the owner's eligible sites and skills to feature on their profile. Each display count is a localized number, capped at 10+ when greater than 10; sites and skills select plural forms using the count capped at 10.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.skills.capped",
+   "text": "You have {count, plural, one {{countDisplay} skill} other {{countDisplay} skills}} to feature",
+   "description": "Number of eligible skills to feature when the owner has no eligible sites. countDisplay is a localized number, capped at 10+ when greater than 10; count selects the plural form using the count capped at 10.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.upgradeToEdit",
+   "text": "Upgrade to edit your showcase",
+   "description": "Button on the profile owner's showcase that opens subscription pricing before editing the showcase",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.unavailable",
+   "text": "Profile stats unavailable",
+   "description": "Empty state shown when profile stats fail to load",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.arrow-network.label",
+   "text": "{action, select, add {Add arrow network sticker} other {Move arrow network sticker}}",
+   "description": "Accessible label for the arrow network profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.bloop-robot.label",
+   "text": "{action, select, add {Add Bloop robot sticker} other {Move Bloop robot sticker}}",
+   "description": "Accessible label for the Bloop robot profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blossom-key.label",
+   "text": "{action, select, add {Add blossom key sticker} other {Move blossom key sticker}}",
+   "description": "Accessible label for the blossom key profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blue-folding-chair.label",
+   "text": "{action, select, add {Add blue folding chair sticker} other {Move blue folding chair sticker}}",
+   "description": "Accessible label for the blue folding chair profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blue-oval.label",
+   "text": "{action, select, add {Add blue oval sticker} other {Move blue oval sticker}}",
+   "description": "Accessible label for the blue oval profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blue-pixel-chair.label",
+   "text": "{action, select, add {Add blue pixel chair sticker} other {Move blue pixel chair sticker}}",
+   "description": "Accessible label for the blue pixel chair profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.chat-button.label",
+   "text": "{action, select, add {Add chat button sticker} other {Move chat button sticker}}",
+   "description": "Accessible label for the chat button profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.circle-in-square.label",
+   "text": "{action, select, add {Add circle in square sticker} other {Move circle in square sticker}}",
+   "description": "Accessible label for the circle in square profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.colorful-dot-grid.label",
+   "text": "{action, select, add {Add colorful dot grid sticker} other {Move colorful dot grid sticker}}",
+   "description": "Accessible label for the colorful dot grid profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.fallback.label",
+   "text": "{action, select, add {Add sticker} other {Move sticker}}",
+   "description": "Accessible label for a profile sticker without a specific description. The action is add in the gallery, or move when selecting and moving it on the profile canvas.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.goblin.label",
+   "text": "{action, select, add {Add goblin sticker} other {Move goblin sticker}}",
+   "description": "Accessible label for the goblin profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.green-frog-plush.label",
+   "text": "{action, select, add {Add green frog plush sticker} other {Move green frog plush sticker}}",
+   "description": "Accessible label for the green frog plush profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.green-pixel-hand.label",
+   "text": "{action, select, add {Add green pixel hand sticker} other {Move green pixel hand sticker}}",
+   "description": "Accessible label for the green pixel hand profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.green-sunburst.label",
+   "text": "{action, select, add {Add green sunburst sticker} other {Move green sunburst sticker}}",
+   "description": "Accessible label for the green sunburst profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.iridescent-flower.label",
+   "text": "{action, select, add {Add iridescent flower sticker} other {Move iridescent flower sticker}}",
+   "description": "Accessible label for the iridescent flower profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.lavender-dot-grid.label",
+   "text": "{action, select, add {Add lavender dot grid sticker} other {Move lavender dot grid sticker}}",
+   "description": "Accessible label for the lavender dot grid profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.letter-a-key.label",
+   "text": "{action, select, add {Add letter A key sticker} other {Move letter A key sticker}}",
+   "description": "Accessible label for the letter A key profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.letter-i-key.label",
+   "text": "{action, select, add {Add letter I key sticker} other {Move letter I key sticker}}",
+   "description": "Accessible label for the letter I key profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.letter-o-key.label",
+   "text": "{action, select, add {Add letter O key sticker} other {Move letter O key sticker}}",
+   "description": "Accessible label for the letter O key profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.orange-dot-scale.label",
+   "text": "{action, select, add {Add orange dot scale sticker} other {Move orange dot scale sticker}}",
+   "description": "Accessible label for the orange dot scale profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.orange-zigzag.label",
+   "text": "{action, select, add {Add orange zigzag sticker} other {Move orange zigzag sticker}}",
+   "description": "Accessible label for the orange zigzag profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.pink-berry.label",
+   "text": "{action, select, add {Add pink berry sticker} other {Move pink berry sticker}}",
+   "description": "Accessible label for the pink berry profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.plus-symbol.label",
+   "text": "{action, select, add {Add plus symbol sticker} other {Move plus symbol sticker}}",
+   "description": "Accessible label for the plus symbol profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.saxophone-keychain.label",
+   "text": "{action, select, add {Add saxophone keychain sticker} other {Move saxophone keychain sticker}}",
+   "description": "Accessible label for the saxophone keychain profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.send-button.label",
+   "text": "{action, select, add {Add send button sticker} other {Move send button sticker}}",
+   "description": "Accessible label for the send button profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.square-grid.label",
+   "text": "{action, select, add {Add square grid sticker} other {Move square grid sticker}}",
+   "description": "Accessible label for the square grid profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.voice-button.label",
+   "text": "{action, select, add {Add voice button sticker} other {Move voice button sticker}}",
+   "description": "Accessible label for the voice button profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.yellow-telescope.label",
+   "text": "{action, select, add {Add yellow telescope sticker} other {Move yellow telescope sticker}}",
+   "description": "Accessible label for the yellow telescope profile sticker. The action is add when choosing it in the gallery, or move when selecting and moving it on the profile canvas. Translate each complete phrase, including the sticker description.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.tokenUsage.unavailable",
+   "text": "Token usage unavailable",
+   "description": "Empty state shown when profile token usage fails to load",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.updateError",
+   "text": "Unable to update profile",
+   "description": "Fallback error shown when profile update fails",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.username.prefix",
+   "text": "@",
+   "description": "At-sign displayed before a profile username. Preserve the symbol.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameInputLabel",
+   "text": "Username",
+   "description": "Accessible label for the editable profile username",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameLink.blockedSuffix",
+   "text": "Your username cannot end with “{suffix}”",
+   "description": "Warning that a username must be changed because it ends with a disallowed suffix. The suffix includes its leading dot, for example .data.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameUpdateError",
+   "text": "Unable to update username",
+   "description": "Fallback error shown when profile username update fails",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.v2.fastMode.value",
+   "text": "{percent, number, percent} of runs",
+   "description": "Value for Fast Mode usage on the profile v2. The numeric percent placeholder is a fraction between zero and one.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.v2.insights.title",
+   "text": "Insights",
+   "description": "Heading above usage insights on the profile v2 page.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.v2.plugins.title",
+   "text": "Top plugins",
+   "description": "Heading above the most used plugin icons on the profile v2 page.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.view.label",
+   "text": "Profile view",
+   "description": "Accessible label for a toggle switching between a person's personal profile and their profile in the viewer's current workspace, without switching the viewer's account",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.view.personal",
+   "text": "Personal",
+   "description": "Toggle option showing the person's personal profile, separate from their workspace profile. Owners can view their own private personal profile; other viewers can only see public personal profiles.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.view.personalReadOnly",
+   "text": "Switch to your personal account to edit your personal profile",
+   "description": "Short tooltip shown on hover or keyboard focus of disabled profile and showcase Edit buttons to owners viewing their personal profile from a workspace account. Calmly explains that they must switch to their personal account to edit. Keep concise for the small tooltip.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewFetchError",
+   "text": "This profile couldn’t be loaded",
+   "description": "Error shown when a profile opened by username is unavailable or access is denied",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewPersonal",
+   "text": "Personal",
+   "description": "View Personal profile content without switching your workspace",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewScope",
+   "text": "Profile page",
+   "description": "Accessible label for choosing the workspace or Personal page of a profile",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewScope.heading",
+   "text": "View profile",
+   "description": "Short heading in the profile page dropdown opened from the workspace name. Invites the user to choose their Personal or current workspace profile to view without switching their active workspace.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewWorkspace",
+   "text": "Workspace",
+   "description": "Fallback name for the current workspace when its name is unavailable",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.done",
+   "text": "Done",
+   "description": "Button closing the sharing dialog when there are no unsaved changes",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.mixedRoles",
+   "text": "Mixed",
+   "description": "Role selector label when selected sharing recipients have different permissions",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.cancel",
+   "text": "Cancel",
+   "description": "Button label for cancelling staged changes in a share dialog",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.invite",
+   "text": "Invite",
+   "description": "Button label for inviting selected people or groups in a share dialog",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.save",
+   "text": "Save",
+   "description": "Button label for saving a share dialog access change",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.saving",
+   "text": "Saving",
+   "description": "Button label while a share dialog saves permissions or invites",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.role.commenter",
+   "text": "Commenter",
+   "description": "Sharing permission for someone who can view and comment without editing content",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.role.editor",
+   "text": "Editor",
+   "description": "Sharing permission for someone who can edit content",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.role.owner",
+   "text": "Owner",
+   "description": "Sharing permission identifying someone who owns content and controls its access",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.role.unknown",
+   "text": "Unknown access",
+   "description": "Sharing permission whose role is not recognized; do not imply that the person has Viewer access",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.role.viewer",
+   "text": "Viewer",
+   "description": "Sharing permission for someone who can view content but cannot change it",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.alreadyHasAccess",
+   "text": "Already has access",
+   "description": "Disabled sharing search result for an owner or existing person or group collaborator",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.groups",
+   "text": "Groups",
+   "description": "Heading for matching administrative and SCIM groups in sharing search results",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.invitationPending",
+   "text": "Invitation pending",
+   "description": "Disabled sharing search result for a person or group with an invitation awaiting acceptance",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.moveToSpace",
+   "text": "Move to {name}",
+   "description": "Accessible label and tooltip for moving the current Page into a team's Space; name is the team's name. Opens the existing move confirmation.",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.people",
+   "text": "People",
+   "description": "Heading for people matching the workspace directory alongside Teams in the sharing recipient picker",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.peopleAndTeamsLabel",
+   "text": "Add people or teams",
+   "description": "Placeholder and accessible label for a sharing picker that can invite workspace people and teams",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.peopleLabel",
+   "text": "Add people",
+   "description": "Placeholder and accessible label for a sharing picker that can invite people only because team discovery is unavailable",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.recent",
+   "text": "Recent",
+   "description": "Heading for people the user recently shared a Page or Space with, shown when the sharing search input is empty",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.suggested",
+   "text": "Suggested",
+   "description": "Heading for people and groups ranked together as likely sharing recipients",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.teams",
+   "text": "Teams",
+   "description": "Heading for matching Teams in Library, Page, or Space sharing search results",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareRecipientPicker.yourTeams",
+   "text": "Your teams",
+   "description": "Heading for the user's Teams suggested in the empty Library, Page, or Space sharing recipient picker",
+   "files": [
+    "909077.6821aceaa6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTBranding.appLogoAlt",
+   "text": "{appDisplayName} logo",
+   "description": "Alt text for the logo of the external application using Sign in with ChatGPT.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTBranding.externalAppLogoAlt",
+   "text": "External application logo",
+   "description": "Generic alt text for an external application logo when the application name is unavailable.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.adsOfflineDescription",
+   "text": "Keep this connection active when you’re not using the app.",
+   "description": "Description beneath the offline-access permission title in SIWC consent and linked-app settings. Explains that the app can keep the connection active without requiring repeated sign-in.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.adsReadDescription",
+   "text": "Read information in your Ads accounts.",
+   "description": "Explains the required permission to read Ads Manager data",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.adsWriteDescription",
+   "text": "Make changes in your Ads accounts.",
+   "description": "Explains the required permission to modify Ads Manager data",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.emailDescription",
+   "text": "View your email address.",
+   "description": "Explains the OAuth email permission",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.identityDescription",
+   "text": "Confirm your identity to sign in.",
+   "description": "Explains the OpenID permission without implying profile or email access",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.profileDescription",
+   "text": "View your basic profile information.",
+   "description": "Explains the OAuth profile permission",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourceInvokeDescription",
+   "text": "Use the requested service on your behalf.",
+   "description": "Explains permission to invoke the requested OAuth resource",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.adsRead",
+   "text": "View ad account data",
+   "description": "Permission label for viewing ad account data, requested or granted by a third-party app. Used in developer registration, user consent and settings, and granted-access emails; does not imply write access.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.adsWrite",
+   "text": "Manage ad account data",
+   "description": "Permission label for changing ad account data, requested or granted by a third-party app. Used in developer registration, user consent and settings, and granted-access emails.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.chatgptAllowance",
+   "text": "ChatGPT plan",
+   "description": "Label explaining that a third-party app can consume the user's ChatGPT plan allowance for API requests.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.chatgptPlugins",
+   "text": "Connected apps",
+   "description": "Label for permission to invoke the user's connected ChatGPT apps, requested or granted by a third-party app.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.chatgptPlugins.description",
+   "text": "{appName} will be able to use apps you’ve connected to ChatGPT to work on your requests.",
+   "description": "Description beneath the connected-app permission title in SIWC consent and linked-app settings. {appName} is the requesting third-party app display name, such as Acme; ChatGPT is a product name.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.identity",
+   "text": "Identity",
+   "description": "Label for identity permissions requested or granted by a third-party app. Covers the openid, profile, and email OAuth scopes.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.identity.description",
+   "text": "Basic information including your name, email, and profile picture.",
+   "description": "Description beneath the shared identity permission title in SIWC consent and linked-app settings. The openid, profile, and email scopes share this one description.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.offlineAccess",
+   "text": "Stay connected to your ChatGPT account",
+   "description": "Label for offline access requested or granted by a third-party app.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.resourceInvoke",
+   "text": "Resource actions",
+   "description": "Label for permission to invoke an OAuth resource, requested or granted by a third-party app.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.unformattedTitle.generic",
+   "text": "Sign in to {originatorDisplayName} with ChatGPT",
+   "description": "Title for the the third party app selection page. originatorDisplayName is the display name of the 3rd party app that the user is signing in to with their ChatGPT account.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.connectorConsent.loadFailed",
+   "text": "Couldn't load connector permissions. Refresh the page to try again.",
+   "description": "Error shown when the preview connector consent UI cannot be loaded.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.connectorConsent.site",
+   "text": "Site",
+   "description": "Fallback name for a Site in connector consent.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.annotations.moveToolbar",
+   "text": "Move toolbar",
+   "description": "Accessible label for the Site annotation toolbar drag handle",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.annotations.requestEdits",
+   "text": "Request edits",
+   "description": "Button label and collapsed button tooltip in the Site preview toolbar. Toggles selection mode so users can select website content and leave comments requesting edits.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.annotations.toolbar",
+   "text": "Site annotations",
+   "description": "Accessible label for the floating Site annotation toolbar",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.back",
+   "text": "Go back",
+   "description": "Navigate back within the Site preview",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.close",
+   "text": "Close site preview",
+   "description": "Accessible label for the close button in the Site preview header. Closes the preview panel, not the website itself.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.discardAnnotations.cancel",
+   "text": "Keep editing",
+   "description": "Cancels the requested preview action and preserves pending annotations",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.discardAnnotations.confirm",
+   "text": "Discard",
+   "description": "Discards this Site's pending annotations and continues the requested close, refresh, or navigation",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.discardAnnotations.description",
+   "text": "Your annotations haven’t been sent yet.",
+   "description": "Reminds the user that their annotations have not been sent yet before they choose whether to discard them.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.discardAnnotations.title",
+   "text": "Discard annotations?",
+   "description": "Confirmation title before closing, refreshing, or navigating a Site preview with pending comments",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.error",
+   "text": "Couldn’t load the site preview. Refresh to try again, or open the site in a new tab.",
+   "description": "Error shown when the Site preview cannot be loaded",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.errorWithActions",
+   "text": "Couldn’t load the site preview. <refresh>Refresh</refresh> to try again, or <openSite>open the site</openSite> in a new tab.",
+   "description": "Error when a Site preview fails to load. The refresh tag will be a link that retries the preview, and the openSite tag will be a link that opens the published website in a new browser tab. Keep both tags and translate their text.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.forward",
+   "text": "Go forward",
+   "description": "Navigate forward within the Site preview",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.history",
+   "text": "Navigation history",
+   "description": "Accessible label for a menu containing back and forward navigation options in a narrow Site preview header",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.history.back",
+   "text": "Back",
+   "description": "Menu item that navigates backward within the Site preview history",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.history.forward",
+   "text": "Forward",
+   "description": "Menu item that navigates forward within the Site preview history",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.loading",
+   "text": "Loading preview…",
+   "description": "Status announced to assistive technology while the hosted website opens or reloads in the Site preview. No placeholders.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.moreActions",
+   "text": "More site actions",
+   "description": "Accessible label for the Site preview menu containing sharing, settings, and analytics actions",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.navigationControls",
+   "text": "Preview navigation",
+   "description": "Accessible label for Site preview back, forward, and refresh controls",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.refresh",
+   "text": "Refresh preview",
+   "description": "Button to reload the generated Site preview or retry after an error",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.share.label",
+   "text": "Share",
+   "description": "Short label for the Share button in the Site preview header and its narrow-view menu item. Opens sharing controls for the current website.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.title",
+   "text": "Site preview",
+   "description": "Accessible title of the generated Site preview iframe",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.visit",
+   "text": "Open site in browser",
+   "description": "Tooltip and accessible label for the title bar button that opens the published Site in a new browser tab",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.preview.windowControls",
+   "text": "Preview controls",
+   "description": "Accessible label for the group of buttons that expand or close the Site preview panel.",
+   "files": [
+    "871045.a31e663894.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.access",
+   "text": "Access for {connectorName}",
+   "description": "Accessible label for the connected app permission dropdown",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.account",
+   "text": "Account for {connectorName}",
+   "description": "Label for the connector's provider account selector",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.allowThisSiteApps",
+   "text": "Allow this site to use connected apps",
+   "description": "Connector-level consent heading; this site is the requesting site named in the page title",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.cancel",
+   "text": "Cancel",
+   "description": "Cancel this Site sign-in without changing connector access",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.chooseAccount",
+   "text": "Choose an account",
+   "description": "Requires an explicit provider account choice before allowing a connector",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.connectionManagement",
+   "text": "You can manage this connection anytime in ChatGPT settings.",
+   "description": "Settings guidance below connector consent",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.continueLabel",
+   "text": "Continue",
+   "description": "Complete sign-in with the reviewed connector choices",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.defaultAccess",
+   "text": "Default",
+   "description": "Badge marking the access requested by the site, independent of the current selection",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.expandedDescription",
+   "text": "{appName} can read information and take actions in apps you’ve connected to ChatGPT, based on the access you choose below.",
+   "description": "Disclosure above the expanded per-app consent controls",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.failed",
+   "text": "We couldn't load your connected apps. Refresh this page, or continue without this feature.",
+   "description": "A failed catalog read does not imply that the user has no connectors",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.futureActions",
+   "text": "Your choices apply to current and future actions of each type.",
+   "description": "Explain that read and write consent covers each capability, including future eligible actions",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.install",
+   "text": "Install",
+   "description": "Visible action to install a connected app in ChatGPT",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.installed",
+   "text": "Installed",
+   "description": "Heading above apps already connected to ChatGPT",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.installInWorkspace",
+   "text": "Install {connectorName} in {workspaceName}",
+   "description": "Tooltip and accessible label for the connector installation action",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.installRequired",
+   "text": "Install a connected app to enable access",
+   "description": "Explains the disabled main switch when apps need installation",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.loading",
+   "text": "Loading connected apps…",
+   "description": "Status while reading or refreshing connector eligibility",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.manage",
+   "text": "Manage",
+   "description": "Expand the connected app list to review and change permissions",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.manageApp",
+   "text": "Manage {connectorName} access",
+   "description": "Accessible name of a connected app icon that expands the permissions list",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.manageMoreApps",
+   "text": "Manage {count} more apps",
+   "description": "Accessible label for the compact app icon grid that expands the installed apps",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.offAccess",
+   "text": "Off",
+   "description": "Permission menu choice withholding access to a connected app",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.preparingSignIn",
+   "text": "Preparing sign-in…",
+   "description": "Status before the Site's connector eligibility is known",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.read",
+   "text": "Read data from {connectorName}",
+   "description": "Read-only permission granted for a selected connector",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readAccess",
+   "text": "Read",
+   "description": "Permission menu choice allowing a site to read a connected app",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readActions",
+   "text": "Read actions",
+   "description": "Heading above the current read actions for a connected app",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readOnlyDescription",
+   "text": "{appName} can read information in apps you’ve connected to ChatGPT.",
+   "description": "Disclosure when the Site requests only read access to connected apps",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readWrite",
+   "text": "Read and write data in {connectorName}",
+   "description": "Permission disclosure on the Site connector consent page. Allowing this connected app lets the site read and modify data on the user's behalf. The connectorName placeholder is the connected app's name.",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readWriteAccess",
+   "text": "Read and write",
+   "description": "Permission menu choice allowing a site to read and change a connected app",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.recommended",
+   "text": "Recommended",
+   "description": "Heading above requested apps that are not connected to ChatGPT",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.refresh",
+   "text": "Refresh connected apps",
+   "description": "Reload the current connector eligibility after installation",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.requestId",
+   "text": "Request ID: {requestId}",
+   "description": "Request identifier for troubleshooting a failed Site consent request",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.selectedWorkspace",
+   "text": "your selected workspace",
+   "description": "Fallback when the selected workspace has no display name",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.sessionOnlyAccess",
+   "text": "This signs you in without connector access for this session. It does not change this site’s saved connector access on your other devices.",
+   "description": "Declining connectors is session-local, not an app-wide revocation",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.sharedAccess",
+   "text": "These changes apply to this site’s connector access across your browsers and devices. Changes take effect shortly. Your connected accounts stay connected to ChatGPT.",
+   "description": "Explain that editing the app's saved approval affects existing sessions without disconnecting provider accounts",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.signInFailed",
+   "text": "We couldn’t complete sign-in. Please try again.",
+   "description": "An unsuccessful identity-only Site sign-in can be retried explicitly",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.signInUnavailable",
+   "text": "We couldn’t load the permissions for this sign-in. Refresh this page to try again.",
+   "description": "Sign-in cannot continue without valid protected permission disclosures",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteAppsDescription",
+   "text": "{appName} can read information or take actions on your behalf in apps you’ve connected to ChatGPT.",
+   "description": "Explains the Site's access to selected connected apps",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteDefaultAccessDescription",
+   "text": "Default access requested by this site.",
+   "description": "Screen reader explanation of the requested-access badge; this site is named in the page title",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteOffAccessDescription",
+   "text": "This site can’t access this app.",
+   "description": "Explanation below the option to disable a connected app; this site is named in the page title",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteReadAccessDescription",
+   "text": "This site can view information from this app.",
+   "description": "Explanation below the read-only permission menu option; this site is named in the page title",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteReadWriteAccessDescription",
+   "text": "This site can view information and take actions in this app on your behalf.",
+   "description": "Explanation below the read and write permission menu option; this site is named in the page title",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteWriteAccessDescription",
+   "text": "This site can take actions in this app on your behalf.",
+   "description": "Explanation below an existing write-only permission option; this site is named in the page title",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.thisSiteConnectedAppsDescription",
+   "text": "This site will be able to use apps you’ve connected to ChatGPT to work on your requests.",
+   "description": "Explains why the site named in the page title requests access to connected apps",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.title",
+   "text": "Connect ChatGPT and {appName}",
+   "description": "Title of the Site connector consent page",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.unavailable",
+   "text": "This connected app is not available for this sign-in.",
+   "description": "Explains why a connector cannot be selected",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.unavailableApps",
+   "text": "Unavailable",
+   "description": "Heading above requested apps that cannot be used for this sign-in",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.viewConnectorActions",
+   "text": "View actions for {connectorName}, {accountName}",
+   "description": "Accessible label for the connected account text that expands its current actions",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.without",
+   "text": "Continue without connector access",
+   "description": "Complete this sign-in without issuing connector credentials",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.writeAccess",
+   "text": "Write",
+   "description": "Short write-access label; the menu explains whether this includes read access",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.writeActions",
+   "text": "Write actions",
+   "description": "Heading above the current write actions for a connected app",
+   "files": [
+    "53143.891eef371e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesPage.traffic.openVisitorAnalytics",
+   "text": "Open analytics for {siteTitle}: unique visitors over the past 30 days",
+   "description": "Accessible button label for a site owner's graph showing daily distinct browsers that loaded a page over the last 30 days. The siteTitle placeholder is the user-provided website title. Selecting the graph opens that site's analytics page.",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesPage.traffic.visitorsTotal",
+   "text": "{count, plural, one {{visitors} Visitor} other {{visitors} Visitors}}",
+   "description": "Small label below a site's graph showing distinct browsers that loaded a page during the full last 30 days. A returning visitor is counted once in this total. count controls pluralization; visitors is the same total formatted as a compact localized number, such as 1.2K.",
+   "files": [
+    "728748.501fed6f8a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.iconGrid.label",
+   "text": "Icons",
+   "description": "Accessible label for the icon selection grid",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.category.creative",
+   "text": "Creative",
+   "description": "Icon picker category for writing, art, music, and entertainment",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.category.learning",
+   "text": "Learning",
+   "description": "Icon picker category for education, science, and knowledge",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.category.nature",
+   "text": "Nature",
+   "description": "Icon picker category for animals, plants, and the environment",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.category.travel",
+   "text": "Travel and places",
+   "description": "Icon picker category for trips, transportation, and places around the world",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.category.wellbeing",
+   "text": "Health and wellbeing",
+   "description": "Icon picker category for medicine, fitness, and personal wellbeing",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.category.work",
+   "text": "Work",
+   "description": "Icon picker category for work, organization, finance, and technology",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.colors",
+   "text": "Icon colors",
+   "description": "Accessible label for the icon picker color presets",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.count",
+   "text": "{count, plural, one {# icon} other {# icons}}",
+   "description": "Screen reader announcement of the number of icons in the picker results",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.empty",
+   "text": "No matching icons",
+   "description": "Shown when no icon name or keyword matches the search",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.heading",
+   "text": "Icons",
+   "description": "Heading for available symbols from the icon catalog",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIconGrid.label",
+   "text": "Team icons",
+   "description": "Accessible label for the illustrated team icon selection grid",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.activities",
+   "text": "Activities",
+   "description": "Illustrated icon category for art, design, games, music, celebrations, and sports",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.food",
+   "text": "Food and drink",
+   "description": "Illustrated icon category for food and drinks",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.nature",
+   "text": "Animals and nature",
+   "description": "Illustrated icon category for animals, weather, and the environment",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.people",
+   "text": "People and work",
+   "description": "Illustrated icon category for teamwork, office objects, productivity, and finance",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.technology",
+   "text": "Technology and science",
+   "description": "Illustrated icon category for computers, software, artificial intelligence, data, security, and science",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.travel",
+   "text": "Travel and places",
+   "description": "Illustrated icon category for travel, navigation, and places",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.search.results",
+   "text": "Search results",
+   "description": "Heading above illustrated icons matching the search query",
+   "files": [
+    "770340.5a83d68dbe.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.freeWorkspacePlanName",
+   "text": "Business Free",
+   "description": "Label for the Business Free workspace tier shown in workspace settings and membership screens.",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.k12PlanName",
+   "text": "ChatGPT for Teachers",
+   "description": "label for K12 tier account",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceOwnerOnboarding.logo.cropError",
+   "text": "Unable to process the workspace logo",
+   "description": "Error shown when the selected workspace logo cannot be cropped",
+   "files": [
+    "913237.8425fb7da8.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "a",
+   "count": 1922
+  },
+  {
+   "name": "n",
+   "count": 1921
+  },
+  {
+   "name": "u",
+   "count": 1920
+  },
+  {
+   "name": "children",
+   "count": 978
+  },
+  {
+   "name": "id",
+   "count": 844
+  },
+  {
+   "name": "defaultMessage",
+   "count": 716
+  },
+  {
+   "name": "className",
+   "count": 710
+  },
+  {
+   "name": "description",
+   "count": 654
+  },
+  {
+   "name": "v",
+   "count": 324
+  },
+  {
+   "name": "disabled",
+   "count": 151
+  },
+  {
+   "name": "size",
+   "count": 147
+  },
+  {
+   "name": "x",
+   "count": 109
+  },
+  {
+   "name": "color",
+   "count": 106
+  },
+  {
+   "name": "y",
+   "count": 102
+  },
+  {
+   "name": "width",
+   "count": 98
+  },
+  {
+   "name": "null",
+   "count": 98
+  },
+  {
+   "name": "height",
+   "count": 96
+  },
+  {
+   "name": "role",
+   "count": 96
+  },
+  {
+   "name": "onClick",
+   "count": 95
+  },
+  {
+   "name": "label",
+   "count": 87
+  },
+  {
+   "name": "value",
+   "count": 83
+  },
+  {
+   "name": "fill",
+   "count": 75
+  },
+  {
+   "name": "d",
+   "count": 70
+  },
+  {
+   "name": "variant",
+   "count": 68
+  },
+  {
+   "name": "type",
+   "count": 68
+  },
+  {
+   "name": "title",
+   "count": 66
+  },
+  {
+   "name": "isLoading",
+   "count": 60
+  },
+  {
+   "name": "offset",
+   "count": 58
+  },
+  {
+   "name": "data",
+   "count": 58
+  },
+  {
+   "name": "accountId",
+   "count": 57
+  },
+  {
+   "name": "name",
+   "count": 56
+  },
+  {
+   "name": "path",
+   "count": 55
+  },
+  {
+   "name": "ref",
+   "count": 54
+  },
+  {
+   "name": "stopColor",
+   "count": 54
+  },
+  {
+   "name": "isError",
+   "count": 52
+  },
+  {
+   "name": "enabled",
+   "count": 51
+  },
+  {
+   "name": "queryKey",
+   "count": 50
+  },
+  {
+   "name": "recipient",
+   "count": 46
+  },
+  {
+   "name": "projectId",
+   "count": 44
+  },
+  {
+   "name": "action",
+   "count": 44
+  },
+  {
+   "name": "userId",
+   "count": 42
+  },
+  {
+   "name": "signal",
+   "count": 42
+  },
+  {
+   "name": "kind",
+   "count": 42
+  },
+  {
+   "name": "values",
+   "count": 41
+  },
+  {
+   "name": "query",
+   "count": 40
+  },
+  {
+   "name": "staleTime",
+   "count": 38
+  },
+  {
+   "name": "onChange",
+   "count": 36
+  },
+  {
+   "name": "style",
+   "count": 35
+  },
+  {
+   "name": "categoryId",
+   "count": 34
+  },
+  {
+   "name": "scope",
+   "count": 33
+  },
+  {
+   "name": "strokeWidth",
+   "count": 32
+  },
+  {
+   "name": "keywords",
+   "count": 32
+  },
+  {
+   "name": "conversationId",
+   "count": 32
+  },
+  {
+   "name": "parameters",
+   "count": 31
+  },
+  {
+   "name": "options",
+   "count": 30
+  },
+  {
+   "name": "hostId",
+   "count": 29
+  },
+  {
+   "name": "e",
+   "count": 28
+  },
+  {
+   "name": "alt",
+   "count": 28
+  },
+  {
+   "name": "src",
+   "count": 28
+  },
+  {
+   "name": "content",
+   "count": 28
+  },
+  {
+   "name": "queryFn",
+   "count": 28
+  },
+  {
+   "name": "sourceWidth",
+   "count": 28
+  },
+  {
+   "name": "sourceHeight",
+   "count": 28
+  },
+  {
+   "name": "cropX",
+   "count": 28
+  },
+  {
+   "name": "cropY",
+   "count": 28
+  },
+  {
+   "name": "icon",
+   "count": 26
+  },
+  {
+   "name": "onSelect",
+   "count": 25
+  },
+  {
+   "name": "shared",
+   "count": 25
+  },
+  {
+   "name": "emoji",
+   "count": 25
+  },
+  {
+   "name": "viewBox",
+   "count": 24
+  },
+  {
+   "name": "refetch",
+   "count": 24
+  },
+  {
+   "name": "get",
+   "count": 24
+  },
+  {
+   "name": "error",
+   "count": 23
+  },
+  {
+   "name": "retry",
+   "count": 23
+  },
+  {
+   "name": "capabilities",
+   "count": 22
+  },
+  {
+   "name": "r",
+   "count": 22
+  },
+  {
+   "name": "viewMode",
+   "count": 22
+  },
+  {
+   "name": "opacity",
+   "count": 21
+  },
+  {
+   "name": "onClose",
+   "count": 21
+  },
+  {
+   "name": "shortcode",
+   "count": 21
+  },
+  {
+   "name": "pageScope",
+   "count": 21
+  },
+  {
+   "name": "hasNextPage",
+   "count": 20
+  },
+  {
+   "name": "onNavigateToSite",
+   "count": 20
+  },
+  {
+   "name": "compact",
+   "count": 19
+  },
+  {
+   "name": "cx",
+   "count": 18
+  },
+  {
+   "name": "onError",
+   "count": 18
+  },
+  {
+   "name": "count",
+   "count": 18
+  },
+  {
+   "name": "to",
+   "count": 18
+  },
+  {
+   "name": "key",
+   "count": 18
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 18
+  },
+  {
+   "name": "onCancel",
+   "count": 18
+  },
+  {
+   "name": "username",
+   "count": 18
+  },
+  {
+   "name": "loading",
+   "count": 17
+  },
+  {
+   "name": "xmlns",
+   "count": 17
+  },
+  {
+   "name": "cy",
+   "count": 17
+  },
+  {
+   "name": "choices",
+   "count": 17
+  },
+  {
+   "name": "status",
+   "count": 17
+  },
+  {
+   "name": "source",
+   "count": 17
+  },
+  {
+   "name": "outcome",
+   "count": 17
+  },
+  {
+   "name": "isPending",
+   "count": 17
+  },
+  {
+   "name": "stroke",
+   "count": 16
+  },
+  {
+   "name": "endTangent",
+   "count": 16
+  },
+  {
+   "name": "from",
+   "count": 16
+  },
+  {
+   "name": "isFetchingNextPage",
+   "count": 16
+  },
+  {
+   "name": "requestBody",
+   "count": 16
+  },
+  {
+   "name": "annotationCount",
+   "count": 16
+  },
+  {
+   "name": "colorKey",
+   "count": 16
+  },
+  {
+   "name": "avatar",
+   "count": 16
+  },
+  {
+   "name": "actions",
+   "count": 15
+  },
+  {
+   "name": "ariaLabel",
+   "count": 15
+  },
+  {
+   "name": "after",
+   "count": 15
+  },
+  {
+   "name": "autoFocus",
+   "count": 15
+  },
+  {
+   "name": "fetchNextPage",
+   "count": 15
+  },
+  {
+   "name": "cursor",
+   "count": 15
+  },
+  {
+   "name": "preview",
+   "count": 15
+  },
+  {
+   "name": "url",
+   "count": 15
+  },
+  {
+   "name": "permission",
+   "count": 15
+  },
+  {
+   "name": "footer",
+   "count": 14
+  },
+  {
+   "name": "asset",
+   "count": 14
+  },
+  {
+   "name": "isFetching",
+   "count": 14
+  },
+  {
+   "name": "open",
+   "count": 14
+  },
+  {
+   "name": "resource",
+   "count": 14
+  },
+  {
+   "name": "intl",
+   "count": 14
+  },
+  {
+   "name": "item",
+   "count": 14
+  },
+  {
+   "name": "workspaceName",
+   "count": 13
+  },
+  {
+   "name": "inset",
+   "count": 13
+  },
+  {
+   "name": "limit",
+   "count": 13
+  },
+  {
+   "name": "onKeyDown",
+   "count": 13
+  },
+  {
+   "name": "sharingScope",
+   "count": 13
+  },
+  {
+   "name": "operationId",
+   "count": 13
+  },
+  {
+   "name": "secondaryLabel",
+   "count": 13
+  },
+  {
+   "name": "workspaceSlug",
+   "count": 13
+  },
+  {
+   "name": "email",
+   "count": 12
+  },
+  {
+   "name": "i",
+   "count": 12
+  },
+  {
+   "name": "href",
+   "count": 12
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 12
+  },
+  {
+   "name": "toastId",
+   "count": 12
+  },
+  {
+   "name": "radius",
+   "count": 12
+  },
+  {
+   "name": "onSubmit",
+   "count": 12
+  },
+  {
+   "name": "onOpenChange",
+   "count": 12
+  },
+  {
+   "name": "isFetchNextPageError",
+   "count": 12
+  },
+  {
+   "name": "top",
+   "count": 12
+  },
+  {
+   "name": "left",
+   "count": 12
+  },
+  {
+   "name": "body",
+   "count": 12
+  },
+  {
+   "name": "shares",
+   "count": 12
+  },
+  {
+   "name": "result",
+   "count": 12
+  },
+  {
+   "name": "transform",
+   "count": 11
+  },
+  {
+   "name": "placement",
+   "count": 11
+  },
+  {
+   "name": "tabIndex",
+   "count": 11
+  },
+  {
+   "name": "animate",
+   "count": 11
+  },
+  {
+   "name": "mode",
+   "count": 11
+  },
+  {
+   "name": "unique_visitors",
+   "count": 11
+  },
+  {
+   "name": "uniform",
+   "count": 11
+  },
+  {
+   "name": "fallback",
+   "count": 11
+  },
+  {
+   "name": "resourceKind",
+   "count": 11
+  },
+  {
+   "name": "displayName",
+   "count": 11
+  },
+  {
+   "name": "profilePlugin",
+   "count": 11
+  },
+  {
+   "name": "onRefresh",
+   "count": 10
+  },
+  {
+   "name": "target",
+   "count": 10
+  },
+  {
+   "name": "selected",
+   "count": 10
+  },
+  {
+   "name": "page",
+   "count": 10
+  },
+  {
+   "name": "onRetry",
+   "count": 10
+  },
+  {
+   "name": "frame",
+   "count": 10
+  },
+  {
+   "name": "onLoad",
+   "count": 10
+  },
+  {
+   "name": "compactSize",
+   "count": 10
+  },
+  {
+   "name": "scale",
+   "count": 10
+  },
+  {
+   "name": "cwd",
+   "count": 10
+  },
+  {
+   "name": "sharingState",
+   "count": 10
+  },
+  {
+   "name": "analytics",
+   "count": 10
+  },
+  {
+   "name": "api",
+   "count": 10
+  },
+  {
+   "name": "isCurrentSession",
+   "count": 10
+  },
+  {
+   "name": "networkMode",
+   "count": 10
+  },
+  {
+   "name": "trailingContent",
+   "count": 10
+  },
+  {
+   "name": "principal",
+   "count": 10
+  },
+  {
+   "name": "share",
+   "count": 10
+  },
+  {
+   "name": "invitees",
+   "count": 10
+  },
+  {
+   "name": "creatorName",
+   "count": 10
+  },
+  {
+   "name": "displayOptions",
+   "count": 10
+  },
+  {
+   "name": "items",
+   "count": 9
+  },
+  {
+   "name": "filter",
+   "count": 9
+  },
+  {
+   "name": "checked",
+   "count": 9
+  },
+  {
+   "name": "as",
+   "count": 9
+  },
+  {
+   "name": "project_id",
+   "count": 9
+  },
+  {
+   "name": "onEdit",
+   "count": 9
+  },
+  {
+   "name": "project",
+   "count": 9
+  },
+  {
+   "name": "screenshotUrl",
+   "count": 9
+  },
+  {
+   "name": "onSuccess",
+   "count": 9
+  },
+  {
+   "name": "library_file_id",
+   "count": 9
+  },
+  {
+   "name": "directory_id",
+   "count": 9
+  },
+  {
+   "name": "request",
+   "count": 9
+  },
+  {
+   "name": "personName",
+   "count": 9
+  },
+  {
+   "name": "onSave",
+   "count": 9
+  },
+  {
+   "name": "stiffness",
+   "count": 9
+  },
+  {
+   "name": "damping",
+   "count": 9
+  },
+  {
+   "name": "mass",
+   "count": 9
+  },
+  {
+   "name": "layout",
+   "count": 8
+  },
+  {
+   "name": "xlinkHref",
+   "count": 8
+  },
+  {
+   "name": "gradientUnits",
+   "count": 8
+  },
+  {
+   "name": "fillOpacity",
+   "count": 8
+  },
+  {
+   "name": "active",
+   "count": 8
+  },
+  {
+   "name": "search",
+   "count": 8
+  },
+  {
+   "name": "presentation",
+   "count": 8
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 8
+  },
+  {
+   "name": "primaryCtaText",
+   "count": 8
+  },
+  {
+   "name": "onPrimaryCtaClick",
+   "count": 8
+  },
+  {
+   "name": "uniqueVisitors",
+   "count": 8
+  },
+  {
+   "name": "shape",
+   "count": 8
+  },
+  {
+   "name": "center",
+   "count": 8
+  },
+  {
+   "name": "right",
+   "count": 8
+  },
+  {
+   "name": "selectedValues",
+   "count": 8
+  },
+  {
+   "name": "heading",
+   "count": 8
+  },
+  {
+   "name": "canGoBack",
+   "count": 8
+  },
+  {
+   "name": "canGoForward",
+   "count": 8
+  },
+  {
+   "name": "wrapper",
+   "count": 8
+  },
+  {
+   "name": "o",
+   "count": 8
+  },
+  {
+   "name": "mutationFn",
+   "count": 8
+  },
+  {
+   "name": "windowZoom",
+   "count": 8
+  },
+  {
+   "name": "avatarUrl",
+   "count": 8
+  },
+  {
+   "name": "role_id",
+   "count": 8
+  },
+  {
+   "name": "desiredRole",
+   "count": 8
+  },
+  {
+   "name": "decision",
+   "count": 8
+  },
+  {
+   "name": "recipientKind",
+   "count": 8
+  },
+  {
+   "name": "collaborator",
+   "count": 8
+  },
+  {
+   "name": "match",
+   "count": 8
+  },
+  {
+   "name": "visible",
+   "count": 8
+  },
+  {
+   "name": "invertInDarkMode",
+   "count": 8
+  },
+  {
+   "name": "placementTarget",
+   "count": 8
+  },
+  {
+   "name": "bio",
+   "count": 8
+  },
+  {
+   "name": "plugin",
+   "count": 8
+  },
+  {
+   "name": "account",
+   "count": 7
+  },
+  {
+   "name": "gradientTransform",
+   "count": 7
+  },
+  {
+   "name": "fx",
+   "count": 7
+  },
+  {
+   "name": "fy",
+   "count": 7
+  },
+  {
+   "name": "placeholder",
+   "count": 7
+  },
+  {
+   "name": "md",
+   "count": 7
+  },
+  {
+   "name": "subtitle",
+   "count": 7
+  },
+  {
+   "name": "identity",
+   "count": 7
+  },
+  {
+   "name": "hover",
+   "count": 7
+  },
+  {
+   "name": "granularity",
+   "count": 7
+  },
+  {
+   "name": "requests",
+   "count": 7
+  },
+  {
+   "name": "refetchOnMount",
+   "count": 7
+  },
+  {
+   "name": "projectTitle",
+   "count": 7
+  },
+  {
+   "name": "length",
+   "count": 7
+  },
+  {
+   "name": "surface",
+   "count": 7
+  },
+  {
+   "name": "bottom",
+   "count": 7
+  },
+  {
+   "name": "header",
+   "count": 7
+  },
+  {
+   "name": "controlsRef",
+   "count": 7
+  },
+  {
+   "name": "threadId",
+   "count": 7
+  },
+  {
+   "name": "B",
+   "count": 7
+  },
+  {
+   "name": "site",
+   "count": 7
+  }
+ ],
+ "literal_count": 12087,
+ "literals_file": "codex_app_rev\\.work\\literals\\misc.json"
+}

@@ -1,0 +1,84 @@
+import { n as e, o as t } from "./rolldown-runtime-2d059c5e81f4.js";
+import { $st as n, Qst as r, ZSt as i, iFt as a, yCt as o } from "./app-shared-2feb3d4c6fcc.js";
+import {
+  ESr as s,
+  Fer as c,
+  NSr as l,
+  aar as u,
+  eer as d,
+  gSr as f,
+  hSr as p,
+  jSr as m,
+  mSr as h,
+  vSr as g,
+} from "./app-initial-ad16eaadf81f.js";
+import { t as _ } from "./command-execution-command-615dea847916.js";
+function v(e, t) {
+  let { get: n } = e,
+    r = n(p, t) ?? [];
+  n(m, t);
+  let i = g(e, t),
+    a = [];
+  for (let e of u(i?.items ?? [])) {
+    if (e.type !== `commandExecution` || e.status !== `inProgress`) continue;
+    let i = n(f, { ...t, itemId: e.id });
+    i?.type === `commandExecution` &&
+      i.status === `inProgress` &&
+      !r.includes(i.id) &&
+      a.push({
+        id: i.id,
+        itemKey: { ...t, itemId: i.id },
+        command: _(i),
+        cwd: i.cwd ?? null,
+        processId: i.processId,
+      });
+  }
+  return a;
+}
+var y, b, x, S;
+function C() {
+  return (C = e(() => {
+    ((y = t(a(), 1)),
+      i(),
+      d(),
+      h(),
+      n(),
+      (b = o(
+        r,
+        (e, { get: t }) => {
+          let n = e == null ? null : t(f, e);
+          return n?.type === `commandExecution` ? n.aggregatedOutput : null;
+        },
+        { owner: (e) => e?.threadId },
+      )),
+      (x = o(r, (e, { scope: t }) => v(t, e), { isEqual: y.default, owner: (e) => e.threadId })),
+      (S = o(
+        r,
+        (e, { get: t, scope: n }) => {
+          if (e == null) return null;
+          let r = t(c, e);
+          if (r == null) return null;
+          let i = t(s, { hostId: r, threadId: e }) ?? [],
+            a = [];
+          for (let e = i.length - 1; e >= 0; --e) {
+            let r = i[e];
+            if (r == null || (e === i.length - 1 && t(l, r) === `inProgress`)) continue;
+            t(m, r);
+            let o = g(n, r);
+            o != null &&
+              o.items.some(
+                (e) =>
+                  e?.type === `commandExecution` &&
+                  e.status === `inProgress` &&
+                  !o.interruptedCommandExecutionItemIds?.includes(e.id),
+              ) &&
+              a.push(...t(x, r));
+          }
+          return a;
+        },
+        { isEqual: y.default, owner: (e) => e },
+      )));
+  }))();
+}
+export { S as n, C as r, b as t };
+//# sourceMappingURL=local-conversation-background-terminal-signals-8efb775aaf75.js.map

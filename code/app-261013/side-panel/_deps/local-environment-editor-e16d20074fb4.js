@@ -1,0 +1,1687 @@
+import { n as e, o as t } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  $4 as n,
+  $Q as r,
+  ADt as i,
+  AO as a,
+  BE as o,
+  CO as s,
+  Cot as c,
+  F$ as l,
+  HE as u,
+  HNt as d,
+  I$ as f,
+  IDt as p,
+  Iot as m,
+  Ixt as h,
+  JC as g,
+  Kat as _,
+  L$ as v,
+  Lot as y,
+  Mz as b,
+  Nz as x,
+  Pxt as S,
+  Qb as C,
+  R$ as w,
+  RE as T,
+  TO as E,
+  UE as ee,
+  VDt as te,
+  VE as ne,
+  Vxt as re,
+  XJ as D,
+  YJ as ie,
+  Zb as O,
+  _ft as ae,
+  a1 as k,
+  bft as oe,
+  c1 as se,
+  cut as ce,
+  cz as A,
+  e$ as j,
+  hot as le,
+  iw as ue,
+  jDt as M,
+  kDt as N,
+  lot as de,
+  mZ as fe,
+  n$ as pe,
+  o1 as P,
+  pZ as me,
+  qC as he,
+  qat as F,
+  rst as ge,
+  s1 as I,
+  sb as _e,
+  sz as ve,
+  t$ as L,
+  t3 as R,
+  tw as ye,
+  vzt as z,
+  wot as be,
+  xMt as B,
+  xft as V,
+  yft as H,
+  yzt as U,
+} from "./app-shared-bbfeca5e5737.js";
+import {
+  $Ct as W,
+  DPn as G,
+  EPn as xe,
+  EX as Se,
+  Ek as Ce,
+  GCt as we,
+  Gir as Te,
+  Jdr as Ee,
+  KCt as De,
+  QCt as Oe,
+  Qir as ke,
+  TPn as Ae,
+  Tk as K,
+  VCt as je,
+  Xd as Me,
+  Xdr as Ne,
+  Yd as Pe,
+  Yir as Fe,
+  Zir as Ie,
+  aBt as Le,
+  hp as Re,
+  mp as ze,
+  no as Be,
+  oBt as Ve,
+  oFr as He,
+  ro as Ue,
+  sFr as We,
+} from "./app-initial-5851df3f6cb1.js";
+import { n as Ge, t as Ke } from "./local-environment-workflow-messages-113907dcb0c6.js";
+import { n as qe, t as Je } from "./useForm-9d52db816610.js";
+function Ye(e) {
+  let t = (0, Xe.c)(3),
+    { className: n, icon: r, size: i } = e,
+    a = i === void 0 ? 20 : i,
+    o = Qe[r][a],
+    s;
+  return (
+    t[0] !== n || t[1] !== o
+      ? ((s = (0, Ze.jsx)(b, { className: n, "aria-hidden": !1, asset: o })),
+        (t[0] = n),
+        (t[1] = o),
+        (t[2] = s))
+      : (s = t[2]),
+    s
+  );
+}
+var Xe, Ze, Qe;
+function $e() {
+  return ($e = e(() => {
+    ((Xe = z()),
+      se(),
+      P(),
+      w(),
+      f(),
+      L(),
+      r(),
+      O(),
+      me(),
+      x(),
+      (Ze = B()),
+      (Qe = {
+        tool: { 16: v, 20: l },
+        run: { 16: C, 20: fe },
+        debug: { 16: pe, 20: j },
+        test: { 16: I, 20: k },
+      }));
+  }))();
+}
+var et;
+function tt() {
+  return (tt = e(() => {
+    (M(),
+      (et = [
+        {
+          value: `tool`,
+          message: N({
+            id: `settings.localEnvironments.actions.icon.tool`,
+            defaultMessage: `Tool`,
+            description: `Tool icon label for local environment actions`,
+          }),
+        },
+        {
+          value: `run`,
+          message: N({
+            id: `settings.localEnvironments.actions.icon.run`,
+            defaultMessage: `Run`,
+            description: `Run icon label for local environment actions`,
+          }),
+        },
+        {
+          value: `debug`,
+          message: N({
+            id: `settings.localEnvironments.actions.icon.debug`,
+            defaultMessage: `Debug`,
+            description: `Debug icon label for local environment actions`,
+          }),
+        },
+        {
+          value: `test`,
+          message: N({
+            id: `settings.localEnvironments.actions.icon.test`,
+            defaultMessage: `Test`,
+            description: `Test icon label for local environment actions`,
+          }),
+        },
+      ]));
+  }))();
+}
+function nt(e) {
+  return `defaultName` in e
+    ? {
+        actions: [],
+        cleanupPlatformScripts: it(null),
+        cleanupScript: ``,
+        name: e.defaultName,
+        setupPlatformScripts: it(null),
+        setupScript: ``,
+      }
+    : {
+        actions: (e.environment.actions ?? []).map((e) => ({
+          ...e,
+          id: crypto.randomUUID(),
+          platform: e.platform ?? null,
+        })),
+        cleanupPlatformScripts: it(e.environment.cleanup),
+        cleanupScript: e.environment.cleanup?.script ?? ``,
+        name: e.environment.name,
+        setupPlatformScripts: it(e.environment.setup),
+        setupScript: e.environment.setup.script,
+      };
+}
+function rt() {
+  return { id: crypto.randomUUID(), name: ``, icon: `tool`, command: ``, platform: null };
+}
+function it(e) {
+  return { darwin: e?.darwin?.script ?? ``, linux: e?.linux?.script ?? ``, win32: e?.win32?.script ?? `` };
+}
+function at(e, t) {
+  return {
+    incompleteActionIds: t.flatMap((e) =>
+      e.name.trim().length > 0 == e.command.trim().length > 0 ? [] : [e.id],
+    ),
+    missingName: e.trim().length === 0,
+  };
+}
+function ot(e, t = `default`) {
+  return e === `action` ? pt : t === `win32` ? (e === `setup` ? dt : ft) : e === `setup` ? lt : ut;
+}
+function st({
+  version: e,
+  name: t,
+  setupScript: n,
+  setupPlatformScripts: r,
+  cleanupScript: i,
+  cleanupPlatformScripts: a,
+  actions: o,
+}) {
+  let s = o.flatMap((e) => {
+      let t = e.name.trim(),
+        n = e.command.trim();
+      return t.length === 0 || n.length === 0 ? [] : [{ ...e, command: n, name: t }];
+    }),
+    c = [];
+  (c.push(`# THIS IS AUTOGENERATED. DO NOT EDIT MANUALLY`),
+    c.push(`version = ${e}`),
+    c.push(`name = ${q(t.trim())}`),
+    ct(c, `setup`, n, r),
+    ct(c, `cleanup`, i, a),
+    s.length > 0 && c.push(``));
+  for (let e of s)
+    (c.push(`[[actions]]`),
+      c.push(`name = ${q(e.name)}`),
+      e.icon && c.push(`icon = ${q(e.icon)}`),
+      c.push(`command = ${q(e.command)}`),
+      e.platform && c.push(`platform = ${q(e.platform)}`),
+      c.push(``));
+  return `${c
+    .join(
+      `
+`,
+    )
+    .trimEnd()}\n`;
+}
+function ct(e, t, n, r) {
+  let i = H.flatMap((e) => {
+    let t = r[e];
+    return t == null || t.length === 0 ? [] : [{ platform: e, script: t }];
+  });
+  if (
+    ((t === `setup` || n.length > 0 || i.length > 0) &&
+      (e.push(``), e.push(`[${t}]`), e.push(`script = ${q(n)}`)),
+    i.length !== 0)
+  ) {
+    e.push(``);
+    for (let [n, r] of i.entries())
+      (e.push(`[${t}.${r.platform}]`), e.push(`script = ${q(r.script)}`), n < i.length - 1 && e.push(``));
+  }
+}
+function q(e) {
+  let t = e.replace(
+    /\r\n?/g,
+    `
+`,
+  );
+  return t.includes(`
+`)
+    ? t.includes(`'''`)
+      ? `"""\n${t.replace(/\\/g, `\\\\`).replace(/"""/g, `\\"""`)}"""`
+      : `'''\n${t}'''`
+    : JSON.stringify(t);
+}
+var lt, ut, dt, ft, pt;
+function J() {
+  return (J = e(() => {
+    (ge(),
+      (lt = `cd "$CODEX_WORKTREE_PATH"
+pip install -r requirements.txt
+npm install
+./run/setup.sh`),
+      (ut = `docker compose down --remove-orphans
+rm -rf .cache/tmp`),
+      (dt = `python -m pip install -r requirements.txt
+pnpm install`),
+      (ft = `docker compose down --remove-orphans`),
+      (pt = `npm run dev`));
+  }))();
+}
+var Y;
+function mt() {
+  return (mt = e(() => {
+    (M(),
+      (Y = i({
+        actionPlatforms: {
+          id: `settings.localEnvironments.actions.item.platforms`,
+          defaultMessage: `Platforms`,
+          description: `Label for local environment action platforms`,
+        },
+        actionScript: {
+          id: `settings.localEnvironments.actions.item.command`,
+          defaultMessage: `Action script`,
+          description: `Label for local environment action script`,
+        },
+        actionName: {
+          id: `settings.localEnvironments.actions.item.name`,
+          defaultMessage: `Name`,
+          description: `Label for local environment action name`,
+        },
+        addAction: {
+          id: `settings.localEnvironments.actions.add`,
+          defaultMessage: `Add action`,
+          description: `Button label to add a local environment action`,
+        },
+        actionsDescription: {
+          id: `settings.localEnvironments.environment.actions.description`,
+          defaultMessage: `These actions can run any command and will be displayed in the header`,
+          description: `Description for local environment actions summary`,
+        },
+        actionsEmpty: {
+          id: `settings.localEnvironments.actions.empty`,
+          defaultMessage: `Add an action to run commands from the local toolbar`,
+          description: `Empty state for local environment actions`,
+        },
+        actionsTitle: {
+          id: `settings.localEnvironments.actions.title`,
+          defaultMessage: `Actions`,
+          description: `Title for local environment actions section`,
+        },
+        cleanupPlatformSelector: {
+          id: `settings.localEnvironments.environment.cleanup.platformSelector`,
+          defaultMessage: `Cleanup script platform`,
+          description: `Accessible label for the cleanup script platform selector`,
+        },
+        cleanupDescription: {
+          id: `settings.localEnvironments.environment.cleanup.description`,
+          defaultMessage: `Runs at the project root before worktree cleanup`,
+          description: `Description for the cleanup script input`,
+        },
+        cleanupScript: {
+          id: `settings.localEnvironments.environment.cleanup.title`,
+          defaultMessage: `Cleanup script`,
+          description: `Title for the local environment cleanup script section`,
+        },
+        defaultEnvironmentName: {
+          id: `settings.localEnvironments.environment.defaultName`,
+          defaultMessage: `local`,
+          description: `Fallback name for a local environment`,
+        },
+        environmentName: {
+          id: `settings.localEnvironments.environment.name`,
+          defaultMessage: `Name`,
+          description: `Label for a local environment name`,
+        },
+        setupPlatformSelector: {
+          id: `settings.localEnvironments.environment.setup.platformSelector`,
+          defaultMessage: `Setup script platform`,
+          description: `Accessible label for the setup script platform selector`,
+        },
+        setupScript: {
+          id: `settings.localEnvironments.environment.setup`,
+          defaultMessage: `Setup script`,
+          description: `Label for a local environment setup script`,
+        },
+      })));
+  }))();
+}
+async function ht({
+  configPath: e,
+  draft: t,
+  expectedRevision: n,
+  hostId: r,
+  queryClient: i,
+  selectEnvironment: a,
+  version: o,
+  workspaceRoot: s,
+}) {
+  let c = at(t.name, t.actions);
+  if (c.missingName || c.incompleteActionIds.length > 0) return { type: `invalid` };
+  let l = st({ version: o, ...t }),
+    u = _.localEnvironments;
+  if (u == null) throw Error(`Local environments are not supported by this host.`);
+  let d = await u.saveConfig({ configPath: e, expectedRevision: n, hostId: r, raw: l }),
+    f = d.configPath,
+    p = W(i, r, [e, f], s);
+  return d.type === `conflict`
+    ? { type: `conflict` }
+    : (await p, { configPath: f, type: (await a?.(f)) === !1 ? `selection-failed` : `success` });
+}
+async function gt({
+  codexWorktree: e,
+  configPath: t,
+  gitRoot: n,
+  selectForWorkspace: r,
+  selectForWorktree: i,
+}) {
+  return e ? n != null && i(n, t) : (r(t), !0);
+}
+function _t() {
+  return (_t = e(() => {
+    (F(), Oe(), J());
+  }))();
+}
+var vt;
+function yt() {
+  return (yt = e(() => {
+    (M(),
+      (vt = i({
+        all: {
+          id: `settings.localEnvironments.actions.item.platforms.all`,
+          defaultMessage: `All platforms`,
+          description: `Label for an action available on every platform`,
+        },
+        default: {
+          id: `settings.localEnvironments.environment.script.default`,
+          defaultMessage: `Default`,
+          description: `Label for default local environment lifecycle script`,
+        },
+        darwin: {
+          id: `settings.localEnvironments.actions.item.platforms.macos`,
+          defaultMessage: `macOS`,
+          description: `Label for macOS platform toggle`,
+        },
+        linux: {
+          id: `settings.localEnvironments.actions.item.platforms.linux`,
+          defaultMessage: `Linux`,
+          description: `Label for Linux platform toggle`,
+        },
+        win32: {
+          id: `settings.localEnvironments.actions.item.platforms.windows`,
+          defaultMessage: `Windows`,
+          description: `Label for Windows platform toggle`,
+        },
+      })));
+  }))();
+}
+function bt(e) {
+  let t = (0, xt.c)(10),
+    { leadingOption: n, selectedId: r, onSelect: i, ariaLabel: a } = e,
+    o = te(),
+    s;
+  t[0] === n ? (s = t[1]) : ((s = [n, ...H]), (t[0] = n), (t[1] = s));
+  let c = s,
+    l;
+  t[2] !== o || t[3] !== c
+    ? ((l = c.map((e) => {
+        let t = o.formatMessage(vt[e]);
+        return { id: e, label: t, ariaLabel: t };
+      })),
+      (t[2] = o),
+      (t[3] = c),
+      (t[4] = l))
+    : (l = t[4]);
+  let u;
+  return (
+    t[5] !== a || t[6] !== i || t[7] !== r || t[8] !== l
+      ? ((u = (0, St.jsx)(Pe, { selectedId: r, onSelect: i, ariaLabel: a, options: l })),
+        (t[5] = a),
+        (t[6] = i),
+        (t[7] = r),
+        (t[8] = l),
+        (t[9] = u))
+      : (u = t[9]),
+    u
+  );
+}
+var xt, St;
+function Ct() {
+  return (Ct = e(() => {
+    ((xt = z()), ge(), M(), Me(), yt(), (St = B()));
+  }))();
+}
+function wt(e) {
+  let t = (0, Tt.c)(33),
+    { actions: r, dropdownDisabled: i, incompleteActionIds: a, onChange: o } = e,
+    c = te(),
+    l,
+    u,
+    d,
+    f,
+    m,
+    h;
+  if (t[0] !== r || t[1] !== i || t[2] !== a || t[3] !== c || t[4] !== o) {
+    let e;
+    t[11] === c
+      ? (e = t[12])
+      : ((e = (e) => ({
+          label: c.formatMessage(e.message),
+          value: e.value,
+          icon: (0, X.jsx)(Ye, { icon: e.value }),
+        })),
+        (t[11] = c),
+        (t[12] = e));
+    let g = et.map(e),
+      _;
+    t[13] !== r || t[14] !== o
+      ? ((_ = (e, t) => {
+          o(r.map((n) => (n.id === e ? { ...n, ...t } : n)));
+        }),
+        (t[13] = r),
+        (t[14] = o),
+        (t[15] = _))
+      : (_ = t[15]);
+    let v = _;
+    u = K;
+    let y;
+    t[16] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((y = (0, X.jsx)(p, { ...Y.actionsTitle })), (t[16] = y))
+      : (y = t[16]);
+    let x;
+    t[17] !== r || t[18] !== o
+      ? ((x = () => {
+          o([...r, rt()]);
+        }),
+        (t[17] = r),
+        (t[18] = o),
+        (t[19] = x))
+      : (x = t[19]);
+    let S;
+    (t[20] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((S = (0, X.jsx)(p, { ...Y.addAction })), (t[20] = S))
+      : (S = t[20]),
+      t[21] === x
+        ? (h = t[22])
+        : ((h = (0, X.jsx)(K.Header, {
+            title: y,
+            actions: (0, X.jsx)(n, {
+              color: `secondary`,
+              size: `toolbar`,
+              type: `button`,
+              onClick: x,
+              children: S,
+            }),
+          })),
+          (t[21] = x),
+          (t[22] = h)),
+      (l = K.Content),
+      (d = `gap-1`),
+      t[23] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((f = (0, X.jsx)(`div`, {
+            className: `text-sm text-secondary`,
+            children: (0, X.jsx)(p, { ...Y.actionsDescription }),
+          })),
+          (t[23] = f))
+        : (f = t[23]),
+      (m =
+        r.length === 0
+          ? (0, X.jsx)(he, {
+              children: (0, X.jsx)(ze, {
+                layout: `settings-row`,
+                children: (0, X.jsx)(p, { ...Y.actionsEmpty }),
+              }),
+            })
+          : (0, X.jsx)(`div`, {
+              className: `flex flex-col gap-3`,
+              children: r.map((e) => {
+                let t = g.find((t) => t.value === (e.icon ?? `tool`)) ?? g[0],
+                  l = a.includes(e.id),
+                  u = l && e.name.trim().length === 0,
+                  d = l && e.command.trim().length === 0,
+                  f = `local-env-action-name-error-${e.id}`,
+                  m = `local-env-action-command-error-${e.id}`;
+                return (0, X.jsxs)(
+                  `div`,
+                  {
+                    className: `flex flex-col gap-3 rounded-lg border border-default bg-primary-soft p-3`,
+                    children: [
+                      (0, X.jsxs)(`div`, {
+                        className: `flex flex-col gap-2`,
+                        children: [
+                          (0, X.jsx)(`label`, {
+                            className: `text-xs font-medium tracking-wide text-secondary uppercase`,
+                            htmlFor: `local-env-action-name-${e.id}`,
+                            children: (0, X.jsx)(p, { ...Y.actionName }),
+                          }),
+                          (0, X.jsxs)(`div`, {
+                            className: `flex items-center gap-2`,
+                            children: [
+                              (0, X.jsx)(s, {
+                                align: `start`,
+                                contentWidth: `icon`,
+                                disabled: i,
+                                triggerButton: (0, X.jsx)(n, {
+                                  id: `local-env-action-icon-${e.id}`,
+                                  color: `secondary`,
+                                  uniform: !0,
+                                  size: `toolbar`,
+                                  type: `button`,
+                                  "aria-label": t.label,
+                                  children: t.icon,
+                                }),
+                                children: (0, X.jsx)(E.RadioGroup, {
+                                  value: t.value,
+                                  children: g.map((t) =>
+                                    (0, X.jsx)(
+                                      E.RadioItem,
+                                      {
+                                        value: t.value,
+                                        onSelect: () => {
+                                          v(e.id, { icon: t.value });
+                                        },
+                                        children: (0, X.jsxs)(`span`, {
+                                          className: `flex items-center gap-2`,
+                                          children: [t.icon, (0, X.jsx)(`span`, { children: t.label })],
+                                        }),
+                                      },
+                                      t.value,
+                                    ),
+                                  ),
+                                }),
+                              }),
+                              (0, X.jsx)(`div`, {
+                                className: `flex-1`,
+                                children: (0, X.jsx)(Ae, {
+                                  id: `local-env-action-name-${e.id}`,
+                                  value: e.name,
+                                  "aria-describedby": u ? f : void 0,
+                                  "aria-invalid": u,
+                                  onChange: (t) => {
+                                    v(e.id, { name: t.target.value });
+                                  },
+                                }),
+                              }),
+                            ],
+                          }),
+                          u
+                            ? (0, X.jsx)(`div`, {
+                                id: f,
+                                className: `text-xs text-danger`,
+                                children: (0, X.jsx)(p, {
+                                  id: `settings.localEnvironments.actions.item.nameRequired`,
+                                  defaultMessage: `Enter an action name`,
+                                  description: `Inline validation for a missing local environment action name`,
+                                }),
+                              })
+                            : null,
+                        ],
+                      }),
+                      (0, X.jsxs)(`div`, {
+                        className: `flex flex-col gap-2`,
+                        children: [
+                          (0, X.jsx)(`label`, {
+                            className: `text-xs font-medium tracking-wide text-secondary uppercase`,
+                            htmlFor: `local-env-action-command-${e.id}`,
+                            children: (0, X.jsx)(p, { ...Y.actionScript }),
+                          }),
+                          (0, X.jsx)(xe, {
+                            variant: `code`,
+                            id: `local-env-action-command-${e.id}`,
+                            value: e.command,
+                            placeholder: ot(`action`),
+                            rows: 4,
+                            "aria-describedby": d ? m : void 0,
+                            "aria-invalid": d,
+                            onChange: (t) => {
+                              v(e.id, { command: t.target.value });
+                            },
+                          }),
+                          d
+                            ? (0, X.jsx)(`div`, {
+                                id: m,
+                                className: `text-xs text-danger`,
+                                children: (0, X.jsx)(p, {
+                                  id: `settings.localEnvironments.actions.item.commandRequired`,
+                                  defaultMessage: `Enter an action command`,
+                                  description: `Inline validation for a missing local environment action command`,
+                                }),
+                              })
+                            : null,
+                        ],
+                      }),
+                      (0, X.jsxs)(`div`, {
+                        className: `flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between`,
+                        children: [
+                          (0, X.jsxs)(`div`, {
+                            className: `flex min-w-0 flex-col gap-2`,
+                            children: [
+                              (0, X.jsx)(`div`, {
+                                className: `text-xs font-medium tracking-wide text-secondary uppercase`,
+                                children: (0, X.jsx)(p, { ...Y.actionPlatforms }),
+                              }),
+                              (0, X.jsx)(bt, {
+                                leadingOption: `all`,
+                                selectedId: e.platform ?? `all`,
+                                onSelect: (t) => {
+                                  v(e.id, { platform: t === `all` ? null : t });
+                                },
+                                ariaLabel: c.formatMessage({
+                                  id: `settings.localEnvironments.actions.item.platforms.selector`,
+                                  defaultMessage: `Action platform`,
+                                  description: `Aria label for the local environment action platform selector`,
+                                }),
+                              }),
+                            ],
+                          }),
+                          (0, X.jsx)(`div`, {
+                            className: `flex justify-end sm:justify-center`,
+                            children: (0, X.jsx)(ve, {
+                              tooltipContent: (0, X.jsx)(p, {
+                                id: `settings.localEnvironments.actions.item.tooltip.delete`,
+                                defaultMessage: `Delete`,
+                                description: `Tooltip for removing a local environment action`,
+                              }),
+                              children: (0, X.jsx)(n, {
+                                color: `ghost`,
+                                uniform: !0,
+                                size: `toolbar`,
+                                type: `button`,
+                                "aria-label": c.formatMessage({
+                                  id: `settings.localEnvironments.actions.item.button.delete`,
+                                  defaultMessage: `Delete`,
+                                  description: `Label for removing a local environment action`,
+                                }),
+                                onClick: () => {
+                                  o(r.filter((t) => t.id !== e.id));
+                                },
+                                children: (0, X.jsx)(b, { "aria-hidden": !1, asset: D }),
+                              }),
+                            }),
+                          }),
+                        ],
+                      }),
+                    ],
+                  },
+                  e.id,
+                );
+              }),
+            })),
+      (t[0] = r),
+      (t[1] = i),
+      (t[2] = a),
+      (t[3] = c),
+      (t[4] = o),
+      (t[5] = l),
+      (t[6] = u),
+      (t[7] = d),
+      (t[8] = f),
+      (t[9] = m),
+      (t[10] = h));
+  } else ((l = t[5]), (u = t[6]), (d = t[7]), (f = t[8]), (m = t[9]), (h = t[10]));
+  let g;
+  t[24] !== l || t[25] !== d || t[26] !== f || t[27] !== m
+    ? ((g = (0, X.jsxs)(l, { className: d, children: [f, m] })),
+      (t[24] = l),
+      (t[25] = d),
+      (t[26] = f),
+      (t[27] = m),
+      (t[28] = g))
+    : (g = t[28]);
+  let _;
+  return (
+    t[29] !== u || t[30] !== h || t[31] !== g
+      ? ((_ = (0, X.jsxs)(u, { children: [h, g] })), (t[29] = u), (t[30] = h), (t[31] = g), (t[32] = _))
+      : (_ = t[32]),
+    _
+  );
+}
+var Tt, X;
+function Et() {
+  return (Et = e(() => {
+    ((Tt = z()), ie(), M(), R(), a(), x(), Re(), G(), A(), $e(), tt(), J(), mt(), Ct(), Ce(), g(), (X = B()));
+  }))();
+}
+function Dt(e) {
+  let t = (0, Ot.c)(37),
+    { actions: n, draft: r, scriptType: i, simpleSetup: a, onScriptChange: o } = e,
+    s = a !== void 0 && a,
+    c = te(),
+    [l, u] = (0, kt.useState)(`default`),
+    d = i === `setup`,
+    f;
+  f =
+    l === "default"
+      ? d
+        ? r.setupScript
+        : r.cleanupScript
+      : d
+        ? (r.setupPlatformScripts[l] ?? ``)
+        : (r.cleanupPlatformScripts[l] ?? ``);
+  let m = null;
+  if (!s && d) {
+    let e;
+    (t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Z.jsx)(p, {
+          id: `settings.localEnvironments.editor.setup.description`,
+          defaultMessage: `Runs at the project root on worktree creation`,
+          description: `Description for environment setup script summary`,
+        })),
+        (t[0] = e))
+      : (e = t[0]),
+      (m = e));
+  } else if (!d) {
+    let e;
+    (t[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Z.jsx)(p, { ...Y.cleanupDescription })), (t[1] = e))
+      : (e = t[1]),
+      (m = e));
+  }
+  let h;
+  t[2] === d
+    ? (h = t[3])
+    : ((h = d ? (0, Z.jsx)(p, { ...Y.setupScript }) : (0, Z.jsx)(p, { ...Y.cleanupScript })),
+      (t[2] = d),
+      (t[3] = h));
+  let g;
+  t[4] !== n || t[5] !== m || t[6] !== h
+    ? ((g = (0, Z.jsx)(K.Header, { title: h, subtitle: m, actions: n })),
+      (t[4] = n),
+      (t[5] = m),
+      (t[6] = h),
+      (t[7] = g))
+    : (g = t[7]);
+  let _;
+  t[8] !== c || t[9] !== l || t[10] !== d || t[11] !== s
+    ? ((_ = s
+        ? null
+        : (0, Z.jsx)(bt, {
+            leadingOption: `default`,
+            selectedId: l,
+            onSelect: u,
+            ariaLabel: d
+              ? c.formatMessage(Y.setupPlatformSelector)
+              : c.formatMessage(Y.cleanupPlatformSelector),
+          })),
+      (t[8] = c),
+      (t[9] = l),
+      (t[10] = d),
+      (t[11] = s),
+      (t[12] = _))
+    : (_ = t[12]);
+  let v = `local-environment-${i}-script-${l}`,
+    y;
+  t[13] !== c || t[14] !== d
+    ? ((y = d
+        ? c.formatMessage(Y.setupScript)
+        : c.formatMessage({
+            id: `settings.localEnvironments.environment.cleanup.input`,
+            defaultMessage: `Cleanup script`,
+            description: `Accessible label for the local environment cleanup script input`,
+          })),
+      (t[13] = c),
+      (t[14] = d),
+      (t[15] = y))
+    : (y = t[15]);
+  let b;
+  t[16] !== c || t[17] !== i || t[18] !== l || t[19] !== s
+    ? ((b = s
+        ? c.formatMessage({
+            id: `settings.localEnvironments.editor.simpleSetup.placeholder`,
+            defaultMessage: `For example: npm install`,
+            description: `Example setup script placeholder for the compact local environment creation dialog`,
+          })
+        : ot(i, l)),
+      (t[16] = c),
+      (t[17] = i),
+      (t[18] = l),
+      (t[19] = s),
+      (t[20] = b))
+    : (b = t[20]);
+  let x;
+  t[21] !== o || t[22] !== i || t[23] !== l
+    ? ((x = (e) => {
+        o(i, l, e.target.value);
+      }),
+      (t[21] = o),
+      (t[22] = i),
+      (t[23] = l),
+      (t[24] = x))
+    : (x = t[24]);
+  let S;
+  t[25] !== f || t[26] !== v || t[27] !== y || t[28] !== b || t[29] !== x
+    ? ((S = (0, Z.jsx)(xe, {
+        variant: `code`,
+        id: v,
+        value: f,
+        "aria-label": y,
+        placeholder: b,
+        rows: 6,
+        onChange: x,
+      })),
+      (t[25] = f),
+      (t[26] = v),
+      (t[27] = y),
+      (t[28] = b),
+      (t[29] = x),
+      (t[30] = S))
+    : (S = t[30]);
+  let C;
+  t[31] !== _ || t[32] !== S
+    ? ((C = (0, Z.jsxs)(K.Content, { className: `gap-2`, children: [_, S] })),
+      (t[31] = _),
+      (t[32] = S),
+      (t[33] = C))
+    : (C = t[33]);
+  let w;
+  return (
+    t[34] !== C || t[35] !== g
+      ? ((w = (0, Z.jsxs)(K, { children: [g, C] })), (t[34] = C), (t[35] = g), (t[36] = w))
+      : (w = t[36]),
+    w
+  );
+}
+var Ot, kt, Z;
+function At() {
+  return (At = e(() => {
+    ((Ot = z()), (kt = U()), M(), G(), J(), mt(), Ct(), Ce(), (Z = B()));
+  }))();
+}
+function jt() {
+  let e = (0, Nt.c)(4),
+    t;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((t = (0, Q.jsx)(u, {
+        asChild: !0,
+        children: (0, Q.jsx)(n, {
+          color: `secondary`,
+          size: `toolbar`,
+          className: `w-auto`,
+          children: (0, Q.jsx)(p, {
+            id: `settings.localEnvironments.environment.setup.envVars.button`,
+            defaultMessage: `Variables`,
+            description: `Button label that opens the setup env vars popover`,
+          }),
+        }),
+      })),
+      (e[0] = t))
+    : (t = e[0]);
+  let r;
+  e[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Q.jsx)(ne, {
+        className: `px-2 py-1 text-sm font-medium text-default`,
+        children: (0, Q.jsx)(p, {
+          id: `settings.localEnvironments.environment.setup.envVars.title`,
+          defaultMessage: `Setup script environment variables`,
+          description: `Title for the setup env vars popover`,
+        }),
+      })),
+      (e[1] = r))
+    : (r = e[1]);
+  let i;
+  e[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsx)(Mt, {
+        description: (0, Q.jsx)(p, {
+          id: `settings.localEnvironments.environment.setup.envVars.sourcePath.description`,
+          defaultMessage: `Source workspace path`,
+          description: `Description for the source workspace setup env var`,
+        }),
+        variableName: oe,
+      })),
+      (e[2] = i))
+    : (i = e[2]);
+  let a;
+  return (
+    e[3] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((a = (0, Q.jsxs)(T, {
+          children: [
+            t,
+            (0, Q.jsxs)(o, {
+              align: `end`,
+              className: `w-80 max-w-[min(20rem,var(--radix-popover-content-available-width))] gap-1`,
+              children: [
+                r,
+                (0, Q.jsxs)(`div`, {
+                  className: `flex flex-col gap-1`,
+                  children: [
+                    i,
+                    (0, Q.jsx)(Mt, {
+                      variableName: V,
+                      description: (0, Q.jsx)(p, {
+                        id: `settings.localEnvironments.environment.setup.envVars.worktreePath.description`,
+                        defaultMessage: `New worktree path`,
+                        description: `Description for the worktree setup env var`,
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          ],
+        })),
+        (e[3] = a))
+      : (a = e[3]),
+    a
+  );
+}
+function Mt(e) {
+  let t = (0, Nt.c)(7),
+    { variableName: n, description: r } = e,
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = (0, Q.jsx)(`div`, { className: `text-sm text-secondary`, children: r })), (t[0] = r), (t[1] = i));
+  let a;
+  t[2] === n
+    ? (a = t[3])
+    : ((a = (0, Q.jsx)(`div`, {
+        className: `overflow-x-auto rounded-md border border-background-primary-soft bg-secondary-soft-alpha px-2 py-1.5`,
+        children: (0, Q.jsx)(`code`, {
+          className: `block text-xs font-medium whitespace-nowrap text-default`,
+          children: n,
+        }),
+      })),
+      (t[2] = n),
+      (t[3] = a));
+  let o;
+  return (
+    t[4] !== i || t[5] !== a
+      ? ((o = (0, Q.jsxs)(`div`, {
+          className: `flex flex-col gap-0.5 rounded-lg px-2 py-1`,
+          children: [i, a],
+        })),
+        (t[4] = i),
+        (t[5] = a),
+        (t[6] = o))
+      : (o = t[6]),
+    o
+  );
+}
+var Nt, Q;
+function Pt() {
+  return (Pt = e(() => {
+    ((Nt = z()), ge(), M(), R(), ee(), (Q = B()));
+  }))();
+}
+function Ft(e) {
+  let t = (0, Bt.c)(70),
+    {
+      hostId: r,
+      workspaceRoot: i,
+      resolvedProject: a,
+      configPath: o,
+      expectedRevision: s,
+      initialEnvironment: l,
+      hasParseError: u,
+      hasReadError: d,
+      onDirtyChange: f,
+      onDiscardConflict: m,
+      onRetryRead: g,
+      onSavingChange: _,
+      onSaved: v,
+      simpleSetup: b,
+    } = e,
+    x = b !== void 0 && b,
+    S = h(c),
+    C = te(),
+    w;
+  t[0] !== o || t[1] !== s || t[2] !== u || t[3] !== l || t[4] !== C || t[5] !== i
+    ? ((w = () => ({
+        configPath: o,
+        draft: nt(
+          l == null
+            ? { defaultName: Se(i) ?? C.formatMessage(Y.defaultEnvironmentName) }
+            : { environment: l },
+        ),
+        hasParseError: u,
+        revision: s,
+        version: l?.version ?? 1,
+      })),
+      (t[0] = o),
+      (t[1] = s),
+      (t[2] = u),
+      (t[3] = l),
+      (t[4] = C),
+      (t[5] = i),
+      (t[6] = w))
+    : (w = t[6]);
+  let [T] = (0, Ht.useState)(w),
+    { data: E, error: ee, refetch: ne } = Ne(r),
+    D = E?.codexHome,
+    ie;
+  t[7] !== D || t[8] !== E?.worktreesSegment || t[9] !== a?.isCodexWorktree || t[10] !== i
+    ? ((ie = a?.isCodexWorktree === !0 || (D != null && ce(i, D, E?.worktreesSegment))),
+      (t[7] = D),
+      (t[8] = E?.worktreesSegment),
+      (t[9] = a?.isCodexWorktree),
+      (t[10] = i),
+      (t[11] = ie))
+    : (ie = t[11]);
+  let O = ie,
+    k = We(r),
+    oe = re(Ve),
+    se;
+  t[12] !== k || t[13] !== i
+    ? ((se = { cwd: i, hostConfig: k }), (t[12] = k), (t[13] = i), (t[14] = se))
+    : (se = t[14]);
+  let A;
+  t[15] === oe ? (A = t[16]) : ((A = { retainRepoWatch: oe }), (t[15] = oe), (t[16] = A));
+  let { data: j, error: ue, refetch: M } = ke(se, `local_environment_editor`, A),
+    N;
+  t[17] !== r || t[18] !== i
+    ? ((N = { hostId: r, workspaceRoot: i }), (t[17] = r), (t[18] = i), (t[19] = N))
+    : (N = t[19]);
+  let { updateSelection: de } = De(N),
+    fe;
+  t[20] !== j || t[21] !== k || t[22] !== S
+    ? ((fe = {
+        onSuccess: (e, t) => {
+          e.success && j && we(S, j, k, t.value, `local_environment_editor`);
+        },
+      }),
+      (t[20] = j),
+      (t[21] = k),
+      (t[22] = S),
+      (t[23] = fe))
+    : (fe = t[23]);
+  let pe = Fe(`set-config-value`, k, fe),
+    [P, me] = (0, Ht.useState)(T.revision == null),
+    [F, ge] = (0, Ht.useState)(!1),
+    I = P && ((a == null && ee != null) || (O && ue != null)),
+    _e = !P || ((a != null || D != null) && (!O || j?.root != null)),
+    L;
+  t[24] !== O ||
+  t[25] !== T.configPath ||
+  t[26] !== T.revision ||
+  t[27] !== T.version ||
+  t[28] !== j?.root ||
+  t[29] !== r ||
+  t[30] !== P ||
+  t[31] !== S ||
+  t[32] !== pe ||
+  t[33] !== de ||
+  t[34] !== i
+    ? ((L = (e) =>
+        ht({
+          configPath: T.configPath,
+          draft: e,
+          expectedRevision: T.revision,
+          hostId: r,
+          queryClient: S.queryClient,
+          selectEnvironment: P
+            ? (e) =>
+                gt({
+                  codexWorktree: O,
+                  configPath: e,
+                  gitRoot: j?.root ?? null,
+                  selectForWorkspace: de,
+                  selectForWorktree: async (e, t) =>
+                    (
+                      await pe
+                        .mutateAsync({
+                          root: e,
+                          key: ae,
+                          operationSource: `local_environment_editor`,
+                          value: t,
+                          scope: `worktree`,
+                        })
+                        .catch(Lt)
+                    )?.success === !0,
+                })
+            : void 0,
+          version: T.version,
+          workspaceRoot: i,
+        })),
+      (t[24] = O),
+      (t[25] = T.configPath),
+      (t[26] = T.revision),
+      (t[27] = T.version),
+      (t[28] = j?.root),
+      (t[29] = r),
+      (t[30] = P),
+      (t[31] = S),
+      (t[32] = pe),
+      (t[33] = de),
+      (t[34] = i),
+      (t[35] = L))
+    : (L = t[35]);
+  let R, z;
+  t[36] === _
+    ? ((R = t[37]), (z = t[38]))
+    : ((z = () => {
+        _?.(!0);
+      }),
+      (R = () => {
+        _?.(!1);
+      }),
+      (t[36] = _),
+      (t[37] = R),
+      (t[38] = z));
+  let be;
+  t[39] !== R || t[40] !== L || t[41] !== z
+    ? ((be = { mutationFn: L, networkMode: `always`, onMutate: z, onSettled: R }),
+      (t[39] = R),
+      (t[40] = L),
+      (t[41] = z),
+      (t[42] = be))
+    : (be = t[42]);
+  let B = y(be),
+    V = qe({
+      defaultValues: T.draft,
+      onSubmit: (e) => {
+        let { value: t } = e;
+        if (B.data?.type === `conflict`) {
+          m();
+          return;
+        }
+        (!x || t.setupScript.trim()) &&
+          Rt({
+            isDirty: V.state.isDirty || T.revision == null || T.hasParseError,
+            isSelectionReady: _e,
+            readError: d,
+            selectionError: I,
+            isSaving: B.isPending,
+            validation: at(t.name, t.actions),
+          }) == null &&
+          B.mutate(t, {
+            onSuccess: (e) => {
+              if (e.type !== `invalid`) {
+                if (e.type === `conflict`) {
+                  S.get(le).danger(
+                    C.formatMessage({
+                      id: `settings.localEnvironments.save.conflict`,
+                      defaultMessage: `This environment changed on disk. Discard your edits before saving again`,
+                      description: `Error toast shown when an environment changed after the editor loaded it`,
+                    }),
+                    { errorAnalytics: { toastId: `settings.localEnvironments.save.conflict` } },
+                  );
+                  return;
+                }
+                (P && me(!1),
+                  e.type === `selection-failed`
+                    ? S.get(le).danger(
+                        C.formatMessage({
+                          id: `settings.localEnvironments.save.selectionError`,
+                          defaultMessage: `Saved the environment file, but could not select it`,
+                          description: `Error toast shown when a new local environment cannot be selected after saving`,
+                        }),
+                        { errorAnalytics: { toastId: `settings.localEnvironments.save.selectionError` } },
+                      )
+                    : S.get(le).success(
+                        C.formatMessage({
+                          id: `settings.localEnvironments.save.success`,
+                          defaultMessage: `Saved local environment`,
+                          description: `Toast shown when local environment is saved`,
+                        }),
+                      ),
+                  v(e.configPath, e.type === `selection-failed` ? void 0 : t));
+              }
+            },
+          });
+      },
+    }),
+    H;
+  t[43] === V
+    ? (H = t[44])
+    : ((H = (e) => {
+        (e.preventDefault(), V.handleSubmit());
+      }),
+      (t[43] = V),
+      (t[44] = H));
+  let U;
+  t[45] !== F ||
+  t[46] !== T.draft ||
+  t[47] !== T.hasParseError ||
+  t[48] !== T.revision ||
+  t[49] !== T.version ||
+  t[50] !== V ||
+  t[51] !== d ||
+  t[52] !== _e ||
+  t[53] !== f ||
+  t[54] !== m ||
+  t[55] !== g ||
+  t[56] !== ne ||
+  t[57] !== M ||
+  t[58] !== B.data?.type ||
+  t[59] !== B.error ||
+  t[60] !== B.isPending ||
+  t[61] !== I ||
+  t[62] !== x
+    ? ((U = (e) => {
+        let { values: t, isDirty: r } = e,
+          i = (e) => {
+            f?.(!(0, Vt.default)(e, T.draft));
+          },
+          a = at(t.name, t.actions),
+          o = Rt({
+            isDirty: r || T.revision == null || T.hasParseError,
+            isSelectionReady: _e,
+            readError: d,
+            selectionError: I,
+            isSaving: B.isPending,
+            validation: a,
+          }),
+          s = B.data?.type === `conflict`,
+          c = s ? null : zt(o),
+          l = (e, n, r) => {
+            if (n === "default") {
+              let n = e === `setup` ? `setupScript` : `cleanupScript`,
+                a = { ...t, [n]: r };
+              (V.setFieldValue(n, r), i(a));
+              return;
+            }
+            let a = e === `setup` ? `setupPlatformScripts` : `cleanupPlatformScripts`,
+              o = { ...t[a], [n]: r },
+              s = { ...t, [a]: o };
+            (V.setFieldValue(a, o), i(s));
+          },
+          u = (0, $.jsxs)($.Fragment, {
+            children: [
+              (0, $.jsx)(he, {
+                children: (0, $.jsx)(ye, {
+                  variant: `stacked`,
+                  label: (0, $.jsx)(`label`, {
+                    htmlFor: `local-environment-name`,
+                    children: (0, $.jsx)(p, { ...Y.environmentName }),
+                  }),
+                  control: (0, $.jsxs)(`div`, {
+                    className: `flex flex-col gap-1`,
+                    children: [
+                      (0, $.jsx)(Ae, {
+                        id: `local-environment-name`,
+                        value: t.name,
+                        "aria-describedby": a.missingName ? Ut : void 0,
+                        "aria-invalid": a.missingName,
+                        onChange: (e) => {
+                          let n = e.target.value;
+                          (V.setFieldValue(`name`, n), i({ ...t, name: n }));
+                        },
+                      }),
+                      a.missingName
+                        ? (0, $.jsx)(`div`, {
+                            id: Ut,
+                            className: `text-xs text-danger`,
+                            children: (0, $.jsx)(p, {
+                              id: `settings.localEnvironments.editor.nameRequired`,
+                              defaultMessage: `Enter an environment name`,
+                              description: `Inline validation for a missing local environment name`,
+                            }),
+                          })
+                        : null,
+                    ],
+                  }),
+                }),
+              }),
+              (0, $.jsx)(Dt, {
+                actions: (0, $.jsx)(jt, {}),
+                draft: t,
+                scriptType: `setup`,
+                onScriptChange: l,
+              }),
+              (0, $.jsx)(Dt, { draft: t, scriptType: `cleanup`, onScriptChange: l }),
+              (0, $.jsx)(wt, {
+                actions: t.actions,
+                dropdownDisabled: B.isPending,
+                incompleteActionIds: a.incompleteActionIds,
+                onChange: (e) => {
+                  (V.setFieldValue(`actions`, e), i({ ...t, actions: e }));
+                },
+              }),
+              null,
+            ],
+          });
+        return (0, $.jsxs)(`fieldset`, {
+          className: `contents`,
+          "aria-busy": B.isPending || void 0,
+          disabled: B.isPending,
+          children: [
+            (0, $.jsx)(K, {
+              children: (0, $.jsxs)(K.Content, {
+                className: `gap-[var(--padding-panel)]`,
+                children: [
+                  T.hasParseError
+                    ? (0, $.jsx)(`div`, {
+                        className: `text-sm text-danger`,
+                        role: `alert`,
+                        children: (0, $.jsx)(p, { ...Ge.parseError }),
+                      })
+                    : null,
+                  d
+                    ? (0, $.jsxs)(`div`, {
+                        className: `flex items-center justify-between gap-3 text-sm text-danger`,
+                        role: `alert`,
+                        children: [
+                          (0, $.jsx)(`span`, { children: (0, $.jsx)(p, { ...Ge.readError }) }),
+                          (0, $.jsx)(n, {
+                            color: `secondary`,
+                            size: `toolbar`,
+                            type: `button`,
+                            onClick: g,
+                            children: (0, $.jsx)(p, { ...Ge.retry }),
+                          }),
+                        ],
+                      })
+                    : null,
+                  I
+                    ? (0, $.jsx)(he, {
+                        children: (0, $.jsx)(ye, {
+                          label: (0, $.jsx)(`div`, {
+                            className: `text-sm text-danger`,
+                            children: (0, $.jsx)(p, {
+                              id: `settings.localEnvironments.projectInfo.error`,
+                              defaultMessage: `Could not load project information`,
+                              description: `Error shown when project information required to save an environment cannot be loaded`,
+                            }),
+                          }),
+                          control: (0, $.jsx)(n, {
+                            color: `secondary`,
+                            size: `toolbar`,
+                            type: `button`,
+                            onClick: () => {
+                              Promise.all([ne(), M()]);
+                            },
+                            children: (0, $.jsx)(p, {
+                              id: `settings.localEnvironments.projectInfo.retry`,
+                              defaultMessage: `Retry`,
+                              description: `Button label to retry loading project information`,
+                            }),
+                          }),
+                        }),
+                      })
+                    : null,
+                ],
+              }),
+            }),
+            x && !F
+              ? (0, $.jsx)(Dt, { draft: t, scriptType: `setup`, simpleSetup: !0, onScriptChange: l })
+              : null,
+            x
+              ? (0, $.jsx)(Be, {
+                  collapsible: !0,
+                  defaultOpen: !1,
+                  title: (0, $.jsx)(p, {
+                    id: `settings.localEnvironments.editor.advancedSetup`,
+                    defaultMessage: `Advanced options`,
+                    description: `Collapsible section containing the complete manual local environment editor`,
+                  }),
+                  onOpenChange: ge,
+                  children: F ? u : null,
+                })
+              : u,
+            s &&
+              (0, $.jsx)(`div`, {
+                className: `text-sm text-danger`,
+                role: `alert`,
+                children: (0, $.jsx)(p, {
+                  id: `settings.localEnvironments.preview.saveConflict`,
+                  defaultMessage: `This environment changed on disk. Continuing will discard your unsaved edits`,
+                  description: `Warning shown when resolving an environment save conflict will discard the current draft`,
+                }),
+              }),
+            !s &&
+              B.error != null &&
+              (0, $.jsx)(`div`, {
+                className: `text-sm text-danger`,
+                role: `alert`,
+                children: (0, $.jsx)(p, {
+                  id: `settings.localEnvironments.preview.saveFailure`,
+                  defaultMessage: `Could not save the environment. Try again`,
+                  description: `Error message when saving a local environment file fails with guidance to retry`,
+                }),
+              }),
+            (0, $.jsx)(`div`, {
+              className: `flex justify-end gap-2`,
+              children: (0, $.jsx)(ve, {
+                disabled: c == null,
+                tooltipContent: c,
+                children: (0, $.jsx)(`span`, {
+                  className: `inline-flex`,
+                  children: (0, $.jsxs)(n, {
+                    "aria-busy": B.isPending || void 0,
+                    color: `primary`,
+                    size: `toolbar`,
+                    type: s ? `button` : `submit`,
+                    disabled: !s && (o != null || (x && !t.setupScript.trim())),
+                    loading: B.isPending,
+                    onClick: s
+                      ? () => {
+                          m();
+                        }
+                      : void 0,
+                    children: [
+                      s &&
+                        (0, $.jsx)(p, {
+                          id: `settings.localEnvironments.preview.discardAndReload`,
+                          defaultMessage: `Discard edits`,
+                          description: `Button label to discard unsaved environment edits after a save conflict`,
+                        }),
+                      !s &&
+                        B.error != null &&
+                        (0, $.jsx)(p, {
+                          id: `settings.localEnvironments.preview.retrySave`,
+                          defaultMessage: `Retry save`,
+                          description: `Button label to retry saving a local environment file`,
+                        }),
+                      !s && B.error == null && x
+                        ? (0, $.jsx)(p, {
+                            id: `settings.localEnvironments.editor.saveSimpleSetup`,
+                            defaultMessage: `Set up project`,
+                            description: `Button that saves and activates a reusable local environment from the compact setup-script dialog`,
+                          })
+                        : null,
+                      !s && B.error == null && !x
+                        ? (0, $.jsx)(p, {
+                            id: `settings.localEnvironments.preview.save`,
+                            defaultMessage: `Save`,
+                            description: `Save button label for local environment file`,
+                          })
+                        : null,
+                    ],
+                  }),
+                }),
+              }),
+            }),
+          ],
+        });
+      }),
+      (t[45] = F),
+      (t[46] = T.draft),
+      (t[47] = T.hasParseError),
+      (t[48] = T.revision),
+      (t[49] = T.version),
+      (t[50] = V),
+      (t[51] = d),
+      (t[52] = _e),
+      (t[53] = f),
+      (t[54] = m),
+      (t[55] = g),
+      (t[56] = ne),
+      (t[57] = M),
+      (t[58] = B.data?.type),
+      (t[59] = B.error),
+      (t[60] = B.isPending),
+      (t[61] = I),
+      (t[62] = x),
+      (t[63] = U))
+    : (U = t[63]);
+  let W;
+  t[64] !== V.Subscribe || t[65] !== U
+    ? ((W = (0, $.jsx)(V.Subscribe, { selector: It, children: U })),
+      (t[64] = V.Subscribe),
+      (t[65] = U),
+      (t[66] = W))
+    : (W = t[66]);
+  let G;
+  return (
+    t[67] !== H || t[68] !== W
+      ? ((G = (0, $.jsx)(`form`, {
+          className: `flex flex-col gap-[var(--padding-panel)]`,
+          onSubmit: H,
+          children: W,
+        })),
+        (t[67] = H),
+        (t[68] = W),
+        (t[69] = G))
+      : (G = t[69]),
+    G
+  );
+}
+function It(e) {
+  return { values: e.values, isDirty: e.isDirty };
+}
+function Lt() {
+  return null;
+}
+function Rt({
+  isDirty: e,
+  isSelectionReady: t,
+  readError: n,
+  selectionError: r,
+  isSaving: i,
+  validation: a,
+}) {
+  return i
+    ? `saving`
+    : t
+      ? n
+        ? `read-error`
+        : a.missingName
+          ? `missing-name`
+          : a.incompleteActionIds.length > 0
+            ? `incomplete-action`
+            : e
+              ? null
+              : `no-changes`
+      : r
+        ? `project-error`
+        : `loading-project`;
+}
+function zt(e) {
+  if (e == null) return null;
+  switch (e) {
+    case `incomplete-action`:
+      return (0, $.jsx)(p, {
+        id: `settings.localEnvironments.save.disabled.incompleteAction`,
+        defaultMessage: `Add both a name and command for each action`,
+        description: `Tooltip shown when save is disabled because an action is incomplete`,
+      });
+    case `loading-project`:
+      return (0, $.jsx)(p, {
+        id: `settings.localEnvironments.save.disabled.loadingProject`,
+        defaultMessage: `Loading project information`,
+        description: `Tooltip shown when save is disabled while project information loads`,
+      });
+    case `missing-name`:
+      return (0, $.jsx)(p, {
+        id: `settings.localEnvironments.save.disabled.name`,
+        defaultMessage: `Add an environment name to save`,
+        description: `Tooltip shown when save is disabled because the name is missing`,
+      });
+    case `no-changes`:
+      return (0, $.jsx)(p, {
+        id: `settings.localEnvironments.save.disabled.noChanges`,
+        defaultMessage: `No changes to save`,
+        description: `Tooltip shown when save is disabled because there are no changes`,
+      });
+    case `project-error`:
+      return (0, $.jsx)(p, {
+        id: `settings.localEnvironments.save.disabled.projectError`,
+        defaultMessage: `Retry loading project information to save`,
+        description: `Tooltip shown when save is disabled because project information failed to load`,
+      });
+    case `read-error`:
+      return (0, $.jsx)(p, {
+        id: `settings.localEnvironments.save.disabled.readError`,
+        defaultMessage: `Retry loading the environment before saving`,
+        description: `Tooltip shown when save is disabled because the environment could not be read`,
+      });
+    case `saving`:
+      return (0, $.jsx)(p, {
+        id: `settings.localEnvironments.save.disabled.saving`,
+        defaultMessage: `Saving…`,
+        description: `Tooltip shown when save is disabled because a save is already in progress`,
+      });
+  }
+}
+var Bt, Vt, Ht, $, Ut;
+function Wt() {
+  return (Wt = e(() => {
+    ((Bt = z()),
+      Je(),
+      m(),
+      (Vt = t(d(), 1)),
+      S(),
+      ge(),
+      (Ht = U()),
+      M(),
+      R(),
+      _e(),
+      Ue(),
+      G(),
+      de(),
+      A(),
+      Te(),
+      Ie(),
+      Ee(),
+      je(),
+      Et(),
+      J(),
+      mt(),
+      _t(),
+      Ke(),
+      Le(),
+      be(),
+      Ce(),
+      ue(),
+      g(),
+      He(),
+      At(),
+      Pt(),
+      ($ = B()),
+      (Ut = `local-environment-name-error`));
+  }))();
+}
+export {
+  $e as _,
+  bt as a,
+  ht as c,
+  rt as d,
+  nt as f,
+  Ye as g,
+  tt as h,
+  Pt as i,
+  mt as l,
+  et as m,
+  Wt as n,
+  Ct as o,
+  J as p,
+  jt as r,
+  _t as s,
+  Ft as t,
+  Y as u,
+};
+//# sourceMappingURL=local-environment-editor-e16d20074fb4.js.map

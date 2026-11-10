@@ -1,0 +1,61 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { Bst as t, zst as n } from "./app-shared-2feb3d4c6fcc.js";
+import {
+  Hmr as r,
+  Rmr as i,
+  Xmr as a,
+  ghr as o,
+  iRr as s,
+  phr as c,
+  sRr as l,
+  vhr as u,
+} from "./app-initial-ad16eaadf81f.js";
+function d(e, t) {
+  return {
+    queryKey: [`mcp-settings`, `app-connect`, `tos`, e, t],
+    staleTime: n.FIVE_MINUTES,
+    queryFn: ({ signal: n }) =>
+      s.safeGet(`/aip/connectors/{connector_id}/tos`, {
+        surface: `connector_setup`,
+        parameters: { path: { connector_id: e } },
+        additionalHeaders: { [c]: t },
+        signal: n,
+      }),
+  };
+}
+function f(e) {
+  return e.some((e) => e.id === `app-data-sharing`);
+}
+function p(e, t, n) {
+  return {
+    queryKey: [`app-connect-mfa-requirement`, t, n, e],
+    enabled: t != null && n != null,
+    staleTime: 0,
+    retry: !1,
+    refetchOnMount: `always`,
+    refetchOnWindowFocus: `always`,
+    queryFn: async ({ signal: r }) => {
+      if (t == null || n == null) throw Error(`Connection requires an active account`);
+      return (
+        await s.safeGet(`/aip/connectors/{connector_id}/mfa_requirement`, {
+          surface: `connector_setup`,
+          parameters: { path: { connector_id: e } },
+          additionalHeaders: { "ChatGPT-Account-ID": t },
+          expectedIdentity: { accountId: t, userId: n },
+          signal: r,
+        })
+      ).requirement;
+    },
+  };
+}
+function m(e, t, n) {
+  let a = o(t, n);
+  (e.prefetchQuery(i(t, { productSku: a?.productSku })), e.prefetchQuery(d(t, a?.productSku ?? r())));
+}
+function h() {
+  return (h = e(() => {
+    (t(), l(), a(), u());
+  }))();
+}
+export { m as a, h as i, d as n, f as r, p as t };
+//# sourceMappingURL=app-connect-queries-f7767476a146.js.map

@@ -1,0 +1,2870 @@
+{
+ "module": "writing",
+ "generated_at": "2026-11-09T07:51:29.525Z",
+ "files_scanned": 5,
+ "message_count": 206,
+ "messages": [
+  {
+   "id": "appConnectModal.loadError",
+   "text": "Couldn’t open app connection",
+   "description": "Title when downloading the app connection dialog fails after retrying",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "apps.disable.success",
+   "text": "{appName} app disabled",
+   "description": "Toast shown after successfully disabling an app",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "apps.enable.success",
+   "text": "{appName} app enabled",
+   "description": "Toast shown after successfully enabling an app",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "apps.update.error",
+   "text": "Failed to update app",
+   "description": "Toast shown when enabling or disabling an app fails",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.heading",
+   "text": "Comments",
+   "description": "Heading of the sidebar containing native file comments and persistent ChatGPT comment threads; leave the product name ChatGPT unchanged",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.openInLibrary",
+   "text": "Open in Library",
+   "description": "Artifact title menu action for opening the saved artifact in Library",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.openInLibrary.space",
+   "text": "Open in Space",
+   "description": "Artifact title menu action for opening the saved artifact in Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.button.cancel",
+   "text": "Cancel",
+   "description": "Button label in the app connection dialog for closing it after connector details requested by the user failed to load. Keep this short; there are no placeholders.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.button.retry",
+   "text": "Retry",
+   "description": "Button label in the app connection dialog for retrying connector details that failed to load after an end user requested an app connection. Keep this short; there are no placeholders.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.description",
+   "text": "Try again, or cancel and return to the previous page",
+   "description": "Actionable error explanation in the app connection dialog shown to an end user when connector details requested by the user could not be loaded. The dialog offers Retry and Cancel buttons. Keep this concise; there are no placeholders.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.title",
+   "text": "Couldn’t load connector",
+   "description": "Error heading in the app connection dialog shown to an end user when connector details requested by the user could not be loaded. Keep this concise and nontechnical; there are no placeholders.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loading.description",
+   "text": "Loading connection details…",
+   "description": "Status message in the app connection dialog shown to an end user while connector details are loading. Keep this concise; there are no placeholders.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loading.title",
+   "text": "Connect app",
+   "description": "Title of the dialog shown to an end user while app connection details requested by the user are loading. Keep this concise; there are no placeholders.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.dropdown.ariaLabel",
+   "text": "Open email in app",
+   "description": "Accessible label for a dropdown in a Codex Apps Quick Chat email writing block. Users choose Gmail, Outlook, or their default email app; this label is not visible text.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.default.ariaLabel",
+   "text": "Open email using default email app",
+   "description": "Accessible label for the default-app option in the open-in-email dropdown of a Codex Apps Quick Chat writing block.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.default.label",
+   "text": "Default email app",
+   "description": "Provider option in the open-in-email dropdown of a Codex Apps Quick Chat writing block. It launches the operating system's configured mail app.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.gmail.ariaLabel",
+   "text": "Open email using Gmail",
+   "description": "Accessible label for the Gmail option in the open-in-email dropdown of a Codex Apps Quick Chat writing block.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.gmail.label",
+   "text": "Gmail",
+   "description": "Short provider option in the open-in-email dropdown of a Codex Apps Quick Chat writing block.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.outlook.ariaLabel",
+   "text": "Open email using Outlook",
+   "description": "Accessible label for the Outlook option in the open-in-email dropdown of a Codex Apps Quick Chat writing block.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.outlook.label",
+   "text": "Outlook",
+   "description": "Short provider option in the open-in-email dropdown of a Codex Apps Quick Chat writing block.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.tooltip",
+   "text": "Open in email",
+   "description": "Tooltip for an action in a Codex Apps Quick Chat email writing block. The action opens the draft in the user's email provider with its fields prefilled.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.sender.field.label",
+   "text": "From",
+   "description": "Short field label identifying the sender account in an email writing block shown in Codex Apps Quick Chat. It appears to the left of the account without punctuation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.sender.selector.ariaLabel",
+   "text": "Select the email account to send from",
+   "description": "Accessible label for the sender-account selector in an email writing block shown in Codex Apps Quick Chat. Users choose which connected Gmail or Outlook account sends the message; this label is not visible text.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailAccountsLoading",
+   "text": "Loading email accounts",
+   "description": "Accessible label shown while connected email accounts load for a writing block in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailConnect",
+   "text": "Connect email",
+   "description": "Button in a Codex Apps email writing block shown when no Gmail or Outlook account is connected. Selecting it opens the provider connection flow so the user can send the draft.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailReconnect",
+   "text": "Reconnect email",
+   "description": "Button in a Codex Apps email writing block shown when the selected Gmail or Outlook account needs authentication again. Selecting it opens the provider connection flow.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSend",
+   "text": "Send",
+   "description": "Button label for sending an email from a writing block in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSendAs",
+   "text": "Send as {email}",
+   "description": "Accessible label for sending a writing block email from a connected account in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSendFailed",
+   "text": "Couldn't send this email",
+   "description": "Error toast shown when sending a writing block email fails in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSending",
+   "text": "Sending",
+   "description": "Button label shown while a writing block email is sending in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSendMissingRecipients",
+   "text": "Add at least one valid email recipient before sending.",
+   "description": "Tooltip on the disabled Send button in a Codex Apps email writing block when the To, Cc, and Bcc fields contain no valid email address. Tells the email author how to enable sending and matches ChatGPT's missing-recipient toast.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSent",
+   "text": "Sent",
+   "description": "Label shown after a writing block email was sent in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailUndoFailed",
+   "text": "Couldn't undo sending this email",
+   "description": "Error toast shown when undoing a writing block email send fails in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailUndoSend",
+   "text": "Undo send",
+   "description": "Button label for undoing a writing block email send in Codex Apps.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.menuItem",
+   "text": "File info",
+   "description": "Short action label in a file preview title menu. Selecting it opens a panel with metadata for the current file.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.title",
+   "text": "File info",
+   "description": "Short heading and accessible name for the panel that shows metadata for the current file.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.chatgpt",
+   "text": "ChatGPT",
+   "description": "Name of ChatGPT shown as the author of a saved Library file version",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.close",
+   "text": "Close version history",
+   "description": "Closes the Library file version history side panel and returns to the current file preview",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.collaborator",
+   "text": "Collaborator",
+   "description": "Neutral name shown when another person authored a saved Library file version but their identity has not been verified for display",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.currentVersion",
+   "text": "Current version",
+   "description": "Identifies the current saved version of a Library file",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.empty",
+   "text": "No saved versions",
+   "description": "Empty state in a Library file version-history panel when the file has no saved versions",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.loadFailed",
+   "text": "Couldn’t load version history",
+   "description": "Error shown when saved versions for a Library file cannot be loaded",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.loading",
+   "text": "Loading version history…",
+   "description": "Accessible status announced while Library file version history loads",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.retry",
+   "text": "Retry",
+   "description": "Button that retries loading saved versions for a Library file",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.showMore",
+   "text": "Show more",
+   "description": "Button that loads older saved versions for a Library file",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.title",
+   "text": "Version history",
+   "description": "Title-menu action that opens a side panel with a Library file's saved versions",
+   "files": [
+    "400481.351dd8d323.js",
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.today",
+   "text": "Today",
+   "description": "Day heading above Library file versions created today",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.version",
+   "text": "Version {version}",
+   "description": "Accessible label for one saved Library file version; version is its numeric revision number",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.versionKind",
+   "text": "{action, select, create {Created} restore {Restored} other {Edited}}",
+   "description": "Short status beneath a historical Library file version describing whether it was created, restored, or edited",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.yesterday",
+   "text": "Yesterday",
+   "description": "Day heading above Library file versions created yesterday",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.actions.moreActions",
+   "text": "More actions",
+   "description": "Tooltip and accessible label for the overflow menu in an expanded Codex Apps writing block editor. The menu contains Copy and Download actions.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseCancel",
+   "text": "Cancel",
+   "description": "Cancel leaving an expanded writing block with pending AI edits.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseConfirm",
+   "text": "Close",
+   "description": "Confirm leaving an expanded writing block with pending AI edits.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmClosePendingEdits",
+   "text": "You have pending edits - are you sure you want to close?",
+   "description": "Confirmation before closing or replacing an expanded writing block with an in-progress or unresolved AI edit, matching ChatGPT.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseTitle",
+   "text": "Close editor?",
+   "description": "Title of the confirmation dialog when leaving an expanded writing block with pending AI edits.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.documentTabTitle",
+   "text": "Document",
+   "description": "Title of a document writing block tab when the document has no title.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.error",
+   "text": "Download failed",
+   "description": "Error toast shown when downloading a Codex Apps document writing block as a PDF or Microsoft Word file fails.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.label",
+   "text": "Download",
+   "description": "Tooltip and accessible name for the download menu in a Codex Apps document writing block. The menu offers Markdown, PDF, and Microsoft Word formats when available.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.markdown",
+   "text": "Markdown document",
+   "description": "Menu item that downloads a Codex Apps document writing block as a Markdown file with the .md extension.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.pdf",
+   "text": "PDF document",
+   "description": "Menu item that downloads a Codex Apps document writing block as a PDF file with the .pdf extension.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.word",
+   "text": "Microsoft Word",
+   "description": "Menu item that downloads a Codex Apps document writing block as a Microsoft Word file with the .docx extension.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.editor.placeholder",
+   "text": "Start writing",
+   "description": "Placeholder in an editable writing block shared by local Codex threads and Quick Chat. It prompts the user to begin entering the writing block's content.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.header.title.fallback",
+   "text": "Email",
+   "description": "Short fallback title in the header of an email writing block shared by local Codex threads and Quick Chat when the block does not provide a custom title.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.avatar.ariaLabel",
+   "text": "Profile avatar",
+   "description": "Accessible label for a recipient's profile avatar in a Codex Apps email writing block contact chip or suggestion. It is not visible text.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.copy.ariaLabel.action",
+   "text": "Copy email address",
+   "description": "Accessible label for the button that copies a recipient's email address from a contact card in a Codex Apps email writing block. It is not visible text.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.copy.ariaLabel.copied",
+   "text": "Copied email address",
+   "description": "Accessible confirmation label on a recipient contact card after the user copies its email address in a Codex Apps email writing block. It is not visible text.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.remove.ariaLabel",
+   "text": "Remove {recipient}",
+   "description": "Accessible label for the button that removes a recipient chip from a Codex Apps email writing block. Placeholder {recipient} is the displayed contact name or email address; this label is not visible text.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.empty.placeholder",
+   "text": "Recipients",
+   "description": "Placeholder in the collapsed recipient row of a shared Codex Apps email writing block used by local Codex threads and Quick Chat. It appears when the To, Cc, and Bcc fields are all empty.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.field.bcc.label",
+   "text": "Bcc",
+   "description": "Short field label for the blind-carbon-copy recipient line in a shared Codex Apps email writing block used by local Codex threads and Quick Chat. It appears to the left of the recipient input without punctuation; use the locale's standard abbreviation.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.field.cc.label",
+   "text": "Cc",
+   "description": "Short field label for the carbon-copy recipient line in a shared Codex Apps email writing block used by local Codex threads and Quick Chat. It appears to the left of the recipient input without punctuation; use the locale's standard abbreviation.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.field.to.label",
+   "text": "To",
+   "description": "Short field label for the primary recipient line in a shared Codex Apps email writing block used by local Codex threads and Quick Chat. It appears to the left of the recipient input without punctuation; use the locale's standard email-client label.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.input.ariaLabel.bcc",
+   "text": "Bcc recipients",
+   "description": "Accessible label for the Bcc recipient input in a Codex Apps email writing block. Users type or select blind-carbon-copy recipients here; this label is announced by assistive technology and is not visible.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.input.ariaLabel.cc",
+   "text": "Cc recipients",
+   "description": "Accessible label for the Cc recipient input in a Codex Apps email writing block. Users type or select carbon-copy recipients here; this label is announced by assistive technology and is not visible.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.input.ariaLabel.to",
+   "text": "To recipients",
+   "description": "Accessible label for the To recipient input in a Codex Apps email writing block. Users type or select the primary email recipients here; this label is announced by assistive technology and is not visible.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.toggle.bcc.label",
+   "text": "Bcc",
+   "description": "Short button label that reveals the blind-carbon-copy recipient line in a shared Codex Apps email writing block used by local Codex threads and Quick Chat. Use the locale's standard abbreviation.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.toggle.cc.label",
+   "text": "Cc",
+   "description": "Short button label that reveals the carbon-copy recipient line in a shared Codex Apps email writing block used by local Codex threads and Quick Chat. Use the locale's standard abbreviation.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.subject.field.label",
+   "text": "Subject",
+   "description": "Short field label for the subject line in a shared Codex Apps email writing block used by local Codex threads and Quick Chat. The label may also prefix copied subject text.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.description",
+   "text": "Tell us what’s working and what’s not. The more specific the feedback, the better",
+   "description": "Helper text above the writing-block feedback input in Codex Apps. It asks the user to describe what works and what does not, and encourages concrete feedback.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.inputLabel",
+   "text": "Additional feedback",
+   "description": "Accessible name for the writing-block feedback text area in Codex Apps. Users enter what they liked or disliked about the writing-block editor.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.placeholder",
+   "text": "What did you like or dislike?",
+   "description": "Placeholder in the writing-block feedback text area in Codex Apps. It asks the user to explain what they liked or disliked about the editor.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.submit",
+   "text": "Share feedback",
+   "description": "Label for the submit button in the writing-block feedback form in Codex Apps. It sends the user’s written feedback about the writing-block editor.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.submitted",
+   "text": "Your feedback has been submitted",
+   "description": "Short confirmation toast shown after a Codex Apps user submits feedback about a ChatGPT writing block.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.title",
+   "text": "This is a writing block, a new feature we’re testing",
+   "description": "Heading above the feedback form opened from a ChatGPT writing block in Codex Apps. It explains that writing blocks are a new feature and encourages the user to share feedback.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.trigger",
+   "text": "What is this?",
+   "description": "Accessible name for the feedback button below a ChatGPT writing block in Codex Apps. Activating it opens a short explanation and a form to share feedback about writing blocks.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.visibleTrigger",
+   "text": "What is this?",
+   "description": "Visible label for the feedback button shown below a ChatGPT writing block in Codex Apps. The button opens a short feature explanation and feedback form.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.askForChanges",
+   "text": "Ask for changes",
+   "description": "Button in the floating writing-block toolbar that quotes the selected draft text in the chat composer so the user can request a revision.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.askForSelectionEdit",
+   "text": "Ask for changes",
+   "description": "Button in the floating Codex Apps writing-block toolbar that opens an AI edit composer for the currently selected text.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.bold",
+   "text": "Bold",
+   "description": "Accessible name for the floating writing-block toolbar button that toggles bold formatting on selected text in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.cancelEdit",
+   "text": "Cancel",
+   "description": "Accessible name for the stop button in the selected-text AI edit composer of a Codex Apps writing block. It cancels the pending request and leaves the instruction available to retry.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.code",
+   "text": "Code",
+   "description": "Accessible name for the floating writing-block toolbar button that toggles inline code formatting on selected text in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.copyLink",
+   "text": "Copy link",
+   "description": "Accessible name for the floating writing-block toolbar button that copies the URL of the hyperlink at the current text cursor in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.copyLinkLabel",
+   "text": "Copy",
+   "description": "Label for the floating writing-block toolbar button that copies the selected link URL",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.editExistingLink",
+   "text": "Edit link",
+   "description": "Accessible name for the floating writing-block toolbar button that edits the hyperlink at the current text cursor in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.editInput",
+   "text": "Edit instruction",
+   "description": "Accessible name for the AI edit instruction input shown when editing selected text in a Codex Apps writing block.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.editPlaceholder",
+   "text": "Describe the edit…",
+   "description": "Placeholder in the AI edit instruction input shown when editing selected text in a Codex Apps writing block.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.italic",
+   "text": "Italic",
+   "description": "Accessible name for the floating writing-block toolbar button that toggles italic formatting on selected text in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.link",
+   "text": "Link",
+   "description": "Accessible name for the floating writing-block toolbar button that adds or removes a hyperlink on selected text in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.linkInput",
+   "text": "Link URL",
+   "description": "Accessible name for the URL input shown when adding a hyperlink to selected text in a Codex Apps writing block.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.linkPlaceholder",
+   "text": "Paste a link…",
+   "description": "Placeholder in the URL input shown when adding a hyperlink to selected text in a Codex Apps writing block.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.openLink",
+   "text": "Open link",
+   "description": "Accessible name for the floating writing-block toolbar button that safely opens the hyperlink at the current text cursor in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.openLinkLabel",
+   "text": "Open",
+   "description": "Label for the floating writing-block toolbar button that opens the selected link URL",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.removeLink",
+   "text": "Remove link",
+   "description": "Accessible name for the floating writing-block toolbar button that removes hyperlink formatting from the text at the current cursor in Codex Apps.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.saveLink",
+   "text": "Save link",
+   "description": "Accessible name for the button that adds a hyperlink to selected text in a Codex Apps writing block.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.submitEdit",
+   "text": "Submit edit instruction",
+   "description": "Accessible name for the button that submits an AI edit instruction for selected text in a Codex Apps writing block.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.bulletedList",
+   "text": "Bulleted list",
+   "description": "Writing-block formatting-menu option in Codex Apps that converts the selected text into a bulleted list.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.checklist",
+   "text": "Checklist",
+   "description": "Writing-block formatting-menu option in Codex Apps that converts the selected text into an unchecked checklist.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.heading1",
+   "text": "Heading 1",
+   "description": "Writing-block formatting-menu option in Codex Apps that converts the selected text into a level-one heading.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.heading2",
+   "text": "Heading 2",
+   "description": "Writing-block formatting-menu option in Codex Apps that converts the selected text into a level-two heading.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.heading3",
+   "text": "Heading 3",
+   "description": "Writing-block formatting-menu option in Codex Apps that converts the selected text into a level-three heading.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.numberedList",
+   "text": "Numbered list",
+   "description": "Writing-block formatting-menu option in Codex Apps that converts the selected text into a numbered list.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.text",
+   "text": "Text",
+   "description": "Writing-block formatting-menu option in Codex Apps that converts the selected text into an ordinary paragraph.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyles",
+   "text": "Text styles",
+   "description": "Accessible name for the floating writing-block formatting menu in Codex Apps that offers paragraph, heading, list, and checklist styles.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.header.title.fallback",
+   "text": "Writing",
+   "description": "Short fallback title in the header of a writing block shared by local Codex threads and Quick Chat when the block does not provide a custom title.",
+   "files": [
+    "400481.351dd8d323.js",
+    "678608.f43ff490bd.js",
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "codex.writingBlock.header.title.untitled",
+   "text": "Untitled",
+   "description": "Short placeholder title in the writing block header when no title was provided and Pages upgrade is enabled, including while the writing is still streaming.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.loading",
+   "text": "Loading…",
+   "description": "Status while saved writing-block history or a selected revision preview is loading",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.previewError",
+   "text": "Could not load this version",
+   "description": "Error when the exact saved writing-block revision cannot be downloaded for read-only preview",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.previewLabel",
+   "text": "Version {version} preview",
+   "description": "Accessible label for the read-only content of a selected writing-block revision",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.redo.button.ariaLabel",
+   "text": "Redo last edit",
+   "description": "Short accessible label for the Redo button in the header of a shared editable Codex Apps writing block used by local Codex threads and Quick Chat. Activating it restores the direct edit that was most recently undone.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.redo.button.tooltip",
+   "text": "Redo",
+   "description": "Short tooltip for the Redo button in the header of a shared editable Codex Apps writing block used by local Codex threads and Quick Chat.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.restoreError",
+   "text": "{conflict, select, yes {The document changed. Review the latest version and try again.} other {Could not restore this version. Try again.}}",
+   "description": "Error when restoring a saved writing-block revision fails; the selected historical preview stays open",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.retry",
+   "text": "Try again",
+   "description": "Button that retries loading writing-block version history or a saved revision after a failed request",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.undo.button.ariaLabel",
+   "text": "Undo last edit",
+   "description": "Short accessible label for the Undo button in the header of a shared editable Codex Apps writing block used by local Codex threads and Quick Chat. Activating it restores the previous direct edit.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.undo.button.tooltip",
+   "text": "Undo",
+   "description": "Short tooltip for the Undo button in the header of a shared editable Codex Apps writing block used by local Codex threads and Quick Chat.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.versionUnavailable",
+   "text": "This version is no longer available",
+   "description": "Shown when a requested saved writing-block revision is absent after checking the full version history; the live document is not substituted",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.addingToLibrary",
+   "text": "Adding to Library",
+   "description": "Accessible label and hover tooltip for the writing block header's Library save control while the document is being saved. Describes an operation in progress, not an action to start. Keep this status label short.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.addingToLibrary.space",
+   "text": "Adding to Space",
+   "description": "Accessible label and hover tooltip for the writing block header's Space save control while the document is being saved. Describes an operation in progress, not an action to start. Keep this status label short. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.location",
+   "text": "Library",
+   "description": "Location shown below the saved note title in its actions menu.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.location.space",
+   "text": "Space",
+   "description": "Location shown below the saved note title in its actions menu. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.openLibrary",
+   "text": "Open in Library",
+   "description": "Menu action that opens the Library containing the saved note.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.openLibrary.space",
+   "text": "Open in Space",
+   "description": "Menu action that opens the Space containing the saved note. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.save",
+   "text": "Add to Library",
+   "description": "Tooltip and accessible label for the inline document title control. Saves the document to the user's Library.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.save.space",
+   "text": "Add to Space",
+   "description": "Tooltip and accessible label for the inline document title control. Saves the document to the user's Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.versionHistory",
+   "text": "Version history",
+   "description": "Menu action that shows the saved note's previous versions.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.document",
+   "text": "Document",
+   "description": "Fallback name for a Library writing block without a document title",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.loading",
+   "text": "Loading document…",
+   "description": "Status while the current saved content of a Library writing block is loading",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.syncError",
+   "text": "Couldn’t sync this document · <retry>Try again</retry>",
+   "description": "A Library writing block could not load or save its current content. Local changes remain in the editor. The retry link repeats the failed operation",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.messageTabTitle",
+   "text": "Message",
+   "description": "Title of an expanded chat-message writing block tab when the block has no custom title.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.openEditor",
+   "text": "Open editor",
+   "description": "Tooltip and accessible label for expanding a document writing block into the Codex side pane.",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.page.save",
+   "text": "Save as Page",
+   "description": "Label, accessible label, and tooltip for a writing block's save control. Saves the writing as an editable Page that can be found in Space. Page means a saved document, not a sheet of paper. Keep this action short.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.page.saving",
+   "text": "Creating Page",
+   "description": "Accessible label on the writing block save control while its editable Page is being created. Keep this progress label short.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.share.failed",
+   "text": "Couldn’t save this document for sharing. Try again",
+   "description": "Error when pending writing-block edits cannot be saved before opening sharing; local edits are preserved",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.menu.ariaLabel",
+   "text": "Insert options",
+   "description": "Accessible label for the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. After the user types a slash, the menu offers commands that change the current block type or insert document elements.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.checklist.label",
+   "text": "Checklist",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it creates a checkbox task-list item; sibling options create text, headings, and ordinary lists.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.columnDelete.label",
+   "text": "Delete column",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it deletes the current table column; sibling options add a column to the left or right when table commands are available.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.columnLeft.label",
+   "text": "Add column left",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it inserts a table column to the left of the current column when table commands are available.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.columnRight.label",
+   "text": "Add column right",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it inserts a table column to the right of the current column when table commands are available.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.divider.label",
+   "text": "Divider",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it inserts a horizontal divider; sibling options insert text blocks, lists, or tables.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.emoji.label",
+   "text": "Emoji",
+   "description": "Short option label in the Codex Apps writing block slash menu. Selecting it opens a searchable emoji picker and inserts the chosen emoji at the text cursor. Sibling options insert text blocks, lists, and tables.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.generate.label",
+   "text": "Generate text",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it starts AI text generation for the current writing block when that action is available.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.heading1.label",
+   "text": "Heading 1",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it converts the active text block to a level-one heading; Heading 2 and Heading 3 are sibling options.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.heading2.label",
+   "text": "Heading 2",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it converts the active text block to a level-two heading; Heading 1 and Heading 3 are sibling options.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.heading3.label",
+   "text": "Heading 3",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it converts the active text block to a level-three heading; Heading 1 and Heading 2 are sibling options.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.orderedList.label",
+   "text": "Numbered list",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it converts the active text block to a numbered list; Bulleted list and Checklist are sibling options.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.paragraph.label",
+   "text": "Text",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it converts the active block to normal paragraph text; heading and list formats are sibling options.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.table.label",
+   "text": "Table",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it inserts a table when table commands are available; sibling options insert text blocks, lists, or a divider.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.unorderedList.label",
+   "text": "Bulleted list",
+   "description": "Short option label in the shared Codex Apps writing block slash menu used by local Codex threads and Quick Chat. Selecting it converts the active text block to a bulleted list; Numbered list and Checklist are sibling options.",
+   "files": [
+    "897874.314ec9b5c1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.chooseFormat",
+   "text": "Choose presentation format",
+   "description": "Accessible label for the dropdown button that selects the destination for the completed presentation outline",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.error",
+   "text": "Couldn’t create slides from the presentation outline",
+   "description": "Error toast shown when a presentation outline cannot be sent to the current Codex task",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.googleSlidesButton",
+   "text": "Create Google Slides",
+   "description": "Button to create the outlined presentation in Google Slides",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.googleSlidesOption",
+   "text": "Google Slides",
+   "description": "Presentation format dropdown option for creating a Google Slides presentation from a completed presentation outline",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.powerPointButton",
+   "text": "Create PowerPoint",
+   "description": "Button to create the outlined PowerPoint presentation",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.powerPointOption",
+   "text": "PowerPoint",
+   "description": "Presentation destination option that creates a native Spaces presentation on web or a PowerPoint file on desktop",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.promptWithOutlineAbove",
+   "text": "make a presentation with the outline above",
+   "description": "User message following a Presentations plugin mention that asks Codex to create a presentation from the selected presentation outline above",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.spacesButton",
+   "text": "Create presentation",
+   "description": "Button to create the outlined presentation in Spaces",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.spacesOption",
+   "text": "Spaces",
+   "description": "Presentation destination option for creating a native Spaces presentation",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.button",
+   "text": "{count, plural, one {# slide} other {# slides}}",
+   "description": "Button showing the current or requested number of slides in an editable Codex presentation outline; selecting the button opens the slide-count adjustment slider",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.cancel",
+   "text": "Cancel slide count change",
+   "description": "Accessible name for cancelling an in-progress presentation outline rewrite",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.confirm",
+   "text": "Confirm slide count",
+   "description": "Accessible name for the button that applies a new slide count to an editable Codex presentation outline using Magic Edit",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.slider",
+   "text": "Number of presentation slides",
+   "description": "Accessible name for the keyboard-operable slider that adjusts the number of slides in a Codex presentation outline",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.updated",
+   "text": "Slide count updated",
+   "description": "Accessible confirmation that the presentation outline was successfully rewritten to the requested slide count",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.value",
+   "text": "{count, plural, one {# slide} other {# slides}}",
+   "description": "Current presentation slide count announced to screen-reader users while adjusting an outline; count is the positive number of slides",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.toneVariants.original",
+   "text": "Original",
+   "description": "Short tab label above a writing block editor. Selecting it restores the original draft after a Write Like Me rewrite. Keep the label compact.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.toneVariants.tabs.ariaLabel",
+   "text": "Writing style variants",
+   "description": "Accessible label for the tone-variant tabs in a shared Codex Apps writing block used by local Codex threads and Quick Chat. Selecting a tab switches the editor to a generated writing style variant.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.toneVariants.writeLikeMe",
+   "text": "Write Like Me",
+   "description": "Short action label in the writing-style tabs above a Codex Apps writing-block editor. Selecting it rewrites the current draft using the signed-in user's saved personal writing style.",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.saveToLibrary",
+   "text": "Add to Library",
+   "description": "Button in the expanded writing block header that saves the writing block to Library.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.saveToLibrary.space",
+   "text": "Add to Space",
+   "description": "Button in the expanded writing block header that saves the writing block to Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.savingToLibrary",
+   "text": "Adding to Library",
+   "description": "Label on the expanded writing block's save button while its Library save is in progress.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.savingToLibrary.space",
+   "text": "Adding to Space",
+   "description": "Label on the expanded writing block's save button while its Space save is in progress. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "400481.351dd8d323.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "copyButton.copy",
+   "text": "Copy",
+   "description": "Text displayed when the content can be copied",
+   "files": [
+    "720436.f41c4a9f13.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.image.originalChatDeleted",
+   "text": "This chat was deleted",
+   "description": "Disabled image menu action when the image's original chat has been deleted",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.image.originalChatUnavailable",
+   "text": "This chat is unavailable",
+   "description": "Disabled image menu action when the image's original chat could not be loaded",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.image.viewOriginalChat",
+   "text": "View original chat",
+   "description": "Image menu action that opens the chat and message where the image originated",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.multiplayer.inlineLoadFailed",
+   "text": "Unable to load this note. Reload to try again",
+   "description": "Error when a collaborative Library note in a conversation fails to load its editor",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.actions.delete",
+   "text": "Delete",
+   "description": "Menu action to delete a Library item after confirmation",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "multiplayer.openNote",
+   "text": "Open note",
+   "description": "Open a shared note from an earlier conversation entry in the Library editor",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tabThumbnail.writingBlock.empty",
+   "text": "Empty document",
+   "description": "Document tab preview when the current draft contains no text",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tabThumbnail.writingBlock.pendingEdits",
+   "text": "Changes to review",
+   "description": "Caption in a document tab preview when AI edits await acceptance or rejection",
+   "files": [
+    "678608.f43ff490bd.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tpp.write_like_me.sample_prompt.grounded_demo",
+   "text": "Look through my chats, Library files, and any connected apps for a new and real writing task you could help with. Briefly explain what you found, why you chose it, and which examples of my own writing you’ll use. Then produce a useful draft closely matching my style. Point out two specific choices you made to match my style. If you can’t find a clear task or enough examples, ask me for a draft, template, or writing sample instead of inventing one. Show the draft here; do not send, post, or modify anything.",
+   "description": "Request sent to ChatGPT when a user selects Show me in writing-style setup. Ask it to use available chats, Library files, and connected apps to find a new, real writing task, explain its choice and the user's own writing examples, produce a useful draft closely matching their writing style, and explain two style choices. If context is insufficient, ask for a draft, template, or sample instead of inventing one. The draft must stay in chat without sending, posting, or modifying anything. Library is the product's file library. Use natural first-person request wording. Plain text with no placeholders.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.connected",
+   "text": "Connected",
+   "description": "Status of an app that can supply the user's writing examples",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.error",
+   "text": "Couldn't finish Writing style setup. Try again.",
+   "description": "Recoverable error loading sources, saving Writing style, or starting its ordinary chat",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.loading",
+   "text": "Checking connected apps…",
+   "description": "Status while Writing style setup checks plugins, host availability and account links",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.sourceAction",
+   "text": "{action, select, reauth {Reconnect} disabled {Enable} other {Refresh}}",
+   "description": "Action for an installed writing source needing authorization, enablement, or refreshed host readiness",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.sourceActionLabel",
+   "text": "{action, select, reauth {Reconnect} disabled {Enable} refresh {Refresh} other {Connect}} {appName}",
+   "description": "Accessible action for a writing source. action indicates reauthorization, enablement, refreshing host readiness, or connecting. appName is the product name.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.unavailable",
+   "text": "Unavailable",
+   "description": "Status of a writing source app that is unavailable for this account or execution host",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.remoteProjectRequired",
+   "text": "Close this dialog and select a project on the remote host to start Writing style",
+   "description": "Actionable error when starting a Writing style sample on an SSH host without a selected remote project",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.retry",
+   "text": "Retry",
+   "description": "Button to retry loading writing style or source app information after a failure",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.back",
+   "text": "Back",
+   "description": "Button returning from the Writing style source picker to its overview without saving consent",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.category",
+   "text": "{category, select, email {Email} messaging {Messaging} other {Documents}}",
+   "description": "Writing category label in setup; category is email, messaging or documents",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.connectedCategoryAction",
+   "text": "{category, select, email {Connect more email apps} messaging {Connect more messaging apps} other {Connect more document apps}}. Connected: {apps}",
+   "description": "Accessible name for the connected-app chevron in Writing style setup. It opens that category picker; category is email, messaging or documents, and apps is the complete localized list of connected product names.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.descriptionWithManage",
+   "text": "ChatGPT uses your chats and Library files to write in your style. <manage>Manage</manage>",
+   "description": "Writing-style setup description. Library is ChatGPT's file library. The inline Manage link closes setup and opens Personalization settings.",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.enabledTitle",
+   "text": "Writing style is personalized",
+   "description": "Heading confirming that writing-style personalization has been enabled",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.improve",
+   "text": "Connect apps to improve writing (optional)",
+   "description": "Heading above optional app connections that provide additional writing examples",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.openCategory",
+   "text": "{category, select, email {Set up email} messaging {Set up messaging} other {Set up documents}}",
+   "description": "Accessible action opening a category's app picker in Writing style setup, including with connected apps; category is email, messaging or documents",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.setUp",
+   "text": "Set up",
+   "description": "Opens the optional app picker for a writing category",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.showMe",
+   "text": "Show me",
+   "description": "Saves writing-style personalization and starts a demonstration in chat; connecting apps is optional",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.title",
+   "text": "Set up writing style",
+   "description": "Heading while writing-style personalization has not yet been enabled",
+   "files": [
+    "493889.10a12886ed.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 459
+  },
+  {
+   "name": "className",
+   "count": 326
+  },
+  {
+   "name": "id",
+   "count": 276
+  },
+  {
+   "name": "description",
+   "count": 221
+  },
+  {
+   "name": "defaultMessage",
+   "count": 215
+  },
+  {
+   "name": "disabled",
+   "count": 98
+  },
+  {
+   "name": "y",
+   "count": 91
+  },
+  {
+   "name": "x",
+   "count": 84
+  },
+  {
+   "name": "libraryFileId",
+   "count": 75
+  },
+  {
+   "name": "null",
+   "count": 67
+  },
+  {
+   "name": "title",
+   "count": 65
+  },
+  {
+   "name": "size",
+   "count": 65
+  },
+  {
+   "name": "height",
+   "count": 59
+  },
+  {
+   "name": "onClick",
+   "count": 57
+  },
+  {
+   "name": "width",
+   "count": 56
+  },
+  {
+   "name": "kind",
+   "count": 54
+  },
+  {
+   "name": "content",
+   "count": 49
+  },
+  {
+   "name": "label",
+   "count": 47
+  },
+  {
+   "name": "conversationId",
+   "count": 47
+  },
+  {
+   "name": "signal",
+   "count": 42
+  },
+  {
+   "name": "type",
+   "count": 42
+  },
+  {
+   "name": "messageId",
+   "count": 40
+  },
+  {
+   "name": "name",
+   "count": 38
+  },
+  {
+   "name": "color",
+   "count": 38
+  },
+  {
+   "name": "onSelect",
+   "count": 36
+  },
+  {
+   "name": "variant",
+   "count": 36
+  },
+  {
+   "name": "ref",
+   "count": 34
+  },
+  {
+   "name": "hostId",
+   "count": 34
+  },
+  {
+   "name": "enabled",
+   "count": 33
+  },
+  {
+   "name": "status",
+   "count": 33
+  },
+  {
+   "name": "style",
+   "count": 32
+  },
+  {
+   "name": "onOpenChange",
+   "count": 29
+  },
+  {
+   "name": "accountId",
+   "count": 28
+  },
+  {
+   "name": "value",
+   "count": 28
+  },
+  {
+   "name": "userId",
+   "count": 27
+  },
+  {
+   "name": "serverConversationId",
+   "count": 27
+  },
+  {
+   "name": "asset",
+   "count": 26
+  },
+  {
+   "name": "icon",
+   "count": 25
+  },
+  {
+   "name": "role",
+   "count": 24
+  },
+  {
+   "name": "parameters",
+   "count": 23
+  },
+  {
+   "name": "path",
+   "count": 23
+  },
+  {
+   "name": "isStreaming",
+   "count": 23
+  },
+  {
+   "name": "cc",
+   "count": 23
+  },
+  {
+   "name": "bcc",
+   "count": 23
+  },
+  {
+   "name": "sm",
+   "count": 22
+  },
+  {
+   "name": "writingBlockId",
+   "count": 21
+  },
+  {
+   "name": "versionHistory",
+   "count": 21
+  },
+  {
+   "name": "queryKey",
+   "count": 20
+  },
+  {
+   "name": "frame",
+   "count": 20
+  },
+  {
+   "name": "error",
+   "count": 20
+  },
+  {
+   "name": "loading",
+   "count": 19
+  },
+  {
+   "name": "recipient",
+   "count": 18
+  },
+  {
+   "name": "onClose",
+   "count": 18
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 17
+  },
+  {
+   "name": "body",
+   "count": 17
+  },
+  {
+   "name": "open",
+   "count": 17
+  },
+  {
+   "name": "editorKey",
+   "count": 17
+  },
+  {
+   "name": "actions",
+   "count": 17
+  },
+  {
+   "name": "category",
+   "count": 17
+  },
+  {
+   "name": "get",
+   "count": 17
+  },
+  {
+   "name": "staleTime",
+   "count": 16
+  },
+  {
+   "name": "isDisabled",
+   "count": 16
+  },
+  {
+   "name": "state",
+   "count": 16
+  },
+  {
+   "name": "send_id",
+   "count": 16
+  },
+  {
+   "name": "editorView",
+   "count": 16
+  },
+  {
+   "name": "document",
+   "count": 16
+  },
+  {
+   "name": "query",
+   "count": 15
+  },
+  {
+   "name": "data",
+   "count": 15
+  },
+  {
+   "name": "placement",
+   "count": 15
+  },
+  {
+   "name": "queryFn",
+   "count": 14
+  },
+  {
+   "name": "retry",
+   "count": 14
+  },
+  {
+   "name": "displayMode",
+   "count": 14
+  },
+  {
+   "name": "subject",
+   "count": 14
+  },
+  {
+   "name": "collapsedContent",
+   "count": 14
+  },
+  {
+   "name": "padding",
+   "count": 14
+  },
+  {
+   "name": "labels",
+   "count": 14
+  },
+  {
+   "name": "writingBlockIndex",
+   "count": 13
+  },
+  {
+   "name": "mimeType",
+   "count": 13
+  },
+  {
+   "name": "source",
+   "count": 13
+  },
+  {
+   "name": "fileInfoSource",
+   "count": 13
+  },
+  {
+   "name": "bottom",
+   "count": 13
+  },
+  {
+   "name": "left",
+   "count": 13
+  },
+  {
+   "name": "metadata",
+   "count": 13
+  },
+  {
+   "name": "isLoading",
+   "count": 13
+  },
+  {
+   "name": "scope",
+   "count": 13
+  },
+  {
+   "name": "onChange",
+   "count": 13
+  },
+  {
+   "name": "surface",
+   "count": 13
+  },
+  {
+   "name": "outcome",
+   "count": 13
+  },
+  {
+   "name": "contacts",
+   "count": 13
+  },
+  {
+   "name": "connectorId",
+   "count": 13
+  },
+  {
+   "name": "instanceId",
+   "count": 13
+  },
+  {
+   "name": "entry",
+   "count": 13
+  },
+  {
+   "name": "viewBox",
+   "count": 12
+  },
+  {
+   "name": "library_file_id",
+   "count": 12
+  },
+  {
+   "name": "requestBody",
+   "count": 12
+  },
+  {
+   "name": "provider",
+   "count": 12
+  },
+  {
+   "name": "email",
+   "count": 12
+  },
+  {
+   "name": "refIndex",
+   "count": 12
+  },
+  {
+   "name": "proseMirrorStore",
+   "count": 12
+  },
+  {
+   "name": "writingBlockProps",
+   "count": 12
+  },
+  {
+   "name": "ownerId",
+   "count": 11
+  },
+  {
+   "name": "top",
+   "count": 11
+  },
+  {
+   "name": "right",
+   "count": 11
+  },
+  {
+   "name": "capabilities",
+   "count": 11
+  },
+  {
+   "name": "opacity",
+   "count": 11
+  },
+  {
+   "name": "e",
+   "count": 11
+  },
+  {
+   "name": "values",
+   "count": 11
+  },
+  {
+   "name": "uniform",
+   "count": 11
+  },
+  {
+   "name": "ariaLabel",
+   "count": 11
+  },
+  {
+   "name": "isEditingDisabled",
+   "count": 11
+  },
+  {
+   "name": "expectedErrorStatuses",
+   "count": 10
+  },
+  {
+   "name": "canvas",
+   "count": 10
+  },
+  {
+   "name": "inkBounds",
+   "count": 10
+  },
+  {
+   "name": "visualBounds",
+   "count": 10
+  },
+  {
+   "name": "paint",
+   "count": 10
+  },
+  {
+   "name": "optical",
+   "count": 10
+  },
+  {
+   "name": "shape",
+   "count": 10
+  },
+  {
+   "name": "bounds",
+   "count": 10
+  },
+  {
+   "name": "center",
+   "count": 10
+  },
+  {
+   "name": "insets",
+   "count": 10
+  },
+  {
+   "name": "anchors",
+   "count": 10
+  },
+  {
+   "name": "ink",
+   "count": 10
+  },
+  {
+   "name": "foreground",
+   "count": 10
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 10
+  },
+  {
+   "name": "toastId",
+   "count": 10
+  },
+  {
+   "name": "hover",
+   "count": 10
+  },
+  {
+   "name": "getContactsForQuery",
+   "count": 10
+  },
+  {
+   "name": "app",
+   "count": 10
+  },
+  {
+   "name": "fileId",
+   "count": 10
+  },
+  {
+   "name": "frameProps",
+   "count": 10
+  },
+  {
+   "name": "onBlur",
+   "count": 10
+  },
+  {
+   "name": "n",
+   "count": 9
+  },
+  {
+   "name": "versionHistoryAction",
+   "count": 9
+  },
+  {
+   "name": "contentWidth",
+   "count": 9
+  },
+  {
+   "name": "index",
+   "count": 9
+  },
+  {
+   "name": "href",
+   "count": 9
+  },
+  {
+   "name": "to",
+   "count": 9
+  },
+  {
+   "name": "placeholder",
+   "count": 9
+  },
+  {
+   "name": "sendId",
+   "count": 9
+  },
+  {
+   "name": "onRetry",
+   "count": 9
+  },
+  {
+   "name": "appId",
+   "count": 9
+  },
+  {
+   "name": "connector",
+   "count": 9
+  },
+  {
+   "name": "panels",
+   "count": 9
+  },
+  {
+   "name": "fill",
+   "count": 8
+  },
+  {
+   "name": "key",
+   "count": 8
+  },
+  {
+   "name": "initial",
+   "count": 8
+  },
+  {
+   "name": "transition",
+   "count": 8
+  },
+  {
+   "name": "duration",
+   "count": 8
+  },
+  {
+   "name": "align",
+   "count": 8
+  },
+  {
+   "name": "triggerButton",
+   "count": 8
+  },
+  {
+   "name": "onConnect",
+   "count": 8
+  },
+  {
+   "name": "selectedSenderAccount",
+   "count": 8
+  },
+  {
+   "name": "focus",
+   "count": 8
+  },
+  {
+   "name": "emailMetadata",
+   "count": 8
+  },
+  {
+   "name": "renderFrame",
+   "count": 8
+  },
+  {
+   "name": "link",
+   "count": 8
+  },
+  {
+   "name": "errorMessage",
+   "count": 8
+  },
+  {
+   "name": "options",
+   "count": 8
+  },
+  {
+   "name": "isEditable",
+   "count": 8
+  },
+  {
+   "name": "onCopy",
+   "count": 8
+  },
+  {
+   "name": "appConnectOptions",
+   "count": 8
+  },
+  {
+   "name": "version",
+   "count": 8
+  },
+  {
+   "name": "contentOverflow",
+   "count": 8
+  },
+  {
+   "name": "panelClearsHeader",
+   "count": 8
+  },
+  {
+   "name": "inlineContent",
+   "count": 8
+  },
+  {
+   "name": "limit",
+   "count": 7
+  },
+  {
+   "name": "s",
+   "count": 7
+  },
+  {
+   "name": "after",
+   "count": 7
+  },
+  {
+   "name": "animate",
+   "count": 7
+  },
+  {
+   "name": "fileName",
+   "count": 7
+  },
+  {
+   "name": "initiator",
+   "count": 7
+  },
+  {
+   "name": "renderMenu",
+   "count": 7
+  },
+  {
+   "name": "reason_code",
+   "count": 7
+  },
+  {
+   "name": "isFetching",
+   "count": 7
+  },
+  {
+   "name": "productSku",
+   "count": 7
+  },
+  {
+   "name": "alt",
+   "count": 7
+  },
+  {
+   "name": "src",
+   "count": 7
+  },
+  {
+   "name": "action",
+   "count": 7
+  },
+  {
+   "name": "refetch",
+   "count": 7
+  },
+  {
+   "name": "entry_point",
+   "count": 7
+  },
+  {
+   "name": "isEqual",
+   "count": 7
+  },
+  {
+   "name": "controls",
+   "count": 7
+  },
+  {
+   "name": "versionNumber",
+   "count": 7
+  },
+  {
+   "name": "closeTabOnUnmount",
+   "count": 7
+  },
+  {
+   "name": "leadingContent",
+   "count": 7
+  },
+  {
+   "name": "d",
+   "count": 6
+  },
+  {
+   "name": "t",
+   "count": 6
+  },
+  {
+   "name": "createdAt",
+   "count": 6
+  },
+  {
+   "name": "externalAccount",
+   "count": 6
+  },
+  {
+   "name": "parentDirectoryId",
+   "count": 6
+  },
+  {
+   "name": "h",
+   "count": 6
+  },
+  {
+   "name": "layout",
+   "count": 6
+  },
+  {
+   "name": "radius",
+   "count": 6
+  },
+  {
+   "name": "onCancel",
+   "count": 6
+  },
+  {
+   "name": "tabIndex",
+   "count": 6
+  },
+  {
+   "name": "autoFocus",
+   "count": 6
+  },
+  {
+   "name": "sideOffset",
+   "count": 6
+  },
+  {
+   "name": "accounts",
+   "count": 6
+  },
+  {
+   "name": "chevronIcon",
+   "count": 6
+  },
+  {
+   "name": "selectedAccount",
+   "count": 6
+  },
+  {
+   "name": "onMetadataChange",
+   "count": 6
+  },
+  {
+   "name": "sourceId",
+   "count": 6
+  },
+  {
+   "name": "onSearch",
+   "count": 6
+  },
+  {
+   "name": "renderSender",
+   "count": 6
+  },
+  {
+   "name": "createEditor",
+   "count": 6
+  },
+  {
+   "name": "stage",
+   "count": 6
+  },
+  {
+   "name": "embedded",
+   "count": 6
+  },
+  {
+   "name": "subtitle",
+   "count": 6
+  },
+  {
+   "name": "queryClient",
+   "count": 6
+  },
+  {
+   "name": "failed",
+   "count": 6
+  },
+  {
+   "name": "sections",
+   "count": 6
+  },
+  {
+   "name": "node",
+   "count": 6
+  },
+  {
+   "name": "headerActions",
+   "count": 6
+  },
+  {
+   "name": "auxiliaryContent",
+   "count": 6
+  },
+  {
+   "name": "previewContent",
+   "count": 6
+  },
+  {
+   "name": "hasPendingEdits",
+   "count": 6
+  },
+  {
+   "name": "hidden",
+   "count": 6
+  },
+  {
+   "name": "turnId",
+   "count": 6
+  },
+  {
+   "name": "onPointerDown",
+   "count": 6
+  },
+  {
+   "name": "onMouseDown",
+   "count": 6
+  },
+  {
+   "name": "avatarFallbackColors",
+   "count": 6
+  },
+  {
+   "name": "ariaLabels",
+   "count": 6
+  },
+  {
+   "name": "onCopyEmail",
+   "count": 6
+  },
+  {
+   "name": "elements",
+   "count": 6
+  },
+  {
+   "name": "contact",
+   "count": 6
+  },
+  {
+   "name": "renderButton",
+   "count": 6
+  },
+  {
+   "name": "dismissed",
+   "count": 6
+  },
+  {
+   "name": "position",
+   "count": 6
+  },
+  {
+   "name": "o",
+   "count": 5
+  },
+  {
+   "name": "sourceUrl",
+   "count": 5
+  },
+  {
+   "name": "conversation_id",
+   "count": 5
+  },
+  {
+   "name": "p",
+   "count": 5
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 5
+  },
+  {
+   "name": "assets",
+   "count": 5
+  },
+  {
+   "name": "leftIcon",
+   "count": 5
+  },
+  {
+   "name": "onValueChange",
+   "count": 5
+  },
+  {
+   "name": "mode",
+   "count": 5
+  },
+  {
+   "name": "openTarget",
+   "count": 5
+  },
+  {
+   "name": "onAskForChanges",
+   "count": 5
+  },
+  {
+   "name": "showMagicEditAction",
+   "count": 5
+  },
+  {
+   "name": "sendEmail",
+   "count": 5
+  },
+  {
+   "name": "undoEmailSend",
+   "count": 5
+  },
+  {
+   "name": "c",
+   "count": 5
+  },
+  {
+   "name": "isWriteLikeMeSubmitting",
+   "count": 5
+  },
+  {
+   "name": "onEditSelection",
+   "count": 5
+  },
+  {
+   "name": "onWriteLikeMeAction",
+   "count": 5
+  },
+  {
+   "name": "N",
+   "count": 5
+  },
+  {
+   "name": "onBeforeExternalContentUpdate",
+   "count": 5
+  },
+  {
+   "name": "onToneSectionSelect",
+   "count": 5
+  },
+  {
+   "name": "Y",
+   "count": 5
+  }
+ ],
+ "literal_count": 2026,
+ "literals_file": "codex_app_rev\\.work\\literals\\writing.json"
+}

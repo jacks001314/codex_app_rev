@@ -1,0 +1,1622 @@
+{
+ "generated_at": "2026-11-09T08:05:41.896Z",
+ "app_version": "26.1103.32239",
+ "source": "main-process/build/*.js 字符串字面量",
+ "note": "kind 由方法名后缀推断，属 C 级；request 与 response 未区分",
+ "counts": {
+  "account": 21,
+  "app": 4,
+  "browser": 1,
+  "command": 4,
+  "config": 4,
+  "experimental": 1,
+  "feedback": 2,
+  "fs": 11,
+  "hook": 2,
+  "item": 22,
+  "mcpServer": 7,
+  "model": 4,
+  "plugin": 5,
+  "process": 6,
+  "skills": 2,
+  "thread": 83,
+  "turn": 10
+ },
+ "groups": {
+  "account": [
+   {
+    "method": "account/bedrock/checkGovCloudRequirements",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/bedrock/discover",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/bedrock/setup",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/chatgptAuthTokens/refresh",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/gatewayOAuth/cancel",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/gatewayOAuth/changed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "account/gatewayOAuth/login",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/gatewayOAuth/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/gcp/setup",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/login/cancel",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "account/login/completed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "account/login/start",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "account/logout",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "account/rateLimitResetCredit/consume",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/rateLimits/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "account/rateLimits/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "account/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "account/sessions/add",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "account/sessions/logout",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "account/sessions/switch",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "account/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   }
+  ],
+  "app": [
+   {
+    "method": "app/installed",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "app/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "app/list/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "app/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "browser": [
+   {
+    "method": "browser/access",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "command": [
+   {
+    "method": "command/exec",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "command/exec/outputDelta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "command/exec/terminate",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "command/exec/write",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   }
+  ],
+  "config": [
+   {
+    "method": "config/batchWrite",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "config/mcpServer/reload",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "config/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "config/value/write",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "experimental": [
+   {
+    "method": "experimental/serverStatus",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   }
+  ],
+  "feedback": [
+   {
+    "method": "feedback/save",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "feedback/upload",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   }
+  ],
+  "fs": [
+   {
+    "method": "fs/changed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "fs/copy",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "fs/createDirectory",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "fs/getMetadata",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "fs/promises",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "fs/readDirectory",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "fs/readFile",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "fs/remove",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "fs/unwatch",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "fs/watch",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "fs/writeFile",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "hook": [
+   {
+    "method": "hook/completed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "hook/started",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   }
+  ],
+  "item": [
+   {
+    "method": "item/agentMessage/delta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/autoApprovalReview/completed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/autoApprovalReview/started",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/commandExecution/outputDelta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/commandExecution/requestApproval",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "item/commandExecution/terminalInteraction",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/completed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/fileChange/outputDelta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/fileChange/patchUpdated",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/fileChange/requestApproval",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "item/mcpToolCall/progress",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/permissions/requestApproval",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "item/plan/delta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/plan/requestImplementation",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "item/reasoning/summaryPartAdded",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/reasoning/summaryTextDelta",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/reasoning/textDelta",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/started",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "item/tool/call",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "item/tool/requestOptionPicker",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "item/tool/requestSetupCodexContextPicker",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "item/tool/requestUserInput",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "mcpServer": [
+   {
+    "method": "mcpServer/elicitation/request",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "mcpServer/event/stream/notification",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "mcpServer/event/stream/start",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "mcpServer/event/stream/stop",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "mcpServer/oauthLogin/completed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "mcpServer/startupStatus/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "mcpServer/tool/call",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   }
+  ],
+  "model": [
+   {
+    "method": "model/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "model/rerouted",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "model/safetyBuffering/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "model/verification",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   }
+  ],
+  "plugin": [
+   {
+    "method": "plugin/install",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "plugin/installed",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "plugin/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "plugin/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "plugin/uninstall",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "process": [
+   {
+    "method": "process/exited",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "process/kill",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "process/outputDelta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "process/resizePty",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "process/spawn",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "process/writeStdin",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "method": "skills/changed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "skills/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "thread": [
+   {
+    "method": "thread/approveGuardianDeniedAction",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "thread/archive",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/archived",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/attachment/add",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/attachment/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/attachment/remove",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/attachment/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/attachmentOwner/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/backgroundTerminals/clean",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/closed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/compact/start",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/compacted",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/delete",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "thread/deleted",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/environment/connected",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/environment/disconnected",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/environmentReady",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/fork",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "thread/goal/clear",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/goal/cleared",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/goal/get",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/goal/set",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/goal/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/inject_items",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/items/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/loaded/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "thread/memory/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/metadata/update",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/name/set",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/name/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/prediction/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/prewarm",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/project/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/queue/add",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/queue/changed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/queue/delete",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/queue/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/queue/reorder",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/queue/start",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "thread/queue/update",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/read",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/readState/changed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/readState/update",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/appendAudio",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/appendSpeech",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/appendText",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/closed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/error",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/item/completed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/item/started",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/item/transcript/delta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/itemAdded",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/listVoices",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/outputAudio/delta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/sdp",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/start",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/started",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/stop",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/transcript/delta",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/realtime/transcript/done",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/resume",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/revert",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/reverted",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/rollback",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/sample",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "thread/sample/cancel",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   },
+   {
+    "method": "thread/search",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/section/changed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/section/move",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/settings/update",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/settings/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/start",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/startAeon",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/started",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/status/changed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/stop",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/timeline/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "thread/tokenUsage/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/turns/list",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/unarchive",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "thread/unarchived",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "thread/unsubscribe",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js"
+    ]
+   }
+  ],
+  "turn": [
+   {
+    "method": "turn/addUserMessage",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "turn/completed",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "turn/diff/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "turn/interrupt",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "turn/moderationMetadata",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "turn/plan/updated",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "turn/settings/update",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js"
+    ]
+   },
+   {
+    "method": "turn/start",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   },
+   {
+    "method": "turn/started",
+    "kind": "notification",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js",
+     "worker.js"
+    ]
+   },
+   {
+    "method": "turn/steer",
+    "kind": "request_or_response",
+    "files": [
+     "early-bootstrap-199-e3316cddb4ea6a6b.js",
+     "early-bootstrap-339-ce026819bf837ba7.js",
+     "early-bootstrap.js"
+    ]
+   }
+  ]
+ }
+}

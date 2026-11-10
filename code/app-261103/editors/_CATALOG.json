@@ -1,0 +1,5692 @@
+{
+ "module": "editors",
+ "generated_at": "2026-11-09T07:51:29.442Z",
+ "files_scanned": 6,
+ "message_count": 518,
+ "messages": [
+  {
+   "id": "artifactHandoff.untitledDocument",
+   "text": "Untitled document",
+   "description": "Fallback name for a shared local document without a title",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.bringForward",
+   "text": "Bring forward",
+   "description": "Context menu action to move a presentation element one layer forward on the slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.bringToFront",
+   "text": "Bring to front",
+   "description": "Context menu action to move a presentation element in front of all other elements on the slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.copy",
+   "text": "Copy",
+   "description": "Context menu action to copy selected presentation objects",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.delete",
+   "text": "Delete",
+   "description": "Context menu action to delete selected presentation elements",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.duplicate",
+   "text": "Duplicate",
+   "description": "Context menu action to make a copy of the selected presentation objects on the same slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.paste",
+   "text": "Paste",
+   "description": "Context menu action to paste clipboard content onto the current slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.pasteUnavailable",
+   "text": "Couldn’t access the clipboard. Press {shortcut} to paste",
+   "description": null,
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.properties",
+   "text": "Properties…",
+   "description": "Context menu action to open the formatting and layout properties panel for the selected presentation objects or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.requestEdits",
+   "text": "Request edits…",
+   "description": "Context menu action to open instructions for changing the selected presentation object",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.sendBackward",
+   "text": "Send backward",
+   "description": "Context menu action to move a presentation element one layer backward on the slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.sendToBack",
+   "text": "Send to back",
+   "description": "Context menu action to move a presentation element behind all other elements on the slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.delete",
+   "text": "Delete",
+   "description": "Context menu action to delete a presentation slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.duplicate",
+   "text": "Duplicate",
+   "description": "Context menu action to create a copy of a presentation slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.hide",
+   "text": "Hide",
+   "description": "Context menu action to hide a presentation slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.show",
+   "text": "Show",
+   "description": "Context menu action to show a hidden presentation slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.spreadsheetContextMenu.disabledReason",
+   "text": "{reason}",
+   "description": "Complete explanation of why a spreadsheet context-menu action is unavailable, supplied by the editing configuration; preserve the reason placeholder without adding words",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.spreadsheetContextMenu.label",
+   "text": "{label}",
+   "description": "Complete spreadsheet context-menu action label supplied by the editing configuration; preserve the label placeholder without adding words",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifacts.presentation.editing.working",
+   "text": "Editing…",
+   "description": "Status beside the animated cursor while a requested annotation edit is being applied to a presentation",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifacts.presentation.generation.working",
+   "text": "Creating…",
+   "description": "Status beside the animated cursor while a requested chart or image is being created in a presentation",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifacts.presentationEditor.insert.shapeArrow",
+   "text": "Arrow",
+   "description": "Insert a straight line with an arrowhead into a presentation",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.useDocumentPrompt",
+   "text": "Create a document using this {template} about…",
+   "description": "Composer prompt appended when using a newly created document template",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.useGoogleDocPrompt",
+   "text": "Create a Google Doc using this {template} about…",
+   "description": "Composer prompt appended when using a newly created Google Doc template",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.useGoogleSheetPrompt",
+   "text": "Create a Google Sheet using this {template} about…",
+   "description": "Composer prompt appended when using a newly created Google Sheet template",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.useGoogleSlidesPrompt",
+   "text": "Create a Google Slides presentation using this {template} about…",
+   "description": "Composer prompt appended when using a newly created Google Slides template",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.usePresentationPrompt",
+   "text": "Create a presentation using the {template} template about…",
+   "description": "Composer prompt appended when using a newly created presentation template",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.useSitePrompt",
+   "text": "Create a Site using this {template} about…",
+   "description": "Composer prompt appended when using a newly created Site template",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.useSpreadsheetPrompt",
+   "text": "Create a spreadsheet using this {template} about…",
+   "description": "Composer prompt appended when using a newly created spreadsheet template",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.threadFindBar.chatFilter",
+   "text": "Search chat",
+   "description": "Button label to scope find results to the ChatGPT chat",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.threadFindBar.invalidRegex",
+   "text": "Invalid regular expression",
+   "description": "Search error when a regular expression cannot be parsed",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.threadFindBar.label",
+   "text": "Find in chat",
+   "description": "Accessible label for the ChatGPT chat find input",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.threadFindBar.placeholder",
+   "text": "Search chat…",
+   "description": "Placeholder for the ChatGPT chat find input",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.threadFindBar.regexTimeout",
+   "text": "Pattern took too long",
+   "description": "Search error when a regular expression exceeds its execution time limit",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.threadFindBar.regexUnavailable",
+   "text": "Regex search unavailable",
+   "description": "Search error when the background regex worker cannot run",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codeBlock.mermaid.loadingDiagram",
+   "text": "Loading diagram",
+   "description": "Shimmering status text shown while a Mermaid diagram response is waiting to render",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codeSnippet.wrap.disable",
+   "text": "Disable word wrap",
+   "description": "Button to disable word wrap for a code snippet",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codeSnippet.wrap.enable",
+   "text": "Enable word wrap",
+   "description": "Button to enable word wrap for a code snippet",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.codeSnippet.svgImageAlt",
+   "text": "Image generated by the assistant",
+   "description": "Accessible description for an SVG preview inside a code snippet",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.page.inline.open",
+   "text": "Open page",
+   "description": "Fallback link for an inline Page preview when Pages are unavailable",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pageFindBar.label",
+   "text": "Find in Page",
+   "description": "Accessible label for finding text within the current Page document",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pageFindBar.placeholder",
+   "text": "Find in Page…",
+   "description": "Placeholder for finding text within the current Page document",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.browserFilter",
+   "text": "Search browser page",
+   "description": "Button label to scope find results to browser page",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.chatFilter",
+   "text": "Search chat",
+   "description": "Button label to scope find results to the Codex task",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.close",
+   "text": "Close find",
+   "description": "Button label to close the find bar",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.diffFilter",
+   "text": "Search diffs",
+   "description": "Button label to scope find results to diffs",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.fileFilter",
+   "text": "Search file",
+   "description": "Button label to search the active file preview",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.label",
+   "text": "Find in chat",
+   "description": "Accessible label for the Codex task find input",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.label.browser",
+   "text": "Find in page",
+   "description": "Accessible label for the browser find input",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.label.diff",
+   "text": "Find in diff",
+   "description": "Accessible label for finding text within code changes",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.nextResult",
+   "text": "Next result",
+   "description": "Button label to go to the next find result",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.noResults",
+   "text": "0 results",
+   "description": "Find-in-thread label when there are no matches",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.placeholder",
+   "text": "Search chat…",
+   "description": "Placeholder for the task find input",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.placeholder.browser",
+   "text": "Find in page…",
+   "description": "Placeholder for searching within the browser page",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.placeholder.review",
+   "text": "Search diff…",
+   "description": "Placeholder for the review find input",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.previousResult",
+   "text": "Previous result",
+   "description": "Button label to go to the previous find result",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.results",
+   "text": "{active} / {matches} results",
+   "description": "Find-in-thread label showing the active match index",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.results.capped",
+   "text": "{active} / {matches}+ results",
+   "description": "Find-in-thread label showing the active match index when matches are capped",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.threadFindBar.unavailable",
+   "text": "Couldn’t search this page",
+   "description": "Find-in-page error when the browser page is no longer available",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.ui.bulletSeparator",
+   "text": "·",
+   "description": "Middle dot separator used between inline items",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.loading",
+   "text": "Loading visualization",
+   "description": "Accessible label for an inline visualization loading placeholder",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "copyButton.copyCode",
+   "text": "Copy code",
+   "description": "Button to copy the contents of the code snippet to the clipboard",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.actions",
+   "text": "More options for {filename}",
+   "description": "Accessible label for inline audio attachment actions",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.copyPath",
+   "text": "Copy path",
+   "description": "Menu action to copy the path of an inline audio attachment",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.fileType",
+   "text": "Audio",
+   "description": "File type shown for an inline audio attachment",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.formattedFileType",
+   "text": "{format} audio",
+   "description": "File type shown for an inline audio attachment",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.loading",
+   "text": "Loading audio…",
+   "description": "Loading state for an inline audio attachment",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.pause",
+   "text": "Pause {filename}",
+   "description": "Accessible label for pausing an inline audio file",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.play",
+   "text": "Play {filename}",
+   "description": "Accessible label for playing an inline audio file",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.progress",
+   "text": "{currentTime} / {duration}",
+   "description": "Current time and total duration for an inline audio attachment",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.saveCopy",
+   "text": "Save a copy…",
+   "description": "Menu action to save a local copy of an inline audio attachment",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.saveFailed",
+   "text": "Couldn’t save audio",
+   "description": "Error shown when saving an inline audio attachment fails",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.seek",
+   "text": "Seek in {filename}",
+   "description": "Accessible label for the timeline of an inline audio file",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audio.unavailable",
+   "text": "Audio unavailable",
+   "description": "Error state for an inline audio attachment",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.audioPlayer",
+   "text": "Audio",
+   "description": "Accessible label for markdown audio when no alt text is provided",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.ariaLabelWithLine",
+   "text": "{fileName} {lineLabel}",
+   "description": "Accessible label for a file citation chip with location information",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.ariaLabelWithType",
+   "text": "{fileName}, {fileTypeLabel}",
+   "description": "Accessible label for an extensionless file citation chip",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.ariaLabelWithTypeAndLine",
+   "text": "{fileName}, {fileTypeLabel} {lineLabel}",
+   "description": "Accessible label for an extensionless file citation chip with location information",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.artifactType.code",
+   "text": "Code",
+   "description": "Fallback file type label for a code file citation with no extension",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.artifactType.document",
+   "text": "Document",
+   "description": "Fallback file type label for a document file citation with no extension",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.artifactType.file",
+   "text": "File",
+   "description": "Fallback file type label for a file citation with no extension",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.artifactType.image",
+   "text": "Image",
+   "description": "Fallback file type label for an image file citation with no extension",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.artifactType.presentation",
+   "text": "Presentation",
+   "description": "Fallback file type label for a presentation file citation with no extension",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.artifactType.spreadsheet",
+   "text": "Spreadsheet",
+   "description": "Fallback file type label for a spreadsheet file citation with no extension",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.documentPageLabel",
+   "text": "page {pageNumber}",
+   "description": "Location label for a document file citation targeting a page",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.lineLabel",
+   "text": "line {line}",
+   "description": "Single line label shown inside a file citation chip",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.lineLabelDisplay",
+   "text": "({lineLabel})",
+   "description": "Location label shown inside parentheses in a file citation chip",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.linesLabel",
+   "text": "lines {line}-{endLine}",
+   "description": "Line range label shown inside a file citation chip",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.presentationObjectLabel",
+   "text": "{slideLabel}, {label}",
+   "description": "Location label for a presentation file citation targeting a labeled object on a slide",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.presentationSlideNumberLabel",
+   "text": "slide {slideNumber}",
+   "description": "Location label for a presentation file citation targeting a slide number",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.fileCitation.workbookObjectLabel",
+   "text": "{sheet}, {label}",
+   "description": "Location label for a spreadsheet file citation targeting a labeled object on a sheet",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageConsent.cancel",
+   "text": "Cancel",
+   "description": "Closes the external image permission dialog without loading the image or remembering any permission.",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageConsent.description",
+   "text": "Loading contacts this website. It may receive your IP address and information included in the image URL.",
+   "description": "Explains the privacy implications of loading an unverified external image before the user chooses whether to load it.",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageConsent.load",
+   "text": "Load image",
+   "description": "Confirms permission to load this external image once.",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageConsent.title",
+   "text": "Load image from {host}?",
+   "description": "Title of a dialog asking permission to load an unverified external image. The host value is the website's hostname, including a nonstandard port if present.",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageLoading",
+   "text": "Image loading",
+   "description": "Accessible label for a markdown image placeholder while image bytes are loading and no alt text is provided",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imagePreviewButton",
+   "text": "Open image preview",
+   "description": "Accessible label for a markdown image button when no alt text is provided",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageUnavailable",
+   "text": "Image unavailable",
+   "description": "Accessible label for a markdown image fallback when the image fails to load and no alt text is provided",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageUnverified",
+   "text": "Unverified image",
+   "description": "Explains why an external Markdown image was not loaded. The URL safety check did not verify the link or could not complete. This does not mean the image was found to be malicious.",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.imageUnverified.load",
+   "text": "Load image",
+   "description": "Action on an unverified external Markdown image. Opens a privacy confirmation dialog before loading the original image inline.",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.video.actionFailed",
+   "text": "Could not complete this video action. Try again",
+   "description": "Error shown when video playback, saving, fullscreen, or picture in picture fails",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.copyLink",
+   "text": "Copy link",
+   "description": "Video settings menu action to copy the original video URL",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.exitFullscreen",
+   "text": "Exit fullscreen",
+   "description": "Button to leave fullscreen video playback",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.expand",
+   "text": "Expand video",
+   "description": "Button to open a larger video preview in a dialog",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.fullscreen",
+   "text": "Fullscreen",
+   "description": "Button to show the video and its controls in fullscreen",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.linkCopied",
+   "text": "Link copied",
+   "description": "Confirmation that the original video URL was copied",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.mute",
+   "text": "Mute video",
+   "description": "Accessible label for the video mute toggle",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.options",
+   "text": "Video options",
+   "description": "Accessible label for the video playback options menu",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.pause",
+   "text": "Pause video",
+   "description": "Accessible label for pausing video playback",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.pictureInPicture",
+   "text": "Picture in picture",
+   "description": "Menu action to toggle picture-in-picture video playback",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.play",
+   "text": "Play video",
+   "description": "Accessible label for starting video playback",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.progress",
+   "text": "{currentTime} / {duration}",
+   "description": "Current playback time and total video duration",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.saveCopy",
+   "text": "Save video as…",
+   "description": "Menu action to save a local copy of a video",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.seek",
+   "text": "Seek in video",
+   "description": "Accessible label for the video playback timeline",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.speed",
+   "text": "Playback speed",
+   "description": "Heading for video playback speed choices",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.speedValue",
+   "text": "{rate, number}×",
+   "description": "A video playback speed multiplier",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.volume",
+   "text": "Video volume",
+   "description": "Accessible label for the video volume controls",
+   "files": [
+    "392429.8e8e66e4ad.js",
+    "587250.4133307311.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.videoPlayer",
+   "text": "Video",
+   "description": "Accessible label for a markdown video when no alt text is provided",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.videoUnavailable",
+   "text": "Video unavailable",
+   "description": "Accessible label for a markdown video fallback when the video fails to load and no alt text is provided",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "mermaidDiagram.loading",
+   "text": "Loading Mermaid diagram",
+   "description": "Accessible label for a Mermaid diagram loading placeholder",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pageCodeBlock.latexPreviewFailed",
+   "text": "LaTeX is invalid",
+   "description": "Message shown when a LaTeX code block cannot be rendered as an equation",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pageCodeBlock.showPreview",
+   "text": "Show preview",
+   "description": "Button to preview a LaTeX code block as a typeset equation",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pageCodeBlock.showSource",
+   "text": "Show source",
+   "description": "Button to show the source of a code block instead of its rendered preview",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.presentation.cursorAgentName",
+   "text": "ChatGPT",
+   "description": "Title badge on the presentation agent cursor while the user hovers the slide; do not translate ChatGPT",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.presentation.dismissProgress",
+   "text": "Dismiss progress",
+   "description": "Close the presentation agent's progress bubble for the current generation without stopping the agent",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.addGradientStop",
+   "text": "Add color stop",
+   "description": "Click the gradient bar to add a color stop at that position",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignCenter",
+   "text": "Align center",
+   "description": "Center align text",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignLeft",
+   "text": "Align left",
+   "description": "Left align text",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignment",
+   "text": "Alignment",
+   "description": "Text alignment controls",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignObjects",
+   "text": "Align objects",
+   "description": "Open selected object alignment controls",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignRight",
+   "text": "Align right",
+   "description": "Right align text",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.allBorders",
+   "text": "All borders",
+   "description": "Apply borders around every selected table cell",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.axisLabels",
+   "text": "Axis labels",
+   "description": "Toggle chart axes",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.backgroundColor",
+   "text": "Background color",
+   "description": "Change the selected object or slide background color",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.bold",
+   "text": "Bold",
+   "description": "Bold text formatting",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.border",
+   "text": "Border",
+   "description": "Object border section",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderColor",
+   "text": "Border color",
+   "description": "Select the object border color",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderColorLabel",
+   "text": "Color",
+   "description": "Color field label in the border settings",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDashDot",
+   "text": "Dash-dot",
+   "description": "Alternating dash and dot border pattern",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDashDotDot",
+   "text": "Dash-dot-dot",
+   "description": "Alternating dash and two dots border pattern",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDashed",
+   "text": "Dashed",
+   "description": "Dashed border line pattern",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDotted",
+   "text": "Dotted",
+   "description": "Dotted border line pattern",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderNone",
+   "text": "No border",
+   "description": "Remove the object border",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderSolid",
+   "text": "Solid",
+   "description": "Continuous border line pattern",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderStyle",
+   "text": "Border style",
+   "description": "Line pattern of the object border",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderWeight",
+   "text": "Weight",
+   "description": "Border line thickness",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.bullets",
+   "text": "Bulleted list",
+   "description": "Format text as a bulleted list",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.canvasCrop",
+   "text": "Crop image",
+   "description": "Accessible label for image cropping directly on the slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cellBorders",
+   "text": "Cell borders",
+   "description": "Open border controls for selected table cells",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartBackground",
+   "text": "Background",
+   "description": "Chart background color",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartColors",
+   "text": "Chart colors",
+   "description": "Colors for chart data series",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartOptions",
+   "text": "Chart options",
+   "description": "Visibility settings for chart elements",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartType",
+   "text": "Chart type",
+   "description": "Chart type selector",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartTypeName",
+   "text": "{type, select, line {Line} pie {Pie} bar {Bar} doughnut {Doughnut} scatter {Scatter} bubble {Bubble} radar {Radar} treemap {Treemap} sunburst {Sunburst} map {Map} waterfall {Waterfall} line3D {3D line} pie3D {3D pie} area3D {3D area} bar3D {3D bar} funnel {Funnel} histogram {Histogram} boxWhisker {Box and whisker} stock {Stock} surface3D {3D surface} ofPie {Pie of pie} surface {Surface} pareto {Pareto} combo {Combination} other {Area}}",
+   "description": "Presentation chart type names",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.close",
+   "text": "Close editing panel",
+   "description": "Close the presentation formatting inspector",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.color",
+   "text": "Color",
+   "description": "Change the color of the selected text, object, or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.colorFill",
+   "text": "Color fill",
+   "description": "Fill the selected shape or slide with a color",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.columnBorders",
+   "text": "Column borders",
+   "description": "Apply borders between selected table columns",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.comment",
+   "text": "Add comment",
+   "description": "Add a comment on the selected presentation content",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.corners",
+   "text": "Corners",
+   "description": "Object corner radius",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropBottom",
+   "text": "Crop bottom",
+   "description": "Drag handle for the bottom edge of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropBottomLeft",
+   "text": "Crop bottom left",
+   "description": "Drag handle for the bottom left corner of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropBottomRight",
+   "text": "Crop bottom right",
+   "description": "Drag handle for the bottom right corner of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropImageAction",
+   "text": "Crop",
+   "description": "Start cropping the selected image directly on the slide canvas",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropImageUnavailable",
+   "text": "Image is not ready to crop. Try again.",
+   "description": "Shown when the slide image has not loaded and cannot be cropped yet",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropLeft",
+   "text": "Crop left",
+   "description": "Drag handle for the left edge of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropRight",
+   "text": "Crop right",
+   "description": "Drag handle for the right edge of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropTop",
+   "text": "Crop top",
+   "description": "Drag handle for the top edge of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropTopLeft",
+   "text": "Crop top left",
+   "description": "Drag handle for the top left corner of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropTopRight",
+   "text": "Crop top right",
+   "description": "Drag handle for the top right corner of the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.edit",
+   "text": "More formatting options",
+   "description": "Toggle the presentation editing panel",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fill",
+   "text": "Background",
+   "description": "Object or slide fill section",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillColor",
+   "text": "Fill color",
+   "description": "Select the object or slide fill color",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillGradientLabel",
+   "text": "Gradient",
+   "description": "Current background fill is a gradient",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillImageLabel",
+   "text": "Image",
+   "description": "Current background fill is an image",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillNoneLabel",
+   "text": "None",
+   "description": "Current background has no fill",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillOpacity",
+   "text": "Fill opacity",
+   "description": "Object fill opacity as a percentage",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.finishCropOutside",
+   "text": "Finish cropping",
+   "description": "Click outside the image to apply the crop",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.font",
+   "text": "Font family",
+   "description": "Font family selector",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.generateFillRequest",
+   "text": "Generate an image for this background: ",
+   "description": "Editable chat draft starter for generating an image fill for the selected presentation shape or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.generateImage",
+   "text": "Generate image",
+   "description": "Start a chat request to generate an image for the selected presentation object",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.generateImageRequest",
+   "text": "Generate a replacement image: ",
+   "description": "Editable chat draft starter for generating an image to replace the selected presentation image",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientAngle",
+   "text": "Angle",
+   "description": "Direction of the linear gradient in degrees",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientColorNumber",
+   "text": "Color {number}",
+   "description": "Label and color picker for a numbered gradient color stop",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientColorOpacity",
+   "text": "Opacity for color {number}",
+   "description": "Opacity of a numbered gradient color stop as a percentage",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientColors",
+   "text": "Colors",
+   "description": "Heading above all gradient color stops",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientFill",
+   "text": "Gradient fill",
+   "description": "Fill the selected shape or slide with a gradient",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientLinear",
+   "text": "Linear",
+   "description": "A gradient that blends colors along a straight line",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientRadial",
+   "text": "Radial",
+   "description": "A gradient that blends colors outward from its center",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientStop",
+   "text": "Color stop {number}",
+   "description": "A draggable gradient color stop, numbered from one",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientStopOpacity",
+   "text": "Opacity",
+   "description": "Heading above the gradient color stop opacity controls",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientType",
+   "text": "Gradient type",
+   "description": "Choose a linear or radial gradient",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientTypeLabel",
+   "text": "Type",
+   "description": "Label for the gradient type selector",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gridLines",
+   "text": "Grid lines",
+   "description": "Toggle chart grid lines",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.headerColumn",
+   "text": "Header column",
+   "description": "Apply the table's first column style",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.headerRow",
+   "text": "Header row",
+   "description": "Apply the table's header row style",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageCropMode",
+   "text": "Crop",
+   "description": "Start cropping the image directly on the slide canvas",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFill",
+   "text": "Image fill",
+   "description": "Fill the selected shape or slide with an image",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFillMenu",
+   "text": "Fill",
+   "description": "Open image and background fill controls",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFillMode",
+   "text": "Fill",
+   "description": "Fill the slide or object with the image while preserving its proportions and trimming overflow",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFit",
+   "text": "Fit",
+   "description": "Show the whole image inside the slide or object while preserving its proportions",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFramingMode",
+   "text": "Image sizing",
+   "description": "Choose whether to fit, fill, or crop an image",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imagePreviewFailed",
+   "text": "Image preview unavailable",
+   "description": "The presentation image could not be previewed in the editing panel",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageUploadFailed",
+   "text": "This image could not be uploaded. Try again.",
+   "description": "The replacement image could not be decoded or uploaded",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.innerBorders",
+   "text": "Inner borders",
+   "description": "Apply borders between selected table cells",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.area",
+   "text": "Area",
+   "description": "Insert an area chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.bar",
+   "text": "Bar",
+   "description": "Insert a bar chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.callout",
+   "text": "Callout",
+   "description": "Insert a rectangular speech callout",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.chart",
+   "text": "Chart",
+   "description": "Chart insertion submenu",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.chevron",
+   "text": "Chevron",
+   "description": "Insert a chevron shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.diamond",
+   "text": "Diamond",
+   "description": "Insert a diamond shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.ellipse",
+   "text": "Circle",
+   "description": "Insert a circle shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.funnel",
+   "text": "Funnel",
+   "description": "Insert a funnel chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.histogram",
+   "text": "Histogram",
+   "description": "Insert a histogram chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.image",
+   "text": "Insert image",
+   "description": "Open the presentation image insertion menu",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.imageError",
+   "text": "Couldn’t load image. Try another file.",
+   "description": "Error when a selected local image cannot be read for insertion into a presentation",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.leftArrow",
+   "text": "Left arrow",
+   "description": "Insert a left-pointing block arrow",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.lineChart",
+   "text": "Line",
+   "description": "Insert a line chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.pie",
+   "text": "Pie",
+   "description": "Insert a pie chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.plus",
+   "text": "Plus",
+   "description": "Insert a plus sign shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.rect",
+   "text": "Rectangle",
+   "description": "Insert a rectangle shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.rightArrow",
+   "text": "Right arrow",
+   "description": "Insert a right-pointing block arrow",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.scatter",
+   "text": "Scatter",
+   "description": "Insert a scatter chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.shapeLine",
+   "text": "Line",
+   "description": "Insert a straight line shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.shapes",
+   "text": "Shapes",
+   "description": "Shape insertion submenu",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.star",
+   "text": "Star",
+   "description": "Insert a star shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.table",
+   "text": "Table",
+   "description": "Table insertion submenu",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.treemap",
+   "text": "Treemap",
+   "description": "Insert a treemap chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.triangle",
+   "text": "Triangle",
+   "description": "Insert a triangle shape",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.waterfall",
+   "text": "Waterfall",
+   "description": "Insert a waterfall chart",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.italic",
+   "text": "Italic",
+   "description": "Italic text formatting",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.itemCount",
+   "text": "{count} items",
+   "description": null,
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.layout",
+   "text": "Layout",
+   "description": "Presentation object alignment section",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.legend",
+   "text": "Legend",
+   "description": "Toggle the chart legend",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.list",
+   "text": "List",
+   "description": "Text list formatting controls",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.mixed",
+   "text": "Mixed",
+   "description": "A formatting value differs across selected objects or table cells",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.moveCrop",
+   "text": "Move crop area",
+   "description": "Drag or use arrow keys to reposition the image crop box",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.noBorders",
+   "text": "No borders",
+   "description": "Remove all borders from selected table cells",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.noFill",
+   "text": "No fill",
+   "description": "Remove the selected object or slide fill",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.noList",
+   "text": "No list",
+   "description": "Remove text list formatting",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.numbered",
+   "text": "Numbered list",
+   "description": "Format text as a numbered list",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectBottom",
+   "text": "Align objects bottom",
+   "description": "Align selected objects with the bottom edge of the selection or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectCenter",
+   "text": "Align objects horizontally",
+   "description": "Center selected objects horizontally within the selection or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectLeft",
+   "text": "Align objects left",
+   "description": "Align selected objects with the left edge of the selection or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectMiddle",
+   "text": "Align objects vertically",
+   "description": "Center selected objects vertically within the selection or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectRight",
+   "text": "Align objects right",
+   "description": "Align selected objects with the right edge of the selection or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectTop",
+   "text": "Align objects top",
+   "description": "Align selected objects with the top edge of the selection or slide",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.opacity",
+   "text": "Opacity",
+   "description": "Object opacity as a percentage",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.replaceImage",
+   "text": "Replace image",
+   "description": "Choose a local image to replace the selected presentation image",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.requestChanges",
+   "text": "Request edits",
+   "description": "Open instructions for changing selected presentation content",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.requestInput",
+   "text": "Describe your changes",
+   "description": "Accessible label for presentation change instructions",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.requestPlaceholder",
+   "text": "Describe your changes…",
+   "description": "Placeholder for instructions to edit the selected presentation content",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.rowBorders",
+   "text": "Row borders",
+   "description": "Apply borders between selected table rows",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.selectionTitle",
+   "text": "{kind, select, slide {Slide {number}} text {Text} chart {Chart} table {Table} image {Image} other {Shape}}",
+   "description": null,
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.selectionTools",
+   "text": "Selection actions",
+   "description": "Presentation selection floating toolbar",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.selectShapeText",
+   "text": "Select text",
+   "description": "Select the text inside the shape and show text formatting controls",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.seriesColor",
+   "text": "Color {number}",
+   "description": "Color of a numbered chart series",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadow",
+   "text": "Shadow",
+   "description": "Object shadow section",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowAngle",
+   "text": "Angle",
+   "description": "Direction of the object shadow in degrees",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowBlur",
+   "text": "Blur",
+   "description": "Blur radius of the object shadow",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowColor",
+   "text": "Shadow color",
+   "description": "Select the object's shadow color",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowColorLabel",
+   "text": "Color",
+   "description": "Color field label in the custom shadow settings",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowCustom",
+   "text": "Custom",
+   "description": "Custom object shadow style",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowDistance",
+   "text": "Distance",
+   "description": "Distance from the object to its shadow",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowHeavy",
+   "text": "Heavy",
+   "description": "Heavy object shadow style",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowLight",
+   "text": "Light",
+   "description": "Light object shadow style",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowMedium",
+   "text": "Medium",
+   "description": "Medium object shadow style",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowOpacity",
+   "text": "Opacity",
+   "description": "Shadow opacity as a percentage",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowSize",
+   "text": "Size",
+   "description": "Shadow size as a percentage of the object",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowStrong",
+   "text": "Strong",
+   "description": "Strong object shadow style",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowStyle",
+   "text": "Shadow style",
+   "description": "Select a shadow preset or custom shadow settings",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.strikethrough",
+   "text": "Strikethrough",
+   "description": "Strikethrough text formatting",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.submitChanges",
+   "text": "Submit requested changes",
+   "description": "Submit presentation change instructions",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.tableFill",
+   "text": "Fill",
+   "description": "Selected table cells' background fill section",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.tableOptions",
+   "text": "Table options",
+   "description": "Presentation table formatting options",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textAlignment",
+   "text": "Text alignment",
+   "description": "Open text alignment controls",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textColor",
+   "text": "Text color",
+   "description": "Select the text color",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textOpacity",
+   "text": "Text opacity",
+   "description": "Text opacity as a percentage",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.toggleBorder",
+   "text": "Toggle border",
+   "description": "Add or remove an object border",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.toggleCorners",
+   "text": "Toggle corners",
+   "description": "Add or remove rounded corners on selected objects",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.toggleShadow",
+   "text": "Toggle shadow",
+   "description": "Add or remove the selected object's shadow",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.typography",
+   "text": "Typography",
+   "description": "Presentation text formatting section",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.underline",
+   "text": "Underline",
+   "description": "Underline text formatting",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.uploadImage",
+   "text": "Upload from computer",
+   "description": "Choose an image file from the computer",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationPanel.zoomFit",
+   "text": "Fit",
+   "description": "Zoom menu option that fits the slide or slide grid into the available space",
+   "files": [
+    "915083.ecf935a7fb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.alignCenter",
+   "text": "Align center",
+   "description": "Center spreadsheet cell text",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.alignLeft",
+   "text": "Align left",
+   "description": "Align spreadsheet cell text to the left",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.alignRight",
+   "text": "Align right",
+   "description": "Align spreadsheet cell text to the right",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.back",
+   "text": "Back to formatting",
+   "description": "Return from spreadsheet data or conditional formatting to the main editing panel",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.background",
+   "text": "Background",
+   "description": "Spreadsheet cell background color row label",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.backgroundControl",
+   "text": "Background color",
+   "description": "Choose selected spreadsheet cell background color",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.bold",
+   "text": "Bold",
+   "description": "Toggle bold text in spreadsheet cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.border",
+   "text": "Border",
+   "description": "Spreadsheet cell border section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderAll",
+   "text": "All borders",
+   "description": "Draw all cell borders",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderColorControl",
+   "text": "Border color",
+   "description": "Select spreadsheet cell border color",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderColorLabel",
+   "text": "Color",
+   "description": "Label above the spreadsheet cell border color input",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderHorizontal",
+   "text": "Inner horizontal borders",
+   "description": "Draw horizontal borders between selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderInside",
+   "text": "Inner borders",
+   "description": "Draw borders between selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderNone",
+   "text": "No borders",
+   "description": "Remove borders from selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderOptions",
+   "text": "Border options",
+   "description": "Edit selected spreadsheet object borders",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderVertical",
+   "text": "Inner vertical borders",
+   "description": "Draw vertical borders between selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.cellBorders",
+   "text": "Cell borders",
+   "description": "Choose which spreadsheet cell borders to draw",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.area",
+   "text": "Area",
+   "description": "Area chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.automatic",
+   "text": "Automatic",
+   "description": "Automatic histogram bin count",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.axisLabels",
+   "text": "Axis labels",
+   "description": "Toggle chart axis labels",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.bar",
+   "text": "Bar chart",
+   "description": "Bar chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.binCount",
+   "text": "Fixed count",
+   "description": "Use a fixed number of bins for the spreadsheet histogram",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.bins",
+   "text": "Bins",
+   "description": "Histogram bin count option",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.binWidth",
+   "text": "Fixed width",
+   "description": "Use a fixed bin width for the spreadsheet histogram",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.colorNumber",
+   "text": "Color {number}",
+   "description": "Color of a numbered chart series or slice",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.colors",
+   "text": "Chart colors",
+   "description": "Chart series or slice color section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.dataLabels",
+   "text": "Data labels",
+   "description": "Toggle data labels in the chart",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.doughnut",
+   "text": "Doughnut",
+   "description": "Pie chart with a center hole",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.fixed",
+   "text": "Fixed",
+   "description": "Fixed scatter chart point size",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.funnel",
+   "text": "Funnel",
+   "description": "Funnel chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.gridLines",
+   "text": "Grid lines",
+   "description": "Toggle chart grid lines",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.histogram",
+   "text": "Histogram",
+   "description": "Histogram chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.horizontal",
+   "text": "Horizontal",
+   "description": "Horizontal chart bars",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.legend",
+   "text": "Legend",
+   "description": "Toggle the chart legend",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.line",
+   "text": "Line chart",
+   "description": "Line chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.none",
+   "text": "None",
+   "description": "Do not stack chart series",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.options",
+   "text": "Chart options",
+   "description": "Chart visibility options section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.orientation",
+   "text": "Orientation",
+   "description": "Bar chart orientation",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.percentStacked",
+   "text": "100% stacked",
+   "description": "Stack chart series as percentages",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.pie",
+   "text": "Pie chart",
+   "description": "Pie chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.pieStyle",
+   "text": "Pie",
+   "description": "Pie chart without a center hole",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.pointSize",
+   "text": "Point size",
+   "description": "Scatter chart point size",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.scatter",
+   "text": "Scatter",
+   "description": "Scatter chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.stacked",
+   "text": "Stacked",
+   "description": "Stack chart series",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.stacking",
+   "text": "Stacking",
+   "description": "Chart series stacking option",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.style",
+   "text": "Style",
+   "description": "Pie chart style",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.title",
+   "text": "Title",
+   "description": "Editable title shown above the selected spreadsheet chart",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.treemap",
+   "text": "Treemap",
+   "description": "Treemap chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.type",
+   "text": "Chart type",
+   "description": "Chart type section in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.unavailable",
+   "text": "This chart setting is not available yet",
+   "description": "Explanation for a disabled spreadsheet chart setting",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.vertical",
+   "text": "Vertical",
+   "description": "Vertical chart columns",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.waterfall",
+   "text": "Waterfall",
+   "description": "Waterfall chart type in the spreadsheet editor",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chartType",
+   "text": "Chart type",
+   "description": "Open the chart type menu for the selected spreadsheet chart",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chartTypeLabel",
+   "text": "{type, select, bar {Bar chart} line {Line chart} pie {Pie chart} area {Area} scatter {Scatter} histogram {Histogram} waterfall {Waterfall} funnel {Funnel} treemap {Treemap} other {Chart}}",
+   "description": null,
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chooseImage",
+   "text": "Choose image",
+   "description": "File picker for inserting a spreadsheet image",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.close",
+   "text": "Close editing panel",
+   "description": "Close the spreadsheet formatting side panel",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.comment",
+   "text": "Add comment",
+   "description": "Comment on the selected spreadsheet content",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.applied",
+   "text": "Rule applied",
+   "description": "Confirmation that the conditional formatting rule was saved",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.apply",
+   "text": "Apply",
+   "description": "Save the conditional formatting rule to the spreadsheet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.beginsWith",
+   "text": "Text starts with",
+   "description": "Match spreadsheet cells beginning with the supplied text",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.between",
+   "text": "Is between",
+   "description": "Match numbers between the supplied values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.bold",
+   "text": "Bold",
+   "description": "Make matching spreadsheet cells bold",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.cellColor",
+   "text": "Cell color",
+   "description": "Fill color of spreadsheet cells matching this rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.containsBlanks",
+   "text": "Is empty",
+   "description": "Match empty spreadsheet cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.containsText",
+   "text": "Text contains",
+   "description": "Match spreadsheet cells containing the supplied text",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.createAnother",
+   "text": "Create another rule",
+   "description": "Save this conditional formatting rule and start another",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.endsWith",
+   "text": "Text ends with",
+   "description": "Match spreadsheet cells ending with the supplied text",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.equal",
+   "text": "Is equal to",
+   "description": "Match numbers equal to the comparison value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.formatCellsIf",
+   "text": "Format cells if",
+   "description": "Choose a spreadsheet conditional formatting test",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.greaterThan",
+   "text": "Greater than",
+   "description": "Match numbers greater than the comparison value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.greaterThanOrEqual",
+   "text": "Greater than or equal to",
+   "description": "Match numbers greater than or equal to the comparison value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.italic",
+   "text": "Italic",
+   "description": "Make matching spreadsheet cells italic",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.lessThan",
+   "text": "Less than",
+   "description": "Match numbers less than the comparison value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.lessThanOrEqual",
+   "text": "Less than or equal to",
+   "description": "Match numbers less than or equal to the comparison value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notBetween",
+   "text": "Is not between",
+   "description": "Match numbers outside the supplied values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notContainsBlanks",
+   "text": "Is not empty",
+   "description": "Match nonempty spreadsheet cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notContainsText",
+   "text": "Text does not contain",
+   "description": "Match spreadsheet cells not containing the supplied text",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notEqual",
+   "text": "Is not equal to",
+   "description": "Match numbers unequal to the comparison value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.range",
+   "text": "Range",
+   "description": "Cell range to receive the conditional formatting rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.rules",
+   "text": "Rules",
+   "description": "Conditional formatting rule section title",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.secondValue",
+   "text": "Second value",
+   "description": "Upper bound for a conditional formatting comparison",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.strikethrough",
+   "text": "Strikethrough",
+   "description": "Unavailable strikethrough conditional formatting option",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.style",
+   "text": "Style",
+   "description": "Formatting style applied to cells matching this rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.textColor",
+   "text": "Text color",
+   "description": "Text color of spreadsheet cells matching this rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.underline",
+   "text": "Underline",
+   "description": "Underline spreadsheet cells matching this rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.unsupportedStyle",
+   "text": "This conditional text style is not supported yet",
+   "description": "Explanation for unavailable conditional text styles",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.value",
+   "text": "Value",
+   "description": "Value to compare spreadsheet cells against",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditionalFormatting",
+   "text": "Conditional formatting",
+   "description": "Open rules for formatting cells based on their values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditionalTitle",
+   "text": "Conditional formatting",
+   "description": "Spreadsheet conditional formatting panel title",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.currency",
+   "text": "Currency",
+   "description": "Format selected spreadsheet cells as currency",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataTitle",
+   "text": "Data",
+   "description": "Spreadsheet data formatting panel title",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType",
+   "text": "Data type",
+   "description": "Spreadsheet cell data type selector",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.automatic",
+   "text": "Automatic",
+   "description": "Infer spreadsheet cell data type automatically",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.checkbox",
+   "text": "Checkbox",
+   "description": "Spreadsheet cell type displayed as a checkbox",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.date",
+   "text": "Date",
+   "description": "Spreadsheet date display format",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.dateTime",
+   "text": "Date & time",
+   "description": "Spreadsheet date and time data type",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.dropdown",
+   "text": "Dropdown",
+   "description": "Spreadsheet dropdown validation data type",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.formatUnavailable",
+   "text": "Formatting these cells is not supported yet",
+   "description": "Formatting is unavailable when native history cannot restore the selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.none",
+   "text": "None",
+   "description": "Omit date or time from the cell number format",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.number",
+   "text": "Number",
+   "description": "Spreadsheet numeric data type",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.option",
+   "text": "Option {number}",
+   "description": "Default value for a new spreadsheet dropdown option",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.plainText",
+   "text": "Plain text",
+   "description": "Treat spreadsheet values as plain text",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.time",
+   "text": "Time",
+   "description": "Spreadsheet time display format",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.validationOptions",
+   "text": "Data validation",
+   "description": "Open the format pane's rule, input message, and error alert settings for the selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.decimals",
+   "text": "Decimals",
+   "description": "Show two decimal places in selected spreadsheet cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.editFailed",
+   "text": "Couldn’t apply this change. Try selecting the cells again.",
+   "description": "A spreadsheet manual edit could not be applied",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.editSelection",
+   "text": "More formatting options",
+   "description": "Toggle the spreadsheet formatting side panel",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.fillOptions",
+   "text": "Fill",
+   "description": "Edit selected spreadsheet object fill",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.fontFamily",
+   "text": "Font family",
+   "description": "Accessible label for spreadsheet font family menu",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.fontSize",
+   "text": "Font size",
+   "description": "Spreadsheet font size control",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.format",
+   "text": "Format",
+   "description": "Spreadsheet number format field label",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.formatPanel",
+   "text": "Format",
+   "description": "Open the spreadsheet formatting panel",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.formatSection",
+   "text": "Format",
+   "description": "Spreadsheet range formatting section heading",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.generateImage",
+   "text": "Generate image",
+   "description": "Image generation option in the spreadsheet insertion menu",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.horizontalAlignment",
+   "text": "Horizontal alignment",
+   "description": "Accessible label for spreadsheet text alignment choices",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.imageLoadFailed",
+   "text": "Could not upload this image. Try again.",
+   "description": "Error when the chosen spreadsheet image cannot be decoded or uploaded",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertChartType",
+   "text": "{type, select, bar {Bar} line {Line} pie {Pie} area {Area} scatter {Scatter} histogram {Histogram} waterfall {Waterfall} funnel {Funnel} other {Treemap}}",
+   "description": null,
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertCheckbox",
+   "text": "Checkbox",
+   "description": "Checkbox cell insertion option in a spreadsheet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertDataValidation",
+   "text": "Data validation",
+   "description": "Open the spreadsheet format pane to configure allowed values and validation messages for the selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertionUnavailable",
+   "text": "Not yet available for spreadsheets",
+   "description": "Explanation for a spreadsheet insertion option that is not supported yet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertShapeName",
+   "text": "{shape, select, ellipse {Circle} rect {Rectangle} triangle {Triangle} diamond {Diamond} star5 {Star} rightArrow {Right arrow} leftArrow {Left arrow} plus {Plus} chevron {Chevron} wedgeRoundRectCallout {Callout} line {Line} other {Diagonal arrow}}",
+   "description": "Accessible names of shapes available to insert into a spreadsheet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertShapes",
+   "text": "Shapes",
+   "description": "Open shape insertion choices in a spreadsheet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertText",
+   "text": "Text box",
+   "description": "Insert a text box by clicking or dragging on the spreadsheet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.italic",
+   "text": "Italic",
+   "description": "Toggle italic text in spreadsheet cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.loadingImage",
+   "text": "Loading image…",
+   "description": "Status while decoding a local image to insert in a spreadsheet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.merge",
+   "text": "Merge cells",
+   "description": "Combine the selected spreadsheet cells into one cell",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.mixed",
+   "text": "Mixed",
+   "description": "A formatting value differs across the selected spreadsheet cells or objects",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.moreFormats",
+   "text": "More formats",
+   "description": "Open spreadsheet data type and number format options",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.noAvailableOptions",
+   "text": "No available options",
+   "description": "A spreadsheet format control has no choices permitted by its configuration",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.background",
+   "text": "Background",
+   "description": "Chart background section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.border",
+   "text": "Border",
+   "description": "Drawing border section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.borderColor",
+   "text": "Border color",
+   "description": "Drawing border color input",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.borderStyle",
+   "text": "Border style",
+   "description": "Drawing border dash style",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.color",
+   "text": "Color",
+   "description": "Drawing fill or border color label",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.customShadow",
+   "text": "Custom",
+   "description": "A custom drawing shadow from the file",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.dashed",
+   "text": "Dashed",
+   "description": "Dashed drawing border line",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.dotted",
+   "text": "Dotted",
+   "description": "Dotted drawing border line",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.fill",
+   "text": "Background",
+   "description": "Spreadsheet drawing fill section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.fillColor",
+   "text": "Fill color",
+   "description": "Drawing fill color input",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.heavyShadow",
+   "text": "Heavy",
+   "description": "Heavy drawing shadow preset",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.imageFill",
+   "text": "Image fill",
+   "description": "Use an image as the drawing fill",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.imagePreview",
+   "text": "Selected image",
+   "description": "Alternative text for the selected spreadsheet image preview",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.lightShadow",
+   "text": "Light",
+   "description": "Light drawing shadow preset",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.mediumShadow",
+   "text": "Medium",
+   "description": "Medium drawing shadow preset",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.noFill",
+   "text": "No fill",
+   "description": "Remove the drawing fill",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.none",
+   "text": "None",
+   "description": "Disable this drawing effect",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.opacity",
+   "text": "Opacity",
+   "description": "Drawing opacity percentage",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.previewUnavailable",
+   "text": "Image preview unavailable",
+   "description": "Selected spreadsheet image has no preview URL",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.shadow",
+   "text": "Shadow",
+   "description": "Drawing shadow section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.solid",
+   "text": "Solid",
+   "description": "Solid drawing border line",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.solidFill",
+   "text": "Solid fill",
+   "description": "Use a solid color as the drawing fill",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.strongShadow",
+   "text": "Strong",
+   "description": "Strong drawing shadow preset",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.toggleBackground",
+   "text": "{enabled, select, true {Remove Background} other {Add Background}}",
+   "description": "Add or remove the selected chart's background",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.toggleBorder",
+   "text": "{enabled, select, true {Remove Border} other {Add Border}}",
+   "description": "Add or remove the selected drawing's border",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.toggleShadow",
+   "text": "{enabled, select, true {Remove Shadow} other {Add Shadow}}",
+   "description": "Add or remove the selected drawing's shadow",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.unavailable",
+   "text": "This drawing setting is not available yet",
+   "description": "Explanation for a disabled spreadsheet drawing setting",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.weight",
+   "text": "Weight",
+   "description": "Drawing border line thickness",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.objectTitle",
+   "text": "{kind, select, chart {Chart} image {Image} other {Shape}}",
+   "description": "Spreadsheet selected object panel title",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.percent",
+   "text": "Percent",
+   "description": "Format selected spreadsheet cells as percentages",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.rangeFormattingUnavailable",
+   "text": "Formatting these cells is not supported yet",
+   "description": "Explanation for formatting controls that cannot edit the current spreadsheet selection",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.requestChanges",
+   "text": "Request edits",
+   "description": "Request changes to selected spreadsheet content",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.requestInput",
+   "text": "Describe your changes",
+   "description": "Instructions for changing the selected spreadsheet content",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.requestPlaceholder",
+   "text": "Describe your changes…",
+   "description": "Placeholder for spreadsheet edit instructions",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.selectionActions",
+   "text": "Selection actions",
+   "description": "Spreadsheet selection floating toolbar",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.submitChanges",
+   "text": "Submit requested changes",
+   "description": "Submit instructions to edit selected spreadsheet content",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.table.headerColumn",
+   "text": "Header column",
+   "description": "Toggle special formatting for the first table column",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.table.headerRow",
+   "text": "Header row",
+   "description": "Toggle the spreadsheet table header row",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.table.options",
+   "text": "Table options",
+   "description": "Spreadsheet table options section",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.tableTitle",
+   "text": "Table",
+   "description": "Spreadsheet selected table panel title",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.text",
+   "text": "Typography",
+   "description": "Spreadsheet text formatting section title",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.textColor",
+   "text": "Text color",
+   "description": "Spreadsheet text color row label",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.textColorControl",
+   "text": "Text color",
+   "description": "Choose selected spreadsheet text color",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.textOptions",
+   "text": "Text options",
+   "description": "Edit selected spreadsheet text style",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.underline",
+   "text": "Underline",
+   "description": "Underline text formatting control",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.unmerge",
+   "text": "Unmerge cells",
+   "description": "Split merged spreadsheet cells back into individual cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.uploadImage",
+   "text": "Upload from computer",
+   "description": "Choose an image file to insert in the spreadsheet",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.addValue",
+   "text": "Add option",
+   "description": "Add a new choice to the data validation list",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.apply",
+   "text": "Apply",
+   "description": "Apply the configured validation rule to the selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.between",
+   "text": "Between",
+   "description": "Validation comparison including values between two bounds",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.clear",
+   "text": "Clear validation",
+   "description": "Remove all validation rules from the selected cells",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.custom",
+   "text": "Custom formula",
+   "description": "Data validation rule evaluated using a spreadsheet formula",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.date",
+   "text": "Date",
+   "description": "Data validation rule restricting dates",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.decimal",
+   "text": "Decimal",
+   "description": "Data validation rule requiring decimal numbers",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.dropdown",
+   "text": "Show dropdown in cell",
+   "description": "Whether cells with list validation show a dropdown picker",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.equal",
+   "text": "Equal to",
+   "description": "Data validation comparison requiring equality",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.error",
+   "text": "Invalid values",
+   "description": "Section controlling alerts for values that fail validation",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.errorMessage",
+   "text": "Error message",
+   "description": "Body of the alert for invalid cell values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.errorStyle",
+   "text": "Alert style",
+   "description": "Choose stop, warning, or information behavior for invalid cell values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.errorTitle",
+   "text": "Error title",
+   "description": "Title of the alert for invalid cell values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.first",
+   "text": "Value or first bound",
+   "description": "First value, bound, or cell reference for a validation rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.formula",
+   "text": "Formula",
+   "description": "Formula that must evaluate to true for a cell value to be valid",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.greaterThan",
+   "text": "Greater than",
+   "description": "Data validation comparison requiring a larger value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.greaterThanOrEqual",
+   "text": "Greater than or equal to",
+   "description": "Data validation comparison allowing the lower bound",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.ignoreBlanks",
+   "text": "Allow blank cells",
+   "description": "Whether blank cell values pass the validation rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.information",
+   "text": "Information",
+   "description": "Validation alert style informing the user about invalid values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.lessThan",
+   "text": "Less than",
+   "description": "Data validation comparison requiring a smaller value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.lessThanOrEqual",
+   "text": "Less than or equal to",
+   "description": "Data validation comparison allowing the upper bound",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.list",
+   "text": "List",
+   "description": "Data validation rule restricting cells to a list of choices",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.listMode",
+   "text": "List source",
+   "description": "Choose literal choices or a cell range for data validation",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.none",
+   "text": "Any value",
+   "description": "Data validation rule allowing any cell value",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.notBetween",
+   "text": "Not between",
+   "description": "Validation comparison excluding values between two bounds",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.notEqual",
+   "text": "Not equal to",
+   "description": "Data validation comparison requiring inequality",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.operator",
+   "text": "Condition",
+   "description": "Comparison operator in the spreadsheet validation form",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.prompt",
+   "text": "Input message",
+   "description": "Section for a message shown when validated cells are selected",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.promptMessage",
+   "text": "Input message text",
+   "description": "Body of the validation input message",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.promptTitle",
+   "text": "Input message title",
+   "description": "Title of the validation input message",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.remove",
+   "text": "Remove",
+   "description": "Remove one choice from a data validation list",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.removeValue",
+   "text": "Remove option {number}",
+   "description": "Accessible label for deleting the validation choice at the one-based position number",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.rule",
+   "text": "Allowed values",
+   "description": "Heading and field label for choosing the selected cells' validation rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.second",
+   "text": "Second bound",
+   "description": "Second bound or cell reference for a between validation rule",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.showError",
+   "text": "Show error alert",
+   "description": "Toggle alerts for cell values that fail data validation",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.showPrompt",
+   "text": "Show input message",
+   "description": "Toggle the message displayed when a validated cell is selected",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.source",
+   "text": "Cell range or formula",
+   "description": "Cell range or named formula providing validation choices",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.stop",
+   "text": "Stop",
+   "description": "Validation alert style rejecting invalid values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.textLength",
+   "text": "Text length",
+   "description": "Data validation rule restricting the number of characters in a cell",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.time",
+   "text": "Time",
+   "description": "Data validation rule restricting times",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.value",
+   "text": "Option {number}",
+   "description": "Label for one validation list option; number is its one-based position",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.values",
+   "text": "Enter values",
+   "description": "Use an explicit list of choices for cell validation",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.warning",
+   "text": "Warning",
+   "description": "Validation alert style warning about invalid values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.whole",
+   "text": "Whole number",
+   "description": "Data validation rule requiring whole numbers",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validationTitle",
+   "text": "Data validation",
+   "description": "Title of the spreadsheet format pane for rules that restrict allowed cell values",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.wrapText",
+   "text": "Wrap text",
+   "description": "Wrap spreadsheet cell text onto multiple lines",
+   "files": [
+    "706218.e4d99bd644.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "textFileEditor.find.label",
+   "text": "Find in file",
+   "description": "Accessible label for find in a text file",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "textFileEditor.find.placeholder",
+   "text": "Find in file…",
+   "description": "Placeholder for find in a text file",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "thinkingShimmer.default",
+   "text": "Thinking",
+   "description": "Default placeholder shown while the assistant is thinking",
+   "files": [
+    "310423.2ed8d20af4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.formattedRelativeDateTime.compactDaysAgo",
+   "text": "{value}d",
+   "description": "Compact days-ago format",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.formattedRelativeDateTime.compactHoursAgo",
+   "text": "{value}h",
+   "description": "Compact hours-ago format",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.formattedRelativeDateTime.compactMinutesAgo",
+   "text": "{value}m",
+   "description": "Compact minutes-ago format",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.formattedRelativeDateTime.compactMonthsAgo",
+   "text": "{value}mo",
+   "description": "Compact months-ago format",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.formattedRelativeDateTime.compactWeeksAgo",
+   "text": "{value}w",
+   "description": "Compact weeks-ago format",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.formattedRelativeDateTime.compactYearsAgo",
+   "text": "{value}y",
+   "description": "Compact years-ago format",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.formattedRelativeDateTime.justNow",
+   "text": "just now",
+   "description": "Relative timestamp for an event that happened less than a minute ago",
+   "files": [
+    "392429.8e8e66e4ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.whamProposedTask.title",
+   "text": "Suggested task",
+   "description": "Label for a card that suggests a follow up Codex task",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "wham.whamProposedTask.useSuggestion",
+   "text": "Use suggestion",
+   "description": "Button to open the Composer with a prefilled prompt from a suggestion",
+   "files": [
+    "904485.55539c0b53.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 1192
+  },
+  {
+   "name": "className",
+   "count": 838
+  },
+  {
+   "name": "id",
+   "count": 754
+  },
+  {
+   "name": "description",
+   "count": 581
+  },
+  {
+   "name": "defaultMessage",
+   "count": 580
+  },
+  {
+   "name": "label",
+   "count": 507
+  },
+  {
+   "name": "value",
+   "count": 405
+  },
+  {
+   "name": "kind",
+   "count": 340
+  },
+  {
+   "name": "type",
+   "count": 311
+  },
+  {
+   "name": "y",
+   "count": 294
+  },
+  {
+   "name": "x",
+   "count": 292
+  },
+  {
+   "name": "width",
+   "count": 284
+  },
+  {
+   "name": "height",
+   "count": 277
+  },
+  {
+   "name": "disabled",
+   "count": 232
+  },
+  {
+   "name": "onChange",
+   "count": 229
+  },
+  {
+   "name": "config",
+   "count": 185
+  },
+  {
+   "name": "title",
+   "count": 181
+  },
+  {
+   "name": "style",
+   "count": 175
+  },
+  {
+   "name": "onClick",
+   "count": 167
+  },
+  {
+   "name": "color",
+   "count": 161
+  },
+  {
+   "name": "controller",
+   "count": 159
+  },
+  {
+   "name": "ref",
+   "count": 126
+  },
+  {
+   "name": "left",
+   "count": 122
+  },
+  {
+   "name": "top",
+   "count": 119
+  },
+  {
+   "name": "null",
+   "count": 116
+  },
+  {
+   "name": "C1",
+   "count": 113
+  },
+  {
+   "name": "target",
+   "count": 107
+  },
+  {
+   "name": "size",
+   "count": 103
+  },
+  {
+   "name": "icon",
+   "count": 96
+  },
+  {
+   "name": "onSelect",
+   "count": 88
+  },
+  {
+   "name": "snapshot",
+   "count": 88
+  },
+  {
+   "name": "asset",
+   "count": 85
+  },
+  {
+   "name": "frame",
+   "count": 85
+  },
+  {
+   "name": "camera",
+   "count": 79
+  },
+  {
+   "name": "fill",
+   "count": 71
+  },
+  {
+   "name": "text",
+   "count": 70
+  },
+  {
+   "name": "min",
+   "count": 69
+  },
+  {
+   "name": "sheetName",
+   "count": 65
+  },
+  {
+   "name": "ariaLabel",
+   "count": 64
+  },
+  {
+   "name": "body",
+   "count": 63
+  },
+  {
+   "name": "disabledReason",
+   "count": 61
+  },
+  {
+   "name": "onKeyDown",
+   "count": 60
+  },
+  {
+   "name": "A1",
+   "count": 60
+  },
+  {
+   "name": "open",
+   "count": 59
+  },
+  {
+   "name": "side",
+   "count": 58
+  },
+  {
+   "name": "tableId",
+   "count": 58
+  },
+  {
+   "name": "hostId",
+   "count": 56
+  },
+  {
+   "name": "index",
+   "count": 54
+  },
+  {
+   "name": "rowHeights",
+   "count": 54
+  },
+  {
+   "name": "max",
+   "count": 53
+  },
+  {
+   "name": "options",
+   "count": 53
+  },
+  {
+   "name": "isEditing",
+   "count": 53
+  },
+  {
+   "name": "testId",
+   "count": 53
+  },
+  {
+   "name": "variant",
+   "count": 52
+  },
+  {
+   "name": "role",
+   "count": 52
+  },
+  {
+   "name": "onClose",
+   "count": 52
+  },
+  {
+   "name": "enabled",
+   "count": 50
+  },
+  {
+   "name": "freezePanes",
+   "count": 50
+  },
+  {
+   "name": "bottom",
+   "count": 48
+  },
+  {
+   "name": "columnWidths",
+   "count": 48
+  },
+  {
+   "name": "preventScroll",
+   "count": 47
+  },
+  {
+   "name": "right",
+   "count": 47
+  },
+  {
+   "name": "src",
+   "count": 45
+  },
+  {
+   "name": "slideId",
+   "count": 45
+  },
+  {
+   "name": "name",
+   "count": 44
+  },
+  {
+   "name": "zoom",
+   "count": 44
+  },
+  {
+   "name": "bounds",
+   "count": 43
+  },
+  {
+   "name": "onOpenChange",
+   "count": 41
+  },
+  {
+   "name": "viewBox",
+   "count": 40
+  },
+  {
+   "name": "response",
+   "count": 40
+  },
+  {
+   "name": "point",
+   "count": 40
+  },
+  {
+   "name": "palette",
+   "count": 40
+  },
+  {
+   "name": "chartId",
+   "count": 40
+  },
+  {
+   "name": "source",
+   "count": 39
+  },
+  {
+   "name": "mode",
+   "count": 38
+  },
+  {
+   "name": "pressed",
+   "count": 38
+  },
+  {
+   "name": "active",
+   "count": 37
+  },
+  {
+   "name": "onPointerDown",
+   "count": 36
+  },
+  {
+   "name": "content",
+   "count": 35
+  },
+  {
+   "name": "e",
+   "count": 34
+  },
+  {
+   "name": "capabilities",
+   "count": 34
+  },
+  {
+   "name": "shiftKey",
+   "count": 33
+  },
+  {
+   "name": "threadId",
+   "count": 33
+  },
+  {
+   "name": "hover",
+   "count": 33
+  },
+  {
+   "name": "backgroundColor",
+   "count": 32
+  },
+  {
+   "name": "elementId",
+   "count": 32
+  },
+  {
+   "name": "format",
+   "count": 30
+  },
+  {
+   "name": "align",
+   "count": 30
+  },
+  {
+   "name": "cursor",
+   "count": 30
+  },
+  {
+   "name": "d",
+   "count": 29
+  },
+  {
+   "name": "state",
+   "count": 29
+  },
+  {
+   "name": "shape",
+   "count": 28
+  },
+  {
+   "name": "error",
+   "count": 28
+  },
+  {
+   "name": "placeholder",
+   "count": 28
+  },
+  {
+   "name": "axis",
+   "count": 28
+  },
+  {
+   "name": "onCancel",
+   "count": 28
+  },
+  {
+   "name": "start",
+   "count": 28
+  },
+  {
+   "name": "annotationMode",
+   "count": 28
+  },
+  {
+   "name": "values",
+   "count": 27
+  },
+  {
+   "name": "conversationId",
+   "count": 27
+  },
+  {
+   "name": "tabIndex",
+   "count": 26
+  },
+  {
+   "name": "center",
+   "count": 26
+  },
+  {
+   "name": "canvas",
+   "count": 25
+  },
+  {
+   "name": "row",
+   "count": 24
+  },
+  {
+   "name": "strokeWidth",
+   "count": 24
+  },
+  {
+   "name": "viewportInsets",
+   "count": 24
+  },
+  {
+   "name": "message",
+   "count": 23
+  },
+  {
+   "name": "alt",
+   "count": 23
+  },
+  {
+   "name": "inkBounds",
+   "count": 23
+  },
+  {
+   "name": "visualBounds",
+   "count": 23
+  },
+  {
+   "name": "paint",
+   "count": 23
+  },
+  {
+   "name": "optical",
+   "count": 23
+  },
+  {
+   "name": "insets",
+   "count": 23
+  },
+  {
+   "name": "anchors",
+   "count": 23
+  },
+  {
+   "name": "ink",
+   "count": 23
+  },
+  {
+   "name": "foreground",
+   "count": 23
+  },
+  {
+   "name": "panelControls",
+   "count": 23
+  },
+  {
+   "name": "asChild",
+   "count": 22
+  },
+  {
+   "name": "action",
+   "count": 22
+  },
+  {
+   "name": "ctrlKey",
+   "count": 22
+  },
+  {
+   "name": "portalContainer",
+   "count": 22
+  },
+  {
+   "name": "commit",
+   "count": 22
+  },
+  {
+   "name": "from",
+   "count": 22
+  },
+  {
+   "name": "selection",
+   "count": 22
+  },
+  {
+   "name": "fontSize",
+   "count": 22
+  },
+  {
+   "name": "fileColors",
+   "count": 22
+  },
+  {
+   "name": "onEdit",
+   "count": 22
+  },
+  {
+   "name": "container",
+   "count": 21
+  },
+  {
+   "name": "position",
+   "count": 21
+  },
+  {
+   "name": "offset",
+   "count": 21
+  },
+  {
+   "name": "direction",
+   "count": 20
+  },
+  {
+   "name": "items",
+   "count": 20
+  },
+  {
+   "name": "to",
+   "count": 20
+  },
+  {
+   "name": "edit",
+   "count": 20
+  },
+  {
+   "name": "onInteractionAttempt",
+   "count": 20
+  },
+  {
+   "name": "reviewTools",
+   "count": 20
+  },
+  {
+   "name": "range",
+   "count": 20
+  },
+  {
+   "name": "presentationVersion",
+   "count": 20
+  },
+  {
+   "name": "k",
+   "count": 19
+  },
+  {
+   "name": "key",
+   "count": 19
+  },
+  {
+   "name": "focus",
+   "count": 19
+  },
+  {
+   "name": "onPointerMove",
+   "count": 19
+  },
+  {
+   "name": "author",
+   "count": 19
+  },
+  {
+   "name": "artifactKind",
+   "count": 19
+  },
+  {
+   "name": "checked",
+   "count": 19
+  },
+  {
+   "name": "number",
+   "count": 19
+  },
+  {
+   "name": "end",
+   "count": 19
+  },
+  {
+   "name": "isActive",
+   "count": 19
+  },
+  {
+   "name": "altKey",
+   "count": 19
+  },
+  {
+   "name": "panels",
+   "count": 19
+  },
+  {
+   "name": "geometry",
+   "count": 19
+  },
+  {
+   "name": "t",
+   "count": 18
+  },
+  {
+   "name": "display",
+   "count": 18
+  },
+  {
+   "name": "formatting",
+   "count": 18
+  },
+  {
+   "name": "opacity",
+   "count": 18
+  },
+  {
+   "name": "A2",
+   "count": 18
+  },
+  {
+   "name": "runtime",
+   "count": 18
+  },
+  {
+   "name": "cwd",
+   "count": 18
+  },
+  {
+   "name": "slideRect",
+   "count": 18
+  },
+  {
+   "name": "leftIconAsset",
+   "count": 17
+  },
+  {
+   "name": "triggerButton",
+   "count": 17
+  },
+  {
+   "name": "onSubmit",
+   "count": 17
+  },
+  {
+   "name": "command",
+   "count": 17
+  },
+  {
+   "name": "unit",
+   "count": 17
+  },
+  {
+   "name": "transform",
+   "count": 17
+  },
+  {
+   "name": "viewport",
+   "count": 17
+  },
+  {
+   "name": "fillColor",
+   "count": 17
+  },
+  {
+   "name": "collisionBoundaryElement",
+   "count": 17
+  },
+  {
+   "name": "settled",
+   "count": 17
+  },
+  {
+   "name": "onCommit",
+   "count": 17
+  },
+  {
+   "name": "inputFocused",
+   "count": 17
+  },
+  {
+   "name": "path",
+   "count": 16
+  },
+  {
+   "name": "onFocus",
+   "count": 16
+  },
+  {
+   "name": "col",
+   "count": 16
+  },
+  {
+   "name": "dpr",
+   "count": 16
+  },
+  {
+   "name": "commentsSidebarOpen",
+   "count": 16
+  },
+  {
+   "name": "intent",
+   "count": 16
+  },
+  {
+   "name": "shortcutScopeElement",
+   "count": 16
+  },
+  {
+   "name": "onRequestChanges",
+   "count": 16
+  },
+  {
+   "name": "allowWide",
+   "count": 15
+  },
+  {
+   "name": "onPointerUp",
+   "count": 15
+  },
+  {
+   "name": "selectedFloatingElement",
+   "count": 15
+  },
+  {
+   "name": "address",
+   "count": 15
+  },
+  {
+   "name": "refColors",
+   "count": 15
+  },
+  {
+   "name": "rangeAddress",
+   "count": 15
+  },
+  {
+   "name": "rotation",
+   "count": 15
+  },
+  {
+   "name": "annotationsEnabled",
+   "count": 15
+  },
+  {
+   "name": "drawingAnnotationsEnabled",
+   "count": 15
+  },
+  {
+   "name": "commentThreadsEnabled",
+   "count": 15
+  },
+  {
+   "name": "compact",
+   "count": 15
+  },
+  {
+   "name": "line",
+   "count": 15
+  },
+  {
+   "name": "floatingBar",
+   "count": 15
+  },
+  {
+   "name": "hideLabel",
+   "count": 15
+  },
+  {
+   "name": "duration",
+   "count": 14
+  },
+  {
+   "name": "metaKey",
+   "count": 14
+  },
+  {
+   "name": "pointerId",
+   "count": 14
+  },
+  {
+   "name": "event",
+   "count": 14
+  },
+  {
+   "name": "sheet",
+   "count": 14
+  },
+  {
+   "name": "blockId",
+   "count": 14
+  },
+  {
+   "name": "portalContainerElement",
+   "count": 14
+  },
+  {
+   "name": "onSelectedCommentThreadChange",
+   "count": 14
+  },
+  {
+   "name": "bottomScrollReservePx",
+   "count": 14
+  },
+  {
+   "name": "accentStroke",
+   "count": 14
+  },
+  {
+   "name": "selectionBounds",
+   "count": 14
+  },
+  {
+   "name": "theme",
+   "count": 14
+  },
+  {
+   "name": "renderHeaderZoomControl",
+   "count": 14
+  },
+  {
+   "name": "renderHeader",
+   "count": 14
+  },
+  {
+   "name": "presets",
+   "count": 14
+  },
+  {
+   "name": "openFileLinksInSidePanel",
+   "count": 14
+  },
+  {
+   "name": "stroke",
+   "count": 14
+  },
+  {
+   "name": "actions",
+   "count": 13
+  },
+  {
+   "name": "uniform",
+   "count": 13
+  },
+  {
+   "name": "padding",
+   "count": 13
+  },
+  {
+   "name": "inert",
+   "count": 13
+  },
+  {
+   "name": "html",
+   "count": 13
+  },
+  {
+   "name": "placement",
+   "count": 13
+  },
+  {
+   "name": "bold",
+   "count": 13
+  },
+  {
+   "name": "italic",
+   "count": 13
+  },
+  {
+   "name": "boundary",
+   "count": 13
+  },
+  {
+   "name": "pending",
+   "count": 13
+  },
+  {
+   "name": "visible",
+   "count": 13
+  },
+  {
+   "name": "background",
+   "count": 13
+  },
+  {
+   "name": "drawingMode",
+   "count": 13
+  },
+  {
+   "name": "clientX",
+   "count": 13
+  },
+  {
+   "name": "clientY",
+   "count": 13
+  },
+  {
+   "name": "selectionBoundsSource",
+   "count": 13
+  },
+  {
+   "name": "font",
+   "count": 13
+  },
+  {
+   "name": "shadow",
+   "count": 13
+  },
+  {
+   "name": "fadeSegmentDelayMs",
+   "count": 13
+  },
+  {
+   "name": "fadeSegmentMaxDelayMs",
+   "count": 13
+  },
+  {
+   "name": "contentWidth",
+   "count": 12
+  },
+  {
+   "name": "mediaPresentation",
+   "count": 12
+  },
+  {
+   "name": "getSnapshot",
+   "count": 12
+  },
+  {
+   "name": "subscribe",
+   "count": 12
+  },
+  {
+   "name": "signal",
+   "count": 12
+  },
+  {
+   "name": "onBlur",
+   "count": 12
+  },
+  {
+   "name": "scope",
+   "count": 12
+  },
+  {
+   "name": "screenX",
+   "count": 12
+  },
+  {
+   "name": "screenY",
+   "count": 12
+  },
+  {
+   "name": "selectionRect",
+   "count": 12
+  },
+  {
+   "name": "selectedCommentThreadId",
+   "count": 12
+  },
+  {
+   "name": "accentFill",
+   "count": 12
+  },
+  {
+   "name": "onHyperlinkClick",
+   "count": 12
+  },
+  {
+   "name": "artifactSearchEnabled",
+   "count": 12
+  },
+  {
+   "name": "renderFindBar",
+   "count": 12
+  },
+  {
+   "name": "strokes",
+   "count": 12
+  },
+  {
+   "name": "trigger",
+   "count": 12
+  },
+  {
+   "name": "scale",
+   "count": 12
+  },
+  {
+   "name": "headerTitleContent",
+   "count": 12
+  },
+  {
+   "name": "renderLayout",
+   "count": 12
+  }
+ ],
+ "literal_count": 6118,
+ "literals_file": "codex_app_rev\\.work\\literals\\editors.json"
+}

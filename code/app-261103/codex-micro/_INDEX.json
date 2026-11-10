@@ -1,0 +1,39 @@
+{
+ "module": "codex-micro",
+ "generated_at": "2026-11-09T07:57:26.213Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1103.4239.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1103.32239",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/623696.1882000641.js",
+   "file": "623696.1882000641.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 81622,
+   "formatted_bytes": 120944,
+   "formatter": "prettier",
+   "sha256_raw": "b3d98f2239b7c972690cfbb2fb83d26a517e9e630f11f85bc4c5ee30132b11ef",
+   "message_count": 46,
+   "namespace_score": 26,
+   "namespaces": [
+    "codexMicro.onboarding:26",
+    "settings.codexMicro:12",
+    "creatorMicro.onboarding:6",
+    "permissions.revealApp:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/851215.3a3b02a3eb.js",
+   "file": "851215.3a3b02a3eb.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 48802,
+   "formatted_bytes": 83718,
+   "formatter": "prettier",
+   "sha256_raw": "6d21d00c6583519506795ea2122e65bb381b93722be94e2e9490ccc22356bb26",
+   "message_count": 1,
+   "namespace_score": 1,
+   "namespaces": [
+    "codexMicro.command:1"
+   ]
+  }
+ ]
+}

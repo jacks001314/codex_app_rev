@@ -1,0 +1,683 @@
+{
+ "module": "conversation",
+ "generated_at": "2026-10-17T04:58:40.622Z",
+ "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+ "app_version": "26.1013.40934",
+ "files": [
+  {
+   "archive_path": "webview/assets/animated-icon-svg-118783d1401f.js",
+   "file": "_deps/animated-icon-svg-118783d1401f.js",
+   "selected_by": "closure:d1:conversation-ui-605b34b5a676.js",
+   "raw_bytes": 266,
+   "formatted_bytes": 310,
+   "formatter": "prettier",
+   "sha256_raw": "5f18c3360d004870ab1424f491322779d5e114892da34ae7f3097b94215f4c1b"
+  },
+  {
+   "archive_path": "webview/assets/artifact-originating-turn-4517ac8fac03.js",
+   "file": "turn/artifact-originating-turn-4517ac8fac03.js",
+   "selected_by": "rule",
+   "raw_bytes": 1576,
+   "formatted_bytes": 2077,
+   "formatter": "prettier",
+   "sha256_raw": "80e7501d51ef7f49a205f479fa5148b534f8080af2a6f679474ef8a7dbd0f0bc"
+  },
+  {
+   "archive_path": "webview/assets/asb-conversation-page-a56da8e88195.js",
+   "file": "pages/asb-conversation-page-a56da8e88195.js",
+   "selected_by": "rule",
+   "raw_bytes": 3464,
+   "formatted_bytes": 5291,
+   "formatter": "prettier",
+   "sha256_raw": "ce1968c9c0a0a94bfa3b07b6e41cfe030d8eec3f774fbe3425e2d60b6b70d02a"
+  },
+  {
+   "archive_path": "webview/assets/automation-row-b0bc78bac43a.js",
+   "file": "_deps/automation-row-b0bc78bac43a.js",
+   "selected_by": "closure:d1:pending-local-conversation-thread-1f3ac9e93aa2.js",
+   "raw_bytes": 22399,
+   "formatted_bytes": 36800,
+   "formatter": "prettier",
+   "sha256_raw": "6c6e22dfeb8d978a30aac7dc60de3e7dcf26790942a0dafaf13a2c2f113b8ed9"
+  },
+  {
+   "archive_path": "webview/assets/automation-search-aa8a2f802e9c.js",
+   "file": "_deps/automation-search-aa8a2f802e9c.js",
+   "selected_by": "closure:d1:pending-local-conversation-thread-1f3ac9e93aa2.js",
+   "raw_bytes": 318,
+   "formatted_bytes": 364,
+   "formatter": "prettier",
+   "sha256_raw": "643ce14bc42724272fb4497b89f822652844416daa4809e5337fdfaa4d740465"
+  },
+  {
+   "archive_path": "webview/assets/browser-61bf87c2c41e.js",
+   "file": "_deps/browser-61bf87c2c41e.js",
+   "selected_by": "closure:d1:conversation-ui-605b34b5a676.js",
+   "raw_bytes": 1209,
+   "formatted_bytes": 1505,
+   "formatter": "prettier",
+   "sha256_raw": "a52a738dd6e7cd98383d1927c3d34dc92fb38284b9fcaada1641c14b4142d7e1"
+  },
+  {
+   "archive_path": "webview/assets/button-4badf5dd14b0.js",
+   "file": "_deps/button-4badf5dd14b0.js",
+   "selected_by": "closure:d1:local-conversation-page-4298f8ec98fa.js",
+   "raw_bytes": 3531,
+   "formatted_bytes": 5759,
+   "formatter": "prettier",
+   "sha256_raw": "f02a96e0d2c61c083bd82fe7a4e3a6e98d11b41f3f0d7c26958924f17bdbeb70"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_conversation_image-ea0e433caffc.js",
+   "file": "pages/chatgpt_conversation_image-ea0e433caffc.js",
+   "selected_by": "rule",
+   "raw_bytes": 1130,
+   "formatted_bytes": 1402,
+   "formatter": "prettier",
+   "sha256_raw": "e1f2bbb34075790766f3c8af3520e300862c6663e4d8365dee768d200ca52f3e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_conversational_onboarding-f7deb0d60fff.js",
+   "file": "pages/chatgpt_conversational_onboarding-f7deb0d60fff.js",
+   "selected_by": "rule",
+   "raw_bytes": 749,
+   "formatted_bytes": 869,
+   "formatter": "prettier",
+   "sha256_raw": "2a79f7eb1db15e06194048f56763b39c8548a2a95365d084b83e4841b3c2f003"
+  },
+  {
+   "archive_path": "webview/assets/conversation-a27aae5d4454.js",
+   "file": "pages/conversation-a27aae5d4454.js",
+   "selected_by": "rule",
+   "raw_bytes": 3055,
+   "formatted_bytes": 4717,
+   "formatter": "prettier",
+   "sha256_raw": "fdbcba2f6bccc6accf24f466e2bb8449989c8ce7df12b4059e92214f7d716391"
+  },
+  {
+   "archive_path": "webview/assets/conversation-actions-2dd1edaae253.js",
+   "file": "pages/conversation-actions-2dd1edaae253.js",
+   "selected_by": "rule",
+   "raw_bytes": 8113,
+   "formatted_bytes": 11158,
+   "formatter": "prettier",
+   "sha256_raw": "79f90d75f36161c980346f70308f30388a02114ea786b0e8f2515dc589ca1636"
+  },
+  {
+   "archive_path": "webview/assets/conversation-follow-up-action-list-1dc3e741786c.js",
+   "file": "pages/conversation-follow-up-action-list-1dc3e741786c.js",
+   "selected_by": "rule",
+   "raw_bytes": 5215,
+   "formatted_bytes": 5248,
+   "formatter": "prettier",
+   "sha256_raw": "1647fa10598419da2bc13899dd59570d5e57234bd8408d4b4f0440acb206dea7"
+  },
+  {
+   "archive_path": "webview/assets/conversation-gap-f75c434d4ee7.js",
+   "file": "pages/conversation-gap-f75c434d4ee7.js",
+   "selected_by": "rule",
+   "raw_bytes": 583,
+   "formatted_bytes": 820,
+   "formatter": "prettier",
+   "sha256_raw": "498445e394d804704885201b1ed293f3fd70ace643416c0ba6ab22619e985fab"
+  },
+  {
+   "archive_path": "webview/assets/conversation-load-error-cad8d3268901.js",
+   "file": "pages/conversation-load-error-cad8d3268901.js",
+   "selected_by": "rule",
+   "raw_bytes": 841,
+   "formatted_bytes": 1128,
+   "formatter": "prettier",
+   "sha256_raw": "10e186ad940f0cf50ea9e369a75485a59b797ed2910b32045ad2972607c9fb87"
+  },
+  {
+   "archive_path": "webview/assets/conversation-markdown-315af0a2573a.js",
+   "file": "markdown/conversation-markdown-315af0a2573a.js",
+   "selected_by": "rule",
+   "raw_bytes": 20243,
+   "formatted_bytes": 27175,
+   "formatter": "prettier",
+   "sha256_raw": "9cd9c9c1246d323db9f2a6ce460f8e4c85092490ffaec0aba08e946584948f1b"
+  },
+  {
+   "archive_path": "webview/assets/conversation-markdown-6311249610b2.js",
+   "file": "markdown/conversation-markdown-6311249610b2.js",
+   "selected_by": "rule",
+   "raw_bytes": 106,
+   "formatted_bytes": 118,
+   "formatter": "prettier",
+   "sha256_raw": "6e28c9eb4a0b3d4c0682011f0a749fbab9b36cfd9224c915ea2e62127e694d01"
+  },
+  {
+   "archive_path": "webview/assets/conversation-move-menu-items-ce1b35a51a3a.js",
+   "file": "pages/conversation-move-menu-items-ce1b35a51a3a.js",
+   "selected_by": "rule",
+   "raw_bytes": 6944,
+   "formatted_bytes": 10412,
+   "formatter": "prettier",
+   "sha256_raw": "924f7f5f9da038d0e1a2a46679328a4796e48cb4d88ce6c619351df546087397"
+  },
+  {
+   "archive_path": "webview/assets/conversation-navigation-state-ff699adf115c.js",
+   "file": "pages/conversation-navigation-state-ff699adf115c.js",
+   "selected_by": "rule",
+   "raw_bytes": 357,
+   "formatted_bytes": 420,
+   "formatter": "prettier",
+   "sha256_raw": "bb021a840b86244f5e4e027a92da642a8a866ce1ca22de71a603d51b6d6926d5"
+  },
+  {
+   "archive_path": "webview/assets/conversation-plan-files-fab485da32fe.js",
+   "file": "pages/conversation-plan-files-fab485da32fe.js",
+   "selected_by": "rule",
+   "raw_bytes": 1972,
+   "formatted_bytes": 3316,
+   "formatter": "prettier",
+   "sha256_raw": "b6a5c1766fb28da38390cecc04aa06272c83f56e4244341e87953121fe7e0968"
+  },
+  {
+   "archive_path": "webview/assets/conversation-share-flow-ef7aeb501e38.js",
+   "file": "pages/conversation-share-flow-ef7aeb501e38.js",
+   "selected_by": "rule",
+   "raw_bytes": 108,
+   "formatted_bytes": 120,
+   "formatter": "prettier",
+   "sha256_raw": "b3da1c7e508bab163382fa49ecd9b8ab4628ae90072b2d4595979b83ecd190fa"
+  },
+  {
+   "archive_path": "webview/assets/conversation-ui-21bef140820c.js",
+   "file": "pages/conversation-ui-21bef140820c.js",
+   "selected_by": "rule",
+   "raw_bytes": 181,
+   "formatted_bytes": 197,
+   "formatter": "prettier",
+   "sha256_raw": "966f9b59057a4d50f97fe98d3c48c76e12298b3d8ac3812fdad9cd59690163f6"
+  },
+  {
+   "archive_path": "webview/assets/conversation-ui-605b34b5a676.js",
+   "file": "pages/conversation-ui-605b34b5a676.js",
+   "selected_by": "rule",
+   "raw_bytes": 14146,
+   "formatted_bytes": 21503,
+   "formatter": "prettier",
+   "sha256_raw": "0fe0abae05f4873971cd2e44fa14158a275ba940e73839cd116622200ace4e97"
+  },
+  {
+   "archive_path": "webview/assets/conversation-view-7b7c0046b8d4.js",
+   "file": "pages/conversation-view-7b7c0046b8d4.js",
+   "selected_by": "rule",
+   "raw_bytes": 5607,
+   "formatted_bytes": 9115,
+   "formatter": "prettier",
+   "sha256_raw": "3b1946efb7687eab5886adca2589bc7694cffba4f055d46d39ca40892397b88b"
+  },
+  {
+   "archive_path": "webview/assets/disclosure-state-96d43f424094.js",
+   "file": "_deps/disclosure-state-96d43f424094.js",
+   "selected_by": "closure:d1:conversation-ui-605b34b5a676.js",
+   "raw_bytes": 1945,
+   "formatted_bytes": 2635,
+   "formatter": "prettier",
+   "sha256_raw": "85abc75d1e852c14957cdc1ee814fc41506e066d944877e62430400503458401"
+  },
+  {
+   "archive_path": "webview/assets/github-queries-5fefde536f59.js",
+   "file": "_deps/github-queries-5fefde536f59.js",
+   "selected_by": "closure:d1:local-conversation-page-4298f8ec98fa.js",
+   "raw_bytes": 192,
+   "formatted_bytes": 210,
+   "formatter": "prettier",
+   "sha256_raw": "e8882ce5e753b021ffe30a8782cf03205e630109015642f4e359768e93f9df1c"
+  },
+  {
+   "archive_path": "webview/assets/gitlab-merge-request-form-dialog-cb5df2341543.js",
+   "file": "_deps/gitlab-merge-request-form-dialog-cb5df2341543.js",
+   "selected_by": "closure:d1:local-conversation-thread-6999d2419a30.js",
+   "raw_bytes": 6366,
+   "formatted_bytes": 10031,
+   "formatter": "prettier",
+   "sha256_raw": "e53b25514806a30da0e10b250117f759ec61c40761df5b94c001ea858c6cab17"
+  },
+  {
+   "archive_path": "webview/assets/header-action-412a59778d0b.js",
+   "file": "_deps/header-action-412a59778d0b.js",
+   "selected_by": "closure:d1:local-conversation-page-4298f8ec98fa.js",
+   "raw_bytes": 4607,
+   "formatted_bytes": 7156,
+   "formatter": "prettier",
+   "sha256_raw": "6aba330168ad9d3b2548cb32bdeb8441c4a4cf7aed4f045b91e98dbf9b0af98d"
+  },
+  {
+   "archive_path": "webview/assets/header-action-size-3acfcf69d158.js",
+   "file": "_deps/header-action-size-3acfcf69d158.js",
+   "selected_by": "closure:d1:local-conversation-page-4298f8ec98fa.js",
+   "raw_bytes": 484,
+   "formatted_bytes": 648,
+   "formatter": "prettier",
+   "sha256_raw": "f10b9ba56978e66e5406bec09790b62204c135c48b8d2460b8948d269e35ee96"
+  },
+  {
+   "archive_path": "webview/assets/hotkey-window-new-thread-page-7a65d4eb8699.js",
+   "file": "pages/hotkey-window-new-thread-page-7a65d4eb8699.js",
+   "selected_by": "rule",
+   "raw_bytes": 2222,
+   "formatted_bytes": 3280,
+   "formatter": "prettier",
+   "sha256_raw": "7a557e4fefac9c8d9c9bdabed1193a228420f952483e80367dc9ab436553bc72"
+  },
+  {
+   "archive_path": "webview/assets/hotkey-window-thread-page-21822771506e.js",
+   "file": "pages/hotkey-window-thread-page-21822771506e.js",
+   "selected_by": "rule",
+   "raw_bytes": 3329,
+   "formatted_bytes": 5628,
+   "formatter": "prettier",
+   "sha256_raw": "12718d506c2dbd764018d938d870eb3c3d33fd4174ef7ddae855416f869fab31"
+  },
+  {
+   "archive_path": "webview/assets/index.es-234488e57e8f.js",
+   "file": "_deps/index.es-234488e57e8f.js",
+   "selected_by": "closure:d1:conversation-ui-605b34b5a676.js",
+   "raw_bytes": 8828,
+   "formatted_bytes": 16547,
+   "formatter": "prettier",
+   "sha256_raw": "de1246f845ef72bf1ef7c9b918609c9461c90a645990905d6663436c9c6c216f"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-git-actions-80bb6516e7ec.js",
+   "file": "thread/local-conversation-git-actions-80bb6516e7ec.js",
+   "selected_by": "rule",
+   "raw_bytes": 24699,
+   "formatted_bytes": 40983,
+   "formatter": "prettier",
+   "sha256_raw": "afe260f229d23959d2686ea2cac21c52a5415a6eeea31c50ecab980b63dee66a"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-heartbeat-automation-66f86b8ea25b.js",
+   "file": "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js",
+   "selected_by": "rule",
+   "raw_bytes": 5515,
+   "formatted_bytes": 8801,
+   "formatter": "prettier",
+   "sha256_raw": "711dc74ea1fa1475ae96aa1d7fd72e8d0f25e10e9e98cf60d86f316204115610"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-page-1fdfa1f6819f.js",
+   "file": "pages/local-conversation-page-1fdfa1f6819f.js",
+   "selected_by": "rule",
+   "raw_bytes": 183,
+   "formatted_bytes": 199,
+   "formatter": "prettier",
+   "sha256_raw": "b95254f1523d24522a57bc333b896c7602b8115cc1639bf55f9fb35b6150e9d2"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-page-4298f8ec98fa.js",
+   "file": "pages/local-conversation-page-4298f8ec98fa.js",
+   "selected_by": "rule",
+   "raw_bytes": 52310,
+   "formatted_bytes": 86105,
+   "formatter": "prettier",
+   "sha256_raw": "105bbf335b6d7f3660e99f00019db636d1050dad5bbc3842a3cf48c4fde01130"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-plan-model-c92ff8381640.js",
+   "file": "thread/local-conversation-plan-model-c92ff8381640.js",
+   "selected_by": "rule",
+   "raw_bytes": 595,
+   "formatted_bytes": 792,
+   "formatter": "prettier",
+   "sha256_raw": "4e2995c4d6f76505b8ffca0464c37c47e184d02531d5625beea10f9b0bfc2385"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-side-chat-41a0600b9042.js",
+   "file": "pages/local-conversation-side-chat-41a0600b9042.js",
+   "selected_by": "rule",
+   "raw_bytes": 257,
+   "formatted_bytes": 286,
+   "formatter": "prettier",
+   "sha256_raw": "85aea8b7459db5fec2ff5f0ea21c3c295486053ab002a490f9573532f2daba13"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-sources-signals-f90b094617cf.js",
+   "file": "pages/local-conversation-sources-signals-f90b094617cf.js",
+   "selected_by": "rule",
+   "raw_bytes": 286,
+   "formatted_bytes": 319,
+   "formatter": "prettier",
+   "sha256_raw": "3e749d1a57862bd54d9ce214f4dea9a1c33a0f09318495f9491e22917dc7569c"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-stream-role-product-event-1367a4b33883.js",
+   "file": "turn/local-conversation-stream-role-product-event-1367a4b33883.js",
+   "selected_by": "rule",
+   "raw_bytes": 1640,
+   "formatted_bytes": 2638,
+   "formatter": "prettier",
+   "sha256_raw": "af9600837763fa66b8aee8d7935e40798295342b7ae3b1787317b6f554e0bf31"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-thread-1b8215d7ace6.js",
+   "file": "thread/local-conversation-thread-1b8215d7ace6.js",
+   "selected_by": "rule",
+   "raw_bytes": 202,
+   "formatted_bytes": 218,
+   "formatter": "prettier",
+   "sha256_raw": "1e16538d9cc2f3a01c760a056dafd4c407d642bd12b5c3de472f0115a058b533"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-thread-6999d2419a30.js",
+   "file": "thread/local-conversation-thread-6999d2419a30.js",
+   "selected_by": "rule",
+   "raw_bytes": 344921,
+   "formatted_bytes": 555166,
+   "formatter": "prettier",
+   "sha256_raw": "5a20f524f3aac5a200e76fd48d6e1b21f1766993dcf2ec0db89e24625d6c3ac9"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-thread-turn-entries-ed0916a7814f.js",
+   "file": "turn/local-conversation-thread-turn-entries-ed0916a7814f.js",
+   "selected_by": "rule",
+   "raw_bytes": 20343,
+   "formatted_bytes": 28056,
+   "formatter": "prettier",
+   "sha256_raw": "425119f9ef6c93afaf78b9f48656b357384d360ca2d0ca1b22ff5f983c5fc45f"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-turn-69783815d57d.js",
+   "file": "turn/local-conversation-turn-69783815d57d.js",
+   "selected_by": "rule",
+   "raw_bytes": 91131,
+   "formatted_bytes": 151561,
+   "formatter": "prettier",
+   "sha256_raw": "e40ee63884bc75af917583fe70afade4b6c683adbd93d9536b7636eb6d8f54d4"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-webmcp-tools-model-a5b27ecc68d1.js",
+   "file": "thread/local-conversation-webmcp-tools-model-a5b27ecc68d1.js",
+   "selected_by": "rule",
+   "raw_bytes": 854,
+   "formatted_bytes": 1093,
+   "formatter": "prettier",
+   "sha256_raw": "dd143fd5925ef65880478c5768b0664838ad16896be0ab45bdd2c85e4c22b8cc"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-webmcp-tools-model-e90d4e4e2686.js",
+   "file": "thread/local-conversation-webmcp-tools-model-e90d4e4e2686.js",
+   "selected_by": "rule",
+   "raw_bytes": 199,
+   "formatted_bytes": 215,
+   "formatter": "prettier",
+   "sha256_raw": "03226b9ee1a10c97b330e9b08c5128155641781606c5d71729a9b1013942c039"
+  },
+  {
+   "archive_path": "webview/assets/local-environment-workflow-messages-113907dcb0c6.js",
+   "file": "pages/local-environment-workflow-messages-113907dcb0c6.js",
+   "selected_by": "rule",
+   "raw_bytes": 1212,
+   "formatted_bytes": 1551,
+   "formatter": "prettier",
+   "sha256_raw": "ca443fd38ab9234111c8156f64b7d90a1c10751b516ff61de12b5b03678ec78f"
+  },
+  {
+   "archive_path": "webview/assets/lottie_light-6d958e55eef3.js",
+   "file": "_deps/lottie_light-6d958e55eef3.js",
+   "selected_by": "closure:d1:conversation-ui-605b34b5a676.js",
+   "raw_bytes": 169184,
+   "formatted_bytes": 318306,
+   "formatter": "prettier",
+   "sha256_raw": "2966fad992644ed0d41c5be973c243ac51dab965905c4ab40f5700d095cf100a"
+  },
+  {
+   "archive_path": "webview/assets/offer-voice-conversation-830291942919.js",
+   "file": "pages/offer-voice-conversation-830291942919.js",
+   "selected_by": "rule",
+   "raw_bytes": 5606,
+   "formatted_bytes": 5639,
+   "formatter": "prettier",
+   "sha256_raw": "3ae19750979b068fc02346b0c421f7549cde117416fa6aa5a675987d871b0181"
+  },
+  {
+   "archive_path": "webview/assets/pending-local-conversation-thread-1f3ac9e93aa2.js",
+   "file": "pages/pending-local-conversation-thread-1f3ac9e93aa2.js",
+   "selected_by": "rule",
+   "raw_bytes": 61003,
+   "formatted_bytes": 96823,
+   "formatter": "prettier",
+   "sha256_raw": "5429d1ca727bd043ba8a1c8208815341c734c19d31a19785afef3ed95dd19d72"
+  },
+  {
+   "archive_path": "webview/assets/preview-footer-controls-b897d8cb297b.js",
+   "file": "_deps/preview-footer-controls-b897d8cb297b.js",
+   "selected_by": "closure:d1:unavailable-local-conversation-page-d4a23c309685.js",
+   "raw_bytes": 2500,
+   "formatted_bytes": 3986,
+   "formatter": "prettier",
+   "sha256_raw": "c999439f58a2ed6c37f86a44cbe8324d5f3b5b6bf0dffd8d55a97653a68beb9a"
+  },
+  {
+   "archive_path": "webview/assets/remote-conversation-page-fd896eff5a15.js",
+   "file": "pages/remote-conversation-page-fd896eff5a15.js",
+   "selected_by": "rule",
+   "raw_bytes": 76202,
+   "formatted_bytes": 120272,
+   "formatter": "prettier",
+   "sha256_raw": "45aec9c643f44a950b2a0b14bd3e4c3f452e8f2010ed93154a308ef22baa0a4b"
+  },
+  {
+   "archive_path": "webview/assets/revision-review-unavailable-message-bffc7746871f.js",
+   "file": "turn/revision-review-unavailable-message-bffc7746871f.js",
+   "selected_by": "rule",
+   "raw_bytes": 30090,
+   "formatted_bytes": 49660,
+   "formatter": "prettier",
+   "sha256_raw": "738a9dd9f5710c3e39dc854a4e80545c5d57a5e27003c24a9ccda65df65a278f"
+  },
+  {
+   "archive_path": "webview/assets/share-conversation-action-deb7f4faa0fd.js",
+   "file": "pages/share-conversation-action-deb7f4faa0fd.js",
+   "selected_by": "rule",
+   "raw_bytes": 2219,
+   "formatted_bytes": 3083,
+   "formatter": "prettier",
+   "sha256_raw": "61875e6efca15747dc9cf20754026f85a816f141c58e458eb3909cd2af8fd670"
+  },
+  {
+   "archive_path": "webview/assets/shared-conversation-page-ddd7a1fc74ab.js",
+   "file": "pages/shared-conversation-page-ddd7a1fc74ab.js",
+   "selected_by": "rule",
+   "raw_bytes": 4901,
+   "formatted_bytes": 7614,
+   "formatter": "prettier",
+   "sha256_raw": "fc5b34f946d58ce863bb62182f7c5253a78ea0be319061746019cae4c591c454"
+  },
+  {
+   "archive_path": "webview/assets/thread-context-9f5a9f64597c.js",
+   "file": "scroll/thread-context-9f5a9f64597c.js",
+   "selected_by": "rule",
+   "raw_bytes": 425,
+   "formatted_bytes": 505,
+   "formatter": "prettier",
+   "sha256_raw": "5afe990abe31239e893a1356c8057e05260b519a6c9af10040b0d99d83d94933"
+  },
+  {
+   "archive_path": "webview/assets/thread-emoji-e2a0a4c63c7d.js",
+   "file": "_deps/thread-emoji-e2a0a4c63c7d.js",
+   "selected_by": "closure:d1:asb-conversation-page-a56da8e88195.js",
+   "raw_bytes": 518,
+   "formatted_bytes": 706,
+   "formatter": "prettier",
+   "sha256_raw": "3d4b6edcf55228d8772886765b6b7a17924238994ef4d8e520f9c187237b9204"
+  },
+  {
+   "archive_path": "webview/assets/thread-overflow-menu-87dc19d9cdf5.js",
+   "file": "thread/thread-overflow-menu-87dc19d9cdf5.js",
+   "selected_by": "rule",
+   "raw_bytes": 17553,
+   "formatted_bytes": 29541,
+   "formatter": "prettier",
+   "sha256_raw": "84862301381e1432fc323efcf3dd8e56786b349ef03af87efa6b48c925296edf"
+  },
+  {
+   "archive_path": "webview/assets/thread-pin-shortcut-bridge-fcf90cbec36c.js",
+   "file": "thread/thread-pin-shortcut-bridge-fcf90cbec36c.js",
+   "selected_by": "rule",
+   "raw_bytes": 471,
+   "formatted_bytes": 663,
+   "formatter": "prettier",
+   "sha256_raw": "a6a6db04c5353b9813eaa41515d58f446543cb8d9d881316ab92da6a61d05e88"
+  },
+  {
+   "archive_path": "webview/assets/thread-response-space-controller-7d80274ac053.js",
+   "file": "scroll/thread-response-space-controller-7d80274ac053.js",
+   "selected_by": "rule",
+   "raw_bytes": 9056,
+   "formatted_bytes": 14553,
+   "formatter": "prettier",
+   "sha256_raw": "4f1685d5fd18a25b500b9ce110b02c8c413902d7363dc4beb892c7cf040e928c"
+  },
+  {
+   "archive_path": "webview/assets/thread-scroll-controller-context-value-f766898c7055.js",
+   "file": "scroll/thread-scroll-controller-context-value-f766898c7055.js",
+   "selected_by": "rule",
+   "raw_bytes": 425,
+   "formatted_bytes": 496,
+   "formatter": "prettier",
+   "sha256_raw": "360760c82597431084d712e8663fc4ffa799a9f29de49439b5d0c1c0c92d0270"
+  },
+  {
+   "archive_path": "webview/assets/thread-scroll-layout-24b9bd243051.css",
+   "file": "scroll/thread-scroll-layout-24b9bd243051.css",
+   "selected_by": "rule",
+   "raw_bytes": 2404,
+   "formatted_bytes": 2968,
+   "formatter": "prettier",
+   "sha256_raw": "afc0befc6951a4bcf9d3f54d1fc0b3e320734d7ac4e909f579e0ce2cb08c3835"
+  },
+  {
+   "archive_path": "webview/assets/thread-scroll-layout-96ebbe17c836.js",
+   "file": "scroll/thread-scroll-layout-96ebbe17c836.js",
+   "selected_by": "rule",
+   "raw_bytes": 21489,
+   "formatted_bytes": 36076,
+   "formatter": "prettier",
+   "sha256_raw": "b37ac8cd50639d20d4fc9f631e2e26cc528e338c993e86fb8dd448a3cdf15159"
+  },
+  {
+   "archive_path": "webview/assets/thread-tab-route-checkpoint-8d20f3d63ddf.js",
+   "file": "scroll/thread-tab-route-checkpoint-8d20f3d63ddf.js",
+   "selected_by": "rule",
+   "raw_bytes": 110,
+   "formatted_bytes": 122,
+   "formatter": "prettier",
+   "sha256_raw": "ce7eaf824cc22266c7cde3446b62ffed52d1c539a9baf627af252a9236a8e33e"
+  },
+  {
+   "archive_path": "webview/assets/thread-usage-breakdown-493f7d53d79c.js",
+   "file": "thread/thread-usage-breakdown-493f7d53d79c.js",
+   "selected_by": "rule",
+   "raw_bytes": 11547,
+   "formatted_bytes": 18717,
+   "formatter": "prettier",
+   "sha256_raw": "0e9846209d91ee5f0fc7f36cbbc3ea5486e5cae9e1d37705afe32e41f6b6a920"
+  },
+  {
+   "archive_path": "webview/assets/thread-user-message-navigation-rail-app-fe19c161eb22.js",
+   "file": "nav-rail/thread-user-message-navigation-rail-app-fe19c161eb22.js",
+   "selected_by": "rule",
+   "raw_bytes": 1581,
+   "formatted_bytes": 2400,
+   "formatter": "prettier",
+   "sha256_raw": "6d4b1b1b614e635087a393704f3ef4b300d24767077198623a37b5999da634e9"
+  },
+  {
+   "archive_path": "webview/assets/thread-virtualizer-e1964ca5c039.js",
+   "file": "scroll/thread-virtualizer-e1964ca5c039.js",
+   "selected_by": "rule",
+   "raw_bytes": 2131,
+   "formatted_bytes": 2851,
+   "formatter": "prettier",
+   "sha256_raw": "d1a120db42f0789fa5c7b6381b76090413ac027377844731ab7c4b5ccf3fcfb0"
+  },
+  {
+   "archive_path": "webview/assets/unavailable-local-conversation-page-d4a23c309685.js",
+   "file": "pages/unavailable-local-conversation-page-d4a23c309685.js",
+   "selected_by": "rule",
+   "raw_bytes": 28421,
+   "formatted_bytes": 46524,
+   "formatter": "prettier",
+   "sha256_raw": "4f1d7cb2f9e2f75a02ed3d04cc02731d3b5b466aa4ff83d809b2512f3bcb485d"
+  },
+  {
+   "archive_path": "webview/assets/unrestored-thread-tab-route-9d45ca5d0a68.js",
+   "file": "pages/unrestored-thread-tab-route-9d45ca5d0a68.js",
+   "selected_by": "rule",
+   "raw_bytes": 1888,
+   "formatted_bytes": 2659,
+   "formatter": "prettier",
+   "sha256_raw": "18f56c1f369e8132baea940ede2463a9492b8ba5d2ba5f456dc18821fae6b29d"
+  },
+  {
+   "archive_path": "webview/assets/use-conversation-diff-comments-4ddc9aaa442f.js",
+   "file": "thread/use-conversation-diff-comments-4ddc9aaa442f.js",
+   "selected_by": "rule",
+   "raw_bytes": 2624,
+   "formatted_bytes": 4007,
+   "formatter": "prettier",
+   "sha256_raw": "74c3d1bb45546762204718330df221c3f056f796d5ef45fa7d9adb216085c1b9"
+  },
+  {
+   "archive_path": "webview/assets/use-conversation-search-highlights-6c328093bb06.js",
+   "file": "pages/use-conversation-search-highlights-6c328093bb06.js",
+   "selected_by": "rule",
+   "raw_bytes": 12341,
+   "formatted_bytes": 18036,
+   "formatter": "prettier",
+   "sha256_raw": "9eb8a0cab01112576154fe84cc54e9f4041c6fd5f321255140a5a11aefd05d02"
+  },
+  {
+   "archive_path": "webview/assets/use-hotkey-window-detail-layout-b2abbfb40f7f.js",
+   "file": "_deps/use-hotkey-window-detail-layout-b2abbfb40f7f.js",
+   "selected_by": "closure:d1:hotkey-window-new-thread-page-7a65d4eb8699.js",
+   "raw_bytes": 500,
+   "formatted_bytes": 788,
+   "formatter": "prettier",
+   "sha256_raw": "31be8773bb760805daec22aa6586a5d4733b351c316569969d4cc55958fa9f3d"
+  },
+  {
+   "archive_path": "webview/assets/use-is-realtime-conversation-enabled-8fd6a99a42a2.js",
+   "file": "pages/use-is-realtime-conversation-enabled-8fd6a99a42a2.js",
+   "selected_by": "rule",
+   "raw_bytes": 459,
+   "formatted_bytes": 592,
+   "formatter": "prettier",
+   "sha256_raw": "6cc6b064b4edbc12f457a51c3fe5dd054e901a4df7f53ee2bf617ecc32a2b78a"
+  },
+  {
+   "archive_path": "webview/assets/use-local-conversation-sources-5dbb8ee22e75.js",
+   "file": "pages/use-local-conversation-sources-5dbb8ee22e75.js",
+   "selected_by": "rule",
+   "raw_bytes": 3878,
+   "formatted_bytes": 5850,
+   "formatter": "prettier",
+   "sha256_raw": "10d28e4320571db7ef802ad17b67bbca20ce53d64adee8fca9a1ec178442d622"
+  },
+  {
+   "archive_path": "webview/assets/use-resume-conversation-if-needed-da3c116cab55.js",
+   "file": "pages/use-resume-conversation-if-needed-da3c116cab55.js",
+   "selected_by": "rule",
+   "raw_bytes": 8896,
+   "formatted_bytes": 15288,
+   "formatter": "prettier",
+   "sha256_raw": "251fd6c480fc5b53c5c7397d9669773cd188fb749ac9296f5e9b81d7030686ed"
+  },
+  {
+   "archive_path": "webview/assets/use-start-new-conversation-ce03d698183d.js",
+   "file": "pages/use-start-new-conversation-ce03d698183d.js",
+   "selected_by": "rule",
+   "raw_bytes": 136,
+   "formatted_bytes": 150,
+   "formatter": "prettier",
+   "sha256_raw": "f59990905fb3686d6e5733a3dfe9d488e6e9f61cd1f7df2ea74cc806d2f7dfa9"
+  }
+ ]
+}

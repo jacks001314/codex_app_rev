@@ -1,0 +1,32 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { $st as t, Qst as n, ZSt as r, sct as i, w_t as a, yCt as o } from "./app-shared-2feb3d4c6fcc.js";
+import { Efr as s, IMr as c, RMr as l, Tfr as u } from "./app-initial-ad16eaadf81f.js";
+var d;
+function f() {
+  return (f = e(() => {
+    (r(),
+      i(),
+      l(),
+      u(),
+      t(),
+      (d = o(n, (e, { get: t }) => {
+        let n = t(c);
+        if (n == null) return !1;
+        let r = t(s, { accountId: n, hostId: a, roots: void 0, productContext: `chatgpt` });
+        return (
+          !r.isPending &&
+          !r.isError &&
+          r.data?.some(
+            ({ appIds: t, plugin: n }) =>
+              t?.includes(e) &&
+              n.installed &&
+              n.enabled &&
+              n.availability === `AVAILABLE` &&
+              n.disabledReason == null,
+          ) === !0
+        );
+      })));
+  }))();
+}
+export { d as n, f as t };
+//# sourceMappingURL=source-app-availability-7132d640d81b.js.map

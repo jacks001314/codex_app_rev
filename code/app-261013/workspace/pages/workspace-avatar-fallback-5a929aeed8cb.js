@@ -1,0 +1,51 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  $h as t,
+  Mz as n,
+  Nz as r,
+  Qh as i,
+  Zh as a,
+  _Mt as o,
+  eg as s,
+  gMt as c,
+  vzt as l,
+  xMt as u,
+} from "./app-shared-bbfeca5e5737.js";
+function d(e) {
+  let r = (0, f.c)(9),
+    { size: i } = e,
+    o = i === `response` && `size-5`,
+    s = i === `sm` && `size-6`,
+    l = i === `picker` && `size-12`,
+    u;
+  r[0] !== o || r[1] !== s || r[2] !== l
+    ? ((u = c(
+        `flex shrink-0 items-center justify-center rounded-full bg-purple text-avatar-foreground`,
+        o,
+        s,
+        l,
+      )),
+      (r[0] = o),
+      (r[1] = s),
+      (r[2] = l),
+      (r[3] = u))
+    : (u = r[3]);
+  let d = i === `picker` ? a : t,
+    m;
+  r[4] === d ? (m = r[5]) : ((m = (0, p.jsx)(n, { asset: d })), (r[4] = d), (r[5] = m));
+  let h;
+  return (
+    r[6] !== u || r[7] !== m
+      ? ((h = (0, p.jsx)(`span`, { className: u, children: m })), (r[6] = u), (r[7] = m), (r[8] = h))
+      : (h = r[8]),
+    h
+  );
+}
+var f, p;
+function m() {
+  return (m = e(() => {
+    ((f = l()), s(), i(), o(), r(), (p = u()));
+  }))();
+}
+export { m as n, d as t };
+//# sourceMappingURL=workspace-avatar-fallback-5a929aeed8cb.js.map

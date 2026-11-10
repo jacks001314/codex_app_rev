@@ -1,0 +1,43 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { $vr as t, FZn as n, IZn as r, tyr as i } from "./app-initial-ad16eaadf81f.js";
+function a(e, n) {
+  let r = e.attachments.flatMap((e) =>
+    e.kind === `media_generation` && e.generation_type === `image_gen` && !e.output_blocked ? [e] : [],
+  );
+  return n.flatMap((e) => {
+    let n =
+      r.find((t) => t.id === e.id) ??
+      r.find((t) => t.asset_pointer != null && t.asset_pointer.split(`?`)[0] === e.src?.split(`?`)[0]);
+    if (n == null) return [];
+    let i = new URL(t(n.url) ?? n.url, window.location.href).href;
+    return [{ ...e, src: i, previewSrc: i, height: e.height ?? n.height, width: e.width ?? n.width }];
+  });
+}
+function o(e) {
+  return e.attachments.flatMap((e) => {
+    if (e.kind !== `media_generation` || e.generation_type !== `image_gen` || e.output_blocked) return [];
+    let t = e.asset_pointer ?? `${e.id.startsWith(`file_`) ? `sediment` : `file-service`}://${e.id}`,
+      r = (e.messages ?? []).flatMap(n).find((e) => e.src.split(`?`)[0] === t.split(`?`)[0]);
+    return [
+      {
+        type: `generated-image`,
+        isAnimated: r?.isAnimated,
+        spritesheet: r?.spritesheet,
+        id: e.id,
+        chatGptGenerationId: e.generation_id,
+        chatGptMessageId: e.message_id ?? void 0,
+        src: t,
+        width: e.width,
+        height: e.height,
+        status: `completed`,
+      },
+    ];
+  });
+}
+function s() {
+  return (s = e(() => {
+    (r(), i());
+  }))();
+}
+export { o as n, s as r, a as t };
+//# sourceMappingURL=image-data-396f3850bc09.js.map

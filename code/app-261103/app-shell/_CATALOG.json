@@ -1,0 +1,7151 @@
+{
+ "module": "app-shell",
+ "generated_at": "2026-11-09T07:51:29.327Z",
+ "files_scanned": 8,
+ "message_count": 559,
+ "messages": [
+  {
+   "id": "AcceptInvitePage.sso.button.company",
+   "text": "Continue with company SSO",
+   "description": "Primary button on the workspace invitation login-method picker for an invited end user. Opens their company's single sign-on provider. Other buttons offer password and social login when company SSO is optional. Keep the label short.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AcceptInvitePage.sso.button.password",
+   "text": "Continue with password",
+   "description": "Button on the workspace invitation login-method picker for an invited end user when company single sign-on is optional. Selects password login or signup directly, instead of displaying another SSO picker. Other buttons offer company SSO and social login. Keep the label short.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.button.confirm",
+   "text": "I understand",
+   "description": "Primary button on the CSAM suspension acknowledgment modal. Acknowledges the warning and reveals the suspension status page; it does not lift the suspension.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.duration.first",
+   "text": "<strong>We’ve suspended your account for 24 hours.</strong> If this activity continues, we’ll permanently close your account.",
+   "description": "Second bullet in the first CSAM suspension acknowledgment modal. Gives the fixed 24-hour suspension duration and warns of permanent closure. The strong tag emphasizes the duration sentence; this is not a countdown.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.duration.repeat",
+   "text": "<strong>Your account is suspended for 48 hours.</strong> You’ve already received a warning about this activity. If it happens again, we’ll permanently close your account.",
+   "description": "Second bullet in the repeat CSAM suspension acknowledgment modal. Gives the fixed 48-hour duration and final warning before permanent closure. The strong tag emphasizes the duration sentence; this is not a countdown.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.policy.first",
+   "text": "<strong>Content that sexualizes children is harmful, whether AI-generated or not.</strong> Seeking it violates OpenAI’s <policies>Usage Policies</policies>.",
+   "description": "First bullet in the 24-hour CSAM suspension acknowledgment modal. Explains harm and policy. The strong tag emphasizes the first sentence; policies links to OpenAI Usage Policies.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.policy.repeat",
+   "text": "<strong>You can’t use ChatGPT to seek content that sexualizes children.</strong> Child sexual abuse content is illegal and harmful.",
+   "description": "First bullet in the 48-hour CSAM suspension acknowledgment modal. Explains the prohibited activity and harm. The strong tag emphasizes the first sentence.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.support.first",
+   "text": "<strong>Free, specialized support is available.</strong> Others have received help to stop seeking this content, and you can too.",
+   "description": "Third bullet in the 24-hour CSAM suspension acknowledgment modal when regional help resources are available. Encourages seeking support. The strong tag emphasizes the first sentence.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.support.repeat",
+   "text": "<strong>Free services can help you stop seeking this content.</strong> Others have received support and you can too.",
+   "description": "Third bullet in the 48-hour CSAM suspension acknowledgment modal when regional help resources are available. Encourages seeking support. The strong tag emphasizes the first sentence.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.title.first",
+   "text": "Let’s stop here",
+   "description": "Title of the required acknowledgment modal over the logged-out CSAM suspension page for a first, 24-hour suspension. Asks the user to stop seeking content that sexualizes children. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.acknowledgment.title.repeat",
+   "text": "If this happens again, we’ll permanently close your account.",
+   "description": "Title of the required acknowledgment modal over the logged-out CSAM suspension page for a repeat, 48-hour suspension. Warns that another violation will lead to permanent account closure. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.additional-activity",
+   "text": "Our systems flagged additional activity that violates OpenAI’s {policies}.",
+   "description": "Explanation for a repeated violation resulting in a 48-hour account suspension. {policies} is a link labeled Usage Policies; preserve this placeholder.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.appeal",
+   "text": "Submit an appeal",
+   "description": "Link to the account closure appeal form, shown only for permanent closure. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.back",
+   "text": "Back",
+   "description": "Button returning from help resources to the account suspension or permanent closure message. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.closed",
+   "text": "Your ChatGPT account has been closed",
+   "description": "Heading in the logged-out page for permanent account closure. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.closed-warning",
+   "text": "Using or creating another account to bypass this closure isn’t allowed.",
+   "description": "Restriction following permanent account closure. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.closed-warning-title",
+   "text": "Your account can no longer be used.",
+   "description": "Emphasized introduction to the permanent closure restriction. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.find-support",
+   "text": "Find support",
+   "description": "Button opening help resources from the account status page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.first-activity",
+   "text": "Our systems identified activity that violates OpenAI’s {policies}.",
+   "description": "Explanation for a CSAM login restriction without intervention details or a first 24-hour account suspension. {policies} is a link labeled Usage Policies; preserve this placeholder.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.first-warning",
+   "text": "We removed the conversation that was flagged. If this activity continues, we’ll permanently close your account.",
+   "description": "Warning in the 24-hour suspension page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.help",
+   "text": "If you’re worried about your thoughts or behavior, free, specialized support is available.",
+   "description": "Support message in the account suspension or closure page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.help-title",
+   "text": "Asking for help is an important step.",
+   "description": "Encouragement in the permanent account closure page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.helpCenter",
+   "text": "Visit the Help Center",
+   "description": "Link to the Help Center on the generic CSAM login error page.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.last-warning",
+   "text": "We removed the conversation that was flagged. If this activity happens again, we’ll permanently close your account.",
+   "description": "Final warning in the 48-hour suspension page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.policies",
+   "text": "Usage Policies",
+   "description": "Link to OpenAI usage policies in the account closure page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.repeated-activity",
+   "text": "Our systems flagged repeated activity that violates OpenAI’s {policies}.",
+   "description": "Explanation for permanent account closure after repeated violations. {policies} is a link labeled Usage Policies; preserve this placeholder.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources",
+   "text": "Help resources",
+   "description": "Heading for the help and reporting resources view inside the account status page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.families.introduction",
+   "text": "Find support for yourself or someone else affected by child sexual abuse",
+   "description": "Introduces support services for victims of child sexual abuse and their families on the signed-out help resources page. Links for adults and for children and teens appear in the next paragraph. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.families.title",
+   "text": "Support for victims and families",
+   "description": "Section heading on the signed-out CSAM help resources page, introducing families services to users after account suspension or closure. Keep it concise. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.forAdults",
+   "text": "{resource} — for adults",
+   "description": "A support service for adult victims of child sexual abuse, listed on the signed-out help resources page. {resource} is a complete Markdown link containing the service name and URL; preserve it as a unit. Translate the audience label and adapt punctuation as needed.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.forChildren",
+   "text": "{resource} — for children and teens",
+   "description": "A support service for children and teenagers affected by child sexual abuse, listed on the signed-out help resources page. {resource} is a complete Markdown link containing the service name and URL; preserve it as a unit. Translate the audience label and adapt punctuation as needed.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.reporting.introduction",
+   "text": "If you encounter sexually explicit images or videos of children:",
+   "description": "Introduces reporting services on the signed-out CSAM help resources page. Links to services for reporting child sexual abuse material appear in a separate paragraph after the colon. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.reporting.title",
+   "text": "Report child sexual abuse material",
+   "description": "Section heading on the signed-out CSAM help resources page, introducing reporting services to users after account suspension or closure. Keep it concise. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.support.introduction",
+   "text": "If you’re worried about sexual thoughts or behavior involving children:",
+   "description": "Introduces a list of specialized prevention services on the signed-out CSAM help resources page. The service links appear in a separate paragraph after the colon. Use a supportive tone. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.resources.support.title",
+   "text": "Get specialized support",
+   "description": "Section heading on the signed-out CSAM help resources page, introducing support services to users after account suspension or closure. Keep it concise. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.restricted",
+   "text": "Your account is restricted",
+   "description": "Heading for a CSAM login error without intervention details. Does not specify a suspension duration or permanent closure.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.suspended",
+   "text": "Your account is suspended for {hours} hours",
+   "description": "Heading in the logged-out account suspension page. {hours} is the fixed suspension duration, either 24 or 48, not a countdown.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "AuthError.csamAccountClosure.view-resources",
+   "text": "View resources",
+   "description": "Button opening help resources from the 48-hour suspension page. No placeholders.",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.brand",
+   "text": "ChatGPT",
+   "description": "ChatGPT brand name in the top-left header of the browser login and logout pages; do not translate the product name",
+   "files": [
+    "183385.ec39b3691f.js",
+    "428876.9889d86ec1.js",
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "browser.auth.error.accountDeactivated",
+   "text": "Your account has been deleted or deactivated. If you believe this was an error, contact us through our <helpLink>Help Center</helpLink>.",
+   "description": "Authentication error for a deleted or deactivated account; helpLink opens OpenAI support",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.busy",
+   "text": "Our systems are a bit busy at the moment. Please take a break and try again soon.",
+   "description": "Authentication error when a request times out or is rate limited; ask the user to wait before retrying",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.default",
+   "text": "Something went wrong while signing you in. Please go back and try again.",
+   "description": "Safe fallback for a missing or unrecognized authentication error; no raw provider diagnostic is shown",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.goBack",
+   "text": "Go back",
+   "description": "Button returning from an authentication error to the ChatGPT login page so the user can choose how to continue",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.logoutFailed",
+   "text": "We couldn’t log you out. Please go back and try again.",
+   "description": "Logout failed and must not be presented as a successful sign-out or as a login failure",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.providerMismatch",
+   "text": "You tried signing in with a different authentication method than the one you used during signup. Please go back and try again using your original authentication method.",
+   "description": "Authentication error when the selected sign-in provider differs from the method originally used to create the account",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.safetyConversationRemoved",
+   "text": "We removed the conversation that was flagged by our systems and paused your account for 24 hours",
+   "description": "Guidance on the signed-out ChatGPT safety intervention page confirming that the flagged conversation was removed and the user's account is already paused for 24 hours",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.safetyEmergency",
+   "text": "If anyone’s safety is at risk, contact local emergency services or a <helplineLink>crisis helpline</helplineLink>",
+   "description": "Emergency guidance during a safety intervention; helplineLink opens a directory of crisis helplines",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.safetyExplanation",
+   "text": "ChatGPT can’t continue conversations that involve risk of violence or harm to others",
+   "description": "Explanation for an account temporarily paused for safety reasons because conversations involved risk of violence or harm to others",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.safetyLearnMore",
+   "text": "Learn more",
+   "description": "Button opening the OpenAI Help Center article about temporary account pauses for safety reasons",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.safetySupport",
+   "text": "For additional support, reach out to someone you trust or a trained professional",
+   "description": "Support guidance shown during a temporary account pause for safety reasons",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.safetyTitle",
+   "text": "For safety reasons, we’ve paused your account",
+   "description": "Heading for an account temporarily paused because of conversations involving risk of violence or harm to others",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.ssoRequired",
+   "text": "Your organization requires you to sign in using Single Sign-On (SSO). Please go back and sign in using your organization’s SSO.",
+   "description": "Authentication error directing a user whose organization requires SSO to use their organization's sign-in method",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.title",
+   "text": "Oops!",
+   "description": "Heading on the ChatGPT authentication error recovery page",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.unknownCountry",
+   "text": "We couldn’t determine your country. Please try again from a different network, or contact us through our <helpLink>Help Center</helpLink>.",
+   "description": "Authentication error when the user's country cannot be determined; helpLink opens OpenAI support",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.error.unsupportedRegion",
+   "text": "Our services are not available in your country or region",
+   "description": "Authentication error when OpenAI services do not support the user's country or region",
+   "files": [
+    "183385.ec39b3691f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.handoff.continue",
+   "text": "Continue",
+   "description": "Fallback link to continue authentication if automatic navigation did not occur",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.handoff.failed",
+   "text": "We couldn’t sign you in. Please try again",
+   "description": "Error after an automatic authentication handoff fails; the user can retry the same handoff",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.handoff.retry",
+   "text": "Try again",
+   "description": "Button to retry the same authentication handoff after it fails",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.handoff.title",
+   "text": "Continue to sign in",
+   "description": "Heading while automatically continuing an authentication flow",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.apple",
+   "text": "Continue with Apple",
+   "description": "Button on the ChatGPT browser login page that starts Apple sign-in",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.continue",
+   "text": "Continue",
+   "description": "Submit button beneath the email or phone input on the ChatGPT browser login page",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.continueWithEmail",
+   "text": "Continue with email",
+   "description": "Button switching the browser login form from phone number entry to email address entry",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.continueWithPhone",
+   "text": "Continue with phone",
+   "description": "Button switching the browser login form from email address entry to phone number entry",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.emailLabel",
+   "text": "Email address",
+   "description": "Label for the email input on the ChatGPT browser login page",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.emailPlaceholder",
+   "text": "Email address",
+   "description": "Placeholder in the email address input on the browser login page",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.failed",
+   "text": "We couldn’t sign you in. Please try again",
+   "description": "Inline error on the ChatGPT browser login page after an authentication request fails; the user can retry with any available method",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.google",
+   "text": "Continue with Google",
+   "description": "Button on the ChatGPT browser login page that starts Google sign-in",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.microsoft",
+   "text": "Continue with Microsoft",
+   "description": "Button on the ChatGPT browser login page that starts Microsoft sign-in",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.or",
+   "text": "OR",
+   "description": "Short separator between provider sign-in buttons and the email or phone input on the browser login page; use uppercase where applicable",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.pending",
+   "text": "Connecting…",
+   "description": "Label while the ChatGPT browser login page waits for the selected authentication provider",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.phoneLabel",
+   "text": "Phone number",
+   "description": "Label for the phone number input on the ChatGPT browser login page",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.phonePlaceholder",
+   "text": "+1 555 123 4567",
+   "description": "Example international phone number, including country code, for the phone input on the ChatGPT browser login page",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.referralTitle",
+   "text": "Accept this referral",
+   "description": "Heading on the ChatGPT sign-in page when the user is accepting a referral link",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.rememberedAccounts.error",
+   "text": "We couldn’t load your remembered accounts. You can still log in below",
+   "description": "Status on the ChatGPT browser login page or dialog when remembered accounts cannot be loaded. The normal email, phone and provider login controls remain available below.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.rememberedAccounts.loading",
+   "text": "Loading remembered accounts…",
+   "description": "Status shown while the ChatGPT browser login page or dialog loads accounts previously used in this browser. The user can choose Use another account without waiting.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.rememberedAccounts.useAnotherAccount",
+   "text": "Use another account",
+   "description": "Button in the ChatGPT browser login page or dialog that replaces remembered account choices with the normal email, phone and provider login controls. Available while accounts are loading as well.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.selectedPlanTitle.go",
+   "text": "Sign in to continue with Go",
+   "description": "Full heading on the ChatGPT browser sign-in page for a signed-out user who selected ChatGPT Go before signing in. Related headings name Plus and Pro.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.selectedPlanTitle.plus",
+   "text": "Sign in to continue with Plus",
+   "description": "Full heading on the ChatGPT browser sign-in page for a signed-out user who selected ChatGPT Plus before signing in. Related headings name Go and Pro.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.selectedPlanTitle.pro",
+   "text": "Sign in to continue with Pro",
+   "description": "Full heading on the ChatGPT browser sign-in page for a signed-out user who selected ChatGPT Pro or the Pro 5x purchase option before signing in. The visible plan name is Pro. Related headings name Go and Plus.",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.login.title",
+   "text": "Log in or sign up",
+   "description": "Heading on the ChatGPT browser login page where users choose a sign-in method or create an account",
+   "files": [
+    "480596.8ed31e9907.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.anyway",
+   "text": "Log out anyway",
+   "description": "Button confirming logout after a Free ChatGPT user is warned that logging out will not reset this browser’s usage limits",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.cancel",
+   "text": "Cancel",
+   "description": "Button returning to ChatGPT without ending the session from the browser logout page",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.confirm",
+   "text": "Log out",
+   "description": "Button confirming logout on the ChatGPT browser logout page",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.description",
+   "text": "You’ll need to log in again to access your chats",
+   "description": "Explanation on the ChatGPT browser logout confirmation page before the user ends their session",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.deviceRateLimitNotice",
+   "text": "Logging out or creating a new account won’t reset your usage limits",
+   "description": "Warning for a Free ChatGPT user with an active browser usage restriction before confirming logout. Logging out or switching to a new account in this browser will retain the restriction for its remaining time.",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.failed",
+   "text": "We couldn’t log you out. Please try again",
+   "description": "Inline error after the ChatGPT browser logout request fails; the current session has not been cleared and the user may retry",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.impact.loading",
+   "text": "Checking where else you’re signed in…",
+   "description": "Loading message on the ChatGPT browser logout confirmation while checking which other app sessions will also be logged out",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.impact.namedAppsDescription",
+   "text": "This will also log you out of <apps></apps>.",
+   "description": "Complete warning before confirming logout from ChatGPT. The apps tag inserts the localized list of affected apps and sessions, for example Retool, Codex, and other ChatGPT sessions. Preserve the tag and ending punctuation.",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.pending",
+   "text": "Logging out…",
+   "description": "Pending label while the ChatGPT browser logout request ends the session",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.resume.failed",
+   "text": "We couldn’t restore your other account. Please try again",
+   "description": "Error when restoring a saved account after another account was logged out during account replacement. The user can retry restoration.",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.resume.retry",
+   "text": "Try again",
+   "description": "Retry restoring another saved account after account replacement. This does not repeat the completed logout.",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.resume.title",
+   "text": "Continue adding an account",
+   "description": "Heading after account replacement logs out the selected account but cannot restore another saved account",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.stayLoggedIn",
+   "text": "Stay logged in",
+   "description": "Button cancelling logout after a Free ChatGPT user is warned that logging out will not reset this browser’s usage limits",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.logout.title",
+   "text": "Log out of ChatGPT?",
+   "description": "Heading on the ChatGPT browser logout confirmation page",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.disableConfirm",
+   "text": "Disable",
+   "description": "Confirmation button that disables the default multi-factor authentication factor",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.disabled",
+   "text": "Multi-factor authentication is disabled",
+   "description": "Success confirmation after the API disables the default MFA factor",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.disableDescription",
+   "text": "You won’t be asked for a verification code when you log in",
+   "description": "Explanation of the effect of disabling the default multi-factor authentication method",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.disableTitle",
+   "text": "Disable multi-factor authentication?",
+   "description": "Heading on the confirmation page for turning off the user's default MFA factor",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.failed",
+   "text": "Something went wrong. Please try again",
+   "description": "Inline error after an MFA management request fails; no authentication setting has been changed",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.loading",
+   "text": "Loading…",
+   "description": "Loading status while the browser fetches MFA information or an enrollment token",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.noDefault",
+   "text": "There is no default authentication factor to disable",
+   "description": "Status when the legacy MFA-disable callback has no default factor to remove",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.reauthenticate",
+   "text": "Confirm it’s you",
+   "description": "Button that asks the user to sign in again before changing multi-factor authentication",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.retry",
+   "text": "Try again",
+   "description": "Button to retry loading or updating multi-factor authentication after an error",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.mfa.return",
+   "text": "Return to ChatGPT",
+   "description": "Button leaving the MFA management page and returning to ChatGPT",
+   "files": [
+    "428876.9889d86ec1.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browser.auth.privacyPolicy",
+   "text": "Privacy policy",
+   "description": "Footer link to OpenAI's privacy policy on the browser login and logout pages",
+   "files": [
+    "183385.ec39b3691f.js",
+    "428876.9889d86ec1.js",
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "browser.auth.termsOfUse",
+   "text": "Terms of use",
+   "description": "Footer link to OpenAI's terms of use on the browser login and logout pages",
+   "files": [
+    "183385.ec39b3691f.js",
+    "428876.9889d86ec1.js",
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "codex.chatGptSearch.dialogDescriptionWithSpaces",
+   "text": "Search your chats, projects, images, documents, and spaces",
+   "description": "Visually hidden description for global search when Pages and files in Spaces are included. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.chatGptSearch.pageOpenFailed",
+   "text": "Unable to open this page",
+   "description": "Toast when a Page selected from global search cannot be opened in its Space",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.chatGptSearch.previewFailed",
+   "text": "Unable to open file preview",
+   "description": "Toast shown when a file preview cannot be loaded after selecting a ChatGPT search result",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.chatGptSearch.spaceFile",
+   "text": "File in Space",
+   "description": "Result-type label beside a file found in a Space in global search. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.approval.approve",
+   "text": "Approve request",
+   "description": "Shortcut settings row for approving the active request",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.approval.decline",
+   "text": "Decline request",
+   "description": "Shortcut settings row for declining the active request",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.archiveThread",
+   "text": "Archive chat",
+   "description": "Command menu item to archive the current chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifact.sendAnnotations",
+   "text": "Send annotations",
+   "description": "Shortcut settings row for sending pending artifact annotations",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.arrowTool",
+   "text": "Artifacts: Arrow",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: arrow tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.circleTool",
+   "text": "Artifacts: Circle",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: circle tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.handTool",
+   "text": "Artifacts: Pan",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: pan tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.lineTool",
+   "text": "Artifacts: Line",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: line tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.noteTool",
+   "text": "Artifacts: Note",
+   "description": "Command palette and shortcut settings title for the Canvas sticky-note drawing tool in the shared Artifacts command family",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.rectangleTool",
+   "text": "Artifacts: Rectangle",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: rectangle tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.selectTool",
+   "text": "Artifacts: Select",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: select tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.artifacts.textTool",
+   "text": "Artifacts: Text",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: text tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.browser.toggleAnnotationMode",
+   "text": "Toggle annotation mode",
+   "description": "Shortcut settings row for entering or leaving annotation mode in the in-app browser",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.canvas.prompt",
+   "text": "Canvas: Ask ChatGPT",
+   "description": "Command palette and shortcut settings title for opening the Canvas prompt at the pointer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.clearAllUnreads",
+   "text": "Clear all unreads",
+   "description": "Command for marking all chats and scheduled tasks as read",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.closeOtherTabs",
+   "text": "Close other tabs",
+   "description": "Shortcut settings row for closing all other tabs",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.codexMicroSettings",
+   "text": "Codex Micro setup",
+   "description": "Codex Micro keycap action that opens device setup",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.addFiles",
+   "text": "Attach files and folders",
+   "description": "Shortcut settings row for attaching files and folders to the composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.addPhotos",
+   "text": "Add photos",
+   "description": "Shortcut settings row for adding photos to the composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.captureAppshot",
+   "text": "Capture appshot",
+   "description": "Codex Micro action for capturing an appshot",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.clear",
+   "text": "Clear prompt",
+   "description": "Shortcut settings row for clearing the composer prompt",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.cycleHost",
+   "text": "Cycle host",
+   "description": "Shortcut settings row for cycling between local and remote machines",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.cycleReasoningEffort",
+   "text": "Cycle reasoning effort",
+   "description": "Shortcut settings row for cycling reasoning effort",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.decreaseReasoningEffort",
+   "text": "Decrease reasoning effort",
+   "description": "Shortcut settings row for decreasing reasoning effort",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.increaseReasoningEffort",
+   "text": "Increase reasoning effort",
+   "description": "Shortcut settings row for increasing reasoning effort",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.openModelPicker",
+   "text": "Select effort",
+   "description": "Shortcut settings row for opening the composer controls that set how much reasoning effort the model uses",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.openProjectPicker",
+   "text": "Open project picker",
+   "description": "Shortcut settings row for opening the project picker",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.openRecentModels",
+   "text": "Open recent models",
+   "description": "Shortcut settings row for opening recently used model, effort, and speed combinations in the composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.queue",
+   "text": "Queue prompt",
+   "description": "Shortcut settings row for submitting the current composer prompt as a queued message",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.startVoiceMode",
+   "text": "Toggle voice chat",
+   "description": "Shortcut settings row for toggling voice mode",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.steer",
+   "text": "Steer prompt",
+   "description": "Shortcut settings row for submitting the current composer prompt as a steering message",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.submit",
+   "text": "Send message",
+   "description": "Shortcut settings row for sending the current composer message",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.submitInBackground",
+   "text": "Send message in background",
+   "description": "Shortcut settings row for sending a new composer message without opening its chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.toggleDictation",
+   "text": "Toggle dictation",
+   "description": "Keyboard shortcut label for starting or stopping microphone dictation in the chat composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.toggleFastMode",
+   "text": "Cycle speed",
+   "description": "Shortcut settings row for cycling through available model speeds",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.togglePlanMode",
+   "text": "Toggle plan mode",
+   "description": "Shortcut settings row for toggling plan mode",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.toggleWorkRunLocation",
+   "text": "Toggle Cloud/Local",
+   "description": "Shortcut settings row for toggling ChatGPT Work between Cloud and Local",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.composer.toggleWorktreeMode",
+   "text": "Toggle Local/Worktree",
+   "description": "Shortcut settings row for toggling Local and Worktree mode",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.copyConversationMarkdown",
+   "text": "Copy as Markdown",
+   "description": "Shortcut settings row for copying the current chat as Markdown",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.copyLastCodeBlock",
+   "text": "Copy last code block",
+   "description": "Command menu item and keyboard shortcut settings label for copying the most recent assistant code block in the current Chat conversation",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.copyPageLink",
+   "text": "Copy document link",
+   "description": "Command that copies a link to the current document, including a Page, slide, or sheet",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.deleteChat",
+   "text": "Delete chat",
+   "description": "Keyboard shortcut settings row for opening the confirmation to permanently delete the current saved ChatGPT chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.deleteOrbit",
+   "text": "Delete {dot}",
+   "description": "Command to open confirmation to permanently delete the current assistant. The dot placeholder is the untranslated term for the user's agent.",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction1",
+   "text": "Environment action 1",
+   "description": "Shortcut settings row for the first environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction2",
+   "text": "Environment action 2",
+   "description": "Shortcut settings row for the second environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction3",
+   "text": "Environment action 3",
+   "description": "Shortcut settings row for the third environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction4",
+   "text": "Environment action 4",
+   "description": "Shortcut settings row for the fourth environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction5",
+   "text": "Environment action 5",
+   "description": "Shortcut settings row for the fifth environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction6",
+   "text": "Environment action 6",
+   "description": "Shortcut settings row for the sixth environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction7",
+   "text": "Environment action 7",
+   "description": "Shortcut settings row for the seventh environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction8",
+   "text": "Environment action 8",
+   "description": "Shortcut settings row for the eighth environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.environmentAction9",
+   "text": "Environment action 9",
+   "description": "Shortcut settings row for the ninth environment action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.exitWorkspaceFullView",
+   "text": "Exit full view",
+   "description": "Command that restores a fullscreen workspace panel to split view",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.feedback",
+   "text": "Feedback",
+   "description": "Command menu item to open the feedback dialog",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.file.findReferences",
+   "text": "Find references",
+   "description": "Shortcut settings row for finding references to a code symbol",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.file.goToDefinition",
+   "text": "Go to definition",
+   "description": "Shortcut settings row for going to a symbol's definition",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.file.navigateBack",
+   "text": "Go back in file navigation",
+   "description": "Shortcut settings row for file navigation history",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.file.navigateForward",
+   "text": "Go forward in file navigation",
+   "description": "Shortcut settings row for file navigation history",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.findInThread",
+   "text": "Find",
+   "description": "Command menu item to find in the current chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusBrowserAddressBar",
+   "text": "Focus browser address bar",
+   "description": "Command menu item to focus the browser address bar",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusMainChat",
+   "text": "Focus main chat",
+   "description": "Command menu item to focus the main chat composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusPageBlockControls",
+   "text": "Focus content controls",
+   "description": "Keyboard shortcut settings row for moving focus from the Page document editor to the controls for the current content block",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusSideChat",
+   "text": "Focus side chat",
+   "description": "Command menu item to focus an open side chat composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab1",
+   "text": "Focus tab 1",
+   "description": "Keyboard shortcut to focus tab 1, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab2",
+   "text": "Focus tab 2",
+   "description": "Keyboard shortcut to focus tab 2, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab3",
+   "text": "Focus tab 3",
+   "description": "Keyboard shortcut to focus tab 3, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab4",
+   "text": "Focus tab 4",
+   "description": "Keyboard shortcut to focus tab 4, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab5",
+   "text": "Focus tab 5",
+   "description": "Keyboard shortcut to focus tab 5, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab6",
+   "text": "Focus tab 6",
+   "description": "Keyboard shortcut to focus tab 6, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab7",
+   "text": "Focus tab 7",
+   "description": "Keyboard shortcut to focus tab 7, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab8",
+   "text": "Focus tab 8",
+   "description": "Keyboard shortcut to focus tab 8, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.focusTab9",
+   "text": "Focus tab 9",
+   "description": "Keyboard shortcut to focus tab 9, counting from the left of the chat tab strip",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.forceReloadSkills",
+   "text": "Force reload skills",
+   "description": "Command menu item to force reload skills",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.forkThread",
+   "text": "Fork chat",
+   "description": "Shortcut settings row for forking the current chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.git.commit",
+   "text": "Commit or push",
+   "description": "Command menu item for committing or pushing local changes",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.git.createBranch",
+   "text": "Create branch",
+   "description": "Command menu item for creating a branch",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.git.createDraftPullRequest",
+   "text": "Create draft PR",
+   "description": "Command menu item for creating a draft pull request",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.git.createPullRequest",
+   "text": "Create PR",
+   "description": "Command menu item for creating a pull request",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.git.mergePullRequest",
+   "text": "Merge PR",
+   "description": "Command menu item for merging a pull request",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.git.openPullRequest",
+   "text": "Open PR on GitHub",
+   "description": "Command menu item for opening the linked pull request",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.git.toggleBlame",
+   "text": "Toggle Git blame",
+   "description": "Command menu item for toggling active-line Git blame",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.globalDictationHold",
+   "text": "Dictation shortcut",
+   "description": "Shortcut settings row for the dictation shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.globalDictationSingleTap",
+   "text": "Single-tap dictation",
+   "description": "Shortcut settings row for the single-tap dictation shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.goToLine",
+   "text": "Go to line",
+   "description": "Command menu item to go to a line in the current file",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.hideMiniOverlay",
+   "text": "Hide Mini",
+   "description": "Command menu item to hide Mini, the floating compact Codex panel, when it is visible",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.hotkeyWindow",
+   "text": "Popout Window hotkey",
+   "description": "Shortcut settings row for the Popout Window hotkey",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.importExternalAgent",
+   "text": "Import from other AI apps",
+   "description": "Command menu item to import work from another AI app",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.importPrismToLocal",
+   "text": "Import from Prism…",
+   "description": "Command to copy an owned Prism project into a new local folder",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.keyboardShortcuts",
+   "text": "Keyboard shortcuts",
+   "description": "Command menu item to open keyboard shortcut settings",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.logOut",
+   "text": "Log out",
+   "description": "Command menu item to log out of ChatGPT",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.manageTasks",
+   "text": "Manage scheduled tasks",
+   "description": "Command menu item to manage scheduled tasks",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.markThreadUnread",
+   "text": "Mark as unread",
+   "description": "Command menu item to mark the current chat as unread",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.mcpSettings",
+   "text": "MCP",
+   "description": "Command menu item to open MCP settings",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.meetings.takeNotes",
+   "text": "Meetings: Take notes",
+   "description": "Command palette and keyboard shortcut settings title for starting a local Meetings recording",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.navigateBack",
+   "text": "Back",
+   "description": "Command menu item to navigate back",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.navigateBrowserBack",
+   "text": "Browser back",
+   "description": "Command menu item to navigate the browser back",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.navigateBrowserForward",
+   "text": "Browser forward",
+   "description": "Command menu item to navigate the browser forward",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.navigateForward",
+   "text": "Forward",
+   "description": "Command menu item to navigate forward",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.newProject",
+   "text": "New project",
+   "description": "Command menu item to create a project",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.newProjectlessTask",
+   "text": "New standalone chat",
+   "description": "Command menu item to start a new standalone chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.newTab",
+   "text": "New tab",
+   "description": "Command menu item to open a new tab",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.newThread",
+   "text": "New chat",
+   "description": "Command menu item to start a new chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.nextRecentThread",
+   "text": "Next recently viewed chat",
+   "description": "Shortcut settings row for cycling to the next recently viewed chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.nextTab",
+   "text": "Next tab",
+   "description": "Shortcut settings row for switching to the next tab",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.nextThread",
+   "text": "Next sidebar item",
+   "description": "Command menu item to go to the next sidebar item",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.nextThreadNeedingAttention",
+   "text": "Next chat needing attention",
+   "description": "Command menu item that opens the highest-priority chat awaiting user input or containing unread activity",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.notchVoice",
+   "text": "Voice in Mini",
+   "description": "Shortcut settings row for starting or showing voice in the notch Mini",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.openControlWindow",
+   "text": "Open control window",
+   "description": "Command menu item to open the control window",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.openFolder",
+   "text": "Open folder",
+   "description": "Command menu item to open a folder/workspace",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.openOrbit.dot",
+   "text": "Open your dot",
+   "description": "Command palette and keyboard shortcut settings title for opening the user's dot assistant conversation. Keep the singular term dot untranslated.",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.openReviewTab",
+   "text": "Open Changes tab",
+   "description": "Command menu item to open the Changes tab showing local diffs",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.openSideChat",
+   "text": "Open side chat",
+   "description": "Shortcut settings row for opening the current chat as a side chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.openSkills",
+   "text": "Go to skills",
+   "description": "Command menu item to open skills",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.openThreadInNewWindow",
+   "text": "Open in new window",
+   "description": "Command menu item to open the current chat in a new window",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.page.addComment",
+   "text": "Add Page comment",
+   "description": "Keyboard shortcut title for starting a comment in the focused Page editor",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.page.formatBulletedList",
+   "text": "Bulleted list",
+   "description": "Page editor command that applies bulleted list formatting to the selected text",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.page.formatChecklist",
+   "text": "Checklist",
+   "description": "Page editor command that toggles checklist formatting for the selected text",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.page.formatNumberedList",
+   "text": "Numbered list",
+   "description": "Page editor command that applies numbered list formatting to the selected text",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.personalitySettings",
+   "text": "Personality",
+   "description": "Command menu item to open personality settings",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.presentation.duplicateSelection",
+   "text": "Duplicate presentation selection",
+   "description": "Shortcut settings row for duplicating selected slide objects",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.previousRecentThread",
+   "text": "Previous recently viewed chat",
+   "description": "Shortcut settings row for cycling to the previous recently viewed chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.previousTab",
+   "text": "Previous tab",
+   "description": "Shortcut settings row for switching to the previous tab",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.previousThread",
+   "text": "Previous sidebar item",
+   "description": "Command menu item to go to the previous sidebar item",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.realtimeVoice",
+   "text": "Voice Chat hotkey",
+   "description": "Shortcut settings row for the realtime voice hotkey",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.realtimeVoice.endCall",
+   "text": "End Voice Chat",
+   "description": "Shortcut settings row for ending Voice Chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.realtimeVoice.toggleMicrophoneMute",
+   "text": "Toggle Voice Chat microphone",
+   "description": "Shortcut settings row for toggling the voice microphone",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.realtimeVoice.toggleOutputMute",
+   "text": "Toggle Voice Chat audio",
+   "description": "Shortcut settings row for toggling voice audio",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.recentThread1",
+   "text": "Go to recent chat 1",
+   "description": "Command menu item to open the most recently updated chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.recentThread2",
+   "text": "Go to recent chat 2",
+   "description": "Command menu item to open the second most recently updated chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.recentThread3",
+   "text": "Go to recent chat 3",
+   "description": "Command menu item to open the third most recently updated chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.recentThread4",
+   "text": "Go to recent chat 4",
+   "description": "Command menu item to open the fourth most recently updated chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.recentThread5",
+   "text": "Go to recent chat 5",
+   "description": "Command menu item to open the fifth most recently updated chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.recentThread6",
+   "text": "Go to recent chat 6",
+   "description": "Command menu item to open the sixth most recently updated chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.redoAppAction",
+   "text": "Redo last action",
+   "description": "Command menu item to redo the most recently undone app action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.reopenClosedTab",
+   "text": "Reopen closed tab",
+   "description": "Command menu item to reopen the most recently closed tab",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.screenshotToCurrentChat",
+   "text": "Screenshot selection to current chat",
+   "description": "Title of the macOS global shortcut to capture a rectangular screen region for this destination",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.screenshotToNewChat",
+   "text": "Screenshot selection to new chat",
+   "description": "Title of the macOS global shortcut to capture a rectangular screen region for this destination",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.searchChats",
+   "text": "Switch chat…",
+   "description": "Command menu item that opens chat search",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.searchChatsPrevious",
+   "text": "Switch chat (previous)…",
+   "description": "Keyboard shortcut that opens the chat picker and cycles its selection backward",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.settings",
+   "text": "Settings",
+   "description": "Command menu item to open settings",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.showKeyboardShortcuts",
+   "text": "Show keyboard shortcuts",
+   "description": "Shortcut settings row for showing active keyboard shortcuts",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.showMiniOverlay",
+   "text": "Show Mini",
+   "description": "Command menu item to show Mini, the floating compact Codex panel, when it is hidden",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.showWorkspaceTabView",
+   "text": "Full view",
+   "description": "Command menu item that toggles the workspace between split and full view",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.spotlightSearch",
+   "text": "Spotlight search",
+   "description": "Shortcut settings row for Codex Spotlight, the floating desktop search and command panel",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.stepWorkspaceLayout",
+   "text": "Cycle workspace layout",
+   "description": "Command menu item that steps from full to split view, hides tabs, or restores tabs beside Chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.switchToChat",
+   "text": "Switch to Chat",
+   "description": "Command title for switching the Codex desktop app to Chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.switchToCodex",
+   "text": "Switch to Codex",
+   "description": "Command title for switching the Codex desktop app to Codex",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.switchToWork",
+   "text": "Switch to Work",
+   "description": "Command title for switching the Codex desktop app to Work",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.temporaryChat",
+   "text": "New Temporary Chat",
+   "description": "Command menu item to start a temporary chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread1",
+   "text": "Go to chat 1",
+   "description": "Command menu item to go to the first visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread2",
+   "text": "Go to chat 2",
+   "description": "Command menu item to go to the second visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread3",
+   "text": "Go to chat 3",
+   "description": "Command menu item to go to the third visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread4",
+   "text": "Go to chat 4",
+   "description": "Command menu item to go to the fourth visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread5",
+   "text": "Go to chat 5",
+   "description": "Command menu item to go to the fifth visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread6",
+   "text": "Go to chat 6",
+   "description": "Command menu item to go to the sixth visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread7",
+   "text": "Go to chat 7",
+   "description": "Command menu item to go to the seventh visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread8",
+   "text": "Go to chat 8",
+   "description": "Command menu item to go to the eighth visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.thread9",
+   "text": "Go to chat 9",
+   "description": "Command menu item to go to the ninth visible chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleBottomPanel",
+   "text": "Toggle bottom panel",
+   "description": "Command menu item to toggle the bottom panel",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleDebugModal",
+   "text": "Toggle debug panel",
+   "description": "Shortcut settings row for showing or hiding the internal debug panel within the current window",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleNotch",
+   "text": "Toggle Notch",
+   "description": "Shortcut settings row for expanding or collapsing the Codex notch panel at the top of the screen",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.togglePinnedSummary",
+   "text": "Toggle pinned summary",
+   "description": "Command menu item to toggle the pinned summary",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.togglePriorityFilter",
+   "text": "Toggle activity view",
+   "description": "Command menu item that opens or closes the sidebar activity view",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleReviewPanel",
+   "text": "Toggle Changes panel",
+   "description": "Command menu item to toggle the Changes panel showing local diffs",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleReviewTab",
+   "text": "Toggle Changes",
+   "description": "Shortcut settings row for toggling the Changes panel showing local diffs",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleSidebar",
+   "text": "Toggle sidebar",
+   "description": "Command menu item to toggle the sidebar",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleTerminal",
+   "text": "Open terminal",
+   "description": "Command menu item to open the terminal panel",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleThreadPin",
+   "text": "Toggle pin",
+   "description": "Command menu item to toggle whether the current chat is pinned",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.toggleWorkspaceTabs",
+   "text": "Switch between Chat and tabs",
+   "description": "Command palette and shortcut settings title for switching between Chat and the previous content tab in full view or toggling workspace tab visibility in split view",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.undoAppAction",
+   "text": "Undo last action",
+   "description": "Command menu item to undo the most recent app action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.command.wakeMiniOverlay",
+   "text": "Wake Mini",
+   "description": "Command menu item to wake Mini, the floating compact panel, when it is hidden",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.approval.approve",
+   "text": "Approve the active request",
+   "description": "Description for the Approve request shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.approval.decline",
+   "text": "Decline the active request",
+   "description": "Description for the Decline request shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.archiveThread",
+   "text": "Archive the current chat",
+   "description": "Description for the Archive chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifact.sendAnnotations",
+   "text": "Send pending annotations in the focused artifact",
+   "description": "Description for the Send annotations shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.arrowTool",
+   "text": "Add arrows to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: arrow tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.circleTool",
+   "text": "Add circles and ovals to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: circle tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.handTool",
+   "text": "Pan the artifact viewport",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: pan tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.lineTool",
+   "text": "Add lines to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: line tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.noteTool",
+   "text": "Place sticky notes on the Canvas",
+   "description": "Shortcut settings description for the Canvas sticky-note drawing tool in the shared Artifacts command family",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.rectangleTool",
+   "text": "Add rectangles to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: rectangle tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.selectTool",
+   "text": "Select and move artifact elements",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: select tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.artifacts.textTool",
+   "text": "Add text to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: text tool",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.browser.toggleAnnotationMode",
+   "text": "Enter or leave annotation mode in the browser",
+   "description": "Description of the keyboard shortcut that toggles annotation mode in the in-app browser",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.canvas.prompt",
+   "text": "Open a Canvas prompt at the pointer",
+   "description": "Shortcut settings description for the Canvas prompt command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.clearAllUnreads",
+   "text": "Mark all chats and scheduled task updates as read",
+   "description": "Description of the command that clears all unread updates",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.closeOtherTabs",
+   "text": "Close all tabs except the active tab",
+   "description": "Description for the Close other tabs shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.closeTab",
+   "text": "Close the active tab",
+   "description": "Description for the Close Tab shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.closeWindow",
+   "text": "Close the active window",
+   "description": "Description for the Close Window shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.codexMicroSettings",
+   "text": "Open Codex Micro setup",
+   "description": "Description for the Codex Micro setup keycap action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.addFiles",
+   "text": "Attach files and folders to the active composer",
+   "description": "Description for the Attach files and folders shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.addPhotos",
+   "text": "Add photos to the active composer",
+   "description": "Description for the Add photos shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.captureAppshot",
+   "text": "Capture an appshot for the active composer",
+   "description": "Description for the Codex Micro Appshot action",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.clear",
+   "text": "Clear the current composer prompt",
+   "description": "Description for the Clear prompt shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.cycleHost",
+   "text": "Cycle the new chat between this computer and available remote machines",
+   "description": "Description for the Cycle host shortcut, which wraps back to this computer after the last remote machine",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.cycleReasoningEffort",
+   "text": "Cycle through composer reasoning effort options",
+   "description": "Description for the Cycle reasoning effort shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.decreaseReasoningEffort",
+   "text": "Decrease the current composer reasoning effort",
+   "description": "Description for the Decrease reasoning effort shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.increaseReasoningEffort",
+   "text": "Increase the current composer reasoning effort",
+   "description": "Description for the Increase reasoning effort shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.openModelPicker",
+   "text": "Open the composer controls for model effort",
+   "description": "Description for the shortcut that opens the reasoning effort controls in the composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.openProjectPicker",
+   "text": "Open the composer project picker",
+   "description": "Description for the Open project picker shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.openRecentModels",
+   "text": "Open recently used model, effort, and speed combinations",
+   "description": "Description for the shortcut that opens recent model configurations in the composer",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.queue",
+   "text": "Submit the current composer prompt as a queued message",
+   "description": "Description for the Queue prompt shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.startVoiceMode",
+   "text": "Start or stop voice chat",
+   "description": "Description for the Toggle voice mode shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.steer",
+   "text": "Submit the current composer prompt as a steering message",
+   "description": "Description for the Steer prompt shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.submit",
+   "text": "Send the current composer message",
+   "description": "Description for the Send message shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.submitInBackground",
+   "text": "Send the current composer message without opening its chat",
+   "description": "Description for the Send message in background shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.toggleDictation",
+   "text": "Start or stop dictation in the chat composer",
+   "description": "Description of the keyboard shortcut that records speech and inserts the transcript into the chat draft",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.toggleFastMode",
+   "text": "Cycle through available speeds: Standard, Fast, and Ultrafast",
+   "description": "Description for the shortcut that cycles through the current model’s available speeds",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.togglePlanMode",
+   "text": "Turn plan mode on or off in the current composer",
+   "description": "Description for the Toggle plan mode shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.toggleWorkRunLocation",
+   "text": "Switch ChatGPT Work between cloud and local execution",
+   "description": "Description for the Toggle Cloud/Local shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.composer.toggleWorktreeMode",
+   "text": "Switch the current composer between local and a new worktree",
+   "description": "Description for the Toggle Local/Worktree shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.copyConversationMarkdown",
+   "text": "Copy the current chat as Markdown",
+   "description": "Description for the Copy as Markdown command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.copyConversationPath",
+   "text": "Copy the current chat path",
+   "description": "Description for the Copy conversation path shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.copyDeeplink",
+   "text": "Copy a deeplink to the current chat",
+   "description": "Description for the Copy deeplink shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.copyLastCodeBlock",
+   "text": "Copy the last assistant code block in the current chat",
+   "description": "Description in keyboard shortcut settings for the command that copies only the code from the most recent assistant code block, without its Markdown fence",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.copyPageLink",
+   "text": "Copy the current document’s link to the clipboard",
+   "description": "Description for the Copy document link keyboard shortcut for a Page, slide, or sheet",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.copyWorkingDirectory",
+   "text": "Copy the current chat working directory",
+   "description": "Description for the Copy working directory shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.deleteChat",
+   "text": "Confirm deletion of the current chat",
+   "description": "Description of the Delete chat keyboard shortcut, which opens a confirmation dialog and does not delete the chat immediately",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.deleteOrbit",
+   "text": "Confirm deletion of your {dot}",
+   "description": "Description for the command that opens confirmation to permanently delete the current assistant. The dot placeholder is the untranslated term for the user's agent.",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.environmentActionSlot",
+   "text": "Run the environment action in this shortcut slot",
+   "description": "Description for environment action shortcut slots",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.exitWorkspaceFullView",
+   "text": "Restore the fullscreen panel to split view",
+   "description": "Description for the Escape command that leaves workspace full view without closing its tabs",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.feedback",
+   "text": "Send product feedback to the ChatGPT team",
+   "description": "Description for the Feedback command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.file.findReferences",
+   "text": "Find references to the selected file symbol",
+   "description": "Description for the Find references shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.file.goToDefinition",
+   "text": "Open the definition of the selected file symbol",
+   "description": "Description for the Go to definition shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.file.navigateBack",
+   "text": "Return to the previous file location",
+   "description": "Description for the file navigation back shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.file.navigateForward",
+   "text": "Return to the next file location",
+   "description": "Description for the file navigation forward shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.findInThread",
+   "text": "Search the current chat",
+   "description": "Description for the Find command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.focusBrowserAddressBar",
+   "text": "Focus the in-app browser address bar",
+   "description": "Description for the Focus browser address bar command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.focusMainChat",
+   "text": "Move keyboard focus to the main chat composer",
+   "description": "Description for the Focus main chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.focusPageBlockControls",
+   "text": "Move keyboard focus from the Page editor to the current content's controls",
+   "description": "Description for the shortcut that focuses controls for moving a content block or changing its layout, available while editing a Page document",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.focusSideChat",
+   "text": "Move keyboard focus to an open side chat composer",
+   "description": "Description for the Focus side chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.focusTab",
+   "text": "Focus the tab at this position in the chat tab strip",
+   "description": "Description for numbered chat tab focus shortcuts",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.forceReloadSkills",
+   "text": "Refresh the skill catalog for the current context",
+   "description": "Description for the Force reload skills command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.forkThread",
+   "text": "Fork the current chat",
+   "description": "Description for the Fork chat shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.git.commit",
+   "text": "Open commit or push options",
+   "description": "Description for the Commit or push command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.git.createBranch",
+   "text": "Open branch creation options",
+   "description": "Description for the Create branch command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.git.createDraftPullRequest",
+   "text": "Open draft pull request creation options",
+   "description": "Description for the Create draft PR command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.git.createPullRequest",
+   "text": "Open pull request creation options",
+   "description": "Description for the Create PR command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.git.mergePullRequest",
+   "text": "Open pull request merge options",
+   "description": "Description for the Merge PR command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.git.openPullRequest",
+   "text": "Open the pull request linked to the current chat",
+   "description": "Description for the Open PR on GitHub command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.git.toggleBlame",
+   "text": "Show or hide author and commit details for the active editor line",
+   "description": "Description for the Toggle Git blame command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.globalDictationHold",
+   "text": "Hold to dictate, release to finish. Double-tap for hands-free, tap to finish.",
+   "description": "Description for the dictation shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.globalDictationSingleTap",
+   "text": "Press once to start, again to finish",
+   "description": "Description for the single-tap dictation shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.goToLine",
+   "text": "Go to a line in the current file",
+   "description": "Description for the Go to line command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.hardReloadBrowserPage",
+   "text": "Force reload the active browser page",
+   "description": "Description for the Force Reload Browser Page shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.hotkeyWindow",
+   "text": "Show or hide Popout Window from anywhere on desktop",
+   "description": "Description for the Popout Window hotkey",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.importExternalAgent",
+   "text": "Import from other AI apps",
+   "description": "Description for the external agent import command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.importPrismToLocal",
+   "text": "Edit and compile a local copy of your Prism project",
+   "description": "Description of the command that imports a Prism project to the desktop filesystem",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.keyboardShortcuts",
+   "text": "Customize keyboard shortcuts",
+   "description": "Description for the Keyboard shortcuts command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.logOut",
+   "text": "Sign out of {appName}",
+   "description": "Description for the Log out command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.manageTasks",
+   "text": "Create or manage scheduled tasks from the current page",
+   "description": "Description for the Manage scheduled tasks command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.markThreadUnread",
+   "text": "Mark the current chat as unread",
+   "description": "Description for the Mark as unread command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.mcpSettings",
+   "text": "Configure MCP servers",
+   "description": "Description for the MCP settings command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.meetings.takeNotes",
+   "text": "Start taking notes with Meetings on this device",
+   "description": "Description of the configurable shortcut that starts a local recording after Meetings setup is complete",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.navigateBack",
+   "text": "Go back in navigation history",
+   "description": "Description for the Back command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.navigateBrowserBack",
+   "text": "Go back in browser history",
+   "description": "Description for the Browser back command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.navigateBrowserForward",
+   "text": "Go forward in browser history",
+   "description": "Description for the Browser forward command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.navigateForward",
+   "text": "Go forward in navigation history",
+   "description": "Description for the Forward command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.newProject",
+   "text": "Create a project",
+   "description": "Description for the command that opens project creation",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.newProjectlessTask",
+   "text": "Start a new chat outside of any project",
+   "description": "Description for the New standalone chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.newTab",
+   "text": "Open a new tab",
+   "description": "Description for the New tab command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.newThread",
+   "text": "Start a new chat",
+   "description": "Description for the New chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.newWindow",
+   "text": "Open a new window",
+   "description": "Description for the New Window shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.nextRecentThread",
+   "text": "Cycle to the next recently viewed chat",
+   "description": "Description for the Next recently viewed chat shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.nextTab",
+   "text": "Switch to the next tab",
+   "description": "Description for the Next tab shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.nextThread",
+   "text": "Switch to the next sidebar item",
+   "description": "Description for the Next sidebar item command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.nextThreadNeedingAttention",
+   "text": "Switch to the next chat awaiting input or with unread activity",
+   "description": "Description for a navigation command that prioritizes chats awaiting user input before chats with unread activity",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.notchVoice",
+   "text": "Start voice in Mini or show the ongoing call",
+   "description": "Description of the notch voice shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openCommandMenu",
+   "text": "Open the command menu",
+   "description": "Description for the Open command menu shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openControlWindow",
+   "text": "Open the voice chat control window",
+   "description": "Description for the Open control window command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openFolder",
+   "text": "Add a local project to {appName}",
+   "description": "Description for the Open folder command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openOrbit.dot",
+   "text": "Open your dot conversation",
+   "description": "Description for the command that navigates to the user's existing dot assistant conversation. Keep the singular term dot untranslated.",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openReviewTab",
+   "text": "Open the Changes tab",
+   "description": "Description for the Open Changes tab command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openSideChat",
+   "text": "Open the current chat in a side chat",
+   "description": "Description for the Open side chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openSkills",
+   "text": "Browse installed and recommended skills",
+   "description": "Description for the Go to skills command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.openThreadInNewWindow",
+   "text": "Open the current chat in a new window",
+   "description": "Description for the Open in new window command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.page.addComment",
+   "text": "Comment on selected Page content or the word at the cursor",
+   "description": "Keyboard shortcut description for starting a Page comment without submitting it",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.page.formatBulletedList",
+   "text": "Format the selected Page text as a bulleted list",
+   "description": "Description of the bulleted-list formatting command in keyboard shortcut settings and the command menu",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.page.formatChecklist",
+   "text": "Toggle checklist formatting for the selected Page text",
+   "description": "Description of the checklist formatting command in keyboard shortcut settings and the command menu",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.page.formatNumberedList",
+   "text": "Format the selected Page text as a numbered list",
+   "description": "Description of the numbered-list formatting command in keyboard shortcut settings and the command menu",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.personalitySettings",
+   "text": "Adjust tone and response style",
+   "description": "Description for the Personality settings command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.presentation.duplicateSelection",
+   "text": "Make a copy of the selected objects on the current slide",
+   "description": "Description for the presentation Duplicate shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.previousRecentThread",
+   "text": "Cycle to the previous recently viewed chat",
+   "description": "Description for the Previous recently viewed chat shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.previousTab",
+   "text": "Switch to the previous tab",
+   "description": "Description for the Previous tab shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.previousThread",
+   "text": "Switch to the previous sidebar item",
+   "description": "Description for the Previous sidebar item command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice",
+   "text": "Start a Voice Chat from anywhere on desktop",
+   "description": "Description for the realtime voice hotkey",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice.endCall",
+   "text": "End the active Voice Chat",
+   "description": "Description for the End Voice Chat shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice.toggleMicrophoneMute",
+   "text": "Mute or unmute your microphone during a Voice Chat",
+   "description": "Description for the Toggle voice microphone shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice.toggleOutputMute",
+   "text": "Mute or unmute Voice Chat audio",
+   "description": "Description for the Toggle voice audio shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.recentThreadSlot",
+   "text": "Open the recently updated chat in this shortcut slot",
+   "description": "Description for shortcuts that open one of the six most recently updated chats",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.redoAppAction",
+   "text": "Redo the most recently undone app action",
+   "description": "Description for the Redo last action command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.reloadBrowserPage",
+   "text": "Reload the active browser page",
+   "description": "Description for the Reload Browser Page shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.renameThread",
+   "text": "Rename the current chat",
+   "description": "Description for the Rename chat shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.reopenClosedTab",
+   "text": "Reopen the most recently closed tab",
+   "description": "Description for the Reopen closed tab command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.screenshotToCurrentChat",
+   "text": "Select a screen area and attach its image to the current chat without sending",
+   "description": "Description of the macOS rectangular screenshot shortcut and its chat destination",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.screenshotToNewChat",
+   "text": "Select a screen area and attach its image to a new chat without sending",
+   "description": "Description of the macOS rectangular screenshot shortcut and its chat destination",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.searchChats",
+   "text": "Search and switch to a chat",
+   "description": "Description for the Switch chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.searchChatsPrevious",
+   "text": "Open the chat picker and cycle backward through chats",
+   "description": "Description of the shortcut that highlights the previous chat in the picker until the user confirms a selection",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.searchFiles",
+   "text": "Search files",
+   "description": "Description for the Search Files shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.settings",
+   "text": "Open {appName} settings",
+   "description": "Description for the Settings command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.showKeyboardShortcuts",
+   "text": "Show the shortcuts available right now",
+   "description": "Description for the command that shows currently active shortcuts",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.showMiniOverlay",
+   "text": "Show Mini from anywhere",
+   "description": "Description for the command that shows Mini, the floating compact panel",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.showWorkspaceTabView",
+   "text": "Enter or exit full view",
+   "description": "Description for the command that toggles full view for the workspace",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.spotlightSearch",
+   "text": "Open Spotlight search from anywhere on desktop",
+   "description": "Description of the global shortcut for Codex Spotlight, the floating desktop search and command panel",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.stepWorkspaceLayout",
+   "text": "Step from full view to split view, hide tabs, or show tabs beside Chat",
+   "description": "Description for the command that steps down through workspace layouts and restores split view from hidden tabs",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.switchToChat",
+   "text": "Switch to Chat",
+   "description": "Description for the Switch to Chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.switchToCodex",
+   "text": "Switch to Codex",
+   "description": "Description for the Switch to Codex command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.switchToWork",
+   "text": "Switch to Work",
+   "description": "Description for the Switch to Work command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.temporaryChat",
+   "text": "Start a chat that won't appear in history",
+   "description": "Description for the Temporary chat command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.threadSlot",
+   "text": "Open the visible chat in this shortcut slot",
+   "description": "Description for the chat slot commands",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleBottomPanel",
+   "text": "Show or hide the bottom panel",
+   "description": "Description for the Toggle bottom panel command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleDebugModal",
+   "text": "Show or hide the internal debug panel",
+   "description": "Description for the Toggle debug panel shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleFileTreePanel",
+   "text": "Show or hide a page's navigation, or the code viewer's file tree",
+   "description": "Shortcut description explaining that the navigation panel shows the Pages hierarchy while viewing a Page and project files while working with code",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleNotch",
+   "text": "Expand or collapse the notch from anywhere",
+   "description": "Description for the shortcut that expands or collapses the Codex notch panel at the top of the screen",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.togglePinnedSummary",
+   "text": "Show or hide the pinned summary",
+   "description": "Description for the Toggle pinned summary command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.togglePriorityFilter",
+   "text": "Turn the sidebar activity view on or off",
+   "description": "Description for the Toggle activity view command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleReviewPanel",
+   "text": "Show or hide Changes for the current chat",
+   "description": "Description for the Toggle Changes panel command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleReviewTab",
+   "text": "Show or hide Changes for the current Git-backed chat",
+   "description": "Description for the Toggle Changes shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleSidebar",
+   "text": "Show or hide the sidebar",
+   "description": "Description for the Toggle sidebar command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleTerminal",
+   "text": "Open the terminal panel",
+   "description": "Description for the Open terminal command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleThreadPin",
+   "text": "Pin or unpin the current chat",
+   "description": "Description for the Toggle pin command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleTraceRecording",
+   "text": "Start or stop trace recording",
+   "description": "Description for the Start Trace Recording shortcut",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.toggleWorkspaceTabs",
+   "text": "Switch between Chat and tabs in full view, or show or hide tabs in split view",
+   "description": "Description for the command that switches between Chat and the previous content tab in full view or toggles workspace tab visibility in split view",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandDescription.tuckAwayMiniOverlay",
+   "text": "Tuck away Mini",
+   "description": "Description for the command menu item to close Mini, the floating compact panel, when it is open",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.undoAppAction",
+   "text": "Undo the most recent app action",
+   "description": "Description for the Undo last action command",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandGroup.app",
+   "text": "App",
+   "description": "Command group label in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandGroup.configure",
+   "text": "Configure",
+   "description": "Command group label in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandGroup.navigation",
+   "text": "Navigation",
+   "description": "Command group label in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandGroup.panels",
+   "text": "Panels",
+   "description": "Command group label in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandGroup.skills",
+   "text": "Skills",
+   "description": "Command group label in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandGroup.thread",
+   "text": "Chat",
+   "description": "Command group label in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandGroup.workspace",
+   "text": "Project",
+   "description": "Command group label in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.actionSearchPlaceholder",
+   "text": "Search actions",
+   "description": "Placeholder for searching commands and settings in the search window",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.backToCommands",
+   "text": "Back to commands",
+   "description": "Accessible label for returning from a command menu drill-in",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.browserTabs",
+   "text": "Browser tabs",
+   "description": "Heading for matching open Codex Browser tabs across tasks in the current window in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.chatSearchPlaceholder",
+   "text": "Search chats",
+   "description": "Placeholder text for the command menu task search input",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.chooseSearchFolder",
+   "text": "Choose a folder to search files",
+   "description": "Prompt in Files and Text search when no folder is available to search",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.dialogDescription",
+   "text": "Search chats, actions, and project files",
+   "description": "Accessible description for the global command menu dialog",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.fileSearchPlaceholder",
+   "text": "Search files",
+   "description": "Placeholder for searching file names, paths, or contents in the selected location",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.miniPetSearchAlias",
+   "text": "pet pets",
+   "description": "Search keywords for Mini, the floating compact panel previously called Pet or Pets; include the localized singular and plural names",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.noResults",
+   "text": "No matches",
+   "description": "Shown when no commands or workspaces match in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.pageSearchPlaceholder",
+   "text": "Search pages",
+   "description": "Placeholder for the Pages tab in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.peopleSearchEmpty",
+   "text": "No people found",
+   "description": "Empty state when no workspace members match the search",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.peopleSearchError",
+   "text": "Could not search people",
+   "description": "Error shown when workspace member search fails",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.peopleSearchGroup",
+   "text": "People",
+   "description": "Group label for workspace member search results in global search",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.peopleSearchLoading",
+   "text": "Searching people…",
+   "description": "Loading message while searching workspace members",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.peopleSearchPlaceholder",
+   "text": "Search people",
+   "description": "Placeholder for searching workspace members in the People tab",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.recentlyViewedThreadsGroup",
+   "text": "Recently viewed chats",
+   "description": "Group label for recently viewed task results in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.actions",
+   "text": "Actions",
+   "description": "Search tab for finding commands and settings",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.chats",
+   "text": "Chats",
+   "description": "Search tab for finding chats by title or content",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.everywhere",
+   "text": "All",
+   "description": "Search tab for finding chats, actions, project files, and text in project files together",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.files",
+   "text": "Files",
+   "description": "Search tab for finding files by name in the selected location",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.pages",
+   "text": "Pages",
+   "description": "Search tab for finding Pages documents",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.people",
+   "text": "People",
+   "description": "Search tab for finding members of the current workspace",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.space",
+   "text": "Space",
+   "description": "Search tab for finding files and Pages in Space",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.scope.text",
+   "text": "Text",
+   "description": "Search tab for finding text inside files in the selected location",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.searchKeyboardHint",
+   "text": "Tab switches search; F6 focuses search options",
+   "description": "Keyboard help for the search input when the current search scope has extra options beside its tabs",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.searchOptions",
+   "text": "Search options",
+   "description": "Accessible label for options that apply to the selected search tab",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.searchScopes",
+   "text": "Search in",
+   "description": "Accessible label for the tabs that select what the search window searches",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.spaceSearchPlaceholder",
+   "text": "Search Space",
+   "description": "Placeholder for finding files and Pages in Space",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.suggestedGroup",
+   "text": "Quick actions",
+   "description": "Command group label in the command menu when no search query is entered",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.title",
+   "text": "Command menu",
+   "description": "Title for the global command menu dialog",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.unifiedSearchPlaceholder",
+   "text": "Search ChatGPT",
+   "description": "Placeholder text for the unified command menu search input",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenu.unnamedWorkspaceMember",
+   "text": "Workspace member",
+   "description": "Fallback label for a workspace member in search results when their name, email, and username are unavailable",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.archiveThread",
+   "text": "Archive chat",
+   "description": "Native menu item to archive the current chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.closeTab",
+   "text": "Close Tab",
+   "description": "Native menu item to close the active tab",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.closeWindow",
+   "text": "Close",
+   "description": "Native menu item to close the active window",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.copyConversationPath",
+   "text": "Copy conversation path",
+   "description": "Native menu item to copy the conversation path",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.copyDeeplink",
+   "text": "Copy deeplink",
+   "description": "Native menu item to copy the chat deeplink",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.copyWorkingDirectory",
+   "text": "Copy working directory",
+   "description": "Native menu item to copy the working directory",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.findInThread",
+   "text": "Find",
+   "description": "Native menu item to find in the current chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.focusBrowserAddressBar",
+   "text": "Focus Browser Address Bar",
+   "description": "Native menu item to focus the browser address bar",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.hardReloadBrowserPage",
+   "text": "Force Reload Browser Page",
+   "description": "Native menu item to force reload the browser page",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.logOut",
+   "text": "Log Out",
+   "description": "Native application menu item that signs the user out of Codex after confirmation. Short action label.",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.navigateBack",
+   "text": "Back",
+   "description": "Native menu item to navigate back",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.navigateForward",
+   "text": "Forward",
+   "description": "Native menu item to navigate forward",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.newProject",
+   "text": "New Project…",
+   "description": "Native File menu item to open the project creation dialog",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.newProjectlessTask",
+   "text": "New standalone chat",
+   "description": "Native shortcut command to start a new standalone chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.newTab",
+   "text": "New tab",
+   "description": "Native menu item to open a new tab",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.newThread",
+   "text": "New Chat",
+   "description": "Native menu item to start a new chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.newWindow",
+   "text": "New Window",
+   "description": "Native menu item to open a new window",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.nextThread",
+   "text": "Next Sidebar Item",
+   "description": "Native menu item to go to the next sidebar item",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.openCommandMenu",
+   "text": "Open command menu",
+   "description": "Native menu item to open the command menu",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.openFolder",
+   "text": "Open Folder…",
+   "description": "Native menu item to open a folder",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.openThreadInNewWindow",
+   "text": "Open in New Window",
+   "description": "Native menu item to open the current chat in a new window",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.previousThread",
+   "text": "Previous Sidebar Item",
+   "description": "Native menu item to go to the previous sidebar item",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.reloadBrowserPage",
+   "text": "Reload Browser Page",
+   "description": "Native menu item to reload the browser page",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.renameThread",
+   "text": "Rename chat",
+   "description": "Native menu item to rename the current chat",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.searchChats",
+   "text": "Search Chats…",
+   "description": "Native menu item to search chats",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.searchFiles",
+   "text": "Search Files…",
+   "description": "Native menu item to search files",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.settings",
+   "text": "Settings…",
+   "description": "Native menu item to open settings",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.showKeyboardShortcuts",
+   "text": "Keyboard Shortcuts",
+   "description": "Native menu item to show active keyboard shortcuts",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread1",
+   "text": "Go to Chat 1",
+   "description": "Native menu item to go to chat 1",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread2",
+   "text": "Go to Chat 2",
+   "description": "Native menu item to go to chat 2",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread3",
+   "text": "Go to Chat 3",
+   "description": "Native menu item to go to chat 3",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread4",
+   "text": "Go to Chat 4",
+   "description": "Native menu item to go to chat 4",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread5",
+   "text": "Go to Chat 5",
+   "description": "Native menu item to go to chat 5",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread6",
+   "text": "Go to Chat 6",
+   "description": "Native menu item to go to chat 6",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread7",
+   "text": "Go to Chat 7",
+   "description": "Native menu item to go to chat 7",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread8",
+   "text": "Go to Chat 8",
+   "description": "Native menu item to go to chat 8",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.thread9",
+   "text": "Go to Chat 9",
+   "description": "Native menu item to go to chat 9",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleBottomPanel",
+   "text": "Toggle Bottom Panel",
+   "description": "Native menu item to toggle the bottom panel",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleFileTreePanel",
+   "text": "Toggle navigation panel",
+   "description": "Native menu, command palette, and shortcut settings title for showing or hiding the active Page's navigation panel or the code file tree",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.togglePinnedSummary",
+   "text": "Toggle Pinned Summary",
+   "description": "Native menu item to toggle the pinned summary",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleReviewPanel",
+   "text": "Toggle Changes Panel",
+   "description": "Native menu item to toggle the Changes panel showing local diffs",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleSidebar",
+   "text": "Toggle Sidebar",
+   "description": "Native menu item to toggle the sidebar",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleTerminal",
+   "text": "Open Terminal",
+   "description": "Native menu item to open the terminal",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleThreadPin",
+   "text": "Pin/unpin chat",
+   "description": "Native menu item to toggle whether the current chat is pinned",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleTraceRecording",
+   "text": "Start Trace Recording",
+   "description": "Native menu item to start trace recording",
+   "files": [
+    "437750.efeec419ad.js",
+    "654172.b64b14661b.js",
+    "739641.9e136530d2.js",
+    "892801.3384f97430.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "codex.space.commandMenu.heading",
+   "text": "Space",
+   "description": "Section for recent or matching files and Pages in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.commandMenu.continueSearch",
+   "text": "Continue searching",
+   "description": "Action to search the next batch after finding no Space matches so far",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.commandMenu.error",
+   "text": "Could not search Space",
+   "description": "Error state when searching Space (Pages, files, folders, projects, and sites) fails in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.commandMenu.heading",
+   "text": "Pages",
+   "description": "Section for recent or matching Pages in the command menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.commandMenu.loading",
+   "text": "Searching Space…",
+   "description": "Accessible loading status while the command menu searches Space (Pages, files, folders, projects, and sites); visually only a spinner appears beside the section title",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.commandMenu.retry",
+   "text": "Retry",
+   "description": "Action on a command-menu row that retries a failed Space search without closing the menu",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.down",
+   "text": "Down",
+   "description": "Down direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.gameGesture",
+   "text": "Secret game",
+   "description": "Category label shown while the Codex Micro mini-game activation gesture is in progress",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.gameGestureProgress",
+   "text": "Keep circling · {progress}",
+   "description": "Progress shown while circling the Codex Micro joystick to activate a mini-game",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.left",
+   "text": "Left",
+   "description": "Left direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.miniGameTitle",
+   "text": "Mini-game",
+   "description": "Title shown while the Codex Micro mini-game activation gesture is in progress",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.right",
+   "text": "Right",
+   "description": "Right direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.tracking",
+   "text": "Move farther to trigger",
+   "description": "Feedback shown while moving the Codex Micro joystick toward an assigned action",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.triggered",
+   "text": "Triggered",
+   "description": "Feedback shown when a Codex Micro joystick action has been dispatched",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unassigned",
+   "text": "Direction reached",
+   "description": "Feedback shown when the Codex Micro joystick reaches an unassigned direction",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unassignedTitle",
+   "text": "Unassigned",
+   "description": "Action title shown for an unassigned Codex Micro joystick direction",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unassignedTracking",
+   "text": "No shortcut configured",
+   "description": "Feedback shown while moving the Codex Micro joystick toward an unassigned direction",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unavailable",
+   "text": "Shortcut unavailable",
+   "description": "Feedback shown when a Codex Micro joystick action cannot be dispatched",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.up",
+   "text": "Up",
+   "description": "Up direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "437750.efeec419ad.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.newChat",
+   "text": "New chat",
+   "description": "Menu action to start a new primary chat while keeping the workspace content open",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.empty",
+   "text": "No active shortcuts",
+   "description": "Empty state shown when no active shortcuts are available",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.loading",
+   "text": "Loading shortcuts…",
+   "description": "Loading label while active keyboard shortcuts are being fetched",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.noMatches",
+   "text": "No matching shortcuts",
+   "description": "Empty state shown when active shortcut search has no matches",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.app",
+   "text": "App",
+   "description": "Section title for active app keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.configure",
+   "text": "Configure",
+   "description": "Section title for active configuration keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.general",
+   "text": "General",
+   "description": "Section title for general active keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.navigation",
+   "text": "Navigation",
+   "description": "Section title for active navigation keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.panels",
+   "text": "Panels",
+   "description": "Section title for active panel keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.skills",
+   "text": "Skills",
+   "description": "Section title for active skill keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.thread",
+   "text": "Chat",
+   "description": "Section title for active task keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.section.workspace",
+   "text": "Project",
+   "description": "Section title for active project keyboard shortcuts",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "keyboardShortcutsDialog.title",
+   "text": "Keyboard shortcuts",
+   "description": "Title for the active keyboard shortcuts dialog",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameValue",
+   "text": "@{username}",
+   "description": "Profile username shown with an at-sign prefix",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.workspaceSearch.paginationRetry",
+   "text": "Couldn’t load more profiles. Try again",
+   "description": "Action to retry loading the next page of workspace profile search results",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.workspaceSearch.resultsLabel",
+   "text": "Explore profiles",
+   "description": "Heading above workspace profile search results",
+   "files": [
+    "654172.b64b14661b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chatGpt.security.sessions.logoutAllSuccess",
+   "text": "Successfully logged out of all devices",
+   "description": "Success toast after ChatGPT Security settings ends all device sessions, before the browser finishes its own sign-out",
+   "files": [
+    "632692.b5fd7e03e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.keyboardShortcuts.keystrokeSearch.ariaLabel",
+   "text": "Keystroke search capture",
+   "description": "Accessible label for the input that captures keyboard shortcuts to search",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.keyboardShortcuts.keystrokeSearch.placeholder",
+   "text": "Press shortcut to search",
+   "description": "Placeholder shown while capturing a keyboard shortcut to search",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.keyboardShortcuts.search.ariaLabel",
+   "text": "Search keyboard shortcuts",
+   "description": "Accessible label for the keyboard shortcuts search input",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.keyboardShortcuts.search.placeholder",
+   "text": "Search shortcuts",
+   "description": "Placeholder for the keyboard shortcuts search input",
+   "files": [
+    "892801.3384f97430.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "description",
+   "count": 1740
+  },
+  {
+   "name": "id",
+   "count": 1715
+  },
+  {
+   "name": "defaultMessage",
+   "count": 1674
+  },
+  {
+   "name": "children",
+   "count": 378
+  },
+  {
+   "name": "className",
+   "count": 208
+  },
+  {
+   "name": "name",
+   "count": 156
+  },
+  {
+   "name": "url",
+   "count": 128
+  },
+  {
+   "name": "title",
+   "count": 92
+  },
+  {
+   "name": "offset",
+   "count": 62
+  },
+  {
+   "name": "null",
+   "count": 57
+  },
+  {
+   "name": "Sheets",
+   "count": 56
+  },
+  {
+   "name": "stopColor",
+   "count": 54
+  },
+  {
+   "name": "y",
+   "count": 44
+  },
+  {
+   "name": "x",
+   "count": 43
+  },
+  {
+   "name": "asset",
+   "count": 35
+  },
+  {
+   "name": "get",
+   "count": 33
+  },
+  {
+   "name": "size",
+   "count": 31
+  },
+  {
+   "name": "width",
+   "count": 30
+  },
+  {
+   "name": "height",
+   "count": 30
+  },
+  {
+   "name": "prevention",
+   "count": 30
+  },
+  {
+   "name": "reporting",
+   "count": 30
+  },
+  {
+   "name": "adults",
+   "count": 30
+  },
+  {
+   "name": "value",
+   "count": 28
+  },
+  {
+   "name": "type",
+   "count": 25
+  },
+  {
+   "name": "signal",
+   "count": 23
+  },
+  {
+   "name": "kind",
+   "count": 22
+  },
+  {
+   "name": "onClick",
+   "count": 22
+  },
+  {
+   "name": "onSelect",
+   "count": 22
+  },
+  {
+   "name": "query",
+   "count": 22
+  },
+  {
+   "name": "href",
+   "count": 20
+  },
+  {
+   "name": "method",
+   "count": 20
+  },
+  {
+   "name": "disabled",
+   "count": 19
+  },
+  {
+   "name": "ref",
+   "count": 18
+  },
+  {
+   "name": "variant",
+   "count": 17
+  },
+  {
+   "name": "color",
+   "count": 17
+  },
+  {
+   "name": "initiator",
+   "count": 17
+  },
+  {
+   "name": "d",
+   "count": 17
+  },
+  {
+   "name": "search",
+   "count": 17
+  },
+  {
+   "name": "icon",
+   "count": 16
+  },
+  {
+   "name": "close",
+   "count": 16
+  },
+  {
+   "name": "limit",
+   "count": 16
+  },
+  {
+   "name": "enabled",
+   "count": 15
+  },
+  {
+   "name": "fill",
+   "count": 15
+  },
+  {
+   "name": "values",
+   "count": 14
+  },
+  {
+   "name": "role",
+   "count": 14
+  },
+  {
+   "name": "searchEventLogger",
+   "count": 14
+  },
+  {
+   "name": "page",
+   "count": 12
+  },
+  {
+   "name": "queryKey",
+   "count": 12
+  },
+  {
+   "name": "staleTime",
+   "count": 12
+  },
+  {
+   "name": "action",
+   "count": 12
+  },
+  {
+   "name": "accountId",
+   "count": 12
+  },
+  {
+   "name": "file",
+   "count": 12
+  },
+  {
+   "name": "isEqual",
+   "count": 12
+  },
+  {
+   "name": "label",
+   "count": 12
+  },
+  {
+   "name": "userId",
+   "count": 11
+  },
+  {
+   "name": "r",
+   "count": 11
+  },
+  {
+   "name": "pending",
+   "count": 11
+  },
+  {
+   "name": "member",
+   "count": 11
+  },
+  {
+   "name": "$type",
+   "count": 10
+  },
+  {
+   "name": "frame",
+   "count": 10
+  },
+  {
+   "name": "sm",
+   "count": 10
+  },
+  {
+   "name": "filter",
+   "count": 10
+  },
+  {
+   "name": "data",
+   "count": 9
+  },
+  {
+   "name": "queryFn",
+   "count": 9
+  },
+  {
+   "name": "retry",
+   "count": 9
+  },
+  {
+   "name": "result",
+   "count": 9
+  },
+  {
+   "name": "actions",
+   "count": 9
+  },
+  {
+   "name": "viewBox",
+   "count": 8
+  },
+  {
+   "name": "right",
+   "count": 8
+  },
+  {
+   "name": "appearance",
+   "count": 8
+  },
+  {
+   "name": "I",
+   "count": 8
+  },
+  {
+   "name": "error",
+   "count": 8
+  },
+  {
+   "name": "style",
+   "count": 8
+  },
+  {
+   "name": "dot",
+   "count": 8
+  },
+  {
+   "name": "xlinkHref",
+   "count": 8
+  },
+  {
+   "name": "gradientUnits",
+   "count": 8
+  },
+  {
+   "name": "text",
+   "count": 8
+  },
+  {
+   "name": "hostId",
+   "count": 8
+  },
+  {
+   "name": "scope",
+   "count": 8
+  },
+  {
+   "name": "left",
+   "count": 7
+  },
+  {
+   "name": "openTarget",
+   "count": 7
+  },
+  {
+   "name": "event",
+   "count": 7
+  },
+  {
+   "name": "presentation",
+   "count": 7
+  },
+  {
+   "name": "e",
+   "count": 7
+  },
+  {
+   "name": "gradientTransform",
+   "count": 7
+  },
+  {
+   "name": "cx",
+   "count": 7
+  },
+  {
+   "name": "cy",
+   "count": 7
+  },
+  {
+   "name": "fx",
+   "count": 7
+  },
+  {
+   "name": "fy",
+   "count": 7
+  },
+  {
+   "name": "isLoading",
+   "count": 7
+  },
+  {
+   "name": "key",
+   "count": 7
+  },
+  {
+   "name": "accelerator",
+   "count": 7
+  },
+  {
+   "name": "electron",
+   "count": 7
+  },
+  {
+   "name": "before",
+   "count": 7
+  },
+  {
+   "name": "after",
+   "count": 7
+  },
+  {
+   "name": "canvas",
+   "count": 6
+  },
+  {
+   "name": "paint",
+   "count": 6
+  },
+  {
+   "name": "optical",
+   "count": 6
+  },
+  {
+   "name": "shape",
+   "count": 6
+  },
+  {
+   "name": "capabilities",
+   "count": 6
+  },
+  {
+   "name": "body",
+   "count": 6
+  },
+  {
+   "name": "bottom",
+   "count": 6
+  },
+  {
+   "name": "strong",
+   "count": 6
+  },
+  {
+   "name": "showHomeLink",
+   "count": 6
+  },
+  {
+   "name": "authSessionLoggingId",
+   "count": 6
+  },
+  {
+   "name": "loading",
+   "count": 6
+  },
+  {
+   "name": "authMethod",
+   "count": 6
+  },
+  {
+   "name": "s",
+   "count": 6
+  },
+  {
+   "name": "email",
+   "count": 6
+  },
+  {
+   "name": "t",
+   "count": 6
+  },
+  {
+   "name": "pageId",
+   "count": 6
+  },
+  {
+   "name": "leftAccessory",
+   "count": 6
+  },
+  {
+   "name": "parameters",
+   "count": 6
+  },
+  {
+   "name": "onKeyDown",
+   "count": 6
+  },
+  {
+   "name": "onRunCommand",
+   "count": 6
+  },
+  {
+   "name": "autoFocus",
+   "count": 6
+  },
+  {
+   "name": "onOpenChange",
+   "count": 6
+  },
+  {
+   "name": "backgroundColor",
+   "count": 6
+  },
+  {
+   "name": "inkBounds",
+   "count": 5
+  },
+  {
+   "name": "visualBounds",
+   "count": 5
+  },
+  {
+   "name": "bounds",
+   "count": 5
+  },
+  {
+   "name": "center",
+   "count": 5
+  },
+  {
+   "name": "insets",
+   "count": 5
+  },
+  {
+   "name": "top",
+   "count": 5
+  },
+  {
+   "name": "anchors",
+   "count": 5
+  },
+  {
+   "name": "ink",
+   "count": 5
+  },
+  {
+   "name": "foreground",
+   "count": 5
+  },
+  {
+   "name": "showFooter",
+   "count": 5
+  },
+  {
+   "name": "provider",
+   "count": 5
+  },
+  {
+   "name": "status",
+   "count": 5
+  },
+  {
+   "name": "visible",
+   "count": 5
+  },
+  {
+   "name": "pendingPage",
+   "count": 5
+  },
+  {
+   "name": "isError",
+   "count": 5
+  },
+  {
+   "name": "google",
+   "count": 5
+  },
+  {
+   "name": "apple",
+   "count": 5
+  },
+  {
+   "name": "microsoft",
+   "count": 5
+  },
+  {
+   "name": "colorKey",
+   "count": 5
+  },
+  {
+   "name": "src",
+   "count": 5
+  },
+  {
+   "name": "path",
+   "count": 5
+  },
+  {
+   "name": "disabledReason",
+   "count": 5
+  },
+  {
+   "name": "isLocalResult",
+   "count": 5
+  },
+  {
+   "name": "heading",
+   "count": 5
+  },
+  {
+   "name": "ariaLabel",
+   "count": 5
+  },
+  {
+   "name": "pages",
+   "count": 5
+  },
+  {
+   "name": "commandId",
+   "count": 5
+  },
+  {
+   "name": "fileMask",
+   "count": 5
+  },
+  {
+   "name": "members",
+   "count": 5
+  },
+  {
+   "name": "account_id",
+   "count": 5
+  },
+  {
+   "name": "dark",
+   "count": 5
+  },
+  {
+   "name": "platform",
+   "count": 5
+  },
+  {
+   "name": "permanent",
+   "count": 4
+  },
+  {
+   "name": "onSubmit",
+   "count": 4
+  },
+  {
+   "name": "a",
+   "count": 4
+  },
+  {
+   "name": "replace",
+   "count": 4
+  },
+  {
+   "name": "contentAlignment",
+   "count": 4
+  },
+  {
+   "name": "onHomeClick",
+   "count": 4
+  },
+  {
+   "name": "gcTime",
+   "count": 4
+  },
+  {
+   "name": "direction",
+   "count": 4
+  },
+  {
+   "name": "skills",
+   "count": 4
+  },
+  {
+   "name": "transform",
+   "count": 4
+  },
+  {
+   "name": "knobPulse",
+   "count": 4
+  },
+  {
+   "name": "j",
+   "count": 4
+  },
+  {
+   "name": "endCallDescription",
+   "count": 4
+  },
+  {
+   "name": "endCallTitle",
+   "count": 4
+  },
+  {
+   "name": "realtimeVoiceDescription",
+   "count": 4
+  },
+  {
+   "name": "realtimeVoiceTitle",
+   "count": 4
+  },
+  {
+   "name": "toggleMicrophoneMuteDescription",
+   "count": 4
+  },
+  {
+   "name": "toggleMicrophoneMuteTitle",
+   "count": 4
+  },
+  {
+   "name": "toggleOutputMuteDescription",
+   "count": 4
+  },
+  {
+   "name": "toggleOutputMuteTitle",
+   "count": 4
+  },
+  {
+   "name": "realtimeVoice",
+   "count": 4
+  },
+  {
+   "name": "speeds",
+   "count": 4
+  },
+  {
+   "name": "appName",
+   "count": 4
+  },
+  {
+   "name": "n",
+   "count": 4
+  },
+  {
+   "name": "validateBeforeNavigate",
+   "count": 4
+  },
+  {
+   "name": "parameter",
+   "count": 4
+  },
+  {
+   "name": "flow",
+   "count": 4
+  },
+  {
+   "name": "auth_session_logging_id",
+   "count": 4
+  },
+  {
+   "name": "refetchOnReconnect",
+   "count": 4
+  },
+  {
+   "name": "phone_number",
+   "count": 4
+  },
+  {
+   "name": "username",
+   "count": 4
+  },
+  {
+   "name": "alt",
+   "count": 4
+  },
+  {
+   "name": "connection",
+   "count": 4
+  },
+  {
+   "name": "placeholder",
+   "count": 4
+  },
+  {
+   "name": "o",
+   "count": 4
+  },
+  {
+   "name": "mimeType",
+   "count": 4
+  },
+  {
+   "name": "score",
+   "count": 4
+  },
+  {
+   "name": "threadId",
+   "count": 4
+  },
+  {
+   "name": "command",
+   "count": 4
+  },
+  {
+   "name": "onValueChange",
+   "count": 4
+  },
+  {
+   "name": "tab",
+   "count": 4
+  },
+  {
+   "name": "profileUrl",
+   "count": 4
+  },
+  {
+   "name": "searchTitle",
+   "count": 4
+  },
+  {
+   "name": "hasUnreadTurn",
+   "count": 4
+  },
+  {
+   "name": "updatedAt",
+   "count": 4
+  },
+  {
+   "name": "searchPreview",
+   "count": 4
+  },
+  {
+   "name": "loadedChatSearchResults",
+   "count": 4
+  },
+  {
+   "name": "expectedValue",
+   "count": 4
+  },
+  {
+   "name": "items",
+   "count": 4
+  },
+  {
+   "name": "i",
+   "count": 4
+  },
+  {
+   "name": "matches",
+   "count": 4
+  },
+  {
+   "name": "limited",
+   "count": 4
+  },
+  {
+   "name": "source",
+   "count": 4
+  },
+  {
+   "name": "subtitle",
+   "count": 4
+  },
+  {
+   "name": "N",
+   "count": 4
+  },
+  {
+   "name": "verticalAlignment",
+   "count": 4
+  },
+  {
+   "name": "allowDebugMenu",
+   "count": 4
+  },
+  {
+   "name": "fileLanguageFeaturesEnabled",
+   "count": 4
+  },
+  {
+   "name": "isAutomationsEnabled",
+   "count": 4
+  },
+  {
+   "name": "isDictationShortcutEnabled",
+   "count": 4
+  },
+  {
+   "name": "isHotkeyWindowEnabled",
+   "count": 4
+  },
+  {
+   "name": "isScreenshotSelectionEnabled",
+   "count": 4
+  },
+  {
+   "name": "isPriorityFilterEnabled",
+   "count": 4
+  },
+  {
+   "name": "isRealtimeVoiceCommandEnabled",
+   "count": 4
+  },
+  {
+   "name": "isSpotlightEnabled",
+   "count": 4
+  },
+  {
+   "name": "isSidebarCollapsible",
+   "count": 4
+  },
+  {
+   "name": "modeSwitchAvailable",
+   "count": 4
+  },
+  {
+   "name": "policies",
+   "count": 3
+  },
+  {
+   "name": "duration_seconds",
+   "count": 3
+  },
+  {
+   "name": "durationSeconds",
+   "count": 3
+  },
+  {
+   "name": "open",
+   "count": 3
+  },
+  {
+   "name": "as",
+   "count": 3
+  },
+  {
+   "name": "underline",
+   "count": 3
+  },
+  {
+   "name": "description_markdown",
+   "count": 3
+  },
+  {
+   "name": "preventScroll",
+   "count": 3
+  },
+  {
+   "name": "tabIndex",
+   "count": 3
+  },
+  {
+   "name": "errorCode",
+   "count": 3
+  },
+  {
+   "name": "q",
+   "count": 3
+  },
+  {
+   "name": "to",
+   "count": 3
+  },
+  {
+   "name": "reloadDocument",
+   "count": 3
+  },
+  {
+   "name": "isPending",
+   "count": 3
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 3
+  },
+  {
+   "name": "up",
+   "count": 3
+  },
+  {
+   "name": "feedback",
+   "count": 3
+  },
+  {
+   "name": "pressedKeys",
+   "count": 3
+  },
+  {
+   "name": "selectedAnalogDirection",
+   "count": 3
+  },
+  {
+   "name": "onRetry",
+   "count": 3
+  },
+  {
+   "name": "login_hint",
+   "count": 3
+  },
+  {
+   "name": "refetchOnMount",
+   "count": 3
+  },
+  {
+   "name": "renderSignup",
+   "count": 3
+  },
+  {
+   "name": "state",
+   "count": 3
+  },
+  {
+   "name": "once",
+   "count": 3
+  },
+  {
+   "name": "loadingFallback",
+   "count": 3
+  },
+  {
+   "name": "LeftIcon",
+   "count": 3
+  },
+  {
+   "name": "fileExtension",
+   "count": 3
+  },
+  {
+   "name": "libraryArtifactType",
+   "count": 3
+  },
+  {
+   "name": "mode",
+   "count": 3
+  },
+  {
+   "name": "chats",
+   "count": 3
+  },
+  {
+   "name": "space",
+   "count": 3
+  },
+  {
+   "name": "files",
+   "count": 3
+  }
+ ],
+ "literal_count": 3140,
+ "literals_file": "codex_app_rev\\.work\\literals\\app-shell.json"
+}

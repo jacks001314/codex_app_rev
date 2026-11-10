@@ -1,0 +1,178 @@
+{
+  "$schema_note": "Ordered classification rules for Codex desktop renderer chunks. First matching rule wins. Patterns are applied to the chunk basename without extension. Modules mirror the codex_app_rev/code/ directory layout.",
+  "version_target": "26.903.71938",
+  "shared_excludes": {
+    "note": "Chunks that are shared runtime, vendored libraries or bulk data. They are never copied into a module; they are recorded as external references in each module _INDEX.json.",
+    "patterns": [
+      "^app-initial-",
+      "^app-primary-",
+      "^rolldown-runtime-",
+      "^register-",
+      "^runtime\\.worker-",
+      "^chunk-",
+      "^index-[A-Za-z0-9]{8}-",
+      "^(ta-IN|my-MM|ml|kn-IN|ka-GE|te-IN|bn-BD|hi-IN|mr-IN|pa|gu-IN|th-TH|el-GR|bg-BG|hy-AM|ru-RU|mk-MK|kk|uk-UA|mn|sr-RS|ur|am|fa|ar|ja-JP|vi-VN|fr-CA|hu-HU|fr-FR|so-SO|ko-KR|ca-ES|lt|ro-RO|pl-PL|de-DE|sk-SK|cs-CZ|sq-AL|tl|pt-PT|es-ES|lv-LV|es-419|it-IT|tr-TR|hr-HR|fi-FI|nl-NL|pt-BR|sl-SI|is-IS|sw-TZ|bs-BA|sv-SE|ms-MY|et-EE|nb-NO|id-ID|da-DK|zh-HK|zh-TW|zh-CN|en-GB|en-US|he-IL|da|sv|no|nb)-[0-9a-f]{16}$",
+      "^(mapbox-gl|three\\.module|cytoscape\\.esm|katex|lowlight|mathlive\\.min|jsxgraph|drei|pdf|workbook|spreadsheet|presentation|viewer|dotnet\\.runtime|es6|cpp|wasm|emacs-lisp|vue-vine|angular-ts|wolfram|learning-block|animated-icon-svg)-",
+      "^visualization-[0-9a-f]{10,16}$"
+    ],
+    "max_closure_bytes": 250000
+  },
+  "rules": [
+    {
+      "module": "settings",
+      "subdir": "search-index",
+      "pattern": "^_virtual_settings-search-documents"
+    },
+    {
+      "module": "settings",
+      "subdir": "shell",
+      "pattern": "^(settings|settings-page|settings-route-state|settings-host-dropdown|settings-command-menu-section-items|settings-loading-row|settings-row-disclosure|settings-external-section|settings-plugin-selection|use-visible-settings-sections)$|^settings-"
+    },
+    {
+      "module": "settings",
+      "subdir": "onboarding",
+      "pattern": "^(onboarding-page|onboarding-entrypoint|onboarding-login-content|onboarding-interactive-dynamic-tools|onboarding-mail-provider|login-route|security-route|wallet-onboarding-announcement-content|wallet-onboarding-announcement-modal|worktree-onboarding-banner-controller|worktree-onboarding-state|chatgpt-onboarding-dialog)"
+    },
+    {
+      "module": "settings",
+      "subdir": "pages",
+      "pattern": "^profile-[0-9a-f]{8,16}$|^data-controls-|^billing-analytics-|^skills-page-|^plugins-settings"
+    },
+    {
+      "module": "settings",
+      "subdir": "shell",
+      "pattern": "^settings-external-section-"
+    },
+    {
+      "module": "settings",
+      "subdir": "pages",
+      "pattern": "settings|^review-preferences-model|^cloud-preferences|^analytics-|^connector-settings-redirect|^pets-settings-route|^code-review-|^keyboard-shortcuts-"
+    },
+    {
+      "module": "composer",
+      "subdir": "queue",
+      "pattern": "^queued-message-list|^queue-|^message-queue"
+    },
+    {
+      "module": "composer",
+      "subdir": "quick-chat",
+      "pattern": "^quick-chat|^content-quick-chat-overlay|^avatar-overlay-quick-chat-bar|^local-conversation-quick-chat-overlay|^global-dictation-page|^dictation-"
+    },
+    {
+      "module": "composer",
+      "subdir": "core",
+      "pattern": "composer|^primary-composer-at-mention-list|^browser-composer-disclaimer|^use-chatgpt-composer-controller|^right-panel-composer-overlay|^unified-floating-composer|^home-composer-mode-toggle"
+    },
+    {
+      "module": "side-panel",
+      "subdir": "subagents",
+      "pattern": "subagent"
+    },
+    {
+      "module": "side-panel",
+      "subdir": "terminal",
+      "pattern": "^terminal-panel|^xterm-output-panel|^xterm-window-zoom|background-terminal|^exec-shell-container|^terminal-workspace-warning-state"
+    },
+    {
+      "module": "side-panel",
+      "subdir": "previews",
+      "pattern": "^PopcornElectron|^artifact-tab-content|^artifact-source-bootstrap|^file-editor-theme"
+    },
+    {
+      "module": "side-panel",
+      "subdir": "previews",
+      "pattern": "^pdf-preview-panel|^docx-preview-panel|^notebook-preview-panel|^cloud-browser-|^text-file-editor|^file-editor-theme|^artifact-tab-content|^artifact-source-bootstrap"
+    },
+    {
+      "module": "side-panel",
+      "subdir": "tabs",
+      "pattern": "side-panel|-panel-tab|^panel-visibility|^control-panel|^new-thread-panel-page|^thread-panel-|^toggle-thread-summary-panel|^thread-goal-|^thread-pull-request-|^open-thread-pull-request|^open-pull-request|^open-artifact|^open-text-file|^open-automation|^open-sources|^open-local-conversation|^mcp-extension-thread|^thread-mcp-app|^thread-right-panel-state|^automation-side-panel|^cloud-automation-detail-panel|^local-conversation-summary-panel"
+    },
+    {
+      "module": "left-nav",
+      "subdir": "sidebar",
+      "pattern": "^sidebar-"
+    },
+    {
+      "module": "left-nav",
+      "subdir": "library",
+      "pattern": "^library-|^unified-library-page"
+    },
+    {
+      "module": "workspace",
+      "subdir": "pages",
+      "pattern": "^select-workspace-page|^workspace-|^remote-workspace-root-dialog|^new-thread-panel-page|^hotkey-window-home-page|^home-page"
+    },
+    {
+      "module": "conversation",
+      "subdir": "nav-rail",
+      "pattern": "^thread-user-message-navigation-rail-app"
+    },
+    {
+      "module": "conversation",
+      "subdir": "scroll",
+      "pattern": "^thread-scroll-|^thread-virtualizer|^thread-context|^thread-tab-route-checkpoint"
+    },
+    {
+      "module": "conversation",
+      "subdir": "turn",
+      "pattern": "^local-conversation-turn|^local-conversation-thread-turn-entries|^artifact-originating-turn|^revision-review-unavailable-message|^local-conversation-stream-role-product-event"
+    },
+    {
+      "module": "conversation",
+      "subdir": "thread",
+      "pattern": "^local-conversation-thread|^thread-overflow-menu|^thread-pin-shortcut-bridge|^thread-usage-breakdown|^local-conversation-git-actions|^local-conversation-plan-model|^local-conversation-webmcp-tools-model|^local-conversation-background-agent|^open-local-conversation-background-agent|^use-conversation-diff-comments"
+    },
+    {
+      "module": "conversation",
+      "subdir": "markdown",
+      "pattern": "^conversation-markdown|^chatgpt-code-block|^chatgpt-math|^conversation-source|^chatgpt-sources-message|^messages$"
+    },
+    {
+      "module": "conversation",
+      "subdir": "pages",
+      "pattern": "conversation|^local-environment-workflow-messages|^hotkey-window-thread-page|^hotkey-window-new-thread-page|^unrestored-thread-tab-route|^share-conversation-action|^use-resume-conversation-if-needed"
+    },
+    {
+      "module": "app-shell",
+      "subdir": "chrome",
+      "pattern": "^thread-app-shell-chrome|^app-shell|^window-|^titlebar|^traffic-light"
+    },
+    {
+      "module": "app-shell",
+      "subdir": "routing",
+      "pattern": "^router|^route|^tab-content|^tabs-|-route$"
+    },
+    {
+      "module": "app-shell",
+      "subdir": "layout",
+      "pattern": "^layout-|^global-|^command-menu|^toaster|^modal-|^dialog"
+    },
+    {
+      "module": "conversation",
+      "subdir": "turn",
+      "pattern": "^visualization-thread-frames"
+    },
+    {
+      "module": "app-shell",
+      "subdir": "layout",
+      "pattern": "^panel-[0-9a-f]{8}$"
+    }
+  ],
+  "path_rules": [
+    {
+      "prefix": ".vite/build/",
+      "module": "main-process",
+      "subdir": "build",
+      "note": "Electron main process + preload bundles emitted by electron-forge/vite"
+    },
+    {
+      "prefix": "native-menu-locales/",
+      "module": "main-process",
+      "subdir": "native-menu-locales",
+      "note": "Native application menu label localisation tables"
+    }
+  ],
+  "asset_prefix": "webview/assets/",
+  "seed_size_limit": 3000000
+}

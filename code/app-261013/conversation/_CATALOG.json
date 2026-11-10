@@ -1,0 +1,8197 @@
+{
+ "module": "conversation",
+ "generated_at": "2026-10-17T04:58:45.751Z",
+ "files_scanned": 74,
+ "message_count": 494,
+ "messages": [
+  {
+   "id": "aeon.replyChain.count",
+   "text": "{count, plural, one {# reply} other {# replies}}",
+   "description": null,
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.replyChain.dismiss",
+   "text": "Close reply chain",
+   "description": "Leave the reply chain, preserving the typed draft",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.replyChain.historyUnavailable",
+   "text": "Messages in this reply chain aren’t available in the loaded history",
+   "description": "Shown with the selected quote when a reply chain has no messages in the conversation history currently available to the app",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.replyChain.loadHistory",
+   "text": "Load earlier messages",
+   "description": "Load earlier conversation history to find more messages in the selected reply chain",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.replyChain.panel",
+   "text": "Reply chain",
+   "description": "Accessible label for the floating panel containing a message's replies",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.replyChain.reply",
+   "text": "Reply",
+   "description": "Open a message's reply chain and compose a reply",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.replyChain.view",
+   "text": "View replies",
+   "description": "Open a reply chain whose full history has not loaded yet",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.userMessage.read",
+   "text": "Read",
+   "description": "Short read receipt beneath the latest outgoing chat message. Read is past tense, indicating the assistant has seen the message.",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.ads.business_agent.disclosure.fallback_name",
+   "text": "Business Agent",
+   "description": "Fallback heading in the compact data-sharing disclosure shown at the top of every organic or sponsored Business Agent conversation. Use a short neutral title that fits on one line. This appears when the business has not supplied a display name.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.ads.business_agent.thread_header.subtitle",
+   "text": "Business chat",
+   "description": "Short subtitle beneath the business name in the header of a Business Agent conversation. It tells an end user that the custom GPT chat represents a business. Keep this compact enough to fit on one line; there are no placeholders or formatting.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.disclosureQuestionsBody",
+   "text": "Learn what the business offers and ask detailed follow-ups as you decide.",
+   "description": "Body beneath the questions-and-comparison heading in the introductory dialog shown when a signed-in person opens an eligible Business Agent chat. It explains that they can learn about the business and ask further questions while deciding. Use a neutral tone; there are no placeholders.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.disclosureQuestionsTitle",
+   "text": "Ask questions and compare options",
+   "description": "Short heading in the introductory dialog shown when a signed-in person opens an eligible Business Agent chat. It explains that they can ask about the business and compare options before deciding. Keep the tone informative; there are no placeholders.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.disclosureStartChat",
+   "text": "Start chatting",
+   "description": "Short button label in the introductory dialog shown when a signed-in person opens an eligible Business Agent chat. Dismisses the information dialog so they can start chatting in the conversation that has already opened. It does not send a message or change a privacy setting; there are no placeholders.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.disclosureTitle",
+   "text": "About chatting with businesses",
+   "description": "Title of the introductory dialog shown when a signed-in person opens an eligible Business Agent chat. It introduces what business AI chats offer and how chat privacy works. Keep it neutral and concise; there are no placeholders.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.disclosureUsageTrendsBody",
+   "text": "Businesses can’t see your chats or your personal info — just overall usage trends to help improve their AI agent.",
+   "description": "Privacy explanation in the introductory dialog shown when a signed-in person opens an eligible Business Agent chat. The business cannot see the chat or personal information and only receives overall usage trends to improve its AI agent. Use a clear neutral tone; there are no placeholders or links.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.disclosureUsageTrendsTitle",
+   "text": "Your chats remain private",
+   "description": "Short privacy heading in the introductory dialog shown when a signed-in person opens an eligible Business Agent chat. Reassure the person that their conversations with business AI agents remain private from the businesses. There are no placeholders.",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.loading",
+   "text": "Opening Business Agent…",
+   "description": "Loading status on a Business Agent chat destination while its interaction is being created",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.businessAgent.unavailable",
+   "text": "This Business Agent is unavailable. Please return to the ad and try again",
+   "description": "Error on a Business Agent chat destination when creating its interaction fails; sending is unavailable and the user can retry from the original ad",
+   "files": [
+    "pages/conversation-ui-605b34b5a676.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.loadError",
+   "text": "Could not load this ChatGPT conversation",
+   "description": "Error state when a ChatGPT conversation fetch fails",
+   "files": [
+    "pages/shared-conversation-page-ddd7a1fc74ab.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.projectActions.moveToProject",
+   "text": "Move to project",
+   "description": "Context or overflow submenu that moves a ChatGPT conversation or Work task into a different ChatGPT project",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.projectActions.projectName",
+   "text": "{projectName}",
+   "description": "Name of a ChatGPT project offered as a destination for moving a conversation or Work task",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.projects.loadingMenu",
+   "text": "Loading projects…",
+   "description": "Disabled menu item while project destinations load",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.projects.reopenMenu",
+   "text": "Reopen this menu to refresh project destinations",
+   "description": "Native menu hint for refreshing project destinations",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.retryHistory",
+   "text": "Retry",
+   "description": "Button that retries loading conversation history after a failed request",
+   "files": [
+    "pages/conversation-load-error-cad8d3268901.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptProjectHome.chats.projectActions.destinationsFailed",
+   "text": "Couldn’t load projects. Try again",
+   "description": "Retry action in the project-home or conversation-header Move to project submenu when project destinations fail to load; already loaded destinations remain available",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptProjectHome.chats.projectActions.moveFailed",
+   "text": "Failed to move the conversation to the project",
+   "description": "Error toast after moving a chat from the project-home or conversation-header overflow menu fails; the chat's previous project membership is restored",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptProjectHome.chats.projectActions.newProject",
+   "text": "New project",
+   "description": "Action in the project-home or conversation-header Move to project submenu that creates a new cloud project and then moves the chat into it",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptProjectHome.chats.projectActions.noDestinations",
+   "text": "No other projects",
+   "description": "Empty state in a project-home or conversation-header Move to project submenu when no destination projects are available and project creation is not allowed",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptProjectHome.chats.projectActions.remove",
+   "text": "Remove from project",
+   "description": "Action in a conversation header or project-home chat's overflow menu that moves the chat back to general history; the project name appears in the section heading",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptProjectHome.chats.projectActions.removeFailed",
+   "text": "Failed to remove the conversation from the project",
+   "description": "Error toast after a chat cannot be removed from its current project; its previous membership is restored",
+   "files": [
+    "pages/conversation-move-menu-items-ce1b35a51a3a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.header.changes",
+   "text": "Changes",
+   "description": "Label for the apply dropdown change summary",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.header.fileCount",
+   "text": "{count, plural, one {# file} other {# files}}",
+   "description": "File count summary in apply dropdown header",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.header.rows",
+   "text": "rows",
+   "description": "Label for line change totals in apply dropdown header",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.header.title",
+   "text": "Apply changes",
+   "description": "Title for the apply dropdown header",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.header.workspace",
+   "text": "Project",
+   "description": "Label for the workspace list in apply dropdown header",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.results.conflicted",
+   "text": "{count, plural, one {1 file conflicted:} other {{count} files conflicted:}}",
+   "description": "Heading for conflicted files after apply",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.results.empty",
+   "text": "No files were copied",
+   "description": "Fallback text when no files were applied from an apply operation",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyDropdown.results.skipped",
+   "text": "{count, plural, one {1 file skipped:} other {{count} files skipped:}}",
+   "description": "Heading for skipped files after apply",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyOrRevertBanner.apply",
+   "text": "Apply",
+   "description": "Label to apply code changes from Codex",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyOrRevertBanner.applyMessage",
+   "text": "Apply changes and continue locally?",
+   "description": "Banner message for applying changes to Codex locally",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyOrRevertBanner.applyMessageDifferentEnvironment",
+   "text": "This chat was created in {environment} so its changes may not apply cleanly.",
+   "description": "Banner warning the user that the Codex code changes they are viewing were made in a different environment and may not apply cleanly.",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyOrRevertBanner.applyMessageDifferentEnvironment.tooltip",
+   "text": "Changes made in {environment} so may not apply cleanly.",
+   "description": "Banner warning the user that the Codex code changes they are viewing were made in a different environment and may not apply cleanly.",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyOrRevertBanner.reapply",
+   "text": "Reapply",
+   "description": "Label to reapply code changes to Codex",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyOrRevertBanner.revert",
+   "text": "Revert",
+   "description": "Label to revert applied code changes from Codex",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyOrRevertBanner.revertMessage",
+   "text": "Revert applied changes?",
+   "description": "Banner message for reverting applied changes from Codex Cloud",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyResultsDialog.applied",
+   "text": "Applied cleanly ({count})",
+   "description": "Heading for applied paths",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyResultsDialog.close",
+   "text": "Close",
+   "description": "Close button for apply results dialog",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyResultsDialog.conflicted",
+   "text": "Conflicted ({count})",
+   "description": "Heading for conflicted paths",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyResultsDialog.noDetails",
+   "text": "No file details available.",
+   "description": "Shown when there are no file-level results to display",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyResultsDialog.notGitRepo",
+   "text": "This action only works when running in a Git repository.",
+   "description": "Shown when apply/revert fails because the workspace is not in a Git repository",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyResultsDialog.skipped",
+   "text": "Skipped ({count})",
+   "description": "Heading for skipped paths",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.applyResultsDialog.title",
+   "text": "Apply results",
+   "description": "Title for dialog showing apply patch results",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.common.retry",
+   "text": "Retry",
+   "description": "Retry button",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.applyPatchError",
+   "text": "Failed to apply changes",
+   "description": "Toast shown when applying patch fails",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.applyPatchNotGitRepo",
+   "text": "Apply requires a Git repository",
+   "description": "Toast shown when applying patch outside a Git repository",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.applyPatchPartialSuccess",
+   "text": "Changes partially applied",
+   "description": "Toast shown when applying patch partially succeeds",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.applyPatchSuccess",
+   "text": "Changes applied",
+   "description": "Toast shown when applying patch succeeds",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.revertPatchError",
+   "text": "Failed to revert changes",
+   "description": "Toast shown when reverting patch fails",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.revertPatchNotGitRepo",
+   "text": "Revert requires a Git repository",
+   "description": "Toast shown when reverting patch outside a Git repository",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.revertPatchPartialSuccess",
+   "text": "Changes partially reverted",
+   "description": "Toast shown when reverting patch partially succeeds",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.diffView.revertPatchSuccess",
+   "text": "Changes reverted",
+   "description": "Toast shown when reverting patch succeeds",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.environments.noEnvironmentsFound",
+   "text": "No environments found",
+   "description": "Message shown when no Codex environments were found",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.environmentSelector.noEnvironment",
+   "text": "No environment",
+   "description": "No environment selected message",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundAgents.activeLabel",
+   "text": "is working",
+   "description": "Status label shown next to an active background subagent in the thread summary panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundAgents.collapsedDoneCount",
+   "text": "{count, plural, one {# done} other {# done}}",
+   "description": "Number of multi-agent v2 subagents that are done in the collapsed summary panel row",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundAgents.collapsedWorkingCount",
+   "text": "{count, plural, one {# working} other {# working}}",
+   "description": "Number of multi-agent v2 subagents that are still working in the collapsed summary panel row",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundAgents.modelTooltip",
+   "text": "Uses {model}",
+   "description": "Tooltip line that shows the model used by a background subagent.",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundAgents.openSummary",
+   "text": "Open subagents",
+   "description": "Accessible label for opening the subagents overview from the collapsed summary row",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundTasks.title.backgroundProcesses",
+   "text": "Background processes",
+   "description": "Title for the background terminal processes section in the thread summary side panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundTasks.title.subagents",
+   "text": "Subagents",
+   "description": "Title for the background subagents section in the thread summary side panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundTerminals.cleanError",
+   "text": "Unable to stop background terminals",
+   "description": "Toast shown when cleaning background terminals from the thread summary panel fails",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundTerminals.defaultLabel",
+   "text": "Background terminal",
+   "description": "Fallback row label for a running background terminal when the command text is unavailable",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundTerminals.stop",
+   "text": "Stop all background terminals",
+   "description": "Aria label for button that stops all background terminals from the thread summary panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.backgroundTerminalTab.title",
+   "text": "Background terminal",
+   "description": "Title for a background terminal output tab when the command text is unavailable",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.chromeTabs.focusError",
+   "text": "Unable to focus Chrome tab",
+   "description": "Toast shown when focusing a Chrome tab from the thread summary panel fails",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.chromeTabs.title",
+   "text": "Chrome",
+   "description": "Section title for Chrome tabs in the thread summary side panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.chromeTabs.untitledTab",
+   "text": "New tab",
+   "description": "Fallback label for an active Chrome tab without a title in the thread summary panel Chrome section",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.createdChats.untitled",
+   "text": "Created chat",
+   "description": "Fallback name for a chat created by the current chat before its title is available",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.createdTasks.status.done",
+   "text": "Done",
+   "description": "Status for a created chat that has finished its current work",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.createdTasks.status.failed",
+   "text": "Failed",
+   "description": "Status for a created chat whose current work failed",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.createdTasks.status.starting",
+   "text": "Starting",
+   "description": "Status for a created chat that has not finished starting",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.createdTasks.status.working",
+   "text": "Working",
+   "description": "Status for a created chat that is currently working",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.createdTasks.title",
+   "text": "Created chats",
+   "description": "Title for the summary panel section showing chats created by the current chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.environmentSummary.openTerminal",
+   "text": "Open terminal",
+   "description": "Opens a new terminal in this checkout without changing existing terminal sessions",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.environmentSummary.pendingWorktreeTitle",
+   "text": "Worktree",
+   "description": "Summary panel heading for a worktree that is still being created and has no name yet",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.environmentSummary.worktreeFallbackTitle",
+   "text": "Worktree {id}",
+   "description": "Title for an unnamed managed worktree, using its directory ID",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.attachExistingPullRequest",
+   "text": "Attach",
+   "description": "Action that associates an existing pull request on the checked-out branch with the current chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.compareBranch",
+   "text": "Compare branch",
+   "description": "GitHub fallback row that opens the current branch compare page",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.createGitLabMergeRequest",
+   "text": "Create merge request",
+   "description": "Prepares a GitLab merge request form for the task branch",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.createPullRequest",
+   "text": "Create pull request",
+   "description": "GitHub status row shown when no PR exists for the branch",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js",
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "codex.localConversation.gitSummary.existingPullRequest",
+   "text": "Existing pull request",
+   "description": "Compact summary shown when the checked-out branch has a pull request that is not associated with the current chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.findGitLabMergeRequest",
+   "text": "Find merge request",
+   "description": "GitLab status row shown when no merge request exists for the branch",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.pullRequestAssociated",
+   "text": "Pull request associated with this chat",
+   "description": "Confirmation toast shown after an existing branch pull request is associated with the current chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.pullRequestAttachmentUpdateFailed",
+   "text": "Could not update chat attachment",
+   "description": "Error when attaching, removing, or restoring a chat's pull request or merge request attachment fails",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.gitSummary.undoPullRequestAssociation",
+   "text": "Undo",
+   "description": "Toast action that removes a pull request association that was just added to the current chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.heartbeatAutomation.nextRun",
+   "text": "Next run: {nextRunLabel}",
+   "description": "Tooltip shown on the heartbeat automation row in the thread summary panel",
+   "files": [
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.heartbeatAutomation.open",
+   "text": "Open scheduled task",
+   "description": "Accessible label for opening the active scheduled task from the thread summary panel",
+   "files": [
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.outputs.title.v2",
+   "text": "Outputs",
+   "description": "Title for files, documents, links, and other results produced by Codex. 'Outputs' means produced results or artifacts, not exits or audio/video ports.",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.plan.title",
+   "text": "Plan",
+   "description": "Title for the plan section in the thread summary panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.pullRequestsSummary.title",
+   "text": "Pull requests",
+   "description": "Title for the collapsible thread summary section listing all pull requests attached to the task",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.computerUse",
+   "text": "Computer Use",
+   "description": "Section title for Computer Use controls in the chat summary side panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.hide",
+   "text": "Hide",
+   "description": "Label for hiding the Computer Use PiP stream",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.hideForAllActiveTasks",
+   "text": "Hide for all active chats",
+   "description": "Menu item for hiding all active Computer Use PiP chat streams",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.hideForTask",
+   "text": "Hide for this chat",
+   "description": "Menu item for hiding the Computer Use PiP stream for the current chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.hidePictureInPicture",
+   "text": "Hide Picture in Picture",
+   "description": "Accessible label for the Computer Use PiP hide menu",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.moveToFloatingWindow",
+   "text": "Move to floating window",
+   "description": "Menu item for moving a Computer Use video from the sidebar to a floating Picture in Picture window",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.moveToSidebar",
+   "text": "Move to sidebar",
+   "description": "Menu item for moving a floating Computer Use video back into the chat sidebar",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.pictureInPicture",
+   "text": "Picture in Picture",
+   "description": "Label for the Computer Use PiP visibility control in the chat summary side panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.sendToPet",
+   "text": "Send to Pet",
+   "description": "Menu item for moving a Computer Use video from the sidebar to the Codex desktop pet",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.show",
+   "text": "Show",
+   "description": "Label for showing the Computer Use PiP stream",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.remoteHostedPip.showPictureInPicture",
+   "text": "Show Picture in Picture",
+   "description": "Accessible label for showing the Computer Use PiP stream",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.sideChats.title",
+   "text": "Side chats",
+   "description": "Title for the side chats section in the chat summary side panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.sources.add",
+   "text": "Attach files or connect apps",
+   "description": "Button label for adding a source from the Sources section",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.sources.addFilesAndFolders",
+   "text": "Attach files or folders",
+   "description": "Menu item for attaching files or folders",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.sources.title",
+   "text": "Sources",
+   "description": "Title for the section and tab containing sources of information used by the conversation",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.sources.usePlugins",
+   "text": "Use plugins",
+   "description": "Menu item for selecting installed plugins to use in a task",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.sources.webSearch",
+   "text": "Web search",
+   "description": "Label for web search in the thread summary side panel sources section",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localTaskRow.awaitingApproval",
+   "text": "Awaiting approval",
+   "description": "Chip indicating a local chat is waiting for user approval",
+   "files": [
+    "pages/conversation-a27aae5d4454.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localTaskRow.needsInput",
+   "text": "Needs input",
+   "description": "Status pill indicating an inactive local chat needs user input",
+   "files": [
+    "pages/conversation-a27aae5d4454.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pullRequests.repositoryAccessError",
+   "text": "GitHub account {login} can’t access {repository}. Switch accounts or request access, then try again.",
+   "description": "Actionable error shown when the active GitHub CLI account cannot access a repository",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.applyDiff.applyCta",
+   "text": "Apply changes",
+   "description": "Dropdown button to apply a remote diff locally",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.applyDiff.dropdownTitle",
+   "text": "Apply changes to a local branch",
+   "description": "Dropdown title for applying remote diff",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.applyDiff.revertCta",
+   "text": "Revert changes",
+   "description": "Dropdown button to revert a remote diff locally",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.closeImagePreview",
+   "text": "Close image preview",
+   "description": "Aria label for closing the image preview dialog in remote conversation",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.errorWithMessage",
+   "text": "Error: {message}",
+   "description": "Error display on the remote conversation page including the message",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.inaccessible",
+   "text": "You don’t have access to this Codex chat. Make sure you’re signed in to the right account and workspace.",
+   "description": "Info toast shown when opening a Codex cloud chat that is missing or inaccessible. The user is returned to Home and can check their account and workspace.",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.loadError",
+   "text": "Could not load this Codex chat",
+   "description": "Error state when a Codex cloud chat request fails for a reason other than a missing or inaccessible task",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.loadingImage",
+   "text": "Loading image",
+   "description": "Aria label for loading image",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.openInWeb",
+   "text": "Open in web",
+   "description": "Open task in Codex web button",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.taskFailed",
+   "text": "Chat failed",
+   "description": "Fallback message shown when a selected cloud task attempt failed without a specific error message",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.turnFailed",
+   "text": "An error occurred during this chat",
+   "description": "Error banner shown when the current cloud task turn failed",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.turnStatus.cancelled",
+   "text": "Cancelled",
+   "description": "Status label for a cloud task turn that was cancelled.",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.userImageAttachment",
+   "text": "User attachment",
+   "description": "Alt text for user image attachment",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.viewPreviousTurns.buttonText",
+   "text": "Open",
+   "description": "Open task in Codex web button text",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteConversation.viewPreviousTurns.buttonTooltip",
+   "text": "Open in web",
+   "description": "Open task in Codex web button",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteHostedPip.browserUsePreview",
+   "text": "Browser Use preview",
+   "description": "Accessible label for a Browser Use screenshot shown in the Picture in Picture surface",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.remoteHostedPip.computerUsePreview",
+   "text": "Computer Use preview",
+   "description": "Accessible label for a live Computer Use video shown inside the Picture in Picture sidebar section",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.review.header.controls",
+   "text": "Changes controls",
+   "description": "Accessible label for the floating controls in the Changes tab showing local diffs",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.chatUpdates",
+   "text": "Chat updates",
+   "description": "Summary of subscriptions to Microsoft Teams chat activity",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.compactResources",
+   "text": "<labels>{resourceList}</labels> <overflow>+{count}</overflow>",
+   "description": "Compact list of watched resources followed by the number of additional hidden resources. The labels and overflow tags control styling and may be reordered.",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.dataSourceUpdates",
+   "text": "Data source updates",
+   "description": "Summary of subscriptions to Notion data source activity",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.issueUpdates",
+   "text": "Issue updates",
+   "description": "Summary of subscriptions to Linear issue activity",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.messagesAndEdits",
+   "text": "Messages and edits",
+   "description": "Events covered by a Slack channel subscription",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.newEmail",
+   "text": "New email",
+   "description": "Events covered by a Gmail mailbox subscription",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.pageUpdates",
+   "text": "Page updates",
+   "description": "Summary of subscriptions to Notion page activity",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.pullRequestUpdates",
+   "text": "Pull request updates",
+   "description": "Summary of subscriptions to GitHub pull request activity",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.showConnectorTriggers",
+   "text": "Show {connector} subscriptions",
+   "description": "Accessible label for a row that opens the full list of subscriptions for a connected application",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.title",
+   "text": "Subscriptions",
+   "description": "Title of the active event subscriptions section in the task summary",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.triggers.updates",
+   "text": "Updates",
+   "description": "Summary of subscriptions to multiple or unrecognized event types",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.footer.branchSwitch.tooltip",
+   "text": "Switch branch",
+   "description": "Tooltip shown for controls that switch git branches",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.localTaskError.v2",
+   "text": "Error starting chat{br}{error}",
+   "description": "Toast text shown when we failed to start a task",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.worktreeEnvironment.default",
+   "text": "Default environment",
+   "description": "Tooltip for default local environment icon",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.worktreeEnvironment.error",
+   "text": "Error loading environments",
+   "description": "Error state for worktree environment dropdown",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.conversationHeader.description",
+   "text": "Codex will get your project ready for cloud chats, asking you to review changes and provide details along the way.",
+   "description": "Explains that Codex sets up the project for cloud chats and may ask the user to review changes or provide details",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.conversationHeader.title",
+   "text": "Cloud environment setup",
+   "description": "Heading at the start of a cloud environment setup conversation, retained after setup finishes",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.onboarding.manageGithubConnection",
+   "text": "Manage GitHub connection",
+   "description": "Opens GitHub connection and repository access settings after a legacy environment migration fails",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.onboarding.repositoryAccessTitle",
+   "text": "Check GitHub access",
+   "description": "Heading of the recovery notice when a legacy cloud environment's GitHub repository cannot be accessed during migration",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.panel.cleanupError",
+   "text": "Failed to stop environment setup. Restart Codex before trying again.",
+   "description": "Error shown when an assisted environment setup side conversation cannot be discarded",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.panel.startError",
+   "text": "Failed to start environment setup",
+   "description": "Error message shown when assisted environment setup cannot start",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.panel.title",
+   "text": "Environment setup",
+   "description": "Title for the assisted local environment setup side panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.summary.network.loading",
+   "text": "Loading network settings…",
+   "description": "Network summary while the saved environment configuration is loading",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.summary.network.unavailable",
+   "text": "Network settings unavailable",
+   "description": "Network summary when the saved environment configuration could not be loaded",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "environmentSetup.summary.openPanel",
+   "text": "Open environment panel",
+   "description": "Accessible label for the settings cog that opens the environment editor from the dynamic island",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chatOptions",
+   "text": "Chat options",
+   "description": "Tooltip and accessible label for a workspace chat menu with a New chat action",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chatStatusApproval",
+   "text": "Awaiting approval",
+   "description": "Status of a chat waiting for approval in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chatStatusError",
+   "text": "Error",
+   "description": "Status of a chat with a system error in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chatStatusIdle",
+   "text": "Idle",
+   "description": "Status of a chat with no activity or unread response in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chatStatusNeedsInput",
+   "text": "Needs input",
+   "description": "Status of a chat waiting for the user to respond in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chatStatusRunning",
+   "text": "Running",
+   "description": "Status of a chat that is working in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chatStatusUnread",
+   "text": "Unread response",
+   "description": "Status of a chat with an unread response in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.chooseChat",
+   "text": "Switch chat",
+   "description": "Tooltip and accessible label for the floating composer menu that switches chats or starts a side chat",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.createSideChatError",
+   "text": "Failed to start a new side chat",
+   "description": "Error shown when creating a side chat from the floating composer fails",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.creatingSideChat",
+   "text": "Starting side chat…",
+   "description": "Menu action while a new side chat is being created",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.mainChat",
+   "text": "Main chat",
+   "description": "Accessible description identifying the parent task in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.newChat",
+   "text": "New chat",
+   "description": "Menu action to start a new primary chat while keeping the workspace content open",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js",
+    "thread/thread-overflow-menu-87dc19d9cdf5.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "floatingComposer.newSideChat",
+   "text": "New side chat",
+   "description": "Menu action to create and select a new side chat in the floating composer",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "floatingComposer.sideChat",
+   "text": "Side chat",
+   "description": "Fallback title for a side chat in the floating composer menu",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gitlabMergeRequest.associated",
+   "text": "Merge request associated with this chat",
+   "description": "Confirmation after attaching a GitLab merge request to the current chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gitlabMergeRequest.existing",
+   "text": "Existing merge request",
+   "description": "Summary row for a GitLab merge request found for the current branch but not yet attached to the chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.hero.letsBuild",
+   "text": "Let’s build",
+   "description": "Label above the workspace name on the electron home page",
+   "files": [
+    "pages/hotkey-window-new-thread-page-7a65d4eb8699.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "hotkeyWindow.defaultTitle",
+   "text": "Codex",
+   "description": "Fallback title for hotkey window thread header",
+   "files": [
+    "pages/hotkey-window-thread-page-21822771506e.js",
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "inbox.automations.deleteError",
+   "text": "Could not delete scheduled task",
+   "description": "Toast title when deleting a scheduled task fails",
+   "files": [
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.deleteTooltip",
+   "text": "Delete",
+   "description": "Tooltip label for deleting an automation",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.add",
+   "text": "Add {name} scheduled task",
+   "description": "Accessible label for immediately adding a suggested scheduled task",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.dailyBrief",
+   "text": "Daily brief",
+   "description": "Suggested automation button label",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.dailyBrief.description",
+   "text": "Start each weekday with a summary of your calendar, unread email, and priorities",
+   "description": "Description of the daily brief automation example",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.dailyBrief.taskPrompt",
+   "text": "Give me a morning brief with what's on my calendar, important unread emails, and anything that needs my attention today.",
+   "description": "Task prompt for the daily brief automation example",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.followUpMonitor",
+   "text": "Follow-up monitor",
+   "description": "Suggested automation button label",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.followUpMonitor.description",
+   "text": "Review recent email and calendar activity and flag anything that needs your attention",
+   "description": "Description of the follow-up monitor automation example",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.followUpMonitor.taskPrompt",
+   "text": "Review recent email and calendar activity, highlight meaningful changes, and flag anything that needs my attention.",
+   "description": "Task prompt for the follow-up monitor automation example",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.weeklyReview",
+   "text": "Weekly review",
+   "description": "Suggested automation button label",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.weeklyReview.description",
+   "text": "Turn your recent work into a concise status update every Friday",
+   "description": "Description of the weekly review automation example",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.emptySuggestion.weeklyReview.taskPrompt",
+   "text": "Review what I worked on this week and draft a short status update.",
+   "description": "Task prompt for the weekly review automation example",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.fromPlugins",
+   "text": "From Plugins",
+   "description": "Heading above scheduled task templates provided by plugins",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.inProgress",
+   "text": "In progress",
+   "description": "Label for an automation that is currently running",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.moreActions",
+   "text": "Scheduled task actions",
+   "description": "Accessible label for a scheduled task's actions menu",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.nextRunRelative",
+   "text": "Next run",
+   "description": "Label before the relative time until the next scheduled task run",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.nextRunRelativeSeparator",
+   "text": ", ",
+   "description": "Accessible separator before a scheduled task's relative next run time",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.pausedRowDescription",
+   "text": ", Paused",
+   "description": "Accessible status appended to a paused scheduled task's schedule",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.pausedRowStatus",
+   "text": "Paused",
+   "description": "Visible status for a paused scheduled task in a navigation-only row",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.pauseTooltip",
+   "text": "Pause",
+   "description": "Tooltip label for pausing an automation",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js",
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "inbox.automations.pluginTemplate.setUp",
+   "text": "Set up {name} scheduled task",
+   "description": "Accessible label for opening a plugin scheduled task template in the setup panel",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.resumeTooltip",
+   "text": "Resume",
+   "description": "Tooltip label for resuming an automation",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js",
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "inbox.automations.search.emptyTitle",
+   "text": "No scheduled tasks found",
+   "description": "Empty state title when no scheduled tasks match a search",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.suggestions",
+   "text": "Suggestions",
+   "description": "Heading above suggested scheduled task templates",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.updateError",
+   "text": "Could not update scheduled task",
+   "description": "Toast title when updating a scheduled task fails",
+   "files": [
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.agentActivity.waitingForYourAnswer",
+   "text": "Waiting for your answer",
+   "description": "Activity status shown while the assistant is waiting for the user to answer a question or an active elicitation",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.description",
+   "text": "Unarchive this chat to open it",
+   "description": "Explanation that an archived Codex chat must be restored before the user can open it",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.previewDescription",
+   "text": "This chat is archived. To continue, unarchive it first",
+   "description": "Explanation displayed beneath a read-only archived task preview",
+   "files": [
+    "_deps/preview-footer-controls-b897d8cb297b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.previewDone",
+   "text": "Done",
+   "description": "Leaves Archive with the restored task selected",
+   "files": [
+    "_deps/preview-footer-controls-b897d8cb297b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.previewUnarchiveError",
+   "text": "Could not unarchive this chat",
+   "description": "Error shown when restoring an archived chat from the transcript footer fails",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.restoredDescription",
+   "text": "This chat has been restored",
+   "description": "Confirmation shown before leaving an archived task preview",
+   "files": [
+    "_deps/preview-footer-controls-b897d8cb297b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.restoringDescription",
+   "text": "Restoring this chat and its workspace…",
+   "description": "Progress message while an archived task is being restored",
+   "files": [
+    "_deps/preview-footer-controls-b897d8cb297b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.title",
+   "text": "This chat is archived",
+   "description": "Title shown when a user opens a Codex chat that has already been archived",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.unarchive",
+   "text": "Unarchive and open",
+   "description": "Button that restores an archived Codex chat and opens the restored chat",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.archived.unarchiveError",
+   "text": "Could not unarchive this chat",
+   "description": "Error message shown when restoring an archived Codex chat fails",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.automation.newTabTitle",
+   "text": "New scheduled task",
+   "description": "Right panel tab title for a scheduled task created from a task",
+   "files": [
+    "thread/thread-overflow-menu-87dc19d9cdf5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chatUnavailable",
+   "text": "Chat unavailable",
+   "description": "Shown when a chat cannot be found or accessed",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeComputerUseSuggestion.description",
+   "text": "Install the Chrome extension so ChatGPT can do work in your browser without interrupting you",
+   "description": "Description explaining why to install the Chrome extension after Computer Use controls Chrome",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeComputerUseSuggestion.dismiss",
+   "text": "Dismiss Chrome extension suggestion",
+   "description": "Accessible label for dismissing the Chrome Computer Use extension suggestion for one week",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeComputerUseSuggestion.install",
+   "text": "Install",
+   "description": "Action that opens the Chrome Web Store extension listing",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeComputerUseSuggestion.installError",
+   "text": "Unable to open the Chrome Web Store. Please try again",
+   "description": "Error shown when the Chrome Computer Use extension suggestion cannot open the Chrome Web Store",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeComputerUseSuggestion.title",
+   "text": "Let ChatGPT use your Chrome tabs in the background",
+   "description": "Title shown after Computer Use completes a task in Chrome without the Chrome plugin installed",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.editLastMessageFailed",
+   "text": "Failed to edit message",
+   "description": "Toast shown when editing the previous user message fails",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.downloadCopy",
+   "text": "Download a copy",
+   "description": "Dropdown item for saving a separate copy of an artifact to Downloads",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.downloadCopy.failure",
+   "text": "Could not download a copy",
+   "description": "Error message after an artifact could not be copied to the Downloads folder",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.downloadCopy.success",
+   "text": "Saved a copy to Downloads",
+   "description": "Success message after copying an artifact to the Downloads folder",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.googleDocsSubtitle",
+   "text": "Google Docs",
+   "description": "Subtitle for a Google Docs conversation resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.googleDriveSubtitle",
+   "text": "Drive",
+   "description": "Subtitle for a Google Drive conversation resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.googleSheetsSubtitle",
+   "text": "Google Sheets",
+   "description": "Subtitle for a Google Sheets conversation resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.googleSlidesSubtitle",
+   "text": "Google Slides",
+   "description": "Subtitle for a Google Slides conversation resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.latexFileType",
+   "text": "LaTeX document · Editable source",
+   "description": "Subtitle identifying a generated LaTeX source document card, distinct from its compiled PDF card.",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.loadingAvailableApps",
+   "text": "Loading available apps…",
+   "description": "Dropdown item shown while loading apps that can open a conversation resource",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.nativeAppWithDefault.label",
+   "text": "{target}{isDefault, select, true { (Default)} other {}}",
+   "description": "Native app name in a resource card's Open menu, with a suffix when it is the system default",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.openGoogleDriveResource",
+   "text": "Open {title}",
+   "description": "Accessible label for opening a Google Drive conversation resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.openIn",
+   "text": "Open in",
+   "description": "Button label for opening a conversation resource",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.openInCodexBrowserSubtitle",
+   "text": "Open",
+   "description": "Hover subtitle for opening a website preview in the Codex browser",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.openLatexEditor",
+   "text": "Open LaTeX editor",
+   "description": "Opens the LaTeX source document in the app's editable document workspace with a compiled PDF preview.",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.openResource",
+   "text": "Open {filename}",
+   "description": "Accessible label for opening a conversation resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.openWebsite",
+   "text": "Open {title}",
+   "description": "Accessible label for opening a website preview resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.showInFileExplorer",
+   "text": "Show in File Explorer",
+   "description": "Dropdown item for revealing a conversation resource in File Explorer",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.showInFileManager",
+   "text": "Show in File Manager",
+   "description": "Dropdown item for revealing a conversation resource in the system file manager",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.showInFinder",
+   "text": "Show in Finder",
+   "description": "Dropdown item for revealing a conversation resource in Finder",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.showMore",
+   "text": "Show {count, number} more",
+   "description": "Button label that expands hidden conversation resource rows",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.websiteSubtitle",
+   "text": "Website",
+   "description": "Subtitle for a generated website preview resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.endResource.websiteTitle",
+   "text": "Web preview",
+   "description": "Title for a generated website preview resource card",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.environmentActions.handoffToLocal",
+   "text": "Move to main checkout",
+   "description": "Primary checkout actions menu item that opens a dialog to move the task from its worktree to the project checkout on the same computer",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.environmentActions.handoffToWorktree",
+   "text": "Move to worktree",
+   "description": "Primary checkout actions menu item that opens a dialog to move the task from its project checkout to a worktree on the same computer",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.forkFromOlderTurnDialog.local.description",
+   "text": "Fork from this message in the current workspace",
+   "description": "Description for forking from an earlier message in the current workspace",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.forkFromOlderTurnDialog.local.label",
+   "text": "Fork in this worktree",
+   "description": "Button label for forking from an earlier message in the current worktree",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.forkFromOlderTurnDialog.local.sameWorktreeDescription",
+   "text": "Fork from this message in the same worktree",
+   "description": "Description for forking from an earlier message in the current worktree",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.forkFromOlderTurnDialog.local.workspaceLabel",
+   "text": "Fork in this workspace",
+   "description": "Button label for forking from an earlier message in the current workspace",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.forkFromOlderTurnDialog.title",
+   "text": "Fork chat from here",
+   "description": "Title for the destination dialog shown when forking from an earlier message",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.forkFromOlderTurnDialog.worktree.description",
+   "text": "Fork from this message in a new worktree",
+   "description": "Description for forking from an earlier message in a new worktree",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.forkFromOlderTurnDialog.worktree.label",
+   "text": "Fork in a new worktree",
+   "description": "Button label for forking from an earlier message in a new worktree",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.gitActions.cancel",
+   "text": "Cancel git action",
+   "description": "Accessible label for canceling an active git action",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.gitActions.cancelWorkflow",
+   "text": "Cancel",
+   "description": "Cancel the current Git workflow",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.gitActions.commit",
+   "text": "Commit",
+   "description": "Label for committing changes in a checkout",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.gitActions.createBranch",
+   "text": "Create branch",
+   "description": "Label for the create branch action in the git actions dropdown",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.gitActions.menu",
+   "text": "Git actions",
+   "description": "Accessible label for a checkout's Git actions menu",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.gitActions.push",
+   "text": "Push",
+   "description": "Label for pushing commits from a checkout",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.historyLoadFailed",
+   "text": "Couldn't load messages",
+   "description": "Error shown when loading or updating conversation messages fails",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.modelUpgrade.automaticallyRetired",
+   "text": "{retiringModel} was retired. This conversation now uses {replacementModel}",
+   "description": "Transcript divider shown after a conversation automatically switches from a retired model to its replacement",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.modelUpgrade.automaticallyRetiring",
+   "text": "{retiringModel} is retiring. This conversation now uses {replacementModel}",
+   "description": "Transcript divider shown after a conversation automatically switches from a model that has not yet retired to its replacement",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.moveThread.disabled.finishCurrentHandoff",
+   "text": "Finish the current handoff before starting another",
+   "description": "Tooltip shown on disabled cross-host handoff destinations while another handoff operation still needs attention",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingCloud.unknown",
+   "text": "We're having trouble starting this chat",
+   "description": "Status when cloud chat creation has not been confirmed; the user can close the pending chat",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingProjectless.back",
+   "text": "Go back",
+   "description": "Button returning from a failed pending projectless conversation",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingProjectless.creating",
+   "text": "Starting your chat",
+   "description": "Status shown while a new projectless chat is starting",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingProjectless.failed",
+   "text": "Could not start this chat",
+   "description": "Error shown when a pending projectless conversation cannot be created",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingProjectless.retry",
+   "text": "Try again",
+   "description": "Retry button when conversation initialization definitively failed",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingProjectless.unknown",
+   "text": "Chat creation is not yet confirmed. Do not submit it again while its outcome is being checked",
+   "description": "Status for a chat creation request whose response is unknown; resubmitting could create a duplicate",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.remoteConnectionUnavailable.action",
+   "text": "Open connection settings",
+   "description": "Button that opens connection settings for a task whose remote host was removed",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.remoteConnectionUnavailable.description",
+   "text": "This chat's remote connection is no longer configured. Add it again in Settings to continue",
+   "description": "Description shown when a task cannot load because its remote host was removed",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.remoteConnectionUnavailable.title",
+   "text": "Remote connection unavailable",
+   "description": "Title shown when a task belongs to a remote connection that is no longer configured",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.retryHistoryLoad",
+   "text": "Retry",
+   "description": "Button to retry loading conversation messages",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.scrollToBottomButton",
+   "text": "Scroll to bottom",
+   "description": "Accessible label for the button that scrolls a conversation to its latest message",
+   "files": [
+    "scroll/thread-scroll-layout-96ebbe17c836.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sharedTaskUnavailable",
+   "text": "Task unavailable",
+   "description": "Shown when a task cannot be found or accessed",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sharedTaskUnavailable.retry",
+   "text": "Retry",
+   "description": "Button to try opening an unavailable chat again",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.empty.description",
+   "text": "Side chats are temporary and disappear when you close the app.",
+   "description": "Explains that ephemeral side chats disappear when the app is closed",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.empty.title",
+   "text": "Side chat",
+   "description": "Title of the empty state for an ephemeral side chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.expired.action",
+   "text": "Start new side chat",
+   "description": "Button label to replace an expired side chat",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.expired.description",
+   "text": "This temporary side chat is no longer available; start a new side chat to continue",
+   "description": "Description shown when an ephemeral side chat must be recreated",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.expired.title",
+   "text": "Side chat expired",
+   "description": "Title shown when an ephemeral side chat can no longer be continued",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.recreateError",
+   "text": "Failed to start a new side chat",
+   "description": "Error message shown when recreating an expired side chat fails",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.unreadResponse",
+   "text": "Unread response",
+   "description": "Accessible status announcing that a side chat has an unread response",
+   "files": [
+    "pages/conversation-a27aae5d4454.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.summaryPanel.toggle",
+   "text": "Toggle summary",
+   "description": "Button label for toggling the local thread summary panel",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.summaryPanel.togglePinned",
+   "text": "Toggle pinned summary",
+   "description": "Button label for toggling whether the local thread summary panel reserves layout space",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.summaryPanelRenderError.retry",
+   "text": "Try again",
+   "description": "Button label to retry rendering the conversation summary panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.summaryPanelRenderError.title",
+   "text": "Summary panel couldn't render",
+   "description": "Error message shown when the conversation summary panel fails to render",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.turnRenderError.retry",
+   "text": "Try again",
+   "description": "Button label to retry rendering a failed conversation turn",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.turnRenderError.title",
+   "text": "This turn couldn't render",
+   "description": "Error message shown when an individual conversation turn fails to render",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.usageLimitsReset",
+   "text": "Usage limits reset",
+   "description": "Transcript divider marking when a Codex usage-limit reset was applied",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.action.create",
+   "text": "Create",
+   "description": "Primary action label when creating a new branch",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.branchAriaLabel",
+   "text": "Branch name",
+   "description": "Aria label for branch selection input in the sync setup modal",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.branchExistsError",
+   "text": "Branch already exists",
+   "description": "Validation message shown in the worktree branch setup modal when the entered branch already exists",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.branchPlaceholder.new",
+   "text": "Create a new branch",
+   "description": "Placeholder for new branch name input in the sync setup modal",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.checkoutDisabled",
+   "text": "This branch is already checked out at {location}",
+   "description": "Tooltip shown when checkout is disabled because the branch is already checked out",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.checkoutErrorTitle",
+   "text": "Failed to check out branch",
+   "description": "Title for the terminal toast shown when Codex failed to checkout a git branch",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.createBranchErrorTitle",
+   "text": "Failed to set branch",
+   "description": "Title for the terminal toast shown when Codex failed to make a git branch",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.errorTitle",
+   "text": "Something went wrong",
+   "description": "Title for the fallback terminal toast for branch setup failures",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.subtitle",
+   "text": "Create a branch to commit changes, push, and create a PR from this worktree. <a>Learn more</a>",
+   "description": "Subtitle for the worktree branch setup modal",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.worktreeBranchSetup.title",
+   "text": "Work here",
+   "description": "Title for the worktree branch setup modal",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.writerConflict.description",
+   "text": "Close it there to continue here.",
+   "description": "Explanation shown when a conversation can be read but is actively being used elsewhere",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.writerConflict.fork",
+   "text": "Fork chat",
+   "description": "Button to copy a chat that is open in another app into a new chat and continue there",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.writerConflict.retry",
+   "text": "Retry",
+   "description": "Button to retry opening a conversation after it stops being active elsewhere",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.writerConflict.title",
+   "text": "This is open in another app",
+   "description": "Title shown when a conversation is already active elsewhere",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversationPage.createDraftPullRequestButtonLabel",
+   "text": "Create draft PR",
+   "description": "Label for create draft pull request action",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversationPage.createPrModal.gitLabTitle",
+   "text": "Create merge request",
+   "description": "Title for the GitLab merge request creation dialog",
+   "files": [
+    "_deps/gitlab-merge-request-form-dialog-cb5df2341543.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversationPage.createPrModal.title",
+   "text": "Create PR",
+   "description": "Title for the create pull request modal",
+   "files": [
+    "thread/local-conversation-git-actions-80bb6516e7ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversationPage.createPullRequestButtonLabel",
+   "text": "Create PR",
+   "description": "Label for create pull request action",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversationPage.createPullRequestError",
+   "text": "Failed to create pull request",
+   "description": "Error message when creating a pull request fails",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversationPage.error.toast",
+   "text": "Conversation not found",
+   "description": "Error message for when the local conversation is not found",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localEnvironment.needsAttention",
+   "text": "Environment needs attention",
+   "description": "Message shown when local environment files need to be repaired in Settings",
+   "files": [
+    "pages/local-environment-workflow-messages-113907dcb0c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localTaskRow.resumeError.retry",
+   "text": "Retry",
+   "description": "Button to reconnect to a chat after resuming it failed",
+   "files": [
+    "pages/use-resume-conversation-if-needed-da3c116cab55.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localTaskRow.resumeError.v2",
+   "text": "Failed to resume chat{br}{error}",
+   "description": "Error shown when resuming a local Codex chat fails",
+   "files": [
+    "pages/use-resume-conversation-if-needed-da3c116cab55.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localTaskRow.resumeLiveWriterError",
+   "text": "This chat is active elsewhere.{br}Close it there, then retry here.",
+   "description": "Error shown when a Codex chat cannot resume because it is active elsewhere",
+   "files": [
+    "pages/use-resume-conversation-if-needed-da3c116cab55.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "orbit.primary.switch.productName",
+   "text": "Choose your primary {dot}",
+   "description": "Header button opening the primary agent picker. dot is a common noun for the user's agent and must remain untranslated.",
+   "files": [
+    "_deps/header-action-412a59778d0b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pendingThread.composerPlaceholder",
+   "text": "Starting your chat…",
+   "description": "Placeholder in the chat composer while a new chat is starting",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pendingWorktree.composerPlaceholder",
+   "text": "Waiting for worktree setup…",
+   "description": "Placeholder in the chat composer while its worktree is being created",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "persistent.upNext.label",
+   "text": "Up next",
+   "description": "Accessible label for the next planned action in a Persistent task",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestChat.missingTask",
+   "text": "This review chat is no longer available. Send a message from the pull request to start a new review",
+   "description": "Recovery instructions after the server confirms that the chat associated with a pull request no longer exists; sending a message from the pull request's composer starts a new review chat",
+   "files": [
+    "pages/use-resume-conversation-if-needed-da3c116cab55.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.branchRange",
+   "text": "{headBranch} → {baseBranch}",
+   "description": "Branch comparison in the pull request Code toolbar, from the pull request head branch into its base branch",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.commentError",
+   "text": "GitHub could not post this comment",
+   "description": "Fallback error for a pull request code comment",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.empty",
+   "text": "No changed files",
+   "description": "Empty state for a pull request without a diff",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.incompleteDiff",
+   "text": "GitHub couldn’t provide a complete diff. Review this pull request on GitHub or in a local checkout.",
+   "description": "Explains that missing file patches or size limits prevent showing the complete pull request, and suggests reviewing on GitHub or in a local checkout",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.loading",
+   "text": "Loading pull request changes",
+   "description": "Loading state for the pull request Code tab",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.openIncompleteDiffInGitHub",
+   "text": "Open in GitHub",
+   "description": "Opens the pull request on GitHub when its complete diff cannot be shown in Codex",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.retry",
+   "text": "Try again",
+   "description": "Action to retry loading a pull request diff",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.retryComment",
+   "text": "Retry",
+   "description": "Action to retry a failed pull request code comment",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.stale",
+   "text": "The pull request changed while its diff was loading.",
+   "description": "Error shown when a pull request diff revision is stale",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.code.unavailable",
+   "text": "Changes unavailable",
+   "description": "Error title for an unavailable pull request diff",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestDetail.comment.resolved",
+   "text": "Resolved",
+   "description": "Status shown on a resolved pull request code review thread",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestRevision.checking",
+   "text": "Checking review availability…",
+   "description": "Status while checking exact-revision review support",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestRevision.cliRequired",
+   "text": "Exact-revision review requires GitHub CLI signed in to this GitHub account on the selected host. The GitHub connector does not yet provide fixed-revision comparisons.",
+   "description": "Explains why a connector-backed pull request cannot open an immutable code review",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestsPage.codeReview.comment.reply",
+   "text": "Reply",
+   "description": "Action button shown on a pull request review comment in the code review tab",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestsPage.codeReview.hideFileTree",
+   "text": "Hide file tree",
+   "description": "Tooltip to hide the pull request code review file tree",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pullRequestsPage.codeReview.showFileTree",
+   "text": "Show file tree",
+   "description": "Tooltip to show the pull request code review file tree",
+   "files": [
+    "turn/revision-review-unavailable-message-bffc7746871f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.dismissCompletedResponse",
+   "text": "Dismiss and mark as read",
+   "description": "Close the completed-response notification and mark its conversation as read, without closing the floating composer",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.mainConversation",
+   "text": "Chat",
+   "description": "Fallback title for the task's main conversation in the floating chat",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.openCompletedResponse",
+   "text": "Open completed response: {title}",
+   "description": "Accessible label for opening a completed response from the floating chat preview",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.responseReady",
+   "text": "Response ready",
+   "description": "Fallback preview in the floating chat when a turn has completed without displayable text",
+   "files": [
+    "pages/unavailable-local-conversation-page-d4a23c309685.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtime.pendingArtifact.failed",
+   "text": "Couldn’t load artifact",
+   "description": "Status in a Voice transcript after reading older history for a referenced artifact failed",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtime.pendingArtifact.loading",
+   "text": "Loading artifact…",
+   "description": "Status in a Voice transcript while reading older history to find a referenced artifact",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtime.pendingArtifact.retry",
+   "text": "Load older history",
+   "description": "Button to try another bounded read of older task history to find a referenced Voice artifact",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtime.pendingArtifact.unresolved",
+   "text": "Artifact not available yet",
+   "description": "Status in a Voice transcript when a referenced artifact has not been found in loaded history or is still being created",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "remoteConversation.environmentSetup.failed",
+   "text": "Environment setup failed",
+   "description": "Status shown when a cloud environment setup script fails",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "remoteConversation.environmentSetup.output.empty",
+   "text": "Waiting for output…",
+   "description": "Placeholder text before cloud environment setup output starts streaming",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "remoteConversation.environmentSetup.running",
+   "text": "Setting up environment",
+   "description": "Status shown while a cloud environment setup script is running",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.computer.toggle",
+   "text": "Computer",
+   "description": "Button that shows or hides the dot's cloud computer",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.outputs.summaryCount",
+   "text": "{count, plural, one {# output} other {# outputs}}",
+   "description": "Button opening the list of outputs produced by this dot",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.plugins.summaryCount",
+   "text": "{count, plural, one {# plugin} other {# plugins}}",
+   "description": "Button showing how many distinct plugins this dot and its subtasks have used; opens their list",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.plugins.tabTitle",
+   "text": "Used plugins",
+   "description": "Title of the tab listing plugins used by this dot and its subtasks",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.resetOrbit.commandDescription.dot.productName",
+   "text": "Delete your {dot}, archive its conversations, and remove its memories and scheduled tasks",
+   "description": "Command description for deleting the current cloud dot. The dot placeholder is the untranslated term for the user's agent.",
+   "files": [
+    "thread/thread-overflow-menu-87dc19d9cdf5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.scheduled.summaryCount",
+   "text": "{count, number} scheduled",
+   "description": "Button showing the number of active or paused scheduled automations attached to this dot; opens their list",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.scheduled.tabTitle",
+   "text": "Scheduled",
+   "description": "Title of the tab listing scheduled automations attached to the current dot",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.pluginsTitle",
+   "text": "Plugins",
+   "description": "Title of the side panel listing plugins used by the dot",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.remindersTitle",
+   "text": "Reminders",
+   "description": "Title of the side panel listing reminders attached to the dot",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.stats.outputs",
+   "text": "{count, plural, one {# output} other {# outputs}}",
+   "description": "Number of deduplicated artifacts and pull request outputs currently loaded for the dot conversation",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.stats.outputsUnknown",
+   "text": "— outputs",
+   "description": "Placeholder label shown when the dot's output count is unavailable or still loading",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.stats.plugins",
+   "text": "{count, plural, one {# plugin} other {# plugins}}",
+   "description": "Number of distinct plugin-backed sources that the dot has used in the loaded conversation",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.stats.pluginsUnknown",
+   "text": "— plugins",
+   "description": "Placeholder label shown when the dot's plugin count is unavailable or still loading",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.stats.reminders",
+   "text": "{count, plural, one {# reminder} other {# reminders}}",
+   "description": "Number of scheduled reminder automations attached to the dot, including paused reminders",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.stats.remindersUnknown",
+   "text": "— reminders",
+   "description": "Placeholder label shown when the dot's reminder count is unavailable or still loading",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.toggle",
+   "text": "Messages",
+   "description": "Tooltip and accessible label for the chat-bubble button at the top of a dot that toggles between its task and direct messages; the button is selected while messages are visible",
+   "files": [
+    "pages/conversation-view-7b7c0046b8d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonSubtask.header.openParent.productName.dot",
+   "text": "Open your {productName}",
+   "description": "Accessible label and tooltip for opening the agent that created this task; {productName} is the untranslated term for the user's agent",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.access.private",
+   "text": "Private",
+   "description": "Access value for a private environment draft",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.name.empty",
+   "text": "New environment",
+   "description": "Placeholder shown before an environment has been named",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.network.empty",
+   "text": "Network not configured",
+   "description": "Placeholder shown before networking has been configured for an environment",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.phase.building",
+   "text": "Building environment…",
+   "description": "Title of the summary panel while an environment is being created",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.phase.ready",
+   "text": "Environment",
+   "description": "Title of the summary panel for a completed environment setup task",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.repositories.empty",
+   "text": "No repositories",
+   "description": "Placeholder shown before repositories have been chosen for an environment",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.secrets.empty",
+   "text": "No secrets",
+   "description": "Value shown when an environment setup has no secrets",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.summary.secrets.loading",
+   "text": "{count, plural, one {# secret} other {# secrets}}",
+   "description": "Secret count while the saved environment's secret keys are loading",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbit.voiceCall.setupWithName.dot",
+   "text": "Call {hasName, select, true {{name}} other {your dot}}",
+   "description": "Primary action starting a voice call from contact setup. Use the dot's custom name when present; dot is the untranslated term for the user's agent.",
+   "files": [
+    "_deps/button-4badf5dd14b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbit.voiceCall.shortcut",
+   "text": "Call",
+   "description": "Button starting a voice call with the dot from its profile",
+   "files": [
+    "_deps/button-4badf5dd14b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbit.voiceCall.start",
+   "text": "Start call",
+   "description": "Start a voice call with this dot",
+   "files": [
+    "_deps/button-4badf5dd14b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "review.commit.loading.title.createDraftPr",
+   "text": "Creating a draft PR",
+   "description": "Title shown while creating a draft pull request",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "review.commit.loading.title.createPr",
+   "text": "Creating a PR",
+   "description": "Title shown while creating a pull request",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.automations.delete",
+   "text": "Delete",
+   "description": "Menu item for deleting a scheduled task",
+   "files": [
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.automations.rruleSummaryFallback",
+   "text": "Custom schedule",
+   "description": "Fallback label when RRULE summary cannot be generated",
+   "files": [
+    "pages/local-conversation-heartbeat-automation-66f86b8ea25b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.automations.runNow",
+   "text": "Run now",
+   "description": "Button label for running an automation immediately",
+   "files": [
+    "_deps/automation-row-b0bc78bac43a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.actions.add.conflict",
+   "text": "This environment changed on disk. Reopen this dialog and try again",
+   "description": "Error shown when an environment changes while adding an action",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.actions.add.description",
+   "text": "Create a new command to run from the toolbar",
+   "description": "Description for adding a local environment action",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.actions.add.loadError",
+   "text": "Couldn't load the environment file. Close this dialog and try again",
+   "description": "Error shown when the environment file cannot be loaded before adding an action",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.actions.add.save",
+   "text": "Save",
+   "description": "Save button label for adding a local environment action",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.actions.add.saveError",
+   "text": "Could not save the action. Try again",
+   "description": "Error shown when saving a new environment action fails",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.close",
+   "text": "Close create local environment",
+   "description": "Accessible label for closing the local environment creation dialog",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.description",
+   "text": "Configure how Codex sets up worktrees for this project",
+   "description": "Description for the local environment creation dialog",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.discard",
+   "text": "Discard",
+   "description": "Button label for discarding a local environment draft",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.discardDescription",
+   "text": "Your changes to this local environment will be lost",
+   "description": "Description for the confirmation dialog shown before discarding a local environment draft",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.discardTitle",
+   "text": "Discard local environment draft?",
+   "description": "Title for the confirmation dialog shown before discarding a local environment draft",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.keepEditing",
+   "text": "Keep editing",
+   "description": "Button label for keeping a local environment draft",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.simpleSetupDescription",
+   "text": "Run a setup script now and reuse it for future worktrees",
+   "description": "Description of the compact local environment setup-script dialog",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.simpleSetupTitle",
+   "text": "Set up this project",
+   "description": "Title of the compact local environment setup-script dialog",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.createDialog.title",
+   "text": "Create local environment",
+   "description": "Title for the local environment creation dialog",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.file.invalidEnvironmentWarning",
+   "text": "This environment file is invalid. Saving will replace its contents",
+   "description": "Warning that saving an invalid local environment file will replace it",
+   "files": [
+    "pages/local-environment-workflow-messages-113907dcb0c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.file.readFailure",
+   "text": "Unable to load this environment file. Try again",
+   "description": "Read error for a local environment file with guidance to retry",
+   "files": [
+    "pages/local-environment-workflow-messages-113907dcb0c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.localEnvironments.retry",
+   "text": "Retry",
+   "description": "Button label to retry loading local environment data",
+   "files": [
+    "pages/local-environment-workflow-messages-113907dcb0c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sidebarElectron.archivedTasks.openError",
+   "text": "Could not open archived chat",
+   "description": "Error shown when opening an archived chat from the sidebar fails",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sidebarElectron.archivedTasks.retryPreview",
+   "text": "Try again",
+   "description": "Retry loading an archived chat preview",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tabThumbnail.conversation.failed",
+   "text": "Chat failed",
+   "description": "Status of a failed chat in a tab preview",
+   "files": [
+    "pages/conversation-a27aae5d4454.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tabThumbnail.conversation.working",
+   "text": "Working",
+   "description": "Status of a conversation generating a response",
+   "files": [
+    "pages/conversation-a27aae5d4454.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "taskAttachment.worktreeArchiveRetrying",
+   "text": "Some attachments could not be removed yet. We’ll retry automatically",
+   "description": "Informational toast when a worktree archive has been saved, but removing one or more task attachments is still being retried automatically",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "thinkingShimmer.default",
+   "text": "Thinking",
+   "description": "Default placeholder shown while the assistant is thinking",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js",
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "thinkingShimmer.typing",
+   "text": "Typing…",
+   "description": "Placeholder shown while a compact assistant response is streaming but hidden until complete",
+   "files": [
+    "turn/local-conversation-turn-69783815d57d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadHeader.openSideChatError",
+   "text": "Failed to open side chat",
+   "description": "Error message shown when opening a side chat fails",
+   "files": [
+    "thread/thread-overflow-menu-87dc19d9cdf5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadHeader.simplified.archive",
+   "text": "Archive",
+   "description": "Action to archive the current task in its header menu",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadHeader.simplified.copy",
+   "text": "Copy",
+   "description": "Submenu of options for copying information about the task",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadHeader.simplified.pin",
+   "text": "Pin",
+   "description": "Action to pin the current task in the sidebar",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadHeader.simplified.rename",
+   "text": "Rename",
+   "description": "Action to rename the current task",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadHeader.simplified.unpin",
+   "text": "Unpin",
+   "description": "Action to unpin the current task from the sidebar",
+   "files": [
+    "pages/remote-conversation-page-fd896eff5a15.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.environment.setupCoachmark.description",
+   "text": "Reuse setup and Run/Test actions across chats",
+   "description": "Explanation of reusable local environment setup in the first-use coachmark beside the environment creation button",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.environment.setupCoachmark.dismiss",
+   "text": "Dismiss project setup tip",
+   "description": "Accessible label for dismissing the first-use local environment setup coachmark",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.environment.setupCoachmark.title",
+   "text": "Set up this project once",
+   "description": "Title of the first-use local environment setup coachmark beside the environment creation button",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.newThread",
+   "text": "New chat",
+   "description": "Header title for the home page",
+   "files": [
+    "pages/hotkey-window-new-thread-page-7a65d4eb8699.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.changeEnvironment",
+   "text": "Change environment",
+   "description": "Menu item to change the active local environment",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.commandMenu.title",
+   "text": "Run: {actionName}",
+   "description": "Command menu item title for a local environment action",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.dropdown.title",
+   "text": "Actions",
+   "description": "Title for the environment actions dropdown",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.createManually",
+   "text": "Set up manually",
+   "description": "Menu item to manually create a local environment",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.createManuallyDescription",
+   "text": "Configure scripts and variables yourself",
+   "description": "Description of manual local environment creation",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.createMenuTitle",
+   "text": "Create environment",
+   "description": "Title for the menu that offers local environment creation methods",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.createWithCodex",
+   "text": "Set up with Codex",
+   "description": "Menu item to ask Codex to create a local environment",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.createWithCodexDescription",
+   "text": "Ask Codex to inspect the project and prepare the environment",
+   "description": "Description of Codex-assisted local environment creation",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.fix",
+   "text": "Fix local environment",
+   "description": "Menu item for opening a malformed local environment in Settings",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.setup",
+   "text": "Set up local environment",
+   "description": "Accessible label for setting up a local environment from a thread",
+   "files": [
+    "pages/local-environment-workflow-messages-113907dcb0c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.environment.setupTerminalTitle",
+   "text": "Project setup",
+   "description": "Terminal tab title while running a newly configured local environment setup script",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.setup.commandLabel",
+   "text": "Command to run",
+   "description": "Label for run action command input",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.setup.editMore",
+   "text": "Environment settings",
+   "description": "Edit more action label in run action setup popover",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.setup.placeholder",
+   "text": "eg:\nnpm install\nnpm run",
+   "description": "Placeholder text for the run action command input",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadPage.runAction.summaryRow.primaryActionTitle",
+   "text": "Run: {actionName}",
+   "description": "Tooltip and accessible label for the primary run action row in the summary panel",
+   "files": [
+    "thread/local-conversation-thread-6999d2419a30.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadScrollLayout.conversationLabel",
+   "text": "Conversation",
+   "description": "Accessible name of the scrollable conversation transcript",
+   "files": [
+    "scroll/thread-scroll-layout-96ebbe17c836.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadTabRoute.unrestored.dismiss",
+   "text": "Dismiss",
+   "description": "Button label that dismisses a tab which could not be restored",
+   "files": [
+    "pages/unrestored-thread-tab-route-9d45ca5d0a68.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadTabRoute.unrestored.routeKind",
+   "text": "Saved tab type: {routeKind}",
+   "description": "Description identifying the type of a persisted tab that could not be restored",
+   "files": [
+    "pages/unrestored-thread-tab-route-9d45ca5d0a68.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadTabRoute.unrestored.routeResource",
+   "text": "Saved tab: {routeKind} — {routeResource}",
+   "description": "Description identifying the type and resource of a persisted tab that could not be restored",
+   "files": [
+    "pages/unrestored-thread-tab-route-9d45ca5d0a68.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadTabRoute.unrestored.title",
+   "text": "This tab couldn’t be restored",
+   "description": "Title shown when a persisted tab cannot be restored",
+   "files": [
+    "pages/unrestored-thread-tab-route-9d45ca5d0a68.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.loading",
+   "text": "Loading chat usage…",
+   "description": "Loading state while requesting usage for the current chat",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.model",
+   "text": "Model",
+   "description": "Label for the model breakdown of chat usage",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.open",
+   "text": "View chat usage",
+   "description": "Accessible label for opening the chat usage popover",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.reasoning",
+   "text": "Effort",
+   "description": "Label for the reasoning breakdown of chat usage",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.settings",
+   "text": "Usage settings",
+   "description": "Menu item that opens usage settings from the chat usage popover",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.speed",
+   "text": "Speed",
+   "description": "Label for the speed breakdown of chat usage",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.summary",
+   "text": "{credits, number} credits used · Est. {cost}",
+   "description": "Credits and estimated dollar cost used by the current chat",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.title",
+   "text": "Usage",
+   "description": "Title of the chat usage popover",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.tooltip",
+   "text": "View usage",
+   "description": "Tooltip for the button that opens the current chat's usage breakdown",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.unavailable",
+   "text": "Not available",
+   "description": "Shown when a chat usage breakdown category has no recorded credits",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadUsagePopover.unavailableSummary",
+   "text": "Not available",
+   "description": "Shown when usage for the current chat could not be loaded",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadWorkspace.tab.dragDraft",
+   "text": "Draft",
+   "description": "Status of unsent text in the Chat tab preview",
+   "files": [
+    "pages/conversation-a27aae5d4454.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.fast",
+   "text": "Fast mode",
+   "description": "Label for fast-mode speed in the current-chat usage breakdown",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.model",
+   "text": "Models",
+   "description": "Label for model usage in the current chat breakdown",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.noData",
+   "text": "Not available",
+   "description": "Shown when one current-chat usage breakdown category has no recorded data",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.other",
+   "text": "Other",
+   "description": "Fallback label for unknown current-chat usage dimensions",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.reasoning",
+   "text": "Reasoning",
+   "description": "Label for reasoning effort usage in the current chat breakdown",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.segment.localizedAriaLabel",
+   "text": "{dimension, select, speed {{value, select, fast {Fast mode} ultrafast {Ultrafast} standard {Standard} other {{value}}}} reasoning_effort {{value, select, none {None} minimal {Minimal} low {Light} medium {Medium} high {High} xhigh {Extra High} max {Max} ultra {Ultra} other {{value}}}} other {{value}}}: {percentage}% of usage",
+   "description": "Accessible label for one segment of the thread usage breakdown chart",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.segment.unknownAriaLabel",
+   "text": "Other: {percentage}% of usage",
+   "description": "Accessible label for an unknown segment of the thread usage breakdown chart",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.speed",
+   "text": "Speed",
+   "description": "Label for response speed usage in the current chat breakdown",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.standard",
+   "text": "Standard",
+   "description": "Label for standard speed in the current-chat usage breakdown",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.title",
+   "text": "Usage in this chat",
+   "description": "Title for the current chat's detailed usage breakdown",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.tooltip.cachedInputTokens",
+   "text": "Cached input tokens: {count}",
+   "description": "Cached input token count for a model usage segment",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.tooltip.inputTokens",
+   "text": "Uncached input tokens: {count}",
+   "description": "Uncached input token count for a model usage segment",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.tooltip.modelPercentage",
+   "text": "{model}: {percentage}%",
+   "description": "Model and its percentage of the current chat's usage",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.tooltip.otherPercentage",
+   "text": "Other: {percentage}%",
+   "description": "Percentage attributed to an unknown current-chat usage dimension",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.tooltip.outputTokens",
+   "text": "Output tokens: {count}",
+   "description": "Output token count for a model usage segment",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.tooltip.reasoningPercentage",
+   "text": "{effort, select, none {None} minimal {Minimal} low {Light} medium {Medium} high {High} xhigh {Extra High} max {Max} ultra {Ultra} other {{effort}}}: {percentage}%",
+   "description": "Reasoning effort and its percentage of the current chat's usage",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.tooltip.speedPercentage",
+   "text": "{speed, select, fast {Fast mode} ultrafast {Ultrafast} standard {Standard} other {{speed}}}: {percentage}%",
+   "description": "Response speed and its percentage of the current chat's usage",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.total",
+   "text": "{creditCount} credits · {cost}",
+   "description": "Total estimated credits and dollar cost for the current chat",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "usageCenter.thread.breakdown.totalCreditsOnly",
+   "text": "{creditCount} credits",
+   "description": "Total credits used by a task when dollar amounts are unavailable",
+   "files": [
+    "pages/local-conversation-page-4298f8ec98fa.js",
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "usageCenter.thread.breakdown.ultrafast",
+   "text": "Ultrafast",
+   "description": "Label for ultrafast speed in the current-chat usage breakdown",
+   "files": [
+    "thread/thread-usage-breakdown-493f7d53d79c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.autoFix",
+   "text": "Auto-fix",
+   "description": "Button label to start a repair task after worktree setup fails",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.autoFix.label",
+   "text": "Fix worktree setup",
+   "description": "Pending worktree label for a repair thread created after local environment setup fails",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.autoFix.prompt",
+   "text": "Fix this project's local environment setup.{paragraphBreak}The original worktree setup failed before its thread could start. Do not continue the original user request. Start a one-off repair task in this new worktree without running the broken setup automatically. Paths in the failure output refer to the original source or failed worktree, so edit the corresponding files in this current repair worktree. Inspect the selected local environment config and related setup files, reproduce the failure manually if useful, make the smallest source-controlled fix, verify the setup succeeds, and leave the proposed fix here for user review before they retry the original task. If the fix should not be made automatically, explain exactly what the user should change.{paragraphBreak}Selected local environment config: {configPath}{lineBreak}Original setup error: {errorMessage}{paragraphBreak}Original setup output:{lineBreak}```text{lineBreak}{outputText}{lineBreak}```",
+   "description": "Prompt sent to a repair thread created after local environment setup fails",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.cancel",
+   "text": "Cancel",
+   "description": "Cancel button for worktree creation",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.continueAnyway",
+   "text": "Continue anyway",
+   "description": "Button label to continue starting a task after local environment setup fails",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.editEnvironment",
+   "text": "Edit environment",
+   "description": "Button label to open local environment settings after worktree setup fails",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.checkout",
+   "text": "Checking out files",
+   "description": "Worktree progress step for checking repository files out with Git",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.checkoutPercentage",
+   "text": "{progress, number, percent}",
+   "description": "Actual worktree fetch or checkout progress percentage reported by Git",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.continueWithoutUpdating",
+   "text": "Skip update",
+   "description": "Button that stops a slow upstream fetch and continues creating the worktree from locally available changes",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.continueWithoutUpdatingTooltip",
+   "text": "Stop fetching and create the worktree using the changes already available locally",
+   "description": "Tooltip explaining that continuing without updating cancels only the current upstream fetch and creates the worktree from locally available Git state",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.failedTitle",
+   "text": "Worktree setup failed",
+   "description": "Title shown when a worktree fails to be created or configured",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.fetch",
+   "text": "Fetching latest changes",
+   "description": "Worktree progress step for fetching the selected branch's latest upstream changes before creating a worktree",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.fetchFailed",
+   "text": "Couldn’t fetch latest changes",
+   "description": "Failed worktree progress step shown when fetching the selected branch's latest upstream changes fails but worktree creation continues",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.fetchFinalizing",
+   "text": "Finalizing update…",
+   "description": "Worktree progress step shown while Git finishes processing downloaded upstream changes before creating a worktree",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.fetchSkipped",
+   "text": "Update skipped",
+   "description": "Completed worktree progress step shown after the user skips fetching the selected branch's latest upstream changes",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.lessDetails",
+   "text": "Less details",
+   "description": "Disclosure for hiding the detailed Git and environment output while preparing a worktree",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.moreDetails",
+   "text": "More details",
+   "description": "Disclosure for showing the detailed Git and environment output while preparing a worktree",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.readyTitle",
+   "text": "Worktree created",
+   "description": "Title shown when a worktree and its optional environment setup are created",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.runningTitle",
+   "text": "Creating a worktree",
+   "description": "Title shown while preparing a new worktree and its environment",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.setup",
+   "text": "Setting up environment",
+   "description": "Worktree progress step for running the repository's optional environment setup",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.setupSkipped",
+   "text": "Environment setup skipped",
+   "description": "Worktree progress step shown when the user continues after environment setup fails",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.startingTaskStatus",
+   "text": "Starting a chat",
+   "description": "Status shown while starting a chat after its worktree and environment are ready",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.taskFailedTitle",
+   "text": "Chat failed to start",
+   "description": "Title shown when a chat fails to start after its worktree is ready",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.progress.workspace",
+   "text": "Preparing workspace",
+   "description": "Worktree progress step for preparing the source repository and worktree location",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.upstreamRefreshAuthenticationFailed",
+   "text": "Git authentication failed; sign in again before retrying",
+   "description": "Warning toast shown when refreshing an upstream branch fails because Git credentials were rejected",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.upstreamRefreshFailed",
+   "text": "Couldn’t fetch the latest changes; continuing without updating",
+   "description": "Warning toast shown when refreshing an upstream branch fails and worktree creation continues using locally available changes",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "worktreeInitV2.workLocallyInstead",
+   "text": "Don't use worktree",
+   "description": "Button that cancels worktree setup and starts the task in the original project folder, which may be on this computer or a remote host.",
+   "files": [
+    "pages/pending-local-conversation-thread-1f3ac9e93aa2.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-5851df3f6cb1.js",
+   "count": 1417,
+   "names": [
+    "$6n",
+    "$8n",
+    "$9t",
+    "$Ct",
+    "$Hr",
+    "$Or",
+    "$Q",
+    "$Sr",
+    "$St",
+    "$Tt",
+    "$Y",
+    "$Yt",
+    "$an",
+    "$ct",
+    "$dn",
+    "$in",
+    "$l",
+    "$lr",
+    "$pr",
+    "$q",
+    "$ut",
+    "A0",
+    "A0t",
+    "A3n",
+    "A8n",
+    "ACn",
+    "ACt",
+    "ADt",
+    "AEr",
+    "AEt",
+    "AG",
+    "AHr",
+    "AI",
+    "AIn",
+    "AJ",
+    "AJn",
+    "AL",
+    "ALt",
+    "AMr",
+    "ANn",
+    "AO",
+    "AOn",
+    "ASr",
+    "AT",
+    "ATn",
+    "AUt",
+    "AVt",
+    "AWt",
+    "Abn",
+    "Agt",
+    "Ahr",
+    "Amr",
+    "Anr",
+    "Av",
+    "Axr",
+    "Axt",
+    "Ay",
+    "BCn",
+    "BCr",
+    "BEr",
+    "BFr",
+    "BHr",
+    "BJn",
+    "BOt",
+    "BPn",
+    "BTt",
+    "BVt",
+    "BYt",
+    "B_n",
+    "B_t",
+    "Bar",
+    "Bcr",
+    "Bgt",
+    "Bhr",
+    "Bht",
+    "Bir",
+    "Blt",
+    "Bnn",
+    "Bnr",
+    "Bpr",
+    "Btr",
+    "Bun",
+    "Bw",
+    "Bxn",
+    "Byn",
+    "C$",
+    "C$n",
+    "C3n",
+    "C7t",
+    "CAr",
+    "CC",
+    "CEt",
+    "CJ",
+    "CJn",
+    "CL",
+    "CY",
+    "C_",
+    "Cbn",
+    "Cin",
+    "Cir",
+    "Cit",
+    "Cjn",
+    "Co",
+    "Con",
+    "Cpr",
+    "Cqt",
+    "Ctt",
+    "Cvr",
+    "Cwr",
+    "Cwt",
+    "Cxt",
+    "Cy",
+    "Cyn",
+    "D$",
+    "D0",
+    "D5n",
+    "D7n",
+    "D8n",
+    "DJn",
+    "DL",
+    "DPn",
+    "DPr",
+    "DSt",
+    "DUt",
+    "Dbn",
+    "Din",
+    "Dir",
+    "Djr",
+    "Dl",
+    "Dnn",
+    "Don",
+    "Dtn",
+    "Dv",
+    "E$n",
+    "E0",
+    "E0t",
+    "E7n",
+    "E8n",
+    "EEt",
+    "EG",
+    "EJ",
+    "EL",
+    "ELn",
+    "ELt",
+    "EMn",
+    "EPn",
+    "EQ",
+    "EX",
+    "EXt",
+    "Ear",
+    "Ebn",
+    "Een",
+    "Egr",
+    "Ejr",
+    "Eo",
+    "Eqt",
+    "Err",
+    "Etn",
+    "Ev",
+    "Evr",
+    "Exr",
+    "Ext",
+    "Eyn",
+    "F5n",
+    "F8n",
+    "FAn",
+    "FCr",
+    "FEr",
+    "FFr",
+    "FHr",
+    "FHt",
+    "FJn",
+    "FVt",
+    "F_n",
+    "Fbn",
+    "Fin",
+    "Fir",
+    "Fjr",
+    "Ftr",
+    "Fv",
+    "Fw",
+    "Fyn",
+    "Fyr",
+    "G0",
+    "G4n",
+    "G6n",
+    "G8n",
+    "GCt",
+    "GHr",
+    "GMr",
+    "GPn",
+    "GS",
+    "GSt",
+    "GUn",
+    "GX",
+    "G_",
+    "Ggr",
+    "Gin",
+    "Gir",
+    "Gmr",
+    "Gn",
+    "Gut",
+    "Gvn",
+    "Gvr",
+    "Gvt",
+    "H1",
+    "H6n",
+    "HCn",
+    "HCt",
+    "HEr",
+    "HF",
+    "HG",
+    "HHr",
+    "HJ",
+    "HJr",
+    "HOt",
+    "HTr",
+    "HTt",
+    "HVt",
+    "Hgt",
+    "Hhr",
+    "Hin",
+    "Hm",
+    "Hmr",
+    "Hnt",
+    "Htr",
+    "Hvr",
+    "Hvt",
+    "Hw",
+    "Hwr",
+    "Hxn",
+    "I3n",
+    "I9n",
+    "IC",
+    "ICr",
+    "IEr",
+    "IF",
+    "IHr",
+    "IHt",
+    "IOn",
+    "ITr",
+    "IVt",
+    "IYt",
+    "I_n",
+    "Icr",
+    "Ifr",
+    "Ign",
+    "Iir",
+    "Imr",
+    "Iur",
+    "Ivr",
+    "Iwr",
+    "Iyn",
+    "Iyr",
+    "J$n",
+    "J3n",
+    "J4n",
+    "J8n",
+    "JAr",
+    "JCr",
+    "JEt",
+    "JF",
+    "JHr",
+    "JJ",
+    "JKt",
+    "JOr",
+    "JPn",
+    "JX",
+    "JY",
+    "JZn",
+    "Jdr",
+    "Jft",
+    "Jgr",
+    "Jj",
+    "Jk",
+    "Jlr",
+    "Jt",
+    "Jut",
+    "Jvr",
+    "Jwn",
+    "K3n",
+    "KCt",
+    "KEn",
+    "KHr",
+    "KIr",
+    "KMr",
+    "KS",
+    "KUn",
+    "KX",
+    "K_",
+    "Kgr",
+    "Khr",
+    "Kmr",
+    "Kn",
+    "Kut",
+    "Kvn",
+    "Kvr",
+    "Kwt",
+    "Kxr",
+    "L3n",
+    "L5n",
+    "LC",
+    "LCr",
+    "LCt",
+    "LDt",
+    "LEn",
+    "LEr",
+    "LF",
+    "LHr",
+    "LHt",
+    "LJn",
+    "LMn",
+    "LO",
+    "LOt",
+    "LVt",
+    "LWt",
+    "L_n",
+    "Lfr",
+    "Lir",
+    "Lmr",
+    "Lqt",
+    "Ltn",
+    "Ltr",
+    "Lv",
+    "Lvr",
+    "Lw",
+    "Lyn",
+    "Lzt",
+    "M$",
+    "M8n",
+    "MC",
+    "MCn",
+    "MCr",
+    "MCt",
+    "MHr",
+    "MIr",
+    "MJn",
+    "MMr",
+    "MRt",
+    "MSr",
+    "MTn",
+    "Mbn",
+    "Met",
+    "Mhr",
+    "Mir",
+    "Mmr",
+    "Mtr",
+    "Mvt",
+    "Mwn",
+    "Myn",
+    "N$",
+    "N8n",
+    "NC",
+    "NCr",
+    "NDr",
+    "NDt",
+    "NEr",
+    "NG",
+    "NHr",
+    "NIn",
+    "NJn",
+    "NRt",
+    "NSr",
+    "NTr",
+    "NZn",
+    "Net",
+    "Nfr",
+    "Nin",
+    "Nir",
+    "Nmr",
+    "Ntr",
+    "Nvt",
+    "Nw",
+    "Nyn",
+    "Nyr",
+    "O$",
+    "O$n",
+    "O0",
+    "O5n",
+    "O9n",
+    "OEt",
+    "OFr",
+    "OHn",
+    "OJt",
+    "OPn",
+    "OPr",
+    "OQ",
+    "OUt",
+    "OW",
+    "O_r",
+    "Obn",
+    "Og",
+    "Ohr",
+    "Oin",
+    "Oir",
+    "Ol",
+    "Oon",
+    "Opr",
+    "Otn",
+    "Ov",
+    "Ovr",
+    "Oy",
+    "Oyn",
+    "P0n",
+    "P3n",
+    "P5n",
+    "P8n",
+    "P9n",
+    "PAr",
+    "PCn",
+    "PDt",
+    "PEr",
+    "PG",
+    "PHr",
+    "PJn",
+    "POn",
+    "PSn",
+    "PVt",
+    "Pbn",
+    "Pen",
+    "Pir",
+    "Pjr",
+    "Ptr",
+    "Pw",
+    "Pyn",
+    "Pyr",
+    "Q$n",
+    "Q4t",
+    "Q5t",
+    "Q9",
+    "Q9n",
+    "QAr",
+    "QCr",
+    "QCt",
+    "QDr",
+    "QGn",
+    "QHr",
+    "QOn",
+    "QOr",
+    "QPr",
+    "QQ",
+    "QQn",
+    "QSr",
+    "QTt",
+    "QY",
+    "Qhr",
+    "Qir",
+    "Ql",
+    "Qnr",
+    "Qpr",
+    "Qs",
+    "Qut",
+    "Qwn",
+    "Qwr",
+    "R9n",
+    "RCr",
+    "RCt",
+    "REn",
+    "REr",
+    "RF",
+    "RHr",
+    "RO",
+    "RSr",
+    "RVt",
+    "RWt",
+    "Rgr",
+    "Rhr",
+    "Rir",
+    "Rmr",
+    "Rnt",
+    "Rrt",
+    "Rtn",
+    "Rtr",
+    "Rwt",
+    "Rxt",
+    "S5n",
+    "S6n",
+    "S8n",
+    "SAn",
+    "SAr",
+    "SC",
+    "SEt",
+    "SI",
+    "SJn",
+    "SWn",
+    "SY",
+    "SZn",
+    "S_t",
+    "Shr",
+    "Sin",
+    "Sir",
+    "Sqt",
+    "Ss",
+    "Svr",
+    "Sxt",
+    "Syr",
+    "Szt",
+    "T$",
+    "T0n",
+    "T0t",
+    "T5n",
+    "T8n",
+    "TEt",
+    "TG",
+    "TJ",
+    "TJn",
+    "TL",
+    "TLn",
+    "TLt",
+    "TPn",
+    "TY",
+    "Tbn",
+    "Tgr",
+    "Tgt",
+    "Tin",
+    "Tlr",
+    "Tnn",
+    "Tqt",
+    "Trr",
+    "Ttn",
+    "Tv",
+    "Tvr",
+    "Tvt",
+    "Txn",
+    "Txt",
+    "Tzt",
+    "U3n",
+    "U8t",
+    "UCt",
+    "UF",
+    "UG",
+    "UHr",
+    "URt",
+    "USr",
+    "UTt",
+    "UZn",
+    "Uer",
+    "Uhr",
+    "Ui",
+    "Upr",
+    "Urn",
+    "Utr",
+    "Uw",
+    "Uwn",
+    "V1",
+    "V6n",
+    "VCr",
+    "VCt",
+    "VEn",
+    "VG",
+    "VHr",
+    "VJ",
+    "VJn",
+    "VQn",
+    "VZn",
+    "V_n",
+    "Vgt",
+    "Vht",
+    "Vin",
+    "Vlt",
+    "Vm",
+    "Vpr",
+    "Vqt",
+    "Vtr",
+    "Vvr",
+    "Vyn",
+    "W0",
+    "W6n",
+    "WCn",
+    "WEr",
+    "WG",
+    "WHr",
+    "WHt",
+    "WRt",
+    "WSt",
+    "Whr",
+    "Wi",
+    "Wmr",
+    "Wn",
+    "Wp",
+    "Wrn",
+    "Wtr",
+    "Wvr",
+    "Wwn",
+    "Wwr",
+    "X$n",
+    "X5t",
+    "X9n",
+    "XCt",
+    "XDr",
+    "XF",
+    "XHr",
+    "XHt",
+    "XIt",
+    "XJr",
+    "XMr",
+    "XO",
+    "XPn",
+    "XPr",
+    "XR",
+    "XY",
+    "Xct",
+    "Xer",
+    "Xhr",
+    "Xi",
+    "Xin",
+    "Xnr",
+    "Xpr",
+    "Xut",
+    "Xwr",
+    "Xxr",
+    "Xzt",
+    "Y6n",
+    "Y8t",
+    "YCt",
+    "YF",
+    "YHr",
+    "YHt",
+    "YIt",
+    "YJ",
+    "YJr",
+    "YO",
+    "YOr",
+    "YPr",
+    "YR",
+    "YY",
+    "Ydr",
+    "Yft",
+    "Yi",
+    "Yir",
+    "Yj",
+    "Yk",
+    "Ymr",
+    "Ypr",
+    "Yt",
+    "Yut",
+    "Yvr",
+    "Ywn",
+    "Z$n",
+    "Z4t",
+    "Z9",
+    "Z9n",
+    "ZCt",
+    "ZF",
+    "ZHr",
+    "ZOn",
+    "ZPn",
+    "ZQ",
+    "ZQn",
+    "ZSr",
+    "ZY",
+    "Zer",
+    "Zgn",
+    "Zht",
+    "Zin",
+    "Zir",
+    "Zs",
+    "Zut",
+    "Zwr",
+    "Zxr",
+    "Zzt",
+    "_8n",
+    "_9n",
+    "_A",
+    "_C",
+    "_Ct",
+    "_Dr",
+    "_I",
+    "_In",
+    "_N",
+    "_Pn",
+    "_Q",
+    "_St",
+    "_Tn",
+    "_Tr",
+    "_Tt",
+    "_Ur",
+    "_X",
+    "_Y",
+    "_an",
+    "_bn",
+    "_br",
+    "_fn",
+    "_fr",
+    "_in",
+    "_nr",
+    "_qn",
+    "_qt",
+    "_vr",
+    "_vt",
+    "_w",
+    "_xn",
+    "_xt",
+    "_y",
+    "_z",
+    "a$",
+    "a0n",
+    "a0t",
+    "a4",
+    "aAr",
+    "aBt",
+    "aC",
+    "aDn",
+    "aIr",
+    "aTn",
+    "aUr",
+    "aY",
+    "aar",
+    "abn",
+    "adt",
+    "akr",
+    "alr",
+    "ann",
+    "aqn",
+    "atn",
+    "aur",
+    "ayr",
+    "b0t",
+    "b3n",
+    "b5",
+    "b5n",
+    "b7n",
+    "bC",
+    "bEt",
+    "bFr",
+    "bI",
+    "bMn",
+    "bN",
+    "bSn",
+    "bTn",
+    "bUr",
+    "bVn",
+    "bX",
+    "bXn",
+    "ban",
+    "bgt",
+    "bhr",
+    "bin",
+    "bir",
+    "bnt",
+    "bqt",
+    "bxt",
+    "by",
+    "c0t",
+    "c6n",
+    "cDn",
+    "cL",
+    "cNn",
+    "cSn",
+    "cTn",
+    "cTr",
+    "cUr",
+    "cVt",
+    "cXn",
+    "cY",
+    "cZ",
+    "c_n",
+    "cbn",
+    "cbr",
+    "ci",
+    "cnn",
+    "cpr",
+    "crt",
+    "cs",
+    "cw",
+    "cwn",
+    "cy",
+    "cyr",
+    "d$",
+    "d0t",
+    "d2n",
+    "dAr",
+    "dCr",
+    "dCt",
+    "dDn",
+    "dDt",
+    "dEr",
+    "dEt",
+    "dFr",
+    "dJ",
+    "dL",
+    "dMt",
+    "dNr",
+    "dP",
+    "dPn",
+    "dUr",
+    "dZ",
+    "dbn",
+    "dc",
+    "dcr",
+    "din",
+    "djr",
+    "dkr",
+    "dnr",
+    "dpr",
+    "dun",
+    "dvr",
+    "dvt",
+    "dw",
+    "dwn",
+    "dwt",
+    "dxn",
+    "dyt",
+    "e$n",
+    "e1",
+    "e1n",
+    "e3n",
+    "e5n",
+    "eCr",
+    "eDn",
+    "eDr",
+    "eEt",
+    "eFr",
+    "eJ",
+    "eOr",
+    "eTn",
+    "eUr",
+    "eXt",
+    "ean",
+    "egt",
+    "ehr",
+    "etr",
+    "eur",
+    "ewt",
+    "f$",
+    "f0t",
+    "f4n",
+    "fCt",
+    "fDn",
+    "fDt",
+    "fEr",
+    "fJt",
+    "fL",
+    "fMr",
+    "fMt",
+    "fP",
+    "fSn",
+    "fUr",
+    "fUt",
+    "f_t",
+    "fa",
+    "fbn",
+    "fc",
+    "fin",
+    "fkr",
+    "fnr",
+    "fpr",
+    "ftt",
+    "fur",
+    "fvr",
+    "fw",
+    "fwt",
+    "fyt",
+    "g0t",
+    "g7",
+    "g8n",
+    "gA",
+    "gC",
+    "gCt",
+    "gEt",
+    "gI",
+    "gIr",
+    "gJ",
+    "gL",
+    "gN",
+    "gSr",
+    "gUr",
+    "gX",
+    "gar",
+    "gbr",
+    "gin",
+    "gir",
+    "git",
+    "gnr",
+    "gon",
+    "gqn",
+    "gtr",
+    "gvr",
+    "gw",
+    "gwn",
+    "gwr",
+    "gy",
+    "gyr",
+    "gz",
+    "h1",
+    "h2n",
+    "h7",
+    "h7t",
+    "h8n",
+    "hA",
+    "hCt",
+    "hI",
+    "hJt",
+    "hL",
+    "hN",
+    "hO",
+    "hPn",
+    "hQ",
+    "hUr",
+    "hUt",
+    "hX",
+    "hZn",
+    "h_n",
+    "ha",
+    "har",
+    "hbn",
+    "hbr",
+    "hgr",
+    "hin",
+    "hir",
+    "hit",
+    "hlr",
+    "hnr",
+    "hnt",
+    "hp",
+    "hrt",
+    "htn",
+    "htr",
+    "hw",
+    "hwn",
+    "hzt",
+    "i$",
+    "i0t",
+    "i2n",
+    "i4",
+    "i5n",
+    "i7n",
+    "i8n",
+    "iBt",
+    "iDn",
+    "iNr",
+    "iPr",
+    "iTn",
+    "iTr",
+    "iUr",
+    "iY",
+    "i_n",
+    "inr",
+    "itn",
+    "ivt",
+    "iwr",
+    "iyr",
+    "iyt",
+    "j5n",
+    "j8n",
+    "jCn",
+    "jCr",
+    "jEt",
+    "jFr",
+    "jHr",
+    "jI",
+    "jIr",
+    "jJn",
+    "jL",
+    "jOn",
+    "jPr",
+    "jSr",
+    "jTn",
+    "jVt",
+    "jWt",
+    "jY",
+    "jbn",
+    "jhr",
+    "jjn",
+    "jkt",
+    "jmr",
+    "jvr",
+    "jwn",
+    "jwt",
+    "jxr",
+    "jyn",
+    "k5n",
+    "k9n",
+    "kEr",
+    "kEt",
+    "kG",
+    "kHn",
+    "kJn",
+    "kJt",
+    "kLn",
+    "kLt",
+    "kO",
+    "kPn",
+    "kPr",
+    "kT",
+    "kTn",
+    "kUt",
+    "kVt",
+    "kW",
+    "kbn",
+    "kfr",
+    "kg",
+    "khr",
+    "kv",
+    "kvr",
+    "kvt",
+    "kxt",
+    "l$",
+    "l3n",
+    "l5n",
+    "l8n",
+    "lAr",
+    "lCt",
+    "lDn",
+    "lE",
+    "lIr",
+    "lIt",
+    "lJ",
+    "lL",
+    "lLr",
+    "lNn",
+    "lSn",
+    "lTn",
+    "lUr",
+    "lVt",
+    "lW",
+    "lY",
+    "lan",
+    "lbn",
+    "lbr",
+    "lir",
+    "llr",
+    "lnn",
+    "lpr",
+    "lqn",
+    "ls",
+    "ltt",
+    "lw",
+    "lxn",
+    "ly",
+    "m0t",
+    "m1",
+    "m7t",
+    "m8n",
+    "m9n",
+    "mA",
+    "mCt",
+    "mDt",
+    "mI",
+    "mIr",
+    "mJ",
+    "mL",
+    "mN",
+    "mO",
+    "mPn",
+    "mUr",
+    "mUt",
+    "mX",
+    "mYr",
+    "m_n",
+    "m_r",
+    "mar",
+    "mbn",
+    "mfn",
+    "min",
+    "mjr",
+    "mlr",
+    "mnt",
+    "mp",
+    "mpr",
+    "mrt",
+    "mtn",
+    "mvr",
+    "mw",
+    "mxn",
+    "mzt",
+    "n",
+    "n0t",
+    "n2n",
+    "n4n",
+    "n5n",
+    "n7",
+    "n8n",
+    "nDn",
+    "nDr",
+    "nFr",
+    "nI",
+    "nKn",
+    "nSn",
+    "nSr",
+    "nSt",
+    "nT",
+    "nTn",
+    "nTr",
+    "nUr",
+    "nW",
+    "nY",
+    "nbn",
+    "nbr",
+    "ner",
+    "nqt",
+    "nwt",
+    "nyr",
+    "o0t",
+    "o5n",
+    "o7n",
+    "o8n",
+    "oBt",
+    "oDn",
+    "oDr",
+    "oFr",
+    "oHt",
+    "oI",
+    "oIr",
+    "oJ",
+    "oPr",
+    "oQ",
+    "oTn",
+    "oUr",
+    "obn",
+    "ogt",
+    "onn",
+    "opr",
+    "oqt",
+    "orr",
+    "ott",
+    "our",
+    "oxn",
+    "oyr",
+    "p0t",
+    "p2n",
+    "p7t",
+    "p8n",
+    "pCt",
+    "pDn",
+    "pDt",
+    "pEr",
+    "pI",
+    "pJ",
+    "pL",
+    "pOr",
+    "pUr",
+    "pUt",
+    "pYr",
+    "pZn",
+    "pa",
+    "pbn",
+    "pfn",
+    "pgr",
+    "pin",
+    "pjr",
+    "plr",
+    "pnr",
+    "ppr",
+    "pur",
+    "pw",
+    "pwn",
+    "pyr",
+    "q$n",
+    "q8t",
+    "qAr",
+    "qEt",
+    "qHr",
+    "qKt",
+    "qMr",
+    "qPn",
+    "qS",
+    "qX",
+    "qY",
+    "q_",
+    "qft",
+    "qgt",
+    "qj",
+    "qk",
+    "qlr",
+    "qn",
+    "qnr",
+    "qt",
+    "qut",
+    "qvr",
+    "qwr",
+    "qwt",
+    "r$n",
+    "r$t",
+    "r0t",
+    "r4n",
+    "r5n",
+    "r7",
+    "r7n",
+    "r8n",
+    "rC",
+    "rDn",
+    "rNr",
+    "rSn",
+    "rSr",
+    "rT",
+    "rTn",
+    "rTr",
+    "rUr",
+    "rY",
+    "rar",
+    "rdt",
+    "rkr",
+    "rmr",
+    "rnr",
+    "rrr",
+    "ryr",
+    "ryt",
+    "s0n",
+    "s0t",
+    "s5n",
+    "s6n",
+    "s8n",
+    "sCr",
+    "sDn",
+    "sFr",
+    "sHt",
+    "sJ",
+    "sPr",
+    "sTn",
+    "sTr",
+    "sUr",
+    "sVt",
+    "sbn",
+    "si",
+    "sjr",
+    "skr",
+    "snr",
+    "son",
+    "spr",
+    "srt",
+    "stt",
+    "sw",
+    "sy",
+    "t",
+    "t1",
+    "t3n",
+    "t8n",
+    "tAr",
+    "tCr",
+    "tCt",
+    "tDn",
+    "tJ",
+    "tNr",
+    "tTn",
+    "tTr",
+    "tUr",
+    "tW",
+    "tXt",
+    "t_n",
+    "tan",
+    "tbn",
+    "tbr",
+    "ter",
+    "tfn",
+    "tmr",
+    "tqt",
+    "u$",
+    "u0t",
+    "u3n",
+    "u4n",
+    "uCt",
+    "uDn",
+    "uE",
+    "uFr",
+    "uIr",
+    "uIt",
+    "uL",
+    "uPn",
+    "uSt",
+    "uTn",
+    "uUr",
+    "uW",
+    "uan",
+    "ubn",
+    "ubr",
+    "ugn",
+    "uir",
+    "ujr",
+    "unr",
+    "upr",
+    "uun",
+    "uvr",
+    "uw",
+    "uxn",
+    "uxr",
+    "uy",
+    "v5",
+    "v8n",
+    "vCt",
+    "vDr",
+    "vEt",
+    "vI",
+    "vIn",
+    "vN",
+    "vO",
+    "vPn",
+    "vQ",
+    "vSn",
+    "vTn",
+    "vTr",
+    "vTt",
+    "vUr",
+    "v_r",
+    "van",
+    "var",
+    "vbn",
+    "vbr",
+    "vgr",
+    "vin",
+    "vmr",
+    "vnr",
+    "vq",
+    "vvr",
+    "vvt",
+    "vwr",
+    "vxt",
+    "vy",
+    "vyr",
+    "w$",
+    "w$n",
+    "w0n",
+    "w0t",
+    "w3n",
+    "w5n",
+    "w6n",
+    "w7t",
+    "w8n",
+    "wC",
+    "wFr",
+    "wJ",
+    "wL",
+    "wSr",
+    "wZn",
+    "w_",
+    "win",
+    "wit",
+    "wlr",
+    "wnn",
+    "wo",
+    "wpr",
+    "wrr",
+    "wtt",
+    "wvr",
+    "wvt",
+    "wwr",
+    "wwt",
+    "wxt",
+    "x0t",
+    "x5",
+    "x5n",
+    "x6n",
+    "x8n",
+    "xC",
+    "xFr",
+    "xI",
+    "xJn",
+    "xMr",
+    "xN",
+    "xNn",
+    "xUr",
+    "xVn",
+    "xWn",
+    "xX",
+    "xin",
+    "xir",
+    "xnr",
+    "xo",
+    "xqt",
+    "xs",
+    "xvr",
+    "xwr",
+    "xxt",
+    "xy",
+    "xyr",
+    "y0t",
+    "y5",
+    "y7n",
+    "y8n",
+    "yCr",
+    "yCt",
+    "yEt",
+    "yI",
+    "yN",
+    "yO",
+    "ySt",
+    "yTn",
+    "yUr",
+    "yZ",
+    "yar",
+    "ybn",
+    "ygn",
+    "yin",
+    "yjn",
+    "ymr",
+    "ynr",
+    "ynt",
+    "yq",
+    "yqt",
+    "yvr",
+    "yvt",
+    "yxt",
+    "yyr",
+    "z5n",
+    "zCt",
+    "zF",
+    "zFr",
+    "zG",
+    "zHr",
+    "zLn",
+    "zPn",
+    "zSr",
+    "zVt",
+    "zYt",
+    "z_n",
+    "zgr",
+    "zgt",
+    "zir",
+    "znn",
+    "znr",
+    "zpr",
+    "zrt",
+    "ztr",
+    "zun",
+    "zwr",
+    "zxt",
+    "zyn"
+   ]
+  },
+  {
+   "from": "app-shared-bbfeca5e5737.js",
+   "count": 406,
+   "names": [
+    "$4",
+    "$It",
+    "$R",
+    "$S",
+    "$V",
+    "$bt",
+    "$j",
+    "$nt",
+    "$v",
+    "$xt",
+    "AD",
+    "ADt",
+    "AE",
+    "AH",
+    "AO",
+    "AR",
+    "Aat",
+    "Ad",
+    "B4",
+    "BD",
+    "BE",
+    "BJ",
+    "BR",
+    "BS",
+    "Bbt",
+    "Bit",
+    "CJ",
+    "CM",
+    "CO",
+    "CPt",
+    "CS",
+    "Cat",
+    "Cht",
+    "Cot",
+    "Cvt",
+    "Cwt",
+    "Cz",
+    "DDt",
+    "Ddt",
+    "Dut",
+    "Dxt",
+    "Dz",
+    "E4",
+    "EDt",
+    "EE",
+    "EPt",
+    "Edt",
+    "Eht",
+    "Eut",
+    "Ext",
+    "FD",
+    "FR",
+    "Fat",
+    "Fd",
+    "G$",
+    "GE",
+    "GV",
+    "Gdt",
+    "HD",
+    "HE",
+    "HEt",
+    "HG",
+    "HNt",
+    "Hit",
+    "Hpt",
+    "Hx",
+    "Hxt",
+    "ID",
+    "IDt",
+    "Id",
+    "Iot",
+    "Ixt",
+    "Iz",
+    "JCt",
+    "JDt",
+    "JR",
+    "J_t",
+    "Jbt",
+    "Jft",
+    "K$",
+    "KG",
+    "Kat",
+    "L$",
+    "LD",
+    "LR",
+    "LT",
+    "Lit",
+    "Lot",
+    "Lvt",
+    "Lz",
+    "MA",
+    "MV",
+    "Md",
+    "Mvt",
+    "Myt",
+    "Mz",
+    "NA",
+    "ND",
+    "Nd",
+    "Nft",
+    "Ngt",
+    "Nxt",
+    "Nz",
+    "OD",
+    "OE",
+    "OO",
+    "Oat",
+    "Oht",
+    "Pat",
+    "Pd",
+    "Pft",
+    "Pxt",
+    "QJ",
+    "QR",
+    "QZ",
+    "Qb",
+    "Qv",
+    "Qvt",
+    "R$",
+    "RD",
+    "RE",
+    "RI",
+    "RR",
+    "RS",
+    "RT",
+    "Rj",
+    "Rnt",
+    "Rxt",
+    "S4",
+    "SJ",
+    "SO",
+    "SPt",
+    "Sgt",
+    "Sj",
+    "Swt",
+    "T4",
+    "TJ",
+    "TLt",
+    "TM",
+    "TO",
+    "Tut",
+    "Tz",
+    "U0",
+    "UD",
+    "UE",
+    "UEt",
+    "UI",
+    "USt",
+    "Unt",
+    "Uz",
+    "VD",
+    "VDt",
+    "VE",
+    "VG",
+    "VNt",
+    "VR",
+    "VS",
+    "Vq",
+    "Vx",
+    "Vxt",
+    "W0",
+    "W7",
+    "WE",
+    "WI",
+    "Wj",
+    "Wnt",
+    "XD",
+    "XQ",
+    "XV",
+    "Xot",
+    "Xx",
+    "YCt",
+    "YD",
+    "YQ",
+    "YR",
+    "Yot",
+    "Yx",
+    "ZJ",
+    "ZV",
+    "ZZ",
+    "Zb",
+    "Znt",
+    "Zvt",
+    "Zxt",
+    "_It",
+    "_L",
+    "_Mt",
+    "_O",
+    "_Pt",
+    "_V",
+    "_ft",
+    "_j",
+    "_k",
+    "_lt",
+    "_nt",
+    "_wt",
+    "_xt",
+    "aD",
+    "aK",
+    "aS",
+    "aSt",
+    "ad",
+    "aj",
+    "art",
+    "awt",
+    "ay",
+    "b0",
+    "bH",
+    "bO",
+    "bf",
+    "bht",
+    "bwt",
+    "bz",
+    "cA",
+    "cE",
+    "cG",
+    "cJ",
+    "cL",
+    "cO",
+    "cSt",
+    "c_t",
+    "cd",
+    "cgt",
+    "crt",
+    "cst",
+    "cut",
+    "cwt",
+    "cz",
+    "dZ",
+    "dht",
+    "dt",
+    "dwt",
+    "eU",
+    "fLt",
+    "fO",
+    "fPt",
+    "fSt",
+    "fZ",
+    "fit",
+    "fk",
+    "frt",
+    "ft",
+    "fwt",
+    "gMt",
+    "gO",
+    "gPt",
+    "gU",
+    "ght",
+    "gk",
+    "gnt",
+    "gwt",
+    "hMt",
+    "hPt",
+    "hft",
+    "hgt",
+    "hnt",
+    "hot",
+    "hrt",
+    "i3",
+    "i5",
+    "iD",
+    "iI",
+    "i_t",
+    "igt",
+    "ik",
+    "iot",
+    "irt",
+    "iwt",
+    "iy",
+    "iyt",
+    "jB",
+    "jDt",
+    "jE",
+    "jH",
+    "jd",
+    "jgt",
+    "jq",
+    "kDt",
+    "kE",
+    "kO",
+    "k_t",
+    "kd",
+    "kxt",
+    "kz",
+    "lDt",
+    "lO",
+    "lU",
+    "l_t",
+    "ldt",
+    "lgt",
+    "lot",
+    "lrt",
+    "lwt",
+    "mH",
+    "mO",
+    "mV",
+    "mht",
+    "mit",
+    "mnt",
+    "n4",
+    "nE",
+    "nI",
+    "nS",
+    "nSt",
+    "net",
+    "nk",
+    "nst",
+    "oDt",
+    "oI",
+    "oO",
+    "oS",
+    "oSt",
+    "oV",
+    "od",
+    "oit",
+    "oj",
+    "oot",
+    "oxt",
+    "oy",
+    "pIt",
+    "pLt",
+    "pPt",
+    "pft",
+    "pk",
+    "pwt",
+    "qG",
+    "qat",
+    "qft",
+    "qz",
+    "r3",
+    "r5",
+    "rSt",
+    "rk",
+    "rrt",
+    "rst",
+    "sDt",
+    "sJ",
+    "sL",
+    "sMt",
+    "sO",
+    "sPt",
+    "sW",
+    "sd",
+    "sj",
+    "spt",
+    "srt",
+    "sy",
+    "syt",
+    "sz",
+    "t3",
+    "t4",
+    "t6",
+    "tI",
+    "tS",
+    "tk",
+    "tq",
+    "tst",
+    "txt",
+    "uE",
+    "uO",
+    "uPt",
+    "uV",
+    "uft",
+    "uit",
+    "urt",
+    "uwt",
+    "vL",
+    "vO",
+    "vgt",
+    "vht",
+    "vk",
+    "vrt",
+    "vst",
+    "vxt",
+    "vyt",
+    "vzt",
+    "wG",
+    "wO",
+    "wot",
+    "wxt",
+    "wz",
+    "x4",
+    "xMt",
+    "xO",
+    "xat",
+    "xht",
+    "xwt",
+    "xz",
+    "y0",
+    "yAt",
+    "yH",
+    "yMt",
+    "yO",
+    "yf",
+    "ygt",
+    "yk",
+    "yzt",
+    "z4",
+    "zD",
+    "zG",
+    "zJ",
+    "zLt",
+    "zR",
+    "zSt",
+    "zit",
+    "zxt"
+   ]
+  },
+  {
+   "from": "app-primary-fe8a450b3b04.js",
+   "count": 112,
+   "names": [
+    "$m",
+    "$s",
+    "Af",
+    "Ap",
+    "Bl",
+    "Bm",
+    "Bt",
+    "Cd",
+    "Ch",
+    "Cm",
+    "Eb",
+    "Ed",
+    "Eh",
+    "Fp",
+    "Hh",
+    "It",
+    "Jc",
+    "Jh",
+    "Jp",
+    "Jt",
+    "Kc",
+    "Kh",
+    "Kt",
+    "Kv",
+    "Lh",
+    "Lt",
+    "Mf",
+    "Mp",
+    "Np",
+    "O_",
+    "Ob",
+    "Od",
+    "Of",
+    "Op",
+    "Pm",
+    "Qh",
+    "Qm",
+    "Qs",
+    "Qt",
+    "Qv",
+    "Rh",
+    "Rt",
+    "Ry",
+    "Sd",
+    "Sm",
+    "Td",
+    "Uh",
+    "Ul",
+    "Vh",
+    "Vl",
+    "Vm",
+    "Vt",
+    "Wh",
+    "Wl",
+    "Xt",
+    "Xv",
+    "Yh",
+    "Yp",
+    "Yt",
+    "Zs",
+    "Zt",
+    "Zv",
+    "_f",
+    "_m",
+    "_p",
+    "af",
+    "ah",
+    "av",
+    "bd",
+    "bp",
+    "by",
+    "cr",
+    "du",
+    "ec",
+    "ev",
+    "g",
+    "gf",
+    "gm",
+    "gu",
+    "h",
+    "hp",
+    "hu",
+    "ih",
+    "jp",
+    "k_",
+    "kd",
+    "kf",
+    "kp",
+    "lu",
+    "m",
+    "mp",
+    "mu",
+    "nn",
+    "of",
+    "p",
+    "pu",
+    "qh",
+    "qv",
+    "rn",
+    "sr",
+    "tv",
+    "uu",
+    "vm",
+    "vp",
+    "wd",
+    "xd",
+    "xy",
+    "ym",
+    "yp",
+    "zl",
+    "zt",
+    "zy"
+   ]
+  },
+  {
+   "from": "sites-end-resource-fa77a923096d.js",
+   "count": 49,
+   "names": [
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "a",
+    "at",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i",
+    "it",
+    "j",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "rt",
+    "s",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z"
+   ]
+  },
+  {
+   "from": "git-action-new-branch-field-2b4ee066ae8f.js",
+   "count": 48,
+   "names": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "_",
+    "a",
+    "b",
+    "c",
+    "d",
+    "et",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "nt",
+    "o",
+    "p",
+    "r",
+    "rt",
+    "s",
+    "tt",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y"
+   ]
+  },
+  {
+   "from": "pull-request-code-review-navigation-1eeff0187c2d.js",
+   "count": 22,
+   "names": [
+    "C",
+    "S",
+    "_",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "s",
+    "t",
+    "u",
+    "v",
+    "x",
+    "y"
+   ]
+  },
+  {
+   "from": "review-file-tree-pane-3e66effc6a6c.js",
+   "count": 21,
+   "names": [
+    "C",
+    "S",
+    "_",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i",
+    "l",
+    "m",
+    "n",
+    "p",
+    "r",
+    "s",
+    "u",
+    "v",
+    "x",
+    "y"
+   ]
+  },
+  {
+   "from": "local-conversation-thread-6999d2419a30.js",
+   "count": 15,
+   "names": [
+    "_",
+    "a",
+    "c",
+    "d",
+    "f",
+    "g",
+    "i",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "local-environment-editor-e16d20074fb4.js",
+   "count": 13,
+   "names": [
+    "_",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "l",
+    "m",
+    "n",
+    "p",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "user-message-attachments-93893a2e6026.js",
+   "count": 12,
+   "names": [
+    "_",
+    "c",
+    "f",
+    "g",
+    "h",
+    "i",
+    "l",
+    "m",
+    "p",
+    "r",
+    "s",
+    "u"
+   ]
+  },
+  {
+   "from": "pending-local-conversation-thread-1f3ac9e93aa2.js",
+   "count": 12,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "generated-image-output-visibility-89248db44ece.js",
+   "count": 11,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "inline-followup-markdown-4751fe20f26d.js",
+   "count": 10,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "h",
+    "l",
+    "n",
+    "p",
+    "r",
+    "u"
+   ]
+  },
+  {
+   "from": "chatgpt-conversation-page-f7a3d5e5d239.js",
+   "count": 8,
+   "names": [
+    "g",
+    "h",
+    "m",
+    "n",
+    "p",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-app-shell-chrome-404b941243dd.js",
+   "count": 8,
+   "names": [
+    "c",
+    "d",
+    "f",
+    "l",
+    "p",
+    "r",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "local-conversation-summary-panel-artifacts-section-de99ba817abb.js",
+   "count": 8,
+   "names": [
+    "a",
+    "c",
+    "l",
+    "n",
+    "o",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "git-branch-switcher-91226a3079fc.js",
+   "count": 8,
+   "names": [
+    "d",
+    "f",
+    "i",
+    "l",
+    "n",
+    "r",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "download-submenu-2fee9f2333f7.js",
+   "count": 8,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "l",
+    "o",
+    "r",
+    "s",
+    "u"
+   ]
+  },
+  {
+   "from": "local-conversation-turn-69783815d57d.js",
+   "count": 7,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "local-conversation-thread-turn-entries-ed0916a7814f.js",
+   "count": 7,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "unavailable-local-conversation-page-d4a23c309685.js",
+   "count": 6,
+   "names": [
+    "i",
+    "l",
+    "n",
+    "r",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "use-thread-summary-panel-14572b4b8411.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-onboarding-f2670fbf5798.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "section-408a5a6e1535.js",
+   "count": 6,
+   "names": [
+    "l",
+    "m",
+    "n",
+    "p",
+    "r",
+    "u"
+   ]
+  },
+  {
+   "from": "mcp-tool-item-content-12f3ac06395e.js",
+   "count": 6,
+   "names": [
+    "A",
+    "M",
+    "O",
+    "T",
+    "j",
+    "w"
+   ]
+  },
+  {
+   "from": "virtualized-turn-list-d00a3b041bce.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "agent-activity-item-1be092f0c744.js",
+   "count": 6,
+   "names": [
+    "_",
+    "d",
+    "h",
+    "i",
+    "s",
+    "u"
+   ]
+  },
+  {
+   "from": "local-conversation-summary-panel-sources-model-a2fb0c4f9590.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "use-local-conversation-sources-5dbb8ee22e75.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-response-space-controller-7d80274ac053.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "site-preview-bridge-406791c1b5de.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "local-conversation-stream-role-product-event-1367a4b33883.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "header-action-412a59778d0b.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "content-quick-chat-overlay-fae2ee1c31a8.js",
+   "count": 4,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-panel-header-actions-7091498c0f94.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "toggle-thread-summary-panel-6f770204f2c3.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "usage-data-188598c9d599.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "channel-button-bad94b04d4c2.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "preparation-status-c6b61feb3329.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "use-conversation-search-highlights-6c328093bb06.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "realtime-voice-launch-surface-6cde3ff5da14.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "side-chat-composer-7be547a39e2e.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "local-conversation-webmcp-tools-model-a5b27ecc68d1.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "summary-section-eebf56dfab6c.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "local-conversation-git-actions-80bb6516e7ec.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "plugin-picker-menu-content-e1d68f55c61b.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "realtime-voice-stage-layout-cbd1d7be3317.js",
+   "count": 4,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "remote-hosted-pip-anchor-bridge-98b699c7261a.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "use-target-apps-df427db284a8.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "appgen-access-state-messages-64c90daeb132.js",
+   "count": 4,
+   "names": [
+    "a",
+    "i",
+    "o",
+    "r"
+   ]
+  },
+  {
+   "from": "code-diff-628be5db9fe9.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 3,
+   "names": [
+    "n",
+    "o",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-scroll-controller-context-value-f766898c7055.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "local-conversation-page-4298f8ec98fa.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "conversation-ui-605b34b5a676.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "disclosure-state-96d43f424094.js",
+   "count": 3,
+   "names": [
+    "i",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-summary-panel-components-7e14b3bbe8fe.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "open-thread-pull-request-side-panel-tab-f5b1ea6eb149.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-summary-panel-identity-8a58b733681a.js",
+   "count": 3,
+   "names": [
+    "i",
+    "o",
+    "r"
+   ]
+  },
+  {
+   "from": "aeon-response-status-row-f03a8bd9c9d1.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 1014
+  },
+  {
+   "name": "id",
+   "count": 635
+  },
+  {
+   "name": "description",
+   "count": 548
+  },
+  {
+   "name": "className",
+   "count": 543
+  },
+  {
+   "name": "defaultMessage",
+   "count": 524
+  },
+  {
+   "name": "conversationId",
+   "count": 436
+  },
+  {
+   "name": "hostId",
+   "count": 381
+  },
+  {
+   "name": "null",
+   "count": 306
+  },
+  {
+   "name": "cwd",
+   "count": 172
+  },
+  {
+   "name": "type",
+   "count": 147
+  },
+  {
+   "name": "title",
+   "count": 137
+  },
+  {
+   "name": "threadId",
+   "count": 122
+  },
+  {
+   "name": "onClick",
+   "count": 113
+  },
+  {
+   "name": "turnId",
+   "count": 88
+  },
+  {
+   "name": "enabled",
+   "count": 87
+  },
+  {
+   "name": "data",
+   "count": 78
+  },
+  {
+   "name": "value",
+   "count": 76
+  },
+  {
+   "name": "color",
+   "count": 69
+  },
+  {
+   "name": "disabled",
+   "count": 65
+  },
+  {
+   "name": "get",
+   "count": 65
+  },
+  {
+   "name": "status",
+   "count": 63
+  },
+  {
+   "name": "label",
+   "count": 63
+  },
+  {
+   "name": "onSelect",
+   "count": 59
+  },
+  {
+   "name": "size",
+   "count": 57
+  },
+  {
+   "name": "path",
+   "count": 56
+  },
+  {
+   "name": "icon",
+   "count": 54
+  },
+  {
+   "name": "scope",
+   "count": 53
+  },
+  {
+   "name": "open",
+   "count": 50
+  },
+  {
+   "name": "name",
+   "count": 48
+  },
+  {
+   "name": "values",
+   "count": 48
+  },
+  {
+   "name": "target",
+   "count": 47
+  },
+  {
+   "name": "key",
+   "count": 45
+  },
+  {
+   "name": "isBackgroundSubagentsEnabled",
+   "count": 45
+  },
+  {
+   "name": "onOpenPullRequestSidePanel",
+   "count": 45
+  },
+  {
+   "name": "turnKey",
+   "count": 45
+  },
+  {
+   "name": "content",
+   "count": 42
+  },
+  {
+   "name": "e",
+   "count": 42
+  },
+  {
+   "name": "items",
+   "count": 42
+  },
+  {
+   "name": "onOpenChange",
+   "count": 42
+  },
+  {
+   "name": "item",
+   "count": 41
+  },
+  {
+   "name": "hostConfig",
+   "count": 41
+  },
+  {
+   "name": "state",
+   "count": 40
+  },
+  {
+   "name": "message",
+   "count": 40
+  },
+  {
+   "name": "isReadOnly",
+   "count": 39
+  },
+  {
+   "name": "itemId",
+   "count": 39
+  },
+  {
+   "name": "isVisible",
+   "count": 38
+  },
+  {
+   "name": "mode",
+   "count": 38
+  },
+  {
+   "name": "turn",
+   "count": 37
+  },
+  {
+   "name": "kind",
+   "count": 37
+  },
+  {
+   "name": "k",
+   "count": 37
+  },
+  {
+   "name": "projectlessOutputDirectory",
+   "count": 36
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 36
+  },
+  {
+   "name": "toastId",
+   "count": 36
+  },
+  {
+   "name": "count",
+   "count": 36
+  },
+  {
+   "name": "a",
+   "count": 36
+  },
+  {
+   "name": "text",
+   "count": 35
+  },
+  {
+   "name": "clientThreadId",
+   "count": 35
+  },
+  {
+   "name": "presentation",
+   "count": 34
+  },
+  {
+   "name": "r",
+   "count": 33
+  },
+  {
+   "name": "source",
+   "count": 33
+  },
+  {
+   "name": "error",
+   "count": 33
+  },
+  {
+   "name": "turnSearchKey",
+   "count": 33
+  },
+  {
+   "name": "variant",
+   "count": 31
+  },
+  {
+   "name": "style",
+   "count": 30
+  },
+  {
+   "name": "n",
+   "count": 29
+  },
+  {
+   "name": "isTurnInProgress",
+   "count": 28
+  },
+  {
+   "name": "align",
+   "count": 28
+  },
+  {
+   "name": "ref",
+   "count": 28
+  },
+  {
+   "name": "historyEntityKey",
+   "count": 28
+  },
+  {
+   "name": "t",
+   "count": 27
+  },
+  {
+   "name": "onOpenBackgroundAgent",
+   "count": 27
+  },
+  {
+   "name": "workspaceRoot",
+   "count": 27
+  },
+  {
+   "name": "conversationDetailLevel",
+   "count": 27
+  },
+  {
+   "name": "renderMcpApps",
+   "count": 27
+  },
+  {
+   "name": "loading",
+   "count": 26
+  },
+  {
+   "name": "operationSource",
+   "count": 26
+  },
+  {
+   "name": "role",
+   "count": 25
+  },
+  {
+   "name": "s",
+   "count": 25
+  },
+  {
+   "name": "href",
+   "count": 25
+  },
+  {
+   "name": "messageId",
+   "count": 23
+  },
+  {
+   "name": "actions",
+   "count": 23
+  },
+  {
+   "name": "tooltipContent",
+   "count": 23
+  },
+  {
+   "name": "resolvedApps",
+   "count": 22
+  },
+  {
+   "name": "start",
+   "count": 21
+  },
+  {
+   "name": "signal",
+   "count": 21
+  },
+  {
+   "name": "height",
+   "count": 21
+  },
+  {
+   "name": "onRetry",
+   "count": 21
+  },
+  {
+   "name": "isEqual",
+   "count": 21
+  },
+  {
+   "name": "asset",
+   "count": 21
+  },
+  {
+   "name": "preserveServerUserMessages",
+   "count": 21
+  },
+  {
+   "name": "width",
+   "count": 20
+  },
+  {
+   "name": "fallback",
+   "count": 20
+  },
+  {
+   "name": "url",
+   "count": 20
+  },
+  {
+   "name": "dimension",
+   "count": 20
+  },
+  {
+   "name": "headBranch",
+   "count": 20
+  },
+  {
+   "name": "sectionKey",
+   "count": 20
+  },
+  {
+   "name": "reportEntityType",
+   "count": 20
+  },
+  {
+   "name": "showInProgressFixedContent",
+   "count": 20
+  },
+  {
+   "name": "request",
+   "count": 20
+  },
+  {
+   "name": "taskId",
+   "count": 19
+  },
+  {
+   "name": "params",
+   "count": 19
+  },
+  {
+   "name": "queryKey",
+   "count": 19
+  },
+  {
+   "name": "src",
+   "count": 19
+  },
+  {
+   "name": "onOpenSubagentsPanel",
+   "count": 19
+  },
+  {
+   "name": "initiator",
+   "count": 19
+  },
+  {
+   "name": "onOpen",
+   "count": 19
+  },
+  {
+   "name": "sourceConversationId",
+   "count": 19
+  },
+  {
+   "name": "entries",
+   "count": 19
+  },
+  {
+   "name": "codexWorktree",
+   "count": 19
+  },
+  {
+   "name": "alt",
+   "count": 18
+  },
+  {
+   "name": "action",
+   "count": 18
+  },
+  {
+   "name": "sentAtMs",
+   "count": 18
+  },
+  {
+   "name": "modelProvider",
+   "count": 18
+  },
+  {
+   "name": "default",
+   "count": 17
+  },
+  {
+   "name": "opacity",
+   "count": 17
+  },
+  {
+   "name": "showComposer",
+   "count": 16
+  },
+  {
+   "name": "resolutionComplete",
+   "count": 16
+  },
+  {
+   "name": "onError",
+   "count": 16
+  },
+  {
+   "name": "contentX",
+   "count": 16
+  },
+  {
+   "name": "isAeonThread",
+   "count": 16
+  },
+  {
+   "name": "root",
+   "count": 16
+  },
+  {
+   "name": "phase",
+   "count": 16
+  },
+  {
+   "name": "configPath",
+   "count": 16
+  },
+  {
+   "name": "safe",
+   "count": 16
+  },
+  {
+   "name": "sensitive",
+   "count": 16
+  },
+  {
+   "name": "isResuming",
+   "count": 16
+  },
+  {
+   "name": "latestTurnFollowContentRef",
+   "count": 16
+  },
+  {
+   "name": "replace",
+   "count": 15
+  },
+  {
+   "name": "renderComposer",
+   "count": 15
+  },
+  {
+   "name": "diff",
+   "count": 15
+  },
+  {
+   "name": "isMostRecentTurn",
+   "count": 15
+  },
+  {
+   "name": "onRunAction",
+   "count": 15
+  },
+  {
+   "name": "registerEnvironmentActionCommands",
+   "count": 15
+  },
+  {
+   "name": "entityKey",
+   "count": 15
+  },
+  {
+   "name": "toolActivityTurnKey",
+   "count": 15
+  },
+  {
+   "name": "turns",
+   "count": 14
+  },
+  {
+   "name": "showUtilityBar",
+   "count": 14
+  },
+  {
+   "name": "debugName",
+   "count": 14
+  },
+  {
+   "name": "percentage",
+   "count": 14
+  },
+  {
+   "name": "turnState",
+   "count": 14
+  },
+  {
+   "name": "resource",
+   "count": 14
+  },
+  {
+   "name": "entry",
+   "count": 14
+  },
+  {
+   "name": "prompt",
+   "count": 13
+  },
+  {
+   "name": "onNewChat",
+   "count": 13
+  },
+  {
+   "name": "contentWidth",
+   "count": 13
+  },
+  {
+   "name": "layout",
+   "count": 13
+  },
+  {
+   "name": "surface",
+   "count": 13
+  },
+  {
+   "name": "d",
+   "count": 13
+  },
+  {
+   "name": "startedAtMs",
+   "count": 13
+  },
+  {
+   "name": "event",
+   "count": 13
+  },
+  {
+   "name": "end",
+   "count": 13
+  },
+  {
+   "name": "openAIFormElicitationsEnabled",
+   "count": 13
+  },
+  {
+   "name": "completedThreadGoal",
+   "count": 13
+  },
+  {
+   "name": "inputMessageId",
+   "count": 13
+  },
+  {
+   "name": "i",
+   "count": 12
+  },
+  {
+   "name": "handler",
+   "count": 12
+  },
+  {
+   "name": "LeftIcon",
+   "count": 12
+  },
+  {
+   "name": "staleTime",
+   "count": 12
+  },
+  {
+   "name": "bb0",
+   "count": 12
+  },
+  {
+   "name": "x",
+   "count": 12
+  },
+  {
+   "name": "contextId",
+   "count": 12
+  },
+  {
+   "name": "onClose",
+   "count": 12
+  },
+  {
+   "name": "p",
+   "count": 12
+  },
+  {
+   "name": "index",
+   "count": 12
+  },
+  {
+   "name": "distanceFromBottomPx",
+   "count": 12
+  },
+  {
+   "name": "onForceShow",
+   "count": 12
+  },
+  {
+   "name": "requestUserInputAsyncUiEnabled",
+   "count": 12
+  },
+  {
+   "name": "mcpServerStatuses",
+   "count": 12
+  },
+  {
+   "name": "footerContent",
+   "count": 11
+  },
+  {
+   "name": "model",
+   "count": 11
+  },
+  {
+   "name": "project",
+   "count": 11
+  },
+  {
+   "name": "footer",
+   "count": 11
+  },
+  {
+   "name": "isLoading",
+   "count": 11
+  },
+  {
+   "name": "uniform",
+   "count": 11
+  },
+  {
+   "name": "usage",
+   "count": 11
+  },
+  {
+   "name": "triggerButton",
+   "count": 11
+  },
+  {
+   "name": "y",
+   "count": 11
+  },
+  {
+   "name": "fill",
+   "count": 11
+  },
+  {
+   "name": "pendingWorktree",
+   "count": 11
+  },
+  {
+   "name": "isInProgress",
+   "count": 11
+  },
+  {
+   "name": "duration",
+   "count": 11
+  },
+  {
+   "name": "gitRoot",
+   "count": 11
+  },
+  {
+   "name": "units",
+   "count": 11
+  },
+  {
+   "name": "unitId",
+   "count": 11
+  },
+  {
+   "name": "block",
+   "count": 11
+  },
+  {
+   "name": "element",
+   "count": 11
+  },
+  {
+   "name": "includeTranscriptTurnExtras",
+   "count": 11
+  },
+  {
+   "name": "completed",
+   "count": 11
+  },
+  {
+   "name": "clientUserMessageId",
+   "count": 11
+  },
+  {
+   "name": "showFullTranscript",
+   "count": 11
+  },
+  {
+   "name": "canOwnLatestTurnFollowContent",
+   "count": 11
+  },
+  {
+   "name": "composerPresentation",
+   "count": 10
+  },
+  {
+   "name": "active",
+   "count": 10
+  },
+  {
+   "name": "onCancel",
+   "count": 10
+  },
+  {
+   "name": "visibleTurnEntries",
+   "count": 10
+  },
+  {
+   "name": "trailing",
+   "count": 10
+  },
+  {
+   "name": "l",
+   "count": 10
+  },
+  {
+   "name": "command",
+   "count": 10
+  },
+  {
+   "name": "collaborationMode",
+   "count": 10
+  },
+  {
+   "name": "actionItem",
+   "count": 10
+  },
+  {
+   "name": "transition",
+   "count": 10
+  },
+  {
+   "name": "requests",
+   "count": 10
+  },
+  {
+   "name": "threadKey",
+   "count": 10
+  },
+  {
+   "name": "lockedCollaborationMode",
+   "count": 10
+  },
+  {
+   "name": "presentationId",
+   "count": 10
+  },
+  {
+   "name": "includeAppgenResources",
+   "count": 10
+  },
+  {
+   "name": "generatedImages",
+   "count": 10
+  },
+  {
+   "name": "resources",
+   "count": 10
+  },
+  {
+   "name": "latestTurnFooter",
+   "count": 10
+  },
+  {
+   "name": "previousTurnNumber",
+   "count": 10
+  },
+  {
+   "name": "header",
+   "count": 9
+  },
+  {
+   "name": "tooltipText",
+   "count": 9
+  },
+  {
+   "name": "to",
+   "count": 9
+  },
+  {
+   "name": "tone",
+   "count": 9
+  },
+  {
+   "name": "queryFn",
+   "count": 9
+  },
+  {
+   "name": "leftIconAsset",
+   "count": 9
+  },
+  {
+   "name": "pendingClientThreadId",
+   "count": 9
+  },
+  {
+   "name": "canPin",
+   "count": 9
+  },
+  {
+   "name": "titleSuffix",
+   "count": 9
+  },
+  {
+   "name": "isActive",
+   "count": 9
+  },
+  {
+   "name": "animate",
+   "count": 9
+  },
+  {
+   "name": "sourceWorkspaceRoot",
+   "count": 9
+  },
+  {
+   "name": "Icon",
+   "count": 9
+  },
+  {
+   "name": "node",
+   "count": 9
+  },
+  {
+   "name": "isHidden",
+   "count": 9
+  },
+  {
+   "name": "matches",
+   "count": 9
+  },
+  {
+   "name": "o",
+   "count": 9
+  },
+  {
+   "name": "commandId",
+   "count": 9
+  },
+  {
+   "name": "initial",
+   "count": 9
+  },
+  {
+   "name": "itemIds",
+   "count": 9
+  },
+  {
+   "name": "showStrictReviewNotices",
+   "count": 9
+  },
+  {
+   "name": "onEditLastTurnMessage",
+   "count": 9
+  },
+  {
+   "name": "onForkTurnMessage",
+   "count": 9
+  },
+  {
+   "name": "restoreScrollPosition",
+   "count": 9
+  },
+  {
+   "name": "output",
+   "count": 8
+  },
+  {
+   "name": "$type",
+   "count": 8
+  },
+  {
+   "name": "subtitle",
+   "count": 8
+  },
+  {
+   "name": "automation",
+   "count": 8
+  },
+  {
+   "name": "isPending",
+   "count": 8
+  },
+  {
+   "name": "actionId",
+   "count": 8
+  },
+  {
+   "name": "order",
+   "count": 8
+  },
+  {
+   "name": "accountId",
+   "count": 8
+  },
+  {
+   "name": "onSuccess",
+   "count": 8
+  },
+  {
+   "name": "intl",
+   "count": 8
+  },
+  {
+   "name": "pullRequest",
+   "count": 8
+  },
+  {
+   "name": "createdAt",
+   "count": 8
+  },
+  {
+   "name": "retainRepoWatch",
+   "count": 8
+  },
+  {
+   "name": "h",
+   "count": 8
+  },
+  {
+   "name": "input",
+   "count": 8
+  },
+  {
+   "name": "paths",
+   "count": 8
+  }
+ ],
+ "literal_count": 3869,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261013\\conversation.json"
+}

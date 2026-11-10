@@ -1,0 +1,728 @@
+{
+ "module": "conversation",
+ "generated_at": "2026-10-23T01:24:44.005Z",
+ "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1016.8622.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+ "app_version": "26.1016.62342",
+ "files": [
+  {
+   "archive_path": "webview/assets/animated-icon-svg-5a3cd3e3666e.js",
+   "file": "_deps/animated-icon-svg-5a3cd3e3666e.js",
+   "selected_by": "closure:d1:conversation-ui-d36fbd9a25a0.js",
+   "raw_bytes": 266,
+   "formatted_bytes": 310,
+   "formatter": "prettier",
+   "sha256_raw": "2a8caca3b6062be6e74c4d1718b22fd50551459b049904c7742a3c07f5f51c05"
+  },
+  {
+   "archive_path": "webview/assets/artifact-originating-turn-f3d50650c1c0.js",
+   "file": "turn/artifact-originating-turn-f3d50650c1c0.js",
+   "selected_by": "rule",
+   "raw_bytes": 1576,
+   "formatted_bytes": 2077,
+   "formatter": "prettier",
+   "sha256_raw": "bfd52c2b55a5393ef8f46dd2e3ff6dc6a8f34059afa2881ceb7f8a5b6546edcd"
+  },
+  {
+   "archive_path": "webview/assets/asb-conversation-page-66a6a1d02091.js",
+   "file": "pages/asb-conversation-page-66a6a1d02091.js",
+   "selected_by": "rule",
+   "raw_bytes": 3467,
+   "formatted_bytes": 5393,
+   "formatter": "prettier",
+   "sha256_raw": "ea1eaea0cc436370dbe065197cb0f310dadf3a870eb98cf7c9d4d096b01b2ac8"
+  },
+  {
+   "archive_path": "webview/assets/automation-row-c56a98da2955.js",
+   "file": "_deps/automation-row-c56a98da2955.js",
+   "selected_by": "closure:d1:pending-local-conversation-thread-737de6a09b8e.js",
+   "raw_bytes": 22398,
+   "formatted_bytes": 36799,
+   "formatter": "prettier",
+   "sha256_raw": "8a9803afb9959fbcfa3c2eb98d9811301fa31bd14421144693ce26ace5192e02"
+  },
+  {
+   "archive_path": "webview/assets/automation-search-aa8a2f802e9c.js",
+   "file": "_deps/automation-search-aa8a2f802e9c.js",
+   "selected_by": "closure:d1:pending-local-conversation-thread-737de6a09b8e.js",
+   "raw_bytes": 318,
+   "formatted_bytes": 364,
+   "formatter": "prettier",
+   "sha256_raw": "643ce14bc42724272fb4497b89f822652844416daa4809e5337fdfaa4d740465"
+  },
+  {
+   "archive_path": "webview/assets/browser-146e2ed629fe.js",
+   "file": "_deps/browser-146e2ed629fe.js",
+   "selected_by": "closure:d1:conversation-ui-d36fbd9a25a0.js",
+   "raw_bytes": 1209,
+   "formatted_bytes": 1505,
+   "formatter": "prettier",
+   "sha256_raw": "14ace35bd2ffd69ab3c399ac7aa606f8274f234b87026a9af8be69c043248df9"
+  },
+  {
+   "archive_path": "webview/assets/button-4384731d7b46.js",
+   "file": "_deps/button-4384731d7b46.js",
+   "selected_by": "closure:d1:local-conversation-page-bef2c270918b.js",
+   "raw_bytes": 3664,
+   "formatted_bytes": 5945,
+   "formatter": "prettier",
+   "sha256_raw": "4681aa9e5c6be37acbb164df42921723b5ab8021357986e0832564a9704134c4"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_conversation_image-ea0e433caffc.js",
+   "file": "pages/chatgpt_conversation_image-ea0e433caffc.js",
+   "selected_by": "rule",
+   "raw_bytes": 1130,
+   "formatted_bytes": 1402,
+   "formatter": "prettier",
+   "sha256_raw": "e1f2bbb34075790766f3c8af3520e300862c6663e4d8365dee768d200ca52f3e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_conversational_onboarding-f7deb0d60fff.js",
+   "file": "pages/chatgpt_conversational_onboarding-f7deb0d60fff.js",
+   "selected_by": "rule",
+   "raw_bytes": 749,
+   "formatted_bytes": 869,
+   "formatter": "prettier",
+   "sha256_raw": "2a79f7eb1db15e06194048f56763b39c8548a2a95365d084b83e4841b3c2f003"
+  },
+  {
+   "archive_path": "webview/assets/conversation-83a4813734a3.js",
+   "file": "pages/conversation-83a4813734a3.js",
+   "selected_by": "rule",
+   "raw_bytes": 1450,
+   "formatted_bytes": 2145,
+   "formatter": "prettier",
+   "sha256_raw": "45f4b46f73b66ef3c717b803822a1294283a0db7d2206221e950fc9be7c4ab36"
+  },
+  {
+   "archive_path": "webview/assets/conversation-actions-12bca687c7ef.js",
+   "file": "pages/conversation-actions-12bca687c7ef.js",
+   "selected_by": "rule",
+   "raw_bytes": 8102,
+   "formatted_bytes": 11144,
+   "formatter": "prettier",
+   "sha256_raw": "2fc0fad60c7b85506734f27b9550d53b599b9a7ac922bd269c4b8f03d22c6951"
+  },
+  {
+   "archive_path": "webview/assets/conversation-d1c3cb59a3b4.js",
+   "file": "pages/conversation-d1c3cb59a3b4.js",
+   "selected_by": "rule",
+   "raw_bytes": 3055,
+   "formatted_bytes": 4717,
+   "formatter": "prettier",
+   "sha256_raw": "df1c08030a014c171477fbed2b8f089fdf2c41b4ed2a775c0c516485ad582c71"
+  },
+  {
+   "archive_path": "webview/assets/conversation-follow-up-action-list-1dc3e741786c.js",
+   "file": "pages/conversation-follow-up-action-list-1dc3e741786c.js",
+   "selected_by": "rule",
+   "raw_bytes": 5215,
+   "formatted_bytes": 5248,
+   "formatter": "prettier",
+   "sha256_raw": "1647fa10598419da2bc13899dd59570d5e57234bd8408d4b4f0440acb206dea7"
+  },
+  {
+   "archive_path": "webview/assets/conversation-gap-345d1fbb056a.js",
+   "file": "pages/conversation-gap-345d1fbb056a.js",
+   "selected_by": "rule",
+   "raw_bytes": 583,
+   "formatted_bytes": 820,
+   "formatter": "prettier",
+   "sha256_raw": "7bc83abcb1dc1cdb1107d371cb7dedbbddcc20eb9796293d912cddba479ef9ce"
+  },
+  {
+   "archive_path": "webview/assets/conversation-load-error-84e365dc6012.js",
+   "file": "pages/conversation-load-error-84e365dc6012.js",
+   "selected_by": "rule",
+   "raw_bytes": 841,
+   "formatted_bytes": 1128,
+   "formatter": "prettier",
+   "sha256_raw": "5f26a328c9396ec654e9aad68cbb08cec8433374dd0c8ab1a3d1a0fcedb05233"
+  },
+  {
+   "archive_path": "webview/assets/conversation-markdown-57a5efe1953e.js",
+   "file": "markdown/conversation-markdown-57a5efe1953e.js",
+   "selected_by": "rule",
+   "raw_bytes": 106,
+   "formatted_bytes": 118,
+   "formatter": "prettier",
+   "sha256_raw": "8d56ff64ca7a0ed735192202afe7d861723501cc69def856d85dbbfabf0c1c02"
+  },
+  {
+   "archive_path": "webview/assets/conversation-markdown-8d8838e28f8e.js",
+   "file": "markdown/conversation-markdown-8d8838e28f8e.js",
+   "selected_by": "rule",
+   "raw_bytes": 20244,
+   "formatted_bytes": 27176,
+   "formatter": "prettier",
+   "sha256_raw": "030c49bea112d2057f2311ccd9f766feb4cc3c87e3406d4068af8b342be63e3d"
+  },
+  {
+   "archive_path": "webview/assets/conversation-move-menu-items-cf03ea37d5ff.js",
+   "file": "pages/conversation-move-menu-items-cf03ea37d5ff.js",
+   "selected_by": "rule",
+   "raw_bytes": 6944,
+   "formatted_bytes": 10412,
+   "formatter": "prettier",
+   "sha256_raw": "1cd20b28ffca348dfa17857299181db0c1c82d24d0eec9de209f2646b3d07b2d"
+  },
+  {
+   "archive_path": "webview/assets/conversation-navigation-state-c57e76bb0ed1.js",
+   "file": "pages/conversation-navigation-state-c57e76bb0ed1.js",
+   "selected_by": "rule",
+   "raw_bytes": 357,
+   "formatted_bytes": 420,
+   "formatter": "prettier",
+   "sha256_raw": "d8c64c6e05c2545d38f10c97880031ea0652f85a1cb87c6f58424d52faeab67f"
+  },
+  {
+   "archive_path": "webview/assets/conversation-plan-files-7d539b5a0da1.js",
+   "file": "pages/conversation-plan-files-7d539b5a0da1.js",
+   "selected_by": "rule",
+   "raw_bytes": 1972,
+   "formatted_bytes": 3316,
+   "formatter": "prettier",
+   "sha256_raw": "f4444ff5293d2236e064b7a67779a59a2baccd79f673db17975786f25d2e1020"
+  },
+  {
+   "archive_path": "webview/assets/conversation-share-flow-5c892b9606a4.js",
+   "file": "pages/conversation-share-flow-5c892b9606a4.js",
+   "selected_by": "rule",
+   "raw_bytes": 108,
+   "formatted_bytes": 120,
+   "formatter": "prettier",
+   "sha256_raw": "fb682524f7627f6166bf84462a5bce55dbb8b70bc5f9c2b27d55f420c2b343b6"
+  },
+  {
+   "archive_path": "webview/assets/conversation-ui-d36fbd9a25a0.js",
+   "file": "pages/conversation-ui-d36fbd9a25a0.js",
+   "selected_by": "rule",
+   "raw_bytes": 14146,
+   "formatted_bytes": 21503,
+   "formatter": "prettier",
+   "sha256_raw": "881a96baa5097448e096d874a0bffd5bdfffd1fb5a92ca0856bb300e892b5ff0"
+  },
+  {
+   "archive_path": "webview/assets/conversation-ui-dc58c36ebbb5.js",
+   "file": "pages/conversation-ui-dc58c36ebbb5.js",
+   "selected_by": "rule",
+   "raw_bytes": 181,
+   "formatted_bytes": 197,
+   "formatter": "prettier",
+   "sha256_raw": "b5e03e6cc5cddc538690304aa69da1352ea4df83573002ca8a27101d642ea8aa"
+  },
+  {
+   "archive_path": "webview/assets/conversation-view-bf18baad271b.js",
+   "file": "pages/conversation-view-bf18baad271b.js",
+   "selected_by": "rule",
+   "raw_bytes": 5556,
+   "formatted_bytes": 9102,
+   "formatter": "prettier",
+   "sha256_raw": "a12f6540a5b58e5e90571c2da241e8271e0382f96dcc761b5d340e421d6a7f10"
+  },
+  {
+   "archive_path": "webview/assets/disclosure-state-b93b7fa86863.js",
+   "file": "_deps/disclosure-state-b93b7fa86863.js",
+   "selected_by": "closure:d1:conversation-ui-d36fbd9a25a0.js",
+   "raw_bytes": 1945,
+   "formatted_bytes": 2635,
+   "formatter": "prettier",
+   "sha256_raw": "56782d723ecc11cf62ae8b81e03bb02edb44f0a7728afcefe6c48f62ebf4dd53"
+  },
+  {
+   "archive_path": "webview/assets/github-queries-d87f0c1be33e.js",
+   "file": "_deps/github-queries-d87f0c1be33e.js",
+   "selected_by": "closure:d1:local-conversation-page-bef2c270918b.js",
+   "raw_bytes": 192,
+   "formatted_bytes": 210,
+   "formatter": "prettier",
+   "sha256_raw": "9506bdd2aa722f728a3850b90708d3460caf22200bb842cc064a522786ccf1ef"
+  },
+  {
+   "archive_path": "webview/assets/gitlab-merge-request-form-dialog-4db70aca7f8d.js",
+   "file": "_deps/gitlab-merge-request-form-dialog-4db70aca7f8d.js",
+   "selected_by": "closure:d1:local-conversation-thread-632d930bbfe2.js",
+   "raw_bytes": 6363,
+   "formatted_bytes": 10028,
+   "formatter": "prettier",
+   "sha256_raw": "07b0cab2f9e3e1b8105fc8651287463ea81bebd108fc84915db568008c11680b"
+  },
+  {
+   "archive_path": "webview/assets/header-action-size-e8057c4e9b60.js",
+   "file": "_deps/header-action-size-e8057c4e9b60.js",
+   "selected_by": "closure:d1:local-conversation-page-bef2c270918b.js",
+   "raw_bytes": 484,
+   "formatted_bytes": 648,
+   "formatter": "prettier",
+   "sha256_raw": "eb7add63c6e815f120267ae3c8e4b3cc96b8c22c657128f823c75d1f02782e14"
+  },
+  {
+   "archive_path": "webview/assets/header-b144159eba4a.js",
+   "file": "_deps/header-b144159eba4a.js",
+   "selected_by": "closure:d1:asb-conversation-page-66a6a1d02091.js",
+   "raw_bytes": 6985,
+   "formatted_bytes": 11255,
+   "formatter": "prettier",
+   "sha256_raw": "066b3fe2f9180503b35ed021536b2a3d1a1b2c26552de821a96604d7d39c6a03"
+  },
+  {
+   "archive_path": "webview/assets/header-button-67ea2ced1c82.js",
+   "file": "_deps/header-button-67ea2ced1c82.js",
+   "selected_by": "closure:d1:asb-conversation-page-66a6a1d02091.js",
+   "raw_bytes": 4962,
+   "formatted_bytes": 7550,
+   "formatter": "prettier",
+   "sha256_raw": "56440a4d21d5b05b372bd8cd9a89497f87fb3e42ed41ac71913807b905f3bb4a"
+  },
+  {
+   "archive_path": "webview/assets/hotkey-window-new-thread-page-48fa32ac8393.js",
+   "file": "pages/hotkey-window-new-thread-page-48fa32ac8393.js",
+   "selected_by": "rule",
+   "raw_bytes": 2217,
+   "formatted_bytes": 3258,
+   "formatter": "prettier",
+   "sha256_raw": "e572515a9fc18333dcc1b15d89b790cac81a00e933dfcccafe1fbf9cedcd9d2a"
+  },
+  {
+   "archive_path": "webview/assets/hotkey-window-thread-page-26b74a9a5f87.js",
+   "file": "pages/hotkey-window-thread-page-26b74a9a5f87.js",
+   "selected_by": "rule",
+   "raw_bytes": 3329,
+   "formatted_bytes": 5628,
+   "formatter": "prettier",
+   "sha256_raw": "74ae0eb28dc5aeeb892f37b3077c0e11538051ade4360fb24f2448068a789614"
+  },
+  {
+   "archive_path": "webview/assets/index.es-c9d2fdc4b353.js",
+   "file": "_deps/index.es-c9d2fdc4b353.js",
+   "selected_by": "closure:d1:conversation-ui-d36fbd9a25a0.js",
+   "raw_bytes": 8828,
+   "formatted_bytes": 16547,
+   "formatter": "prettier",
+   "sha256_raw": "79682510ad7fde2a4b4dd77f49e410788a77e9397badc4190888a59d3b522b83"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-git-actions-81001f089ceb.js",
+   "file": "thread/local-conversation-git-actions-81001f089ceb.js",
+   "selected_by": "rule",
+   "raw_bytes": 24693,
+   "formatted_bytes": 40953,
+   "formatter": "prettier",
+   "sha256_raw": "996087b9d7c2c78e60cf1a919666fd4a21cda55c9cea73fc51cc5ae4b53883bd"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-heartbeat-automation-ef525d823c1a.js",
+   "file": "pages/local-conversation-heartbeat-automation-ef525d823c1a.js",
+   "selected_by": "rule",
+   "raw_bytes": 5579,
+   "formatted_bytes": 8918,
+   "formatter": "prettier",
+   "sha256_raw": "7db4b7ec12a5cb4a5c6185a107232a9d4e64dbcb38e7550fc3b0042339fdd5ac"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-page-2875eeb35c19.js",
+   "file": "pages/local-conversation-page-2875eeb35c19.js",
+   "selected_by": "rule",
+   "raw_bytes": 183,
+   "formatted_bytes": 199,
+   "formatter": "prettier",
+   "sha256_raw": "c789606aebdc1e18c2dd89ecd8a65f7057409a8e5108dbc4bb617f4c81b109c7"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-page-bef2c270918b.js",
+   "file": "pages/local-conversation-page-bef2c270918b.js",
+   "selected_by": "rule",
+   "raw_bytes": 52082,
+   "formatted_bytes": 85912,
+   "formatter": "prettier",
+   "sha256_raw": "3f47c5626d679b91776fc719f60f37a0da1a0610cb61fa3f0ebdf653859d5a28"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-plan-model-814b89817fe5.js",
+   "file": "thread/local-conversation-plan-model-814b89817fe5.js",
+   "selected_by": "rule",
+   "raw_bytes": 595,
+   "formatted_bytes": 792,
+   "formatter": "prettier",
+   "sha256_raw": "87b650fb3fa3c0cff8a5f73cbbbd16851dfe4d48d57a3018f175f11ee4a8f1c9"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-side-chat-4ce0d1c03bc2.js",
+   "file": "pages/local-conversation-side-chat-4ce0d1c03bc2.js",
+   "selected_by": "rule",
+   "raw_bytes": 257,
+   "formatted_bytes": 286,
+   "formatter": "prettier",
+   "sha256_raw": "53f485987a2b66473b18ffd12433eb74e043f49dec4aa833310c08dcab454d5e"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-side-chat-tab-e86e90906a88.js",
+   "file": "pages/local-conversation-side-chat-tab-e86e90906a88.js",
+   "selected_by": "rule",
+   "raw_bytes": 105,
+   "formatted_bytes": 117,
+   "formatter": "prettier",
+   "sha256_raw": "2dfd96b78b127d4c3f8bd29dc29c945ab693077c8ac5ac2ef5816ef5a893cc0b"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-sources-signals-65d64429bd9a.js",
+   "file": "pages/local-conversation-sources-signals-65d64429bd9a.js",
+   "selected_by": "rule",
+   "raw_bytes": 286,
+   "formatted_bytes": 319,
+   "formatter": "prettier",
+   "sha256_raw": "b38a857af0bf70330e49cf1f986270758f0c1df08339fe64c37f4af7bcc1a1c8"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-stream-role-product-event-2bdb514a7026.js",
+   "file": "turn/local-conversation-stream-role-product-event-2bdb514a7026.js",
+   "selected_by": "rule",
+   "raw_bytes": 1640,
+   "formatted_bytes": 2638,
+   "formatter": "prettier",
+   "sha256_raw": "b1e4543cb41ec5c0119ed546898dbd872e1da00e0e89854c5f2c7878e9b38358"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-tab-runtime-bridge-fea1a6b3fc35.js",
+   "file": "pages/local-conversation-tab-runtime-bridge-fea1a6b3fc35.js",
+   "selected_by": "rule",
+   "raw_bytes": 3051,
+   "formatted_bytes": 4844,
+   "formatter": "prettier",
+   "sha256_raw": "c23652985f3c97944d673fe534197b26fd4637440a13d4767542b8768621e12c"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-thread-632d930bbfe2.js",
+   "file": "thread/local-conversation-thread-632d930bbfe2.js",
+   "selected_by": "rule",
+   "raw_bytes": 345615,
+   "formatted_bytes": 556336,
+   "formatter": "prettier",
+   "sha256_raw": "658efd0f4b436e0c0d2a98df5e4452d8292123fc50be06b8568ecbc8d68671d2"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-thread-885589d0766a.js",
+   "file": "thread/local-conversation-thread-885589d0766a.js",
+   "selected_by": "rule",
+   "raw_bytes": 202,
+   "formatted_bytes": 218,
+   "formatter": "prettier",
+   "sha256_raw": "8e72f672415e6d15fc19763fe07efdda3db6eb9a5955e8a6076a92d3416d711d"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-thread-turn-entries-9a9408488d53.js",
+   "file": "turn/local-conversation-thread-turn-entries-9a9408488d53.js",
+   "selected_by": "rule",
+   "raw_bytes": 20341,
+   "formatted_bytes": 28054,
+   "formatter": "prettier",
+   "sha256_raw": "86dd953f1eceb8b996eff3d6b34074a20e6623d813c62e9cd94bc06de840d268"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-turn-c29506b1be78.js",
+   "file": "turn/local-conversation-turn-c29506b1be78.js",
+   "selected_by": "rule",
+   "raw_bytes": 91524,
+   "formatted_bytes": 152145,
+   "formatter": "prettier",
+   "sha256_raw": "aaa7c0abe47767cdd980ac93d0d8c2ea3744ff40272f684389f3b60fc6af4147"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-webmcp-tools-model-2624d59104f6.js",
+   "file": "thread/local-conversation-webmcp-tools-model-2624d59104f6.js",
+   "selected_by": "rule",
+   "raw_bytes": 199,
+   "formatted_bytes": 215,
+   "formatter": "prettier",
+   "sha256_raw": "7d60054fe029d4b0ba714bce8c8460303052c2188842e112fe0919386f629e41"
+  },
+  {
+   "archive_path": "webview/assets/local-conversation-webmcp-tools-model-dcbfecb89837.js",
+   "file": "thread/local-conversation-webmcp-tools-model-dcbfecb89837.js",
+   "selected_by": "rule",
+   "raw_bytes": 854,
+   "formatted_bytes": 1093,
+   "formatter": "prettier",
+   "sha256_raw": "6b10c646690832649735525b679484c8374e049ff9ca09c5bf16495159ef9cab"
+  },
+  {
+   "archive_path": "webview/assets/local-environment-workflow-messages-83f970f5c58f.js",
+   "file": "pages/local-environment-workflow-messages-83f970f5c58f.js",
+   "selected_by": "rule",
+   "raw_bytes": 1212,
+   "formatted_bytes": 1551,
+   "formatter": "prettier",
+   "sha256_raw": "691575b58775b126418652912954e839992c18b91c0733161674bea9ee9faca2"
+  },
+  {
+   "archive_path": "webview/assets/lottie_light-6d958e55eef3.js",
+   "file": "_deps/lottie_light-6d958e55eef3.js",
+   "selected_by": "closure:d1:conversation-ui-d36fbd9a25a0.js",
+   "raw_bytes": 169184,
+   "formatted_bytes": 318306,
+   "formatter": "prettier",
+   "sha256_raw": "2966fad992644ed0d41c5be973c243ac51dab965905c4ab40f5700d095cf100a"
+  },
+  {
+   "archive_path": "webview/assets/offer-voice-conversation-fdca796141a7.js",
+   "file": "pages/offer-voice-conversation-fdca796141a7.js",
+   "selected_by": "rule",
+   "raw_bytes": 5949,
+   "formatted_bytes": 5982,
+   "formatter": "prettier",
+   "sha256_raw": "2cf8194c7b606273d1582c22004593cb36449a7d624aa9c95003255bf6d1f9ce"
+  },
+  {
+   "archive_path": "webview/assets/open-picker-590970999d1f.js",
+   "file": "_deps/open-picker-590970999d1f.js",
+   "selected_by": "closure:d1:thread-overflow-menu-614d6a35ed69.js",
+   "raw_bytes": 845,
+   "formatted_bytes": 1048,
+   "formatter": "prettier",
+   "sha256_raw": "a5e8be16883cd4ee015bd80f356703cbaa408b873b7039993fdc0a594405e04f"
+  },
+  {
+   "archive_path": "webview/assets/pending-local-conversation-thread-737de6a09b8e.js",
+   "file": "pages/pending-local-conversation-thread-737de6a09b8e.js",
+   "selected_by": "rule",
+   "raw_bytes": 60910,
+   "formatted_bytes": 96696,
+   "formatter": "prettier",
+   "sha256_raw": "92781e8e97f30d78611d7321f523eb515417c0bb9fb0849eab6cdb49d440b2ae"
+  },
+  {
+   "archive_path": "webview/assets/preview-footer-controls-5643864f8a3d.js",
+   "file": "_deps/preview-footer-controls-5643864f8a3d.js",
+   "selected_by": "closure:d1:unavailable-local-conversation-page-9a9c313fc114.js",
+   "raw_bytes": 2500,
+   "formatted_bytes": 3986,
+   "formatter": "prettier",
+   "sha256_raw": "f5bbaf6f4338f161c4c12fe06a057399b3935ecc8ecafc4f159c4a07edb0a56c"
+  },
+  {
+   "archive_path": "webview/assets/remote-conversation-page-44085979704b.js",
+   "file": "pages/remote-conversation-page-44085979704b.js",
+   "selected_by": "rule",
+   "raw_bytes": 76700,
+   "formatted_bytes": 121063,
+   "formatter": "prettier",
+   "sha256_raw": "81c87458ef9b1bb4243af3e4080d0bfaad09ba7d0e4de57c2e8e18c5e0900454"
+  },
+  {
+   "archive_path": "webview/assets/revision-review-unavailable-message-fb159f3486a9.js",
+   "file": "turn/revision-review-unavailable-message-fb159f3486a9.js",
+   "selected_by": "rule",
+   "raw_bytes": 30200,
+   "formatted_bytes": 49765,
+   "formatter": "prettier",
+   "sha256_raw": "545a77d5881203c361e596f82bff95f3296c66af5dc212c45ca2a10e5f9d76a9"
+  },
+  {
+   "archive_path": "webview/assets/share-conversation-action-61d6c8ca1283.js",
+   "file": "pages/share-conversation-action-61d6c8ca1283.js",
+   "selected_by": "rule",
+   "raw_bytes": 2219,
+   "formatted_bytes": 3083,
+   "formatter": "prettier",
+   "sha256_raw": "70decf1408713a455f65603d80db4321fe8bb044e080c64bd77eccd83e9a5500"
+  },
+  {
+   "archive_path": "webview/assets/shared-conversation-page-adbe59d0314e.js",
+   "file": "pages/shared-conversation-page-adbe59d0314e.js",
+   "selected_by": "rule",
+   "raw_bytes": 4901,
+   "formatted_bytes": 7614,
+   "formatter": "prettier",
+   "sha256_raw": "ce37999965be75030312256be02dba24837ec3e44828906f5a1d4841568f84be"
+  },
+  {
+   "archive_path": "webview/assets/thread-context-f9f01e9a7a89.js",
+   "file": "scroll/thread-context-f9f01e9a7a89.js",
+   "selected_by": "rule",
+   "raw_bytes": 425,
+   "formatted_bytes": 505,
+   "formatter": "prettier",
+   "sha256_raw": "d090ceb894bc5ac8be69327ad0e574599b16d4eca9b5c43295569a5ca30d0de1"
+  },
+  {
+   "archive_path": "webview/assets/thread-emoji-a1443c735c6b.js",
+   "file": "_deps/thread-emoji-a1443c735c6b.js",
+   "selected_by": "closure:d1:asb-conversation-page-66a6a1d02091.js",
+   "raw_bytes": 518,
+   "formatted_bytes": 706,
+   "formatter": "prettier",
+   "sha256_raw": "79136d0bd40f97e51afa9c834decd1d0a41962c4f7727155d9d7a1470594ced6"
+  },
+  {
+   "archive_path": "webview/assets/thread-overflow-menu-614d6a35ed69.js",
+   "file": "thread/thread-overflow-menu-614d6a35ed69.js",
+   "selected_by": "rule",
+   "raw_bytes": 17846,
+   "formatted_bytes": 30062,
+   "formatter": "prettier",
+   "sha256_raw": "03a98359f3556770c6021b197af322f98555af6c8e20f62f71e51ae9089a6a68"
+  },
+  {
+   "archive_path": "webview/assets/thread-pin-shortcut-bridge-783a04c5ba4e.js",
+   "file": "thread/thread-pin-shortcut-bridge-783a04c5ba4e.js",
+   "selected_by": "rule",
+   "raw_bytes": 471,
+   "formatted_bytes": 663,
+   "formatter": "prettier",
+   "sha256_raw": "b7917237bc425a7b1a0a3af248ad6e9dbaa3df175a92d0d2fa377eac809e7005"
+  },
+  {
+   "archive_path": "webview/assets/thread-response-space-controller-434ad228f281.js",
+   "file": "scroll/thread-response-space-controller-434ad228f281.js",
+   "selected_by": "rule",
+   "raw_bytes": 9031,
+   "formatted_bytes": 14528,
+   "formatter": "prettier",
+   "sha256_raw": "ae3b2c631d755f4be3ecc5793abecf3ddb4f6b1cfe8310fe1c5eacc75604d40c"
+  },
+  {
+   "archive_path": "webview/assets/thread-scroll-layout-24b9bd243051.css",
+   "file": "scroll/thread-scroll-layout-24b9bd243051.css",
+   "selected_by": "rule",
+   "raw_bytes": 2404,
+   "formatted_bytes": 2968,
+   "formatter": "prettier",
+   "sha256_raw": "afc0befc6951a4bcf9d3f54d1fc0b3e320734d7ac4e909f579e0ce2cb08c3835"
+  },
+  {
+   "archive_path": "webview/assets/thread-scroll-layout-d113e24968c3.js",
+   "file": "scroll/thread-scroll-layout-d113e24968c3.js",
+   "selected_by": "rule",
+   "raw_bytes": 21643,
+   "formatted_bytes": 36289,
+   "formatter": "prettier",
+   "sha256_raw": "c54f8a48e900b4741d39f669d33cec41c40278d715d77ee7e9d39d8d81e642fc"
+  },
+  {
+   "archive_path": "webview/assets/thread-tab-route-checkpoint-df457b913c54.js",
+   "file": "scroll/thread-tab-route-checkpoint-df457b913c54.js",
+   "selected_by": "rule",
+   "raw_bytes": 110,
+   "formatted_bytes": 122,
+   "formatter": "prettier",
+   "sha256_raw": "306061fbe68803ae8f4223211f15d7a9a76bcd0b06dd3714bdbfcc01eb340128"
+  },
+  {
+   "archive_path": "webview/assets/thread-usage-breakdown-5244c261335d.js",
+   "file": "thread/thread-usage-breakdown-5244c261335d.js",
+   "selected_by": "rule",
+   "raw_bytes": 11547,
+   "formatted_bytes": 18717,
+   "formatter": "prettier",
+   "sha256_raw": "0b1ceda0272cec23db1393755a6b97ae0feb4284f0aa056885aef114d7bdf726"
+  },
+  {
+   "archive_path": "webview/assets/thread-user-message-navigation-rail-app-b29244c8e531.js",
+   "file": "nav-rail/thread-user-message-navigation-rail-app-b29244c8e531.js",
+   "selected_by": "rule",
+   "raw_bytes": 1556,
+   "formatted_bytes": 2375,
+   "formatter": "prettier",
+   "sha256_raw": "8bf69f335ece5cde5cb6d6fbf40dbc47aceef65b5680abcdd65d92b69cffc5bc"
+  },
+  {
+   "archive_path": "webview/assets/thread-virtualizer-e1964ca5c039.js",
+   "file": "scroll/thread-virtualizer-e1964ca5c039.js",
+   "selected_by": "rule",
+   "raw_bytes": 2131,
+   "formatted_bytes": 2851,
+   "formatter": "prettier",
+   "sha256_raw": "d1a120db42f0789fa5c7b6381b76090413ac027377844731ab7c4b5ccf3fcfb0"
+  },
+  {
+   "archive_path": "webview/assets/unavailable-local-conversation-page-9a9c313fc114.js",
+   "file": "pages/unavailable-local-conversation-page-9a9c313fc114.js",
+   "selected_by": "rule",
+   "raw_bytes": 24833,
+   "formatted_bytes": 40862,
+   "formatter": "prettier",
+   "sha256_raw": "57664d374734d46a27f393b0c663075f321f8b4e056fe31ab9913bbdd26d195b"
+  },
+  {
+   "archive_path": "webview/assets/unrestored-thread-tab-route-4bc7beb43c76.js",
+   "file": "pages/unrestored-thread-tab-route-4bc7beb43c76.js",
+   "selected_by": "rule",
+   "raw_bytes": 1888,
+   "formatted_bytes": 2659,
+   "formatter": "prettier",
+   "sha256_raw": "e6470770a526048c5e08bd303d10295fbf228f537093fd463726b06c64c85c8c"
+  },
+  {
+   "archive_path": "webview/assets/use-conversation-diff-comments-4bbc633feaf1.js",
+   "file": "thread/use-conversation-diff-comments-4bbc633feaf1.js",
+   "selected_by": "rule",
+   "raw_bytes": 2967,
+   "formatted_bytes": 4966,
+   "formatter": "prettier",
+   "sha256_raw": "7d8828c8dae4e301b7f94d4529a2b13891248bc7d15dfa8d0407ea64f19355be"
+  },
+  {
+   "archive_path": "webview/assets/use-conversation-search-highlights-a575b244d278.js",
+   "file": "pages/use-conversation-search-highlights-a575b244d278.js",
+   "selected_by": "rule",
+   "raw_bytes": 12341,
+   "formatted_bytes": 18036,
+   "formatter": "prettier",
+   "sha256_raw": "5a9c27b31f0df16037064f5fb5128992a29adac0c2bc67bf9243508833067953"
+  },
+  {
+   "archive_path": "webview/assets/use-conversational-onboarding-local-plugins-7d7956127060.js",
+   "file": "pages/use-conversational-onboarding-local-plugins-7d7956127060.js",
+   "selected_by": "rule",
+   "raw_bytes": 32441,
+   "formatted_bytes": 51202,
+   "formatter": "prettier",
+   "sha256_raw": "55e80b63063adb536ca44f86724c3e12fab81f014dbd385aa6c454c329f63e0e"
+  },
+  {
+   "archive_path": "webview/assets/use-hotkey-window-detail-layout-b8900124f3e8.js",
+   "file": "_deps/use-hotkey-window-detail-layout-b8900124f3e8.js",
+   "selected_by": "closure:d1:hotkey-window-new-thread-page-48fa32ac8393.js",
+   "raw_bytes": 500,
+   "formatted_bytes": 788,
+   "formatter": "prettier",
+   "sha256_raw": "66abb22ad6fe8e9e962806624f0df753b171ee8734b9ab2b33bdf08d329e63f1"
+  },
+  {
+   "archive_path": "webview/assets/use-is-realtime-conversation-enabled-74370e979fa5.js",
+   "file": "pages/use-is-realtime-conversation-enabled-74370e979fa5.js",
+   "selected_by": "rule",
+   "raw_bytes": 459,
+   "formatted_bytes": 592,
+   "formatter": "prettier",
+   "sha256_raw": "f253cf6f81b63ecbc8c9934e5d411298f9322b4cd62c72683032647cd62b84cd"
+  },
+  {
+   "archive_path": "webview/assets/use-local-conversation-sources-cbe6d4d0f86c.js",
+   "file": "pages/use-local-conversation-sources-cbe6d4d0f86c.js",
+   "selected_by": "rule",
+   "raw_bytes": 3962,
+   "formatted_bytes": 6049,
+   "formatter": "prettier",
+   "sha256_raw": "c3934896a785d3bb0ac8a5e87e1d0f293d4ca90b0bc4499738fecd66b92d61f8"
+  },
+  {
+   "archive_path": "webview/assets/use-resume-conversation-if-needed-f52eaea4c739.js",
+   "file": "pages/use-resume-conversation-if-needed-f52eaea4c739.js",
+   "selected_by": "rule",
+   "raw_bytes": 8890,
+   "formatted_bytes": 15282,
+   "formatter": "prettier",
+   "sha256_raw": "fb968f65043693a362b0175cef57b32c292b3554a6b5accce51d178d6af031ed"
+  },
+  {
+   "archive_path": "webview/assets/use-start-new-conversation-45ed79e7ebbd.js",
+   "file": "pages/use-start-new-conversation-45ed79e7ebbd.js",
+   "selected_by": "rule",
+   "raw_bytes": 136,
+   "formatted_bytes": 150,
+   "formatter": "prettier",
+   "sha256_raw": "d268254709ae508641ff8fa879c8f47257c0b8900d492d3bd24a7c784b035d28"
+  }
+ ]
+}

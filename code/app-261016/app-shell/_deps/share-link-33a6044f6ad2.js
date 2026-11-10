@@ -1,0 +1,90 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { GS as t, KS as n, Xgr as r, Zgr as i } from "./app-initial-ad16eaadf81f.js";
+function a(e, t) {
+  let n = new URLSearchParams(t);
+  if (n.get(`review_access_requests`) !== `1`) return null;
+  let r = n.get(`file_id`)?.trim();
+  if (r != null)
+    return (e === `/library` || e === `/library/`) && l.test(r)
+      ? { resourceId: r, resourceKind: `file` }
+      : null;
+  let i = /^\/library\/d\/([^/]+)\/?$/.exec(e);
+  if (i == null) return null;
+  try {
+    let e = decodeURIComponent(i[1]);
+    return /^(?:[A-Fa-f0-9]{32}|(?:libdir_|libdir-)[A-Za-z0-9_-]+)$/.test(e)
+      ? { resourceId: e, resourceKind: `folder` }
+      : null;
+  } catch {
+    return null;
+  }
+}
+function o(e, n) {
+  let i = new URLSearchParams(n).get(`file_id`)?.trim() || null;
+  if (e.startsWith(`/library/share/`)) {
+    let t = /^\/library\/share\/([^/]+)(?:\/([^/]+))?(?:\/([^/]+))?\/?$/.exec(e);
+    if (t == null) return null;
+    let n;
+    try {
+      n = t
+        .slice(1)
+        .filter((e) => e != null)
+        .map(decodeURIComponent);
+    } catch {
+      return null;
+    }
+    let a = (e) => l.test(e);
+    if (!n.every((e) => c.test(e)) || n.slice(0, -1).some(a) || (n.length === 3 && !a(n[2]))) return null;
+    let o = n[n.length - 1],
+      s = a(o) ? o : i;
+    if (s != null && !c.test(s)) return null;
+    a(o) && n.pop();
+    let u = n[0] ?? null,
+      d = n.map((e) => r(e).replaceAll(`+`, `-`).replaceAll(`/`, `_`).replace(/=+$/u, ``));
+    return {
+      fileId: s,
+      directoryId: u == null ? null : `library:shared-directory:v1:${d[0]}.${d[1] ?? d[0]}`,
+      folderResourceId: n[1] ?? u,
+    };
+  }
+  if (i == null || !c.test(i)) return null;
+  let a = null;
+  if (e.startsWith(`/library/d/`))
+    try {
+      a = decodeURIComponent(e.slice(11));
+    } catch {
+      return null;
+    }
+  else if (e !== `/library` && e !== `/library/`) return null;
+  return { fileId: i, directoryId: a, folderResourceId: t(a)?.[1] ?? null };
+}
+function s({ libraryFileId: e, origin: n = u, resourceKind: r, sharedDirectoryId: i, workspaceId: a }) {
+  let o = t(i),
+    s = o?.[0],
+    c = r === `folder` ? e : o?.[1],
+    d = s ?? (r === `folder` ? e : void 0),
+    f = `/library`;
+  d != null &&
+    c != null &&
+    ((f = `/library/share/${encodeURIComponent(d)}`), c !== d && (f += `/${encodeURIComponent(c)}`));
+  let p = r === `file` && l.test(e);
+  p && (f = `${d == null ? `/library/share` : f}/${encodeURIComponent(e)}`);
+  let m = new URL(f, n);
+  return (
+    r === `file` && !p && m.searchParams.set(`file_id`, e),
+    m.searchParams.set(`account_id`, a ?? `personal`),
+    m
+  );
+}
+var c, l, u;
+function d() {
+  return (d = e(() => {
+    (n(),
+      i(),
+      (c = /^[A-Za-z0-9_-]+$/),
+      (l = /^(?:libfile_|libfile-)[A-Za-z0-9_-]+$/),
+      (u = `https://chatgpt.com`));
+  }))();
+}
+export { o as a, a as i, s as n, d as r, u as t };
+//# sourceMappingURL=share-link-33a6044f6ad2.js.map

@@ -1,0 +1,816 @@
+{
+  "schema_version": 6,
+  "collected_at": "2026-11-09T07:57:40.913Z",
+  "source": "local Windows MSIX installation (read-only)",
+  "package": {
+    "display_name": "ChatGPT",
+    "publisher": "OpenAI",
+    "publisher_id": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
+    "identity": "OpenAI.Codex_2p2nqsd0c76g0",
+    "package_id": "OpenAI.Codex_26.1103.4239.0_x64__2p2nqsd0c76g0",
+    "msix_version": "26.1103.4239.0",
+    "app_version": "26.1103.32239",
+    "codex_build_number": "25471",
+    "codex_build_flavor": "prod",
+    "chromium": "157.0.8103.39",
+    "electron": "not_statically_verified",
+    "vite": "not_statically_verified (renderer bundler is Rspack as of 26.1103)",
+    "typescript": "not_statically_verified",
+    "runtime_name": "owl",
+    "architecture": "x64",
+    "install_root": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1103.4239.0_x64__2p2nqsd0c76g0",
+    "owl_runtime_archive_sha": "0ded5465a53b809f1676d1f9797961cfc48dbfe5b09d48472239ddc293a52bec",
+    "package_json": {
+      "name": "openai-codex-electron",
+      "product_name": "Codex",
+      "version": "26.1103.32239",
+      "main": ".vite/build/early-bootstrap.js",
+      "codex_build_flavor": "prod",
+      "codex_build_number": "25471",
+      "codex_windows_app_contained_core": "1"
+    }
+  },
+  "paths": {
+    "msix_entry": "app\\ChatGPT.exe",
+    "electron_main": "app.asar:.vite/build/early-bootstrap.js",
+    "electron_main_largest_chunk": "app.asar:.vite/build/early-bootstrap-199-e3316cddb4ea6a6b.js",
+    "preload": "app.asar:.vite/build/preload.js",
+    "codex_runtime": "app\\resources\\codex.exe",
+    "asar": "app\\resources\\app.asar",
+    "webview_entry": "app.asar:webview/index.html",
+    "renderer_entry_chunks": [
+      "app.asar:webview/assets/782259.7a3e865ee5.js",
+      "app.asar:webview/assets/727403.da6b00f04b.js",
+      "app.asar:webview/assets/158624.0baba19172.js",
+      "app.asar:webview/assets/348410.792d1c9584.js"
+    ],
+    "renderer_runtime_chunk": "app.asar:webview/assets/348410.792d1c9584.js",
+    "initial_css": null,
+    "settings_map": "code/app-261103/settings/_SETTINGS_MAP.json",
+    "app_server_methods": "code/app-261103/main-process/_APP_SERVER_METHODS.json"
+  },
+  "files": {
+    "app\\resources\\app.asar": {
+      "size_bytes": 761023153,
+      "sha256": "FB47D6491DC3006B708CB1E14DE479B882BF50F88B7DAA81818F154C253266AA"
+    },
+    "app\\ChatGPT.exe": {
+      "size_bytes": 4471600,
+      "sha256": "5586707AF6624C04959BA2C5B4AD6D216A1D8ED17C04937A757495649DE44B92"
+    },
+    "app\\Codex.exe": {
+      "size_bytes": 20272,
+      "sha256": "A0CFA7AA6C94969D5E00FDDB6E856BC786639200DC816E846D577BFAD1EDB6A8"
+    },
+    "app\\resources\\codex.exe": {
+      "size_bytes": 369018160,
+      "sha256": "4B3286E35D7FE866C6B0EB3F07D7A4CDB5E96489576170DFD6B3A15AA1C67382"
+    },
+    "app\\chrome.dll": {
+      "size_bytes": 337069360,
+      "sha256": "5B49A79CE8E495725DFD1C38EA79CFAB87B8DA9488C897DC2E44F3BFBCB070C6"
+    },
+    "AppxManifest.xml": {
+      "size_bytes": 9395,
+      "sha256": "612836D54E389E5FC861401D852C74C9B9075EA1D1932F2F1C04650C59F7D7BF"
+    }
+  },
+  "manifest_capabilities": {
+    "capabilities": [
+      "rescap:runFullTrust",
+      "rescap:unvirtualizedResources",
+      "rescap:packagedServices",
+      "rescap:localSystemServices",
+      "internetClient",
+      "uap11:graphicsCaptureProgrammatic",
+      "uap11:graphicsCaptureWithoutBorder"
+    ],
+    "protocols": [
+      "codex://"
+    ],
+    "file_extensions": [
+      ".skill",
+      ".csv",
+      ".docx",
+      ".pptx",
+      ".tsv",
+      ".xls",
+      ".xlsm",
+      ".xlsx"
+    ],
+    "directory_context_menu_verb": "OpenProjectInCodex",
+    "com_surrogate": {
+      "clsid": "d28d30e7-17f3-41d9-93f0-9bae6dc4884b",
+      "path": "app/resources/native/windows-account.node",
+      "threading": "STA"
+    },
+    "services": [
+      {
+        "name": "CodexSandboxService.OpenAI.Codex",
+        "executable": "app/resources/codex-windows-sandbox-service.exe",
+        "startup": "auto",
+        "account": "localSystem"
+      }
+    ],
+    "execution_aliases": [
+      "chatgpt-desktop.exe",
+      "codex-chrome-native-host.exe",
+      "codex-core-command-runner.exe"
+    ],
+    "startup_task": "App (Enabled=true, DisplayName=ChatGPT)",
+    "app_extension": "com.microsoft.windows.copilotkeyprovider",
+    "firewall_rules": [
+      {
+        "exe": "app/ChatGPT.exe",
+        "direction": "in",
+        "protocol": "TCP",
+        "ports": [
+          [
+            1455,
+            1455
+          ],
+          [
+            1457,
+            1457
+          ]
+        ]
+      },
+      {
+        "exe": "app/resources/codex.exe",
+        "direction": "in",
+        "protocol": "TCP",
+        "ports": [
+          [
+            1455,
+            1455
+          ],
+          [
+            1457,
+            1457
+          ],
+          [
+            3128,
+            3159
+          ],
+          [
+            8081,
+            8112
+          ]
+        ]
+      }
+    ],
+    "write_virtualization_excluded": {
+      "directories": [
+        "%LOCALAPPDATA%\\OpenAI"
+      ],
+      "registry_keys": [
+        "HKCU\\Software\\Google\\Chrome\\NativeMessagingHosts"
+      ]
+    }
+  },
+  "asar_inventory": {
+    "entries": 20127,
+    "files": 19793,
+    "directories": 334,
+    "bytes": 772828333,
+    "by_extension": [
+      {
+        "ext": ".js",
+        "files": 9640,
+        "bytes": 534883530
+      },
+      {
+        "ext": ".webp",
+        "files": 959,
+        "bytes": 67840258
+      },
+      {
+        "ext": ".png",
+        "files": 719,
+        "bytes": 43185508
+      },
+      {
+        "ext": ".wasm",
+        "files": 38,
+        "bytes": 39915460
+      },
+      {
+        "ext": ".json",
+        "files": 1021,
+        "bytes": 22776462
+      },
+      {
+        "ext": ".css",
+        "files": 587,
+        "bytes": 14542316
+      },
+      {
+        "ext": ".webm",
+        "files": 1,
+        "bytes": 11491496
+      },
+      {
+        "ext": ".node",
+        "files": 6,
+        "bytes": 9154560
+      },
+      {
+        "ext": ".data",
+        "files": 2,
+        "bytes": 7097694
+      },
+      {
+        "ext": ".mp4",
+        "files": 3,
+        "bytes": 5227291
+      },
+      {
+        "ext": ".svg",
+        "files": 2674,
+        "bytes": 3411224
+      },
+      {
+        "ext": ".wav",
+        "files": 11,
+        "bytes": 2758248
+      },
+      {
+        "ext": ".mjs",
+        "files": 22,
+        "bytes": 1948802
+      },
+      {
+        "ext": ".exe",
+        "files": 1,
+        "bytes": 1209344
+      },
+      {
+        "ext": ".h",
+        "files": 31,
+        "bytes": 1162272
+      },
+      {
+        "ext": ".dll",
+        "files": 1,
+        "bytes": 1089024
+      },
+      {
+        "ext": ".pp_data",
+        "files": 25,
+        "bytes": 1018656
+      },
+      {
+        "ext": ".txt",
+        "files": 3564,
+        "bytes": 776356
+      },
+      {
+        "ext": ".ttf",
+        "files": 20,
+        "bytes": 513664
+      },
+      {
+        "ext": ".woff2",
+        "files": 25,
+        "bytes": 513364
+      },
+      {
+        "ext": ".woff",
+        "files": 22,
+        "bytes": 349372
+      },
+      {
+        "ext": ".c",
+        "files": 12,
+        "bytes": 315965
+      },
+      {
+        "ext": ".md",
+        "files": 62,
+        "bytes": 290250
+      },
+      {
+        "ext": ".ts",
+        "files": 136,
+        "bytes": 243625
+      },
+      {
+        "ext": "(none)",
+        "files": 44,
+        "bytes": 189815
+      },
+      {
+        "ext": ".jpg",
+        "files": 3,
+        "bytes": 148689
+      },
+      {
+        "ext": ".docx",
+        "files": 3,
+        "bytes": 112023
+      },
+      {
+        "ext": ".cpp",
+        "files": 7,
+        "bytes": 88137
+      },
+      {
+        "ext": ".rpt_desc",
+        "files": 50,
+        "bytes": 74893
+      },
+      {
+        "ext": ".pptx",
+        "files": 3,
+        "bytes": 71586
+      },
+      {
+        "ext": ".cc",
+        "files": 6,
+        "bytes": 60431
+      },
+      {
+        "ext": ".ogg",
+        "files": 6,
+        "bytes": 56988
+      },
+      {
+        "ext": ".avif",
+        "files": 1,
+        "bytes": 56883
+      },
+      {
+        "ext": ".mts",
+        "files": 5,
+        "bytes": 35536
+      },
+      {
+        "ext": ".yml",
+        "files": 8,
+        "bytes": 33561
+      },
+      {
+        "ext": ".xlsx",
+        "files": 3,
+        "bytes": 29762
+      },
+      {
+        "ext": ".icns",
+        "files": 1,
+        "bytes": 21918
+      },
+      {
+        "ext": ".vcxproj",
+        "files": 2,
+        "bytes": 21372
+      },
+      {
+        "ext": ".m4",
+        "files": 2,
+        "bytes": 17755
+      },
+      {
+        "ext": ".html",
+        "files": 8,
+        "bytes": 15465
+      },
+      {
+        "ext": ".gyp",
+        "files": 9,
+        "bytes": 15290
+      },
+      {
+        "ext": ".vcproj",
+        "files": 3,
+        "bytes": 13155
+      },
+      {
+        "ext": ".ac",
+        "files": 1,
+        "bytes": 7789
+      },
+      {
+        "ext": ".gypi",
+        "files": 9,
+        "bytes": 6045
+      },
+      {
+        "ext": ".am",
+        "files": 7,
+        "bytes": 4572
+      },
+      {
+        "ext": ".in",
+        "files": 5,
+        "bytes": 3251
+      },
+      {
+        "ext": ".sln",
+        "files": 2,
+        "bytes": 3076
+      },
+      {
+        "ext": ".icc",
+        "files": 1,
+        "bytes": 3024
+      },
+      {
+        "ext": ".sh",
+        "files": 1,
+        "bytes": 2579
+      },
+      {
+        "ext": ".m",
+        "files": 1,
+        "bytes": 2332
+      },
+      {
+        "ext": ".ps1",
+        "files": 1,
+        "bytes": 1716
+      },
+      {
+        "ext": ".rules",
+        "files": 1,
+        "bytes": 1639
+      },
+      {
+        "ext": ".linux",
+        "files": 2,
+        "bytes": 1530
+      },
+      {
+        "ext": ".podspec",
+        "files": 1,
+        "bytes": 1417
+      },
+      {
+        "ext": ".freebsd",
+        "files": 2,
+        "bytes": 1389
+      },
+      {
+        "ext": ".mingw",
+        "files": 2,
+        "bytes": 1254
+      },
+      {
+        "ext": ".license",
+        "files": 1,
+        "bytes": 1080
+      },
+      {
+        "ext": ".yaml",
+        "files": 1,
+        "bytes": 1075
+      },
+      {
+        "ext": ".mac",
+        "files": 1,
+        "bytes": 1072
+      },
+      {
+        "ext": ".rc",
+        "files": 1,
+        "bytes": 972
+      },
+      {
+        "ext": ".build",
+        "files": 1,
+        "bytes": 894
+      },
+      {
+        "ext": ".cmd",
+        "files": 1,
+        "bytes": 884
+      },
+      {
+        "ext": ".plist",
+        "files": 1,
+        "bytes": 816
+      },
+      {
+        "ext": ".haiku",
+        "files": 1,
+        "bytes": 784
+      },
+      {
+        "ext": ".bnf",
+        "files": 1,
+        "bytes": 702
+      },
+      {
+        "ext": ".mk",
+        "files": 1,
+        "bytes": 349
+      },
+      {
+        "ext": ".strings",
+        "files": 1,
+        "bytes": 92
+      }
+    ]
+  },
+  "renderer": {
+    "bundler": "rspack",
+    "module_format": "export const __rspack_esm_ids=[id];export const __webpack_modules__={...}",
+    "entry_chunks": [
+      {
+        "path": "webview/assets/782259.7a3e865ee5.js",
+        "bytes": 3625
+      },
+      {
+        "path": "webview/assets/727403.da6b00f04b.js",
+        "bytes": 7762,
+        "note": "React 19.2.7"
+      },
+      {
+        "path": "webview/assets/158624.0baba19172.js",
+        "bytes": 137126
+      },
+      {
+        "path": "webview/assets/348410.792d1c9584.js",
+        "bytes": 272412,
+        "note": "Rspack runtime + p.u / p.miniCssF maps"
+      }
+    ],
+    "async_js_chunk_ids": 9326,
+    "async_css_chunk_ids": 1567,
+    "missing_mapped_js_files": 1,
+    "async_files": 13492,
+    "async_bytes": 522535614,
+    "async_css_bytes": 14542316
+  },
+  "bundled_resources": {
+    "cua_node": {
+      "files": 2461,
+      "bytes": 315705906
+    },
+    "plugins": {
+      "files": 860,
+      "bytes": 35191141,
+      "names": [
+        "browser",
+        "chrome",
+        "codex-app-tools",
+        "computer-use",
+        "deep-research",
+        "latex",
+        "unified-computer-use",
+        "visualize"
+      ]
+    },
+    "plugin_signatures": {
+      "files": 25,
+      "bytes": 18197188
+    },
+    "skills": {
+      "files": 29,
+      "bytes": 310634,
+      "names": [
+        "hatch-pet",
+        "onboard-new-user"
+      ]
+    },
+    "tectonic": {
+      "files": 5,
+      "bytes": 55104965
+    },
+    "native": {
+      "files": 6,
+      "bytes": 5089568
+    },
+    "accessibility": {
+      "files": 1
+    },
+    "locales": {
+      "files": 220
+    },
+    "artifact_template_picker": {
+      "present": true
+    }
+  },
+  "extraction": {
+    "output_dir": "code/app-261103",
+    "plan": "code/_plan/plan-261103.json",
+    "tool_map": "code/tools/README.md（Rspack 专项脚本一节）",
+    "modules": [
+      {
+        "module": "business",
+        "files": 13,
+        "raw_bytes": 11589661,
+        "formatted_bytes": 14192099
+      },
+      {
+        "module": "conversation",
+        "files": 12,
+        "raw_bytes": 3853472,
+        "formatted_bytes": 6425795
+      },
+      {
+        "module": "settings",
+        "files": 24,
+        "raw_bytes": 3854954,
+        "formatted_bytes": 6895765
+      },
+      {
+        "module": "spaces",
+        "files": 12,
+        "raw_bytes": 2750481,
+        "formatted_bytes": 4444895
+      },
+      {
+        "module": "left-nav",
+        "files": 10,
+        "raw_bytes": 2081638,
+        "formatted_bytes": 3418418
+      },
+      {
+        "module": "learning",
+        "files": 20,
+        "raw_bytes": 7915109,
+        "formatted_bytes": 10739503
+      },
+      {
+        "module": "composer",
+        "files": 10,
+        "raw_bytes": 1771094,
+        "formatted_bytes": 3300387
+      },
+      {
+        "module": "workspace-agents",
+        "files": 8,
+        "raw_bytes": 1056061,
+        "formatted_bytes": 1812493
+      },
+      {
+        "module": "app-shell",
+        "files": 8,
+        "raw_bytes": 574595,
+        "formatted_bytes": 876725
+      },
+      {
+        "module": "chatgpt-surfaces",
+        "files": 10,
+        "raw_bytes": 2110888,
+        "formatted_bytes": 3561806
+      },
+      {
+        "module": "enterprise-trust",
+        "files": 12,
+        "raw_bytes": 1909411,
+        "formatted_bytes": 3330844
+      },
+      {
+        "module": "editors",
+        "files": 6,
+        "raw_bytes": 1409675,
+        "formatted_bytes": 2346311
+      },
+      {
+        "module": "misc",
+        "files": 8,
+        "raw_bytes": 948317,
+        "formatted_bytes": 1678722
+      },
+      {
+        "module": "plugins",
+        "files": 8,
+        "raw_bytes": 749333,
+        "formatted_bytes": 1410832
+      },
+      {
+        "module": "writing",
+        "files": 5,
+        "raw_bytes": 433400,
+        "formatted_bytes": 812925
+      },
+      {
+        "module": "codex-micro",
+        "files": 2,
+        "raw_bytes": 130424,
+        "formatted_bytes": 204662
+      },
+      {
+        "module": "voice",
+        "files": 4,
+        "raw_bytes": 156892,
+        "formatted_bytes": 302234
+      },
+      {
+        "module": "main-process",
+        "files": 29,
+        "raw_bytes": 12429626,
+        "formatted_bytes": 17391854
+      }
+    ],
+    "totals": {
+      "chunks": 201,
+      "raw_bytes": 55725031,
+      "formatted_bytes": 83146270
+    },
+    "i18n_messages": 57004,
+    "i18n_groups": 7909,
+    "i18n_scanned_files": 9388,
+    "i18n_chunks_with_messages": 3210,
+    "settings": {
+      "slug_list": 53,
+      "nav_groups": 4,
+      "allowed_on_web": 13,
+      "capability_gates": 41,
+      "default_section": "general-settings",
+      "resolved_chunks_not_extracted": []
+    },
+    "app_server_methods": {
+      "total": 189,
+      "namespaces": {
+        "account": 21,
+        "app": 4,
+        "browser": 1,
+        "command": 4,
+        "config": 4,
+        "experimental": 1,
+        "feedback": 2,
+        "fs": 11,
+        "hook": 2,
+        "item": 22,
+        "mcpServer": 7,
+        "model": 4,
+        "plugin": 5,
+        "process": 6,
+        "skills": 2,
+        "thread": 83,
+        "turn": 10
+      }
+    },
+    "formatters": {
+      "prettier": "3.9.6 (desktop_app/node_modules)",
+      "fallback": "code/tools/lightformat.mjs",
+      "prettier_threshold_bytes": 819200,
+      "light_limit_bytes": 3000000
+    },
+    "not_extracted": [
+      "其余 ~9,154 个 async chunk（vendor/locale/可视化/媒体）",
+      "587 个 CSS（13.9 MB）",
+      "959 个 webp / 719 个 png / 38 个 wasm",
+      "orbit-character-* 运行时与贴图",
+      "workers/worker.*.js",
+      "node_modules/（770 文件 / 19.2 MB）与原生 .node",
+      "共享大 chunk 182735.bb2cb0d2af.js（8.3 MB）只做定向检索"
+    ],
+    "i18n_scanned_bytes_approx": 519533000
+  },
+  "history": [
+    {
+      "msix_version": "26.1103.4239.0",
+      "app_version": "26.1103.32239",
+      "build": "25471",
+      "collected_at": "2026-11-09",
+      "inventory": "inventories/inventory-261103.json",
+      "scope": "全量清单、Rspack 迁移、18 模块 201 代表文件、57,004 条 i18n、设置注册表、Learning/Business Hub/Security 专项"
+    },
+    {
+      "msix_version": "26.1016.8622.0",
+      "app_version": "26.1016.62342",
+      "build": "21477",
+      "collected_at": "2026-10-23",
+      "inventory": "inventories/inventory-261016.json",
+      "scope": "全量清单、17 模块、i18n、设置注册表与新增功能专项"
+    },
+    {
+      "msix_version": "26.1013.4894.0",
+      "app_version": "26.1013.40934",
+      "build": "20770",
+      "collected_at": "2026-10-17",
+      "inventory": "inventories/inventory-261013.json",
+      "scope": "全量清单、17 模块与 i18n"
+    },
+    {
+      "msix_version": "26.928.3736.0",
+      "app_version": "26.928.31416",
+      "build": "12553",
+      "collected_at": "2026-10-01",
+      "inventory": "inventories/inventory-26928.json",
+      "scope": "Computer Use 专项 + 全量清单"
+    },
+    {
+      "msix_version": "26.903.9818.0",
+      "app_version": "26.903.71938",
+      "build": "8576",
+      "collected_at": "2026-09-11",
+      "inventory": "inventories/inventory-26903.json",
+      "scope": "五块界面 + 协议的全量基线"
+    }
+  ],
+  "evidence_scope": {
+    "static_asar_and_manifest": true,
+    "static_shared_bundle_search": true,
+    "static_unpacked_js_review": true,
+    "repository_source_comparison": "not re-verified for 26.1103",
+    "runtime_instrumentation": false,
+    "credentials_read": false,
+    "user_content_read": false,
+    "sqlite_or_settings_dat_read": false,
+    "native_install_modified": false
+  }
+}

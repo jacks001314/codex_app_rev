@@ -1,0 +1,51 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  HFt as t,
+  NLt as n,
+  ULt as r,
+  VRt as i,
+  hRt as a,
+  kLt as o,
+  kRt as s,
+} from "./app-shared-2feb3d4c6fcc.js";
+function c(e) {
+  let t = u.safeParse(e);
+  return t.success ? t.data[`codex/toolSurface`].webMcpCalls : [];
+}
+var l, u;
+function d() {
+  return (d = e(() => {
+    (t(),
+      (l = r(`kind`, [
+        s({
+          kind: a(`listTools`),
+          name: a(`webmcp_list_tools`),
+          title: i()
+            .transform((e) => e || void 0)
+            .optional(),
+          description: i().optional(),
+          readOnlyHint: n().optional(),
+          sourceHostname: i().min(1).optional(),
+          outputJson: i().optional(),
+          outputTruncated: a(!0).optional(),
+        }),
+        s({
+          kind: a(`invokeTool`),
+          name: i().refine((e) => e.trim().length > 0),
+          title: i()
+            .transform((e) => e || void 0)
+            .optional(),
+          description: i().optional(),
+          readOnlyHint: n().optional(),
+          sourceHostname: i().min(1).optional(),
+          inputJson: i().optional(),
+          inputTruncated: a(!0).optional(),
+          outputJson: i().optional(),
+          outputTruncated: a(!0).optional(),
+        }),
+      ])),
+      (u = s({ "codex/toolSurface": s({ kind: a(`browserUse`), webMcpCalls: o(l) }) })));
+  }))();
+}
+export { d as n, c as t };
+//# sourceMappingURL=webmcp-tool-calls-2815582d91b4.js.map

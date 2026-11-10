@@ -1,0 +1,51 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { LNt as t, PBt as n, Uz as r, Wz as i, XOt as a, tkt as o } from "./app-shared-2feb3d4c6fcc.js";
+import { n as s, t as c } from "./billing-analytics-cea1ece83b66.js";
+function l(e) {
+  let t = (0, u.c)(4),
+    { isPolling: n } = e,
+    r = n === void 0 || n,
+    a = i(),
+    s;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, d.jsx)(`p`, {
+        className: `text-sm text-secondary`,
+        children: (0, d.jsx)(o, {
+          id: `settings.usage.enterprise.consumerOverride.subtitle`,
+          defaultMessage: `Restricted view used solely for OpenAI internal testing. Shows your real usage in this workspace.`,
+          description: `Explains that this restricted consumer analytics view is only for OpenAI internal testing and shows the signed-in member's real usage in the active workspace`,
+        }),
+      })),
+      (t[0] = s))
+    : (s = t[0]);
+  let l;
+  return (
+    t[1] !== r || t[2] !== a
+      ? ((l = (0, d.jsxs)(d.Fragment, {
+          children: [
+            s,
+            (0, d.jsx)(c, {
+              isPolling: r,
+              canViewCreditSettings: !1,
+              reduceMotion: a,
+              scope: `consumer`,
+              workspaceTaskUsage: !0,
+            }),
+          ],
+        })),
+        (t[1] = r),
+        (t[2] = a),
+        (t[3] = l))
+      : (l = t[3]),
+    l
+  );
+}
+var u, d;
+function f() {
+  return (f = e(() => {
+    ((u = n()), a(), r(), s(), (d = t()));
+  }))();
+}
+f();
+export { l as ConsumerViewSettings };
+//# sourceMappingURL=settings-a063f2ed35b2.js.map

@@ -1,0 +1,34 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { IDt as t, jDt as n, vzt as r, xMt as i } from "./app-shared-bbfeca5e5737.js";
+function a(e) {
+  let n = (0, o.c)(2),
+    { namespace: r } = e,
+    i;
+  return (
+    n[0] === r
+      ? (i = n[1])
+      : ((i =
+          r === `not_sensitive`
+            ? (0, s.jsx)(t, {
+                id: `personalVault.variableType`,
+                defaultMessage: `Environment variable`,
+                description: `Type label for a personal variable whose value is visible to the task`,
+              })
+            : (0, s.jsx)(t, {
+                id: `personalVault.networkSecretType`,
+                defaultMessage: `Network secret`,
+                description: `Type label for a personal secret delivered by the network proxy`,
+              })),
+        (n[0] = r),
+        (n[1] = i)),
+    i
+  );
+}
+var o, s;
+function c() {
+  return (c = e(() => {
+    ((o = r()), n(), (s = i()));
+  }))();
+}
+export { c as n, a as t };
+//# sourceMappingURL=entry-type-6eeefc5c8bdc.js.map

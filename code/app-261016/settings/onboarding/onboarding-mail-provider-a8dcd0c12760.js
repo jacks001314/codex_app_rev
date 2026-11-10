@@ -1,0 +1,61 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  $st as t,
+  Bst as n,
+  Qst as r,
+  ZSt as i,
+  ast as a,
+  ist as o,
+  mCt as s,
+  tit as c,
+  zst as l,
+} from "./app-shared-2feb3d4c6fcc.js";
+import { sBr as u, tLr as d } from "./app-initial-ad16eaadf81f.js";
+function f(e) {
+  if (e == null) return null;
+  let t = e.lastIndexOf(`@`);
+  if (t <= 0) return null;
+  let n = e
+    .slice(t + 1)
+    .trim()
+    .toLowerCase();
+  return n.length === 0 ? null : n;
+}
+function p({ debugOverride: e, detectedProvider: t, emailDomain: n, isError: r }) {
+  return e ?? t ?? (t === null || n == null || r ? `other` : null);
+}
+function m(e, t) {
+  return e === `other` ? (u(t) ? `microsoft` : `google`) : e;
+}
+function h(e, t) {
+  return t === `microsoft` ? (g[e] ?? e) : e;
+}
+var g, _, v;
+function y() {
+  return (y = e(() => {
+    (i(),
+      a(),
+      t(),
+      n(),
+      d(),
+      (g = {
+        gmail: `outlook-email`,
+        "google-calendar": `outlook-calendar`,
+        "google-drive": `sharepoint`,
+        slack: `teams`,
+      }),
+      (_ = [`mail-provider`, `email-domain`]),
+      (v = s(r, (e) => ({
+        enabled: e != null,
+        queryKey: [..._, e],
+        queryFn: ({ signal: t }) => {
+          let n = o?.mailProvider;
+          return e == null || n == null ? Promise.resolve(null) : c(n.getForEmailDomain(e), t);
+        },
+        retry: 2,
+        staleTime: l.FIVE_MINUTES,
+      }))));
+  }))();
+}
+export { h as a, p as i, v as n, m as o, f as r, y as s, _ as t };
+//# sourceMappingURL=onboarding-mail-provider-a8dcd0c12760.js.map

@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-01T13:41:12.468Z",
+  "app_version": "26.928.31416",
+  "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.928.3736.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "modules": [
+    {
+      "module": "computer-use",
+      "files": 83,
+      "raw_bytes": 1052150,
+      "subdirs": ["_deps", "approvals", "capture", "chrome", "history", "policy", "settings"]
+    },
+    {
+      "module": "main-process",
+      "files": 33,
+      "raw_bytes": 10099470,
+      "subdirs": ["build"]
+    }
+  ],
+  "shared_external_refs": [
+    {
+      "name": "app-initial-3916b423772b.js",
+      "bytes": 11160077
+    },
+    {
+      "name": "app-shared-7552fc8d5d82.js",
+      "bytes": 7755729
+    },
+    {
+      "name": "app-primary-7b889402e22e.js",
+      "bytes": 2300475
+    },
+    {
+      "name": "app-shared-342447930c78.css",
+      "bytes": 1233607
+    },
+    {
+      "name": "app-initial-e55cd978d577.css",
+      "bytes": 257732
+    },
+    {
+      "name": "rolldown-runtime-2d059c5e81f4.js",
+      "bytes": 1291
+    }
+  ],
+  "totals": {
+    "chunks": 116,
+    "raw_bytes": 11151620,
+    "formatted_bytes": 15231375
+  }
+}

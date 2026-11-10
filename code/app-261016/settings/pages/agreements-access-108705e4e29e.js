@@ -1,0 +1,36 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { $st as t, CCt as n, Qst as r, ZSt as i } from "./app-shared-2feb3d4c6fcc.js";
+import {
+  lLr as a,
+  lNr as o,
+  oLr as s,
+  tLr as c,
+  wLr as l,
+  xLr as u,
+  zRr as d,
+} from "./app-initial-ad16eaadf81f.js";
+var f;
+function p() {
+  return (p = e(() => {
+    (i(),
+      l(),
+      o(),
+      t(),
+      c(),
+      (f = n(r, ({ get: e }) => {
+        let t = e(u);
+        if (t.status !== `allowed`) return { status: t.status };
+        let n = e(d);
+        if (n == null) return { status: `denied` };
+        let { data: r, isPending: i, isError: o } = e(a, n);
+        if (i) return { status: `loading` };
+        if (o) return { status: `error`, accountId: n };
+        let c = r?.account_ordering.map((e) => r.accounts[e]?.account).find((e) => e?.account_id === n);
+        return c == null || !s(c.plan_type)
+          ? { status: `denied` }
+          : { status: `allowed`, accountId: n, isHipaaWorkspace: c.is_hipaa_compliant_workspace === !0 };
+      })));
+  }))();
+}
+export { p as n, f as t };
+//# sourceMappingURL=agreements-access-108705e4e29e.js.map

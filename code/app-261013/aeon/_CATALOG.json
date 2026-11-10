@@ -1,0 +1,2901 @@
+{
+ "module": "aeon",
+ "generated_at": "2026-10-17T04:58:44.868Z",
+ "files_scanned": 33,
+ "message_count": 120,
+ "messages": [
+  {
+   "id": "aeon.threadTimestamp.today",
+   "text": "Today, {time}",
+   "description": "Timestamp label for a dot thread message sent today",
+   "files": [
+    "dot/aeon-onboarding-f2670fbf5798.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.threadTimestamp.yesterday",
+   "text": "Yesterday, {time}",
+   "description": "Timestamp label for a dot thread message sent yesterday",
+   "files": [
+    "dot/aeon-onboarding-f2670fbf5798.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversation.timestampSeparator.older",
+   "text": "<day>{date}</day> at {time}",
+   "description": "Centered timestamp separating older messages in a Codex conversation. The date is a localized calendar date, including the year when more than 365 days old; time is the localized time of day. The day tag emphasizes the date. Keep the complete label short and translate the date-time relationship naturally.",
+   "files": [
+    "_deps/timestamp-separator-ed5adecdcb04.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversation.timestampSeparator.recent",
+   "text": "<day>{date}</day> {time}",
+   "description": "Centered timestamp separating messages in a Codex conversation. The date is a localized relative day such as Today, Yesterday, or Monday; time is the localized time of day. The day tag emphasizes the date. Keep the complete label short and adjust its order or punctuation for the locale.",
+   "files": [
+    "_deps/timestamp-separator-ed5adecdcb04.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.active",
+   "text": "Reading tab",
+   "description": "In-progress label for reading the contents of a Chrome tab.",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.activeWithTitle",
+   "text": "Reading \"{title}\"",
+   "description": "In-progress label for reading the contents of a Chrome tab with a known page title.",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completed",
+   "text": "Read tab",
+   "description": "Completed label for reading the contents of a Chrome tab.",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completed.following",
+   "text": "read tab",
+   "description": "Non-leading completed label for reading the contents of a Chrome tab in an agent activity summary",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completedWithTitle",
+   "text": "Read \"{title}\"",
+   "description": "Completed label for reading the contents of a Chrome tab with a known page title.",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completedWithTitle.following",
+   "text": "read \"{title}\"",
+   "description": "Non-leading completed label for reading the contents of a Chrome tab with a known page title in an agent activity summary",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.settingsToolCall.write.waitingForApproval",
+   "text": "Waiting for approval",
+   "description": "In-progress label while a Codex configuration change is waiting for user approval.",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.active",
+   "text": "Handing off to {destination}",
+   "description": "In-progress label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.completed",
+   "text": "Handed off to {destination}",
+   "description": "Completed label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.destination.local",
+   "text": "local",
+   "description": "Destination noun used in an inline task handoff status",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.destination.worktree",
+   "text": "worktree",
+   "description": "Destination noun used in an inline task handoff status",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.failed",
+   "text": "Failed to hand off to {destination}",
+   "description": "Failed label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.warning",
+   "text": "Handoff to {destination} needs attention",
+   "description": "Warning label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.channelRecipient.dot.productName",
+   "text": "{hasRecipient, select, true {Message recipient: @{recipient}} other {Message recipient: your {dot}}}",
+   "description": "Screen reader description giving the public recipient for a Slack or Microsoft Teams contact action. dot is a common noun for the agent and must remain untranslated.",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.emailAddress.yourDot",
+   "text": "Your dot’s email address",
+   "description": "Accessible label for the copyable email address after setting up dot. Keep dot lowercase and untranslated.",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.loading",
+   "text": "Loading…",
+   "description": "Status and disabled action while the selected contact channel loads",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.openEmail",
+   "text": "Open Email",
+   "description": "Opens the user's email app with the dot's address as the recipient",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.openTeams",
+   "text": "Open Teams",
+   "description": "Opens the connected dot’s direct message in Microsoft Teams",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailBodyLines",
+   "text": "Can you summarize the thread below and pull out any decisions we need to make? There’s been a lot of back and forth, and I want to make sure I’m caught up before we meet.<br></br><br></br>I’d love a quick overview of where things stand, any open questions, and a few talking points.<br></br><br></br>Please flag anything that might affect the timeline, especially if we’re still waiting on someone’s input.",
+   "description": "Fictional email body in the miniature contact setup illustration; no email is sent. Paired br tags separate the requests with blank lines.",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailFollowup",
+   "text": "If there’s anything I should read beforehand, send that my way too.",
+   "description": "Final sentence of a fictional email in the contact setup illustration",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailGreeting",
+   "text": "Hey {name},",
+   "description": "Example greeting in the decorative email composer; name is the assistant’s private nickname or the lowercase term dot",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailHeading",
+   "text": "Send email message",
+   "description": "Heading of the miniature email composer in contact setup",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailRecipients",
+   "text": "Cc Bcc",
+   "description": "Decorative carbon-copy and blind-carbon-copy labels in a miniature email composer",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailSubject",
+   "text": "Help me prep for tomorrow’s meeting",
+   "description": "Example subject in the decorative email composer in contact setup",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.sendMessage",
+   "text": "Send message",
+   "description": "Decorative send label in the miniature email, Slack, or Teams composer; it is not a real action",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.slackBody",
+   "text": "Let’s move our meeting to Wednesday so I can join after the design onsite. Happy to find another time that works for you!",
+   "description": "Fictional request in the miniature Slack or Teams composer in contact setup; no message is sent",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.slackHeading",
+   "text": "Send Slack message",
+   "description": "Heading of the miniature Slack composer in contact setup",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.teamsHeading",
+   "text": "Send Teams message",
+   "description": "Heading of the miniature Microsoft Teams composer in contact setup",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.to",
+   "text": "To",
+   "description": "Recipient label in a decorative email, Slack, or Microsoft Teams message preview",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.unnamedChannelRecipient.productName",
+   "text": "your {dot}",
+   "description": "Default recipient in a Slack or Microsoft Teams preview before the public name is available. dot is a common noun for the agent and must remain untranslated.",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.checkInNow.label",
+   "text": "Check in now",
+   "description": "Button in the dot summary that requests an immediate doctor check-in, starting the recurring doctor if needed",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.checkInNow.requested",
+   "text": "Check-in requested",
+   "description": "Confirmation in the dot summary that a doctor check was requested; the check may still be running",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.request.error",
+   "text": "Doctor unavailable · Try again",
+   "description": "Error in the dot summary when setting up the doctor or requesting a check-in fails; either button can be retried",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.requesting",
+   "text": "Requesting check-in…",
+   "description": "Dot doctor button while submitting a health check request",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.schedule.link",
+   "text": "View doctor schedule",
+   "description": "Link in the dot summary to inspect when health checks will run and see recent checks in Temporal",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.setup.label",
+   "text": "Set up recurring doctor",
+   "description": "Button in the dot summary that schedules recurring health checks; separate from Check in now",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.setup.pending",
+   "text": "Setting up recurring doctor…",
+   "description": "Button in the dot summary while setting up recurring health checks",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.setup.success",
+   "text": "Recurring doctor is set up",
+   "description": "Confirmation in the dot summary that recurring health checks are scheduled",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.copy",
+   "text": "Copy email address",
+   "description": "Dot email shortcut action that copies its linked email address",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.debug",
+   "text": "Debug",
+   "description": "Opens debug controls for repairing the dot's email setup or removing its linked address",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.open",
+   "text": "Open Email",
+   "description": "Dot email shortcut action that opens the user's email app with the dot's linked address as recipient",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.remove",
+   "text": "Remove",
+   "description": "Disconnects the email address from this dot while keeping the address owned by the user",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.dialog.loadingTitle",
+   "text": "Email",
+   "description": "Title of the dot email setup dialog while its contents are loading",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.disconnected",
+   "text": "Email disconnected",
+   "description": "Confirmation after disconnecting the dot while keeping the user's email address",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.disconnecting",
+   "text": "Disconnecting Email…",
+   "description": "Progress while disconnecting a dot's email address",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.removeFailed",
+   "text": "Couldn’t disconnect Email. Please try again",
+   "description": "Error when disconnecting an email address from a dot fails",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.settings.cloudRequired.dot",
+   "text": "Email setup is available for active cloud dot assistants",
+   "description": "Explanation in email settings when the assistant is archived or runs locally and cannot own a cloud email binding. Keep dot lowercase and untranslated.",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.settings.loading",
+   "text": "Loading email settings…",
+   "description": "Loading indicator while reading the selected dot's email binding or available addresses",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.settings.workspaceDisabled",
+   "text": "Email is disabled by your workspace admin",
+   "description": "Explanation on the disabled dot email control when the ChatGPT workspace admin has denied dot or Email access",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.shortcut.addressLabel",
+   "text": "Email: {emailAddress}",
+   "description": "Accessible label for the button opening the agent's linked email menu. emailAddress is the full email address.",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.summary.add",
+   "text": "Add email",
+   "description": "Button in the pinned dot summary that opens a dialog to claim a new email address or link an existing address",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.summary.loading",
+   "text": "Loading email…",
+   "description": "Compact status in the pinned dot summary while its email binding is being read",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.summary.unavailable",
+   "text": "Email unavailable",
+   "description": "Email row in the pinned dot summary when the saved email binding cannot be read; opens recovery settings when the dot is accessible",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.greeting.withoutSender",
+   "text": "Hey {name}!",
+   "description": "Editable text-message draft used when the user's first name is unavailable. name is the dot's custom name, or the lowercase untranslated product name dot. No message is sent automatically.",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.greeting.withSender",
+   "text": "Hey {name}, it's {sender}!",
+   "description": "Editable text-message draft introducing the user by their first name (sender), which may contain multiple words. name is the dot's custom name, or the lowercase untranslated product name dot. No message is sent automatically.",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.success.openMessages",
+   "text": "Open Messages",
+   "description": "Opens Messages on Mac with the dot's destination phone number prefilled as the recipient",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.addToContacts",
+   "text": "Add contact",
+   "description": "Button to open or download a contact card prefilled with the dot's name, phone number, and profile photo when available, so the user can review and save it in their contacts app",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.contactFailed",
+   "text": "Couldn’t open the contact card. Please try again",
+   "description": "Error when opening or downloading the prefilled contact card fails; the user can retry by clicking Add contact",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.copyNumber",
+   "text": "Copy number",
+   "description": "Copies the dot's destination phone number so the user can text it from their phone",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.copyPhoneNumber",
+   "text": "Copy phone number",
+   "description": "Accessible label for the icon button beside the dot's phone number that copies it to the clipboard",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.label.productName",
+   "text": "QR code to text your {dot}",
+   "description": "Accessible label for a QR code that opens a message addressed to the user's dot. It does not send a message. The dot placeholder is the untranslated term for the user's agent.",
+   "files": [
+    "_deps/text-message-instructions-c51c87e9d826.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.slack.setup.open",
+   "text": "Open Slack",
+   "description": "Opens the connected dot's direct message in Slack",
+   "files": [
+    "_deps/contact-ready-7c923836a87f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.active",
+   "text": "Active",
+   "description": "Status beneath a dot's profile while it is working, waiting on subtasks, or was active within the recent-activity grace period",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.activeRelativeTimeNatural",
+   "text": "Active {time}",
+   "description": "Relative timestamp beneath a dot's profile showing when it most recently did work, after the recent-activity grace period; time is a localized relative phrase such as '4 minutes ago'",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.identity.legacy",
+   "text": "Legacy Aeon",
+   "description": "Description beneath a legacy agent's name in the new-draft summary panel, distinguishing it from a new dot",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.identity.productName.dot",
+   "text": "Your private {productName}",
+   "description": "Description beneath the agent's name in its summary panel; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.paused",
+   "text": "Paused",
+   "description": "Status beneath a dot's name when it is paused but the pause time is unknown",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.pausedJustNow",
+   "text": "Paused just now",
+   "description": "Status beneath a dot's name during the first minute after the user pauses it",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.pausedRelativeTime",
+   "text": "Paused {time}",
+   "description": "Status beneath a dot's name showing how long ago the user paused it",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.balancing-ball",
+   "text": "Use the blossom avatar",
+   "description": "Accessible label for selecting the blossom-shaped dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.beanie",
+   "text": "Use the beanie avatar",
+   "description": "Accessible label for selecting the dot avatar with a beanie",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.bow-tie",
+   "text": "Use the bow tie avatar",
+   "description": "Accessible label for selecting the dot avatar with a bow tie",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.bowler",
+   "text": "Use the bowler hat avatar",
+   "description": "Accessible label for selecting the dot avatar with a bowler hat",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.cowboy",
+   "text": "Use the cowboy hat avatar",
+   "description": "Accessible label for selecting the dot avatar with a cowboy hat",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.feather",
+   "text": "Use the feather avatar",
+   "description": "Accessible label for selecting the dot avatar with a feather",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.headphones",
+   "text": "Use the blob avatar",
+   "description": "Accessible label for selecting the blob-shaped dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.monocle",
+   "text": "Use the monocle avatar",
+   "description": "Accessible label for selecting the dot avatar with a monocle",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.mustache",
+   "text": "Use the red avatar",
+   "description": "Accessible label for selecting the red circular dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.party-hat",
+   "text": "Use the triangle avatar",
+   "description": "Accessible label for selecting the triangular dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.pirate",
+   "text": "Use the pirate avatar",
+   "description": "Accessible label for selecting the dot avatar with an eye patch",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.sunglasses",
+   "text": "Use the sunglasses avatar",
+   "description": "Accessible label for selecting the dot avatar with sunglasses",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatarGroup.productName.dot",
+   "text": "Your {productName}’s avatar",
+   "description": "Accessible label for the assistant avatar picker group; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.createPetPrompt",
+   "text": "Make a pet avatar for yourself based on something you know about me",
+   "description": "Draft message placed in the dot assistant's composer when the user chooses to create a pet avatar in its appearance editor. The user can edit it before sending.",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.header.productName.dot",
+   "text": "Customize your {productName}",
+   "description": "Heading in the assistant appearance picker; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.legacyAvatar",
+   "text": "Use avatar {number}",
+   "description": "Accessible label for choosing a numbered abstract avatar for a legacy agent",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.name",
+   "text": "Nickname",
+   "description": "Label for the assistant's private nickname in the appearance dialog",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.nameFormatError",
+   "text": "Use up to 24 characters without backslashes",
+   "description": "Inline error for an invalid assistant nickname. Names can use up to 24 characters but cannot include a backslash.",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.namePlaceholder",
+   "text": "Your dot",
+   "description": "Placeholder in the empty nickname field in the dot's appearance editor and character studio. A dot is the user's customizable assistant character. Keep the singular term dot untranslated.",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.randomize",
+   "text": "Randomize",
+   "description": "Preview a random assistant appearance without changing its name or saving it",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.save",
+   "text": "Save",
+   "description": "Confirm the assistant name and appearance changes",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.saveError.dot",
+   "text": "Unable to save your dot’s avatar",
+   "description": "Error toast when a selected dot avatar could not be saved. Keep the singular term dot untranslated.",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.saveFailed",
+   "text": "Couldn’t save your changes. Try again.",
+   "description": "Failure message in the appearance dialog when saving the assistant name and avatar fails. The draft is kept for retry.",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.trigger.productName.dot",
+   "text": "Change your {productName}’s appearance",
+   "description": "Accessible label for changing an assistant's appearance; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-appearance-picker-37d157024d1d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.activityState",
+   "text": "{state, select, Working {Working} Searching {Searching} Creating {Creating} Payment {Payment} Thinking {Thinking} needsInput {Needs input} Ready {Ready} Paused {Paused} unnamed {-} Simplify {Simplify} Blame {Blame} other {}}",
+   "description": "Short activity state beside the dot's public progress description in the room header and identity card. Keep select keys unchanged. Working means using a computer; Creating means making an artifact; Payment describes payment-related work, not permission; needsInput means waiting for a real user response; Ready means idle; Paused means paused by the user; Simplify means simplifying something; Blame means tracing responsibility. unnamed is an unnamed placeholder. Translate state labels only, not the separate public progress description.",
+   "files": [
+    "_deps/activity-state-label-54eb9cc1c5d9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.emailShortcut",
+   "text": "Email",
+   "description": "Button opening the dot's email settings",
+   "files": [
+    "dot/aeon-summary-panel-identity-8a58b733681a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.thinking",
+   "text": "Thinking",
+   "description": "Live status in the dot header before a progress description is available",
+   "files": [
+    "_deps/activity-state-label-54eb9cc1c5d9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonOnboarding.conversationStart",
+   "text": "Start of conversation",
+   "description": "Label beneath an agent's name at the beginning of its conversation",
+   "files": [
+    "dot/aeon-onboarding-f2670fbf5798.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonOnboarding.introductionAriaLabel.productName.dot",
+   "text": "Your {productName} introduction",
+   "description": "Accessible label for the agent introduction; productName is the untranslated term for the user's agent",
+   "files": [
+    "dot/aeon-onboarding-f2670fbf5798.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonOnboarding.legacyName",
+   "text": "{name} (Legacy)",
+   "description": "Heading showing a new legacy agent's name with a Legacy label to distinguish it from a new dot",
+   "files": [
+    "dot/aeon-onboarding-f2670fbf5798.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.characters",
+   "text": "Characters",
+   "description": "Heading above preset characters and the custom character editor button",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.colors",
+   "text": "Colors",
+   "description": "Heading above colored ring avatars",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.createPet",
+   "text": "Create a pet",
+   "description": "Open the pet creation experience from the avatar chooser",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.custom",
+   "text": "Custom avatar",
+   "description": "Button that selects the saved custom character without opening the editor",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.customize",
+   "text": "Customize",
+   "description": "Button that opens the editor to create or edit the saved custom character",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.gray",
+   "text": "Gray",
+   "description": "Accessible name of the default gray ring avatar",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.pets",
+   "text": "Pets",
+   "description": "Heading above available pet avatars",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.title",
+   "text": "Customize your dot",
+   "description": "Heading of the assistant avatar chooser",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.loadError",
+   "text": "Couldn’t load this character. Close the editor and try again",
+   "description": "Error when loading the saved assistant profile for appearance editing",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.loading",
+   "text": "Loading character…",
+   "description": "Status while the assistant's character renderer loads",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.petsLoadError",
+   "text": "Some pets couldn’t be loaded",
+   "description": "Error when the dot appearance picker could not load all saved pets",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.petsLoading",
+   "text": "Loading your pets…",
+   "description": "Status while fetching saved pets for the dot appearance picker",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.petsRetry",
+   "text": "Try again",
+   "description": "Button to reload saved pets in the dot appearance picker",
+   "files": [
+    "_deps/editor-placeholder-af27987d8f40.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.result.completed",
+   "text": "Prepared environment draft",
+   "description": "Activity shown when an environment draft has been finalized",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.result.failed",
+   "text": "Couldn’t prepare environment draft",
+   "description": "Activity shown when an environment draft could not be finalized",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.result.finalizing",
+   "text": "Preparing environment draft",
+   "description": "Activity shown while an environment draft is being finalized",
+   "files": [
+    "_deps/agent-activity-item-1be092f0c744.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "thinkingShimmer.default",
+   "text": "Thinking",
+   "description": "Default placeholder shown while the assistant is thinking",
+   "files": [
+    "dot/aeon-onboarding-f2670fbf5798.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-5851df3f6cb1.js",
+   "count": 267,
+   "names": [
+    "$5",
+    "$7",
+    "$8n",
+    "$T",
+    "$pr",
+    "$vr",
+    "A0",
+    "A7",
+    "AE",
+    "ASr",
+    "B5",
+    "Btr",
+    "CCt",
+    "CE",
+    "Cpr",
+    "Cwr",
+    "DPn",
+    "DT",
+    "Dgr",
+    "Djr",
+    "EE",
+    "EPn",
+    "ET",
+    "Ejr",
+    "Evr",
+    "F$",
+    "F7",
+    "FE",
+    "Fnn",
+    "G5",
+    "G8n",
+    "GE",
+    "GGn",
+    "GMr",
+    "GYt",
+    "Gn",
+    "Gvr",
+    "H5",
+    "H7",
+    "HE",
+    "Hor",
+    "Ian",
+    "Inn",
+    "Ipr",
+    "Iyr",
+    "J5t",
+    "J7",
+    "JPn",
+    "JYt",
+    "Jhr",
+    "Jo",
+    "K5t",
+    "KJr",
+    "KYt",
+    "Khr",
+    "Kn",
+    "L5",
+    "Lan",
+    "MCt",
+    "ME",
+    "MTn",
+    "Mgr",
+    "N",
+    "NCt",
+    "NE",
+    "Ngr",
+    "Nl",
+    "Ntn",
+    "Nyr",
+    "O0",
+    "OPr",
+    "OT",
+    "Ogr",
+    "Opr",
+    "P",
+    "P$",
+    "Pl",
+    "Ppr",
+    "Ptn",
+    "Pun",
+    "QGn",
+    "Qhr",
+    "R7",
+    "Rrr",
+    "SCt",
+    "SE",
+    "STn",
+    "Syt",
+    "T5n",
+    "TE",
+    "TPn",
+    "U5",
+    "U7",
+    "UCn",
+    "UX",
+    "UYt",
+    "V5",
+    "Vor",
+    "WCn",
+    "WE",
+    "WX",
+    "WYt",
+    "Whr",
+    "Wn",
+    "Wvr",
+    "XHt",
+    "XMr",
+    "XPn",
+    "Xer",
+    "Xhr",
+    "Xvr",
+    "Y5",
+    "Y5t",
+    "Y7",
+    "Y8n",
+    "YHt",
+    "YMr",
+    "Yhr",
+    "Yk",
+    "Ymr",
+    "Yo",
+    "Zhr",
+    "Zpr",
+    "Zwr",
+    "_Tn",
+    "_Tr",
+    "_bn",
+    "_mr",
+    "_wr",
+    "a0n",
+    "a7",
+    "abn",
+    "b5",
+    "b7",
+    "bD",
+    "bgr",
+    "c1",
+    "c7",
+    "c9",
+    "cSr",
+    "cbn",
+    "cyr",
+    "d7",
+    "dIn",
+    "dbn",
+    "dgr",
+    "dj",
+    "djr",
+    "e9",
+    "eDr",
+    "eE",
+    "egr",
+    "ehr",
+    "emr",
+    "etr",
+    "eyr",
+    "fTr",
+    "fbn",
+    "fgr",
+    "fur",
+    "fvr",
+    "gCt",
+    "gbn",
+    "ggr",
+    "gmr",
+    "gvr",
+    "gwr",
+    "hbn",
+    "her",
+    "hnr",
+    "i7",
+    "i9",
+    "iTr",
+    "inr",
+    "jCt",
+    "jE",
+    "jSr",
+    "k7",
+    "kE",
+    "kPr",
+    "kTn",
+    "kgr",
+    "kvr",
+    "l1",
+    "lE",
+    "lSr",
+    "lbn",
+    "lpr",
+    "m7n",
+    "mCt",
+    "mbn",
+    "mer",
+    "mjr",
+    "mvr",
+    "n7",
+    "nDr",
+    "nE",
+    "nEt",
+    "nKn",
+    "nT",
+    "ngr",
+    "nur",
+    "o7",
+    "o8n",
+    "o9",
+    "oE",
+    "oSr",
+    "obn",
+    "oyr",
+    "pCt",
+    "pIn",
+    "pTr",
+    "pbn",
+    "per",
+    "pgr",
+    "pjr",
+    "pnr",
+    "pur",
+    "q5",
+    "qJr",
+    "qhr",
+    "qk",
+    "qn",
+    "qwr",
+    "r7",
+    "rT",
+    "rnr",
+    "rur",
+    "s0n",
+    "s7",
+    "sE",
+    "sjr",
+    "t9",
+    "tEt",
+    "tNr",
+    "tTr",
+    "tyr",
+    "uj",
+    "upr",
+    "v8n",
+    "vD",
+    "vTn",
+    "vbn",
+    "vgr",
+    "vrr",
+    "vwr",
+    "w8n",
+    "wpr",
+    "wvr",
+    "wyt",
+    "x5",
+    "x7",
+    "xE",
+    "xFr",
+    "xPn",
+    "xTn",
+    "xvr",
+    "xwr",
+    "yD",
+    "yFr",
+    "yPn",
+    "yrr",
+    "zE",
+    "zlt",
+    "zor",
+    "zrr",
+    "ztr"
+   ]
+  },
+  {
+   "from": "app-shared-bbfeca5e5737.js",
+   "count": 159,
+   "names": [
+    "$4",
+    "$It",
+    "$R",
+    "$d",
+    "ADt",
+    "AO",
+    "B1",
+    "B4",
+    "Bb",
+    "Bpt",
+    "CO",
+    "CPt",
+    "Cat",
+    "Cot",
+    "Cw",
+    "Cwt",
+    "D1",
+    "DG",
+    "DJ",
+    "DQ",
+    "DV",
+    "EJ",
+    "EPt",
+    "Eut",
+    "F1",
+    "FZ",
+    "Fv",
+    "GY",
+    "HNt",
+    "HZ",
+    "Hb",
+    "Hxt",
+    "I1",
+    "IDt",
+    "IZ",
+    "Iv",
+    "Ixt",
+    "JR",
+    "Jbt",
+    "KY",
+    "Kat",
+    "L$",
+    "Lv",
+    "M0",
+    "MDt",
+    "Mv",
+    "Myt",
+    "Mz",
+    "NH",
+    "Nv",
+    "Nz",
+    "O1",
+    "OQ",
+    "Pv",
+    "Pxt",
+    "QR",
+    "Qvt",
+    "R$",
+    "S2",
+    "SJ",
+    "SPt",
+    "Sj",
+    "Swt",
+    "TJ",
+    "TLt",
+    "TO",
+    "Twt",
+    "VDt",
+    "VZ",
+    "Vb",
+    "Vxt",
+    "X1",
+    "XJ",
+    "Xot",
+    "Y1",
+    "YJ",
+    "YR",
+    "Yot",
+    "Zvt",
+    "_It",
+    "_Mt",
+    "_O",
+    "_wt",
+    "_xt",
+    "aZ",
+    "af",
+    "bd",
+    "bx",
+    "cO",
+    "cz",
+    "dj",
+    "e3",
+    "ef",
+    "fLt",
+    "fO",
+    "fPt",
+    "fSt",
+    "gMt",
+    "gO",
+    "gPt",
+    "gY",
+    "gwt",
+    "hPt",
+    "hY",
+    "hot",
+    "i3",
+    "iO",
+    "if",
+    "j0",
+    "jDt",
+    "kxt",
+    "lIt",
+    "lO",
+    "lot",
+    "mO",
+    "n4",
+    "nSt",
+    "nf",
+    "not",
+    "oIt",
+    "oO",
+    "oZ",
+    "of",
+    "oot",
+    "oxt",
+    "pIt",
+    "pLt",
+    "pPt",
+    "qat",
+    "qft",
+    "r3",
+    "rO",
+    "rf",
+    "rst",
+    "spt",
+    "sq",
+    "sz",
+    "t3",
+    "t4",
+    "tf",
+    "uO",
+    "uj",
+    "vO",
+    "vzt",
+    "wLt",
+    "wot",
+    "ww",
+    "wwt",
+    "wxt",
+    "x2",
+    "xMt",
+    "xat",
+    "yd",
+    "yx",
+    "yzt",
+    "z1",
+    "z4",
+    "zb",
+    "zxt"
+   ]
+  },
+  {
+   "from": "app-primary-fe8a450b3b04.js",
+   "count": 10,
+   "names": [
+    "$l",
+    "$m",
+    "Fh",
+    "Gm",
+    "Ih",
+    "Ql",
+    "Qm",
+    "Wm",
+    "bd",
+    "xd"
+   ]
+  },
+  {
+   "from": "three.module-859594e5f29f.js",
+   "count": 10,
+   "names": [
+    "$r",
+    "Qr",
+    "Ui",
+    "a",
+    "fo",
+    "mo",
+    "ns",
+    "qr",
+    "s",
+    "st"
+   ]
+  },
+  {
+   "from": "mcp-tool-activity-label-220d2d98d4ad.js",
+   "count": 9,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "h",
+    "i",
+    "m",
+    "p",
+    "u"
+   ]
+  },
+  {
+   "from": "appearance-edit-badge-a9ccad21cf47.js",
+   "count": 8,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "dot-onboarding-ring-43524a0e1a87.js",
+   "count": 7,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "text-message-instructions-c51c87e9d826.js",
+   "count": 6,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "skill-exploration-labels-dbc7ec897dab.js",
+   "count": 6,
+   "names": [
+    "a",
+    "c",
+    "l",
+    "n",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "state-d33b90e079dc.js",
+   "count": 5,
+   "names": [
+    "a",
+    "c",
+    "l",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "editor-placeholder-af27987d8f40.js",
+   "count": 4,
+   "names": [
+    "n",
+    "o",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "editor-lazy-b79b8e73f0c9.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "header-action-412a59778d0b.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-summary-panel-components-7e14b3bbe8fe.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "timestamps-85bd12c0e1b2.js",
+   "count": 3,
+   "names": [
+    "a",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-response-status-row-f03a8bd9c9d1.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "dot-onboarding-handoff-state-90c4149da252.js",
+   "count": 3,
+   "names": [
+    "i",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "mcp-tool-call-approval-2041ceff5519.js",
+   "count": 3,
+   "names": [
+    "i",
+    "n",
+    "r"
+   ]
+  },
+  {
+   "from": "handoff-target-f50e58d2bbbc.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "o"
+   ]
+  },
+  {
+   "from": "appearance-picker-button-c44f9fe2eb96.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-appearance-picker-37d157024d1d.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-onboarding-f2670fbf5798.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "timestamp-separator-ed5adecdcb04.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "channel-button-bad94b04d4c2.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "contact-ready-7c923836a87f.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "activity-state-label-54eb9cc1c5d9.js",
+   "count": 2,
+   "names": [
+    "n",
+    "r"
+   ]
+  },
+  {
+   "from": "local-conversation-turn-69783815d57d.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "agent-activity-item-1be092f0c744.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "generated-image-output-visibility-89248db44ece.js",
+   "count": 2,
+   "names": [
+    "d",
+    "u"
+   ]
+  },
+  {
+   "from": "createLucideIcon-BrIFp4GW-a18604e68da4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "dot-doJTctYY-53adca281c1f.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "document-title-1619f32b59ec.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-app-shell-chrome-404b941243dd.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "chat-tab-metadata-bridge-e6e8bf7ae8b2.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "conversation-view-7b7c0046b8d4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "catalog-b8899204cdcc.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "use-avatar-options-56495836bfd6.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "parsePhoneNumber-d60824298d64.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "withMetadataArgument-66f337837d55.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "parsePhoneNumber-1c038b3a80d8.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 223
+  },
+  {
+   "name": "className",
+   "count": 178
+  },
+  {
+   "name": "id",
+   "count": 139
+  },
+  {
+   "name": "description",
+   "count": 128
+  },
+  {
+   "name": "defaultMessage",
+   "count": 121
+  },
+  {
+   "name": "value",
+   "count": 93
+  },
+  {
+   "name": "key",
+   "count": 76
+  },
+  {
+   "name": "null",
+   "count": 41
+  },
+  {
+   "name": "conversationId",
+   "count": 40
+  },
+  {
+   "name": "variant",
+   "count": 30
+  },
+  {
+   "name": "disabled",
+   "count": 27
+  },
+  {
+   "name": "tool",
+   "count": 25
+  },
+  {
+   "name": "type",
+   "count": 24
+  },
+  {
+   "name": "values",
+   "count": 23
+  },
+  {
+   "name": "pauseResumeAction",
+   "count": 23
+  },
+  {
+   "name": "color",
+   "count": 22
+  },
+  {
+   "name": "sm",
+   "count": 22
+  },
+  {
+   "name": "title",
+   "count": 21
+  },
+  {
+   "name": "mode",
+   "count": 21
+  },
+  {
+   "name": "size",
+   "count": 19
+  },
+  {
+   "name": "item",
+   "count": 19
+  },
+  {
+   "name": "namespace",
+   "count": 19
+  },
+  {
+   "name": "ref",
+   "count": 18
+  },
+  {
+   "name": "threadId",
+   "count": 17
+  },
+  {
+   "name": "renderAgentActivityIcon",
+   "count": 17
+  },
+  {
+   "name": "identity",
+   "count": 15
+  },
+  {
+   "name": "avatar",
+   "count": 15
+  },
+  {
+   "name": "onClick",
+   "count": 15
+  },
+  {
+   "name": "icon",
+   "count": 15
+  },
+  {
+   "name": "role",
+   "count": 14
+  },
+  {
+   "name": "render",
+   "count": 14
+  },
+  {
+   "name": "destination",
+   "count": 13
+  },
+  {
+   "name": "data",
+   "count": 13
+  },
+  {
+   "name": "asset",
+   "count": 12
+  },
+  {
+   "name": "hostId",
+   "count": 12
+  },
+  {
+   "name": "error",
+   "count": 12
+  },
+  {
+   "name": "name",
+   "count": 11
+  },
+  {
+   "name": "active",
+   "count": 11
+  },
+  {
+   "name": "number",
+   "count": 11
+  },
+  {
+   "name": "layout",
+   "count": 11
+  },
+  {
+   "name": "src",
+   "count": 10
+  },
+  {
+   "name": "writable",
+   "count": 10
+  },
+  {
+   "name": "country",
+   "count": 10
+  },
+  {
+   "name": "done",
+   "count": 10
+  },
+  {
+   "name": "pet",
+   "count": 9
+  },
+  {
+   "name": "onCreatePet",
+   "count": 9
+  },
+  {
+   "name": "label",
+   "count": 9
+  },
+  {
+   "name": "swatchClassName",
+   "count": 8
+  },
+  {
+   "name": "textClassName",
+   "count": 8
+  },
+  {
+   "name": "accentClassName",
+   "count": 8
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 8
+  },
+  {
+   "name": "fallback",
+   "count": 8
+  },
+  {
+   "name": "footer",
+   "count": 8
+  },
+  {
+   "name": "sentAtMs",
+   "count": 8
+  },
+  {
+   "name": "time",
+   "count": 8
+  },
+  {
+   "name": "href",
+   "count": 8
+  },
+  {
+   "name": "isError",
+   "count": 8
+  },
+  {
+   "name": "items",
+   "count": 8
+  },
+  {
+   "name": "width",
+   "count": 8
+  },
+  {
+   "name": "height",
+   "count": 8
+  },
+  {
+   "name": "mcpServerStatuses",
+   "count": 8
+  },
+  {
+   "name": "background",
+   "count": 7
+  },
+  {
+   "name": "foreground",
+   "count": 7
+  },
+  {
+   "name": "appearance",
+   "count": 7
+  },
+  {
+   "name": "petId",
+   "count": 7
+  },
+  {
+   "name": "loading",
+   "count": 7
+  },
+  {
+   "name": "animate",
+   "count": 7
+  },
+  {
+   "name": "status",
+   "count": 7
+  },
+  {
+   "name": "onSetup",
+   "count": 7
+  },
+  {
+   "name": "heading",
+   "count": 7
+  },
+  {
+   "name": "isCodexAppsServer",
+   "count": 7
+  },
+  {
+   "name": "tabId",
+   "count": 7
+  },
+  {
+   "name": "recipient",
+   "count": 7
+  },
+  {
+   "name": "t",
+   "count": 7
+  },
+  {
+   "name": "nationalNumber",
+   "count": 7
+  },
+  {
+   "name": "onChange",
+   "count": 6
+  },
+  {
+   "name": "options",
+   "count": 6
+  },
+  {
+   "name": "opacity",
+   "count": 6
+  },
+  {
+   "name": "transition",
+   "count": 6
+  },
+  {
+   "name": "isPending",
+   "count": 6
+  },
+  {
+   "name": "get",
+   "count": 6
+  },
+  {
+   "name": "operation",
+   "count": 6
+  },
+  {
+   "name": "lastActiveAtMs",
+   "count": 6
+  },
+  {
+   "name": "state",
+   "count": 6
+  },
+  {
+   "name": "result",
+   "count": 6
+  },
+  {
+   "name": "action",
+   "count": 6
+  },
+  {
+   "name": "String",
+   "count": 6
+  },
+  {
+   "name": "countryCallingCode",
+   "count": 6
+  },
+  {
+   "name": "configurable",
+   "count": 6
+  },
+  {
+   "name": "v2",
+   "count": 6
+  },
+  {
+   "name": "triggerContent",
+   "count": 5
+  },
+  {
+   "name": "productName",
+   "count": 5
+  },
+  {
+   "name": "selectedId",
+   "count": 5
+  },
+  {
+   "name": "open",
+   "count": 5
+  },
+  {
+   "name": "onOpenChange",
+   "count": 5
+  },
+  {
+   "name": "nowMs",
+   "count": 5
+  },
+  {
+   "name": "day",
+   "count": 5
+  },
+  {
+   "name": "y",
+   "count": 5
+  },
+  {
+   "name": "duration",
+   "count": 5
+  },
+  {
+   "name": "path",
+   "count": 5
+  },
+  {
+   "name": "initiator",
+   "count": 5
+  },
+  {
+   "name": "transform",
+   "count": 5
+  },
+  {
+   "name": "summary",
+   "count": 5
+  },
+  {
+   "name": "preview",
+   "count": 5
+  },
+  {
+   "name": "carrierCode",
+   "count": 5
+  },
+  {
+   "name": "enumerable",
+   "count": 5
+  },
+  {
+   "name": "accountId",
+   "count": 5
+  },
+  {
+   "name": "userId",
+   "count": 5
+  },
+  {
+   "name": "onTrigger",
+   "count": 4
+  },
+  {
+   "name": "reducedMotion",
+   "count": 4
+  },
+  {
+   "name": "r",
+   "count": 4
+  },
+  {
+   "name": "initial",
+   "count": 4
+  },
+  {
+   "name": "isArchived",
+   "count": 4
+  },
+  {
+   "name": "isLoading",
+   "count": 4
+  },
+  {
+   "name": "aeonId",
+   "count": 4
+  },
+  {
+   "name": "method",
+   "count": 4
+  },
+  {
+   "name": "event",
+   "count": 4
+  },
+  {
+   "name": "onSelect",
+   "count": 4
+  },
+  {
+   "name": "default",
+   "count": 4
+  },
+  {
+   "name": "isActive",
+   "count": 4
+  },
+  {
+   "name": "pausedAtMs",
+   "count": 4
+  },
+  {
+   "name": "unit",
+   "count": 4
+  },
+  {
+   "name": "o",
+   "count": 4
+  },
+  {
+   "name": "enabled",
+   "count": 4
+  },
+  {
+   "name": "isEqual",
+   "count": 4
+  },
+  {
+   "name": "fill",
+   "count": 4
+  },
+  {
+   "name": "agentActivityIcon",
+   "count": 4
+  },
+  {
+   "name": "getCompletedSummaryPartKey",
+   "count": 4
+  },
+  {
+   "name": "phone",
+   "count": 4
+  },
+  {
+   "name": "alt",
+   "count": 4
+  },
+  {
+   "name": "metadata",
+   "count": 4
+  },
+  {
+   "name": "countryCallingCodeSource",
+   "count": 4
+  },
+  {
+   "name": "ariaLabel",
+   "count": 4
+  },
+  {
+   "name": "orbitName",
+   "count": 4
+  },
+  {
+   "name": "date",
+   "count": 4
+  },
+  {
+   "name": "onClose",
+   "count": 3
+  },
+  {
+   "name": "radius",
+   "count": 3
+  },
+  {
+   "name": "previewRef",
+   "count": 3
+  },
+  {
+   "name": "previewFallback",
+   "count": 3
+  },
+  {
+   "name": "pathname",
+   "count": 3
+  },
+  {
+   "name": "tokens",
+   "count": 3
+  },
+  {
+   "name": "hour",
+   "count": 3
+  },
+  {
+   "name": "minute",
+   "count": 3
+  },
+  {
+   "name": "month",
+   "count": 3
+  },
+  {
+   "name": "compact",
+   "count": 3
+  },
+  {
+   "name": "sectionKey",
+   "count": 3
+  },
+  {
+   "name": "emailAddress",
+   "count": 3
+  },
+  {
+   "name": "triggerButton",
+   "count": 3
+  },
+  {
+   "name": "leftIconAsset",
+   "count": 3
+  },
+  {
+   "name": "EmailSettingsDialogBody",
+   "count": 3
+  },
+  {
+   "name": "showActivityStatus",
+   "count": 3
+  },
+  {
+   "name": "activityStatus",
+   "count": 3
+  },
+  {
+   "name": "isPaused",
+   "count": 3
+  },
+  {
+   "name": "numeric",
+   "count": 3
+  },
+  {
+   "name": "e",
+   "count": 3
+  },
+  {
+   "name": "i",
+   "count": 3
+  },
+  {
+   "name": "resolvedApps",
+   "count": 3
+  },
+  {
+   "name": "cwd",
+   "count": 3
+  },
+  {
+   "name": "delay",
+   "count": 3
+  },
+  {
+   "name": "d",
+   "count": 3
+  },
+  {
+   "name": "to",
+   "count": 3
+  },
+  {
+   "name": "replace",
+   "count": 3
+  },
+  {
+   "name": "target",
+   "count": 3
+  },
+  {
+   "name": "palette",
+   "count": 3
+  },
+  {
+   "name": "toolName",
+   "count": 3
+  },
+  {
+   "name": "toolResult",
+   "count": 3
+  },
+  {
+   "name": "completed",
+   "count": 3
+  },
+  {
+   "name": "isLeadingSummaryPart",
+   "count": 3
+  },
+  {
+   "name": "dot",
+   "count": 3
+  },
+  {
+   "name": "strokeWidth",
+   "count": 3
+  },
+  {
+   "name": "fullBleed",
+   "count": 3
+  },
+  {
+   "name": "starting",
+   "count": 3
+  },
+  {
+   "name": "client",
+   "count": 3
+  },
+  {
+   "name": "onError",
+   "count": 3
+  },
+  {
+   "name": "turnId",
+   "count": 3
+  },
+  {
+   "name": "ext",
+   "count": 3
+  },
+  {
+   "name": "blue",
+   "count": 2
+  },
+  {
+   "name": "orange",
+   "count": 2
+  },
+  {
+   "name": "pink",
+   "count": 2
+  },
+  {
+   "name": "yellow",
+   "count": 2
+  },
+  {
+   "name": "namePending",
+   "count": 2
+  },
+  {
+   "name": "characterConversationId",
+   "count": 2
+  },
+  {
+   "name": "onSave",
+   "count": 2
+  },
+  {
+   "name": "readOnlyName",
+   "count": 2
+  },
+  {
+   "name": "s",
+   "count": 2
+  },
+  {
+   "name": "source",
+   "count": 2
+  },
+  {
+   "name": "onFocus",
+   "count": 2
+  },
+  {
+   "name": "onKeyDown",
+   "count": 2
+  },
+  {
+   "name": "onSelectPet",
+   "count": 2
+  },
+  {
+   "name": "useSavedAvatar",
+   "count": 2
+  },
+  {
+   "name": "contentProps",
+   "count": 2
+  },
+  {
+   "name": "routeTemplate",
+   "count": 2
+  },
+  {
+   "name": "safe",
+   "count": 2
+  },
+  {
+   "name": "sensitive",
+   "count": 2
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 2
+  },
+  {
+   "name": "toastId",
+   "count": 2
+  },
+  {
+   "name": "p",
+   "count": 2
+  },
+  {
+   "name": "standalone",
+   "count": 2
+  },
+  {
+   "name": "text",
+   "count": 2
+  },
+  {
+   "name": "year",
+   "count": 2
+  },
+  {
+   "name": "ease",
+   "count": 2
+  },
+  {
+   "name": "clientThreadId",
+   "count": 2
+  },
+  {
+   "name": "parameters",
+   "count": 2
+  },
+  {
+   "name": "refetch",
+   "count": 2
+  },
+  {
+   "name": "initialMode",
+   "count": 2
+  },
+  {
+   "name": "onClaimResult",
+   "count": 2
+  },
+  {
+   "name": "email",
+   "count": 2
+  },
+  {
+   "name": "R",
+   "count": 2
+  },
+  {
+   "name": "onDebug",
+   "count": 2
+  },
+  {
+   "name": "onRemove",
+   "count": 2
+  },
+  {
+   "name": "leading",
+   "count": 2
+  },
+  {
+   "name": "renderAppearancePicker",
+   "count": 2
+  },
+  {
+   "name": "layoutDependency",
+   "count": 2
+  },
+  {
+   "name": "hidden",
+   "count": 2
+  },
+  {
+   "name": "u",
+   "count": 2
+  },
+  {
+   "name": "latestActivityAtMs",
+   "count": 2
+  },
+  {
+   "name": "roomId",
+   "count": 2
+  },
+  {
+   "name": "liveActivityLabel",
+   "count": 2
+  },
+  {
+   "name": "turn",
+   "count": 2
+  },
+  {
+   "name": "scope",
+   "count": 2
+  },
+  {
+   "name": "itemId",
+   "count": 2
+  },
+  {
+   "name": "preserveServerUserMessages",
+   "count": 2
+  },
+  {
+   "name": "turnState",
+   "count": 2
+  },
+  {
+   "name": "grouping",
+   "count": 2
+  },
+  {
+   "name": "keys",
+   "count": 2
+  },
+  {
+   "name": "index",
+   "count": 2
+  },
+  {
+   "name": "total",
+   "count": 2
+  },
+  {
+   "name": "viewBox",
+   "count": 2
+  },
+  {
+   "name": "xmlns",
+   "count": 2
+  },
+  {
+   "name": "isFetching",
+   "count": 2
+  },
+  {
+   "name": "stayOnPage",
+   "count": 2
+  },
+  {
+   "name": "resetError",
+   "count": 2
+  },
+  {
+   "name": "debugName",
+   "count": 2
+  },
+  {
+   "name": "landingColor",
+   "count": 2
+  },
+  {
+   "name": "appContext",
+   "count": 2
+  },
+  {
+   "name": "serverName",
+   "count": 2
+  },
+  {
+   "name": "matchingApp",
+   "count": 2
+  },
+  {
+   "name": "server",
+   "count": 2
+  },
+  {
+   "name": "standaloneInConversation",
+   "count": 2
+  },
+  {
+   "name": "operationId",
+   "count": 2
+  },
+  {
+   "name": "continuesLiveActivityBetweenCalls",
+   "count": 2
+  },
+  {
+   "name": "toolArguments",
+   "count": 2
+  },
+  {
+   "name": "showFallbackWhileLoading",
+   "count": 2
+  },
+  {
+   "name": "queryFn",
+   "count": 2
+  },
+  {
+   "name": "queryKey",
+   "count": 2
+  },
+  {
+   "name": "staleTime",
+   "count": 2
+  },
+  {
+   "name": "automaticApprovalReviews",
+   "count": 2
+  },
+  {
+   "name": "iconOnly",
+   "count": 2
+  },
+  {
+   "name": "onCopy",
+   "count": 2
+  },
+  {
+   "name": "stroke",
+   "count": 2
+  }
+ ],
+ "literal_count": 2471,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261013\\aeon.json"
+}

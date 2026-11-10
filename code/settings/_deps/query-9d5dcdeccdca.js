@@ -1,0 +1,230 @@
+import { n as e } from "./rolldown-runtime-c05d78c594d1.js";
+import {
+  Amn as t,
+  Dmn as n,
+  Omn as r,
+  Spn as i,
+  Xdt as a,
+  b3t as o,
+  cdt as s,
+  hmn as c,
+  kmn as l,
+  s3t as u,
+  xpn as d,
+} from "./app-initial-f094ef01c64d.js";
+import { n as f, t as p } from "./history-7a399655a3e6.js";
+import { n as m, t as h } from "./cookies-35a81e307103.js";
+import { n as g, t as _ } from "./google-chrome-38e9ab83c385.js";
+var v,
+  y,
+  b = e(() => {
+    (t(),
+      (v = c()),
+      (y = (e) =>
+        (0, v.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, v.jsx)(`path`, {
+              d: `M8.75 9.55V15.75L6.5 18.25L4.25 15.75V9.55C2.886 8.748 2 7.267 2 5.625C2 3.14 4.015 1.125 6.5 1.125C8.985 1.125 11 3.14 11 5.625C11 7.267 10.114 8.748 8.75 9.55Z`,
+              stroke: `currentColor`,
+              strokeWidth: 1.33,
+              strokeLinecap: `round`,
+              strokeLinejoin: `round`,
+            }),
+            (0, v.jsx)(`circle`, { cx: 6.5, cy: 5.5, r: 0.75, fill: `currentColor` }),
+            (0, v.jsx)(`path`, {
+              d: `M11.45 2.775C12.078 2.362 12.83 2.125 13.625 2.125C16.11 2.125 18.125 4.14 18.125 6.625C18.125 8.267 17.239 9.748 15.875 10.55V15.75L13.625 18.25L11.375 15.75V10.55C10.818 10.223 10.342 9.783 9.977 9.263`,
+              stroke: `currentColor`,
+              strokeWidth: 1.33,
+              strokeLinecap: `round`,
+              strokeLinejoin: `round`,
+            }),
+          ],
+        })));
+  });
+function x(e) {
+  let t = (0, S.c)(9),
+    { className: n, kind: r } = e;
+  switch (r) {
+    case `cookies`: {
+      let e;
+      return (
+        t[0] === n ? (e = t[1]) : ((e = (0, C.jsx)(h, { className: n })), (t[0] = n), (t[1] = e)), e
+      );
+    }
+    case `history`: {
+      let e;
+      return (
+        t[2] === n ? (e = t[3]) : ((e = (0, C.jsx)(p, { className: n })), (t[2] = n), (t[3] = e)), e
+      );
+    }
+    case `passwords`: {
+      let e;
+      return (
+        t[4] === n ? (e = t[5]) : ((e = (0, C.jsx)(y, { className: n })), (t[4] = n), (t[5] = e)), e
+      );
+    }
+    case `extensions`: {
+      let e;
+      t[6] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, C.jsx)(s, {})), (t[6] = e))
+        : (e = t[6]);
+      let r;
+      return (
+        t[7] === n
+          ? (r = t[8])
+          : ((r = (0, C.jsx)(`span`, { className: n, children: e })), (t[7] = n), (t[8] = r)),
+        r
+      );
+    }
+  }
+}
+var S,
+  C,
+  w = e(() => {
+    ((S = l()), a(), m(), f(), b(), (C = c()));
+  }),
+  T,
+  E = e(() => {
+    (i(),
+      (T = d({
+        cookies: {
+          id: `settings.browserUse.profileImport.cookies`,
+          defaultMessage: `Cookies`,
+          description: `Label for importing cookies from a browser profile`,
+        },
+        passwords: {
+          id: `settings.browserUse.profileImport.passwords`,
+          defaultMessage: `Saved passwords`,
+          description: `Label for importing passwords from a browser profile`,
+        },
+        history: {
+          id: `settings.browserUse.profileImport.history`,
+          defaultMessage: `Browsing history`,
+          description: `Label for importing browsing history from a Chrome profile`,
+        },
+        title: {
+          id: `settings.browserUse.profileImport.title`,
+          defaultMessage: `Import from your browser`,
+          description: `Title for the browser profile import dialog`,
+        },
+        extensions: {
+          id: `settings.browserUse.profileImport.extensions`,
+          defaultMessage: `Extensions`,
+          description: `Label for importing Chrome extensions, toolbar pins, and permission choices`,
+        },
+      })));
+  }),
+  D,
+  O = e(() => {
+    D = `` + new URL(`atlas-app-5b67bfaeebb3.png`, import.meta.url).href;
+  });
+function k(e) {
+  let t = (0, j.c)(3),
+    { sources: n } = e;
+  if (n.length === 1) {
+    let e;
+    return (
+      t[0] === n[0]
+        ? (e = t[1])
+        : ((e = (0, M.jsx)(A, { source: n[0], className: `h-6 w-6 shrink-0 rounded-[22%]` })),
+          (t[0] = n[0]),
+          (t[1] = e)),
+      e
+    );
+  }
+  let r;
+  return (
+    t[2] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((r = (0, M.jsxs)(`div`, {
+          className: `relative h-7 w-9 shrink-0`,
+          "aria-hidden": !0,
+          children: [
+            (0, M.jsx)(A, {
+              className: `absolute top-0 left-0 h-6 w-6 rounded-[22%]`,
+              source: `atlas`,
+            }),
+            (0, M.jsx)(A, {
+              className: `absolute right-0 bottom-0 h-6 w-6 rounded-full ring-2 ring-surface`,
+              source: `chrome`,
+            }),
+          ],
+        })),
+        (t[2] = r))
+      : (r = t[2]),
+    r
+  );
+}
+function A(e) {
+  let t = (0, j.c)(4),
+    { className: n, source: r } = e;
+  switch (r) {
+    case `atlas`: {
+      let e;
+      return (
+        t[0] === n
+          ? (e = t[1])
+          : ((e = (0, M.jsx)(`img`, { "aria-hidden": !0, alt: ``, className: n, src: D })),
+            (t[0] = n),
+            (t[1] = e)),
+        e
+      );
+    }
+    case `chrome`: {
+      let e;
+      return (
+        t[2] === n
+          ? (e = t[3])
+          : ((e = (0, M.jsx)(_, { "aria-hidden": !0, className: n })), (t[2] = n), (t[3] = e)),
+        e
+      );
+    }
+  }
+}
+var j,
+  M,
+  N = e(() => {
+    ((j = l()), O(), g(), (M = c()));
+  });
+function P(e) {
+  return Array.from(new Set(e.map((e) => e.source)));
+}
+function F(e, t) {
+  return o({
+    enabled: t,
+    queryKey: [`browser-profile-import-profiles`],
+    queryFn: async () => {
+      if (e == null) throw Error(`Browser profile import is unavailable`);
+      try {
+        return await e.listImportableBrowserProfiles();
+      } catch (e) {
+        throw (r.error(`Failed to list importable browser profiles`, { safe: {} }), e);
+      }
+    },
+    retry: !1,
+    staleTime: L,
+  });
+}
+function I(e, t) {
+  return o({
+    enabled: t,
+    queryKey: [`browser-profile-import-signals`],
+    queryFn: async () => {
+      if (e == null) throw Error(`Browser profile import is unavailable`);
+      return e.getImportSignals();
+    },
+    retry: !1,
+    staleTime: L,
+  });
+}
+var L,
+  R = e(() => {
+    (u(), n(), (L = 3e4));
+  });
+export { A as a, T as c, w as d, R as i, E as l, I as n, k as o, P as r, N as s, F as t, x as u };
+//# sourceMappingURL=query-9d5dcdeccdca.js.map

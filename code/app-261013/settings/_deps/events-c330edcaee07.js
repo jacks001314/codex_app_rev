@@ -1,0 +1,28 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { EPt as t, TLt as n, pLt as r } from "./app-shared-bbfeca5e5737.js";
+import { ZDr as i, eOr as a } from "./app-initial-5851df3f6cb1.js";
+function o(e, t) {
+  e.get(a).logEventWithStatsig?.(t.name, t.metadata);
+}
+function s(e, t) {
+  let n = {};
+  try {
+    let e = l.safeParse(JSON.parse(t.message));
+    if (e.success) {
+      let { error_type: t, reason: r } = e.data.detail;
+      n = { ...(t == null ? {} : { error_type: t }), ...(r == null ? {} : { reason: r }) };
+    }
+  } catch {}
+  o(e, { name: `chatgpt_plan_management_modal_handle_update_error`, metadata: n });
+}
+var c, l;
+function u() {
+  return (u = e(() => {
+    (t(),
+      i(),
+      (c = n().regex(/^[a-z][a-z0-9_]{0,127}$/)),
+      (l = r({ detail: r({ error_type: c.optional().catch(void 0), reason: c.optional().catch(void 0) }) })));
+  }))();
+}
+export { s as n, o as r, u as t };
+//# sourceMappingURL=events-c330edcaee07.js.map

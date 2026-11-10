@@ -1,0 +1,998 @@
+{
+  "module": "conversation",
+  "generated_at": "2026-09-11T11:51:43.627Z",
+  "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.903.9818.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "app_version": "26.903.71938",
+  "files": [
+    {
+      "archive_path": "webview/assets/agent-activity-item-99bed1259d6b.js",
+      "file": "_deps/agent-activity-item-99bed1259d6b.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 32959,
+      "formatted_bytes": 46356,
+      "formatter": "prettier",
+      "sha256_raw": "9c0d490fe4645ea40a61e6381aafa86e95d5444f30eab6ed9236e759bb0836eb"
+    },
+    {
+      "archive_path": "webview/assets/arrow-branch-light-16-cdf94f439042.js",
+      "file": "_deps/arrow-branch-light-16-cdf94f439042.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 2006,
+      "formatted_bytes": 2394,
+      "formatter": "prettier",
+      "sha256_raw": "855efb92015dd6ec4a353683fd7f07e5e2b5b85429d73548940eb17a6a02a86b"
+    },
+    {
+      "archive_path": "webview/assets/artifact-originating-turn-1d99e170e424.js",
+      "file": "turn/artifact-originating-turn-1d99e170e424.js",
+      "selected_by": "rule",
+      "raw_bytes": 15504,
+      "formatted_bytes": 24289,
+      "formatter": "prettier",
+      "sha256_raw": "1e5e39440603572af21a49ea2e8ea237656cc2d36838e780aa06f44043e58d1f"
+    },
+    {
+      "archive_path": "webview/assets/automation-status-messages-8323ed1c597b.js",
+      "file": "_deps/automation-status-messages-8323ed1c597b.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 638,
+      "formatted_bytes": 860,
+      "formatter": "prettier",
+      "sha256_raw": "fcc3dd14ab7f785dccbc69cb7739ff0ad09a48373137d1e0c8b4717ae1366df0"
+    },
+    {
+      "archive_path": "webview/assets/book-open-1c76ceab8565.js",
+      "file": "_deps/book-open-1c76ceab8565.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 2053,
+      "formatted_bytes": 2260,
+      "formatter": "prettier",
+      "sha256_raw": "e940f0321ec208c3006183b0a66c522c536e79f1bf867a0d7bdc3f2a6f87213d"
+    },
+    {
+      "archive_path": "webview/assets/chat-tab-metadata-bridge-113ca5f6f676.js",
+      "file": "_deps/chat-tab-metadata-bridge-113ca5f6f676.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 613,
+      "formatted_bytes": 982,
+      "formatter": "prettier",
+      "sha256_raw": "7a14037a84fff1a7d5697d83977e0350868e157b9b170b55b702401d013ae9db"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-code-block-12bf995a0419.css",
+      "file": "markdown/chatgpt-code-block-12bf995a0419.css",
+      "selected_by": "rule",
+      "raw_bytes": 81,
+      "formatted_bytes": 103,
+      "formatter": "prettier",
+      "sha256_raw": "13a85908a5baf963e106193a0bd67d371f53bdfff4bea8f66464e8e75630235b"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-code-block-a3d300f795d8.js",
+      "file": "markdown/chatgpt-code-block-a3d300f795d8.js",
+      "selected_by": "rule",
+      "raw_bytes": 39587,
+      "formatted_bytes": 60998,
+      "formatter": "prettier",
+      "sha256_raw": "779ecec63151ce737aa676f65f8ce1af4fcc3c802a0253053587290379fa2a81"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-conversation-client-defcb2d6f5ce.js",
+      "file": "pages/chatgpt-conversation-client-defcb2d6f5ce.js",
+      "selected_by": "rule",
+      "raw_bytes": 189,
+      "formatted_bytes": 212,
+      "formatter": "prettier",
+      "sha256_raw": "6495823c13e70c21c3e8a1d76207321c3e8bff447f3aef2f31f5b6c9476e227e"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-conversation-page-733818e9db52.js",
+      "file": "pages/chatgpt-conversation-page-733818e9db52.js",
+      "selected_by": "rule",
+      "raw_bytes": 77233,
+      "formatted_bytes": 122026,
+      "formatter": "prettier",
+      "sha256_raw": "aebed8ec3072cfb54701cba96f16cad1f9f2dfda7063146364c527aa94c232dc"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-gizmo-header-b574da470fab.js",
+      "file": "_deps/chatgpt-gizmo-header-b574da470fab.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 5211,
+      "formatted_bytes": 7229,
+      "formatter": "prettier",
+      "sha256_raw": "00441c241c737b61630cf7dca16f1001eaf2f34355a65a9d8147f6696c1da76a"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-source-icon-18c04bb49eff.js",
+      "file": "_deps/chatgpt-source-icon-18c04bb49eff.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 1716,
+      "formatted_bytes": 2812,
+      "formatter": "prettier",
+      "sha256_raw": "5a95022018525b6439def7a9ad3facea26ebb26d04c28c1462677bbc587316d7"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-sources-message-510147b6e789.js",
+      "file": "markdown/chatgpt-sources-message-510147b6e789.js",
+      "selected_by": "rule",
+      "raw_bytes": 4206,
+      "formatted_bytes": 5388,
+      "formatter": "prettier",
+      "sha256_raw": "edff0113ad34dd466545c38c430e578a2bc7b2bec0a953cdd9ea64ded4869408"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-temporary-chat-ui-74ff09208d4a.js",
+      "file": "_deps/chatgpt-temporary-chat-ui-74ff09208d4a.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 27509,
+      "formatted_bytes": 37024,
+      "formatter": "prettier",
+      "sha256_raw": "59821ab78ac04de8ca644e78bb7659338ccf767a5347eda8f2e3f249fabb9320"
+    },
+    {
+      "archive_path": "webview/assets/ChevronRight-9ebd4395b90f.js",
+      "file": "_deps/ChevronRight-9ebd4395b90f.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 3058,
+      "formatted_bytes": 4242,
+      "formatter": "prettier",
+      "sha256_raw": "5d97987445d56bc695d1a3e3b5fb4f122b12945e2f882901aa1626fa4847b62b"
+    },
+    {
+      "archive_path": "webview/assets/circle-exclamation-mark-light-16-474b9ca832b4.js",
+      "file": "_deps/circle-exclamation-mark-light-16-474b9ca832b4.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 8604,
+      "formatted_bytes": 11243,
+      "formatter": "prettier",
+      "sha256_raw": "7d7fc47ff886bfd966e30499a1b51a8dcafd3d6eb616a69a2d278afc5398a0c4"
+    },
+    {
+      "archive_path": "webview/assets/circle-person-light-16-db04082bce15.js",
+      "file": "_deps/circle-person-light-16-db04082bce15.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 1936,
+      "formatted_bytes": 2277,
+      "formatter": "prettier",
+      "sha256_raw": "d53cc615ff715a8a8c1742139af7f19780af25bdf7088cc72164af62ba8f600d"
+    },
+    {
+      "archive_path": "webview/assets/client-dbffaaa9512f.js",
+      "file": "_deps/client-dbffaaa9512f.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 2748,
+      "formatted_bytes": 4104,
+      "formatter": "prettier",
+      "sha256_raw": "cf629a38889ed445a18d0d0c24d36af31d2755a221494c1378867df50efa20ba"
+    },
+    {
+      "archive_path": "webview/assets/collapse-f3eca6f029fa.js",
+      "file": "_deps/collapse-f3eca6f029fa.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 1197,
+      "formatted_bytes": 1406,
+      "formatter": "prettier",
+      "sha256_raw": "d492c1db9a7067e2cf8ce669333a84c6d0817a05c22e1b9714e7100a5eddd828"
+    },
+    {
+      "archive_path": "webview/assets/command-execution-command-fda2ded549ba.js",
+      "file": "_deps/command-execution-command-fda2ded549ba.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 456,
+      "formatted_bytes": 540,
+      "formatter": "prettier",
+      "sha256_raw": "77d570360a6f79ee76a567c7909754ff06b94f7ea767fdf159a231cca92fc2f8"
+    },
+    {
+      "archive_path": "webview/assets/commit-2c0030d3a535.js",
+      "file": "_deps/commit-2c0030d3a535.js",
+      "selected_by": "closure:d1:local-conversation-git-actions-f27d2904645d.js",
+      "raw_bytes": 1276,
+      "formatted_bytes": 1638,
+      "formatter": "prettier",
+      "sha256_raw": "b836e89b4c7ed251dc05d070f44e9baf30fbe59c636ba05ce2500581bbd7faa6"
+    },
+    {
+      "archive_path": "webview/assets/computer-use-native-app-metadata-ce3a8605f5bd.js",
+      "file": "_deps/computer-use-native-app-metadata-ce3a8605f5bd.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 857,
+      "formatted_bytes": 1176,
+      "formatter": "prettier",
+      "sha256_raw": "a0a558663702467c3870b422a512929a88b4a74fa2525f56a23712aaaf54d4d9"
+    },
+    {
+      "archive_path": "webview/assets/content-reference-markers-baac3407713e.js",
+      "file": "_deps/content-reference-markers-baac3407713e.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 21525,
+      "formatted_bytes": 29095,
+      "formatter": "prettier",
+      "sha256_raw": "8b4e5a320aa5520b642ec40eb1832f0991f87b8244b4a3f9eb6b2948b185cbe6"
+    },
+    {
+      "archive_path": "webview/assets/conversation-2aefcc6a5de7.js",
+      "file": "pages/conversation-2aefcc6a5de7.js",
+      "selected_by": "rule",
+      "raw_bytes": 1553,
+      "formatted_bytes": 2329,
+      "formatter": "prettier",
+      "sha256_raw": "331c27c486dac6281ea88475142ffaa10b22c5b0f47ef27c90d50668ada1323e"
+    },
+    {
+      "archive_path": "webview/assets/conversation-markdown-2bae28adae1e.js",
+      "file": "markdown/conversation-markdown-2bae28adae1e.js",
+      "selected_by": "rule",
+      "raw_bytes": 106,
+      "formatted_bytes": 118,
+      "formatter": "prettier",
+      "sha256_raw": "c3421692d24b871055e86c9710715f58ebe7267648bfaa2898ac219b7e673431"
+    },
+    {
+      "archive_path": "webview/assets/conversation-markdown-70a42265cc66.js",
+      "file": "markdown/conversation-markdown-70a42265cc66.js",
+      "selected_by": "rule",
+      "raw_bytes": 20064,
+      "formatted_bytes": 27041,
+      "formatter": "prettier",
+      "sha256_raw": "3db6cbba4299f003de0d71dcadc3d9d2ca2585e79b39269fa685cc2ce8670aa2"
+    },
+    {
+      "archive_path": "webview/assets/conversation-source-3c0ae9358599.js",
+      "file": "markdown/conversation-source-3c0ae9358599.js",
+      "selected_by": "rule",
+      "raw_bytes": 28149,
+      "formatted_bytes": 45519,
+      "formatter": "prettier",
+      "sha256_raw": "b8ad2b8578faa160c98913d82cda559ed4573d5bf879c433bd532382c3407be0"
+    },
+    {
+      "archive_path": "webview/assets/cursor-interactive-light-16-68e3de2313db.js",
+      "file": "_deps/cursor-interactive-light-16-68e3de2313db.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 2802,
+      "formatted_bytes": 3192,
+      "formatter": "prettier",
+      "sha256_raw": "7cd1bad5132b258f5c5111dab9e3f94c7d62c2014b3820daca67510a74105b7a"
+    },
+    {
+      "archive_path": "webview/assets/detail-section-f9ad9cac9a53.js",
+      "file": "_deps/detail-section-f9ad9cac9a53.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1893,
+      "formatted_bytes": 3115,
+      "formatter": "prettier",
+      "sha256_raw": "3fdff7224b7e4df93e5409393834e9a6e09664a943fac6ef2e1f049c7b62a859"
+    },
+    {
+      "archive_path": "webview/assets/diff-summary-5c18416871fa.js",
+      "file": "_deps/diff-summary-5c18416871fa.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 285,
+      "formatted_bytes": 350,
+      "formatter": "prettier",
+      "sha256_raw": "7c243492f60716da6de5a5c294c16c27ec1e150004a04e754c868063a7cffb95"
+    },
+    {
+      "archive_path": "webview/assets/dock-de9acbce75c2.js",
+      "file": "_deps/dock-de9acbce75c2.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1179,
+      "formatted_bytes": 1576,
+      "formatter": "prettier",
+      "sha256_raw": "c851cbfc50f6b8c019c257ff70617965bf00322ba4a3b1be40e198907141d0ee"
+    },
+    {
+      "archive_path": "webview/assets/environment-labels-655533fc7a67.js",
+      "file": "_deps/environment-labels-655533fc7a67.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 25582,
+      "formatted_bytes": 41635,
+      "formatter": "prettier",
+      "sha256_raw": "ed2046e4b83e3a6abe3f58552afa342e9bd7c27589d1e4631d3f01b51941866c"
+    },
+    {
+      "archive_path": "webview/assets/eye-3fd8cd7cd66d.js",
+      "file": "_deps/eye-3fd8cd7cd66d.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 1999,
+      "formatted_bytes": 2364,
+      "formatter": "prettier",
+      "sha256_raw": "f3eb34d28bb18c05c963a635aee4db94ef7645a72160464f3853a709eb9cae26"
+    },
+    {
+      "archive_path": "webview/assets/flask-5f81bf18fd17.js",
+      "file": "_deps/flask-5f81bf18fd17.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1838,
+      "formatted_bytes": 2047,
+      "formatter": "prettier",
+      "sha256_raw": "e51b57877533a806b88debbe0c94e325bc78f5293cf24f56a5588925487cae0c"
+    },
+    {
+      "archive_path": "webview/assets/generated-image-output-visibility-453ae5a0de52.js",
+      "file": "_deps/generated-image-output-visibility-453ae5a0de52.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1007,
+      "formatted_bytes": 1338,
+      "formatter": "prettier",
+      "sha256_raw": "e976f7a6601e1af62b9fe834ce442a585ef06fcd30341dfe81bbe5ddfc098564"
+    },
+    {
+      "archive_path": "webview/assets/git-action-review-state-fd1544c9df12.js",
+      "file": "_deps/git-action-review-state-fd1544c9df12.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 344,
+      "formatted_bytes": 419,
+      "formatter": "prettier",
+      "sha256_raw": "1c048870390470fe2cf507a0ffb6930de2bcb3b7e9ab9a1d37d224fb65b17939"
+    },
+    {
+      "archive_path": "webview/assets/git-branch-picker-dropdown-content-16bc93de7d03.js",
+      "file": "_deps/git-branch-picker-dropdown-content-16bc93de7d03.js",
+      "selected_by": "closure:d1:local-conversation-git-actions-f27d2904645d.js",
+      "raw_bytes": 71128,
+      "formatted_bytes": 114934,
+      "formatter": "prettier",
+      "sha256_raw": "e7dd6d20b27fa3b364e34782f5a405fa683fc5de0ed934a25e167b20b4411272"
+    },
+    {
+      "archive_path": "webview/assets/hotkey-window-new-thread-page-48ec2a7a4cc4.js",
+      "file": "pages/hotkey-window-new-thread-page-48ec2a7a4cc4.js",
+      "selected_by": "rule",
+      "raw_bytes": 2145,
+      "formatted_bytes": 3192,
+      "formatter": "prettier",
+      "sha256_raw": "5083a9bb7c05d5778c58959cde790b0d7b8da1960232b413724e7ec87c16f5a7"
+    },
+    {
+      "archive_path": "webview/assets/hotkey-window-thread-page-8dd2de95295e.js",
+      "file": "pages/hotkey-window-thread-page-8dd2de95295e.js",
+      "selected_by": "rule",
+      "raw_bytes": 3300,
+      "formatted_bytes": 5537,
+      "formatter": "prettier",
+      "sha256_raw": "3da3a31642aa7938fd0522be3e7b3b19dd36e95405f3030b96ed1e821be3a66a"
+    },
+    {
+      "archive_path": "webview/assets/invoice-c62eda8816cf.js",
+      "file": "_deps/invoice-c62eda8816cf.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 4079,
+      "formatted_bytes": 4274,
+      "formatter": "prettier",
+      "sha256_raw": "e4adb5457365b97e188ca6a4cdfde16095bc5248725ac7e6ec98afd8872479ea"
+    },
+    {
+      "archive_path": "webview/assets/loading-page-904cda4435ce.js",
+      "file": "_deps/loading-page-904cda4435ce.js",
+      "selected_by": "closure:d1:thread-pin-shortcut-bridge-692ac0843530.js",
+      "raw_bytes": 88,
+      "formatted_bytes": 100,
+      "formatter": "prettier",
+      "sha256_raw": "094c5fa13e5066916c7dd7d97671168c189607aa67f98b84fe3f30c6b2479c81"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-git-actions-f27d2904645d.js",
+      "file": "thread/local-conversation-git-actions-f27d2904645d.js",
+      "selected_by": "rule",
+      "raw_bytes": 51422,
+      "formatted_bytes": 85079,
+      "formatter": "prettier",
+      "sha256_raw": "a215e476c2f3a63f2f9ed1b7942edaae7669c65a9e881f29b08b14c606eebcb4"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-page-3f93e4c62cc7.js",
+      "file": "pages/local-conversation-page-3f93e4c62cc7.js",
+      "selected_by": "rule",
+      "raw_bytes": 58709,
+      "formatted_bytes": 92829,
+      "formatter": "prettier",
+      "sha256_raw": "0301968ddf41ea1178ae7d67a4da973521b1299f4c9ca6489fe8c14643ab4b71"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-plan-model-f754ec01e101.js",
+      "file": "thread/local-conversation-plan-model-f754ec01e101.js",
+      "selected_by": "rule",
+      "raw_bytes": 576,
+      "formatted_bytes": 762,
+      "formatter": "prettier",
+      "sha256_raw": "9f76ba52faef9885387da13c8c4e2cae5f17f52678756bfd8892b3340e50614f"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-sources-signals-4de97ec9f993.js",
+      "file": "pages/local-conversation-sources-signals-4de97ec9f993.js",
+      "selected_by": "rule",
+      "raw_bytes": 1493,
+      "formatted_bytes": 2324,
+      "formatter": "prettier",
+      "sha256_raw": "cf4a949060592c71f1c9e05c3ef0800f7ab31eb3322b4cf6ff2dbbdc9e5f677a"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-stream-role-product-event-28e61d930003.js",
+      "file": "turn/local-conversation-stream-role-product-event-28e61d930003.js",
+      "selected_by": "rule",
+      "raw_bytes": 1626,
+      "formatted_bytes": 2665,
+      "formatter": "prettier",
+      "sha256_raw": "39c40c27f18c59fbe30d6d56f4f409e27b30773142b51ef5c95ba5125a648eb2"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-thread-69ea3d5cb325.js",
+      "file": "thread/local-conversation-thread-69ea3d5cb325.js",
+      "selected_by": "rule",
+      "raw_bytes": 119,
+      "formatted_bytes": 131,
+      "formatter": "prettier",
+      "sha256_raw": "b3adf027d7b408b0896a9f633c1f796f4355ae5a12956382fcc88932da1ec1bc"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-thread-a2bcd054c9d2.js",
+      "file": "thread/local-conversation-thread-a2bcd054c9d2.js",
+      "selected_by": "rule",
+      "raw_bytes": 353447,
+      "formatted_bytes": 572548,
+      "formatter": "prettier",
+      "sha256_raw": "c2c4e8cfbcb76799ee2d17ac1e6f6346d6c0d499a131a098ac0cffeb47bd2514"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-thread-turn-entries-3bc0985c25c6.js",
+      "file": "turn/local-conversation-thread-turn-entries-3bc0985c25c6.js",
+      "selected_by": "rule",
+      "raw_bytes": 7235,
+      "formatted_bytes": 9466,
+      "formatter": "prettier",
+      "sha256_raw": "5326ee6bc638f8f22fd3f7e393d845220c5db970acd3bfb9656d976b410a4005"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-turn-8acd99401e74.js",
+      "file": "turn/local-conversation-turn-8acd99401e74.js",
+      "selected_by": "rule",
+      "raw_bytes": 47449,
+      "formatted_bytes": 78598,
+      "formatter": "prettier",
+      "sha256_raw": "d01cc2cdf8ab368d3771cef3cdad14d553a33c4e82b37e6e471dcacd7f86e366"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-webmcp-tools-model-40d1a7153ca0.js",
+      "file": "thread/local-conversation-webmcp-tools-model-40d1a7153ca0.js",
+      "selected_by": "rule",
+      "raw_bytes": 9683,
+      "formatted_bytes": 13509,
+      "formatter": "prettier",
+      "sha256_raw": "54eb4df4011e7d3d7cda8126c9ec51dc625fcca777d00e692a9558a33725987c"
+    },
+    {
+      "archive_path": "webview/assets/local-environment-editor-1e185852cf27.js",
+      "file": "_deps/local-environment-editor-1e185852cf27.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 31323,
+      "formatted_bytes": 54254,
+      "formatter": "prettier",
+      "sha256_raw": "4f84c2a5ab5104e238d863b94734d1bc75b945bd0f6f9600002625117387554e"
+    },
+    {
+      "archive_path": "webview/assets/local-environment-workflow-messages-6e2a4950d847.js",
+      "file": "pages/local-environment-workflow-messages-6e2a4950d847.js",
+      "selected_by": "rule",
+      "raw_bytes": 1190,
+      "formatted_bytes": 1524,
+      "formatter": "prettier",
+      "sha256_raw": "54fae0cf31be686b9a10e8f1decfa1d20c783e3aaf2efa78b68d52d7be53dee3"
+    },
+    {
+      "archive_path": "webview/assets/mcp-app-analytics-d4aac36ba72c.js",
+      "file": "_deps/mcp-app-analytics-d4aac36ba72c.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 427,
+      "formatted_bytes": 555,
+      "formatter": "prettier",
+      "sha256_raw": "e2d88fc5b87f92e2e0bda202a93c4bc1e57b3ae5b05842aafa1919771e5c04f5"
+    },
+    {
+      "archive_path": "webview/assets/mcp-tool-item-content-5427b9fecd85.js",
+      "file": "_deps/mcp-tool-item-content-5427b9fecd85.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 33318,
+      "formatted_bytes": 54045,
+      "formatter": "prettier",
+      "sha256_raw": "60308008ddff2cd8a88f89ec1ecf3070f9d52ca2773bf0d4b8e7790e13556924"
+    },
+    {
+      "archive_path": "webview/assets/open-tab-72525c02e449.js",
+      "file": "_deps/open-tab-72525c02e449.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 22550,
+      "formatted_bytes": 33274,
+      "formatter": "prettier",
+      "sha256_raw": "989ae7edda24e73fbd10277b6cca8dd2c90192ed987f5e0e2eb828d15a2f569a"
+    },
+    {
+      "archive_path": "webview/assets/open-target-ad587ef7a716.js",
+      "file": "_deps/open-target-ad587ef7a716.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1113,
+      "formatted_bytes": 1488,
+      "formatter": "prettier",
+      "sha256_raw": "09ca95af6904c75f5b9a103d8c99c5834334fa949a7919ad62e22f155a0d4a7b"
+    },
+    {
+      "archive_path": "webview/assets/optimistic-metadata-a01dfc49514b.js",
+      "file": "_deps/optimistic-metadata-a01dfc49514b.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 6201,
+      "formatted_bytes": 10893,
+      "formatter": "prettier",
+      "sha256_raw": "70b310e26e5c1ca647c2f3c52cbd4a970a387bd78b20f0bed7dc8193759f9d3c"
+    },
+    {
+      "archive_path": "webview/assets/partition-fe47690951b4.js",
+      "file": "_deps/partition-fe47690951b4.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 265,
+      "formatted_bytes": 340,
+      "formatter": "prettier",
+      "sha256_raw": "331fbc29420dfa088c42084a025a99bbc3452f2355a4b8d834dfe828d22e0aeb"
+    },
+    {
+      "archive_path": "webview/assets/plan-summary-item-content-88eb5c2fafb8.js",
+      "file": "_deps/plan-summary-item-content-88eb5c2fafb8.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 36809,
+      "formatted_bytes": 57495,
+      "formatter": "prettier",
+      "sha256_raw": "73421c04e5518ca3171120a2620bc979ac1a2b209c50d352ec7a5aa7cfcb92bb"
+    },
+    {
+      "archive_path": "webview/assets/preview-footer-a1f7b6ebe21f.js",
+      "file": "_deps/preview-footer-a1f7b6ebe21f.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 2287,
+      "formatted_bytes": 3550,
+      "formatter": "prettier",
+      "sha256_raw": "e3ceb659506083fb08562114f4e2c0f37a878053085c26fe20c867f65cd879bd"
+    },
+    {
+      "archive_path": "webview/assets/preview-footer-controls-38ae3d627c7c.js",
+      "file": "_deps/preview-footer-controls-38ae3d627c7c.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 2454,
+      "formatted_bytes": 3911,
+      "formatter": "prettier",
+      "sha256_raw": "266f60886a4b484399d066a8cbafcd0d0769979013164f58391ffaf2bb2e9f2b"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-f6a81f1ccc2f.js",
+      "file": "_deps/pull-request-f6a81f1ccc2f.js",
+      "selected_by": "closure:d1:local-conversation-git-actions-f27d2904645d.js",
+      "raw_bytes": 2250,
+      "formatted_bytes": 2680,
+      "formatter": "prettier",
+      "sha256_raw": "55491a8f5604872935354275e61821610477101f052e152522b2325c64836437"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-fix-workflow-527420cd2c1d.js",
+      "file": "_deps/pull-request-fix-workflow-527420cd2c1d.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 35958,
+      "formatted_bytes": 55848,
+      "formatter": "prettier",
+      "sha256_raw": "6ada9a5d9de6fad7cdb15977c7a210358841a549c629254611606469b6ded364"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-status-label-5a6c4f7bce5d.js",
+      "file": "_deps/pull-request-status-label-5a6c4f7bce5d.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1293,
+      "formatted_bytes": 2046,
+      "formatter": "prettier",
+      "sha256_raw": "07e9af5dc15b5910db4343c06bf06f94b4a60fdc1616dcbee082ae85b378d1c7"
+    },
+    {
+      "archive_path": "webview/assets/realtime-voice-stage-layout-c0879068638f.js",
+      "file": "_deps/realtime-voice-stage-layout-c0879068638f.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 4443,
+      "formatted_bytes": 7264,
+      "formatter": "prettier",
+      "sha256_raw": "fe9c6be8b2fd49d592a0cc01743dd2ba8909c195058070cf7a941da3448f2635"
+    },
+    {
+      "archive_path": "webview/assets/registered-4d5b306e0eb1.js",
+      "file": "_deps/registered-4d5b306e0eb1.js",
+      "selected_by": "closure:d1:thread-pin-shortcut-bridge-692ac0843530.js",
+      "raw_bytes": 100,
+      "formatted_bytes": 112,
+      "formatter": "prettier",
+      "sha256_raw": "6c9e5a1c9c67bdc15b27d8ec8203c0a1301ea53692936627b5a64a4c8600cb6e"
+    },
+    {
+      "archive_path": "webview/assets/remote-conversation-page-8ce4bf8a7d6c.js",
+      "file": "pages/remote-conversation-page-8ce4bf8a7d6c.js",
+      "selected_by": "rule",
+      "raw_bytes": 71158,
+      "formatted_bytes": 112840,
+      "formatter": "prettier",
+      "sha256_raw": "2677f21c23fceceb0e435dd173b372bd830a077d70cf5969b3493f37a53903f2"
+    },
+    {
+      "archive_path": "webview/assets/remote-hosted-pip-anchor-bridge-ef1041f240d2.js",
+      "file": "_deps/remote-hosted-pip-anchor-bridge-ef1041f240d2.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 5567,
+      "formatted_bytes": 7844,
+      "formatter": "prettier",
+      "sha256_raw": "d89fb714aefe64fe59598395288f9c54e62240436dc3f599e828fd115dfe5993"
+    },
+    {
+      "archive_path": "webview/assets/respond-663242d03ba1.js",
+      "file": "_deps/respond-663242d03ba1.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 540,
+      "formatted_bytes": 716,
+      "formatter": "prettier",
+      "sha256_raw": "31e03d06db943f9425f7eba29233244a40db4dc4d8058908aa20a2711183425f"
+    },
+    {
+      "archive_path": "webview/assets/response-928d7dce6579.js",
+      "file": "_deps/response-928d7dce6579.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 6030,
+      "formatted_bytes": 8478,
+      "formatter": "prettier",
+      "sha256_raw": "1eef572110f2405a03aabaa6679181488aab1a2fb493b28fabbe048443757a6d"
+    },
+    {
+      "archive_path": "webview/assets/revision-review-unavailable-message-adbe72fc0fd9.js",
+      "file": "turn/revision-review-unavailable-message-adbe72fc0fd9.js",
+      "selected_by": "rule",
+      "raw_bytes": 3283,
+      "formatted_bytes": 4875,
+      "formatter": "prettier",
+      "sha256_raw": "fa526f220f555c804a8115bd668c2b1fc43b8fc4459c640e1953211a25ad4c5e"
+    },
+    {
+      "archive_path": "webview/assets/runtime-7426498e860b.js",
+      "file": "_deps/runtime-7426498e860b.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 7246,
+      "formatted_bytes": 10258,
+      "formatter": "prettier",
+      "sha256_raw": "4c3b8c839e55f27e93442da997b4fb2b224a48a9561988d4fbf00fcdc35e5e52"
+    },
+    {
+      "archive_path": "webview/assets/safety-buffering-status-transition-32d2dc8853a3.js",
+      "file": "_deps/safety-buffering-status-transition-32d2dc8853a3.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 5540,
+      "formatted_bytes": 8589,
+      "formatter": "prettier",
+      "sha256_raw": "12a6ed90166c4078bc6439007cfab285da289ef05ab0b1014589ab9bfbbc4698"
+    },
+    {
+      "archive_path": "webview/assets/sectioned-page-section-header-fe28a4700b8d.js",
+      "file": "_deps/sectioned-page-section-header-fe28a4700b8d.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1602,
+      "formatted_bytes": 2343,
+      "formatter": "prettier",
+      "sha256_raw": "77f8d626775109a21c22f4914333447a54bae8c1d703d2af422d5d856b011466"
+    },
+    {
+      "archive_path": "webview/assets/share-conversation-action-d44b236b4916.js",
+      "file": "pages/share-conversation-action-d44b236b4916.js",
+      "selected_by": "rule",
+      "raw_bytes": 1970,
+      "formatted_bytes": 2679,
+      "formatter": "prettier",
+      "sha256_raw": "7a80abb63ae810c4104863ba045045ba730d5281fe3d197df155e1e17dcc774b"
+    },
+    {
+      "archive_path": "webview/assets/shell-label-6a4df03fd369.js",
+      "file": "_deps/shell-label-6a4df03fd369.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 539,
+      "formatted_bytes": 658,
+      "formatter": "prettier",
+      "sha256_raw": "8502f93fc169d64227561e67caa86c616df96ca311c290fcb44d761a083d4323"
+    },
+    {
+      "archive_path": "webview/assets/side-chat-tab-content-c74f2d2b0d25.js",
+      "file": "_deps/side-chat-tab-content-c74f2d2b0d25.js",
+      "selected_by": "closure:d1:thread-pin-shortcut-bridge-692ac0843530.js",
+      "raw_bytes": 436,
+      "formatted_bytes": 611,
+      "formatter": "prettier",
+      "sha256_raw": "e58ec4b82b08e07d02ee8816988f6bf050f214d3d9e4eb1ac482b79c0080f1a0"
+    },
+    {
+      "archive_path": "webview/assets/skill-exploration-labels-375728b900a9.js",
+      "file": "_deps/skill-exploration-labels-375728b900a9.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 5854,
+      "formatted_bytes": 7656,
+      "formatter": "prettier",
+      "sha256_raw": "f240e2aa8eb27d98ab4105919554803ed88dc9f513bfcb2a8688981449dd1a27"
+    },
+    {
+      "archive_path": "webview/assets/source-bf02458f5659.js",
+      "file": "_deps/source-bf02458f5659.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 3161,
+      "formatted_bytes": 4784,
+      "formatter": "prettier",
+      "sha256_raw": "d56964fe2526f239e62c0969cdb276d3c158804138c7ad9884db672a748d11fe"
+    },
+    {
+      "archive_path": "webview/assets/split-items-into-render-groups-752e1f581d99.js",
+      "file": "_deps/split-items-into-render-groups-752e1f581d99.js",
+      "selected_by": "closure:d1:conversation-markdown-70a42265cc66.js",
+      "raw_bytes": 5137,
+      "formatted_bytes": 7791,
+      "formatter": "prettier",
+      "sha256_raw": "cf9a41c448588e61ccc32d74974993e5d13726d67a4ff6e8969a4a6c8c6f6c08"
+    },
+    {
+      "archive_path": "webview/assets/star-9cc19634d573.js",
+      "file": "_deps/star-9cc19634d573.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 1144,
+      "formatted_bytes": 1353,
+      "formatter": "prettier",
+      "sha256_raw": "34fc14bf8e2f14054e216357bddcda78c6521dcfbae4f5a4beab76c5aea4a0a8"
+    },
+    {
+      "archive_path": "webview/assets/start-appgen-conversation-389745f7419d.js",
+      "file": "pages/start-appgen-conversation-389745f7419d.js",
+      "selected_by": "rule",
+      "raw_bytes": 3783,
+      "formatted_bytes": 5189,
+      "formatter": "prettier",
+      "sha256_raw": "a6655241b1bfe2592aa5c9fac85e66104832c5a762754372261cef3c36496046"
+    },
+    {
+      "archive_path": "webview/assets/thread-context-3e6dbe446c9b.js",
+      "file": "scroll/thread-context-3e6dbe446c9b.js",
+      "selected_by": "rule",
+      "raw_bytes": 280,
+      "formatted_bytes": 336,
+      "formatter": "prettier",
+      "sha256_raw": "b4ad7b897c5f07ce639f80dfc487c12657321857629891467f17a74195bf19b7"
+    },
+    {
+      "archive_path": "webview/assets/thread-overflow-menu-242a94915c0b.js",
+      "file": "thread/thread-overflow-menu-242a94915c0b.js",
+      "selected_by": "rule",
+      "raw_bytes": 11698,
+      "formatted_bytes": 20170,
+      "formatter": "prettier",
+      "sha256_raw": "0d677dcd7c9fbaaa616af2803779a36a7eeb311ff24b961dd74641b0bcd37fcc"
+    },
+    {
+      "archive_path": "webview/assets/thread-pin-shortcut-bridge-692ac0843530.js",
+      "file": "thread/thread-pin-shortcut-bridge-692ac0843530.js",
+      "selected_by": "rule",
+      "raw_bytes": 13548,
+      "formatted_bytes": 19468,
+      "formatter": "prettier",
+      "sha256_raw": "d5540c49a4b2aecfd0c7be1f6888b2d84de21d572cea0418187b52ced561b0a7"
+    },
+    {
+      "archive_path": "webview/assets/thread-scroll-controller-context-value-6a9e93eb1505.js",
+      "file": "scroll/thread-scroll-controller-context-value-6a9e93eb1505.js",
+      "selected_by": "rule",
+      "raw_bytes": 410,
+      "formatted_bytes": 480,
+      "formatter": "prettier",
+      "sha256_raw": "856ebabdd1e9b5a82a7c1b327fd2bfe548a1da25e31ba863225d33f300214781"
+    },
+    {
+      "archive_path": "webview/assets/thread-scroll-layout-26a32b412ec3.css",
+      "file": "scroll/thread-scroll-layout-26a32b412ec3.css",
+      "selected_by": "rule",
+      "raw_bytes": 1432,
+      "formatted_bytes": 1754,
+      "formatter": "prettier",
+      "sha256_raw": "248304cf7dab96e4c7aff4ece74d336a5aeb32370000e2f09e12f7028f709ac6"
+    },
+    {
+      "archive_path": "webview/assets/thread-scroll-layout-4583603e4217.js",
+      "file": "scroll/thread-scroll-layout-4583603e4217.js",
+      "selected_by": "rule",
+      "raw_bytes": 17928,
+      "formatted_bytes": 29583,
+      "formatter": "prettier",
+      "sha256_raw": "33b4d38a0a8b402fe9b5e95bc96335f7a218fc483169f46435db101838506031"
+    },
+    {
+      "archive_path": "webview/assets/thread-tab-route-checkpoint-7234efcec5da.js",
+      "file": "scroll/thread-tab-route-checkpoint-7234efcec5da.js",
+      "selected_by": "rule",
+      "raw_bytes": 108,
+      "formatted_bytes": 120,
+      "formatter": "prettier",
+      "sha256_raw": "7205c2e87378adddfcfdf522d17c1dc3d0517e498640fff7b53f25f99e281216"
+    },
+    {
+      "archive_path": "webview/assets/thread-usage-breakdown-f26f6335d0fb.js",
+      "file": "thread/thread-usage-breakdown-f26f6335d0fb.js",
+      "selected_by": "rule",
+      "raw_bytes": 10933,
+      "formatted_bytes": 17905,
+      "formatter": "prettier",
+      "sha256_raw": "6fc550942405cdeb3c19a1ac457dcf07995da17f022267afc7f31b768ddb1f08"
+    },
+    {
+      "archive_path": "webview/assets/thread-user-message-navigation-rail-app-33e1d82a93e0.css",
+      "file": "nav-rail/thread-user-message-navigation-rail-app-33e1d82a93e0.css",
+      "selected_by": "rule",
+      "raw_bytes": 3602,
+      "formatted_bytes": 4381,
+      "formatter": "prettier",
+      "sha256_raw": "c68cf20f60dd3363ec7dd8b2278b54efeca0520ae52dbaa6e1aa80d83a419ffa"
+    },
+    {
+      "archive_path": "webview/assets/thread-user-message-navigation-rail-app-4703491a5992.js",
+      "file": "nav-rail/thread-user-message-navigation-rail-app-4703491a5992.js",
+      "selected_by": "rule",
+      "raw_bytes": 30628,
+      "formatted_bytes": 47408,
+      "formatter": "prettier",
+      "sha256_raw": "e80995fb00f6ce8485dba89156cf5d3737c6e00d7e1fb5f160af4befc42e7ee2"
+    },
+    {
+      "archive_path": "webview/assets/thread-virtualizer-4f61d89b50be.js",
+      "file": "scroll/thread-virtualizer-4f61d89b50be.js",
+      "selected_by": "rule",
+      "raw_bytes": 2029,
+      "formatted_bytes": 2712,
+      "formatter": "prettier",
+      "sha256_raw": "37c855d0bfbedca5bf8f9795e6aa1020527ad20936d91b03ef4eaf9af505f6c5"
+    },
+    {
+      "archive_path": "webview/assets/timestamps-2a227dd4bcfa.js",
+      "file": "_deps/timestamps-2a227dd4bcfa.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 1318,
+      "formatted_bytes": 1844,
+      "formatter": "prettier",
+      "sha256_raw": "a74b0e883a85d5fa67e704735f1364ba504580890716c3eefd83a24f6286f28a"
+    },
+    {
+      "archive_path": "webview/assets/tool-activity-disclosure-6103c5aa72b1.js",
+      "file": "_deps/tool-activity-disclosure-6103c5aa72b1.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 2307,
+      "formatted_bytes": 3693,
+      "formatter": "prettier",
+      "sha256_raw": "231490506560058c412b4b117e7c4e96d688a3621d5a1f04a8987e5445d157d4"
+    },
+    {
+      "archive_path": "webview/assets/turn-preview-body-items-ffb40ca1c7b1.js",
+      "file": "_deps/turn-preview-body-items-ffb40ca1c7b1.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 315,
+      "formatted_bytes": 379,
+      "formatter": "prettier",
+      "sha256_raw": "047b63fee50f413b3cad09f62ed8b230063fb58efc71caf5ed94c3117fe5b073"
+    },
+    {
+      "archive_path": "webview/assets/unrestored-thread-tab-route-51d605a80a8f.js",
+      "file": "pages/unrestored-thread-tab-route-51d605a80a8f.js",
+      "selected_by": "rule",
+      "raw_bytes": 1776,
+      "formatted_bytes": 2544,
+      "formatter": "prettier",
+      "sha256_raw": "122001ce9ea4f1f7f45bfce66b7a548949050dfebde3ac19e79804bf6ddef8b7"
+    },
+    {
+      "archive_path": "webview/assets/use-codex-worktrees-4816d4e23919.js",
+      "file": "_deps/use-codex-worktrees-4816d4e23919.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 2208,
+      "formatted_bytes": 3294,
+      "formatter": "prettier",
+      "sha256_raw": "c0443a50b8c1e990d140bdafa01f450a39b3d4c410bb7fb17a3243e0cea6f35c"
+    },
+    {
+      "archive_path": "webview/assets/use-conversation-diff-comments-ab6bb05add1f.js",
+      "file": "thread/use-conversation-diff-comments-ab6bb05add1f.js",
+      "selected_by": "rule",
+      "raw_bytes": 2188,
+      "formatted_bytes": 3249,
+      "formatter": "prettier",
+      "sha256_raw": "c5b4bea6251eb3f77d852e6060b88b93d59e7e13b6d19c15690b187587743988"
+    },
+    {
+      "archive_path": "webview/assets/use-git-config-value-160824d3b3c6.js",
+      "file": "_deps/use-git-config-value-160824d3b3c6.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 633,
+      "formatted_bytes": 953,
+      "formatter": "prettier",
+      "sha256_raw": "c95c5516a38ad5c8874a6e73309def6f546725c263ace9cb9cc6b2a4ed5ee14c"
+    },
+    {
+      "archive_path": "webview/assets/use-git-submodule-paths-2adf56e7dea1.js",
+      "file": "_deps/use-git-submodule-paths-2adf56e7dea1.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 805,
+      "formatted_bytes": 1162,
+      "formatter": "prettier",
+      "sha256_raw": "dd5e88d5bc705a03d5fd4fbda719ad0502985f0344699bf61a255cde95e33921"
+    },
+    {
+      "archive_path": "webview/assets/use-hotkey-window-detail-layout-c05db7c47d12.js",
+      "file": "_deps/use-hotkey-window-detail-layout-c05db7c47d12.js",
+      "selected_by": "closure:d1:hotkey-window-new-thread-page-48ec2a7a4cc4.js",
+      "raw_bytes": 495,
+      "formatted_bytes": 784,
+      "formatter": "prettier",
+      "sha256_raw": "f0281919bfd9e609ddc23c7ec1ca352c724b0ffc2291642aa6134d540c09f94c"
+    },
+    {
+      "archive_path": "webview/assets/use-local-conversation-sources-733990c21ff1.js",
+      "file": "pages/use-local-conversation-sources-733990c21ff1.js",
+      "selected_by": "rule",
+      "raw_bytes": 2981,
+      "formatted_bytes": 4354,
+      "formatter": "prettier",
+      "sha256_raw": "6d637b791d5443e7ce4712c2db4bbe5e9d9fe5839bf71b1dfc9199e9b687391f"
+    },
+    {
+      "archive_path": "webview/assets/use-realtime-voice-native-overlay-transition-enabled-6ea7698e3ad4.js",
+      "file": "_deps/use-realtime-voice-native-overlay-transition-enabled-6ea7698e3ad4.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 401,
+      "formatted_bytes": 501,
+      "formatter": "prettier",
+      "sha256_raw": "6bca70c829bbcee65e90c84fe78d01f2d750e2f83fef3614512c64688043fbf9"
+    },
+    {
+      "archive_path": "webview/assets/use-resume-conversation-if-needed-88b53f9297c7.js",
+      "file": "pages/use-resume-conversation-if-needed-88b53f9297c7.js",
+      "selected_by": "rule",
+      "raw_bytes": 6906,
+      "formatted_bytes": 11674,
+      "formatter": "prettier",
+      "sha256_raw": "75e5916b890197e536432dce31bec27894d34377638f41a19a0afb75863d47c1"
+    },
+    {
+      "archive_path": "webview/assets/visualization-thread-frames-a72ae01725ba.js",
+      "file": "turn/visualization-thread-frames-a72ae01725ba.js",
+      "selected_by": "rule",
+      "raw_bytes": 2730,
+      "formatted_bytes": 4198,
+      "formatter": "prettier",
+      "sha256_raw": "680ca8c685300f1a8ca540e65576466218a44a7c01080779f057fef69365975f"
+    },
+    {
+      "archive_path": "webview/assets/webmcp-tool-calls-f4b709411704.js",
+      "file": "_deps/webmcp-tool-calls-f4b709411704.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 978,
+      "formatted_bytes": 1351,
+      "formatter": "prettier",
+      "sha256_raw": "c430b86bc3406dc0698e35a61e3172cd8aef5e71cc4f93f4881a78df87a673ac"
+    },
+    {
+      "archive_path": "webview/assets/work-with-apps-6946d5f7e5de.js",
+      "file": "_deps/work-with-apps-6946d5f7e5de.js",
+      "selected_by": "closure:d1:chatgpt-conversation-page-733818e9db52.js",
+      "raw_bytes": 2012,
+      "formatted_bytes": 2467,
+      "formatter": "prettier",
+      "sha256_raw": "3a69f68963b3839c7f4fee3069087c9c4959e34a37b66ef1ea08f695f4fd0282"
+    },
+    {
+      "archive_path": "webview/assets/worktree-setup-auto-fix-47aace51921d.js",
+      "file": "_deps/worktree-setup-auto-fix-47aace51921d.js",
+      "selected_by": "closure:d1:local-conversation-page-3f93e4c62cc7.js",
+      "raw_bytes": 16880,
+      "formatted_bytes": 25198,
+      "formatter": "prettier",
+      "sha256_raw": "916da8a27d1843d5bc9771e5485f7f97326c87bb21e0582d74fcb198588e667f"
+    }
+  ]
+}

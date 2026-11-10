@@ -1,0 +1,343 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  FBt as t,
+  LNt as n,
+  Lst as r,
+  Mst as ee,
+  Ok as te,
+  PBt as i,
+  Rst as ne,
+  X3 as re,
+  XOt as a,
+  Y3 as o,
+  Z3 as s,
+  jst as c,
+  kk as l,
+  okt as ie,
+  sw as u,
+  tkt as d,
+  uw as f,
+  vst as p,
+  yst as m,
+} from "./app-shared-2feb3d4c6fcc.js";
+import { SRn as h, bRn as g } from "./app-initial-ad16eaadf81f.js";
+import { O_ as ae, k_ as _ } from "./app-primary-3e00728c2a4c.js";
+var v;
+function y() {
+  return (y = e(() => {
+    v = [`classic-windows-settings`];
+  }))();
+}
+function b(e) {
+  let t = (0, x.c)(63),
+    { service: n } = e,
+    r = ie(),
+    i = ne(),
+    [a, s] = (0, S.useState)(!1),
+    [c, l] = (0, S.useState)(!1),
+    [f, p] = (0, S.useState)(!1),
+    h;
+  t[0] === n
+    ? (h = t[1])
+    : ((h = { queryKey: v, queryFn: () => n.get(), staleTime: 0, retry: !1, refetchOnWindowFocus: `always` }),
+      (t[0] = n),
+      (t[1] = h));
+  let { data: g, isError: _, refetch: y } = ee(h),
+    b;
+  t[2] === n ? (b = t[3]) : ((b = { mutationFn: () => n.checkForUpdates() }), (t[2] = n), (t[3] = b));
+  let { mutate: w, isPending: T, isError: E } = m(b),
+    D;
+  t[4] === n ? (D = t[5]) : ((D = (e) => n.setCompanionWindowShortcut(e)), (t[4] = n), (t[5] = D));
+  let O;
+  t[6] === i
+    ? (O = t[7])
+    : ((O = (e, t) => {
+        i.setQueryData(v, (e) => (e == null ? e : { ...e, companionWindowShortcut: t }));
+      }),
+      (t[6] = i),
+      (t[7] = O));
+  let k;
+  t[8] !== D || t[9] !== O
+    ? ((k = { mutationFn: D, onSuccess: O }), (t[8] = D), (t[9] = O), (t[10] = k))
+    : (k = t[10]);
+  let { mutate: A, isPending: j, isError: M } = m(k),
+    N;
+  t[11] === y
+    ? (N = t[12])
+    : ((N = () => {
+        y();
+      }),
+      (t[11] = y),
+      (t[12] = N));
+  let P = (0, S.useEffectEvent)(N),
+    F;
+  t[13] !== P || t[14] !== n
+    ? ((F = () => {
+        let e = () => P();
+        return (
+          window.addEventListener(`focus`, e),
+          () => {
+            (window.removeEventListener(`focus`, e), n.setHotkeyRecording(!1).catch(se));
+          }
+        );
+      }),
+      (t[13] = P),
+      (t[14] = n),
+      (t[15] = F))
+    : (F = t[15]);
+  let I;
+  (t[16] === n ? (I = t[17]) : ((I = [n]), (t[16] = n), (t[17] = I)), (0, S.useEffect)(F, I));
+  let L;
+  t[18] === n
+    ? (L = t[19])
+    : ((L = function () {
+        (s(!1), l(!1), n.setHotkeyRecording(!1).catch(() => p(!0)));
+      }),
+      (t[18] = n),
+      (t[19] = L));
+  let R = L,
+    z;
+  t[20] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((z = (0, C.jsx)(d, {
+        id: `settings.classicWindows.updates`,
+        defaultMessage: `Updates`,
+        description: `Label for checking for Classic Windows app updates`,
+      })),
+      (t[20] = z))
+    : (z = t[20]);
+  let B;
+  t[21] === w ? (B = t[22]) : ((B = () => w()), (t[21] = w), (t[22] = B));
+  let V;
+  t[23] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((V = (0, C.jsx)(d, {
+        id: `settings.classicWindows.checkForUpdates`,
+        defaultMessage: `Check for updates`,
+        description: `Button that invokes the Classic Windows app's native update check`,
+      })),
+      (t[23] = V))
+    : (V = t[23]);
+  let H;
+  t[24] !== T || t[25] !== B
+    ? ((H = (0, C.jsx)(u, {
+        className: `select-none`,
+        label: z,
+        control: (0, C.jsx)(o, { loading: T, onClick: B, children: V }),
+      })),
+      (t[24] = T),
+      (t[25] = B),
+      (t[26] = H))
+    : (H = t[26]);
+  let U;
+  t[27] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((U = (0, C.jsx)(d, {
+        id: `settings.classicWindows.launchAtLogin`,
+        defaultMessage: `Launch at Login`,
+        description: `Setting for starting the Classic Windows app when signing in to Windows`,
+      })),
+      (t[27] = U))
+    : (U = t[27]);
+  let W;
+  t[28] === g
+    ? (W = t[29])
+    : ((W =
+        g == null
+          ? (0, C.jsx)(d, {
+              id: `settings.classicWindows.startupSettings`,
+              defaultMessage: `Open Windows settings`,
+              description: `Link to Windows Startup Apps settings when the app's startup status is unavailable`,
+            })
+          : null),
+      (t[28] = g),
+      (t[29] = W));
+  let G;
+  t[30] === g?.autoLaunch
+    ? (G = t[31])
+    : ((G =
+        g?.autoLaunch === !0
+          ? (0, C.jsx)(d, {
+              id: `settings.classicWindows.startupOn`,
+              defaultMessage: `On`,
+              description: `Link to Windows Startup Apps settings indicating that launch at login is enabled`,
+            })
+          : null),
+      (t[30] = g?.autoLaunch),
+      (t[31] = G));
+  let K;
+  t[32] === g?.autoLaunch
+    ? (K = t[33])
+    : ((K =
+        g?.autoLaunch === !1
+          ? (0, C.jsx)(d, {
+              id: `settings.classicWindows.startupOff`,
+              defaultMessage: `Off`,
+              description: `Link to Windows Startup Apps settings indicating that launch at login is disabled`,
+            })
+          : null),
+      (t[32] = g?.autoLaunch),
+      (t[33] = K));
+  let q;
+  t[34] !== W || t[35] !== G || t[36] !== K
+    ? ((q = (0, C.jsx)(u, {
+        className: `select-none`,
+        label: U,
+        control: (0, C.jsxs)(re, { href: `ms-settings:startupapps`, onClick: oe, children: [W, G, K] }),
+      })),
+      (t[34] = W),
+      (t[35] = G),
+      (t[36] = K),
+      (t[37] = q))
+    : (q = t[37]);
+  let J;
+  t[38] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((J = (0, C.jsx)(d, {
+        id: `settings.classicWindows.companionHotkey`,
+        defaultMessage: `Companion window hotkey`,
+        description: `Label for the global shortcut that opens the Classic Windows companion window`,
+      })),
+      (t[38] = J))
+    : (J = t[38]);
+  let Y;
+  t[39] !== r || t[40] !== a || t[41] !== A || t[42] !== j || t[43] !== n || t[44] !== g || t[45] !== R
+    ? ((Y = (0, C.jsx)(u, {
+        className: `select-none`,
+        label: J,
+        control: (e) =>
+          (0, C.jsx)(ae, {
+            accelerator: g?.companionWindowShortcut || null,
+            acceleratorLabel: g?.companionWindowShortcut ? te(g.companionWindowShortcut, !1, !1) : null,
+            ariaLabelledBy: e[`aria-labelledby`],
+            captureAriaLabel: r.formatMessage({
+              id: `settings.classicWindows.captureCompanionHotkey`,
+              defaultMessage: `Companion window hotkey capture`,
+              description: `Accessible label for the input that records the Classic Windows companion window shortcut`,
+            }),
+            disabled: g == null || j,
+            emptyLabel:
+              g == null
+                ? (0, C.jsx)(d, {
+                    id: `settings.classicWindows.shortcutUnavailable`,
+                    defaultMessage: `Unavailable`,
+                    description: `Companion shortcut value is unavailable while native settings load or fail`,
+                  })
+                : void 0,
+            hotkeyName: r.formatMessage({
+              id: `settings.classicWindows.companionHotkey`,
+              defaultMessage: `Companion window hotkey`,
+              description: `Label for the global shortcut that opens the Classic Windows companion window`,
+            }),
+            isCapturing: a,
+            onCancelCapture: R,
+            onCapture: (e) => {
+              if (!e.includes(`+`)) {
+                l(!0);
+                return;
+              }
+              (A(e), R());
+            },
+            onClear: () => A(``),
+            onStartCapture: () => {
+              (l(!1),
+                p(!1),
+                n
+                  .setHotkeyRecording(!0)
+                  .then(() => s(!0))
+                  .catch(() => p(!0)));
+            },
+          }),
+      })),
+      (t[39] = r),
+      (t[40] = a),
+      (t[41] = A),
+      (t[42] = j),
+      (t[43] = n),
+      (t[44] = g),
+      (t[45] = R),
+      (t[46] = Y))
+    : (Y = t[46]);
+  let X;
+  t[47] === c
+    ? (X = t[48])
+    : ((X = c
+        ? (0, C.jsx)(u, {
+            className: `select-none`,
+            label: (0, C.jsx)(d, {
+              id: `settings.classicWindows.modifierRequired`,
+              defaultMessage: `Include Ctrl, Alt, Shift, or the Windows key in your shortcut`,
+              description: `Instruction shown when a user tries to assign a plain key to the Classic Windows companion shortcut, which must include a modifier to avoid interfering with ordinary typing`,
+            }),
+            control: null,
+          })
+        : null),
+      (t[47] = c),
+      (t[48] = X));
+  let Z;
+  t[49] !== _ || t[50] !== y
+    ? ((Z = _
+        ? (0, C.jsx)(u, {
+            className: `select-none`,
+            label: (0, C.jsx)(d, {
+              id: `settings.classicWindows.readError`,
+              defaultMessage: `Could not load desktop settings`,
+              description: `Error when reading native Classic Windows app settings fails`,
+            }),
+            control: (0, C.jsx)(o, {
+              onClick: () => void y(),
+              children: (0, C.jsx)(d, {
+                id: `settings.classicWindows.retry`,
+                defaultMessage: `Retry`,
+                description: `Button to retry loading native Classic Windows app settings`,
+              }),
+            }),
+          })
+        : null),
+      (t[49] = _),
+      (t[50] = y),
+      (t[51] = Z))
+    : (Z = t[51]);
+  let Q;
+  t[52] !== f || t[53] !== M || t[54] !== E
+    ? ((Q =
+        E || M || f
+          ? (0, C.jsx)(u, {
+              className: `select-none`,
+              label: (0, C.jsx)(d, {
+                id: `settings.classicWindows.actionError`,
+                defaultMessage: `Could not complete this action`,
+                description: `Error when a native Classic Windows settings action fails; the user can retry the action`,
+              }),
+              control: null,
+            })
+          : null),
+      (t[52] = f),
+      (t[53] = M),
+      (t[54] = E),
+      (t[55] = Q))
+    : (Q = t[55]);
+  let $;
+  return (
+    t[56] !== H || t[57] !== q || t[58] !== Y || t[59] !== X || t[60] !== Z || t[61] !== Q
+      ? (($ = (0, C.jsxs)(C.Fragment, { children: [H, q, Y, X, Z, Q] })),
+        (t[56] = H),
+        (t[57] = q),
+        (t[58] = Y),
+        (t[59] = X),
+        (t[60] = Z),
+        (t[61] = Q),
+        (t[62] = $))
+      : ($ = t[62]),
+    $
+  );
+}
+function oe(e) {
+  h({ event: e, href: `ms-settings:startupapps`, initiator: `open_in_browser_bridge` });
+}
+function se() {}
+var x, S, C;
+function w() {
+  return (w = e(() => {
+    ((x = i()), p(), c(), r(), (S = t()), a(), s(), g(), l(), _(), f(), y(), (C = n()));
+  }))();
+}
+w();
+export { b as ClassicWindowsSettingsRows };
+//# sourceMappingURL=classic-windows-settings-rows-a3ed944a8419.js.map

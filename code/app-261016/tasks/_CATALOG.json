@@ -1,0 +1,1850 @@
+{
+ "module": "tasks",
+ "generated_at": "2026-10-23T01:17:24.828Z",
+ "files_scanned": 20,
+ "message_count": 46,
+ "messages": [
+  {
+   "id": "automations.editor.openChat.button.label",
+   "text": "Open chat",
+   "description": "Button in the Scheduled task details panel that opens the task's conversation",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.afternoon",
+   "text": "Afternoon",
+   "description": "Flexible task time option in the Scheduled editor, represented by 2 PM",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.date",
+   "text": "Date",
+   "description": "Row label for choosing the scheduled date in the Scheduled task editor",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.daysOfWeek",
+   "text": "Days of the week",
+   "description": "Row label for weekdays in the Scheduled task editor",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.evening",
+   "text": "Evening",
+   "description": "Flexible task time option in the Scheduled editor, represented by 6 PM",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.every",
+   "text": "Every",
+   "description": "Row label for an hourly interval in the Scheduled task editor",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.everyMonthOnDay",
+   "text": "Every month on the {day, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "description": "Summary text for a monthly schedule day selection",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.frequencySectionLabel",
+   "text": "Frequency",
+   "description": "Section label for the schedule controls in the Scheduled task editor",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.hourInterval",
+   "text": "{hours, plural, one {# hour} other {# hours}}",
+   "description": "Choice of hourly interval in the Scheduled editor; hours is the number between runs",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.monthlyDate",
+   "text": "Monthly date",
+   "description": "Label for the monthly day-of-month calendar control",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.morning",
+   "text": "Morning",
+   "description": "Flexible task time option in the Scheduled editor, represented by 9 AM",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.nextMonth",
+   "text": "Next month",
+   "description": "Accessible label for moving the monthly calendar forward",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.night",
+   "text": "Night",
+   "description": "Flexible task time option in the Scheduled editor, represented by 10 PM",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.previousMonth",
+   "text": "Previous month",
+   "description": "Accessible label for moving the monthly calendar backward",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.repeat",
+   "text": "Repeat",
+   "description": "Row label for the repeat frequency in the Scheduled task editor",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.time",
+   "text": "Time",
+   "description": "Row label for task time in the Scheduled editor",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.until",
+   "text": "End repeat",
+   "description": "Row label for when a repeating scheduled task stops",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.untilNever",
+   "text": "Never",
+   "description": "End-repeat option for a scheduled task that does not expire",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.editor.schedule.untilOnDate",
+   "text": "On date",
+   "description": "End-repeat option that enables choosing an end date",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.attention",
+   "text": "This task needs your attention",
+   "description": "A task result needs approval or input; private task content stays hidden",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.dateGroup",
+   "text": "{group, select, today {Today} yesterday {Yesterday} lastWeek {Last 7 days} other {{month}}}",
+   "description": "Date group in scheduled task run history; month is a localized month and year for older runs",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.empty",
+   "text": "No runs yet",
+   "description": "Empty state for a scheduled task that has never run",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.error",
+   "text": "Couldn’t load task results",
+   "description": "Error loading scheduled task results or a history page",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.lastRun",
+   "text": "Last run",
+   "description": "Heading above the latest scheduled task run response",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.latest",
+   "text": "Latest update",
+   "description": "Heading above the latest available scheduled task response when the most recent run has no response",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.loading",
+   "text": "Loading task results",
+   "description": "Loading announcement for scheduled task results",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.loadMore",
+   "text": "Load more",
+   "description": "Load the next page of scheduled task runs",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.noPrevious",
+   "text": "No previous runs",
+   "description": "Empty scheduled task history below its latest run",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.previous",
+   "text": "Previous runs",
+   "description": "Heading above earlier scheduled task runs",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.retry",
+   "text": "Try again",
+   "description": "Retry loading scheduled task results",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.status",
+   "text": "{status, select, in_progress {Running now} failed {Run failed} no_update {No update from this run} other {Run completed}}",
+   "description": "Execution status of a scheduled task run, also used when a run has no text summary",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.runs.unread",
+   "text": "Unread",
+   "description": "Accessible label for an unread scheduled task run",
+   "files": [
+    "tasks/run-results-8861809a45d4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.scheduled.custom.frequency",
+   "text": "{frequency, select, daily {Daily} weekly {Weekly} monthly {Monthly} other {Custom}}",
+   "description": "Selected structured custom frequency in the Scheduled editor",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.scheduled.detailRunTiming",
+   "text": "{lastKind, select, recent {Last ran {lastTime}} failedRecent {{lastTime}} at {Last ran {lastDay} at {lastTime}} on {Last ran on {lastTime}} other {}}{separator}{nextKind, select, running {Running now} next {Next run {nextTime}} other {}}",
+   "description": "Timing summary in the Scheduled task details drawer. lastKind chooses a relative last-run time, a day and clock time, a calendar date, or no last-run status. For a failed first run it shows only the relative time beneath Last run failed. lastDay, lastTime, and nextTime are locale-formatted dates or durations. nextKind is running, next, or none. separator is a middle dot in the empty state or a line break in the footer, present only when both statuses are shown.",
+   "files": [
+    "_deps/update-content-eef9deb1d68d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.scheduled.detailUpdateTimestampWithLabel",
+   "text": "{showLastUpdateLabel, select, yes {Last update · } other {}}{recent, select, yes {{relativeTime}} other {{date}{includeAt, select, yes { at } other { }}{time}}}",
+   "description": "Timestamp above a task update in the Scheduled details drawer. showLastUpdateLabel adds Last update to distinguish the last report from a newer run that is still starting. Recent updates use relativeTime, a localized duration such as 22 minutes ago. Older updates use date, a localized day or calendar date, and time, a localized clock time; includeAt inserts the preposition for dates more than a week old.",
+   "files": [
+    "_deps/update-content-eef9deb1d68d.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.scheduled.goal.openFailed",
+   "text": "Couldn’t open this goal’s progress",
+   "description": "Error when the saved plan for a goal selected in Scheduled is missing or cannot be opened",
+   "files": [
+    "tasks/scheduled-goal-navigation-8cbce13dea9c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.scheduled.monitoring.hours",
+   "text": "Every {hours, plural, one {hour} other {# hours}}",
+   "description": "Monitoring interval shown in the Scheduled editor; hours is the interval length",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.scheduled.monitoring.minutes",
+   "text": "Every {minutes, plural, one {minute} other {# minutes}}",
+   "description": "Monitoring interval shown in the Scheduled editor; minutes is the interval length",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.sharing.preview.dialog.custom_task_time",
+   "text": "Custom",
+   "description": "Read-only time value for a shared monitoring task",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "automations.sharing.preview.repeatValue",
+   "text": "{frequency, select, once {Once} hourly {Hourly} daily {Daily} weekly {Weekly} monthly {Monthly} yearly {Annually} other {Custom}}",
+   "description": "Repeat frequency of a shared monitoring task",
+   "files": [
+    "tasks/schedule-fields-76d96cbe267b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "inbox.automations.cloud.loadError.retry",
+   "text": "Try again",
+   "description": "Button to retry loading cloud scheduled tasks",
+   "files": [
+    "tasks/task-summary-44188370e71e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.reasoningNotice.description",
+   "text": "Switch to Light for faster Voice replies",
+   "description": "Voice chat notice recommending lower reasoning for faster spoken replies",
+   "files": [
+    "tasks/task-announcement-candidates-017ccecc082f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.reasoningNotice.dismiss",
+   "text": "Got it",
+   "description": "Button that permanently dismisses the Voice reasoning notice",
+   "files": [
+    "tasks/task-announcement-candidates-017ccecc082f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.reasoningNotice.useLight",
+   "text": "Use Light",
+   "description": "Button that changes the current Voice task to Light reasoning",
+   "files": [
+    "tasks/task-announcement-candidates-017ccecc082f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "scheduled.summary.unavailable",
+   "text": "Task details could not be loaded",
+   "description": "Message when the selected task's setup is unavailable",
+   "files": [
+    "tasks/task-summary-44188370e71e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.automations.rruleSummaryFallback",
+   "text": "Custom schedule",
+   "description": "Fallback label when RRULE summary cannot be generated",
+   "files": [
+    "tasks/task-summary-44188370e71e.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-ad16eaadf81f.js",
+   "count": 118,
+   "names": [
+    "ADn",
+    "APr",
+    "Aot",
+    "B1n",
+    "BBr",
+    "BK",
+    "BRr",
+    "Cbr",
+    "Cjr",
+    "DDn",
+    "DFr",
+    "DNr",
+    "DPr",
+    "Dmr",
+    "E2n",
+    "EFr",
+    "FAn",
+    "FBr",
+    "FNr",
+    "FPr",
+    "FWt",
+    "GRt",
+    "Gut",
+    "IBr",
+    "IJt",
+    "INr",
+    "IPr",
+    "KBr",
+    "Kut",
+    "LAn",
+    "LK",
+    "LWt",
+    "MOr",
+    "NPr",
+    "O2n",
+    "OPr",
+    "OSn",
+    "Olr",
+    "Oqn",
+    "PDn",
+    "QCr",
+    "QPr",
+    "RBr",
+    "RCn",
+    "RK",
+    "SBr",
+    "SPr",
+    "Sa",
+    "TFr",
+    "TPr",
+    "Ta",
+    "Tqn",
+    "VPn",
+    "WRt",
+    "XEn",
+    "XZ",
+    "Xjn",
+    "YEn",
+    "YLt",
+    "YZ",
+    "ZLt",
+    "_Fr",
+    "am",
+    "amr",
+    "cBr",
+    "cGt",
+    "dRt",
+    "eRt",
+    "fBr",
+    "fFr",
+    "gFn",
+    "gur",
+    "hFr",
+    "hdn",
+    "hen",
+    "iFr",
+    "iRr",
+    "im",
+    "jPr",
+    "jot",
+    "kPr",
+    "kSn",
+    "lBr",
+    "mDr",
+    "mlr",
+    "mm",
+    "nRt",
+    "np",
+    "pDr",
+    "pRt",
+    "pen",
+    "pm",
+    "qjn",
+    "rmr",
+    "rp",
+    "sGt",
+    "sRr",
+    "tRt",
+    "twr",
+    "tyr",
+    "vNr",
+    "vPr",
+    "vQn",
+    "wFr",
+    "wLr",
+    "wNr",
+    "wPr",
+    "wbr",
+    "xBr",
+    "xFr",
+    "xPr",
+    "xjr",
+    "yNr",
+    "yPr",
+    "yQn",
+    "zCn",
+    "zOr",
+    "zRr"
+   ]
+  },
+  {
+   "from": "app-shared-2feb3d4c6fcc.js",
+   "count": 62,
+   "names": [
+    "$3",
+    "$C",
+    "$St",
+    "$st",
+    "Bst",
+    "FBt",
+    "HFt",
+    "IH",
+    "LNt",
+    "NH",
+    "NSt",
+    "PBt",
+    "Pit",
+    "Qst",
+    "RFt",
+    "SCt",
+    "SV",
+    "TCt",
+    "TY",
+    "USt",
+    "Uot",
+    "VRt",
+    "VSt",
+    "Vot",
+    "Vrt",
+    "XOt",
+    "Y3",
+    "YOt",
+    "Yst",
+    "Z3",
+    "ZSt",
+    "_D",
+    "ast",
+    "e6",
+    "ew",
+    "ezt",
+    "fCt",
+    "fD",
+    "gD",
+    "iCt",
+    "ist",
+    "jit",
+    "kCt",
+    "kH",
+    "kLt",
+    "kRt",
+    "mCt",
+    "mD",
+    "nCt",
+    "okt",
+    "qrt",
+    "qst",
+    "sct",
+    "sw",
+    "tkt",
+    "uSt",
+    "uw",
+    "vD",
+    "w_t",
+    "yD",
+    "zFt",
+    "zst"
+   ]
+  },
+  {
+   "from": "automation-frequency-section-caeb4180ce42.js",
+   "count": 12,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "g",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "u"
+   ]
+  },
+  {
+   "from": "app-primary-3e00728c2a4c.js",
+   "count": 11,
+   "names": [
+    "Bh",
+    "Ih",
+    "Jy",
+    "Ky",
+    "Lh",
+    "Rh",
+    "Sh",
+    "Vh",
+    "Yy",
+    "qy",
+    "xh"
+   ]
+  },
+  {
+   "from": "state-b5960488bc9f.js",
+   "count": 7,
+   "names": [
+    "a",
+    "d",
+    "l",
+    "n",
+    "o",
+    "p",
+    "s"
+   ]
+  },
+  {
+   "from": "update-content-eef9deb1d68d.js",
+   "count": 6,
+   "names": [
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "schedule-draft-f9ea92400312.js",
+   "count": 6,
+   "names": [
+    "l",
+    "n",
+    "o",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "display-48c3b1cb784f.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "artifact-session-binding-de0b5463a756.js",
+   "count": 5,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "t"
+   ]
+  },
+  {
+   "from": "run-results-state-fd0c929556b9.js",
+   "count": 4,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "run-results-8861809a45d4.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "task-unread-edc42e4e5066.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "timestamps-85bd12c0e1b2.js",
+   "count": 3,
+   "names": [
+    "a",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "state-c7fc406c6844.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "feedback-16311c223cf5.js",
+   "count": 3,
+   "names": [
+    "i",
+    "o",
+    "r"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "o"
+   ]
+  },
+  {
+   "from": "load-performance-d91bd9d503da.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "collapsible-user-message-content-33e4642ea67c.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "plan-file-4ed41883a51a.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "workspace-renewal-payment-b21a13707fa8.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "team-state-2d8a57dd2e66.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "tasks-fe81dbed229b.js",
+   "count": 2,
+   "names": [
+    "i",
+    "o"
+   ]
+  },
+  {
+   "from": "actions-846c2a8f50e3.js",
+   "count": 2,
+   "names": [
+    "i",
+    "r"
+   ]
+  },
+  {
+   "from": "task-groups-9e9296237515.js",
+   "count": 2,
+   "names": [
+    "i",
+    "n"
+   ]
+  },
+  {
+   "from": "chatgpt-assistant-message-content-7e3228434885.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 75
+  },
+  {
+   "name": "id",
+   "count": 60
+  },
+  {
+   "name": "className",
+   "count": 51
+  },
+  {
+   "name": "defaultMessage",
+   "count": 48
+  },
+  {
+   "name": "description",
+   "count": 48
+  },
+  {
+   "name": "label",
+   "count": 23
+  },
+  {
+   "name": "status",
+   "count": 21
+  },
+  {
+   "name": "size",
+   "count": 21
+  },
+  {
+   "name": "control",
+   "count": 17
+  },
+  {
+   "name": "onClick",
+   "count": 16
+  },
+  {
+   "name": "resolutionComplete",
+   "count": 16
+  },
+  {
+   "name": "state",
+   "count": 16
+  },
+  {
+   "name": "null",
+   "count": 15
+  },
+  {
+   "name": "color",
+   "count": 15
+  },
+  {
+   "name": "month",
+   "count": 14
+  },
+  {
+   "name": "conversationId",
+   "count": 13
+  },
+  {
+   "name": "hostId",
+   "count": 13
+  },
+  {
+   "name": "width",
+   "count": 13
+  },
+  {
+   "name": "item",
+   "count": 12
+  },
+  {
+   "name": "type",
+   "count": 12
+  },
+  {
+   "name": "automation",
+   "count": 12
+  },
+  {
+   "name": "ariaLabel",
+   "count": 12
+  },
+  {
+   "name": "value",
+   "count": 11
+  },
+  {
+   "name": "name",
+   "count": 11
+  },
+  {
+   "name": "year",
+   "count": 10
+  },
+  {
+   "name": "day",
+   "count": 10
+  },
+  {
+   "name": "time",
+   "count": 10
+  },
+  {
+   "name": "onChange",
+   "count": 10
+  },
+  {
+   "name": "variant",
+   "count": 10
+  },
+  {
+   "name": "gap",
+   "count": 10
+  },
+  {
+   "name": "relatedActions",
+   "count": 9
+  },
+  {
+   "name": "data",
+   "count": 9
+  },
+  {
+   "name": "role",
+   "count": 9
+  },
+  {
+   "name": "values",
+   "count": 9
+  },
+  {
+   "name": "runId",
+   "count": 8
+  },
+  {
+   "name": "align",
+   "count": 8
+  },
+  {
+   "name": "automationId",
+   "count": 7
+  },
+  {
+   "name": "loading",
+   "count": 7
+  },
+  {
+   "name": "title",
+   "count": 7
+  },
+  {
+   "name": "onRetry",
+   "count": 6
+  },
+  {
+   "name": "enabled",
+   "count": 6
+  },
+  {
+   "name": "signal",
+   "count": 6
+  },
+  {
+   "name": "weekdays",
+   "count": 6
+  },
+  {
+   "name": "untilDate",
+   "count": 6
+  },
+  {
+   "name": "untilTime",
+   "count": 6
+  },
+  {
+   "name": "frequency",
+   "count": 6
+  },
+  {
+   "name": "padding",
+   "count": 6
+  },
+  {
+   "name": "refetch",
+   "count": 5
+  },
+  {
+   "name": "pending",
+   "count": 5
+  },
+  {
+   "name": "run",
+   "count": 5
+  },
+  {
+   "name": "radius",
+   "count": 5
+  },
+  {
+   "name": "parameters",
+   "count": 5
+  },
+  {
+   "name": "path",
+   "count": 5
+  },
+  {
+   "name": "timeZone",
+   "count": 5
+  },
+  {
+   "name": "minute",
+   "count": 5
+  },
+  {
+   "name": "options",
+   "count": 5
+  },
+  {
+   "name": "selectedId",
+   "count": 5
+  },
+  {
+   "name": "selectedLabel",
+   "count": 5
+  },
+  {
+   "name": "onSelect",
+   "count": 5
+  },
+  {
+   "name": "key",
+   "count": 5
+  },
+  {
+   "name": "bb0",
+   "count": 4
+  },
+  {
+   "name": "automation_id",
+   "count": 4
+  },
+  {
+   "name": "expectedErrorStatuses",
+   "count": 4
+  },
+  {
+   "name": "mode",
+   "count": 4
+  },
+  {
+   "name": "length",
+   "count": 4
+  },
+  {
+   "name": "hours",
+   "count": 4
+  },
+  {
+   "name": "turnId",
+   "count": 4
+  },
+  {
+   "name": "listener",
+   "count": 4
+  },
+  {
+   "name": "flex",
+   "count": 4
+  },
+  {
+   "name": "uniform",
+   "count": 4
+  },
+  {
+   "name": "height",
+   "count": 4
+  },
+  {
+   "name": "taskId",
+   "count": 4
+  },
+  {
+   "name": "isPending",
+   "count": 3
+  },
+  {
+   "name": "isFetching",
+   "count": 3
+  },
+  {
+   "name": "isError",
+   "count": 3
+  },
+  {
+   "name": "error",
+   "count": 3
+  },
+  {
+   "name": "chatRef",
+   "count": 3
+  },
+  {
+   "name": "get",
+   "count": 3
+  },
+  {
+   "name": "monthDay",
+   "count": 3
+  },
+  {
+   "name": "interval",
+   "count": 3
+  },
+  {
+   "name": "monthDays",
+   "count": 3
+  },
+  {
+   "name": "emoji",
+   "count": 3
+  },
+  {
+   "name": "model",
+   "count": 3
+  },
+  {
+   "name": "scheduleConfig",
+   "count": 3
+  },
+  {
+   "name": "schedule",
+   "count": 3
+  },
+  {
+   "name": "i",
+   "count": 3
+  },
+  {
+   "name": "hour",
+   "count": 3
+  },
+  {
+   "name": "weekday",
+   "count": 3
+  },
+  {
+   "name": "weekdayLabelFormat",
+   "count": 3
+  },
+  {
+   "name": "minutes",
+   "count": 3
+  },
+  {
+   "name": "date",
+   "count": 3
+  },
+  {
+   "name": "e",
+   "count": 3
+  },
+  {
+   "name": "x",
+   "count": 3
+  },
+  {
+   "name": "y",
+   "count": 3
+  },
+  {
+   "name": "tboId",
+   "count": 3
+  },
+  {
+   "name": "appPlugin",
+   "count": 3
+  },
+  {
+   "name": "source",
+   "count": 3
+  },
+  {
+   "name": "runPhase",
+   "count": 2
+  },
+  {
+   "name": "update",
+   "count": 2
+  },
+  {
+   "name": "actions",
+   "count": 2
+  },
+  {
+   "name": "ready",
+   "count": 2
+  },
+  {
+   "name": "group",
+   "count": 2
+  },
+  {
+   "name": "run_id",
+   "count": 2
+  },
+  {
+   "name": "queryKey",
+   "count": 2
+  },
+  {
+   "name": "queryFn",
+   "count": 2
+  },
+  {
+   "name": "refetchInterval",
+   "count": 2
+  },
+  {
+   "name": "retry",
+   "count": 2
+  },
+  {
+   "name": "staleTime",
+   "count": 2
+  },
+  {
+   "name": "v",
+   "count": 2
+  },
+  {
+   "name": "intervalHours",
+   "count": 2
+  },
+  {
+   "name": "intervalMinutes",
+   "count": 2
+  },
+  {
+   "name": "customRrule",
+   "count": 2
+  },
+  {
+   "name": "kind",
+   "count": 2
+  },
+  {
+   "name": "prompt",
+   "count": 2
+  },
+  {
+   "name": "reasoningEffort",
+   "count": 2
+  },
+  {
+   "name": "rawRrule",
+   "count": 2
+  },
+  {
+   "name": "P",
+   "count": 2
+  },
+  {
+   "name": "scheduleDirty",
+   "count": 2
+  },
+  {
+   "name": "default_timezone",
+   "count": 2
+  },
+  {
+   "name": "timing_mode",
+   "count": 2
+  },
+  {
+   "name": "hourCycle",
+   "count": 2
+  },
+  {
+   "name": "morning",
+   "count": 2
+  },
+  {
+   "name": "afternoon",
+   "count": 2
+  },
+  {
+   "name": "evening",
+   "count": 2
+  },
+  {
+   "name": "night",
+   "count": 2
+  },
+  {
+   "name": "oneTimeSeconds",
+   "count": 2
+  },
+  {
+   "name": "suppressed",
+   "count": 2
+  },
+  {
+   "name": "modelSettings",
+   "count": 2
+  },
+  {
+   "name": "additionalAvailableModels",
+   "count": 2
+  },
+  {
+   "name": "wasRetired",
+   "count": 2
+  },
+  {
+   "name": "content",
+   "count": 2
+  },
+  {
+   "name": "candidates",
+   "count": 2
+  },
+  {
+   "name": "threadId",
+   "count": 2
+  },
+  {
+   "name": "event",
+   "count": 2
+  },
+  {
+   "name": "payload",
+   "count": 2
+  },
+  {
+   "name": "task_id",
+   "count": 2
+  },
+  {
+   "name": "shadow",
+   "count": 2
+  },
+  {
+   "name": "background",
+   "count": 2
+  },
+  {
+   "name": "weight",
+   "count": 2
+  },
+  {
+   "name": "card_id",
+   "count": 2
+  },
+  {
+   "name": "feed_id",
+   "count": 2
+  },
+  {
+   "name": "task",
+   "count": 2
+  },
+  {
+   "name": "recent",
+   "count": 2
+  },
+  {
+   "name": "entry",
+   "count": 2
+  },
+  {
+   "name": "navigationSource",
+   "count": 2
+  },
+  {
+   "name": "isLoading",
+   "count": 2
+  },
+  {
+   "name": "subtitle",
+   "count": 2
+  },
+  {
+   "name": "canOpen",
+   "count": 2
+  },
+  {
+   "name": "onOpen",
+   "count": 2
+  },
+  {
+   "name": "numeric",
+   "count": 2
+  },
+  {
+   "name": "collapsedLineCount",
+   "count": 1
+  },
+  {
+   "name": "collapseIndicator",
+   "count": 1
+  },
+  {
+   "name": "text",
+   "count": 1
+  },
+  {
+   "name": "threadAccess",
+   "count": 1
+  },
+  {
+   "name": "fetchStatus",
+   "count": 1
+  },
+  {
+   "name": "fetchNextPage",
+   "count": 1
+  },
+  {
+   "name": "hasNextPage",
+   "count": 1
+  },
+  {
+   "name": "isFetchingNextPage",
+   "count": 1
+  },
+  {
+   "name": "isFetchNextPageError",
+   "count": 1
+  },
+  {
+   "name": "failed",
+   "count": 1
+  },
+  {
+   "name": "onFocus",
+   "count": 1
+  },
+  {
+   "name": "onPointerEnter",
+   "count": 1
+  },
+  {
+   "name": "dateTime",
+   "count": 1
+  },
+  {
+   "name": "expanded",
+   "count": 1
+  },
+  {
+   "name": "disabled",
+   "count": 1
+  },
+  {
+   "name": "requestBody",
+   "count": 1
+  },
+  {
+   "name": "read_at",
+   "count": 1
+  },
+  {
+   "name": "initialPageParam",
+   "count": 1
+  },
+  {
+   "name": "pageParam",
+   "count": 1
+  },
+  {
+   "name": "query",
+   "count": 1
+  },
+  {
+   "name": "cursor",
+   "count": 1
+  },
+  {
+   "name": "limit",
+   "count": 1
+  },
+  {
+   "name": "include_chat_ref",
+   "count": 1
+  },
+  {
+   "name": "getNextPageParam",
+   "count": 1
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 1
+  },
+  {
+   "name": "latest_update",
+   "count": 1
+  },
+  {
+   "name": "last_run",
+   "count": 1
+  },
+  {
+   "name": "S",
+   "count": 1
+  },
+  {
+   "name": "scheduleEditor",
+   "count": 1
+  },
+  {
+   "name": "threadMode",
+   "count": 1
+  },
+  {
+   "name": "t",
+   "count": 1
+  },
+  {
+   "name": "p",
+   "count": 1
+  },
+  {
+   "name": "second",
+   "count": 1
+  },
+  {
+   "name": "asChild",
+   "count": 1
+  },
+  {
+   "name": "dateStyle",
+   "count": 1
+  },
+  {
+   "name": "open",
+   "count": 1
+  },
+  {
+   "name": "onOpenChange",
+   "count": 1
+  },
+  {
+   "name": "afterScheduleRows",
+   "count": 1
+  },
+  {
+   "name": "draft",
+   "count": 1
+  },
+  {
+   "name": "sharedPreview",
+   "count": 1
+  },
+  {
+   "name": "form",
+   "count": 1
+  },
+  {
+   "name": "oneTimeDate",
+   "count": 1
+  },
+  {
+   "name": "isOptionVisible",
+   "count": 1
+  },
+  {
+   "name": "Y",
+   "count": 1
+  },
+  {
+   "name": "allowed_frequencies",
+   "count": 1
+  },
+  {
+   "name": "repeat",
+   "count": 1
+  },
+  {
+   "name": "every",
+   "count": 1
+  },
+  {
+   "name": "daysOfWeek",
+   "count": 1
+  },
+  {
+   "name": "monthlyDate",
+   "count": 1
+  },
+  {
+   "name": "customFrequency",
+   "count": 1
+  },
+  {
+   "name": "endRepeat",
+   "count": 1
+  },
+  {
+   "name": "never",
+   "count": 1
+  },
+  {
+   "name": "onDate",
+   "count": 1
+  },
+  {
+   "name": "custom",
+   "count": 1
+  },
+  {
+   "name": "everyHours",
+   "count": 1
+  },
+  {
+   "name": "repeatValue",
+   "count": 1
+  },
+  {
+   "name": "j",
+   "count": 1
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 1
+  },
+  {
+   "name": "toastId",
+   "count": 1
+  },
+  {
+   "name": "fileName",
+   "count": 1
+  },
+  {
+   "name": "mimeType",
+   "count": 1
+  },
+  {
+   "name": "libraryArtifactType",
+   "count": 1
+  },
+  {
+   "name": "browserPreview",
+   "count": 1
+  },
+  {
+   "name": "fullWidth",
+   "count": 1
+  },
+  {
+   "name": "downloadFallback",
+   "count": 1
+  },
+  {
+   "name": "tabKey",
+   "count": 1
+  },
+  {
+   "name": "onOpened",
+   "count": 1
+  },
+  {
+   "name": "tab",
+   "count": 1
+  },
+  {
+   "name": "contentSide",
+   "count": 1
+  },
+  {
+   "name": "isAccessBlocked",
+   "count": 1
+  },
+  {
+   "name": "target",
+   "count": 1
+  },
+  {
+   "name": "fileId",
+   "count": 1
+  },
+  {
+   "name": "libraryFileId",
+   "count": 1
+  },
+  {
+   "name": "safe",
+   "count": 1
+  },
+  {
+   "name": "sensitive",
+   "count": 1
+  },
+  {
+   "name": "setModelAndReasoningEffortForNextTurn",
+   "count": 1
+  },
+  {
+   "name": "userSavedModelString",
+   "count": 1
+  },
+  {
+   "name": "userSavedReasoningEffort",
+   "count": 1
+  },
+  {
+   "name": "listModelsData",
+   "count": 1
+  },
+  {
+   "name": "replacementModelName",
+   "count": 1
+  },
+  {
+   "name": "retiringModelName",
+   "count": 1
+  },
+  {
+   "name": "currentModel",
+   "count": 1
+  },
+  {
+   "name": "hasRetired",
+   "count": 1
+  },
+  {
+   "name": "isSwitching",
+   "count": 1
+  },
+  {
+   "name": "onDismiss",
+   "count": 1
+  },
+  {
+   "name": "onSwitch",
+   "count": 1
+  },
+  {
+   "name": "replacementModel",
+   "count": 1
+  },
+  {
+   "name": "retirementAt",
+   "count": 1
+  },
+  {
+   "name": "setModelAndReasoningEffort",
+   "count": 1
+  },
+  {
+   "name": "impressions",
+   "count": 1
+  },
+  {
+   "name": "lastSessionId",
+   "count": 1
+  },
+  {
+   "name": "density",
+   "count": 1
+  },
+  {
+   "name": "layout",
+   "count": 1
+  },
+  {
+   "name": "primaryCtaText",
+   "count": 1
+  },
+  {
+   "name": "secondaryCtaText",
+   "count": 1
+  },
+  {
+   "name": "isPrimaryCtaDisabled",
+   "count": 1
+  },
+  {
+   "name": "onPrimaryCtaClick",
+   "count": 1
+  },
+  {
+   "name": "onSecondaryCtaClick",
+   "count": 1
+  },
+  {
+   "name": "ref",
+   "count": 1
+  },
+  {
+   "name": "dismissed",
+   "count": 1
+  }
+ ],
+ "literal_count": 429,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261016\\tasks.json"
+}

@@ -1,0 +1,476 @@
+{
+ "module": "spaces",
+ "generated_at": "2026-10-23T01:24:44.010Z",
+ "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1016.8622.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+ "app_version": "26.1016.62342",
+ "files": [
+  {
+   "archive_path": "webview/assets/availability-be242a6de9ac.js",
+   "file": "_deps/availability-be242a6de9ac.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 657,
+   "formatted_bytes": 860,
+   "formatter": "prettier",
+   "sha256_raw": "8d7eb1fd8382b190b5cdbf9ace97f74b062fbc2880280a65654001cbbd4d81a7"
+  },
+  {
+   "archive_path": "webview/assets/base-carousel-dafba33f875d.js",
+   "file": "_deps/base-carousel-dafba33f875d.js",
+   "selected_by": "closure:d1:space-template-catalog-a49215b2a818.js",
+   "raw_bytes": 599,
+   "formatted_bytes": 725,
+   "formatter": "prettier",
+   "sha256_raw": "f5d9a391827b8b248aab1d33dfeaa871d991f4ef7c80b61414e773a02b4bce12"
+  },
+  {
+   "archive_path": "webview/assets/beacon-renewal-eligibility-eae3ca54d5ad.js",
+   "file": "_deps/beacon-renewal-eligibility-eae3ca54d5ad.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 824,
+   "formatted_bytes": 989,
+   "formatter": "prettier",
+   "sha256_raw": "350c49ff27ce50bca6d024dfcd9b025b1b9f91735cf36831e8d3f1d0ee69fc5e"
+  },
+  {
+   "archive_path": "webview/assets/business-checkout-a788e1236aa6.js",
+   "file": "_deps/business-checkout-a788e1236aa6.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 5286,
+   "formatted_bytes": 7092,
+   "formatter": "prettier",
+   "sha256_raw": "06ca23e06e018daa1e44fcee6bdbc1dc3725cb60ec59c0be78b92db0096a8a8f"
+  },
+  {
+   "archive_path": "webview/assets/content-section-456efce858c0.js",
+   "file": "_deps/content-section-456efce858c0.js",
+   "selected_by": "closure:d1:space-sidebar-451ecf1871b0.js",
+   "raw_bytes": 1016,
+   "formatted_bytes": 1593,
+   "formatter": "prettier",
+   "sha256_raw": "1491d74ee9676f30f4969df28a9ef284edbef60d4f228582dd09ed7822479651"
+  },
+  {
+   "archive_path": "webview/assets/create-menu-d89f2ede6f86.js",
+   "file": "_deps/create-menu-d89f2ede6f86.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 4450,
+   "formatted_bytes": 7567,
+   "formatter": "prettier",
+   "sha256_raw": "a4bfe54167fd4d5556df388497ae9a7222e1d399ce4359abea838782ff68ddf5"
+  },
+  {
+   "archive_path": "webview/assets/creation-recovery-48644367c50a.js",
+   "file": "_deps/creation-recovery-48644367c50a.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 3683,
+   "formatted_bytes": 5347,
+   "formatter": "prettier",
+   "sha256_raw": "bd07b14ca52f8033dd853cfc61ec8c72fe0ffda5fdbe705006f2195bbcd5aaea"
+  },
+  {
+   "archive_path": "webview/assets/inbox-832e01bb3465.js",
+   "file": "_deps/inbox-832e01bb3465.js",
+   "selected_by": "closure:d1:space-sidebar-451ecf1871b0.js",
+   "raw_bytes": 13666,
+   "formatted_bytes": 23188,
+   "formatter": "prettier",
+   "sha256_raw": "e76a944d794abb22379d9f4b4b6c5772bc55f5cea2d9e87f576c15bdf1c8c665"
+  },
+  {
+   "archive_path": "webview/assets/local-template-catalog-2eeca06107ff.js",
+   "file": "_deps/local-template-catalog-2eeca06107ff.js",
+   "selected_by": "closure:d1:space-template-catalog-a49215b2a818.js",
+   "raw_bytes": 9229,
+   "formatted_bytes": 14976,
+   "formatter": "prettier",
+   "sha256_raw": "1bc662b4ef09d41bc5b7a020806ad9c70eee0a4cba4b915b6e697f64612f274c"
+  },
+  {
+   "archive_path": "webview/assets/marketing-pixels-871dfebeb13e.js",
+   "file": "_deps/marketing-pixels-871dfebeb13e.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 299,
+   "formatted_bytes": 347,
+   "formatter": "prettier",
+   "sha256_raw": "034df6169efe1eee4afddb2eaeb8100aacb4f66b74859ada17e040668ee621e2"
+  },
+  {
+   "archive_path": "webview/assets/new-space-dialog-38da9be1f291.js",
+   "file": "_deps/new-space-dialog-38da9be1f291.js",
+   "selected_by": "closure:d1:space-sidebar-451ecf1871b0.js",
+   "raw_bytes": 17837,
+   "formatted_bytes": 29382,
+   "formatter": "prettier",
+   "sha256_raw": "11deccec71e7a9d49a8638eddf306d468974c9fa5964c6fc4a59ce72cbd5226a"
+  },
+  {
+   "archive_path": "webview/assets/new-space-dialog-f4835f49410d.js",
+   "file": "_deps/new-space-dialog-f4835f49410d.js",
+   "selected_by": "closure:d1:space-sidebar-451ecf1871b0.js",
+   "raw_bytes": 130,
+   "formatted_bytes": 144,
+   "formatter": "prettier",
+   "sha256_raw": "a5eab7b9cabaa213669e6a1420ecc23df73ba196769271acfd4e048a26e24bd0"
+  },
+  {
+   "archive_path": "webview/assets/open-e59c2dc64ba2.js",
+   "file": "_deps/open-e59c2dc64ba2.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 3484,
+   "formatted_bytes": 5006,
+   "formatter": "prettier",
+   "sha256_raw": "5d93c1cfc53bacb4a2fb8954ade6e955331f175d0dd610788899db23d2f0824e"
+  },
+  {
+   "archive_path": "webview/assets/page-3ee246ddc74a.js",
+   "file": "_deps/page-3ee246ddc74a.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 23451,
+   "formatted_bytes": 39754,
+   "formatter": "prettier",
+   "sha256_raw": "62b3353adc09bec942013bf27cf87e02f4ca7c14c5c939cd3cb17ebaaff36b07"
+  },
+  {
+   "archive_path": "webview/assets/page-9181340ae938.js",
+   "file": "_deps/page-9181340ae938.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 20441,
+   "formatted_bytes": 33820,
+   "formatter": "prettier",
+   "sha256_raw": "d05a06e327c685967394be9572060f79e85526f7ae42bc888bcdf608423ba4a9"
+  },
+  {
+   "archive_path": "webview/assets/page-collaborator-colors-258e2583d6b4.js",
+   "file": "_deps/page-collaborator-colors-258e2583d6b4.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 929,
+   "formatted_bytes": 1339,
+   "formatter": "prettier",
+   "sha256_raw": "e82ffd7eb74e09474e53713c499b5ca682bd9ca3b8990f6b4bf09a6e28ef15ef"
+  },
+  {
+   "archive_path": "webview/assets/page-content-item-331f3e1fa38d.js",
+   "file": "_deps/page-content-item-331f3e1fa38d.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 29124,
+   "formatted_bytes": 49521,
+   "formatter": "prettier",
+   "sha256_raw": "20cdd2e218359a2780a0902977f191deccef96f88fc7a5682362e3bab6bc2ab6"
+  },
+  {
+   "archive_path": "webview/assets/page-menu-document-f4e5cf204ea3.js",
+   "file": "_deps/page-menu-document-f4e5cf204ea3.js",
+   "selected_by": "closure:d1:space-e4040a2fa18d.js",
+   "raw_bytes": 1782,
+   "formatted_bytes": 2499,
+   "formatter": "prettier",
+   "sha256_raw": "23b96e93a0556f44a99de7cb9cbcdc67a3423359115be14fe5cc6e49094156de"
+  },
+  {
+   "archive_path": "webview/assets/paint-marker-cd67f822fae3.js",
+   "file": "_deps/paint-marker-cd67f822fae3.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 3125,
+   "formatted_bytes": 5250,
+   "formatter": "prettier",
+   "sha256_raw": "a572f98202224ef724ea346afbe3ba78395d686643cd2d005d71520f637d1266"
+  },
+  {
+   "archive_path": "webview/assets/payment-upgrade-analytics-c3815a3f6b6a.js",
+   "file": "_deps/payment-upgrade-analytics-c3815a3f6b6a.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 2315,
+   "formatted_bytes": 2942,
+   "formatter": "prettier",
+   "sha256_raw": "63230e531a85f809d02004f80d0effa8129cf4e806fcc8de052a25dbcdff9caa"
+  },
+  {
+   "archive_path": "webview/assets/pinned-pages-ceb6bb4900b3.js",
+   "file": "_deps/pinned-pages-ceb6bb4900b3.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 25673,
+   "formatted_bytes": 43936,
+   "formatter": "prettier",
+   "sha256_raw": "7a5c7b85d6214f4e532c72052c4d83416f869d131ad865d23664b52c9cc67238"
+  },
+  {
+   "archive_path": "webview/assets/popover-508bbef52ad8.css",
+   "file": "_deps/popover-508bbef52ad8.css",
+   "selected_by": "closure:d1:space-sidebar-451ecf1871b0.js",
+   "raw_bytes": 2260,
+   "formatted_bytes": 2755,
+   "formatter": "prettier",
+   "sha256_raw": "700260c81d379fd96c990446b4f31973cc4d9040e6fa7e92919be1e262b2f30b"
+  },
+  {
+   "archive_path": "webview/assets/popover-df132560e617.js",
+   "file": "_deps/popover-df132560e617.js",
+   "selected_by": "closure:d1:space-sidebar-451ecf1871b0.js",
+   "raw_bytes": 6865,
+   "formatted_bytes": 12012,
+   "formatter": "prettier",
+   "sha256_raw": "a98ef53710238c015b627a8139b3113c3c1769a70eb3fbc70f56015a7687c868"
+  },
+  {
+   "archive_path": "webview/assets/pricing-page-bccfea83a0fe.js",
+   "file": "_deps/pricing-page-bccfea83a0fe.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 100875,
+   "formatted_bytes": 171346,
+   "formatter": "prettier",
+   "sha256_raw": "cb70aa9d6c9fe04f25abba289777df255c291ba8953ea0a0e7e2d964f1c66557"
+  },
+  {
+   "archive_path": "webview/assets/pricing-page-defaults-74410a227dce.js",
+   "file": "_deps/pricing-page-defaults-74410a227dce.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 1291,
+   "formatted_bytes": 1596,
+   "formatter": "prettier",
+   "sha256_raw": "bea9e5e89e771180218c4ac3b8983569cba9108b7f05f485a4a6e988e6cbd406"
+  },
+  {
+   "archive_path": "webview/assets/pricing-page-e5d70234942c.css",
+   "file": "_deps/pricing-page-e5d70234942c.css",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 370,
+   "formatted_bytes": 512,
+   "formatter": "prettier",
+   "sha256_raw": "a7885d0d433af1e9ca239b4e379c57357b327c1ebc0c20880d6e10cb73208799"
+  },
+  {
+   "archive_path": "webview/assets/primary-teams-4409de426fe2.js",
+   "file": "_deps/primary-teams-4409de426fe2.js",
+   "selected_by": "closure:d1:space-route-61b63fc4a068.js",
+   "raw_bytes": 2232,
+   "formatted_bytes": 3234,
+   "formatter": "prettier",
+   "sha256_raw": "8e1b894c9e44d434bc309619e3a77b18313c86f778c6b3fd043244b10abc8a68"
+  },
+  {
+   "archive_path": "webview/assets/slides-collection-1fd041e5728e.js",
+   "file": "_deps/slides-collection-1fd041e5728e.js",
+   "selected_by": "closure:d1:space-sidebar-451ecf1871b0.js",
+   "raw_bytes": 937,
+   "formatted_bytes": 1201,
+   "formatter": "prettier",
+   "sha256_raw": "38cad1ecdb0c2c526a1eee1b69f469489dbc9db00dde9c529c53158730aeefd1"
+  },
+  {
+   "archive_path": "webview/assets/space-a1b5792f771e.js",
+   "file": "pages/space-a1b5792f771e.js",
+   "selected_by": "rule",
+   "raw_bytes": 1806,
+   "formatted_bytes": 2004,
+   "formatter": "prettier",
+   "sha256_raw": "dffbabd0083db093c3adfbf1f2542a9752a85c216adabb3ce249fdda74860968"
+  },
+  {
+   "archive_path": "webview/assets/space-appearance-button-cab15cc62ff2.js",
+   "file": "pages/space-appearance-button-cab15cc62ff2.js",
+   "selected_by": "rule",
+   "raw_bytes": 4193,
+   "formatted_bytes": 6901,
+   "formatter": "prettier",
+   "sha256_raw": "11fb42eb7780bde9808ddb457fdc8fea3779dd86934c027d92dc0115bf1632f7"
+  },
+  {
+   "archive_path": "webview/assets/space-archive-confirmation-dialog-52b8bf081351.js",
+   "file": "pages/space-archive-confirmation-dialog-52b8bf081351.js",
+   "selected_by": "rule",
+   "raw_bytes": 6352,
+   "formatted_bytes": 9127,
+   "formatter": "prettier",
+   "sha256_raw": "301b746b00ceba0141b2ba6b29583684b5d9a1ec9b6b07371fdddb48854a96c1"
+  },
+  {
+   "archive_path": "webview/assets/space-BvsuNnwg-2b600cc6152d.js",
+   "file": "pages/space-BvsuNnwg-2b600cc6152d.js",
+   "selected_by": "rule",
+   "raw_bytes": 80,
+   "formatted_bytes": 92,
+   "formatter": "prettier",
+   "sha256_raw": "8d57683cd38af372947794af99011081e415e00222a95fd0cf25b803997c964d"
+  },
+  {
+   "archive_path": "webview/assets/space-BvsuNnwg-6ed9ef4a0318.js",
+   "file": "pages/space-BvsuNnwg-6ed9ef4a0318.js",
+   "selected_by": "rule",
+   "raw_bytes": 336,
+   "formatted_bytes": 388,
+   "formatter": "prettier",
+   "sha256_raw": "a6b4ccab8566ddd4a838ef4b2677580936541a2a1d80fee3bdf18e742be7cdc6"
+  },
+  {
+   "archive_path": "webview/assets/space-catalog-eda192abd50b.js",
+   "file": "pages/space-catalog-eda192abd50b.js",
+   "selected_by": "rule",
+   "raw_bytes": 125,
+   "formatted_bytes": 139,
+   "formatter": "prettier",
+   "sha256_raw": "b2673becc3407b64c2de95f1af5cddf60825503b2bdc54bccd8d98b3e72e34d5"
+  },
+  {
+   "archive_path": "webview/assets/space-Dyd6AUbM-80c9339344aa.js",
+   "file": "pages/space-Dyd6AUbM-80c9339344aa.js",
+   "selected_by": "rule",
+   "raw_bytes": 2013,
+   "formatted_bytes": 2046,
+   "formatter": "prettier",
+   "sha256_raw": "036e9868a738a3384b75eff1b2048fc6c8d7704d172ff483098f57851caa1d81"
+  },
+  {
+   "archive_path": "webview/assets/space-e4040a2fa18d.js",
+   "file": "pages/space-e4040a2fa18d.js",
+   "selected_by": "rule",
+   "raw_bytes": 6589,
+   "formatted_bytes": 10857,
+   "formatter": "prettier",
+   "sha256_raw": "2263f943bead50cf0e2757ed7ba42eb3258da699e43fce7e959152858ad6d2e8"
+  },
+  {
+   "archive_path": "webview/assets/space-empty-state-95c5a77c22cc.js",
+   "file": "pages/space-empty-state-95c5a77c22cc.js",
+   "selected_by": "rule",
+   "raw_bytes": 4549,
+   "formatted_bytes": 6359,
+   "formatter": "prettier",
+   "sha256_raw": "5cea59e668c3193c0e22ac7cf71187d60e277320c6649333759c9f5c021cb6e0"
+  },
+  {
+   "archive_path": "webview/assets/space-home-tooltip-target-cd438d0c70e6.js",
+   "file": "pages/space-home-tooltip-target-cd438d0c70e6.js",
+   "selected_by": "rule",
+   "raw_bytes": 1317,
+   "formatted_bytes": 2052,
+   "formatter": "prettier",
+   "sha256_raw": "71bf465275ff480bf9c9f4a3540146f23560d36e99fca490a9b41162f2567c30"
+  },
+  {
+   "archive_path": "webview/assets/space-library-file-route-fc4068b09fe5.js",
+   "file": "pages/space-library-file-route-fc4068b09fe5.js",
+   "selected_by": "rule",
+   "raw_bytes": 754,
+   "formatted_bytes": 886,
+   "formatter": "prettier",
+   "sha256_raw": "4abf02817aef84a00d85261e9bf5462f828e5d023261424fa8abd8f6ef84947e"
+  },
+  {
+   "archive_path": "webview/assets/space-page-15df017942a9.js",
+   "file": "pages/space-page-15df017942a9.js",
+   "selected_by": "rule",
+   "raw_bytes": 19206,
+   "formatted_bytes": 31182,
+   "formatter": "prettier",
+   "sha256_raw": "b634ddd45723c1c7c9e6ef940f6eac7565373bc32a3e840e6dbf1b05f314d320"
+  },
+  {
+   "archive_path": "webview/assets/space-root-setup-e71e232447d6.js",
+   "file": "pages/space-root-setup-e71e232447d6.js",
+   "selected_by": "rule",
+   "raw_bytes": 2609,
+   "formatted_bytes": 3508,
+   "formatter": "prettier",
+   "sha256_raw": "24240839e728870ec38f324b7b7a6f9a7b86c70f177b95d451cb799432bb4fbb"
+  },
+  {
+   "archive_path": "webview/assets/space-route-61b63fc4a068.js",
+   "file": "pages/space-route-61b63fc4a068.js",
+   "selected_by": "rule",
+   "raw_bytes": 13514,
+   "formatted_bytes": 16722,
+   "formatter": "prettier",
+   "sha256_raw": "cf02544c9965dcd2683b223d922a1857c04069e5ff0c13e2b2fcbbb0e16bbd6a"
+  },
+  {
+   "archive_path": "webview/assets/space-search-empty-state-4897042a9bda.js",
+   "file": "pages/space-search-empty-state-4897042a9bda.js",
+   "selected_by": "rule",
+   "raw_bytes": 1495,
+   "formatted_bytes": 2022,
+   "formatter": "prettier",
+   "sha256_raw": "bd3fe776344dc1f0342ed217d584835e828c6b89cf4f5c375320a023a870055b"
+  },
+  {
+   "archive_path": "webview/assets/space-sharing-dialog-11dfea27e599.js",
+   "file": "pages/space-sharing-dialog-11dfea27e599.js",
+   "selected_by": "rule",
+   "raw_bytes": 713,
+   "formatted_bytes": 1010,
+   "formatter": "prettier",
+   "sha256_raw": "65d930db78a8e81219c5fbc2d0cf4ec51e70393134374d5c3dfd22019e7f705b"
+  },
+  {
+   "archive_path": "webview/assets/space-sharing-e039b79b09ff.js",
+   "file": "pages/space-sharing-e039b79b09ff.js",
+   "selected_by": "rule",
+   "raw_bytes": 491,
+   "formatted_bytes": 620,
+   "formatter": "prettier",
+   "sha256_raw": "71fd93d611ba7eeaffb55f1c025c9ba3c4e36ed7552b4714133f3843e856a663"
+  },
+  {
+   "archive_path": "webview/assets/space-sidebar-451ecf1871b0.js",
+   "file": "pages/space-sidebar-451ecf1871b0.js",
+   "selected_by": "rule",
+   "raw_bytes": 73979,
+   "formatted_bytes": 128116,
+   "formatter": "prettier",
+   "sha256_raw": "db7dc8b6637c1565cbf306797b9025d267a4a5686ac4d2687c3be00ae7ea36cc"
+  },
+  {
+   "archive_path": "webview/assets/space-sites-page-5437a8bc0842.js",
+   "file": "pages/space-sites-page-5437a8bc0842.js",
+   "selected_by": "rule",
+   "raw_bytes": 720,
+   "formatted_bytes": 979,
+   "formatter": "prettier",
+   "sha256_raw": "227fd163cf2e3bafd91314fdb24141a9b26523de318e14e43ced3910202c61b7"
+  },
+  {
+   "archive_path": "webview/assets/space-suggested-prefetch-92693d941a72.js",
+   "file": "pages/space-suggested-prefetch-92693d941a72.js",
+   "selected_by": "rule",
+   "raw_bytes": 138,
+   "formatted_bytes": 152,
+   "formatter": "prettier",
+   "sha256_raw": "a03cfff1040c87704e5f7ecf872651b38212d6d356c8f2e89e0dff4445212a5b"
+  },
+  {
+   "archive_path": "webview/assets/space-template-catalog-a49215b2a818.js",
+   "file": "pages/space-template-catalog-a49215b2a818.js",
+   "selected_by": "rule",
+   "raw_bytes": 10333,
+   "formatted_bytes": 17705,
+   "formatter": "prettier",
+   "sha256_raw": "00b0f7227dd830ff253d3f4c8816b70dc516cbbab21f65bfc8c9f50c8c798d59"
+  },
+  {
+   "archive_path": "webview/assets/space-trash-items-918b69583cc4.js",
+   "file": "pages/space-trash-items-918b69583cc4.js",
+   "selected_by": "rule",
+   "raw_bytes": 20994,
+   "formatted_bytes": 35232,
+   "formatter": "prettier",
+   "sha256_raw": "b3111c4dfb12f9d25959b25e49ccb6aef61a42fee49b401e34636eb6e701568c"
+  },
+  {
+   "archive_path": "webview/assets/tax-information-2fee61dff4f7.js",
+   "file": "_deps/tax-information-2fee61dff4f7.js",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 34482,
+   "formatted_bytes": 51044,
+   "formatter": "prettier",
+   "sha256_raw": "6029f510e941166962d9050d0286197735cace5558a9a1f459e195bb2b681366"
+  },
+  {
+   "archive_path": "webview/assets/tax-information-da907f8feffb.css",
+   "file": "_deps/tax-information-da907f8feffb.css",
+   "selected_by": "closure:d1:space-page-15df017942a9.js",
+   "raw_bytes": 2146,
+   "formatted_bytes": 2440,
+   "formatter": "prettier",
+   "sha256_raw": "99192b4a55e4d337d5e81580a90731112f0c79b3630baace5a030fed5c96cc75"
+  }
+ ]
+}

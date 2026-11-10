@@ -1,0 +1,344 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  Cz as t,
+  Tz as n,
+  _Mt as r,
+  gMt as i,
+  vzt as a,
+  wz as o,
+  xMt as s,
+  yzt as c,
+} from "./app-shared-bbfeca5e5737.js";
+import { ewn as l, twn as u } from "./app-initial-5851df3f6cb1.js";
+function d(e, t, n, r, i = 0, a = 0) {
+  let o = 16 - i / 2,
+    s = e.endsWith(`left`) ? o : r - t.width - o;
+  return (
+    e === `bottom-center` && (s = Math.round((r - t.width) / 2)),
+    { x: s, y: e.startsWith(`top`) ? a + o : n - t.height - o }
+  );
+}
+function f(e, t, n, r = !1) {
+  let i = e.left + e.width / 2;
+  return !r && e.top + e.height / 2 >= t / 2 && i >= n / 4 && i <= (n * 3) / 4
+    ? `bottom-center`
+    : `${e.top + e.height / 2 < t / 2 ? `top` : `bottom`}-${e.left + e.width / 2 < n / 2 ? `left` : `right`}`;
+}
+function p(e, t, n, r, i, a, o, s = 0) {
+  let c = d(e, n, a, o, s).x + r,
+    l = t === `left` ? c + n.width - i : c,
+    u = 16 - s / 2;
+  return Math.min(o - i - u, Math.max(u, l)) - d(e, { ...n, width: i }, a, o, s).x;
+}
+function m(e, t) {
+  if (t == null) return e;
+  let n = e.endsWith(`left`) ? `bottom-left` : `bottom-right`;
+  return n === t ? (n === `bottom-left` ? `bottom-right` : `bottom-left`) : n;
+}
+function h() {
+  return (h = e(() => {}))();
+}
+function g(e) {
+  let t = (0, v.c)(34),
+    {
+      edge: r,
+      getCurrentSize: a,
+      maximumSize: s,
+      minimumSize: c,
+      onResizeEnd: l,
+      onResizingChange: u,
+      setSize: d,
+      verticalEdge: f,
+    } = e,
+    p = r === void 0 ? `left` : r,
+    m = f === void 0 ? `top` : f,
+    h = n(),
+    g = (0, y.useRef)(null),
+    x;
+  t[0] !== p || t[1] !== s || t[2] !== c || t[3] !== d || t[4] !== m || t[5] !== h
+    ? ((x = (e) => {
+        let t = g.current;
+        if (t == null || t.pointerId !== e.pointerId) return;
+        e.preventDefault();
+        let n = {
+          height: _(
+            t.startSize.height + (m === `top` ? -1 : 1) * (o(e.clientY, h) - t.startPointer.y),
+            c.height,
+            s.height,
+          ),
+          width: _(
+            t.startSize.width + (p === `left` ? -1 : 1) * (o(e.clientX, h) - t.startPointer.x),
+            c.width,
+            s.width,
+          ),
+        };
+        ((t.didMove ||= n.height !== t.startSize.height || n.width !== t.startSize.width),
+          (t.lastSize = n),
+          d(n));
+      }),
+      (t[0] = p),
+      (t[1] = s),
+      (t[2] = c),
+      (t[3] = d),
+      (t[4] = m),
+      (t[5] = h),
+      (t[6] = x))
+    : (x = t[6]);
+  let S = x,
+    C;
+  t[7] !== l || t[8] !== u
+    ? ((C = (e, t) => {
+        let n = g.current;
+        n?.pointerId === e.pointerId && ((g.current = null), u?.(!1), t && n.didMove && l?.(n.lastSize));
+      }),
+      (t[7] = l),
+      (t[8] = u),
+      (t[9] = C))
+    : (C = t[9]);
+  let w = C,
+    T = m === `top` ? `top-0` : `bottom-0`,
+    E = p === `left` ? `left-0` : `right-0`,
+    D = (p === `left`) == (m === `top`) ? `cursor-nwse-resize` : `cursor-nesw-resize`,
+    O;
+  t[10] !== T || t[11] !== E || t[12] !== D
+    ? ((O = i(`group absolute z-50 flex size-4 touch-none select-none`, T, E, D)),
+      (t[10] = T),
+      (t[11] = E),
+      (t[12] = D),
+      (t[13] = O))
+    : (O = t[13]);
+  let k;
+  t[14] === w
+    ? (k = t[15])
+    : ((k = (e) => {
+        w(e, !1);
+      }),
+      (t[14] = w),
+      (t[15] = k));
+  let A;
+  t[16] !== S || t[17] !== w
+    ? ((A = (e) => {
+        (S(e), w(e, !0));
+      }),
+      (t[16] = S),
+      (t[17] = w),
+      (t[18] = A))
+    : (A = t[18]);
+  let j;
+  t[19] !== a || t[20] !== u || t[21] !== h
+    ? ((j = (e) => {
+        if (e.button !== 0) return;
+        (e.preventDefault(), e.currentTarget.setPointerCapture?.(e.pointerId));
+        let t = a();
+        ((g.current = {
+          didMove: !1,
+          lastSize: t,
+          pointerId: e.pointerId,
+          startPointer: { x: o(e.clientX, h), y: o(e.clientY, h) },
+          startSize: t,
+        }),
+          u?.(!0));
+      }),
+      (t[19] = a),
+      (t[20] = u),
+      (t[21] = h),
+      (t[22] = j))
+    : (j = t[22]);
+  let M;
+  t[23] !== S || t[24] !== w
+    ? ((M = (e) => {
+        (S(e), w(e, !0));
+      }),
+      (t[23] = S),
+      (t[24] = w),
+      (t[25] = M))
+    : (M = t[25]);
+  let N;
+  t[26] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = (0, b.jsx)(`div`, {
+        className: `pointer-events-none m-auto h-px w-2 rotate-45 bg-text/25 opacity-0 group-hover:opacity-100 group-active:opacity-100`,
+      })),
+      (t[26] = N))
+    : (N = t[26]);
+  let P;
+  return (
+    t[27] !== S || t[28] !== A || t[29] !== j || t[30] !== M || t[31] !== O || t[32] !== k
+      ? ((P = (0, b.jsx)(`div`, {
+          "aria-hidden": !0,
+          className: O,
+          onLostPointerCapture: k,
+          onPointerCancel: A,
+          onPointerDown: j,
+          onPointerMove: S,
+          onPointerUp: M,
+          children: N,
+        })),
+        (t[27] = S),
+        (t[28] = A),
+        (t[29] = j),
+        (t[30] = M),
+        (t[31] = O),
+        (t[32] = k),
+        (t[33] = P))
+      : (P = t[33]),
+    P
+  );
+}
+function _(e, t, n) {
+  return Math.min(Math.max(e, t), n);
+}
+var v, y, b;
+function x() {
+  return (x = e(() => {
+    ((v = a()), r(), (y = c()), t(), (b = s()));
+  }))();
+}
+function S(e) {
+  let t = (0, C.c)(32),
+    {
+      currentSize: n,
+      defaultSize: r,
+      extendIntoToolbar: i,
+      heightLabel: a,
+      maximumSize: o,
+      minimumSize: s,
+      onResize: c,
+      onResizeEnd: u,
+      onResizingChange: d,
+      verticalEdge: f,
+      widthLabel: p,
+    } = e,
+    m = i === void 0 || i,
+    h = f === void 0 ? `top` : f,
+    _;
+  t[0] !== n ||
+  t[1] !== r ||
+  t[2] !== m ||
+  t[3] !== o ||
+  t[4] !== s ||
+  t[5] !== c ||
+  t[6] !== u ||
+  t[7] !== d ||
+  t[8] !== p
+    ? ((_ = T.map((e) =>
+        (0, w.jsx)(
+          l,
+          {
+            ariaLabel: p,
+            defaultSize: r.width,
+            edge: e,
+            extendIntoToolbar: m,
+            getCurrentSize: () => n.width,
+            maximumSize: o.width,
+            minimumSize: s.width,
+            onResizeEnd: (e) => {
+              u({ ...n, width: e });
+            },
+            onResizingChange: d,
+            setSize: (t) => {
+              c(e, { ...n, width: t });
+            },
+          },
+          e,
+        ),
+      )),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = m),
+      (t[3] = o),
+      (t[4] = s),
+      (t[5] = c),
+      (t[6] = u),
+      (t[7] = d),
+      (t[8] = p),
+      (t[9] = _))
+    : (_ = t[9]);
+  let v;
+  t[10] !== n ||
+  t[11] !== r ||
+  t[12] !== a ||
+  t[13] !== o ||
+  t[14] !== s ||
+  t[15] !== c ||
+  t[16] !== u ||
+  t[17] !== d ||
+  t[18] !== h
+    ? ((v =
+        h != null &&
+        (0, w.jsx)(l, {
+          ariaLabel: a,
+          defaultSize: r.height,
+          edge: h,
+          getCurrentSize: () => n.height,
+          maximumSize: o.height,
+          minimumSize: s.height,
+          onResizeEnd: (e) => {
+            u({ ...n, height: e });
+          },
+          onResizingChange: d,
+          setSize: (e) => {
+            c(`right`, { ...n, height: e });
+          },
+        })),
+      (t[10] = n),
+      (t[11] = r),
+      (t[12] = a),
+      (t[13] = o),
+      (t[14] = s),
+      (t[15] = c),
+      (t[16] = u),
+      (t[17] = d),
+      (t[18] = h),
+      (t[19] = v))
+    : (v = t[19]);
+  let y;
+  t[20] !== n || t[21] !== o || t[22] !== s || t[23] !== c || t[24] !== u || t[25] !== d || t[26] !== h
+    ? ((y =
+        h != null &&
+        T.map((e) =>
+          (0, w.jsx)(
+            g,
+            {
+              edge: e,
+              getCurrentSize: () => n,
+              maximumSize: o,
+              minimumSize: s,
+              verticalEdge: h,
+              onResizeEnd: u,
+              onResizingChange: d,
+              setSize: (t) => {
+                c(e, t);
+              },
+            },
+            e,
+          ),
+        )),
+      (t[20] = n),
+      (t[21] = o),
+      (t[22] = s),
+      (t[23] = c),
+      (t[24] = u),
+      (t[25] = d),
+      (t[26] = h),
+      (t[27] = y))
+    : (y = t[27]);
+  let b;
+  return (
+    t[28] !== _ || t[29] !== v || t[30] !== y
+      ? ((b = (0, w.jsxs)(w.Fragment, { children: [_, v, y] })),
+        (t[28] = _),
+        (t[29] = v),
+        (t[30] = y),
+        (t[31] = b))
+      : (b = t[31]),
+    b
+  );
+}
+var C, w, T;
+function E() {
+  return (E = e(() => {
+    ((C = a()), u(), x(), (w = s()), (T = [`left`, `right`]));
+  }))();
+}
+export { f as a, d as i, E as n, m as o, p as r, h as s, S as t };
+//# sourceMappingURL=quick-chat-floating-resize-handles-884029d75925.js.map

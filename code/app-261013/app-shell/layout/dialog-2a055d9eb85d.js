@@ -1,0 +1,443 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  $4 as t,
+  BV as n,
+  IDt as r,
+  TJ as i,
+  VDt as a,
+  _O as o,
+  cO as s,
+  fO as c,
+  jDt as l,
+  lO as u,
+  oO as d,
+  sO as f,
+  t3 as p,
+  vO as m,
+  vzt as h,
+  xMt as g,
+} from "./app-shared-bbfeca5e5737.js";
+import {
+  $ct as _,
+  ACn as v,
+  Gct as y,
+  Gtn as b,
+  Qtn as x,
+  Wtn as S,
+  Xct as C,
+  Ztn as w,
+  _ct as T,
+  jCn as E,
+  llt as D,
+  qct as O,
+  ult as k,
+  vct as A,
+} from "./app-initial-5851df3f6cb1.js";
+import { n as j, t as M } from "./toolbar-breadcrumb-e1be94112dcb.js";
+import { n as N, t as P } from "./dialog-bc4066c8ffcf.js";
+function F(e) {
+  let n = (0, B.c)(36),
+    {
+      children: i,
+      canMove: c,
+      error: l,
+      isPreparing: p,
+      isMoving: m,
+      isLoading: h,
+      isError: g,
+      items: _,
+      path: v,
+      searchQuery: y,
+      hasMore: b,
+      isLoadingMore: x,
+      onLoadMore: S,
+      onClose: C,
+      onNavigate: w,
+      onRetry: T,
+      onSearchQueryChange: E,
+      onSubmit: O,
+    } = e,
+    k = m !== void 0 && m,
+    A = b !== void 0 && b,
+    j = x !== void 0 && x,
+    N = a(),
+    F;
+  if (
+    n[0] !== A ||
+    n[1] !== g ||
+    n[2] !== h ||
+    n[3] !== j ||
+    n[4] !== _ ||
+    n[5] !== S ||
+    n[6] !== w ||
+    n[7] !== T
+  ) {
+    if (h) F = (0, V.jsx)(L, {});
+    else if (g) F = (0, V.jsx)(R, { onRetry: T });
+    else if (_?.length === 0 && !A) {
+      let e;
+      (n[9] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, V.jsx)(r, {
+            id: `codex.space.page.crossSpaceMove.noPages`,
+            defaultMessage: `No pages`,
+            description: `Empty state when the current destination has no child Pages`,
+          })),
+          (n[9] = e))
+        : (e = n[9]),
+        (F = (0, V.jsx)(z, { children: e })));
+    } else {
+      let e;
+      n[10] !== _ || n[11] !== w
+        ? ((e = _?.map((e) => (0, V.jsx)(I, { item: e, onSelect: () => w(e.id) }, e.id))),
+          (n[10] = _),
+          (n[11] = w),
+          (n[12] = e))
+        : (e = n[12]);
+      let i;
+      (n[13] !== A || n[14] !== j || n[15] !== S
+        ? ((i = A
+            ? (0, V.jsx)(t, {
+                color: `ghost`,
+                loading: j,
+                onClick: S,
+                type: `button`,
+                children: (0, V.jsx)(r, {
+                  id: `codex.space.page.crossSpaceMove.loadMore`,
+                  defaultMessage: `Load more`,
+                  description: `Load more Pages in the move destination picker`,
+                }),
+              })
+            : null),
+          (n[13] = A),
+          (n[14] = j),
+          (n[15] = S),
+          (n[16] = i))
+        : (i = n[16]),
+        (F = (0, V.jsxs)(`div`, {
+          className: `min-h-0 flex-1 overflow-y-auto rounded-xl border border-subtle p-1 select-none`,
+          role: `list`,
+          children: [e, i],
+        })));
+    }
+    ((n[0] = A),
+      (n[1] = g),
+      (n[2] = h),
+      (n[3] = j),
+      (n[4] = _),
+      (n[5] = S),
+      (n[6] = w),
+      (n[7] = T),
+      (n[8] = F));
+  } else F = n[8];
+  let H;
+  n[17] !== k || n[18] !== C
+    ? ((H = (e) => {
+        !e && !k && C();
+      }),
+      (n[17] = k),
+      (n[18] = C),
+      (n[19] = H))
+    : (H = n[19]);
+  let U;
+  n[20] !== c ||
+  n[21] !== F ||
+  n[22] !== l ||
+  n[23] !== N ||
+  n[24] !== p ||
+  n[25] !== C ||
+  n[26] !== w ||
+  n[27] !== E ||
+  n[28] !== O ||
+  n[29] !== v ||
+  n[30] !== y
+    ? ((U = (e) =>
+        (0, V.jsxs)(d, {
+          as: `form`,
+          size: `full`,
+          onSubmit: (e) => {
+            (e.preventDefault(), c && !p && O());
+          },
+          children: [
+            (0, V.jsx)(u, {
+              children: (0, V.jsx)(s, {
+                title: (0, V.jsx)(o, {
+                  children: (0, V.jsx)(r, {
+                    id: `codex.space.page.crossSpaceMove.title`,
+                    defaultMessage: `Move page`,
+                    description: `Title of the destination picker for moving a Page into another owned Space or Page`,
+                  }),
+                }),
+              }),
+            }),
+            (0, V.jsx)(u, {
+              children: (0, V.jsx)(D, {
+                autoFocus: !0,
+                disabled: p,
+                id: `cross-space-page-move-search`,
+                inputRole: `searchbox`,
+                label: N.formatMessage({
+                  id: `codex.space.page.crossSpaceMove.search.label`,
+                  defaultMessage: `Search pages`,
+                  description: `Accessible label for searching destination Spaces and Pages in the Page move dialog`,
+                }),
+                onSearchQueryChange: E,
+                placeholder: N.formatMessage({
+                  id: `codex.space.page.crossSpaceMove.search.placeholder`,
+                  defaultMessage: `Search pages`,
+                  description: `Placeholder for searching destination Spaces and Pages in the Page move dialog`,
+                }),
+                searchQuery: y,
+                variant: `toolbar`,
+              }),
+            }),
+            (0, V.jsxs)(u, {
+              className: `flex min-h-0 flex-1 flex-col gap-3`,
+              children: [
+                (0, V.jsx)(M, {
+                  ancestors:
+                    v.length === 0
+                      ? []
+                      : [
+                          {
+                            id: `page-move-root`,
+                            label: (0, V.jsx)(r, {
+                              id: `codex.space.page.crossSpaceMove.spaces`,
+                              defaultMessage: `Space`,
+                              description: `Root breadcrumb in the Page move destination picker`,
+                            }),
+                            onClick: () => w(null),
+                          },
+                          ...v
+                            .slice(0, -1)
+                            .map((e) => ({ id: e.id, label: e.label, onClick: () => w(e.id) })),
+                        ],
+                  current:
+                    v.length === 0
+                      ? (0, V.jsx)(r, {
+                          id: `codex.space.page.crossSpaceMove.spaces`,
+                          defaultMessage: `Space`,
+                          description: `Root breadcrumb in the Page move destination picker`,
+                        })
+                      : v.at(-1)?.label,
+                  textSm: !0,
+                }),
+                F,
+                l
+                  ? (0, V.jsx)(`p`, {
+                      className: `text-sm text-danger`,
+                      role: `alert`,
+                      children: (0, V.jsx)(r, {
+                        id: `codex.space.page.crossSpaceMove.prepareError`,
+                        defaultMessage: `Couldn’t move this page to that destination`,
+                        description: `Error shown when the server cannot prepare a Page move to the selected destination`,
+                      }),
+                    })
+                  : null,
+              ],
+            }),
+            e == null ? null : (0, V.jsx)(u, { children: e }),
+            (0, V.jsx)(u, {
+              children: (0, V.jsxs)(f, {
+                children: [
+                  (0, V.jsx)(t, {
+                    color: `ghost`,
+                    type: `button`,
+                    onClick: C,
+                    children: (0, V.jsx)(r, {
+                      id: `codex.space.page.crossSpaceMove.cancel`,
+                      defaultMessage: `Cancel`,
+                      description: `Button that closes the Page move destination picker without moving anything`,
+                    }),
+                  }),
+                  (0, V.jsx)(t, {
+                    color: `primary`,
+                    disabled: !c,
+                    loading: p,
+                    type: `submit`,
+                    children:
+                      v.length === 0
+                        ? (0, V.jsx)(r, {
+                            id: `codex.space.page.crossSpaceMove.moveToPersonal`,
+                            defaultMessage: `Move to Personal`,
+                            description: `Button that moves a Page and its children to the top level of the user's personal Space; any permission changes are previewed before confirmation`,
+                          })
+                        : (0, V.jsx)(r, {
+                            id: `codex.space.page.crossSpaceMove.moveHere`,
+                            defaultMessage: `Move here`,
+                            description: `Button that moves a Page into the currently browsed destination`,
+                          }),
+                  }),
+                ],
+              }),
+            }),
+          ],
+        })),
+      (n[20] = c),
+      (n[21] = F),
+      (n[22] = l),
+      (n[23] = N),
+      (n[24] = p),
+      (n[25] = C),
+      (n[26] = w),
+      (n[27] = E),
+      (n[28] = O),
+      (n[29] = v),
+      (n[30] = y),
+      (n[31] = U))
+    : (U = n[31]);
+  let W;
+  return (
+    n[32] !== i || n[33] !== H || n[34] !== U
+      ? ((W = (0, V.jsx)(P, { diagnostics: i, size: `wideTall`, onOpenChange: H, children: U })),
+        (n[32] = i),
+        (n[33] = H),
+        (n[34] = U),
+        (n[35] = W))
+      : (W = n[35]),
+    W
+  );
+}
+function I(e) {
+  let t = (0, B.c)(12),
+    { item: i, onSelect: a } = e,
+    o;
+  t[0] !== i.canOpen || t[1] !== i.isDisabled || t[2] !== i.title || t[3] !== a
+    ? ((o = (e) => {
+        let { icon: t, title: o } = e;
+        return (0, V.jsx)(C, {
+          density: `compact`,
+          icon: (0, V.jsx)(y, { artwork: t }),
+          isDisabled: i.isDisabled,
+          isSelected: !1,
+          rightText: i.canOpen ? (0, V.jsx)(n, { className: `text-default` }) : void 0,
+          rightTextPosition: `center`,
+          showDivider: !1,
+          title: i.title ? o : (0, V.jsx)(r, { ...x.untitled }),
+          onSelect: a,
+        });
+      }),
+      (t[0] = i.canOpen),
+      (t[1] = i.isDisabled),
+      (t[2] = i.title),
+      (t[3] = a),
+      (t[4] = o))
+    : (o = t[4]);
+  let s;
+  return (
+    t[5] !== i.documentType ||
+    t[6] !== i.namespace ||
+    t[7] !== i.pageId ||
+    t[8] !== i.symbol ||
+    t[9] !== i.title ||
+    t[10] !== o
+      ? ((s = (0, V.jsx)(S, {
+          iconColor: `file-type`,
+          iconSize: 20,
+          documentType: i.documentType,
+          namespace: i.namespace,
+          pageId: i.pageId,
+          symbol: i.symbol,
+          title: i.title,
+          children: o,
+        })),
+        (t[5] = i.documentType),
+        (t[6] = i.namespace),
+        (t[7] = i.pageId),
+        (t[8] = i.symbol),
+        (t[9] = i.title),
+        (t[10] = o),
+        (t[11] = s))
+      : (s = t[11]),
+    s
+  );
+}
+function L() {
+  let e = (0, B.c)(2),
+    t;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((t = (0, V.jsx)(`div`, { className: `size-8 shrink-0 rounded-lg bg-text/10` })), (e[0] = t))
+    : (t = e[0]);
+  let n;
+  return (
+    e[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, V.jsx)(`div`, {
+          className: `min-h-0 flex-1 overflow-y-auto rounded-xl border border-subtle p-1 select-none`,
+          children: (0, V.jsx)(T, {
+            density: `compact`,
+            icon: t,
+            rowCount: 3,
+            loadingLabel: (0, V.jsx)(r, {
+              id: `codex.space.page.crossSpaceMove.loading`,
+              defaultMessage: `Loading destinations…`,
+              description: `Status shown while Page move destinations are loading`,
+            }),
+          }),
+        })),
+        (e[1] = n))
+      : (n = e[1]),
+    n
+  );
+}
+function R(e) {
+  let n = (0, B.c)(4),
+    { onRetry: i } = e,
+    a;
+  n[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, V.jsx)(`span`, {
+        className: `text-secondary`,
+        children: (0, V.jsx)(r, {
+          id: `codex.space.page.crossSpaceMove.loadError`,
+          defaultMessage: `Couldn’t load destinations`,
+          description: `Error shown when Page move destinations fail to load`,
+        }),
+      })),
+      (n[0] = a))
+    : (a = n[0]);
+  let o;
+  n[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, V.jsx)(r, {
+        id: `codex.space.page.crossSpaceMove.retry`,
+        defaultMessage: `Try again`,
+        description: `Button that retries loading Page move destinations`,
+      })),
+      (n[1] = o))
+    : (o = n[1]);
+  let s;
+  return (
+    n[2] === i
+      ? (s = n[3])
+      : ((s = (0, V.jsxs)(`div`, {
+          className: `flex min-h-0 flex-1 items-center justify-center gap-3 rounded-xl border border-subtle`,
+          role: `alert`,
+          children: [a, (0, V.jsx)(t, { color: `ghost`, type: `button`, onClick: i, children: o })],
+        })),
+        (n[2] = i),
+        (n[3] = s)),
+    s
+  );
+}
+function z(e) {
+  let t = (0, B.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, V.jsx)(`div`, {
+          className: `flex min-h-0 flex-1 rounded-xl border border-subtle`,
+          children: (0, V.jsx)(v, { title: n }),
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+var B, V;
+function H() {
+  return (H = e(() => {
+    ((B = h()), l(), p(), m(), c(), i(), E(), k(), _(), A(), j(), O(), b(), w(), N(), (V = g()));
+  }))();
+}
+H();
+export { F as PageMoveDestinationDialog };
+//# sourceMappingURL=dialog-2a055d9eb85d.js.map

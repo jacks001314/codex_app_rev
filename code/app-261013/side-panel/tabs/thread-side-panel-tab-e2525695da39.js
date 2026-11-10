@@ -1,0 +1,21 @@
+import "./app-shared-bbfeca5e5737.js";
+import {
+  Sft as e,
+  _ft as t,
+  bft as n,
+  gft as r,
+  hft as i,
+  vft as a,
+  xft as o,
+  yft as s,
+} from "./app-initial-5851df3f6cb1.js";
+r();
+export {
+  i as getMcpExtensionFileViewerTabId,
+  t as isMcpExtensionTab,
+  a as mcpExtensionTabType,
+  s as openMcpExtensionFileViewerSidePanelTab,
+  n as openMcpExtensionThreadSidePanelTab,
+  o as openMcpWorkspaceHomeTab,
+  e as restoreMcpExtensionSidePanelTab,
+};

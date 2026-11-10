@@ -1,0 +1,1436 @@
+{
+ "module": "codex-micro",
+ "generated_at": "2026-11-09T07:51:29.691Z",
+ "files_scanned": 2,
+ "message_count": 47,
+ "messages": [
+  {
+   "id": "codexMicro.command.unavailable",
+   "text": "This action isn't available here",
+   "description": "Toast shown when a Codex Micro keycap command cannot run in the current context",
+   "files": [
+    "851215.3a3b02a3eb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.body",
+   "text": "The 6 frosted Agent Keys give you a live status of your Codex chats/agents. Single-tap a key to focus it in the background, or double-tap to bring your Codex window front and center.",
+   "description": "Explanation that the six physical Codex Micro Agent Keys show status for Codex chats and agents, and how single- and double-tapping a key focuses that chat",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.complete",
+   "text": "Green – Complete",
+   "description": "Legend entry for a completed Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.error",
+   "text": "Red – Error",
+   "description": "Legend entry for a Codex Micro agent key with an error",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.idle",
+   "text": "White – Idle",
+   "description": "Legend entry for an idle Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.requiresInput",
+   "text": "Amber – Requires input",
+   "description": "Legend entry for a Codex Micro agent key requiring input",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.thinking",
+   "text": "Blue – Thinking",
+   "description": "Legend entry for a thinking Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.title",
+   "text": "Legend",
+   "description": "Title for the Codex Micro agent key status legend",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.unassigned",
+   "text": "Off – No Assigned Agent",
+   "description": "Legend entry for an unassigned Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.title",
+   "text": "The Agent Keys",
+   "description": "Title for the tour step explaining the six physical Agent Keys on the Codex Micro hardware keypad",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.animatedActionKey.generic",
+   "text": "Animated keyboard action key",
+   "description": "Accessible label for a changing action key in keyboard onboarding",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.animatedAgentKey",
+   "text": "Agent key {position} changing status color",
+   "description": "Accessible label for an animated agent key in Codex Micro onboarding",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.body",
+   "text": "Congrats on getting your hands on a <deviceName>kbd-1.0-codex-micro</deviceName>, a unique collaboration product between Codex & Work Louder. Get ready to dial up the fun, efficiency, and tactility on your whole Codex experience!",
+   "description": "Welcome message shown when Codex Micro is detected for the first time",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.build",
+   "text": "Let’s build!",
+   "description": "Button that completes the Codex Micro feature tour",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.commandKeys.body",
+   "text": "The Command Keys put your most-used Codex actions right at your fingertips. You can easily customize what your keys, dial, and joystick do by long-pressing the dial to open the configuration page.",
+   "description": "Explanation of Codex Micro command key customization",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.commandKeys.input",
+   "text": "ps. Get more from your Codex Micro with <input>Input</input>, Work Louder’s dedicated configurator for customizing controls across all your creative apps",
+   "description": "Link to Work Louder Input from Codex Micro onboarding",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.commandKeys.title",
+   "text": "The Command Keys",
+   "description": "Title for the Codex Micro command key tour step",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.description",
+   "text": "Codex Micro needs Input Monitoring permission to respond when you press a key on your keyboard",
+   "description": "Description of why Codex Micro needs Input Monitoring permission",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.granted",
+   "text": "Input Monitoring is ready",
+   "description": "Confirmation that Codex Micro has Input Monitoring permission",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.settingsName",
+   "text": "Input Monitoring",
+   "description": "Name of the macOS Input Monitoring permission settings page",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.title",
+   "text": "Enable key presses",
+   "description": "Title for the Input Monitoring permission step in Codex Micro onboarding",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.lastStep",
+   "text": "Last step",
+   "description": "Button that advances to the final Codex Micro feature tour step",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.openSettings",
+   "text": "Open System Settings",
+   "description": "Button that opens macOS Input Monitoring settings from Codex Micro onboarding",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.settings",
+   "text": "Settings",
+   "description": "Button that opens Codex Micro settings from the feature tour",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.skip",
+   "text": "Skip",
+   "description": "Button that skips the Codex Micro feature tour",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.takeTour",
+   "text": "Take 2-step tour",
+   "description": "Button that starts the Codex Micro feature tour",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.title",
+   "text": "Welcome to Codex Micro",
+   "description": "Title shown when Codex Micro is detected for the first time",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.agentKeys.body",
+   "text": "The frosted Agent Keys give you a live status of your Codex agents. Single-tap a key to focus it in the background, or double-tap to bring your ChatGPT window front and center.",
+   "description": "Explanation of Creator Micro agent key behavior",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.body",
+   "text": "Congrats on getting your hands on the original Creator Micro 2, the base platform on which the Codex Micro was built! Get ready to dial up the fun, efficiency, and tactility of your whole Codex experience!",
+   "description": "Welcome message shown when Creator Micro is detected for the first time",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.commandKeys.body",
+   "text": "The Command Keys put your most-used Codex actions right at your fingertips. You can easily customize what your keys, dial, and joystick does by long-pressing the dial to open the configuration page.",
+   "description": "Explanation of Creator Micro command key customization",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.commandKeys.input",
+   "text": "ps. Get more from your Creator Micro with <input>Input</input>, Work Louder’s dedicated configurator for customizing controls across all your creative apps",
+   "description": "Link to Work Louder Input from Creator Micro onboarding",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.inputMonitoring.description",
+   "text": "Creator Micro needs Input Monitoring permission to respond when you press a key on your keyboard",
+   "description": "Description of why Creator Micro needs Input Monitoring permission",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.title",
+   "text": "Welcome to Creator Micro",
+   "description": "Title shown when Creator Micro is detected for the first time",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "permissions.revealApp",
+   "text": "If {appName} doesn't appear in {permissionSettingsName}, reveal it in Finder, then drag the app into the open System Settings panel",
+   "description": null,
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "permissions.showAppInFinder",
+   "text": "Show {appName} in Finder",
+   "description": null,
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.assign",
+   "text": "Assign a chat, shortcut, keycap, or skill to agent key {position}",
+   "description": "Accessible label for assigning a task to a Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.awaitingApproval",
+   "text": "Awaiting approval",
+   "description": "Awaiting approval status for a Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.awaitingResponse",
+   "text": "Awaiting response",
+   "description": "Awaiting response status for a Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.error",
+   "text": "Error",
+   "description": "Error status for a Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.idle",
+   "text": "Idle",
+   "description": "Idle status for a Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.off",
+   "text": "Off",
+   "description": "Off status for an unassigned Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.unread",
+   "text": "Unread",
+   "description": "Unread status for a Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.working",
+   "text": "Working",
+   "description": "Working status for a Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.unassigned",
+   "text": "No chat or action assigned to agent key {position}",
+   "description": "Fallback title for an unassigned Codex Micro agent key",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.untitled",
+   "text": "Untitled chat",
+   "description": "Fallback title for a Codex Micro agent key whose task has no title",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.yeetLegend",
+   "text": ":yeet:",
+   "description": "Literal keycap legend rendered on the YEET Codex Micro keycap",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.yoloLegend",
+   "text": ":yolo:",
+   "description": "Literal keycap legend rendered on the YOLO Codex Micro keycap",
+   "files": [
+    "623696.1882000641.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "id",
+   "count": 146
+  },
+  {
+   "name": "type",
+   "count": 100
+  },
+  {
+   "name": "action",
+   "count": 96
+  },
+  {
+   "name": "size",
+   "count": 79
+  },
+  {
+   "name": "children",
+   "count": 78
+  },
+  {
+   "name": "className",
+   "count": 78
+  },
+  {
+   "name": "icon",
+   "count": 78
+  },
+  {
+   "name": "command",
+   "count": 62
+  },
+  {
+   "name": "defaultMessage",
+   "count": 47
+  },
+  {
+   "name": "description",
+   "count": 47
+  },
+  {
+   "name": "fill",
+   "count": 41
+  },
+  {
+   "name": "d",
+   "count": 34
+  },
+  {
+   "name": "status",
+   "count": 31
+  },
+  {
+   "name": "dark",
+   "count": 27
+  },
+  {
+   "name": "null",
+   "count": 27
+  },
+  {
+   "name": "state",
+   "count": 21
+  },
+  {
+   "name": "width",
+   "count": 20
+  },
+  {
+   "name": "height",
+   "count": 20
+  },
+  {
+   "name": "viewBox",
+   "count": 20
+  },
+  {
+   "name": "xmlns",
+   "count": 20
+  },
+  {
+   "name": "threadKey",
+   "count": 19
+  },
+  {
+   "name": "title",
+   "count": 18
+  },
+  {
+   "name": "get",
+   "count": 14
+  },
+  {
+   "name": "timeoutAt",
+   "count": 13
+  },
+  {
+   "name": "label",
+   "count": 10
+  },
+  {
+   "name": "appName",
+   "count": 10
+  },
+  {
+   "name": "event",
+   "count": 10
+  },
+  {
+   "name": "e",
+   "count": 9
+  },
+  {
+   "name": "selected",
+   "count": 9
+  },
+  {
+   "name": "position",
+   "count": 8
+  },
+  {
+   "name": "appIconMedium",
+   "count": 8
+  },
+  {
+   "name": "fillRule",
+   "count": 7
+  },
+  {
+   "name": "clipRule",
+   "count": 7
+  },
+  {
+   "name": "joystick",
+   "count": 7
+  },
+  {
+   "name": "slots",
+   "count": 7
+  },
+  {
+   "name": "message",
+   "count": 7
+  },
+  {
+   "name": "model",
+   "count": 7
+  },
+  {
+   "name": "hostId",
+   "count": 7
+  },
+  {
+   "name": "direction",
+   "count": 7
+  },
+  {
+   "name": "stroke",
+   "count": 6
+  },
+  {
+   "name": "strokeWidth",
+   "count": 6
+  },
+  {
+   "name": "strokeLinejoin",
+   "count": 6
+  },
+  {
+   "name": "flowId",
+   "count": 6
+  },
+  {
+   "name": "inputMonitoringPermissionState",
+   "count": 6
+  },
+  {
+   "name": "screen",
+   "count": 6
+  },
+  {
+   "name": "step",
+   "count": 6
+  },
+  {
+   "name": "duration",
+   "count": 6
+  },
+  {
+   "name": "shouldReduceMotion",
+   "count": 6
+  },
+  {
+   "name": "opacity",
+   "count": 6
+  },
+  {
+   "name": "inputMonitoringPermissionStatus",
+   "count": 6
+  },
+  {
+   "name": "onOpenInputMonitoringSettings",
+   "count": 6
+  },
+  {
+   "name": "codexMicro",
+   "count": 6
+  },
+  {
+   "name": "enabled",
+   "count": 6
+  },
+  {
+   "name": "conversationId",
+   "count": 6
+  },
+  {
+   "name": "activated",
+   "count": 6
+  },
+  {
+   "name": "captured",
+   "count": 6
+  },
+  {
+   "name": "progress",
+   "count": 6
+  },
+  {
+   "name": "onClick",
+   "count": 5
+  },
+  {
+   "name": "style",
+   "count": 5
+  },
+  {
+   "name": "L",
+   "count": 5
+  },
+  {
+   "name": "text",
+   "count": 5
+  },
+  {
+   "name": "values",
+   "count": 5
+  },
+  {
+   "name": "knobPulse",
+   "count": 5
+  },
+  {
+   "name": "visible",
+   "count": 5
+  },
+  {
+   "name": "threadKeys",
+   "count": 5
+  },
+  {
+   "name": "unread",
+   "count": 4
+  },
+  {
+   "name": "keycap",
+   "count": 4
+  },
+  {
+   "name": "backgroundColor",
+   "count": 4
+  },
+  {
+   "name": "role",
+   "count": 4
+  },
+  {
+   "name": "stepType",
+   "count": 4
+  },
+  {
+   "name": "y",
+   "count": 4
+  },
+  {
+   "name": "keycapId",
+   "count": 4
+  },
+  {
+   "name": "transition",
+   "count": 4
+  },
+  {
+   "name": "initial",
+   "count": 4
+  },
+  {
+   "name": "onComplete",
+   "count": 4
+  },
+  {
+   "name": "onCompleteAndOpenSettings",
+   "count": 4
+  },
+  {
+   "name": "clientThreadId",
+   "count": 4
+  },
+  {
+   "name": "pressedKeys",
+   "count": 4
+  },
+  {
+   "name": "lastAngle",
+   "count": 4
+  },
+  {
+   "name": "lastAt",
+   "count": 4
+  },
+  {
+   "name": "pinnedThreadKeys",
+   "count": 4
+  },
+  {
+   "name": "strokeLinecap",
+   "count": 3
+  },
+  {
+   "name": "isPressed",
+   "count": 3
+  },
+  {
+   "name": "Y",
+   "count": 3
+  },
+  {
+   "name": "XA",
+   "count": 3
+  },
+  {
+   "name": "ease",
+   "count": 3
+  },
+  {
+   "name": "animate",
+   "count": 3
+  },
+  {
+   "name": "permissionSettingsName",
+   "count": 3
+  },
+  {
+   "name": "href",
+   "count": 3
+  },
+  {
+   "name": "dismissAnnouncement",
+   "count": 3
+  },
+  {
+   "name": "n",
+   "count": 3
+  },
+  {
+   "name": "brightness",
+   "count": 3
+  },
+  {
+   "name": "inactivityTimeoutMs",
+   "count": 3
+  },
+  {
+   "name": "preserveSelectionLighting",
+   "count": 3
+  },
+  {
+   "name": "snakingAmbientStatus",
+   "count": 3
+  },
+  {
+   "name": "voiceState",
+   "count": 3
+  },
+  {
+   "name": "name",
+   "count": 3
+  },
+  {
+   "name": "hasCloseButton",
+   "count": 3
+  },
+  {
+   "name": "activeDirection",
+   "count": 3
+  },
+  {
+   "name": "angle",
+   "count": 3
+  },
+  {
+   "name": "distance",
+   "count": 3
+  },
+  {
+   "name": "key",
+   "count": 3
+  },
+  {
+   "name": "accumulatedTurns",
+   "count": 3
+  },
+  {
+   "name": "startedAt",
+   "count": 3
+  },
+  {
+   "name": "pinnedProjectThreadKeys",
+   "count": 3
+  },
+  {
+   "name": "selectedAnalogDirection",
+   "count": 3
+  },
+  {
+   "name": "slotId",
+   "count": 3
+  },
+  {
+   "name": "transform",
+   "count": 2
+  },
+  {
+   "name": "error",
+   "count": 2
+  },
+  {
+   "name": "showTooltip",
+   "count": 2
+  },
+  {
+   "name": "slot",
+   "count": 2
+  },
+  {
+   "name": "connectionTransport",
+   "count": 2
+  },
+  {
+   "name": "$S",
+   "count": 2
+  },
+  {
+   "name": "Fh",
+   "count": 2
+  },
+  {
+   "name": "ed",
+   "count": 2
+  },
+  {
+   "name": "x",
+   "count": 2
+  },
+  {
+   "name": "O",
+   "count": 2
+  },
+  {
+   "name": "url",
+   "count": 2
+  },
+  {
+   "name": "iQ",
+   "count": 2
+  },
+  {
+   "name": "Sc",
+   "count": 2
+  },
+  {
+   "name": "default",
+   "count": 2
+  },
+  {
+   "name": "Yv",
+   "count": 2
+  },
+  {
+   "name": "aD",
+   "count": 2
+  },
+  {
+   "name": "g5",
+   "count": 2
+  },
+  {
+   "name": "encoder",
+   "count": 2
+  },
+  {
+   "name": "jK",
+   "count": 2
+  },
+  {
+   "name": "pr",
+   "count": 2
+  },
+  {
+   "name": "s3",
+   "count": 2
+  },
+  {
+   "name": "analogStick",
+   "count": 2
+  },
+  {
+   "name": "actionKeycapIds",
+   "count": 2
+  },
+  {
+   "name": "agentSlots",
+   "count": 2
+  },
+  {
+   "name": "CX",
+   "count": 2
+  },
+  {
+   "name": "GO",
+   "count": 2
+  },
+  {
+   "name": "hV",
+   "count": 2
+  },
+  {
+   "name": "s6",
+   "count": 2
+  },
+  {
+   "name": "exit",
+   "count": 2
+  },
+  {
+   "name": "color",
+   "count": 2
+  },
+  {
+   "name": "input",
+   "count": 2
+  },
+  {
+   "name": "initiator",
+   "count": 2
+  },
+  {
+   "name": "onLifecycleStep",
+   "count": 2
+  },
+  {
+   "name": "deviceStatus",
+   "count": 2
+  },
+  {
+   "name": "hasEverBeenDetected",
+   "count": 2
+  },
+  {
+   "name": "onboardingState",
+   "count": 2
+  },
+  {
+   "name": "inputMonitoringAnalyticsState",
+   "count": 2
+  },
+  {
+   "name": "pressedAt",
+   "count": 2
+  },
+  {
+   "name": "deadline",
+   "count": 2
+  },
+  {
+   "name": "attributeFilter",
+   "count": 2
+  },
+  {
+   "name": "attributes",
+   "count": 2
+  },
+  {
+   "name": "childList",
+   "count": 2
+  },
+  {
+   "name": "subtree",
+   "count": 2
+  },
+  {
+   "name": "transport",
+   "count": 2
+  },
+  {
+   "name": "suspendDeviceStatusRefresh",
+   "count": 2
+  },
+  {
+   "name": "miniGameRearmRequiredRef",
+   "count": 2
+  },
+  {
+   "name": "isCodexMicroSettings",
+   "count": 2
+  },
+  {
+   "name": "handleGesture",
+   "count": 2
+  },
+  {
+   "name": "executionStatus",
+   "count": 2
+  },
+  {
+   "name": "mapping",
+   "count": 2
+  },
+  {
+   "name": "previousActiveDirection",
+   "count": 2
+  },
+  {
+   "name": "bubbles",
+   "count": 2
+  },
+  {
+   "name": "l",
+   "count": 2
+  },
+  {
+   "name": "WN",
+   "count": 2
+  },
+  {
+   "name": "assignments",
+   "count": 2
+  },
+  {
+   "name": "pending",
+   "count": 2
+  },
+  {
+   "name": "length",
+   "count": 2
+  },
+  {
+   "name": "attentionStateByThreadKey",
+   "count": 2
+  },
+  {
+   "name": "recencyAtByThreadKey",
+   "count": 2
+  },
+  {
+   "name": "source",
+   "count": 2
+  },
+  {
+   "name": "recentlyUpdatedThreadKeys",
+   "count": 2
+  },
+  {
+   "name": "priorityThreadKeys",
+   "count": 2
+  },
+  {
+   "name": "customAgentThreadKeys",
+   "count": 2
+  },
+  {
+   "name": "pulsing",
+   "count": 2
+  },
+  {
+   "name": "isAppWindowFocused",
+   "count": 2
+  },
+  {
+   "name": "threads",
+   "count": 2
+  },
+  {
+   "name": "selectedThreadKey",
+   "count": 2
+  },
+  {
+   "name": "attention",
+   "count": 2
+  },
+  {
+   "name": "localTitle",
+   "count": 2
+  },
+  {
+   "name": "working",
+   "count": 1
+  },
+  {
+   "name": "idle",
+   "count": 1
+  },
+  {
+   "name": "off",
+   "count": 1
+  },
+  {
+   "name": "S",
+   "count": 1
+  },
+  {
+   "name": "assignmentTitle",
+   "count": 1
+  },
+  {
+   "name": "surface",
+   "count": 1
+  },
+  {
+   "name": "R",
+   "count": 1
+  },
+  {
+   "name": "openDelay",
+   "count": 1
+  },
+  {
+   "name": "content",
+   "count": 1
+  },
+  {
+   "name": "hs",
+   "count": 1
+  },
+  {
+   "name": "ariaLabel",
+   "count": 1
+  },
+  {
+   "name": "pulse",
+   "count": 1
+  },
+  {
+   "name": "ic",
+   "count": 1
+  },
+  {
+   "name": "m8",
+   "count": 1
+  },
+  {
+   "name": "pm",
+   "count": 1
+  },
+  {
+   "name": "T",
+   "count": 1
+  },
+  {
+   "name": "branch",
+   "count": 1
+  },
+  {
+   "name": "bug",
+   "count": 1
+  },
+  {
+   "name": "check",
+   "count": 1
+  },
+  {
+   "name": "clock",
+   "count": 1
+  },
+  {
+   "name": "codex",
+   "count": 1
+  },
+  {
+   "name": "compose",
+   "count": 1
+  },
+  {
+   "name": "confetti",
+   "count": 1
+  },
+  {
+   "name": "cursor",
+   "count": 1
+  },
+  {
+   "name": "diff",
+   "count": 1
+  },
+  {
+   "name": "download",
+   "count": 1
+  },
+  {
+   "name": "flask",
+   "count": 1
+  },
+  {
+   "name": "folder",
+   "count": 1
+  },
+  {
+   "name": "lightning",
+   "count": 1
+  },
+  {
+   "name": "mic",
+   "count": 1
+  },
+  {
+   "name": "openai",
+   "count": 1
+  },
+  {
+   "name": "paint",
+   "count": 1
+  },
+  {
+   "name": "play",
+   "count": 1
+  },
+  {
+   "name": "settings",
+   "count": 1
+  },
+  {
+   "name": "star",
+   "count": 1
+  },
+  {
+   "name": "terminal",
+   "count": 1
+  },
+  {
+   "name": "trash",
+   "count": 1
+  },
+  {
+   "name": "worktree",
+   "count": 1
+  },
+  {
+   "name": "i",
+   "count": 1
+  },
+  {
+   "name": "CodexMicroOnboardingHost",
+   "count": 1
+  },
+  {
+   "name": "repeat",
+   "count": 1
+  },
+  {
+   "name": "alt",
+   "count": 1
+  },
+  {
+   "name": "src",
+   "count": 1
+  },
+  {
+   "name": "deviceName",
+   "count": 1
+  },
+  {
+   "name": "asset",
+   "count": 1
+  },
+  {
+   "name": "openTarget",
+   "count": 1
+  },
+  {
+   "name": "rel",
+   "count": 1
+  },
+  {
+   "name": "target",
+   "count": 1
+  },
+  {
+   "name": "body",
+   "count": 1
+  },
+  {
+   "name": "closeButtonClassName",
+   "count": 1
+  },
+  {
+   "name": "closeButtonTone",
+   "count": 1
+  },
+  {
+   "name": "dismissLabel",
+   "count": 1
+  },
+  {
+   "name": "media",
+   "count": 1
+  },
+  {
+   "name": "mediaClassName",
+   "count": 1
+  },
+  {
+   "name": "onDismiss",
+   "count": 1
+  },
+  {
+   "name": "onSecondaryAction",
+   "count": 1
+  },
+  {
+   "name": "onPrimaryAction",
+   "count": 1
+  },
+  {
+   "name": "primaryActionLabel",
+   "count": 1
+  },
+  {
+   "name": "data",
+   "count": 1
+  },
+  {
+   "name": "platform",
+   "count": 1
+  },
+  {
+   "name": "queryFn",
+   "count": 1
+  },
+  {
+   "name": "queryKey",
+   "count": 1
+  },
+  {
+   "name": "refetchInterval",
+   "count": 1
+  },
+  {
+   "name": "refetchIntervalInBackground",
+   "count": 1
+  },
+  {
+   "name": "refetchOnMount",
+   "count": 1
+  },
+  {
+   "name": "staleTime",
+   "count": 1
+  },
+  {
+   "name": "G",
+   "count": 1
+  },
+  {
+   "name": "CodexMicroBridge",
+   "count": 1
+  },
+  {
+   "name": "control",
+   "count": 1
+  },
+  {
+   "name": "block",
+   "count": 1
+  },
+  {
+   "name": "inline",
+   "count": 1
+  },
+  {
+   "name": "entrypoint",
+   "count": 1
+  },
+  {
+   "name": "cause",
+   "count": 1
+  },
+  {
+   "name": "value",
+   "count": 1
+  }
+ ],
+ "literal_count": 679,
+ "literals_file": "codex_app_rev\\.work\\literals\\codex-micro.json"
+}

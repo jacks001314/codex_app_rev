@@ -1,0 +1,2518 @@
+{
+  "note": "Plugin / MCP management i18n descriptors harvested from the plugin family AND the shared bundles (app-initial / app-primary), app 26.908.9136.0. `description` is the developer-written intent and is the higher-signal field.",
+  "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.908.9136.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "app_version": "26.908.9136.0",
+  "count": 417,
+  "messages": [
+    {
+      "id": "apps.appConnectOAuthCallbackPage.pluginInstallExpired",
+      "defaultMessage": "Plugin installation expired. Reinstall the plugin to connect this app",
+      "description": "Toast shown when an app connection finishes after its plugin installation was rolled back",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.browserExtension.chrome.name",
+      "defaultMessage": "ChatGPT for Chrome",
+      "description": "Name of the ChatGPT extension for Chrome",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.browserExtension.edge.name",
+      "defaultMessage": "ChatGPT for Edge",
+      "description": "Name of the ChatGPT extension for Edge",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.browserExtension.installed",
+      "defaultMessage": "Browser extension installed",
+      "description": "Status text shown when a browser extension is installed",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.browserExtension.loading",
+      "defaultMessage": "Use the browser extension for additional control",
+      "description": "Status text shown while a browser extension install state is loading",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.browserExtension.name",
+      "defaultMessage": "ChatGPT browser extension",
+      "description": "Name of the ChatGPT extension for a Chromium browser",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.browserExtension.notInstalled",
+      "defaultMessage": "Browser extension not installed",
+      "description": "Status text shown when a browser extension is not installed",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.card.actionsMenu",
+      "defaultMessage": "Plugin actions",
+      "description": "Aria label for the plugin card actions menu trigger",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.connect",
+      "defaultMessage": "Install",
+      "description": "Button label for installing a plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.copyShareLinkMenuItem",
+      "defaultMessage": "Copy link",
+      "description": "Menu item label for copying a plugin share link from the manage plugins list",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.creator.you",
+      "defaultMessage": "You",
+      "description": "Creator label for a personal local plugin in the manage plugins list",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.desktopOnly",
+      "defaultMessage": "Desktop only",
+      "description": "Disabled action on a plugin card in the browser directory. The plugin remains discoverable but can only be used in the desktop app, even if installed there. Short informational label for end users.",
+      "files": ["plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.card.disabledByAdmin",
+      "defaultMessage": "Disabled by admin",
+      "description": "Plugin card label when a plugin is disabled by an admin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.disabledInstallTooltip",
+      "defaultMessage": "Access is turned off by your admin",
+      "description": "Tooltip shown for the admin-disabled plugin install treatment in the plugins grid.",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js", "plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.card.disabledStatus",
+      "defaultMessage": "Plugin disabled",
+      "description": "Status label for an installed plugin that is disabled",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.disableMenuItem",
+      "defaultMessage": "Disable",
+      "description": "Menu item label for disabling a plugin from a plugin card",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.disableSuccess",
+      "defaultMessage": "{pluginName} plugin disabled",
+      "description": "Toast shown after successfully disabling a plugin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.card.disableToggleTooltip",
+      "defaultMessage": "Disable plugin",
+      "description": "Tooltip label for disabling a plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.editMenuItem",
+      "defaultMessage": "Edit",
+      "description": "Menu item label for opening a personal plugin's files from the manage plugins list",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.enableButton",
+      "defaultMessage": "Enable",
+      "description": "Button label for enabling a disabled plugin from a plugin card",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.enabledStatus",
+      "defaultMessage": "Plugin enabled",
+      "description": "Status label for an installed plugin that is enabled",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.enableSuccess",
+      "defaultMessage": "{pluginName} plugin enabled",
+      "description": "Toast shown after successfully enabling a plugin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.card.enableToggleTooltip",
+      "defaultMessage": "Enable plugin",
+      "description": "Tooltip label for enabling a plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.folderMarketplacePlugin",
+      "defaultMessage": "Folder marketplace plugin",
+      "description": "Accessible label for the folder icon identifying a plugin provided by a marketplace discovered from a local project directory",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.folderMarketplacePluginTooltip",
+      "defaultMessage": "From a folder marketplace",
+      "description": "Tooltip identifying a plugin provided by a folder-backed plugin marketplace when the marketplace name is unavailable",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.gitMarketplacePlugin",
+      "defaultMessage": "Git marketplace plugin",
+      "description": "Accessible label for the branch icon identifying a plugin provided by a Git-backed marketplace",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.gitMarketplacePluginTooltip",
+      "defaultMessage": "From a Git marketplace",
+      "description": "Tooltip identifying a plugin provided by a Git-backed plugin marketplace",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.installAriaLabel",
+      "defaultMessage": "Install {pluginName}",
+      "description": "Accessible label for the icon-only button that installs a plugin from the plugin marketplace. The pluginName placeholder is the plugin's display name.",
+      "files": ["plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.card.installing",
+      "defaultMessage": "Installing",
+      "description": "Plugin card action while installation is in progress",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.installTooltip",
+      "defaultMessage": "Install plugin",
+      "description": "Tooltip label for installing a plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.loading",
+      "defaultMessage": "Loading",
+      "description": "Plugin card action while plugin setup is loading",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.localPlugin",
+      "defaultMessage": "Local plugin",
+      "description": "Accessible label for the laptop icon identifying a plugin stored locally on the user's machine",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.localPluginTooltip",
+      "defaultMessage": "From your personal marketplace on this machine",
+      "description": "Tooltip identifying a plugin from the user's personal marketplace on their local machine",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.manage",
+      "defaultMessage": "Manage",
+      "description": "Menu item label for managing an installed plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.moreActions",
+      "defaultMessage": "More actions",
+      "description": "Aria label for the more actions menu in an installed plugin card",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.namedFolderMarketplacePluginTooltip",
+      "defaultMessage": "From {marketplaceName}",
+      "description": "Tooltip identifying a plugin provided by a folder-backed plugin marketplace; {marketplaceName} is the name of that marketplace",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.namedGitMarketplacePluginTooltip",
+      "defaultMessage": "From the {marketplaceName} Git marketplace",
+      "description": "Tooltip identifying a plugin provided by a Git-backed marketplace; {marketplaceName} is the name of that marketplace",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.namedWorkspacePluginTooltip",
+      "defaultMessage": "From your {workspaceName} workspace",
+      "description": "Tooltip identifying a plugin provided by the user's workspace; {workspaceName} is the name of the current workspace",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.remoteHostPlugin",
+      "defaultMessage": "Remote host plugin",
+      "description": "Accessible label for the globe icon identifying a plugin stored on the selected remote development host",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.remoteHostPluginTooltip",
+      "defaultMessage": "From your remote host",
+      "description": "Tooltip identifying a plugin stored on the user's selected remote development host",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.sharedBy",
+      "defaultMessage": "Shared by {name}",
+      "description": "Footer label for the person who shared a plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js", "plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.card.shareMenuItem",
+      "defaultMessage": "Share",
+      "description": "Menu item label for sharing a locally editable plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.toggleAria",
+      "defaultMessage": "Toggle plugin enabled state",
+      "description": "Accessible label for the plugin enablement toggle",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.toggleError",
+      "defaultMessage": "Failed to update plugin",
+      "description": "Toast message shown when enabling or disabling a plugin fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.card.tryInChat",
+      "defaultMessage": "Try now",
+      "description": "Menu item label for trying an installed plugin in task",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.tryItNowMenuItem",
+      "defaultMessage": "Try now",
+      "description": "Menu item label for trying a plugin in task",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.unavailableInCurrentContext",
+      "defaultMessage": "Unavailable in this context",
+      "description": "Status label for an installed plugin that cannot be used in the current context",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.uninstallError",
+      "defaultMessage": "Failed to uninstall plugin",
+      "description": "Toast message shown when uninstalling a plugin fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.card.uninstalling",
+      "defaultMessage": "Uninstalling",
+      "description": "Plugin card action while uninstall is in progress",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.card.uninstallMenuItem",
+      "defaultMessage": "Uninstall",
+      "description": "Menu item label for uninstalling a plugin from a plugin card",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js", "plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.card.uninstallSuccess",
+      "defaultMessage": "{pluginName} plugin uninstalled",
+      "description": "Toast shown after successfully uninstalling a plugin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.card.userCloudPlugin",
+      "defaultMessage": "Your cloud plugin",
+      "description": "Accessible label for the person icon identifying a cloud-based plugin created by the current user",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.userCloudPluginTooltip",
+      "defaultMessage": "Created by you in the cloud",
+      "description": "Tooltip identifying a cloud-based plugin created by the current user",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.workspacePlugin",
+      "defaultMessage": "Workspace plugin",
+      "description": "Accessible label for the building icon identifying a plugin provided by the user's workspace",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.card.workspacePluginTooltip",
+      "defaultMessage": "From your workspace",
+      "description": "Tooltip identifying a plugin provided by the user's workspace when the workspace name is unavailable",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.dependencies.adminLabel",
+      "defaultMessage": "{name}, Disabled by admin",
+      "description": "Accessible name and tooltip for a Works with provider disabled by a workspace administrator; name is the provider's display name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.collapse",
+      "defaultMessage": "Show less",
+      "description": "Button to collapse a Works with provider category back to one row",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.collapseLabel",
+      "defaultMessage": "Show fewer plugins in {category}",
+      "description": "Accessible label to collapse the Works with category back to one row; category is the localized category name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.error",
+      "defaultMessage": "Couldn’t load dependencies",
+      "description": "Error in the Works with section when the plugin's dependency details could not be loaded",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.expandLabel",
+      "defaultMessage": "{count, plural, one {Show # more plugin in {category}} other {Show # more plugins in {category}}}",
+      "description": "Accessible label to expand the remaining disclosed providers in a Works with category; count is the hidden provider count and category is the category name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.heading",
+      "defaultMessage": "Works with",
+      "description": "Heading for the categorized provider plugins this plugin declares it can use, before or after installation",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.overflow",
+      "defaultMessage": "+{count, number}",
+      "description": "Compact count of disclosed provider plugins that do not fit in a Works with category row",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.planLabel",
+      "defaultMessage": "{name}, Not available on your plan",
+      "description": "Accessible name and tooltip for a Works with provider unavailable on the current plan; name is the provider's display name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.retry",
+      "defaultMessage": "Retry",
+      "description": "Button to reload plugin dependencies after a request failed",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.setupLabel",
+      "defaultMessage": "{name}, Requires workspace setup",
+      "description": "Accessible name and tooltip for a Works with provider needing workspace configuration; name is the provider's display name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.statusLabel",
+      "defaultMessage": "{name}, {required, select, yes {{disabled, select, yes {Required, disabled} other {Required}}} other {{disabled, select, yes {Optional, disabled} other {Optional}}}}",
+      "description": "Accessible name and tooltip for a Works with provider. name is its display name; required is yes only when declared required by the author; disabled is yes only when the server explicitly reports disabled enablement. Unknown enablement is not disabled. This does not indicate authentication or an instruction to install.",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.unavailableLabel",
+      "defaultMessage": "{name}, Not available",
+      "description": "Accessible name and tooltip for an unavailable Works with provider; name is the provider's display name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.dependencies.workspaceLabel",
+      "defaultMessage": "{name}, Requires a workspace",
+      "description": "Accessible name and tooltip for a Works with provider that requires an active workspace; name is the provider's display name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.actions",
+      "defaultMessage": "Actions for {accountName}",
+      "description": "Accessible name of the menu containing rename, reconnect, and disconnect actions for one connected provider account; accountName is its provider identity",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.cancel",
+      "defaultMessage": "Cancel",
+      "description": "Secondary button that closes a connected-account rename or reconnect confirmation dialog without saving",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.connectAnother",
+      "defaultMessage": "Connect another account",
+      "description": "Action that connects an additional provider account to the same app while preserving all existing accounts",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.disconnect",
+      "defaultMessage": "Disconnect",
+      "description": "Destructive menu action that disconnects only the selected provider account while preserving sibling accounts and the installed plugin",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.disconnectError",
+      "defaultMessage": "Couldn't disconnect account",
+      "description": "Error toast shown when disconnecting one specific connected provider account fails",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.disconnectSuccess",
+      "defaultMessage": "Account disconnected",
+      "description": "Success toast shown after one connected provider account is removed without uninstalling its plugin",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.identityFallback",
+      "defaultMessage": "Connected account",
+      "description": "Fallback provider-account identity when the connector did not return an email address, profile name, or meaningful account name",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.loading",
+      "defaultMessage": "Loading connected accounts…",
+      "description": "Accessible loading label while provider accounts for the current plugin are being retrieved",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.loadingError",
+      "defaultMessage": "Couldn't load connected accounts",
+      "description": "Error shown when the accessible provider accounts for the current plugin cannot be retrieved",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.nickname",
+      "defaultMessage": "Nickname",
+      "description": "Visible label for the optional user-authored nickname of one connected provider account",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.nicknamePlaceholder",
+      "defaultMessage": "Add a nickname",
+      "description": "Placeholder for the optional nickname field used to distinguish one connected provider account from its siblings",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.nicknameRequired",
+      "defaultMessage": "Enter an account nickname",
+      "description": "Inline validation error shown when a user tries to save an empty or whitespace-only account name from the rename-only account dialog",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.nicknameTooLong",
+      "defaultMessage": "Nickname must be 64 characters or fewer",
+      "description": "Inline validation error shown when a connected account nickname contains more than 64 Unicode characters",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.reconnect",
+      "defaultMessage": "Reconnect",
+      "description": "Account-row menu or inline action that reauthenticates the specific connected provider account without reconnecting sibling accounts",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.reconnectAccount",
+      "defaultMessage": "Reconnect {accountName}",
+      "description": "Accessible name for the inline reconnect action on one provider account; accountName is its provider identity",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.reconnectFirst",
+      "defaultMessage": "Reconnect your existing account first",
+      "description": "Confirmation-dialog heading shown when adding another OAuth account requires refreshing the selected existing account's missing provider identity first",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.reconnectFirstDescription",
+      "defaultMessage": "To add another account, first reconnect {accountName}",
+      "description": "Confirmation-dialog explanation before adding a provider account when the existing OAuth account lacks a provider profile identifier; accountName identifies the exact account to reconnect",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.reconnectRequired",
+      "defaultMessage": "Authentication update required",
+      "description": "Screen-reader-only status announcing that a particular provider account needs reauthentication",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.refreshError",
+      "defaultMessage": "Account updated, but couldn't refresh accounts",
+      "description": "Error toast shown when an exact-account mutation succeeded but refreshing the remaining connected-account inventory failed",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.rename",
+      "defaultMessage": "Rename account",
+      "description": "Account-row menu action and dialog title for changing the user-authored nickname of one provider account",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.retry",
+      "defaultMessage": "Try again",
+      "description": "Button that retries loading connected accounts after an inventory or refresh request failed",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.save",
+      "defaultMessage": "Save",
+      "description": "Primary action that saves one connected account's nickname",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.saveError",
+      "defaultMessage": "Couldn't rename account",
+      "description": "Error toast shown when renaming one connected provider account fails",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.saveSuccess",
+      "defaultMessage": "Account renamed",
+      "description": "Success toast shown after one connected account is renamed",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.selectAccount",
+      "defaultMessage": "Select {accountName}",
+      "description": "Accessible name for selecting one provider account on a plugin detail page; accountName is its provider identity",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.suggestion.government",
+      "defaultMessage": "Government",
+      "description": "Suggested editable nickname for a newly added government provider account",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.suggestion.personal",
+      "defaultMessage": "Personal",
+      "description": "Suggested editable nickname for a newly added personal provider account",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.suggestion.school",
+      "defaultMessage": "School",
+      "description": "Suggested editable nickname for a newly added school provider account",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.suggestion.work",
+      "defaultMessage": "Work",
+      "description": "Suggested editable nickname for a newly added work provider account",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.accounts.title",
+      "defaultMessage": "Connected accounts",
+      "description": "Section heading above provider accounts connected to one app on a Codex plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.addingToCodex",
+      "defaultMessage": "Installing",
+      "description": "Primary install action on the plugin detail page while installation is in progress",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.app.reauthRequired",
+      "defaultMessage": "Reconnect required",
+      "description": "Short connection-menu button label for an included app on the plugin details page. The user's account is still connected, but its authorization has expired; opening the menu lets them reconnect.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.detail.app.unavailable",
+      "defaultMessage": "This app is unavailable",
+      "description": "Tooltip on a disabled app connection button in plugin details when the server says the app cannot be used or connected. This is a short neutral explanation for the signed-in user.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.detail.appDisconnected",
+      "defaultMessage": "App disconnected",
+      "description": "Success toast after disconnecting all linked accounts for an app from the Connected menu on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.appDisconnectError",
+      "defaultMessage": "Couldn't disconnect app",
+      "description": "Error toast when disconnecting all linked accounts for an app on the plugin detail page fails; the user can retry from the Connected menu",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.appDisconnectRefreshError",
+      "defaultMessage": "App disconnected, but couldn't refresh apps",
+      "description": "Error toast when disconnection succeeded on the plugin detail page but refreshing the app or plugin list failed",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.breadcrumb.manage",
+      "defaultMessage": "Manage",
+      "description": "Back button label on the plugin detail page when opened from manage",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.breadcrumb.root",
+      "defaultMessage": "Plugins",
+      "description": "Back button label on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.copiedLink",
+      "defaultMessage": "Copied",
+      "description": "Button label after copying a plugin detail deep link",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.copyShareLinkError",
+      "defaultMessage": "Couldn't copy share link",
+      "description": "Error shown when copying a plugin share link fails",
+      "files": ["plugin-detail-page-2f770d1328da.js", "plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.desktopOnly",
+      "defaultMessage": "Desktop only",
+      "description": "Disabled primary action on a plugin detail page in the web browser. This plugin requires the desktop app, even if already installed there. Short informational label for end users.",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.disabledByAdminButton",
+      "defaultMessage": "Disabled by admin",
+      "description": "Install button label shown when plugin install is unavailable because all included connectors are disabled by admin",
+      "files": ["app-initial-bcc2ff475eb6.js", "plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.enableInCodex",
+      "defaultMessage": "Enable",
+      "description": "Enable action on the plugin detail page",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.errorTitle",
+      "defaultMessage": "Failed to load plugin",
+      "description": "Error title shown on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.hooks.settings",
+      "defaultMessage": "Manage in settings",
+      "description": "Tooltip label for opening Hooks settings from the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.importedExternalMarketplaceShareTooltip",
+      "defaultMessage": "Plugins from imported marketplaces can't be shared",
+      "description": "Tooltip for a disabled Share button on imported external marketplace plugins",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.apps.otherCategory",
+      "defaultMessage": "Other",
+      "description": "Fallback category title for included apps on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.apps.title",
+      "defaultMessage": "Apps",
+      "description": "Title for included apps on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.appSetup.title",
+      "defaultMessage": "App setup",
+      "description": "Section listing unconfigured app dependencies for a plugin",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.disabledByAdminBadge",
+      "defaultMessage": "Disabled by admin",
+      "description": "Tooltip label shown on an included app or app template row when it is disabled by admin on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.hooks.description",
+      "defaultMessage": "Run deterministic scripts during the task lifecycle",
+      "description": "Description for included hooks on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.hooks.needsReview",
+      "defaultMessage": "{count, plural, one {# hook needs review before it can run} other {# hooks need review before they can run}}",
+      "description": "Warning shown when hooks from a plugin detail page need review before they can run",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.hooks.review",
+      "defaultMessage": "Review",
+      "description": "Button label to open hooks settings from a plugin detail page when hooks need review",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.hooks.title",
+      "defaultMessage": "Hooks",
+      "description": "Title for included hooks on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.hooks.trustAll",
+      "defaultMessage": "Trust all",
+      "description": "Button label to trust every hook from a plugin detail page that needs review",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.mcpServers.title",
+      "defaultMessage": "MCP servers",
+      "description": "Title for included MCP servers on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.showMore",
+      "defaultMessage": "{hasNames, select, true {See {itemNames}{remainingCount, plural, =0 {} other {, and # more}}} other {Show {count, number} more}}",
+      "description": "Button label that expands a long list of included plugin resources, optionally previewing the next item names",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.includes.skills.title",
+      "defaultMessage": "Skills",
+      "description": "Title for included skills on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information",
+      "defaultMessage": "Information",
+      "description": "Section title for plugin information on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.capabilities",
+      "defaultMessage": "Capabilities",
+      "description": "Label for plugin capabilities on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.category",
+      "defaultMessage": "Category",
+      "description": "Label for plugin category on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.developer",
+      "defaultMessage": "Developer",
+      "description": "Label for plugin developer on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.privacyPolicy",
+      "defaultMessage": "Privacy Policy",
+      "description": "Label for plugin privacy policy on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.termsOfService",
+      "defaultMessage": "Terms of Service",
+      "description": "Label for plugin terms of service on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.unavailable",
+      "defaultMessage": "Unavailable",
+      "description": "Value shown when plugin information is unavailable",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.version",
+      "defaultMessage": "Version",
+      "description": "Label for plugin version on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.information.website",
+      "defaultMessage": "Website",
+      "description": "Label for plugin website on the detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.install",
+      "defaultMessage": "Install plugin",
+      "description": "Primary install action on the plugin detail page",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.legalNotice.googleApps",
+      "defaultMessage": "Note on Google apps: This plugin may contain one or more Google apps, as listed above. Any data synced from these apps may be used to provide you with relevant and personalized information. We do not train generalized models on this data or derivations of it, except those submitted in feedback or included in ChatGPT’s response. You can delete your conversations, which will also delete any app data used in those conversations. <learnMoreLink>Learn more</learnMoreLink>",
+      "description": "Additional Google data-use, model-training, feedback, response, and conversation-deletion disclosure shown after the main legal notice when at least one included app or unconfigured app template is published by Google. The <learnMoreLink> tag links to the OpenAI Help Center FAQ about Google app data controls.",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.legalNotice.multipleApps",
+      "defaultMessage": "This plugin may contain one or more apps, as listed above. When connected to an app, ChatGPT may share relevant chats and memories with the app to help provide context for your requests. An app’s use of this data is subject to their terms and privacy policy, which can be found on the app’s page. If you have <memoryLink>Memory</memoryLink> enabled, data from the app may be used to proactively provide helpful information or suggestions. ChatGPT always respects your training data preferences, including for data from connected apps. Use of apps may come with <elevatedRiskLink>elevated risk</elevatedRiskLink>. You can manage your preferences or disconnect from apps anytime in your settings. <learnMoreLink>Learn more</learnMoreLink>",
+      "description": "Data-sharing, per-app terms and privacy policies, Memory, model-training preferences, and elevated-risk disclosure shown at the bottom of a plugin detail page when the plugin contains multiple apps listed above the disclosure. The <memoryLink>, <elevatedRiskLink>, and <learnMoreLink> tags link to the respective OpenAI Help Center articles.",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.legalNotice.singleApp",
+      "defaultMessage": "When connected to {pluginName}, ChatGPT may share relevant chats and memories with this app to help provide context for your requests. {pluginName}’s use of this data is subject to their <termsLink>terms</termsLink> and <privacyPolicyLink>privacy policy</privacyPolicyLink>. If you have <memoryLink>Memory</memoryLink> enabled, data from the app may be used to proactively provide helpful information or suggestions. ChatGPT always respects your training data preferences, including for data from connected apps. Use of apps may come with <elevatedRiskLink>elevated risk</elevatedRiskLink>. You can manage your preferences or disconnect from apps anytime in your settings. <learnMoreLink>Learn more</learnMoreLink>",
+      "description": "Data-sharing, app terms, privacy-policy, Memory, model-training preferences, and elevated-risk disclosure shown at the bottom of a plugin detail page when the plugin contains exactly one app. Placeholder {pluginName} is the displayed name of the plugin. The <termsLink> and <privacyPolicyLink> tags link to the plugin developer's terms and privacy policy when those URLs are available, and remain plain text otherwise. The <memoryLink>, <elevatedRiskLink>, and <learnMoreLink> tags link to the respective OpenAI Help Center articles.",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.loading",
+      "defaultMessage": "Loading",
+      "description": "Primary install action on the plugin detail page while plugin setup is loading",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.loadSharingError",
+      "defaultMessage": "Couldn't load plugin sharing",
+      "description": "Error shown when plugin sharing settings cannot load",
+      "files": ["plugin-detail-page-2f770d1328da.js", "plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.manage",
+      "defaultMessage": "Manage",
+      "description": "Open this plugin in plugin settings",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.mcp.disable",
+      "defaultMessage": "Disable MCP server",
+      "description": "Tooltip label for disabling an MCP server from the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.mcp.enable",
+      "defaultMessage": "Enable MCP server",
+      "description": "Tooltip label for enabling an MCP server from the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.mcp.settings",
+      "defaultMessage": "Open MCP settings",
+      "description": "Tooltip label for the settings button on an MCP server card in plugin detail",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.mcp.setup",
+      "defaultMessage": "Set up in MCP settings",
+      "description": "Tooltip label for the settings button when an MCP server still needs to be configured",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.mcp.toggleAria",
+      "defaultMessage": "Toggle MCP server enabled state",
+      "description": "Accessible label for the MCP server enablement toggle on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.missing",
+      "defaultMessage": "Plugin not found",
+      "description": "Not found title on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.missingDescription",
+      "defaultMessage": "This plugin could not be loaded from its marketplace entry.",
+      "description": "Not found description on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.missingFromCurrentMarketplaces",
+      "defaultMessage": "This plugin is not available in your current plugin marketplaces",
+      "description": "Not found description for a plugin detail deep link whose plugin id is not present in the loaded marketplaces",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.moreActions",
+      "defaultMessage": "More actions",
+      "description": "Aria label for the plugin detail page overflow menu",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.openPlugin",
+      "defaultMessage": "Open plugin",
+      "description": "Action that opens an installed plugin's sidebar page",
+      "files": ["app-initial-bcc2ff475eb6.js", "plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.pageTitleFallback",
+      "defaultMessage": "Plugin",
+      "description": "Fallback plugin title on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.scheduledTasks",
+      "defaultMessage": "Scheduled",
+      "description": "Title for scheduled tasks included with a plugin",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.scheduledTasks.customSchedule",
+      "defaultMessage": "Custom schedule",
+      "description": "Fallback schedule summary for a plugin scheduled task template",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.sectionsNav",
+      "defaultMessage": "Plugin sections",
+      "description": "Accessible label for the section navigation on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.settings",
+      "defaultMessage": "Settings",
+      "description": "Open the plugin's dedicated settings page",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.setup",
+      "defaultMessage": "Setup",
+      "description": "Section title for browser extensions that need to be set up on the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.setup.openBrowserExtension",
+      "defaultMessage": "Open",
+      "description": "Button label for opening a browser extension setup URL from the plugin detail page",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.share",
+      "defaultMessage": "Share",
+      "description": "Button label for sharing a personal plugin",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.shareCreatedPluginsOnlyTooltip",
+      "defaultMessage": "Only plugins you created can be shared",
+      "description": "Tooltip for a disabled Share button on plugins that are not personal creations",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.access.invited",
+      "defaultMessage": "Only those invited",
+      "description": "Private access option for a shared plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.access.workspace",
+      "defaultMessage": "Anyone in this workspace with the link",
+      "description": "Workspace-wide access option for a shared plugin when the current workspace name is unavailable",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.access.workspaceListed",
+      "defaultMessage": "Visible in {workspaceName} directory",
+      "description": "Option to make a shared plugin discoverable in the named workspace directory; {workspaceName} is the workspace name",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.access.workspaceListedFallback",
+      "defaultMessage": "Visible in workspace directory",
+      "description": "Option to make a shared plugin discoverable in the current workspace directory when its name is unavailable",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.access.workspaceNamed",
+      "defaultMessage": "Anyone in {workspaceName} with the link",
+      "description": "Workspace-wide access option for a shared plugin in the named workspace",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.copied",
+      "defaultMessage": "Copied",
+      "description": "Button label after copying a plugin share link",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.copyLink",
+      "defaultMessage": "Copy link",
+      "description": "Button label for copying a plugin share link",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.finalizingPluginDetails",
+      "defaultMessage": "Finalizing details",
+      "description": "Fourth animated status label while a plugin share link is being created",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.generatingPluginLink",
+      "defaultMessage": "Generating a link",
+      "description": "Third animated status label while a plugin share link is being created",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.groups",
+      "defaultMessage": "Groups",
+      "description": "Section heading for group invite results in the plugin share dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.noInvitedShareTargets",
+      "defaultMessage": "No people or groups invited yet",
+      "description": "Empty state shown when no people or groups have been invited to a plugin yet",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.noWorkspaceShareTargets",
+      "defaultMessage": "No matching people or groups",
+      "description": "Empty state shown when no workspace users or groups match the plugin share dialog autocomplete query",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.people",
+      "defaultMessage": "People",
+      "description": "Section heading for people invite results in the plugin share dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.permission.chat",
+      "defaultMessage": "Can edit",
+      "description": "Editor permission label in the plugin sharing dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.permission.owner",
+      "defaultMessage": "Owner",
+      "description": "Owner permission label in the plugin sharing dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.permission.remove",
+      "defaultMessage": "Remove access",
+      "description": "Menu item for removing plugin access",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.permission.viewer",
+      "defaultMessage": "Can view",
+      "description": "Viewer permission label in the plugin sharing dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.preparingPlugin",
+      "defaultMessage": "Preparing your plugin",
+      "description": "First animated status label while a plugin share link is being created",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.removeSelectedUser",
+      "defaultMessage": "Remove {name}",
+      "description": "Accessible label for removing a selected workspace share target from the plugin share dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.saving",
+      "defaultMessage": "Saving",
+      "description": "Button label shown while plugin share settings are being saved",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.sharedVersionOutOfDate",
+      "defaultMessage": "Shared version is out of date",
+      "description": "Status text shown in the plugin share dialog when the local plugin version is newer than the shared version",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.title",
+      "defaultMessage": "Share {name}",
+      "description": "Title for the plugin sharing dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.updateSharedVersion",
+      "defaultMessage": "Update",
+      "description": "Button label for uploading a newer local plugin version to an existing plugin share",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.uploadingPlugin",
+      "defaultMessage": "Uploading",
+      "description": "Second animated status label while a plugin share link is being created",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.workspaceShareTargetPlaceholder",
+      "defaultMessage": "Add people or groups",
+      "description": "Placeholder for the plugin share dialog workspace user and group autocomplete",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareDialog.workspaceShareTargetSearch",
+      "defaultMessage": "Add people or groups",
+      "description": "Accessible label for searching workspace users and groups in the plugin share dialog",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareInvitedTooltip",
+      "defaultMessage": "Only those invited",
+      "description": "Tooltip for a personal plugin shared with invited people",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.shareLink",
+      "defaultMessage": "Copy link",
+      "description": "Button label for copying a plugin detail share link",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.shareLocalCopyRequiredTooltip",
+      "defaultMessage": "Sharing can only be edited when you have a local copy",
+      "description": "Tooltip for a disabled Share button on a personal plugin that no longer has a local copy",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.shareMenuItem",
+      "defaultMessage": "Share",
+      "description": "Share action on the plugin detail page",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.shareNotSharedTooltip",
+      "defaultMessage": "Not shared",
+      "description": "Tooltip for a personal plugin that has not been shared",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.shareSharedTooltip",
+      "defaultMessage": "Shared",
+      "description": "Tooltip for a personal plugin that is shared while access details are loading",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.shareWorkspaceTooltip",
+      "defaultMessage": "Anyone at workspace with the link",
+      "description": "Tooltip for a personal plugin shared with the workspace",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.template.manageOnWeb",
+      "defaultMessage": "Manage app",
+      "description": "Open ChatGPT web to set up, reconnect, add, or remove connections for this app template",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.template.setUpOnWeb",
+      "defaultMessage": "Connect",
+      "description": "Open ChatGPT web to configure a missing app connection required by this plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.tryInChat",
+      "defaultMessage": "Try in chat",
+      "description": "Secondary action that starts a chat using an installed plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.tryInCodex",
+      "defaultMessage": "Try now",
+      "description": "Try action on the plugin detail page",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.tryPluginOptions",
+      "defaultMessage": "More ways to try this plugin",
+      "description": "Accessible label for the dropdown of ways to open or chat with an installed plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.uninstall",
+      "defaultMessage": "Uninstall",
+      "description": "Uninstall action on the plugin detail page",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.uninstall.disconnectsAllAccounts",
+      "defaultMessage": "Disconnects all accounts",
+      "description": "Warning shown beneath the plugin Uninstall action when uninstalling will disconnect multiple connected provider accounts",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.detail.updateSharedVersionError",
+      "defaultMessage": "Couldn't update shared version",
+      "description": "Error shown when uploading a newer local plugin version to an existing plugin share fails",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.updateSharedVersionSuccess",
+      "defaultMessage": "Shared version updated",
+      "description": "Success message shown after uploading a newer local plugin version to an existing plugin share",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.detail.updateSharingError",
+      "defaultMessage": "Couldn't update plugin sharing",
+      "description": "Error shown when updating plugin sharing fails",
+      "files": ["plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.disabledReason.planNotEligible",
+      "defaultMessage": "Not available on your plan",
+      "description": "Label and tooltip shown for an unavailable plugin when the user's current plan is not eligible",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.disabledReason.requiredAppUnavailable",
+      "defaultMessage": "Required app unavailable",
+      "description": "Label and tooltip shown for an unavailable plugin when one of its required apps is unavailable",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.disabledReason.unknown",
+      "defaultMessage": "Unavailable",
+      "description": "Label and tooltip shown for an unavailable plugin when its specific restriction is not recognized",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.importedConnectors.connectApp",
+      "defaultMessage": "Connect app",
+      "description": "Button label for connecting the app required by an installed imported plugin",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.importedConnectors.empty",
+      "defaultMessage": "No imported plugins",
+      "description": "Empty state title for official plugins suggested from an imported external agent setup",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.importedConnectors.finishSetup",
+      "defaultMessage": "Finish setup",
+      "description": "Button label for installing an official plugin suggested from an imported external agent setup",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.importedConnectors.title",
+      "defaultMessage": "Imported plugins",
+      "description": "Section title for official plugins suggested from an imported external agent setup",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "plugins.incentive.accept",
+      "defaultMessage": "Accept and install",
+      "description": "Explicitly accept a plugin workspace credit offer before installation starts",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.accountChanged",
+      "defaultMessage": "The account or workspace changed. Close this dialog and try again.",
+      "description": "Installation cannot continue with a stale account or workspace from an earlier consent dialog",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.almostThere",
+      "defaultMessage": "Almost there!",
+      "description": "Heading of the credit reminder after installing a promotional plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.incentive.consent.installStep",
+      "defaultMessage": "Accept the offer and install the {pluginName} plugin",
+      "description": "First step to earn promotional plugin credits: explicitly accept the offer before installing the named plugin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.consent.sharedLimitsDisclosure",
+      "defaultMessage": "Credits go to your workspace. Limit one reward per person across participating plugins and workspaces. Shared workspace limits and availability apply. Accepting an offer does not reserve credits.",
+      "description": "Terms in the plugin credit acceptance dialog for a Business workspace member. Each person can earn one reward across all participating plugins and workspaces for this promotion; workspace limits are shared across plugins. A successful qualifying action is required, acceptance reserves nothing, and credits belong to the workspace.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.consent.title",
+      "defaultMessage": "Install the {pluginName} plugin",
+      "description": "Title of the promotional credit consent dialog before installing the named plugin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.consent.useStep",
+      "defaultMessage": "Use the {pluginName} plugin successfully in Codex or ChatGPT Work",
+      "description": "Second step to earn promotional workspace credits: the named plugin must complete a successful action in Codex or ChatGPT Work. Ordinary ChatGPT chats do not qualify.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.consent.windowDuration",
+      "defaultMessage": "You’ll have up to {duration} after accepting to complete the workflow.",
+      "description": "Configured claim window before accepting a promotional plugin credit offer; duration is a localized number with a time unit, such as 1 hour or 7 days",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.continue",
+      "defaultMessage": "Continue installation",
+      "description": "Continue plugin installation when the promotional offer has already been accepted or paid",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.dismissCreditTip",
+      "defaultMessage": "Dismiss credit tip",
+      "description": "Accessible label for the close button on the promotional plugin credit reminder",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.incentive.enrollmentConfirmationUnavailable",
+      "defaultMessage": "We couldn’t confirm the offer. Any accepted offer is still saved. Try again before continuing installation",
+      "description": "Temporary offer or enrollment failure. Recover the saved status before continuing, because enrollment may have succeeded even if its response was lost",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.hostIdentityMismatch",
+      "defaultMessage": "Rewards require the same account and workspace on this computer and the task host. You can install without a reward, or close this dialog and try again with matching accounts.",
+      "description": "Promotional consent cannot continue because Desktop and execution host identities do not match. Ordinary installation remains available when the account has not changed during this dialog.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.installAndUseRewardBadge",
+      "defaultMessage": "Get {credits, plural, one {# credit} other {# credits}} for installing and using",
+      "description": "Reward badge on a plugin's own detail page. The page identifies the plugin, so its name is intentionally omitted. Installation and successful use are both required; credits is the server-provided reward amount.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.installWithout",
+      "defaultMessage": "Install without reward",
+      "description": "Button to install a plugin without accepting its promotional credit offer",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.loading",
+      "defaultMessage": "Checking offer…",
+      "description": "Loading state while checking plugin promotional credit eligibility",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.retry",
+      "defaultMessage": "Try again",
+      "description": "Retry checking a plugin credit offer after a temporary service error",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.rewardBadge",
+      "defaultMessage": "{credits, plural, one {# credit} other {# credits}}",
+      "description": "Promotional workspace credit amount on a plugin offer pill; credits is the server-provided credit count",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.rewardRequirements",
+      "defaultMessage": "Earn workspace credits by installing and successfully using the {pluginName} plugin",
+      "description": "Requirements shown on hover or focus of the promotional credit badge on plugin details; pluginName is the plugin's display name. Installation and successful use are both required.",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.incentive.tryPluginForWorkspaceCredits",
+      "defaultMessage": "Try this plugin in Work or Codex to earn {credits, plural, one {# credit} other {# credits}} for your workspace.",
+      "description": "Post-install reminder to try the installed plugin in Work or Codex to earn credits for the workspace. Work and Codex are mode names; ordinary ChatGPT chats do not qualify. credits is the server-provided reward amount.",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.incentive.unavailable",
+      "defaultMessage": "This offer is not available. You can still install the plugin without a reward.",
+      "description": "Offer is unavailable or campaign capacity was reached; normal plugin installation remains available",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.incentive.workspaceCreditsAdded",
+      "defaultMessage": "{credits, plural, one {# credit} other {# credits}} added to your workspace",
+      "description": "Toast shown only after Billing confirms a plugin promotional credit grant to the workspace",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.bundleSuccess",
+      "defaultMessage": "{count} plugins installed",
+      "description": "Toast shown after the selected plugins in an OAuth bundle are installed",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.connectorUnavailable",
+      "defaultMessage": "App unavailable",
+      "description": "Tooltip shown when plugin install is unavailable because the plugin's apps are not available in the current app directory",
+      "files": [
+        "app-initial-bcc2ff475eb6.js",
+        "plugin-detail-page-2f770d1328da.js",
+        "plugins-page-section-66d80bf4709b.js"
+      ]
+    },
+    {
+      "id": "plugins.install.disabledByAdmin",
+      "defaultMessage": "Disabled by admin",
+      "description": "Tooltip shown when plugin install is unavailable because all included connectors are disabled by admin",
+      "files": ["app-initial-bcc2ff475eb6.js", "plugin-detail-page-2f770d1328da.js"]
+    },
+    {
+      "id": "plugins.install.error",
+      "defaultMessage": "Failed to install plugin",
+      "description": "Toast shown when installing a plugin fails",
+      "files": ["app-initial-bcc2ff475eb6.js", "app-primary-b36a719dba75.js"]
+    },
+    {
+      "id": "plugins.install.finishConnecting",
+      "defaultMessage": "Finish connecting {pluginName} in your browser",
+      "description": "Toast shown while a plugin connection is waiting for browser OAuth to finish",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.loadAppError",
+      "defaultMessage": "Failed to load plugin connection",
+      "description": "Toast shown when Codex cannot load the app that must connect before installing a canonical plugin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.lockedComputerUseError",
+      "defaultMessage": "Computer Use installed",
+      "description": "Toast title shown when Computer Use installs but Locked use cannot be enabled",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.lockedComputerUseError.description",
+      "defaultMessage": "Couldn’t enable Locked use",
+      "description": "Supporting toast text shown when Computer Use installs but Locked use cannot be enabled",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.lockedComputerUseError.openSettings",
+      "defaultMessage": "Open settings",
+      "description": "Button that opens Computer Use settings after Locked use could not be enabled",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.oauthTimedOut",
+      "defaultMessage": "Plugin installation timed out. Please try again",
+      "description": "Error toast shown when a plugin installation is rolled back because its required app connection did not finish before the OAuth grace period expired",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.openBrowserToast",
+      "defaultMessage": "Open browser",
+      "description": "Button label in the plugin-connecting toast that reopens the browser authorization page",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.refreshError",
+      "defaultMessage": "Installed {pluginName}, but failed to refresh the plugin list",
+      "description": "Toast shown when a plugin installs successfully but the plugin list refresh fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.skillCatalogRefreshError",
+      "defaultMessage": "Installed {pluginName}, but its skills couldn't refresh. Reload skills before starting a new chat",
+      "description": "Toast shown when a plugin installs but its runtime skill catalog cannot refresh",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.success",
+      "defaultMessage": "{pluginName} plugin installed",
+      "description": "Toast shown after a plugin is installed",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.install.tryInChatToast",
+      "defaultMessage": "Try now",
+      "description": "Button label in the plugin-installed toast that starts a new task with the plugin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installedByDefault.actionLabel",
+      "defaultMessage": "Installed by admin",
+      "description": "Disabled action label shown for a plugin installed by an admin",
+      "files": [
+        "plugin-request-empty-state-e0c7cff2d8cb.js",
+        "plugins-page-section-66d80bf4709b.js",
+        "plugins-store-page-39507f93baff.js"
+      ]
+    },
+    {
+      "id": "plugins.installModal.about",
+      "defaultMessage": "About",
+      "description": "Section title for the plugin description in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.browserExtension.description",
+      "defaultMessage": "Install this extension to connect ChatGPT to your browser",
+      "description": "Description for the required Chromium browser extension in the plugin finish setup modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.capabilities",
+      "defaultMessage": "Capabilities",
+      "description": "Section title for the capability list in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.codexChrome.description",
+      "defaultMessage": "Install this extension in Chrome to connect ChatGPT to your browser",
+      "description": "Description for the required Chrome browser extension in the plugin finish setup modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.developedBy",
+      "defaultMessage": "Developed by {developerName}",
+      "description": "Developer subtitle shown in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.edgeBrowserExtension.description",
+      "defaultMessage": "Install this extension in Edge to connect ChatGPT to your browser",
+      "description": "Description for the required Edge browser extension in the plugin finish setup modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.includes",
+      "defaultMessage": "Includes",
+      "description": "Section title for bundled apps, skills, and MCP servers in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.includes.apps",
+      "defaultMessage": "Apps",
+      "description": "Label for bundled apps in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.includes.browserExtensions",
+      "defaultMessage": "Browser extensions",
+      "description": "Label for bundled browser extensions in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.includes.mcpServers",
+      "defaultMessage": "MCP servers",
+      "description": "Label for bundled MCP servers in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.includes.skills",
+      "defaultMessage": "Skills",
+      "description": "Label for bundled skills in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.install",
+      "defaultMessage": "Install {pluginName}",
+      "description": "Install button label in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.installing",
+      "defaultMessage": "Installing {pluginName}",
+      "description": "Button label in the plugin install modal while installation is in progress",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.lockedComputerUse.description",
+      "defaultMessage": "Let ChatGPT use your Mac when it's locked. <a>Learn more</a>",
+      "description": "Description for the Locked Computer Use install option in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.lockedComputerUse.title",
+      "defaultMessage": "Locked Computer Use",
+      "description": "Title for the Locked Computer Use install option in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.lockedComputerUse.toggle",
+      "defaultMessage": "Install Locked Computer Use",
+      "description": "Accessible label for the Locked Computer Use install option in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.metadata.category",
+      "defaultMessage": "Category: {category}",
+      "description": "Category metadata shown in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.metadata.developer",
+      "defaultMessage": "By {developerName}",
+      "description": "Developer metadata shown in the plugin install modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.needsApps.subtitle",
+      "defaultMessage": "Get more relevant help from the apps you already use. You can always do this later.",
+      "description": "Subtitle shown after plugin install when app connections are available",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.needsApps.title",
+      "defaultMessage": "Connect your apps to {pluginName}",
+      "description": "Title shown after plugin install when app connections are available",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.needsApps.tryInChat",
+      "defaultMessage": "Try {pluginName} now",
+      "description": "Button label to close the plugin onboarding modal and try the plugin in task",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.needsApps.viewDetails",
+      "defaultMessage": "View details",
+      "description": "Button label to close the plugin onboarding modal and view plugin details",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.openBrowserExtension",
+      "defaultMessage": "Open",
+      "description": "Button label to open a browser extension setup URL",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.requiredApps.connect",
+      "defaultMessage": "Connect",
+      "description": "Button label shown for a required app that still needs to be connected",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.requiredApps.connected",
+      "defaultMessage": "Connected",
+      "description": "Button label shown for a required app that is already connected",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.requiredApps.connecting",
+      "defaultMessage": "Opened link",
+      "description": "Button label shown after the required app connection flow has been opened",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.installModal.title",
+      "defaultMessage": "Install {pluginName}",
+      "description": "Title shown in the plugin install modal before installation starts",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.manage.copyShareLinkError",
+      "defaultMessage": "Couldn't copy share link",
+      "description": "Error shown when copying a plugin share link fails",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "plugins.manage.loadSharingError",
+      "defaultMessage": "Couldn't load plugin sharing",
+      "description": "Error shown when plugin sharing settings cannot load",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "plugins.manage.updateSharedVersionError",
+      "defaultMessage": "Couldn't update shared version",
+      "description": "Error shown when uploading a newer local plugin version to an existing plugin share fails",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "plugins.manage.updateSharedVersionSuccess",
+      "defaultMessage": "Shared version updated",
+      "description": "Success message shown after uploading a newer local plugin version to an existing plugin share",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "plugins.manage.updateSharingError",
+      "defaultMessage": "Couldn't update plugin sharing",
+      "description": "Error shown when updating plugin sharing fails",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "plugins.management.delete",
+      "defaultMessage": "Delete plugin",
+      "description": "Permanently delete a hosted plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.download",
+      "defaultMessage": "Download plugin ZIP",
+      "description": "Download a hosted plugin archive",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.downloadFailed",
+      "defaultMessage": "Couldn't download plugin. Try again",
+      "description": "Error when downloading a plugin archive fails",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.loading",
+      "defaultMessage": "Loading controls…",
+      "description": "Management permissions are loading in a plugin menu",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.manageForWorkspace",
+      "defaultMessage": "Manage for workspace",
+      "description": "Open the workspace admin page for this plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.retry",
+      "defaultMessage": "Couldn't load controls. Retry",
+      "description": "Retry loading the plugin management permissions",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.share",
+      "defaultMessage": "Share plugin",
+      "description": "Open sharing permissions for a hosted plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.shareFailed",
+      "defaultMessage": "Couldn't save plugin sharing. Try again",
+      "description": "Error after changing plugin sharing permissions fails",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.management.upload",
+      "defaultMessage": "Upload new version",
+      "description": "Upload a new archive to an existing plugin",
+      "files": ["plugins-page-section-66d80bf4709b.js"]
+    },
+    {
+      "id": "plugins.marketplace.removeError",
+      "defaultMessage": "Failed to remove marketplace",
+      "description": "Toast message shown when removing a marketplace fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.marketplace.removeSuccess",
+      "defaultMessage": "{marketplaceName} marketplace removed",
+      "description": "Toast shown after successfully removing a plugin marketplace",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.marketplace.upgradeAllError",
+      "defaultMessage": "Some marketplaces failed to upgrade",
+      "description": "Toast message shown when upgrading marketplaces partially fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.marketplace.upgradeAllRequestError",
+      "defaultMessage": "Failed to upgrade marketplaces",
+      "description": "Toast message shown when upgrading marketplaces fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.marketplace.upgradeAllSuccess",
+      "defaultMessage": "Marketplaces upgraded",
+      "description": "Toast shown after successfully upgrading marketplaces",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.marketplace.upgradeError",
+      "defaultMessage": "Failed to upgrade marketplace",
+      "description": "Toast message shown when upgrading one marketplace fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.marketplace.upgradeSuccess",
+      "defaultMessage": "{marketplaceName} marketplace upgraded",
+      "description": "Toast shown after successfully upgrading one marketplace",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.page.loadError.retry",
+      "defaultMessage": "Retry",
+      "description": "Button in the Plugins Store page error state. Clicking it retries loading the plugin directory after a request fails",
+      "files": ["plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.page.loadError.title",
+      "defaultMessage": "Failed to load plugins",
+      "description": "Title shown when plugins could not be loaded",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js", "plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.page.loading",
+      "defaultMessage": "Loading plugins…",
+      "description": "Loading title on the plugins page",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js", "plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.skillCatalog.reloadError",
+      "defaultMessage": "Plugin changed, but skills couldn't refresh. Reload skills before starting a new chat",
+      "description": "Toast shown when a plugin mutation succeeds but the runtime skill catalog cannot refresh",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "plugins.store.section.seeMore",
+      "defaultMessage": "See more",
+      "description": "Button label for viewing all plugins in a directory category",
+      "files": ["plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "plugins.store.section.seeMoreDescription",
+      "defaultMessage": "See {pluginNames}{hasMore, select, true {, and more} other { and more}}",
+      "description": "Label for the category search link that previews additional plugins",
+      "files": ["plugins-store-page-39507f93baff.js"]
+    },
+    {
+      "id": "settings.general.plugins.description",
+      "defaultMessage": "Allow ChatGPT to use installed plugins",
+      "description": "Description for the plugins setting",
+      "files": ["plugins-settings-row-87288c1b8f45.js"]
+    },
+    {
+      "id": "settings.general.plugins.label",
+      "defaultMessage": "Plugins",
+      "description": "Label for the plugins setting",
+      "files": ["plugins-settings-row-87288c1b8f45.js"]
+    },
+    {
+      "id": "settings.general.plugins.restartNotice",
+      "defaultMessage": "Restart {appName} to apply this change",
+      "description": "Notice shown after changing the plugins setting",
+      "files": ["plugins-settings-row-87288c1b8f45.js"]
+    },
+    {
+      "id": "settings.general.plugins.toggle",
+      "defaultMessage": "Toggle plugins",
+      "description": "Aria label for the plugins setting toggle",
+      "files": ["plugins-settings-row-87288c1b8f45.js"]
+    },
+    {
+      "id": "settings.mcp.addServer",
+      "defaultMessage": "Add server",
+      "description": "Button to add a new MCP server",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.addServerFromPluginsMenu",
+      "defaultMessage": "Add MCP server",
+      "description": "Menu item for adding an MCP server from the Plugins settings Add dropdown",
+      "files": ["plugin-request-empty-state-e0c7cff2d8cb.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectConsent.sitePermissions",
+      "defaultMessage": "Allow {origin} to:",
+      "description": "Heading shown in an app connection consent prompt before the list of permissions requested by a specific Site; {origin} is the trusted Site origin returned by the server",
+      "files": ["app-primary-b36a719dba75.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.adminApproved",
+      "defaultMessage": "Approved by your admin",
+      "description": "Admin approval stamp text shown in app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.browserFallbackDescription",
+      "defaultMessage": "This connector needs setup in your browser.",
+      "description": "Helper text shown when app connect falls back to browser flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.browserRequiredAuth",
+      "defaultMessage": "This app uses an auth method that currently opens in browser.",
+      "description": "Message shown when app auth type is not supported in modal flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.browserRequiredLinkParams",
+      "defaultMessage": "This app needs extra setup fields, so connection continues in browser.",
+      "description": "Message shown when app requires link params and must connect in browser",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.completingConnectionButton",
+      "defaultMessage": "Finishing connection…",
+      "description": "Primary button label shown while an app connection OAuth callback is still completing in the background",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.connected",
+      "defaultMessage": "{appName} is now connected",
+      "description": "Toast shown when a no-auth app is connected directly from MCP settings",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.connectFailed",
+      "defaultMessage": "Failed to connect app",
+      "description": "Toast shown when starting an app connection fails",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.connectToApp",
+      "defaultMessage": "Connect {appName}",
+      "description": "Primary button label for no-auth connectors in app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.continueToApp",
+      "defaultMessage": "Continue to {appName}",
+      "description": "Primary button label for OAuth connectors in app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.dataDescription",
+      "defaultMessage": "By default, we do not train on your data. Data from this connector may be used to provide you relevant and useful information.",
+      "description": "Fallback data usage blurb description",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.dataTitle",
+      "defaultMessage": "How ChatGPT uses data",
+      "description": "Fallback data usage blurb title",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.developedBy",
+      "defaultMessage": "Developed by {developer}",
+      "description": "Developer subtitle shown in app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.disabledByAdminButton",
+      "defaultMessage": "Disabled by admin",
+      "description": "Primary button label shown when the app is unavailable because it is disabled by admin",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.fallbackAppName",
+      "defaultMessage": "App",
+      "description": "Fallback app name used in app connect success toasts",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.githubRepositoryAccess.description",
+      "defaultMessage": "Choose which GitHub repositories ChatGPT can access",
+      "description": "Explanation shown before opening GitHub App installation to choose repositories accessible to ChatGPT",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.githubRepositoryAccess.selectRepositories",
+      "defaultMessage": "Select GitHub repositories",
+      "description": "Primary button that opens GitHub App installation so the user can choose repositories ChatGPT may access",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.githubRepositoryAccess.skip",
+      "defaultMessage": "Not now",
+      "description": "Secondary button that continues GitHub onboarding without granting repository access",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.githubRepositoryAccess.title",
+      "defaultMessage": "Grant access to GitHub repositories",
+      "description": "Title for the GitHub setup step that asks the user to grant ChatGPT access to repositories",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.gmail.description",
+      "defaultMessage": "Let ChatGPT search, read, send, and modify emails in Gmail",
+      "description": "Accessible description for the Gmail toggle in the bundled Google OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.gmail.label",
+      "defaultMessage": "Gmail",
+      "description": "Toggle label for including Gmail when connecting a Google app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.googleCalendar.description",
+      "defaultMessage": "Let ChatGPT search, read, create, edit, and delete events in Google Calendar",
+      "description": "Accessible description for the Google Calendar toggle in the bundled Google OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.googleCalendar.label",
+      "defaultMessage": "Google Calendar",
+      "description": "Toggle label for including Google Calendar when connecting a Google app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.googleContacts.description",
+      "defaultMessage": "Let ChatGPT search and read contacts in Google Contacts",
+      "description": "Accessible description for the Google Contacts toggle in the bundled Google OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.googleContacts.label",
+      "defaultMessage": "Google Contacts",
+      "description": "Toggle label for including Google Contacts when connecting a Google app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.googleDrive.description",
+      "defaultMessage": "Let ChatGPT search, read, create, edit, and delete files in Google Drive",
+      "description": "Accessible description for the Google Drive toggle in the bundled Google OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.googleDrive.label",
+      "defaultMessage": "Google Drive",
+      "description": "Toggle label for including Google Drive when connecting a Google app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.interstitial.connect",
+      "defaultMessage": "Install selected plugins",
+      "description": "Primary button in the Google app authorization picker. Clicking it starts Google sign-in and installs the Google plugins selected in the picker.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.interstitial.description",
+      "defaultMessage": "You can revisit this anytime in settings",
+      "description": "Short subtitle beneath the Google app authorization picker heading. It reassures the user that they can revisit this choice later in settings.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.interstitial.disclosure.dataSharing.connectorName",
+      "defaultMessage": "ChatGPT may share relevant chats and memories with this app to support interactions with it. {connectorName} use of this data is subject to their <termsLink>terms</termsLink> and <privacyPolicyLink>privacy policy</privacyPolicyLink>. You can <learnMoreLink>learn more</learnMoreLink> and <settingsLink>manage your settings</settingsLink>.",
+      "description": "Data-sharing and legal disclosure beneath the Google plugin selector in the bundled Google authorization modal. It explains that relevant ChatGPT chats and memories can be shared with the selected Google apps. Placeholder {connectorName} is the Google provider name. The <termsLink> and <privacyPolicyLink> tags link to Google's terms and privacy policy. The <learnMoreLink> tag opens the Apps in ChatGPT help article, and the <settingsLink> tag opens ChatGPT's Apps settings.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.googleBundle.interstitial.title",
+      "defaultMessage": "Choose Google plugins to install",
+      "description": "Heading in the Google app authorization picker shown before a user signs in with Google. The picker lets the user choose which available Google plugins to install through one authorization flow.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.installUrlMissing",
+      "defaultMessage": "This app does not provide a browser setup URL right now",
+      "description": "Toast shown when app connect fallback is attempted but no install URL is available",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.loadError",
+      "defaultMessage": "Could not load this app's connection details. Continue in browser.",
+      "description": "Message shown when app connector details fail to load in app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.loading",
+      "defaultMessage": "Loading connection details...",
+      "description": "Message shown while app connector details are loading in the app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.logoAlt",
+      "defaultMessage": "{appName} logo",
+      "description": "Alt text for connector logo in app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.manageOnChatGpt",
+      "defaultMessage": "Manage on ChatGPT",
+      "description": "Primary button label shown when an app is already connected and can be managed on ChatGPT",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.interstitial.connect",
+      "defaultMessage": "Install selected plugins",
+      "description": "Primary button in the Microsoft app authorization picker. Clicking it starts Microsoft sign-in and installs the Microsoft plugins selected in the picker.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.interstitial.description",
+      "defaultMessage": "You can revisit this anytime in settings",
+      "description": "Short subtitle beneath the Microsoft app authorization picker heading. It reassures the user that they can revisit this choice later in settings.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.interstitial.disclosure.dataSharing.connectorName",
+      "defaultMessage": "ChatGPT may share relevant chats and memories with this app to support interactions with it. {connectorName} use of this data is subject to their <termsLink>terms</termsLink> and <privacyPolicyLink>privacy policy</privacyPolicyLink>. You can <learnMoreLink>learn more</learnMoreLink> and <settingsLink>manage your settings</settingsLink>.",
+      "description": "Data-sharing and legal disclosure beneath the Microsoft plugin selector in the bundled Microsoft authorization modal. It explains that relevant ChatGPT chats and memories can be shared with the selected Microsoft apps. Placeholder {connectorName} is the Microsoft provider name. The <termsLink> and <privacyPolicyLink> tags link to Microsoft's terms and privacy policy. The <learnMoreLink> tag opens the Apps in ChatGPT help article, and the <settingsLink> tag opens ChatGPT's Apps settings.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.interstitial.title",
+      "defaultMessage": "Choose Microsoft plugins to install",
+      "description": "Heading in the Microsoft app authorization picker shown before a user signs in with Microsoft. The picker lets the user choose which available Microsoft plugins to install through one authorization flow.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.outlookCalendar.description",
+      "defaultMessage": "Let ChatGPT search, read, create, edit, and delete events in Outlook Calendar",
+      "description": "Accessible description for the Outlook Calendar toggle in the bundled Microsoft OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.outlookCalendar.label",
+      "defaultMessage": "Outlook Calendar",
+      "description": "Toggle label for including Outlook Calendar when connecting a Microsoft app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.outlookEmail.description",
+      "defaultMessage": "Let ChatGPT search, read, send, and modify emails in Outlook",
+      "description": "Accessible description for the Outlook Email toggle in the bundled Microsoft OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.outlookEmail.label",
+      "defaultMessage": "Outlook Email",
+      "description": "Toggle label for including Outlook Email when connecting a Microsoft app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.sharepoint.description",
+      "defaultMessage": "Let ChatGPT search and read files in SharePoint and OneDrive",
+      "description": "Accessible description for the SharePoint toggle in the bundled Microsoft OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.sharepoint.label",
+      "defaultMessage": "SharePoint",
+      "description": "Toggle label for including SharePoint when connecting a Microsoft app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.teams.description",
+      "defaultMessage": "Let ChatGPT search and read messages in Microsoft Teams",
+      "description": "Accessible description for the Teams toggle in the bundled Microsoft OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.microsoftBundle.teams.label",
+      "defaultMessage": "Teams",
+      "description": "Toggle label for including Teams when connecting a Microsoft app through the bundled OAuth flow",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.oauthStartedElectron",
+      "defaultMessage": "Finish connecting in your browser",
+      "description": "Toast shown after starting OAuth from MCP settings app connect modal",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.openInBrowser",
+      "defaultMessage": "Open in browser",
+      "description": "Primary button label when app connect needs to continue in browser",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.permissionsDescription",
+      "defaultMessage": "ChatGPT is strictly limited to permissions you've explicitly set. Disable access anytime to revoke permissions.",
+      "description": "Fallback permissions blurb description",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.permissionsTitle",
+      "defaultMessage": "Permissions always respected",
+      "description": "Fallback permissions blurb title",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.riskDescription",
+      "defaultMessage": "Connectors are designed to respect your privacy, but sites may attempt to steal your data.",
+      "description": "Fallback risk blurb description",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.riskTitle",
+      "defaultMessage": "Connectors may introduce risk",
+      "description": "Fallback risk blurb title",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.serviceAccountDescription",
+      "defaultMessage": "This connection will be available to anyone who can use this service account",
+      "description": "Disclosure in the app connection dialog before a user authorizes an app for a shared service account rather than their personal account.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.serviceAccountSetupUnavailable",
+      "defaultMessage": "This app cannot be connected here. Additional setup may be required in service account settings",
+      "description": "Message shown in the app connection dialog when a service account app needs unsupported setup fields or its connection details failed to load. The connect button is unavailable.",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.appConnectModal.title",
+      "defaultMessage": "Connect {appName}",
+      "description": "Title for the modal that connects an app from MCP settings",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.mcp.detail.addArgument",
+      "defaultMessage": "Add argument",
+      "description": "Add button label for MCP stdio arguments",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.addEnvVar",
+      "defaultMessage": "Add environment variable",
+      "description": "Add button label for MCP stdio environment variables",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.addEnvVarPassthrough",
+      "defaultMessage": "Add variable",
+      "description": "Add button label for MCP stdio env var passthrough",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.args",
+      "defaultMessage": "Arguments",
+      "description": "Label for MCP stdio arguments",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.back",
+      "defaultMessage": "Back",
+      "description": "Button label to go back to MCP settings",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.command",
+      "defaultMessage": "Command to launch",
+      "description": "Label for MCP stdio command",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.cwd",
+      "defaultMessage": "Working directory",
+      "description": "Label for MCP stdio working directory",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.docs",
+      "defaultMessage": "Open MCP documentation",
+      "description": "Aria label for MCP docs link in detail header",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.docs.link",
+      "defaultMessage": "Docs",
+      "description": "Tooltip link label for MCP docs on add page",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.envVarPassthrough",
+      "defaultMessage": "Environment variable passthrough",
+      "description": "Label for MCP stdio env var passthrough",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.envVars",
+      "defaultMessage": "Environment variables",
+      "description": "Label for MCP stdio environment variables",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.http.addEnvHeader",
+      "defaultMessage": "Add variable",
+      "description": "Add button label for MCP HTTP env headers",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.http.addHeader",
+      "defaultMessage": "Add header",
+      "description": "Add button label for MCP HTTP headers",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.http.bearerToken",
+      "defaultMessage": "Bearer token env var",
+      "description": "Label for MCP HTTP bearer token env var",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.http.envHeaders",
+      "defaultMessage": "Headers from environment variables",
+      "description": "Label for MCP HTTP env headers",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.http.headers",
+      "defaultMessage": "Headers",
+      "description": "Label for MCP HTTP headers",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.http.url",
+      "defaultMessage": "URL",
+      "description": "Label for MCP HTTP URL",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.name",
+      "defaultMessage": "Name",
+      "description": "Name for MCP server display name",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.save",
+      "defaultMessage": "Save",
+      "description": "Save button label on MCP server detail view",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.saveError",
+      "defaultMessage": "Could not save MCP server",
+      "description": "Error shown when saving an MCP server fails",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.switchTransportNotice",
+      "defaultMessage": "If you would like to switch MCP server type, please uninstall first.",
+      "description": "Notice explaining how to change MCP transport type",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.titleExisting",
+      "defaultMessage": "Update {name} MCP",
+      "description": "Title for the MCP server detail view when editing an existing server",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.titleNew",
+      "defaultMessage": "Connect to a custom MCP",
+      "description": "Title for the MCP server detail view when adding a new server",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.transport.ariaLabel",
+      "defaultMessage": "MCP server type",
+      "description": "Accessible label for choosing the MCP server transport type",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.transport.http",
+      "defaultMessage": "Streamable HTTP",
+      "description": "Label for HTTP transport toggle",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.transport.label",
+      "defaultMessage": "Type",
+      "description": "Label for the MCP server transport type selector",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.transport.stdio",
+      "defaultMessage": "STDIO",
+      "description": "Label for stdio transport toggle",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.uninstall",
+      "defaultMessage": "Uninstall",
+      "description": "Button label to uninstall an MCP server",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.detail.uninstallError",
+      "defaultMessage": "Could not uninstall MCP server",
+      "description": "Error shown when uninstalling an MCP server fails",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.empty",
+      "defaultMessage": "No MCP servers connected",
+      "description": "Empty state for MCP servers list",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.fromPlugins",
+      "defaultMessage": "From plugins",
+      "description": "Heading for MCP servers provided by installed plugins",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.myServers",
+      "defaultMessage": "Servers",
+      "description": "Heading for the user's MCP servers list",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.noWritableConfig",
+      "defaultMessage": "MCP server settings are unavailable",
+      "description": "Error shown when MCP settings cannot find a writable config.toml",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.restartApp",
+      "defaultMessage": "Restart",
+      "description": "Button label to restart the codex electron app after MCP settings change",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.authenticationStarting",
+      "defaultMessage": "Starting…",
+      "description": "Button label while MCP server authentication is starting",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.clientRegistration.auto",
+      "defaultMessage": "Automatic",
+      "description": "Option in the MCP settings registration-strategy dropdown. Selecting it automatically chooses how to register an OAuth client for the current login. Other options are Client ID metadata document (CIMD) and Dynamic client registration (DCR).",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.clientRegistration.autoShort",
+      "defaultMessage": "Auto",
+      "description": "Short selected-value label in the MCP settings registration-strategy dropdown. This automatically chooses how to register an OAuth client for the current login. Other selected values are CIMD and DCR.",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.clientRegistration.cimd",
+      "defaultMessage": "Client ID metadata document (CIMD)",
+      "description": "Option in the MCP settings registration-strategy dropdown. Selecting it uses a client ID metadata document for the current OAuth login. Other options are Automatic and Dynamic client registration (DCR).",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.clientRegistration.cimdShort",
+      "defaultMessage": "CIMD",
+      "description": "Short selected-value label in the MCP settings registration-strategy dropdown. CIMD means client ID metadata document and applies only to the current OAuth login. Other selected values are Auto and DCR.",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.clientRegistration.dcr",
+      "defaultMessage": "Dynamic client registration (DCR)",
+      "description": "Option in the MCP settings registration-strategy dropdown. Selecting it uses dynamic client registration for the current OAuth login. Other options are Automatic and Client ID metadata document (CIMD).",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.clientRegistration.dcrShort",
+      "defaultMessage": "DCR",
+      "description": "Short selected-value label in the MCP settings registration-strategy dropdown. DCR means dynamic client registration and applies only to the current OAuth login. Other selected values are Auto and CIMD.",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.clientRegistration.label",
+      "defaultMessage": "OAuth client registration: {strategy, select, auto {Automatic} cimd {CIMD} dcr {DCR} other {Automatic}}",
+      "description": "Accessible label for the registration-strategy dropdown next to Authenticate in MCP settings, including the currently selected strategy. Placeholder {strategy} is auto for Automatic, cimd for Client ID metadata document, or dcr for Dynamic client registration. The choice applies only to the current MCP server login.",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.enable",
+      "defaultMessage": "Enable",
+      "description": "Toggle to enable an MCP server",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.login",
+      "defaultMessage": "Authenticate",
+      "description": "Button label to authenticate with an MCP server",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.mcp.server.settings",
+      "defaultMessage": "Settings",
+      "description": "Button label to view MCP server settings",
+      "files": ["plugins-page-6d15a974f108.js"]
+    },
+    {
+      "id": "settings.plugins.controls.loading",
+      "defaultMessage": "Loading plugins…",
+      "description": "Loading state for plugin controls in settings",
+      "files": ["settings-plugin-selection-3cc0bd8c294f.js"]
+    },
+    {
+      "id": "settings.plugins.controls.retry",
+      "defaultMessage": "Retry",
+      "description": "Button to retry loading plugin settings after a request fails",
+      "files": ["settings-plugin-selection-3cc0bd8c294f.js"]
+    },
+    {
+      "id": "settings.section.mcp-settings",
+      "defaultMessage": "MCP servers",
+      "description": "Title for MCP servers settings section",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.section.mcp-settings.subtitle",
+      "defaultMessage": "Connect external tools and data sources",
+      "description": "Subtitle for MCP settings section",
+      "files": ["mcp-settings-da7749534a45.js"]
+    },
+    {
+      "id": "settings.section.plugins-settings",
+      "defaultMessage": "Plugins",
+      "description": "Title for plugins settings section",
+      "files": ["app-initial-bcc2ff475eb6.js"]
+    },
+    {
+      "id": "settings.section.plugins-settings.browseDirectory",
+      "defaultMessage": "Browse directory",
+      "description": "Button for browsing the plugin or skill directory from Plugins settings",
+      "files": ["plugins-settings-c02739de4e70.js"]
+    },
+    {
+      "id": "settings.section.plugins-settings.subtitle",
+      "defaultMessage": "Manage plugins, skills, and MCPs",
+      "description": "Subtitle for the combined plugins settings section",
+      "files": ["plugins-settings-c02739de4e70.js"]
+    }
+  ]
+}

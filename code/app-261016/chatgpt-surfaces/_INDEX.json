@@ -1,0 +1,4760 @@
+{
+ "module": "chatgpt-surfaces",
+ "generated_at": "2026-10-23T01:24:44.002Z",
+ "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1016.8622.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+ "app_version": "26.1016.62342",
+ "files": [
+  {
+   "archive_path": "webview/assets/about-you-summary-698933239dc0.js",
+   "file": "_deps/about-you-summary-698933239dc0.js",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 137,
+   "formatted_bytes": 151,
+   "formatter": "prettier",
+   "sha256_raw": "bde25cc92687a1c6ca5d721b75b62e0d85b4a4dd5afbc032dd6fe0f7a874863a"
+  },
+  {
+   "archive_path": "webview/assets/about-you-summary-9516d5432844.css",
+   "file": "_deps/about-you-summary-9516d5432844.css",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 1575,
+   "formatted_bytes": 1998,
+   "formatter": "prettier",
+   "sha256_raw": "878292051fa34c62356d19e6863e3fea3a63856d4cb8ced2fdfe3b2ee874ce8c"
+  },
+  {
+   "archive_path": "webview/assets/about-you-summary-9c400b329a7b.js",
+   "file": "_deps/about-you-summary-9c400b329a7b.js",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 59111,
+   "formatted_bytes": 97316,
+   "formatter": "prettier",
+   "sha256_raw": "81d6f040cb0164e28e6d5e0f26e5cd66277350363b06d2c6ddfcbd73fa694553"
+  },
+  {
+   "archive_path": "webview/assets/account-linking-e9d479ee7c45.js",
+   "file": "_deps/account-linking-e9d479ee7c45.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 123392,
+   "formatted_bytes": 175664,
+   "formatter": "prettier",
+   "sha256_raw": "3019f00e0e4f33169702ff9e725e1531a42ed544686ea1fcbe5fa68d75898eb4"
+  },
+  {
+   "archive_path": "webview/assets/action-397d9deb41de.js",
+   "file": "_deps/action-397d9deb41de.js",
+   "selected_by": "closure:d1:chatgpt-image-lightbox-765ab145577e.js",
+   "raw_bytes": 121,
+   "formatted_bytes": 135,
+   "formatter": "prettier",
+   "sha256_raw": "25a0a968b4d8276e5c01e089551388859d8fc70c4981f67a471e3c3667d92ff2"
+  },
+  {
+   "archive_path": "webview/assets/action-4557a0a16e65.js",
+   "file": "_deps/action-4557a0a16e65.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 10043,
+   "formatted_bytes": 15873,
+   "formatter": "prettier",
+   "sha256_raw": "6931fe96202f9e42b513a8efffe94913242bae8795d338ad776c6f546ac2608f"
+  },
+  {
+   "archive_path": "webview/assets/action-700937cb05e4.js",
+   "file": "_deps/action-700937cb05e4.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 8325,
+   "formatted_bytes": 12980,
+   "formatter": "prettier",
+   "sha256_raw": "bb6959bbc06521c4a035d623b71d8f6557808165c6ebadf5420c25ff54877e6b"
+  },
+  {
+   "archive_path": "webview/assets/actions-846c2a8f50e3.js",
+   "file": "_deps/actions-846c2a8f50e3.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 17020,
+   "formatted_bytes": 27992,
+   "formatter": "prettier",
+   "sha256_raw": "e90e2f9f9ebf82a1a3f1a9fbba80b4ffbc1c81ad7510a825ff3bf76f71d39dcb"
+  },
+  {
+   "archive_path": "webview/assets/actions-bb1ccd8abbd2.css",
+   "file": "_deps/actions-bb1ccd8abbd2.css",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 68,
+   "formatted_bytes": 86,
+   "formatter": "prettier",
+   "sha256_raw": "851084a5a9e20bd326715522b5b66b7094e6e8c2323201bd4d216212a3714a24"
+  },
+  {
+   "archive_path": "webview/assets/actions-d1a006959109.js",
+   "file": "_deps/actions-d1a006959109.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 13628,
+   "formatted_bytes": 22954,
+   "formatter": "prettier",
+   "sha256_raw": "7a4fb95462952c28b15dd5319fb90105cc99e98fb847d09d80287f6404aad9e3"
+  },
+  {
+   "archive_path": "webview/assets/active-tool-activity-label-13f6acd807b0.js",
+   "file": "_deps/active-tool-activity-label-13f6acd807b0.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 7115,
+   "formatted_bytes": 9409,
+   "formatter": "prettier",
+   "sha256_raw": "67e47ad781d3f1135b275e5be73f7f91046c05473770c703d968485011c7987b"
+  },
+  {
+   "archive_path": "webview/assets/add-method-59f4fd8d9a22.js",
+   "file": "_deps/add-method-59f4fd8d9a22.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 19849,
+   "formatted_bytes": 30642,
+   "formatter": "prettier",
+   "sha256_raw": "c2f69e76c6892113fca7ccea9d43602c3b8397c9c0f7665a50fcd36d22ed65ff"
+  },
+  {
+   "archive_path": "webview/assets/add-method-bdc9cf36a997.css",
+   "file": "_deps/add-method-bdc9cf36a997.css",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 1303,
+   "formatted_bytes": 1770,
+   "formatter": "prettier",
+   "sha256_raw": "8971f4a9f7c8e8bc88416516703437cf77560dba949f8a51daa5314b70a0ca48"
+  },
+  {
+   "archive_path": "webview/assets/Aime-c46661869528.js",
+   "file": "_deps/Aime-c46661869528.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 13277,
+   "formatted_bytes": 24077,
+   "formatter": "prettier",
+   "sha256_raw": "6bc0add955b568a8da24ccdf354ee2368a44c2ffe0f0ee272073902f0a9f4688"
+  },
+  {
+   "archive_path": "webview/assets/analysis-dialog-488bd34e27ba.js",
+   "file": "_deps/analysis-dialog-488bd34e27ba.js",
+   "selected_by": "closure:d1:chatgpt-assistant-message-content-7e3228434885.js",
+   "raw_bytes": 1553,
+   "formatted_bytes": 2305,
+   "formatter": "prettier",
+   "sha256_raw": "0e5da7930dff229e46617d42fc0e6e2ce190bfcf57c2aa930f971166d7d712e4"
+  },
+  {
+   "archive_path": "webview/assets/animated-icon-727999d72088.js",
+   "file": "_deps/animated-icon-727999d72088.js",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 4879,
+   "formatted_bytes": 7328,
+   "formatter": "prettier",
+   "sha256_raw": "84de4b4b43fb5477635d7023bae7feb4a5f9124a26fc50c5fa382e68d6db626a"
+  },
+  {
+   "archive_path": "webview/assets/announcement-66d2d3f1a29c.js",
+   "file": "chatgpt/announcement-66d2d3f1a29c.js",
+   "selected_by": "rule",
+   "raw_bytes": 9343,
+   "formatted_bytes": 13497,
+   "formatter": "prettier",
+   "sha256_raw": "b74a1355604cad84773856ad505f75fa5a2b874be002f3d3341576bc369c7dbc"
+  },
+  {
+   "archive_path": "webview/assets/announcement-d36293e08be3.js",
+   "file": "chatgpt/announcement-d36293e08be3.js",
+   "selected_by": "rule",
+   "raw_bytes": 9384,
+   "formatted_bytes": 14072,
+   "formatter": "prettier",
+   "sha256_raw": "aebbda75515d1ab9006f2dc62cd41d9fdada9d525b7f89298c0ab0501c03449e"
+  },
+  {
+   "archive_path": "webview/assets/announcement-host-6bd5c290ff77.js",
+   "file": "chatgpt/announcement-host-6bd5c290ff77.js",
+   "selected_by": "rule",
+   "raw_bytes": 3350,
+   "formatted_bytes": 4999,
+   "formatter": "prettier",
+   "sha256_raw": "8f2b4b9fd2271377f12f9ea61cfac0777553c7171b6a642e867bb2add4429738"
+  },
+  {
+   "archive_path": "webview/assets/announcement-host-f539e53b9f3f.js",
+   "file": "chatgpt/announcement-host-f539e53b9f3f.js",
+   "selected_by": "rule",
+   "raw_bytes": 5201,
+   "formatted_bytes": 7825,
+   "formatter": "prettier",
+   "sha256_raw": "f4fbdb7a7414fc4bf9bae2825ebfd5ab1483cd4b4c9f358a007dc643b93fe090"
+  },
+  {
+   "archive_path": "webview/assets/ansi-block-196721f759d8.js",
+   "file": "_deps/ansi-block-196721f759d8.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 7816,
+   "formatted_bytes": 11970,
+   "formatter": "prettier",
+   "sha256_raw": "d5d2c37175f913ce7fff9246eccd5f592eb90cf2eca00b24094e820df6238dac"
+  },
+  {
+   "archive_path": "webview/assets/ansi-block-cecb2c03ae9a.css",
+   "file": "_deps/ansi-block-cecb2c03ae9a.css",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 2281,
+   "formatted_bytes": 2592,
+   "formatter": "prettier",
+   "sha256_raw": "ff0971b7ee5e524c50f571d5d03c1efd50d10fc020703e9170e138535081e8a3"
+  },
+  {
+   "archive_path": "webview/assets/app-info-b43c099f07b0.js",
+   "file": "_deps/app-info-b43c099f07b0.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 484,
+   "formatted_bytes": 609,
+   "formatter": "prettier",
+   "sha256_raw": "d9cda9aa4e78e2e332e17f07a4d1378cf17a87c7b0070e110df81818ad23db1c"
+  },
+  {
+   "archive_path": "webview/assets/AppChatgpt-6d8f5860ff03.js",
+   "file": "_deps/AppChatgpt-6d8f5860ff03.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 22260,
+   "formatted_bytes": 24376,
+   "formatter": "prettier",
+   "sha256_raw": "ff179091feb5baf0b201ea9886f8172f4bcc8c9f250f1ff1bb3d198817830adf"
+  },
+  {
+   "archive_path": "webview/assets/apps-availability-8e892cfd0ff7.js",
+   "file": "_deps/apps-availability-8e892cfd0ff7.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 3559,
+   "formatted_bytes": 5526,
+   "formatter": "prettier",
+   "sha256_raw": "d84085a9d712b329c84d66b2f1017358ee816d8ae6213de7effbeb66f6a85293"
+  },
+  {
+   "archive_path": "webview/assets/Appy-c7772bad5b4c.js",
+   "file": "_deps/Appy-c7772bad5b4c.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 34304,
+   "formatted_bytes": 59648,
+   "formatter": "prettier",
+   "sha256_raw": "ddcb174b60a52c50f9ecab8ad0c51f9f779d8c32391237fb10174aaf04b9ae15"
+  },
+  {
+   "archive_path": "webview/assets/attribution-3a308b21b8cc.js",
+   "file": "_deps/attribution-3a308b21b8cc.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 10871,
+   "formatted_bytes": 15993,
+   "formatter": "prettier",
+   "sha256_raw": "f94e9529d2ac99747fbef0acbc0726f7f5fd26edddf5bdfdef3e38858f6d9fc2"
+  },
+  {
+   "archive_path": "webview/assets/audio-53939ee84ad6.js",
+   "file": "_deps/audio-53939ee84ad6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 9143,
+   "formatted_bytes": 15422,
+   "formatter": "prettier",
+   "sha256_raw": "772a0b2e43297d7d534876de2c416005528034925d8dae5929b6082e8bb0d734"
+  },
+  {
+   "archive_path": "webview/assets/automatic-approval-review-details-8b71aa41c079.js",
+   "file": "_deps/automatic-approval-review-details-8b71aa41c079.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 4559,
+   "formatted_bytes": 6760,
+   "formatter": "prettier",
+   "sha256_raw": "62ae2c99b4bcd8199163d373405560316b65fc263a88523be0793ed8b4df3864"
+  },
+  {
+   "archive_path": "webview/assets/background-artwork-player-a298f540b9b5.js",
+   "file": "_deps/background-artwork-player-a298f540b9b5.js",
+   "selected_by": "closure:d1:codex-app-home-beacon-announcement-910215ce3170.js",
+   "raw_bytes": 3033,
+   "formatted_bytes": 4940,
+   "formatter": "prettier",
+   "sha256_raw": "7e79da8d110ab540a9505804d65ea1cf2e3e02a558c66e1e87911a9dd256b6d7"
+  },
+  {
+   "archive_path": "webview/assets/badge-5893e67ab2af.js",
+   "file": "_deps/badge-5893e67ab2af.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 636,
+   "formatted_bytes": 970,
+   "formatter": "prettier",
+   "sha256_raw": "2eadcadef67a33c685e33f54ffcbb59f21531871439209d999418b7647a0c464"
+  },
+  {
+   "archive_path": "webview/assets/badge-b19b71cd5f3e.css",
+   "file": "_deps/badge-b19b71cd5f3e.css",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 5581,
+   "formatted_bytes": 6395,
+   "formatter": "prettier",
+   "sha256_raw": "f6dce0d1218a0461972f845d981baa54e43cf7c7eb8d17bef805f1a935072773"
+  },
+  {
+   "archive_path": "webview/assets/banner-2908339a2b2d.js",
+   "file": "_deps/banner-2908339a2b2d.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5011,
+   "formatted_bytes": 7672,
+   "formatter": "prettier",
+   "sha256_raw": "276296c86f30eaf6c1cdf34c8c3d8119c6307e5c7e0e80a4999e3e858cf1a70f"
+  },
+  {
+   "archive_path": "webview/assets/banner-64014c85f1a6.js",
+   "file": "_deps/banner-64014c85f1a6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2542,
+   "formatted_bytes": 3786,
+   "formatter": "prettier",
+   "sha256_raw": "d1c92a96c3c0ff95090f1eeb5558f8f40f8cb56e5040dc3f0a9b94ad3ef4f147"
+  },
+  {
+   "archive_path": "webview/assets/beacon-12c27da70717.js",
+   "file": "_deps/beacon-12c27da70717.js",
+   "selected_by": "closure:d1:codex-app-home-beacon-announcement-910215ce3170.js",
+   "raw_bytes": 5359,
+   "formatted_bytes": 8347,
+   "formatter": "prettier",
+   "sha256_raw": "d1b4aa81724e65d7b5a5e7d9b4e1bd11a79f05a7ccebfaeb5cff3624f99b8dff"
+  },
+  {
+   "archive_path": "webview/assets/Bloop-cf401caab157.js",
+   "file": "_deps/Bloop-cf401caab157.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 25485,
+   "formatted_bytes": 45949,
+   "formatter": "prettier",
+   "sha256_raw": "a5bf32edc3e639d4744931ccd86335ea31333367af41d564b93d8080bc51644f"
+  },
+  {
+   "archive_path": "webview/assets/book-open-48618dc6abbc.js",
+   "file": "_deps/book-open-48618dc6abbc.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 2075,
+   "formatted_bytes": 2285,
+   "formatter": "prettier",
+   "sha256_raw": "ce1baef820ee98bc15cad2c6543c6cbad4be62c2fa6a7063fd466037d98588e0"
+  },
+  {
+   "archive_path": "webview/assets/boundary-47568ae8a6a8.js",
+   "file": "_deps/boundary-47568ae8a6a8.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3668,
+   "formatted_bytes": 6007,
+   "formatter": "prettier",
+   "sha256_raw": "5bdd591990c2eb26a8c791a5edb494d3321a6d34a92c7b3acefa3e2abb2ba69c"
+  },
+  {
+   "archive_path": "webview/assets/boundary-d75b691b5aae.css",
+   "file": "_deps/boundary-d75b691b5aae.css",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1155,
+   "formatted_bytes": 1309,
+   "formatter": "prettier",
+   "sha256_raw": "b6f8ef9d72703960d8c5d4af057ed6d581795c905cc0e5e81cef981796014433"
+  },
+  {
+   "archive_path": "webview/assets/Brief-c194a4691554.js",
+   "file": "_deps/Brief-c194a4691554.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 28779,
+   "formatted_bytes": 51713,
+   "formatter": "prettier",
+   "sha256_raw": "12ae57e4f1049465cefc06b5114b4a5a897d2bf66068ac899dda874417dc9431"
+  },
+  {
+   "archive_path": "webview/assets/browser-164fb3651b82.js",
+   "file": "_deps/browser-164fb3651b82.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "raw_bytes": 246896,
+   "formatted_bytes": 380528,
+   "formatter": "prettier",
+   "sha256_raw": "21c62007d1c95c0e14e1d3fd394d94e53fc360a8a11788acbce2449a836cf9a6"
+  },
+  {
+   "archive_path": "webview/assets/browser-8d1b02c868ea.css",
+   "file": "_deps/browser-8d1b02c868ea.css",
+   "selected_by": "closure:d1:chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "raw_bytes": 661,
+   "formatted_bytes": 848,
+   "formatter": "prettier",
+   "sha256_raw": "5abffdd2064a816d02cbcc850d72c34c95b9204fdf8f384a0a487e126ead179e"
+  },
+  {
+   "archive_path": "webview/assets/Buffer-894a440955a0.js",
+   "file": "_deps/Buffer-894a440955a0.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1413,
+   "formatted_bytes": 2208,
+   "formatter": "prettier",
+   "sha256_raw": "6c06e489711e6dfc24e1f20659fcce024d82850c06f5b501cf307150f41f28da"
+  },
+  {
+   "archive_path": "webview/assets/business-b7311bb7b7e6.js",
+   "file": "_deps/business-b7311bb7b7e6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 16301,
+   "formatted_bytes": 24340,
+   "formatter": "prettier",
+   "sha256_raw": "f4f124157fde657395ac8266da12a823713b3ae8f6f18956dd93c9bd7c4259b0"
+  },
+  {
+   "archive_path": "webview/assets/CancelablePromise-d6a5f16ca4d1.js",
+   "file": "_deps/CancelablePromise-d6a5f16ca4d1.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 18651,
+   "formatted_bytes": 28401,
+   "formatter": "prettier",
+   "sha256_raw": "ec976ba972195df0b85fdd0dd034cf8097d0a457d28c77fa1bb137cac98bc8bc"
+  },
+  {
+   "archive_path": "webview/assets/card-d542d2f559db.js",
+   "file": "_deps/card-d542d2f559db.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 676,
+   "formatted_bytes": 960,
+   "formatter": "prettier",
+   "sha256_raw": "23ac99c89241f850e660d8c3970aa3ad4dea660a3fe573681fc68357a7f148d1"
+  },
+  {
+   "archive_path": "webview/assets/card-tile-50cbf58d3a76.js",
+   "file": "_deps/card-tile-50cbf58d3a76.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 6868,
+   "formatted_bytes": 10987,
+   "formatter": "prettier",
+   "sha256_raw": "434ffb6f571070a22450fc0d4697143ffe85f5dc9a3e32ae223bad3cf38483f2"
+  },
+  {
+   "archive_path": "webview/assets/carousel-pagination-dfff278ca0b9.js",
+   "file": "_deps/carousel-pagination-dfff278ca0b9.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1196,
+   "formatted_bytes": 1788,
+   "formatter": "prettier",
+   "sha256_raw": "c7e7a3b75b10a8580ff5ef3dbabbd8fbe29f14532f6d60a549efd11bba2fb716"
+  },
+  {
+   "archive_path": "webview/assets/catalog-ec2e6d4dcac5.js",
+   "file": "_deps/catalog-ec2e6d4dcac5.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 12406,
+   "formatted_bytes": 17323,
+   "formatter": "prettier",
+   "sha256_raw": "d7ceb3d5ccde34339ebadf4af307d2d6f63b7e6915c62bb5d717fc78c597a64b"
+  },
+  {
+   "archive_path": "webview/assets/category-actions-2dcff3be7db0.js",
+   "file": "_deps/category-actions-2dcff3be7db0.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-4a72280929b3.js",
+   "raw_bytes": 5115,
+   "formatted_bytes": 7187,
+   "formatter": "prettier",
+   "sha256_raw": "9fc97797e85a3f43b945781838ef36c8ccc7a1999357e34df1165f2e20b574e8"
+  },
+  {
+   "archive_path": "webview/assets/chart-colors-7214911051c2.js",
+   "file": "_deps/chart-colors-7214911051c2.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 751,
+   "formatted_bytes": 1009,
+   "formatter": "prettier",
+   "sha256_raw": "ff7c541520a7d571cdf3cc22439a3ac7d3cc0c662e0a6b0e6eaa83dde549474a"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_image_lightbox-600530866e50.js",
+   "file": "_deps/chatgpt_image_lightbox-600530866e50.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-dialog-2c5266898ceb.js",
+   "raw_bytes": 4398,
+   "formatted_bytes": 5217,
+   "formatter": "prettier",
+   "sha256_raw": "4d9e34750a35899a271f9c2977125d09de540b583c811c542ce0356b377601f9"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_learning_flashcards-ea6e2bbcd2f6.js",
+   "file": "_deps/chatgpt_learning_flashcards-ea6e2bbcd2f6.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-4a72280929b3.js",
+   "raw_bytes": 792,
+   "formatted_bytes": 928,
+   "formatter": "prettier",
+   "sha256_raw": "c05e2a3ec548688fff193cb25269c26fb36c2ddede62d00dfbe99100b92c6a75"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_reference_images-f5207aa3f1c3.js",
+   "file": "_deps/chatgpt_reference_images-f5207aa3f1c3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1924,
+   "formatted_bytes": 2338,
+   "formatter": "prettier",
+   "sha256_raw": "10fb5c69375c261b8d3a6ff5fd87a4eab8c3c4784b89a874a2f9de342a767de9"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_shopping_interaction-fd478da92eca.js",
+   "file": "_deps/chatgpt_shopping_interaction-fd478da92eca.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 1267,
+   "formatted_bytes": 1485,
+   "formatter": "prettier",
+   "sha256_raw": "d159d34d43c5eec746bf77d2e24ddbf95372f65a4da4de0633a1e0a6ae4f6113"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_subscription-521a9ceb1ea2.js",
+   "file": "_deps/chatgpt_subscription-521a9ceb1ea2.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 5825,
+   "formatted_bytes": 6894,
+   "formatter": "prettier",
+   "sha256_raw": "e55594fcf397c6fd297251e4a0b28ddd753378f520d2570371487b8ce10fb65e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_tpp-f471c7c8ab7d.js",
+   "file": "_deps/chatgpt_tpp-f471c7c8ab7d.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5033,
+   "formatted_bytes": 6127,
+   "formatter": "prettier",
+   "sha256_raw": "50f60bd6fcd1f08819ce018c961736fdf31f69831906caba00e063412f866b17"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt_trusted_contact-a7fbed382f14.js",
+   "file": "_deps/chatgpt_trusted_contact-a7fbed382f14.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 6187,
+   "formatted_bytes": 7452,
+   "formatter": "prettier",
+   "sha256_raw": "94d39442c17436e2454a41eb466973bfffc9c6dcb81e8b255fe3610603b25d01"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-accent-messages-9fa1e1df93a1.js",
+   "file": "chatgpt/chatgpt-accent-messages-9fa1e1df93a1.js",
+   "selected_by": "rule",
+   "raw_bytes": 2763,
+   "formatted_bytes": 3550,
+   "formatter": "prettier",
+   "sha256_raw": "528e4697fd6f2f230759ab7f85ae750f5afd4f6969d7de9a139207ecf732e9cb"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-announcement-candidates-a23c854be3bb.js",
+   "file": "chatgpt/chatgpt-announcement-candidates-a23c854be3bb.js",
+   "selected_by": "rule",
+   "raw_bytes": 40356,
+   "formatted_bytes": 63061,
+   "formatter": "prettier",
+   "sha256_raw": "c4b00addbba4f44cfecfc04dcdc29147144ea339f8ca83f9e4488a3c40f81d1e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-artifact-interaction-analytics-c656577a1e87.js",
+   "file": "chatgpt/chatgpt-artifact-interaction-analytics-c656577a1e87.js",
+   "selected_by": "rule",
+   "raw_bytes": 3385,
+   "formatted_bytes": 4205,
+   "formatter": "prettier",
+   "sha256_raw": "e4f47a40bb9521c7ad29f64ac887f7fc0708b44c9974de8c810518edc5eb6c15"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-assistant-message-content-7e3228434885.js",
+   "file": "chatgpt/chatgpt-assistant-message-content-7e3228434885.js",
+   "selected_by": "rule",
+   "raw_bytes": 49627,
+   "formatted_bytes": 77589,
+   "formatter": "prettier",
+   "sha256_raw": "a68eba0f9e6d1f6ea642f3bcb31b004bdcaf60fb9c7235917e677d7014a035a9"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-assistant-message-content-bc5c05b0b97b.css",
+   "file": "chatgpt/chatgpt-assistant-message-content-bc5c05b0b97b.css",
+   "selected_by": "rule",
+   "raw_bytes": 1622,
+   "formatted_bytes": 1899,
+   "formatter": "prettier",
+   "sha256_raw": "9fec6cb1b000083e6564bda97ba1ce47117fe428059d6e0037a017899d0c1a8c"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-audio-playback-button-85cac1e0f7ea.js",
+   "file": "chatgpt/chatgpt-audio-playback-button-85cac1e0f7ea.js",
+   "selected_by": "rule",
+   "raw_bytes": 5768,
+   "formatted_bytes": 9514,
+   "formatter": "prettier",
+   "sha256_raw": "66a638782972bf30c680cd8795155142f76ac6368664d22fa86b8ce5b48b253f"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-code-block-c5c3d1d7da0d.js",
+   "file": "chatgpt/chatgpt-code-block-c5c3d1d7da0d.js",
+   "selected_by": "rule",
+   "raw_bytes": 47189,
+   "formatted_bytes": 73015,
+   "formatter": "prettier",
+   "sha256_raw": "bb1aac24d976f47cf8b59df533fd826c432842972f3da659ca5be585df7e9b29"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-code-block-editor-b095e99a4c54.js",
+   "file": "chatgpt/chatgpt-code-block-editor-b095e99a4c54.js",
+   "selected_by": "rule",
+   "raw_bytes": 11077,
+   "formatted_bytes": 17549,
+   "formatter": "prettier",
+   "sha256_raw": "d29ec70de4e98350af289c8e6625f49dfb5f953ea20297083d52cfcc952fe47b"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-code-block-editor-c53b88966141.js",
+   "file": "chatgpt/chatgpt-code-block-editor-c53b88966141.js",
+   "selected_by": "rule",
+   "raw_bytes": 143,
+   "formatted_bytes": 157,
+   "formatter": "prettier",
+   "sha256_raw": "d54bc23bec623ab1001528aad4659cca4bfbf109b5f47d714fd0e62f5b54370f"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-code-block-editor-theme-1c863168c4d4.js",
+   "file": "chatgpt/chatgpt-code-block-editor-theme-1c863168c4d4.js",
+   "selected_by": "rule",
+   "raw_bytes": 2230,
+   "formatted_bytes": 3091,
+   "formatter": "prettier",
+   "sha256_raw": "85065ef0616422a4b9423e70381a2794a09bcdf2c500efe4d965f13450e36cff"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-code-block-highlighting-cd6d73ebd0d5.js",
+   "file": "chatgpt/chatgpt-code-block-highlighting-cd6d73ebd0d5.js",
+   "selected_by": "rule",
+   "raw_bytes": 1374,
+   "formatted_bytes": 1824,
+   "formatter": "prettier",
+   "sha256_raw": "98729eca4734b8061e7c0128f0f187d77f925c3ddcfdd7c952f5eca263ae1eec"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-content-reference-file-download-be91319a4322.js",
+   "file": "chatgpt/chatgpt-content-reference-file-download-be91319a4322.js",
+   "selected_by": "rule",
+   "raw_bytes": 99,
+   "formatted_bytes": 111,
+   "formatter": "prettier",
+   "sha256_raw": "10f6e14819fa76266d2388ad6ad046cf4531bbfc4cb42b4ad5caf8d01c1d17b7"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-actions-8056bb287a29.js",
+   "file": "chatgpt/chatgpt-conversation-actions-8056bb287a29.js",
+   "selected_by": "rule",
+   "raw_bytes": 1578,
+   "formatted_bytes": 2165,
+   "formatter": "prettier",
+   "sha256_raw": "6f0af49bb574bb514ec30350b870eb9b795de1a200cea04511fd7ab1646a0590"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-composer-context-db1b777cfbe7.js",
+   "file": "chatgpt/chatgpt-conversation-composer-context-db1b777cfbe7.js",
+   "selected_by": "rule",
+   "raw_bytes": 285,
+   "formatted_bytes": 335,
+   "formatter": "prettier",
+   "sha256_raw": "2bda6dc419726149ac4060274c5fb5e797a9b943f3402109af989790ef1ac1db"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-page-8f229ebb1652.css",
+   "file": "chatgpt/chatgpt-conversation-page-8f229ebb1652.css",
+   "selected_by": "rule",
+   "raw_bytes": 3047,
+   "formatted_bytes": 3842,
+   "formatter": "prettier",
+   "sha256_raw": "1f4e20f8b46b05bebdcdc2a6612a37519e63e726c77286e508d3917f49316b67"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-page-ccc364bfc217.js",
+   "file": "chatgpt/chatgpt-conversation-page-ccc364bfc217.js",
+   "selected_by": "rule",
+   "raw_bytes": 151867,
+   "formatted_bytes": 253623,
+   "formatter": "prettier",
+   "sha256_raw": "0b85d34f2bdd70fa7b4200ab1493b1da8d1a4e9c3d6b1387cc0cc2e4eec0eb9d"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-page-f07c91a77134.js",
+   "file": "chatgpt/chatgpt-conversation-page-f07c91a77134.js",
+   "selected_by": "rule",
+   "raw_bytes": 402,
+   "formatted_bytes": 428,
+   "formatter": "prettier",
+   "sha256_raw": "9e0b5e85142d3c1b678e0f3e53919bced3958f492f038d70eb7eed868027bb02"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-queries-7afd7759dd91.js",
+   "file": "chatgpt/chatgpt-conversation-queries-7afd7759dd91.js",
+   "selected_by": "rule",
+   "raw_bytes": 108,
+   "formatted_bytes": 120,
+   "formatter": "prettier",
+   "sha256_raw": "4b50e499f434c880cfb5fd6b31d25f8c04773a91b77f9ade6bf2d1cced0c4880"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-runtime-61b099de9e0f.js",
+   "file": "chatgpt/chatgpt-conversation-runtime-61b099de9e0f.js",
+   "selected_by": "rule",
+   "raw_bytes": 10930,
+   "formatted_bytes": 19055,
+   "formatter": "prettier",
+   "sha256_raw": "1f810769ac327bf6c0788c89d480784662aad254c7fba6357bc9ca97af109b5d"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-share-dialog-2c5266898ceb.js",
+   "file": "chatgpt/chatgpt-conversation-share-dialog-2c5266898ceb.js",
+   "selected_by": "rule",
+   "raw_bytes": 60146,
+   "formatted_bytes": 90533,
+   "formatter": "prettier",
+   "sha256_raw": "76adea2e7c896bbdc944072d58432d6d0f3dbce1bcc13ed793ea393c868a47ff"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-share-dialog-70460eeddc39.js",
+   "file": "chatgpt/chatgpt-conversation-share-dialog-70460eeddc39.js",
+   "selected_by": "rule",
+   "raw_bytes": 172,
+   "formatted_bytes": 186,
+   "formatter": "prettier",
+   "sha256_raw": "dff3e975fa70f6ab5198405b2a4552944c825c95e777942ee58544038714eaf2"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-share-dialog-a37533dac7c9.css",
+   "file": "chatgpt/chatgpt-conversation-share-dialog-a37533dac7c9.css",
+   "selected_by": "rule",
+   "raw_bytes": 2507,
+   "formatted_bytes": 3071,
+   "formatter": "prettier",
+   "sha256_raw": "886e7c985374e6c3ace9d3b7ab42b4c8c6c786fb2a853f1fec7cb331e47b7256"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "file": "chatgpt/chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "selected_by": "rule",
+   "raw_bytes": 8525,
+   "formatted_bytes": 13416,
+   "formatter": "prettier",
+   "sha256_raw": "539126a54f3571cb9d6582d1ab089422ba53b70add5fc5d03b9ba178e35a2be5"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-share-preview-765cb4fd7761.css",
+   "file": "chatgpt/chatgpt-conversation-share-preview-765cb4fd7761.css",
+   "selected_by": "rule",
+   "raw_bytes": 113,
+   "formatted_bytes": 136,
+   "formatter": "prettier",
+   "sha256_raw": "7a86b49e5c7a3cb854412b6b41dd9cd6a51ebbfae7f9b92c1e0b6a2aa36c0a11"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-share-toast-5023ff554fb6.js",
+   "file": "chatgpt/chatgpt-conversation-share-toast-5023ff554fb6.js",
+   "selected_by": "rule",
+   "raw_bytes": 2521,
+   "formatted_bytes": 3706,
+   "formatter": "prettier",
+   "sha256_raw": "4902653454e5631d415a9bf3f74f3dc2ad264cbc410830e40fed8d91fe293d01"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-transcript-04d92208c6f1.js",
+   "file": "chatgpt/chatgpt-conversation-transcript-04d92208c6f1.js",
+   "selected_by": "rule",
+   "raw_bytes": 156,
+   "formatted_bytes": 170,
+   "formatter": "prettier",
+   "sha256_raw": "c5b1ac4c81458703c32ac71bed16b4d7fbeca4a5b91a35fae2b3b108c6d5a02a"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-transcript-5d7a9d4bd0dd.js",
+   "file": "chatgpt/chatgpt-conversation-transcript-5d7a9d4bd0dd.js",
+   "selected_by": "rule",
+   "raw_bytes": 7663,
+   "formatted_bytes": 13835,
+   "formatter": "prettier",
+   "sha256_raw": "6a226f73d7f5889df6bddf2bd4ea101dc7c675fa9bb16ad39159cbf24e76a441"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-turn-content-6f261d5a5a27.css",
+   "file": "chatgpt/chatgpt-conversation-turn-content-6f261d5a5a27.css",
+   "selected_by": "rule",
+   "raw_bytes": 1399,
+   "formatted_bytes": 1840,
+   "formatter": "prettier",
+   "sha256_raw": "d466db647c23f2550fa36914fa5f7f2445426ac61beb555754f26e89a4b37201"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "file": "chatgpt/chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "selected_by": "rule",
+   "raw_bytes": 469942,
+   "formatted_bytes": 753909,
+   "formatter": "prettier",
+   "sha256_raw": "18c5e9739f1464e04aeddd9dbeadde2bc53c8882548b41716573686371c9cfd0"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-conversation-updates-runtime-3cca28bb478a.js",
+   "file": "chatgpt/chatgpt-conversation-updates-runtime-3cca28bb478a.js",
+   "selected_by": "rule",
+   "raw_bytes": 142,
+   "formatted_bytes": 156,
+   "formatter": "prettier",
+   "sha256_raw": "3e5a7130bcce49535e2dbd550abc582b4b4a6fa14ac2c05581a2ab2b670146f3"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-desktop-auth-url-3f7398fa25bc.js",
+   "file": "chatgpt/chatgpt-desktop-auth-url-3f7398fa25bc.js",
+   "selected_by": "rule",
+   "raw_bytes": 1492,
+   "formatted_bytes": 1975,
+   "formatter": "prettier",
+   "sha256_raw": "38ccc61138b3f9ca81a07b43ae3285402b956f9f6a1e5bac5aad29e796b158f9"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-dil-directive-renderer-4a72280929b3.js",
+   "file": "chatgpt/chatgpt-dil-directive-renderer-4a72280929b3.js",
+   "selected_by": "rule",
+   "raw_bytes": 9657,
+   "formatted_bytes": 11965,
+   "formatter": "prettier",
+   "sha256_raw": "13fda1a5b2b024da53ac625ba96936b4a5a21fe84c0204ce650a8e1d81bb6d5d"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-dil-directive-renderer-55bff284a79e.js",
+   "file": "chatgpt/chatgpt-dil-directive-renderer-55bff284a79e.js",
+   "selected_by": "rule",
+   "raw_bytes": 153,
+   "formatted_bytes": 167,
+   "formatter": "prettier",
+   "sha256_raw": "3abbd8d8291665c37b0990e9a7ad374a28beaec24bb98d954311b6067c41dac7"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "file": "chatgpt/chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "selected_by": "rule",
+   "raw_bytes": 76079,
+   "formatted_bytes": 115297,
+   "formatter": "prettier",
+   "sha256_raw": "96db47f11642bae31d556a18ef6bd7edb33761d2d0c8250fd257e56a0e8333e5"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-ecosystem-widget-328b8017284a.js",
+   "file": "chatgpt/chatgpt-ecosystem-widget-328b8017284a.js",
+   "selected_by": "rule",
+   "raw_bytes": 227,
+   "formatted_bytes": 245,
+   "formatter": "prettier",
+   "sha256_raw": "4b6698425aa41ee0cb1b2cf5ef1bd66fea570f7d2b579aefd1d544012be54a2a"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-ecosystem-widget-f627221f36cd.js",
+   "file": "chatgpt/chatgpt-ecosystem-widget-f627221f36cd.js",
+   "selected_by": "rule",
+   "raw_bytes": 28408,
+   "formatted_bytes": 43143,
+   "formatter": "prettier",
+   "sha256_raw": "94048f4146814291e42556f709f6530fbbeeed643426aa593a1667dc29b51214"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-ecosystem-widget-launch-53c875439c23.js",
+   "file": "chatgpt/chatgpt-ecosystem-widget-launch-53c875439c23.js",
+   "selected_by": "rule",
+   "raw_bytes": 14688,
+   "formatted_bytes": 21947,
+   "formatter": "prettier",
+   "sha256_raw": "30b1d9b3bacdee277cd234caf0885bde251b649e6562f110b2057c31a5451471"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-ecosystem-widget-modal-7538ac98c49e.js",
+   "file": "chatgpt/chatgpt-ecosystem-widget-modal-7538ac98c49e.js",
+   "selected_by": "rule",
+   "raw_bytes": 7410,
+   "formatted_bytes": 11328,
+   "formatter": "prettier",
+   "sha256_raw": "b9e21a0b288a19bf867a150dc5fe9bfe61300637ff82ad1f4e4c9d005a4fde60"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-ecosystem-widget-modal-e50754ca067b.js",
+   "file": "chatgpt/chatgpt-ecosystem-widget-modal-e50754ca067b.js",
+   "selected_by": "rule",
+   "raw_bytes": 233,
+   "formatted_bytes": 251,
+   "formatter": "prettier",
+   "sha256_raw": "541a3fed5b000d8eec3f3fb85ea7f2cef520f1966c375509e5be646f07c4fdc6"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-ecosystem-widget-resource-14d53e34c162.js",
+   "file": "chatgpt/chatgpt-ecosystem-widget-resource-14d53e34c162.js",
+   "selected_by": "rule",
+   "raw_bytes": 2415,
+   "formatted_bytes": 3636,
+   "formatter": "prettier",
+   "sha256_raw": "f18f88329e2333349e78d430501b1c0b5c39c9c22a3083422c66c6907e03fe64"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-entity-detail-panel-6d8027b11c9a.js",
+   "file": "chatgpt/chatgpt-entity-detail-panel-6d8027b11c9a.js",
+   "selected_by": "rule",
+   "raw_bytes": 4947,
+   "formatted_bytes": 7533,
+   "formatter": "prettier",
+   "sha256_raw": "ef51234fc128664071891962dbed3971a8e5c842ca49ba7e48cff0edf26c04c6"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-entity-panel-216b378973b8.js",
+   "file": "chatgpt/chatgpt-entity-panel-216b378973b8.js",
+   "selected_by": "rule",
+   "raw_bytes": 134,
+   "formatted_bytes": 148,
+   "formatter": "prettier",
+   "sha256_raw": "70beee942e32fad0840576a4a0137a52d69ab7236f9447487262c17f048d272b"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-entity-panel-928c74da246b.js",
+   "file": "chatgpt/chatgpt-entity-panel-928c74da246b.js",
+   "selected_by": "rule",
+   "raw_bytes": 1245,
+   "formatted_bytes": 2196,
+   "formatter": "prettier",
+   "sha256_raw": "f186a11fba40b62ea045c0e8e5a6ba464e8111654573140e4ff86efa97a1c3af"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "file": "chatgpt/chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "selected_by": "rule",
+   "raw_bytes": 27029,
+   "formatted_bytes": 37066,
+   "formatter": "prettier",
+   "sha256_raw": "0ad050628ef502dabd6329ee2f5a28448a72ee5334ce034c26743c28e6e0d1b6"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-entity-side-panel-tab-3a604178bc0d.js",
+   "file": "chatgpt/chatgpt-entity-side-panel-tab-3a604178bc0d.js",
+   "selected_by": "rule",
+   "raw_bytes": 2463,
+   "formatted_bytes": 3563,
+   "formatter": "prettier",
+   "sha256_raw": "178103af3a50fd70802386615e13610a31355aae2494d0ef705b7b63447fa976"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-entity-side-panel-tab-registry-7861cacc37dd.js",
+   "file": "chatgpt/chatgpt-entity-side-panel-tab-registry-7861cacc37dd.js",
+   "selected_by": "rule",
+   "raw_bytes": 330,
+   "formatted_bytes": 387,
+   "formatter": "prettier",
+   "sha256_raw": "d5885a69f103bbf381f4e2d1c50bd3fbd5c8e9338e0ee87d3884e2005653fc5e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-entity-turn-actions-c66cda7d26bc.js",
+   "file": "chatgpt/chatgpt-entity-turn-actions-c66cda7d26bc.js",
+   "selected_by": "rule",
+   "raw_bytes": 11091,
+   "formatted_bytes": 16788,
+   "formatter": "prettier",
+   "sha256_raw": "49351819196a29752d9d56662be01aa58c801636051873e1f4d4b9827ecf5375"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-feature-access-871ccc93c27d.js",
+   "file": "chatgpt/chatgpt-feature-access-871ccc93c27d.js",
+   "selected_by": "rule",
+   "raw_bytes": 797,
+   "formatted_bytes": 913,
+   "formatter": "prettier",
+   "sha256_raw": "567944479e205a1bac0b39fd8ea4853f1e29b2137fdcf9ef0f9e1ef6a09df7cd"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-file-upload-76e2e507108d.js",
+   "file": "chatgpt/chatgpt-file-upload-76e2e507108d.js",
+   "selected_by": "rule",
+   "raw_bytes": 182,
+   "formatted_bytes": 198,
+   "formatter": "prettier",
+   "sha256_raw": "5a3130f15cf876eac1898846c656aceb58e6f6826cd27120f40e4db732b3d2a1"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-follow-up-fa3d5aabab08.js",
+   "file": "chatgpt/chatgpt-follow-up-fa3d5aabab08.js",
+   "selected_by": "rule",
+   "raw_bytes": 100,
+   "formatted_bytes": 112,
+   "formatter": "prettier",
+   "sha256_raw": "d5128c649fc1528e48779beaf654bf393b66fad1b6b79e7c1635316bcf699f50"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-gizmo-header-4bc4dd884335.js",
+   "file": "chatgpt/chatgpt-gizmo-header-4bc4dd884335.js",
+   "selected_by": "rule",
+   "raw_bytes": 139,
+   "formatted_bytes": 153,
+   "formatter": "prettier",
+   "sha256_raw": "4b9a7010a5052c8ea151b972327a5683b7895cbe827f1444fc29e627c64232a1"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "file": "chatgpt/chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "selected_by": "rule",
+   "raw_bytes": 9604,
+   "formatted_bytes": 14108,
+   "formatter": "prettier",
+   "sha256_raw": "d99b59d7f39e4270a37f20f5cdffe537339ec9568cd39169effc45a29820a94d"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-google-file-title-query-b41ffffcb724.js",
+   "file": "chatgpt/chatgpt-google-file-title-query-b41ffffcb724.js",
+   "selected_by": "rule",
+   "raw_bytes": 1124,
+   "formatted_bytes": 1695,
+   "formatter": "prettier",
+   "sha256_raw": "f419e7d129fa9f777bf2c4b37fbcf7add8c5612a66f83028e59bdaa85874f98b"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-header-upgrade-content-c9a554b49d05.js",
+   "file": "chatgpt/chatgpt-header-upgrade-content-c9a554b49d05.js",
+   "selected_by": "rule",
+   "raw_bytes": 5083,
+   "formatted_bytes": 7853,
+   "formatter": "prettier",
+   "sha256_raw": "7849c10e8c4bc575634cc4255a8d602eb7ae6cf922f52d04160db4ac85a27a0f"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-home-beacon-announcement-candidates-df2ece330c1e.js",
+   "file": "chatgpt/chatgpt-home-beacon-announcement-candidates-df2ece330c1e.js",
+   "selected_by": "rule",
+   "raw_bytes": 6560,
+   "formatted_bytes": 10277,
+   "formatter": "prettier",
+   "sha256_raw": "78142325f0651769db2ad0ad363811ac21d0751273318b68ab7bd73a8fd5ffe4"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-home-draft-state-cfbfa103891b.js",
+   "file": "chatgpt/chatgpt-home-draft-state-cfbfa103891b.js",
+   "selected_by": "rule",
+   "raw_bytes": 98,
+   "formatted_bytes": 110,
+   "formatter": "prettier",
+   "sha256_raw": "dff10c685584c7075e5e693ac01b308149142257d9428b0c6c7047776985ba59"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-image-comparison-da5c90cb6d81.js",
+   "file": "chatgpt/chatgpt-image-comparison-da5c90cb6d81.js",
+   "selected_by": "rule",
+   "raw_bytes": 6764,
+   "formatted_bytes": 10782,
+   "formatter": "prettier",
+   "sha256_raw": "bd83ae76c5189fe5fe6aa89ba317b038bff46499cc343ac01a7d572cddd4bd0a"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-image-edit-3827f87e6299.js",
+   "file": "chatgpt/chatgpt-image-edit-3827f87e6299.js",
+   "selected_by": "rule",
+   "raw_bytes": 107,
+   "formatted_bytes": 119,
+   "formatter": "prettier",
+   "sha256_raw": "73941d8376b37a92d667068cd817f5e606d9a85e23781ed4a50bad66213aba07"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-image-lightbox-765ab145577e.js",
+   "file": "chatgpt/chatgpt-image-lightbox-765ab145577e.js",
+   "selected_by": "rule",
+   "raw_bytes": 11017,
+   "formatted_bytes": 18524,
+   "formatter": "prettier",
+   "sha256_raw": "c6e931aa221b21b77fa48acf2c87b20d4db818e60fdf5f312eb9766567787d4b"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-image-lightbox-7df167dcc114.js",
+   "file": "chatgpt/chatgpt-image-lightbox-7df167dcc114.js",
+   "selected_by": "rule",
+   "raw_bytes": 138,
+   "formatted_bytes": 152,
+   "formatter": "prettier",
+   "sha256_raw": "6dc4a98929911b6a8e03beee334e7a317073fc591a3acd3ca8771fd39150d2f0"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-image-share-b435ce40ecae.js",
+   "file": "chatgpt/chatgpt-image-share-b435ce40ecae.js",
+   "selected_by": "rule",
+   "raw_bytes": 17877,
+   "formatted_bytes": 27903,
+   "formatter": "prettier",
+   "sha256_raw": "e667ebef73cf7db6f035567bd4eea328729bbbc47b0d0a3b39cd196ad14db894"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-image-upload-reminder-dialog-1e9b9f7108c7.js",
+   "file": "chatgpt/chatgpt-image-upload-reminder-dialog-1e9b9f7108c7.js",
+   "selected_by": "rule",
+   "raw_bytes": 164,
+   "formatted_bytes": 178,
+   "formatter": "prettier",
+   "sha256_raw": "611327cad2eddf4f306a6bb7b8861fe0f35009bc3252b34e98b1aa110dbd7b9d"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-image-upload-reminder-dialog-67bbd508295c.js",
+   "file": "chatgpt/chatgpt-image-upload-reminder-dialog-67bbd508295c.js",
+   "selected_by": "rule",
+   "raw_bytes": 2311,
+   "formatted_bytes": 3392,
+   "formatter": "prettier",
+   "sha256_raw": "8109aaf2cc2a9819f5e3d0be795b5adcb6703397bb6201eded2913530a7c2301"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-keyboard-shortcuts-dialog-82be1f823a9e.js",
+   "file": "chatgpt/chatgpt-keyboard-shortcuts-dialog-82be1f823a9e.js",
+   "selected_by": "rule",
+   "raw_bytes": 1614,
+   "formatted_bytes": 2388,
+   "formatter": "prettier",
+   "sha256_raw": "ba58cadabb0116831a94bf2def54e08a5b83049b5b95735c693b5145344bc5f5"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-mapbox-4c824a19657c.js",
+   "file": "chatgpt/chatgpt-mapbox-4c824a19657c.js",
+   "selected_by": "rule",
+   "raw_bytes": 276,
+   "formatted_bytes": 325,
+   "formatter": "prettier",
+   "sha256_raw": "4a9ceaab9335e5f4a14cb2e0f60ca95d248685e68ea0faf1403ddf5a44e3bcaf"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-markdown-view-49d8cc54ac3e.js",
+   "file": "chatgpt/chatgpt-markdown-view-49d8cc54ac3e.js",
+   "selected_by": "rule",
+   "raw_bytes": 98103,
+   "formatted_bytes": 152190,
+   "formatter": "prettier",
+   "sha256_raw": "6944adc156f5ab6888c33ff5980648cf5801505ce715d2d40849484f88902673"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-markdown-view-90b72365fe6b.js",
+   "file": "chatgpt/chatgpt-markdown-view-90b72365fe6b.js",
+   "selected_by": "rule",
+   "raw_bytes": 132,
+   "formatted_bytes": 146,
+   "formatter": "prettier",
+   "sha256_raw": "8b37dff73bf8e30134dda0173cea7aea8ed992028e527a6d80229003d3742d6c"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-mcp-app-new-thread-f885704bc8d6.js",
+   "file": "chatgpt/chatgpt-mcp-app-new-thread-f885704bc8d6.js",
+   "selected_by": "rule",
+   "raw_bytes": 2471,
+   "formatted_bytes": 3563,
+   "formatter": "prettier",
+   "sha256_raw": "8b983cc17245294304d96bc40df6fb4aee64f25b4699f256ecb54b205dccec5d"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-mcp-extension-view-page-c7dcc2a83512.js",
+   "file": "chatgpt/chatgpt-mcp-extension-view-page-c7dcc2a83512.js",
+   "selected_by": "rule",
+   "raw_bytes": 14538,
+   "formatted_bytes": 24159,
+   "formatter": "prettier",
+   "sha256_raw": "952f3e73b77fdb6916ec345668a0f2515309333dc14171e4ae970185c84c0969"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-memory-citation-analytics-12d391658a94.js",
+   "file": "chatgpt/chatgpt-memory-citation-analytics-12d391658a94.js",
+   "selected_by": "rule",
+   "raw_bytes": 2634,
+   "formatted_bytes": 3307,
+   "formatter": "prettier",
+   "sha256_raw": "b50caf14644c7a40cf0f38f549d1253211ff245eb6fbd44da36c5452ad2a1bc2"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-memory-source-feedback-f68db5a6cb57.js",
+   "file": "chatgpt/chatgpt-memory-source-feedback-f68db5a6cb57.js",
+   "selected_by": "rule",
+   "raw_bytes": 1870,
+   "formatted_bytes": 2441,
+   "formatter": "prettier",
+   "sha256_raw": "3f552fac425844c9a0ff503ed262685ae14f4962c34325791ba0a338fe0066f1"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-mermaid-preview-actions-d9f3c972dbb9.js",
+   "file": "chatgpt/chatgpt-mermaid-preview-actions-d9f3c972dbb9.js",
+   "selected_by": "rule",
+   "raw_bytes": 3445,
+   "formatted_bytes": 5542,
+   "formatter": "prettier",
+   "sha256_raw": "659928327b26be5a984582010c14e72442bea404e1289c801a99f3a3d7e2299c"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "file": "chatgpt/chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "selected_by": "rule",
+   "raw_bytes": 29766,
+   "formatted_bytes": 44470,
+   "formatter": "prettier",
+   "sha256_raw": "f7be2aaa8cb7819fd989c742d7a98e2f59b9bb55833c648be718639a9273092e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-onboarding-content-32d373067546.js",
+   "file": "chatgpt/chatgpt-onboarding-content-32d373067546.js",
+   "selected_by": "rule",
+   "raw_bytes": 6437,
+   "formatted_bytes": 9197,
+   "formatter": "prettier",
+   "sha256_raw": "a480e09c4d6aa50f32a67e73fdf12dcce8fa8a4216a0c717655a4763b464d1bc"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-onboarding-dialog-68706c90af58.js",
+   "file": "chatgpt/chatgpt-onboarding-dialog-68706c90af58.js",
+   "selected_by": "rule",
+   "raw_bytes": 6489,
+   "formatted_bytes": 9462,
+   "formatter": "prettier",
+   "sha256_raw": "b89ebca8763fb4c73268441867cbdb79fcdf83d0dbbda70d29f6930db00484fe"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-personalization-route-36526df91ee9.js",
+   "file": "chatgpt/chatgpt-personalization-route-36526df91ee9.js",
+   "selected_by": "rule",
+   "raw_bytes": 294,
+   "formatted_bytes": 344,
+   "formatter": "prettier",
+   "sha256_raw": "b4f14a6e2316582a861ef45c39df508d8c8d0791584ff348aeb4523ea39454b0"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-product-analytics-ae26af19ef1e.js",
+   "file": "chatgpt/chatgpt-product-analytics-ae26af19ef1e.js",
+   "selected_by": "rule",
+   "raw_bytes": 14906,
+   "formatted_bytes": 19512,
+   "formatter": "prettier",
+   "sha256_raw": "5771de1bc9c50edcb96f6ca637fd4fda4c39b29d00c06ba81558e49805c94183"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-product-carousel-1d94f71c163b.js",
+   "file": "chatgpt/chatgpt-product-carousel-1d94f71c163b.js",
+   "selected_by": "rule",
+   "raw_bytes": 142,
+   "formatted_bytes": 156,
+   "formatter": "prettier",
+   "sha256_raw": "5ef1bf6646941e4620e306beb85838bdb966dfbb5db5bc01322787299874f71f"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-product-carousel-3da532a01bac.js",
+   "file": "chatgpt/chatgpt-product-carousel-3da532a01bac.js",
+   "selected_by": "rule",
+   "raw_bytes": 26544,
+   "formatted_bytes": 43184,
+   "formatter": "prettier",
+   "sha256_raw": "6ef7498f223093db1c1a187d7f797fbdecc7e5e12fd199273b5323a3f80d785c"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-product-metrics-840cc61c7ee0.js",
+   "file": "chatgpt/chatgpt-product-metrics-840cc61c7ee0.js",
+   "selected_by": "rule",
+   "raw_bytes": 3629,
+   "formatted_bytes": 4503,
+   "formatter": "prettier",
+   "sha256_raw": "dfdb99d5cd91c164908f0da46c00b34e04a2b84367f00b036be77031d9d0ba5e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-project-fetch-97006bb82f14.js",
+   "file": "chatgpt/chatgpt-project-fetch-97006bb82f14.js",
+   "selected_by": "rule",
+   "raw_bytes": 98,
+   "formatted_bytes": 110,
+   "formatter": "prettier",
+   "sha256_raw": "21956f384f196b81a7ff80bc6bcc4e8af6bba064ac86f74ca064983cf714c3c6"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-project-settings-dialog-cee66ddcfb5d.js",
+   "file": "chatgpt/chatgpt-project-settings-dialog-cee66ddcfb5d.js",
+   "selected_by": "rule",
+   "raw_bytes": 38823,
+   "formatted_bytes": 61574,
+   "formatter": "prettier",
+   "sha256_raw": "e66603c36b2c916c7fa008771e4ebc844de06d626c7e369383303a9a511628b2"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-project-sources-9d1a715e38b6.js",
+   "file": "chatgpt/chatgpt-project-sources-9d1a715e38b6.js",
+   "selected_by": "rule",
+   "raw_bytes": 2522,
+   "formatted_bytes": 3163,
+   "formatter": "prettier",
+   "sha256_raw": "6b7f4233cea3c0ff32ea0eec8d0ce5beb1621f31b789dd70ad29d07e08662d4d"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-request-19e53367f645.js",
+   "file": "chatgpt/chatgpt-request-19e53367f645.js",
+   "selected_by": "rule",
+   "raw_bytes": 125,
+   "formatted_bytes": 139,
+   "formatter": "prettier",
+   "sha256_raw": "a5fdcdafee8ced133c4d883e15aa7ec996e52eec22ebec5281dbda5da316b236"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-saved-memory-source-delete-dialog-f5f08b3f6957.js",
+   "file": "chatgpt/chatgpt-saved-memory-source-delete-dialog-f5f08b3f6957.js",
+   "selected_by": "rule",
+   "raw_bytes": 2676,
+   "formatted_bytes": 3782,
+   "formatter": "prettier",
+   "sha256_raw": "2fbfe1834abce4469d7117fc0f559a2243b2a005b5be5290bb490b48e9befca8"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-saved-memory-state-b80493d2aa2a.js",
+   "file": "chatgpt/chatgpt-saved-memory-state-b80493d2aa2a.js",
+   "selected_by": "rule",
+   "raw_bytes": 3308,
+   "formatted_bytes": 5034,
+   "formatter": "prettier",
+   "sha256_raw": "0b91d3cba0a15004b20adb4a75349b202b676cf1b185106b9d32ec40286ddf4c"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-search-image-analytics-4dc2fbee1d2b.js",
+   "file": "chatgpt/chatgpt-search-image-analytics-4dc2fbee1d2b.js",
+   "selected_by": "rule",
+   "raw_bytes": 7263,
+   "formatted_bytes": 10480,
+   "formatter": "prettier",
+   "sha256_raw": "4cd12ebb1931c73573e1413215c1dbb3bd92ca0c9c252f9cdaad48c7ebf935ec"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-skill-source-dialog-cf45c2dc0636.js",
+   "file": "chatgpt/chatgpt-skill-source-dialog-cf45c2dc0636.js",
+   "selected_by": "rule",
+   "raw_bytes": 1109,
+   "formatted_bytes": 1635,
+   "formatter": "prettier",
+   "sha256_raw": "6c224bc8003b4044b07e166ed9caf18ac2fd20a928dfd345768f3ca7fc3ea628"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-sources-floating-panel-30d9e1170c25.js",
+   "file": "chatgpt/chatgpt-sources-floating-panel-30d9e1170c25.js",
+   "selected_by": "rule",
+   "raw_bytes": 2478,
+   "formatted_bytes": 3456,
+   "formatter": "prettier",
+   "sha256_raw": "0cdfd43e13ef4c87391624742bf0facb184726b4c87201caa7570b818723f4a0"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-sources-message-c0854da0c120.js",
+   "file": "chatgpt/chatgpt-sources-message-c0854da0c120.js",
+   "selected_by": "rule",
+   "raw_bytes": 2772,
+   "formatted_bytes": 3597,
+   "formatter": "prettier",
+   "sha256_raw": "6610ae6ec6cd696b92f57c636e35aba586d19a25e46356df77838ad600681f92"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-sources-side-panel-tab-3ea68562652b.js",
+   "file": "chatgpt/chatgpt-sources-side-panel-tab-3ea68562652b.js",
+   "selected_by": "rule",
+   "raw_bytes": 196,
+   "formatted_bytes": 212,
+   "formatter": "prettier",
+   "sha256_raw": "d47e4f2b7c646c1ab30bfe2b262101c6a49f5cb4e7596c62311160ec8285c6f5"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "file": "chatgpt/chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "selected_by": "rule",
+   "raw_bytes": 59281,
+   "formatted_bytes": 95328,
+   "formatter": "prettier",
+   "sha256_raw": "ab493d1711e885bb2c0a35770f308d9f10d0faa61d19ae6c74d23ffcec97e324"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-subagent-final-response-query-9861b2118a73.js",
+   "file": "chatgpt/chatgpt-subagent-final-response-query-9861b2118a73.js",
+   "selected_by": "rule",
+   "raw_bytes": 1229,
+   "formatted_bytes": 1752,
+   "formatter": "prettier",
+   "sha256_raw": "525388839d73f14e29ba54e7ac7d59994e4603978e8952d5498c32063769c2cd"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-subagents-panel-cd2c4b272502.js",
+   "file": "chatgpt/chatgpt-subagents-panel-cd2c4b272502.js",
+   "selected_by": "rule",
+   "raw_bytes": 10881,
+   "formatted_bytes": 17500,
+   "formatter": "prettier",
+   "sha256_raw": "697c6cffd24927374d4ced56d85b00f627503dbc8086c9c2a46ae1582831a325"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-temporary-chat-ui-fa2ca8291643.js",
+   "file": "chatgpt/chatgpt-temporary-chat-ui-fa2ca8291643.js",
+   "selected_by": "rule",
+   "raw_bytes": 153,
+   "formatted_bytes": 167,
+   "formatter": "prettier",
+   "sha256_raw": "7999c3929f582eea85404940e974e1555f8b0a889f2e6844ef2d6d02cecc3c3c"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-token-auth.browser-b744795481f5.js",
+   "file": "chatgpt/chatgpt-token-auth.browser-b744795481f5.js",
+   "selected_by": "rule",
+   "raw_bytes": 1472,
+   "formatted_bytes": 1684,
+   "formatter": "prettier",
+   "sha256_raw": "095840068fd34de7e24db962e8dc58a2845445c351f4c50f4f4a0fad2ed3e63e"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-user-granular-consent-5fff80d4df26.js",
+   "file": "chatgpt/chatgpt-user-granular-consent-5fff80d4df26.js",
+   "selected_by": "rule",
+   "raw_bytes": 5302,
+   "formatted_bytes": 7403,
+   "formatter": "prettier",
+   "sha256_raw": "d328920e73a6bc2b2ddf3f5882638af615302a84ad83cc1432c080c90d021a6a"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-video-lightbox-cd3ec00eb625.js",
+   "file": "chatgpt/chatgpt-video-lightbox-cd3ec00eb625.js",
+   "selected_by": "rule",
+   "raw_bytes": 3896,
+   "formatted_bytes": 5968,
+   "formatter": "prettier",
+   "sha256_raw": "79f0c80b26115a7b932f6d7d49dd28af81786bf7c65bbebd9fedc751458a8d97"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-voices-query-97068a580988.js",
+   "file": "chatgpt/chatgpt-voices-query-97068a580988.js",
+   "selected_by": "rule",
+   "raw_bytes": 98,
+   "formatted_bytes": 110,
+   "formatter": "prettier",
+   "sha256_raw": "0c0132149214203ba9154bcc368ca8a4093d33f52182de9d6703a41b94563f38"
+  },
+  {
+   "archive_path": "webview/assets/chatgpt-wordmark-a9df415fde75.js",
+   "file": "chatgpt/chatgpt-wordmark-a9df415fde75.js",
+   "selected_by": "rule",
+   "raw_bytes": 3205,
+   "formatted_bytes": 3856,
+   "formatter": "prettier",
+   "sha256_raw": "6237044f4f2bd302d8da51bddc0b837cbd151b70ea659b8ce1798a6d8c8f6507"
+  },
+  {
+   "archive_path": "webview/assets/Chip-d3e2753e8782.js",
+   "file": "_deps/Chip-d3e2753e8782.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 19785,
+   "formatted_bytes": 34029,
+   "formatter": "prettier",
+   "sha256_raw": "fd8715ff029d5ee172c856608e05e8d459afc12aaf728cc87670ff442c669dc5"
+  },
+  {
+   "archive_path": "webview/assets/citation-pill-8336e0918b32.js",
+   "file": "_deps/citation-pill-8336e0918b32.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3200,
+   "formatted_bytes": 5327,
+   "formatter": "prettier",
+   "sha256_raw": "ebe9c7ce4067c917cb93e640ed6308727e7dac67345c5e2a30b48d47c1d80fb3"
+  },
+  {
+   "archive_path": "webview/assets/claim-action-c583a4ef2b78.js",
+   "file": "_deps/claim-action-c583a4ef2b78.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 445,
+   "formatted_bytes": 533,
+   "formatter": "prettier",
+   "sha256_raw": "09a373595b90a355a867b0c1cf8defb3d90b7ed153242c1ab90da06ac8bcd87a"
+  },
+  {
+   "archive_path": "webview/assets/Clank-82174eb9d562.js",
+   "file": "_deps/Clank-82174eb9d562.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 17725,
+   "formatted_bytes": 31365,
+   "formatter": "prettier",
+   "sha256_raw": "a861625f5041e5a9f4c701563af3819cacfa0219c33ac8beccb72c21ed450b0f"
+  },
+  {
+   "archive_path": "webview/assets/client-9b6341a51cb4.js",
+   "file": "_deps/client-9b6341a51cb4.js",
+   "selected_by": "closure:d1:chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "raw_bytes": 880,
+   "formatted_bytes": 1137,
+   "formatter": "prettier",
+   "sha256_raw": "92d1620f1e9723a67793aadaca8cb063ed6a537e34a3068a3f45bb374dbee8b6"
+  },
+  {
+   "archive_path": "webview/assets/Clippy-65f14aff7b3d.js",
+   "file": "_deps/Clippy-65f14aff7b3d.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 25232,
+   "formatted_bytes": 43415,
+   "formatter": "prettier",
+   "sha256_raw": "fb78d2d4a94e880c9d2d040c06e1e0b001209a593e562be58efee527a27e9460"
+  },
+  {
+   "archive_path": "webview/assets/code-execution-account-policy-8682cbed64b4.js",
+   "file": "_deps/code-execution-account-policy-8682cbed64b4.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 868,
+   "formatted_bytes": 1348,
+   "formatter": "prettier",
+   "sha256_raw": "a481a22fd71b8fc8d3dd3e9cb651b317a171b6f0477b2e789e9c7a7ae246587a"
+  },
+  {
+   "archive_path": "webview/assets/code-snippet-607c1655fbcd.js",
+   "file": "_deps/code-snippet-607c1655fbcd.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 87,
+   "formatted_bytes": 99,
+   "formatter": "prettier",
+   "sha256_raw": "c32e3092402bce4b16154f64cde45aca760e90f90d18626834672a62d1b41f86"
+  },
+  {
+   "archive_path": "webview/assets/codex-app-home-beacon-announcement-16bdb167e317.js",
+   "file": "chatgpt/codex-app-home-beacon-announcement-16bdb167e317.js",
+   "selected_by": "rule",
+   "raw_bytes": 167,
+   "formatted_bytes": 181,
+   "formatter": "prettier",
+   "sha256_raw": "6e39e31437560f5f1405bc3e900d30b100b72400d064325f69eeacee038cf1f5"
+  },
+  {
+   "archive_path": "webview/assets/codex-app-home-beacon-announcement-910215ce3170.js",
+   "file": "chatgpt/codex-app-home-beacon-announcement-910215ce3170.js",
+   "selected_by": "rule",
+   "raw_bytes": 43584,
+   "formatted_bytes": 71306,
+   "formatter": "prettier",
+   "sha256_raw": "acec0b22fb2e73cb3b553359fdec411c631c7e700ada047575b518be4a329354"
+  },
+  {
+   "archive_path": "webview/assets/codex-app-home-beacon-announcement-a8b203ad9ea2.css",
+   "file": "chatgpt/codex-app-home-beacon-announcement-a8b203ad9ea2.css",
+   "selected_by": "rule",
+   "raw_bytes": 75,
+   "formatted_bytes": 97,
+   "formatter": "prettier",
+   "sha256_raw": "b4473aca676e07a9e32f9f5c9d9042a1116bf4f0a769d598742a0ae78a6ccac7"
+  },
+  {
+   "archive_path": "webview/assets/codex-app-home-beacon-connect-modal-d983b8adee89.js",
+   "file": "chatgpt/codex-app-home-beacon-connect-modal-d983b8adee89.js",
+   "selected_by": "rule",
+   "raw_bytes": 1356,
+   "formatted_bytes": 2076,
+   "formatter": "prettier",
+   "sha256_raw": "5b42d486cc2639e989be8c345bfbd247f95d9b3fb85b8a286703592894a1eb00"
+  },
+  {
+   "archive_path": "webview/assets/codex-thread-report-dialog-339dc56a4231.js",
+   "file": "_deps/codex-thread-report-dialog-339dc56a4231.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 4214,
+   "formatted_bytes": 6539,
+   "formatter": "prettier",
+   "sha256_raw": "71abd934e87e2f25588b7b8555935eb7dad4646e17a0d3b87c804042d9639d98"
+  },
+  {
+   "archive_path": "webview/assets/codex-thread-report-dialog-d5d06c26f08c.js",
+   "file": "_deps/codex-thread-report-dialog-d5d06c26f08c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 145,
+   "formatted_bytes": 159,
+   "formatter": "prettier",
+   "sha256_raw": "dbd9a15bc23d6e33c409379495065dda529db3154acc7fd5a9b4a72746e8fcee"
+  },
+  {
+   "archive_path": "webview/assets/Collab-1e93dd94971f.js",
+   "file": "_deps/Collab-1e93dd94971f.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 36843,
+   "formatted_bytes": 64557,
+   "formatter": "prettier",
+   "sha256_raw": "a19ba661cbf9899a250039160c4da22476a6c28cef09551dc1b36d9b7cd5dbdf"
+  },
+  {
+   "archive_path": "webview/assets/collapsed-turn-disclosure-e174a0d7195e.js",
+   "file": "_deps/collapsed-turn-disclosure-e174a0d7195e.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 4404,
+   "formatted_bytes": 6702,
+   "formatter": "prettier",
+   "sha256_raw": "1c0161fa3b9d45e2b70c75d07de2b9fdce90272eca53c97ec41da156bc0b0a68"
+  },
+  {
+   "archive_path": "webview/assets/collapsible-user-message-content-33e4642ea67c.js",
+   "file": "_deps/collapsible-user-message-content-33e4642ea67c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 6072,
+   "formatted_bytes": 9920,
+   "formatter": "prettier",
+   "sha256_raw": "cb0b4a17fc7c62012831acd24704d43db5bf5a668b89f307e700f78a571c44f7"
+  },
+  {
+   "archive_path": "webview/assets/color-icon-5a5a69e17a26.js",
+   "file": "_deps/color-icon-5a5a69e17a26.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 180235,
+   "formatted_bytes": 186690,
+   "formatter": "prettier",
+   "sha256_raw": "9e450459dde59e3c56ed9285251c857fe6ff2cccec7a86fc52815ed26a310002"
+  },
+  {
+   "archive_path": "webview/assets/color-palette-6b374266e49e.js",
+   "file": "_deps/color-palette-6b374266e49e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "raw_bytes": 3113,
+   "formatted_bytes": 4489,
+   "formatter": "prettier",
+   "sha256_raw": "3a9c5702fa52d627bfe660dd423e77ee7cf589437cb8e0c79412c270a063c185"
+  },
+  {
+   "archive_path": "webview/assets/command-state-717db9deb198.js",
+   "file": "_deps/command-state-717db9deb198.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 890,
+   "formatted_bytes": 1265,
+   "formatter": "prettier",
+   "sha256_raw": "a87bb1b60340887a33a158966a7402875e417e17189779286f6e593775636f17"
+  },
+  {
+   "archive_path": "webview/assets/compact-4efb136e1be9.js",
+   "file": "_deps/compact-4efb136e1be9.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 245,
+   "formatted_bytes": 332,
+   "formatter": "prettier",
+   "sha256_raw": "74fc640e41bd033a85e129d6a1235c6b4e2aeae889edd36f4398550cb6ef115f"
+  },
+  {
+   "archive_path": "webview/assets/compact-cadence-b0efce75e19e.js",
+   "file": "_deps/compact-cadence-b0efce75e19e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 5206,
+   "formatted_bytes": 7958,
+   "formatter": "prettier",
+   "sha256_raw": "61644da8abb302c68fb6cee2cd456e85f2323e683af050e5a6924da8c0afb584"
+  },
+  {
+   "archive_path": "webview/assets/compact-payment-method-picker-ec7855b39424.js",
+   "file": "_deps/compact-payment-method-picker-ec7855b39424.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 3791,
+   "formatted_bytes": 5721,
+   "formatter": "prettier",
+   "sha256_raw": "190afa99c78d5403d74e43abbaac9a87b4e29bf7e05df4f1ae0cd80de7c1ccef"
+  },
+  {
+   "archive_path": "webview/assets/ComposedChart-257d7ed6cb1f.js",
+   "file": "_deps/ComposedChart-257d7ed6cb1f.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 241016,
+   "formatted_bytes": 385138,
+   "formatter": "prettier",
+   "sha256_raw": "b12d2dd3fd1fb33330351e273fb43cb4baef6a9ce6d3b09c3815c03386aace21"
+  },
+  {
+   "archive_path": "webview/assets/computer-use-native-app-metadata-9f2a13208dca.js",
+   "file": "_deps/computer-use-native-app-metadata-9f2a13208dca.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 875,
+   "formatted_bytes": 1184,
+   "formatter": "prettier",
+   "sha256_raw": "7b26c343abd564dc056f514cf2f19761fd0d416f37fc43a2de1be4a24071e684"
+  },
+  {
+   "archive_path": "webview/assets/confirm-subscription-upgrade-c627663bff93.js",
+   "file": "_deps/confirm-subscription-upgrade-c627663bff93.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 8678,
+   "formatted_bytes": 12823,
+   "formatter": "prettier",
+   "sha256_raw": "779fba2719b5b99f4334d9c83b7254fa6f864f0dd5908e17204ca031496495c0"
+  },
+  {
+   "archive_path": "webview/assets/content-8d3108c5dbfc.js",
+   "file": "_deps/content-8d3108c5dbfc.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 17222,
+   "formatted_bytes": 23778,
+   "formatter": "prettier",
+   "sha256_raw": "dadaa149159c56c9011d7c64331057e1de2860f289c01de44f484751a42a7d0e"
+  },
+  {
+   "archive_path": "webview/assets/content-cac685e89a8a.js",
+   "file": "_deps/content-cac685e89a8a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 52562,
+   "formatted_bytes": 80927,
+   "formatter": "prettier",
+   "sha256_raw": "fef2637c8cc7395c3d2c68811dc5c376dc048e4955681f53d843feabe4fe4763"
+  },
+  {
+   "archive_path": "webview/assets/content-chat-surface-4e82aae84549.js",
+   "file": "_deps/content-chat-surface-4e82aae84549.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 9446,
+   "formatted_bytes": 16034,
+   "formatter": "prettier",
+   "sha256_raw": "68922b132c31ff3d047e305c61a92021af8165e43da36344f7a99e53e01a03cb"
+  },
+  {
+   "archive_path": "webview/assets/content-reference-54dfe3f33e9e.js",
+   "file": "_deps/content-reference-54dfe3f33e9e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 12307,
+   "formatted_bytes": 20114,
+   "formatter": "prettier",
+   "sha256_raw": "b0b6d3367898ec8f9e253e576b98c6d2c642a8b5bc26277a812f8855884387a8"
+  },
+  {
+   "archive_path": "webview/assets/content-reference-8dc40d467a5f.js",
+   "file": "_deps/content-reference-8dc40d467a5f.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 78964,
+   "formatted_bytes": 107162,
+   "formatter": "prettier",
+   "sha256_raw": "452df324cc822aac0979149d9dc3bb003198621aaecf0a12d05a61b312d00bc3"
+  },
+  {
+   "archive_path": "webview/assets/content-reference-directive-match-f9624838b898.js",
+   "file": "_deps/content-reference-directive-match-f9624838b898.js",
+   "selected_by": "closure:d1:chatgpt-assistant-message-content-7e3228434885.js",
+   "raw_bytes": 1046,
+   "formatted_bytes": 1330,
+   "formatter": "prettier",
+   "sha256_raw": "4782baaf5bfa3e26dbc16c586bf41f3bfdaa49b4e4b76aa9f369f4c7202732fd"
+  },
+  {
+   "archive_path": "webview/assets/content-reference-markers-3636d17c94e6.js",
+   "file": "_deps/content-reference-markers-3636d17c94e6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 229,
+   "formatted_bytes": 264,
+   "formatter": "prettier",
+   "sha256_raw": "9c65af0098600a18a7589502f56a66568068a94494f292a16c313303f0b35b3b"
+  },
+  {
+   "archive_path": "webview/assets/context-31da9b1e1449.js",
+   "file": "_deps/context-31da9b1e1449.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1773,
+   "formatted_bytes": 2739,
+   "formatter": "prettier",
+   "sha256_raw": "69d0bd265697d7ac96deec53b113c10d76a400dc466837eb8682cf320c83306b"
+  },
+  {
+   "archive_path": "webview/assets/contracts-f473c8d038ac.js",
+   "file": "_deps/contracts-f473c8d038ac.js",
+   "selected_by": "closure:d1:announcement-host-f539e53b9f3f.js",
+   "raw_bytes": 248,
+   "formatted_bytes": 292,
+   "formatter": "prettier",
+   "sha256_raw": "93ac4851ce4f5862dc7bc23f7ee5c7179b3bd091a1f9507f80f2a85731c18b47"
+  },
+  {
+   "archive_path": "webview/assets/controller-9c3c81f9854c.js",
+   "file": "_deps/controller-9c3c81f9854c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 3495,
+   "formatted_bytes": 5240,
+   "formatter": "prettier",
+   "sha256_raw": "82f5fd85e1d6a07666e9de18dd039af4b4042ad34a1affd0dd03991746476405"
+  },
+  {
+   "archive_path": "webview/assets/copy-generated-image-to-clipboard-5a5ad412650e.js",
+   "file": "_deps/copy-generated-image-to-clipboard-5a5ad412650e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1258,
+   "formatted_bytes": 1580,
+   "formatter": "prettier",
+   "sha256_raw": "de7b65dcf1519b1591eec2698e8b66acb7546576d214b1d16fae7678bdb256f9"
+  },
+  {
+   "archive_path": "webview/assets/Dailee-f563636713f2.js",
+   "file": "_deps/Dailee-f563636713f2.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 35659,
+   "formatted_bytes": 65401,
+   "formatter": "prettier",
+   "sha256_raw": "481a8f017be1adba6d8b467c16734234edeb81cd6d55b3735d12feb52e56653e"
+  },
+  {
+   "archive_path": "webview/assets/data-459764411c05.js",
+   "file": "_deps/data-459764411c05.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2607,
+   "formatted_bytes": 3920,
+   "formatter": "prettier",
+   "sha256_raw": "f354e30483573084e38f6e303d2dc3c18e78beb3f21749ab2f1c4586db739653"
+  },
+  {
+   "archive_path": "webview/assets/data-99703db588c3.js",
+   "file": "_deps/data-99703db588c3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3434,
+   "formatted_bytes": 6102,
+   "formatter": "prettier",
+   "sha256_raw": "a8fa8cd3e225e1a9204a41be7c79a32543302fcdefe2c0421877438d368419db"
+  },
+  {
+   "archive_path": "webview/assets/datadog-rum.browser-219d0f1d0fbd.js",
+   "file": "_deps/datadog-rum.browser-219d0f1d0fbd.js",
+   "selected_by": "closure:d1:announcement-host-6bd5c290ff77.js",
+   "raw_bytes": 32931,
+   "formatted_bytes": 37030,
+   "formatter": "prettier",
+   "sha256_raw": "f26b9c08b0783f8b712f100d817c908f89f2b42b31f000446f5f215ba8982695"
+  },
+  {
+   "archive_path": "webview/assets/datadogProfiler-ae8ea0e10132.js",
+   "file": "_deps/datadogProfiler-ae8ea0e10132.js",
+   "selected_by": "closure:d1:announcement-host-6bd5c290ff77.js",
+   "raw_bytes": 10090,
+   "formatted_bytes": 14652,
+   "formatter": "prettier",
+   "sha256_raw": "2ec336a45e08c502d04b7e677c3cba3f5ff89372f2585cf2b75b60b52cb1ca15"
+  },
+  {
+   "archive_path": "webview/assets/decoder-c080d3c57107.js",
+   "file": "_deps/decoder-c080d3c57107.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3370,
+   "formatted_bytes": 4746,
+   "formatter": "prettier",
+   "sha256_raw": "d48c19374bdac6fff75a0a98851adc57dfae81404648b209e015449cb6f07e83"
+  },
+  {
+   "archive_path": "webview/assets/deleted-image-placeholder-c375839fe1bf.js",
+   "file": "_deps/deleted-image-placeholder-c375839fe1bf.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2708,
+   "formatted_bytes": 4887,
+   "formatter": "prettier",
+   "sha256_raw": "45aa062ef13c65154e71265a0781a1e56a00b9b955e9a82819dc0d24b1a19c7e"
+  },
+  {
+   "archive_path": "webview/assets/delinquent-upgrade-preparation-20a81743136e.js",
+   "file": "_deps/delinquent-upgrade-preparation-20a81743136e.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 2187,
+   "formatted_bytes": 2788,
+   "formatter": "prettier",
+   "sha256_raw": "ce8adde95cee30c23c0cffa39d4613845fda0eb3717a5751d9809ee2817b1939"
+  },
+  {
+   "archive_path": "webview/assets/details-3933c27fd116.js",
+   "file": "_deps/details-3933c27fd116.js",
+   "selected_by": "closure:d1:chatgpt-assistant-message-content-7e3228434885.js",
+   "raw_bytes": 2994,
+   "formatted_bytes": 4622,
+   "formatter": "prettier",
+   "sha256_raw": "8617e25093726fad3f8b0a277c51d0875a4e1b9c0212337f294e2ba17cb1dc02"
+  },
+  {
+   "archive_path": "webview/assets/dictionary-dialog-ac4d376402a6.js",
+   "file": "_deps/dictionary-dialog-ac4d376402a6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 14025,
+   "formatted_bytes": 25513,
+   "formatter": "prettier",
+   "sha256_raw": "8e56bd8168a299b564f3e90b0fbfeb2255c9e2721486a6c380ff42a841b8e420"
+  },
+  {
+   "archive_path": "webview/assets/diff-preview-tooltip-ed6042ac5387.js",
+   "file": "_deps/diff-preview-tooltip-ed6042ac5387.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 2767,
+   "formatted_bytes": 4109,
+   "formatter": "prettier",
+   "sha256_raw": "ab7b1088d54c7898bd239158a7e05adea5bf677a541daba39bf0a8ab88c4798d"
+  },
+  {
+   "archive_path": "webview/assets/diff-summary-f7ac0660791a.js",
+   "file": "_deps/diff-summary-f7ac0660791a.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 304,
+   "formatted_bytes": 376,
+   "formatter": "prettier",
+   "sha256_raw": "0c46150829d7c0fbfdc850a8ccf5db89043dda5d1afd8cfc9380d7273987c4ef"
+  },
+  {
+   "archive_path": "webview/assets/Digit-3e0d136d9d13.js",
+   "file": "_deps/Digit-3e0d136d9d13.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 14969,
+   "formatted_bytes": 25907,
+   "formatter": "prettier",
+   "sha256_raw": "3b42dc689428bf4aec361426cfa058f0896929df8c8d66c3240a47448e171484"
+  },
+  {
+   "archive_path": "webview/assets/DILDictation-ac438732b766.js",
+   "file": "_deps/DILDictation-ac438732b766.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1244,
+   "formatted_bytes": 1684,
+   "formatter": "prettier",
+   "sha256_raw": "436e7dd1bcd7a71a30cd0b10213cce339a92a2a2126acc9c967fdba948e18e4c"
+  },
+  {
+   "archive_path": "webview/assets/DILRenderOperations-1d15569c7bc9.js",
+   "file": "_deps/DILRenderOperations-1d15569c7bc9.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 26593,
+   "formatted_bytes": 39888,
+   "formatter": "prettier",
+   "sha256_raw": "89aa64c7d82aa625a2a6832efada031a06ed98b4f7c8f6dd010d70e990fcdcaf"
+  },
+  {
+   "archive_path": "webview/assets/display-48c3b1cb784f.js",
+   "file": "_deps/display-48c3b1cb784f.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 4070,
+   "formatted_bytes": 6345,
+   "formatter": "prettier",
+   "sha256_raw": "1b29056031e152b2fca5540dcd23eda01747ae2465694829dd98fc58de9a5f4b"
+  },
+  {
+   "archive_path": "webview/assets/display-901034b4869f.js",
+   "file": "_deps/display-901034b4869f.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 7932,
+   "formatted_bytes": 10781,
+   "formatter": "prettier",
+   "sha256_raw": "c02d1a4d690ed295a3263a5fc76d47448e30730d3da5d0b1f3cba0a591198713"
+  },
+  {
+   "archive_path": "webview/assets/display-9ba7bb4f2670.js",
+   "file": "_deps/display-9ba7bb4f2670.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 3496,
+   "formatted_bytes": 5143,
+   "formatter": "prettier",
+   "sha256_raw": "518c7e1d372c9535b8a01ee2f72a9c457cc7f85816014e3780605336c783cbb4"
+  },
+  {
+   "archive_path": "webview/assets/dist-15e5c1229202.js",
+   "file": "_deps/dist-15e5c1229202.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 77994,
+   "formatted_bytes": 82820,
+   "formatter": "prettier",
+   "sha256_raw": "1825dc866a7f626b5d1539c48458bff59ab05ca3ba8efdcf94a5e0efee1c33b7"
+  },
+  {
+   "archive_path": "webview/assets/dist-83bbd9851c56.js",
+   "file": "_deps/dist-83bbd9851c56.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 204,
+   "formatted_bytes": 239,
+   "formatter": "prettier",
+   "sha256_raw": "84d1e1e83d3a337609c6d9eca80e0f187eec9b64f6e56259d590d3b272bc1085"
+  },
+  {
+   "archive_path": "webview/assets/dist-8fceb96a6fc9.js",
+   "file": "_deps/dist-8fceb96a6fc9.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 27168,
+   "formatted_bytes": 43987,
+   "formatter": "prettier",
+   "sha256_raw": "5f9d4c30c2eafc23af264c0493e0b521abf1e17849e80573602453b9dc9a890f"
+  },
+  {
+   "archive_path": "webview/assets/dist-ad7e2bb8433e.js",
+   "file": "_deps/dist-ad7e2bb8433e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 26619,
+   "formatted_bytes": 46517,
+   "formatter": "prettier",
+   "sha256_raw": "ce518f61b51313188ccbc04f66f093bd9bcc15630c0e16d85bede65ec87e3d7e"
+  },
+  {
+   "archive_path": "webview/assets/dist-c49309ceeb35.js",
+   "file": "_deps/dist-c49309ceeb35.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 34670,
+   "formatted_bytes": 59723,
+   "formatter": "prettier",
+   "sha256_raw": "99c2948dc0da4db430a913a569884daffff0feb12726b2b4bc14f3f2bdfc63a1"
+  },
+  {
+   "archive_path": "webview/assets/document-179c5532ee3b.js",
+   "file": "_deps/document-179c5532ee3b.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1912,
+   "formatted_bytes": 2613,
+   "formatter": "prettier",
+   "sha256_raw": "5585d6b443a3084a1e33ea3becea17830b271c8fd1c575fc983acbf1cafb50a7"
+  },
+  {
+   "archive_path": "webview/assets/document-card-68dcf18a748a.js",
+   "file": "_deps/document-card-68dcf18a748a.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 1126,
+   "formatted_bytes": 1611,
+   "formatter": "prettier",
+   "sha256_raw": "eb11e134d157b16567b61843b1af6cc099040f67452f6ef39bb362292b25db2f"
+  },
+  {
+   "archive_path": "webview/assets/Dot-2915d6f948cf.js",
+   "file": "_deps/Dot-2915d6f948cf.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 10463,
+   "formatted_bytes": 19192,
+   "formatter": "prettier",
+   "sha256_raw": "5b3261bc80f4f798e64c2b0abfc72bb64137cdb458218ad0f979d97eca75ba8a"
+  },
+  {
+   "archive_path": "webview/assets/drawing-size-slider-ad117f2bc3b3.js",
+   "file": "_deps/drawing-size-slider-ad117f2bc3b3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5830,
+   "formatted_bytes": 9266,
+   "formatter": "prettier",
+   "sha256_raw": "d75c3cd2087fec9250e0ddaaf98d573e2ad234a0ed2a15ddae0c19d929084b70"
+  },
+  {
+   "archive_path": "webview/assets/drop-zones-553b52d50d7e.js",
+   "file": "_deps/drop-zones-553b52d50d7e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 7895,
+   "formatted_bytes": 12761,
+   "formatter": "prettier",
+   "sha256_raw": "a1d1488769403861850db94f7e4e4f771f51a6fd5fa2446a125de2757a8169c1"
+  },
+  {
+   "archive_path": "webview/assets/dropdown-6c3f6bdb91ed.js",
+   "file": "_deps/dropdown-6c3f6bdb91ed.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 19588,
+   "formatted_bytes": 31053,
+   "formatter": "prettier",
+   "sha256_raw": "18a40ae86088ce91f144671f2a2695b5748a416f563bab7f238f77e4cd41d653"
+  },
+  {
+   "archive_path": "webview/assets/dynamic-isle-list-97f9a573e4ac.js",
+   "file": "_deps/dynamic-isle-list-97f9a573e4ac.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1084,
+   "formatted_bytes": 1508,
+   "formatter": "prettier",
+   "sha256_raw": "6bf80041b15410a91fdaeb8a841cd3468aff6bb3e846f65ae084878b338af66d"
+  },
+  {
+   "archive_path": "webview/assets/edit-method-14d8ba5f8eb3.js",
+   "file": "_deps/edit-method-14d8ba5f8eb3.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 14211,
+   "formatted_bytes": 22495,
+   "formatter": "prettier",
+   "sha256_raw": "4eda9bee2203ce735922896869c25f29e29fab0341750ba006bba3046b0268f2"
+  },
+  {
+   "archive_path": "webview/assets/edit-method-99ea742132e4.css",
+   "file": "_deps/edit-method-99ea742132e4.css",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 2619,
+   "formatted_bytes": 3352,
+   "formatter": "prettier",
+   "sha256_raw": "b94c75418ef76442bb01e61f50fedf1ed555e08aeb6a31e4a896364694b27c40"
+  },
+  {
+   "archive_path": "webview/assets/editable-plan-tab-a96b70a8185f.js",
+   "file": "_deps/editable-plan-tab-a96b70a8185f.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1199,
+   "formatted_bytes": 1760,
+   "formatter": "prettier",
+   "sha256_raw": "6c004cc07b6d4cd8d8170e132f5f82fb488e7ff52b813a76df4ea5d947ac9daf"
+  },
+  {
+   "archive_path": "webview/assets/editable-writing-block-ab7b5ef2685d.css",
+   "file": "_deps/editable-writing-block-ab7b5ef2685d.css",
+   "selected_by": "closure:d1:chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "raw_bytes": 2980,
+   "formatted_bytes": 5215,
+   "formatter": "prettier",
+   "sha256_raw": "0268f29e6cabf6d84076c736f8977301438346e54017fe1e6bcb075a15bfd381"
+  },
+  {
+   "archive_path": "webview/assets/editable-writing-block-c63092446a34.js",
+   "file": "_deps/editable-writing-block-c63092446a34.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "raw_bytes": 74105,
+   "formatted_bytes": 120581,
+   "formatter": "prettier",
+   "sha256_raw": "e729c012d9d779b73819b4c88ae9e45d0244a1e8151024c3869fdfb553978852"
+  },
+  {
+   "archive_path": "webview/assets/editor-dialog-2b451bd55a6d.js",
+   "file": "_deps/editor-dialog-2b451bd55a6d.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 45252,
+   "formatted_bytes": 74448,
+   "formatter": "prettier",
+   "sha256_raw": "d14110851d5d275b6b2eb509147fc125b271f9e0f2c5539059af7ea8aa49afc9"
+  },
+  {
+   "archive_path": "webview/assets/eligibility-ad39d272751d.js",
+   "file": "_deps/eligibility-ad39d272751d.js",
+   "selected_by": "closure:d1:announcement-host-f539e53b9f3f.js",
+   "raw_bytes": 1100,
+   "formatted_bytes": 1314,
+   "formatter": "prettier",
+   "sha256_raw": "3c86ed608cf710a83db3f3545b39e96f43f3d74a6acaf0fc8e875a3bbdad72c3"
+  },
+  {
+   "archive_path": "webview/assets/emoji-regex-xs-ae6eb0becbe3.js",
+   "file": "_deps/emoji-regex-xs-ae6eb0becbe3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 349,
+   "formatted_bytes": 413,
+   "formatter": "prettier",
+   "sha256_raw": "9b9101733f8829d617f2410986576ff32c249612c4e69cfa31f1364615360104"
+  },
+  {
+   "archive_path": "webview/assets/ended-556e9dd0c42f.js",
+   "file": "_deps/ended-556e9dd0c42f.js",
+   "selected_by": "closure:d1:chatgpt-home-beacon-announcement-candidates-df2ece330c1e.js",
+   "raw_bytes": 1480,
+   "formatted_bytes": 2104,
+   "formatter": "prettier",
+   "sha256_raw": "21998d8e44d3d40091ed8e3f6a5cb9b51934cf3b05cf7bfb290224d594074de0"
+  },
+  {
+   "archive_path": "webview/assets/entity-actions-e85196f1e3ff.js",
+   "file": "_deps/entity-actions-e85196f1e3ff.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 4874,
+   "formatted_bytes": 7791,
+   "formatter": "prettier",
+   "sha256_raw": "c780dec177cca2ccf5830bd3be8430bf4e79f9cc6a8f5eb5773c499c65eb596f"
+  },
+  {
+   "archive_path": "webview/assets/entity-business-profile-query-b9fce6fb4467.js",
+   "file": "_deps/entity-business-profile-query-b9fce6fb4467.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 7696,
+   "formatted_bytes": 12517,
+   "formatter": "prettier",
+   "sha256_raw": "dddddbd9a4bddae871cb8ed9646ca3aab897a7520d2b1e833b3f9ea75ccc1119"
+  },
+  {
+   "archive_path": "webview/assets/entity-c6d3ea30d46d.css",
+   "file": "_deps/entity-c6d3ea30d46d.css",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 474,
+   "formatted_bytes": 564,
+   "formatter": "prettier",
+   "sha256_raw": "d58ac5add57c826ff01ceb368a1d1c2608767770737b967a1d6af5ec3e0dd570"
+  },
+  {
+   "archive_path": "webview/assets/entity-metadata-7df6b0965f9b.js",
+   "file": "_deps/entity-metadata-7df6b0965f9b.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 12357,
+   "formatted_bytes": 18833,
+   "formatter": "prettier",
+   "sha256_raw": "05766056f37746ce7d736dee56c375bbb5f6d4bd06a597c6effda17bf75e28ef"
+  },
+  {
+   "archive_path": "webview/assets/entity-metadata-reference-d6d328071554.js",
+   "file": "_deps/entity-metadata-reference-d6d328071554.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 752,
+   "formatted_bytes": 1012,
+   "formatter": "prettier",
+   "sha256_raw": "35428f701c2e171e2ecf307bb703587de92965042bed70f541751a610e64ba11"
+  },
+  {
+   "archive_path": "webview/assets/entity-share-button-acd943e37e81.js",
+   "file": "_deps/entity-share-button-acd943e37e81.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 3778,
+   "formatted_bytes": 5663,
+   "formatter": "prettier",
+   "sha256_raw": "813a3072d8241257882452eac67e498c2a11a57eca9729184185f87b0ae39604"
+  },
+  {
+   "archive_path": "webview/assets/entity-sheet-header-55ca4823b65b.js",
+   "file": "_deps/entity-sheet-header-55ca4823b65b.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2808,
+   "formatted_bytes": 4463,
+   "formatter": "prettier",
+   "sha256_raw": "d0a6504c3ed356e6a821b62769b86593877466dfd800d21cd1da84b34d65541f"
+  },
+  {
+   "archive_path": "webview/assets/entity.module-8388af796d53.js",
+   "file": "_deps/entity.module-8388af796d53.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 209,
+   "formatted_bytes": 255,
+   "formatter": "prettier",
+   "sha256_raw": "bf1fb94022ad4af8c75614afb5607517039d22c9fedc9e79888fc5434093caf6"
+  },
+  {
+   "archive_path": "webview/assets/entry-9f364e710c7f.js",
+   "file": "_deps/entry-9f364e710c7f.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2435,
+   "formatted_bytes": 3169,
+   "formatter": "prettier",
+   "sha256_raw": "dc512f09a8c5da22fe146b97c3501f49ca7fd69e4743201f67245cfd4ccdd503"
+  },
+  {
+   "archive_path": "webview/assets/entry-b5e62f2ab090.js",
+   "file": "_deps/entry-b5e62f2ab090.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 921,
+   "formatted_bytes": 1154,
+   "formatter": "prettier",
+   "sha256_raw": "b11317ee559a9d54cb1de3444c4c4a26cc5861a423e578213471ab5598163ee3"
+  },
+  {
+   "archive_path": "webview/assets/entry-d53dfcb57e93.js",
+   "file": "_deps/entry-d53dfcb57e93.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3016,
+   "formatted_bytes": 3798,
+   "formatter": "prettier",
+   "sha256_raw": "96ee9bc878b45746aff40ed0797e53016bdda2eeaaae343a55ef38a4a23d2292"
+  },
+  {
+   "archive_path": "webview/assets/error-3f572e7606fb.js",
+   "file": "_deps/error-3f572e7606fb.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 4577,
+   "formatted_bytes": 5891,
+   "formatter": "prettier",
+   "sha256_raw": "28f6bc4218ec7ff322259b66034100b934c871d8e6e3a866c8a2ec332adaef22"
+  },
+  {
+   "archive_path": "webview/assets/events-66e17df2dc8d.js",
+   "file": "_deps/events-66e17df2dc8d.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 1291,
+   "formatted_bytes": 1519,
+   "formatter": "prettier",
+   "sha256_raw": "3ebef42b1b61107cf76fbfa9f6aec1f18b38faec79ef171ec47ae195f6440a4f"
+  },
+  {
+   "archive_path": "webview/assets/experiment-service-34b09e32d9d2.js",
+   "file": "_deps/experiment-service-34b09e32d9d2.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 52287,
+   "formatted_bytes": 77518,
+   "formatter": "prettier",
+   "sha256_raw": "549efbb9e087bd637092d602856ad8456948aaecd147ca584ade3579908808ff"
+  },
+  {
+   "archive_path": "webview/assets/fallback-1dd4771b7d07.js",
+   "file": "_deps/fallback-1dd4771b7d07.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 12759,
+   "formatted_bytes": 21092,
+   "formatter": "prettier",
+   "sha256_raw": "b807ecad2b32d54150405e78db256f4dd5ed37fa426f35d8d40e7305b41b911d"
+  },
+  {
+   "archive_path": "webview/assets/favorite-folder-menu-229bc5187c23.js",
+   "file": "_deps/favorite-folder-menu-229bc5187c23.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 12320,
+   "formatted_bytes": 19359,
+   "formatter": "prettier",
+   "sha256_raw": "ed01ba0096fb610f465b1fbb7168c40a60ff4e9d3e055a02019ce17eaafedbae"
+  },
+  {
+   "archive_path": "webview/assets/favorite-folders-22048203332c.js",
+   "file": "_deps/favorite-folders-22048203332c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1287,
+   "formatted_bytes": 1939,
+   "formatter": "prettier",
+   "sha256_raw": "504111d1b099b76bf21d9201c70d2ee500cc16d80f9ea1e15680eac01a058e18"
+  },
+  {
+   "archive_path": "webview/assets/feedback-form-dialog-f9159d8c3fc7.js",
+   "file": "_deps/feedback-form-dialog-f9159d8c3fc7.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 4873,
+   "formatted_bytes": 8416,
+   "formatter": "prettier",
+   "sha256_raw": "4bc848a6c8405e04fe85293b63c300e6efc2a6131ac148b7a67e446a8a82d85a"
+  },
+  {
+   "archive_path": "webview/assets/feedback-legal-notice-c919f2d35767.js",
+   "file": "_deps/feedback-legal-notice-c919f2d35767.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1078,
+   "formatted_bytes": 1416,
+   "formatter": "prettier",
+   "sha256_raw": "50d971459b9e75ac75cd5e66fbc3e1bee4c31bfda7296ff3bdd6962b111222b7"
+  },
+  {
+   "archive_path": "webview/assets/file-104b558ed320.js",
+   "file": "_deps/file-104b558ed320.js",
+   "selected_by": "closure:d1:chatgpt-assistant-message-content-7e3228434885.js",
+   "raw_bytes": 36168,
+   "formatted_bytes": 54721,
+   "formatter": "prettier",
+   "sha256_raw": "6c7e131934e256f45aedf16431743621b4a8e7c1e72d02b15f51501102761fad"
+  },
+  {
+   "archive_path": "webview/assets/file-actions-acae99ddb591.js",
+   "file": "_deps/file-actions-acae99ddb591.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 13831,
+   "formatted_bytes": 23104,
+   "formatter": "prettier",
+   "sha256_raw": "aab175ca0aa0c0d9e5bebec80701c4dcb2efbf3350734fa9c627280166bbe33b"
+  },
+  {
+   "archive_path": "webview/assets/file-actions-menu-6e870edcf7c5.js",
+   "file": "_deps/file-actions-menu-6e870edcf7c5.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 11232,
+   "formatted_bytes": 17392,
+   "formatter": "prettier",
+   "sha256_raw": "4dfb7b00d9e022305c1a1e3e570cd6134e6177ab7eb1a12f65c6a9ece4c039cf"
+  },
+  {
+   "archive_path": "webview/assets/file-attachment-status-151f8b7fbd10.js",
+   "file": "_deps/file-attachment-status-151f8b7fbd10.js",
+   "selected_by": "closure:d1:chatgpt-project-settings-dialog-cee66ddcfb5d.js",
+   "raw_bytes": 10113,
+   "formatted_bytes": 17510,
+   "formatter": "prettier",
+   "sha256_raw": "96deed50094514780db4f1a496c0cc1ecd1c30cabaacf4a7744ff206de6384f4"
+  },
+  {
+   "archive_path": "webview/assets/first-app-connect-ambient-suggestions-5d83a2ddd888.js",
+   "file": "_deps/first-app-connect-ambient-suggestions-5d83a2ddd888.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1110,
+   "formatted_bytes": 1342,
+   "formatter": "prettier",
+   "sha256_raw": "651531d6417bab6bd8905cecdcfec69d5cbe9db162945f658aecfb7e670660fa"
+  },
+  {
+   "archive_path": "webview/assets/floating-chat-dock-menu-f3797f98b6c8.js",
+   "file": "_deps/floating-chat-dock-menu-f3797f98b6c8.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3985,
+   "formatted_bytes": 6558,
+   "formatter": "prettier",
+   "sha256_raw": "4e85ed44c169c2ac5065832c2f7e5253f645b5cb2bf9e7084c587cfb88704817"
+  },
+  {
+   "archive_path": "webview/assets/floating-chat-surface-1eaefa25765a.js",
+   "file": "_deps/floating-chat-surface-1eaefa25765a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 40826,
+   "formatted_bytes": 65734,
+   "formatter": "prettier",
+   "sha256_raw": "587438883b0a244935ba3224e6037fdd6bf817190563d853d5c9886453568033"
+  },
+  {
+   "archive_path": "webview/assets/floating-chat-surface-3b44643095bc.css",
+   "file": "_deps/floating-chat-surface-3b44643095bc.css",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 401,
+   "formatted_bytes": 511,
+   "formatter": "prettier",
+   "sha256_raw": "c36bc89499382f9a0c3b0cd759301c675ad0388a2366e55caababc8af93466bc"
+  },
+  {
+   "archive_path": "webview/assets/forecast-6624254f5324.js",
+   "file": "_deps/forecast-6624254f5324.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 3132,
+   "formatted_bytes": 4732,
+   "formatter": "prettier",
+   "sha256_raw": "5091156b2d1771afd0bea28946b0002a65c3955e2b1423b27b09a3655bfe2b9e"
+  },
+  {
+   "archive_path": "webview/assets/format-amount-ee20e9ffab40.js",
+   "file": "_deps/format-amount-ee20e9ffab40.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 351,
+   "formatted_bytes": 414,
+   "formatter": "prettier",
+   "sha256_raw": "2e30c75f2acff12062dd12c742fb817a4739957676d4202f8ed33e1bd2978fba"
+  },
+  {
+   "archive_path": "webview/assets/frame-7afb78caee91.js",
+   "file": "_deps/frame-7afb78caee91.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 31230,
+   "formatted_bytes": 48355,
+   "formatter": "prettier",
+   "sha256_raw": "88934d25ff7c312390d440e30b7c9faf40315228782b89668a2cc112339b18f4"
+  },
+  {
+   "archive_path": "webview/assets/Fuego-1bd64aa627c5.js",
+   "file": "_deps/Fuego-1bd64aa627c5.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 24029,
+   "formatted_bytes": 44182,
+   "formatter": "prettier",
+   "sha256_raw": "c506925898efb8620b168325eb27224cf0153573353ecf5d602215897311c201"
+  },
+  {
+   "archive_path": "webview/assets/gating-aa49ce8f8b88.js",
+   "file": "_deps/gating-aa49ce8f8b88.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 247,
+   "formatted_bytes": 276,
+   "formatter": "prettier",
+   "sha256_raw": "930af4218575d55e269b611a82e27dda5d8394ea537ba33b7bbc20226990aac7"
+  },
+  {
+   "archive_path": "webview/assets/generated-image-context-menu-f31af82c03a2.js",
+   "file": "_deps/generated-image-context-menu-f31af82c03a2.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 8204,
+   "formatted_bytes": 13324,
+   "formatter": "prettier",
+   "sha256_raw": "c82dfd342be5cf4fd5f1326a476d93ffc980696a3a431c428db3abab983e61ce"
+  },
+  {
+   "archive_path": "webview/assets/generated-image-file-info-297b6511e50c.js",
+   "file": "_deps/generated-image-file-info-297b6511e50c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1121,
+   "formatted_bytes": 1522,
+   "formatter": "prettier",
+   "sha256_raw": "b10987910414b3ad977e07966872d9131298c27ac3dc811b032f0892f3250a21"
+  },
+  {
+   "archive_path": "webview/assets/generated-image-gallery-context-menu-ab2c084ed491.js",
+   "file": "_deps/generated-image-gallery-context-menu-ab2c084ed491.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 542,
+   "formatted_bytes": 748,
+   "formatter": "prettier",
+   "sha256_raw": "698c76c12548e38a7f851984af295392ec76d5a448f5cedf010168e793f3ce34"
+  },
+  {
+   "archive_path": "webview/assets/generated-image-placeholder-1b8c60c62b01.js",
+   "file": "_deps/generated-image-placeholder-1b8c60c62b01.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 671,
+   "formatted_bytes": 932,
+   "formatter": "prettier",
+   "sha256_raw": "836e83ffacb3d0fafe0af1c8e361a29752ec19ff77597897976ad35b57caa087"
+  },
+  {
+   "archive_path": "webview/assets/generated-image-placeholder-696fd55735f4.css",
+   "file": "_deps/generated-image-placeholder-696fd55735f4.css",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 467,
+   "formatted_bytes": 587,
+   "formatter": "prettier",
+   "sha256_raw": "a2ab5f3f746e45fd0d7c615a389c40113162feb7417c2542acc2135ef90e3273"
+  },
+  {
+   "archive_path": "webview/assets/generated-image-source-99de49df778d.js",
+   "file": "_deps/generated-image-source-99de49df778d.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2206,
+   "formatted_bytes": 3696,
+   "formatter": "prettier",
+   "sha256_raw": "690036bac5b599e29c0633e48c503cd9759ed0aee1bb31df36ae948f7f555c0b"
+  },
+  {
+   "archive_path": "webview/assets/git-branch-switcher-state-be975e33bdec.js",
+   "file": "_deps/git-branch-switcher-state-be975e33bdec.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1250,
+   "formatted_bytes": 1735,
+   "formatter": "prettier",
+   "sha256_raw": "ecf614b505460fb3b22249a783b46479223ee8394ee5648b4e2778fc67716ddf"
+  },
+  {
+   "archive_path": "webview/assets/git-summary-branch-changes-row-262d1d18e02d.js",
+   "file": "_deps/git-summary-branch-changes-row-262d1d18e02d.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2686,
+   "formatted_bytes": 4193,
+   "formatter": "prettier",
+   "sha256_raw": "595683ee1b1c0f495f1beb213c86d089d426584e10eb1f100a880127ba20bb8c"
+  },
+  {
+   "archive_path": "webview/assets/gpt-about-dialog-2b97ec4a95df.js",
+   "file": "_deps/gpt-about-dialog-2b97ec4a95df.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 35909,
+   "formatted_bytes": 57197,
+   "formatter": "prettier",
+   "sha256_raw": "db59b151178cac364fafaa9fe7f7af9e930704b1da5b7e63f8afbf31c8ad0ed7"
+  },
+  {
+   "archive_path": "webview/assets/gpt-header-about-dialog-b6976cdd6767.js",
+   "file": "_deps/gpt-header-about-dialog-b6976cdd6767.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 1426,
+   "formatted_bytes": 2215,
+   "formatter": "prettier",
+   "sha256_raw": "5e2ec789d61cb1f4741adb10416e4faad7f9da533b025811f1475d42358136ba"
+  },
+  {
+   "archive_path": "webview/assets/gpt-report-menu-item-a5ae92b8bf9d.js",
+   "file": "_deps/gpt-report-menu-item-a5ae92b8bf9d.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 1755,
+   "formatted_bytes": 2589,
+   "formatter": "prettier",
+   "sha256_raw": "91a5051ecf1c9564252245bc82010b0f43d4f9e3b1fe8db824969e2f2288954b"
+  },
+  {
+   "archive_path": "webview/assets/handoff-8870f27e881f.js",
+   "file": "_deps/handoff-8870f27e881f.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1391,
+   "formatted_bytes": 1977,
+   "formatter": "prettier",
+   "sha256_raw": "e5635a513e3fad70f67422048e42ab1c087baa2d2398c9cd3fcb3061498e1d76"
+  },
+  {
+   "archive_path": "webview/assets/header-actions-ec14aff01ba4.js",
+   "file": "_deps/header-actions-ec14aff01ba4.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 6260,
+   "formatted_bytes": 10357,
+   "formatter": "prettier",
+   "sha256_raw": "066462590dd953368384792c10d2f793426de4abfdb12fd73f03621366527b01"
+  },
+  {
+   "archive_path": "webview/assets/history-5933269c8d87.js",
+   "file": "_deps/history-5933269c8d87.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1641,
+   "formatted_bytes": 2339,
+   "formatter": "prettier",
+   "sha256_raw": "c2d1e7a4fde0ea16ac317abf3e7cf858b91e841e796e0d0c766bc7d8ba82cf73"
+  },
+  {
+   "archive_path": "webview/assets/home-beacon-b81b49ffbe31.js",
+   "file": "_deps/home-beacon-b81b49ffbe31.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 4713,
+   "formatted_bytes": 7405,
+   "formatter": "prettier",
+   "sha256_raw": "56819504aea19f5f1d9e89b443cdd2019e9a8b25b0d8c8b227e28d640882b719"
+  },
+  {
+   "archive_path": "webview/assets/home-beacon-c43434b6cf07.js",
+   "file": "_deps/home-beacon-c43434b6cf07.js",
+   "selected_by": "closure:d1:codex-app-home-beacon-announcement-910215ce3170.js",
+   "raw_bytes": 5516,
+   "formatted_bytes": 8332,
+   "formatter": "prettier",
+   "sha256_raw": "cd6359513fe28051ba383a8e0a14bfa64389dd24e49c82196ad494fe06a18c6f"
+  },
+  {
+   "archive_path": "webview/assets/hosted-mcp-app-adapter-ed4bf75c654b.js",
+   "file": "_deps/hosted-mcp-app-adapter-ed4bf75c654b.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1911,
+   "formatted_bytes": 2429,
+   "formatter": "prettier",
+   "sha256_raw": "116b38e54a71a1847871d2e914a516ef76533219639ca8562a0dc583b6627855"
+  },
+  {
+   "archive_path": "webview/assets/hover-card-4876eddc8a12.js",
+   "file": "_deps/hover-card-4876eddc8a12.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5826,
+   "formatted_bytes": 9416,
+   "formatter": "prettier",
+   "sha256_raw": "cac7b22c69ec55b6098c9f60cc1b5d9d625b054eedd637497becb059cf5f5df0"
+  },
+  {
+   "archive_path": "webview/assets/i18n-6a3dd6ccc2b6.css",
+   "file": "_deps/i18n-6a3dd6ccc2b6.css",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 4537,
+   "formatted_bytes": 5696,
+   "formatter": "prettier",
+   "sha256_raw": "2cac9ac342e0551cef20e0965211b049f4a42f5a61ef4c626afe8eaf6d3e6248"
+  },
+  {
+   "archive_path": "webview/assets/image-analytics-9ce99551cbe6.js",
+   "file": "_deps/image-analytics-9ce99551cbe6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-dialog-2c5266898ceb.js",
+   "raw_bytes": 6104,
+   "formatted_bytes": 8529,
+   "formatter": "prettier",
+   "sha256_raw": "e45dc8864a2a5909abb3672eee32412f9d13cafeeb1f456249d072223d1e70cb"
+  },
+  {
+   "archive_path": "webview/assets/image-data-396f3850bc09.js",
+   "file": "_deps/image-data-396f3850bc09.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1222,
+   "formatted_bytes": 1577,
+   "formatter": "prettier",
+   "sha256_raw": "7434a7aed57992953522653a418127bdc97952518e9b68c98dcb3fc5a510eec0"
+  },
+  {
+   "archive_path": "webview/assets/image-e9150f0dbb98.js",
+   "file": "_deps/image-e9150f0dbb98.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 20523,
+   "formatted_bytes": 30959,
+   "formatter": "prettier",
+   "sha256_raw": "b2951848e576d79f2ece0c4e4c0ca2ba9aafcf673ffb313aa95f4fe9bd978bdd"
+  },
+  {
+   "archive_path": "webview/assets/image-edit-size-control-b617380ec325.js",
+   "file": "_deps/image-edit-size-control-b617380ec325.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1049,
+   "formatted_bytes": 1524,
+   "formatter": "prettier",
+   "sha256_raw": "6c6402a0c5c10ca965a6933bc8039ede8de647a5526ce06dc4d5e7b0eecd3908"
+  },
+  {
+   "archive_path": "webview/assets/image-edit-toolbar-b4c63cc4a779.js",
+   "file": "_deps/image-edit-toolbar-b4c63cc4a779.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1203,
+   "formatted_bytes": 1873,
+   "formatter": "prettier",
+   "sha256_raw": "e87c1666124d6cad869b7d30e6fd38414d01f582017cefa24c8f67518964f8c2"
+  },
+  {
+   "archive_path": "webview/assets/image-edit-viewer-1c925ee95df4.js",
+   "file": "_deps/image-edit-viewer-1c925ee95df4.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 29148,
+   "formatted_bytes": 48335,
+   "formatter": "prettier",
+   "sha256_raw": "5aeae3c2c4020ba8978519cd6425f282cf2d69535fa04402c958153de9a4557c"
+  },
+  {
+   "archive_path": "webview/assets/image-edit-viewer-6dc2c31e3a99.css",
+   "file": "_deps/image-edit-viewer-6dc2c31e3a99.css",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5575,
+   "formatted_bytes": 7009,
+   "formatter": "prettier",
+   "sha256_raw": "1200cba2930ae1c5fa27312dc6118fbc0e0a51b7f2aa8523f1cbc08bb63e8866"
+  },
+  {
+   "archive_path": "webview/assets/image-favorite-actions-edc8afd66001.js",
+   "file": "_deps/image-favorite-actions-edc8afd66001.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5189,
+   "formatted_bytes": 7665,
+   "formatter": "prettier",
+   "sha256_raw": "94b3194f7c5a9ab44b91ff90dd2d7c7bab2e3be45a4f950fa63655a6c7d4726f"
+  },
+  {
+   "archive_path": "webview/assets/image-gen-loading-games-39005ee7f071.js",
+   "file": "_deps/image-gen-loading-games-39005ee7f071.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 31448,
+   "formatted_bytes": 47437,
+   "formatter": "prettier",
+   "sha256_raw": "b6a4cfee718cb5f64c894e04df3c008ba741a8cb1e89858f3b64ed64d99ad0d1"
+  },
+  {
+   "archive_path": "webview/assets/image-group-carousel-fd5027765330.js",
+   "file": "_deps/image-group-carousel-fd5027765330.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 10185,
+   "formatted_bytes": 17106,
+   "formatter": "prettier",
+   "sha256_raw": "c4e639bfb48647684f121cf412042f328aaca5c8c4200c276acb95edbfa280a0"
+  },
+  {
+   "archive_path": "webview/assets/image-lightbox-4456a93cb194.js",
+   "file": "_deps/image-lightbox-4456a93cb194.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2238,
+   "formatted_bytes": 3354,
+   "formatter": "prettier",
+   "sha256_raw": "5578abb0ca0302ca0c9d72fc4eaa81dbe8e9053a7339015360fee2273906a041"
+  },
+  {
+   "archive_path": "webview/assets/image-result-viewed-78a76a94ce71.js",
+   "file": "_deps/image-result-viewed-78a76a94ce71.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2625,
+   "formatted_bytes": 3760,
+   "formatter": "prettier",
+   "sha256_raw": "bfece95f0ee166d0e3db521f4250f75059b0236fea9df11ac5387e04cf11f2de"
+  },
+  {
+   "archive_path": "webview/assets/image-source-477af9137605.js",
+   "file": "_deps/image-source-477af9137605.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 556,
+   "formatted_bytes": 689,
+   "formatter": "prettier",
+   "sha256_raw": "83822f4ce900468c59f5ab626f5afeeebaa569d2f59b506d8f3aa689c2267088"
+  },
+  {
+   "archive_path": "webview/assets/image-source-link-c644a697f26c.js",
+   "file": "_deps/image-source-link-c644a697f26c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1628,
+   "formatted_bytes": 2423,
+   "formatter": "prettier",
+   "sha256_raw": "f641d84d0c83206b3ecd7cbbd011b11d8184358f9c31a5494bb50984fa60163b"
+  },
+  {
+   "archive_path": "webview/assets/image-tools-toolbar-fcd30c6251a3.js",
+   "file": "_deps/image-tools-toolbar-fcd30c6251a3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 29927,
+   "formatted_bytes": 41189,
+   "formatter": "prettier",
+   "sha256_raw": "6dd43e3af03a573d9c7a6cc46ddc57d3935d8e13e4af26e4324627d56eb4111b"
+  },
+  {
+   "archive_path": "webview/assets/inline-34068e44e480.js",
+   "file": "_deps/inline-34068e44e480.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 1756,
+   "formatted_bytes": 2340,
+   "formatter": "prettier",
+   "sha256_raw": "3aea2a592e46696b2a9f0525fc3a376fe93dba782df55e7f8b41a3082b4e81ef"
+  },
+  {
+   "archive_path": "webview/assets/inline-cd01a22b94ae.js",
+   "file": "_deps/inline-cd01a22b94ae.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "raw_bytes": 2147,
+   "formatted_bytes": 3312,
+   "formatter": "prettier",
+   "sha256_raw": "5dd3e56547ba58f84edb60199f4fd73fe45b0f4b1025d5b852468f5fa5fb1d26"
+  },
+  {
+   "archive_path": "webview/assets/inline-checkout-success-592d39082810.js",
+   "file": "_deps/inline-checkout-success-592d39082810.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 639,
+   "formatted_bytes": 899,
+   "formatter": "prettier",
+   "sha256_raw": "b8b3f0f73a3fdc24321ec624b6876169a3029470460b2ea84f5257f11d5396a2"
+  },
+  {
+   "archive_path": "webview/assets/inline-checkout-success-banner-view-85fed2360d5d.css",
+   "file": "_deps/inline-checkout-success-banner-view-85fed2360d5d.css",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 1147,
+   "formatted_bytes": 1489,
+   "formatter": "prettier",
+   "sha256_raw": "9de20a4dff3fb8aeaa5b92216c506a46f1ee2d36066d98ba286f05743da04d7f"
+  },
+  {
+   "archive_path": "webview/assets/inline-checkout-success-banner-view-cd7dc0725f8e.js",
+   "file": "_deps/inline-checkout-success-banner-view-cd7dc0725f8e.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 5236,
+   "formatted_bytes": 7442,
+   "formatter": "prettier",
+   "sha256_raw": "ea7f445c9e19c02d2f10c9a8f58dbc5f69322e7fcbaec4e21afe33be9c75a409"
+  },
+  {
+   "archive_path": "webview/assets/inline-content-8955f46af97e.js",
+   "file": "_deps/inline-content-8955f46af97e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 8502,
+   "formatted_bytes": 13127,
+   "formatter": "prettier",
+   "sha256_raw": "4583d64931b207e1b49dd893cec77d7570489304349ecb73737e15c7d0bb6603"
+  },
+  {
+   "archive_path": "webview/assets/inline-dil-actions-fb1587cf3c5b.js",
+   "file": "_deps/inline-dil-actions-fb1587cf3c5b.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 9107,
+   "formatted_bytes": 13395,
+   "formatter": "prettier",
+   "sha256_raw": "fecc65aee777e78769767733609b14c64015a9d3fd2adc930a8675a5e9faef5e"
+  },
+  {
+   "archive_path": "webview/assets/inline-followup-markdown-a6d7201af965.js",
+   "file": "_deps/inline-followup-markdown-a6d7201af965.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 23191,
+   "formatted_bytes": 31517,
+   "formatter": "prettier",
+   "sha256_raw": "61bd5aac18fe169bb868ec37c9468fbfe1d11731afc2ba5b17729e59c6151976"
+  },
+  {
+   "archive_path": "webview/assets/inline-link-1fab6bef5499.js",
+   "file": "_deps/inline-link-1fab6bef5499.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 822,
+   "formatted_bytes": 1128,
+   "formatter": "prettier",
+   "sha256_raw": "f374e23ffcaf602f058a595fc748f73451ac24418c9626756e546292ae3e54b1"
+  },
+  {
+   "archive_path": "webview/assets/inline-playback-3c9452efb9d4.js",
+   "file": "_deps/inline-playback-3c9452efb9d4.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 6148,
+   "formatted_bytes": 11252,
+   "formatter": "prettier",
+   "sha256_raw": "0d2e819f1a230150a01789a57edf2a5efc5a8173b182caaf1a187f7fef023384"
+  },
+  {
+   "archive_path": "webview/assets/inline-popover-provider-38970fcaf18a.js",
+   "file": "_deps/inline-popover-provider-38970fcaf18a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 6514,
+   "formatted_bytes": 10426,
+   "formatter": "prettier",
+   "sha256_raw": "12a5440b6a4df70671b58830518475bd4ecfb982891586c14d8fb5e22a9374f5"
+  },
+  {
+   "archive_path": "webview/assets/inline-reference-trigger-921d6e3f5a6c.js",
+   "file": "_deps/inline-reference-trigger-921d6e3f5a6c.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 646,
+   "formatted_bytes": 966,
+   "formatter": "prettier",
+   "sha256_raw": "31aeb9ee29e1a27d2023094e659ce6a751b97c7592e7d8285e9bcbd95bea1053"
+  },
+  {
+   "archive_path": "webview/assets/inline-tool-suggestion-request-card-4de34e271dcf.js",
+   "file": "_deps/inline-tool-suggestion-request-card-4de34e271dcf.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 25687,
+   "formatted_bytes": 40691,
+   "formatter": "prettier",
+   "sha256_raw": "7158a6b1588b8dba4fad9f7ec72fda533790cd947cdaefd9a1b90f4995fe139b"
+  },
+  {
+   "archive_path": "webview/assets/Kit-9d2bdd955495.js",
+   "file": "_deps/Kit-9d2bdd955495.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 26829,
+   "formatted_bytes": 47261,
+   "formatter": "prettier",
+   "sha256_raw": "1b476f586b1d415bdf99bed954090f5c730dcbe5f9bd8a7f0a26ab021f6bb480"
+  },
+  {
+   "archive_path": "webview/assets/languages-13cd015eff70.js",
+   "file": "_deps/languages-13cd015eff70.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 6136,
+   "formatted_bytes": 9620,
+   "formatter": "prettier",
+   "sha256_raw": "a28be6219b8e0bbb060630f4a548b67261417ea749d5a30d0b7bd7895844074e"
+  },
+  {
+   "archive_path": "webview/assets/lazy-response-5d40fb814ced.js",
+   "file": "_deps/lazy-response-5d40fb814ced.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 11993,
+   "formatted_bytes": 15638,
+   "formatter": "prettier",
+   "sha256_raw": "0fa2a9f0f966cbf03c221549db755f4b6df98161e69977fe169e0bf642f3d719"
+  },
+  {
+   "archive_path": "webview/assets/lazy-response-6ad5da17f0ae.js",
+   "file": "_deps/lazy-response-6ad5da17f0ae.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1809,
+   "formatted_bytes": 2441,
+   "formatter": "prettier",
+   "sha256_raw": "e6f1f6dd70aadc6d59542132e140a4ac3d5c135005d9a39a22d895345a151a44"
+  },
+  {
+   "archive_path": "webview/assets/linked-reference-1865fe901f10.js",
+   "file": "_deps/linked-reference-1865fe901f10.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2277,
+   "formatted_bytes": 3525,
+   "formatter": "prettier",
+   "sha256_raw": "5ecc627aa811c97330c636b72bc40ffd31c95870634614546b2372ebf3762d9e"
+  },
+  {
+   "archive_path": "webview/assets/linkedin-21df1590d52c.js",
+   "file": "_deps/linkedin-21df1590d52c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-dialog-2c5266898ceb.js",
+   "raw_bytes": 1748,
+   "formatted_bytes": 1960,
+   "formatter": "prettier",
+   "sha256_raw": "6dba7840f2ecd3a8b566ef7d85c01614cfc67ae5044f22841b26498a59311bd8"
+  },
+  {
+   "archive_path": "webview/assets/load-performance-d91bd9d503da.js",
+   "file": "_deps/load-performance-d91bd9d503da.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1196,
+   "formatted_bytes": 1950,
+   "formatter": "prettier",
+   "sha256_raw": "844d91c0afd0d53172778020c54457d2959dd673652cf1e9d52408235686d445"
+  },
+  {
+   "archive_path": "webview/assets/load-view-c5fe81d0a2fa.js",
+   "file": "_deps/load-view-c5fe81d0a2fa.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 3238,
+   "formatted_bytes": 4565,
+   "formatter": "prettier",
+   "sha256_raw": "92209f0f8572450f8f2c9971edf7a03ad92b21e2a44cd414dca3c3f467a126d9"
+  },
+  {
+   "archive_path": "webview/assets/local-folders-section-e93c6e47a83b.js",
+   "file": "_deps/local-folders-section-e93c6e47a83b.js",
+   "selected_by": "closure:d1:chatgpt-project-settings-dialog-cee66ddcfb5d.js",
+   "raw_bytes": 5992,
+   "formatted_bytes": 9180,
+   "formatter": "prettier",
+   "sha256_raw": "cf82e35b51c62ed068c85c819ebf71280b6bd6b87963fd334dbc92029ada7a81"
+  },
+  {
+   "archive_path": "webview/assets/LocaleResolver-442ce4437d3e.js",
+   "file": "_deps/LocaleResolver-442ce4437d3e.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 6739,
+   "formatted_bytes": 10338,
+   "formatter": "prettier",
+   "sha256_raw": "b33a16638521a9cd688cfebf375621c2fba4f43a792c5c9df7157c5ae887aa7f"
+  },
+  {
+   "archive_path": "webview/assets/location-search-8f13122a1578.js",
+   "file": "_deps/location-search-8f13122a1578.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 1168,
+   "formatted_bytes": 1723,
+   "formatter": "prettier",
+   "sha256_raw": "0af78148711c2dae8081c4b6182a186b28fb9bade0b8a8e2b0bf1dcf9562414f"
+  },
+  {
+   "archive_path": "webview/assets/logout-engine-8fde8f64413f.js",
+   "file": "_deps/logout-engine-8fde8f64413f.js",
+   "selected_by": "closure:d1:announcement-host-6bd5c290ff77.js",
+   "raw_bytes": 7206,
+   "formatted_bytes": 10256,
+   "formatter": "prettier",
+   "sha256_raw": "121780866a0835ff70bbf2fa2d1c747ab0f091c4660d6bc4a2650119498eb4db"
+  },
+  {
+   "archive_path": "webview/assets/MadamLuminary-8e91a4e7dafa.js",
+   "file": "_deps/MadamLuminary-8e91a4e7dafa.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 25629,
+   "formatted_bytes": 46017,
+   "formatter": "prettier",
+   "sha256_raw": "b3654336d4a08e7b3a4b7528f310d49f3e9754994dc342e873246c02f66f2b7e"
+  },
+  {
+   "archive_path": "webview/assets/Mailman-e76fb410b224.js",
+   "file": "_deps/Mailman-e76fb410b224.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 30212,
+   "formatted_bytes": 52201,
+   "formatter": "prettier",
+   "sha256_raw": "061ffd9577cbb7ddcac172ecf4c688848c0c1eab4cebdee5e903f40c61cf8cf3"
+  },
+  {
+   "archive_path": "webview/assets/map.module-4a5d0fe8a676.js",
+   "file": "_deps/map.module-4a5d0fe8a676.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 501,
+   "formatted_bytes": 744,
+   "formatter": "prettier",
+   "sha256_raw": "3ff6bc1cdb3f6bd5d8d15739ca050f49e04f1f1e9ac8da187bc3f6d8c37770e3"
+  },
+  {
+   "archive_path": "webview/assets/markdown-c48b6327bb53.css",
+   "file": "_deps/markdown-c48b6327bb53.css",
+   "selected_by": "closure:d1:chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "raw_bytes": 9291,
+   "formatted_bytes": 11364,
+   "formatter": "prettier",
+   "sha256_raw": "88118770fee52c48ab1c18891651dd518f78c517feddc8835aab872938a3fa18"
+  },
+  {
+   "archive_path": "webview/assets/markdown-dcdf33c0542f.js",
+   "file": "_deps/markdown-dcdf33c0542f.js",
+   "selected_by": "closure:d1:chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "raw_bytes": 8318,
+   "formatted_bytes": 12063,
+   "formatter": "prettier",
+   "sha256_raw": "ac80540b3342fd020dce851a3cb72895bfa47f167ea0784a640a2c2a9be91607"
+  },
+  {
+   "archive_path": "webview/assets/mcp-app-analytics-7a30d3890ba8.js",
+   "file": "_deps/mcp-app-analytics-7a30d3890ba8.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 442,
+   "formatted_bytes": 545,
+   "formatter": "prettier",
+   "sha256_raw": "b3b37c6cfdf18c1f28db14a432ee5ded0b0b6b2766b308bd29a2dc6dadc932d5"
+  },
+  {
+   "archive_path": "webview/assets/mcp-plugin-logo-7c38d32a1075.js",
+   "file": "_deps/mcp-plugin-logo-7c38d32a1075.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 28231,
+   "formatted_bytes": 45644,
+   "formatter": "prettier",
+   "sha256_raw": "50890ab69729d6ac33193f58af5179c7cced1e85a676712df6cba7fcfb9b180b"
+  },
+  {
+   "archive_path": "webview/assets/mcp-tool-call-approval-b94fbe680732.js",
+   "file": "_deps/mcp-tool-call-approval-b94fbe680732.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 2057,
+   "formatted_bytes": 3094,
+   "formatter": "prettier",
+   "sha256_raw": "cde70d54b7e9a9330db87ede6bf731decbba969ad26dce7d9b34d51bb676a425"
+  },
+  {
+   "archive_path": "webview/assets/mcp-tool-item-content-ebb3be978329.js",
+   "file": "_deps/mcp-tool-item-content-ebb3be978329.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 61779,
+   "formatted_bytes": 101767,
+   "formatter": "prettier",
+   "sha256_raw": "8983223f58066045e9c98cbc254acaa9b27a2fd778ffedf2ea7c51881117e3da"
+  },
+  {
+   "archive_path": "webview/assets/media-c7a60b88bf06.css",
+   "file": "_deps/media-c7a60b88bf06.css",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 4079,
+   "formatted_bytes": 5098,
+   "formatter": "prettier",
+   "sha256_raw": "5281b03b11627c2f9102b388cf86e55c50538984713640b93f4cb7e651e24730"
+  },
+  {
+   "archive_path": "webview/assets/memory-manager-gate-c50f1c5729d4.js",
+   "file": "_deps/memory-manager-gate-c50f1c5729d4.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 197,
+   "formatted_bytes": 226,
+   "formatter": "prettier",
+   "sha256_raw": "8d8db4b0ff707c6c7315a15043477f14cbc5d4547e5a45151dffaf86e0e1c355"
+  },
+  {
+   "archive_path": "webview/assets/menu-1e62df6de238.js",
+   "file": "_deps/menu-1e62df6de238.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1289,
+   "formatted_bytes": 1803,
+   "formatter": "prettier",
+   "sha256_raw": "2e2c73d76402ae1b1e661dd202fccf65be1de4a55926b11abb54bce763861646"
+  },
+  {
+   "archive_path": "webview/assets/message-rating-3e44aeb8f79f.js",
+   "file": "_deps/message-rating-3e44aeb8f79f.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 14711,
+   "formatted_bytes": 23418,
+   "formatter": "prettier",
+   "sha256_raw": "f1e00010d4660b974edd80545161d35b1da8d141458cf01d5762ad61b44edda1"
+  },
+  {
+   "archive_path": "webview/assets/metadata-1af03955d81a.css",
+   "file": "_deps/metadata-1af03955d81a.css",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1511,
+   "formatted_bytes": 1718,
+   "formatter": "prettier",
+   "sha256_raw": "3c5143515c26f91c160db4d076a2cd83b7bb05aed57fb4ec76646057aaa40691"
+  },
+  {
+   "archive_path": "webview/assets/metadata-666402974555.js",
+   "file": "_deps/metadata-666402974555.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 24330,
+   "formatted_bytes": 38859,
+   "formatter": "prettier",
+   "sha256_raw": "6e56daeeab0400b459715b59fe2a645e5e3eb2d0a5f1a212d9c8cd79643a626c"
+  },
+  {
+   "archive_path": "webview/assets/metrics-3b7eaf938d29.js",
+   "file": "_deps/metrics-3b7eaf938d29.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 18104,
+   "formatted_bytes": 27697,
+   "formatter": "prettier",
+   "sha256_raw": "0f31ef99ae342251b0beb4ac66345e616117e7ab0297ee639fe7921f5269f6de"
+  },
+  {
+   "archive_path": "webview/assets/mobile-handoff-7f1ab09f9f9b.js",
+   "file": "_deps/mobile-handoff-7f1ab09f9f9b.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 7080,
+   "formatted_bytes": 10574,
+   "formatter": "prettier",
+   "sha256_raw": "4fca7d8829fb5bdbc8e743a88267cb5379d9955646997d57547f67424d525d28"
+  },
+  {
+   "archive_path": "webview/assets/model-picker-chevron-down-sm-4449bca94b0d.js",
+   "file": "_deps/model-picker-chevron-down-sm-4449bca94b0d.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 798,
+   "formatted_bytes": 996,
+   "formatter": "prettier",
+   "sha256_raw": "b4d92cd5a7c0e87db23f58c02919bd063a6934ea8b1e66d8593aa82ab87820f3"
+  },
+  {
+   "archive_path": "webview/assets/monetary-value-visibility-context-db1b777cfbe7.js",
+   "file": "_deps/monetary-value-visibility-context-db1b777cfbe7.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 281,
+   "formatted_bytes": 331,
+   "formatter": "prettier",
+   "sha256_raw": "db0d829efe7036b6b334492a177264191431bf558ce8e7aa2063f31cb7ec1e5b"
+  },
+  {
+   "archive_path": "webview/assets/navigation-15eda63f9742.js",
+   "file": "_deps/navigation-15eda63f9742.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 11293,
+   "formatted_bytes": 17952,
+   "formatter": "prettier",
+   "sha256_raw": "b14739c6780e18028d12584a644a0b74605fee985024e9d9e8e6f6e5dd53e125"
+  },
+  {
+   "archive_path": "webview/assets/navigation-source-8346601e255e.js",
+   "file": "_deps/navigation-source-8346601e255e.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 442,
+   "formatted_bytes": 593,
+   "formatter": "prettier",
+   "sha256_raw": "c16e93f11cb60597a4af63027d73d535952c923f630a29f120a787b2faa14902"
+  },
+  {
+   "archive_path": "webview/assets/new-chat-page-suggestions-eligibility-9196b189e944.js",
+   "file": "_deps/new-chat-page-suggestions-eligibility-9196b189e944.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1321,
+   "formatted_bytes": 1746,
+   "formatter": "prettier",
+   "sha256_raw": "cc0d09b9021e83b9bf0f358f306e47d3b2fa883c8a944a1f788c0886bfa797c2"
+  },
+  {
+   "archive_path": "webview/assets/NewsPaper-3b268e293e1a.js",
+   "file": "_deps/NewsPaper-3b268e293e1a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2984,
+   "formatted_bytes": 3479,
+   "formatter": "prettier",
+   "sha256_raw": "21c43370ae13d949ac6524730395bae129a728dda88c33e74e560ef4e2fcea49"
+  },
+  {
+   "archive_path": "webview/assets/noop-4d1a48b9db0c.js",
+   "file": "_deps/noop-4d1a48b9db0c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 174,
+   "formatted_bytes": 197,
+   "formatter": "prettier",
+   "sha256_raw": "860f71e269426afd41ef1e29e582c444b7314a07c9369cd74e599797fa301469"
+  },
+  {
+   "archive_path": "webview/assets/notices-e87d5e3af0c6.js",
+   "file": "_deps/notices-e87d5e3af0c6.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 13457,
+   "formatted_bytes": 19272,
+   "formatter": "prettier",
+   "sha256_raw": "a40c7150f8611ef8cc73a05c6d4aa6c2b04be9b99f32b57e9e5c29a807a0c386"
+  },
+  {
+   "archive_path": "webview/assets/observed-message-performance-marker-f5abdfaa796b.js",
+   "file": "_deps/observed-message-performance-marker-f5abdfaa796b.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1867,
+   "formatted_bytes": 2871,
+   "formatter": "prettier",
+   "sha256_raw": "a5584513ce5feb872e4d51c5a12b681507eb6f37dafad43944b22e6e8c84d41c"
+  },
+  {
+   "archive_path": "webview/assets/open-16df9d046a3f.js",
+   "file": "_deps/open-16df9d046a3f.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 17375,
+   "formatted_bytes": 26610,
+   "formatter": "prettier",
+   "sha256_raw": "10ef2fd7f293c9ca0b76c5f781d31509a6964e9ac05c198d141a2ccc7a36b0d8"
+  },
+  {
+   "archive_path": "webview/assets/open-c92018a41565.js",
+   "file": "_deps/open-c92018a41565.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 16976,
+   "formatted_bytes": 25564,
+   "formatter": "prettier",
+   "sha256_raw": "b611d2e4b7371480864bab02709ace3bb09b3145c702af8099224066710d4126"
+  },
+  {
+   "archive_path": "webview/assets/open-chatgpt-file-d98dc779596e.js",
+   "file": "_deps/open-chatgpt-file-d98dc779596e.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 168,
+   "formatted_bytes": 184,
+   "formatter": "prettier",
+   "sha256_raw": "a6628989fa1061b41bfee96c5928cbccf271e68f10d7526b53eb538765f116d6"
+  },
+  {
+   "archive_path": "webview/assets/open-d9fcda26bb62.js",
+   "file": "_deps/open-d9fcda26bb62.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 11813,
+   "formatted_bytes": 18698,
+   "formatter": "prettier",
+   "sha256_raw": "8d25c10c85cf6fdef07a6e20c97b894ac6b159fb6fb476b78dae60f528c3ca99"
+  },
+  {
+   "archive_path": "webview/assets/open-dialog-1e0f0e7268b1.js",
+   "file": "_deps/open-dialog-1e0f0e7268b1.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2286,
+   "formatted_bytes": 2862,
+   "formatter": "prettier",
+   "sha256_raw": "fb61a3b0108fd0c2967c9c9e6d9e99abece2a6bead8a07035edaac1f62e555cc"
+  },
+  {
+   "archive_path": "webview/assets/open-preview-d930be69e89c.js",
+   "file": "_deps/open-preview-d930be69e89c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 8514,
+   "formatted_bytes": 10913,
+   "formatter": "prettier",
+   "sha256_raw": "44a541da5743aabc6b030b8c08e5176271d8ee637bcb5a7d0e428a7a0c0994ad"
+  },
+  {
+   "archive_path": "webview/assets/open-status-941c56d7c3df.js",
+   "file": "_deps/open-status-941c56d7c3df.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 3657,
+   "formatted_bytes": 5488,
+   "formatter": "prettier",
+   "sha256_raw": "e094d9f7d2c5dba773191a1cec1ca35f96011b75883c0d2a2502c9ebdccee461"
+  },
+  {
+   "archive_path": "webview/assets/open-viewer-dad5e93e7bae.js",
+   "file": "_deps/open-viewer-dad5e93e7bae.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 907,
+   "formatted_bytes": 1207,
+   "formatter": "prettier",
+   "sha256_raw": "53f4bb3ae123689bd7d2d710f6a9d02f5b87bfb83227c65f518f06323cf0928c"
+  },
+  {
+   "archive_path": "webview/assets/option-carousel-ae2f9c0f0e72.js",
+   "file": "_deps/option-carousel-ae2f9c0f0e72.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 3540,
+   "formatted_bytes": 5686,
+   "formatter": "prettier",
+   "sha256_raw": "8722722c52ae21d4eb13b0e335c90b7e2dbbeb381bda3c822eb5a55ce141dab3"
+  },
+  {
+   "archive_path": "webview/assets/output-type-label-a174e1be80be.js",
+   "file": "_deps/output-type-label-a174e1be80be.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2405,
+   "formatted_bytes": 3628,
+   "formatter": "prettier",
+   "sha256_raw": "08b993358e35e59e8b880af4b7ad0f114e8c2df2cb1f25b06d8b44ec92ba5206"
+  },
+  {
+   "archive_path": "webview/assets/overlay-20cf83543bf4.js",
+   "file": "_deps/overlay-20cf83543bf4.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 16459,
+   "formatted_bytes": 27655,
+   "formatter": "prettier",
+   "sha256_raw": "dce48e842528cb1353d2f91bdee6b72eb50e17f3fe6889040266b7266823e286"
+  },
+  {
+   "archive_path": "webview/assets/overlay-load-error-562cbef26b7a.js",
+   "file": "_deps/overlay-load-error-562cbef26b7a.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1707,
+   "formatted_bytes": 2546,
+   "formatter": "prettier",
+   "sha256_raw": "82ac33734eba92f3d62aa3072847ffe6a5de03de38c5e5a42044ebd2309805db"
+  },
+  {
+   "archive_path": "webview/assets/Paige-e8800fb5fc07.js",
+   "file": "_deps/Paige-e8800fb5fc07.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 13633,
+   "formatted_bytes": 24979,
+   "formatter": "prettier",
+   "sha256_raw": "edc05bce7b7c106ba6511aee95a9176f50f2c1b9fba27774c41b3fcba83f8efa"
+  },
+  {
+   "archive_path": "webview/assets/parental-controls-invitation-background-c88ddd8be059.js",
+   "file": "_deps/parental-controls-invitation-background-c88ddd8be059.js",
+   "selected_by": "closure:d1:chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "raw_bytes": 294,
+   "formatted_bytes": 330,
+   "formatter": "prettier",
+   "sha256_raw": "ebe74af40b6836080cb3e59bb8c33a7cc1dcd6f3be84e692325e05994c206286"
+  },
+  {
+   "archive_path": "webview/assets/pasted-link-connect-modal-1c2e33f7c23a.js",
+   "file": "_deps/pasted-link-connect-modal-1c2e33f7c23a.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 1307,
+   "formatted_bytes": 1965,
+   "formatter": "prettier",
+   "sha256_raw": "a59c1f86e89c2f3a8d54840b2305e471ced3b027b2c816b926ebcee0051f00ed"
+  },
+  {
+   "archive_path": "webview/assets/patch-diff-stats-7ab13f013222.js",
+   "file": "_deps/patch-diff-stats-7ab13f013222.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 715,
+   "formatted_bytes": 944,
+   "formatter": "prettier",
+   "sha256_raw": "2eaad96c2c9c0b22a4c12e3b8f90f508792c089180d4efefaa75b24f2b6b02c1"
+  },
+  {
+   "archive_path": "webview/assets/patch-message-ba9f57a240e6.js",
+   "file": "_deps/patch-message-ba9f57a240e6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1021,
+   "formatted_bytes": 1413,
+   "formatter": "prettier",
+   "sha256_raw": "91873cbb6873d065bcfe52dd67fa4988f7d3f30d5e0f2e12b4f2d8bd8075e386"
+  },
+  {
+   "archive_path": "webview/assets/payment-method-assets-a65a422e942b.js",
+   "file": "_deps/payment-method-assets-a65a422e942b.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 1115,
+   "formatted_bytes": 1488,
+   "formatter": "prettier",
+   "sha256_raw": "c37be0cd35d50239bccd47be13dba394a2011764a45e18ec33d8aece787022fa"
+  },
+  {
+   "archive_path": "webview/assets/payment-method-display-9a3960f9fc88.js",
+   "file": "_deps/payment-method-display-9a3960f9fc88.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 6274,
+   "formatted_bytes": 8661,
+   "formatter": "prettier",
+   "sha256_raw": "b03a1b9a534b739f660a2ed44d543e90e8d6c1afd11a5a7ec555e0f275cb4eaa"
+  },
+  {
+   "archive_path": "webview/assets/payment-methods-d350525d78a1.js",
+   "file": "_deps/payment-methods-d350525d78a1.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 521,
+   "formatted_bytes": 663,
+   "formatter": "prettier",
+   "sha256_raw": "574385db1571c89bef3c7bc758c523df7bfaf599cd2fab1eafdce5118fa4d662"
+  },
+  {
+   "archive_path": "webview/assets/pca-connector-action-e4a9b762a947.js",
+   "file": "_deps/pca-connector-action-e4a9b762a947.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 4666,
+   "formatted_bytes": 6195,
+   "formatter": "prettier",
+   "sha256_raw": "341cb759d02de7696ce29e3869965731333d8f5f24f2a9a9c29b3ad0ef900c02"
+  },
+  {
+   "archive_path": "webview/assets/pca-connector-eligibility-f5d32777bb02.js",
+   "file": "_deps/pca-connector-eligibility-f5d32777bb02.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 13946,
+   "formatted_bytes": 21562,
+   "formatter": "prettier",
+   "sha256_raw": "a9a017aaba6b7bfc48acf244ef5b600da5b0f39bec62f7c664c103965329a89b"
+  },
+  {
+   "archive_path": "webview/assets/pending-edits-dialog-9c6af36d7219.js",
+   "file": "_deps/pending-edits-dialog-9c6af36d7219.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2277,
+   "formatted_bytes": 3337,
+   "formatter": "prettier",
+   "sha256_raw": "455a812d4412a719befb7b5d5bdfad2c584eef8e63c344cb364129719f263650"
+  },
+  {
+   "archive_path": "webview/assets/permission-explanation-eb8b87e3721b.js",
+   "file": "_deps/permission-explanation-eb8b87e3721b.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 5125,
+   "formatted_bytes": 7178,
+   "formatter": "prettier",
+   "sha256_raw": "a0dd72fd3a42189780c60112a7de574921173727319e56d1318fcf8a27b924ad"
+  },
+  {
+   "archive_path": "webview/assets/permission-state-ff8643bb7d10.js",
+   "file": "_deps/permission-state-ff8643bb7d10.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 362,
+   "formatted_bytes": 478,
+   "formatter": "prettier",
+   "sha256_raw": "5b8ed87d4aa0bab3bd07b8425c29f195adc78b1a3deebd9e96cb43991c974b6b"
+  },
+  {
+   "archive_path": "webview/assets/PieChart-3c8c6cf3cb69.js",
+   "file": "_deps/PieChart-3c8c6cf3cb69.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 14602,
+   "formatted_bytes": 22767,
+   "formatter": "prettier",
+   "sha256_raw": "aee8ab84d494226af82915a741ac4803b2f7c06499a34f3a9ad3ffec21eebdfc"
+  },
+  {
+   "archive_path": "webview/assets/PieChart-683222937584.js",
+   "file": "_deps/PieChart-683222937584.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 7342,
+   "formatted_bytes": 11716,
+   "formatter": "prettier",
+   "sha256_raw": "fbe20159b29c54a7fcc6cafc9e4f52329db5b395f3ec65dfd22b5af2dd74d119"
+  },
+  {
+   "archive_path": "webview/assets/PieChart-e86a85bf0cfe.css",
+   "file": "_deps/PieChart-e86a85bf0cfe.css",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 2966,
+   "formatted_bytes": 3668,
+   "formatter": "prettier",
+   "sha256_raw": "000d048e45342454b554060d4b10b01d729220582562dd3c8fd3e8c78b75c742"
+  },
+  {
+   "archive_path": "webview/assets/plaid-link-9eda498b2606.js",
+   "file": "_deps/plaid-link-9eda498b2606.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 12513,
+   "formatted_bytes": 18245,
+   "formatter": "prettier",
+   "sha256_raw": "ea52a4e9ee56ad3f4bc2a391bd5476c509811169f487b2fae5422ce82b0af305"
+  },
+  {
+   "archive_path": "webview/assets/plaid-link-fb2ecd2502fa.css",
+   "file": "_deps/plaid-link-fb2ecd2502fa.css",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 52,
+   "formatted_bytes": 61,
+   "formatter": "prettier",
+   "sha256_raw": "40ff37d6a7caa33d39b7ebf1938a5d9a33ef1653a8b33513c527f421531bd0b1"
+  },
+  {
+   "archive_path": "webview/assets/plan-file-4ed41883a51a.js",
+   "file": "_deps/plan-file-4ed41883a51a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 846,
+   "formatted_bytes": 1300,
+   "formatter": "prettier",
+   "sha256_raw": "0a627540c26e00259bbabfa379adf9cc9c236e35665fc8a3bfca79cf165df90b"
+  },
+  {
+   "archive_path": "webview/assets/plan-header-shortcut-2c55daa1d35f.js",
+   "file": "_deps/plan-header-shortcut-2c55daa1d35f.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 4597,
+   "formatted_bytes": 7213,
+   "formatter": "prettier",
+   "sha256_raw": "eb45f76be6f603b848919b6e971a37c27d934041778df9fca3be941545bdb24a"
+  },
+  {
+   "archive_path": "webview/assets/plan-implementation-request-0cd55f1ae7b1.js",
+   "file": "_deps/plan-implementation-request-0cd55f1ae7b1.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 264,
+   "formatted_bytes": 305,
+   "formatter": "prettier",
+   "sha256_raw": "f61857f4ef585862810b2521bc34ec57b2e82feae99aefb80f1001211788891d"
+  },
+  {
+   "archive_path": "webview/assets/plan-model-ad9ea6b59c2a.js",
+   "file": "_deps/plan-model-ad9ea6b59c2a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 826,
+   "formatted_bytes": 1143,
+   "formatter": "prettier",
+   "sha256_raw": "081fa6fba90284d7527063a797c2784ca94e8b2e86f0b401b4ffe64f6474b40c"
+  },
+  {
+   "archive_path": "webview/assets/plan-summary-item-content-d14ccedaff5d.js",
+   "file": "_deps/plan-summary-item-content-d14ccedaff5d.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 19312,
+   "formatted_bytes": 29479,
+   "formatter": "prettier",
+   "sha256_raw": "51cc50dbc66e8dba02b010afa46183b34a81f09c63e556f0f96255800fbd09b0"
+  },
+  {
+   "archive_path": "webview/assets/plugin-skill-preview-9078c0eb7255.js",
+   "file": "_deps/plugin-skill-preview-9078c0eb7255.js",
+   "selected_by": "closure:d1:chatgpt-skill-source-dialog-cf45c2dc0636.js",
+   "raw_bytes": 3152,
+   "formatted_bytes": 5303,
+   "formatter": "prettier",
+   "sha256_raw": "736f1b604ef37b60f986e450b3989cc9eab2f95d0ac8387da23ccc70bb2fd61a"
+  },
+  {
+   "archive_path": "webview/assets/plugin-suggestion-lifecycle-b8500eb519c3.js",
+   "file": "_deps/plugin-suggestion-lifecycle-b8500eb519c3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2382,
+   "formatted_bytes": 3148,
+   "formatter": "prettier",
+   "sha256_raw": "d6b01db0faf7c41e17491c42dd9c7614a42fcfd24e6c950266c65a30ab1491d4"
+  },
+  {
+   "archive_path": "webview/assets/plugin-view-frame-b4914cf87602.js",
+   "file": "_deps/plugin-view-frame-b4914cf87602.js",
+   "selected_by": "closure:d1:chatgpt-mcp-extension-view-page-c7dcc2a83512.js",
+   "raw_bytes": 3113,
+   "formatted_bytes": 4872,
+   "formatter": "prettier",
+   "sha256_raw": "ec0ab457b912dcf73c94b89c0ca18785f5dacca24e63237071557dfc96a6fcb4"
+  },
+  {
+   "archive_path": "webview/assets/Pocket-f9d2f6462922.js",
+   "file": "_deps/Pocket-f9d2f6462922.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 19832,
+   "formatted_bytes": 34684,
+   "formatter": "prettier",
+   "sha256_raw": "49bcf0c25e0d2dd850fd9b4bd614cc9f5b614da24d0265d7c6c10d6c153dc865"
+  },
+  {
+   "archive_path": "webview/assets/preferences-e7d4d025ef7c.js",
+   "file": "_deps/preferences-e7d4d025ef7c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1736,
+   "formatted_bytes": 2541,
+   "formatter": "prettier",
+   "sha256_raw": "32b1e6afb2b71fe93658886c11e71ab5d7e695dfc4a3d1924bd96d76c530ac94"
+  },
+  {
+   "archive_path": "webview/assets/preloaded-business-17f3b6dd9088.js",
+   "file": "_deps/preloaded-business-17f3b6dd9088.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2101,
+   "formatted_bytes": 2807,
+   "formatter": "prettier",
+   "sha256_raw": "2ab7ba7f641a1466071d0476e9a366b2224a2bf0366187666eb7f70ed9269e2d"
+  },
+  {
+   "archive_path": "webview/assets/preview-262cc6ad6e97.js",
+   "file": "_deps/preview-262cc6ad6e97.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5318,
+   "formatted_bytes": 8013,
+   "formatter": "prettier",
+   "sha256_raw": "8399d2c2ac1c880baba66599defbc2caf6789e62d7f212550d3c2726c0e1948c"
+  },
+  {
+   "archive_path": "webview/assets/preview-83c3b632411a.js",
+   "file": "_deps/preview-83c3b632411a.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-4a72280929b3.js",
+   "raw_bytes": 1794,
+   "formatted_bytes": 2719,
+   "formatter": "prettier",
+   "sha256_raw": "4e25956a9da96e58b3cb526fa25ed043ecc1de5fe6a8b1a9662ec1eec7cda7fe"
+  },
+  {
+   "archive_path": "webview/assets/preview-85b93e888cc5.js",
+   "file": "_deps/preview-85b93e888cc5.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 124,
+   "formatted_bytes": 138,
+   "formatter": "prettier",
+   "sha256_raw": "cf135f679f20cef318501244057a9eccc938086ac88a42b77d58c5f0c578811d"
+  },
+  {
+   "archive_path": "webview/assets/preview-bc97f1c7a0a4.js",
+   "file": "_deps/preview-bc97f1c7a0a4.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 4427,
+   "formatted_bytes": 7262,
+   "formatter": "prettier",
+   "sha256_raw": "15ea5e57635111e1db702c8e2bdb185021051ddffd811d713d337492cfed9164"
+  },
+  {
+   "archive_path": "webview/assets/preview-footer-4ffc6baac626.js",
+   "file": "_deps/preview-footer-4ffc6baac626.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 2545,
+   "formatted_bytes": 4014,
+   "formatter": "prettier",
+   "sha256_raw": "26802624513cef9962ba59b3998fbaac89ef2208fa15dba0bc0f5cfb7cfe1fa1"
+  },
+  {
+   "archive_path": "webview/assets/prism-light-ec057698b650.js",
+   "file": "_deps/prism-light-ec057698b650.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 104891,
+   "formatted_bytes": 151440,
+   "formatter": "prettier",
+   "sha256_raw": "5d9c9696ac789b779a36733dbb7249d836604fe38ba8b43815c7d31d894917ac"
+  },
+  {
+   "archive_path": "webview/assets/product-25e6335b7c80.js",
+   "file": "_deps/product-25e6335b7c80.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 15729,
+   "formatted_bytes": 25897,
+   "formatter": "prettier",
+   "sha256_raw": "3b5028bca362a1fcb6f1d9d1bb4eca1da8192488d422f2f0f2cf4592fc701829"
+  },
+  {
+   "archive_path": "webview/assets/product-favorite-action-157a8d6ad017.js",
+   "file": "_deps/product-favorite-action-157a8d6ad017.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3098,
+   "formatted_bytes": 4592,
+   "formatter": "prettier",
+   "sha256_raw": "4bc5bf67f672a7f2e72f9cbe1c459008f5677bebd986b6b951c1cd719f1dd698"
+  },
+  {
+   "archive_path": "webview/assets/product-image-placeholder-138c9a2a6059.js",
+   "file": "_deps/product-image-placeholder-138c9a2a6059.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 15259,
+   "formatted_bytes": 22971,
+   "formatter": "prettier",
+   "sha256_raw": "4c00357b42ce01a4f14418a29cba2e7148abca5754f1c8e4a6c8d21689cbe90c"
+  },
+  {
+   "archive_path": "webview/assets/product-intervention-notice-6c0737ae54eb.js",
+   "file": "_deps/product-intervention-notice-6c0737ae54eb.js",
+   "selected_by": "closure:d1:chatgpt-moderation-disclaimers-8ac91b19c194.js",
+   "raw_bytes": 2540,
+   "formatted_bytes": 3947,
+   "formatter": "prettier",
+   "sha256_raw": "35930a60153b394fad89e5241193f163b1b42e88f840c02f493c4641c56e5a8c"
+  },
+  {
+   "archive_path": "webview/assets/product-request-context-f9ae691310d9.js",
+   "file": "_deps/product-request-context-f9ae691310d9.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1085,
+   "formatted_bytes": 1480,
+   "formatter": "prettier",
+   "sha256_raw": "67c80416b57d37869b8d799bc0f3e88d4057d97be43c096c30f56f6e259327a3"
+  },
+  {
+   "archive_path": "webview/assets/progress-state-5cf15308345a.js",
+   "file": "_deps/progress-state-5cf15308345a.js",
+   "selected_by": "closure:d1:announcement-host-f539e53b9f3f.js",
+   "raw_bytes": 3693,
+   "formatted_bytes": 5282,
+   "formatter": "prettier",
+   "sha256_raw": "aac293c3c7568b881414ce88a81c6f9e1344be3c4771ccc9812a6f0957cdc13d"
+  },
+  {
+   "archive_path": "webview/assets/prop-types-1ebacf647ac7.js",
+   "file": "_deps/prop-types-1ebacf647ac7.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 871,
+   "formatted_bytes": 1420,
+   "formatter": "prettier",
+   "sha256_raw": "2feb7f98d613d205fc2515340309fe68c5df0d62094bd4337e395a303923a400"
+  },
+  {
+   "archive_path": "webview/assets/pure-b84c4c3484c4.js",
+   "file": "_deps/pure-b84c4c3484c4.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 3706,
+   "formatted_bytes": 5702,
+   "formatter": "prettier",
+   "sha256_raw": "7f1d795a401c5629425a2bf55340c4565568b39a2ebc8e8b97563f6c89e17f5d"
+  },
+  {
+   "archive_path": "webview/assets/queries-216aaf6d66eb.js",
+   "file": "_deps/queries-216aaf6d66eb.js",
+   "selected_by": "closure:d1:announcement-host-6bd5c290ff77.js",
+   "raw_bytes": 1919,
+   "formatted_bytes": 2840,
+   "formatter": "prettier",
+   "sha256_raw": "99d4ac5b9b73623007a991cba78c83fd22f8d819cec3e119224d42b54ca0a8f2"
+  },
+  {
+   "archive_path": "webview/assets/queries-22e0c4d59892.js",
+   "file": "_deps/queries-22e0c4d59892.js",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 4874,
+   "formatted_bytes": 7388,
+   "formatter": "prettier",
+   "sha256_raw": "2fd22638fa5fb1ddc9e94030e3df1146ff9760117f1d67656db2c94f73e50ca4"
+  },
+  {
+   "archive_path": "webview/assets/queries-95931bb8c995.js",
+   "file": "_deps/queries-95931bb8c995.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 770,
+   "formatted_bytes": 920,
+   "formatter": "prettier",
+   "sha256_raw": "fa3417cc35f8db98394ce12dcbf446ed9213171a29694bd3bc9cd72e5d877bb8"
+  },
+  {
+   "archive_path": "webview/assets/queries-ea9f18d3fc31.js",
+   "file": "_deps/queries-ea9f18d3fc31.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 1082,
+   "formatted_bytes": 1389,
+   "formatter": "prettier",
+   "sha256_raw": "5ec7c87ad27c3eb6f53d0f39631c0ceca5309a53c968dded4ff4050333144ca2"
+  },
+  {
+   "archive_path": "webview/assets/query-error-2df1f6b7fd60.js",
+   "file": "_deps/query-error-2df1f6b7fd60.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 1114,
+   "formatted_bytes": 1483,
+   "formatter": "prettier",
+   "sha256_raw": "c64bb584b4f2c7036907efa54d2dbaec1f756017e83a66587b37a10c1deacf9a"
+  },
+  {
+   "archive_path": "webview/assets/quote-action-daf832b35bc9.js",
+   "file": "_deps/quote-action-daf832b35bc9.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 5571,
+   "formatted_bytes": 8620,
+   "formatter": "prettier",
+   "sha256_raw": "80e927d4f7f0bbb37ffac07120080944d6c754fdb2e6e49275327692a2941f49"
+  },
+  {
+   "archive_path": "webview/assets/radio-group-374e0c5aa421.css",
+   "file": "_deps/radio-group-374e0c5aa421.css",
+   "selected_by": "closure:d1:announcement-host-f539e53b9f3f.js",
+   "raw_bytes": 2588,
+   "formatted_bytes": 3248,
+   "formatter": "prettier",
+   "sha256_raw": "036ee5b171f921b877cc05293f29b31cbd08c40e7df0f0aa209aae0ed20de10d"
+  },
+  {
+   "archive_path": "webview/assets/radio-group-8a1b881bed8e.js",
+   "file": "_deps/radio-group-8a1b881bed8e.js",
+   "selected_by": "closure:d1:announcement-host-f539e53b9f3f.js",
+   "raw_bytes": 1778,
+   "formatted_bytes": 3025,
+   "formatter": "prettier",
+   "sha256_raw": "9f545a0aa7948e9c8b7b98581bab1f3d06847724216ad28cf5f57aabf06f162a"
+  },
+  {
+   "archive_path": "webview/assets/react-redux-1f573064865d.js",
+   "file": "_deps/react-redux-1f573064865d.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 28106,
+   "formatted_bytes": 51063,
+   "formatter": "prettier",
+   "sha256_raw": "e74e1243ace888c8abb3185e8bed27afc3cf8237bd63e84ecc2120b60977793c"
+  },
+  {
+   "archive_path": "webview/assets/receipt-directive-61df774b0e25.js",
+   "file": "_deps/receipt-directive-61df774b0e25.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 761,
+   "formatted_bytes": 983,
+   "formatter": "prettier",
+   "sha256_raw": "f3d332e02fa72b645cb0e604cc6d6833b2770f3512eb8b5619fd9b7a951dc77d"
+  },
+  {
+   "archive_path": "webview/assets/redux-toolkit.modern-ba209a7ecb4a.js",
+   "file": "_deps/redux-toolkit.modern-ba209a7ecb4a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 24312,
+   "formatted_bytes": 40597,
+   "formatter": "prettier",
+   "sha256_raw": "d8880147d7b4168686f41af955fe2c46433d5ba56e3b3504c12ffa5ed1874018"
+  },
+  {
+   "archive_path": "webview/assets/renderer-23bca388a735.js",
+   "file": "_deps/renderer-23bca388a735.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 8798,
+   "formatted_bytes": 13940,
+   "formatter": "prettier",
+   "sha256_raw": "ce9f6bf70641d6795094dd4b87572e84d8098f0154e0ed822a4812b72ef6fbda"
+  },
+  {
+   "archive_path": "webview/assets/renderer-548413c8ef3f.js",
+   "file": "_deps/renderer-548413c8ef3f.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 27073,
+   "formatted_bytes": 42069,
+   "formatter": "prettier",
+   "sha256_raw": "c2e3e45e84318b8b69690b7fe159d0627b3defe70d2b05bc8e1d07b1c437370f"
+  },
+  {
+   "archive_path": "webview/assets/renderer-94c34f96d17c.js",
+   "file": "_deps/renderer-94c34f96d17c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 4852,
+   "formatted_bytes": 6436,
+   "formatter": "prettier",
+   "sha256_raw": "9dffe6b3303d343c65dde910a9c9cfc96273d31956238e488a701ae06b72b7b6"
+  },
+  {
+   "archive_path": "webview/assets/replayStats-8eb2b3f5a1de.js",
+   "file": "_deps/replayStats-8eb2b3f5a1de.js",
+   "selected_by": "closure:d1:announcement-host-6bd5c290ff77.js",
+   "raw_bytes": 611,
+   "formatted_bytes": 784,
+   "formatter": "prettier",
+   "sha256_raw": "e391d359881e52a3ec8a7fc05ada0f616035699d17585c16f63bb006e3582c56"
+  },
+  {
+   "archive_path": "webview/assets/report-dialog-a40f359edbd2.js",
+   "file": "_deps/report-dialog-a40f359edbd2.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 10890,
+   "formatted_bytes": 19264,
+   "formatter": "prettier",
+   "sha256_raw": "bee0d5e97a8cbc98606971cb3bcc37836e40d678c0ad57b7525e082916237aca"
+  },
+  {
+   "archive_path": "webview/assets/request-action-chip-fb3635b2e1e7.js",
+   "file": "_deps/request-action-chip-fb3635b2e1e7.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 827,
+   "formatted_bytes": 1309,
+   "formatter": "prettier",
+   "sha256_raw": "3fba93e9cddd29116dbd1c8cebbb47602d3df7ed31c5c6dc57920d8a15a94c9c"
+  },
+  {
+   "archive_path": "webview/assets/request-panel-2cd6348080e3.js",
+   "file": "_deps/request-panel-2cd6348080e3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 76654,
+   "formatted_bytes": 129828,
+   "formatter": "prettier",
+   "sha256_raw": "c752c7cf78738e5f802533863e7401c1c1d1d7ee9a35c7a26e49d72462ae8025"
+  },
+  {
+   "archive_path": "webview/assets/request-site-preview-9805accc426c.js",
+   "file": "_deps/request-site-preview-9805accc426c.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 4509,
+   "formatted_bytes": 6788,
+   "formatter": "prettier",
+   "sha256_raw": "c505312811dc8d968518cdc0171237c7016861fc57f996942d30d2f79bdfa082"
+  },
+  {
+   "archive_path": "webview/assets/requests-ddc63fb269df.js",
+   "file": "_deps/requests-ddc63fb269df.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 518,
+   "formatted_bytes": 614,
+   "formatter": "prettier",
+   "sha256_raw": "bf2a0a29d35638f5e4c93240a4fea339e863f5b99fd0ce414bbeac009377ae4c"
+  },
+  {
+   "archive_path": "webview/assets/resource-card-list-b467126a0937.js",
+   "file": "_deps/resource-card-list-b467126a0937.js",
+   "selected_by": "closure:d1:chatgpt-assistant-message-content-7e3228434885.js",
+   "raw_bytes": 8453,
+   "formatted_bytes": 13390,
+   "formatter": "prettier",
+   "sha256_raw": "4bb6afab831fe7b1523859a18728d3bfc9453647299bdfaf7a36dd6ec9b3321a"
+  },
+  {
+   "archive_path": "webview/assets/respond-530ee9ec144a.js",
+   "file": "_deps/respond-530ee9ec144a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 559,
+   "formatted_bytes": 746,
+   "formatter": "prettier",
+   "sha256_raw": "2bffddad70875eb8697b3036cffefa229e7da6abc7f6be9dfec7d0a45eb54305"
+  },
+  {
+   "archive_path": "webview/assets/response-92c4967e4575.js",
+   "file": "_deps/response-92c4967e4575.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 81626,
+   "formatted_bytes": 125844,
+   "formatter": "prettier",
+   "sha256_raw": "baefdf70d275c6219a914e0bc9fbef7a53a4f413f53ec25e615a5097cadc4884"
+  },
+  {
+   "archive_path": "webview/assets/response-action-content-215f4d5a685c.js",
+   "file": "_deps/response-action-content-215f4d5a685c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2407,
+   "formatted_bytes": 3402,
+   "formatter": "prettier",
+   "sha256_raw": "d83fdffa08b160043d18959d261cac4d31b782d1cb404c7886b923bdabcd78b0"
+  },
+  {
+   "archive_path": "webview/assets/response-preview-2ba3cdfa94c3.js",
+   "file": "_deps/response-preview-2ba3cdfa94c3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3244,
+   "formatted_bytes": 4690,
+   "formatter": "prettier",
+   "sha256_raw": "7ca2850c7e7852891504c8dec9ae23596e04dc920963057a0aa5c82629748a28"
+  },
+  {
+   "archive_path": "webview/assets/response-rating-control-3c54c7d6d3ee.js",
+   "file": "_deps/response-rating-control-3c54c7d6d3ee.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 9637,
+   "formatted_bytes": 14848,
+   "formatter": "prettier",
+   "sha256_raw": "63e45d2e3810b4f8b79397c9e2edacd0dfc7639cda43dc73060c2b7cc8f3ac44"
+  },
+  {
+   "archive_path": "webview/assets/resume-chatgpt-completion-3c085d352474.js",
+   "file": "_deps/resume-chatgpt-completion-3c085d352474.js",
+   "selected_by": "closure:d1:chatgpt-conversation-runtime-61b099de9e0f.js",
+   "raw_bytes": 11733,
+   "formatted_bytes": 18079,
+   "formatter": "prettier",
+   "sha256_raw": "a54115b1ab1e5bb1f8f4af074a2d4203c7b7f30bc33bccc4614cbf6338ac695b"
+  },
+  {
+   "archive_path": "webview/assets/retirement-f17fd3e88db9.js",
+   "file": "_deps/retirement-f17fd3e88db9.js",
+   "selected_by": "closure:d1:chatgpt-gizmo-header-a0b4aeb64bcd.js",
+   "raw_bytes": 705,
+   "formatted_bytes": 848,
+   "formatter": "prettier",
+   "sha256_raw": "1031f351507575361c2750ef252a682823c6afbb11185d2204659a97ba8fc992"
+  },
+  {
+   "archive_path": "webview/assets/run-now-051c45dd9d07.js",
+   "file": "_deps/run-now-051c45dd9d07.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 5046,
+   "formatted_bytes": 9084,
+   "formatter": "prettier",
+   "sha256_raw": "c71bbee9ad39d46ed2f51d89bffc00d57be43096562a266c316fa761900a21f2"
+  },
+  {
+   "archive_path": "webview/assets/runtime-6ec048e8746a.js",
+   "file": "_deps/runtime-6ec048e8746a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-runtime-61b099de9e0f.js",
+   "raw_bytes": 5140,
+   "formatted_bytes": 6916,
+   "formatter": "prettier",
+   "sha256_raw": "0ecdf7ab5389737457bc4653f47ec0d6a65b07ecb368eb81c855e2e8f803a5dd"
+  },
+  {
+   "archive_path": "webview/assets/runtime-7c1bd5d08a7b.js",
+   "file": "_deps/runtime-7c1bd5d08a7b.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1625,
+   "formatted_bytes": 2240,
+   "formatter": "prettier",
+   "sha256_raw": "8b5f3c6521c878d0147d0cd37c3574ab0fc40df4a8dd0e1b456aa680deb3e6b3"
+  },
+  {
+   "archive_path": "webview/assets/runtime-975743112fa3.js",
+   "file": "_deps/runtime-975743112fa3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 192914,
+   "formatted_bytes": 346662,
+   "formatter": "prettier",
+   "sha256_raw": "b156174212110087ae93cf244aea42e5ee778cf254637d7051f374fc79e855a0"
+  },
+  {
+   "archive_path": "webview/assets/sandbox-image-110937c5325c.js",
+   "file": "_deps/sandbox-image-110937c5325c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 6475,
+   "formatted_bytes": 9095,
+   "formatter": "prettier",
+   "sha256_raw": "c36643d32c432560b528ebebaf1fddd2e1578cede497376f4ba2ba83d9ce46b8"
+  },
+  {
+   "archive_path": "webview/assets/saved-drafts-66dabbfdc86e.js",
+   "file": "_deps/saved-drafts-66dabbfdc86e.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 1339,
+   "formatted_bytes": 2122,
+   "formatter": "prettier",
+   "sha256_raw": "0a329221de94eaef53fd790890917a5609291ad265a07e2d0e1730b951f2fad0"
+  },
+  {
+   "archive_path": "webview/assets/saved-entity-folder-menu-action-e211baf6f0dc.js",
+   "file": "_deps/saved-entity-folder-menu-action-e211baf6f0dc.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 10630,
+   "formatted_bytes": 18622,
+   "formatter": "prettier",
+   "sha256_raw": "6cc255564a746639b8245f1f08394b4dac648cc2fab71e3124e6492ca7a38049"
+  },
+  {
+   "archive_path": "webview/assets/saved-memories-1636f97b8034.js",
+   "file": "_deps/saved-memories-1636f97b8034.js",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 31763,
+   "formatted_bytes": 49173,
+   "formatter": "prettier",
+   "sha256_raw": "5246e67593c0b29819dddce079e7985d7783fabd61b405729a315175bdcf2306"
+  },
+  {
+   "archive_path": "webview/assets/saved-memories-d13ab1e37b49.js",
+   "file": "_deps/saved-memories-d13ab1e37b49.js",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 129,
+   "formatted_bytes": 143,
+   "formatter": "prettier",
+   "sha256_raw": "b9485ba240669142ebab67e1b1be3a5a5e8380c8a66152a0ea693979c68596e9"
+  },
+  {
+   "archive_path": "webview/assets/schema-c18f234fa1b0.js",
+   "file": "_deps/schema-c18f234fa1b0.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 21179,
+   "formatted_bytes": 29224,
+   "formatter": "prettier",
+   "sha256_raw": "0fa0fadc8531e0804a73cbd5becadf06a0e12b0d4ebc61e9aead09330c2fc4b1"
+  },
+  {
+   "archive_path": "webview/assets/Scout-863c66187f0a.js",
+   "file": "_deps/Scout-863c66187f0a.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 15695,
+   "formatted_bytes": 29533,
+   "formatter": "prettier",
+   "sha256_raw": "0425ad47aa1c9a7fb4c3300b96f2749437e92c45a042c4cb371d1ec9638954b0"
+  },
+  {
+   "archive_path": "webview/assets/screen-dff5c51b2696.js",
+   "file": "_deps/screen-dff5c51b2696.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 11431,
+   "formatted_bytes": 17701,
+   "formatter": "prettier",
+   "sha256_raw": "87b2b2681228157bd34f8b780c1b3d0c7007c3dcfe2750152c2aca1e8215ebf6"
+  },
+  {
+   "archive_path": "webview/assets/Scribble-388967d97b46.js",
+   "file": "_deps/Scribble-388967d97b46.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 26039,
+   "formatted_bytes": 46814,
+   "formatter": "prettier",
+   "sha256_raw": "f0f2f6b35e75911fe2edbabc27da54f4f033ac5475724920bf2803663291aba5"
+  },
+  {
+   "archive_path": "webview/assets/secure-form-status-1e957f282453.js",
+   "file": "_deps/secure-form-status-1e957f282453.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 2617,
+   "formatted_bytes": 3661,
+   "formatter": "prettier",
+   "sha256_raw": "8cf9b9bc4cc3389a6dfc232b6022fb3613b2e8aedf7e132165aa7b0023059680"
+  },
+  {
+   "archive_path": "webview/assets/SegmentedControl-e3036e10ce29.css",
+   "file": "_deps/SegmentedControl-e3036e10ce29.css",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 61708,
+   "formatted_bytes": 74063,
+   "formatter": "prettier",
+   "sha256_raw": "c433efa800f3f94a705adc39d44e445a5997d422ff3559f24636b113929a0bc7"
+  },
+  {
+   "archive_path": "webview/assets/selector-345300544d26.js",
+   "file": "_deps/selector-345300544d26.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 2094,
+   "formatted_bytes": 3583,
+   "formatter": "prettier",
+   "sha256_raw": "559534e5c1cf0e14a5abcb31e6b2349f1232a560ee9cb86c33aa3614f35874c6"
+  },
+  {
+   "archive_path": "webview/assets/share-analytics-ccfc9893f573.js",
+   "file": "_deps/share-analytics-ccfc9893f573.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 1997,
+   "formatted_bytes": 2504,
+   "formatter": "prettier",
+   "sha256_raw": "d6fc6551d179729326bcdff02c2986c0faed4ba5286f1704cde73702bc04f489"
+  },
+  {
+   "archive_path": "webview/assets/Sharepoint-380a58ac69c4.js",
+   "file": "_deps/Sharepoint-380a58ac69c4.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 9269,
+   "formatted_bytes": 15356,
+   "formatter": "prettier",
+   "sha256_raw": "fcabd038cfd0f9be9d31e8e147134c4200f4166c7364db20d96a1c946b3015a7"
+  },
+  {
+   "archive_path": "webview/assets/shell-label-53deece913f7.js",
+   "file": "_deps/shell-label-53deece913f7.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 558,
+   "formatted_bytes": 693,
+   "formatter": "prettier",
+   "sha256_raw": "0a79a500da801802446bdf0bc4b757c6500c538f238cbf9807692cc616b2f587"
+  },
+  {
+   "archive_path": "webview/assets/shield-code-182f5d9c8055.js",
+   "file": "_deps/shield-code-182f5d9c8055.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1706,
+   "formatted_bytes": 2103,
+   "formatter": "prettier",
+   "sha256_raw": "4e043bdb5e348ddd90bcae4a3cdcb0cc15c52f65a655fb5ca315f43addf313b6"
+  },
+  {
+   "archive_path": "webview/assets/skill-contents-modal-397984d86aad.js",
+   "file": "_deps/skill-contents-modal-397984d86aad.js",
+   "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-5fa188776e1a.js",
+   "raw_bytes": 3037,
+   "formatted_bytes": 4819,
+   "formatter": "prettier",
+   "sha256_raw": "cefd40d871b760a1eeab4c12db72e947af001f0aedb950e578589432936e71ad"
+  },
+  {
+   "archive_path": "webview/assets/skill-exploration-labels-b9fbfd2b8bea.js",
+   "file": "_deps/skill-exploration-labels-b9fbfd2b8bea.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 5917,
+   "formatted_bytes": 7710,
+   "formatter": "prettier",
+   "sha256_raw": "39dd1be173f192cc159c1f4259ef9f0556ee686a494a624deec2086cf3967438"
+  },
+  {
+   "archive_path": "webview/assets/sound-on-4a5084b084e9.js",
+   "file": "_deps/sound-on-4a5084b084e9.js",
+   "selected_by": "closure:d1:chatgpt-audio-playback-button-85cac1e0f7ea.js",
+   "raw_bytes": 2147,
+   "formatted_bytes": 2345,
+   "formatter": "prettier",
+   "sha256_raw": "fe93b4d360852009a6d22f3e9b37de1499025c188679baf7cdec30bb9f4f225c"
+  },
+  {
+   "archive_path": "webview/assets/source-app-availability-7132d640d81b.js",
+   "file": "_deps/source-app-availability-7132d640d81b.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 671,
+   "formatted_bytes": 996,
+   "formatter": "prettier",
+   "sha256_raw": "dfd2e3d18493e8bbdc486bbf78d95304903fe5335e30ed9b98cf57aaf00093a3"
+  },
+  {
+   "archive_path": "webview/assets/source-icons-98bd2838df77.js",
+   "file": "_deps/source-icons-98bd2838df77.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 936,
+   "formatted_bytes": 1435,
+   "formatter": "prettier",
+   "sha256_raw": "2d4e219eee6a8289ba3724089928266f311eeaea4882cfd961ed44eaa41f5f7f"
+  },
+  {
+   "archive_path": "webview/assets/source-provider-disclosure-97423eacd922.js",
+   "file": "_deps/source-provider-disclosure-97423eacd922.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 742,
+   "formatted_bytes": 999,
+   "formatter": "prettier",
+   "sha256_raw": "89bf1ded916856bd035160b2f398bfee56eee364cca8df938bd98c4aaeccfe0e"
+  },
+  {
+   "archive_path": "webview/assets/source-queries-8e76fe9923fd.js",
+   "file": "_deps/source-queries-8e76fe9923fd.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1562,
+   "formatted_bytes": 2440,
+   "formatter": "prettier",
+   "sha256_raw": "cabc409199ca771210f5482110dc686a122500f545cec61692c605994b5cd032"
+  },
+  {
+   "archive_path": "webview/assets/speech-eb31aa2314f6.js",
+   "file": "_deps/speech-eb31aa2314f6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 13745,
+   "formatted_bytes": 21365,
+   "formatter": "prettier",
+   "sha256_raw": "25672c5d4d1fa6f6face0a5fb096ea0e4ad613f44934fc74a0eddf6f1504e827"
+  },
+  {
+   "archive_path": "webview/assets/speed-menu-251c2bcc175f.js",
+   "file": "_deps/speed-menu-251c2bcc175f.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2596,
+   "formatted_bytes": 4085,
+   "formatter": "prettier",
+   "sha256_raw": "c2d21d41117a0109bb850f3e2a03b069b1d5057a5577f8be5280522cba70401c"
+  },
+  {
+   "archive_path": "webview/assets/sports-cd82c0f25614.js",
+   "file": "_deps/sports-cd82c0f25614.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 7637,
+   "formatted_bytes": 12319,
+   "formatter": "prettier",
+   "sha256_raw": "43ae6037731bada41e51a68545b51d481afed0ba039b658dbbf5fd2f71461846"
+  },
+  {
+   "archive_path": "webview/assets/Starry-d0d7a639914d.js",
+   "file": "_deps/Starry-d0d7a639914d.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 16556,
+   "formatted_bytes": 27173,
+   "formatter": "prettier",
+   "sha256_raw": "2536326fcf2a95e0b1f4bdaa6f7393af8e062c09de8276d6287d5fbc98315240"
+  },
+  {
+   "archive_path": "webview/assets/start-395ac002176b.js",
+   "file": "_deps/start-395ac002176b.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 3758,
+   "formatted_bytes": 5140,
+   "formatter": "prettier",
+   "sha256_raw": "1f6521d9715c4d42924e85c5a265dd8504fe69c77acf531c5e05e5832b694c37"
+  },
+  {
+   "archive_path": "webview/assets/start-voice-a2f0a01782fa.js",
+   "file": "_deps/start-voice-a2f0a01782fa.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 22181,
+   "formatted_bytes": 32786,
+   "formatter": "prettier",
+   "sha256_raw": "5cee1e8c6c265b917dbb74c25960eab70d9b7fe3bec5cff892aba4ba49655777"
+  },
+  {
+   "archive_path": "webview/assets/started-toast-c563ca86941b.js",
+   "file": "_deps/started-toast-c563ca86941b.js",
+   "selected_by": "closure:d1:announcement-host-f539e53b9f3f.js",
+   "raw_bytes": 888,
+   "formatted_bytes": 986,
+   "formatter": "prettier",
+   "sha256_raw": "18560b2f07ea087f7f6adf855f6836f0cf9630de4b5eb0b85f799a74d978b9bc"
+  },
+  {
+   "archive_path": "webview/assets/Stax-de54fea1d7b9.js",
+   "file": "_deps/Stax-de54fea1d7b9.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 25836,
+   "formatted_bytes": 46350,
+   "formatter": "prettier",
+   "sha256_raw": "697a538a13838ede172a117091b55ed458775c1dc04529f791eb26bf2dbbc2d3"
+  },
+  {
+   "archive_path": "webview/assets/step-cc59eba019a7.js",
+   "file": "_deps/step-cc59eba019a7.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 6005,
+   "formatted_bytes": 9980,
+   "formatter": "prettier",
+   "sha256_raw": "2817078b599235c39ab171e9739cb6ca3c4b2d8bdb9b466672275df7622c6fa8"
+  },
+  {
+   "archive_path": "webview/assets/stock-e75fc8a23893.js",
+   "file": "_deps/stock-e75fc8a23893.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 2492,
+   "formatted_bytes": 3812,
+   "formatter": "prettier",
+   "sha256_raw": "7920bff20e91b1336a927f596e8d1521ca6205a216fb6afd46aaed33ae02d305"
+  },
+  {
+   "archive_path": "webview/assets/stripe-client-4f7192c20a27.js",
+   "file": "_deps/stripe-client-4f7192c20a27.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 1414,
+   "formatted_bytes": 1758,
+   "formatter": "prettier",
+   "sha256_raw": "54d63b08597358eae40d559bb39ee9a9735fffd6ebefa9ca4595bb3a18bcc823"
+  },
+  {
+   "archive_path": "webview/assets/stripe-elements-appearance-809d15977833.js",
+   "file": "_deps/stripe-elements-appearance-809d15977833.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 17982,
+   "formatted_bytes": 28778,
+   "formatter": "prettier",
+   "sha256_raw": "be375acd6f0f75c293df47c2568da487ed3267677bbf0495f34cb42926131aa3"
+  },
+  {
+   "archive_path": "webview/assets/stripe-payment-confirmation-ff492adf70b6.js",
+   "file": "_deps/stripe-payment-confirmation-ff492adf70b6.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 1561,
+   "formatted_bytes": 2088,
+   "formatter": "prettier",
+   "sha256_raw": "b63068927e75c4d6c906733731dd9e8ad83c08b92ca5626b719663759bf7d7c8"
+  },
+  {
+   "archive_path": "webview/assets/subscription-update-plan-b5de7979cb69.js",
+   "file": "_deps/subscription-update-plan-b5de7979cb69.js",
+   "selected_by": "closure:d1:announcement-d36293e08be3.js",
+   "raw_bytes": 645,
+   "formatted_bytes": 837,
+   "formatter": "prettier",
+   "sha256_raw": "d950ef0c3c9f4f738b5e57571dbc60c326acc8fb3b42b67be26a09ccc33c76a6"
+  },
+  {
+   "archive_path": "webview/assets/suggestion-bindings-f51c91e7e7f8.js",
+   "file": "_deps/suggestion-bindings-f51c91e7e7f8.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 21244,
+   "formatted_bytes": 27451,
+   "formatter": "prettier",
+   "sha256_raw": "0b3f9af86b0995b9e417baccdf7d9f8a7c1b33dcd7008cb4accf3ace00c3822b"
+  },
+  {
+   "archive_path": "webview/assets/summary-6c36343d5090.js",
+   "file": "_deps/summary-6c36343d5090.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2173,
+   "formatted_bytes": 3155,
+   "formatter": "prettier",
+   "sha256_raw": "2d2ebcbdbae54fdd889d291e77fb20c1cb32ba5d98bfdc69351e3963feecd6bc"
+  },
+  {
+   "archive_path": "webview/assets/summary-section-4a95bd65e3a1.js",
+   "file": "_deps/summary-section-4a95bd65e3a1.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 4839,
+   "formatted_bytes": 9046,
+   "formatter": "prettier",
+   "sha256_raw": "9179afca22049987b3f2a6aaf727eb9da987e301cbecd2a454a74592145422b1"
+  },
+  {
+   "archive_path": "webview/assets/tab-context-menu-b8f8b234a41b.js",
+   "file": "_deps/tab-context-menu-b8f8b234a41b.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 3275,
+   "formatted_bytes": 4621,
+   "formatter": "prettier",
+   "sha256_raw": "47e6b2343cefdbdf3f5054db7c3e729f04f4e64d20e8f7497ebf7a8525de81d4"
+  },
+  {
+   "archive_path": "webview/assets/table-utils-5a1f4c38e725.js",
+   "file": "_deps/table-utils-5a1f4c38e725.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3015,
+   "formatted_bytes": 3907,
+   "formatter": "prettier",
+   "sha256_raw": "bd7430307556044ef4ce22a76222b704a9a55a49663a3a37b5fc379426d11614"
+  },
+  {
+   "archive_path": "webview/assets/target-6acf22dd3cfe.js",
+   "file": "_deps/target-6acf22dd3cfe.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 882,
+   "formatted_bytes": 1218,
+   "formatter": "prettier",
+   "sha256_raw": "8e7ada6218d2b2c0e6a61d877d2d49209e7720c62014730d6c383cf4eff0a295"
+  },
+  {
+   "archive_path": "webview/assets/text-bubble-figure-light-c974e4c8b638.js",
+   "file": "_deps/text-bubble-figure-light-c974e4c8b638.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 29553,
+   "formatted_bytes": 30235,
+   "formatter": "prettier",
+   "sha256_raw": "df753f7e4ee48e6ed6bb0f36f41b1824226917cb4ec654ce1b772c011b55cd77"
+  },
+  {
+   "archive_path": "webview/assets/text-file-storage-5e6bd81a9c87.js",
+   "file": "_deps/text-file-storage-5e6bd81a9c87.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 2381,
+   "formatted_bytes": 3129,
+   "formatter": "prettier",
+   "sha256_raw": "13880e35de25b6ee6637fd9a9f192d0e562bcdfa17295c9388878a5439f4b881"
+  },
+  {
+   "archive_path": "webview/assets/thread-bridge-ef7a9172a7a5.js",
+   "file": "_deps/thread-bridge-ef7a9172a7a5.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1242,
+   "formatted_bytes": 1941,
+   "formatter": "prettier",
+   "sha256_raw": "b07037d6528d8d060509d67d977f82ae5e8c7d2c41698a55b40871a3d08274fd"
+  },
+  {
+   "archive_path": "webview/assets/thread-dialog-252ad348b102.js",
+   "file": "_deps/thread-dialog-252ad348b102.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-dialog-2c5266898ceb.js",
+   "raw_bytes": 3689,
+   "formatted_bytes": 6292,
+   "formatter": "prettier",
+   "sha256_raw": "970f60ec5b766d340db014b30fbfa401da629fc030fb8ba797e379e1bcbe313b"
+  },
+  {
+   "archive_path": "webview/assets/thread-history-loading-6c9b27f848bd.js",
+   "file": "_deps/thread-history-loading-6c9b27f848bd.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1042,
+   "formatted_bytes": 1709,
+   "formatter": "prettier",
+   "sha256_raw": "aec5b6c432cbaf24ee838d7687537623b44ebf64ab5d3e42766938d30c5d0587"
+  },
+  {
+   "archive_path": "webview/assets/thread-preview-183f36c1ead3.js",
+   "file": "_deps/thread-preview-183f36c1ead3.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-dialog-2c5266898ceb.js",
+   "raw_bytes": 2976,
+   "formatted_bytes": 4250,
+   "formatter": "prettier",
+   "sha256_raw": "106ffbcf8fe6315e62243f60a6d88c31f2d7b6b192fb4541771ae381b7fb9751"
+  },
+  {
+   "archive_path": "webview/assets/thread-preview-6aa4e2453667.css",
+   "file": "_deps/thread-preview-6aa4e2453667.css",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 400,
+   "formatted_bytes": 506,
+   "formatter": "prettier",
+   "sha256_raw": "b2de6f1daa17284def1d9fb32c1c911457a5183ce208b74da3279aab12e0e98b"
+  },
+  {
+   "archive_path": "webview/assets/time-547e86fe1bbc.js",
+   "file": "_deps/time-547e86fe1bbc.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 15464,
+   "formatted_bytes": 25050,
+   "formatter": "prettier",
+   "sha256_raw": "12d47bef324ba0270f5befdb7925af6c5e3a0081cfff64fc962a773fef74103e"
+  },
+  {
+   "archive_path": "webview/assets/timing-signals-6301d26a3c55.js",
+   "file": "_deps/timing-signals-6301d26a3c55.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 487,
+   "formatted_bytes": 625,
+   "formatter": "prettier",
+   "sha256_raw": "c582b505adaf5f47985cd07f1684b9c54fe3e9978b16bb69b13d73b55112f6bb"
+  },
+  {
+   "archive_path": "webview/assets/tiny-invariant-b34bc475860a.js",
+   "file": "_deps/tiny-invariant-b34bc475860a.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 233,
+   "formatted_bytes": 276,
+   "formatter": "prettier",
+   "sha256_raw": "d91bbcd5aa4158a3222749dcf74e76992364d6573486aa60f598d8903fc4ee90"
+  },
+  {
+   "archive_path": "webview/assets/Tome-e2d9dbf85e39.js",
+   "file": "_deps/Tome-e2d9dbf85e39.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 30477,
+   "formatted_bytes": 54239,
+   "formatter": "prettier",
+   "sha256_raw": "b520932fae40a5a05e091b23e269e5418b30c162dc541a1652857072d9ce8eb5"
+  },
+  {
+   "archive_path": "webview/assets/tooltip-70602158e71a.css",
+   "file": "_deps/tooltip-70602158e71a.css",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 25062,
+   "formatted_bytes": 30232,
+   "formatter": "prettier",
+   "sha256_raw": "bed1fc11e7617173430e36b23355a7e83cbef9b7c5ccad7e05d74376819d3479"
+  },
+  {
+   "archive_path": "webview/assets/tooltip-7e314d675cfc.js",
+   "file": "_deps/tooltip-7e314d675cfc.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 28312,
+   "formatted_bytes": 42080,
+   "formatter": "prettier",
+   "sha256_raw": "622ccf742f182bb1d00fe7c483c939e9ae5230eac86767810505945b021c5be8"
+  },
+  {
+   "archive_path": "webview/assets/translation-analytics-6fad1fc783bf.js",
+   "file": "_deps/translation-analytics-6fad1fc783bf.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 3157,
+   "formatted_bytes": 4356,
+   "formatter": "prettier",
+   "sha256_raw": "b0f90a8ef07d6675aab9652c523bb255bce82470d2c88529b80788bbbeedb926"
+  },
+  {
+   "archive_path": "webview/assets/trial-document-visible-db91614bf6cb.js",
+   "file": "_deps/trial-document-visible-db91614bf6cb.js",
+   "selected_by": "closure:d1:chatgpt-home-beacon-announcement-candidates-df2ece330c1e.js",
+   "raw_bytes": 912,
+   "formatted_bytes": 1274,
+   "formatter": "prettier",
+   "sha256_raw": "918b4347d126fe0c43f56b39c45b11c09024baedd6e34ea3e2b4ba6adc1244d8"
+  },
+  {
+   "archive_path": "webview/assets/types-b46e00871847.js",
+   "file": "_deps/types-b46e00871847.js",
+   "selected_by": "closure:d1:chatgpt-conversation-share-preview-5560d1f28e6b.js",
+   "raw_bytes": 2153,
+   "formatted_bytes": 3411,
+   "formatter": "prettier",
+   "sha256_raw": "5c82f822a73d467cd35939cd228a23e0206bfb38700f36768ac1199b02cae86a"
+  },
+  {
+   "archive_path": "webview/assets/types-bf88a8ab2993.js",
+   "file": "_deps/types-bf88a8ab2993.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 1035,
+   "formatted_bytes": 1856,
+   "formatter": "prettier",
+   "sha256_raw": "07fa17d732dedd50e629c979a467fde5bccd7a432ae8db7125b1abd2c33d6495"
+  },
+  {
+   "archive_path": "webview/assets/undo-a5499b0bd547.js",
+   "file": "_deps/undo-a5499b0bd547.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1049,
+   "formatted_bytes": 1261,
+   "formatter": "prettier",
+   "sha256_raw": "5482511a8ca466eb37df6eb956c594c904984d1f1fe528151e81f22695004f1a"
+  },
+  {
+   "archive_path": "webview/assets/usage-a835ee7a0d0b.js",
+   "file": "_deps/usage-a835ee7a0d0b.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 4917,
+   "formatted_bytes": 8407,
+   "formatter": "prettier",
+   "sha256_raw": "6846a3fb785a052ef96a35e3bd96b4b29be4ceb91c3cf413496f04110fb1ae8b"
+  },
+  {
+   "archive_path": "webview/assets/use-ecosystem-widget-launch-c611c15f8eee.js",
+   "file": "_deps/use-ecosystem-widget-launch-c611c15f8eee.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 1299,
+   "formatted_bytes": 1986,
+   "formatter": "prettier",
+   "sha256_raw": "30575a1106eaad1384f79992c2b8f37e4b2c759d93302f6d3bdbf269a37726b0"
+  },
+  {
+   "archive_path": "webview/assets/use-measured-element-height-da625a6f9bc1.js",
+   "file": "_deps/use-measured-element-height-da625a6f9bc1.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 858,
+   "formatted_bytes": 1269,
+   "formatter": "prettier",
+   "sha256_raw": "beef795abc91ab6f95d632642797375a562dfd6d8e5165964d3ee562cf57d4d9"
+  },
+  {
+   "archive_path": "webview/assets/use-thread-summary-panel-fc6ca9230767.js",
+   "file": "_deps/use-thread-summary-panel-fc6ca9230767.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 6461,
+   "formatted_bytes": 10598,
+   "formatter": "prettier",
+   "sha256_raw": "482a18136d15bc37555089680952ae40f47fa197da55e576a4e446e50027ff31"
+  },
+  {
+   "archive_path": "webview/assets/user-message-5f3d424c6182.css",
+   "file": "_deps/user-message-5f3d424c6182.css",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1740,
+   "formatted_bytes": 2058,
+   "formatter": "prettier",
+   "sha256_raw": "673790a44e1915b97072c9b080da8cdaafca9d5ba7c614c481924225cef2be93"
+  },
+  {
+   "archive_path": "webview/assets/user-message-attachments-86781672dd9c.js",
+   "file": "_deps/user-message-attachments-86781672dd9c.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 34549,
+   "formatted_bytes": 56510,
+   "formatter": "prettier",
+   "sha256_raw": "3394a6173f935b4453f6ec9cb0a7089b029621232a437d0965e3a611b7ff3e1f"
+  },
+  {
+   "archive_path": "webview/assets/user-message-e2f491ec8e26.js",
+   "file": "_deps/user-message-e2f491ec8e26.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 28758,
+   "formatted_bytes": 46513,
+   "formatter": "prettier",
+   "sha256_raw": "6326df43d8d65d4e61ec501a73c43dd15deb74c4180dcf0f853fe2312c21ed7c"
+  },
+  {
+   "archive_path": "webview/assets/useStableCallback-428e3bae0416.js",
+   "file": "_deps/useStableCallback-428e3bae0416.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 331,
+   "formatted_bytes": 394,
+   "formatter": "prettier",
+   "sha256_raw": "32641391b31a6834a429d10689690f8cc35bf0b0b0ea43a313cff08d8d632244"
+  },
+  {
+   "archive_path": "webview/assets/valdi-locale-cf3cf08c8f5c.js",
+   "file": "_deps/valdi-locale-cf3cf08c8f5c.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 27061,
+   "formatted_bytes": 35736,
+   "formatter": "prettier",
+   "sha256_raw": "581ce810e446e11e1abd5bdcd25fa53dbb60e5509cbfbe899f35008466033cef"
+  },
+  {
+   "archive_path": "webview/assets/version-history-mutation-c3d1e9519c5d.js",
+   "file": "_deps/version-history-mutation-c3d1e9519c5d.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 1042,
+   "formatted_bytes": 1315,
+   "formatter": "prettier",
+   "sha256_raw": "323d1bf26f531f13314e31e05e6e5c73c017129b90b4a89fb2b301370c526063"
+  },
+  {
+   "archive_path": "webview/assets/versions-dialog-ce4afb5291b9.js",
+   "file": "_deps/versions-dialog-ce4afb5291b9.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 7042,
+   "formatted_bytes": 11637,
+   "formatter": "prettier",
+   "sha256_raw": "e11185d2573e5438cf63333d6aa6aa34917f781cb6c18dff3ff7aafc86dc12de"
+  },
+  {
+   "archive_path": "webview/assets/video-3fb240d39332.js",
+   "file": "_deps/video-3fb240d39332.js",
+   "selected_by": "closure:d1:chatgpt-markdown-view-49d8cc54ac3e.js",
+   "raw_bytes": 3404,
+   "formatted_bytes": 5384,
+   "formatter": "prettier",
+   "sha256_raw": "2e5e090cf087687ae8294f8693b4efa44c0244bb3cfbd1072f1143b8e0a6416f"
+  },
+  {
+   "archive_path": "webview/assets/view-page-dd92188ae5b3.js",
+   "file": "_deps/view-page-dd92188ae5b3.js",
+   "selected_by": "closure:d1:chatgpt-mcp-extension-view-page-c7dcc2a83512.js",
+   "raw_bytes": 27046,
+   "formatted_bytes": 38053,
+   "formatter": "prettier",
+   "sha256_raw": "8e2392fda738b36cd51433946bd54126abfeea6f5d66132a5e19d0d977fd7e08"
+  },
+  {
+   "archive_path": "webview/assets/virtualized-turn-list-3939704fbac6.js",
+   "file": "_deps/virtualized-turn-list-3939704fbac6.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 29818,
+   "formatted_bytes": 48467,
+   "formatter": "prettier",
+   "sha256_raw": "c2e84ce57530970139b8bd94bff3828be6e3120595ddad40b91929bb5bd4b468"
+  },
+  {
+   "archive_path": "webview/assets/visualization-sandbox-config-d6a8d5057bf3.js",
+   "file": "_deps/visualization-sandbox-config-d6a8d5057bf3.js",
+   "selected_by": "closure:d1:chatgpt-code-block-c5c3d1d7da0d.js",
+   "raw_bytes": 2557,
+   "formatted_bytes": 3396,
+   "formatter": "prettier",
+   "sha256_raw": "f50a6ecf03f92e41cf50d892b2cf126fe802b55e4f9ee1940170f54ac3fa7971"
+  },
+  {
+   "archive_path": "webview/assets/webmcp-tool-calls-2815582d91b4.js",
+   "file": "_deps/webmcp-tool-calls-2815582d91b4.js",
+   "selected_by": "closure:d1:chatgpt-entity-side-panel-content-e1216b8017bd.js",
+   "raw_bytes": 1034,
+   "formatted_bytes": 1474,
+   "formatter": "prettier",
+   "sha256_raw": "ae20b54699d480206b1c1458882c7dfd0519e88d8f59758b28bb4de45b26839c"
+  },
+  {
+   "archive_path": "webview/assets/whats-new-capability-search-a2f9b40b23ff.js",
+   "file": "chatgpt/whats-new-capability-search-a2f9b40b23ff.js",
+   "selected_by": "rule",
+   "raw_bytes": 40395,
+   "formatted_bytes": 40428,
+   "formatter": "prettier",
+   "sha256_raw": "a498a0a7dd56c5888ee2bc3f4a8527e2d086c57724b30aa5b2443324c1f5b592"
+  },
+  {
+   "archive_path": "webview/assets/whats-new-capability-welcome-5b66cbefcd9a.js",
+   "file": "chatgpt/whats-new-capability-welcome-5b66cbefcd9a.js",
+   "selected_by": "rule",
+   "raw_bytes": 8496,
+   "formatted_bytes": 8529,
+   "formatter": "prettier",
+   "sha256_raw": "299161ee1d0f39561b78dc285525b2c1afe0d93c37d466cf1ffc3406c7ab1c82"
+  },
+  {
+   "archive_path": "webview/assets/Whirr-3382133209aa.js",
+   "file": "_deps/Whirr-3382133209aa.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 24570,
+   "formatted_bytes": 42259,
+   "formatter": "prettier",
+   "sha256_raw": "72a532b072b9d6913341988adc21d60732e5c43f3e7b56e88e25395301e64939"
+  },
+  {
+   "archive_path": "webview/assets/widget-analytics-e32671eb3615.js",
+   "file": "_deps/widget-analytics-e32671eb3615.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 12452,
+   "formatted_bytes": 17310,
+   "formatter": "prettier",
+   "sha256_raw": "afb3028c5957a421778d2c7ae9e1452f1ba94eb282f5fd0ab606f06a3b2b21ca"
+  },
+  {
+   "archive_path": "webview/assets/widget-focused-object-4403956149ae.js",
+   "file": "_deps/widget-focused-object-4403956149ae.js",
+   "selected_by": "closure:d1:chatgpt-ecosystem-widget-f627221f36cd.js",
+   "raw_bytes": 3882,
+   "formatted_bytes": 5911,
+   "formatter": "prettier",
+   "sha256_raw": "decd765dedeacc1f6e324ac2a59d485ba313960c1bfcbb7cba845fcdf66149b7"
+  },
+  {
+   "archive_path": "webview/assets/widget-focused-object-transfer-942a157a7ac8.js",
+   "file": "_deps/widget-focused-object-transfer-942a157a7ac8.js",
+   "selected_by": "closure:d1:chatgpt-conversation-page-ccc364bfc217.js",
+   "raw_bytes": 540,
+   "formatted_bytes": 661,
+   "formatter": "prettier",
+   "sha256_raw": "1b0beccb4c0489d774da8386abeeb945923bdf483fad65ade361f6bead5ae0bf"
+  },
+  {
+   "archive_path": "webview/assets/widget-renderer-c32edd1c4ce4.js",
+   "file": "_deps/widget-renderer-c32edd1c4ce4.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 8106,
+   "formatted_bytes": 12866,
+   "formatter": "prettier",
+   "sha256_raw": "a6dcb21a99f9e47046a9120307d4b5eddc9f65c752b846914034ecf3f2088f37"
+  },
+  {
+   "archive_path": "webview/assets/widget-share-85246dc9da35.js",
+   "file": "_deps/widget-share-85246dc9da35.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 2491,
+   "formatted_bytes": 3511,
+   "formatter": "prettier",
+   "sha256_raw": "d3064f632d0e7a1a1aec2100e3aaf34a546b3e5a60f63d14f793ecca36dc195d"
+  },
+  {
+   "archive_path": "webview/assets/widget-voice-session-b67d8c568a96.js",
+   "file": "_deps/widget-voice-session-b67d8c568a96.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 3476,
+   "formatted_bytes": 5120,
+   "formatter": "prettier",
+   "sha256_raw": "72706a92b40d3d8c8df13017e2a15aa650b711ef749d3d989dd3fd5fd7902773"
+  },
+  {
+   "archive_path": "webview/assets/work-onboarding-a8e57bf71124.js",
+   "file": "_deps/work-onboarding-a8e57bf71124.js",
+   "selected_by": "closure:d1:chatgpt-conversation-turn-content-8beb76dc50bb.js",
+   "raw_bytes": 892,
+   "formatted_bytes": 1148,
+   "formatter": "prettier",
+   "sha256_raw": "2ef980417fe977192bf245ce55ca094992823ec1db05b30119d53efddf268878"
+  },
+  {
+   "archive_path": "webview/assets/x-crossed-4c7ded468e5b.js",
+   "file": "_deps/x-crossed-4c7ded468e5b.js",
+   "selected_by": "closure:d1:chatgpt-announcement-candidates-a23c854be3bb.js",
+   "raw_bytes": 878,
+   "formatted_bytes": 1070,
+   "formatter": "prettier",
+   "sha256_raw": "0d7fc10de1276dfd83e9a94e36dd23d0ae5c554bfc5e1939996a8c6c94ca6eb1"
+  },
+  {
+   "archive_path": "webview/assets/Yo-4d2dd45bafcd.js",
+   "file": "_deps/Yo-4d2dd45bafcd.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 9720,
+   "formatted_bytes": 17324,
+   "formatter": "prettier",
+   "sha256_raw": "bd47867db57f7e04836e71c1a1c25b81ecc0b60e6f413ed43067cf674b06a602"
+  },
+  {
+   "archive_path": "webview/assets/Zapp-b2ce3bbdf1d0.js",
+   "file": "_deps/Zapp-b2ce3bbdf1d0.js",
+   "selected_by": "closure:d1:chatgpt-dil-directive-renderer-impl-bdab02c68db9.js",
+   "raw_bytes": 12120,
+   "formatted_bytes": 20522,
+   "formatter": "prettier",
+   "sha256_raw": "28375f87bc545f7496128aac0d5513ef402daa6b830ac234663e360a26baeea1"
+  }
+ ]
+}

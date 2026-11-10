@@ -1,0 +1,786 @@
+{
+ "generated_at": "2026-10-23T01:24:46.944Z",
+ "source": {
+  "archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1016.8622.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "app_initial_chunk": "app-initial-ad16eaadf81f.js",
+  "app_initial_bytes": 14606938
+ },
+ "slug_list": [
+  "general-settings",
+  "notifications",
+  "import",
+  "profile",
+  "security",
+  "account",
+  "age",
+  "agreements",
+  "parental-controls",
+  "trusted-contact",
+  "safety",
+  "time-management",
+  "keyboard-shortcuts",
+  "codex-micro",
+  "appshots",
+  "appearance",
+  "voice",
+  "storage",
+  "pets",
+  "chronicle",
+  "agent",
+  "work-settings",
+  "git-settings",
+  "data-controls",
+  "archived-chats",
+  "ads-controls",
+  "cloud-settings",
+  "cloud-environments",
+  "codex-cloud",
+  "code-review",
+  "personalization",
+  "usage",
+  "billing",
+  "analytics",
+  "consumer-view",
+  "usage-code-review",
+  "debug",
+  "browser-use",
+  "extension",
+  "computer-use",
+  "local-environments",
+  "worktrees",
+  "environments",
+  "mcp-settings",
+  "gateways",
+  "hooks-settings",
+  "connections",
+  "plugins-settings",
+  "file-type-handlers",
+  "rosalind",
+  "skills-settings",
+  "teams",
+  "cloud-computer",
+  "passwords"
+ ],
+ "nav_order": [
+  "general-settings",
+  "notifications",
+  "import",
+  "profile",
+  "security",
+  "account",
+  "age",
+  "agreements",
+  "parental-controls",
+  "trusted-contact",
+  "safety",
+  "time-management",
+  "appearance",
+  "voice",
+  "storage",
+  "pets",
+  "chronicle",
+  "appshots",
+  "git-settings",
+  "connections",
+  "cloud-settings",
+  "codex-cloud",
+  "cloud-environments",
+  "code-review",
+  "local-environments",
+  "worktrees",
+  "agent",
+  "work-settings",
+  "personalization",
+  "keyboard-shortcuts",
+  "codex-micro",
+  "usage",
+  "billing",
+  "analytics",
+  "consumer-view",
+  "usage-code-review",
+  "debug",
+  "browser-use",
+  "extension",
+  "computer-use",
+  "mcp-settings",
+  "gateways",
+  "hooks-settings",
+  "plugins-settings",
+  "file-type-handlers",
+  "rosalind",
+  "skills-settings",
+  "data-controls",
+  "archived-chats",
+  "ads-controls",
+  "teams",
+  "cloud-computer",
+  "passwords"
+ ],
+ "sections": [
+  {
+   "slug": "gateways",
+   "component": "GatewaysSettings",
+   "entry_chunk": "settings-c2fddca9a1ec.js",
+   "resolved_chunk": "settings-c2fddca9a1ec.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 60524,
+   "resolved_bytes": 60524,
+   "extracted": true
+  },
+  {
+   "slug": "rosalind",
+   "component": "RosalindSettings",
+   "entry_chunk": "settings-979ea27dffc3.js",
+   "resolved_chunk": "settings-979ea27dffc3.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "view-page-dd92188ae5b3.js",
+    "settings-availability-e34b4a6a5c01.js"
+   ],
+   "entry_bytes": 726,
+   "resolved_bytes": 726,
+   "extracted": true
+  },
+  {
+   "slug": "billing",
+   "component": null,
+   "entry_chunk": "billing-settings-17fac163f5be.js",
+   "resolved_chunk": "billing-settings-17fac163f5be.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 95295,
+   "resolved_bytes": 95295,
+   "extracted": true
+  },
+  {
+   "slug": "general-settings",
+   "component": null,
+   "entry_chunk": "general-settings-7cfd57aa26b2.js",
+   "resolved_chunk": "general-settings-27118198cef3.js",
+   "is_shim": true,
+   "delegates_to": [
+    "general-settings-27118198cef3.js"
+   ],
+   "entry_bytes": 170,
+   "resolved_bytes": 161768,
+   "extracted": true
+  },
+  {
+   "slug": "notifications",
+   "component": "NotificationsSettingsPage",
+   "entry_chunk": "notifications-settings-e587b7067be1.js",
+   "resolved_chunk": "notifications-settings-b3ee71a2fd12.js",
+   "is_shim": true,
+   "delegates_to": [
+    "notifications-settings-b3ee71a2fd12.js"
+   ],
+   "entry_bytes": 148,
+   "resolved_bytes": 31519,
+   "extracted": true
+  },
+  {
+   "slug": "import",
+   "component": "ImportSettings",
+   "entry_chunk": "import-settings-85e3649d8286.js",
+   "resolved_chunk": "import-settings-85e3649d8286.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 50603,
+   "resolved_bytes": 50603,
+   "extracted": true
+  },
+  {
+   "slug": "profile",
+   "component": "ProfileSettings",
+   "entry_chunk": "profile-settings-af10c0eb084d.js",
+   "resolved_chunk": "profile-settings-af10c0eb084d.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "profile-d06bbc2f13b9.js"
+   ],
+   "entry_bytes": 3502,
+   "resolved_bytes": 3502,
+   "extracted": true
+  },
+  {
+   "slug": "security",
+   "component": "ChatGptSecuritySettings",
+   "entry_chunk": "security-settings-98d075740c14.js",
+   "resolved_chunk": "security-settings-98d075740c14.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 152927,
+   "resolved_bytes": 152927,
+   "extracted": true
+  },
+  {
+   "slug": "account",
+   "component": "ChatGptAccountSettings",
+   "entry_chunk": "account-settings-5faced709ccc.js",
+   "resolved_chunk": "account-settings-5faced709ccc.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 63178,
+   "resolved_bytes": 63178,
+   "extracted": true
+  },
+  {
+   "slug": "age",
+   "component": "ChatGptAgeSettings",
+   "entry_chunk": "age-settings-592082e19bc8.js",
+   "resolved_chunk": "age-settings-3c95e0405893.js",
+   "is_shim": true,
+   "delegates_to": [
+    "age-settings-3c95e0405893.js"
+   ],
+   "entry_bytes": 131,
+   "resolved_bytes": 11076,
+   "extracted": true
+  },
+  {
+   "slug": "agreements",
+   "component": "AgreementsSettings",
+   "entry_chunk": "agreements-settings-eb92b26748f2.js",
+   "resolved_chunk": "agreements-settings-eb92b26748f2.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "agreements-access-108705e4e29e.js"
+   ],
+   "entry_bytes": 8358,
+   "resolved_bytes": 8358,
+   "extracted": true
+  },
+  {
+   "slug": "family",
+   "component": null,
+   "entry_chunk": "general-settings-7cfd57aa26b2.js",
+   "resolved_chunk": "general-settings-27118198cef3.js",
+   "is_shim": true,
+   "delegates_to": [
+    "general-settings-27118198cef3.js"
+   ],
+   "entry_bytes": 170,
+   "resolved_bytes": 161768,
+   "extracted": true
+  },
+  {
+   "slug": "parental-controls",
+   "component": null,
+   "entry_chunk": "settings-a1e669070460.js",
+   "resolved_chunk": "settings-a1e669070460.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 23686,
+   "resolved_bytes": 23686,
+   "extracted": true
+  },
+  {
+   "slug": "trusted-contact",
+   "component": "ChatGptTrustedContactSettings",
+   "entry_chunk": "trusted-contact-settings-ee0aa823e1fa.js",
+   "resolved_chunk": "trusted-contact-settings-ee0aa823e1fa.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 44970,
+   "resolved_bytes": 44970,
+   "extracted": true
+  },
+  {
+   "slug": "safety",
+   "component": "ChatGptSafetySettings",
+   "entry_chunk": "safety-settings-7057496b8a54.js",
+   "resolved_chunk": "safety-settings-7057496b8a54.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 28203,
+   "resolved_bytes": 28203,
+   "extracted": true
+  },
+  {
+   "slug": "time-management",
+   "component": "ChatGptTimeManagementSettings",
+   "entry_chunk": "time-management-settings-b78fd151a91c.js",
+   "resolved_chunk": "app-shared-2feb3d4c6fcc.js",
+   "is_shim": true,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js"
+   ],
+   "entry_bytes": 963,
+   "resolved_bytes": 5899319,
+   "extracted": true
+  },
+  {
+   "slug": "keyboard-shortcuts",
+   "component": "KeyboardShortcutsSettings",
+   "entry_chunk": "keyboard-shortcuts-settings-b1ab19330ec8.js",
+   "resolved_chunk": "keyboard-shortcuts-settings-e8d1446aff5a.js",
+   "is_shim": true,
+   "delegates_to": [
+    "keyboard-shortcuts-settings-e8d1446aff5a.js"
+   ],
+   "entry_bytes": 148,
+   "resolved_bytes": 25536,
+   "extracted": true
+  },
+  {
+   "slug": "codex-micro",
+   "component": "CodexMicroSettings",
+   "entry_chunk": "codex-micro-settings-5c4662cce33b.js",
+   "resolved_chunk": "codex-micro-settings-5c4662cce33b.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 113122,
+   "resolved_bytes": 113122,
+   "extracted": true
+  },
+  {
+   "slug": "appshots",
+   "component": "AppshotsSettings",
+   "entry_chunk": "appshots-settings-6fbff775d148.js",
+   "resolved_chunk": "appshots-settings-6fbff775d148.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js"
+   ],
+   "entry_bytes": 13403,
+   "resolved_bytes": 13403,
+   "extracted": true
+  },
+  {
+   "slug": "appearance",
+   "component": "AppearanceSettings",
+   "entry_chunk": "appearance-settings-3fe372197c4b.js",
+   "resolved_chunk": "appearance-settings-3fe372197c4b.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "general-settings-27118198cef3.js"
+   ],
+   "entry_bytes": 807,
+   "resolved_bytes": 807,
+   "extracted": true
+  },
+  {
+   "slug": "voice",
+   "component": "VoiceSettings",
+   "entry_chunk": "voice-settings-da1b7be791f6.js",
+   "resolved_chunk": "voice-settings-da1b7be791f6.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 41507,
+   "resolved_bytes": 41507,
+   "extracted": true
+  },
+  {
+   "slug": "storage",
+   "component": "DeviceStorageSettings",
+   "entry_chunk": "device-storage-91f490b9c301.js",
+   "resolved_chunk": "device-storage-91f490b9c301.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 28262,
+   "resolved_bytes": 28262,
+   "extracted": true
+  },
+  {
+   "slug": "pets",
+   "component": "PetsSettingsRoute",
+   "entry_chunk": "pets-settings-route-d982a7a52b95.js",
+   "resolved_chunk": "pets-settings-route-d982a7a52b95.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 40704,
+   "resolved_bytes": 40704,
+   "extracted": true
+  },
+  {
+   "slug": "agent",
+   "component": "ConfigurationPanel",
+   "entry_chunk": "configuration-panel-85ed465329c4.js",
+   "resolved_chunk": "configuration-panel-85ed465329c4.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 49853,
+   "resolved_bytes": 49853,
+   "extracted": true
+  },
+  {
+   "slug": "work-settings",
+   "component": "WorkSettingsPanel",
+   "entry_chunk": "panel-7ee665247f0b.js",
+   "resolved_chunk": "panel-ede8cf50d7fd.js",
+   "is_shim": true,
+   "delegates_to": [
+    "panel-ede8cf50d7fd.js"
+   ],
+   "entry_bytes": 123,
+   "resolved_bytes": 13104,
+   "extracted": true
+  },
+  {
+   "slug": "git-settings",
+   "component": "GitSettings",
+   "entry_chunk": "git-settings-9a2480a749cd.js",
+   "resolved_chunk": "git-settings-9a2480a749cd.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 22779,
+   "resolved_bytes": 22779,
+   "extracted": true
+  },
+  {
+   "slug": "ads-controls",
+   "component": "AdsControlsSettings",
+   "entry_chunk": "route-be55cff7d5f6.js",
+   "resolved_chunk": "route-be55cff7d5f6.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 23471,
+   "resolved_bytes": 23471,
+   "extracted": true
+  },
+  {
+   "slug": "archived-chats",
+   "component": "DataControlsSettings",
+   "entry_chunk": "data-controls-a8b342041278.js",
+   "resolved_chunk": "data-controls-a8b342041278.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 41356,
+   "resolved_bytes": 41356,
+   "extracted": true
+  },
+  {
+   "slug": "data-controls",
+   "component": "ChatGptDataControlsSettings",
+   "entry_chunk": "data-controls-settings-26aa31145e9f.js",
+   "resolved_chunk": "data-controls-settings-26aa31145e9f.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 47828,
+   "resolved_bytes": 47828,
+   "extracted": true
+  },
+  {
+   "slug": "code-review",
+   "component": "CodeReviewPluginSettings",
+   "entry_chunk": "settings-ee81c10f81cd.js",
+   "resolved_chunk": "settings-ee81c10f81cd.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 69732,
+   "resolved_bytes": 69732,
+   "extracted": true
+  },
+  {
+   "slug": "cloud-settings",
+   "component": "CloudPreferencesSettings",
+   "entry_chunk": "cloud-preferences-settings-11e191fc4271.js",
+   "resolved_chunk": "cloud-preferences-settings-54bfef4ea3ab.js",
+   "is_shim": true,
+   "delegates_to": [
+    "cloud-preferences-settings-54bfef4ea3ab.js"
+   ],
+   "entry_bytes": 151,
+   "resolved_bytes": 9255,
+   "extracted": true
+  },
+  {
+   "slug": "codex-cloud",
+   "component": "CodexCloudSettings",
+   "entry_chunk": "settings-652a52c011da.js",
+   "resolved_chunk": "settings-652a52c011da.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 38792,
+   "resolved_bytes": 38792,
+   "extracted": true
+  },
+  {
+   "slug": "cloud-environments",
+   "component": "CloudEnvironmentsSettingsPage",
+   "entry_chunk": "cloud-environments-settings-page-9ed5157db04d.js",
+   "resolved_chunk": "cloud-environments-settings-page-9ed5157db04d.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 32830,
+   "resolved_bytes": 32830,
+   "extracted": true
+  },
+  {
+   "slug": "personalization",
+   "component": "ChatGptPersonalizationSettings",
+   "entry_chunk": "personalization-settings-a40d408010a2.js",
+   "resolved_chunk": "personalization-settings-a40d408010a2.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 121680,
+   "resolved_bytes": 121680,
+   "extracted": true
+  },
+  {
+   "slug": "chronicle",
+   "component": "ComputerHistorySettingsPage",
+   "entry_chunk": "chronicle-settings-page-68052b64895a.js",
+   "resolved_chunk": "chronicle-settings-page-68052b64895a.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 60945,
+   "resolved_bytes": 60945,
+   "extracted": true
+  },
+  {
+   "slug": "usage",
+   "component": null,
+   "entry_chunk": "page-a4f99675beb4.js",
+   "resolved_chunk": "page-a4f99675beb4.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 180734,
+   "resolved_bytes": 180734,
+   "extracted": true
+  },
+  {
+   "slug": "analytics",
+   "component": null,
+   "entry_chunk": "page-a4f99675beb4.js",
+   "resolved_chunk": "page-a4f99675beb4.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 180734,
+   "resolved_bytes": 180734,
+   "extracted": true
+  },
+  {
+   "slug": "usage-code-review",
+   "component": null,
+   "entry_chunk": "page-a4f99675beb4.js",
+   "resolved_chunk": "page-a4f99675beb4.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 180734,
+   "resolved_bytes": 180734,
+   "extracted": true
+  },
+  {
+   "slug": "consumer-view",
+   "component": null,
+   "entry_chunk": "page-a4f99675beb4.js",
+   "resolved_chunk": "page-a4f99675beb4.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 180734,
+   "resolved_bytes": 180734,
+   "extracted": true
+  },
+  {
+   "slug": "debug",
+   "component": "DebugSettings",
+   "entry_chunk": "debug-settings-e2cafc2cf54e.js",
+   "resolved_chunk": "debug-settings-e2cafc2cf54e.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js"
+   ],
+   "entry_bytes": 7085,
+   "resolved_bytes": 7085,
+   "extracted": true
+  },
+  {
+   "slug": "computer-use",
+   "component": "ComputerUseSettings",
+   "entry_chunk": "computer-use-settings-8b20b6420fdd.js",
+   "resolved_chunk": "computer-use-settings-8b20b6420fdd.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 73297,
+   "resolved_bytes": 73297,
+   "extracted": true
+  },
+  {
+   "slug": "browser-use",
+   "component": "BrowserUseSettings",
+   "entry_chunk": "browser-use-settings-2c09b11aec4f.js",
+   "resolved_chunk": "browser-use-settings-2c09b11aec4f.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 92829,
+   "resolved_bytes": 92829,
+   "extracted": true
+  },
+  {
+   "slug": "extension",
+   "component": "BrowserExtensionSettings",
+   "entry_chunk": "browser-extension-settings-7ca9f12c4d6b.js",
+   "resolved_chunk": "browser-extension-settings-7ca9f12c4d6b.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "browser-use-origin-state-queries-97f7f3683560.js",
+    "bundle-6d4b2de4bbf6.js",
+    "browser-use-policy-site-permissions-33d16736b491.js"
+   ],
+   "entry_bytes": 15391,
+   "resolved_bytes": 15391,
+   "extracted": true
+  },
+  {
+   "slug": "local-environments",
+   "component": "LocalEnvironmentsSettings",
+   "entry_chunk": "local-environments-settings-page-6896a66c1463.js",
+   "resolved_chunk": "local-environments-settings-page-6896a66c1463.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "local-environments-settings-content-5bc177910d1e.js"
+   ],
+   "entry_bytes": 1424,
+   "resolved_bytes": 1424,
+   "extracted": true
+  },
+  {
+   "slug": "worktrees",
+   "component": "WorktreesSettingsPage",
+   "entry_chunk": "worktrees-settings-page-3794bb2944a2.js",
+   "resolved_chunk": "worktrees-settings-page-3794bb2944a2.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 32798,
+   "resolved_bytes": 32798,
+   "extracted": true
+  },
+  {
+   "slug": "environments",
+   "component": "SettingsExternalSection",
+   "entry_chunk": "settings-external-section-e4db7adeceee.js",
+   "resolved_chunk": "app-shared-2feb3d4c6fcc.js",
+   "is_shim": true,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js"
+   ],
+   "entry_bytes": 744,
+   "resolved_bytes": 5899319,
+   "extracted": true
+  },
+  {
+   "slug": "mcp-settings",
+   "component": "McpSettings",
+   "entry_chunk": "mcp-settings-4e4b15b1e038.js",
+   "resolved_chunk": "mcp-settings-4e4b15b1e038.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "plugins-settings-65fe8d0ee127.js"
+   ],
+   "entry_bytes": 798,
+   "resolved_bytes": 798,
+   "extracted": true
+  },
+  {
+   "slug": "hooks-settings",
+   "component": "HooksSettings",
+   "entry_chunk": "hooks-settings-97c8ded98a18.js",
+   "resolved_chunk": "hooks-settings-97c8ded98a18.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 26071,
+   "resolved_bytes": 26071,
+   "extracted": true
+  },
+  {
+   "slug": "connections",
+   "component": "RemoteConnectionsSettings",
+   "entry_chunk": "remote-connections-settings-59c3870c0198.js",
+   "resolved_chunk": "remote-connections-settings-59c3870c0198.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 161564,
+   "resolved_bytes": 161564,
+   "extracted": true
+  },
+  {
+   "slug": "plugins-settings",
+   "component": "PluginsSettings",
+   "entry_chunk": "plugins-settings-3ba756b63ea9.js",
+   "resolved_chunk": "plugins-settings-65fe8d0ee127.js",
+   "is_shim": true,
+   "delegates_to": [
+    "plugins-settings-65fe8d0ee127.js"
+   ],
+   "entry_bytes": 127,
+   "resolved_bytes": 86665,
+   "extracted": true
+  },
+  {
+   "slug": "file-type-handlers",
+   "component": "FileTypeHandlersSettings",
+   "entry_chunk": "file-type-handlers-1ebf6724e571.js",
+   "resolved_chunk": "file-type-handlers-1ebf6724e571.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "settings-loading-row-1fcc5b514745.js"
+   ],
+   "entry_bytes": 6023,
+   "resolved_bytes": 6023,
+   "extracted": true
+  },
+  {
+   "slug": "skills-settings",
+   "component": "SkillsSettings",
+   "entry_chunk": "skills-settings-e6bd0e971c3d.js",
+   "resolved_chunk": "skills-settings-e6bd0e971c3d.js",
+   "is_shim": false,
+   "delegates_to": [
+    "app-shared-2feb3d4c6fcc.js",
+    "skills-page-3d6b616da493.js"
+   ],
+   "entry_bytes": 530,
+   "resolved_bytes": 530,
+   "extracted": true
+  },
+  {
+   "slug": "cloud-computer",
+   "component": "ChatGptCloudBrowserSettings",
+   "entry_chunk": "settings-c356b43029f8.js",
+   "resolved_chunk": "settings-c356b43029f8.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 41207,
+   "resolved_bytes": 41207,
+   "extracted": true
+  },
+  {
+   "slug": "passwords",
+   "component": "PasswordsSettings",
+   "entry_chunk": "settings-4c3b679da3a6.js",
+   "resolved_chunk": "settings-4c3b679da3a6.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 23303,
+   "resolved_bytes": 23303,
+   "extracted": true
+  },
+  {
+   "slug": "teams",
+   "component": "TeamSettingsPage",
+   "entry_chunk": "team-settings-page-432378a4c839.js",
+   "resolved_chunk": "team-settings-page-432378a4c839.js",
+   "is_shim": false,
+   "delegates_to": null,
+   "entry_bytes": 77490,
+   "resolved_bytes": 77490,
+   "extracted": true
+  }
+ ],
+ "coverage": {
+  "slugs_in_nav_order": 53,
+  "slugs_with_loader": 55,
+  "slugs_missing_loader": [],
+  "resolved_chunks_not_extracted": []
+ }
+}

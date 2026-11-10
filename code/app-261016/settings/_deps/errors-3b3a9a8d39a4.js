@@ -1,0 +1,72 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { HFt as t, VRt as n, kRt as r } from "./app-shared-2feb3d4c6fcc.js";
+import { Chr as i, kon as a, uon as o, whr as s } from "./app-initial-ad16eaadf81f.js";
+import { T as c, t as l } from "./src-64808839b2f3.js";
+function u(e, t) {
+  if (e instanceof Error) {
+    let n = i(e);
+    if (n != null) {
+      if (n.type === `profile_update_moderation_failed`)
+        switch (n.field) {
+          case `display_name`:
+            return t.formatMessage({
+              id: `profile.displayNameModerationError`,
+              defaultMessage: `Your display name wasn’t accepted. Try a different name.`,
+              description: `Error shown when safety moderation identifies the display name as the rejected profile field`,
+            });
+          case `profile_asset_pointer`:
+            return t.formatMessage({
+              id: `profile.photoModerationError`,
+              defaultMessage: `Your profile picture wasn’t accepted. Try another picture.`,
+              description: `Error shown when safety moderation identifies the profile picture as the rejected profile field`,
+            });
+          case `description`:
+            return t.formatMessage({
+              id: `profile.bioModerationError`,
+              defaultMessage: `Your bio wasn’t accepted. Try revising it.`,
+              description: `Error shown when safety moderation identifies the biography as the rejected profile field`,
+            });
+          case void 0:
+          default:
+            return n.message;
+        }
+      return n.message;
+    }
+    if (e.message.length > 0) {
+      try {
+        let t = f.safeParse(JSON.parse(e.message));
+        if (t.success) return t.data.msg;
+      } catch {}
+      return e.message;
+    }
+  }
+  return null;
+}
+function d(e) {
+  if (!(e instanceof Error)) return null;
+  let t = i(e)?.field;
+  return t === `display_name` || t === `profile_asset_pointer` || t === `description` ? t : null;
+}
+var f;
+function p() {
+  return (p = e(() => {
+    (t(), s(), (f = r({ type: n(), msg: n() })));
+  }))();
+}
+function m(e, t) {
+  return e instanceof o
+    ? c(e.reason, t)
+    : (u(e, t) ??
+        t.formatMessage({
+          id: `profile.usernameUpdateError`,
+          defaultMessage: `Unable to update username`,
+          description: `Fallback error shown when profile username update fails`,
+        }));
+}
+function h() {
+  return (h = e(() => {
+    (l(), a(), p());
+  }))();
+}
+export { p as a, u as i, h as n, d as r, m as t };
+//# sourceMappingURL=errors-3b3a9a8d39a4.js.map

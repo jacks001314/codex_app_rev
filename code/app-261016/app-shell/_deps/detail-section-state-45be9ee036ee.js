@@ -1,0 +1,48 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { LNt as t, MNt as n, NNt as r, PBt as i } from "./app-shared-2feb3d4c6fcc.js";
+function a(e) {
+  let t = (0, o.c)(12),
+    r,
+    i,
+    a,
+    c;
+  t[0] === e
+    ? ((r = t[1]), (i = t[2]), (a = t[3]), (c = t[4]))
+    : (({ children: r, className: i, tone: c, ...a } = e),
+      (t[0] = e),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = c));
+  let l = (c === void 0 ? `secondary` : c) === `danger` ? `text-chart-red` : `text-tertiary`,
+    u;
+  t[5] !== i || t[6] !== l
+    ? ((u = n(
+        `flex min-h-[var(--height-token-row)] items-center justify-center gap-2 py-row-y text-[length:var(--detail-row-font-size,var(--text-base))] leading-5`,
+        l,
+        i,
+      )),
+      (t[5] = i),
+      (t[6] = l),
+      (t[7] = u))
+    : (u = t[7]);
+  let d;
+  return (
+    t[8] !== r || t[9] !== a || t[10] !== u
+      ? ((d = (0, s.jsx)(`div`, { className: u, ...a, children: r })),
+        (t[8] = r),
+        (t[9] = a),
+        (t[10] = u),
+        (t[11] = d))
+      : (d = t[11]),
+    d
+  );
+}
+var o, s;
+function c() {
+  return (c = e(() => {
+    ((o = i()), r(), (s = t()));
+  }))();
+}
+export { c as n, a as t };
+//# sourceMappingURL=detail-section-state-45be9ee036ee.js.map

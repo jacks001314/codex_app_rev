@@ -1,0 +1,20 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { mpt as t, sct as n } from "./app-shared-2feb3d4c6fcc.js";
+function r(e, n, r = t(n)) {
+  let i = document.createElement(e);
+  if (i instanceof HTMLIFrameElement)
+    (i.setAttribute(`sandbox`, `allow-scripts allow-same-origin`),
+      i.setAttribute(`referrerpolicy`, `no-referrer`));
+  else {
+    let e = document.createElement(`style`);
+    ((e.textContent = `iframe { border-radius: inherit; }`), i.shadowRoot?.append(e));
+  }
+  return (i.setAttribute(`partition`, r), i);
+}
+function i() {
+  return (i = e(() => {
+    n();
+  }))();
+}
+export { i as n, r as t };
+//# sourceMappingURL=mcp-sandbox-element-e1c5ac2ed0f6.js.map

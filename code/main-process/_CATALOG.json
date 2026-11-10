@@ -1,0 +1,1041 @@
+{
+  "module": "main-process",
+  "generated_at": "2026-09-11T11:51:56.664Z",
+  "files_scanned": 20,
+  "message_count": 4,
+  "messages": [
+    {
+      "id": "browserSidebarCommentRuntime.commentMarkerLabel",
+      "text": "Browser comment {commentNumber}",
+      "description": "Accessible label for a placed browser comment marker",
+      "files": ["build/browser-page-preload.js"],
+      "file_count": 1
+    },
+    {
+      "id": "browserSidebarCommentRuntime.draftCommentMarkerLabel",
+      "text": "Focus unsaved browser comment",
+      "description": "Accessible label for the temporary marker shown while creating a browser comment",
+      "files": ["build/browser-page-preload.js"],
+      "file_count": 1
+    },
+    {
+      "id": "browserSidebarCommentRuntime.elementMetadata.color",
+      "text": "color",
+      "description": "Label for the computed text color row in the browser comment hover metadata tooltip",
+      "files": ["build/browser-page-preload.js"],
+      "file_count": 1
+    },
+    {
+      "id": "browserSidebarCommentRuntime.elementMetadata.font",
+      "text": "font",
+      "description": "Label for the computed font row in the browser comment hover metadata tooltip",
+      "files": ["build/browser-page-preload.js"],
+      "file_count": 1
+    }
+  ],
+  "imports": [],
+  "hot_props": [
+    {
+      "name": "source",
+      "count": 7175
+    },
+    {
+      "name": "extensions",
+      "count": 2955
+    },
+    {
+      "name": "compressible",
+      "count": 2306
+    },
+    {
+      "name": "type",
+      "count": 1908
+    },
+    {
+      "name": "value",
+      "count": 1273
+    },
+    {
+      "name": "enumerable",
+      "count": 1208
+    },
+    {
+      "name": "safe",
+      "count": 1143
+    },
+    {
+      "name": "get",
+      "count": 1100
+    },
+    {
+      "name": "sensitive",
+      "count": 1047
+    },
+    {
+      "name": "error",
+      "count": 1043
+    },
+    {
+      "name": "id",
+      "count": 951
+    },
+    {
+      "name": "name",
+      "count": 781
+    },
+    {
+      "name": "code",
+      "count": 729
+    },
+    {
+      "name": "status",
+      "count": 720
+    },
+    {
+      "name": "path",
+      "count": 633
+    },
+    {
+      "name": "message",
+      "count": 608
+    },
+    {
+      "name": "kind",
+      "count": 604
+    },
+    {
+      "name": "default",
+      "count": 589
+    },
+    {
+      "name": "key",
+      "count": 588
+    },
+    {
+      "name": "signal",
+      "count": 544
+    },
+    {
+      "name": "description",
+      "count": 467
+    },
+    {
+      "name": "conversationId",
+      "count": 463
+    },
+    {
+      "name": "label",
+      "count": 459
+    },
+    {
+      "name": "unit",
+      "count": 433
+    },
+    {
+      "name": "hostId",
+      "count": 404
+    },
+    {
+      "name": "url",
+      "count": 398
+    },
+    {
+      "name": "verb",
+      "count": 394
+    },
+    {
+      "name": "cwd",
+      "count": 358
+    },
+    {
+      "name": "method",
+      "count": 314
+    },
+    {
+      "name": "input",
+      "count": 294
+    },
+    {
+      "name": "data",
+      "count": 283
+    },
+    {
+      "name": "descriptionIntlId",
+      "count": 280
+    },
+    {
+      "name": "reason",
+      "count": 274
+    },
+    {
+      "name": "success",
+      "count": 261
+    },
+    {
+      "name": "recursive",
+      "count": 257
+    },
+    {
+      "name": "titleIntlId",
+      "count": 254
+    },
+    {
+      "name": "browserTabId",
+      "count": 252
+    },
+    {
+      "name": "host",
+      "count": 252
+    },
+    {
+      "name": "null",
+      "count": 251
+    },
+    {
+      "name": "appServerClient",
+      "count": 241
+    },
+    {
+      "name": "platform",
+      "count": 240
+    },
+    {
+      "name": "number",
+      "count": 237
+    },
+    {
+      "name": "command",
+      "count": 233
+    },
+    {
+      "name": "env",
+      "count": 226
+    },
+    {
+      "name": "format",
+      "count": 226
+    },
+    {
+      "name": "y",
+      "count": 226
+    },
+    {
+      "name": "threadId",
+      "count": 222
+    },
+    {
+      "name": "schema",
+      "count": 220
+    },
+    {
+      "name": "x",
+      "count": 220
+    },
+    {
+      "name": "title",
+      "count": 218
+    },
+    {
+      "name": "args",
+      "count": 215
+    },
+    {
+      "name": "version",
+      "count": 212
+    },
+    {
+      "name": "mime",
+      "count": 212
+    },
+    {
+      "name": "ext",
+      "count": 209
+    },
+    {
+      "name": "resourcesPath",
+      "count": 208
+    },
+    {
+      "name": "windowId",
+      "count": 204
+    },
+    {
+      "name": "inst",
+      "count": 198
+    },
+    {
+      "name": "width",
+      "count": 196
+    },
+    {
+      "name": "action",
+      "count": 195
+    },
+    {
+      "name": "height",
+      "count": 191
+    },
+    {
+      "name": "target",
+      "count": 186
+    },
+    {
+      "name": "agentAccess",
+      "count": 186
+    },
+    {
+      "name": "array",
+      "count": 185
+    },
+    {
+      "name": "check",
+      "count": 181
+    },
+    {
+      "name": "electron",
+      "count": 179
+    },
+    {
+      "name": "timeoutMs",
+      "count": 177
+    },
+    {
+      "name": "params",
+      "count": 176
+    },
+    {
+      "name": "codexHome",
+      "count": 173
+    },
+    {
+      "name": "attributes",
+      "count": 172
+    },
+    {
+      "name": "stdout",
+      "count": 170
+    },
+    {
+      "name": "shortcutScope",
+      "count": 170
+    },
+    {
+      "name": "state",
+      "count": 164
+    },
+    {
+      "name": "commandMenuGroupKey",
+      "count": 164
+    },
+    {
+      "name": "origin",
+      "count": 163
+    },
+    {
+      "name": "file",
+      "count": 161
+    },
+    {
+      "name": "defaultKeybindings",
+      "count": 156
+    },
+    {
+      "name": "offset",
+      "count": 153
+    },
+    {
+      "name": "string",
+      "count": 153
+    },
+    {
+      "name": "force",
+      "count": 149
+    },
+    {
+      "name": "set",
+      "count": 146
+    },
+    {
+      "name": "messageId",
+      "count": 143
+    },
+    {
+      "name": "defaultMessage",
+      "count": 142
+    },
+    {
+      "name": "icon",
+      "count": 141
+    },
+    {
+      "name": "body",
+      "count": 140
+    },
+    {
+      "name": "stderr",
+      "count": 139
+    },
+    {
+      "name": "requestId",
+      "count": 139
+    },
+    {
+      "name": "marketplaceName",
+      "count": 135
+    },
+    {
+      "name": "sessionId",
+      "count": 134
+    },
+    {
+      "name": "inclusive",
+      "count": 133
+    },
+    {
+      "name": "date",
+      "count": 131
+    },
+    {
+      "name": "issues",
+      "count": 130
+    },
+    {
+      "name": "root",
+      "count": 128
+    },
+    {
+      "name": "result",
+      "count": 126
+    },
+    {
+      "name": "commandMenu",
+      "count": 126
+    },
+    {
+      "name": "configurable",
+      "count": 124
+    },
+    {
+      "name": "text",
+      "count": 124
+    },
+    {
+      "name": "browser_id",
+      "count": 124
+    },
+    {
+      "name": "email",
+      "count": 123
+    },
+    {
+      "name": "mode",
+      "count": 123
+    },
+    {
+      "name": "charset",
+      "count": 122
+    },
+    {
+      "name": "expected",
+      "count": 121
+    },
+    {
+      "name": "n",
+      "count": 121
+    },
+    {
+      "name": "time",
+      "count": 121
+    },
+    {
+      "name": "op",
+      "count": 121
+    },
+    {
+      "name": "queryKey",
+      "count": 118
+    },
+    {
+      "name": "start",
+      "count": 117
+    },
+    {
+      "name": "regex",
+      "count": 116
+    },
+    {
+      "name": "guid",
+      "count": 114
+    },
+    {
+      "name": "duration",
+      "count": 113
+    },
+    {
+      "name": "emoji",
+      "count": 110
+    },
+    {
+      "name": "owner",
+      "count": 109
+    },
+    {
+      "name": "datetime",
+      "count": 108
+    },
+    {
+      "name": "headers",
+      "count": 108
+    },
+    {
+      "name": "base64",
+      "count": 108
+    },
+    {
+      "name": "availableIn",
+      "count": 108
+    },
+    {
+      "name": "base64url",
+      "count": 106
+    },
+    {
+      "name": "cidrv4",
+      "count": 106
+    },
+    {
+      "name": "cidrv6",
+      "count": 106
+    },
+    {
+      "name": "cuid",
+      "count": 106
+    },
+    {
+      "name": "cuid2",
+      "count": 106
+    },
+    {
+      "name": "e164",
+      "count": 106
+    },
+    {
+      "name": "ipv4",
+      "count": 106
+    },
+    {
+      "name": "ipv6",
+      "count": 106
+    },
+    {
+      "name": "ksuid",
+      "count": 106
+    },
+    {
+      "name": "nanoid",
+      "count": 106
+    },
+    {
+      "name": "ulid",
+      "count": 106
+    },
+    {
+      "name": "uuid",
+      "count": 106
+    },
+    {
+      "name": "xid",
+      "count": 106
+    },
+    {
+      "name": "nan",
+      "count": 106
+    },
+    {
+      "name": "items",
+      "count": 105
+    },
+    {
+      "name": "parent",
+      "count": 104
+    },
+    {
+      "name": "jwt",
+      "count": 104
+    },
+    {
+      "name": "json_string",
+      "count": 103
+    },
+    {
+      "name": "click",
+      "count": 103
+    },
+    {
+      "name": "enabled",
+      "count": 102
+    },
+    {
+      "name": "tab_id",
+      "count": 102
+    },
+    {
+      "name": "uuidv4",
+      "count": 102
+    },
+    {
+      "name": "uuidv6",
+      "count": 102
+    },
+    {
+      "name": "options",
+      "count": 100
+    },
+    {
+      "name": "template_literal",
+      "count": 100
+    },
+    {
+      "name": "localeError",
+      "count": 100
+    },
+    {
+      "name": "continue",
+      "count": 99
+    },
+    {
+      "name": "sourcePath",
+      "count": 98
+    },
+    {
+      "name": "appServerConnection",
+      "count": 98
+    },
+    {
+      "name": "ownerWebContentsId",
+      "count": 97
+    },
+    {
+      "name": "gender",
+      "count": 96
+    },
+    {
+      "name": "electronAppPath",
+      "count": 95
+    },
+    {
+      "name": "menuTitle",
+      "count": 95
+    },
+    {
+      "name": "menuTitleIntlId",
+      "count": 95
+    },
+    {
+      "name": "gitManager",
+      "count": 94
+    },
+    {
+      "name": "traceId",
+      "count": 93
+    },
+    {
+      "name": "standard",
+      "count": 92
+    },
+    {
+      "name": "typeName",
+      "count": 90
+    },
+    {
+      "name": "abort",
+      "count": 89
+    },
+    {
+      "name": "projectId",
+      "count": 89
+    },
+    {
+      "name": "request",
+      "count": 87
+    },
+    {
+      "name": "selector",
+      "count": 86
+    },
+    {
+      "name": "globalState",
+      "count": 86
+    },
+    {
+      "name": "turnId",
+      "count": 86
+    },
+    {
+      "name": "meta",
+      "count": 83
+    },
+    {
+      "name": "allowedNonZeroExitCodes",
+      "count": 83
+    },
+    {
+      "name": "branch",
+      "count": 83
+    },
+    {
+      "name": "guestWebContentsId",
+      "count": 82
+    },
+    {
+      "name": "repoRoot",
+      "count": 81
+    },
+    {
+      "name": "port",
+      "count": 81
+    },
+    {
+      "name": "displayName",
+      "count": 80
+    },
+    {
+      "name": "paths",
+      "count": 80
+    },
+    {
+      "name": "trace",
+      "count": 80
+    },
+    {
+      "name": "durationMs",
+      "count": 79
+    },
+    {
+      "name": "anchor",
+      "count": 78
+    },
+    {
+      "name": "role",
+      "count": 78
+    },
+    {
+      "name": "end",
+      "count": 77
+    },
+    {
+      "name": "e",
+      "count": 75
+    },
+    {
+      "name": "v",
+      "count": 74
+    },
+    {
+      "name": "context",
+      "count": 74
+    },
+    {
+      "name": "model",
+      "count": 74
+    },
+    {
+      "name": "queryFn",
+      "count": 74
+    },
+    {
+      "name": "staleTime",
+      "count": 74
+    },
+    {
+      "name": "values",
+      "count": 73
+    },
+    {
+      "name": "encoding",
+      "count": 73
+    },
+    {
+      "name": "o",
+      "count": 73
+    },
+    {
+      "name": "release",
+      "count": 73
+    },
+    {
+      "name": "detect",
+      "count": 72
+    },
+    {
+      "name": "pluginName",
+      "count": 72
+    },
+    {
+      "name": "createdAt",
+      "count": 72
+    },
+    {
+      "name": "transport",
+      "count": 71
+    },
+    {
+      "name": "innerType",
+      "count": 70
+    },
+    {
+      "name": "event",
+      "count": 70
+    },
+    {
+      "name": "tokenize",
+      "count": 69
+    },
+    {
+      "name": "promise",
+      "count": 68
+    },
+    {
+      "name": "writable",
+      "count": 67
+    },
+    {
+      "name": "spanId",
+      "count": 67
+    },
+    {
+      "name": "dispose",
+      "count": 66
+    },
+    {
+      "name": "level",
+      "count": 66
+    },
+    {
+      "name": "prompt",
+      "count": 65
+    },
+    {
+      "name": "entries",
+      "count": 64
+    },
+    {
+      "name": "operation",
+      "count": 64
+    },
+    {
+      "name": "scope",
+      "count": 64
+    },
+    {
+      "name": "pageKey",
+      "count": 64
+    },
+    {
+      "name": "toml",
+      "count": 64
+    },
+    {
+      "name": "ptr",
+      "count": 64
+    },
+    {
+      "name": "exact",
+      "count": 62
+    },
+    {
+      "name": "commandId",
+      "count": 62
+    },
+    {
+      "name": "t",
+      "count": 61
+    },
+    {
+      "name": "phase",
+      "count": 61
+    },
+    {
+      "name": "query",
+      "count": 61
+    },
+    {
+      "name": "buildFlavor",
+      "count": 60
+    },
+    {
+      "name": "length",
+      "count": 60
+    },
+    {
+      "name": "clientId",
+      "count": 60
+    },
+    {
+      "name": "timeout",
+      "count": 59
+    },
+    {
+      "name": "maximum",
+      "count": 59
+    },
+    {
+      "name": "minimum",
+      "count": 59
+    },
+    {
+      "name": "tabId",
+      "count": 59
+    },
+    {
+      "name": "children",
+      "count": 59
+    },
+    {
+      "name": "checks",
+      "count": 58
+    },
+    {
+      "name": "size",
+      "count": 58
+    },
+    {
+      "name": "open",
+      "count": 58
+    },
+    {
+      "name": "resolve",
+      "count": 58
+    },
+    {
+      "name": "client",
+      "count": 58
+    },
+    {
+      "name": "outcome",
+      "count": 58
+    },
+    {
+      "name": "migration",
+      "count": 58
+    },
+    {
+      "name": "operations",
+      "count": 58
+    },
+    {
+      "name": "commandMenuFeature",
+      "count": 58
+    },
+    {
+      "name": "content",
+      "count": 57
+    },
+    {
+      "name": "valid",
+      "count": 57
+    },
+    {
+      "name": "received",
+      "count": 57
+    },
+    {
+      "name": "extensionIds",
+      "count": 57
+    },
+    {
+      "name": "a",
+      "count": 56
+    },
+    {
+      "name": "visible",
+      "count": 56
+    },
+    {
+      "name": "predecessorId",
+      "count": 56
+    },
+    {
+      "name": "config",
+      "count": 55
+    },
+    {
+      "name": "executableName",
+      "count": 55
+    },
+    {
+      "name": "desktopApiOptions",
+      "count": 55
+    },
+    {
+      "name": "response",
+      "count": 55
+    },
+    {
+      "name": "detail",
+      "count": 54
+    },
+    {
+      "name": "tag",
+      "count": 54
+    },
+    {
+      "name": "decision",
+      "count": 54
+    },
+    {
+      "name": "execOutput",
+      "count": 54
+    },
+    {
+      "name": "details",
+      "count": 53
+    },
+    {
+      "name": "isPackaged",
+      "count": 52
+    },
+    {
+      "name": "errorCode",
+      "count": 52
+    },
+    {
+      "name": "addon",
+      "count": 52
+    },
+    {
+      "name": "thread",
+      "count": 52
+    },
+    {
+      "name": "webContents",
+      "count": 51
+    },
+    {
+      "name": "trim",
+      "count": 51
+    },
+    {
+      "name": "bundleVersion",
+      "count": 51
+    },
+    {
+      "name": "location",
+      "count": 50
+    },
+    {
+      "name": "windowManager",
+      "count": 50
+    },
+    {
+      "name": "ref",
+      "count": 49
+    },
+    {
+      "name": "anchorState",
+      "count": 49
+    }
+  ],
+  "literal_count": 32009,
+  "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals\\main-process.json"
+}

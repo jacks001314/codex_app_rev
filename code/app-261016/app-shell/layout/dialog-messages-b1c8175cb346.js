@@ -1,0 +1,37 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { XOt as t, YOt as n } from "./app-shared-2feb3d4c6fcc.js";
+var r;
+function i() {
+  return (i = e(() => {
+    (t(),
+      (r = n({
+        deleteWarning: {
+          id: `browserPluginSettings.deleteAppWarning`,
+          defaultMessage: `Permanently delete {name} and its connections? This can't be undone`,
+          description: `Confirmation before permanently deleting a developer app and its account connections; name is the app's name`,
+        },
+        invalidLogo: {
+          id: `browserPluginSettings.invalidLogo`,
+          defaultMessage: `Choose a PNG file no larger than 10 KB`,
+          description: `Validation error for a developer app logo upload`,
+        },
+        failed: {
+          id: `browserPluginSettings.appUpdateFailed`,
+          defaultMessage: `Couldn't update the app. Try again`,
+          description: `A developer app management change failed`,
+        },
+        cancel: {
+          id: `browserPluginSettings.cancel`,
+          defaultMessage: `Cancel`,
+          description: `Cancel a plugin settings dialog`,
+        },
+        save: {
+          id: `browserPluginSettings.save`,
+          defaultMessage: `Save`,
+          description: `Save changes in plugin settings`,
+        },
+      })));
+  }))();
+}
+export { i as n, r as t };
+//# sourceMappingURL=dialog-messages-b1c8175cb346.js.map

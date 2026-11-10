@@ -1,0 +1,6535 @@
+{
+ "module": "plugins",
+ "generated_at": "2026-11-09T07:51:29.067Z",
+ "files_scanned": 8,
+ "message_count": 608,
+ "messages": [
+  {
+   "id": "artifactTemplate.customizePrompt",
+   "text": "Help me customize a personal copy of {template} using {templateCreator}",
+   "description": "Composer prompt for editing a built-in or shared template by creating a personal copy",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.editPrompt",
+   "text": "Help me make updates to {template} using {templateCreator}",
+   "description": "Composer prompt appended when editing an artifact template",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserPluginSettings.skills",
+   "text": "Skills",
+   "description": "Skills included in an installed plugin",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.createChatPrompt",
+   "text": "Use {skillCreator} to help me create a skill. Keep it conversational, and start by asking what the skill should do.",
+   "description": "Editable prompt prefilled in a new chat after an end user selects Create with chat in the Skills directory. Asks the assistant to help author a skill conversationally, starting with what the skill should do. The skillCreator placeholder is the selected @skill-creator mention; keep it intact. This text is not sent until the user submits it.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.duplicateTitle",
+   "text": "Skill already exists",
+   "description": "Title of the shared confirmation dialog for a duplicate name when creating or uploading a skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.accessDenied",
+   "text": "Skills aren't available for this account",
+   "description": "Error when opening the browser skill editor without Skills access",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.addFiles",
+   "text": "Upload files",
+   "description": "Menu action opening the supporting-file picker in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.addFolder",
+   "text": "Upload folder",
+   "description": "Menu action opening the folder picker in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.back",
+   "text": "Back",
+   "description": "Button returning from the fullscreen browser skill editor to the Skills directory after handling unsaved changes",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.create",
+   "text": "Create",
+   "description": "Button saving a new browser skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.createTitle",
+   "text": "Create skill",
+   "description": "Title of the fullscreen browser editor for creating a skill manually",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.description",
+   "text": "Description",
+   "description": "Label for the skill description in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.descriptionCharacterCount",
+   "text": "{count, number} / {limit, number} characters",
+   "description": "Current number of characters and maximum allowed characters in the skill description",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.descriptionLimit",
+   "text": "Description must be {limit, number} characters or fewer",
+   "description": "Description-length validation error in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.descriptionPlaceholder",
+   "text": "Describe what the skill does",
+   "description": "Placeholder prompting the author to describe the skill's purpose in the browser skill editor's empty Description field",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.downloadFailed",
+   "text": "Couldn't download this skill. Try again.",
+   "description": "Error after the browser skill editor fails to download the saved skill archive; the author can retry using Download skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.downloadFile",
+   "text": "Download",
+   "description": "Menu action downloading a supporting file from the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.downloadSkill",
+   "text": "Download skill",
+   "description": "Secondary button in the browser skill editor that downloads the saved skill archive; disabled until the skill has been created",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.downloadToView",
+   "text": "Use the file menu to download and view this file",
+   "description": "Browser skill editor message when a selected binary file cannot be edited as text",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.editTitle",
+   "text": "Edit skill",
+   "description": "Title of the fullscreen browser editor for editing an existing skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.fileActions",
+   "text": "Actions for {path}",
+   "description": "Accessible label for a supporting file's menu in the browser skill editor; path is its relative file path",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.fileInput",
+   "text": "Supporting files",
+   "description": "Accessible label of the browser skill editor supporting-file picker",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.fileLoadFailed",
+   "text": "Couldn't load this file",
+   "description": "Error in the browser skill editor when selecting a supporting file fails",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.filePath",
+   "text": "File path",
+   "description": "Accessible label for a relative supporting-file path in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.files",
+   "text": "Files",
+   "description": "Section heading for supporting files in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.fileTooLarge",
+   "text": "Choose files no larger than 25 MB each",
+   "description": "Validation error after choosing an oversized supporting file in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.folderInput",
+   "text": "Supporting folder",
+   "description": "Accessible label of the browser skill editor folder picker",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.instructions",
+   "text": "Instructions",
+   "description": "Label for the SKILL.md instructions in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.instructionsPlaceholder",
+   "text": "Write skill instructions…",
+   "description": "Placeholder in the empty SKILL.md text editor prompting the author to write the instructions ChatGPT should follow when using the skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.invalidName",
+   "text": "Use up to 64 lowercase letters, numbers, and single hyphens between words",
+   "description": "Skill-name validation error in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.invalidPaths",
+   "text": "Give each file a unique relative path. SKILL.md is reserved for instructions.",
+   "description": "Validation error for duplicate, absolute, or unsafe file paths in a browser skill draft; preserve SKILL.md",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.loadFailed",
+   "text": "Couldn't load this skill for editing",
+   "description": "Error when the browser skill editor cannot load its metadata or files",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.loading",
+   "text": "Loading skill…",
+   "description": "Status shown in the fullscreen browser skill editor while account access or skill contents are loading",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.missingInstructions",
+   "text": "Add instructions before saving",
+   "description": "Validation error for empty instructions in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.name",
+   "text": "Name",
+   "description": "Label for the unique skill name in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.namePlaceholder",
+   "text": "your-skill-name",
+   "description": "Example name shown in the empty Name field of the browser skill editor; use lowercase words separated by hyphens to illustrate the required format",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.newFile",
+   "text": "New text file",
+   "description": "Menu action adding a blank editable supporting file to a browser skill draft",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.readFileFailed",
+   "text": "Couldn't open this file. Try again.",
+   "description": "Error after opening a supporting file fails in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.readOnly",
+   "text": "You don't have permission to edit this skill",
+   "description": "Explanation shown when the browser skill editor is read-only",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.removeFile",
+   "text": "Remove",
+   "description": "Menu action removing a supporting file from a skill draft; takes effect only after saving the skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.renameFile",
+   "text": "Rename",
+   "description": "Menu action renaming a supporting file in the browser skill draft",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.retry",
+   "text": "Retry",
+   "description": "Button retrying a failed browser skill editor load",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.save",
+   "text": "Save changes",
+   "description": "Button saving changes to an existing browser skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.saved",
+   "text": "Skill saved",
+   "description": "Success toast after creating or saving a skill in the browser editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.saveFailed",
+   "text": "Couldn't save this skill. Your edits are still here; try again.",
+   "description": "Error after a browser skill save fails; assures the user that the draft remains available",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.title",
+   "text": "Skill editor",
+   "description": "Title of the browser skill editor while checking access",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.editor.upload",
+   "text": "Upload",
+   "description": "Button opening supporting-file upload and creation options in the browser skill editor",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.retry",
+   "text": "Retry",
+   "description": "Retry a failed skills request",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.share",
+   "text": "Share",
+   "description": "Open sharing controls for this skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.cancel",
+   "text": "Cancel",
+   "description": "Close the skill sharing dialog without sending selected invitations",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.copied",
+   "text": "Link copied",
+   "description": "Skill share link copied confirmation",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.copy",
+   "text": "Copy link",
+   "description": "Copy a link to the skill without changing its access permissions",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.disabled",
+   "text": "Sharing is disabled by workspace settings",
+   "description": "Explains why the skill sharing controls are read only",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.enabled",
+   "text": "Installed for everyone at {workspaceName}",
+   "description": "Skill sharing scope that installs the skill for all workspace members; workspaceName is the active workspace display name",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.enabledFallback",
+   "text": "Installed for everyone in your workspace",
+   "description": "Skill sharing scope that installs the skill for all members when the workspace name is unavailable",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.error",
+   "text": "Couldn't update or load sharing. Please try again.",
+   "description": "Skill sharing failed to load or save; the user can retry",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.invite",
+   "text": "Invite",
+   "description": "Submit the selected people and groups for skill sharing",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.invited",
+   "text": "Only those invited",
+   "description": "Skill sharing access option limiting access to invited people or groups",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.namedSkillTitle",
+   "text": "Share {name}",
+   "description": "Title of the dialog for managing who can access a skill; name is the skill's display name",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.noMatches",
+   "text": "No people or groups found",
+   "description": "No skill sharing recipients matched the search",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.owner",
+   "text": "Owner",
+   "description": "Skill owner role in sharing access list",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.people",
+   "text": "Add people or groups",
+   "description": "Accessible label and placeholder for skill sharing recipient search",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.remove",
+   "text": "Remove",
+   "description": "Remove an existing person's or group's access to the skill",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.removeRecipient",
+   "text": "Remove {name}",
+   "description": "Accessible label to remove a selected skill sharing recipient before inviting them",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.workspace",
+   "text": "Anyone at {workspaceName}",
+   "description": "Skill sharing option making the skill discoverable by all members; workspaceName is the active workspace display name",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.sharing.workspaceFallback",
+   "text": "Anyone in your workspace",
+   "description": "Skill sharing option making the skill discoverable by all members when the workspace name is unavailable",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.tryPrompt",
+   "text": "I just added the “{name}” skill. Let's explore what it does with an example. Make up a realistic user prompt and then use the full Skill end to end.",
+   "description": "Prompt prefilled when the user tries a skill in a new conversation",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.uploadCancel",
+   "text": "Cancel",
+   "description": "Button dismissing a duplicate-name upload in the skill-upload dialog. Leaves the existing skill unchanged. Short action label; no placeholders.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.uploadCreateAnyway",
+   "text": "Create anyway",
+   "description": "Confirmation button in the skill-upload dialog that creates a skill despite a duplicate name. Short action label; no placeholders.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.uploadCreateAnywayPrompt",
+   "text": "A skill with this name already exists. Create this skill anyway?",
+   "description": "Confirmation in the skill-upload dialog after the server permits creating a new skill despite a duplicate name. This creates another skill rather than replacing one. No placeholders.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.uploadReplace",
+   "text": "Replace existing",
+   "description": "Confirmation button in the skill-upload dialog that replaces the first skill the user owns with the duplicate name. Short action label; no placeholders.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserSkills.uploadReplacePrompt",
+   "text": "A skill with this name already exists. Replace the first skill you own with this name?",
+   "description": "Confirmation in the skill-upload dialog after a duplicate-name response. Accepting replaces the first existing skill owned by this user with the uploaded file; make that consequence clear. No placeholders.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.apps.custom.creation.risk.description",
+   "text": "Only connect to MCP servers you trust. An untrusted server may access or steal information shared through app use, or trick ChatGPT into using tools in unintended ways, including changing or deleting data.",
+   "description": "Warning beside the required acknowledgment in personal and workspace custom MCP app creation. Explains that an untrusted server can access information shared through app use and manipulate tool use to change or delete data. Users must acknowledge these risks before creating the app.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.connectors.network_access_denied",
+   "text": "Access to this connection is restricted by your organization's network policy. Contact your administrator for help.",
+   "description": "Message shown to an end user in a ChatGPT conversation, app launcher, or toast when their organization's network policy blocks a connector tool call or widget resource read. Calmly direct the user to their administrator, not to retry or reconnect. Plain text with no placeholders; never include IP addresses or network policy details.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseCancel",
+   "text": "Cancel",
+   "description": "Cancel leaving an expanded writing block with pending AI edits.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseConfirm",
+   "text": "Close",
+   "description": "Confirm leaving an expanded writing block with pending AI edits.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmClosePendingEdits",
+   "text": "You have pending edits - are you sure you want to close?",
+   "description": "Confirmation before closing or replacing an expanded writing block with an in-progress or unresolved AI edit, matching ChatGPT.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseTitle",
+   "text": "Close editor?",
+   "description": "Title of the confirmation dialog when leaving an expanded writing block with pending AI edits.",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "common.close",
+   "text": "Close",
+   "description": "Close button label",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "createCustomConnectorModal.acceptLabelTitle",
+   "text": "I understand and want to continue",
+   "description": "Title for a checkbox that allows the user to indicate they understand and accept the risks of enabling the custom connector they are about to create.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createDocument.prompt",
+   "text": "Create a new document template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": "Composer prefill for creating a document template from a reference file",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createPresentation.prompt",
+   "text": "Create a new presentation template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": "Composer prefill for creating a presentation template from a reference file",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createSite.prompt",
+   "text": "Create a new site template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": "Composer prefill for creating a site template from a reference file",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createSpreadsheet.prompt",
+   "text": "Create a new spreadsheet template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": "Composer prefill for creating a spreadsheet template from a reference file",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.documents",
+   "text": "Documents",
+   "description": "Template browsing category",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.presentations",
+   "text": "Presentations",
+   "description": "Template browsing category",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.sites",
+   "text": "Sites",
+   "description": "Title for the scoped Sites template picker",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.spreadsheets",
+   "text": "Spreadsheets",
+   "description": "Template browsing category",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.header.project",
+   "text": "Project: {projectName}",
+   "description": "Accessible label for the project icon in a thread header",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.browserExtension.chrome.name",
+   "text": "ChatGPT for Chrome",
+   "description": "Name of the ChatGPT extension for Chrome",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.browserExtension.edge.name",
+   "text": "ChatGPT for Edge",
+   "description": "Name of the ChatGPT extension for Edge",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.browserExtension.name",
+   "text": "ChatGPT browser extension",
+   "description": "Name of the ChatGPT extension for a Chromium browser",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.folderMarketplacePlugin",
+   "text": "Folder marketplace plugin",
+   "description": "Accessible label for the folder icon identifying a plugin provided by a marketplace discovered from a local project directory",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.folderMarketplacePluginTooltip",
+   "text": "From a folder marketplace",
+   "description": "Tooltip identifying a plugin provided by a folder-backed plugin marketplace when the marketplace name is unavailable",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.gitMarketplacePlugin",
+   "text": "Git marketplace plugin",
+   "description": "Accessible label for the branch icon identifying a plugin provided by a Git-backed marketplace",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.gitMarketplacePluginTooltip",
+   "text": "From a Git marketplace",
+   "description": "Tooltip identifying a plugin provided by a Git-backed plugin marketplace",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.localPlugin",
+   "text": "Local plugin",
+   "description": "Accessible label for the laptop icon identifying a plugin stored locally on the user's machine",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.localPluginTooltip",
+   "text": "From your personal marketplace on this machine",
+   "description": "Tooltip identifying a plugin from the user's personal marketplace on their local machine",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.manage",
+   "text": "Manage",
+   "description": "Menu item label for managing an installed plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.moreActions",
+   "text": "More actions",
+   "description": "Aria label for the more actions menu in an installed plugin card",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.namedFolderMarketplacePluginTooltip",
+   "text": "From {marketplaceName}",
+   "description": "Tooltip identifying a plugin provided by a folder-backed plugin marketplace; {marketplaceName} is the name of that marketplace",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.namedGitMarketplacePluginTooltip",
+   "text": "From the {marketplaceName} Git marketplace",
+   "description": "Tooltip identifying a plugin provided by a Git-backed marketplace; {marketplaceName} is the name of that marketplace",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.namedWorkspacePluginTooltip",
+   "text": "From your {workspaceName} workspace",
+   "description": "Tooltip identifying a plugin provided by the user's workspace; {workspaceName} is the name of the current workspace",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.remoteHostPlugin",
+   "text": "Remote host plugin",
+   "description": "Accessible label for the globe icon identifying a plugin stored on the selected remote development host",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.remoteHostPluginTooltip",
+   "text": "From your remote host",
+   "description": "Tooltip identifying a plugin stored on the user's selected remote development host",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.shareMenuItem",
+   "text": "Share",
+   "description": "Menu item label for sharing a locally editable plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.tryInChat",
+   "text": "Try now",
+   "description": "Menu item label for trying an installed plugin in task",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.uninstalling",
+   "text": "Uninstalling",
+   "description": "Plugin card action while uninstall is in progress",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.uninstallMenuItem",
+   "text": "Uninstall",
+   "description": "Menu item label for uninstalling a plugin from a plugin card",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.userCloudPlugin",
+   "text": "Your cloud plugin",
+   "description": "Accessible label for the person icon identifying a cloud-based plugin created by the current user",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.userCloudPluginTooltip",
+   "text": "Created by you in the cloud",
+   "description": "Tooltip identifying a cloud-based plugin created by the current user",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.workspacePlugin",
+   "text": "Workspace plugin",
+   "description": "Accessible label for the building icon identifying a plugin provided by the user's workspace",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.card.workspacePluginTooltip",
+   "text": "From your workspace",
+   "description": "Tooltip identifying a plugin provided by the user's workspace when the workspace name is unavailable",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.addPlugin",
+   "text": "Add plugin",
+   "description": "Create a new plugin from the selected archive",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.advancedOauth",
+   "text": "Advanced OAuth settings",
+   "description": "Expand advanced OAuth settings for the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.apiKeyHeader",
+   "text": "API key header",
+   "description": "Header type used to send an MCP app API key",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.appFailedGeneric",
+   "text": "Couldn't create MCP app. Try again.",
+   "description": "Error shown in the MCP app creation dialog when the server error cannot be displayed to the user",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.archiveFailedGeneric",
+   "text": "Couldn't add plugin. Try again.",
+   "description": "Error shown in the plugin creation dialog when uploading an archive fails and the server error cannot be displayed to the user",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.archiveFormats",
+   "text": "Only .tar.gz, .tgz, and .zip archives are supported",
+   "description": "Helper text in the new plugin upload dialog listing the supported local archive file extensions",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.archiveLimitConfigured",
+   "text": "Maximum size: {sizeLimit}",
+   "description": "Size limit for plugin archives. sizeLimit is the formatted maximum size of the compressed archive, such as 100 MB.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.archiveNetworkError",
+   "text": "Couldn't upload the plugin. Check your internet connection and try again.",
+   "description": "Plugin archive upload failed because the client could not connect to the service. Ask the user to check their internet connection and retry.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.archiveRateLimited",
+   "text": "Too many upload attempts. Wait a moment and try again.",
+   "description": "Plugin archive upload was rate limited. Ask the user to wait briefly before retrying.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.archiveServiceUnavailable",
+   "text": "Couldn't add the plugin because the service is temporarily unavailable. Try again shortly.",
+   "description": "Plugin archive upload or creation failed with a server error. Ask the user to retry shortly without exposing internal server diagnostics.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.archiveUploadPrompt",
+   "text": "Drag and drop your plugin here, or <upload>click to upload</upload>",
+   "description": "Prompt in the new plugin dialog before an archive is selected. The upload tag is a clickable link that opens the local file picker.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.authApiKey",
+   "text": "API key",
+   "description": "API key authentication for an MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.authentication",
+   "text": "Authentication",
+   "description": "Authentication option for the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.authMixed",
+   "text": "OAuth or no authentication",
+   "description": "An MCP app with optional OAuth authentication",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.authNone",
+   "text": "No authentication",
+   "description": "An MCP app without authentication",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.authOauth",
+   "text": "OAuth",
+   "description": "OAuth authentication for an MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.cancel",
+   "text": "Cancel",
+   "description": "Close the plugin creation dialog",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.chooseArchive",
+   "text": "Choose file",
+   "description": "Open the file chooser for a plugin archive",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.connection",
+   "text": "Connection",
+   "description": "Connection type for the new MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.createApp",
+   "text": "Create as a plugin",
+   "description": "Create the new MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.customAppNotAllowed",
+   "text": "Custom apps aren't allowed in this context. Check your workspace permissions or security settings",
+   "description": "Error in the MCP app creation dialog when the server denies custom app creation because of workspace permissions or security restrictions. The user may need help from a workspace administrator.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.description",
+   "text": "Description (optional)",
+   "description": "Description of the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.descriptionPlaceholder",
+   "text": "Explain what it does in a few words",
+   "description": "Placeholder asking for a short description of a custom MCP app.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.developerModeRequired",
+   "text": "Enable Developer mode in ChatGPT settings before creating an MCP app",
+   "description": "Error in the MCP app creation dialog when the server requires Developer mode to be enabled in ChatGPT settings before the user can create an app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.dropArchive",
+   "text": "Drop the plugin here…",
+   "description": "Prompt in the new plugin dialog while a user drags a local plugin archive over the drop area",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.headerBasic",
+   "text": "Basic",
+   "description": "Basic header for an MCP API key",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.headerBearer",
+   "text": "Bearer",
+   "description": "Bearer header for an MCP API key",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.headerCustom",
+   "text": "Custom header",
+   "description": "Custom header for an MCP API key",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.icon",
+   "text": "Choose icon",
+   "description": "Select an optional PNG icon for a new MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.iconError",
+   "text": "Choose a PNG file no larger than 10 KB",
+   "description": "MCP app icon validation error",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.iconHelp",
+   "text": "Optional PNG, up to 10 KB",
+   "description": "MCP app icon format and size limit",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.iconReadFailed",
+   "text": "Couldn't read the icon. Choose another file.",
+   "description": "Error in the MCP app creation dialog when the selected icon cannot be read",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.invalidArchiveWithLimit",
+   "text": "Choose a .zip, .tar.gz, or .tgz file no larger than {sizeLimit}",
+   "description": "Error for an invalid plugin archive. sizeLimit is the formatted maximum size of the compressed archive, such as 100 MB.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.invalidConfiguration",
+   "text": "Some app settings were rejected. Check the server URL or tunnel ID, icon, and authentication settings, then try again.",
+   "description": "MCP app creation returned HTTP 400 or 422 without a more specific recognized error. Ask the app developer to review the submitted settings; do not expose raw server validation messages.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.invalidOauthUrl",
+   "text": "Enter valid OAuth endpoint URLs",
+   "description": "Error in the MCP app creation dialog when a manual OAuth endpoint URL is invalid",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.invalidServerResponse",
+   "text": "The server couldn't complete MCP setup. Check that the endpoint supports MCP and returns valid initialization and tool responses.",
+   "description": "MCP app creation failed with a server protocol error or invalid response, including malformed or oversized tool listings. Ask the app developer to check MCP compatibility and server responses.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.invalidTarget",
+   "text": "Enter a valid server URL or tunnel ID",
+   "description": "Error in the MCP app creation dialog when the server URL or tunnel ID is invalid",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.mcpTitle",
+   "text": "Add custom MCP server",
+   "description": "Title of the custom MCP server creation dialog",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.name",
+   "text": "Name",
+   "description": "Name of the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.nameAlreadyExists",
+   "text": "An app with this name already exists. Choose another name",
+   "description": "Error in the MCP app creation dialog when the chosen app name is already in use and the user needs to choose a different name",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.namePlaceholder",
+   "text": "Custom Tool",
+   "description": "Example name for a new custom MCP app.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.networkError",
+   "text": "Couldn't connect to ChatGPT. Check your internet connection and try again.",
+   "description": "MCP app creation failed in the client's network transport before receiving an HTTP response. This is distinct from ChatGPT failing to reach an external MCP server.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.advancedDescription",
+   "text": "Review discovered OAuth settings, or enter them manually, then choose a client setup method and configure default scopes",
+   "description": "Helper text on the button that opens the advanced OAuth side panel when creating a custom MCP app.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.authorizationUrlLabel",
+   "text": "Auth URL",
+   "description": "Manual OAuth authorization URL for the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.baseScopes",
+   "text": "Base scopes",
+   "description": "Scopes always requested for a custom MCP app, separate from its selectable default scopes. Accepts one scope per line or comma-separated scopes.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.baseScopesDescription",
+   "text": "Scopes to request with every auth request, no matter which tools are chosen.",
+   "description": "Helper text explaining what OAuth base scopes mean in the advanced settings panel.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.callbackFailed",
+   "text": "Couldn’t load the callback URL",
+   "description": "Error when fetching the provider registration callback URL in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.callbackLoading",
+   "text": "Loading callback URL…",
+   "description": "Temporary text in the custom MCP creation form while the callback URL is loading. Copying is disabled until the URL is available.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.callbackUnavailable",
+   "text": "Could not load callback URL",
+   "description": "Inline text in the custom MCP creation form when the callback URL could not be loaded. Users can retry loading it.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.callbackUrl",
+   "text": "Callback URL",
+   "description": "Read-only OAuth redirect URL to register with the provider when creating a custom MCP app.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.cimd",
+   "text": "Client Identifier Metadata Document (CIMD)",
+   "description": "Registration option in custom MCP creation that identifies ChatGPT using its client metadata URL. CIMD is a protocol abbreviation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.cimdLoading",
+   "text": "Loading CIMD URL…",
+   "description": "Temporary text in the custom MCP creation form while the CIMD URL is loading. Copying is disabled until the URL is available.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.cimdRegistrationUnavailable",
+   "text": "Client Identifier Metadata Document (CIMD) (Unavailable)",
+   "description": "Disabled registration option in custom MCP creation when the server does not advertise CIMD support. CIMD is a protocol abbreviation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.cimdUrl",
+   "text": "CIMD client metadata URL",
+   "description": "Read-only Client Identifier Metadata Document URL to register with a provider when creating a custom MCP app.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.cimdUrlUnavailable",
+   "text": "Could not load CIMD URL",
+   "description": "Inline text in the custom MCP creation form when the CIMD URL could not be loaded. Users can retry loading it.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.clientIdLabel",
+   "text": "OAuth client ID",
+   "description": "OAuth client ID for the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.clientIdOptionalPlaceholder",
+   "text": "OAuth Client ID (Optional)",
+   "description": "Client ID placeholder in custom MCP creation when OpenAI has a preconfigured client. Entering a client ID overrides those credentials.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.clientIdPlaceholder",
+   "text": "OAuth Client ID",
+   "description": "Placeholder for the existing OAuth application client ID in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.clientSecretLabel",
+   "text": "OAuth client secret",
+   "description": "OAuth client secret for the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.clientSecretPlaceholder",
+   "text": "OAuth Client Secret (Optional)",
+   "description": "Placeholder for an optional OAuth application client secret in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.copyCallbackUrl",
+   "text": "Copy callback URL",
+   "description": "Accessible label for copying the callback URL to register an OAuth client in custom MCP creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.copyCimdUrl",
+   "text": "Copy CIMD URL",
+   "description": "Accessible label for copying the CIMD URL to register an OAuth client in custom MCP creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.dcr",
+   "text": "Dynamic Client Registration (DCR)",
+   "description": "Registration option in custom MCP creation that uses the provider's registration endpoint. DCR is a protocol abbreviation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.dcrUnavailable",
+   "text": "Dynamic Client Registration (DCR) (Unavailable)",
+   "description": "Disabled registration option in custom MCP creation when no registration endpoint is configured. DCR is a protocol abbreviation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.defaultScopes",
+   "text": "Default scopes",
+   "description": "Section listing OAuth scopes requested by default when connecting a custom MCP app.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.discoveryFailed",
+   "text": "Couldn’t discover OAuth settings. Check the server URL and retry, or enter the settings manually",
+   "description": "Explains that custom MCP OAuth discovery failed and manual configuration remains available.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.issuer",
+   "text": "Authorization server base",
+   "description": "Editable OAuth issuer base URL in custom MCP app creation, used for issuer validation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.listPlaceholder",
+   "text": "One value per line or comma-separated",
+   "description": "Placeholder for scope list inputs in custom MCP app creation. Each scope can be separated by a newline or comma.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.loading",
+   "text": "Discovering OAuth settings…",
+   "description": "Loading status while reading a custom MCP server's OAuth metadata.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.noScopes",
+   "text": "The discovered OAuth config did not advertise supported scopes to choose from.",
+   "description": "Explanation when OAuth discovery has no selectable default scopes in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthClientModeCimdDescription",
+   "text": "ChatGPT will use a Client Identifier Metadata Document instead of manually entered client credentials.",
+   "description": "Helper text explaining client registration when CIMD is selected in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthClientModeCimdUnavailableDescription",
+   "text": "CIMD is unavailable because the server did not advertise CIMD support.",
+   "description": "Helper text shown when CIMD is unavailable for the discovered OAuth config.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthClientModeDcrDescription",
+   "text": "ChatGPT will dynamically register an OAuth client using the Registration URL in the OAuth endpoints section.",
+   "description": "Helper text shown when Dynamic Client Registration is selected.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthClientModeDcrUnavailableDescription",
+   "text": "DCR is unavailable until a Registration URL is present in the OAuth endpoints section below.",
+   "description": "Helper text shown when DCR is unavailable because no registration URL is configured.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthClientModeDescription",
+   "text": "Choose whether ChatGPT should use your client credentials, Dynamic Client Registration (DCR), or Client Identifier Metadata Document (CIMD). See the <link>MCP client registration approaches</link>.",
+   "description": "Helper text for the OAuth client setup method selector in the advanced settings panel.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthClientModeUserDefinedDescription",
+   "text": "Use your own OAuth client credentials for this connector",
+   "description": "Helper text shown when the user-defined OAuth client mode is selected.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthClientSetupTitle",
+   "text": "Client registration",
+   "description": "Section title for the OAuth client setup controls in the advanced settings panel.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthEndpointsDescription",
+   "text": "These endpoints are discovered from the MCP server. If Registration URL is missing, Dynamic Client Registration will fail. See the <link>Apps SDK auth docs</link>.",
+   "description": "Helper text explaining the OAuth endpoints section and the requirement for a registration URL when using Dynamic Client Registration.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oauthEndpointsTitle",
+   "text": "OAuth endpoints",
+   "description": "Section title for OAuth endpoint fields.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcConfig",
+   "text": "OIDC configuration URL",
+   "description": "Editable OpenID Connect discovery document URL in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcEnabled",
+   "text": "OIDC enabled",
+   "description": "Checkbox to enable OpenID Connect profile support for a custom MCP app. Requires an OIDC configuration URL.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcEnabledDescription",
+   "text": "If enabled, ChatGPT will try to request the OpenID scopes listed below.",
+   "description": "Helper text explaining why enabling OIDC is useful in the advanced settings panel.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcScopes",
+   "text": "OIDC scopes supported",
+   "description": "Editable OpenID Connect scopes for a custom MCP app. Accepts one scope per line or comma-separated scopes.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcSectionDescription",
+   "text": "OpenID Connect (OIDC) lets ChatGPT fetch the authenticated user's email for authorization domain claiming.",
+   "description": "Helper text shown under the OpenID support section title.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcTitle",
+   "text": "OpenID support",
+   "description": "Section title for OpenID Connect fields.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcUnavailableDescription",
+   "text": "This server did not advertise an OIDC configuration URL, so OpenID support is unavailable.",
+   "description": "Helper text shown when OIDC cannot be enabled because the config URL is unavailable.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.oidcUserinfo",
+   "text": "OIDC userinfo endpoint",
+   "description": "Editable OpenID Connect user profile endpoint in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.panelDescription",
+   "text": "Review the discovered OAuth settings, choose how ChatGPT should obtain an OAuth client, and configure default scopes before you create the connector.",
+   "description": "Helper text explaining that the OAuth advanced settings were populated from the MCP server.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.panelTitle",
+   "text": "OAuth advanced settings",
+   "description": "Title for the OAuth advanced settings side panel.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.pkceSupport.description",
+   "text": "MCP requires the authorization server to support PKCE with S256. Select this only if your server supports it. This setting cannot add server support; OAuth sign-in may fail if it’s unsupported.",
+   "description": "Information popover for the manual PKCE checkbox in custom MCP app creation. Explains that selecting the checkbox declares existing server support, cannot enable support on the server, and may lead to failed OAuth sign-in if the declaration is incorrect. Keep MCP, OAuth, PKCE, and S256 as protocol names.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.pkceSupport.infoLabel",
+   "text": "About PKCE support",
+   "description": "Accessible label for the information popover beside the PKCE support checkbox in advanced OAuth settings for custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.pkceSupport.label",
+   "text": "Server supports PKCE (S256)",
+   "description": "Checkbox in advanced OAuth settings for custom MCP app creation when discovery does not report PKCE methods. Selecting it declares that the server already supports PKCE with S256. Keep PKCE and S256 as protocol names.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.pkceTitle",
+   "text": "PKCE",
+   "description": "Section title for the manual PKCE support declaration in advanced OAuth settings for custom MCP app creation. Keep PKCE as the protocol name.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.preconfiguredClientDescription",
+   "text": "OpenAI already has a preconfigured OAuth client for this MCP server. Leave the client ID empty to use it, or enter your own client credentials to override it.",
+   "description": "Helper text in custom MCP creation when OpenAI has client credentials for this server. Users can leave the client ID blank or override it with their own credentials.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.privateKeyJwtKidLabel",
+   "text": "Key ID (optional)",
+   "description": "Label for the optional signing key identifier in custom MCP app OAuth settings. It identifies the matching public key registered with the OAuth provider and is sent as the JWT kid header.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.privateKeyPemLabel",
+   "text": "Private key (PEM)",
+   "description": "Label for the multiline private key input in custom MCP app OAuth settings. Used to sign client authentication assertions. PEM is the key format and should not be translated.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.privateKeyRequired",
+   "text": "Enter a private key in PEM format",
+   "description": "Error in custom MCP app creation when private_key_jwt authentication is selected but the private key field is empty. PEM is the key file format and should not be translated.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.registrationMethod",
+   "text": "Registration method",
+   "description": "Label for how an OAuth client is registered in the custom MCP app creation dialog.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.registrationUrl",
+   "text": "Registration URL",
+   "description": "Editable dynamic OAuth client registration endpoint in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.requestedScopesDescription",
+   "text": "Choose the default scopes ChatGPT requests when tool-level OAuth scope tags are not defined for every selected tool.",
+   "description": "Helper text explaining how default scopes differ from tool-level scopes in the advanced settings panel.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.resource",
+   "text": "Resource",
+   "description": "Editable OAuth resource identifier in custom MCP app creation. It can be an HTTPS URL or another URI such as a URN.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.resourcePlaceholder",
+   "text": "urn:example:resource",
+   "description": "Example resource identifier placeholder in custom MCP OAuth settings. A resource may be a URI such as a URN.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.retryCallback",
+   "text": "Retry",
+   "description": "Button to retry loading the OAuth callback URL in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.retryDiscovery",
+   "text": "Retry discovery",
+   "description": "Button to reload OAuth metadata for the custom MCP server.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.scopeSectionDescription.additiveDefaults",
+   "text": "Base scopes are always requested. Today, if every selected tool defines OAuth scope tags, ChatGPT requests those tool scopes plus base scopes. Otherwise it requests the default scopes in addition. See the <link>Apps SDK tool descriptor docs</link>.",
+   "description": "Helper text explaining how base scopes, tool scopes, and default scopes work together. Default scopes are added to known tool scopes and base scopes when any selected tool is missing scope information. Preserve the <link> tag, which links to the Apps SDK tool descriptor documentation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.scopeTitle",
+   "text": "Scopes",
+   "description": "Section title for OAuth scope fields.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.tokenAuthMethod",
+   "text": "Token endpoint auth method",
+   "description": "Selects how the client authenticates to the OAuth token endpoint in custom MCP app creation. Protocol values are not translated.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.tokenUrlLabel",
+   "text": "Token URL",
+   "description": "Manual OAuth token URL for the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.urlPlaceholder",
+   "text": "https://example.com",
+   "description": "Example URL placeholder for OAuth and OpenID endpoint inputs in custom MCP app creation.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauth.userDefined",
+   "text": "User-Defined OAuth Client",
+   "description": "Registration option in custom MCP creation for entering existing OAuth client credentials.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauthClientIdRequired",
+   "text": "Enter an OAuth client ID in Advanced OAuth settings",
+   "description": "Error in the MCP app creation dialog when OAuth discovery cannot provide a client and the user must enter a client ID",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauthEndpointsRequired",
+   "text": "Enter both OAuth endpoints for manual setup",
+   "description": "Error in the MCP app creation dialog when only one manual OAuth endpoint was entered",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauthRegistrationFailed",
+   "text": "Couldn't register an OAuth client. Check the server's registration support or enter your client details in Advanced OAuth settings.",
+   "description": "MCP app creation failed while registering or resolving an OAuth client. The app developer can check automatic client registration or supply their own client configuration.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.oauthUnavailable",
+   "text": "Couldn't discover OAuth settings. Check the server URL or enter settings manually",
+   "description": "Error in the MCP app creation dialog when OAuth discovery fails; the user can check the MCP server URL or enter OAuth endpoints in Advanced OAuth settings",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.rateLimited",
+   "text": "App setup was rate limited. Wait a moment before trying again. If you're using a tunnel, also check that its client is running and connected.",
+   "description": "MCP app creation received HTTP 429 from ChatGPT, an external server, or a tunnel. A secondary transport probe can hide an offline tunnel error, so suggest checking the tunnel client as well as waiting.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.requestTooLarge",
+   "text": "The app setup request or server response is too large. Reduce the icon or MCP payload size, then try again.",
+   "description": "MCP app creation received HTTP 413 from ChatGPT or the upstream server. A request or response exceeded a size limit; the exact offending payload is unknown.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.retryTunnels",
+   "text": "Retry loading tunnels",
+   "description": "Retry fetching available MCP tunnels",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.riskNotice",
+   "text": "Custom MCP servers introduce risk. <link>Learn more</link>",
+   "description": "Warning above the consent checkbox in custom MCP app creation. The link opens documentation about MCP server risks and safety.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.scopes",
+   "text": "Scopes (optional, one per line)",
+   "description": "OAuth scopes requested for the MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.serverAuthRejected",
+   "text": "The MCP server denied access. Check your authentication settings and, if using a tunnel, its workspace access.",
+   "description": "MCP app creation received an upstream HTTP 401 or 403. The external MCP server or tunnel denied access; this does not mean the user's ChatGPT sign-in expired.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.serverNotFound",
+   "text": "The MCP endpoint wasn't found. Check the server URL or tunnel ID. For tunnels, make sure tunnel-client is running and connected.",
+   "description": "MCP app creation received an upstream HTTP 404. This can mean an incorrect endpoint or an unavailable tunnel client; do not assert which cause applies. Keep tunnel-client untranslated as the executable name.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.serverUnreachable",
+   "text": "Couldn't reach the MCP server. Check the server URL and network access. If you're using a tunnel, make sure tunnel-client is running and connected.",
+   "description": "MCP app creation failed while connecting to or waiting for the external MCP server. Suggest checking the endpoint and connectivity without claiming a specific network cause. Keep tunnel-client untranslated as the executable name.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.serverUrl",
+   "text": "Server URL",
+   "description": "Connect an MCP app using a server URL",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.serviceUnavailable",
+   "text": "A service needed to create the app is temporarily unavailable. Try again shortly.",
+   "description": "MCP app creation received HTTP 5xx from ChatGPT or an upstream dependency. The error does not establish which service is responsible.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.signInRequired",
+   "text": "ChatGPT couldn't authorize this request. Refresh the page or sign in again, then retry.",
+   "description": "MCP app creation received HTTP 401 from the ChatGPT API itself, rather than an upstream MCP authentication error.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.switchToArchive",
+   "text": "Upload plugin archive",
+   "description": "Secondary button in the MCP app setup dialog. Returns to archive upload inside the same modal while preserving the MCP form and any previously selected archive.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.switchToMcp",
+   "text": "Add custom MCP server",
+   "description": "Secondary button in the New Plugin archive upload dialog. Opens the MCP app setup form inside the same modal while preserving the selected archive.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.title",
+   "text": "New Plugin",
+   "description": "Title of the plugin creation dialog",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.tunnel",
+   "text": "Tunnel",
+   "description": "Connect an MCP app using a secure tunnel",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.tunnelId",
+   "text": "Tunnel ID",
+   "description": "Identifier of the secure tunnel for the new MCP app",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.create.tunnelUnavailable",
+   "text": "The tunnel client isn't connected. Make sure tunnel-client is running with the correct tunnel ID and organization, then try again.",
+   "description": "MCP app creation failed because the secure tunnel has no recently active client. Ask the app developer to check their running tunnel-client process and configuration. Keep tunnel-client untranslated as the executable name.",
+   "files": [
+    "890583.86cdb604a9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.adminStatus",
+   "text": "Disabled by admin",
+   "description": "Accessible description and tooltip explaining why a Works with provider is disabled by a workspace administrator",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.collapse",
+   "text": "Show less",
+   "description": "Button to collapse a Works with provider category back to one row",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.collapseLabel",
+   "text": "Show fewer plugins in {category}",
+   "description": "Accessible label to collapse the Works with category back to one row; category is the localized category name",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.disabledStatus",
+   "text": "Not available",
+   "description": "Accessible description and tooltip for a Works with provider explicitly reported as disabled; unknown enablement is not disabled",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.error",
+   "text": "Couldn’t load dependencies",
+   "description": "Error in the Works with section when the plugin's dependency details could not be loaded",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.expandLabel",
+   "text": "{count, plural, one {Show # more plugin in {category}} other {Show # more plugins in {category}}}",
+   "description": "Accessible label to expand the remaining disclosed providers in a Works with category; count is the hidden provider count and category is the category name",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.heading",
+   "text": "Works with",
+   "description": "Heading for the categorized provider plugins this plugin declares it can use, before or after installation",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.installedStatus",
+   "text": "Installed",
+   "description": "Accessible description for a Works with provider confirmed as installed; this does not indicate authentication or connection status",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.overflow",
+   "text": "+{count, number}",
+   "description": "Compact count of disclosed provider plugins that do not fit in a Works with category row",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.planStatus",
+   "text": "Not available on your plan",
+   "description": "Accessible description and tooltip explaining why a Works with provider is unavailable on the current plan",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.retry",
+   "text": "Retry",
+   "description": "Button to reload plugin dependencies after a request failed",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.setupStatus",
+   "text": "Requires admin setup",
+   "description": "Accessible description and tooltip explaining that a workspace administrator must configure a Works with provider before it is available",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.unavailableStatus",
+   "text": "Not available",
+   "description": "Accessible description and tooltip for an unavailable Works with provider",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.dependencies.workspaceStatus",
+   "text": "Requires a workspace",
+   "description": "Accessible description and tooltip explaining that a Works with provider requires an active workspace",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.description.showLess",
+   "text": "Show less",
+   "description": "Short text button on a plugin detail page that lets the user collapse an expanded description to its first 15 displayed lines.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.description.showMore",
+   "text": "Show more",
+   "description": "Short text button on a plugin detail page that lets the user reveal the rest of a description longer than 15 displayed lines.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.description.table",
+   "text": "Description table",
+   "description": "Accessible label for a horizontally scrollable Markdown table in a plugin description.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.accountIdentityFallback",
+   "text": "Account",
+   "description": "Last-resort account identity in a connected app's account rows and settings, rename, and reconnect dialogs when no provider identity, app name, or valid account-holder name is available. Custom link names appear separately below this short plain-text identity.",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.actions",
+   "text": "Actions for {accountName}",
+   "description": "Accessible name of the menu containing rename, reconnect, and disconnect actions for one connected provider account; accountName is its provider identity",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.appAccountIdentityFallback",
+   "text": "{appName} account",
+   "description": "Fallback identity in a connected app's account rows and settings, rename, and reconnect dialogs when no provider identity or valid account-holder name is available. Shared, other-user, and unknown-owner links use this owner-neutral label. appName is the non-empty canonical app display name or connector name, such as Figma. Custom link names appear separately below this short plain-text identity. Preserve app brand names.",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.cancel",
+   "text": "Cancel",
+   "description": "Secondary button that closes a connected-account rename or reconnect confirmation dialog without saving",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.connectAnother",
+   "text": "Connect another account",
+   "description": "Action that connects an additional provider account to the same app while preserving all existing accounts",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.disconnect",
+   "text": "Disconnect",
+   "description": "Destructive menu action that disconnects only the selected provider account while preserving sibling accounts and the installed plugin",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.disconnectError",
+   "text": "Couldn't disconnect account",
+   "description": "Error toast shown when disconnecting one specific connected provider account fails",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.disconnectSuccess",
+   "text": "Account disconnected",
+   "description": "Success toast shown after one connected provider account is removed without uninstalling its plugin",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.holderAccountIdentityFallback",
+   "text": "{userName}'s account",
+   "description": "Fallback identity in a connected app's account rows and settings, rename, and reconnect dialogs when the current user directly owns the link and no provider identity or app name is available. userName is the non-empty ChatGPT first name, or full name when the first name is unavailable; it is not the provider account name. Custom link names appear separately below this short plain-text identity.",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.loading",
+   "text": "Loading connected accounts…",
+   "description": "Accessible loading label while provider accounts for the current plugin are being retrieved",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.loadingError",
+   "text": "Couldn't load connected accounts",
+   "description": "Error shown when the accessible provider accounts for the current plugin cannot be retrieved",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.nickname",
+   "text": "Nickname",
+   "description": "Visible label for the optional user-authored nickname of one connected provider account",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.nicknamePlaceholder",
+   "text": "Add a nickname",
+   "description": "Placeholder for the optional nickname field used to distinguish one connected provider account from its siblings",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.nicknameRequired",
+   "text": "Enter an account nickname",
+   "description": "Inline validation error shown when a user tries to save an empty or whitespace-only account name from the rename-only account dialog",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.nicknameTooLong",
+   "text": "Nickname must be 64 characters or fewer",
+   "description": "Inline validation error shown when a connected account nickname contains more than 64 Unicode characters",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.noAccountIdentity",
+   "text": "{connectorName} (no account linked)",
+   "description": "Account identity in a connected app's account rows and settings, rename, and reconnect dialogs. Shown for a connection with auth type NONE and no provider email, name, or nickname. connectorName is the non-empty app display name or connector name. The parenthetical describes this connection's current state; it does not mean the app never supports sign-in. Short plain-text label; preserve app brand names.",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.personalizedAccountIdentityFallback",
+   "text": "{userName}'s {appName} account",
+   "description": "Fallback identity in a connected app's account rows and settings, rename, and reconnect dialogs when the current user directly owns the link and it has no provider email, name, or nickname. userName is the user's non-empty ChatGPT first name, or full name when the first name is unavailable; it is not the provider account name. appName is the non-empty canonical app display name or connector name, such as Figma. Custom link names appear separately. Short plain-text label; preserve app brand names.",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.reconnect",
+   "text": "Reconnect",
+   "description": "Account-row menu or inline action that reauthenticates the specific connected provider account without reconnecting sibling accounts",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.reconnectAccount",
+   "text": "Reconnect {accountName}",
+   "description": "Accessible name for the inline reconnect action on one provider account; accountName is its provider identity",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.reconnectFirst",
+   "text": "Reconnect your existing account first",
+   "description": "Confirmation-dialog heading shown when adding another OAuth account requires refreshing the selected existing account's missing provider identity first",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.reconnectFirstDescription",
+   "text": "To add another account, first reconnect {accountName}",
+   "description": "Confirmation-dialog explanation before adding a provider account when the existing OAuth account lacks a provider profile identifier; accountName identifies the exact account to reconnect",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.reconnectRequired",
+   "text": "Authentication update required",
+   "description": "Screen-reader-only status announcing that a particular provider account needs reauthentication",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.refreshError",
+   "text": "Account updated, but couldn't refresh accounts",
+   "description": "Error toast shown when an exact-account mutation succeeded but refreshing the remaining connected-account inventory failed",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.rename",
+   "text": "Rename account",
+   "description": "Account-row menu action and dialog title for changing the user-authored nickname of one provider account",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.renameAccountRow",
+   "text": "Rename {accountName}{hasNickname, select, true { ({nickname})} other {}}",
+   "description": "Accessible name of a connected-account row that opens its nickname editor; accountName is the provider identity and nickname is an optional user-defined account label",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.retry",
+   "text": "Try again",
+   "description": "Button that retries loading connected accounts after an inventory or refresh request failed",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.save",
+   "text": "Save",
+   "description": "Primary action that saves one connected account's nickname",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.saveError",
+   "text": "Couldn't rename account",
+   "description": "Error toast shown when renaming one connected provider account fails",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.saveSuccess",
+   "text": "Account renamed",
+   "description": "Success toast shown after one connected account is renamed",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.selectAccount",
+   "text": "Select {accountName}",
+   "description": "Accessible name for selecting one provider account on a plugin detail page; accountName is its provider identity",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.singleTitle",
+   "text": "Connected account",
+   "description": "Section heading for the connected provider account of an app that does not support connecting multiple accounts",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.suggestion.government",
+   "text": "Government",
+   "description": "Suggested editable nickname for a newly added government provider account",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.suggestion.personal",
+   "text": "Personal",
+   "description": "Suggested editable nickname for a newly added personal provider account",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.suggestion.school",
+   "text": "School",
+   "description": "Suggested editable nickname for a newly added school provider account",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.suggestion.work",
+   "text": "Work",
+   "description": "Suggested editable nickname for a newly added work provider account",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.accounts.title",
+   "text": "Connected accounts",
+   "description": "Section heading above provider accounts connected to one app on a Codex plugin detail page",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.addingToCodex",
+   "text": "Installing",
+   "description": "Primary install action on the plugin detail page while installation is in progress",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.copyShareLinkError",
+   "text": "Couldn't copy share link",
+   "description": "Error shown when copying a plugin share link fails",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.desktopHandoff.description",
+   "text": "Open this link on your computer to get started in the desktop app",
+   "description": "Instructions in a mobile-web dialog for opening a desktop-only plugin link on a computer",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.desktopHandoff.dismiss",
+   "text": "Got it",
+   "description": "Button that dismisses the informational mobile-web dialog for a desktop-only plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.desktopHandoff.title",
+   "text": "Use {pluginName} on desktop",
+   "description": "Title of an informational dialog shown on mobile web for a desktop-only plugin. pluginName is the plugin's display name.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.desktopOnly",
+   "text": "Desktop only",
+   "description": "Disabled primary action on a plugin detail page in the web browser. This plugin requires the desktop app, even if already installed there. Short informational label for end users.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.developerAndShortDescription",
+   "text": "By {developerName} • {shortDescription}",
+   "description": "One-line subtitle below a plugin's name. The developerName is its publisher, and shortDescription explains what the plugin does. Keep this compact; the end may be truncated on narrow screens.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.developerAttribution",
+   "text": "By {developerName}",
+   "description": "Subtitle below a plugin's name when it has no description. The developerName is the name of the publisher.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.disabledByAdminButton",
+   "text": "Disabled by admin",
+   "description": "Disabled install action on a plugin's details page when workspace policy blocks the plugin or a required app. This short label does not imply an administrator explicitly disabled the plugin.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.edit",
+   "text": "Edit plugin",
+   "description": "Open a Work or Chat draft to edit the selected migrated plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.enableInCodex",
+   "text": "Enable",
+   "description": "Enable action on the plugin detail page",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.errorTitle",
+   "text": "Failed to load plugin",
+   "description": "Error title shown on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.hooks.settings",
+   "text": "Manage in settings",
+   "description": "Tooltip label for opening Hooks settings from the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.appAdminDisabledExplanation",
+   "text": "This app isn’t enabled for your workspace. Contact your admin to enable it",
+   "description": "Tooltip over an entire disabled app row on a plugin details page. Independent app availability confirms a workspace admin restriction. Tell the workspace member how to request access without implying the app was deleted or explicitly disabled by a particular person. Plain text; no placeholders.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.apps.otherCategory",
+   "text": "Other",
+   "description": "Fallback category title for included apps on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.apps.title",
+   "text": "Apps",
+   "description": "Title for included apps on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.appSetup.title",
+   "text": "App setup",
+   "description": "Section listing unconfigured app dependencies for a plugin",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.appUnavailableExplanation",
+   "text": "This app isn’t available",
+   "description": "Tooltip over an entire disabled app row on a plugin details page when the app is unavailable or no longer resolves in the directory. This includes legacy apps; do not imply an admin restriction or permanent deletion. Plain text for an end user; no placeholders.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.disabledByAdminBadge",
+   "text": "Disabled by admin",
+   "description": "Tooltip label shown on an included app or app template row when it is disabled by admin on the plugin detail page",
+   "files": [
+    "474358.951967df78.js",
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "plugins.detail.includes.hooks.description",
+   "text": "Run deterministic scripts during the task lifecycle",
+   "description": "Description for included hooks on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.hooks.needsReview",
+   "text": "{count, plural, one {# hook needs review before it can run} other {# hooks need review before they can run}}",
+   "description": "Warning shown when hooks from a plugin detail page need review before they can run",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.hooks.review",
+   "text": "Review",
+   "description": "Button label to open hooks settings from a plugin detail page when hooks need review",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.hooks.title",
+   "text": "Hooks",
+   "description": "Title for included hooks on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.hooks.trustAll",
+   "text": "Trust all",
+   "description": "Button label to trust every hook from a plugin detail page that needs review",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.loading",
+   "text": "Loading plugin details…",
+   "description": "Loading message while a plugin's apps and dependencies are being checked",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.mcpServers.title",
+   "text": "MCP servers",
+   "description": "Title for included MCP servers on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.pluginDisabledExplanation",
+   "text": "This app can’t be used while the plugin is disabled",
+   "description": "Tooltip over an entire disabled included-app row on a plugin details page when only the containing plugin is known to be disabled. Do not imply that the app itself is disabled by an admin. Plain text for an end user; no placeholders.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.showMore",
+   "text": "{hasNames, select, true {See {itemNames}{remainingCount, plural, =0 {} other {, and # more}}} other {Show {count, number} more}}",
+   "description": "Button label that expands a long list of included plugin resources, optionally previewing the next item names",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.includes.skills.title",
+   "text": "Skills",
+   "description": "Title for included skills on the plugin detail page",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information",
+   "text": "Information",
+   "description": "Section title for plugin information on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.capabilities",
+   "text": "Capabilities",
+   "description": "Label for plugin capabilities on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.capabilities.showLess",
+   "text": "Show less",
+   "description": "Button to collapse a plugin's long capabilities text",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.capabilities.showMore",
+   "text": "Show more",
+   "description": "Button to expand a plugin's long capabilities text",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.category",
+   "text": "Category",
+   "description": "Label for plugin category on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.developer",
+   "text": "Developer",
+   "description": "Label for plugin developer on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.privacyPolicy",
+   "text": "Privacy Policy",
+   "description": "Label for plugin privacy policy on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.termsOfService",
+   "text": "Terms of Service",
+   "description": "Label for plugin terms of service on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.unavailable",
+   "text": "Unavailable",
+   "description": "Value shown when plugin information is unavailable",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.version",
+   "text": "Version",
+   "description": "Label for plugin version on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.information.website",
+   "text": "Website",
+   "description": "Label for plugin website on the detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.install",
+   "text": "Install plugin",
+   "description": "Primary install action on the plugin detail page",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.instances.error",
+   "text": "Couldn’t load plugins",
+   "description": "Error when loading the list or another page of plugin template instances",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.instances.loading",
+   "text": "Loading plugins…",
+   "description": "Loading status for the instances created from a plugin template",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.instances.loadMore",
+   "text": "Load more",
+   "description": "Button to load the next page of plugin template instances",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.instances.retry",
+   "text": "Retry",
+   "description": "Button to retry loading plugin template instances",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.instances.title",
+   "text": "Plugins",
+   "description": "Section listing plugins created from this template in the current workspace or personal account",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.legalNotice.googleApps",
+   "text": "Note on Google apps: This plugin may contain one or more Google apps, as listed above. Any data synced from these apps may be used to provide you with relevant and personalized information. We do not train generalized models on this data or derivations of it, except those submitted in feedback or included in ChatGPT’s response. You can delete your conversations, which will also delete any app data used in those conversations. <learnMoreLink>Learn more</learnMoreLink>",
+   "description": "Additional Google data-use, model-training, feedback, response, and conversation-deletion disclosure shown after the main legal notice when at least one included app or unconfigured app template is published by Google. The <learnMoreLink> tag links to the OpenAI Help Center FAQ about Google app data controls.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.legalNotice.multipleApps",
+   "text": "This plugin may contain one or more apps, as listed above. When connected to an app, ChatGPT may share relevant chats and memories with the app to help provide context for your requests. An app’s use of this data is subject to their terms and privacy policy, which can be found on the app’s page. If you have <memoryLink>Memory</memoryLink> enabled, data from the app may be used to proactively provide helpful information or suggestions. ChatGPT always respects your training data preferences, including for data from connected apps. Use of apps may come with <elevatedRiskLink>elevated risk</elevatedRiskLink>. You can manage your preferences or disconnect from apps anytime in your settings. <learnMoreLink>Learn more</learnMoreLink>",
+   "description": "Data-sharing, per-app terms and privacy policies, Memory, model-training preferences, and elevated-risk disclosure shown at the bottom of a plugin detail page when the plugin contains multiple apps listed above the disclosure. The <memoryLink>, <elevatedRiskLink>, and <learnMoreLink> tags link to the respective OpenAI Help Center articles.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.legalNotice.singleApp",
+   "text": "When connected to {pluginName}, ChatGPT may share relevant chats and memories with this app to help provide context for your requests. {pluginName}’s use of this data is subject to their <termsLink>terms</termsLink> and <privacyPolicyLink>privacy policy</privacyPolicyLink>. If you have <memoryLink>Memory</memoryLink> enabled, data from the app may be used to proactively provide helpful information or suggestions. ChatGPT always respects your training data preferences, including for data from connected apps. Use of apps may come with <elevatedRiskLink>elevated risk</elevatedRiskLink>. You can manage your preferences or disconnect from apps anytime in your settings. <learnMoreLink>Learn more</learnMoreLink>",
+   "description": "Data-sharing, app terms, privacy-policy, Memory, model-training preferences, and elevated-risk disclosure shown at the bottom of a plugin detail page when the plugin contains exactly one app. Placeholder {pluginName} is the displayed name of the plugin. The <termsLink> and <privacyPolicyLink> tags link to the plugin developer's terms and privacy policy when those URLs are available, and remain plain text otherwise. The <memoryLink>, <elevatedRiskLink>, and <learnMoreLink> tags link to the respective OpenAI Help Center articles.",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.loading",
+   "text": "Loading",
+   "description": "Primary install action on the plugin detail page while plugin setup is loading",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.loadSharingError",
+   "text": "Couldn't load plugin sharing",
+   "description": "Error shown when plugin sharing settings cannot load",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.manage",
+   "text": "Manage",
+   "description": "Open this plugin in plugin settings",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.mcp.disable",
+   "text": "Disable MCP server",
+   "description": "Tooltip label for disabling an MCP server from the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.mcp.enable",
+   "text": "Enable MCP server",
+   "description": "Tooltip label for enabling an MCP server from the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.mcp.settings",
+   "text": "Open MCP settings",
+   "description": "Tooltip label for the settings button on an MCP server card in plugin detail",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.mcp.setup",
+   "text": "Set up in MCP settings",
+   "description": "Tooltip label for the settings button when an MCP server still needs to be configured",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.mcp.toggleAria",
+   "text": "Toggle MCP server enabled state",
+   "description": "Accessible label for the MCP server enablement toggle on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.missing",
+   "text": "Plugin not found",
+   "description": "Not found title on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.missingDescription",
+   "text": "This plugin could not be loaded from its marketplace entry.",
+   "description": "Not found description on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.moreActions",
+   "text": "More actions",
+   "description": "Aria label for the plugin detail page overflow menu",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.noAvailableActions",
+   "text": "No available actions",
+   "description": "Empty state in a plugin's More actions menu when the current user has no available actions",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.openInDesktopApp",
+   "text": "Open in desktop app",
+   "description": "Primary action on a plugin detail page in a web browser. Opens this desktop-only plugin in the desktop app, or offers a download if the app is not installed.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.openPlugin",
+   "text": "Open plugin",
+   "description": "Action that opens an installed plugin's sidebar page",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.requiredAppUnavailableExplanation",
+   "text": "This plugin can’t be used because a required app is unavailable. Contact your workspace admin for access",
+   "description": "Tooltip on the disabled action on a plugin's details page. Explains to an end user that a required app is unavailable and their workspace administrator can help with access. The reason does not prove an admin explicitly disabled the app. Plain text; no placeholders.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.requiredAppUnavailablePersonalExplanation",
+   "text": "This plugin can’t be used because a required app is unavailable",
+   "description": "Tooltip on a disabled plugin action for a personal account or while account information is loading. A required app is unavailable, but there is no confirmed workspace administrator to contact. Plain text; no placeholders.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.scheduledTasks",
+   "text": "Scheduled",
+   "description": "Title for scheduled tasks included with a plugin",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.scheduledTasks.customSchedule",
+   "text": "Custom schedule",
+   "description": "Fallback schedule summary for a plugin scheduled task template",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.sectionsNav",
+   "text": "Plugin sections",
+   "description": "Accessible label for the section navigation on the plugin detail page",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.settings",
+   "text": "Settings",
+   "description": "Open the plugin's dedicated settings page",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.setup",
+   "text": "Setup",
+   "description": "Section title for browser extensions that need to be set up on the plugin detail page",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.setup.openBrowserExtension",
+   "text": "Open",
+   "description": "Button label for opening a browser extension setup URL from the plugin detail page",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.shareLink",
+   "text": "Copy link",
+   "description": "Button label for copying a plugin detail share link",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.skills.disabledByAdmin",
+   "text": "This skill can’t be viewed because the plugin is disabled by your workspace admin",
+   "description": "Tooltip on a disabled skill row in plugin details explaining that workspace admin restrictions prevent viewing its instructions",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.skills.pluginUnavailable",
+   "text": "This skill can’t be viewed because the plugin is unavailable",
+   "description": "Tooltip shown when a personal-account or signed-out visitor hovers or focuses a disabled skill on the plugin details page. Explains why the skill's instructions cannot be opened without attributing the restriction to a workspace administrator. Use a neutral explanatory tone; the tooltip can wrap and has no final period.",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.template.manageOnWeb",
+   "text": "Manage app",
+   "description": "Open ChatGPT web to set up, reconnect, add, or remove connections for this app template",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.template.setUpOnWeb",
+   "text": "Connect",
+   "description": "Open ChatGPT web to configure a missing app connection required by this plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.tryInChat",
+   "text": "Try in chat",
+   "description": "Secondary action that starts a chat using an installed plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.tryInCodex",
+   "text": "Try now",
+   "description": "Try action on the plugin detail page",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.tryPluginOptions",
+   "text": "More ways to try this plugin",
+   "description": "Accessible label for the dropdown of ways to open or chat with an installed plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.unavailableExplanation",
+   "text": "This plugin isn’t available to you",
+   "description": "Tooltip on a disabled plugin action when the service provides no specific explanation and there is no confirmed workspace administrator to contact. Plain text for an end user; no placeholders.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.uninstall",
+   "text": "Uninstall",
+   "description": "Uninstall action on the plugin detail page",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.uninstall.disconnectsAllAccounts",
+   "text": "Disconnects all accounts",
+   "description": "Warning beneath the Uninstall action when a plugin app has multiple connected accounts: uninstalling disconnects every account connected to those apps",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.uninstalling",
+   "text": "Uninstalling",
+   "description": "Primary action on the plugin detail page while uninstall is in progress",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.upgradeToInstall",
+   "text": "Upgrade to install",
+   "description": "Primary action for a plugin available with an Enterprise plan. Opens the plugin-specific contact-sales dialog. Keep the button label short.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.upgradeToPlus",
+   "text": "Upgrade to Plus",
+   "description": "Primary action on a plan-restricted plugin detail page for a Free or Go subscriber. Opens pricing for the Plus subscription, which can install this plugin. Plus is the plan name. Keep this button label short.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.upgradeToPro",
+   "text": "Upgrade to Pro",
+   "description": "Primary action on a plan-restricted plugin detail page for a subscriber on a lower consumer tier. Opens pricing for the Pro subscription, which can install this plugin. Pro is the plan name. Keep this button label short.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.upgradeToSetup",
+   "text": "Upgrade to setup",
+   "description": "Primary action for a personal account viewing a workspace-only app template. Opens the template-specific Enterprise contact-sales dialog. Keep the button label short.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.useOnDesktop",
+   "text": "Use on desktop",
+   "description": "Primary action for a desktop-only plugin on mobile web. Opens instructions for using the plugin on a computer.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.detail.workspaceApprovalExplanation",
+   "text": "This plugin or a required app isn’t enabled for your workspace. Contact your admin to enable or approve it",
+   "description": "Tooltip on the disabled action on a plugin's details page. Explains to an end user that workspace policy blocks the plugin or a required app, and asks them to contact their administrator. The service does not distinguish an explicit block from a plugin awaiting approval, so do not imply either specific cause. Plain text; no placeholders.",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.disabledReason.planNotEligible",
+   "text": "Not available on your plan",
+   "description": "Label and tooltip shown for an unavailable plugin when the user's current plan is not eligible",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.disabledReason.requiredAppUnavailable",
+   "text": "Required app unavailable",
+   "description": "Label and tooltip shown for an unavailable plugin when one of its required apps is unavailable",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.disabledReason.unknown",
+   "text": "Unavailable",
+   "description": "Label and tooltip shown for an unavailable plugin when its specific restriction is not recognized",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.incentive.almostThere",
+   "text": "Almost there!",
+   "description": "Heading of the credit reminder after installing a promotional plugin",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.incentive.dismissCreditTip",
+   "text": "Dismiss credit tip",
+   "description": "Accessible label for the close button on the promotional plugin credit reminder",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.incentive.hubspot.tryForWorkspaceCredits",
+   "text": "Try this plugin to earn {credits, plural, one {# credit} other {# credits}} for your workspace",
+   "description": "Reminder for the independent HubSpot promotion, where successful use in Chat, Work, or Codex qualifies. credits is the server-provided reward amount.",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.incentive.installAndUseRewardBadge",
+   "text": "Get {credits, plural, one {# credit} other {# credits}} for installing and using",
+   "description": "Reward badge on a plugin's own detail page. The page identifies the plugin, so its name is intentionally omitted. Installation and successful use are both required; credits is the server-provided reward amount.",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.incentive.rewardBadge",
+   "text": "{credits, plural, one {# credit} other {# credits}}",
+   "description": "Promotional workspace credit amount on a plugin offer pill; credits is the server-provided credit count",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.incentive.rewardRequirements",
+   "text": "Earn workspace credits by installing and successfully using the {pluginName} plugin",
+   "description": "Requirements shown on hover or focus of the promotional credit badge on plugin details; pluginName is the plugin's display name. Installation and successful use are both required.",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.incentive.tryPluginForWorkspaceCredits",
+   "text": "Try this plugin in Work or Codex to earn {credits, plural, one {# credit} other {# credits}} for your workspace.",
+   "description": "Post-install reminder to try the installed plugin in Work or Codex to earn credits for the workspace. Work and Codex are mode names; ordinary ChatGPT chats do not qualify. credits is the server-provided reward amount.",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.install.connectorUnavailable",
+   "text": "App unavailable",
+   "description": "Tooltip shown when plugin install is unavailable because the plugin's apps are not available in the current app directory",
+   "files": [
+    "74892.e8d00acc45.js",
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "plugins.install.disabledByAdmin",
+   "text": "Disabled by admin",
+   "description": "Tooltip shown when plugin install is unavailable because all included connectors are disabled by admin",
+   "files": [
+    "74892.e8d00acc45.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.install.unavailable",
+   "text": "Unavailable",
+   "description": "Short label for a plugin that remains visible but cannot currently be installed by this user",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.install.unavailableExplanation",
+   "text": "This plugin isn't available to install for your account or device",
+   "description": "Tooltip for a disabled plugin install action. The server has determined that installation is unavailable for the user's account or current device. This does not imply an administrator disabled it. No placeholders.",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.installedByDefault.actionLabel",
+   "text": "Installed by admin",
+   "description": "Disabled action label shown for a plugin installed by an admin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.installModal.browserExtension.description",
+   "text": "Install this extension to connect ChatGPT to your browser",
+   "description": "Description for the required Chromium browser extension in the plugin finish setup modal",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.installModal.codexChrome.description",
+   "text": "Install this extension in Chrome to connect ChatGPT to your browser",
+   "description": "Description for the required Chrome browser extension in the plugin finish setup modal",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.installModal.edgeBrowserExtension.description",
+   "text": "Install this extension in Edge to connect ChatGPT to your browser",
+   "description": "Description for the required Edge browser extension in the plugin finish setup modal",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.manage.copyShareLinkError",
+   "text": "Couldn't copy share link",
+   "description": "Error shown when copying a plugin share link fails",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.manage.loadSharingError",
+   "text": "Couldn't load plugin sharing",
+   "description": "Error shown when plugin sharing settings cannot load",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.manage.updateSharedVersionError",
+   "text": "Couldn't update shared version",
+   "description": "Error shown when uploading a newer local plugin version to an existing plugin share fails",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.manage.updateSharedVersionSuccess",
+   "text": "Shared version updated",
+   "description": "Success message shown after uploading a newer local plugin version to an existing plugin share",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.manage.updateSharingError",
+   "text": "Couldn't update plugin sharing",
+   "description": "Error shown when updating plugin sharing fails",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.delete",
+   "text": "Delete plugin",
+   "description": "Permanently delete a hosted plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.download",
+   "text": "Download plugin ZIP",
+   "description": "Download a hosted plugin archive",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.downloadFailed",
+   "text": "Couldn't download plugin. Try again",
+   "description": "Error when downloading a plugin archive fails",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.loading",
+   "text": "Loading controls…",
+   "description": "Management permissions are loading in a plugin menu",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.manageForWorkspace",
+   "text": "Manage for workspace",
+   "description": "Open the workspace admin page for this plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.retry",
+   "text": "Couldn't load controls. Retry",
+   "description": "Retry loading the plugin management permissions",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.shareFailed",
+   "text": "Couldn't save plugin sharing. Try again",
+   "description": "Error after changing plugin sharing permissions fails",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.shareMenuItem",
+   "text": "Share",
+   "description": "Open sharing permissions for a hosted plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.management.upload",
+   "text": "Upload new version",
+   "description": "Upload a new archive to an existing plugin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.migration.selfShareChanged",
+   "text": "Your own plugin access can't be changed here. Remove or undo that change to continue",
+   "description": "Error when the reviewed GPT audience would add or change the current user's own plugin access, which the sharing endpoint does not allow",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.migration.shareButton",
+   "text": "Share plugin",
+   "description": "Open sharing settings for a migrated plugin from its migration-success banner",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.migration.sharingChanged",
+   "text": "Plugin access changed. Close this dialog and review the audience again",
+   "description": "Error preventing an original-audience draft from replacing plugin access that changed after it was loaded",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.requiredByChatGPT.actionLabel",
+   "text": "Required by ChatGPT",
+   "description": "Disabled uninstall action for a plugin automatically provided and required by ChatGPT, rather than installed by a workspace admin",
+   "files": [
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.skillDetails.skill.heading",
+   "text": "Skill",
+   "description": "Short section heading above the instructions block in the skill preview modal opened from a plugin page. Identifies the skill's instructions separately from any supporting reference files listed below.",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "plugins.templateBadge",
+   "text": "Template",
+   "description": "Short, noninteractive badge beside a plugin's name in directory and detail pages. A template can be configured to create a usable plugin.",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "search.empty.title",
+   "text": "No results found",
+   "description": "Heading when a search in a content collection has no matching items",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.pluginDisplayName",
+   "text": "Computer History",
+   "description": "Display name of the Computer History plugin in a prefilled conversation mention",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.computerUse.browser.openExtensionStoreError",
+   "text": "Unable to open browser extension page",
+   "description": "Toast shown when the app fails to open a Chromium browser extension install destination",
+   "files": [
+    "474358.951967df78.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.editRow.headerPlaceholder",
+   "text": "Key",
+   "description": "Placeholder for record key input",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.editRow.removeEntry",
+   "text": "Remove entry",
+   "description": "Label for removing an entry from a list",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.editRow.valuePlaceholder",
+   "text": "Value",
+   "description": "Placeholder for record value input",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.hostDropdown.filter",
+   "text": "Filter settings by host",
+   "description": "Tooltip and accessible label for the settings host filter dropdown button",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.hostDropdown.local",
+   "text": "Local",
+   "description": "Label for the local host in settings connection dropdowns",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.hostDropdown.title",
+   "text": "Host",
+   "description": "Title for the Host dropdown shown in settings pages",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.addServer",
+   "text": "Add server",
+   "description": "Button to add a new MCP server",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.apps.clearData",
+   "text": "Clear all app data",
+   "description": "Button that clears saved browser data for all MCP apps",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.apps.clearData.error",
+   "text": "Unable to clear MCP app data",
+   "description": "Error shown when clearing saved browser data for one or more MCP apps fails",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.apps.clearData.success",
+   "text": "MCP app data cleared",
+   "description": "Confirmation after clearing saved browser data for all MCP apps",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.apps.data.description",
+   "text": "Clear site data and cache from all MCP apps",
+   "description": "Description of the action that deletes local browser data for every MCP app",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.apps.data.label",
+   "text": "App data",
+   "description": "Label for saved browser data belonging to MCP apps",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.apps.title",
+   "text": "MCP Apps",
+   "description": "Heading for settings for interactive apps provided by MCP servers",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.addArgument",
+   "text": "Add argument",
+   "description": "Add button label for MCP stdio arguments",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.addEnvVar",
+   "text": "Add environment variable",
+   "description": "Add button label for MCP stdio environment variables",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.addEnvVarPassthrough",
+   "text": "Add variable",
+   "description": "Add button label for MCP stdio env var passthrough",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.args",
+   "text": "Arguments",
+   "description": "Label for MCP stdio arguments",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.back",
+   "text": "Back",
+   "description": "Button label to go back to MCP settings",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.command",
+   "text": "Command to launch",
+   "description": "Label for MCP stdio command",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.cwd",
+   "text": "Working directory",
+   "description": "Label for MCP stdio working directory",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.docs",
+   "text": "Open MCP documentation",
+   "description": "Aria label for MCP docs link in detail header",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.docs.link",
+   "text": "Docs",
+   "description": "Tooltip link label for MCP docs on add page",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.duplicateKey",
+   "text": "Rename or remove the duplicate key “{key}”",
+   "description": "Error when two environment variable or HTTP header rows in MCP server settings have the same key. {key} is the conflicting name.",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.envVarPassthrough",
+   "text": "Environment variable passthrough",
+   "description": "Label for MCP stdio env var passthrough",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.envVars",
+   "text": "Environment variables",
+   "description": "Label for MCP stdio environment variables",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.http.addEnvHeader",
+   "text": "Add variable",
+   "description": "Add button label for MCP HTTP env headers",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.http.addHeader",
+   "text": "Add header",
+   "description": "Add button label for MCP HTTP headers",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.http.bearerToken",
+   "text": "Bearer token env var",
+   "description": "Label for MCP HTTP bearer token env var",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.http.envHeaders",
+   "text": "Headers from environment variables",
+   "description": "Label for MCP HTTP env headers",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.http.headers",
+   "text": "Headers",
+   "description": "Label for MCP HTTP headers",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.http.url",
+   "text": "URL",
+   "description": "Label for MCP HTTP URL",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.name",
+   "text": "Name",
+   "description": "Name for MCP server display name",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.save",
+   "text": "Save",
+   "description": "Save button label on MCP server detail view",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.saveError",
+   "text": "Could not save MCP server",
+   "description": "Error shown when saving an MCP server fails",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.switchTransportNotice",
+   "text": "If you would like to switch MCP server type, please uninstall first.",
+   "description": "Notice explaining how to change MCP transport type",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.titleExisting",
+   "text": "Update {name} MCP",
+   "description": "Title for the MCP server detail view when editing an existing server",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.titleNew",
+   "text": "Connect to a custom MCP",
+   "description": "Title for the MCP server detail view when adding a new server",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.transport.ariaLabel",
+   "text": "MCP server type",
+   "description": "Accessible label for choosing the MCP server transport type",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.transport.http",
+   "text": "Streamable HTTP",
+   "description": "Label for HTTP transport toggle",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.transport.label",
+   "text": "Type",
+   "description": "Label for the MCP server transport type selector",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.transport.stdio",
+   "text": "STDIO",
+   "description": "Label for stdio transport toggle",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.uninstall",
+   "text": "Uninstall",
+   "description": "Button label to uninstall an MCP server",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.detail.uninstallError",
+   "text": "Could not uninstall MCP server",
+   "description": "Error shown when uninstalling an MCP server fails",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.empty",
+   "text": "No MCP servers connected",
+   "description": "Empty state for MCP servers list",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.fromPlugins",
+   "text": "From plugins",
+   "description": "Heading for MCP servers provided by installed plugins",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.myServers",
+   "text": "Servers",
+   "description": "Heading for the user's MCP servers list",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.noWritableConfig",
+   "text": "MCP server settings are unavailable",
+   "description": "Error shown when MCP settings cannot find a writable config.toml",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.restartApp",
+   "text": "Restart",
+   "description": "Button label to restart the codex electron app after MCP settings change",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.authenticationStarting",
+   "text": "Starting…",
+   "description": "Button label while MCP server authentication is starting",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.clientRegistration.auto",
+   "text": "Automatic",
+   "description": "Option in the MCP settings registration-strategy dropdown. Selecting it automatically chooses how to register an OAuth client for the current login. Other options are Client ID metadata document (CIMD) and Dynamic client registration (DCR).",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.clientRegistration.autoShort",
+   "text": "Auto",
+   "description": "Short selected-value label in the MCP settings registration-strategy dropdown. This automatically chooses how to register an OAuth client for the current login. Other selected values are CIMD and DCR.",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.clientRegistration.cimd",
+   "text": "Client ID metadata document (CIMD)",
+   "description": "Option in the MCP settings registration-strategy dropdown. Selecting it uses a client ID metadata document for the current OAuth login. Other options are Automatic and Dynamic client registration (DCR).",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.clientRegistration.cimdShort",
+   "text": "CIMD",
+   "description": "Short selected-value label in the MCP settings registration-strategy dropdown. CIMD means client ID metadata document and applies only to the current OAuth login. Other selected values are Auto and DCR.",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.clientRegistration.dcr",
+   "text": "Dynamic client registration (DCR)",
+   "description": "Option in the MCP settings registration-strategy dropdown. Selecting it uses dynamic client registration for the current OAuth login. Other options are Automatic and Client ID metadata document (CIMD).",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.clientRegistration.dcrShort",
+   "text": "DCR",
+   "description": "Short selected-value label in the MCP settings registration-strategy dropdown. DCR means dynamic client registration and applies only to the current OAuth login. Other selected values are Auto and CIMD.",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.clientRegistration.label",
+   "text": "OAuth client registration: {strategy, select, auto {Automatic} cimd {CIMD} dcr {DCR} other {Automatic}}",
+   "description": "Accessible label for the registration-strategy dropdown next to Authenticate in MCP settings, including the currently selected strategy. Placeholder {strategy} is auto for Automatic, cimd for Client ID metadata document, or dcr for Dynamic client registration. The choice applies only to the current MCP server login.",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.enable",
+   "text": "Enable",
+   "description": "Toggle to enable an MCP server",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.login",
+   "text": "Authenticate",
+   "description": "Button label to authenticate with an MCP server",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.mcp.server.settings",
+   "text": "Settings",
+   "description": "Button label to view MCP server settings",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.memory.allowMemoryGenerationFromToolAssistedTasksLabel.host",
+   "text": "Allow memories from tool-assisted chats",
+   "description": "Label for allowing Codex memory generation when MCP tools or web search are used",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.memory.enableMemoriesLabel.host",
+   "text": "Enable Codex memories",
+   "description": "Label for enabling Codex memories for the selected host",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.memory.resetMemoriesLabel.host",
+   "text": "Delete Codex memories",
+   "description": "Label for deleting all Codex memories for the selected host",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.panel.loading",
+   "text": "Loading settings…",
+   "description": "Loading state shown while settings load",
+   "files": [
+    "473177.a69adbc5b9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.personalization.agents.fileTitle",
+   "text": "AGENTS.md",
+   "description": "Heading for the selected machine’s AGENTS.md instruction file editor; keep AGENTS.md untranslated",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.personalization.agents.title",
+   "text": "Codex instructions",
+   "description": "Heading for host-level Codex instructions in Personalization settings",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.personalization.instructions.accountTitle",
+   "text": "Custom instructions",
+   "description": "Heading for account-level Codex instructions synced across desktop and web",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.personalization.loading",
+   "text": "Loading personalization settings…",
+   "description": "Loading state shown while all Personalization settings are being fetched",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.personalization.memory.title",
+   "text": "Codex memory",
+   "description": "Heading for local Codex memory settings in Personalization",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.section.plugins-settings.browseDirectory",
+   "text": "Browse directory",
+   "description": "Button for browsing the plugin or skill directory from Plugins settings",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.section.plugins-settings.subtitle",
+   "text": "Manage plugins, skills, and MCPs",
+   "description": "Subtitle for the combined plugins settings section",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.browseIntro.codexSkillsSubtitle",
+   "text": "Extend Codex with task-specific skills",
+   "description": "Subtitle shown at the top of the skills browse page while the Codex product mode is selected",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.browseIntro.skillsSubtitle",
+   "text": "Extend ChatGPT with task-specific skills",
+   "description": "Subtitle shown at the top of the skills browse page",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.browseIntro.skillsTitle",
+   "text": "Skills",
+   "description": "Title shown at the top of the skills browse page",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.empty.installedApps",
+   "text": "No installed apps",
+   "description": "Empty state title when there are no installed apps on the Skills & Apps page",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.empty.marketplace",
+   "text": "No marketplaces found",
+   "description": "Empty state title when there are no marketplaces on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.empty.mcps",
+   "text": "No MCP servers found",
+   "description": "Empty state title when there are no MCP servers on the manage MCPs tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.empty.plugins",
+   "text": "No plugins found",
+   "description": "Empty state title when there are no plugins on the Plugins tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.empty.skills",
+   "text": "No skills found",
+   "description": "Empty state title when no skills match filters on the Skills & Apps page",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.appsPage.loadError.retry",
+   "text": "Retry",
+   "description": "Retry button label for the apps list error state",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.loadError.title",
+   "text": "Unable to load apps",
+   "description": "Title shown when the apps list cannot be loaded",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.loading",
+   "text": "Loading apps…",
+   "description": "Loading label on the Apps tab of the Skills & Apps page",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.manageTab.apps",
+   "text": "Apps",
+   "description": "Manage-mode tab label for installed apps",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.manageTab.marketplace",
+   "text": "Marketplace",
+   "description": "Manage-mode tab label for plugin marketplaces",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.manageTab.mcps",
+   "text": "MCPs",
+   "description": "Manage-mode tab label for installed MCP servers",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.manageTab.plugins",
+   "text": "Plugins",
+   "description": "Manage-mode tab label for installed plugins",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.manageTab.skills",
+   "text": "Skills",
+   "description": "Manage-mode tab label for installed skills",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.manageTabs.ariaLabel",
+   "text": "Manage extensions",
+   "description": "Accessible label for switching between managed extension types",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.loadError.retry",
+   "text": "Retry",
+   "description": "Retry button label for the marketplace list error state",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.loadError.title",
+   "text": "Unable to load marketplaces",
+   "description": "Title shown when plugin marketplaces cannot be loaded",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.loading",
+   "text": "Loading marketplaces…",
+   "description": "Loading label on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.partialLoadError.more",
+   "text": "{count, plural, one {# more marketplace could not be loaded} other {# more marketplaces could not be loaded}}",
+   "description": "Summary shown when not all marketplace load errors fit in the banner",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.partialLoadError.retry",
+   "text": "Retry",
+   "description": "Retry button label for partial marketplace load errors",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.partialLoadError.title",
+   "text": "Some marketplaces could not be loaded",
+   "description": "Banner title shown when some plugin marketplaces fail to load",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.pluginCount",
+   "text": "{count, plural, one {# plugin} other {# plugins}}",
+   "description": "Plugin count shown for a marketplace on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.remove",
+   "text": "Remove marketplace",
+   "description": "Tooltip label for removing a marketplace on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.remove.ariaLabel",
+   "text": "Remove marketplace",
+   "description": "Accessible label for removing a marketplace on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.remove.builtInDisabled",
+   "text": "Built-in marketplaces cannot be removed",
+   "description": "Tooltip label for disabled built-in marketplace removal",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.remove.configuredDisabled",
+   "text": "Only configured marketplaces can be removed",
+   "description": "Tooltip label for disabled unconfigured marketplace removal",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.cancel",
+   "text": "Cancel",
+   "description": "Cancel button label in the remove marketplace dialog",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.confirm",
+   "text": "Remove",
+   "description": "Confirm button label in the remove marketplace dialog",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.installedPlugins",
+   "text": "The following plugins will be uninstalled, and can't be re-installed unless you add this marketplace again.",
+   "description": "Explanation above the list of installed plugins that will be uninstalled when their marketplace is removed and cannot be installed again until the marketplace is added again",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.loadingPlugins",
+   "text": "Loading installed plugins…",
+   "description": "Loading label while the marketplace removal dialog loads the installed plugins that belong to the marketplace",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.noInstalledPlugins",
+   "text": "Its plugins will not appear or be available for installation unless you add it again",
+   "description": "Explanation in the marketplace removal dialog when no plugins are installed: its plugins will no longer be available until the marketplace is added again",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.pluginsError",
+   "text": "Unable to load installed plugins",
+   "description": "Error shown when the marketplace removal dialog cannot load the installed plugins that belong to the marketplace",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.removeError",
+   "text": "Unable to remove the marketplace. Retry to continue",
+   "description": "Error when marketplace removal fails after its plugins have been uninstalled",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.retryPlugins",
+   "text": "Retry",
+   "description": "Button to retry loading installed plugins in the marketplace removal dialog",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.retryRemoval",
+   "text": "Retry",
+   "description": "Button to resume uninstalling plugins or removing their marketplace after an error",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.uninstallAndRemove",
+   "text": "Uninstall & remove",
+   "description": "Confirm button to uninstall the installed plugins from a marketplace and remove that marketplace",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.uninstalled",
+   "text": "Uninstalled",
+   "description": "Status beside a plugin successfully uninstalled during marketplace removal",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.uninstallError",
+   "text": "Unable to uninstall {pluginName}. Retry to continue",
+   "description": "Error when a plugin uninstall fails during marketplace removal; retry resumes from this plugin",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.removeDialog.uninstalling",
+   "text": "Uninstalling",
+   "description": "Status beside the plugin currently being uninstalled during marketplace removal",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.upgrade",
+   "text": "Upgrade marketplace",
+   "description": "Tooltip label for upgrading a marketplace on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.upgrade.ariaLabel",
+   "text": "Upgrade marketplace",
+   "description": "Accessible label for upgrading a marketplace on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.upgrade.builtInDisabled",
+   "text": "Built-in marketplaces update automatically",
+   "description": "Tooltip label for disabled built-in marketplace upgrade",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.upgrade.button",
+   "text": "Upgrade",
+   "description": "Button label for upgrading a marketplace on the manage Marketplace tab",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.marketplace.upgrade.localDisabled",
+   "text": "Only Git marketplaces can be upgraded",
+   "description": "Tooltip label for disabled non-Git marketplace upgrade",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.pluginsUnsupportedHost.description",
+   "text": "Choose another host to browse and manage plugins",
+   "description": "Description shown when the selected host does not support plugins",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.pluginsUnsupportedHost.title",
+   "text": "Plugins are not available for this host",
+   "description": "Title shown when the selected host does not support plugins",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.appsPage.section.installedSkillsOverview",
+   "text": "Installed",
+   "description": "Heading for skills installed in Codex",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.appsPage.section.seeAllSkillsDescription",
+   "text": "See {skillNames}{remainingCount, plural, =0 {} one {, and # more} other {, and # more}}",
+   "description": "Label for the row that expands a skill section, previewing the next skills and the number of additional skills",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.appsPage.section.showLess",
+   "text": "Show less",
+   "description": "Label for the row that collapses an expanded plugins page section",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.appsPage.skillDirectoryTabs.ariaLabel",
+   "text": "Skill directory",
+   "description": "Accessible label for skill sections on the Skills page",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.appsPage.skillsFilter.all",
+   "text": "Skills",
+   "description": "Label for the Skills option in the browse filter dropdown on the Skills & Apps page",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.card.actionsMenu",
+   "text": "Skill actions",
+   "description": "Aria label for the skill card actions menu trigger",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.copiedSkillMarkdown",
+   "text": "Copied SKILL.md",
+   "description": "Toast shown after copying an installed skill's original SKILL.md file",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.copySkillMarkdown",
+   "text": "Copy Markdown",
+   "description": "Menu item for copying an installed skill's original SKILL.md file",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.details",
+   "text": "Details",
+   "description": "Dropdown item label to open the skill details modal",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.disabledBadge",
+   "text": "Disabled",
+   "description": "Label shown next to the skill name when a skill is disabled",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.disabledStatus",
+   "text": "Skill disabled",
+   "description": "Status label for an installed skill that is disabled",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.disableMenuItem",
+   "text": "Disable",
+   "description": "Menu item label for disabling a skill from a skill card",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.disableSkill",
+   "text": "Disable skill",
+   "description": "Label for the disable skill toggle on skill cards",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.disableSuccess",
+   "text": "{skillName} skill disabled",
+   "description": "Toast shown after successfully disabling a skill",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.enableButton",
+   "text": "Enable",
+   "description": "Button label for enabling a disabled skill from a skill card",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.enabledStatus",
+   "text": "Skill enabled",
+   "description": "Status label for an installed skill that is enabled",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.enableSkill",
+   "text": "Enable skill",
+   "description": "Label for the enable skill toggle on skill cards",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.enableSuccess",
+   "text": "{skillName} skill enabled",
+   "description": "Toast shown after successfully enabling a skill",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.moreActions",
+   "text": "More actions",
+   "description": "Aria label for the more actions menu in the skill preview modal",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.open",
+   "text": "Open",
+   "description": "Button label to open a skill's files",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.removeFailed",
+   "text": "Failed to uninstall skill",
+   "description": "Toast message shown when uninstalling a skill fails",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.removeSuccess",
+   "text": "{skillName} skill uninstalled",
+   "description": "Toast shown after successfully uninstalling a skill",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.revealInFileExplorer",
+   "text": "Reveal in File Explorer",
+   "description": "Menu item to reveal an installed skill's file in File Explorer on Windows",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.revealInFileManager",
+   "text": "Reveal in File Manager",
+   "description": "Menu item to reveal an installed skill's file in the system file manager on Linux",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.revealInFinder",
+   "text": "Reveal in Finder",
+   "description": "Menu item to reveal an installed skill's file in Finder on macOS",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.toggleEnabledError",
+   "text": "Failed to update skill",
+   "description": "Toast message shown when enabling or disabling a skill fails",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.try",
+   "text": "Try now",
+   "description": "Button label to start a new task with a skill",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.uninstall",
+   "text": "Uninstall",
+   "description": "Button label to remove a skill",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.uninstallMenuItem",
+   "text": "Uninstall",
+   "description": "Menu item label for uninstalling a skill from a skill card",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.card.uninstallSkill",
+   "text": "Uninstall skill",
+   "description": "Tooltip label for uninstalling a skill from a skill card",
+   "files": [
+    "192666.161cacd23a.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.computerHistorySuggestions.createSkill",
+   "text": "Create skill",
+   "description": "Button for creating a skill suggested from Computer History",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.computerHistorySuggestions.sectionTitle",
+   "text": "Based on your Computer History",
+   "description": "Heading for personalized skills suggested from the user's Computer History",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.contents.description",
+   "text": "Description",
+   "description": "Description label in the read-only plugin skill contents dialog",
+   "files": [
+    "192666.161cacd23a.js",
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.contents.name",
+   "text": "Name",
+   "description": "Stored skill name in the read-only plugin skill contents dialog",
+   "files": [
+    "192666.161cacd23a.js",
+    "978887.6bf7a8b897.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.page.createSkill",
+   "text": "New skill",
+   "description": "Button label for creating a new skill",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.empty",
+   "text": "No skills found",
+   "description": "Empty state on the skills page",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.filteredEmpty",
+   "text": "No skills match your filters",
+   "description": "Empty state when filters hide all skills",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.filteredEmptyDescription",
+   "text": "Try adjusting your search or scope filters",
+   "description": "Description for filtered skills empty state",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.heading",
+   "text": "Skills",
+   "description": "Header title for the skills page",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.loading",
+   "text": "Loading skills…",
+   "description": "Loading label on the skills page",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.page.refreshFailed",
+   "text": "Failed to refresh skills and apps",
+   "description": "Toast message shown when refreshing the Skills & Apps page data fails",
+   "files": [
+    "548929.7a0b4cbb28.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.refreshSkills",
+   "text": "Refresh",
+   "description": "Button label for reloading skills list",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.refreshSkillsToUseNew",
+   "text": "Refresh to use new skill(s)",
+   "description": "Button label shown when newly installed skills require a refresh before they can be used in the composer",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.search",
+   "text": "Search skills",
+   "description": "Placeholder for the skills page search input",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.search.label",
+   "text": "Search skills",
+   "description": "Label for the skills page search input",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.page.subheading",
+   "text": "Add reusable workflows with Skills. <link>Learn more</link>",
+   "description": "Subheading shown above the skills sections",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.recommended.connectSkill",
+   "text": "Install skill",
+   "description": "Button label for installing a recommended skill",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.recommended.error",
+   "text": "Unable to load recommended skills",
+   "description": "Error title when recommended skills fail to load",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.recommended.install",
+   "text": "Install skill",
+   "description": "Button label to install a recommended skill",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.recommended.installed",
+   "text": "Installed",
+   "description": "Label for installed recommended skills",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.recommended.installSuccess",
+   "text": "{skillName} skill installed",
+   "description": "Toast shown after successfully installing a recommended skill",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.scope.admin",
+   "text": "Admin",
+   "description": "Indicates a skill scoped to the admin",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.scope.adminInstalled",
+   "text": "Admin installed",
+   "description": "Label for admin installed skills",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.scope.builtIn",
+   "text": "System",
+   "description": "Label for system skills",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.scope.personal",
+   "text": "Personal",
+   "description": "Label for personal skills",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.scope.repo",
+   "text": "Repo",
+   "description": "Indicates a skill scoped to the current repository",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.scope.system",
+   "text": "System",
+   "description": "Indicates a system scoped skill",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.scope.team",
+   "text": "Team",
+   "description": "Label for team skills",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.scope.user",
+   "text": "User",
+   "description": "Indicates a skill scoped to the user",
+   "files": [
+    "548929.7a0b4cbb28.js",
+    "604319.7947499c94.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "skills.section.installed",
+   "text": "Installed",
+   "description": "Heading for the installed skills section",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.section.recommended",
+   "text": "Recommended",
+   "description": "Heading for the recommended skills section",
+   "files": [
+    "604319.7947499c94.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.pageTemplates.category",
+   "text": "Pages",
+   "description": "Template browsing category for collaborative, auto-updating Pages in Space",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templates.create.prompt",
+   "text": "Create a new template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": "Composer prefill for creating a template without a selected file category",
+   "files": [
+    "192666.161cacd23a.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 1073
+  },
+  {
+   "name": "id",
+   "count": 790
+  },
+  {
+   "name": "description",
+   "count": 757
+  },
+  {
+   "name": "defaultMessage",
+   "count": 703
+  },
+  {
+   "name": "className",
+   "count": 626
+  },
+  {
+   "name": "hostId",
+   "count": 220
+  },
+  {
+   "name": "disabled",
+   "count": 144
+  },
+  {
+   "name": "onClick",
+   "count": 137
+  },
+  {
+   "name": "size",
+   "count": 133
+  },
+  {
+   "name": "title",
+   "count": 120
+  },
+  {
+   "name": "null",
+   "count": 118
+  },
+  {
+   "name": "color",
+   "count": 104
+  },
+  {
+   "name": "enabled",
+   "count": 83
+  },
+  {
+   "name": "label",
+   "count": 79
+  },
+  {
+   "name": "value",
+   "count": 77
+  },
+  {
+   "name": "skill",
+   "count": 75
+  },
+  {
+   "name": "n",
+   "count": 71
+  },
+  {
+   "name": "o",
+   "count": 64
+  },
+  {
+   "name": "v",
+   "count": 63
+  },
+  {
+   "name": "name",
+   "count": 62
+  },
+  {
+   "name": "path",
+   "count": 62
+  },
+  {
+   "name": "type",
+   "count": 62
+  },
+  {
+   "name": "roots",
+   "count": 59
+  },
+  {
+   "name": "data",
+   "count": 57
+  },
+  {
+   "name": "href",
+   "count": 53
+  },
+  {
+   "name": "queryKey",
+   "count": 53
+  },
+  {
+   "name": "onSelect",
+   "count": 52
+  },
+  {
+   "name": "isLoading",
+   "count": 52
+  },
+  {
+   "name": "signal",
+   "count": 51
+  },
+  {
+   "name": "accountId",
+   "count": 51
+  },
+  {
+   "name": "onSkillsUpdated",
+   "count": 51
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 46
+  },
+  {
+   "name": "values",
+   "count": 46
+  },
+  {
+   "name": "onChange",
+   "count": 46
+  },
+  {
+   "name": "role",
+   "count": 45
+  },
+  {
+   "name": "variant",
+   "count": 43
+  },
+  {
+   "name": "get",
+   "count": 42
+  },
+  {
+   "name": "pluginId",
+   "count": 41
+  },
+  {
+   "name": "icon",
+   "count": 39
+  },
+  {
+   "name": "content",
+   "count": 39
+  },
+  {
+   "name": "staleTime",
+   "count": 37
+  },
+  {
+   "name": "installedStateAction",
+   "count": 37
+  },
+  {
+   "name": "parameters",
+   "count": 36
+  },
+  {
+   "name": "plugin",
+   "count": 35
+  },
+  {
+   "name": "presentation",
+   "count": 34
+  },
+  {
+   "name": "openTarget",
+   "count": 34
+  },
+  {
+   "name": "ref",
+   "count": 33
+  },
+  {
+   "name": "surface",
+   "count": 33
+  },
+  {
+   "name": "userId",
+   "count": 32
+  },
+  {
+   "name": "ariaLabel",
+   "count": 31
+  },
+  {
+   "name": "actions",
+   "count": 31
+  },
+  {
+   "name": "kind",
+   "count": 31
+  },
+  {
+   "name": "onOpenChange",
+   "count": 30
+  },
+  {
+   "name": "isError",
+   "count": 29
+  },
+  {
+   "name": "isHighlighted",
+   "count": 29
+  },
+  {
+   "name": "scope",
+   "count": 29
+  },
+  {
+   "name": "x",
+   "count": 29
+  },
+  {
+   "name": "open",
+   "count": 28
+  },
+  {
+   "name": "y",
+   "count": 28
+  },
+  {
+   "name": "source",
+   "count": 28
+  },
+  {
+   "name": "queryFn",
+   "count": 27
+  },
+  {
+   "name": "intl",
+   "count": 26
+  },
+  {
+   "name": "repoRoot",
+   "count": 26
+  },
+  {
+   "name": "query",
+   "count": 25
+  },
+  {
+   "name": "onInstall",
+   "count": 25
+  },
+  {
+   "name": "errorMessage",
+   "count": 25
+  },
+  {
+   "name": "placeholder",
+   "count": 24
+  },
+  {
+   "name": "width",
+   "count": 23
+  },
+  {
+   "name": "height",
+   "count": 23
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 23
+  },
+  {
+   "name": "toastId",
+   "count": 23
+  },
+  {
+   "name": "canInstall",
+   "count": 23
+  },
+  {
+   "name": "asset",
+   "count": 22
+  },
+  {
+   "name": "count",
+   "count": 22
+  },
+  {
+   "name": "expectedErrorStatuses",
+   "count": 22
+  },
+  {
+   "name": "align",
+   "count": 21
+  },
+  {
+   "name": "isPending",
+   "count": 21
+  },
+  {
+   "name": "loading",
+   "count": 21
+  },
+  {
+   "name": "key",
+   "count": 21
+  },
+  {
+   "name": "requestBody",
+   "count": 20
+  },
+  {
+   "name": "onClose",
+   "count": 20
+  },
+  {
+   "name": "skillEntries",
+   "count": 20
+  },
+  {
+   "name": "installingSkillId",
+   "count": 20
+  },
+  {
+   "name": "onCardMount",
+   "count": 20
+  },
+  {
+   "name": "fill",
+   "count": 19
+  },
+  {
+   "name": "skills",
+   "count": 19
+  },
+  {
+   "name": "error",
+   "count": 19
+  },
+  {
+   "name": "retry",
+   "count": 18
+  },
+  {
+   "name": "isExpanded",
+   "count": 18
+  },
+  {
+   "name": "isOpen",
+   "count": 18
+  },
+  {
+   "name": "refetch",
+   "count": 18
+  },
+  {
+   "name": "text",
+   "count": 18
+  },
+  {
+   "name": "fallback",
+   "count": 17
+  },
+  {
+   "name": "alt",
+   "count": 17
+  },
+  {
+   "name": "subtitle",
+   "count": 17
+  },
+  {
+   "name": "d",
+   "count": 16
+  },
+  {
+   "name": "as",
+   "count": 16
+  },
+  {
+   "name": "spacing",
+   "count": 16
+  },
+  {
+   "name": "hover",
+   "count": 16
+  },
+  {
+   "name": "remotePluginId",
+   "count": 16
+  },
+  {
+   "name": "skillPath",
+   "count": 16
+  },
+  {
+   "name": "status",
+   "count": 16
+  },
+  {
+   "name": "leftIcon",
+   "count": 16
+  },
+  {
+   "name": "onRetry",
+   "count": 16
+  },
+  {
+   "name": "gap",
+   "count": 16
+  },
+  {
+   "name": "t",
+   "count": 15
+  },
+  {
+   "name": "pluginName",
+   "count": 15
+  },
+  {
+   "name": "onUninstall",
+   "count": 15
+  },
+  {
+   "name": "mutationFn",
+   "count": 15
+  },
+  {
+   "name": "onSuccess",
+   "count": 15
+  },
+  {
+   "name": "logoUrl",
+   "count": 15
+  },
+  {
+   "name": "cardIcon",
+   "count": 15
+  },
+  {
+   "name": "md",
+   "count": 15
+  },
+  {
+   "name": "isUninstalling",
+   "count": 14
+  },
+  {
+   "name": "e",
+   "count": 14
+  },
+  {
+   "name": "installedSkills",
+   "count": 14
+  },
+  {
+   "name": "cwd",
+   "count": 14
+  },
+  {
+   "name": "raw",
+   "count": 14
+  },
+  {
+   "name": "initiator",
+   "count": 14
+  },
+  {
+   "name": "app",
+   "count": 14
+  },
+  {
+   "name": "isSingleColumn",
+   "count": 14
+  },
+  {
+   "name": "isInstalled",
+   "count": 14
+  },
+  {
+   "name": "highlightedSkillPath",
+   "count": 14
+  },
+  {
+   "name": "state",
+   "count": 13
+  },
+  {
+   "name": "triggerButton",
+   "count": 13
+  },
+  {
+   "name": "visibleItemLimit",
+   "count": 13
+  },
+  {
+   "name": "checked",
+   "count": 13
+  },
+  {
+   "name": "target",
+   "count": 13
+  },
+  {
+   "name": "tag",
+   "count": 13
+  },
+  {
+   "name": "class",
+   "count": 13
+  },
+  {
+   "name": "appId",
+   "count": 13
+  },
+  {
+   "name": "lg",
+   "count": 12
+  },
+  {
+   "name": "onKeyDown",
+   "count": 12
+  },
+  {
+   "name": "contentWidth",
+   "count": 12
+  },
+  {
+   "name": "plugin_id",
+   "count": 12
+  },
+  {
+   "name": "control",
+   "count": 12
+  },
+  {
+   "name": "hazelnut_id",
+   "count": 12
+  },
+  {
+   "name": "onSubmit",
+   "count": 12
+  },
+  {
+   "name": "before",
+   "count": 12
+  },
+  {
+   "name": "link",
+   "count": 12
+  },
+  {
+   "name": "highlightInstalledSkills",
+   "count": 12
+  },
+  {
+   "name": "highlightedSkillId",
+   "count": 12
+  },
+  {
+   "name": "entries",
+   "count": 12
+  },
+  {
+   "name": "style",
+   "count": 11
+  },
+  {
+   "name": "actionsPlacement",
+   "count": 11
+  },
+  {
+   "name": "items",
+   "count": 11
+  },
+  {
+   "name": "installedSkillMatchKeys",
+   "count": 11
+  },
+  {
+   "name": "apps",
+   "count": 11
+  },
+  {
+   "name": "cardIconContainer",
+   "count": 11
+  },
+  {
+   "name": "cardTitle",
+   "count": 11
+  },
+  {
+   "name": "onError",
+   "count": 11
+  },
+  {
+   "name": "dividers",
+   "count": 11
+  },
+  {
+   "name": "a",
+   "count": 11
+  },
+  {
+   "name": "dark",
+   "count": 11
+  },
+  {
+   "name": "onEdit",
+   "count": 11
+  },
+  {
+   "name": "plugins",
+   "count": 11
+  },
+  {
+   "name": "viewBox",
+   "count": 10
+  },
+  {
+   "name": "isFetching",
+   "count": 10
+  },
+  {
+   "name": "isEnabled",
+   "count": 10
+  },
+  {
+   "name": "discoverability",
+   "count": 10
+  },
+  {
+   "name": "logoDarkUrl",
+   "count": 10
+  },
+  {
+   "name": "canPreview",
+   "count": 10
+  },
+  {
+   "name": "safe",
+   "count": 10
+  },
+  {
+   "name": "prefillPrompt",
+   "count": 10
+  },
+  {
+   "name": "files",
+   "count": 10
+  },
+  {
+   "name": "tokens",
+   "count": 10
+  },
+  {
+   "name": "userName",
+   "count": 10
+  },
+  {
+   "name": "pluginDisplayName",
+   "count": 10
+  },
+  {
+   "name": "electron",
+   "count": 10
+  },
+  {
+   "name": "config",
+   "count": 10
+  },
+  {
+   "name": "placeHolderValue",
+   "count": 10
+  },
+  {
+   "name": "inputType",
+   "count": 10
+  },
+  {
+   "name": "updatingAppId",
+   "count": 10
+  },
+  {
+   "name": "footer",
+   "count": 9
+  },
+  {
+   "name": "descriptionClassName",
+   "count": 9
+  },
+  {
+   "name": "marketplaceName",
+   "count": 9
+  },
+  {
+   "name": "marketplacePath",
+   "count": 9
+  },
+  {
+   "name": "displayName",
+   "count": 9
+  },
+  {
+   "name": "skillName",
+   "count": 9
+  },
+  {
+   "name": "sensitive",
+   "count": 9
+  },
+  {
+   "name": "closePreview",
+   "count": 9
+  },
+  {
+   "name": "cardDescription",
+   "count": 9
+  },
+  {
+   "name": "modalTitle",
+   "count": 9
+  },
+  {
+   "name": "modalTitleText",
+   "count": 9
+  },
+  {
+   "name": "modalDescription",
+   "count": 9
+  },
+  {
+   "name": "modalBody",
+   "count": 9
+  },
+  {
+   "name": "modalFooter",
+   "count": 9
+  },
+  {
+   "name": "searchQuery",
+   "count": 9
+  },
+  {
+   "name": "isConfigPending",
+   "count": 9
+  },
+  {
+   "name": "onSetAppEnabled",
+   "count": 9
+  },
+  {
+   "name": "adminLabel",
+   "count": 9
+  },
+  {
+   "name": "l",
+   "count": 8
+  },
+  {
+   "name": "tabIndex",
+   "count": 8
+  },
+  {
+   "name": "contentClassName",
+   "count": 8
+  },
+  {
+   "name": "trailing",
+   "count": 8
+  },
+  {
+   "name": "enabledStatusAriaLabel",
+   "count": 8
+  },
+  {
+   "name": "isUpdating",
+   "count": 8
+  },
+  {
+   "name": "preview",
+   "count": 8
+  },
+  {
+   "name": "shareContext",
+   "count": 8
+  },
+  {
+   "name": "P",
+   "count": 8
+  },
+  {
+   "name": "recommendedSkills",
+   "count": 8
+  },
+  {
+   "name": "suggestions",
+   "count": 8
+  },
+  {
+   "name": "isUpdatingEnabled",
+   "count": 8
+  },
+  {
+   "name": "cardRef",
+   "count": 8
+  },
+  {
+   "name": "modalIconShape",
+   "count": 8
+  },
+  {
+   "name": "ignoreNextPreview",
+   "count": 8
+  },
+  {
+   "name": "openPreview",
+   "count": 8
+  },
+  {
+   "name": "cardActions",
+   "count": 8
+  },
+  {
+   "name": "reason",
+   "count": 8
+  },
+  {
+   "name": "onCancel",
+   "count": 8
+  },
+  {
+   "name": "hidden",
+   "count": 8
+  },
+  {
+   "name": "onManageApps",
+   "count": 8
+  },
+  {
+   "name": "event",
+   "count": 8
+  },
+  {
+   "name": "installed",
+   "count": 8
+  },
+  {
+   "name": "memoryFilePath",
+   "count": 8
+  },
+  {
+   "name": "suggestion",
+   "count": 8
+  },
+  {
+   "name": "required",
+   "count": 8
+  },
+  {
+   "name": "isRetrying",
+   "count": 8
+  },
+  {
+   "name": "onInstallApp",
+   "count": 8
+  },
+  {
+   "name": "onOpenAppTools",
+   "count": 8
+  },
+  {
+   "name": "marketplace",
+   "count": 8
+  },
+  {
+   "name": "refresh",
+   "count": 8
+  },
+  {
+   "name": "skillNames",
+   "count": 8
+  },
+  {
+   "name": "xmlns",
+   "count": 7
+  },
+  {
+   "name": "template",
+   "count": 7
+  },
+  {
+   "name": "r",
+   "count": 7
+  },
+  {
+   "name": "u",
+   "count": 7
+  },
+  {
+   "name": "container",
+   "count": 7
+  },
+  {
+   "name": "to",
+   "count": 7
+  },
+  {
+   "name": "tone",
+   "count": 7
+  },
+  {
+   "name": "disabledReason",
+   "count": 7
+  },
+  {
+   "name": "templatePluginId",
+   "count": 7
+  },
+  {
+   "name": "edgeRounding",
+   "count": 7
+  },
+  {
+   "name": "renderExpandRow",
+   "count": 7
+  },
+  {
+   "name": "hiddenItems",
+   "count": 7
+  },
+  {
+   "name": "onToggle",
+   "count": 7
+  },
+  {
+   "name": "s",
+   "count": 7
+  },
+  {
+   "name": "installedRecommendedSkillIds",
+   "count": 7
+  },
+  {
+   "name": "radius",
+   "count": 7
+  },
+  {
+   "name": "cardIconContainerVariant",
+   "count": 7
+  },
+  {
+   "name": "cardDescriptionPlacement",
+   "count": 7
+  },
+  {
+   "name": "titleText",
+   "count": 7
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 7
+  },
+  {
+   "name": "c",
+   "count": 7
+  },
+  {
+   "name": "b",
+   "count": 7
+  },
+  {
+   "name": "file_id",
+   "count": 7
+  },
+  {
+   "name": "file",
+   "count": 7
+  },
+  {
+   "name": "rows",
+   "count": 7
+  },
+  {
+   "name": "options",
+   "count": 7
+  },
+  {
+   "name": "i",
+   "count": 7
+  }
+ ],
+ "literal_count": 4552,
+ "literals_file": "codex_app_rev\\.work\\literals\\plugins.json"
+}

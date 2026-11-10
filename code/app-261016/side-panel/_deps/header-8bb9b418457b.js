@@ -1,0 +1,37 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { LNt as t, PBt as n, ZSt as r, iCt as i } from "./app-shared-2feb3d4c6fcc.js";
+import { _b as a, bb as o } from "./app-initial-ad16eaadf81f.js";
+import { n as s, r as c } from "./scope-d4449ae19bab.js";
+function l(e) {
+  let t = (0, d.c)(7),
+    n,
+    r;
+  if (
+    (t[0] === e ? ((n = t[1]), (r = t[2])) : (({ enabled: n, ...r } = e), (t[0] = e), (t[1] = n), (t[2] = r)),
+    !n)
+  ) {
+    let e;
+    return (t[3] === r ? (e = t[4]) : ((e = (0, f.jsx)(a, { ...r })), (t[3] = r), (t[4] = e)), e);
+  }
+  let i;
+  return (t[5] === r ? (i = t[6]) : ((i = (0, f.jsx)(u, { ...r })), (t[5] = r), (t[6] = i)), i);
+}
+function u(e) {
+  let t = (0, d.c)(3),
+    n = i(c),
+    r;
+  return (
+    t[0] !== e || t[1] !== n
+      ? ((r = (0, f.jsx)(a, { ...e, versionHistory: n })), (t[0] = e), (t[1] = n), (t[2] = r))
+      : (r = t[2]),
+    r
+  );
+}
+var d, f;
+function p() {
+  return (p = e(() => {
+    ((d = n()), r(), o(), s(), (f = t()));
+  }))();
+}
+export { p as n, l as t };
+//# sourceMappingURL=header-8bb9b418457b.js.map

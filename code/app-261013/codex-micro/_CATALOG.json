@@ -1,0 +1,7165 @@
+{
+ "module": "codex-micro",
+ "generated_at": "2026-10-17T04:58:45.536Z",
+ "files_scanned": 15,
+ "message_count": 624,
+ "messages": [
+  {
+   "id": "codex.command.approval.approve",
+   "text": "Approve request",
+   "description": "Shortcut settings row for approving the active request",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.approval.decline",
+   "text": "Decline request",
+   "description": "Shortcut settings row for declining the active request",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.archiveThread",
+   "text": "Archive chat",
+   "description": "Command menu item to archive the current chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifact.sendAnnotations",
+   "text": "Send annotations",
+   "description": "Shortcut settings row for sending pending artifact annotations",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.arrowTool",
+   "text": "Artifacts: Arrow",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: arrow tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.circleTool",
+   "text": "Artifacts: Circle",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: circle tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.handTool",
+   "text": "Artifacts: Pan",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: pan tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.lineTool",
+   "text": "Artifacts: Line",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: line tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.noteTool",
+   "text": "Artifacts: Note",
+   "description": "Command palette and shortcut settings title for the Canvas sticky-note drawing tool in the shared Artifacts command family",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.rectangleTool",
+   "text": "Artifacts: Rectangle",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: rectangle tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.selectTool",
+   "text": "Artifacts: Select",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: select tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.artifacts.textTool",
+   "text": "Artifacts: Text",
+   "description": "Command palette and shortcut settings title for the drawing tool shared by Canvas, Slides, and Sheets: text tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.browser.toggleAnnotationMode",
+   "text": "Toggle annotation mode",
+   "description": "Shortcut settings row for entering or leaving annotation mode in the in-app browser",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.canvas.prompt",
+   "text": "Canvas: Ask ChatGPT",
+   "description": "Command palette and shortcut settings title for opening the Canvas prompt at the pointer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.clearAllUnreads",
+   "text": "Clear all unreads",
+   "description": "Command for marking all chats and scheduled tasks as read",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.closeOtherTabs",
+   "text": "Close other tabs",
+   "description": "Shortcut settings row for closing all other tabs",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.codexMicroSettings",
+   "text": "Codex Micro setup",
+   "description": "Codex Micro keycap action that opens device setup",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.addFiles",
+   "text": "Attach files and folders",
+   "description": "Shortcut settings row for attaching files and folders to the composer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.addPhotos",
+   "text": "Add photos",
+   "description": "Shortcut settings row for adding photos to the composer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.captureAppshot",
+   "text": "Capture appshot",
+   "description": "Codex Micro action for capturing an appshot",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.clear",
+   "text": "Clear prompt",
+   "description": "Shortcut settings row for clearing the composer prompt",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.cycleHost",
+   "text": "Cycle host",
+   "description": "Shortcut settings row for cycling between local and remote machines",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.cycleReasoningEffort",
+   "text": "Cycle reasoning effort",
+   "description": "Shortcut settings row for cycling reasoning effort",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.decreaseReasoningEffort",
+   "text": "Decrease reasoning effort",
+   "description": "Shortcut settings row for decreasing reasoning effort",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.increaseReasoningEffort",
+   "text": "Increase reasoning effort",
+   "description": "Shortcut settings row for increasing reasoning effort",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.openModelPicker",
+   "text": "Select effort",
+   "description": "Shortcut settings row for opening the composer controls that set how much reasoning effort the model uses",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.openProjectPicker",
+   "text": "Open project picker",
+   "description": "Shortcut settings row for opening the project picker",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.openRecentModels",
+   "text": "Open recent models",
+   "description": "Shortcut settings row for opening recently used model, effort, and speed combinations in the composer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.queue",
+   "text": "Queue prompt",
+   "description": "Shortcut settings row for submitting the current composer prompt as a queued message",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.startVoiceMode",
+   "text": "Toggle voice chat",
+   "description": "Shortcut settings row for toggling voice mode",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.steer",
+   "text": "Steer prompt",
+   "description": "Shortcut settings row for submitting the current composer prompt as a steering message",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.submit",
+   "text": "Send message",
+   "description": "Shortcut settings row for sending the current composer message",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.submitInBackground",
+   "text": "Send message in background",
+   "description": "Shortcut settings row for sending a new composer message without opening its chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.toggleFastMode",
+   "text": "Cycle speed",
+   "description": "Shortcut settings row for cycling through available model speeds",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.togglePlanMode",
+   "text": "Toggle plan mode",
+   "description": "Shortcut settings row for toggling plan mode",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.toggleWorkRunLocation",
+   "text": "Toggle Cloud/Local",
+   "description": "Shortcut settings row for toggling ChatGPT Work between Cloud and Local",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.composer.toggleWorktreeMode",
+   "text": "Toggle Local/Worktree",
+   "description": "Shortcut settings row for toggling Local and Worktree mode",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.copyConversationMarkdown",
+   "text": "Copy as Markdown",
+   "description": "Shortcut settings row for copying the current chat as Markdown",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.copyLastCodeBlock",
+   "text": "Copy last code block",
+   "description": "Command menu item and keyboard shortcut settings label for copying the most recent assistant code block in the current Chat conversation",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.copyPageLink",
+   "text": "Copy document link",
+   "description": "Command that copies a link to the current document, including a Page, slide, or sheet",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.deleteChat",
+   "text": "Delete chat",
+   "description": "Keyboard shortcut settings row for opening the confirmation to permanently delete the current saved ChatGPT chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction1",
+   "text": "Environment action 1",
+   "description": "Shortcut settings row for the first environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction2",
+   "text": "Environment action 2",
+   "description": "Shortcut settings row for the second environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction3",
+   "text": "Environment action 3",
+   "description": "Shortcut settings row for the third environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction4",
+   "text": "Environment action 4",
+   "description": "Shortcut settings row for the fourth environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction5",
+   "text": "Environment action 5",
+   "description": "Shortcut settings row for the fifth environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction6",
+   "text": "Environment action 6",
+   "description": "Shortcut settings row for the sixth environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction7",
+   "text": "Environment action 7",
+   "description": "Shortcut settings row for the seventh environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction8",
+   "text": "Environment action 8",
+   "description": "Shortcut settings row for the eighth environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.environmentAction9",
+   "text": "Environment action 9",
+   "description": "Shortcut settings row for the ninth environment action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.feedback",
+   "text": "Feedback",
+   "description": "Command menu item to open the feedback dialog",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.file.goToDefinition",
+   "text": "Go to definition",
+   "description": "Shortcut settings row for going to a symbol's definition",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.file.navigateBack",
+   "text": "Go back in file navigation",
+   "description": "Shortcut settings row for file navigation history",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.file.navigateForward",
+   "text": "Go forward in file navigation",
+   "description": "Shortcut settings row for file navigation history",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.findInThread",
+   "text": "Find",
+   "description": "Command menu item to find in the current chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusBrowserAddressBar",
+   "text": "Focus browser address bar",
+   "description": "Command menu item to focus the browser address bar",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusMainChat",
+   "text": "Focus main chat",
+   "description": "Command menu item to focus the main chat composer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusPageBlockControls",
+   "text": "Focus content controls",
+   "description": "Keyboard shortcut settings row for moving focus from the Page document editor to the controls for the current content block",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusSideChat",
+   "text": "Focus side chat",
+   "description": "Command menu item to focus an open side chat composer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab1",
+   "text": "Focus tab 1",
+   "description": "Keyboard shortcut to focus tab 1, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab2",
+   "text": "Focus tab 2",
+   "description": "Keyboard shortcut to focus tab 2, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab3",
+   "text": "Focus tab 3",
+   "description": "Keyboard shortcut to focus tab 3, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab4",
+   "text": "Focus tab 4",
+   "description": "Keyboard shortcut to focus tab 4, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab5",
+   "text": "Focus tab 5",
+   "description": "Keyboard shortcut to focus tab 5, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab6",
+   "text": "Focus tab 6",
+   "description": "Keyboard shortcut to focus tab 6, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab7",
+   "text": "Focus tab 7",
+   "description": "Keyboard shortcut to focus tab 7, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab8",
+   "text": "Focus tab 8",
+   "description": "Keyboard shortcut to focus tab 8, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.focusTab9",
+   "text": "Focus tab 9",
+   "description": "Keyboard shortcut to focus tab 9, counting from the left of the chat tab strip",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.forceReloadSkills",
+   "text": "Force reload skills",
+   "description": "Command menu item to force reload skills",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.forkThread",
+   "text": "Fork chat",
+   "description": "Shortcut settings row for forking the current chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.git.commit",
+   "text": "Commit or push",
+   "description": "Command menu item for committing or pushing local changes",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.git.createBranch",
+   "text": "Create branch",
+   "description": "Command menu item for creating a branch",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.git.createDraftPullRequest",
+   "text": "Create draft PR",
+   "description": "Command menu item for creating a draft pull request",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.git.createPullRequest",
+   "text": "Create PR",
+   "description": "Command menu item for creating a pull request",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.git.mergePullRequest",
+   "text": "Merge PR",
+   "description": "Command menu item for merging a pull request",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.git.openPullRequest",
+   "text": "Open PR on GitHub",
+   "description": "Command menu item for opening the linked pull request",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.git.toggleBlame",
+   "text": "Toggle Git blame",
+   "description": "Command menu item for toggling active-line Git blame",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.globalDictationHold",
+   "text": "Dictation shortcut",
+   "description": "Shortcut settings row for the dictation shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.globalDictationSingleTap",
+   "text": "Single-tap dictation",
+   "description": "Shortcut settings row for the single-tap dictation shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.goToLine",
+   "text": "Go to line",
+   "description": "Command menu item to go to a line in the current file",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.hotkeyWindow",
+   "text": "Popout Window hotkey",
+   "description": "Shortcut settings row for the Popout Window hotkey",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.importExternalAgent",
+   "text": "Import from other AI apps",
+   "description": "Command menu item to import work from another AI app",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.keyboardShortcuts",
+   "text": "Keyboard shortcuts",
+   "description": "Command menu item to open keyboard shortcut settings",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.logOut",
+   "text": "Log out",
+   "description": "Command menu item to log out of ChatGPT",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.manageTasks",
+   "text": "Manage scheduled tasks",
+   "description": "Command menu item to manage scheduled tasks",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.markThreadUnread",
+   "text": "Mark as unread",
+   "description": "Command menu item to mark the current chat as unread",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.mcpSettings",
+   "text": "MCP",
+   "description": "Command menu item to open MCP settings",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.meetings.takeNotes",
+   "text": "Meetings: Take notes",
+   "description": "Command palette and keyboard shortcut settings title for starting a local Meetings recording",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.navigateBack",
+   "text": "Back",
+   "description": "Command menu item to navigate back",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.navigateBrowserBack",
+   "text": "Browser back",
+   "description": "Command menu item to navigate the browser back",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.navigateBrowserForward",
+   "text": "Browser forward",
+   "description": "Command menu item to navigate the browser forward",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.navigateForward",
+   "text": "Forward",
+   "description": "Command menu item to navigate forward",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.newProject",
+   "text": "New project",
+   "description": "Command menu item to create a project",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.newProjectlessTask",
+   "text": "New standalone chat",
+   "description": "Command menu item to start a new standalone chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.newThread",
+   "text": "New chat",
+   "description": "Command menu item to start a new chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.nextRecentThread",
+   "text": "Next recently viewed chat",
+   "description": "Shortcut settings row for cycling to the next recently viewed chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.nextTab",
+   "text": "Next tab",
+   "description": "Shortcut settings row for switching to the next tab",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.nextThread",
+   "text": "Next sidebar item",
+   "description": "Command menu item to go to the next sidebar item",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.nextThreadNeedingAttention",
+   "text": "Next chat needing attention",
+   "description": "Command menu item that opens the highest-priority chat awaiting user input or containing unread activity",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.notchVoice",
+   "text": "Voice in Mini",
+   "description": "Shortcut settings row for starting or showing voice in the notch Mini",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openBrowserTab",
+   "text": "Open browser tab",
+   "description": "Command menu item to open the browser tab",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openControlWindow",
+   "text": "Open control window",
+   "description": "Command menu item to open the control window",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openFolder",
+   "text": "Open folder",
+   "description": "Command menu item to open a folder/workspace",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openOrbit.dot",
+   "text": "Open your dot",
+   "description": "Command palette and keyboard shortcut settings title for opening the user's dot assistant conversation. Keep the singular term dot untranslated.",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openReviewTab",
+   "text": "Open Changes tab",
+   "description": "Command menu item to open the Changes tab showing local diffs",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openSideChat",
+   "text": "Open side chat",
+   "description": "Shortcut settings row for opening the current chat as a side chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openSkills",
+   "text": "Go to skills",
+   "description": "Command menu item to open skills",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.openThreadInNewWindow",
+   "text": "Open in new window",
+   "description": "Command menu item to open the current chat in a new window",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.page.formatBulletedList",
+   "text": "Bulleted list",
+   "description": "Page editor command that applies bulleted list formatting to the selected text",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.page.formatChecklist",
+   "text": "Checklist",
+   "description": "Page editor command that toggles checklist formatting for the selected text",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.page.formatNumberedList",
+   "text": "Numbered list",
+   "description": "Page editor command that applies numbered list formatting to the selected text",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.personalitySettings",
+   "text": "Personality",
+   "description": "Command menu item to open personality settings",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.previousRecentThread",
+   "text": "Previous recently viewed chat",
+   "description": "Shortcut settings row for cycling to the previous recently viewed chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.previousTab",
+   "text": "Previous tab",
+   "description": "Shortcut settings row for switching to the previous tab",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.previousThread",
+   "text": "Previous sidebar item",
+   "description": "Command menu item to go to the previous sidebar item",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.realtimeVoice",
+   "text": "Voice Chat hotkey",
+   "description": "Shortcut settings row for the realtime voice hotkey",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.realtimeVoice.endCall",
+   "text": "End Voice Chat",
+   "description": "Shortcut settings row for ending Voice Chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.realtimeVoice.toggleMicrophoneMute",
+   "text": "Toggle Voice Chat microphone",
+   "description": "Shortcut settings row for toggling the voice microphone",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.realtimeVoice.toggleOutputMute",
+   "text": "Toggle Voice Chat audio",
+   "description": "Shortcut settings row for toggling voice audio",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.recentThread1",
+   "text": "Go to recent chat 1",
+   "description": "Command menu item to open the most recently updated chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.recentThread2",
+   "text": "Go to recent chat 2",
+   "description": "Command menu item to open the second most recently updated chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.recentThread3",
+   "text": "Go to recent chat 3",
+   "description": "Command menu item to open the third most recently updated chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.recentThread4",
+   "text": "Go to recent chat 4",
+   "description": "Command menu item to open the fourth most recently updated chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.recentThread5",
+   "text": "Go to recent chat 5",
+   "description": "Command menu item to open the fifth most recently updated chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.recentThread6",
+   "text": "Go to recent chat 6",
+   "description": "Command menu item to open the sixth most recently updated chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.redoAppAction",
+   "text": "Redo last action",
+   "description": "Command menu item to redo the most recently undone app action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.reopenClosedTab",
+   "text": "Reopen closed tab",
+   "description": "Command menu item to reopen the most recently closed tab",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.screenshotToCurrentChat",
+   "text": "Screenshot selection to current chat",
+   "description": "Title of the macOS global shortcut to capture a rectangular screen region for this destination",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.screenshotToNewChat",
+   "text": "Screenshot selection to new chat",
+   "description": "Title of the macOS global shortcut to capture a rectangular screen region for this destination",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.searchChats",
+   "text": "Switch chat…",
+   "description": "Command menu item that opens chat search",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.settings",
+   "text": "Settings",
+   "description": "Command menu item to open settings",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.showKeyboardShortcuts",
+   "text": "Show keyboard shortcuts",
+   "description": "Shortcut settings row for showing active keyboard shortcuts",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.showMiniOverlay",
+   "text": "Show Mini",
+   "description": "Command menu item to show Mini, the floating compact Codex panel, when it is hidden",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.showWorkspaceTabView",
+   "text": "Full view",
+   "description": "Command menu item that toggles the workspace between split and full view",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.spotlightSearch",
+   "text": "Spotlight search",
+   "description": "Shortcut settings row for Codex Spotlight, the floating desktop search and command panel",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.stepWorkspaceLayout",
+   "text": "Cycle workspace layout",
+   "description": "Command menu item that steps from full to split view, hides tabs, or restores tabs beside Chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.switchToChat",
+   "text": "Switch to Chat",
+   "description": "Command title for switching the Codex desktop app to Chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.switchToCodex",
+   "text": "Switch to Codex",
+   "description": "Command title for switching the Codex desktop app to Codex",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.switchToWork",
+   "text": "Switch to Work",
+   "description": "Command title for switching the Codex desktop app to Work",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.temporaryChat",
+   "text": "New Temporary Chat",
+   "description": "Command menu item to start a temporary chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread1",
+   "text": "Go to chat 1",
+   "description": "Command menu item to go to the first visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread2",
+   "text": "Go to chat 2",
+   "description": "Command menu item to go to the second visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread3",
+   "text": "Go to chat 3",
+   "description": "Command menu item to go to the third visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread4",
+   "text": "Go to chat 4",
+   "description": "Command menu item to go to the fourth visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread5",
+   "text": "Go to chat 5",
+   "description": "Command menu item to go to the fifth visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread6",
+   "text": "Go to chat 6",
+   "description": "Command menu item to go to the sixth visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread7",
+   "text": "Go to chat 7",
+   "description": "Command menu item to go to the seventh visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread8",
+   "text": "Go to chat 8",
+   "description": "Command menu item to go to the eighth visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.thread9",
+   "text": "Go to chat 9",
+   "description": "Command menu item to go to the ninth visible chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleBottomPanel",
+   "text": "Toggle bottom panel",
+   "description": "Command menu item to toggle the bottom panel",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleDebugModal",
+   "text": "Toggle debug panel",
+   "description": "Shortcut settings row for showing or hiding the internal debug panel within the current window",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleMaximizeSidePanel",
+   "text": "Toggle maximize side panel",
+   "description": "Shortcut settings row for expanding or restoring the side panel",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleNotch",
+   "text": "Toggle Notch",
+   "description": "Shortcut settings row for expanding or collapsing the Codex notch panel at the top of the screen",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.togglePinnedSummary",
+   "text": "Toggle pinned summary",
+   "description": "Command menu item to toggle the pinned summary",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.togglePriorityFilter",
+   "text": "Toggle activity view",
+   "description": "Command menu item that opens or closes the sidebar activity view",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleReviewPanel",
+   "text": "Toggle Changes panel",
+   "description": "Command menu item to toggle the Changes panel showing local diffs",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleReviewTab",
+   "text": "Toggle Changes",
+   "description": "Shortcut settings row for toggling the Changes panel showing local diffs",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleSidebar",
+   "text": "Toggle sidebar",
+   "description": "Command menu item to toggle the sidebar",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleTerminal",
+   "text": "Open terminal",
+   "description": "Command menu item to open the terminal panel",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleThreadPin",
+   "text": "Toggle pin",
+   "description": "Command menu item to toggle whether the current chat is pinned",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.toggleWorkspaceTabs",
+   "text": "Switch between Chat and tabs",
+   "description": "Command palette and shortcut settings title for switching between Chat and the previous content tab in full view or toggling workspace tab visibility in split view",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.command.undoAppAction",
+   "text": "Undo last action",
+   "description": "Command menu item to undo the most recent app action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.approval.approve",
+   "text": "Approve the active request",
+   "description": "Description for the Approve request shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.approval.decline",
+   "text": "Decline the active request",
+   "description": "Description for the Decline request shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.archiveThread",
+   "text": "Archive the current chat",
+   "description": "Description for the Archive chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifact.sendAnnotations",
+   "text": "Send pending annotations in the focused artifact",
+   "description": "Description for the Send annotations shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.arrowTool",
+   "text": "Add arrows to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: arrow tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.circleTool",
+   "text": "Add circles and ovals to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: circle tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.handTool",
+   "text": "Pan the artifact viewport",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: pan tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.lineTool",
+   "text": "Add lines to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: line tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.noteTool",
+   "text": "Place sticky notes on the Canvas",
+   "description": "Shortcut settings description for the Canvas sticky-note drawing tool in the shared Artifacts command family",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.rectangleTool",
+   "text": "Add rectangles to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: rectangle tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.selectTool",
+   "text": "Select and move artifact elements",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: select tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.artifacts.textTool",
+   "text": "Add text to Canvas, Slides, or Sheets",
+   "description": "Shortcut settings description for the drawing tool shared by Canvas, Slides, and Sheets: text tool",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.browser.toggleAnnotationMode",
+   "text": "Enter or leave annotation mode in the browser",
+   "description": "Description of the keyboard shortcut that toggles annotation mode in the in-app browser",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.canvas.prompt",
+   "text": "Open a Canvas prompt at the pointer",
+   "description": "Shortcut settings description for the Canvas prompt command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.clearAllUnreads",
+   "text": "Mark all chats and scheduled task updates as read",
+   "description": "Description of the command that clears all unread updates",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.closeOtherTabs",
+   "text": "Close all tabs except the active tab",
+   "description": "Description for the Close other tabs shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.closeTab",
+   "text": "Close the active tab",
+   "description": "Description for the Close Tab shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.closeWindow",
+   "text": "Close the active window",
+   "description": "Description for the Close Window shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.codexMicroSettings",
+   "text": "Open Codex Micro setup",
+   "description": "Description for the Codex Micro setup keycap action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.addFiles",
+   "text": "Attach files and folders to the active composer",
+   "description": "Description for the Attach files and folders shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.addPhotos",
+   "text": "Add photos to the active composer",
+   "description": "Description for the Add photos shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.captureAppshot",
+   "text": "Capture an appshot for the active composer",
+   "description": "Description for the Codex Micro Appshot action",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.clear",
+   "text": "Clear the current composer prompt",
+   "description": "Description for the Clear prompt shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.cycleHost",
+   "text": "Cycle the new chat between this computer and available remote machines",
+   "description": "Description for the Cycle host shortcut, which wraps back to this computer after the last remote machine",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.cycleReasoningEffort",
+   "text": "Cycle through composer reasoning effort options",
+   "description": "Description for the Cycle reasoning effort shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.decreaseReasoningEffort",
+   "text": "Decrease the current composer reasoning effort",
+   "description": "Description for the Decrease reasoning effort shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.increaseReasoningEffort",
+   "text": "Increase the current composer reasoning effort",
+   "description": "Description for the Increase reasoning effort shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.openModelPicker",
+   "text": "Open the composer controls for model effort",
+   "description": "Description for the shortcut that opens the reasoning effort controls in the composer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.openProjectPicker",
+   "text": "Open the composer project picker",
+   "description": "Description for the Open project picker shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.openRecentModels",
+   "text": "Open recently used model, effort, and speed combinations",
+   "description": "Description for the shortcut that opens recent model configurations in the composer",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.queue",
+   "text": "Submit the current composer prompt as a queued message",
+   "description": "Description for the Queue prompt shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.startVoiceMode",
+   "text": "Start or stop voice chat",
+   "description": "Description for the Toggle voice mode shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.steer",
+   "text": "Submit the current composer prompt as a steering message",
+   "description": "Description for the Steer prompt shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.submit",
+   "text": "Send the current composer message",
+   "description": "Description for the Send message shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.submitInBackground",
+   "text": "Send the current composer message without opening its chat",
+   "description": "Description for the Send message in background shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.toggleFastMode",
+   "text": "Cycle through available speeds: Standard, Fast, and Ultrafast",
+   "description": "Description for the shortcut that cycles through the current model’s available speeds",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.togglePlanMode",
+   "text": "Turn plan mode on or off in the current composer",
+   "description": "Description for the Toggle plan mode shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.toggleWorkRunLocation",
+   "text": "Switch ChatGPT Work between cloud and local execution",
+   "description": "Description for the Toggle Cloud/Local shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.composer.toggleWorktreeMode",
+   "text": "Switch the current composer between local and a new worktree",
+   "description": "Description for the Toggle Local/Worktree shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.copyConversationMarkdown",
+   "text": "Copy the current chat as Markdown",
+   "description": "Description for the Copy as Markdown command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.copyConversationPath",
+   "text": "Copy the current chat path",
+   "description": "Description for the Copy conversation path shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.copyDeeplink",
+   "text": "Copy a deeplink to the current chat",
+   "description": "Description for the Copy deeplink shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.copyLastCodeBlock",
+   "text": "Copy the last assistant code block in the current chat",
+   "description": "Description in keyboard shortcut settings for the command that copies only the code from the most recent assistant code block, without its Markdown fence",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.copyPageLink",
+   "text": "Copy the current document’s link to the clipboard",
+   "description": "Description for the Copy document link keyboard shortcut for a Page, slide, or sheet",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.copyWorkingDirectory",
+   "text": "Copy the current chat working directory",
+   "description": "Description for the Copy working directory shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.deleteChat",
+   "text": "Confirm deletion of the current chat",
+   "description": "Description of the Delete chat keyboard shortcut, which opens a confirmation dialog and does not delete the chat immediately",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.environmentActionSlot",
+   "text": "Run the environment action in this shortcut slot",
+   "description": "Description for environment action shortcut slots",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.feedback",
+   "text": "Send product feedback to the ChatGPT team",
+   "description": "Description for the Feedback command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.file.goToDefinition",
+   "text": "Open the definition of the selected file symbol",
+   "description": "Description for the Go to definition shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.file.navigateBack",
+   "text": "Return to the previous file location",
+   "description": "Description for the file navigation back shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.file.navigateForward",
+   "text": "Return to the next file location",
+   "description": "Description for the file navigation forward shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.findInThread",
+   "text": "Search the current chat",
+   "description": "Description for the Find command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.focusBrowserAddressBar",
+   "text": "Focus the in-app browser address bar",
+   "description": "Description for the Focus browser address bar command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.focusMainChat",
+   "text": "Move keyboard focus to the main chat composer",
+   "description": "Description for the Focus main chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.focusPageBlockControls",
+   "text": "Move keyboard focus from the Page editor to the current content's controls",
+   "description": "Description for the shortcut that focuses controls for moving a content block or changing its layout, available while editing a Page document",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.focusSideChat",
+   "text": "Move keyboard focus to an open side chat composer",
+   "description": "Description for the Focus side chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.focusTab",
+   "text": "Focus the tab at this position in the chat tab strip",
+   "description": "Description for numbered chat tab focus shortcuts",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.forceReloadSkills",
+   "text": "Refresh the skill catalog for the current context",
+   "description": "Description for the Force reload skills command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.forkThread",
+   "text": "Fork the current chat",
+   "description": "Description for the Fork chat shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.git.commit",
+   "text": "Open commit or push options",
+   "description": "Description for the Commit or push command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.git.createBranch",
+   "text": "Open branch creation options",
+   "description": "Description for the Create branch command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.git.createDraftPullRequest",
+   "text": "Open draft pull request creation options",
+   "description": "Description for the Create draft PR command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.git.createPullRequest",
+   "text": "Open pull request creation options",
+   "description": "Description for the Create PR command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.git.mergePullRequest",
+   "text": "Open pull request merge options",
+   "description": "Description for the Merge PR command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.git.openPullRequest",
+   "text": "Open the pull request linked to the current chat",
+   "description": "Description for the Open PR on GitHub command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.git.toggleBlame",
+   "text": "Show or hide author and commit details for the active editor line",
+   "description": "Description for the Toggle Git blame command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.globalDictationHold",
+   "text": "Hold to dictate, release to finish. Double-tap for hands-free, tap to finish.",
+   "description": "Description for the dictation shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.globalDictationSingleTap",
+   "text": "Press once to start, again to finish",
+   "description": "Description for the single-tap dictation shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.goToLine",
+   "text": "Go to a line in the current file",
+   "description": "Description for the Go to line command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.hardReloadBrowserPage",
+   "text": "Force reload the active browser page",
+   "description": "Description for the Force Reload Browser Page shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.hotkeyWindow",
+   "text": "Show or hide Popout Window from anywhere on desktop",
+   "description": "Description for the Popout Window hotkey",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.importExternalAgent",
+   "text": "Import from other AI apps",
+   "description": "Description for the external agent import command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.keyboardShortcuts",
+   "text": "Customize keyboard shortcuts",
+   "description": "Description for the Keyboard shortcuts command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.logOut",
+   "text": "Sign out of {appName}",
+   "description": "Description for the Log out command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.manageTasks",
+   "text": "Create or manage scheduled tasks from the current page",
+   "description": "Description for the Manage scheduled tasks command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.markThreadUnread",
+   "text": "Mark the current chat as unread",
+   "description": "Description for the Mark as unread command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.mcpSettings",
+   "text": "Configure MCP servers",
+   "description": "Description for the MCP settings command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.meetings.takeNotes",
+   "text": "Start taking notes with Meetings on this device",
+   "description": "Description of the configurable shortcut that starts a local recording after Meetings setup is complete",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.navigateBack",
+   "text": "Go back in navigation history",
+   "description": "Description for the Back command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.navigateBrowserBack",
+   "text": "Go back in browser history",
+   "description": "Description for the Browser back command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.navigateBrowserForward",
+   "text": "Go forward in browser history",
+   "description": "Description for the Browser forward command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.navigateForward",
+   "text": "Go forward in navigation history",
+   "description": "Description for the Forward command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.newProject",
+   "text": "Create a project",
+   "description": "Description for the command that opens project creation",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.newProjectlessTask",
+   "text": "Start a new chat outside of any project",
+   "description": "Description for the New standalone chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.newThread",
+   "text": "Start a new chat",
+   "description": "Description for the New chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.newWindow",
+   "text": "Open a new window",
+   "description": "Description for the New Window shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.nextRecentThread",
+   "text": "Cycle to the next recently viewed chat",
+   "description": "Description for the Next recently viewed chat shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.nextTab",
+   "text": "Switch to the next tab",
+   "description": "Description for the Next tab shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.nextThread",
+   "text": "Switch to the next sidebar item",
+   "description": "Description for the Next sidebar item command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.nextThreadNeedingAttention",
+   "text": "Switch to the next chat awaiting input or with unread activity",
+   "description": "Description for a navigation command that prioritizes chats awaiting user input before chats with unread activity",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.notchVoice",
+   "text": "Start voice in Mini or show the ongoing call",
+   "description": "Description of the notch voice shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openBrowserTab",
+   "text": "Open a new browser tab",
+   "description": "Description for the Open browser tab command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openCommandMenu",
+   "text": "Open the command menu",
+   "description": "Description for the Open command menu shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openControlWindow",
+   "text": "Open the voice chat control window",
+   "description": "Description for the Open control window command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openFolder",
+   "text": "Add a local project to {appName}",
+   "description": "Description for the Open folder command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openOrbit.dot",
+   "text": "Open your dot conversation",
+   "description": "Description for the command that navigates to the user's existing dot assistant conversation. Keep the singular term dot untranslated.",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openReviewTab",
+   "text": "Open the Changes tab",
+   "description": "Description for the Open Changes tab command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openSideChat",
+   "text": "Open the current chat in a side chat",
+   "description": "Description for the Open side chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openSkills",
+   "text": "Browse installed and recommended skills",
+   "description": "Description for the Go to skills command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.openThreadInNewWindow",
+   "text": "Open the current chat in a new window",
+   "description": "Description for the Open in new window command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.page.formatBulletedList",
+   "text": "Format the selected Page text as a bulleted list",
+   "description": "Description of the bulleted-list formatting command in keyboard shortcut settings and the command menu",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.page.formatChecklist",
+   "text": "Toggle checklist formatting for the selected Page text",
+   "description": "Description of the checklist formatting command in keyboard shortcut settings and the command menu",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.page.formatNumberedList",
+   "text": "Format the selected Page text as a numbered list",
+   "description": "Description of the numbered-list formatting command in keyboard shortcut settings and the command menu",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.personalitySettings",
+   "text": "Adjust tone and response style",
+   "description": "Description for the Personality settings command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.previousRecentThread",
+   "text": "Cycle to the previous recently viewed chat",
+   "description": "Description for the Previous recently viewed chat shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.previousTab",
+   "text": "Switch to the previous tab",
+   "description": "Description for the Previous tab shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.previousThread",
+   "text": "Switch to the previous sidebar item",
+   "description": "Description for the Previous sidebar item command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice",
+   "text": "Start a Voice Chat from anywhere on desktop",
+   "description": "Description for the realtime voice hotkey",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice.endCall",
+   "text": "End the active Voice Chat",
+   "description": "Description for the End Voice Chat shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice.toggleMicrophoneMute",
+   "text": "Mute or unmute your microphone during a Voice Chat",
+   "description": "Description for the Toggle voice microphone shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.realtimeVoice.toggleOutputMute",
+   "text": "Mute or unmute Voice Chat audio",
+   "description": "Description for the Toggle voice audio shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.recentThreadSlot",
+   "text": "Open the recently updated chat in this shortcut slot",
+   "description": "Description for shortcuts that open one of the six most recently updated chats",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.redoAppAction",
+   "text": "Redo the most recently undone app action",
+   "description": "Description for the Redo last action command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.reloadBrowserPage",
+   "text": "Reload the active browser page",
+   "description": "Description for the Reload Browser Page shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.renameThread",
+   "text": "Rename the current chat",
+   "description": "Description for the Rename chat shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.reopenClosedTab",
+   "text": "Reopen the most recently closed tab",
+   "description": "Description for the Reopen closed tab command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.screenshotToCurrentChat",
+   "text": "Select a screen area and attach its image to the current chat without sending",
+   "description": "Description of the macOS rectangular screenshot shortcut and its chat destination",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.screenshotToNewChat",
+   "text": "Select a screen area and attach its image to a new chat without sending",
+   "description": "Description of the macOS rectangular screenshot shortcut and its chat destination",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.searchChats",
+   "text": "Search and switch to a chat",
+   "description": "Description for the Switch chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.searchFiles",
+   "text": "Search files",
+   "description": "Description for the Search Files shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.settings",
+   "text": "Open {appName} settings",
+   "description": "Description for the Settings command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.showKeyboardShortcuts",
+   "text": "Show the shortcuts available right now",
+   "description": "Description for the command that shows currently active shortcuts",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.showMiniOverlay",
+   "text": "Show Mini from anywhere",
+   "description": "Description for the command that shows Mini, the floating compact panel",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.showWorkspaceTabView",
+   "text": "Enter or exit full view",
+   "description": "Description for the command that toggles full view for the workspace",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.spotlightSearch",
+   "text": "Open Spotlight search from anywhere on desktop",
+   "description": "Description of the global shortcut for Codex Spotlight, the floating desktop search and command panel",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.stepWorkspaceLayout",
+   "text": "Step from full view to split view, hide tabs, or show tabs beside Chat",
+   "description": "Description for the command that steps down through workspace layouts and restores split view from hidden tabs",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.switchToChat",
+   "text": "Switch to Chat",
+   "description": "Description for the Switch to Chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.switchToCodex",
+   "text": "Switch to Codex",
+   "description": "Description for the Switch to Codex command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.switchToWork",
+   "text": "Switch to Work",
+   "description": "Description for the Switch to Work command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.temporaryChat",
+   "text": "Start a chat that won't appear in history",
+   "description": "Description for the Temporary chat command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.threadSlot",
+   "text": "Open the visible chat in this shortcut slot",
+   "description": "Description for the chat slot commands",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleBottomPanel",
+   "text": "Show or hide the bottom panel",
+   "description": "Description for the Toggle bottom panel command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleDebugModal",
+   "text": "Show or hide the internal debug panel",
+   "description": "Description for the Toggle debug panel shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleFileTreePanel",
+   "text": "Show or hide a page's navigation, or the code viewer's file tree",
+   "description": "Shortcut description explaining that the navigation panel shows the Pages hierarchy while viewing a Page and project files while working with code",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleMaximizeSidePanel",
+   "text": "Expand or restore the side panel",
+   "description": "Description for the Toggle maximize side panel command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleNotch",
+   "text": "Expand or collapse the notch from anywhere",
+   "description": "Description for the shortcut that expands or collapses the Codex notch panel at the top of the screen",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.togglePinnedSummary",
+   "text": "Show or hide the pinned summary",
+   "description": "Description for the Toggle pinned summary command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.togglePriorityFilter",
+   "text": "Turn the sidebar activity view on or off",
+   "description": "Description for the Toggle activity view command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleReviewPanel",
+   "text": "Show or hide Changes for the current chat",
+   "description": "Description for the Toggle Changes panel command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleReviewTab",
+   "text": "Show or hide Changes for the current Git-backed chat",
+   "description": "Description for the Toggle Changes shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleSidebar",
+   "text": "Show or hide the sidebar",
+   "description": "Description for the Toggle sidebar command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleTerminal",
+   "text": "Open the terminal panel",
+   "description": "Description for the Open terminal command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleThreadPin",
+   "text": "Pin or unpin the current chat",
+   "description": "Description for the Toggle pin command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleTraceRecording",
+   "text": "Start or stop trace recording",
+   "description": "Description for the Start Trace Recording shortcut",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.toggleWorkspaceTabs",
+   "text": "Switch between Chat and tabs in full view, or show or hide tabs in split view",
+   "description": "Description for the command that switches between Chat and the previous content tab in full view or toggles workspace tab visibility in split view",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandDescription.undoAppAction",
+   "text": "Undo the most recent app action",
+   "description": "Description for the Undo last action command",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.archiveThread",
+   "text": "Archive chat",
+   "description": "Native menu item to archive the current chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.closeTab",
+   "text": "Close Tab",
+   "description": "Native menu item to close the active tab",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.closeWindow",
+   "text": "Close",
+   "description": "Native menu item to close the active window",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.copyConversationPath",
+   "text": "Copy conversation path",
+   "description": "Native menu item to copy the conversation path",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.copyDeeplink",
+   "text": "Copy deeplink",
+   "description": "Native menu item to copy the chat deeplink",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.copyWorkingDirectory",
+   "text": "Copy working directory",
+   "description": "Native menu item to copy the working directory",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.findInThread",
+   "text": "Find",
+   "description": "Native menu item to find in the current chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.focusBrowserAddressBar",
+   "text": "Focus Browser Address Bar",
+   "description": "Native menu item to focus the browser address bar",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.hardReloadBrowserPage",
+   "text": "Force Reload Browser Page",
+   "description": "Native menu item to force reload the browser page",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.logOut",
+   "text": "Log Out",
+   "description": "Native application menu item that signs the user out of Codex after confirmation. Short action label.",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.navigateBack",
+   "text": "Back",
+   "description": "Native menu item to navigate back",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.navigateForward",
+   "text": "Forward",
+   "description": "Native menu item to navigate forward",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.newProject",
+   "text": "New Project…",
+   "description": "Native File menu item to open the project creation dialog",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.newProjectlessTask",
+   "text": "New standalone chat",
+   "description": "Native shortcut command to start a new standalone chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.newThread",
+   "text": "New Chat",
+   "description": "Native menu item to start a new chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.newWindow",
+   "text": "New Window",
+   "description": "Native menu item to open a new window",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.nextThread",
+   "text": "Next Sidebar Item",
+   "description": "Native menu item to go to the next sidebar item",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.openBrowserTab",
+   "text": "Open Browser Tab",
+   "description": "Native menu item to open a browser tab",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.openCommandMenu",
+   "text": "Open command menu",
+   "description": "Native menu item to open the command menu",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.openFolder",
+   "text": "Open Folder…",
+   "description": "Native menu item to open a folder",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.openThreadInNewWindow",
+   "text": "Open in New Window",
+   "description": "Native menu item to open the current chat in a new window",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.previousThread",
+   "text": "Previous Sidebar Item",
+   "description": "Native menu item to go to the previous sidebar item",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.reloadBrowserPage",
+   "text": "Reload Browser Page",
+   "description": "Native menu item to reload the browser page",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.renameThread",
+   "text": "Rename chat",
+   "description": "Native menu item to rename the current chat",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.searchChats",
+   "text": "Search Chats…",
+   "description": "Native menu item to search chats",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.searchFiles",
+   "text": "Search Files…",
+   "description": "Native menu item to search files",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.settings",
+   "text": "Settings…",
+   "description": "Native menu item to open settings",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.showKeyboardShortcuts",
+   "text": "Keyboard Shortcuts",
+   "description": "Native menu item to show active keyboard shortcuts",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread1",
+   "text": "Go to Chat 1",
+   "description": "Native menu item to go to chat 1",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread2",
+   "text": "Go to Chat 2",
+   "description": "Native menu item to go to chat 2",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread3",
+   "text": "Go to Chat 3",
+   "description": "Native menu item to go to chat 3",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread4",
+   "text": "Go to Chat 4",
+   "description": "Native menu item to go to chat 4",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread5",
+   "text": "Go to Chat 5",
+   "description": "Native menu item to go to chat 5",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread6",
+   "text": "Go to Chat 6",
+   "description": "Native menu item to go to chat 6",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread7",
+   "text": "Go to Chat 7",
+   "description": "Native menu item to go to chat 7",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread8",
+   "text": "Go to Chat 8",
+   "description": "Native menu item to go to chat 8",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.thread9",
+   "text": "Go to Chat 9",
+   "description": "Native menu item to go to chat 9",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleBottomPanel",
+   "text": "Toggle Bottom Panel",
+   "description": "Native menu item to toggle the bottom panel",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleFileTreePanel",
+   "text": "Toggle navigation panel",
+   "description": "Native menu, command palette, and shortcut settings title for showing or hiding the active Page's navigation panel or the code file tree",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.togglePinnedSummary",
+   "text": "Toggle Pinned Summary",
+   "description": "Native menu item to toggle the pinned summary",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleReviewPanel",
+   "text": "Toggle Changes Panel",
+   "description": "Native menu item to toggle the Changes panel showing local diffs",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleSidebar",
+   "text": "Toggle Sidebar",
+   "description": "Native menu item to toggle the sidebar",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleTerminal",
+   "text": "Open Terminal",
+   "description": "Native menu item to open the terminal",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleThreadPin",
+   "text": "Pin/unpin chat",
+   "description": "Native menu item to toggle whether the current chat is pinned",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.commandMenuTitle.toggleTraceRecording",
+   "text": "Start Trace Recording",
+   "description": "Native menu item to start trace recording",
+   "files": [
+    "_deps/command-messages-54cbbed1e112.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.command.unavailable",
+   "text": "This action isn't available here",
+   "description": "Toast shown when a Codex Micro keycap command cannot run in the current context",
+   "files": [
+    "codex-micro/codex-micro-bridge-a5aa8d621054.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.down",
+   "text": "Down",
+   "description": "Down direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.gameGesture",
+   "text": "Secret game",
+   "description": "Category label shown while the Codex Micro mini-game activation gesture is in progress",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.gameGestureProgress",
+   "text": "Keep circling · {progress}",
+   "description": "Progress shown while circling the Codex Micro joystick to activate a mini-game",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.left",
+   "text": "Left",
+   "description": "Left direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.miniGameTitle",
+   "text": "Mini-game",
+   "description": "Title shown while the Codex Micro mini-game activation gesture is in progress",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.right",
+   "text": "Right",
+   "description": "Right direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.tracking",
+   "text": "Move farther to trigger",
+   "description": "Feedback shown while moving the Codex Micro joystick toward an assigned action",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.triggered",
+   "text": "Triggered",
+   "description": "Feedback shown when a Codex Micro joystick action has been dispatched",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unassigned",
+   "text": "Direction reached",
+   "description": "Feedback shown when the Codex Micro joystick reaches an unassigned direction",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unassignedTitle",
+   "text": "Unassigned",
+   "description": "Action title shown for an unassigned Codex Micro joystick direction",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unassignedTracking",
+   "text": "No shortcut configured",
+   "description": "Feedback shown while moving the Codex Micro joystick toward an unassigned direction",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.unavailable",
+   "text": "Shortcut unavailable",
+   "description": "Feedback shown when a Codex Micro joystick action cannot be dispatched",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.joystickFeedback.up",
+   "text": "Up",
+   "description": "Up direction in the Codex Micro joystick feedback HUD",
+   "files": [
+    "codex-micro/codex-micro-joystick-hud-8a89b8451b25.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.body",
+   "text": "The 6 frosted Agent Keys give you a live status of your Codex chats/agents. Single-tap a key to focus it in the background, or double-tap to bring your Codex window front and center.",
+   "description": "Explanation that the six physical Codex Micro Agent Keys show status for Codex chats and agents, and how single- and double-tapping a key focuses that chat",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.complete",
+   "text": "Green – Complete",
+   "description": "Legend entry for a completed Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.error",
+   "text": "Red – Error",
+   "description": "Legend entry for a Codex Micro agent key with an error",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.idle",
+   "text": "White – Idle",
+   "description": "Legend entry for an idle Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.requiresInput",
+   "text": "Amber – Requires input",
+   "description": "Legend entry for a Codex Micro agent key requiring input",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.thinking",
+   "text": "Blue – Thinking",
+   "description": "Legend entry for a thinking Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.title",
+   "text": "Legend",
+   "description": "Title for the Codex Micro agent key status legend",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.legend.unassigned",
+   "text": "Off – No Assigned Agent",
+   "description": "Legend entry for an unassigned Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.agentKeys.title",
+   "text": "The Agent Keys",
+   "description": "Title for the tour step explaining the six physical Agent Keys on the Codex Micro hardware keypad",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.animatedActionKey.generic",
+   "text": "Animated keyboard action key",
+   "description": "Accessible label for a changing action key in keyboard onboarding",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.animatedAgentKey",
+   "text": "Agent key {position} changing status color",
+   "description": "Accessible label for an animated agent key in Codex Micro onboarding",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.body",
+   "text": "Congrats on getting your hands on a <deviceName>kbd-1.0-codex-micro</deviceName>, a unique collaboration product between Codex & Work Louder. Get ready to dial up the fun, efficiency, and tactility on your whole Codex experience!",
+   "description": "Welcome message shown when Codex Micro is detected for the first time",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.build",
+   "text": "Let’s build!",
+   "description": "Button that completes the Codex Micro feature tour",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.commandKeys.body",
+   "text": "The Command Keys put your most-used Codex actions right at your fingertips. You can easily customize what your keys, dial, and joystick do by long-pressing the dial to open the configuration page.",
+   "description": "Explanation of Codex Micro command key customization",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.commandKeys.input",
+   "text": "ps. Get more from your Codex Micro with <input>Input</input>, Work Louder’s dedicated configurator for customizing controls across all your creative apps",
+   "description": "Link to Work Louder Input from Codex Micro onboarding",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.commandKeys.title",
+   "text": "The Command Keys",
+   "description": "Title for the Codex Micro command key tour step",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.description",
+   "text": "Codex Micro needs Input Monitoring permission to respond when you press a key on your keyboard",
+   "description": "Description of why Codex Micro needs Input Monitoring permission",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.granted",
+   "text": "Input Monitoring is ready",
+   "description": "Confirmation that Codex Micro has Input Monitoring permission",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.settingsName",
+   "text": "Input Monitoring",
+   "description": "Name of the macOS Input Monitoring permission settings page",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.inputMonitoring.title",
+   "text": "Enable key presses",
+   "description": "Title for the Input Monitoring permission step in Codex Micro onboarding",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.lastStep",
+   "text": "Last step",
+   "description": "Button that advances to the final Codex Micro feature tour step",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.openSettings",
+   "text": "Open System Settings",
+   "description": "Button that opens macOS Input Monitoring settings from Codex Micro onboarding",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.settings",
+   "text": "Settings",
+   "description": "Button that opens Codex Micro settings from the feature tour",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.skip",
+   "text": "Skip",
+   "description": "Button that skips the Codex Micro feature tour",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.takeTour",
+   "text": "Take 2-step tour",
+   "description": "Button that starts the Codex Micro feature tour",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMicro.onboarding.title",
+   "text": "Welcome to Codex Micro",
+   "description": "Title shown when Codex Micro is detected for the first time",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.agentKeys.body",
+   "text": "The frosted Agent Keys give you a live status of your Codex agents. Single-tap a key to focus it in the background, or double-tap to bring your ChatGPT window front and center.",
+   "description": "Explanation of Creator Micro agent key behavior",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.body",
+   "text": "Congrats on getting your hands on the original Creator Micro 2, the base platform on which the Codex Micro was built! Get ready to dial up the fun, efficiency, and tactility of your whole Codex experience!",
+   "description": "Welcome message shown when Creator Micro is detected for the first time",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.commandKeys.body",
+   "text": "The Command Keys put your most-used Codex actions right at your fingertips. You can easily customize what your keys, dial, and joystick does by long-pressing the dial to open the configuration page.",
+   "description": "Explanation of Creator Micro command key customization",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.commandKeys.input",
+   "text": "ps. Get more from your Creator Micro with <input>Input</input>, Work Louder’s dedicated configurator for customizing controls across all your creative apps",
+   "description": "Link to Work Louder Input from Creator Micro onboarding",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.inputMonitoring.description",
+   "text": "Creator Micro needs Input Monitoring permission to respond when you press a key on your keyboard",
+   "description": "Description of why Creator Micro needs Input Monitoring permission",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "creatorMicro.onboarding.title",
+   "text": "Welcome to Creator Micro",
+   "description": "Title shown when Creator Micro is detected for the first time",
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "permissions.revealApp",
+   "text": "If {appName} doesn't appear in {permissionSettingsName}, reveal it in Finder, then drag the app into the open System Settings panel",
+   "description": null,
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "permissions.showAppInFinder",
+   "text": "Show {appName} in Finder",
+   "description": null,
+   "files": [
+    "codex-micro/codex-micro-onboarding-host-376afbc88fc8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.actionPicker.none",
+   "text": "None",
+   "description": "Short label for a Codex Micro control with no action assigned",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.assign",
+   "text": "Assign a chat, shortcut, keycap, or skill to agent key {position}",
+   "description": "Accessible label for assigning a task to a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.keycap",
+   "text": "{keycapId} keycap",
+   "description": "Title for a keycap assigned to a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.awaitingApproval",
+   "text": "Awaiting approval",
+   "description": "Awaiting approval status for a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.awaitingResponse",
+   "text": "Awaiting response",
+   "description": "Awaiting response status for a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.error",
+   "text": "Error",
+   "description": "Error status for a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.idle",
+   "text": "Idle",
+   "description": "Idle status for a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.off",
+   "text": "Off",
+   "description": "Off status for an unassigned Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.unread",
+   "text": "Unread",
+   "description": "Unread status for a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.status.working",
+   "text": "Working",
+   "description": "Working status for a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.unassigned",
+   "text": "No chat or action assigned to agent key {position}",
+   "description": "Fallback title for an unassigned Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeyPreview.untitled",
+   "text": "Untitled chat",
+   "description": "Fallback title for a Codex Micro agent key whose task has no title",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.customChats",
+   "text": "Custom assignments",
+   "description": "Option for assigning Codex Micro agent keys to individual chats or actions",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.customChatsDescription",
+   "text": "Choose a chat, shortcut, keycap, or skill for each key",
+   "description": "Explanation of the Codex Micro custom agent source",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.description",
+   "text": "Choose what the six agent keys follow or trigger",
+   "description": "Description for the Codex Micro agent-key task source setting",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.label",
+   "text": "Agent keys",
+   "description": "Label for choosing which chats Codex Micro agent keys open",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.pinnedChats",
+   "text": "Pinned chats",
+   "description": "Option for mapping Codex Micro agent keys to pinned chats",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.pinnedChatsDescription",
+   "text": "First six chats in Pinned",
+   "description": "Explanation of the Codex Micro pinned chats agent source",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.priorityChats",
+   "text": "Priority chats",
+   "description": "Option for mapping Codex Micro agent keys to priority chats",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.priorityChatsDescription",
+   "text": "Waiting, unread, and active chats first",
+   "description": "Explanation of the Codex Micro priority chats agent source",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.recentChats",
+   "text": "Most recent chats",
+   "description": "Option for mapping Codex Micro agent keys to the most recently updated chats",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.recentChatsDescription",
+   "text": "First six recently updated chats, pinned or unpinned",
+   "description": "Explanation of the Codex Micro most recent chats agent source",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.singleTap.description",
+   "text": "Open the assigned chat and focus the ChatGPT window with a single tap instead of a double tap",
+   "description": "Description for the setting that changes Codex Micro agent-key chat navigation and window focus from double-tap to single-tap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.agentKeys.singleTap.label",
+   "text": "Focus ChatGPT with a single tap",
+   "description": "Label for the setting that focuses ChatGPT and opens an assigned chat with one agent-key tap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.assignDirection",
+   "text": "Assign {direction}",
+   "description": "Label above Codex Micro analog direction action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.clearAssignment",
+   "text": "Clear assignment",
+   "description": "Accessible label and tooltip for clearing a Codex Micro control action assignment",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.commands.app",
+   "text": "App",
+   "description": "Section heading for Codex Micro app action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.commands.configure",
+   "text": "Settings",
+   "description": "Section heading for Codex Micro settings action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.commands.navigation",
+   "text": "Navigation",
+   "description": "Section heading for Codex Micro navigation action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.commands.panels",
+   "text": "Panels",
+   "description": "Section heading for Codex Micro panel action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.commands.skills",
+   "text": "Skill actions",
+   "description": "Section heading for Codex Micro skill management action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.commands.thread",
+   "text": "Chat",
+   "description": "Section heading for Codex Micro task action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.commands.workspace",
+   "text": "Workspace",
+   "description": "Section heading for Codex Micro workspace action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.currentAssignment",
+   "text": "Current assignment",
+   "description": "Accessible label for the current Codex Micro control action assignment",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.description",
+   "text": "Choose what each direction triggers",
+   "description": "Description of the Codex Micro analog stick action mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.down",
+   "text": "Down",
+   "description": "Down direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.down.lowercase",
+   "text": "down",
+   "description": "Lowercase down direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.left",
+   "text": "Left",
+   "description": "Left direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.left.lowercase",
+   "text": "left",
+   "description": "Lowercase left direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.mapping",
+   "text": "{direction}: {action}",
+   "description": "Accessible label for a Codex Micro analog direction and its assigned action",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.right",
+   "text": "Right",
+   "description": "Right direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.right.lowercase",
+   "text": "right",
+   "description": "Lowercase right direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.up",
+   "text": "Up",
+   "description": "Up direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.direction.up.lowercase",
+   "text": "up",
+   "description": "Lowercase up direction label in the Codex Micro analog action dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.directionGroup.label",
+   "text": "Analog direction mappings",
+   "description": "Accessible label for the Codex Micro analog direction mapping group",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.done",
+   "text": "Done",
+   "description": "Button that closes the Codex Micro analog action mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.none",
+   "text": "None",
+   "description": "Short label for a Codex Micro analog direction with no action assigned",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.noResults",
+   "text": "No matching actions or skills",
+   "description": "Empty search state for Codex Micro control action choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.search.label",
+   "text": "Search analog actions and skills",
+   "description": "Accessible label for searching actions and skills in the Codex Micro analog mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.search.placeholder",
+   "text": "Search actions and skills",
+   "description": "Placeholder for searching actions and skills in a Codex Micro control mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.skills",
+   "text": "Skills",
+   "description": "Section heading for Codex Micro control skill choices",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.analog.title",
+   "text": "Analog stick",
+   "description": "Title of the Codex Micro analog stick action mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.battery",
+   "text": "Battery",
+   "description": "Label for the Codex Micro battery status",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.connected",
+   "text": "Connected",
+   "description": "Connected Codex Micro status",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.connectionFailed",
+   "text": "Connection failed",
+   "description": "Codex Micro status when the app cannot connect to a detected device",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.connectionFailedDescriptionByDevice",
+   "text": "ChatGPT found your {deviceName} but couldn't connect. ChatGPT is reconnecting automatically. If the problem continues, reconnect it and check whether a keyboard remapper or security tool is blocking access.",
+   "description": "Troubleshooting guidance shown when ChatGPT cannot connect to a detected Codex Micro or Creator Micro",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.controlUnavailable",
+   "text": "Connected with limited functionality",
+   "description": "Codex Micro connection status when keyboard input remains available but device controls cannot communicate",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.controlUnavailableDescriptionByDevice",
+   "text": "{deviceName} input remains available, but lighting and battery updates are temporarily unavailable",
+   "description": "Explains that a connected Codex Micro or Creator Micro can still receive input while its device control channel is unavailable",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.detected",
+   "text": "Detected",
+   "description": "Detected Codex Micro status while the app connects",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.discoveryFailed",
+   "text": "Discovery failed",
+   "description": "Codex Micro status when device discovery fails",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.discoveryFailedDescriptionByDevice",
+   "text": "ChatGPT couldn't check for your {deviceName}. ChatGPT will try again automatically. If the problem continues, reconnect the device or restart ChatGPT.",
+   "description": "Troubleshooting guidance shown when Codex Micro or Creator Micro device discovery fails",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.label",
+   "text": "Connection",
+   "description": "Label for the Codex Micro connection state",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.notDetected",
+   "text": "Not detected",
+   "description": "Disconnected Codex Micro status",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.problem",
+   "text": "Connection problem",
+   "description": "Fallback Codex Micro error status",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.problemDescriptionByDevice",
+   "text": "ChatGPT couldn't communicate with your {deviceName}. ChatGPT is reconnecting automatically. If the problem continues, reconnect it and try again.",
+   "description": "Fallback troubleshooting guidance for a Codex Micro or Creator Micro connection error",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.remove",
+   "text": "Remove",
+   "description": "Button that removes an unavailable Codex Micro or Creator Micro connection from Codex",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.removeConfirmation.cancel",
+   "text": "Cancel",
+   "description": "Button that cancels removing an unavailable Codex Micro or Creator Micro connection",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.removeConfirmation.confirm",
+   "text": "Remove connection",
+   "description": "Button that confirms removing an unavailable Codex Micro or Creator Micro connection from ChatGPT",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.removeConfirmation.description",
+   "text": "This removes {deviceName} from ChatGPT without changing its preferences, custom chat assignments, or Bluetooth pairing. Reconnect the device to add it again.",
+   "description": "Explanation shown before removing an unavailable Codex Micro or Creator Micro connection from ChatGPT",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.removeConfirmation.title",
+   "text": "Remove {deviceName}?",
+   "description": "Title for the dialog confirming removal of an unavailable Codex Micro or Creator Micro connection from ChatGPT",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.transportUnavailable",
+   "text": "Connection interrupted",
+   "description": "Codex Micro status when an active device connection becomes unusable",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.connection.transportUnavailableDescriptionByDevice",
+   "text": "ChatGPT lost communication with your {deviceName} and is reconnecting automatically. If your computer still shows the device and the problem continues, a keyboard remapper or security tool may be blocking access. Check that tool's device rules, reconnect {deviceName}, or contact IT if it is managed.",
+   "description": "Troubleshooting guidance shown when the Codex Micro or Creator Micro transport becomes unusable",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.actions.empty",
+   "text": "No matching {type, select, shortcut {shortcuts} keycap {keycaps} skill {skills} other {actions}}",
+   "description": "Empty state when searching actions for a Codex Micro agent key",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.assignedKey",
+   "text": "Key {position}",
+   "description": "Label identifying the numbered physical Agent Key on the Codex Micro hardware keypad currently assigned to a task",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.assignmentType.chat",
+   "text": "Chats",
+   "description": "Assignment picker option for Codex Micro agent-key chats",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.assignmentType.keycap",
+   "text": "Keycaps",
+   "description": "Assignment picker option for Codex Micro agent-key keycaps",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.assignmentType.shortcut",
+   "text": "Shortcuts",
+   "description": "Assignment picker option for Codex Micro agent-key shortcuts",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.assignmentType.skill",
+   "text": "Skills",
+   "description": "Assignment picker option for Codex Micro agent-key skills",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.cancel",
+   "text": "Cancel",
+   "description": "Button that closes the Codex Micro custom agent-key assignment dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.description",
+   "text": "Choose a chat, shortcut, keycap, or skill for this key",
+   "description": "Description of the Codex Micro custom agent-key assignment dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.keycaps.composerText",
+   "text": "Insert {text} into the composer",
+   "description": "Description for a Codex Micro keycap that inserts text into the composer",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.keycaps.customShortcut",
+   "text": "Custom shortcut",
+   "description": "Description for an unassigned Codex Micro shortcut keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.keycaps.externalUrl",
+   "text": "Open {url}",
+   "description": "Description for a Codex Micro keycap that opens an external URL",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.keycaps.microphone",
+   "text": "Microphone",
+   "description": "Description for the Codex Micro microphone keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.recent",
+   "text": "Recent chats",
+   "description": "Heading for recent tasks in the Codex Micro custom assignment dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.remove",
+   "text": "Remove assignment",
+   "description": "Button that removes a custom Codex Micro agent-key assignment",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.results",
+   "text": "Search results",
+   "description": "Heading for task search results in the Codex Micro custom assignment dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.search.empty",
+   "text": "No active chats found",
+   "description": "Empty state for the Codex Micro custom agent-key task search",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.search.labelByType",
+   "text": "Search {type, select, chat {chats} shortcut {shortcuts} keycap {keycaps} skill {skills} other {assignments}} to assign",
+   "description": "Accessible label for searching Codex Micro agent-key assignments by assignment type",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.search.placeholderByType",
+   "text": "Search {type, select, chat {chats} shortcut {shortcuts} keycap {keycaps} skill {skills} other {assignments}}",
+   "description": "Placeholder for searching Codex Micro agent-key assignments by assignment type",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.title",
+   "text": "Assign agent key {position}",
+   "description": "Title of the dialog for assigning a task to a numbered physical Agent Key on the Codex Micro hardware keypad",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.customAgent.untitled",
+   "text": "Untitled chat",
+   "description": "Fallback title for an untitled task in the Codex Micro custom assignment dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.action.insertText",
+   "text": "Insert text",
+   "description": "Option for assigning custom composer text to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.action.insertText.description",
+   "text": "Add text to the active prompt without sending it",
+   "description": "Description of the custom composer text action for a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.action.label",
+   "text": "Assigned action",
+   "description": "Label for choosing the action assigned to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.action.search.label",
+   "text": "Search actions for keycap",
+   "description": "Accessible label for searching actions assignable to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.action.search.noResults",
+   "text": "No matching actions",
+   "description": "Empty search state for actions assignable to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.action.search.placeholder",
+   "text": "Search actions",
+   "description": "Placeholder for searching actions assignable to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.cancel",
+   "text": "Cancel",
+   "description": "Cancel button label for the Codex Micro keycap slot editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.composerText.description",
+   "text": "Stored in your local Codex settings",
+   "description": "Explanation of where custom text assigned to a Codex Micro keycap is stored",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.composerText.label",
+   "text": "Text to insert",
+   "description": "Label for custom text assigned to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.composerText.placeholder",
+   "text": "Enter text",
+   "description": "Placeholder for custom text assigned to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.customShortcut.choose",
+   "text": "Choose",
+   "description": "Button label for choosing the action assigned to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.customShortcut.defaultAction",
+   "text": "Keycap default: {action}",
+   "description": "Description shown when a Codex Micro keycap uses its predefined action",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.customShortcut.none",
+   "text": "Unassigned",
+   "description": "Dropdown option that clears a Codex Micro keycap command",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.customShortcut.skills",
+   "text": "Skills",
+   "description": "Section heading for skills assignable to a Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.customShortcut.unassigned",
+   "text": "Unassigned",
+   "description": "Label shown when a Codex Micro keycap has no command assigned",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.customShortcut.useDefault",
+   "text": "Use keycap default",
+   "description": "Dropdown option that restores a Codex Micro keycap's predefined action",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.noKeycaps",
+   "text": "No matching keycaps",
+   "description": "Empty state shown when keycap search returns no results",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.save",
+   "text": "Save",
+   "description": "Save button label for the Codex Micro keycap slot editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.searchLabel",
+   "text": "Search keycaps",
+   "description": "Accessible label for searching Codex Micro keycaps in the keycap editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.searchPlaceholder",
+   "text": "Search keycaps",
+   "description": "Placeholder for searching Codex Micro keycaps in the keycap editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.subtitle",
+   "text": "Choose what appears on {slotId}",
+   "description": "Subtitle for the Codex Micro keycap slot editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.editor.title",
+   "text": "Edit keycap",
+   "description": "Title for the Codex Micro keycap slot editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.assign",
+   "text": "{input, select, left {Assign left turn} right {Assign right turn} click {Assign click} longPress {Assign long press} other {Assign knob gesture}}",
+   "description": "Label above action choices for a Codex Micro knob gesture",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.description",
+   "text": "Choose what each knob gesture triggers",
+   "description": "Description of the Codex Micro knob action mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.done",
+   "text": "Done",
+   "description": "Button that closes the Codex Micro knob action mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.gesture",
+   "text": "{input, select, left {Turn left} right {Turn right} click {Click} longPress {Press and hold} other {Knob gesture}}",
+   "description": "Label for a Codex Micro knob gesture",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.inputGroup.label",
+   "text": "Knob gesture mappings",
+   "description": "Accessible label for the Codex Micro knob gesture mapping group",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.mapping",
+   "text": "{input, select, left {Turn left} right {Turn right} click {Click} longPress {Press and hold} other {Knob gesture}}: {action}",
+   "description": "Accessible label for a Codex Micro knob gesture and its assigned action",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.none",
+   "text": "None",
+   "description": "Short label for a Codex Micro knob gesture with no action assigned",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.search.label",
+   "text": "Search knob actions and skills",
+   "description": "Accessible label for searching actions and skills in the Codex Micro knob mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.encoder.title",
+   "text": "Knob",
+   "description": "Title of the Codex Micro knob action mapping dialog",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.inputMonitoring.denied",
+   "text": "Not granted",
+   "description": "Denied macOS Input Monitoring permission status",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.inputMonitoring.descriptionByDevice",
+   "text": "Required for {deviceName} key presses on macOS",
+   "description": "Description for the macOS Input Monitoring permission state for Codex Micro or Creator Micro",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.inputMonitoring.granted",
+   "text": "Granted",
+   "description": "Granted macOS Input Monitoring permission status",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.inputMonitoring.label",
+   "text": "Input Monitoring",
+   "description": "Label for the macOS Input Monitoring permission state",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.inputMonitoring.openSettings",
+   "text": "Open System Settings",
+   "description": "Button that opens macOS Input Monitoring settings",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.inputMonitoring.unavailable",
+   "text": "Unavailable",
+   "description": "Unavailable macOS Input Monitoring permission status",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.analog.configure",
+   "text": "Configure analog stick actions",
+   "description": "Accessible label for opening the Codex Micro analog stick action mapping editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knob.configureByDevice",
+   "text": "Configure {deviceName} knob actions",
+   "description": "Accessible label for opening the Codex Micro or Creator Micro knob action mapping editor",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knobByDevice",
+   "text": "{deviceName} knob",
+   "description": "Accessible label for the encoder knob in the Codex Micro or Creator Micro keyboard preview",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knobTooltip.click",
+   "text": "Click",
+   "description": "Label for clicking the Codex Micro encoder knob once",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knobTooltip.pressAndHold",
+   "text": "Press and hold",
+   "description": "Label for pressing and holding the Codex Micro encoder knob",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knobTooltip.pressAndHoldActionByDevice",
+   "text": "Open {deviceName} settings",
+   "description": "Action performed when pressing and holding the Codex Micro or Creator Micro encoder knob",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knobTooltip.title",
+   "text": "Knob controls",
+   "description": "Title for the tooltip describing Codex Micro encoder knob controls",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knobTooltip.turnLeft",
+   "text": "Turn left",
+   "description": "Label for turning the Codex Micro encoder knob counterclockwise",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.knobTooltip.turnRight",
+   "text": "Turn right",
+   "description": "Label for turning the Codex Micro encoder knob clockwise",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.reset",
+   "text": "Reset layout",
+   "description": "Button that restores the default Codex Micro action-key layout",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.resetConfirmation.cancel",
+   "text": "Cancel",
+   "description": "Button that cancels resetting the Codex Micro keyboard layout",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.resetConfirmation.confirm",
+   "text": "Reset layout",
+   "description": "Button that confirms resetting the Codex Micro keyboard layout",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.resetConfirmation.description",
+   "text": "This restores the command keys and analog stick to their default assignments without changing your agent key mode or custom chat assignments",
+   "description": "Explanation shown before resetting the Codex Micro keyboard layout",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.resetConfirmation.title",
+   "text": "Reset keyboard layout?",
+   "description": "Title for the dialog confirming a Codex Micro keyboard layout reset",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keyboardLayout.title",
+   "text": "Layout",
+   "description": "Heading for the Codex Micro hardware layout preview",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.addPhotos",
+   "text": "Add photos",
+   "description": "Codex Micro action label for the PAINT keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.approve",
+   "text": "Approve",
+   "description": "Codex Micro action label for the APPR keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.apps",
+   "text": "Open plugins",
+   "description": "Codex Micro action label for the APPS keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.attachFiles",
+   "text": "Attach files and folders",
+   "description": "Codex Micro action label for the UPL keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.automations",
+   "text": "Open Scheduled",
+   "description": "Codex Micro action label for the TIME keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.branch",
+   "text": "Create branch",
+   "description": "Codex Micro action label for the branch keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.bug",
+   "text": "Open feedback",
+   "description": "Codex Micro action label for the BUG keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.codex",
+   "text": "Send message",
+   "description": "Codex Micro action label for the CODEX keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.composerText.description",
+   "text": "Available when a composer is active",
+   "description": "Availability description for Codex Micro composer text keycaps",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.custom",
+   "text": "Assign any shortcut",
+   "description": "Codex Micro action label for empty keycaps",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.custom.description",
+   "text": "Choose a shortcut to assign",
+   "description": "Description for an unassigned Codex Micro custom keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.customComposerText",
+   "text": "Insert text",
+   "description": "Codex Micro action label for a keycap assigned custom composer text",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.customComposerText.description",
+   "text": "Adds custom text to the active prompt without sending it",
+   "description": "Description for a Codex Micro keycap assigned custom composer text",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.decreaseReasoningEffort",
+   "text": "Decrease reasoning effort",
+   "description": "Codex Micro action label for the outline brain keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.delete",
+   "text": "Archive chat",
+   "description": "Codex Micro action label for the DEL keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.download",
+   "text": "Copy chat as Markdown",
+   "description": "Codex Micro action label for the DWN keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.draftPullRequest",
+   "text": "Create draft PR",
+   "description": "Codex Micro action label for the draft pull request keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.externalUrl.description",
+   "text": "Opens in your preferred browser",
+   "description": "Description for a Codex Micro external URL keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.fast",
+   "text": "Cycle speed",
+   "description": "Codex Micro action label for the FAST keycap, which cycles through available Standard, Fast, and Ultrafast speeds",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.folder",
+   "text": "Open folder",
+   "description": "Codex Micro action label for the FOLD keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.git",
+   "text": "Commit or push",
+   "description": "Codex Micro action label for the GIT keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.increaseReasoningEffort",
+   "text": "Increase reasoning effort",
+   "description": "Codex Micro action label for the filled brain keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.mergePullRequest",
+   "text": "Merge PR",
+   "description": "Codex Micro action label for the MRG keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.navigation",
+   "text": "Open browser tab",
+   "description": "Codex Micro action label for the NAV keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.new",
+   "text": "New chat",
+   "description": "Codex Micro action label for the NEW keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.oai",
+   "text": "Open OpenAI docs",
+   "description": "Codex Micro action label for the OAI keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.pinThread",
+   "text": "Pin or unpin chat",
+   "description": "Codex Micro action label for the MAGIC keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.pullRequest",
+   "text": "Create PR",
+   "description": "Codex Micro action label for the PR keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.reject",
+   "text": "Reject",
+   "description": "Codex Micro action label for the REJ keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.review",
+   "text": "Toggle Changes",
+   "description": "Codex Micro action label for the DIFF keycap, which toggles the Changes tab showing local diffs",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.runAction",
+   "text": "Run primary action",
+   "description": "Codex Micro action label for the PLAY keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.settings",
+   "text": "Open Settings",
+   "description": "Codex Micro action label for settings keycaps",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.sideChat",
+   "text": "Open side chat",
+   "description": "Codex Micro action label for the PARTY keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.split",
+   "text": "Fork chat",
+   "description": "Codex Micro action label for the SPLIT keycap that forks the current chat",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.terminal",
+   "text": "Toggle terminal",
+   "description": "Codex Micro action label for the TERM keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.yeet",
+   "text": "Write :yeet: in the composer",
+   "description": "Codex Micro action label for the YEET keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.yeetLegend",
+   "text": ":yeet:",
+   "description": "Literal keycap legend rendered on the YEET Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.yolo",
+   "text": "Write :yolo: in the composer",
+   "description": "Codex Micro action label for the YOLO keycap",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.keycaps.yoloLegend",
+   "text": ":yolo:",
+   "description": "Literal keycap legend rendered on the YOLO Codex Micro keycap",
+   "files": [
+    "codex-micro/codex-micro-keyboard-surface-f2d6fa0a8efb.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.composerNavigation",
+   "text": "Composer navigation",
+   "description": "Option label for using the Codex Micro knob to move among controls and options in the prompt and message input area",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.composerNavigationClick",
+   "text": "Open or select the highlighted control",
+   "description": "Action performed when clicking the Codex Micro knob in composer navigation mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.composerNavigationDescription",
+   "text": "Move through composer controls and options",
+   "description": "Supporting text explaining that this Codex Micro knob mode moves among controls and options in the prompt and message input area",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.composerNavigationTurnLeft",
+   "text": "Move to the next control or option",
+   "description": "Action performed when turning the Codex Micro knob counterclockwise in composer navigation mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.composerNavigationTurnRight",
+   "text": "Move to the previous control or option",
+   "description": "Action performed when turning the Codex Micro knob clockwise in composer navigation mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.conversationScroll",
+   "text": "Conversation scrolling",
+   "description": "Option for scrolling the active conversation with the Codex Micro knob",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.conversationScrollClick",
+   "text": "Jump to the latest message",
+   "description": "Action performed when clicking the Codex Micro knob in conversation-scrolling mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.conversationScrollDescription",
+   "text": "Scroll through the active conversation",
+   "description": "Explanation of the Codex Micro conversation-scrolling knob mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.conversationScrollTurnLeft",
+   "text": "Scroll down the conversation",
+   "description": "Action performed when turning the Codex Micro knob counterclockwise in conversation-scrolling mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.conversationScrollTurnRight",
+   "text": "Scroll up the conversation",
+   "description": "Action performed when turning the Codex Micro knob clockwise in conversation-scrolling mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.custom",
+   "text": "Custom assignments",
+   "description": "Option for assigning custom actions to each Codex Micro knob gesture",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.customDescription",
+   "text": "Choose an action for each turn, click, and long press",
+   "description": "Explanation of the Codex Micro custom knob assignment mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.description",
+   "text": "Choose what turning the knob controls",
+   "description": "Description for the Codex Micro knob mode setting",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.label",
+   "text": "Knob",
+   "description": "Label for choosing what the Codex Micro knob controls",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.reasoning",
+   "text": "Reasoning only",
+   "description": "Option for controlling reasoning effort with the Codex Micro knob",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.reasoningClick",
+   "text": "Open the slider or advanced options",
+   "description": "Action performed when clicking the Codex Micro knob in reasoning-only mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.reasoningDescription",
+   "text": "Open and adjust reasoning effort",
+   "description": "Explanation of the Codex Micro reasoning-only knob mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.reasoningTurnLeft",
+   "text": "Increase reasoning effort",
+   "description": "Action performed when turning the Codex Micro knob counterclockwise in reasoning-only mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.knob.reasoningTurnRight",
+   "text": "Decrease reasoning effort",
+   "description": "Action performed when turning the Codex Micro knob clockwise in reasoning-only mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.descriptionByDevice",
+   "text": "Turns lighting off after inactivity and back on when you use {deviceName} or an agent key changes color or state",
+   "description": "Description for the Codex Micro or Creator Micro lighting auto-dim setting",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.label",
+   "text": "Auto-dim",
+   "description": "Label for the Codex Micro lighting auto-dim setting",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.off",
+   "text": "Off",
+   "description": "Option that keeps Codex Micro lighting on indefinitely",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.oneHour",
+   "text": "1 hour",
+   "description": "Codex Micro lighting auto-off interval of 1 hour",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.oneMinute",
+   "text": "1 minute",
+   "description": "Codex Micro lighting auto-off interval of 1 minute",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.tenMinutes",
+   "text": "10 minutes",
+   "description": "Codex Micro lighting auto-off interval of 10 minutes",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.thirtyMinutes",
+   "text": "30 minutes",
+   "description": "Codex Micro lighting auto-off interval of 30 minutes",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.thirtySeconds",
+   "text": "30 seconds",
+   "description": "Codex Micro lighting auto-off interval of 30 seconds",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingAutoOff.threeMinutes",
+   "text": "3 minutes",
+   "description": "Codex Micro lighting auto-off interval of 3 minutes",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingBrightness.descriptionByDevice",
+   "text": "Adjusts the brightness of all {deviceName} lighting",
+   "description": "Description for the Codex Micro or Creator Micro lighting brightness setting",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.lightingBrightness.label",
+   "text": "Brightness",
+   "description": "Label for the Codex Micro lighting brightness setting",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.description",
+   "text": "Choose how the microphone key works",
+   "description": "Description for the Codex Micro microphone-key mode setting",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.label",
+   "text": "Microphone key",
+   "description": "Label for choosing how the Codex Micro microphone key works",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.pushToTalk",
+   "text": "Push to talk",
+   "description": "Option that uses the Codex Micro microphone key for dictation",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.pushToTalkDescription",
+   "text": "Hold to dictate or double-tap to keep recording",
+   "description": "Explanation of the Codex Micro push-to-talk mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.split.description",
+   "text": "Map the two switches beneath the wide key separately",
+   "description": "Description for the setting that maps the two switches beneath the wide Codex Micro microphone key independently",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.split.label",
+   "text": "Use separate microphone keys",
+   "description": "Label for the setting that maps the two switches beneath the wide Codex Micro microphone key independently",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.startVoiceChat",
+   "text": "Start a Voice Chat",
+   "description": "Codex Micro microphone key action for starting a Voice Chat",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.voiceChat",
+   "text": "Voice Chat",
+   "description": "Option that uses the Codex Micro microphone key for Voice Chat",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.microphoneKey.voiceChatDescription",
+   "text": "Tap to start a Voice Chat or toggle your microphone, then hold to end",
+   "description": "Explanation of the Codex Micro Voice Chat mode",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.codexMicro.options",
+   "text": "Options",
+   "description": "Heading for Codex Micro device options",
+   "files": [
+    "codex-micro/codex-micro-settings-e26c9caffecc.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-5851df3f6cb1.js",
+   "count": 227,
+   "names": [
+    "$8n",
+    "$ct",
+    "$gn",
+    "$lr",
+    "$on",
+    "$ot",
+    "$wr",
+    "ARt",
+    "Aj",
+    "BSn",
+    "BYt",
+    "Bwr",
+    "CDt",
+    "CX",
+    "Cit",
+    "Cvn",
+    "Cxn",
+    "Cyn",
+    "DPn",
+    "Dj",
+    "Dq",
+    "Dyn",
+    "E$n",
+    "EPn",
+    "Ed",
+    "Ej",
+    "Ek",
+    "Eq",
+    "Etn",
+    "F0",
+    "FEr",
+    "FRt",
+    "G4n",
+    "GHn",
+    "GJ",
+    "Ggn",
+    "Gon",
+    "Got",
+    "Grt",
+    "H1",
+    "Her",
+    "Hgn",
+    "Hon",
+    "Htt",
+    "I3n",
+    "IYt",
+    "Ier",
+    "J$n",
+    "J4n",
+    "J9n",
+    "JPn",
+    "Jot",
+    "KHn",
+    "Kgn",
+    "Kon",
+    "Kot",
+    "Ler",
+    "Ltn",
+    "Mj",
+    "Mor",
+    "Nj",
+    "O$n",
+    "OTr",
+    "Od",
+    "Oj",
+    "Oxn",
+    "P0",
+    "P5n",
+    "PEr",
+    "PRt",
+    "QDr",
+    "QP",
+    "Qer",
+    "Qon",
+    "Qot",
+    "RSn",
+    "Rtn",
+    "S5n",
+    "SDt",
+    "SJ",
+    "SX",
+    "Sbn",
+    "T$n",
+    "T0",
+    "T3n",
+    "Td",
+    "Tk",
+    "Tm",
+    "Ttn",
+    "Txn",
+    "Uer",
+    "Uk",
+    "Uon",
+    "Utt",
+    "V$n",
+    "V1",
+    "VSn",
+    "Von",
+    "WJ",
+    "Wk",
+    "Won",
+    "Wot",
+    "Wrt",
+    "X$n",
+    "XDr",
+    "XPn",
+    "XPr",
+    "Xct",
+    "Xer",
+    "Xgn",
+    "Xot",
+    "YPr",
+    "Ygn",
+    "Yon",
+    "Yot",
+    "Z9n",
+    "ZPn",
+    "Zgn",
+    "Zot",
+    "_8n",
+    "_Cr",
+    "_F",
+    "_J",
+    "_yn",
+    "a4",
+    "abn",
+    "ajt",
+    "ast",
+    "bJ",
+    "bbn",
+    "bvr",
+    "c9t",
+    "cCt",
+    "cMr",
+    "cst",
+    "d9n",
+    "dAn",
+    "dNr",
+    "dP",
+    "d_n",
+    "dst",
+    "eDr",
+    "ean",
+    "esn",
+    "est",
+    "etr",
+    "eur",
+    "fAn",
+    "fMr",
+    "fvr",
+    "gDt",
+    "gyn",
+    "h9n",
+    "hDt",
+    "hF",
+    "hd",
+    "i4",
+    "i5n",
+    "iNr",
+    "ijt",
+    "ist",
+    "jRt",
+    "jTr",
+    "jd",
+    "jj",
+    "jor",
+    "kSn",
+    "kj",
+    "kvr",
+    "kyn",
+    "l4",
+    "l9t",
+    "lF",
+    "lst",
+    "m9n",
+    "mDt",
+    "mP",
+    "md",
+    "mtr",
+    "mvr",
+    "nDr",
+    "nF",
+    "nSn",
+    "nbn",
+    "nfn",
+    "nst",
+    "oFr",
+    "obn",
+    "ost",
+    "pDt",
+    "qot",
+    "qwr",
+    "rF",
+    "rNr",
+    "rSn",
+    "rfn",
+    "rst",
+    "sCr",
+    "sCt",
+    "sst",
+    "tF",
+    "tan",
+    "tbn",
+    "tsn",
+    "tst",
+    "ttr",
+    "u4",
+    "u9n",
+    "uF",
+    "u_n",
+    "v8n",
+    "vCt",
+    "vJ",
+    "vSn",
+    "w0",
+    "wit",
+    "wm",
+    "wvn",
+    "xJ",
+    "xyn",
+    "yCr",
+    "yCt",
+    "yJ",
+    "ySn",
+    "yyn",
+    "z$n",
+    "zgn"
+   ]
+  },
+  {
+   "from": "app-shared-bbfeca5e5737.js",
+   "count": 123,
+   "names": [
+    "$4",
+    "$j",
+    "$nt",
+    "$x",
+    "ADt",
+    "AO",
+    "CO",
+    "Cot",
+    "Cwt",
+    "DDt",
+    "Ext",
+    "Fat",
+    "HNt",
+    "Hnt",
+    "IDt",
+    "IF",
+    "Ij",
+    "Ixt",
+    "JC",
+    "JO",
+    "JR",
+    "Jbt",
+    "Jy",
+    "Kat",
+    "MO",
+    "Myt",
+    "Mz",
+    "Nz",
+    "Pat",
+    "Pxt",
+    "SJ",
+    "Swt",
+    "TJ",
+    "TO",
+    "Tk",
+    "VDt",
+    "Vxt",
+    "Wnt",
+    "Xot",
+    "YR",
+    "Yot",
+    "Yy",
+    "_Mt",
+    "_O",
+    "_Pt",
+    "_k",
+    "_vt",
+    "_wt",
+    "_xt",
+    "az",
+    "b0",
+    "bL",
+    "bO",
+    "bvt",
+    "bz",
+    "cO",
+    "cz",
+    "eS",
+    "fO",
+    "fSt",
+    "fk",
+    "gMt",
+    "gO",
+    "gPt",
+    "gk",
+    "gvt",
+    "gwt",
+    "hPt",
+    "hk",
+    "hot",
+    "hvt",
+    "i3",
+    "ij",
+    "iot",
+    "iw",
+    "jDt",
+    "jO",
+    "kDt",
+    "lO",
+    "lgt",
+    "lot",
+    "mO",
+    "mk",
+    "mvt",
+    "n4",
+    "nSt",
+    "oO",
+    "oSt",
+    "oz",
+    "pM",
+    "pk",
+    "pvt",
+    "qC",
+    "qO",
+    "qat",
+    "qnt",
+    "r3",
+    "rj",
+    "rst",
+    "sMt",
+    "sO",
+    "slt",
+    "sz",
+    "t3",
+    "t4",
+    "tMt",
+    "tw",
+    "uM",
+    "vO",
+    "vvt",
+    "vzt",
+    "wk",
+    "wot",
+    "wxt",
+    "xMt",
+    "xvt",
+    "xz",
+    "y0",
+    "yL",
+    "yO",
+    "yvt",
+    "yzt",
+    "zxt"
+   ]
+  },
+  {
+   "from": "app-primary-fe8a450b3b04.js",
+   "count": 17,
+   "names": [
+    "D_",
+    "Dc",
+    "E_",
+    "Ec",
+    "Gd",
+    "Kp",
+    "Oc",
+    "Tc",
+    "Wd",
+    "df",
+    "ff",
+    "fm",
+    "kc",
+    "lf",
+    "pm",
+    "qp",
+    "uf"
+   ]
+  },
+  {
+   "from": "codex-micro-slot-signals-838363a53538.js",
+   "count": 13,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "i",
+    "l",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "codex-micro-keyboard-surface-f2d6fa0a8efb.js",
+   "count": 13,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "i",
+    "l",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "codex-micro-layout-3ae79f44ce27.js",
+   "count": 12,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "codex-micro-mini-games-b387bd725562.js",
+   "count": 11,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "codex-micro-onboarding-animation-de406f73de5b.js",
+   "count": 8,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "codex-micro-joystick-feedback-d7847516931e.js",
+   "count": 6,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "codex-micro-commands-fdc168b3622a.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "command-messages-54cbbed1e112.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "o"
+   ]
+  },
+  {
+   "from": "check-lg-79c31d3b1d03.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "codex-micro-analog-action-title-56f79effef85.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "keyboard-shortcuts-search-input-24effdcb9c56.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "id",
+   "count": 693
+  },
+  {
+   "name": "description",
+   "count": 678
+  },
+  {
+   "name": "defaultMessage",
+   "count": 627
+  },
+  {
+   "name": "children",
+   "count": 264
+  },
+  {
+   "name": "className",
+   "count": 213
+  },
+  {
+   "name": "type",
+   "count": 81
+  },
+  {
+   "name": "action",
+   "count": 65
+  },
+  {
+   "name": "title",
+   "count": 61
+  },
+  {
+   "name": "size",
+   "count": 48
+  },
+  {
+   "name": "icon",
+   "count": 41
+  },
+  {
+   "name": "dark",
+   "count": 39
+  },
+  {
+   "name": "skills",
+   "count": 38
+  },
+  {
+   "name": "status",
+   "count": 37
+  },
+  {
+   "name": "command",
+   "count": 36
+  },
+  {
+   "name": "label",
+   "count": 36
+  },
+  {
+   "name": "null",
+   "count": 32
+  },
+  {
+   "name": "fill",
+   "count": 25
+  },
+  {
+   "name": "values",
+   "count": 24
+  },
+  {
+   "name": "height",
+   "count": 24
+  },
+  {
+   "name": "y",
+   "count": 23
+  },
+  {
+   "name": "width",
+   "count": 22
+  },
+  {
+   "name": "deviceName",
+   "count": 22
+  },
+  {
+   "name": "slotId",
+   "count": 22
+  },
+  {
+   "name": "state",
+   "count": 21
+  },
+  {
+   "name": "x",
+   "count": 21
+  },
+  {
+   "name": "onSelect",
+   "count": 21
+  },
+  {
+   "name": "voiceButtonMode",
+   "count": 20
+  },
+  {
+   "name": "isPressed",
+   "count": 19
+  },
+  {
+   "name": "threadKey",
+   "count": 18
+  },
+  {
+   "name": "onClick",
+   "count": 18
+  },
+  {
+   "name": "value",
+   "count": 17
+  },
+  {
+   "name": "d",
+   "count": 17
+  },
+  {
+   "name": "keycap",
+   "count": 17
+  },
+  {
+   "name": "direction",
+   "count": 15
+  },
+  {
+   "name": "commands",
+   "count": 15
+  },
+  {
+   "name": "event",
+   "count": 14
+  },
+  {
+   "name": "slot",
+   "count": 14
+  },
+  {
+   "name": "level",
+   "count": 14
+  },
+  {
+   "name": "color",
+   "count": 14
+  },
+  {
+   "name": "Sheets",
+   "count": 14
+  },
+  {
+   "name": "timeoutAt",
+   "count": 13
+  },
+  {
+   "name": "control",
+   "count": 13
+  },
+  {
+   "name": "bonus",
+   "count": 13
+  },
+  {
+   "name": "asset",
+   "count": 12
+  },
+  {
+   "name": "onOpenChange",
+   "count": 12
+  },
+  {
+   "name": "text",
+   "count": 11
+  },
+  {
+   "name": "joystick",
+   "count": 11
+  },
+  {
+   "name": "position",
+   "count": 11
+  },
+  {
+   "name": "playing",
+   "count": 11
+  },
+  {
+   "name": "appName",
+   "count": 11
+  },
+  {
+   "name": "style",
+   "count": 10
+  },
+  {
+   "name": "viewBox",
+   "count": 10
+  },
+  {
+   "name": "xmlns",
+   "count": 10
+  },
+  {
+   "name": "isSelected",
+   "count": 10
+  },
+  {
+   "name": "onChange",
+   "count": 10
+  },
+  {
+   "name": "onEditSlot",
+   "count": 10
+  },
+  {
+   "name": "opacity",
+   "count": 9
+  },
+  {
+   "name": "hostId",
+   "count": 9
+  },
+  {
+   "name": "enabled",
+   "count": 8
+  },
+  {
+   "name": "keycapId",
+   "count": 8
+  },
+  {
+   "name": "selected",
+   "count": 8
+  },
+  {
+   "name": "codexMicro",
+   "count": 8
+  },
+  {
+   "name": "mapping",
+   "count": 8
+  },
+  {
+   "name": "tooltipContent",
+   "count": 8
+  },
+  {
+   "name": "pulse",
+   "count": 8
+  },
+  {
+   "name": "character",
+   "count": 8
+  },
+  {
+   "name": "radius",
+   "count": 8
+  },
+  {
+   "name": "appIconMedium",
+   "count": 8
+  },
+  {
+   "name": "input",
+   "count": 8
+  },
+  {
+   "name": "options",
+   "count": 8
+  },
+  {
+   "name": "triggerButton",
+   "count": 8
+  },
+  {
+   "name": "align",
+   "count": 8
+  },
+  {
+   "name": "keys",
+   "count": 8
+  },
+  {
+   "name": "duration",
+   "count": 7
+  },
+  {
+   "name": "get",
+   "count": 7
+  },
+  {
+   "name": "conversationId",
+   "count": 7
+  },
+  {
+   "name": "progress",
+   "count": 7
+  },
+  {
+   "name": "role",
+   "count": 7
+  },
+  {
+   "name": "error",
+   "count": 7
+  },
+  {
+   "name": "ariaLabel",
+   "count": 7
+  },
+  {
+   "name": "velocityX",
+   "count": 7
+  },
+  {
+   "name": "velocityY",
+   "count": 7
+  },
+  {
+   "name": "reducedMotion",
+   "count": 7
+  },
+  {
+   "name": "message",
+   "count": 7
+  },
+  {
+   "name": "onActionChange",
+   "count": 7
+  },
+  {
+   "name": "open",
+   "count": 7
+  },
+  {
+   "name": "slots",
+   "count": 6
+  },
+  {
+   "name": "unassigned",
+   "count": 6
+  },
+  {
+   "name": "onExit",
+   "count": 6
+  },
+  {
+   "name": "activated",
+   "count": 6
+  },
+  {
+   "name": "captured",
+   "count": 6
+  },
+  {
+   "name": "step",
+   "count": 6
+  },
+  {
+   "name": "shouldReduceMotion",
+   "count": 6
+  },
+  {
+   "name": "inputMonitoringPermissionStatus",
+   "count": 6
+  },
+  {
+   "name": "model",
+   "count": 6
+  },
+  {
+   "name": "onOpenInputMonitoringSettings",
+   "count": 6
+  },
+  {
+   "name": "placeholder",
+   "count": 6
+  },
+  {
+   "name": "commandId",
+   "count": 6
+  },
+  {
+   "name": "e",
+   "count": 5
+  },
+  {
+   "name": "transition",
+   "count": 5
+  },
+  {
+   "name": "angle",
+   "count": 5
+  },
+  {
+   "name": "visible",
+   "count": 5
+  },
+  {
+   "name": "right",
+   "count": 5
+  },
+  {
+   "name": "left",
+   "count": 5
+  },
+  {
+   "name": "delayOpen",
+   "count": 5
+  },
+  {
+   "name": "initial",
+   "count": 5
+  },
+  {
+   "name": "measureText",
+   "count": 5
+  },
+  {
+   "name": "rows",
+   "count": 5
+  },
+  {
+   "name": "data",
+   "count": 5
+  },
+  {
+   "name": "heading",
+   "count": 5
+  },
+  {
+   "name": "selectedAction",
+   "count": 5
+  },
+  {
+   "name": "subtitle",
+   "count": 5
+  },
+  {
+   "name": "contentWidth",
+   "count": 5
+  },
+  {
+   "name": "rightIcon",
+   "count": 5
+  },
+  {
+   "name": "onConfirm",
+   "count": 5
+  },
+  {
+   "name": "assignment",
+   "count": 5
+  },
+  {
+   "name": "r",
+   "count": 4
+  },
+  {
+   "name": "clientThreadId",
+   "count": 4
+  },
+  {
+   "name": "name",
+   "count": 4
+  },
+  {
+   "name": "distance",
+   "count": 4
+  },
+  {
+   "name": "key",
+   "count": 4
+  },
+  {
+   "name": "up",
+   "count": 4
+  },
+  {
+   "name": "down",
+   "count": 4
+  },
+  {
+   "name": "backgroundColor",
+   "count": 4
+  },
+  {
+   "name": "unread",
+   "count": 4
+  },
+  {
+   "name": "animateEntrance",
+   "count": 4
+  },
+  {
+   "name": "onFrame",
+   "count": 4
+  },
+  {
+   "name": "onResize",
+   "count": 4
+  },
+  {
+   "name": "ease",
+   "count": 4
+  },
+  {
+   "name": "animate",
+   "count": 4
+  },
+  {
+   "name": "lastAngle",
+   "count": 4
+  },
+  {
+   "name": "lastAt",
+   "count": 4
+  },
+  {
+   "name": "flowId",
+   "count": 4
+  },
+  {
+   "name": "inputMonitoringPermissionState",
+   "count": 4
+  },
+  {
+   "name": "screen",
+   "count": 4
+  },
+  {
+   "name": "onComplete",
+   "count": 4
+  },
+  {
+   "name": "onCompleteAndOpenSettings",
+   "count": 4
+  },
+  {
+   "name": "query",
+   "count": 4
+  },
+  {
+   "name": "limit",
+   "count": 4
+  },
+  {
+   "name": "mode",
+   "count": 4
+  },
+  {
+   "name": "controlPlaneStatus",
+   "count": 4
+  },
+  {
+   "name": "layout",
+   "count": 4
+  },
+  {
+   "name": "threadKeys",
+   "count": 4
+  },
+  {
+   "name": "hasCloseButton",
+   "count": 3
+  },
+  {
+   "name": "n",
+   "count": 3
+  },
+  {
+   "name": "activeDirection",
+   "count": 3
+  },
+  {
+   "name": "preserveSelectionLighting",
+   "count": 3
+  },
+  {
+   "name": "snakingAmbientStatus",
+   "count": 3
+  },
+  {
+   "name": "brightness",
+   "count": 3
+  },
+  {
+   "name": "inactivityTimeoutMs",
+   "count": 3
+  },
+  {
+   "name": "voiceState",
+   "count": 3
+  },
+  {
+   "name": "href",
+   "count": 3
+  },
+  {
+   "name": "transform",
+   "count": 3
+  },
+  {
+   "name": "fillRule",
+   "count": 3
+  },
+  {
+   "name": "clipRule",
+   "count": 3
+  },
+  {
+   "name": "glyphs",
+   "count": 3
+  },
+  {
+   "name": "score",
+   "count": 3
+  },
+  {
+   "name": "columns",
+   "count": 3
+  },
+  {
+   "name": "accumulatedTurns",
+   "count": 3
+  },
+  {
+   "name": "startedAt",
+   "count": 3
+  },
+  {
+   "name": "agentSlots",
+   "count": 3
+  },
+  {
+   "name": "permissionSettingsName",
+   "count": 3
+  },
+  {
+   "name": "dismissAnnouncement",
+   "count": 3
+  },
+  {
+   "name": "queryFn",
+   "count": 3
+  },
+  {
+   "name": "queryKey",
+   "count": 3
+  },
+  {
+   "name": "staleTime",
+   "count": 3
+  },
+  {
+   "name": "searchAriaLabel",
+   "count": 3
+  },
+  {
+   "name": "searchQuery",
+   "count": 3
+  },
+  {
+   "name": "onSearchQueryChange",
+   "count": 3
+  },
+  {
+   "name": "skillName",
+   "count": 3
+  },
+  {
+   "name": "skillPath",
+   "count": 3
+  },
+  {
+   "name": "compact",
+   "count": 3
+  },
+  {
+   "name": "ariaCurrent",
+   "count": 3
+  },
+  {
+   "name": "density",
+   "count": 3
+  },
+  {
+   "name": "rightText",
+   "count": 3
+  },
+  {
+   "name": "portalContainer",
+   "count": 3
+  },
+  {
+   "name": "SubText",
+   "count": 3
+  },
+  {
+   "name": "onClose",
+   "count": 3
+  },
+  {
+   "name": "asyncResults",
+   "count": 3
+  },
+  {
+   "name": "agentKeyId",
+   "count": 3
+  },
+  {
+   "name": "bb0",
+   "count": 3
+  },
+  {
+   "name": "autoFocus",
+   "count": 3
+  },
+  {
+   "name": "allowWrap",
+   "count": 3
+  },
+  {
+   "name": "turnRightAction",
+   "count": 3
+  },
+  {
+   "name": "turnLeftAction",
+   "count": 3
+  },
+  {
+   "name": "clickAction",
+   "count": 3
+  },
+  {
+   "name": "pinnedThreadKeys",
+   "count": 3
+  },
+  {
+   "name": "isCodexMicroSettings",
+   "count": 2
+  },
+  {
+   "name": "handleGesture",
+   "count": 2
+  },
+  {
+   "name": "pressedAt",
+   "count": 2
+  },
+  {
+   "name": "deadline",
+   "count": 2
+  },
+  {
+   "name": "attributeFilter",
+   "count": 2
+  },
+  {
+   "name": "attributes",
+   "count": 2
+  },
+  {
+   "name": "childList",
+   "count": 2
+  },
+  {
+   "name": "subtree",
+   "count": 2
+  },
+  {
+   "name": "singleTapAgentKeys",
+   "count": 2
+  },
+  {
+   "name": "suspendDeviceStatusRefresh",
+   "count": 2
+  },
+  {
+   "name": "miniGameRearmRequiredRef",
+   "count": 2
+  },
+  {
+   "name": "skill",
+   "count": 2
+  },
+  {
+   "name": "initiator",
+   "count": 2
+  },
+  {
+   "name": "executionStatus",
+   "count": 2
+  },
+  {
+   "name": "previousActiveDirection",
+   "count": 2
+  },
+  {
+   "name": "bubbles",
+   "count": 2
+  },
+  {
+   "name": "i",
+   "count": 2
+  },
+  {
+   "name": "feedback",
+   "count": 2
+  },
+  {
+   "name": "isMappingEditorOpen",
+   "count": 2
+  },
+  {
+   "name": "tracking",
+   "count": 2
+  },
+  {
+   "name": "triggered",
+   "count": 2
+  },
+  {
+   "name": "unavailable",
+   "count": 2
+  },
+  {
+   "name": "assignmentTitle",
+   "count": 2
+  },
+  {
+   "name": "showTooltip",
+   "count": 2
+  },
+  {
+   "name": "surface",
+   "count": 2
+  },
+  {
+   "name": "v",
+   "count": 2
+  },
+  {
+   "name": "off",
+   "count": 2
+  },
+  {
+   "name": "url",
+   "count": 2
+  },
+  {
+   "name": "default",
+   "count": 2
+  },
+  {
+   "name": "animatesEntrance",
+   "count": 2
+  },
+  {
+   "name": "elapsedSeconds",
+   "count": 2
+  },
+  {
+   "name": "ref",
+   "count": 2
+  },
+  {
+   "name": "appearsAtSeconds",
+   "count": 2
+  },
+  {
+   "name": "t",
+   "count": 2
+  },
+  {
+   "name": "expiresAt",
+   "count": 2
+  },
+  {
+   "name": "random",
+   "count": 2
+  },
+  {
+   "name": "body",
+   "count": 2
+  },
+  {
+   "name": "threadId",
+   "count": 2
+  },
+  {
+   "name": "length",
+   "count": 2
+  },
+  {
+   "name": "stepType",
+   "count": 2
+  },
+  {
+   "name": "exit",
+   "count": 2
+  },
+  {
+   "name": "onLifecycleStep",
+   "count": 2
+  },
+  {
+   "name": "platform",
+   "count": 2
+  },
+  {
+   "name": "refetchInterval",
+   "count": 2
+  },
+  {
+   "name": "refetchIntervalInBackground",
+   "count": 2
+  },
+  {
+   "name": "refetchOnMount",
+   "count": 2
+  },
+  {
+   "name": "inputMonitoringAnalyticsState",
+   "count": 2
+  },
+  {
+   "name": "onValueChange",
+   "count": 2
+  },
+  {
+   "name": "selectedDirection",
+   "count": 2
+  },
+  {
+   "name": "onDirectionSelect",
+   "count": 2
+  },
+  {
+   "name": "onEditorOpenChange",
+   "count": 2
+  },
+  {
+   "name": "lowercase",
+   "count": 2
+  },
+  {
+   "name": "triggerContent",
+   "count": 2
+  },
+  {
+   "name": "openWhen",
+   "count": 2
+  },
+  {
+   "name": "none",
+   "count": 2
+  },
+  {
+   "name": "noActionLabel",
+   "count": 2
+  },
+  {
+   "name": "onActionSelect",
+   "count": 2
+  },
+  {
+   "name": "side",
+   "count": 2
+  },
+  {
+   "name": "separateMicrophoneKeys",
+   "count": 2
+  },
+  {
+   "name": "disablePadding",
+   "count": 2
+  },
+  {
+   "name": "tooltipMaxWidth",
+   "count": 2
+  },
+  {
+   "name": "cancel",
+   "count": 2
+  },
+  {
+   "name": "confirm",
+   "count": 2
+  }
+ ],
+ "literal_count": 2435,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261013\\codex-micro.json"
+}

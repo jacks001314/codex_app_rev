@@ -1,0 +1,1484 @@
+{
+  "module": "side-panel",
+  "generated_at": "2026-09-11T11:51:43.631Z",
+  "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.903.9818.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "app_version": "26.903.71938",
+  "files": [
+    {
+      "archive_path": "webview/assets/__vite-browser-external-c634070c2692.js",
+      "file": "_deps/__vite-browser-external-c634070c2692.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 71,
+      "formatted_bytes": 78,
+      "formatter": "prettier",
+      "sha256_raw": "f3aaf9af1ae23ca91111ca8ac694c91bf30c3f34446ea016d86ea750fdf1d0d6"
+    },
+    {
+      "archive_path": "webview/assets/about-you-summary-3a9ce93984ce.css",
+      "file": "_deps/about-you-summary-3a9ce93984ce.css",
+      "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-99e831d8b9d6.js",
+      "raw_bytes": 620,
+      "formatted_bytes": 776,
+      "formatter": "prettier",
+      "sha256_raw": "dddf4294a1921504eddfbe931709941d567d7f7c0f8279ce91561aefddf17d92"
+    },
+    {
+      "archive_path": "webview/assets/about-you-summary-5ae62b3bc9cd.js",
+      "file": "_deps/about-you-summary-5ae62b3bc9cd.js",
+      "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-99e831d8b9d6.js",
+      "raw_bytes": 26166,
+      "formatted_bytes": 45885,
+      "formatter": "prettier",
+      "sha256_raw": "584e081a79e4cb132d75561f50f08b72da7a91b433fbb5d6097671207f48fdeb"
+    },
+    {
+      "archive_path": "webview/assets/about-you-summary-a54997126cd8.js",
+      "file": "_deps/about-you-summary-a54997126cd8.js",
+      "selected_by": "closure:d1:chatgpt-sources-side-panel-tab-99e831d8b9d6.js",
+      "raw_bytes": 100,
+      "formatted_bytes": 112,
+      "formatter": "prettier",
+      "sha256_raw": "8ae91dd9117163557690fe75840c04229029aeb4248bb212fb3e200a758207a6"
+    },
+    {
+      "archive_path": "webview/assets/address-utils-78b2f3f83431.js",
+      "file": "_deps/address-utils-78b2f3f83431.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 1244,
+      "formatted_bytes": 1591,
+      "formatter": "prettier",
+      "sha256_raw": "708d305795de55c857493a8819dca9bafec7cd36cd01091fba4d902de573158a"
+    },
+    {
+      "archive_path": "webview/assets/annotation-mode-button-fa4bee24eb8d.js",
+      "file": "_deps/annotation-mode-button-fa4bee24eb8d.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 3605,
+      "formatted_bytes": 5746,
+      "formatter": "prettier",
+      "sha256_raw": "f597f42bcabf05e258acb0065a5e9f76f243f0f39e3bdef4d238a1d636c7abc8"
+    },
+    {
+      "archive_path": "webview/assets/annotation-scopes-fbb81b16f7b1.js",
+      "file": "_deps/annotation-scopes-fbb81b16f7b1.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1126,
+      "formatted_bytes": 1438,
+      "formatter": "prettier",
+      "sha256_raw": "5aafd68ff5af0adc32ee348234e2e622d4e68c820eb4fae9c06a63e4bf4afd32"
+    },
+    {
+      "archive_path": "webview/assets/arrow-curved-right-c429570ec5db.js",
+      "file": "_deps/arrow-curved-right-c429570ec5db.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 929,
+      "formatted_bytes": 1136,
+      "formatter": "prettier",
+      "sha256_raw": "d6d3ad129dfd25a50b63d7b0c2bd915d9b276d9dbf8ae5c61ace1bebbf59216b"
+    },
+    {
+      "archive_path": "webview/assets/artifact-annotation-batch-controls-b9f12cd27bf6.js",
+      "file": "_deps/artifact-annotation-batch-controls-b9f12cd27bf6.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 16149,
+      "formatted_bytes": 26443,
+      "formatter": "prettier",
+      "sha256_raw": "48d074e064c8b078c233bc9ea6b87f9c821dc82e25920f64490e49f70f77330f"
+    },
+    {
+      "archive_path": "webview/assets/artifact-feedback-button-9394715d94e5.js",
+      "file": "_deps/artifact-feedback-button-9394715d94e5.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 16622,
+      "formatted_bytes": 25609,
+      "formatter": "prettier",
+      "sha256_raw": "6b36186606cd7361a04de02041e021e64e43ae9b35b872cbaae1969251327352"
+    },
+    {
+      "archive_path": "webview/assets/artifact-file-preview-icon-70a3fde11749.js",
+      "file": "_deps/artifact-file-preview-icon-70a3fde11749.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1579,
+      "formatted_bytes": 2430,
+      "formatter": "prettier",
+      "sha256_raw": "b1f74f4c3dbf6755ac623d9d8484cd20f5243d79400555731f68ca314e253157"
+    },
+    {
+      "archive_path": "webview/assets/artifact-preview-header-abbff5f8a3ae.js",
+      "file": "_deps/artifact-preview-header-abbff5f8a3ae.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 11088,
+      "formatted_bytes": 19721,
+      "formatter": "prettier",
+      "sha256_raw": "5d634ce4df67ffd56cc67178055f626536a72a0c21485131e309829b5723dbb8"
+    },
+    {
+      "archive_path": "webview/assets/artifact-preview-status-ce3d7c794ec8.js",
+      "file": "_deps/artifact-preview-status-ce3d7c794ec8.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 754,
+      "formatted_bytes": 1095,
+      "formatter": "prettier",
+      "sha256_raw": "07139ff80d379fb43db4f0ee0f859b31e840f2aab0070bfa679046f6f50e4fcf"
+    },
+    {
+      "archive_path": "webview/assets/artifact-source-bootstrap-b7ba40702025.js",
+      "file": "previews/artifact-source-bootstrap-b7ba40702025.js",
+      "selected_by": "rule",
+      "raw_bytes": 338063,
+      "formatted_bytes": 582738,
+      "formatter": "prettier",
+      "sha256_raw": "08be00ddf9db7c40723e07e66c505b2dd6df4602914d742a3c1de5795ee134c4"
+    },
+    {
+      "archive_path": "webview/assets/artifact-source-bootstrap-cc781733d401.css",
+      "file": "previews/artifact-source-bootstrap-cc781733d401.css",
+      "selected_by": "rule",
+      "raw_bytes": 435,
+      "formatted_bytes": 504,
+      "formatter": "prettier",
+      "sha256_raw": "0b7f7111cdcbe54bded02de7c529a52cc3469e994c640e87c89edd612a665a14"
+    },
+    {
+      "archive_path": "webview/assets/artifact-tab-content-shell-4199cd330d98.js",
+      "file": "previews/artifact-tab-content-shell-4199cd330d98.js",
+      "selected_by": "rule",
+      "raw_bytes": 3888,
+      "formatted_bytes": 4989,
+      "formatter": "prettier",
+      "sha256_raw": "f5c69d2f69f498b7e6b9a765259c417b2430ab40056c49a40028675cd304fd6d"
+    },
+    {
+      "archive_path": "webview/assets/artifact-tab-content-shell-9bbfe8abde48.js",
+      "file": "previews/artifact-tab-content-shell-9bbfe8abde48.js",
+      "selected_by": "rule",
+      "raw_bytes": 108,
+      "formatted_bytes": 120,
+      "formatter": "prettier",
+      "sha256_raw": "395ffe1bd53c386da320a4aaa7e3acd53d9bf220228b6d4d307afd0c1297d731"
+    },
+    {
+      "archive_path": "webview/assets/artifact-tab-content.electron-3488fb2d509f.js",
+      "file": "previews/artifact-tab-content.electron-3488fb2d509f.js",
+      "selected_by": "rule",
+      "raw_bytes": 111,
+      "formatted_bytes": 123,
+      "formatter": "prettier",
+      "sha256_raw": "637aba96af0cb914f19cb66350ebb7a031c679d5c4f8e16284667c7c62d74ae9"
+    },
+    {
+      "archive_path": "webview/assets/artifact-tab-content.electron-f96c26739383.js",
+      "file": "previews/artifact-tab-content.electron-f96c26739383.js",
+      "selected_by": "rule",
+      "raw_bytes": 198642,
+      "formatted_bytes": 322250,
+      "formatter": "prettier",
+      "sha256_raw": "6aaa647f8ca0ab166372395a27a7c3b0010cde5fe84010f50440ac55376e01f5"
+    },
+    {
+      "archive_path": "webview/assets/automation-delete-confirmation-dialog-c1501bf84bbd.js",
+      "file": "_deps/automation-delete-confirmation-dialog-c1501bf84bbd.js",
+      "selected_by": "closure:d1:automation-side-panel-tab-e00029fe121b.js",
+      "raw_bytes": 2397,
+      "formatted_bytes": 3514,
+      "formatter": "prettier",
+      "sha256_raw": "6513472e7b6f47fd3379aa709a91fb67a7d0b8dccb68d45467afa9140b19d4c8"
+    },
+    {
+      "archive_path": "webview/assets/automation-frequency-section-49a6d0cc31da.js",
+      "file": "_deps/automation-frequency-section-49a6d0cc31da.js",
+      "selected_by": "closure:d1:cloud-automation-detail-panel-c76d4ae4bfb4.js",
+      "raw_bytes": 170927,
+      "formatted_bytes": 287955,
+      "formatter": "prettier",
+      "sha256_raw": "230d7bbeb7aa92a22d41d410b27fab300e7abf4988499f321c1b01695109bb99"
+    },
+    {
+      "archive_path": "webview/assets/automation-frequency-section-babd3c0f0928.css",
+      "file": "_deps/automation-frequency-section-babd3c0f0928.css",
+      "selected_by": "closure:d1:open-automation-side-panel-tab-3dba1f01fdd9.js",
+      "raw_bytes": 48551,
+      "formatted_bytes": 57026,
+      "formatter": "prettier",
+      "sha256_raw": "1604735eed4a715a143bce258cb65f92d2ea29e970017ece88061f0e3a7a2e3c"
+    },
+    {
+      "archive_path": "webview/assets/automation-side-panel-tab-e00029fe121b.js",
+      "file": "tabs/automation-side-panel-tab-e00029fe121b.js",
+      "selected_by": "rule",
+      "raw_bytes": 16078,
+      "formatted_bytes": 27322,
+      "formatter": "prettier",
+      "sha256_raw": "10eae78fd443ab65850f8e622b01977f08972c76d70c7dcd48104c1c5135e0f9"
+    },
+    {
+      "archive_path": "webview/assets/background-terminal-6775c46c6478.js",
+      "file": "terminal/background-terminal-6775c46c6478.js",
+      "selected_by": "rule",
+      "raw_bytes": 583,
+      "formatted_bytes": 776,
+      "formatter": "prettier",
+      "sha256_raw": "88b7c5df19101c7184c4d4ae61e5d686a5e07981f55e36120ea2e616ce815491"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-entity-side-panel-tab-57db54c802c9.js",
+      "file": "tabs/chatgpt-entity-side-panel-tab-57db54c802c9.js",
+      "selected_by": "rule",
+      "raw_bytes": 1488,
+      "formatted_bytes": 2044,
+      "formatter": "prettier",
+      "sha256_raw": "3ab7867342e9adbe6df14c4772eae1eb6b3c625cdc3a3ea67097d877bb6b03fe"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-sources-side-panel-tab-99e831d8b9d6.js",
+      "file": "tabs/chatgpt-sources-side-panel-tab-99e831d8b9d6.js",
+      "selected_by": "rule",
+      "raw_bytes": 28930,
+      "formatted_bytes": 44242,
+      "formatter": "prettier",
+      "sha256_raw": "96e201aec177e6dab8a3bcb0adf9759d850a5796c62ecc12876e232ba48c2393"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-subagent-final-response-query-25bc28e7c92f.js",
+      "file": "subagents/chatgpt-subagent-final-response-query-25bc28e7c92f.js",
+      "selected_by": "rule",
+      "raw_bytes": 1142,
+      "formatted_bytes": 1605,
+      "formatter": "prettier",
+      "sha256_raw": "043b012fff9f754ee0925c86f94e8e878b4a4a48ea80beb0dd3eea2e767d44c7"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-subagents-panel-9fb6b306abe8.js",
+      "file": "subagents/chatgpt-subagents-panel-9fb6b306abe8.js",
+      "selected_by": "rule",
+      "raw_bytes": 11373,
+      "formatted_bytes": 18172,
+      "formatter": "prettier",
+      "sha256_raw": "9cd7d354980935f9f7e4a01e61af0da8b7d824b7ecdc9a6e81b08e81c66e1187"
+    },
+    {
+      "archive_path": "webview/assets/cloud-automation-detail-panel-c76d4ae4bfb4.js",
+      "file": "tabs/cloud-automation-detail-panel-c76d4ae4bfb4.js",
+      "selected_by": "rule",
+      "raw_bytes": 60046,
+      "formatted_bytes": 98457,
+      "formatter": "prettier",
+      "sha256_raw": "570156d734a78232bf5e9ae45ce9d4066eb4c18f009ea84b94deeaed50b7855b"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-preview-37854eb6b805.css",
+      "file": "previews/cloud-browser-preview-37854eb6b805.css",
+      "selected_by": "rule",
+      "raw_bytes": 3413,
+      "formatted_bytes": 4200,
+      "formatter": "prettier",
+      "sha256_raw": "b00012913c7066342ce09cbcc4c4abf5747fe31b152173e0df887849bffbd8c3"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-preview-d0a1db7d6b58.js",
+      "file": "previews/cloud-browser-preview-d0a1db7d6b58.js",
+      "selected_by": "rule",
+      "raw_bytes": 9628,
+      "formatted_bytes": 17171,
+      "formatter": "prettier",
+      "sha256_raw": "fc5705f49941be0619868e1b8c6da53ca0e2c073354725c79ead67d525053d91"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-side-panel-5e03291eec4b.css",
+      "file": "previews/cloud-browser-side-panel-5e03291eec4b.css",
+      "selected_by": "rule",
+      "raw_bytes": 2338,
+      "formatted_bytes": 2908,
+      "formatter": "prettier",
+      "sha256_raw": "c42601f78b5e2deb6bfff77473ba13f4935da9a1a90b0efafdcf1789bd44a0fa"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-side-panel-f0ee6b4ea444.js",
+      "file": "previews/cloud-browser-side-panel-f0ee6b4ea444.js",
+      "selected_by": "rule",
+      "raw_bytes": 28167,
+      "formatted_bytes": 48125,
+      "formatter": "prettier",
+      "sha256_raw": "5a392829205de8f416fd268bc6cb3bad9a0b5ea0d059ede4c9ed10083a0c2ff2"
+    },
+    {
+      "archive_path": "webview/assets/code-diff-dbee820b6963.js",
+      "file": "_deps/code-diff-dbee820b6963.js",
+      "selected_by": "closure:d1:open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "raw_bytes": 55543,
+      "formatted_bytes": 89404,
+      "formatter": "prettier",
+      "sha256_raw": "055a9595bba9311531f82edd1a4158721f20bce5e896468856d71f24fdf6b004"
+    },
+    {
+      "archive_path": "webview/assets/codex-analytics-attribution-fe4d0bf2f484.js",
+      "file": "_deps/codex-analytics-attribution-fe4d0bf2f484.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 464,
+      "formatted_bytes": 589,
+      "formatter": "prettier",
+      "sha256_raw": "ebb60cc0c378de9207bd13cfc5fedd23fc3a556a8105ec20c7db960dcf2d7831"
+    },
+    {
+      "archive_path": "webview/assets/codex-home-announcements-d9e95d6eff58.js",
+      "file": "_deps/codex-home-announcements-d9e95d6eff58.js",
+      "selected_by": "closure:d1:new-thread-panel-page-d38235b242d6.js",
+      "raw_bytes": 43696,
+      "formatted_bytes": 66970,
+      "formatter": "prettier",
+      "sha256_raw": "f5280d4201ee6120aa3bd89214e955bc3acbde868a3245dbd3c3c7486622e586"
+    },
+    {
+      "archive_path": "webview/assets/codex-light-16-3986f0d27657.js",
+      "file": "_deps/codex-light-16-3986f0d27657.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 2846,
+      "formatted_bytes": 3234,
+      "formatter": "prettier",
+      "sha256_raw": "d5788d610fac6cb2114c3761529bcdb4f8e1b697e8236d65b51793d417f1ef67"
+    },
+    {
+      "archive_path": "webview/assets/compact-empty-state-9a2953b7acb0.js",
+      "file": "_deps/compact-empty-state-9a2953b7acb0.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1521,
+      "formatted_bytes": 2275,
+      "formatter": "prettier",
+      "sha256_raw": "6b86025825f9b8382487986c2d07d2295b9eae1ac368847014df5f94ce8537c9"
+    },
+    {
+      "archive_path": "webview/assets/control-panel-358b5c80076c.css",
+      "file": "tabs/control-panel-358b5c80076c.css",
+      "selected_by": "rule",
+      "raw_bytes": 63,
+      "formatted_bytes": 79,
+      "formatter": "prettier",
+      "sha256_raw": "027832ed5405f141ae6c281226b3383564aa8a596f84d2d80f594ec056778ff3"
+    },
+    {
+      "archive_path": "webview/assets/control-panel-caa0b12ebd31.js",
+      "file": "tabs/control-panel-caa0b12ebd31.js",
+      "selected_by": "rule",
+      "raw_bytes": 1939,
+      "formatted_bytes": 2849,
+      "formatter": "prettier",
+      "sha256_raw": "fa5e4fe0e6f33971857bd483cdc5e2462fb1f71e55cb6ec9775c897b21f55b18"
+    },
+    {
+      "archive_path": "webview/assets/core-fd61a496c1f9.js",
+      "file": "_deps/core-fd61a496c1f9.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 20325,
+      "formatted_bytes": 32461,
+      "formatter": "prettier",
+      "sha256_raw": "eb2d3997084ce06a73b9b4154102cf1d318d696ed4d021013b7847fc2599d9bb"
+    },
+    {
+      "archive_path": "webview/assets/diff-comment-card-2288e5b28f03.css",
+      "file": "_deps/diff-comment-card-2288e5b28f03.css",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 174,
+      "formatted_bytes": 198,
+      "formatter": "prettier",
+      "sha256_raw": "29aff631bb6bc72915eb7bedce6d874eb9152db2732c93c97671c122a7932b95"
+    },
+    {
+      "archive_path": "webview/assets/diff-comment-card-c409d5c26721.js",
+      "file": "_deps/diff-comment-card-c409d5c26721.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 2739,
+      "formatted_bytes": 4264,
+      "formatter": "prettier",
+      "sha256_raw": "bed981a2e6f6f0949b3837c561ebba8df2e4904bc5580c44e09b65acf9b99388"
+    },
+    {
+      "archive_path": "webview/assets/diff-source-a588acc09b83.js",
+      "file": "_deps/diff-source-a588acc09b83.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 4193,
+      "formatted_bytes": 6028,
+      "formatter": "prettier",
+      "sha256_raw": "2b6a5e403bb44840279390e768f20b2c800f13f92a57042b860916387e077777"
+    },
+    {
+      "archive_path": "webview/assets/dist-4fb357c8c101.js",
+      "file": "_deps/dist-4fb357c8c101.js",
+      "selected_by": "closure:d1:text-file-editor-tab-content.electron-b517f3f85a48.js",
+      "raw_bytes": 77971,
+      "formatted_bytes": 82802,
+      "formatter": "prettier",
+      "sha256_raw": "4d1e86ad069d93d37fca8f205efe0d75c2a596605ad650a2449e2f811194fa19"
+    },
+    {
+      "archive_path": "webview/assets/dist-809f83e6e218.js",
+      "file": "_deps/dist-809f83e6e218.js",
+      "selected_by": "closure:d1:file-editor-theme-75aaad6f8219.js",
+      "raw_bytes": 34644,
+      "formatted_bytes": 59751,
+      "formatter": "prettier",
+      "sha256_raw": "ed8d3bda2891af124f8e5633246926b850a7c2361b10bacd8c2d561ada573b01"
+    },
+    {
+      "archive_path": "webview/assets/dist-f9d6ecf23d60.js",
+      "file": "_deps/dist-f9d6ecf23d60.js",
+      "selected_by": "closure:d1:text-file-editor-tab-content.electron-b517f3f85a48.js",
+      "raw_bytes": 26598,
+      "formatted_bytes": 46412,
+      "formatter": "prettier",
+      "sha256_raw": "0f72ddff897f3285f60de2ca5691954eff9e8cd0b4387b4a5b0615065b12e89d"
+    },
+    {
+      "archive_path": "webview/assets/document-5fedf4c25de2.js",
+      "file": "_deps/document-5fedf4c25de2.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 678,
+      "formatted_bytes": 836,
+      "formatter": "prettier",
+      "sha256_raw": "698f0ffe03ca89227f340b222b7d4cbb0ecc52c6d07423e2470f3768d9cec9f6"
+    },
+    {
+      "archive_path": "webview/assets/document-8592358b88eb.js",
+      "file": "_deps/document-8592358b88eb.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 27429,
+      "formatted_bytes": 48482,
+      "formatter": "prettier",
+      "sha256_raw": "292d89617de8c24c76628e2f0f970b990b036872e580fdf36d0145a64ea1e80a"
+    },
+    {
+      "archive_path": "webview/assets/docx-preview-ef5f124f273f.js",
+      "file": "_deps/docx-preview-ef5f124f273f.js",
+      "selected_by": "closure:d1:docx-preview-panel-7d038fc9f715.js",
+      "raw_bytes": 170900,
+      "formatted_bytes": 331164,
+      "formatter": "prettier",
+      "sha256_raw": "352eefb4bac4960ac524c8ff5e1cb8e0c9cf3bb5cd13d6e825ff35edc6f667ef"
+    },
+    {
+      "archive_path": "webview/assets/docx-preview-panel-7d038fc9f715.js",
+      "file": "previews/docx-preview-panel-7d038fc9f715.js",
+      "selected_by": "rule",
+      "raw_bytes": 48684,
+      "formatted_bytes": 79508,
+      "formatter": "prettier",
+      "sha256_raw": "fc3e43e82c76d43ca0cf3c40d8f96297468f5c0ba9e33710d7fd3ffa5dd1509c"
+    },
+    {
+      "archive_path": "webview/assets/drawing-frame-geometry-edc4f489bcf8.js",
+      "file": "_deps/drawing-frame-geometry-edc4f489bcf8.js",
+      "selected_by": "closure:d1:artifact-source-bootstrap-b7ba40702025.js",
+      "raw_bytes": 2983,
+      "formatted_bytes": 4023,
+      "formatter": "prettier",
+      "sha256_raw": "52fffc152a47117248d6762745f125866b8a7d196422cbda2e1d85dfd3b5e680"
+    },
+    {
+      "archive_path": "webview/assets/exec-shell-container-5907f96a4bc6.js",
+      "file": "terminal/exec-shell-container-5907f96a4bc6.js",
+      "selected_by": "rule",
+      "raw_bytes": 19574,
+      "formatted_bytes": 31696,
+      "formatter": "prettier",
+      "sha256_raw": "cc657eb538e96e21b0f25d66e69e6e71417a6c668cab8cf4fd657a0ebf0a5763"
+    },
+    {
+      "archive_path": "webview/assets/exec-shell-container-cecb2c03ae9a.css",
+      "file": "terminal/exec-shell-container-cecb2c03ae9a.css",
+      "selected_by": "rule",
+      "raw_bytes": 2281,
+      "formatted_bytes": 2592,
+      "formatter": "prettier",
+      "sha256_raw": "ff0971b7ee5e524c50f571d5d03c1efd50d10fc020703e9170e138535081e8a3"
+    },
+    {
+      "archive_path": "webview/assets/feedback-availability-ba2b2560dbae.js",
+      "file": "_deps/feedback-availability-ba2b2560dbae.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 756,
+      "formatted_bytes": 1088,
+      "formatter": "prettier",
+      "sha256_raw": "60215eff6177278ad9ed1f5267ca3c41c1662a46805a2fa5c2e3400eaafa71d6"
+    },
+    {
+      "archive_path": "webview/assets/file-blank-6ef6808eff9a.js",
+      "file": "_deps/file-blank-6ef6808eff9a.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 2949,
+      "formatted_bytes": 3186,
+      "formatter": "prettier",
+      "sha256_raw": "bc3b3c3b40877dccb7ecbf9527956485ced7f98b518fa2d547a10782ff110a83"
+    },
+    {
+      "archive_path": "webview/assets/file-editor-theme-75aaad6f8219.js",
+      "file": "previews/file-editor-theme-75aaad6f8219.js",
+      "selected_by": "rule",
+      "raw_bytes": 256329,
+      "formatted_bytes": 420119,
+      "formatter": "prettier",
+      "sha256_raw": "9c359092c74c7ac80d5dc05f990c11e162cc1b22ac6c385b3c84a65b14971af4"
+    },
+    {
+      "archive_path": "webview/assets/filter-alt-aeda224d8ab7.js",
+      "file": "_deps/filter-alt-aeda224d8ab7.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1407,
+      "formatted_bytes": 1616,
+      "formatter": "prettier",
+      "sha256_raw": "89319a5c855d3895e496c264a3cf230fa4339c589b3e587967bf77b30f4ff892"
+    },
+    {
+      "archive_path": "webview/assets/freeze-panes-7a2ff30d4631.js",
+      "file": "_deps/freeze-panes-7a2ff30d4631.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 3236,
+      "formatted_bytes": 4361,
+      "formatter": "prettier",
+      "sha256_raw": "e78d55a3c15500c43d9dfdfe06ceaed46d4752b2d760a6249fdaf237e1264566"
+    },
+    {
+      "archive_path": "webview/assets/full-content-metadata-afbc573bb0ec.js",
+      "file": "_deps/full-content-metadata-afbc573bb0ec.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1930,
+      "formatted_bytes": 2741,
+      "formatter": "prettier",
+      "sha256_raw": "f966eb8265a3e1c41396a3cfb70119d382c9458914c3250815e3058dd0740ef2"
+    },
+    {
+      "archive_path": "webview/assets/gate-04dc472e6f9b.js",
+      "file": "_deps/gate-04dc472e6f9b.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 147,
+      "formatted_bytes": 175,
+      "formatter": "prettier",
+      "sha256_raw": "b2b8088e7314463c98d70a1a1514cf29185aeec14b10c171cafd9f67f09eac67"
+    },
+    {
+      "archive_path": "webview/assets/github-file-url-de7160c14b01.js",
+      "file": "_deps/github-file-url-de7160c14b01.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1166,
+      "formatted_bytes": 1424,
+      "formatter": "prettier",
+      "sha256_raw": "bbe52ef14b7068236b92bcc4bad00b0d7e2296536dd273a83d059a85ad31b473"
+    },
+    {
+      "archive_path": "webview/assets/highlight-selectors-9d1b805d6cf4.js",
+      "file": "_deps/highlight-selectors-9d1b805d6cf4.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 567,
+      "formatted_bytes": 704,
+      "formatter": "prettier",
+      "sha256_raw": "02ec9efd53b679317f9c6f4ee3741f165579fc8a96e61527cbe82e113315c6f7"
+    },
+    {
+      "archive_path": "webview/assets/history-7a399655a3e6.js",
+      "file": "_deps/history-7a399655a3e6.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1453,
+      "formatted_bytes": 1662,
+      "formatter": "prettier",
+      "sha256_raw": "44096a69500b7455b6afe0fb092b19b926c439b63aaeee299e427d1845e74824"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-background-terminal-tab-f0f76b7da29d.js",
+      "file": "terminal/local-conversation-background-terminal-tab-f0f76b7da29d.js",
+      "selected_by": "rule",
+      "raw_bytes": 2254,
+      "formatted_bytes": 3220,
+      "formatter": "prettier",
+      "sha256_raw": "06501423d4677080615e25ec930db80b9d9ff38b03ed1c8eb0e13b8601652dcf"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-sources-side-panel-tab-5249bb6f5cea.js",
+      "file": "tabs/local-conversation-sources-side-panel-tab-5249bb6f5cea.js",
+      "selected_by": "rule",
+      "raw_bytes": 11867,
+      "formatted_bytes": 22441,
+      "formatter": "prettier",
+      "sha256_raw": "9aa2a5ce9389b4f5483508d1a1d7716bee42c5c3a044a07d44e372d33afa44f1"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-subagents-panel-tab-983856e8dcd2.js",
+      "file": "subagents/local-conversation-subagents-panel-tab-983856e8dcd2.js",
+      "selected_by": "rule",
+      "raw_bytes": 6762,
+      "formatted_bytes": 10740,
+      "formatter": "prettier",
+      "sha256_raw": "9953aa7cd6c61a86abe39bf4175e90e86acd106d4b2f1dd8ff1595694645cac6"
+    },
+    {
+      "archive_path": "webview/assets/local-conversation-summary-panel-sources-model-aebd81465a06.js",
+      "file": "tabs/local-conversation-summary-panel-sources-model-aebd81465a06.js",
+      "selected_by": "rule",
+      "raw_bytes": 3900,
+      "formatted_bytes": 5538,
+      "formatter": "prettier",
+      "sha256_raw": "96a17e4e8a20e9c97e8e63ac12188a952f4c2f359fb77edbd8d4460bbee18bf0"
+    },
+    {
+      "archive_path": "webview/assets/lodash-7c639913ad7a.js",
+      "file": "_deps/lodash-7c639913ad7a.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 37458,
+      "formatted_bytes": 57299,
+      "formatter": "prettier",
+      "sha256_raw": "29ac1d34027299dd98e2ecc96a75b7eb1b35f6ebeeef08591cc9a4a494f34ee4"
+    },
+    {
+      "archive_path": "webview/assets/mcp-extension-thread-side-panel-tab-a2ff5341c29d.js",
+      "file": "tabs/mcp-extension-thread-side-panel-tab-a2ff5341c29d.js",
+      "selected_by": "rule",
+      "raw_bytes": 241,
+      "formatted_bytes": 268,
+      "formatter": "prettier",
+      "sha256_raw": "b046a1c8fbe987520b6c8d043d441dd2fa0407efbf7daefced98e88c827b2e65"
+    },
+    {
+      "archive_path": "webview/assets/mcp-extension-view-frame-71a0f1e67dc5.js",
+      "file": "_deps/mcp-extension-view-frame-71a0f1e67dc5.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 8708,
+      "formatted_bytes": 13757,
+      "formatter": "prettier",
+      "sha256_raw": "31225553867b051c7553f9ff226e25e59c1271d05301fc5d47e0362d0a7184eb"
+    },
+    {
+      "archive_path": "webview/assets/modifiers.esm-667a798d9391.js",
+      "file": "_deps/modifiers.esm-667a798d9391.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 636,
+      "formatted_bytes": 971,
+      "formatter": "prettier",
+      "sha256_raw": "d4c4d16c684cd3374b225b9641662dbad1ee61b5a65cfed43c13864302e47637"
+    },
+    {
+      "archive_path": "webview/assets/new-thread-panel-page-d38235b242d6.js",
+      "file": "tabs/new-thread-panel-page-d38235b242d6.js",
+      "selected_by": "rule",
+      "raw_bytes": 2313,
+      "formatted_bytes": 3313,
+      "formatter": "prettier",
+      "sha256_raw": "569866fe4595af9de652aed8093990098c74e3e406676867094df723fbb5cc3a"
+    },
+    {
+      "archive_path": "webview/assets/notebook-preview-panel-93b0bdcffea7.js",
+      "file": "previews/notebook-preview-panel-93b0bdcffea7.js",
+      "selected_by": "rule",
+      "raw_bytes": 22076,
+      "formatted_bytes": 34714,
+      "formatter": "prettier",
+      "sha256_raw": "b91ba0409f1c7f0bf5b2448dab2f9168d309c9010e6ceafa7e2304bfaa88b1b5"
+    },
+    {
+      "archive_path": "webview/assets/open-artifact-side-panel-tab-c6e8ca084e25.js",
+      "file": "tabs/open-artifact-side-panel-tab-c6e8ca084e25.js",
+      "selected_by": "rule",
+      "raw_bytes": 197,
+      "formatted_bytes": 220,
+      "formatter": "prettier",
+      "sha256_raw": "787528f81ca5a5f13ea0fed23080ecb1a47fe194190f01145873e3c25fb0614b"
+    },
+    {
+      "archive_path": "webview/assets/open-automation-side-panel-tab-3dba1f01fdd9.js",
+      "file": "tabs/open-automation-side-panel-tab-3dba1f01fdd9.js",
+      "selected_by": "rule",
+      "raw_bytes": 2542,
+      "formatted_bytes": 3507,
+      "formatter": "prettier",
+      "sha256_raw": "dbb8a15de9f77a81cb9bce94c116af11f5ea6487aa63ce7481c6583068a51019"
+    },
+    {
+      "archive_path": "webview/assets/open-automation-side-panel-tab-c42fe8b72e22.js",
+      "file": "tabs/open-automation-side-panel-tab-c42fe8b72e22.js",
+      "selected_by": "rule",
+      "raw_bytes": 211,
+      "formatted_bytes": 234,
+      "formatter": "prettier",
+      "sha256_raw": "d1c934ac671dd801360ba2f1e04e39256265d1927531c156429a0423c8a14fce"
+    },
+    {
+      "archive_path": "webview/assets/open-local-conversation-background-agent-8e08ac10fa69.js",
+      "file": "tabs/open-local-conversation-background-agent-8e08ac10fa69.js",
+      "selected_by": "rule",
+      "raw_bytes": 355,
+      "formatted_bytes": 392,
+      "formatter": "prettier",
+      "sha256_raw": "d866ca73ff5cf93ade3bf65826c0adbc64cc9327a45752812e3007fcbed6ac51"
+    },
+    {
+      "archive_path": "webview/assets/open-local-conversation-background-agent-f4fcbfbc907a.js",
+      "file": "tabs/open-local-conversation-background-agent-f4fcbfbc907a.js",
+      "selected_by": "rule",
+      "raw_bytes": 1399,
+      "formatted_bytes": 1762,
+      "formatter": "prettier",
+      "sha256_raw": "889f656946cccac910fb8fa3982e107261f2df3789d49a5c4038b5e60ea38321"
+    },
+    {
+      "archive_path": "webview/assets/open-local-conversation-background-terminal-tab-2a86b4368654.js",
+      "file": "terminal/open-local-conversation-background-terminal-tab-2a86b4368654.js",
+      "selected_by": "rule",
+      "raw_bytes": 148,
+      "formatted_bytes": 160,
+      "formatter": "prettier",
+      "sha256_raw": "116ed8d901a47c4af83ade16f91611a60b809ae505d1480887167a7824ca8d1d"
+    },
+    {
+      "archive_path": "webview/assets/open-local-conversation-background-terminal-tab-c98203cf1efd.js",
+      "file": "terminal/open-local-conversation-background-terminal-tab-c98203cf1efd.js",
+      "selected_by": "rule",
+      "raw_bytes": 641,
+      "formatted_bytes": 816,
+      "formatter": "prettier",
+      "sha256_raw": "58a38e77c7a5287fa7794348c1a38dd491ff6103e087757b4c60e1d7280b64ab"
+    },
+    {
+      "archive_path": "webview/assets/open-local-conversation-sources-side-panel-tab-e80692a35ed8.js",
+      "file": "tabs/open-local-conversation-sources-side-panel-tab-e80692a35ed8.js",
+      "selected_by": "rule",
+      "raw_bytes": 8357,
+      "formatted_bytes": 11908,
+      "formatter": "prettier",
+      "sha256_raw": "51b10288696de04a29e527d91f1a1d79062d86c91865b9ebd3053f2eef9817f9"
+    },
+    {
+      "archive_path": "webview/assets/open-local-conversation-subagents-panel-84337b6e92ce.js",
+      "file": "subagents/open-local-conversation-subagents-panel-84337b6e92ce.js",
+      "selected_by": "rule",
+      "raw_bytes": 2540,
+      "formatted_bytes": 3546,
+      "formatter": "prettier",
+      "sha256_raw": "bd3af031299c894906bb357672f2c62c6a88f96638f3d9d8f63148b13cc9c791"
+    },
+    {
+      "archive_path": "webview/assets/open-local-conversation-subagents-panel-938e4e1ca382.js",
+      "file": "subagents/open-local-conversation-subagents-panel-938e4e1ca382.js",
+      "selected_by": "rule",
+      "raw_bytes": 133,
+      "formatted_bytes": 145,
+      "formatter": "prettier",
+      "sha256_raw": "43310c0499aa684a0755ad854f1a080840e2fe3833c8124c7958038d6c2ab718"
+    },
+    {
+      "archive_path": "webview/assets/open-pull-request-fix-automation-panel-8776b11b39da.js",
+      "file": "tabs/open-pull-request-fix-automation-panel-8776b11b39da.js",
+      "selected_by": "rule",
+      "raw_bytes": 1513,
+      "formatted_bytes": 2046,
+      "formatter": "prettier",
+      "sha256_raw": "19eafa514f6f62fe2c03a054fec63d4a6ae0ad22b1405e42864989b2f993b0cf"
+    },
+    {
+      "archive_path": "webview/assets/open-pull-request-fix-automation-panel-a4bac8d2678d.js",
+      "file": "tabs/open-pull-request-fix-automation-panel-a4bac8d2678d.js",
+      "selected_by": "rule",
+      "raw_bytes": 191,
+      "formatted_bytes": 205,
+      "formatter": "prettier",
+      "sha256_raw": "56484b06e80cdf50bbdea04cb8fcd06d687bc1d35ac00a8389670efcb9f5d652"
+    },
+    {
+      "archive_path": "webview/assets/open-sources-side-panel-tab-a9204e8bb500.js",
+      "file": "tabs/open-sources-side-panel-tab-a9204e8bb500.js",
+      "selected_by": "rule",
+      "raw_bytes": 2562,
+      "formatted_bytes": 3100,
+      "formatter": "prettier",
+      "sha256_raw": "ae9188d1759c8ac7cabfa16c625873ef2f0346402f0cc4f7523365ea0e863eaa"
+    },
+    {
+      "archive_path": "webview/assets/open-text-file-editor-side-panel-tab.electron-cc91fbddcb18.js",
+      "file": "tabs/open-text-file-editor-side-panel-tab.electron-cc91fbddcb18.js",
+      "selected_by": "rule",
+      "raw_bytes": 107,
+      "formatted_bytes": 119,
+      "formatter": "prettier",
+      "sha256_raw": "4756b17f255a7b9ea032ed0f28c48f22f2475d87739d8eefefd8672c230cc6e1"
+    },
+    {
+      "archive_path": "webview/assets/open-thread-pull-request-code-tab-67149c948952.js",
+      "file": "tabs/open-thread-pull-request-code-tab-67149c948952.js",
+      "selected_by": "rule",
+      "raw_bytes": 120,
+      "formatted_bytes": 132,
+      "formatter": "prettier",
+      "sha256_raw": "b6a5d6ae75f2da168e7034550855f33217f17e0dab028af676c2793aa049bf78"
+    },
+    {
+      "archive_path": "webview/assets/open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "file": "tabs/open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "selected_by": "rule",
+      "raw_bytes": 3778,
+      "formatted_bytes": 4970,
+      "formatter": "prettier",
+      "sha256_raw": "d5b3c1e9f720bdf168090c07535931c66b748b4b73ae960250d39f5dbc8f0afe"
+    },
+    {
+      "archive_path": "webview/assets/open-thread-pull-request-side-panel-tab-b42ed7b596e4.js",
+      "file": "tabs/open-thread-pull-request-side-panel-tab-b42ed7b596e4.js",
+      "selected_by": "rule",
+      "raw_bytes": 4721,
+      "formatted_bytes": 7093,
+      "formatter": "prettier",
+      "sha256_raw": "e7cd7f8d4da3d0c56c927b364c54362653d3df4fb07e694573a3fa3a0372479b"
+    },
+    {
+      "archive_path": "webview/assets/open-thread-pull-request-side-panel-tab-d4eca186b3fc.js",
+      "file": "tabs/open-thread-pull-request-side-panel-tab-d4eca186b3fc.js",
+      "selected_by": "rule",
+      "raw_bytes": 240,
+      "formatted_bytes": 263,
+      "formatter": "prettier",
+      "sha256_raw": "3cd11750362ccde92552eefb9f691c6f0a92057a2faf24dfc0137fe8d0565339"
+    },
+    {
+      "archive_path": "webview/assets/panel-visibility-6143cd2f2ec9.js",
+      "file": "tabs/panel-visibility-6143cd2f2ec9.js",
+      "selected_by": "rule",
+      "raw_bytes": 1657,
+      "formatted_bytes": 2276,
+      "formatter": "prettier",
+      "sha256_raw": "632adb1f09ca544b796bff6819665b6105ff6c8b72d86ffb9c72c3867a1a4b99"
+    },
+    {
+      "archive_path": "webview/assets/pdf-preview-panel-9569314b064c.js",
+      "file": "previews/pdf-preview-panel-9569314b064c.js",
+      "selected_by": "rule",
+      "raw_bytes": 58551,
+      "formatted_bytes": 100267,
+      "formatter": "prettier",
+      "sha256_raw": "e7f98bbc775df78d7de6e2002114966271a382f3b82b33a09d8a4a9864e6dbda"
+    },
+    {
+      "archive_path": "webview/assets/pdf-preview-panel-cc39ef9f5913.css",
+      "file": "previews/pdf-preview-panel-cc39ef9f5913.css",
+      "selected_by": "rule",
+      "raw_bytes": 1652,
+      "formatted_bytes": 1926,
+      "formatter": "prettier",
+      "sha256_raw": "43bfff587a45613e6383b8f7d1ccb88c3fac70036948618a0d8524a34e9466e6"
+    },
+    {
+      "archive_path": "webview/assets/plan-side-panel-e22fc1aa0e4a.js",
+      "file": "tabs/plan-side-panel-e22fc1aa0e4a.js",
+      "selected_by": "rule",
+      "raw_bytes": 229,
+      "formatted_bytes": 260,
+      "formatter": "prettier",
+      "sha256_raw": "369abd2d9e94cb2ab42469f1d23bb8d0bcd8226f84fc6cd2325f39876205dae6"
+    },
+    {
+      "archive_path": "webview/assets/play-outline-51cb9fd3340e.js",
+      "file": "_deps/play-outline-51cb9fd3340e.js",
+      "selected_by": "closure:d1:cloud-automation-detail-panel-c76d4ae4bfb4.js",
+      "raw_bytes": 791,
+      "formatted_bytes": 1000,
+      "formatter": "prettier",
+      "sha256_raw": "17684e930116acc26e90862cb033442f3895dd4c2f1ebaeb2e5e359b260c452c"
+    },
+    {
+      "archive_path": "webview/assets/popcorn-electron-surface-style-244084e61ff2.css",
+      "file": "_deps/popcorn-electron-surface-style-244084e61ff2.css",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 296,
+      "formatted_bytes": 363,
+      "formatter": "prettier",
+      "sha256_raw": "4fc82c29977d24e7dee13c89885ecb30335c26083770f6b260b8a70677e4f9f2"
+    },
+    {
+      "archive_path": "webview/assets/popcorn-electron-surface-style-7137a19cf884.js",
+      "file": "_deps/popcorn-electron-surface-style-7137a19cf884.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 84608,
+      "formatted_bytes": 136980,
+      "formatter": "prettier",
+      "sha256_raw": "0ca246dcf814dae8c1d2db4779847c9deb7c781266b237a667dfde21d9d30b18"
+    },
+    {
+      "archive_path": "webview/assets/PopcornChartHoverTooltip-adcf79d91386.js",
+      "file": "_deps/PopcornChartHoverTooltip-adcf79d91386.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 7147,
+      "formatted_bytes": 10988,
+      "formatter": "prettier",
+      "sha256_raw": "738f76464367e93fd1618de6110923f6387b4533dbe2b34b81f440427e050f4a"
+    },
+    {
+      "archive_path": "webview/assets/PopcornElectronDocumentPanel-35506d4b37aa.css",
+      "file": "previews/PopcornElectronDocumentPanel-35506d4b37aa.css",
+      "selected_by": "rule",
+      "raw_bytes": 9207,
+      "formatted_bytes": 10713,
+      "formatter": "prettier",
+      "sha256_raw": "c863209a178aef0641a91c94e111b0b708a914b83138faef9d623518002f75d0"
+    },
+    {
+      "archive_path": "webview/assets/PopcornElectronDocumentPanel-5d398f8ff53f.js",
+      "file": "previews/PopcornElectronDocumentPanel-5d398f8ff53f.js",
+      "selected_by": "rule",
+      "raw_bytes": 403462,
+      "formatted_bytes": 697037,
+      "formatter": "prettier",
+      "sha256_raw": "774738134959ee17b4a0e2a7e15d51052010fe5f5d25f13678370907c1613a67"
+    },
+    {
+      "archive_path": "webview/assets/PopcornElectronPresentationPanel-9f81aaa00813.css",
+      "file": "previews/PopcornElectronPresentationPanel-9f81aaa00813.css",
+      "selected_by": "rule",
+      "raw_bytes": 7590,
+      "formatted_bytes": 8711,
+      "formatter": "prettier",
+      "sha256_raw": "712ba49fa13bc634135200e0981f27a3d7e66041e1e2717618b00546949cc5f2"
+    },
+    {
+      "archive_path": "webview/assets/PopcornElectronPresentationPanel-cdef5ec57678.js",
+      "file": "previews/PopcornElectronPresentationPanel-cdef5ec57678.js",
+      "selected_by": "rule",
+      "raw_bytes": 150305,
+      "formatted_bytes": 237375,
+      "formatter": "prettier",
+      "sha256_raw": "540ac70beb5726112ccfa9a110c3bf11573460ad8dd63415c51bbfc96b57e174"
+    },
+    {
+      "archive_path": "webview/assets/PopcornElectronWorkbookPanel-5e847d6e6323.js",
+      "file": "previews/PopcornElectronWorkbookPanel-5e847d6e6323.js",
+      "selected_by": "rule",
+      "raw_bytes": 483552,
+      "formatted_bytes": 610118,
+      "formatter": "prettier",
+      "sha256_raw": "385e95c3b8f2ff2945e166e8823d0692e04f529d2407856ffbe94bc4e0dfd5c4"
+    },
+    {
+      "archive_path": "webview/assets/PopcornPageNumberNavigation-a4529764704f.js",
+      "file": "_deps/PopcornPageNumberNavigation-a4529764704f.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 1491,
+      "formatted_bytes": 1939,
+      "formatter": "prettier",
+      "sha256_raw": "2ca32af0fc1702b97475a279b5f18a0905e5b2bf33cb40204f46904e70c86967"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-actions-7f7377d4b593.js",
+      "file": "_deps/pull-request-actions-7f7377d4b593.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 14242,
+      "formatted_bytes": 23192,
+      "formatter": "prettier",
+      "sha256_raw": "038c095bfb2272d3b7389785ac86a01745fdb1efb16216280ad4a156ca666cd7"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-checks-summary-f4748816df4c.js",
+      "file": "_deps/pull-request-checks-summary-f4748816df4c.js",
+      "selected_by": "closure:d1:open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "raw_bytes": 4129,
+      "formatted_bytes": 6125,
+      "formatter": "prettier",
+      "sha256_raw": "a21ce481c7efa527a5432d89bc6d377638cc81fa40a18e8cb5669b2a818535b7"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-code-review-c745f0e9b91d.js",
+      "file": "_deps/pull-request-code-review-c745f0e9b91d.js",
+      "selected_by": "closure:d1:open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "raw_bytes": 62525,
+      "formatted_bytes": 101834,
+      "formatter": "prettier",
+      "sha256_raw": "f237fab5527a4279618523c3833c3b2958c5e5df226f374beb1731bc46636a28"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-code-review-navigation-c0a64db532da.js",
+      "file": "_deps/pull-request-code-review-navigation-c0a64db532da.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 6424,
+      "formatted_bytes": 9966,
+      "formatter": "prettier",
+      "sha256_raw": "fc83ed979860e9a2f18f9ea5e5b59d4dd0765989fee30cceeb135f3604f93b2c"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-comment-72460362f3f8.js",
+      "file": "_deps/pull-request-comment-72460362f3f8.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 37243,
+      "formatted_bytes": 61000,
+      "formatter": "prettier",
+      "sha256_raw": "1bf200c93e78cf0f30060a9089593454a15626344927cf3e6144c6a3b1e6b1e8"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-detail-model-6c8655a9e7d6.js",
+      "file": "_deps/pull-request-detail-model-6c8655a9e7d6.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1551,
+      "formatted_bytes": 2074,
+      "formatter": "prettier",
+      "sha256_raw": "39a6c2a6ee7396517bebb4836eb478d3d84d9c395b47b04e6bd497bd35c1a72f"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-detail-query-493e5e72eeeb.js",
+      "file": "_deps/pull-request-detail-query-493e5e72eeeb.js",
+      "selected_by": "closure:d1:thread-pull-request-tab-content-e83709e82efb.js",
+      "raw_bytes": 120642,
+      "formatted_bytes": 197743,
+      "formatter": "prettier",
+      "sha256_raw": "198ac3f7c72915aaf2cc95aeb4fd9a2c119fdca3d696cd1c5b1a7e02f248483d"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-error-description-aebc9b65d45f.js",
+      "file": "_deps/pull-request-error-description-aebc9b65d45f.js",
+      "selected_by": "closure:d1:open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "raw_bytes": 945,
+      "formatted_bytes": 1284,
+      "formatter": "prettier",
+      "sha256_raw": "193ad4d6b43f36b9dc52fa15f0c0cfedb4acb23051e2cc593d7c40ca97317a35"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-readonly-comment-6e9ac0779fb8.js",
+      "file": "_deps/pull-request-readonly-comment-6e9ac0779fb8.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 18785,
+      "formatted_bytes": 32070,
+      "formatter": "prettier",
+      "sha256_raw": "baee2316cbddd15f1f8118443f72c4e2b3fa0f9cdbee106e2978e165a1b464cf"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-revision-queries-822a229a11df.js",
+      "file": "_deps/pull-request-revision-queries-822a229a11df.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 2013,
+      "formatted_bytes": 2849,
+      "formatter": "prettier",
+      "sha256_raw": "041d53b7f50f9db7513f29f3d4f750eecd5014a6519fd2b413b285325e788748"
+    },
+    {
+      "archive_path": "webview/assets/pull-request-revision-tab-43d3931efac0.js",
+      "file": "_deps/pull-request-revision-tab-43d3931efac0.js",
+      "selected_by": "closure:d1:open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "raw_bytes": 6078,
+      "formatted_bytes": 10404,
+      "formatter": "prettier",
+      "sha256_raw": "1886d2cec837051363ada41a7f67fb6f1a1842bf3d154205a296051fbd3081f0"
+    },
+    {
+      "archive_path": "webview/assets/registered-3136d91cec07.js",
+      "file": "_deps/registered-3136d91cec07.js",
+      "selected_by": "closure:d1:open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "raw_bytes": 4297,
+      "formatted_bytes": 6554,
+      "formatter": "prettier",
+      "sha256_raw": "10a0a9b4264a1a08f240d108673e4c03e26c49db3574ff5e91e3147103398d9f"
+    },
+    {
+      "archive_path": "webview/assets/registered-bbcd5ae2017a.js",
+      "file": "_deps/registered-bbcd5ae2017a.js",
+      "selected_by": "closure:d1:subagents-3913ad169eec.js",
+      "raw_bytes": 1239,
+      "formatted_bytes": 1879,
+      "formatter": "prettier",
+      "sha256_raw": "dadacff7958f7f73030b347c6c2e8e1f6235a8fb724f514e45f7a8c3069cc154"
+    },
+    {
+      "archive_path": "webview/assets/registered-sources-f4ac743012d6.js",
+      "file": "_deps/registered-sources-f4ac743012d6.js",
+      "selected_by": "closure:d1:open-local-conversation-sources-side-panel-tab-e80692a35ed8.js",
+      "raw_bytes": 7565,
+      "formatted_bytes": 11857,
+      "formatter": "prettier",
+      "sha256_raw": "ac4d08d1cfbc6bad132df3aade3406e308486b93069b7f38d7b1e87e2de0a63a"
+    },
+    {
+      "archive_path": "webview/assets/review-diff-virtualizer-metrics-92681c84005e.js",
+      "file": "_deps/review-diff-virtualizer-metrics-92681c84005e.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 880,
+      "formatted_bytes": 1117,
+      "formatter": "prettier",
+      "sha256_raw": "1606e44f683cbaaeb4a2efe5756ed381c9ddcf8ffea516da3fd0b1e288af390f"
+    },
+    {
+      "archive_path": "webview/assets/review-file-source-breadcrumb-8f9dc59debc0.js",
+      "file": "_deps/review-file-source-breadcrumb-8f9dc59debc0.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 44543,
+      "formatted_bytes": 71324,
+      "formatter": "prettier",
+      "sha256_raw": "d002084cc34f4fc0b4b354db381c4391a035e9753d7b4e6127ab07289be6ce35"
+    },
+    {
+      "archive_path": "webview/assets/review-file-source-item-c54b527a729c.js",
+      "file": "_deps/review-file-source-item-c54b527a729c.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 65552,
+      "formatted_bytes": 101380,
+      "formatter": "prettier",
+      "sha256_raw": "e862d5fef25be33ff5a10d5c7dccd399ba23445edf965ac29e028e5f1f424c84"
+    },
+    {
+      "archive_path": "webview/assets/review-file-tree-pane-b743a8f06e62.js",
+      "file": "_deps/review-file-tree-pane-b743a8f06e62.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 68022,
+      "formatted_bytes": 104492,
+      "formatter": "prettier",
+      "sha256_raw": "7be1f6cf245ac61b78b6f8d28b4d73b1a82e6336d5bf27fa734480b013eb5a5c"
+    },
+    {
+      "archive_path": "webview/assets/review-file-tree-side-pane-b99602290612.js",
+      "file": "_deps/review-file-tree-side-pane-b99602290612.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 23011,
+      "formatted_bytes": 38407,
+      "formatter": "prettier",
+      "sha256_raw": "46b58bb269f38e32d1d4ff37b053a9f2d6735e1a131633956afa43bc3db7c2a7"
+    },
+    {
+      "archive_path": "webview/assets/row-bc9dec132d18.js",
+      "file": "_deps/row-bc9dec132d18.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1471,
+      "formatted_bytes": 2387,
+      "formatter": "prettier",
+      "sha256_raw": "d7ebe23ff58067067e3c1fc1e75451567f2329bf0e0e8fed2d4d4a8f5e74fe49"
+    },
+    {
+      "archive_path": "webview/assets/scroll-to-match-9d10be663eba.js",
+      "file": "_deps/scroll-to-match-9d10be663eba.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 1101,
+      "formatted_bytes": 1672,
+      "formatter": "prettier",
+      "sha256_raw": "f07aa2395b0120c58a4e8e52ef80f3f7ece8f9caf2f44bc3c9a31e3dd3bee393"
+    },
+    {
+      "archive_path": "webview/assets/src-3e2a99fe4a1d.js",
+      "file": "_deps/src-3e2a99fe4a1d.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 6280,
+      "formatted_bytes": 9583,
+      "formatter": "prettier",
+      "sha256_raw": "47a6dc7b1f52dace6325921d6c21aad5967ccb187545e777b7d627eaeb083d33"
+    },
+    {
+      "archive_path": "webview/assets/src-c48c04e5744b.js",
+      "file": "_deps/src-c48c04e5744b.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 54938,
+      "formatted_bytes": 87043,
+      "formatter": "prettier",
+      "sha256_raw": "147bffcb03db41cd74482ffd86fbcd353e7989ad80e4c79c79162f3ae634de00"
+    },
+    {
+      "archive_path": "webview/assets/src-ded86e543ac6.js",
+      "file": "_deps/src-ded86e543ac6.js",
+      "selected_by": "closure:d1:artifact-tab-content.electron-f96c26739383.js",
+      "raw_bytes": 27817,
+      "formatted_bytes": 47406,
+      "formatter": "prettier",
+      "sha256_raw": "f3dd1a6b732aaf48928fc12c16830ddf0239e0c45270859bab2c72f8c57ff19d"
+    },
+    {
+      "archive_path": "webview/assets/subagent-activity-chip-group-48f5d9abd486.css",
+      "file": "subagents/subagent-activity-chip-group-48f5d9abd486.css",
+      "selected_by": "rule",
+      "raw_bytes": 2695,
+      "formatted_bytes": 3266,
+      "formatter": "prettier",
+      "sha256_raw": "31a7dcf2bcf1d192b7a27a9f33e2bb54c11430ef9ad8c3d7640ea83ddd077647"
+    },
+    {
+      "archive_path": "webview/assets/subagent-activity-chip-group-e05e8cab2038.js",
+      "file": "subagents/subagent-activity-chip-group-e05e8cab2038.js",
+      "selected_by": "rule",
+      "raw_bytes": 473139,
+      "formatted_bytes": 754324,
+      "formatter": "prettier",
+      "sha256_raw": "8289df6d53a760b0a1aa189f58eb67fd2bd1650a7fcaa675c04853458448cd67"
+    },
+    {
+      "archive_path": "webview/assets/subagent-panel-c34ade213c60.js",
+      "file": "subagents/subagent-panel-c34ade213c60.js",
+      "selected_by": "rule",
+      "raw_bytes": 4632,
+      "formatted_bytes": 6929,
+      "formatter": "prettier",
+      "sha256_raw": "65d4a19437a32341c34cc14c2907fa3964743c99fc568ded1eda132e6eee8941"
+    },
+    {
+      "archive_path": "webview/assets/subagent-row-6fc9576ba695.js",
+      "file": "subagents/subagent-row-6fc9576ba695.js",
+      "selected_by": "rule",
+      "raw_bytes": 861,
+      "formatted_bytes": 1248,
+      "formatter": "prettier",
+      "sha256_raw": "3af624c7ee681d52ff7694ef3fac56e669b40a275c3169c723f27b677b8b0e90"
+    },
+    {
+      "archive_path": "webview/assets/subagents-3913ad169eec.js",
+      "file": "subagents/subagents-3913ad169eec.js",
+      "selected_by": "rule",
+      "raw_bytes": 2572,
+      "formatted_bytes": 3745,
+      "formatter": "prettier",
+      "sha256_raw": "f93b2be5922428a8df90f71dd91f8a5323a5359b2325ffa5f891fa8addc46f86"
+    },
+    {
+      "archive_path": "webview/assets/subagents-b1be4b89518f.js",
+      "file": "subagents/subagents-b1be4b89518f.js",
+      "selected_by": "rule",
+      "raw_bytes": 3639,
+      "formatted_bytes": 5328,
+      "formatter": "prettier",
+      "sha256_raw": "9a5b856ea6f5b2ee5e10af4eeb044071b8259af6e042d9184d59470b1ecc7885"
+    },
+    {
+      "archive_path": "webview/assets/surface-572ba2609efa.js",
+      "file": "_deps/surface-572ba2609efa.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 4178,
+      "formatted_bytes": 6560,
+      "formatter": "prettier",
+      "sha256_raw": "893f40f57098685325ac64ca8ae0b1623310fe10699888005cc9bdccfbd16598"
+    },
+    {
+      "archive_path": "webview/assets/terminal-panel-93f9fc5719bf.css",
+      "file": "terminal/terminal-panel-93f9fc5719bf.css",
+      "selected_by": "rule",
+      "raw_bytes": 2601,
+      "formatted_bytes": 2773,
+      "formatter": "prettier",
+      "sha256_raw": "16bd4b07c052c97a0f1cb597f588fc914455df9f68e79c8d36ff60a6a039834b"
+    },
+    {
+      "archive_path": "webview/assets/terminal-panel-ded4b9a894ab.js",
+      "file": "terminal/terminal-panel-ded4b9a894ab.js",
+      "selected_by": "rule",
+      "raw_bytes": 139,
+      "formatted_bytes": 152,
+      "formatter": "prettier",
+      "sha256_raw": "196e15013fe7e4ed862590ba418b0cb2a441265f26a9d97e6804eb30c64f8408"
+    },
+    {
+      "archive_path": "webview/assets/terminal-panel-e2350b6eaef2.js",
+      "file": "terminal/terminal-panel-e2350b6eaef2.js",
+      "selected_by": "rule",
+      "raw_bytes": 16092,
+      "formatted_bytes": 31448,
+      "formatter": "prettier",
+      "sha256_raw": "7b50c981be12f2b519a91b73fa23e6240d0260a3bf1f3a9262c84c97681df68b"
+    },
+    {
+      "archive_path": "webview/assets/terminal-workspace-warning-state-9c3cd18f8e4e.js",
+      "file": "terminal/terminal-workspace-warning-state-9c3cd18f8e4e.js",
+      "selected_by": "rule",
+      "raw_bytes": 669,
+      "formatted_bytes": 818,
+      "formatter": "prettier",
+      "sha256_raw": "d42ae67dc2f6277640e832176600c6e6e7f36444b8541f9a792e331d0417049d"
+    },
+    {
+      "archive_path": "webview/assets/text-file-editor-tab-content-bcc213e51ed5.css",
+      "file": "previews/text-file-editor-tab-content-bcc213e51ed5.css",
+      "selected_by": "rule",
+      "raw_bytes": 386,
+      "formatted_bytes": 429,
+      "formatter": "prettier",
+      "sha256_raw": "45da18d17fdb4c19ae00e85f59124929434170ea7f9547e808f08a8da32d829f"
+    },
+    {
+      "archive_path": "webview/assets/text-file-editor-tab-content.electron-b517f3f85a48.js",
+      "file": "previews/text-file-editor-tab-content.electron-b517f3f85a48.js",
+      "selected_by": "rule",
+      "raw_bytes": 409783,
+      "formatted_bytes": 650436,
+      "formatter": "prettier",
+      "sha256_raw": "cdc4aba1db9f7531474d1d422e3cbd4cfb444bc8f3d5b7f3e527c18c07c60d5c"
+    },
+    {
+      "archive_path": "webview/assets/text-file-editor-tab-content.electron-bec8d2508c34.js",
+      "file": "previews/text-file-editor-tab-content.electron-bec8d2508c34.js",
+      "selected_by": "rule",
+      "raw_bytes": 120,
+      "formatted_bytes": 132,
+      "formatter": "prettier",
+      "sha256_raw": "ba04842838b40b485ba06d27f7a2e436b6aa618b27f9d278032150664b45c832"
+    },
+    {
+      "archive_path": "webview/assets/text-shorter-588de2d999a8.js",
+      "file": "_deps/text-shorter-588de2d999a8.js",
+      "selected_by": "closure:d1:open-thread-pull-request-code-tab-8c6819e3368b.js",
+      "raw_bytes": 1076,
+      "formatted_bytes": 1877,
+      "formatter": "prettier",
+      "sha256_raw": "c2315b4901cee2443e5c2e956393b97c40e2b9345c84ced393b6127cbec8a8c1"
+    },
+    {
+      "archive_path": "webview/assets/thread-goal-side-panel-content-74c075a5338e.js",
+      "file": "tabs/thread-goal-side-panel-content-74c075a5338e.js",
+      "selected_by": "rule",
+      "raw_bytes": 6292,
+      "formatted_bytes": 11862,
+      "formatter": "prettier",
+      "sha256_raw": "82e4975e9e2f4996c31fdd87834cc35cb7ff76b6ccd300b399a1f0f10372dd36"
+    },
+    {
+      "archive_path": "webview/assets/thread-mcp-app-side-panel-tab-b0a7b0f6f973.js",
+      "file": "tabs/thread-mcp-app-side-panel-tab-b0a7b0f6f973.js",
+      "selected_by": "rule",
+      "raw_bytes": 533,
+      "formatted_bytes": 756,
+      "formatter": "prettier",
+      "sha256_raw": "807aa03457e666a94542793dd20deb45655e762fe6236838a1647f641529b23b"
+    },
+    {
+      "archive_path": "webview/assets/thread-panel-state-5e1fd0dc8ac2.js",
+      "file": "tabs/thread-panel-state-5e1fd0dc8ac2.js",
+      "selected_by": "rule",
+      "raw_bytes": 143,
+      "formatted_bytes": 157,
+      "formatter": "prettier",
+      "sha256_raw": "3b4e3dfbb6c7ef1455f2a42e52bc081e7b5704abc47bc41e561b7e2fe4e20dbc"
+    },
+    {
+      "archive_path": "webview/assets/thread-panel-toggle-button-78c146087e1c.js",
+      "file": "tabs/thread-panel-toggle-button-78c146087e1c.js",
+      "selected_by": "rule",
+      "raw_bytes": 4040,
+      "formatted_bytes": 5602,
+      "formatter": "prettier",
+      "sha256_raw": "67e883448d8830a221ba308082737dfecebe9d21accb2d24b24a58be22a90000"
+    },
+    {
+      "archive_path": "webview/assets/thread-pull-request-tab-content-e83709e82efb.js",
+      "file": "tabs/thread-pull-request-tab-content-e83709e82efb.js",
+      "selected_by": "rule",
+      "raw_bytes": 9117,
+      "formatted_bytes": 14823,
+      "formatter": "prettier",
+      "sha256_raw": "52eb4b47f65fb0fac0ca7dea235164fb6b29f098a4da135b7eb9bf23349138a9"
+    },
+    {
+      "archive_path": "webview/assets/thread-right-panel-state-3ca2cc72f23f.js",
+      "file": "tabs/thread-right-panel-state-3ca2cc72f23f.js",
+      "selected_by": "rule",
+      "raw_bytes": 98,
+      "formatted_bytes": 110,
+      "formatter": "prettier",
+      "sha256_raw": "5e40634aaaeb4b4ec7f2dbf5b7fc83f2b24283098d194040098989c40d059fe8"
+    },
+    {
+      "archive_path": "webview/assets/thread-side-panel-tab-content-3335e9fb2381.js",
+      "file": "tabs/thread-side-panel-tab-content-3335e9fb2381.js",
+      "selected_by": "rule",
+      "raw_bytes": 105680,
+      "formatted_bytes": 171841,
+      "formatter": "prettier",
+      "sha256_raw": "827d0230707069af92acc0f9dc217d63cd75b72c2f00f37dedcabe9628a4381b"
+    },
+    {
+      "archive_path": "webview/assets/thread-side-panel-tabs-15e3c4c648ed.js",
+      "file": "tabs/thread-side-panel-tabs-15e3c4c648ed.js",
+      "selected_by": "rule",
+      "raw_bytes": 336,
+      "formatted_bytes": 398,
+      "formatter": "prettier",
+      "sha256_raw": "564db1f4f089cfd0401c31a07b9389dd36aa4cfef11cecb0c416999d4b2a07d7"
+    },
+    {
+      "archive_path": "webview/assets/thread-side-panel-tabs-609ba0f9f71f.js",
+      "file": "tabs/thread-side-panel-tabs-609ba0f9f71f.js",
+      "selected_by": "rule",
+      "raw_bytes": 403,
+      "formatted_bytes": 448,
+      "formatter": "prettier",
+      "sha256_raw": "136463c8a1ed75de183c12e403561aa445797b62328ed55496b1aa01fc2e2691"
+    },
+    {
+      "archive_path": "webview/assets/thumb-mixed-74cb6fc32b2e.js",
+      "file": "_deps/thumb-mixed-74cb6fc32b2e.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 4987,
+      "formatted_bytes": 5182,
+      "formatter": "prettier",
+      "sha256_raw": "b5952b37a53e9f1c9fa749f1e2377d60e92637c98de69fc446b562fe26cd8438"
+    },
+    {
+      "archive_path": "webview/assets/thumbnail-bbff7dbb28d2.js",
+      "file": "_deps/thumbnail-bbff7dbb28d2.js",
+      "selected_by": "closure:d1:background-terminal-6775c46c6478.js",
+      "raw_bytes": 1208,
+      "formatted_bytes": 1816,
+      "formatter": "prettier",
+      "sha256_raw": "92a506cf18ff4bb2d726d829f054484bc912fa35c0400c66af61d73f35a98489"
+    },
+    {
+      "archive_path": "webview/assets/toggle-thread-summary-panel-ce87f217123a.js",
+      "file": "tabs/toggle-thread-summary-panel-ce87f217123a.js",
+      "selected_by": "rule",
+      "raw_bytes": 9314,
+      "formatted_bytes": 14088,
+      "formatter": "prettier",
+      "sha256_raw": "dd6f2d94f12af7584c503055d0fb3903066fc9c5ea60e873fa42d8ac29b05ed8"
+    },
+    {
+      "archive_path": "webview/assets/use-binary-preview-source-4f8b7bce953a.js",
+      "file": "_deps/use-binary-preview-source-4f8b7bce953a.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 3499,
+      "formatted_bytes": 5360,
+      "formatter": "prettier",
+      "sha256_raw": "97e1cb33a6533288883bc838557cb36c62042f303b4fe59aa666c96c409b6a61"
+    },
+    {
+      "archive_path": "webview/assets/use-code-diff-context-menu-6d352d781f8f.js",
+      "file": "_deps/use-code-diff-context-menu-6d352d781f8f.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 10019,
+      "formatted_bytes": 16126,
+      "formatter": "prettier",
+      "sha256_raw": "c07876b079e37420bfb0e97b271708fb4eb83a8ae9155823ea42fa34850aa4a1"
+    },
+    {
+      "archive_path": "webview/assets/use-target-apps-964e2197265b.js",
+      "file": "_deps/use-target-apps-964e2197265b.js",
+      "selected_by": "closure:d1:artifact-tab-content-shell-4199cd330d98.js",
+      "raw_bytes": 5971,
+      "formatted_bytes": 10232,
+      "formatter": "prettier",
+      "sha256_raw": "d96296085b2b0fb8738996bed723c1eb40962bd336ff0c4916c29527c2f34191"
+    },
+    {
+      "archive_path": "webview/assets/verify-descendant-79c03f806412.js",
+      "file": "_deps/verify-descendant-79c03f806412.js",
+      "selected_by": "closure:d1:open-local-conversation-subagents-panel-84337b6e92ce.js",
+      "raw_bytes": 1019,
+      "formatted_bytes": 1479,
+      "formatter": "prettier",
+      "sha256_raw": "28dc13add9ab13cf82662329566a4dbd0fd7f8a49c9ea535d510370166b1496f"
+    },
+    {
+      "archive_path": "webview/assets/xterm-output-panel-80a01eb0c42b.js",
+      "file": "terminal/xterm-output-panel-80a01eb0c42b.js",
+      "selected_by": "rule",
+      "raw_bytes": 4210,
+      "formatted_bytes": 7067,
+      "formatter": "prettier",
+      "sha256_raw": "301fcf609aa98a6e29b146ad932e32aca93e353bf4343c535d9485e3158df5e8"
+    },
+    {
+      "archive_path": "webview/assets/xterm-window-zoom-241c9f83d2ce.css",
+      "file": "terminal/xterm-window-zoom-241c9f83d2ce.css",
+      "selected_by": "rule",
+      "raw_bytes": 2853,
+      "formatted_bytes": 3364,
+      "formatter": "prettier",
+      "sha256_raw": "0dd60056134e6a2994a86b59a1e9789b9f04e92924da109aef8c923acaf08ce5"
+    },
+    {
+      "archive_path": "webview/assets/xterm-window-zoom-98caf71e2690.js",
+      "file": "terminal/xterm-window-zoom-98caf71e2690.js",
+      "selected_by": "rule",
+      "raw_bytes": 298539,
+      "formatted_bytes": 602723,
+      "formatter": "prettier",
+      "sha256_raw": "521afb71a66dcfab09cf1f36017d2bd1416dca4d15a4cffb7af52643e82a1075"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { Hmr as t, Xmr as n } from "./app-initial-ad16eaadf81f.js";
+function r(e, t) {
+  let n = new URL(`/plugins/${encodeURIComponent(e)}`, `https://chatgpt.com`);
+  return (
+    n.searchParams.set(`no_universal_links`, `1`),
+    t === 1 && (n.hash = `settings/Plugins/${encodeURIComponent(e)}?product-sku=CODEX`),
+    n.toString()
+  );
+}
+function i({ appId: e, installUrl: n, remotePluginId: r }) {
+  let i = new URL(
+    r == null ? `/plugins` : `/plugins/${encodeURIComponent(r)}`,
+    n?.trim() || `https://chatgpt.com`,
+  );
+  return (
+    i.searchParams.set(`no_universal_links`, `1`),
+    (i.hash =
+      r == null
+        ? `settings/Connectors?${new URLSearchParams({ connector: e, "product-sku": t(), referrer: `codex` })}`
+        : `settings/Plugins/${encodeURIComponent(r)}?product-sku=CODEX`),
+    i.toString()
+  );
+}
+function a() {
+  return (a = e(() => {
+    n();
+  }))();
+}
+export { r as n, a as r, i as t };
+//# sourceMappingURL=plugin-settings-url-shared-636b299186d8.js.map

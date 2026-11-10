@@ -1,0 +1,21 @@
+# Ignore hidden directories such as .gocache and .tmp.
+.*/
+!/.agents/
+!/.agents/**
+!/.github/
+!/.github/workflows/
+!/.github/workflows/macos-platform-gates.yml
+
+
+# 本地第三方应用凭据（qq/feishu app secret），禁止入库
+token.md
+
+# macOS 系统垃圾文件
+.DS_Store
+
+# 本地 node 运行目录（含 agent-mcp-secret 等本地凭据）
+syntropy_node/codex/
+
+# macOS 系统垃圾文件
+.DS_Store
+

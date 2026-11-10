@@ -1,0 +1,64 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  $It as t,
+  Cot as n,
+  EPt as r,
+  LLt as i,
+  Pxt as a,
+  aSt as o,
+  fLt as s,
+  oIt as c,
+  pLt as l,
+  rSt as u,
+  wot as d,
+} from "./app-shared-bbfeca5e5737.js";
+function f(e) {
+  return e.is_enterprise_install !== !1 && e.enterprise_id?.startsWith(`E`)
+    ? { kind: `organization`, enterpriseId: e.enterprise_id }
+    : e.workspace_id?.startsWith(`T`)
+      ? { kind: `workspace`, workspaceId: e.workspace_id }
+      : null;
+}
+function p(e) {
+  return e.find((e) => e.is_enterprise_install ?? f(e)?.kind === `organization`) ?? e[0];
+}
+var m;
+function h() {
+  return (h = e(() => {
+    (r(),
+      (m = i([
+        c([`failed`, `authorization`, `permissions`, `workspace`, `account`, `approval-required`]),
+        l({ kind: t(`rate-limited`), retryAtMs: s().nonnegative().optional() }),
+      ])));
+  }))();
+}
+function g(e, t, n) {
+  if (typeof n == `object` && n.retryAtMs != null) {
+    let r = n.retryAtMs;
+    e.set(_, t, (e) => Math.max(e ?? 0, r));
+  }
+}
+var _, v;
+function y() {
+  return (y = e(() => {
+    (a(),
+      d(),
+      (_ = o(n, (e) => void 0)),
+      (v = u(
+        n,
+        (e) => e != null && Date.now() < e,
+        (e, { set: t }) => {
+          if (e == null) return;
+          let n,
+            r = () => {
+              let i = e - Date.now();
+              (t(i > 0), i > 0 && (n = setTimeout(r, Math.min(i, 2147483647))));
+            };
+          return (r(), () => clearTimeout(n));
+        },
+        { autoDispose: !0 },
+      )));
+  }))();
+}
+export { p as a, m as c, _ as i, g as n, f as o, v as r, h as s, y as t };
+//# sourceMappingURL=rate-limit-523c452e35b8.js.map

@@ -1,0 +1,31 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { JOt as t, XOt as n } from "./app-shared-2feb3d4c6fcc.js";
+function r(e) {
+  switch (e) {
+    case `macOS`:
+      return t({
+        id: `downloads.popover.showInFinder`,
+        defaultMessage: `Show in Finder`,
+        description: `Action that reveals a downloaded file in Finder`,
+      });
+    case `windows`:
+      return t({
+        id: `downloads.popover.showInFileExplorer`,
+        defaultMessage: `Show in File Explorer`,
+        description: `Action that reveals a downloaded file in File Explorer`,
+      });
+    case `linux`:
+      return t({
+        id: `downloads.popover.showInFileManager`,
+        defaultMessage: `Show in File Manager`,
+        description: `Action that reveals a downloaded file in the system file manager`,
+      });
+  }
+}
+function i() {
+  return (i = e(() => {
+    n();
+  }))();
+}
+export { i as n, r as t };
+//# sourceMappingURL=download-file-manager-message-fc15b36f8c4f.js.map

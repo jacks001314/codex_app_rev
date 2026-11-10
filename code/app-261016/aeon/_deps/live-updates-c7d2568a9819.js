@@ -1,0 +1,78 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { Smt as t, sct as n } from "./app-shared-2feb3d4c6fcc.js";
+import { hvr as r, iRr as i, mvr as a, tyr as o } from "./app-initial-ad16eaadf81f.js";
+function s({
+  accountId: e,
+  userId: n,
+  roomId: a,
+  taskId: o,
+  onUpdate: s,
+  onSubscribedChange: c,
+  onReadReceipt: l,
+}) {
+  let u = new AbortController(),
+    d,
+    f,
+    p = (r) =>
+      i.safeGet(`/messaging/rooms/{room_id}/tasks/{task_id}/subscription`, {
+        parameters: { path: { room_id: a, task_id: o } },
+        additionalHeaders: { [t]: e },
+        expectedIdentity: { accountId: e, userId: n },
+        expectedErrorStatuses: [403, 404],
+        signal: r,
+      }),
+    m = r({
+      accountId: e,
+      userId: n,
+      onReadReceipt: (e) => {
+        !u.signal.aborted && e.room_id === a && l?.(e);
+      },
+      onUpdate: (e) => {
+        !u.signal.aborted &&
+          (!(`roomId` in e) || e.roomId === a) &&
+          e.type !== `message-added` &&
+          (e.type !== `message` || e.taskId == null || e.taskId === o) &&
+          e.type !== `typing` &&
+          s(e);
+      },
+      onMessageReceived: (e, t) => {
+        !u.signal.aborted && e === a && t.task_id === o && s({ type: `message-added`, roomId: a });
+      },
+    });
+  function h() {
+    p(u.signal)
+      .then(({ topic_id: t }) => {
+        u.signal.aborted ||
+          (d = r({
+            accountId: e,
+            userId: n,
+            topicId: t,
+            beforeSubscribe: async () => {
+              if ((await p()).topic_id !== t) throw Error(`Task subscription changed`);
+            },
+            onSubscribedChange: (e) => {
+              u.signal.aborted || c?.(e);
+            },
+            onUpdate: (e) => {
+              !u.signal.aborted && (!(`roomId` in e) || e.roomId === a) && s(e);
+            },
+          }));
+      })
+      .catch(() => {
+        u.signal.aborted || (c?.(!1), s({ type: `resync` }), (f = setTimeout(h, 5e3)));
+      });
+  }
+  return (
+    h(),
+    () => {
+      (u.abort(), clearTimeout(f), d?.(), m());
+    }
+  );
+}
+function c() {
+  return (c = e(() => {
+    (n(), o(), a());
+  }))();
+}
+export { s as n, c as t };
+//# sourceMappingURL=live-updates-c7d2568a9819.js.map

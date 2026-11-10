@@ -1,0 +1,31 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  $st as t,
+  MFt as n,
+  Qst as r,
+  RFt as i,
+  ZSt as a,
+  jFt as o,
+  kCt as s,
+  mbt as c,
+  sct as l,
+  uSt as u,
+  zFt as d,
+} from "./app-shared-2feb3d4c6fcc.js";
+import { Hlr as f, Mkr as p, Nkr as m, Ulr as h, oGt as g, sGt as _ } from "./app-initial-ad16eaadf81f.js";
+function v(e, t, r, i = `request`) {
+  (d.info(`Opening Mini thread in the desktop app`),
+    n.dispatchMessage(`open-in-main-window`, {
+      path: e.get(h) ? p(r) : g(c(u(r)), t),
+      appEntryAttribution: i === `header` ? { channel: `shortcut`, source: `shortcut` } : void 0,
+    }),
+    i === `request` && e.get(b)?.run());
+}
+var y, b, x;
+function S() {
+  return (S = e(() => {
+    (a(), l(), o(), m(), t(), f(), i(), _(), (y = s(r, !1)), (b = s(r, () => null)), (x = s(r, () => null)));
+  }))();
+}
+export { v as a, y as i, x as n, b as r, S as t };
+//# sourceMappingURL=transcript-state-6eb190d3a30e.js.map

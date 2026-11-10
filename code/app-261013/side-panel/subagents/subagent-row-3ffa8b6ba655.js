@@ -1,0 +1,45 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { vzt as t, xMt as n } from "./app-shared-bbfeca5e5737.js";
+import { ly as r, uy as i } from "./app-initial-5851df3f6cb1.js";
+function a(e) {
+  let t = (0, o.c)(10),
+    { avatarSeed: n, name: i, status: a } = e,
+    c;
+  t[0] === n
+    ? (c = t[1])
+    : ((c = (0, s.jsx)(r, { className: `size-6`, seed: n, "aria-hidden": !0 })), (t[0] = n), (t[1] = c));
+  let l;
+  t[2] === i
+    ? (l = t[3])
+    : ((l = (0, s.jsx)(`span`, { className: `min-w-0 flex-1 truncate`, children: i })),
+      (t[2] = i),
+      (t[3] = l));
+  let u;
+  t[4] === a
+    ? (u = t[5])
+    : ((u = (0, s.jsx)(`span`, { className: `shrink-0 text-xs text-codex-description`, children: a })),
+      (t[4] = a),
+      (t[5] = u));
+  let d;
+  return (
+    t[6] !== c || t[7] !== l || t[8] !== u
+      ? ((d = (0, s.jsxs)(`div`, {
+          className: `flex min-w-0 items-center gap-1.5 text-sm leading-5`,
+          children: [c, l, u],
+        })),
+        (t[6] = c),
+        (t[7] = l),
+        (t[8] = u),
+        (t[9] = d))
+      : (d = t[9]),
+    d
+  );
+}
+var o, s;
+function c() {
+  return (c = e(() => {
+    ((o = t()), i(), (s = n()));
+  }))();
+}
+export { c as n, a as t };
+//# sourceMappingURL=subagent-row-3ffa8b6ba655.js.map

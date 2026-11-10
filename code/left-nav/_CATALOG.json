@@ -1,0 +1,3652 @@
+{
+  "module": "left-nav",
+  "generated_at": "2026-09-11T11:51:56.224Z",
+  "files_scanned": 42,
+  "message_count": 267,
+  "messages": [
+    {
+      "id": "appgenPage.actions.more",
+      "text": "More actions for {siteTitle}",
+      "description": "Accessible label for opening the actions menu for a site",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.analytics.label",
+      "text": "Analytics",
+      "description": "Menu item for opening site analytics",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.actionsLabel",
+      "text": "More actions for {fileName}",
+      "description": "Accessible label for the cloud Library file actions menu",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.bulkDelete",
+      "text": "Delete",
+      "description": "Button for deleting selected cloud Library files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.bulkDeleteError",
+      "text": "Unable to delete some files",
+      "description": "Toast shown when some selected cloud Library files fail to delete",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.bulkDeleteSuccess",
+      "text": "Files deleted",
+      "description": "Toast shown after deleting selected cloud Library files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.bulkDownload",
+      "text": "Download",
+      "description": "Button for downloading selected cloud Library files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.bulkDownloadError",
+      "text": "Unable to download some files",
+      "description": "Toast shown when some selected cloud Library files fail to download",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.delete",
+      "text": "Delete",
+      "description": "Menu item for deleting a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteDialog.bulkSubtitle",
+      "text": "This will delete {count, plural, one {# file} other {# files}} from your Library",
+      "description": "Description for deleting multiple cloud Library files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteDialog.bulkTitle",
+      "text": "Delete files?",
+      "description": "Title for deleting multiple cloud Library files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteDialog.delete",
+      "text": "Delete",
+      "description": "Button label for confirming cloud Library file deletion",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteDialog.deleting",
+      "text": "Deleting…",
+      "description": "Button label while deleting cloud Library files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteDialog.subtitle",
+      "text": "This will delete {fileName} from your Library",
+      "description": "Description for deleting one cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteDialog.title",
+      "text": "Delete file?",
+      "description": "Title for deleting one cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteError",
+      "text": "Unable to delete file",
+      "description": "Toast shown when a cloud Library file delete fails",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.deleteSuccess",
+      "text": "File deleted",
+      "description": "Toast shown after deleting a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.dialog.cancel",
+      "text": "Cancel",
+      "description": "Cancel button in a cloud Library file action dialog",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.dialog.close",
+      "text": "Close",
+      "description": "Accessible label for closing a cloud Library file dialog",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.download",
+      "text": "Download",
+      "description": "Menu item for downloading a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.downloadError",
+      "text": "Unable to download file",
+      "description": "Toast shown when a cloud Library file download fails",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.openPreviewLabel",
+      "text": "Open preview of {fileName}",
+      "description": "Accessible label for opening a cloud Library file preview",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.rename",
+      "text": "Rename",
+      "description": "Menu item for renaming a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.renameDialog.inputLabel",
+      "text": "File name",
+      "description": "Accessible label for the cloud Library rename input",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.renameDialog.rename",
+      "text": "Rename",
+      "description": "Button label for confirming a cloud Library file rename",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.renameDialog.renaming",
+      "text": "Renaming…",
+      "description": "Button label while renaming a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.renameDialog.title",
+      "text": "Rename file",
+      "description": "Title for renaming a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.renameError",
+      "text": "Unable to rename file",
+      "description": "Toast shown when a cloud Library file rename fails",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.renameSuccess",
+      "text": "File renamed",
+      "description": "Toast shown after renaming a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.selectedCount",
+      "text": "{count, plural, one {# selected} other {# selected}}",
+      "description": "Number of selected cloud Library files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFile.selectionLabel",
+      "text": "Select {fileName}",
+      "description": "Accessible label for selecting a cloud Library file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFilePreview.unavailable",
+      "text": "This file can't be previewed",
+      "description": "Message shown when a Library file preview is unavailable",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFileType.audio",
+      "text": "Audio",
+      "description": "Type label for an audio file in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFileType.image",
+      "text": "Image",
+      "description": "Type label for an image file in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFileType.other",
+      "text": "File",
+      "description": "Type label for a generic file in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFileType.text",
+      "text": "Text",
+      "description": "Type label for a text file in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFileType.video",
+      "text": "Video",
+      "description": "Type label for a video file in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFolder.emptyTitle",
+      "text": "No files yet",
+      "description": "Empty state title for a cloud Library folder",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudFolder.fallbackTitle",
+      "text": "Folder",
+      "description": "Fallback page title while a cloud Library folder path is loading or unavailable",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.button",
+      "text": "Upload",
+      "description": "Button label for uploading files to the cloud Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.delayed",
+      "text": "Upload complete. Files may take a moment to appear",
+      "description": "Toast shown when cloud Library uploads finish but refreshing the Library list fails or takes longer than expected",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.dropDescription",
+      "text": "Drop any file here to add it to your library",
+      "description": "Instruction text in the cloud Library drag-and-drop overlay",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.dropTitle",
+      "text": "Add anything",
+      "description": "Primary heading in the cloud Library drag-and-drop overlay",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.failure",
+      "text": "Unable to upload files",
+      "description": "Toast shown when every cloud Library upload fails",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.inputLabel",
+      "text": "Upload library files",
+      "description": "Accessible label for the hidden cloud Library file upload input",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.close",
+      "text": "Close upload progress",
+      "description": "Accessible label for the button that dismisses the floating Library upload progress panel after all uploads finish",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.collapse",
+      "text": "Collapse upload progress",
+      "description": "Accessible label for the button that collapses the floating Library upload progress panel while keeping its overall progress visible",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.expand",
+      "text": "Expand upload progress",
+      "description": "Accessible label for the button that expands the floating Library upload progress panel to show individual files",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.failed",
+      "text": "Unable to upload",
+      "description": "Status shown under an individual file in the floating Library upload progress panel when that file fails to upload",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.fileFailed",
+      "text": "Unable to upload this file",
+      "description": "Error below a file in the floating Library upload progress panel when the upload fails and cannot safely be retried",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.fileFailedRetryable",
+      "text": "Unable to upload this file. Try again",
+      "description": "Error below a file in the floating Library upload progress panel when the upload fails without a more specific recoverable backend error",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.fileTooLarge",
+      "text": "This file exceeds the {maximumFileSize, number} MB limit. Choose a smaller file",
+      "description": "Error below a Library upload that exceeds the maximum per-file upload size. maximumFileSize is the maximum number of megabytes a single file can contain",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.fileTooLargeUnknownLimit",
+      "text": "This file is too large to upload. Try a smaller file",
+      "description": "Error below a Library upload rejected by the server because the file exceeds a file-type-specific or account-specific size limit that was not returned to the client",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.folderFailed",
+      "text": "Unable to create the destination folder",
+      "description": "Error shown below an individual file in the floating Library upload progress panel when its dragged folder could not be created",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.processing",
+      "text": "Processing…",
+      "description": "Status shown under an individual file in the floating Library upload progress panel after its bytes upload while its Library record is being processed",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.progress",
+      "text": "{completedCount}/{totalCount}",
+      "description": "Compact overall progress in the floating Library upload panel. completedCount is the number of successfully uploaded files and totalCount is the number of files in the panel",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.progressLabel",
+      "text": "{completedCount} of {totalCount} files uploaded",
+      "description": "Accessible label for the floating Library upload panel's overall progress indicator. completedCount is the number of successfully uploaded files and totalCount is the total number of files in the panel",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.queued",
+      "text": "Queued",
+      "description": "Status shown under an individual file in the floating Library upload progress panel while it waits for an earlier file to finish uploading",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.remove",
+      "text": "Remove failed upload {fileName}",
+      "description": "Accessible label for the button that removes a failed file from the floating Library upload progress panel without deleting any existing Library file. fileName is the name of the failed upload",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.retry",
+      "text": "Retry uploading {fileName}",
+      "description": "Accessible label for the button that retries a failed file in the floating Library upload progress panel. fileName is the name of the failed file",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.storageFull",
+      "text": "Your Library storage is full. Remove files to create space, then try again",
+      "description": "Actionable error below a Library upload that could not be saved because the user's ChatGPT Library cloud storage quota is full",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.title",
+      "text": "{count, plural, one {Uploading # file} other {Uploading # files}}",
+      "description": "Title of the floating Library upload progress panel. The count is the number of files in the current panel, including files that are queued, uploading, completed, or failed",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.uploaded",
+      "text": "Uploaded",
+      "description": "Status shown under an individual file in the floating Library upload progress panel after the file is successfully added to the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.panel.uploading",
+      "text": "Uploading… {progress}%",
+      "description": "Status shown under an individual file in the floating Library upload progress panel while its bytes are uploading. progress is a whole-number percentage from 0 to 100",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.cloudUpload.partialFailure",
+      "text": "{uploadedCount, plural, one {Added # file} other {Added # files}}, {failedCount} failed",
+      "description": "Toast shown when some files in a dragged Library folder cannot be read and therefore cannot appear in the upload progress panel",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.ariaLabel",
+      "text": "Create",
+      "description": "Accessible label for opening the Library create menu",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.document",
+      "text": "Create document",
+      "description": "Menu item for creating a document from the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.folder",
+      "text": "Folder",
+      "description": "Menu item for creating a folder in the current cloud Library folder",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.image",
+      "text": "Create image",
+      "description": "Menu item for creating an image from the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.pdf",
+      "text": "Create PDF",
+      "description": "Menu item for creating a PDF from the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.presentation",
+      "text": "Create presentation",
+      "description": "Menu item for creating a presentation from the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.spreadsheet",
+      "text": "Create spreadsheet",
+      "description": "Menu item for creating a spreadsheet from the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.createMenu.trigger",
+      "text": "Create",
+      "description": "Button label for opening the Library create menu",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.edit",
+      "text": "Edit {siteTitle}",
+      "description": "Accessible label for starting a new conversation to edit a site from the sites list",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.edit.label",
+      "text": "Edit",
+      "description": "Menu item for starting a new conversation to edit a site",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.edit.tooltip",
+      "text": "Edit",
+      "description": "Tooltip for starting a new conversation to edit a site",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.empty.create",
+      "text": "Create new site",
+      "description": "Button label for creating a new site from the empty state",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.empty.description",
+      "text": "Build websites and apps with databases and sign-in—try “Build a team dashboard” or “Create an event signup page”",
+      "description": "Explanation shown to a first-time Sites user: they can create websites and applications with databases and authentication by asking for a team dashboard or event signup page",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.empty.filesTitle",
+      "text": "No documents yet",
+      "description": "Empty state title for the Library Documents tab",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.empty.imagesTitle",
+      "text": "No images yet",
+      "description": "Empty state title for the Library Images tab",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.file.openPreview",
+      "text": "Open preview",
+      "description": "Hover subtitle for opening a Library file preview",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.file.openPreviewLabel",
+      "text": "Open preview of {fileName}",
+      "description": "Accessible label for opening a Library file preview",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filePreview.close",
+      "text": "Close preview",
+      "description": "Accessible label for closing a Library file preview",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filePreview.composerPlaceholder",
+      "text": "Ask about this file",
+      "description": "Placeholder for the composer beneath a Library file preview",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filePreview.loading",
+      "text": "Loading preview…",
+      "description": "Loading message shown while preparing a Library file preview",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filePreview.unavailable",
+      "text": "This file is unavailable",
+      "description": "Message shown when a Library file can't be read securely for preview",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filePreview.unsupported",
+      "text": "This file can't be previewed",
+      "description": "Message shown when a Library file preview is unavailable",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.fileType.document",
+      "text": "Document",
+      "description": "Type label for a document in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.fileType.pdf",
+      "text": "PDF",
+      "description": "Type label for a PDF in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.fileType.presentation",
+      "text": "Presentation",
+      "description": "Type label for a presentation in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.fileType.spreadsheet",
+      "text": "Spreadsheet",
+      "description": "Type label for a spreadsheet in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.access",
+      "text": "Access",
+      "description": "Heading for site access filters in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.all",
+      "text": "All",
+      "description": "Filter option that shows all sites",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.allFiles",
+      "text": "All",
+      "description": "Filter option that shows every Library item",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.documents",
+      "text": "Documents",
+      "description": "Filter option that shows documents in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.images",
+      "text": "Images",
+      "description": "Filter option that shows images in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.library",
+      "text": "View",
+      "description": "Heading for content filters in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.libraryAriaLabel",
+      "text": "Filter library",
+      "description": "Accessible label for the Library filter dropdown",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.pdfs",
+      "text": "PDFs",
+      "description": "Filter option that shows PDFs in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.presentations",
+      "text": "Presentations",
+      "description": "Filter option that shows presentations in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.private",
+      "text": "Private",
+      "description": "Filter option that shows private sites",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.shared",
+      "text": "Shared",
+      "description": "Filter option that shows shared sites",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.sites",
+      "text": "Sites",
+      "description": "Filter option that shows sites in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.filter.spreadsheets",
+      "text": "Spreadsheets",
+      "description": "Filter option that shows spreadsheets in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.image.open",
+      "text": "Open {imageName}",
+      "description": "Accessible label for opening a generated Library image",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.image.type",
+      "text": "Image",
+      "description": "Type label for a generated image in the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.library.empty.title",
+      "text": "No sites yet",
+      "description": "Empty state title for the Library page",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.library.error.title",
+      "text": "Unable to load library",
+      "description": "Error state title for the Library page",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.library.refresh",
+      "text": "Refresh library",
+      "description": "Accessible label for refreshing the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.library.subtitle",
+      "text": "Organize and reuse files, images and sites created across chats",
+      "description": "Subtitle shown at the top of the Library page",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.library.subtitleCloudFiles",
+      "text": "Organize and reuse files and images created across chats",
+      "description": "Subtitle shown at the top of the cloud-only Library page",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.library.title",
+      "text": "Library",
+      "description": "Title shown at the top of the Library page",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.libraryItem.continueChat",
+      "text": "Continue chat for {itemName}",
+      "description": "Accessible label for continuing work on a Library item in chat",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.libraryItem.continueChat.tooltip",
+      "text": "Continue chat",
+      "description": "Tooltip for continuing work on a Library item in chat",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.list.modified",
+      "text": "Modified",
+      "description": "Modified column header in the Library list",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.list.name",
+      "text": "Name",
+      "description": "Name column header in the Library list",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.list.size",
+      "text": "Size",
+      "description": "Size column header in the Library list",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.openInBrowserSubtitle",
+      "text": "Open in browser",
+      "description": "Hover subtitle for opening a live site",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.openSettings",
+      "text": "Open settings for {siteTitle}",
+      "description": "Accessible label for opening site settings from the sites list",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.openSharingSettings",
+      "text": ", open sharing settings for {siteTitle}",
+      "description": "Additional accessible button label for opening site sharing settings from the sites list access status",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.partialError",
+      "text": "Some library items couldn't be loaded",
+      "description": "Inline warning shown when one Library source fails to load",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.publish",
+      "text": "Publish {siteTitle}",
+      "description": "Accessible label for publishing an unpublished Site from the Sites list",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.publish.label",
+      "text": "Publish",
+      "description": "Button label for publishing an unpublished Site",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.publish.ownerRequired",
+      "text": "Only the owner can publish the first version",
+      "description": "Tooltip explaining why only the owner can publish a Site",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.search",
+      "text": "Search library",
+      "description": "Accessible label and placeholder for searching the Library",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.search.empty",
+      "text": "No library items found",
+      "description": "Empty state shown when no Library items match the search query",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.search.emptyDescription",
+      "text": "Try another search",
+      "description": "Description shown when no Library items match the search query",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.settings.label",
+      "text": "Settings",
+      "description": "Menu item for opening site settings",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.settings.tooltip",
+      "text": "Settings",
+      "description": "Tooltip for opening site settings from the sites list",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.share",
+      "text": "Share {siteTitle}",
+      "description": "Accessible label for opening site sharing settings from the sites list",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.share.label",
+      "text": "Share",
+      "description": "Button label for opening site sharing settings",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.share.tooltip",
+      "text": "Share",
+      "description": "Tooltip for opening site sharing settings",
+      "files": ["_deps/sites-default-thumbnail-36d2e0dce693.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.type.all",
+      "text": "All",
+      "description": "Library tab that shows every content type",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.type.ariaLabel",
+      "text": "Library type",
+      "description": "Accessible label for filtering Library content by type",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.type.files",
+      "text": "Documents",
+      "description": "Library tab that shows documents",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.type.images",
+      "text": "Images",
+      "description": "Library tab that shows generated images",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.type.sites",
+      "text": "Sites",
+      "description": "Library tab that shows sites",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.view.ariaLabel",
+      "text": "Library view",
+      "description": "Accessible label for the Library view selector",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.view.grid",
+      "text": "Grid view",
+      "description": "Accessible label for showing Library items in a grid",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.view.list",
+      "text": "List view",
+      "description": "Accessible label for showing Library items in a list",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "appgenPage.visit",
+      "text": "Visit {siteTitle}",
+      "description": "Accessible label for opening a live site from the sites list",
+      "files": ["library/unified-library-page-ef847054fa9e.js"],
+      "file_count": 1
+    },
+    {
+      "id": "home.newChatPageSuggestions.createDocument.prompt.v5",
+      "text": "Create a new document with {artifact}. Start by asking me what it should be about.",
+      "description": "Composer prefill for creating a document",
+      "files": ["_deps/artifact-creation-prompts-a41340b52c1a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "home.newChatPageSuggestions.createPresentation.prompt.v5",
+      "text": "Create a new presentation with {artifact}. Start by asking me what it should be about.",
+      "description": "Composer prefill for creating a presentation",
+      "files": ["_deps/artifact-creation-prompts-a41340b52c1a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "home.newChatPageSuggestions.createSite.prompt.v5",
+      "text": "Create a new site with {artifact}. Start by asking me what it should be about.",
+      "description": "Composer prefill for creating a site",
+      "files": ["_deps/artifact-creation-prompts-a41340b52c1a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "home.newChatPageSuggestions.createSpreadsheet.prompt.v5",
+      "text": "Create a new spreadsheet with {artifact}. Start by asking me what it should be about.",
+      "description": "Composer prefill for creating a spreadsheet",
+      "files": ["_deps/artifact-creation-prompts-a41340b52c1a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryArtifactPreview.error",
+      "text": "Unable to render preview",
+      "description": "Placeholder text when a Library Office file cannot be rendered",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryArtifactPreview.loading",
+      "text": "Loading preview",
+      "description": "Status text while a Library Office file preview loads",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.composerPlaceholder",
+      "text": "Ask about this file",
+      "description": "Placeholder for the ChatGPT composer inside the Library file preview",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.download",
+      "text": "Download file",
+      "description": "Aria label for downloading a file from the Library file preview",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.downloadError",
+      "text": "Unable to download file",
+      "description": "Toast shown when downloading a Library file from the preview fails",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.downloadUnsupported",
+      "text": "Download file",
+      "description": "Button label to download an unsupported Library file",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.loading",
+      "text": "Loading preview",
+      "description": "Status text while a Library file preview loads",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.localFileSizeLimit",
+      "text": "Local tasks require a known file size of {maximumFileSize, number} MB or less. Use ChatGPT or download this file",
+      "description": "Warning shown when a Library file has no size metadata or exceeds the local-task size limit; users can still attach the file to ChatGPT or download it",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.materializationError",
+      "text": "Unable to prepare this file",
+      "description": "Error shown at the bottom of a Google Drive file preview when the file cannot be prepared for attachment to a new ChatGPT or Codex conversation",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.materializationRetry",
+      "text": "Retry",
+      "description": "Button in a Google Drive file preview that retries preparing the file for attachment to a new ChatGPT or Codex conversation",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.pdfError",
+      "text": "Unable to render PDF preview",
+      "description": "Placeholder text when PDF content cannot be rendered",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.retryImage",
+      "text": "Retry preview",
+      "description": "Button label to retry loading an image preview",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.tooLargeDescription",
+      "text": "You can still download or attach this file to ChatGPT",
+      "description": "Description for Library file previews that exceed the rich preview size limit",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.tooLargeTitle",
+      "text": "File too large to preview",
+      "description": "Title for Library file previews that exceed the rich preview size limit",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.unsupportedDescription",
+      "text": "This file type can be downloaded or attached to ChatGPT",
+      "description": "Description for unsupported Library file preview types",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryFilePreview.unsupportedTitle",
+      "text": "Preview not available",
+      "description": "Title for unsupported Library file preview types",
+      "files": ["library/library-cloud-file-preview-e9b210a27555.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.access.denied",
+      "text": "Sign in to ChatGPT to open your Library.",
+      "description": "Library page message when ChatGPT account access is unavailable",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.delete",
+      "text": "Delete",
+      "description": "Menu action to delete a Library item after confirmation",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.deleteFileFailed",
+      "text": "Failed to delete file.",
+      "description": "Error toast when deleting a Library file fails",
+      "files": ["library/library-item-actions-17d69ae9b8cf.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.deleteFolderFailed",
+      "text": "Failed to delete folder.",
+      "description": "Error toast when deleting a Library folder fails",
+      "files": ["library/library-item-actions-17d69ae9b8cf.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.deleteItem",
+      "text": "{kind, select, directory {Delete folder} other {Delete}}",
+      "description": "Menu action to delete a Library item after confirmation. kind distinguishes directories from files.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.download",
+      "text": "Download",
+      "description": "Menu action to download a Library file",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.downloadFileFailed",
+      "text": "Failed to download file.",
+      "description": "Error toast when downloading a Library file fails",
+      "files": ["library/library-item-actions-17d69ae9b8cf.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.menu",
+      "text": "Open actions menu for {name}",
+      "description": "Accessible label for a Library item's overflow menu; name is the file or folder title",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.rename",
+      "text": "Rename",
+      "description": "Menu action to rename a Library item",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.renameFileFailed",
+      "text": "Failed to rename {fileName}.",
+      "description": "Error toast when renaming a Library file fails; fileName is its original name",
+      "files": ["library/library-item-actions-17d69ae9b8cf.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.actions.renameFolderFailed",
+      "text": "Failed to rename folder.",
+      "description": "Error toast when renaming a Library folder fails",
+      "files": ["library/library-item-actions-17d69ae9b8cf.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.cancel",
+      "text": "Cancel",
+      "description": "Dismiss the Library creation dialog without creating an item",
+      "files": ["library/library-create-dialog-71a30cbe9a09.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.document",
+      "text": "Document",
+      "description": "Library creation menu action to create a document with ChatGPT",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.folder",
+      "text": "Folder",
+      "description": "Library creation menu action to create a folder",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.image",
+      "text": "Image",
+      "description": "Library creation menu action to start generating an image in ChatGPT",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.new",
+      "text": "New",
+      "description": "Button that opens the Library creation menu",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.presentation",
+      "text": "Presentation",
+      "description": "Library creation menu action to create a presentation with ChatGPT",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.spreadsheet",
+      "text": "Spreadsheet",
+      "description": "Library creation menu action to create a spreadsheet with ChatGPT",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.submitStatus",
+      "text": "{pending, select, true {Creating…} other {Create}}",
+      "description": "Library creation dialog primary button. pending is true while the folder is being created.",
+      "files": ["library/library-create-dialog-71a30cbe9a09.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.upload",
+      "text": "Upload files",
+      "description": "Label for the Library file-upload picker",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.create.uploadMenu",
+      "text": "Upload files",
+      "description": "Library menu action to select files for upload into the current folder",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.createFolder.failed",
+      "text": "Failed to create folder.",
+      "description": "Inline Library folder creation failure; unsaved input is retained for retry",
+      "files": ["library/library-create-dialog-71a30cbe9a09.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.createFolder.name",
+      "text": "Folder name",
+      "description": "Name input in the Library folder creation dialog",
+      "files": ["library/library-create-dialog-71a30cbe9a09.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.createFolder.title",
+      "text": "New folder",
+      "description": "Title of the Library folder creation dialog",
+      "files": ["library/library-create-dialog-71a30cbe9a09.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.confirmItems",
+      "text": "{singleFolder, select, true {Delete folder} other {Delete}}",
+      "description": "Destructive button in the Library delete confirmation. singleFolder is true only when deleting one folder.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.dismiss",
+      "text": "{bulkFiles, select, true {Back} other {Cancel}}",
+      "description": "Dismiss the Library delete confirmation without deleting. bulkFiles is true for the file-only bulk-selection flow, which uses Back.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.fileDescription",
+      "text": "\"<bold>{fileName}</bold>\" will be moved to Recently Deleted and deleted permanently after 30 days.",
+      "description": "Body before deleting one Library file. fileName is its full name, rendered in bold; the file is soft-deleted for 30 days.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.filesDescription",
+      "text": "{count, plural, one {This file will be moved to Recently Deleted and deleted permanently after 30 days.} other {These files will be moved to Recently Deleted and deleted permanently after 30 days.}}",
+      "description": "Body of the Library bulk file delete confirmation. count selects singular or plural; files remain in Recently Deleted for 30 days.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.filesTitle",
+      "text": "{count, plural, one {Delete file?} other {Delete files?}}",
+      "description": "Confirmation title before deleting Library files. count is the selected file count.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.folderDescription",
+      "text": "\"{name}\" will be permanently deleted with all files and subfolders.",
+      "description": "Body of the Library folder delete confirmation. name is the folder's full name; deleting it removes all nested contents permanently.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.foldersWarning",
+      "text": "Selected folders will also delete all nested files and subfolders.",
+      "description": "Additional warning in the Library mixed-selection delete confirmation when folders are selected.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.folderTitle",
+      "text": "{count, plural, one {Delete folder} other {Delete selected items}}",
+      "description": "Library delete confirmation title when the selection contains folders. count is the total selected item count.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.irreversible",
+      "text": "This can't be undone.",
+      "description": "Warning below the Library folder or mixed-selection delete confirmation.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.mixedDescription",
+      "text": "{count, plural, one {This selected item will be permanently deleted.} other {These # selected items will be permanently deleted.}}",
+      "description": "Body of the Library mixed-selection delete confirmation. count is the total number of selected files and folders.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.delete.storage",
+      "text": "Delete permanently to free up {size} of storage space.",
+      "description": "Secondary Library bulk file delete text explaining that soft deletion does not free storage. size is the total formatted file size.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.dialog.cancel",
+      "text": "Cancel",
+      "description": "Dismiss a Library action dialog without making changes",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.clearCategory",
+      "text": "{category, select, images {Clear Images filter} documents {Clear Documents filter} spreadsheets {Clear Spreadsheets filter} presentations {Clear Presentations filter} other {Clear PDFs filter}}",
+      "description": "Accessible action on a selected Library file-type chip. category identifies the selected file type; activating removes that filter.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.documents",
+      "text": "Documents",
+      "description": "Library document category in the filter menu and selected filter chips",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.fileType",
+      "text": "File type",
+      "description": "Heading for Library file type filters",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.generated",
+      "text": "Generated",
+      "description": "Library filter for files generated by ChatGPT",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.images",
+      "text": "Images",
+      "description": "Library image category, shown as a tab, filter menu option, or selected filter chip",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.openWithCount",
+      "text": "{activeFilterCount, plural, =0 {Open filters} one {Open filters, # active filter} other {Open filters, # active filters}}",
+      "description": "Accessible label for the Library filter menu, including the number of active source and file-type filters.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.pdfs",
+      "text": "PDFs",
+      "description": "Library PDF category in the filter menu and selected filter chips",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.presentations",
+      "text": "Presentations",
+      "description": "Library presentation category in the filter menu and selected filter chips",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.source",
+      "text": "Source",
+      "description": "Heading for Library source filters",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.spreadsheets",
+      "text": "Spreadsheets",
+      "description": "Library spreadsheet category in the filter menu and selected filter chips",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.filters.uploaded",
+      "text": "Uploaded",
+      "description": "Library filter for files uploaded by the user",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.folder.hiddenName",
+      "text": "Folder names cannot start with \".\".",
+      "description": "Inline error when a Library folder name starts with a dot and would be hidden from normal browsing",
+      "files": ["library/library-name-validation-1174fdece49a.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.items.calendarActivity",
+      "text": "{opened, select, true {Opened {time}} other {Modified {time}}}",
+      "description": "Suggested Library grid activity. opened distinguishes last opening from modification; time is a localized calendar label such as Aug 28 or Yesterday.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.items.contentsCount",
+      "text": "{items, plural, one {# item} other {# items}} and {folders, plural, one {# folder} other {# folders}}",
+      "description": "Counts below a Library folder tile containing both files and child folders. Items counts files; folders counts child folders.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.items.count",
+      "text": "{count, plural, one {# item} other {# items}}",
+      "description": "Number of items in a Library folder shown below its grid tile",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.items.foldersCount",
+      "text": "{count, plural, one {# folder} other {# folders}}",
+      "description": "Number of child folders in a Library folder with no files, below its grid tile",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.items.relativeActivity",
+      "text": "{opened, select, true {Opened {time} ago} other {Modified {time} ago}}",
+      "description": "Suggested Library list activity. opened distinguishes last opening from modification; time is an abbreviated elapsed duration such as 2h.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.rename.itemName",
+      "text": "{kind, select, directory {Folder name} other {File name}}",
+      "description": "Label for the Library rename input. kind identifies a directory or file; file names include their extension.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.rename.itemTitle",
+      "text": "{kind, select, directory {Rename folder} other {Rename file}}",
+      "description": "Title of the Library rename dialog. kind identifies whether the user is renaming a directory or a file.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.rename.submitStatus",
+      "text": "{pending, select, true {Renaming…} other {Rename}}",
+      "description": "Primary button in the Library rename dialog. pending is true while the rename request is in progress.",
+      "files": ["library/library-item-dialogs-4b286cae5986.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.dateHeading",
+      "text": "{kind, select, suggested {Last activity} shared {Date shared} deleted {Deleted} other {Modified}}",
+      "description": "Library list date column heading. kind identifies Suggested activity, shared-folder sharing date, Trash deletion date, or last modification.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.emptyFolder",
+      "text": "This folder is empty.",
+      "description": "Empty Library folder with no upload action available.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.emptyTabDescription",
+      "text": "{tab, select, images {Images you create with ChatGPT will appear here.} folders {Create folders to organize items in your library.} other {Things you make with ChatGPT, like images and documents, will appear here.}}",
+      "description": "Supporting text for an empty Library tab. tab identifies Images, Folders, or the general Suggested/All views.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.emptyTabTitle",
+      "text": "{tab, select, images {Create your first image} folders {Create your first folder} other {Create something new}}",
+      "description": "Title of an empty Library tab. tab distinguishes Images, Folders, and the general Suggested/All views.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.failed",
+      "text": "Failed to load files.",
+      "description": "Library browse error when the first page could not be fetched",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.folders",
+      "text": "Folders",
+      "description": "Heading for folders in the Library All tab",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.items",
+      "text": "Items",
+      "description": "Heading for files in the Library All tab",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.name",
+      "text": "Name",
+      "description": "Library list name column heading",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.noFilesFound",
+      "text": "No files found",
+      "description": "Library empty result message when search or filters match no files, or when Trash is empty.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.noFilesYet",
+      "text": "No files yet",
+      "description": "Screen-reader title for an empty Library folder where uploading is available.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.pageFailed",
+      "text": "Failed to load files.",
+      "description": "Library pagination failed while existing items remain visible",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.partial",
+      "text": "Some sources couldn't be searched. Try again to see all results.",
+      "description": "Library search returned partial results from its backend sources",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.retry",
+      "text": "Try again",
+      "description": "Retry fetching Library results",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.sharedEmptyDescription",
+      "text": "Files shared with you will live here",
+      "description": "Supporting copy in the empty Shared with me Library folder.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.sharedEmptyTitle",
+      "text": "Folder is empty",
+      "description": "Empty state title in Library's Shared with me folder.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.size",
+      "text": "Size",
+      "description": "Library folder list file size column heading",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.results.uploadDescription",
+      "text": "Upload a file to start building your library.",
+      "description": "Screen-reader description of the upload button in an empty Library folder.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.search.label",
+      "text": "Search library",
+      "description": "Label and placeholder for the Library search input",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.selection.actions",
+      "text": "Selected item actions",
+      "description": "Accessible label for the Library bulk action toolbar",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.selection.allAction",
+      "text": "{partial, select, true {Clear selection} other {Select all}}",
+      "description": "Accessible Library header checkbox label. partial is true for a mixed selection, which clicking clears; otherwise it toggles all loaded items.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.selection.chat",
+      "text": "Start chat",
+      "description": "Start a chat with the selected Library files attached",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.selection.chatFailed",
+      "text": "Couldn't start a chat with these files",
+      "description": "Error when selected Library files could not be attached to a new ChatGPT draft",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.selection.clear",
+      "text": "Clear selection",
+      "description": "Deselect all Library items",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.selection.count",
+      "text": "{count, plural, one {# selected} other {# selected}}",
+      "description": "Count of selected Library items",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.selection.item",
+      "text": "Select {name}",
+      "description": "Accessible label for selecting a Library file or folder; name is its title",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.settings.hidden",
+      "text": "Show hidden files",
+      "description": "Library setting that reveals hidden files in browse and search results",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.settings.label",
+      "text": "Settings",
+      "description": "Accessible label for the Library settings menu",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.settings.manage",
+      "text": "Manage",
+      "description": "Library management menu section",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.settings.provider",
+      "text": "Show {provider}",
+      "description": "Toggle visibility of a connected Library provider",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.settings.trash",
+      "text": "Trash",
+      "description": "Library settings menu action that opens deleted files",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.tabs.all",
+      "text": "All",
+      "description": "Library tab for all folders and items",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.tabs.folders",
+      "text": "Folders",
+      "description": "Library tab for browsing folders",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.tabs.label",
+      "text": "Library sections",
+      "description": "Accessible label for Library navigation tabs",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.tabs.suggested",
+      "text": "Suggested",
+      "description": "Library tab for backend-ranked suggested items",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.title.library",
+      "text": "Library",
+      "description": "Title of the Library page",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.title.search",
+      "text": "Search",
+      "description": "Library heading while showing search results",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.title.trash",
+      "text": "Trash",
+      "description": "Library trash heading",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.upload.failedTitle",
+      "text": "Upload failed",
+      "description": "Library upload failure toast title; the file name appears separately in the toast description.",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.upload.progress",
+      "text": "Uploading {count, plural, one {# file} other {# files}}",
+      "description": "Toast displayed while selected files are uploading to Library",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.view.grid",
+      "text": "Grid view",
+      "description": "Switch the Library from a list to a grid",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "libraryNext.view.list",
+      "text": "List view",
+      "description": "Switch the Library from a grid to a list",
+      "files": ["library/library-page-f2624aa4e395.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.checklistActions",
+      "text": "Checklist actions",
+      "description": "Accessible label for the onboarding checklist actions menu",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.collapseChecklist",
+      "text": "Collapse checklist",
+      "description": "Accessible label for collapsing the onboarding checklist",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.expandChecklist",
+      "text": "Expand checklist",
+      "description": "Accessible label for expanding the onboarding checklist",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.finishConnectingImportedTools",
+      "text": "Connect imported tools",
+      "description": "Onboarding checklist item for finishing setup of imported tools",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.hideSetup",
+      "text": "Hide setup",
+      "description": "Menu item label for hiding setup from the sidebar",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.importAgentSetup",
+      "text": "Import agent setup",
+      "description": "Completed external agent setup import item in the sidebar onboarding checklist",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.progressCount",
+      "text": "{progressCount} of {totalCount}",
+      "description": "Progress text for the onboarding checklist",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.progressCountAriaLabel",
+      "text": "Onboarding progress: {progressCount} of {totalCount}",
+      "description": "Accessible label for the onboarding checklist progress",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    },
+    {
+      "id": "sidebarOnboardingChecklist.title",
+      "text": "Getting started",
+      "description": "Title for the onboarding checklist shown in the sidebar.",
+      "files": ["sidebar/sidebar-onboarding-checklist.electron-1d409739925f.js"],
+      "file_count": 1
+    }
+  ],
+  "imports": [
+    {
+      "from": "app-initial-f094ef01c64d.js",
+      "count": 465,
+      "names": [
+        "$2t",
+        "$8",
+        "$G",
+        "$It",
+        "$Wt",
+        "$dt",
+        "$it",
+        "$k",
+        "$lt",
+        "A3t",
+        "ABt",
+        "AJ",
+        "AKt",
+        "AMt",
+        "Af",
+        "Aft",
+        "Amn",
+        "B4t",
+        "B6t",
+        "BDt",
+        "BKt",
+        "BO",
+        "Bit",
+        "Bq",
+        "But",
+        "By",
+        "Byt",
+        "C5",
+        "CLt",
+        "CQ",
+        "CW",
+        "Cit",
+        "Cj",
+        "Cpn",
+        "Cq",
+        "Cyt",
+        "D3t",
+        "DC",
+        "DSt",
+        "DXt",
+        "Df",
+        "Dmt",
+        "Drn",
+        "Dv",
+        "EC",
+        "Ef",
+        "Eln",
+        "Ept",
+        "Ev",
+        "F3t",
+        "Fdt",
+        "Fj",
+        "Fq",
+        "Fu",
+        "Fut",
+        "G3t",
+        "G9",
+        "GB",
+        "GIt",
+        "GL",
+        "GO",
+        "GV",
+        "Gf",
+        "Glt",
+        "Gs",
+        "H4t",
+        "HDt",
+        "HLt",
+        "HUt",
+        "Hdt",
+        "Hf",
+        "Hh",
+        "Hs",
+        "I3t",
+        "IKt",
+        "IO",
+        "IUt",
+        "IXt",
+        "Idt",
+        "Ij",
+        "Iut",
+        "J8",
+        "J9",
+        "JG",
+        "JK",
+        "JO",
+        "JWt",
+        "JXt",
+        "Jdt",
+        "Jit",
+        "Jj",
+        "Jmt",
+        "Jrt",
+        "K3t",
+        "K8",
+        "K9",
+        "KG",
+        "KIt",
+        "KL",
+        "KO",
+        "KV",
+        "KVt",
+        "KWt",
+        "KXt",
+        "KYt",
+        "Kf",
+        "Kit",
+        "Kst",
+        "LH",
+        "LO",
+        "LX",
+        "LYt",
+        "M0",
+        "M6t",
+        "MAt",
+        "MMt",
+        "Mrn",
+        "Mut",
+        "N0",
+        "N3t",
+        "N6t",
+        "NXt",
+        "NYt",
+        "Nd",
+        "Nq",
+        "Nut",
+        "O3t",
+        "OC",
+        "OL",
+        "OSt",
+        "OW",
+        "OXt",
+        "OY",
+        "Oit",
+        "Omt",
+        "Opn",
+        "Orn",
+        "Ov",
+        "PXt",
+        "Pd",
+        "Plt",
+        "Pq",
+        "Pu",
+        "Q0",
+        "QIt",
+        "QVt",
+        "QWt",
+        "QXt",
+        "RH",
+        "RKt",
+        "RX",
+        "Rit",
+        "Rnn",
+        "Rpn",
+        "Rq",
+        "S1t",
+        "S3t",
+        "S4t",
+        "S5",
+        "SEt",
+        "SJt",
+        "Sj",
+        "Spn",
+        "Sq",
+        "Sut",
+        "Syt",
+        "TC",
+        "TJt",
+        "TSt",
+        "TW",
+        "Tdt",
+        "Tf",
+        "Tmt",
+        "Tpt",
+        "Trn",
+        "U3t",
+        "UO",
+        "UUt",
+        "Uat",
+        "Uh",
+        "Ult",
+        "VLt",
+        "Vat",
+        "Vdt",
+        "Vit",
+        "Vlt",
+        "Vq",
+        "W8",
+        "WB",
+        "WL",
+        "Wlt",
+        "X2",
+        "X2t",
+        "X8",
+        "XO",
+        "XWt",
+        "Xct",
+        "Xdt",
+        "Xmt",
+        "Xot",
+        "Xrt",
+        "Xst",
+        "Xxt",
+        "Y2",
+        "Y2t",
+        "Y8",
+        "Y9",
+        "Ymt",
+        "Yq",
+        "Yrt",
+        "Z0",
+        "Z8",
+        "ZG",
+        "ZIt",
+        "ZVt",
+        "Zot",
+        "Zst",
+        "_3t",
+        "_5",
+        "_Mt",
+        "_Q",
+        "_Rt",
+        "_at",
+        "_ft",
+        "_ht",
+        "_mn",
+        "a3t",
+        "a5",
+        "aA",
+        "aYt",
+        "act",
+        "af",
+        "apt",
+        "ayt",
+        "b1t",
+        "b5",
+        "bI",
+        "bMt",
+        "bpt",
+        "but",
+        "c5",
+        "c6t",
+        "cI",
+        "cR",
+        "cS",
+        "cct",
+        "cft",
+        "cpt",
+        "cv",
+        "d5",
+        "dK",
+        "dPt",
+        "dYt",
+        "dbt",
+        "dct",
+        "dd",
+        "djt",
+        "drn",
+        "dyt",
+        "dzt",
+        "e0t",
+        "e4t",
+        "e5",
+        "eA",
+        "eLt",
+        "eZt",
+        "eat",
+        "eft",
+        "eit",
+        "f5",
+        "f5t",
+        "fPt",
+        "fYt",
+        "fct",
+        "fk",
+        "flt",
+        "fs",
+        "fut",
+        "fxt",
+        "fzt",
+        "g5",
+        "gMt",
+        "gRt",
+        "glt",
+        "gmn",
+        "grn",
+        "h5",
+        "hMt",
+        "hYt",
+        "hZt",
+        "hct",
+        "hf",
+        "hmn",
+        "hs",
+        "hz",
+        "i3t",
+        "i5",
+        "i6t",
+        "iHt",
+        "iYt",
+        "ict",
+        "iit",
+        "j0",
+        "jBt",
+        "jJ",
+        "jMt",
+        "jXt",
+        "jct",
+        "jf",
+        "jln",
+        "jlt",
+        "jq",
+        "k1t",
+        "kAt",
+        "kC",
+        "kKt",
+        "kL",
+        "kMt",
+        "kW",
+        "kXt",
+        "kY",
+        "kct",
+        "kdt",
+        "kf",
+        "kft",
+        "kit",
+        "kmn",
+        "kmt",
+        "krn",
+        "l3t",
+        "l5",
+        "lF",
+        "lHt",
+        "lS",
+        "lTt",
+        "lW",
+        "lWt",
+        "lYt",
+        "lat",
+        "lct",
+        "lv",
+        "lw",
+        "lzt",
+        "m5",
+        "m6t",
+        "mK",
+        "mYt",
+        "mct",
+        "mf",
+        "mrn",
+        "ms",
+        "mt",
+        "mxt",
+        "mz",
+        "n2",
+        "nH",
+        "nI",
+        "nR",
+        "nV",
+        "nat",
+        "nct",
+        "nit",
+        "nln",
+        "o3t",
+        "o5",
+        "oA",
+        "oI",
+        "oYt",
+        "oct",
+        "opt",
+        "p5",
+        "pZt",
+        "pct",
+        "pht",
+        "pk",
+        "ps",
+        "pt",
+        "q9",
+        "qIt",
+        "qK",
+        "qL",
+        "qWt",
+        "qj",
+        "qmt",
+        "qst",
+        "r2",
+        "r3t",
+        "r6t",
+        "rHt",
+        "rTt",
+        "rV",
+        "rYt",
+        "rct",
+        "rf",
+        "rit",
+        "rq",
+        "rrn",
+        "s3t",
+        "s5",
+        "s6t",
+        "sI",
+        "sR",
+        "sW",
+        "sYt",
+        "sct",
+        "sft",
+        "snn",
+        "spt",
+        "t2",
+        "t5",
+        "tH",
+        "tR",
+        "tat",
+        "tit",
+        "tmt",
+        "u5",
+        "uF",
+        "uHt",
+        "uSt",
+        "uWt",
+        "uYt",
+        "ubt",
+        "uct",
+        "ud",
+        "uq",
+        "uw",
+        "v5",
+        "vLt",
+        "vMt",
+        "vYt",
+        "vat",
+        "vf",
+        "vft",
+        "vit",
+        "w4t",
+        "w6t",
+        "wJt",
+        "wct",
+        "x1t",
+        "x5",
+        "xI",
+        "xJt",
+        "xRt",
+        "xit",
+        "xpn",
+        "xrn",
+        "xut",
+        "y0t",
+        "y1t",
+        "y5",
+        "yMt",
+        "yYt",
+        "ydt",
+        "yf",
+        "yit",
+        "ypt",
+        "zDt",
+        "zJ",
+        "zKt",
+        "zO",
+        "zXt",
+        "zit",
+        "zpn",
+        "zy",
+        "zyt"
+      ]
+    },
+    {
+      "from": "app-primary-4c40d73a1074.js",
+      "count": 67,
+      "names": [
+        "$a",
+        "Ao",
+        "Bw",
+        "Do",
+        "Ga",
+        "Gw",
+        "H",
+        "Hw",
+        "IT",
+        "Ji",
+        "Jw",
+        "Ka",
+        "Ko",
+        "Kw",
+        "L",
+        "LT",
+        "Li",
+        "Mx",
+        "Nx",
+        "Oo",
+        "Qa",
+        "R",
+        "Ri",
+        "Uw",
+        "V",
+        "Vw",
+        "Wa",
+        "Ww",
+        "ao",
+        "bE",
+        "co",
+        "d",
+        "dg",
+        "dn",
+        "eo",
+        "f",
+        "fg",
+        "fn",
+        "fs",
+        "gC",
+        "gn",
+        "hg",
+        "iT",
+        "io",
+        "jo",
+        "jx",
+        "lo",
+        "mg",
+        "nT",
+        "no",
+        "oo",
+        "pg",
+        "ps",
+        "qa",
+        "qi",
+        "qo",
+        "qw",
+        "rT",
+        "ro",
+        "so",
+        "tT",
+        "to",
+        "ug",
+        "vC",
+        "vE",
+        "vn",
+        "zw"
+      ]
+    },
+    {
+      "from": "use-imported-setup-opportunity-41a4c6eae93c.js",
+      "count": 19,
+      "names": [
+        "Q",
+        "X",
+        "Z",
+        "at",
+        "ct",
+        "d",
+        "i",
+        "it",
+        "l",
+        "lt",
+        "n",
+        "nt",
+        "ot",
+        "r",
+        "rt",
+        "s",
+        "st",
+        "t",
+        "tt"
+      ]
+    },
+    {
+      "from": "library-browse-state-beabc6601918.js",
+      "count": 17,
+      "names": ["_", "a", "c", "d", "f", "g", "h", "i", "l", "m", "n", "o", "p", "r", "s", "t", "u"]
+    },
+    {
+      "from": "sites-default-thumbnail-36d2e0dce693.js",
+      "count": 16,
+      "names": ["a", "c", "d", "f", "g", "h", "i", "l", "m", "n", "o", "p", "r", "s", "t", "u"]
+    },
+    {
+      "from": "sidebar-onboarding-checklist-task-config-17473bd614db.js",
+      "count": 9,
+      "names": ["S", "_", "a", "c", "d", "f", "m", "o", "w"]
+    },
+    {
+      "from": "use-pdf-pager-4c5c1a42c12a.js",
+      "count": 7,
+      "names": ["a", "c", "i", "n", "o", "r", "t"]
+    },
+    {
+      "from": "library-item-actions-17d69ae9b8cf.js",
+      "count": 7,
+      "names": ["a", "i", "n", "o", "r", "s", "t"]
+    },
+    {
+      "from": "artifact-tab-content.electron-f96c26739383.js",
+      "count": 6,
+      "names": ["a", "i", "o", "r", "s", "t"]
+    },
+    {
+      "from": "library-file-download-379f2e28fa84.js",
+      "count": 5,
+      "names": ["a", "i", "n", "r", "t"]
+    },
+    {
+      "from": "start-appgen-conversation-389745f7419d.js",
+      "count": 5,
+      "names": ["a", "i", "n", "r", "t"]
+    },
+    {
+      "from": "onboarding-mail-provider-6c35f2fbcf24.js",
+      "count": 5,
+      "names": ["a", "n", "o", "r", "t"]
+    },
+    {
+      "from": "library-cloud-file-preview-e9b210a27555.js",
+      "count": 4,
+      "names": ["i", "n", "r", "t"]
+    },
+    {
+      "from": "library-file-preview-kind-2b10eb692a6f.js",
+      "count": 4,
+      "names": ["i", "n", "r", "t"]
+    },
+    {
+      "from": "appgen-access-state-messages-d450c4a57b22.js",
+      "count": 4,
+      "names": ["a", "i", "n", "o"]
+    },
+    {
+      "from": "library-output-files-query-efc5c7a4cfd0.js",
+      "count": 4,
+      "names": ["i", "n", "r", "t"]
+    },
+    {
+      "from": "surface-572ba2609efa.js",
+      "count": 3,
+      "names": ["i", "n", "r"]
+    },
+    {
+      "from": "library-big-YcldEQZU-e4eb75156fe5.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "rolldown-runtime-c05d78c594d1.js",
+      "count": 2,
+      "names": ["n", "o"]
+    },
+    {
+      "from": "createLucideIcon-BrIFp4GW-ffee9f8c5e9f.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "library-C8mfnrOi-14494b635ca8.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "artifact-tab-content-shell-4199cd330d98.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "right-panel-composer-overlay-7bbacd6f9f94.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-chatgpt-composer-controller-f59d12db17ed.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "library-name-validation-1174fdece49a.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "appgen-access-e530f599dd35.js",
+      "count": 2,
+      "names": ["r", "s"]
+    },
+    {
+      "from": "artifact-creation-prompts-a41340b52c1a.js",
+      "count": 2,
+      "names": ["n", "r"]
+    },
+    {
+      "from": "tabs-efdcd8aaf082.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "timestamps-2a227dd4bcfa.js",
+      "count": 2,
+      "names": ["a", "t"]
+    },
+    {
+      "from": "square-library-2rA4qKxk-1f43f2c8acf1.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "segmented-toggle-30e6111a9bfb.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-searchable-page-title-visibility-337a615c9e59.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "open-appgen-share-dialog-5b55c8a7fe5b.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "library-item-model-a6df7901bc6c.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "filter-932d71dfa025.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "panel-left-close-8R4TFhVW-779881372eca.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "panel-left-D_user39-7d4fd680ea01.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "eye-3fd8cd7cd66d.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "panel-left-open-BcV0PZVh-238172f27957.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "trending-topics-fd625d5ea6e1.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "use-element-in-view-a1799199db67.js",
+      "count": 2,
+      "names": ["n", "t"]
+    },
+    {
+      "from": "pdf-dc559eb66b2a.js",
+      "count": 1,
+      "names": ["p"]
+    },
+    {
+      "from": "toolbar-breadcrumb-76687ef37675.js",
+      "count": 1,
+      "names": ["n"]
+    }
+  ],
+  "hot_props": [
+    {
+      "name": "children",
+      "count": 458
+    },
+    {
+      "name": "a",
+      "count": 363
+    },
+    {
+      "name": "k",
+      "count": 323
+    },
+    {
+      "name": "id",
+      "count": 322
+    },
+    {
+      "name": "className",
+      "count": 313
+    },
+    {
+      "name": "description",
+      "count": 298
+    },
+    {
+      "name": "defaultMessage",
+      "count": 293
+    },
+    {
+      "name": "x",
+      "count": 161
+    },
+    {
+      "name": "y",
+      "count": 161
+    },
+    {
+      "name": "o",
+      "count": 161
+    },
+    {
+      "name": "s",
+      "count": 128
+    },
+    {
+      "name": "ty",
+      "count": 106
+    },
+    {
+      "name": "i",
+      "count": 98
+    },
+    {
+      "name": "nm",
+      "count": 94
+    },
+    {
+      "name": "t",
+      "count": 88
+    },
+    {
+      "name": "viewMode",
+      "count": 57
+    },
+    {
+      "name": "d",
+      "count": 54
+    },
+    {
+      "name": "r",
+      "count": 53
+    },
+    {
+      "name": "size",
+      "count": 52
+    },
+    {
+      "name": "onClick",
+      "count": 49
+    },
+    {
+      "name": "file",
+      "count": 48
+    },
+    {
+      "name": "disabled",
+      "count": 47
+    },
+    {
+      "name": "c",
+      "count": 47
+    },
+    {
+      "name": "type",
+      "count": 45
+    },
+    {
+      "name": "color",
+      "count": 43
+    },
+    {
+      "name": "null",
+      "count": 42
+    },
+    {
+      "name": "p",
+      "count": 41
+    },
+    {
+      "name": "to",
+      "count": 40
+    },
+    {
+      "name": "sa",
+      "count": 39
+    },
+    {
+      "name": "ti",
+      "count": 39
+    },
+    {
+      "name": "onSelect",
+      "count": 38
+    },
+    {
+      "name": "ks",
+      "count": 38
+    },
+    {
+      "name": "item",
+      "count": 36
+    },
+    {
+      "name": "onClose",
+      "count": 34
+    },
+    {
+      "name": "values",
+      "count": 34
+    },
+    {
+      "name": "accountId",
+      "count": 33
+    },
+    {
+      "name": "v",
+      "count": 32
+    },
+    {
+      "name": "entry",
+      "count": 30
+    },
+    {
+      "name": "kind",
+      "count": 29
+    },
+    {
+      "name": "fill",
+      "count": 29
+    },
+    {
+      "name": "node",
+      "count": 28
+    },
+    {
+      "name": "op",
+      "count": 27
+    },
+    {
+      "name": "ip",
+      "count": 27
+    },
+    {
+      "name": "height",
+      "count": 26
+    },
+    {
+      "name": "width",
+      "count": 25
+    },
+    {
+      "name": "queryKey",
+      "count": 25
+    },
+    {
+      "name": "onDownload",
+      "count": 25
+    },
+    {
+      "name": "w",
+      "count": 25
+    },
+    {
+      "name": "label",
+      "count": 23
+    },
+    {
+      "name": "key",
+      "count": 22
+    },
+    {
+      "name": "get",
+      "count": 22
+    },
+    {
+      "name": "enabled",
+      "count": 22
+    },
+    {
+      "name": "data",
+      "count": 22
+    },
+    {
+      "name": "title",
+      "count": 22
+    },
+    {
+      "name": "LeftIcon",
+      "count": 22
+    },
+    {
+      "name": "isLoading",
+      "count": 20
+    },
+    {
+      "name": "sr",
+      "count": 20
+    },
+    {
+      "name": "st",
+      "count": 20
+    },
+    {
+      "name": "ln",
+      "count": 20
+    },
+    {
+      "name": "hasMask",
+      "count": 20
+    },
+    {
+      "name": "ao",
+      "count": 20
+    },
+    {
+      "name": "ind",
+      "count": 20
+    },
+    {
+      "name": "scope",
+      "count": 19
+    },
+    {
+      "name": "hostId",
+      "count": 19
+    },
+    {
+      "name": "asset",
+      "count": 19
+    },
+    {
+      "name": "fileName",
+      "count": 19
+    },
+    {
+      "name": "contentType",
+      "count": 19
+    },
+    {
+      "name": "shapes",
+      "count": 19
+    },
+    {
+      "name": "it",
+      "count": 19
+    },
+    {
+      "name": "name",
+      "count": 18
+    },
+    {
+      "name": "directoryId",
+      "count": 18
+    },
+    {
+      "name": "localSourcesEnabled",
+      "count": 18
+    },
+    {
+      "name": "isError",
+      "count": 17
+    },
+    {
+      "name": "fileFilter",
+      "count": 17
+    },
+    {
+      "name": "lc",
+      "count": 17
+    },
+    {
+      "name": "lj",
+      "count": 17
+    },
+    {
+      "name": "ml",
+      "count": 17
+    },
+    {
+      "name": "queryFn",
+      "count": 16
+    },
+    {
+      "name": "staleTime",
+      "count": 16
+    },
+    {
+      "name": "path",
+      "count": 16
+    },
+    {
+      "name": "role",
+      "count": 16
+    },
+    {
+      "name": "src",
+      "count": 15
+    },
+    {
+      "name": "action",
+      "count": 15
+    },
+    {
+      "name": "searchQuery",
+      "count": 15
+    },
+    {
+      "name": "leftIcon",
+      "count": 15
+    },
+    {
+      "name": "actions",
+      "count": 15
+    },
+    {
+      "name": "onEdit",
+      "count": 15
+    },
+    {
+      "name": "source",
+      "count": 14
+    },
+    {
+      "name": "signal",
+      "count": 14
+    },
+    {
+      "name": "items",
+      "count": 14
+    },
+    {
+      "name": "canvasSource",
+      "count": 14
+    },
+    {
+      "name": "mailProvider",
+      "count": 14
+    },
+    {
+      "name": "value",
+      "count": 13
+    },
+    {
+      "name": "userId",
+      "count": 12
+    },
+    {
+      "name": "loading",
+      "count": 12
+    },
+    {
+      "name": "prompt",
+      "count": 12
+    },
+    {
+      "name": "count",
+      "count": 11
+    },
+    {
+      "name": "currentCloudDirectoryId",
+      "count": 11
+    },
+    {
+      "name": "radius",
+      "count": 11
+    },
+    {
+      "name": "cloudSource",
+      "count": 11
+    },
+    {
+      "name": "disableExposureLog",
+      "count": 11
+    },
+    {
+      "name": "uniform",
+      "count": 10
+    },
+    {
+      "name": "fileId",
+      "count": 10
+    },
+    {
+      "name": "refetch",
+      "count": 10
+    },
+    {
+      "name": "accessFilter",
+      "count": 10
+    },
+    {
+      "name": "contentWidth",
+      "count": 10
+    },
+    {
+      "name": "nn",
+      "count": 10
+    },
+    {
+      "name": "RightIcon",
+      "count": 10
+    },
+    {
+      "name": "taskDefinitions",
+      "count": 10
+    },
+    {
+      "name": "installedPlugins",
+      "count": 10
+    },
+    {
+      "name": "rx",
+      "count": 9
+    },
+    {
+      "name": "categories",
+      "count": 9
+    },
+    {
+      "name": "default",
+      "count": 9
+    },
+    {
+      "name": "alt",
+      "count": 9
+    },
+    {
+      "name": "open",
+      "count": 9
+    },
+    {
+      "name": "mimeType",
+      "count": 9
+    },
+    {
+      "name": "file_name",
+      "count": 9
+    },
+    {
+      "name": "files",
+      "count": 9
+    },
+    {
+      "name": "entries",
+      "count": 9
+    },
+    {
+      "name": "modifiedAt",
+      "count": 9
+    },
+    {
+      "name": "align",
+      "count": 9
+    },
+    {
+      "name": "triggerButton",
+      "count": 9
+    },
+    {
+      "name": "isFetchingNextPage",
+      "count": 9
+    },
+    {
+      "name": "progress",
+      "count": 9
+    },
+    {
+      "name": "showCanvases",
+      "count": 9
+    },
+    {
+      "name": "showFiles",
+      "count": 9
+    },
+    {
+      "name": "showImages",
+      "count": 9
+    },
+    {
+      "name": "showSites",
+      "count": 9
+    },
+    {
+      "name": "selectedTask",
+      "count": 9
+    },
+    {
+      "name": "plan",
+      "count": 9
+    },
+    {
+      "name": "parameters",
+      "count": 8
+    },
+    {
+      "name": "provider",
+      "count": 8
+    },
+    {
+      "name": "retry",
+      "count": 8
+    },
+    {
+      "name": "onOpenChange",
+      "count": 8
+    },
+    {
+      "name": "file_id",
+      "count": 8
+    },
+    {
+      "name": "projectId",
+      "count": 8
+    },
+    {
+      "name": "sm",
+      "count": 8
+    },
+    {
+      "name": "dateString",
+      "count": 8
+    },
+    {
+      "name": "checked",
+      "count": 8
+    },
+    {
+      "name": "onCheckedChange",
+      "count": 8
+    },
+    {
+      "name": "hasNextPage",
+      "count": 8
+    },
+    {
+      "name": "cloudFileActions",
+      "count": 8
+    },
+    {
+      "name": "cloudFileThumbnailResolver",
+      "count": 8
+    },
+    {
+      "name": "tooltipContent",
+      "count": 8
+    },
+    {
+      "name": "status",
+      "count": 8
+    },
+    {
+      "name": "query",
+      "count": 7
+    },
+    {
+      "name": "parent_directory_id",
+      "count": 7
+    },
+    {
+      "name": "search",
+      "count": 7
+    },
+    {
+      "name": "parent",
+      "count": 7
+    },
+    {
+      "name": "assetName",
+      "count": 7
+    },
+    {
+      "name": "fileType",
+      "count": 7
+    },
+    {
+      "name": "surface",
+      "count": 7
+    },
+    {
+      "name": "lg",
+      "count": 7
+    },
+    {
+      "name": "siteTitle",
+      "count": 7
+    },
+    {
+      "name": "viewBox",
+      "count": 7
+    },
+    {
+      "name": "failedCount",
+      "count": 7
+    },
+    {
+      "name": "includeFolders",
+      "count": 7
+    },
+    {
+      "name": "refreshLabel",
+      "count": 7
+    },
+    {
+      "name": "g",
+      "count": 7
+    },
+    {
+      "name": "tc",
+      "count": 7
+    },
+    {
+      "name": "h",
+      "count": 7
+    },
+    {
+      "name": "meta",
+      "count": 7
+    },
+    {
+      "name": "layers",
+      "count": 7
+    },
+    {
+      "name": "fr",
+      "count": 7
+    },
+    {
+      "name": "assets",
+      "count": 7
+    },
+    {
+      "name": "phase",
+      "count": 7
+    },
+    {
+      "name": "permissionStatus",
+      "count": 7
+    },
+    {
+      "name": "threadId",
+      "count": 7
+    },
+    {
+      "name": "task",
+      "count": 7
+    },
+    {
+      "name": "requestBody",
+      "count": 6
+    },
+    {
+      "name": "cursor",
+      "count": 6
+    },
+    {
+      "name": "fallback",
+      "count": 6
+    },
+    {
+      "name": "ref",
+      "count": 6
+    },
+    {
+      "name": "mime_type",
+      "count": 6
+    },
+    {
+      "name": "libraryFileId",
+      "count": 6
+    },
+    {
+      "name": "conversationId",
+      "count": 6
+    },
+    {
+      "name": "onChange",
+      "count": 6
+    },
+    {
+      "name": "dateKind",
+      "count": 6
+    },
+    {
+      "name": "hover",
+      "count": 6
+    },
+    {
+      "name": "bb0",
+      "count": 6
+    },
+    {
+      "name": "animate",
+      "count": 6
+    },
+    {
+      "name": "onOpenPreview",
+      "count": 6
+    },
+    {
+      "name": "itemName",
+      "count": 6
+    },
+    {
+      "name": "projectTitle",
+      "count": 6
+    },
+    {
+      "name": "isLoadingFiles",
+      "count": 6
+    },
+    {
+      "name": "isLoadingImages",
+      "count": 6
+    },
+    {
+      "name": "isLoadingSites",
+      "count": 6
+    },
+    {
+      "name": "createAction",
+      "count": 6
+    },
+    {
+      "name": "onFileEdit",
+      "count": 6
+    },
+    {
+      "name": "onImageEdit",
+      "count": 6
+    },
+    {
+      "name": "onPreview",
+      "count": 6
+    },
+    {
+      "name": "xmlns",
+      "count": 6
+    },
+    {
+      "name": "canvasEnabled",
+      "count": 6
+    },
+    {
+      "name": "onAccessFilterChange",
+      "count": 6
+    },
+    {
+      "name": "onContentTypeChange",
+      "count": 6
+    },
+    {
+      "name": "onFileFilterChange",
+      "count": 6
+    },
+    {
+      "name": "isRefetching",
+      "count": 6
+    },
+    {
+      "name": "isCompleted",
+      "count": 6
+    },
+    {
+      "name": "opacity",
+      "count": 6
+    },
+    {
+      "name": "artifact",
+      "count": 6
+    },
+    {
+      "name": "providers",
+      "count": 5
+    },
+    {
+      "name": "tab",
+      "count": 5
+    },
+    {
+      "name": "composerController",
+      "count": 5
+    },
+    {
+      "name": "as",
+      "count": 5
+    },
+    {
+      "name": "onSubmit",
+      "count": 5
+    },
+    {
+      "name": "images",
+      "count": 5
+    },
+    {
+      "name": "projects",
+      "count": 5
+    },
+    {
+      "name": "refetchOnWindowFocus",
+      "count": 5
+    },
+    {
+      "name": "codexAppMode",
+      "count": 5
+    },
+    {
+      "name": "style",
+      "count": 5
+    },
+    {
+      "name": "ariaLabel",
+      "count": 5
+    },
+    {
+      "name": "layout",
+      "count": 5
+    },
+    {
+      "name": "hideWhenCompact",
+      "count": 5
+    },
+    {
+      "name": "onContinue",
+      "count": 5
+    },
+    {
+      "name": "onFolderOpen",
+      "count": 5
+    },
+    {
+      "name": "providerScope",
+      "count": 5
+    },
+    {
+      "name": "serviceTier",
+      "count": 5
+    },
+    {
+      "name": "canEnableNotifications",
+      "count": 5
+    },
+    {
+      "name": "hideGoogleWorkspaceItems",
+      "count": 5
+    },
+    {
+      "name": "representativeRole",
+      "count": 5
+    },
+    {
+      "name": "roles",
+      "count": 5
+    },
+    {
+      "name": "sessionLimits",
+      "count": 5
+    },
+    {
+      "name": "pluginId",
+      "count": 5
+    },
+    {
+      "name": "snapshot",
+      "count": 5
+    },
+    {
+      "name": "directory_id",
+      "count": 4
+    },
+    {
+      "name": "cloudPreviewRenderer",
+      "count": 4
+    },
+    {
+      "name": "importKind",
+      "count": 4
+    },
+    {
+      "name": "state",
+      "count": 4
+    },
+    {
+      "name": "autoFocus",
+      "count": 4
+    },
+    {
+      "name": "library_file_id",
+      "count": 4
+    },
+    {
+      "name": "deleteFile",
+      "count": 4
+    },
+    {
+      "name": "bulk",
+      "count": 4
+    },
+    {
+      "name": "onDeleted",
+      "count": 4
+    },
+    {
+      "name": "startInSidebar",
+      "count": 4
+    },
+    {
+      "name": "prefillPrompt",
+      "count": 4
+    },
+    {
+      "name": "folders",
+      "count": 4
+    },
+    {
+      "name": "fetchNextPage",
+      "count": 4
+    },
+    {
+      "name": "onLoadNextPage",
+      "count": 4
+    },
+    {
+      "name": "onSearchQueryChange",
+      "count": 4
+    },
+    {
+      "name": "onDelete",
+      "count": 4
+    },
+    {
+      "name": "onRename",
+      "count": 4
+    },
+    {
+      "name": "thumbnailResolver",
+      "count": 4
+    },
+    {
+      "name": "onCreate",
+      "count": 4
+    },
+    {
+      "name": "onViewModeChange",
+      "count": 4
+    },
+    {
+      "name": "onRemove",
+      "count": 4
+    },
+    {
+      "name": "onRetry",
+      "count": 4
+    },
+    {
+      "name": "totalCount",
+      "count": 4
+    },
+    {
+      "name": "errorMessage",
+      "count": 4
+    },
+    {
+      "name": "retryable",
+      "count": 4
+    },
+    {
+      "name": "input",
+      "count": 4
+    }
+  ],
+  "literal_count": 1727,
+  "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals\\left-nav.json"
+}

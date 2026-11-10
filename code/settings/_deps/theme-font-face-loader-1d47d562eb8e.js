@@ -1,0 +1,44 @@
+import { n as e } from "./rolldown-runtime-c05d78c594d1.js";
+import { a as t, n, s as r, t as i } from "./theme-font-family-550a581dca1f.js";
+async function a(e) {
+  if (typeof FontFace > `u` || document.fonts == null) return !1;
+  let r = document.fonts,
+    i = t(e),
+    a = s(r);
+  if (a.loadedAliases.has(i)) return !0;
+  let o = a.loadingByAlias.get(i);
+  if (o != null) return o;
+  let c;
+  try {
+    c = new FontFace(i, `local("${n(e.postscriptName)}"), local("${n(e.fullName)}")`)
+      .load()
+      .then((e) => (r.add(e), a.loadedAliases.add(i), !0))
+      .catch(() => !1)
+      .finally(() => {
+        a.loadingByAlias.delete(i);
+      });
+  } catch {
+    return !1;
+  }
+  return (a.loadingByAlias.set(i, c), c);
+}
+async function o(e) {
+  let n = new Map();
+  for (let r of e)
+    (r?.codeFace != null && i(r.code, r.codeFace) && n.set(t(r.codeFace), r.codeFace),
+      r?.contentFace != null &&
+        i(r.content ?? null, r.contentFace) &&
+        n.set(t(r.contentFace), r.contentFace),
+      r?.uiFace != null && i(r.ui, r.uiFace) && n.set(t(r.uiFace), r.uiFace));
+  await Promise.all(Array.from(n.values()).map((e) => a(e)));
+}
+function s(e) {
+  let t = c.get(e);
+  return (t ?? ((t = { loadedAliases: new Set(), loadingByAlias: new Map() }), c.set(e, t)), t);
+}
+var c,
+  l = e(() => {
+    (r(), (c = new WeakMap()));
+  });
+export { a as n, o as r, l as t };
+//# sourceMappingURL=theme-font-face-loader-1d47d562eb8e.js.map

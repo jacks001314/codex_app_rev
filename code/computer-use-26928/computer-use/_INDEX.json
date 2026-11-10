@@ -1,0 +1,755 @@
+{
+  "module": "computer-use",
+  "generated_at": "2026-10-01T13:41:12.459Z",
+  "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.928.3736.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "app_version": "26.928.31416",
+  "files": [
+    {
+      "archive_path": "webview/assets/actions-01f600de6534.js",
+      "file": "_deps/actions-01f600de6534.js",
+      "selected_by": "closure:d1:browser-route-b172db0eb050.js",
+      "raw_bytes": 2363,
+      "formatted_bytes": 3225,
+      "formatter": "prettier",
+      "sha256_raw": "3be69fdce0ece57f04fa8f1fbf1133d48426ba7abed12761c8b61a789a3e9f3d"
+    },
+    {
+      "archive_path": "webview/assets/apps-availability-dc9bc515d597.js",
+      "file": "_deps/apps-availability-dc9bc515d597.js",
+      "selected_by": "closure:d1:computer-use-settings-c4ea738a6555.js",
+      "raw_bytes": 3559,
+      "formatted_bytes": 5521,
+      "formatter": "prettier",
+      "sha256_raw": "80cb75c40eda6a89b259e8fd8c7844ffda7c4be260b5cf2147215d748cc5456c"
+    },
+    {
+      "archive_path": "webview/assets/appshots-settings-c20accccaf65.js",
+      "file": "settings/appshots-settings-c20accccaf65.js",
+      "selected_by": "rule",
+      "raw_bytes": 13095,
+      "formatted_bytes": 20323,
+      "formatter": "prettier",
+      "sha256_raw": "4a89b003f727c039a5362c61c81b819fe60e1aac3cc5015f2720d6354230e2b5"
+    },
+    {
+      "archive_path": "webview/assets/assert-never-a6e685100dc6.js",
+      "file": "_deps/assert-never-a6e685100dc6.js",
+      "selected_by": "closure:d1:browser-use-policy-site-permissions-b7342477471c.js",
+      "raw_bytes": 218,
+      "formatted_bytes": 246,
+      "formatter": "prettier",
+      "sha256_raw": "84db144c78285354487204d29a1866239698c42f1bba9621af6d9f4e3fe36111"
+    },
+    {
+      "archive_path": "webview/assets/availability-2f8ef663c6d2.js",
+      "file": "_deps/availability-2f8ef663c6d2.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 536,
+      "formatted_bytes": 728,
+      "formatter": "prettier",
+      "sha256_raw": "74cf40edcd7b30776c2b15960da7bd34cd0e9114b42b22d77133c37ae87358cf"
+    },
+    {
+      "archive_path": "webview/assets/back-forward-navigation-buttons-d353ac53a8f4.js",
+      "file": "_deps/back-forward-navigation-buttons-d353ac53a8f4.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 1577,
+      "formatted_bytes": 2500,
+      "formatter": "prettier",
+      "sha256_raw": "c0a52839fcdfc5f53d6283215714d3e0bbf31166a5c61dd753bed868179072c6"
+    },
+    {
+      "archive_path": "webview/assets/base-carousel-95b48aee87a9.js",
+      "file": "_deps/base-carousel-95b48aee87a9.js",
+      "selected_by": "closure:d1:template-browser-view-8dc1096348e8.js",
+      "raw_bytes": 589,
+      "formatted_bytes": 715,
+      "formatter": "prettier",
+      "sha256_raw": "7e4d25283ac11b60e0b6a068bbed93003701d4b602a4c5b753b0da102a29c6d6"
+    },
+    {
+      "archive_path": "webview/assets/browser-5a5b6f86d988.js",
+      "file": "chrome/browser-5a5b6f86d988.js",
+      "selected_by": "rule",
+      "raw_bytes": 244885,
+      "formatted_bytes": 377273,
+      "formatter": "prettier",
+      "sha256_raw": "c006ece37937d0019dc76f14031d2ea64d553e4215fd1ee10e772e6ddd426fc0"
+    },
+    {
+      "archive_path": "webview/assets/browser-8d1b02c868ea.css",
+      "file": "chrome/browser-8d1b02c868ea.css",
+      "selected_by": "rule",
+      "raw_bytes": 661,
+      "formatted_bytes": 848,
+      "formatter": "prettier",
+      "sha256_raw": "5abffdd2064a816d02cbcc850d72c34c95b9204fdf8f384a0a487e126ead179e"
+    },
+    {
+      "archive_path": "webview/assets/browser-a9c1713bcb9a.js",
+      "file": "chrome/browser-a9c1713bcb9a.js",
+      "selected_by": "rule",
+      "raw_bytes": 983,
+      "formatted_bytes": 1275,
+      "formatter": "prettier",
+      "sha256_raw": "49ed384f8cf0be42d0b675a7adedaf1a022c89062254dca73c022e32084b8170"
+    },
+    {
+      "archive_path": "webview/assets/browser-account-switcher-menu-item-d332928abefc.js",
+      "file": "settings/browser-account-switcher-menu-item-d332928abefc.js",
+      "selected_by": "rule",
+      "raw_bytes": 25971,
+      "formatted_bytes": 40081,
+      "formatter": "prettier",
+      "sha256_raw": "935e75c340e8447374126f52e1b4a7ddf535b0d50ba47cb53e490ba034aa58ea"
+    },
+    {
+      "archive_path": "webview/assets/browser-address-shortcut-33dfe5fb71b2.js",
+      "file": "chrome/browser-address-shortcut-33dfe5fb71b2.js",
+      "selected_by": "rule",
+      "raw_bytes": 5971,
+      "formatted_bytes": 9491,
+      "formatter": "prettier",
+      "sha256_raw": "1138869c354148cec0c835f4692094a9a42ebc1c024f4073e080169db6625996"
+    },
+    {
+      "archive_path": "webview/assets/browser-address-suggestion-overlay-b5748ee4533d.js",
+      "file": "chrome/browser-address-suggestion-overlay-b5748ee4533d.js",
+      "selected_by": "rule",
+      "raw_bytes": 8811,
+      "formatted_bytes": 14108,
+      "formatter": "prettier",
+      "sha256_raw": "034a3a74374a55625b6b7febb41b05f7179a33f8605e8f8df26270e8f34234aa"
+    },
+    {
+      "archive_path": "webview/assets/browser-auth-header-3399e80a0389.js",
+      "file": "settings/browser-auth-header-3399e80a0389.js",
+      "selected_by": "rule",
+      "raw_bytes": 4491,
+      "formatted_bytes": 6462,
+      "formatter": "prettier",
+      "sha256_raw": "c4d6adc884824146848bec7e7f99f4e394013759837e4e65c5decfaeb5818014"
+    },
+    {
+      "archive_path": "webview/assets/browser-clear-browsing-data-dialog-view-26541e3e543b.js",
+      "file": "settings/browser-clear-browsing-data-dialog-view-26541e3e543b.js",
+      "selected_by": "rule",
+      "raw_bytes": 31618,
+      "formatted_bytes": 48927,
+      "formatter": "prettier",
+      "sha256_raw": "d0d4a4c1ff0b74261a91f20184abb2c1d3502fc4ade5d2008c487ff2808ff984"
+    },
+    {
+      "archive_path": "webview/assets/browser-composer-disclaimer-39f4276e3017.js",
+      "file": "chrome/browser-composer-disclaimer-39f4276e3017.js",
+      "selected_by": "rule",
+      "raw_bytes": 160,
+      "formatted_bytes": 174,
+      "formatter": "prettier",
+      "sha256_raw": "7da296d203b2d844ea81e489211bc64034af163a78840e5f4be114236fc75c8e"
+    },
+    {
+      "archive_path": "webview/assets/browser-composer-disclaimer-536dcaeac6c3.js",
+      "file": "chrome/browser-composer-disclaimer-536dcaeac6c3.js",
+      "selected_by": "rule",
+      "raw_bytes": 14417,
+      "formatted_bytes": 19816,
+      "formatter": "prettier",
+      "sha256_raw": "7679292a3dbfc04f34a16796ce053e79ea30368ac56a305b698cad92a5ecf6ad"
+    },
+    {
+      "archive_path": "webview/assets/browser-extension-connection-status-description-a011790df3f7.js",
+      "file": "settings/browser-extension-connection-status-description-a011790df3f7.js",
+      "selected_by": "rule",
+      "raw_bytes": 1650,
+      "formatted_bytes": 2323,
+      "formatter": "prettier",
+      "sha256_raw": "1daca1e82631b3adf1293479462a2e438e288cd5606a561797afe4d6ad1ce9ac"
+    },
+    {
+      "archive_path": "webview/assets/browser-extension-settings-6969282f9188.js",
+      "file": "settings/browser-extension-settings-6969282f9188.js",
+      "selected_by": "rule",
+      "raw_bytes": 14380,
+      "formatted_bytes": 24256,
+      "formatter": "prettier",
+      "sha256_raw": "300eef32030d882b9e7cacf1d4bcd56b6ee4614921e977e236ef6c83c5bf0da4"
+    },
+    {
+      "archive_path": "webview/assets/browser-extension-setup-messages-16dfce9ab388.js",
+      "file": "settings/browser-extension-setup-messages-16dfce9ab388.js",
+      "selected_by": "rule",
+      "raw_bytes": 10446,
+      "formatted_bytes": 16449,
+      "formatter": "prettier",
+      "sha256_raw": "5d1dfb94b53efd039623d5900620476be1ad8a439be3f754f6a9495a0534b35e"
+    },
+    {
+      "archive_path": "webview/assets/browser-extension-setup-messages-1d702c72b5a2.css",
+      "file": "settings/browser-extension-setup-messages-1d702c72b5a2.css",
+      "selected_by": "rule",
+      "raw_bytes": 249,
+      "formatted_bytes": 301,
+      "formatter": "prettier",
+      "sha256_raw": "d5f4ab450372a081a85980edb9d1778f270c5ca91cc76fc51edfd4c71a28e74a"
+    },
+    {
+      "archive_path": "webview/assets/browser-f4f2297ec2e5.js",
+      "file": "chrome/browser-f4f2297ec2e5.js",
+      "selected_by": "rule",
+      "raw_bytes": 116,
+      "formatted_bytes": 130,
+      "formatter": "prettier",
+      "sha256_raw": "9fc09952536871084db08378314d3d10bc0a661f9be8836b39caa0df92491fbf"
+    },
+    {
+      "archive_path": "webview/assets/browser-plugin-share-page-3cda7677a121.js",
+      "file": "chrome/browser-plugin-share-page-3cda7677a121.js",
+      "selected_by": "rule",
+      "raw_bytes": 1825,
+      "formatted_bytes": 2745,
+      "formatter": "prettier",
+      "sha256_raw": "acc8463357a5ec5b2db3627bcb92b9deac84100486bb815cde8ac13303d994a8"
+    },
+    {
+      "archive_path": "webview/assets/browser-profile-bridge-ebc71c71a8e1.js",
+      "file": "settings/browser-profile-bridge-ebc71c71a8e1.js",
+      "selected_by": "rule",
+      "raw_bytes": 1928,
+      "formatted_bytes": 2740,
+      "formatter": "prettier",
+      "sha256_raw": "3349202827757a63ad7f87a48f0bcc013a77a14ef5fc54be31b580621a65aedb"
+    },
+    {
+      "archive_path": "webview/assets/browser-route-b172db0eb050.js",
+      "file": "chrome/browser-route-b172db0eb050.js",
+      "selected_by": "rule",
+      "raw_bytes": 1991,
+      "formatted_bytes": 3281,
+      "formatter": "prettier",
+      "sha256_raw": "3a5a1f2a2d578c5c98e5b14b785c7a7e8536c3cef8eaa05084c5b7ee3d57b4dc"
+    },
+    {
+      "archive_path": "webview/assets/browser-session-probe-url-c27eb13aba00.js",
+      "file": "settings/browser-session-probe-url-c27eb13aba00.js",
+      "selected_by": "rule",
+      "raw_bytes": 290,
+      "formatted_bytes": 343,
+      "formatter": "prettier",
+      "sha256_raw": "7c0436230b81ea8867629a66a025ff3ee28383d970d998d9ee456cb33ba2521d"
+    },
+    {
+      "archive_path": "webview/assets/browser-session-queries-f9cd179245ac.js",
+      "file": "settings/browser-session-queries-f9cd179245ac.js",
+      "selected_by": "rule",
+      "raw_bytes": 2319,
+      "formatted_bytes": 3439,
+      "formatter": "prettier",
+      "sha256_raw": "d312080561900e074aaaf60c348f592532be18084dc8733c7c2150b5c5e324b9"
+    },
+    {
+      "archive_path": "webview/assets/browser-site-settings-subpages-ca36ce1a605e.js",
+      "file": "settings/browser-site-settings-subpages-ca36ce1a605e.js",
+      "selected_by": "rule",
+      "raw_bytes": 4125,
+      "formatted_bytes": 5218,
+      "formatter": "prettier",
+      "sha256_raw": "fafc2a4d8fa6b1e72f359af35664543fabd1a6959a514b82254fb635dbb7ac2a"
+    },
+    {
+      "archive_path": "webview/assets/browser-use-origin-state-queries-4feefe042d12.js",
+      "file": "policy/browser-use-origin-state-queries-4feefe042d12.js",
+      "selected_by": "rule",
+      "raw_bytes": 11479,
+      "formatted_bytes": 16684,
+      "formatter": "prettier",
+      "sha256_raw": "c5706756d7fa886c43fcc26996b7ba50ca4216c4836a615b7e0e70b8d0b99127"
+    },
+    {
+      "archive_path": "webview/assets/browser-use-policy-site-permissions-a7f2fe28422d.css",
+      "file": "policy/browser-use-policy-site-permissions-a7f2fe28422d.css",
+      "selected_by": "rule",
+      "raw_bytes": 3401,
+      "formatted_bytes": 4011,
+      "formatter": "prettier",
+      "sha256_raw": "a19fa92b8878ffdc1eb51b7ee0427bf0512fec0fb28838bd14d8da90092dc946"
+    },
+    {
+      "archive_path": "webview/assets/browser-use-policy-site-permissions-b7342477471c.js",
+      "file": "policy/browser-use-policy-site-permissions-b7342477471c.js",
+      "selected_by": "rule",
+      "raw_bytes": 52734,
+      "formatted_bytes": 84681,
+      "formatter": "prettier",
+      "sha256_raw": "02be13f8570a2988f7b2439186906ff19b15142f73c33e6bbdce1eaf760a887c"
+    },
+    {
+      "archive_path": "webview/assets/browser-use-settings-5e9404c168c2.js",
+      "file": "settings/browser-use-settings-5e9404c168c2.js",
+      "selected_by": "rule",
+      "raw_bytes": 92031,
+      "formatted_bytes": 144166,
+      "formatter": "prettier",
+      "sha256_raw": "5db2f7d7e1bd1bf27507457318f3f6373e82627285b38c1556992c38c191ca03"
+    },
+    {
+      "archive_path": "webview/assets/browser-use-settings-visibility-6f57e19917ee.js",
+      "file": "settings/browser-use-settings-visibility-6f57e19917ee.js",
+      "selected_by": "rule",
+      "raw_bytes": 1973,
+      "formatted_bytes": 3034,
+      "formatter": "prettier",
+      "sha256_raw": "f98f10cb0a409d8238371b55861fbfb376af4eefe86ca2860e1f98b9e2aba75e"
+    },
+    {
+      "archive_path": "webview/assets/browser-voice-availability-c1f0b3833eb8.js",
+      "file": "settings/browser-voice-availability-c1f0b3833eb8.js",
+      "selected_by": "rule",
+      "raw_bytes": 397,
+      "formatted_bytes": 447,
+      "formatter": "prettier",
+      "sha256_raw": "2c7a84b433ab6f01bfb389e8cd2aab22ae37d8c4788be6f8b6f0fd0f9d8b886f"
+    },
+    {
+      "archive_path": "webview/assets/bundle-ac2b7bc36574.js",
+      "file": "_deps/bundle-ac2b7bc36574.js",
+      "selected_by": "closure:d1:browser-extension-settings-6969282f9188.js",
+      "raw_bytes": 3193,
+      "formatted_bytes": 4155,
+      "formatter": "prettier",
+      "sha256_raw": "11b3528099a76ca9be318448fc90f16e3cb33cdd35e59c5796b40a398776db19"
+    },
+    {
+      "archive_path": "webview/assets/chatgpt-user-granular-consent-218581f87f25.js",
+      "file": "_deps/chatgpt-user-granular-consent-218581f87f25.js",
+      "selected_by": "closure:d1:browser-profile-bridge-ebc71c71a8e1.js",
+      "raw_bytes": 3605,
+      "formatted_bytes": 4961,
+      "formatter": "prettier",
+      "sha256_raw": "6ae62a5961e5d1bf9ed3b0b58413572ef53efe9afa2419d62ca060a56e91b816"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-control-overlay-6f0a679921a7.js",
+      "file": "chrome/cloud-browser-control-overlay-6f0a679921a7.js",
+      "selected_by": "rule",
+      "raw_bytes": 1145,
+      "formatted_bytes": 1568,
+      "formatter": "prettier",
+      "sha256_raw": "ea419463bd83a3582a4b349c9837e83eaabf4890c778e00966122065e1cecac8"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-local-live-view-212c73f0d734.js",
+      "file": "chrome/cloud-browser-local-live-view-212c73f0d734.js",
+      "selected_by": "rule",
+      "raw_bytes": 4847,
+      "formatted_bytes": 7673,
+      "formatter": "prettier",
+      "sha256_raw": "6fe8ee7f06a78b72e7478001538c69533b109e946f4a75f87486b773f8483ce9"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-preview-2a497c2cb224.css",
+      "file": "chrome/cloud-browser-preview-2a497c2cb224.css",
+      "selected_by": "rule",
+      "raw_bytes": 3411,
+      "formatted_bytes": 4197,
+      "formatter": "prettier",
+      "sha256_raw": "53b60284696de9b62051be8e7bb3d3b604bd19ad83da297c1e58ae492bda3375"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-preview-98ee27022f4c.js",
+      "file": "chrome/cloud-browser-preview-98ee27022f4c.js",
+      "selected_by": "rule",
+      "raw_bytes": 9940,
+      "formatted_bytes": 17737,
+      "formatter": "prettier",
+      "sha256_raw": "47cd21e2fb76ca8e379310a5e442127ff29740acbe4815fe8445b6d7cc0b61f7"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-side-panel-390f805a5bb0.js",
+      "file": "chrome/cloud-browser-side-panel-390f805a5bb0.js",
+      "selected_by": "rule",
+      "raw_bytes": 9399,
+      "formatted_bytes": 15300,
+      "formatter": "prettier",
+      "sha256_raw": "fbdf7d5984006c8591cb4e356a532a377220c330daf4ae439eb1e643690f5355"
+    },
+    {
+      "archive_path": "webview/assets/cloud-browser-side-panel-98b97e6f8a05.css",
+      "file": "chrome/cloud-browser-side-panel-98b97e6f8a05.css",
+      "selected_by": "rule",
+      "raw_bytes": 2312,
+      "formatted_bytes": 2881,
+      "formatter": "prettier",
+      "sha256_raw": "640cbb8d05d35a44b5eec1da16d7999b70cb45aa9f39273b92d52f573e6b1e75"
+    },
+    {
+      "archive_path": "webview/assets/code-review-access-6e6cb6fa92fc.js",
+      "file": "_deps/code-review-access-6e6cb6fa92fc.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 1131,
+      "formatted_bytes": 1638,
+      "formatter": "prettier",
+      "sha256_raw": "ee4a5d70ecfcce59d0a05562fdf18cffbb0cae8fbecf985ecd43efd28dfd0bdb"
+    },
+    {
+      "archive_path": "webview/assets/color-palette-e9c0a62463c1.js",
+      "file": "_deps/color-palette-e9c0a62463c1.js",
+      "selected_by": "closure:d1:browser-5a5b6f86d988.js",
+      "raw_bytes": 3113,
+      "formatted_bytes": 4489,
+      "formatter": "prettier",
+      "sha256_raw": "09bdcb569c4e6f4ff76b9e7d204d2bcab1b87adeafc203227e1f65ba7ba70612"
+    },
+    {
+      "archive_path": "webview/assets/computer-history-plugin-icon-316126a86c18.js",
+      "file": "history/computer-history-plugin-icon-316126a86c18.js",
+      "selected_by": "rule",
+      "raw_bytes": 262,
+      "formatted_bytes": 298,
+      "formatter": "prettier",
+      "sha256_raw": "c479e4a83a499d0b42eebf43773a055f48e046febfbf12569950994db412e8fb"
+    },
+    {
+      "archive_path": "webview/assets/computer-history-query-7b8f19bb30d6.js",
+      "file": "history/computer-history-query-7b8f19bb30d6.js",
+      "selected_by": "rule",
+      "raw_bytes": 1110,
+      "formatted_bytes": 1643,
+      "formatter": "prettier",
+      "sha256_raw": "793991de53cdfa6c45af08baa0a74888cf46ba325da760ad1d3c580c24e4ad29"
+    },
+    {
+      "archive_path": "webview/assets/computer-history-suggestion-prompt-a99d63728b31.js",
+      "file": "history/computer-history-suggestion-prompt-a99d63728b31.js",
+      "selected_by": "rule",
+      "raw_bytes": 1789,
+      "formatted_bytes": 2323,
+      "formatter": "prettier",
+      "sha256_raw": "3fb0c0c76b79ed7a333687cbd1577f520b59bab53920c24b5d476f50b9c7b0e4"
+    },
+    {
+      "archive_path": "webview/assets/computer-history-suggestions-d6d608f7983a.js",
+      "file": "history/computer-history-suggestions-d6d608f7983a.js",
+      "selected_by": "rule",
+      "raw_bytes": 1746,
+      "formatted_bytes": 2451,
+      "formatter": "prettier",
+      "sha256_raw": "446c5fa9adc51ae58f51dc13585633c394fd9340b01adeb098392dd6373cd9f6"
+    },
+    {
+      "archive_path": "webview/assets/computer-use-app-approval-request-card-dbe37339c693.js",
+      "file": "approvals/computer-use-app-approval-request-card-dbe37339c693.js",
+      "selected_by": "rule",
+      "raw_bytes": 4237,
+      "formatted_bytes": 6514,
+      "formatter": "prettier",
+      "sha256_raw": "41f4f3ecb6b0bc785daf48f046febabed4a6e183bab03b923a39697a602706ff"
+    },
+    {
+      "archive_path": "webview/assets/computer-use-app-approvals-query-5e483f395cc3.js",
+      "file": "approvals/computer-use-app-approvals-query-5e483f395cc3.js",
+      "selected_by": "rule",
+      "raw_bytes": 2691,
+      "formatted_bytes": 3552,
+      "formatter": "prettier",
+      "sha256_raw": "875066fa44e71be4b04246bb0f79b3ae77a43c0c832254a6930be71515535077"
+    },
+    {
+      "archive_path": "webview/assets/computer-use-native-app-metadata-2d418f74cb16.js",
+      "file": "policy/computer-use-native-app-metadata-2d418f74cb16.js",
+      "selected_by": "rule",
+      "raw_bytes": 879,
+      "formatted_bytes": 1201,
+      "formatter": "prettier",
+      "sha256_raw": "9a94dfc5f95ddafaba9b1a3187af0d1fd6169110eb950d85613b91aacfcd2897"
+    },
+    {
+      "archive_path": "webview/assets/computer-use-settings-c4ea738a6555.js",
+      "file": "settings/computer-use-settings-c4ea738a6555.js",
+      "selected_by": "rule",
+      "raw_bytes": 72325,
+      "formatted_bytes": 112269,
+      "formatter": "prettier",
+      "sha256_raw": "522e1f450bea645360179517d9bb4fe98bcfbec60e13076b8b4dca1c90bca8a8"
+    },
+    {
+      "archive_path": "webview/assets/ConnectScreenFill-545c1f3fc762.js",
+      "file": "capture/ConnectScreenFill-545c1f3fc762.js",
+      "selected_by": "rule",
+      "raw_bytes": 2314,
+      "formatted_bytes": 2793,
+      "formatter": "prettier",
+      "sha256_raw": "4b93d15fa81f47da1b0dd43a8bb42d30281be0c89e67287632e5e42be8d9fa0a"
+    },
+    {
+      "archive_path": "webview/assets/cookies-95d008ce5873.js",
+      "file": "_deps/cookies-95d008ce5873.js",
+      "selected_by": "closure:d1:browser-clear-browsing-data-dialog-view-26541e3e543b.js",
+      "raw_bytes": 858,
+      "formatted_bytes": 1245,
+      "formatter": "prettier",
+      "sha256_raw": "368ab722140c7641a5fd93a6dd845a36e0960e815606eab3df9509034819519a"
+    },
+    {
+      "archive_path": "webview/assets/dialog-launcher-23334dde421b.js",
+      "file": "_deps/dialog-launcher-23334dde421b.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 1364,
+      "formatted_bytes": 1806,
+      "formatter": "prettier",
+      "sha256_raw": "cd090da8578a42c79744b1e309c5b84bcb17b20161210926fd97880f58a458ae"
+    },
+    {
+      "archive_path": "webview/assets/format-bytes-9f828acaa58f.js",
+      "file": "_deps/format-bytes-9f828acaa58f.js",
+      "selected_by": "closure:d1:browser-clear-browsing-data-dialog-view-26541e3e543b.js",
+      "raw_bytes": 555,
+      "formatted_bytes": 679,
+      "formatter": "prettier",
+      "sha256_raw": "0526c0678bd84a68953417ef93eba890dcae7393ac4083f337ebf1da94af3ee5"
+    },
+    {
+      "archive_path": "webview/assets/hidden-browser-use-webview-host-744184595b61.js",
+      "file": "chrome/hidden-browser-use-webview-host-744184595b61.js",
+      "selected_by": "rule",
+      "raw_bytes": 1626,
+      "formatted_bytes": 2436,
+      "formatter": "prettier",
+      "sha256_raw": "7cbbb8e8a43a32ab24dc9d119c3d01a85fcaf47c67cf9c1068a9fba63dcbbab0"
+    },
+    {
+      "archive_path": "webview/assets/history-c50a4cc9cc78.js",
+      "file": "_deps/history-c50a4cc9cc78.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 1475,
+      "formatted_bytes": 1687,
+      "formatter": "prettier",
+      "sha256_raw": "ff138f811b0a5a50f0ee980a4d23d1cc58444ed654a5da28db63d559244f0fb0"
+    },
+    {
+      "archive_path": "webview/assets/login-analytics-204717fa347d.js",
+      "file": "_deps/login-analytics-204717fa347d.js",
+      "selected_by": "closure:d1:browser-account-switcher-menu-item-d332928abefc.js",
+      "raw_bytes": 1299,
+      "formatted_bytes": 1618,
+      "formatter": "prettier",
+      "sha256_raw": "28fe6d858afb43f6c8faab0a0e8e96cdfa7ab12714d503f602f276e048b56b75"
+    },
+    {
+      "archive_path": "webview/assets/logout-engine-f18fa83948b6.js",
+      "file": "_deps/logout-engine-f18fa83948b6.js",
+      "selected_by": "closure:d1:browser-account-switcher-menu-item-d332928abefc.js",
+      "raw_bytes": 7028,
+      "formatted_bytes": 9991,
+      "formatter": "prettier",
+      "sha256_raw": "4e0673ceab6a550a6a7f9561883c4150a33fc433c0afb9c7abb15277240aac10"
+    },
+    {
+      "archive_path": "webview/assets/mark-session-create-4defeaf3f500.js",
+      "file": "_deps/mark-session-create-4defeaf3f500.js",
+      "selected_by": "closure:d1:browser-voice-availability-c1f0b3833eb8.js",
+      "raw_bytes": 50391,
+      "formatted_bytes": 80816,
+      "formatter": "prettier",
+      "sha256_raw": "b4e182ccecd4cdeba9ffb76bf0078763aafac3bc3cc53a7fb2d503d958a2eb7a"
+    },
+    {
+      "archive_path": "webview/assets/placement-policy-eef9788f4202.js",
+      "file": "_deps/placement-policy-eef9788f4202.js",
+      "selected_by": "closure:d1:browser-profile-bridge-ebc71c71a8e1.js",
+      "raw_bytes": 7129,
+      "formatted_bytes": 9943,
+      "formatter": "prettier",
+      "sha256_raw": "2ac21d52668cfa0ec07b86cc4ee94d0aee3f363d43c25fbc38215372ba7002ab"
+    },
+    {
+      "archive_path": "webview/assets/plugin-detail-view-9adcbb756c22.js",
+      "file": "_deps/plugin-detail-view-9adcbb756c22.js",
+      "selected_by": "closure:d1:browser-plugin-share-page-3cda7677a121.js",
+      "raw_bytes": 119183,
+      "formatted_bytes": 188916,
+      "formatter": "prettier",
+      "sha256_raw": "4352e66b5ec0c38e36b592b22f3af84a086fd676d0280e5ee0d9e0242545a5ab"
+    },
+    {
+      "archive_path": "webview/assets/popup-11718d0a1a4c.js",
+      "file": "_deps/popup-11718d0a1a4c.js",
+      "selected_by": "closure:d1:browser-address-shortcut-33dfe5fb71b2.js",
+      "raw_bytes": 10797,
+      "formatted_bytes": 17708,
+      "formatter": "prettier",
+      "sha256_raw": "114cbbb669a57651620bbf6863fcee08b4aa3ee2df27af2ecb67d89e166b963a"
+    },
+    {
+      "archive_path": "webview/assets/remote-control-connections-visibility-ea9c5521e811.js",
+      "file": "_deps/remote-control-connections-visibility-ea9c5521e811.js",
+      "selected_by": "closure:d1:computer-use-app-approvals-query-5e483f395cc3.js",
+      "raw_bytes": 1165,
+      "formatted_bytes": 1687,
+      "formatter": "prettier",
+      "sha256_raw": "d9c6708c2c5ef0a22b8d783f96dd8706f70c71e94c8016fe528e8a2858c41398"
+    },
+    {
+      "archive_path": "webview/assets/request-screen-7375e509c044.js",
+      "file": "capture/request-screen-7375e509c044.js",
+      "selected_by": "rule",
+      "raw_bytes": 10526,
+      "formatted_bytes": 17905,
+      "formatter": "prettier",
+      "sha256_raw": "dd3c774ec07cca4f6d0845366e87a77e8bc76d070fcb5b6059f6d323b7bb159f"
+    },
+    {
+      "archive_path": "webview/assets/requests-state-774cb104291f.js",
+      "file": "_deps/requests-state-774cb104291f.js",
+      "selected_by": "closure:d1:request-screen-7375e509c044.js",
+      "raw_bytes": 1215,
+      "formatted_bytes": 1780,
+      "formatter": "prettier",
+      "sha256_raw": "ed2782f904d96be9724cc0dc52ca295529ddf5596367ae11c205d8c9de38a9ec"
+    },
+    {
+      "archive_path": "webview/assets/root.browser-103a07dd85fe.js",
+      "file": "chrome/root.browser-103a07dd85fe.js",
+      "selected_by": "rule",
+      "raw_bytes": 1076,
+      "formatted_bytes": 1762,
+      "formatter": "prettier",
+      "sha256_raw": "6091a4233473b82dfc1884510011a9491dcf10a8d20c7c8e24480b8b545e8b18"
+    },
+    {
+      "archive_path": "webview/assets/root.browser-aa56470d971f.js",
+      "file": "chrome/root.browser-aa56470d971f.js",
+      "selected_by": "rule",
+      "raw_bytes": 133,
+      "formatted_bytes": 147,
+      "formatter": "prettier",
+      "sha256_raw": "91499017504a32c6168c4fb05503698947229c6db2db53502f0376e88cf03f4a"
+    },
+    {
+      "archive_path": "webview/assets/screen-d437d5c3fc14.js",
+      "file": "capture/screen-d437d5c3fc14.js",
+      "selected_by": "rule",
+      "raw_bytes": 11425,
+      "formatted_bytes": 17695,
+      "formatter": "prettier",
+      "sha256_raw": "07e44505fa857e5e0a8d47d075e604fcb4ce9ecf4b37cf583bf4d607e248e5a3"
+    },
+    {
+      "archive_path": "webview/assets/settings-loading-row-f0c26bc7580c.js",
+      "file": "_deps/settings-loading-row-f0c26bc7580c.js",
+      "selected_by": "closure:d1:browser-use-policy-site-permissions-b7342477471c.js",
+      "raw_bytes": 745,
+      "formatted_bytes": 1068,
+      "formatter": "prettier",
+      "sha256_raw": "75d562879f16df4eaa31062ec177d83fc49c0f5c0ae105a313cb0da76dd2455d"
+    },
+    {
+      "archive_path": "webview/assets/settings-plugin-selection-1a585983308d.js",
+      "file": "_deps/settings-plugin-selection-1a585983308d.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 26590,
+      "formatted_bytes": 45446,
+      "formatter": "prettier",
+      "sha256_raw": "4b5068365177b3de90ebf025ae99cd068208bc70c7d9b17a26981d176b495b97"
+    },
+    {
+      "archive_path": "webview/assets/settings-row-disclosure-69245855ea05.js",
+      "file": "_deps/settings-row-disclosure-69245855ea05.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 594,
+      "formatted_bytes": 842,
+      "formatter": "prettier",
+      "sha256_raw": "4cf5293c02910f8624eb83906105be4e880b07b78b991c165bd7e684a5d3a7c0"
+    },
+    {
+      "archive_path": "webview/assets/src-51803043763e.js",
+      "file": "_deps/src-51803043763e.js",
+      "selected_by": "closure:d1:cloud-browser-side-panel-390f805a5bb0.js",
+      "raw_bytes": 20144,
+      "formatted_bytes": 34892,
+      "formatter": "prettier",
+      "sha256_raw": "42c6b4ec9356c837947f2538738b511627a80e467debaa609b31d4118ab28d6b"
+    },
+    {
+      "archive_path": "webview/assets/template-browser-view-8dc1096348e8.js",
+      "file": "chrome/template-browser-view-8dc1096348e8.js",
+      "selected_by": "rule",
+      "raw_bytes": 10738,
+      "formatted_bytes": 17395,
+      "formatter": "prettier",
+      "sha256_raw": "8af50f00e718d6a4d3d0d49703af1c7f20535c26a8b8598d1eb92759f60c2e1b"
+    },
+    {
+      "archive_path": "webview/assets/toolbar-breadcrumb-c618ff75b2d3.js",
+      "file": "_deps/toolbar-breadcrumb-c618ff75b2d3.js",
+      "selected_by": "closure:d1:browser-use-settings-5e9404c168c2.js",
+      "raw_bytes": 1810,
+      "formatted_bytes": 2975,
+      "formatter": "prettier",
+      "sha256_raw": "657dbd1b351df335d8849ace68df6fc14a42c6f4eb7888fd5af6b877a3683875"
+    },
+    {
+      "archive_path": "webview/assets/voice-session-parameters-cf768358eef6.js",
+      "file": "_deps/voice-session-parameters-cf768358eef6.js",
+      "selected_by": "closure:d1:browser-voice-availability-c1f0b3833eb8.js",
+      "raw_bytes": 51101,
+      "formatted_bytes": 80154,
+      "formatter": "prettier",
+      "sha256_raw": "ee535b6c77efe5809335ae24e91f592466847ebbb94895892867ffe7530f9f5b"
+    },
+    {
+      "archive_path": "webview/assets/webview-22a11e8fd7ea.js",
+      "file": "_deps/webview-22a11e8fd7ea.js",
+      "selected_by": "closure:d1:hidden-browser-use-webview-host-744184595b61.js",
+      "raw_bytes": 3984,
+      "formatted_bytes": 6737,
+      "formatter": "prettier",
+      "sha256_raw": "1fdaf132b78854f10e72f918c33305c433565b4cc4e0872663dafabbd729f826"
+    },
+    {
+      "archive_path": "webview/assets/workspace-24f1c3d6229e.js",
+      "file": "_deps/workspace-24f1c3d6229e.js",
+      "selected_by": "closure:d1:browser-account-switcher-menu-item-d332928abefc.js",
+      "raw_bytes": 6562,
+      "formatted_bytes": 8631,
+      "formatter": "prettier",
+      "sha256_raw": "8dc4a7c68ed8f4e3092c891ec56801dc96d26729b47e1159ee0b98b93768edcf"
+    },
+    {
+      "archive_path": "webview/assets/workspace-access.browser-5e2863a61976.js",
+      "file": "chrome/workspace-access.browser-5e2863a61976.js",
+      "selected_by": "rule",
+      "raw_bytes": 2545,
+      "formatted_bytes": 3473,
+      "formatter": "prettier",
+      "sha256_raw": "e7dd0e2dc5f1fc493584fc57811fbd7a0402d8f087c4346b908a1c5acf41cd26"
+    },
+    {
+      "archive_path": "webview/assets/workspace-identifier-d779dfef91b3.js",
+      "file": "_deps/workspace-identifier-d779dfef91b3.js",
+      "selected_by": "closure:d1:browser-account-switcher-menu-item-d332928abefc.js",
+      "raw_bytes": 2494,
+      "formatted_bytes": 3435,
+      "formatter": "prettier",
+      "sha256_raw": "a6f1f51bc0212413cdb3d158d2e2566fc0cba7ddaf80acd89018ec5660dc62c5"
+    },
+    {
+      "archive_path": "webview/assets/workspace-link-route.browser-5a58b50295e4.js",
+      "file": "chrome/workspace-link-route.browser-5a58b50295e4.js",
+      "selected_by": "rule",
+      "raw_bytes": 4564,
+      "formatted_bytes": 7002,
+      "formatter": "prettier",
+      "sha256_raw": "24178611590297832cfa93a68979a2c73786e55222f1601796909fc6fa7706a2"
+    },
+    {
+      "archive_path": "webview/assets/workspace-type-label-d42ad230fd58.js",
+      "file": "_deps/workspace-type-label-d42ad230fd58.js",
+      "selected_by": "closure:d1:browser-account-switcher-menu-item-d332928abefc.js",
+      "raw_bytes": 2346,
+      "formatted_bytes": 3174,
+      "formatter": "prettier",
+      "sha256_raw": "1e2509273ef27a9aecd84e47b9f5570fa838df1ca33c83ebdf9cc5350d19cad5"
+    }
+  ]
+}

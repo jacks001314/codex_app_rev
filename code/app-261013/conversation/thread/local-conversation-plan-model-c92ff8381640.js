@@ -1,0 +1,24 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { D7n as t, E7n as n } from "./app-initial-5851df3f6cb1.js";
+function r(e, n) {
+  for (let r = e.length - 1; r >= 0; --r) {
+    let i = e[r];
+    if (i != null && i.status !== `inProgress`)
+      for (let e = i.items.length - 1; e >= 0; --e) {
+        let r = i.items[e];
+        if (r == null || r.type !== `plan`) continue;
+        let a = i.turnId ?? r.id;
+        if (n != null && a !== n) continue;
+        let o = r.text.match(/^#\s+(.+)$/m)?.[1]?.trim();
+        return { content: r.text, key: a, title: o == null ? null : t(o) };
+      }
+  }
+  return null;
+}
+function i() {
+  return (i = e(() => {
+    n();
+  }))();
+}
+export { i as n, r as t };
+//# sourceMappingURL=local-conversation-plan-model-c92ff8381640.js.map

@@ -1,0 +1,61 @@
+import { n as e } from "./rolldown-runtime-c05d78c594d1.js";
+import { O_ as t, Sg as n, k_ as r, wg as i } from "./app-primary-4c40d73a1074.js";
+function a({ intl: e, creditQuantity: t, pricingInfo: r }) {
+  return Number.isFinite(t)
+    ? n({
+        intl: e,
+        amount: t * r.amountPerCredit,
+        currencyCode: r.currencyCode,
+        currencyFractionDigits: r.minorUnitExponent,
+      })
+    : null;
+}
+function o({ intl: e, creditQuantity: t, pricingInfo: n }) {
+  let r = u({ intl: e, amount: t * n.amountPerCredit, pricingInfo: n });
+  return r == null
+    ? null
+    : r
+        .filter((e) => e.type !== `currency`)
+        .map((e) => e.value)
+        .join(``)
+        .trim();
+}
+function s({ intl: e, pricingInfo: t }) {
+  return (
+    u({ intl: e, amount: 0, pricingInfo: t })?.find((e) => e.type === `currency`)?.value ?? null
+  );
+}
+function c({ intl: e, creditQuantity: t, pricingInfo: r }) {
+  if (!Number.isFinite(t)) return null;
+  let i = t * r.amountPerCredit;
+  return n({
+    intl: e,
+    amount: i,
+    currencyCode: r.currencyCode,
+    currencyFractionDigits: Number.isInteger(i) ? 0 : r.minorUnitExponent,
+  });
+}
+function l({ intl: e, creditBalance: t, rechargeTarget: n, pricingInfo: i }) {
+  let o = Number.parseInt(r(n), 10);
+  if (!Number.isFinite(o)) return null;
+  let s = Math.max(0, Math.floor(Number(t ?? 0))),
+    c = Math.max(0, o - s);
+  return c === 0 ? null : a({ intl: e, creditQuantity: c, pricingInfo: i });
+}
+function u({ intl: e, amount: t, pricingInfo: n }) {
+  return Number.isFinite(t)
+    ? e.formatters
+        .getNumberFormat(e.locale, {
+          style: `currency`,
+          currency: n.currencyCode,
+          minimumFractionDigits: n.minorUnitExponent ?? void 0,
+          maximumFractionDigits: n.minorUnitExponent ?? void 0,
+        })
+        .formatToParts(t)
+    : null;
+}
+var d = e(() => {
+  (i(), t());
+});
+export { d as a, l as i, o as n, c as r, s as t };
+//# sourceMappingURL=dialog-formatting-fc43957278e1.js.map

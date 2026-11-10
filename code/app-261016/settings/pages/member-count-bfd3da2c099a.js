@@ -1,0 +1,71 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { LNt as t, MNt as n, NNt as r, PBt as i, ZSt as a, nCt as o } from "./app-shared-2feb3d4c6fcc.js";
+import { _Q as s, gQ as c, imr as l, rmr as u } from "./app-initial-ad16eaadf81f.js";
+import { n as d, t as f } from "./workspace-team-recipient-suggestions-ab23121c2709.js";
+function p(e) {
+  let t = (0, m.c)(7),
+    { avatar: r, size: i } = e,
+    a = (i === void 0 ? `md` : i) === `sm` ? `size-6` : `size-7`,
+    o;
+  t[0] === a
+    ? (o = t[1])
+    : ((o = n(`flex shrink-0 items-center justify-center rounded-full bg-secondary-soft`, a)),
+      (t[0] = a),
+      (t[1] = o));
+  let s;
+  t[2] === r ? (s = t[3]) : ((s = (0, h.jsx)(c, { avatar: r, size: `small` })), (t[2] = r), (t[3] = s));
+  let l;
+  return (
+    t[4] !== o || t[5] !== s
+      ? ((l = (0, h.jsx)(`span`, { className: o, children: s })), (t[4] = o), (t[5] = s), (t[6] = l))
+      : (l = t[6]),
+    l
+  );
+}
+var m, h;
+function g() {
+  return (g = e(() => {
+    ((m = i()), r(), s(), (h = t()));
+  }))();
+}
+function _(e) {
+  let t = (0, v.c)(6),
+    { groupId: n, size: r } = e,
+    { accountId: i } = l(),
+    { data: a } = o(d, i ?? ``, { enabled: i != null }) ?? {},
+    s;
+  t[0] !== n || t[1] !== a
+    ? ((s = a?.find((e) => e.id === n)), (t[0] = n), (t[1] = a), (t[2] = s))
+    : (s = t[2]);
+  let c = s?.avatar,
+    u;
+  return (
+    t[3] !== r || t[4] !== c
+      ? ((u = (0, y.jsx)(p, { avatar: c, size: r })), (t[3] = r), (t[4] = c), (t[5] = u))
+      : (u = t[5]),
+    u
+  );
+}
+var v, y;
+function b() {
+  return (b = e(() => {
+    ((v = i()), a(), f(), u(), g(), (y = t()));
+  }))();
+}
+function x(e, t) {
+  return t == null
+    ? void 0
+    : e.formatMessage(
+        {
+          id: `shareDialog.workspaceGroupMemberCount`,
+          defaultMessage: `{count, plural, one {# member} other {# members}}`,
+          description: `Member count shown for a workspace group invite result`,
+        },
+        { count: t },
+      );
+}
+function S() {
+  return (S = e(() => {}))();
+}
+export { p as a, b as i, S as n, g as o, _ as r, x as t };
+//# sourceMappingURL=member-count-bfd3da2c099a.js.map

@@ -1,0 +1,71 @@
+{
+ "module": "chronicle",
+ "generated_at": "2026-10-17T04:58:40.621Z",
+ "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+ "app_version": "26.1013.40934",
+ "files": [
+  {
+   "archive_path": "webview/assets/chronicle-permissions-dialog-606ef439299b.js",
+   "file": "chronicle/chronicle-permissions-dialog-606ef439299b.js",
+   "selected_by": "rule",
+   "raw_bytes": 31269,
+   "formatted_bytes": 49219,
+   "formatter": "prettier",
+   "sha256_raw": "a04f2e932be0edff6c2bb4e98e438419902ea662429be5852bdbc41688f0945a"
+  },
+  {
+   "archive_path": "webview/assets/chronicle-service-queries-fa2c40e5d4fe.js",
+   "file": "chronicle/chronicle-service-queries-fa2c40e5d4fe.js",
+   "selected_by": "rule",
+   "raw_bytes": 6781,
+   "formatted_bytes": 10006,
+   "formatter": "prettier",
+   "sha256_raw": "0cf74078bbb3471a7778108376db0a4d5fcbb512f63e22f90ba0903d7a54b4f1"
+  },
+  {
+   "archive_path": "webview/assets/chronicle-settings-d16251f05467.js",
+   "file": "chronicle/chronicle-settings-d16251f05467.js",
+   "selected_by": "rule",
+   "raw_bytes": 183,
+   "formatted_bytes": 216,
+   "formatter": "prettier",
+   "sha256_raw": "98099f8ef9e048ed3cf1f72feacef9ebc5797b0efa3bc0eefd9e4248fe764bdb"
+  },
+  {
+   "archive_path": "webview/assets/chronicle-settings-page-71e1cb42fb82.js",
+   "file": "chronicle/chronicle-settings-page-71e1cb42fb82.js",
+   "selected_by": "rule",
+   "raw_bytes": 60948,
+   "formatted_bytes": 95868,
+   "formatter": "prettier",
+   "sha256_raw": "c7949f11e361fcd1ff7ea9aef91ef4beeda08150d374c9ab73d53598cdde4b8c"
+  },
+  {
+   "archive_path": "webview/assets/chronicle-settings-page-9787caae2bc9.css",
+   "file": "chronicle/chronicle-settings-page-9787caae2bc9.css",
+   "selected_by": "rule",
+   "raw_bytes": 1630,
+   "formatted_bytes": 2099,
+   "formatter": "prettier",
+   "sha256_raw": "99b6410eee80b1aa33525b8858ecc92515e48bea66e209cdaf8d715e5a215722"
+  },
+  {
+   "archive_path": "webview/assets/computer-history-query-30a12dff18c6.js",
+   "file": "_deps/computer-history-query-30a12dff18c6.js",
+   "selected_by": "closure:d1:chronicle-service-queries-fa2c40e5d4fe.js",
+   "raw_bytes": 1112,
+   "formatted_bytes": 1645,
+   "formatter": "prettier",
+   "sha256_raw": "2d21a1af965e9e614a22e593f4cee74ad13ce325b67ac6e4b41e1b8874b74705"
+  },
+  {
+   "archive_path": "webview/assets/computer-history-suggestion-prompt-64e6bcbf5cac.js",
+   "file": "_deps/computer-history-suggestion-prompt-64e6bcbf5cac.js",
+   "selected_by": "closure:d1:chronicle-settings-page-71e1cb42fb82.js",
+   "raw_bytes": 1789,
+   "formatted_bytes": 2323,
+   "formatter": "prettier",
+   "sha256_raw": "30cbcf72f3af4da331972780a6f0b35f07bb1b98e9a344d1424eeaaae597caf8"
+  }
+ ]
+}

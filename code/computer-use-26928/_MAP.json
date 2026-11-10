@@ -1,0 +1,63 @@
+{
+  "$schema_note": "Ordered classification rules for the 26.928 'computer use' focused snapshot. First matching rule wins; patterns match the de-hashed chunk stem.",
+  "version_target": "26.928.31416",
+  "asset_prefix": "webview/assets/",
+  "shared_excludes": {
+    "note": "Shared runtime, vendored libraries, locale packs, icon stubs and bulk data. Never copied into a module; recorded as external refs.",
+    "patterns": [
+      "^app-initial-",
+      "^app-primary-",
+      "^app-shared-",
+      "^rolldown-runtime-",
+      "^register-",
+      "^runtime\\.worker-",
+      "^chunk-",
+      "^visualization-[0-9a-f]{10,16}$",
+      "^lucide-",
+      "^__vite-browser-external",
+      "^(mapbox-gl|three\\.module|cytoscape\\.esm|katex|lowlight|mathlive\\.min|jsxgraph|drei|pdf|workbook|spreadsheet|presentation|viewer|dotnet\\.runtime|es6|cpp|wasm|emacs-lisp|vue-vine|angular-ts|wolfram|learning-block|animated-icon-svg|pdfkit-runtime|datadog-rum|server\\.browser)-"
+    ],
+    "max_closure_bytes": 250000
+  },
+  "rules": [
+    {
+      "module": "computer-use",
+      "subdir": "settings",
+      "pattern": "^(computer-use|browser-use|appshots)-settings|^(browser-extension-settings|browser-clear-browsing-data-dialog-view|browser-site-settings-subpages|browser-extension-setup-messages|browser-extension-connection-status-description|browser-account-switcher-menu-item|browser-auth-header|browser-profile-bridge|browser-session-probes?|browser-session-queries|browser-voice-availability)"
+    },
+    {
+      "module": "computer-use",
+      "subdir": "policy",
+      "pattern": "^browser-use-policy|^browser-use-origin-state|^browser-use-settings-visibility|^computer-use-native-app-metadata"
+    },
+    {
+      "module": "computer-use",
+      "subdir": "approvals",
+      "pattern": "^computer-use-app-approval"
+    },
+    {
+      "module": "computer-use",
+      "subdir": "history",
+      "pattern": "^computer-history"
+    },
+    {
+      "module": "computer-use",
+      "subdir": "capture",
+      "pattern": "^(request-screen|screen-d437d5c3fc14|ConnectScreenFill|appshot)"
+    },
+    {
+      "module": "computer-use",
+      "subdir": "chrome",
+      "pattern": "^(browser-|cloud-browser-|hidden-browser-use-webview-host|template-browser-view|browser-plugin-share-page|browser-composer-disclaimer|browser-route|browser-address-|root\\.browser-|workspace-access\\.browser|workspace-link-route\\.browser|browser-background-switches)"
+    }
+  ],
+  "path_rules": [
+    {
+      "prefix": ".vite/build/",
+      "module": "main-process",
+      "subdir": "build",
+      "note": "Electron main process + preload bundles; contains the CUA supervisor, cua_node spawn and browser IPC"
+    }
+  ],
+  "seed_size_limit": 3000000
+}

@@ -1,0 +1,43 @@
+import { n as e } from "./rolldown-runtime-c05d78c594d1.js";
+import { Cpn as t, Spn as n, hmn as r, kmn as i } from "./app-initial-f094ef01c64d.js";
+function a(e) {
+  let n = (0, o.c)(5),
+    { account: r, error: i } = e,
+    a = c.exec(i)?.groups?.repository;
+  if (a == null) {
+    let e;
+    return (
+      n[0] === i
+        ? (e = n[1])
+        : ((e = (0, s.jsx)(s.Fragment, { children: i })), (n[0] = i), (n[1] = e)),
+      e
+    );
+  }
+  let l;
+  return (
+    n[2] !== r.login || n[3] !== a
+      ? ((l = (0, s.jsx)(t, {
+          id: `codex.pullRequests.repositoryAccessError`,
+          defaultMessage: `GitHub account {login} can’t access {repository}. Switch accounts or request access, then try again.`,
+          description: `Actionable error shown when the active GitHub CLI account cannot access a repository`,
+          values: { login: r.login, repository: a },
+        })),
+        (n[2] = r.login),
+        (n[3] = a),
+        (n[4] = l))
+      : (l = n[4]),
+    l
+  );
+}
+var o,
+  s,
+  c,
+  l = e(() => {
+    ((o = i()),
+      n(),
+      (s = r()),
+      (c =
+        /Could not resolve to a Repository with the name '(?<repository>[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)'/u));
+  });
+export { l as n, a as t };
+//# sourceMappingURL=pull-request-error-description-aebc9b65d45f.js.map

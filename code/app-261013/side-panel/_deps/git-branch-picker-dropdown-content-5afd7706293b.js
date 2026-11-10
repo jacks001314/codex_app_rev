@@ -1,0 +1,364 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  AO as t,
+  IDt as n,
+  TO as r,
+  U0 as i,
+  VDt as a,
+  W0 as o,
+  i3 as s,
+  ik as c,
+  jDt as l,
+  r3 as u,
+  rk as d,
+  vzt as f,
+  xMt as p,
+  yzt as m,
+} from "./app-shared-bbfeca5e5737.js";
+function h(e) {
+  let t = (0, _.c)(62),
+    {
+      autoFocus: i,
+      branches: o,
+      selectedBranch: s,
+      disabled: c,
+      isError: l,
+      isLoading: d,
+      isSearchError: f,
+      isSearchLoading: p,
+      onClose: m,
+      onRetry: h,
+      onRetrySearch: b,
+      onSearchQueryChange: x,
+      onSelectCustomBranch: S,
+      onSelectBranch: C,
+      repositoryName: w,
+      renderBranchSubText: T,
+      searchedBranches: E,
+      searchQuery: D,
+    } = e,
+    O = i !== void 0 && i,
+    k = c !== void 0 && c,
+    A = f !== void 0 && f,
+    j = p !== void 0 && p,
+    M = a(),
+    [N, P] = (0, v.useState)(``),
+    F = D ?? N,
+    I,
+    L,
+    R,
+    z,
+    B,
+    V;
+  if (
+    t[0] !== o ||
+    t[1] !== k ||
+    t[2] !== l ||
+    t[3] !== d ||
+    t[4] !== A ||
+    t[5] !== j ||
+    t[6] !== h ||
+    t[7] !== b ||
+    t[8] !== C ||
+    t[9] !== S ||
+    t[10] !== T ||
+    t[11] !== F ||
+    t[12] !== E ||
+    t[13] !== s
+  ) {
+    V = F.trim();
+    let e = V.toLowerCase();
+    ((z = e.length > 0),
+      (R = o == null ? void 0 : z ? (E ?? o.filter((t) => t.toLowerCase().includes(e))) : o),
+      (B = z ? j : d));
+    let i = z ? A : l,
+      a = z ? b : h;
+    L = R?.find((e) => e === V);
+    let c =
+      z && S != null && (B || L == null)
+        ? (0, y.jsx)(r.Item, {
+            disabled: k,
+            onSelect: () => {
+              S?.(V);
+            },
+            children: (0, y.jsx)(n, {
+              id: `composer.reviewMode.branches.useExactRef`,
+              defaultMessage: `Use {branch}`,
+              description: `Action to use an exact Git ref typed into the branch search field`,
+              values: { branch: V },
+            }),
+          })
+        : null;
+    if (B) {
+      let e;
+      t[20] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, y.jsx)(r.Item, {
+            disabled: !0,
+            children: (0, y.jsxs)(`span`, {
+              className: `inline-flex items-center gap-2`,
+              children: [
+                (0, y.jsx)(u, { className: `icon-xxs` }),
+                (0, y.jsx)(n, {
+                  id: `localConversation.syncSetup.branchesLoading`,
+                  defaultMessage: `Loading branches…`,
+                  description: `Label shown while loading branches`,
+                }),
+              ],
+            }),
+          })),
+          (t[20] = e))
+        : (e = t[20]);
+      let i = e,
+        a;
+      (t[21] === c
+        ? (a = t[22])
+        : ((a = c == null ? i : (0, y.jsxs)(r.Section, { className: `flex flex-col`, children: [c, i] })),
+          (t[21] = c),
+          (t[22] = a)),
+        (I = a));
+    } else if (i) {
+      let e;
+      t[23] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, y.jsx)(r.SectionLabel, {
+            children: (0, y.jsx)(n, {
+              id: `composer.reviewMode.branches.error`,
+              defaultMessage: `Unable to load branches`,
+              description: `Error message when branch list could not be loaded`,
+            }),
+          })),
+          (t[23] = e))
+        : (e = t[23]);
+      let i;
+      t[24] === a
+        ? (i = t[25])
+        : ((i =
+            a == null
+              ? null
+              : (0, y.jsx)(r.Item, {
+                  onSelect: () => {
+                    a();
+                  },
+                  children: (0, y.jsx)(n, {
+                    id: `composer.reviewMode.branches.retry`,
+                    defaultMessage: `Retry`,
+                    description: `Retry button for branch list error`,
+                  }),
+                })),
+          (t[24] = a),
+          (t[25] = i));
+      let o;
+      (t[26] === i
+        ? (o = t[27])
+        : ((o = (0, y.jsxs)(r.Section, { className: `flex flex-col gap-1`, children: [e, i] })),
+          (t[26] = i),
+          (t[27] = o)),
+        (I = o));
+    } else if (c != null && (R == null || R.length === 0)) I = c;
+    else if (R == null || R.length === 0) {
+      let e;
+      (t[28] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, y.jsx)(r.Item, {
+            disabled: !0,
+            children: (0, y.jsx)(n, {
+              id: `localConversation.syncSetup.noBranches`,
+              defaultMessage: `No branches found`,
+              description: `Label shown when no branches are available`,
+            }),
+          })),
+          (t[28] = e))
+        : (e = t[28]),
+        (I = e));
+    } else {
+      let e;
+      (t[29] !== k || t[30] !== C || t[31] !== T || t[32] !== s
+        ? ((e = (e) =>
+            (0, y.jsx)(
+              g,
+              { branch: e, disabled: k, selected: e === s, subText: T?.(e) ?? null, onSelect: () => C(e) },
+              e,
+            )),
+          (t[29] = k),
+          (t[30] = C),
+          (t[31] = T),
+          (t[32] = s),
+          (t[33] = e))
+        : (e = t[33]),
+        (I = (0, y.jsxs)(r.Section, { className: `flex flex-col`, children: [c, R.map(e)] })));
+    }
+    ((t[0] = o),
+      (t[1] = k),
+      (t[2] = l),
+      (t[3] = d),
+      (t[4] = A),
+      (t[5] = j),
+      (t[6] = h),
+      (t[7] = b),
+      (t[8] = C),
+      (t[9] = S),
+      (t[10] = T),
+      (t[11] = F),
+      (t[12] = E),
+      (t[13] = s),
+      (t[14] = I),
+      (t[15] = L),
+      (t[16] = R),
+      (t[17] = z),
+      (t[18] = B),
+      (t[19] = V));
+  } else ((I = t[14]), (L = t[15]), (R = t[16]), (z = t[17]), (B = t[18]), (V = t[19]));
+  let H;
+  t[34] !== M || t[35] !== w
+    ? ((H =
+        w == null
+          ? M.formatMessage({
+              id: `codex.composer.searchBranches`,
+              defaultMessage: `Search branches`,
+              description: `Placeholder for the branch search input`,
+            })
+          : M.formatMessage(
+              {
+                id: `codex.composer.searchRepositoryBranches`,
+                defaultMessage: `Search {repoName} branches`,
+                description: `Placeholder for searching branches in the primary repository`,
+              },
+              { repoName: w },
+            )),
+      (t[34] = M),
+      (t[35] = w),
+      (t[36] = H))
+    : (H = t[36]);
+  let U;
+  t[37] === x
+    ? (U = t[38])
+    : ((U = (e) => {
+        let t = e.currentTarget.value;
+        (P(t), x?.(t));
+      }),
+      (t[37] = x),
+      (t[38] = U));
+  let W;
+  t[39] !== k ||
+  t[40] !== L ||
+  t[41] !== R ||
+  t[42] !== z ||
+  t[43] !== m ||
+  t[44] !== C ||
+  t[45] !== S ||
+  t[46] !== s ||
+  t[47] !== B ||
+  t[48] !== V
+    ? ((W = (e) => {
+        if (e.key !== `Enter`) return;
+        if ((e.preventDefault(), !z)) {
+          m?.();
+          return;
+        }
+        if (k || (B && S == null)) return;
+        if (L != null) {
+          C(L);
+          return;
+        }
+        if (S != null) {
+          S(V);
+          return;
+        }
+        let t = R?.find((e) => e !== s) ?? R?.[0];
+        if (t != null) {
+          C(t);
+          return;
+        }
+      }),
+      (t[39] = k),
+      (t[40] = L),
+      (t[41] = R),
+      (t[42] = z),
+      (t[43] = m),
+      (t[44] = C),
+      (t[45] = S),
+      (t[46] = s),
+      (t[47] = B),
+      (t[48] = V),
+      (t[49] = W))
+    : (W = t[49]);
+  let G;
+  t[50] !== O || t[51] !== F || t[52] !== H || t[53] !== U || t[54] !== W
+    ? ((G = (0, y.jsx)(r.SearchInput, { autoFocus: O, placeholder: H, value: F, onChange: U, onKeyDown: W })),
+      (t[50] = O),
+      (t[51] = F),
+      (t[52] = H),
+      (t[53] = U),
+      (t[54] = W),
+      (t[55] = G))
+    : (G = t[55]);
+  let K;
+  t[56] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((K = (0, y.jsx)(r.SectionLabel, {
+        children: (0, y.jsx)(n, {
+          id: `composer.remote.branchesSectionHeading`,
+          defaultMessage: `Branches`,
+          description: `Section heading for remote branch search results`,
+        }),
+      })),
+      (t[56] = K))
+    : (K = t[56]);
+  let q;
+  t[57] === I
+    ? (q = t[58])
+    : ((q = (0, y.jsxs)(`div`, {
+        className: `vertical-scroll-fade-mask flex h-[200px] flex-col gap-1.5 overflow-y-auto`,
+        children: [K, I],
+      })),
+      (t[57] = I),
+      (t[58] = q));
+  let J;
+  return (
+    t[59] !== q || t[60] !== G
+      ? ((J = (0, y.jsxs)(`div`, {
+          className: `flex w-72 flex-col gap-1.5 overflow-hidden`,
+          children: [G, q],
+        })),
+        (t[59] = q),
+        (t[60] = G),
+        (t[61] = J))
+      : (J = t[61]),
+    J
+  );
+}
+function g(e) {
+  let t = (0, _.c)(6),
+    { branch: n, disabled: a, onSelect: o, selected: s, subText: c } = e,
+    l = s ? d : void 0,
+    u;
+  return (
+    t[0] !== n || t[1] !== a || t[2] !== o || t[3] !== c || t[4] !== l
+      ? ((u = (0, y.jsx)(r.Item, {
+          leftIconAsset: i,
+          tooltipText: n,
+          tooltipSide: `top`,
+          tooltipAlign: `start`,
+          tooltipOpenWhen: `trigger-overflows`,
+          disabled: a,
+          RightIcon: l,
+          subTextAllowWrap: !0,
+          SubText: c,
+          onSelect: o,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = a),
+        (t[2] = o),
+        (t[3] = c),
+        (t[4] = l),
+        (t[5] = u))
+      : (u = t[5]),
+    u
+  );
+}
+var _, v, y;
+function b() {
+  return (b = e(() => {
+    ((_ = f()), o(), (v = m()), l(), c(), t(), s(), (y = p()));
+  }))();
+}
+export { b as n, h as t };
+//# sourceMappingURL=git-branch-picker-dropdown-content-5afd7706293b.js.map

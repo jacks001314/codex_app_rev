@@ -1,0 +1,166 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  $4 as t,
+  HT as n,
+  IDt as r,
+  VT as i,
+  _O as a,
+  cO as o,
+  fO as s,
+  jDt as c,
+  lO as l,
+  mO as u,
+  oO as d,
+  sO as f,
+  t3 as p,
+  vO as m,
+  vzt as h,
+  xMt as g,
+  yzt as _,
+} from "./app-shared-bbfeca5e5737.js";
+function v(e) {
+  let n = (0, y.c)(32),
+    { onClose: s, onConfirm: c } = e,
+    [p, m] = (0, b.useState)(!1),
+    h = (0, b.useId)(),
+    g;
+  n[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (0, x.jsx)(r, {
+        id: `desktop.windowCloseConfirmation.title`,
+        defaultMessage: `Are you sure you want to close the window?`,
+        description: `Title asking the user to confirm closing the current app window`,
+      })),
+      (n[0] = g))
+    : (g = n[0]);
+  let _ = g,
+    v;
+  n[1] === s
+    ? (v = n[2])
+    : ((v = (e) => {
+        e || s();
+      }),
+      (n[1] = s),
+      (n[2] = v));
+  let S;
+  n[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((S = { "aria-describedby": void 0 }), (n[3] = S))
+    : (S = n[3]);
+  let C;
+  n[4] !== p || n[5] !== s || n[6] !== c
+    ? ((C = (e) => {
+        (e.preventDefault(), c(p), s());
+      }),
+      (n[4] = p),
+      (n[5] = s),
+      (n[6] = c),
+      (n[7] = C))
+    : (C = n[7]);
+  let w;
+  n[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = (0, x.jsx)(a, { className: `sr-only`, children: _ })), (n[8] = w))
+    : (w = n[8]);
+  let T;
+  n[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((T = (0, x.jsx)(l, { children: (0, x.jsx)(o, { title: _ }) })), (n[9] = T))
+    : (T = n[9]);
+  let E;
+  n[10] !== h || n[11] !== p
+    ? ((E = (0, x.jsx)(i, { id: h, checked: p, onCheckedChange: m })), (n[10] = h), (n[11] = p), (n[12] = E))
+    : (E = n[12]);
+  let D;
+  n[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((D = (0, x.jsx)(r, {
+        id: `desktop.windowCloseConfirmation.doNotAskAgain`,
+        defaultMessage: `Do not ask me again`,
+        description: `Checkbox that disables future window-close confirmations when the user confirms closing this window`,
+      })),
+      (n[13] = D))
+    : (D = n[13]);
+  let O;
+  n[14] === h
+    ? (O = n[15])
+    : ((O = (0, x.jsx)(`label`, {
+        className: `cursor-interaction text-sm text-default`,
+        htmlFor: h,
+        children: D,
+      })),
+      (n[14] = h),
+      (n[15] = O));
+  let k;
+  n[16] !== E || n[17] !== O
+    ? ((k = (0, x.jsx)(l, {
+        children: (0, x.jsxs)(`div`, {
+          className: `relative flex min-w-0 items-center gap-2`,
+          children: [E, O],
+        }),
+      })),
+      (n[16] = E),
+      (n[17] = O),
+      (n[18] = k))
+    : (k = n[18]);
+  let A;
+  n[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((A = (0, x.jsx)(r, {
+        id: `desktop.windowCloseConfirmation.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Button that keeps the current app window open`,
+      })),
+      (n[19] = A))
+    : (A = n[19]);
+  let j;
+  n[20] === s
+    ? (j = n[21])
+    : ((j = (0, x.jsx)(t, { autoFocus: !0, color: `secondary`, type: `button`, onClick: s, children: A })),
+      (n[20] = s),
+      (n[21] = j));
+  let M;
+  n[22] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = (0, x.jsx)(t, {
+        type: `submit`,
+        children: (0, x.jsx)(r, {
+          id: `desktop.windowCloseConfirmation.confirm`,
+          defaultMessage: `Close Window`,
+          description: `Button that confirms closing the current app window`,
+        }),
+      })),
+      (n[22] = M))
+    : (M = n[22]);
+  let N;
+  n[23] === j
+    ? (N = n[24])
+    : ((N = (0, x.jsx)(l, { children: (0, x.jsxs)(f, { children: [j, M] }) })), (n[23] = j), (n[24] = N));
+  let P;
+  n[25] !== k || n[26] !== N || n[27] !== C
+    ? ((P = (0, x.jsxs)(d, { className: `select-none`, as: `form`, onSubmit: C, children: [w, T, k, N] })),
+      (n[25] = k),
+      (n[26] = N),
+      (n[27] = C),
+      (n[28] = P))
+    : (P = n[28]);
+  let F;
+  return (
+    n[29] !== P || n[30] !== v
+      ? ((F = (0, x.jsx)(u, {
+          open: !0,
+          onOpenChange: v,
+          contentProps: S,
+          showDialogClose: !1,
+          size: `compact`,
+          children: P,
+        })),
+        (n[29] = P),
+        (n[30] = v),
+        (n[31] = F))
+      : (F = n[31]),
+    F
+  );
+}
+var y, b, x;
+function S() {
+  return (S = e(() => {
+    ((y = h()), (b = _()), c(), p(), n(), m(), s(), (x = g()));
+  }))();
+}
+S();
+export { v as WindowCloseConfirmationDialog };
+//# sourceMappingURL=dialog-b0eed20b00d6.js.map

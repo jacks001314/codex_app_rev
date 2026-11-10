@@ -1,0 +1,2207 @@
+[
+ {
+  "module": "business",
+  "files": [
+   {
+    "file": "394872.b88ad78e2a.js",
+    "bytes": 1276599,
+    "messages": 1841,
+    "score": 1390,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "businessProfiles.about:998",
+     "businessProfiles.feeds:118",
+     "businessProfiles.creation:82",
+     "businessProfiles.location:73"
+    ]
+   },
+   {
+    "file": "272308.2509930e34.js",
+    "bytes": 253038,
+    "messages": 456,
+    "score": 456,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "ads_manager.tools:347",
+     "businessProfiles.agentBuilder:95",
+     "adManager.businessAgent:14"
+    ]
+   },
+   {
+    "file": "84934.9d3243b2ca.js",
+    "bytes": 18652,
+    "messages": 35,
+    "score": 35,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "businessProfiles.feeds:35"
+    ]
+   },
+   {
+    "file": "678412.6ba379eee2.js",
+    "bytes": 85357,
+    "messages": 34,
+    "score": 27,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "businessProfiles.verification:16",
+     "chatgpt.localBusiness:7",
+     "businessProfiles.creation:5",
+     "businessProfiles.persona:3"
+    ]
+   },
+   {
+    "file": "530132.975893a91d.js",
+    "bytes": 211030,
+    "messages": 170,
+    "score": 157,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "shopping.forYou:89",
+     "shopping.for_you:37",
+     "shopping.categoryDeals:14",
+     "shopping.profileTasks:14"
+    ]
+   },
+   {
+    "file": "470181.906ea7d182.js",
+    "bytes": 685782,
+    "messages": 325,
+    "score": 96,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.consumerBilling:51",
+     "CheckoutPlanSelector.businessPlanSetup:49",
+     "checkout.businessReactivation:47",
+     "chatgpt.checkout:45"
+    ]
+   },
+   {
+    "file": "43338.069a5b9a22.js",
+    "bytes": 103745,
+    "messages": 110,
+    "score": 95,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "pricing.pageRedesign:71",
+     "pricing.proTier:21",
+     "contextualPricingPage.work:2",
+     "pricing.proFamily:1"
+    ]
+   },
+   {
+    "file": "303095.353ba45152.js",
+    "bytes": 68143,
+    "messages": 143,
+    "score": 89,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "pricing.proOutcome:21",
+     "pricing.plusOutcome:19",
+     "pricingPlanConstants.pro:14",
+     "pricing.goOutcome:13"
+    ]
+   },
+   {
+    "file": "381807.bb7917c851.js",
+    "bytes": 185125,
+    "messages": 82,
+    "score": 81,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "businessProfiles.creation:39",
+     "businessProfiles.search:13",
+     "businessProfiles.claimOnboarding:10",
+     "businessProfiles.creationOnboarding:9"
+    ]
+   },
+   {
+    "file": "751190.45d443126d.js",
+    "bytes": 162735,
+    "messages": 277,
+    "score": 72,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "merchantSettings.issueDetails:20",
+     "merchantSettings.issueReasons:16",
+     "merchantSettings.validationReport:12",
+     "merchantSettings.agreement:10"
+    ]
+   },
+   {
+    "file": "938598.aac3f49581.js",
+    "bytes": 67400,
+    "messages": 57,
+    "score": 57,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "ads_manager.agent_insights:57"
+    ]
+   },
+   {
+    "file": "738363.476973eb94.js",
+    "bytes": 198178,
+    "messages": 88,
+    "score": 43,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "personalFinance.dashboard:18",
+     "codex.mcpTool:14",
+     "personalFinance.memories:8",
+     "personalFinance.accounts:7"
+    ]
+   },
+   {
+    "file": "182735.bb2cb0d2af.js",
+    "bytes": 8273877,
+    "messages": 676,
+    "score": 0,
+    "selected_by": "manual:route-or-api",
+    "namespaces": [
+     "codex.mcpTool:46",
+     "settings.automations:25",
+     "chatgptConversations.sidebar:21",
+     "settings.teams:21"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "conversation",
+  "files": [
+   {
+    "file": "164460.5d9128b2db.js",
+    "bytes": 452046,
+    "messages": 1040,
+    "score": 1004,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "localConversation.mcpToolActivity:722",
+     "localConversation.mcpToolApproval:101",
+     "localConversation.codexTool:97",
+     "localConversation.pageToolActivity:84"
+    ]
+   },
+   {
+    "file": "225284.63835849b6.js",
+    "bytes": 550883,
+    "messages": 442,
+    "score": 164,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "localConversation.multiAgentAction:47",
+     "codex.unifiedDiff:30",
+     "localConversation.agentActivity:23",
+     "localConversation.endResource:22"
+    ]
+   },
+   {
+    "file": "440338.88139063bc.js",
+    "bytes": 931277,
+    "messages": 517,
+    "score": 140,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "pullRequestsPage.detail:43",
+     "composer.submit:28",
+     "pullRequestDetail.comment:26",
+     "codeReview.gitlab:26"
+    ]
+   },
+   {
+    "file": "116432.f3b024dc4a.js",
+    "bytes": 527138,
+    "messages": 190,
+    "score": 102,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgptConversations.composer:69",
+     "chatgptConversations.lockdown:15",
+     "chatgptConversations.fileUploadLimitBanner:13",
+     "chatgpt.audioAttachment:6"
+    ]
+   },
+   {
+    "file": "959752.54e55a5550.js",
+    "bytes": 311903,
+    "messages": 270,
+    "score": 94,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "thread.browser:94",
+     "browser.permission:76",
+     "settings.browserUse:26",
+     "downloads.popover:20"
+    ]
+   },
+   {
+    "file": "312708.ddac0162e9.js",
+    "bytes": 88752,
+    "messages": 90,
+    "score": 90,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgptConversations.gpts:90"
+    ]
+   },
+   {
+    "file": "7021.d589dc006f.js",
+    "bytes": 96102,
+    "messages": 92,
+    "score": 82,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgptConversations.shareDialog:66",
+     "chatgptConversations.mobileImageShare:12",
+     "shareDialog.thread:5",
+     "chatgptConversations.widgetShare:4"
+    ]
+   },
+   {
+    "file": "716164.ac9a1c8325.js",
+    "bytes": 65902,
+    "messages": 69,
+    "score": 69,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgptConversations.gpts:69"
+    ]
+   },
+   {
+    "file": "652279.c9471e9aa6.js",
+    "bytes": 52991,
+    "messages": 65,
+    "score": 65,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgptConversations.referenceImages:51",
+     "chatgptConversations.imageOptions:14"
+    ]
+   },
+   {
+    "file": "254969.380a9a42a2.js",
+    "bytes": 65915,
+    "messages": 79,
+    "score": 64,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgptConversations.sidebar:58",
+     "chatgptConversations.projectSettings:6",
+     "chatgptProjectHome.sources:6",
+     "chatgptProjectSaves.actionFailed:1"
+    ]
+   },
+   {
+    "file": "418842.f2626a6652.js",
+    "bytes": 586689,
+    "messages": 301,
+    "score": 63,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgpt.image_gen:36",
+     "chatgptConversations.toolRequest:19",
+     "chatgptConversations.regenerate:15",
+     "chatgptConversations.imageGeneration:15"
+    ]
+   },
+   {
+    "file": "527652.52c85e5ecd.js",
+    "bytes": 123874,
+    "messages": 67,
+    "score": 62,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "review.fileSource:45",
+     "review.fileLanguage:16",
+     "codex.goToLine:5",
+     "pullRequestDetail.comment:1"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "settings",
+  "files": [
+   {
+    "file": "405910.89912dbb76.js",
+    "bytes": 152034,
+    "messages": 263,
+    "score": 136,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "teams.icons:100",
+     "settings.nav:69",
+     "settings.section:32",
+     "settings.teams:18"
+    ]
+   },
+   {
+    "file": "324957.776af63e2a.js",
+    "bytes": 128182,
+    "messages": 2,
+    "score": 2,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "settings.nav:2"
+    ]
+   },
+   {
+    "file": "832672.5d5bbf639a.js",
+    "bytes": 221985,
+    "messages": 154,
+    "score": 147,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "settings.usage:146",
+     "codex.rateLimitResetModal:4",
+     "consumerUsage.legend:2",
+     "common.retry:1"
+    ]
+   },
+   {
+    "file": "680701.36ae631051.js",
+    "bytes": 106605,
+    "messages": 100,
+    "score": 90,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "settings.gateways:84",
+     "electron.onboarding:6",
+     "settings.remoteConnections:6",
+     "electron.loginMethods:4"
+    ]
+   },
+   {
+    "file": "837769.5833a3e219.js",
+    "bytes": 128752,
+    "messages": 121,
+    "score": 91,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "settings.import:84",
+     "externalAgentImport.setupDialog:16",
+     "externalAgentConfig.itemType:10",
+     "settings.agent:7"
+    ]
+   },
+   {
+    "file": "615197.759a20d54a.js",
+    "bytes": 53597,
+    "messages": 71,
+    "score": 54,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "settings.passwordSync:24",
+     "settings.chatGpt:22",
+     "restricted.passwords:16",
+     "settings.passwords:8"
+    ]
+   },
+   {
+    "file": "851065.6d7fb580fa.js",
+    "bytes": 82930,
+    "messages": 67,
+    "score": 53,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "settings.worktrees:49",
+     "settings.git:4",
+     "worktreePreference.inherit:1",
+     "worktreePreference.ask:1"
+    ]
+   },
+   {
+    "file": "424391.8693f01cd4.js",
+    "bytes": 131403,
+    "messages": 115,
+    "score": 113,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "settings.teams:112",
+     "sharing.sharedDotRecipient:1",
+     "settings.panel:1",
+     "teams.spaces:1"
+    ]
+   },
+   {
+    "file": "381822.67aedba674.js",
+    "bytes": 266891,
+    "messages": 357,
+    "score": 269,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.chatGpt:253",
+     "settingsModal.accountPin:16",
+     "lockedChats.pin:13",
+     "signInWithChatGPTConsent.resourcePermission:9"
+    ]
+   },
+   {
+    "file": "474658.278bfaa408.js",
+    "bytes": 188741,
+    "messages": 227,
+    "score": 227,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.codexMicro:223",
+     "settings.keyboardShortcuts:4"
+    ]
+   },
+   {
+    "file": "621444.df9b29bc75.js",
+    "bytes": 204078,
+    "messages": 252,
+    "score": 226,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.remoteConnections:191",
+     "settings.remoteControlConnections:35",
+     "codex.projectAppearance:9",
+     "electron.onboarding:6"
+    ]
+   },
+   {
+    "file": "373798.7e519ef16d.js",
+    "bytes": 190888,
+    "messages": 266,
+    "score": 218,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.browserUse:206",
+     "downloads.popover:17",
+     "downloads.status:12",
+     "downloads.action:7"
+    ]
+   },
+   {
+    "file": "553834.8bcca01908.js",
+    "bytes": 225071,
+    "messages": 249,
+    "score": 214,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.general:145",
+     "settings.appearance:30",
+     "settings.agent:19",
+     "settings.hotkeySetter:10"
+    ]
+   },
+   {
+    "file": "338923.5e5c677ceb.js",
+    "bytes": 298647,
+    "messages": 420,
+    "score": 206,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.chatGpt:160",
+     "onboarding.health_department:145",
+     "settings.personalization:27",
+     "onboarding.departments:20"
+    ]
+   },
+   {
+    "file": "971042.728e536639.js",
+    "bytes": 231875,
+    "messages": 228,
+    "score": 189,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.consumerBilling:136",
+     "settingsModal.transactionHistory:28",
+     "settings.invoiceExpensing:21",
+     "settingsModal.walletBalance:4"
+    ]
+   },
+   {
+    "file": "224153.d14796e32c.js",
+    "bytes": 113026,
+    "messages": 165,
+    "score": 157,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.computerUse:123",
+     "settings.browserUse:25",
+     "settings.pluginControls:7",
+     "plugins.browserExtension:4"
+    ]
+   },
+   {
+    "file": "359591.9865d4ca66.js",
+    "bytes": 95535,
+    "messages": 161,
+    "score": 149,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.browserUse:61",
+     "settings.nav:56",
+     "settings.section:32",
+     "restricted.cloudComputer:5"
+    ]
+   },
+   {
+    "file": "836008.08f49bd4ec.js",
+    "bytes": 152717,
+    "messages": 147,
+    "score": 145,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.chronicle:145",
+     "electron.onboarding:1",
+     "codex.dialog:1"
+    ]
+   },
+   {
+    "file": "530534.4d0e653577.js",
+    "bytes": 124913,
+    "messages": 126,
+    "score": 126,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.codeReview:122",
+     "settings.git:3",
+     "settings.panel:1"
+    ]
+   },
+   {
+    "file": "710096.f53d563994.js",
+    "bytes": 73707,
+    "messages": 117,
+    "score": 117,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.cloudEnvironments:113",
+     "settings.unsavedChanges:4"
+    ]
+   },
+   {
+    "file": "258933.468d7cad16.js",
+    "bytes": 268698,
+    "messages": 199,
+    "score": 109,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.nav:56",
+     "settings.section:32",
+     "settings.chatGpt:13",
+     "composer.mode:10"
+    ]
+   },
+   {
+    "file": "670415.af11034e22.js",
+    "bytes": 122575,
+    "messages": 127,
+    "score": 107,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.chatGpt:106",
+     "chatgpt.settings:9",
+     "chatgptConversations.preciseLocation:8",
+     "common.cancel:1"
+    ]
+   },
+   {
+    "file": "556836.e4f3db1dc6.js",
+    "bytes": 154717,
+    "messages": 187,
+    "score": 104,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.usage:104",
+     "usageCenter.thread:20",
+     "consumerAnalyticsPreview.limitHistory:19",
+     "composer.mode:9"
+    ]
+   },
+   {
+    "file": "970028.44e55a22de.js",
+    "bytes": 137387,
+    "messages": 126,
+    "score": 103,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.general:53",
+     "settings.voice:27",
+     "settings.chatGpt:13",
+     "settings.hotkeySetter:10"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "spaces",
+  "files": [
+   {
+    "file": "384375.45e1f0cefc.js",
+    "bytes": 1565747,
+    "messages": 663,
+    "score": 547,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "codex.space:434",
+     "codex.page:44",
+     "codex.pages:40",
+     "pages.media:18"
+    ]
+   },
+   {
+    "file": "146502.f329604e0b.js",
+    "bytes": 63308,
+    "messages": 45,
+    "score": 30,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "codex.space:28",
+     "realtimeVoice.launch:5",
+     "sidebar.aggregate:2",
+     "pages.reporting:2"
+    ]
+   },
+   {
+    "file": "236683.463da52c65.js",
+    "bytes": 54010,
+    "messages": 44,
+    "score": 24,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "codex.space:24",
+     "wham.formattedRelativeDateTime:7",
+     "appgenPage.pins:6",
+     "appgenPage.edit:1"
+    ]
+   },
+   {
+    "file": "151642.8ff0baaac3.js",
+    "bytes": 376263,
+    "messages": 165,
+    "score": 152,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.space:104",
+     "codex.pages:33",
+     "orbit.browserAnnotations:8",
+     "codex.page:6"
+    ]
+   },
+   {
+    "file": "59817.40ca0302bd.js",
+    "bytes": 86204,
+    "messages": 78,
+    "score": 76,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.page:75",
+     "codex.versionHistory:2",
+     "codex.space:1"
+    ]
+   },
+   {
+    "file": "656792.065b046301.js",
+    "bytes": 64286,
+    "messages": 54,
+    "score": 54,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "space.pageTemplates:47",
+     "space.gettingStartedPages:3",
+     "space.welcome:3",
+     "codex.space:1"
+    ]
+   },
+   {
+    "file": "715082.ce68381cc7.js",
+    "bytes": 115120,
+    "messages": 74,
+    "score": 43,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.pages:21",
+     "codex.space:17",
+     "artifactViewer.download:6",
+     "composer.placeholder:5"
+    ]
+   },
+   {
+    "file": "337184.1781c2146a.js",
+    "bytes": 40031,
+    "messages": 42,
+    "score": 42,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "space.welcome:42"
+    ]
+   },
+   {
+    "file": "43725.f8e104493e.js",
+    "bytes": 70238,
+    "messages": 42,
+    "score": 42,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "space.introduction:38",
+     "space.gettingStarted:2",
+     "space.create:1",
+     "space.slideTemplates:1"
+    ]
+   },
+   {
+    "file": "768271.c1494458e9.js",
+    "bytes": 69051,
+    "messages": 42,
+    "score": 41,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.pages:16",
+     "codex.space:10",
+     "pages.presentation:5",
+     "space.create:4"
+    ]
+   },
+   {
+    "file": "129222.89d655aa76.js",
+    "bytes": 113746,
+    "messages": 95,
+    "score": 41,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.space:35",
+     "libraryNext.delete:23",
+     "libraryNext.rename:6",
+     "codex.pages:6"
+    ]
+   },
+   {
+    "file": "101313.c9b3ce267b.js",
+    "bytes": 132477,
+    "messages": 82,
+    "score": 41,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "space.home:10",
+     "space.slideTemplates:8",
+     "space.openedSharedLinks:8",
+     "space.slides:6"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "left-nav",
+  "files": [
+   {
+    "file": "881959.c5f8bc6d8d.js",
+    "bytes": 134594,
+    "messages": 132,
+    "score": 124,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "automations.configuration:71",
+     "automations.timeZones:25",
+     "automations.polling:12",
+     "automations.setup:7"
+    ]
+   },
+   {
+    "file": "637352.87e88e539c.js",
+    "bytes": 143717,
+    "messages": 133,
+    "score": 124,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "inbox.automations:107",
+     "automations.configuration:8",
+     "settings.automations:4",
+     "automations.scheduled:4"
+    ]
+   },
+   {
+    "file": "499225.6d2e47bea2.js",
+    "bytes": 1177613,
+    "messages": 567,
+    "score": 84,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "sidebarElectron.priorityThreads:37",
+     "codex.space:30",
+     "chatgptConversations.sidebar:26",
+     "sidebarElectron.archivedTasks:24"
+    ]
+   },
+   {
+    "file": "622950.8faad13287.js",
+    "bytes": 91775,
+    "messages": 86,
+    "score": 69,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "automations.editor:35",
+     "automations.scheduled:14",
+     "settings.teams:10",
+     "automations.configuration:9"
+    ]
+   },
+   {
+    "file": "794486.246a8b8a86.js",
+    "bytes": 178313,
+    "messages": 97,
+    "score": 66,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "automations.scheduled:56",
+     "scheduled.landing:15",
+     "inbox.automations:8",
+     "composer.placeholder:5"
+    ]
+   },
+   {
+    "file": "910179.79839e37b4.js",
+    "bytes": 125117,
+    "messages": 115,
+    "score": 52,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "libraryNext.results:23",
+     "libraryNext.filters:15",
+     "space.empty:14",
+     "space.home:8"
+    ]
+   },
+   {
+    "file": "992331.6e78a01d53.js",
+    "bytes": 34932,
+    "messages": 53,
+    "score": 49,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "navigation.survey:49",
+     "enterpriseSurvey.loading:1",
+     "enterpriseSurvey.unavailable:1",
+     "enterpriseSurvey.close:1"
+    ]
+   },
+   {
+    "file": "638947.a1148242d9.js",
+    "bytes": 45456,
+    "messages": 76,
+    "score": 49,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "inbox.automations:48",
+     "settings.automations:26",
+     "automations.schedule:1",
+     "automation.schedule:1"
+    ]
+   },
+   {
+    "file": "200282.196ea97b95.js",
+    "bytes": 53357,
+    "messages": 54,
+    "score": 47,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "inbox.automations:28",
+     "automations.runs:13",
+     "settings.automations:3",
+     "automations.editor:3"
+    ]
+   },
+   {
+    "file": "613005.348f0685e1.js",
+    "bytes": 96764,
+    "messages": 66,
+    "score": 38,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "automations.editor:18",
+     "automations.sharing:15",
+     "settings.automations:13",
+     "composer.mode:10"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "learning",
+  "files": [
+   {
+    "file": "865314.861ab492d6.js",
+    "bytes": 25942,
+    "messages": 155,
+    "score": 155,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "learningBlock.periodicTableExplorer:155"
+    ]
+   },
+   {
+    "file": "842103.e91c773d63.js",
+    "bytes": 2035905,
+    "messages": 482,
+    "score": 159,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "learningBlock.waterCycle:39",
+     "learningBlock.tendonReflex:28",
+     "learningBlock.foodChain:26",
+     "learningBlock.insulinDeficiencyVsResistance:23"
+    ]
+   },
+   {
+    "file": "457705.f3ff9fbb70.js",
+    "bytes": 15599,
+    "messages": 37,
+    "score": 37,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "learning.course:37"
+    ]
+   },
+   {
+    "file": "816316.7fb0d0e0c7.js",
+    "bytes": 32694,
+    "messages": 10,
+    "score": 10,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "learning.course:5",
+     "learning.courses:4",
+     "learning.page:1"
+    ]
+   },
+   {
+    "file": "106556.4ebe1efe51.js",
+    "bytes": 7120,
+    "messages": 8,
+    "score": 6,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "learning.course:6",
+     "chatgptConversations.followups:2"
+    ]
+   },
+   {
+    "file": "204920.db637520e0.js",
+    "bytes": 1039025,
+    "messages": 143,
+    "score": 110,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "widgets.hermes:110",
+     "widgets.audioPlayer:8",
+     "widgets.debug:7",
+     "widgets.speechSynthesizer:5"
+    ]
+   },
+   {
+    "file": "299366.cf79ea855a.js",
+    "bytes": 4406885,
+    "messages": 143,
+    "score": 110,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "widgets.hermes:110",
+     "widgets.audioPlayer:8",
+     "widgets.debug:7",
+     "widgets.speechSynthesizer:5"
+    ]
+   },
+   {
+    "file": "808707.fcdab57b17.js",
+    "bytes": 18018,
+    "messages": 66,
+    "score": 66,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.bloodPressure:66"
+    ]
+   },
+   {
+    "file": "925086.2d36501d33.js",
+    "bytes": 14872,
+    "messages": 61,
+    "score": 61,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.perfectCompetition:32",
+     "learningBlock.economics:29"
+    ]
+   },
+   {
+    "file": "330343.40668ddb3f.js",
+    "bytes": 15746,
+    "messages": 59,
+    "score": 59,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.climateFeedbackLoops:59"
+    ]
+   },
+   {
+    "file": "3323.2451d97920.js",
+    "bytes": 14581,
+    "messages": 54,
+    "score": 54,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.negativeFeedback:54"
+    ]
+   },
+   {
+    "file": "200353.a268cb7b3f.js",
+    "bytes": 19553,
+    "messages": 54,
+    "score": 54,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.ecologicalSuccession:54"
+    ]
+   },
+   {
+    "file": "344981.86491f111e.js",
+    "bytes": 16948,
+    "messages": 53,
+    "score": 53,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.asymmetricKeyRoles:53"
+    ]
+   },
+   {
+    "file": "56397.ca7c41c91e.js",
+    "bytes": 12172,
+    "messages": 51,
+    "score": 51,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.economics:29",
+     "learningBlock.fxNetExportsAd:22"
+    ]
+   },
+   {
+    "file": "347091.2dcb8af83a.js",
+    "bytes": 11315,
+    "messages": 49,
+    "score": 49,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.multivariable:32",
+     "learningBlock.multivariableLimitPaths:17"
+    ]
+   },
+   {
+    "file": "334466.4c4fabc825.js",
+    "bytes": 13439,
+    "messages": 49,
+    "score": 49,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.economics:29",
+     "learningBlock.monetaryPolicy:20"
+    ]
+   },
+   {
+    "file": "431564.3920de4e89.js",
+    "bytes": 16268,
+    "messages": 49,
+    "score": 49,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "learningBlock.loopBreakControlFlow:49"
+    ]
+   },
+   {
+    "file": "442953.6e80574cdf.js",
+    "bytes": 49041,
+    "messages": 9,
+    "score": 0,
+    "selected_by": "manual:route-or-api",
+    "namespaces": [
+     "chatgptConversations.coursePanel:8",
+     "learning.course:1"
+    ]
+   },
+   {
+    "file": "708390.17710d5ff1.js",
+    "bytes": 139257,
+    "messages": 58,
+    "score": 0,
+    "selected_by": "manual:route-or-api",
+    "namespaces": [
+     "chatgpt.flashcards:36",
+     "home.artifactTemplates:8",
+     "chatgptConversations.readAloud:4",
+     "libraryNext.flashcards:4"
+    ]
+   },
+   {
+    "file": "590108.ec478ff22c.js",
+    "bytes": 10729,
+    "messages": 2,
+    "score": 0,
+    "selected_by": "manual:route-or-api",
+    "namespaces": [
+     "libraryNext.flashcards:2"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "composer",
+  "files": [
+   {
+    "file": "209174.9065478a15.js",
+    "bytes": 173325,
+    "messages": 138,
+    "score": 60,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "composer.mode:36",
+     "threadPage.remoteConnectionStatusBadge:19",
+     "composer.worktreeEnvironment:15",
+     "composer.remote:9"
+    ]
+   },
+   {
+    "file": "884655.2edb304734.js",
+    "bytes": 460771,
+    "messages": 196,
+    "score": 57,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "avatarOverlay.waitingRequest:38",
+     "localConversation.toolActivity:14",
+     "codex.visualization:14",
+     "avatarOverlay.session:10"
+    ]
+   },
+   {
+    "file": "309406.7154f09b4b.js",
+    "bytes": 742885,
+    "messages": 466,
+    "score": 57,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.agent:56",
+     "composer.threadGoal:30",
+     "composer.statusPlain:27",
+     "localConversation.threadHandoff:27"
+    ]
+   },
+   {
+    "file": "227484.79388ee4ac.js",
+    "bytes": 55197,
+    "messages": 47,
+    "score": 45,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "composer.newTask:29",
+     "composer.localCwdDropdown:16",
+     "chatgptConversations.composer:2"
+    ]
+   },
+   {
+    "file": "341692.2d62107713.js",
+    "bytes": 70994,
+    "messages": 53,
+    "score": 44,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "composer.permissionsDropdown:26",
+     "composer.mode:13",
+     "composer.floatingWork:4",
+     "workPreferences.composer:4"
+    ]
+   },
+   {
+    "file": "252961.c7a7f3f239.js",
+    "bytes": 60659,
+    "messages": 41,
+    "score": 41,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "composer.userVerification:29",
+     "composer.walletRequest:6",
+     "composer.urlAction:5",
+     "composer.toolSuggestion:1"
+    ]
+   },
+   {
+    "file": "923712.6148a9c308.js",
+    "bytes": 102125,
+    "messages": 53,
+    "score": 40,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "composer.atMentionList:33",
+     "computerUse.nativeApps:7",
+     "composer.atMentionTabs:5",
+     "pages.mentions:2"
+    ]
+   },
+   {
+    "file": "463177.5a9aa2ad1d.js",
+    "bytes": 31799,
+    "messages": 39,
+    "score": 39,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "dictation.setup:29",
+     "dictation.setupPrototype:10"
+    ]
+   },
+   {
+    "file": "609140.c8f21c135b.js",
+    "bytes": 35511,
+    "messages": 39,
+    "score": 39,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "dictation.setup:29",
+     "dictation.setupPrototype:10"
+    ]
+   },
+   {
+    "file": "25477.b067a34ef2.js",
+    "bytes": 37828,
+    "messages": 39,
+    "score": 39,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "composer.walletRequest:39"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "workspace-agents",
+  "files": [
+   {
+    "file": "935979.a5260b2a69.js",
+    "bytes": 624413,
+    "messages": 430,
+    "score": 380,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "workspaceAgents.builder:313",
+     "workspaceAgents.api:30",
+     "workspaceAgents.resources:17",
+     "workspaceAgents.studio:14"
+    ]
+   },
+   {
+    "file": "880915.62ba2647bd.js",
+    "bytes": 63254,
+    "messages": 136,
+    "score": 100,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "teams.icons:100",
+     "settings.automations:16",
+     "settings.teams:15",
+     "inbox.automations:3"
+    ]
+   },
+   {
+    "file": "690759.779649148e.js",
+    "bytes": 67228,
+    "messages": 115,
+    "score": 100,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "teams.icons:100",
+     "settings.teams:15"
+    ]
+   },
+   {
+    "file": "111761.48cb3bc76b.js",
+    "bytes": 56127,
+    "messages": 72,
+    "score": 68,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "workspaceAgents.skillIcon:48",
+     "workspaceAgents.connections:10",
+     "workspaceAgents.discovery:10",
+     "beacons.connectApp:4"
+    ]
+   },
+   {
+    "file": "306668.a88d898425.js",
+    "bytes": 80856,
+    "messages": 60,
+    "score": 60,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "workspaceAgents.skillIcon:48",
+     "workspaceAgents.schedules:9",
+     "workspaceAgents.detail:3"
+    ]
+   },
+   {
+    "file": "340441.2eb62c8a93.js",
+    "bytes": 50215,
+    "messages": 57,
+    "score": 57,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "workspaceAgents.resources:23",
+     "workspaceAgents.detail:19",
+     "workspaceAgents.builder:14",
+     "workspaceAgents.skillIcon:1"
+    ]
+   },
+   {
+    "file": "666535.19b6f124eb.js",
+    "bytes": 62750,
+    "messages": 86,
+    "score": 51,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "workspaceAgents.schedules:51",
+     "inbox.automations:29",
+     "settings.automations:4",
+     "automations.schedule:1"
+    ]
+   },
+   {
+    "file": "278867.6019d877a2.js",
+    "bytes": 51218,
+    "messages": 52,
+    "score": 50,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "workspaceAgents.index:43",
+     "workspaceAgents.templates:3",
+     "workspaceAgents.discovery:2",
+     "codex.ui:1"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "app-shell",
+  "files": [
+   {
+    "file": "654172.b64b14661b.js",
+    "bytes": 172400,
+    "messages": 423,
+    "score": 409,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.command:171",
+     "codex.commandDescription:154",
+     "codex.commandMenuTitle:45",
+     "codex.commandMenu:32"
+    ]
+   },
+   {
+    "file": "437750.efeec419ad.js",
+    "bytes": 87123,
+    "messages": 380,
+    "score": 367,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.command:169",
+     "codex.commandDescription:153",
+     "codex.commandMenuTitle:45",
+     "codexMicro.joystickFeedback:13"
+    ]
+   },
+   {
+    "file": "892801.3384f97430.js",
+    "bytes": 88184,
+    "messages": 383,
+    "score": 367,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.command:169",
+     "codex.commandDescription:153",
+     "codex.commandMenuTitle:45",
+     "keyboardShortcutsDialog.section:8"
+    ]
+   },
+   {
+    "file": "739641.9e136530d2.js",
+    "bytes": 106018,
+    "messages": 367,
+    "score": 367,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.command:169",
+     "codex.commandDescription:153",
+     "codex.commandMenuTitle:45"
+    ]
+   },
+   {
+    "file": "480596.8ed31e9907.js",
+    "bytes": 40006,
+    "messages": 27,
+    "score": 25,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "browser.auth:25",
+     "AcceptInvitePage.sso:2"
+    ]
+   },
+   {
+    "file": "183385.ec39b3691f.js",
+    "bytes": 50386,
+    "messages": 55,
+    "score": 19,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "AuthError.csamAccountClosure:36",
+     "browser.auth:19"
+    ]
+   },
+   {
+    "file": "632692.b5fd7e03e9.js",
+    "bytes": 21009,
+    "messages": 18,
+    "score": 17,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "browser.auth:17",
+     "settings.chatGpt:1"
+    ]
+   },
+   {
+    "file": "428876.9889d86ec1.js",
+    "bytes": 9469,
+    "messages": 13,
+    "score": 13,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "browser.auth:13"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "chatgpt-surfaces",
+  "files": [
+   {
+    "file": "353337.c400ab9481.js",
+    "bytes": 268325,
+    "messages": 357,
+    "score": 199,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "onboarding.health_department:145",
+     "chatgpt.onboarding:34",
+     "k12.onboarding:33",
+     "health.onboarding:32"
+    ]
+   },
+   {
+    "file": "159406.7576d6a66d.js",
+    "bytes": 351227,
+    "messages": 236,
+    "score": 164,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "electron.onboarding:163",
+     "settings.chronicle:52",
+     "externalAgentImport.setupDialog:16",
+     "externalAgentImport.setup:1"
+    ]
+   },
+   {
+    "file": "917120.4583c7fc6e.js",
+    "bytes": 230479,
+    "messages": 135,
+    "score": 109,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgpt.tpp:99",
+     "codex.composer:11",
+     "home.artifactTemplates:8",
+     "workOnboarding.enterprise:3"
+    ]
+   },
+   {
+    "file": "29761.678feb9296.js",
+    "bytes": 170807,
+    "messages": 108,
+    "score": 108,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "home.newChatPageSuggestions:102",
+     "home.ambientSuggestions:4",
+     "home.taskSuggestions:1",
+     "home.artifactTemplates:1"
+    ]
+   },
+   {
+    "file": "611468.2e08af3c4a.js",
+    "bytes": 264133,
+    "messages": 148,
+    "score": 100,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "electron.onboarding:100",
+     "sidebarOnboardingChecklist.reviewLatestPlans:20",
+     "composer.computerUseAppApproval:4",
+     "sidebarOnboardingChecklist.exploreCodex:2"
+    ]
+   },
+   {
+    "file": "681877.35f424d529.js",
+    "bytes": 104199,
+    "messages": 102,
+    "score": 88,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "electron.onboarding:88",
+     "electron.loginMethods:4",
+     "browser.auth:3",
+     "composer.filePicker:2"
+    ]
+   },
+   {
+    "file": "362660.51356caa08.js",
+    "bytes": 86883,
+    "messages": 79,
+    "score": 79,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "collegePlan.school:29",
+     "collegePlan.task:28",
+     "collegePlan.schools:18",
+     "chatgpt.college_plan:2"
+    ]
+   },
+   {
+    "file": "534136.c89c879502.js",
+    "bytes": 366782,
+    "messages": 277,
+    "score": 77,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgpt.checkout:77",
+     "StandaloneCreditCheckout.priceReview:10",
+     "CheckoutSummary.noPaymentTrial:7",
+     "CheckoutPlanSelector.usageTier:6"
+    ]
+   },
+   {
+    "file": "677003.d3a2b11bc7.js",
+    "bytes": 58020,
+    "messages": 74,
+    "score": 74,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgpt.work:74"
+    ]
+   },
+   {
+    "file": "474578.483b200efe.js",
+    "bytes": 210033,
+    "messages": 205,
+    "score": 72,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "electron.onboarding:72",
+     "restricted.environmentSetup:46",
+     "composer.mcpToolCallApproval:12",
+     "permissionRequest.title:10"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "enterprise-trust",
+  "files": [
+   {
+    "file": "922492.8f97ddc9a7.js",
+    "bytes": 143339,
+    "messages": 209,
+    "score": 185,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "restricted.environmentSetup:138",
+     "environmentSetup.review:12",
+     "environmentSetup.saveErrors:12",
+     "environmentSetup.secret:10"
+    ]
+   },
+   {
+    "file": "312026.87adc043a1.js",
+    "bytes": 427079,
+    "messages": 220,
+    "score": 128,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "restricted.aeonMessaging:128",
+     "orbit.safety:10",
+     "orbit.browserAnnotations:9",
+     "home.artifactTemplates:8"
+    ]
+   },
+   {
+    "file": "920910.8d98fd9b96.js",
+    "bytes": 91410,
+    "messages": 81,
+    "score": 78,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "restricted.aeon:51",
+     "restricted.aeonAppearancePicker:24",
+     "orbit.email:3",
+     "restricted.aeonMessaging:3"
+    ]
+   },
+   {
+    "file": "85236.c194df1024.js",
+    "bytes": 137996,
+    "messages": 127,
+    "score": 116,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "restricted.environmentSetup:65",
+     "environmentSetup.tcpAccess:17",
+     "environmentSetup.vpn:15",
+     "environmentSetup.httpPortals:14"
+    ]
+   },
+   {
+    "file": "220821.b4a9b80850.js",
+    "bytes": 296372,
+    "messages": 353,
+    "score": 291,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "security.scanDetail:74",
+     "security.repositories:61",
+     "security.findingReview:56",
+     "security.scanSetup:50"
+    ]
+   },
+   {
+    "file": "720410.9eca2290fe.js",
+    "bytes": 200694,
+    "messages": 253,
+    "score": 183,
+    "selected_by": "mandatory",
+    "namespaces": [
+     "rosalind.labActivation:46",
+     "rosalind.review:33",
+     "rosalind.labDetails:29",
+     "rosalind.locations:29"
+    ]
+   },
+   {
+    "file": "122578.2cc9765ee9.js",
+    "bytes": 136086,
+    "messages": 256,
+    "score": 252,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgpt.rosalind_access:252",
+     "codex.rosalind:4"
+    ]
+   },
+   {
+    "file": "233731.4acbde3801.js",
+    "bytes": 143290,
+    "messages": 127,
+    "score": 127,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgpt.privacy_center:127"
+    ]
+   },
+   {
+    "file": "2463.22de500d36.js",
+    "bytes": 71337,
+    "messages": 145,
+    "score": 121,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "environmentSetup.banner:51",
+     "environmentSetup.vpnFailure:21",
+     "restricted.environmentSetup:18",
+     "environmentSetup.conflict:16"
+    ]
+   },
+   {
+    "file": "462190.f83fe20c3b.js",
+    "bytes": 97285,
+    "messages": 60,
+    "score": 59,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "chatgpt.rosalind_access:25",
+     "rosalind.researchDetails:16",
+     "rosalind.locations:15",
+     "rosalind.review:2"
+    ]
+   },
+   {
+    "file": "377631.ba30eb7339.js",
+    "bytes": 110818,
+    "messages": 76,
+    "score": 58,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "environmentSetup.banner:51",
+     "restricted.environmentSetup:5",
+     "threadEnvironment.networkPolicyLimit:2",
+     "environmentSetup.footer:2"
+    ]
+   },
+   {
+    "file": "889222.ccb66779fe.js",
+    "bytes": 53705,
+    "messages": 71,
+    "score": 55,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "restricted.environmentSetup:43",
+     "environmentSetup.create:7",
+     "environmentSetup.repositoryPicker:5",
+     "composer.submitToast:3"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "editors",
+  "files": [
+   {
+    "file": "706218.e4d99bd644.js",
+    "bytes": 717321,
+    "messages": 224,
+    "score": 153,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "spreadsheetEditor.validation:44",
+     "spreadsheetEditor.chart:35",
+     "spreadsheetEditor.conditional:30",
+     "spreadsheetEditor.object:28"
+    ]
+   },
+   {
+    "file": "915083.ecf935a7fb.js",
+    "bytes": 483519,
+    "messages": 180,
+    "score": 26,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "presentationEditor.insert:25",
+     "artifactPreview.elementContextMenu:11",
+     "artifactPreview.slideContextMenu:4",
+     "pages.presentation:2"
+    ]
+   },
+   {
+    "file": "310423.2ed8d20af4.js",
+    "bytes": 73837,
+    "messages": 34,
+    "score": 18,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "markdown.audio:12",
+     "markdown.imageConsent:4",
+     "codeSnippet.wrap:2",
+     "markdown.imageUnverified:2"
+    ]
+   },
+   {
+    "file": "587250.4133307311.js",
+    "bytes": 33253,
+    "messages": 17,
+    "score": 17,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "markdown.video:17"
+    ]
+   },
+   {
+    "file": "392429.8e8e66e4ad.js",
+    "bytes": 60353,
+    "messages": 52,
+    "score": 17,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.threadFindBar:17",
+     "markdown.video:17",
+     "wham.formattedRelativeDateTime:7",
+     "chatgpt.threadFindBar:6"
+    ]
+   },
+   {
+    "file": "904485.55539c0b53.js",
+    "bytes": 41392,
+    "messages": 28,
+    "score": 16,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "markdown.fileCitation:16",
+     "artifactTemplate.resultCard:7",
+     "wham.whamProposedTask:2",
+     "artifactHandoff.untitledDocument:1"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "misc",
+  "files": [
+   {
+    "file": "913237.8425fb7da8.js",
+    "bytes": 209816,
+    "messages": 147,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "profile.sticker:28",
+     "profile.activity:19",
+     "profile.showcase:14",
+     "profile.edit:13"
+    ]
+   },
+   {
+    "file": "909077.6821aceaa6.js",
+    "bytes": 139199,
+    "messages": 102,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "librarySharing.collaborators:20",
+     "librarySharing.requests:16",
+     "librarySharing.invite:11",
+     "librarySharing.link:9"
+    ]
+   },
+   {
+    "file": "583168.eddaaaa7c5.js",
+    "bytes": 71154,
+    "messages": 83,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.cme:83"
+    ]
+   },
+   {
+    "file": "53143.891eef371e.js",
+    "bytes": 73563,
+    "messages": 78,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "signInWithChatGPTConsent.resourcePermission:9",
+     "oauthConsentChoices.planLimits:1",
+     "signInWithChatGPTConsent.adsReadDescription:1",
+     "signInWithChatGPTConsent.adsWriteDescription:1"
+    ]
+   },
+   {
+    "file": "770340.5a83d68dbe.js",
+    "bytes": 251877,
+    "messages": 75,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.projectAppearance:39",
+     "emoji.category:11",
+     "symbolPicker.icons:10",
+     "symbolPicker.teamIcons:7"
+    ]
+   },
+   {
+    "file": "538891.aff4317b01.js",
+    "bytes": 19913,
+    "messages": 71,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "human-body-systems-map.system:11",
+     "human-body-systems-map.anchors:11",
+     "human-body-systems-map.system-control:11",
+     "human-body-systems-map.role:11"
+    ]
+   },
+   {
+    "file": "871045.a31e663894.js",
+    "bytes": 102877,
+    "messages": 66,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "sites.preview:23",
+     "codex.localConversation:13",
+     "artifactAnnotations.exit:4",
+     "appgenPage.analytics:1"
+    ]
+   },
+   {
+    "file": "728748.501fed6f8a.js",
+    "bytes": 79918,
+    "messages": 62,
+    "score": 0,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "appgenAccess.state:7",
+     "appgenAccess.shortState:7",
+     "appgenAccess.siteState:7",
+     "appgenPage.ownership:4"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "plugins",
+  "files": [
+   {
+    "file": "890583.86cdb604a9.js",
+    "bytes": 81956,
+    "messages": 134,
+    "score": 131,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "plugins.create:131",
+     "chatgpt.connectors:1",
+     "chatgpt.apps:1",
+     "createCustomConnectorModal.acceptLabelTitle:1"
+    ]
+   },
+   {
+    "file": "74892.e8d00acc45.js",
+    "bytes": 106324,
+    "messages": 66,
+    "score": 66,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "plugins.detail:47",
+     "plugins.dependencies:14",
+     "plugins.description:3",
+     "plugins.install:2"
+    ]
+   },
+   {
+    "file": "548929.7a0b4cbb28.js",
+    "bytes": 132632,
+    "messages": 137,
+    "score": 65,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "settings.mcp:53",
+     "skills.appsPage:48",
+     "skills.scope:8",
+     "settings.personalization:5"
+    ]
+   },
+   {
+    "file": "473177.a69adbc5b9.js",
+    "bytes": 91687,
+    "messages": 74,
+    "score": 62,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "browserSkills.editor:42",
+     "browserSkills.sharing:17",
+     "codex.writingBlock:4",
+     "browserSkills.tryPrompt:1"
+    ]
+   },
+   {
+    "file": "604319.7947499c94.js",
+    "bytes": 85358,
+    "messages": 67,
+    "score": 58,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "skills.card:25",
+     "skills.page:11",
+     "skills.appsPage:9",
+     "skills.scope:8"
+    ]
+   },
+   {
+    "file": "978887.6bf7a8b897.js",
+    "bytes": 94751,
+    "messages": 58,
+    "score": 56,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "plugins.detail:35",
+     "plugins.management:9",
+     "plugins.card:6",
+     "plugins.migration:3"
+    ]
+   },
+   {
+    "file": "192666.161cacd23a.js",
+    "bytes": 93105,
+    "messages": 68,
+    "score": 52,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "skills.card:25",
+     "plugins.card:15",
+     "home.artifactTemplates:8",
+     "plugins.incentive:7"
+    ]
+   },
+   {
+    "file": "474358.951967df78.js",
+    "bytes": 63520,
+    "messages": 54,
+    "score": 51,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "plugins.detail:44",
+     "plugins.installModal:3",
+     "plugins.browserExtension:3",
+     "settings.computerUse:1"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "writing",
+  "files": [
+   {
+    "file": "400481.351dd8d323.js",
+    "bytes": 119731,
+    "messages": 70,
+    "score": 45,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.writingBlock:45",
+     "chatgptConversations.writingBlock:21",
+     "artifactViewer.openInLibrary:2",
+     "chatgptFilePreview.fileInfo:1"
+    ]
+   },
+   {
+    "file": "897874.314ec9b5c1.js",
+    "bytes": 47990,
+    "messages": 42,
+    "score": 42,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.writingBlock:42"
+    ]
+   },
+   {
+    "file": "720436.f41c4a9f13.js",
+    "bytes": 79033,
+    "messages": 26,
+    "score": 25,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.writingBlock:25",
+     "copyButton.copy:1"
+    ]
+   },
+   {
+    "file": "678608.f43ff490bd.js",
+    "bytes": 111944,
+    "messages": 42,
+    "score": 18,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codex.writingBlock:18",
+     "chatgptFilePreview.versionHistory:14",
+     "library.image:3",
+     "tabThumbnail.writingBlock:2"
+    ]
+   },
+   {
+    "file": "493889.10a12886ed.js",
+    "bytes": 74702,
+    "messages": 29,
+    "score": 16,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "writingStyle.setup:10",
+     "beacons.connectApp:6",
+     "writingStyle.apps:6",
+     "apps.enable:1"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "codex-micro",
+  "files": [
+   {
+    "file": "623696.1882000641.js",
+    "bytes": 81622,
+    "messages": 46,
+    "score": 26,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codexMicro.onboarding:26",
+     "settings.codexMicro:12",
+     "creatorMicro.onboarding:6",
+     "permissions.revealApp:1"
+    ]
+   },
+   {
+    "file": "851215.3a3b02a3eb.js",
+    "bytes": 48802,
+    "messages": 1,
+    "score": 1,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "codexMicro.command:1"
+    ]
+   }
+  ]
+ },
+ {
+  "module": "voice",
+  "files": [
+   {
+    "file": "679632.b502a10a11.js",
+    "bytes": 46028,
+    "messages": 40,
+    "score": 25,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "realtimeVoice.onboarding:15",
+     "settings.general:14",
+     "realtimeVoice.nux:10",
+     "composer.realtime:1"
+    ]
+   },
+   {
+    "file": "126704.becefcdeca.js",
+    "bytes": 18569,
+    "messages": 25,
+    "score": 13,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "speechSettings.content:13",
+     "settings.voice:12"
+    ]
+   },
+   {
+    "file": "904323.c376207ffd.js",
+    "bytes": 28561,
+    "messages": 25,
+    "score": 13,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "speechSettings.content:13",
+     "settings.voice:12"
+    ]
+   },
+   {
+    "file": "723410.56b974f189.js",
+    "bytes": 63734,
+    "messages": 12,
+    "score": 9,
+    "selected_by": "namespace-score",
+    "namespaces": [
+     "realtimeVoice.launch:9",
+     "codex.composer:2",
+     "composer.pluginSelectionRequiresSupportedRuntime:1"
+    ]
+   }
+  ]
+ }
+]

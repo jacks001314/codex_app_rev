@@ -1,0 +1,46 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { Iet as t, Jet as n, Net as r, Pet as i, Qit as a, Rrt as o } from "./app-shared-2feb3d4c6fcc.js";
+import { Ydr as s, xMr as c, yMr as l } from "./app-initial-ad16eaadf81f.js";
+import { t as u } from "./src-64808839b2f3.js";
+function d(e, t) {
+  return {
+    removedCount: e.filter((e) => !t.includes(e)).length,
+    addedCount: t.filter((t) => !e.includes(t)).length,
+  };
+}
+function f(e, r, i, a, o) {
+  try {
+    c(e, n, {
+      action: r,
+      kind: i === `site` ? t.CODEX_PROFILE_PIN_KIND_SITE : t.CODEX_PROFILE_PIN_KIND_SKILL,
+      entryPoint: a,
+      pageScope: o,
+    });
+  } catch {}
+}
+function p(e, n, o, s) {
+  for (let [l, u] of [
+    [`site`, t.CODEX_PROFILE_PIN_KIND_SITE],
+    [`skill`, t.CODEX_PROFILE_PIN_KIND_SKILL],
+  ]) {
+    let { removedCount: t, addedCount: f } = d(
+      n.filter((e) => e.kind === l).map((e) => e.artifact_id),
+      o.filter((e) => e.kind === l).map((e) => e.artifact_id),
+    );
+    for (let [n, o] of [
+      [t, r.CODEX_PROFILE_PIN_ACTION_UNPIN],
+      [f, r.CODEX_PROFILE_PIN_ACTION_PIN],
+    ])
+      if (n !== 0)
+        try {
+          c(e, i, { count: a(n), action: o, entryPoint: s, kind: u });
+        } catch {}
+  }
+}
+function m() {
+  return (m = e(() => {
+    (s(), o(), u(), l());
+  }))();
+}
+export { p as n, f as r, m as t };
+//# sourceMappingURL=pin-analytics-33d324ed1f7b.js.map

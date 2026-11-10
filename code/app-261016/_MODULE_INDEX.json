@@ -1,0 +1,1784 @@
+{
+ "generated_at": "2026-10-23T01:24:44.012Z",
+ "app_version": "26.1016.62342",
+ "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1016.8622.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+ "modules": [
+  {
+   "module": "aeon",
+   "files": 44,
+   "raw_bytes": 501765,
+   "subdirs": [
+    "_deps",
+    "dot"
+   ]
+  },
+  {
+   "module": "app-shell",
+   "files": 213,
+   "raw_bytes": 2843077,
+   "subdirs": [
+    "_deps",
+    "chrome",
+    "layout",
+    "routing"
+   ]
+  },
+  {
+   "module": "chatgpt-surfaces",
+   "files": 528,
+   "raw_bytes": 6381672,
+   "subdirs": [
+    "_deps",
+    "chatgpt"
+   ]
+  },
+  {
+   "module": "chronicle",
+   "files": 7,
+   "raw_bytes": 103716,
+   "subdirs": [
+    "_deps",
+    "chronicle"
+   ]
+  },
+  {
+   "module": "codex-micro",
+   "files": 16,
+   "raw_bytes": 328069,
+   "subdirs": [
+    "_deps",
+    "codex-micro"
+   ]
+  },
+  {
+   "module": "composer",
+   "files": 94,
+   "raw_bytes": 1038482,
+   "subdirs": [
+    "_deps",
+    "core",
+    "queue",
+    "quick-chat"
+   ]
+  },
+  {
+   "module": "conversation",
+   "files": 80,
+   "raw_bytes": 1196867,
+   "subdirs": [
+    "_deps",
+    "markdown",
+    "nav-rail",
+    "pages",
+    "scroll",
+    "thread",
+    "turn"
+   ]
+  },
+  {
+   "module": "left-nav",
+   "files": 90,
+   "raw_bytes": 827993,
+   "subdirs": [
+    "_deps",
+    "library",
+    "sidebar"
+   ]
+  },
+  {
+   "module": "main-process",
+   "files": 101,
+   "raw_bytes": 12161023,
+   "subdirs": [
+    "build",
+    "native-menu-locales"
+   ]
+  },
+  {
+   "module": "personalized",
+   "files": 181,
+   "raw_bytes": 2303234,
+   "subdirs": [
+    "_deps",
+    "connect",
+    "pages"
+   ]
+  },
+  {
+   "module": "settings",
+   "files": 563,
+   "raw_bytes": 10255462,
+   "subdirs": [
+    "_deps",
+    "onboarding",
+    "pages",
+    "search-index",
+    "shell"
+   ]
+  },
+  {
+   "module": "side-panel",
+   "files": 329,
+   "raw_bytes": 5440830,
+   "subdirs": [
+    "_deps",
+    "previews",
+    "subagents",
+    "tabs",
+    "terminal"
+   ]
+  },
+  {
+   "module": "spaces",
+   "files": 52,
+   "raw_bytes": 491764,
+   "subdirs": [
+    "_deps",
+    "pages"
+   ]
+  },
+  {
+   "module": "tasks",
+   "files": 20,
+   "raw_bytes": 94968,
+   "subdirs": [
+    "_deps",
+    "tasks"
+   ]
+  },
+  {
+   "module": "voice",
+   "files": 27,
+   "raw_bytes": 385140,
+   "subdirs": [
+    "_deps",
+    "voice"
+   ]
+  },
+  {
+   "module": "workspace",
+   "files": 118,
+   "raw_bytes": 654703,
+   "subdirs": [
+    "_deps",
+    "pages"
+   ]
+  },
+  {
+   "module": "writing",
+   "files": 27,
+   "raw_bytes": 486581,
+   "subdirs": [
+    "_deps",
+    "writing"
+   ]
+  }
+ ],
+ "shared_external_refs": [
+  {
+   "name": "app-initial-ad16eaadf81f.js",
+   "bytes": 14606938
+  },
+  {
+   "name": "app-shared-2feb3d4c6fcc.js",
+   "bytes": 5899319
+  },
+  {
+   "name": "workbook-1fd3f253a266.js",
+   "bytes": 2706208
+  },
+  {
+   "name": "app-primary-3e00728c2a4c.js",
+   "bytes": 2483376
+  },
+  {
+   "name": "SegmentedControl-e97ea95afabe.js",
+   "bytes": 1955351
+  },
+  {
+   "name": "app-shared-295ec67e1c5d.css",
+   "bytes": 1321704
+  },
+  {
+   "name": "src-fca6ebecffa4.js",
+   "bytes": 913140
+  },
+  {
+   "name": "i18n-820c4a1732af.js",
+   "bytes": 912183
+  },
+  {
+   "name": "workbook-panel-9d6c6f4d0807.js",
+   "bytes": 724827
+  },
+  {
+   "name": "three.module-859594e5f29f.js",
+   "bytes": 700642
+  },
+  {
+   "name": "CompilerIntrinsics-4c3aa32fc713.js",
+   "bytes": 639426
+  },
+  {
+   "name": "es-337e76517f64.js",
+   "bytes": 512633
+  },
+  {
+   "name": "mcp-tool-activity-label-1110f61411ea.js",
+   "bytes": 478544
+  },
+  {
+   "name": "checkout-page-3db28ea7e690.js",
+   "bytes": 463312
+  },
+  {
+   "name": "pdf-2cf994d8ae36.js",
+   "bytes": 450723
+  },
+  {
+   "name": "media-c4e5f38f2116.js",
+   "bytes": 318998
+  },
+  {
+   "name": "shell-c0663a3963e3.js",
+   "bytes": 295101
+  },
+  {
+   "name": "xterm-display-helpers-140c0bf915f8.js",
+   "bytes": 293229
+  },
+  {
+   "name": "app-initial-9d42883ac737.css",
+   "bytes": 281154
+  },
+  {
+   "name": "dist-d2c4a7b52e66.js",
+   "bytes": 266694
+  },
+  {
+   "name": "katex-b62b0c0d6a07.js",
+   "bytes": 257542
+  },
+  {
+   "name": "spreadsheet-f01a044561f7.js",
+   "bytes": 204914
+  },
+  {
+   "name": "tax-e50b6a7c0765.js",
+   "bytes": 196567
+  },
+  {
+   "name": "presentation-image-assets-2852083e62f1.js",
+   "bytes": 177357
+  },
+  {
+   "name": "esm-b96d2f3fb76a.js",
+   "bytes": 161802
+  },
+  {
+   "name": "presentation-20e3999371ab.js",
+   "bytes": 158644
+  },
+  {
+   "name": "src-64808839b2f3.js",
+   "bytes": 148257
+  },
+  {
+   "name": "es-c418bfaca8e2.css",
+   "bytes": 143880
+  },
+  {
+   "name": "src-82eed893ac2d.js",
+   "bytes": 139801
+  },
+  {
+   "name": "visualization-6798ab3e1aac.js",
+   "bytes": 102502
+  },
+  {
+   "name": "state-e401e787f9be.js",
+   "bytes": 101768
+  },
+  {
+   "name": "visualization-46b638ec39bf.js",
+   "bytes": 99821
+  },
+  {
+   "name": "src-598eb5076dbd.css",
+   "bytes": 70741
+  },
+  {
+   "name": "tab-727358525b42.js",
+   "bytes": 67601
+  },
+  {
+   "name": "es-e408b9158134.js",
+   "bytes": 60668
+  },
+  {
+   "name": "silero-vad-4867dddba460.js",
+   "bytes": 51499
+  },
+  {
+   "name": "visualization-d0c5a67842b2.js",
+   "bytes": 42596
+  },
+  {
+   "name": "app-primary-4d86db640757.css",
+   "bytes": 42118
+  },
+  {
+   "name": "mapbox-gl-c0657c087127.css",
+   "bytes": 40937
+  },
+  {
+   "name": "visualization-1335b4e55813.js",
+   "bytes": 38696
+  },
+  {
+   "name": "map-3037b17f9482.js",
+   "bytes": 35130
+  },
+  {
+   "name": "pdf-preview-diff-6ab2a73eb6ae.js",
+   "bytes": 32116
+  },
+  {
+   "name": "visualization-f662969dbf6c.js",
+   "bytes": 30266
+  },
+  {
+   "name": "visualization-1dbfc4e2a90b.js",
+   "bytes": 29800
+  },
+  {
+   "name": "src-693e88997826.css",
+   "bytes": 28792
+  },
+  {
+   "name": "visualization-47221ec08071.js",
+   "bytes": 28395
+  },
+  {
+   "name": "visualization-dc46cc12b693.js",
+   "bytes": 27023
+  },
+  {
+   "name": "workbook-review-utils-969fa36cea19.js",
+   "bytes": 26448
+  },
+  {
+   "name": "visualization-762a9ae1579c.js",
+   "bytes": 25940
+  },
+  {
+   "name": "register-pierre-themes-8ff08e47faf4.js",
+   "bytes": 25535
+  },
+  {
+   "name": "visualization-2d0dd1439301.js",
+   "bytes": 24547
+  },
+  {
+   "name": "visualization-2aee2e42f5e8.js",
+   "bytes": 24498
+  },
+  {
+   "name": "url-56322ec4aaae.js",
+   "bytes": 23004
+  },
+  {
+   "name": "visualization-2628a3eb56f0.js",
+   "bytes": 21752
+  },
+  {
+   "name": "lib-88477ff17874.js",
+   "bytes": 21734
+  },
+  {
+   "name": "visualization-c7641d84bd8f.js",
+   "bytes": 21391
+  },
+  {
+   "name": "visualization-ec87c7e9c3da.js",
+   "bytes": 20931
+  },
+  {
+   "name": "visualization-3ebe0c6e282d.js",
+   "bytes": 20723
+  },
+  {
+   "name": "visualization-3dc2b6880dae.js",
+   "bytes": 20439
+  },
+  {
+   "name": "visualization-461e28c5c105.js",
+   "bytes": 20383
+  },
+  {
+   "name": "state-cbddb42ae355.js",
+   "bytes": 20349
+  },
+  {
+   "name": "visualization-276f88c88415.js",
+   "bytes": 20145
+  },
+  {
+   "name": "visualization-cac938f7a6b1.js",
+   "bytes": 20137
+  },
+  {
+   "name": "visualization-7ca068bf4abf.js",
+   "bytes": 20113
+  },
+  {
+   "name": "model-3f0fb94f2290.js",
+   "bytes": 19967
+  },
+  {
+   "name": "visualization-dee144c72290.js",
+   "bytes": 19653
+  },
+  {
+   "name": "visualization-39c2425416f1.js",
+   "bytes": 19516
+  },
+  {
+   "name": "visualization-cb36ab256fae.js",
+   "bytes": 18977
+  },
+  {
+   "name": "visualization-6a9a6e5119ae.js",
+   "bytes": 18974
+  },
+  {
+   "name": "visualization-1e295da829dd.js",
+   "bytes": 18646
+  },
+  {
+   "name": "visualization-35a6a7ae12a6.js",
+   "bytes": 18507
+  },
+  {
+   "name": "visualization-38680c796703.js",
+   "bytes": 18394
+  },
+  {
+   "name": "visualization-a43f1202ea01.js",
+   "bytes": 18320
+  },
+  {
+   "name": "visualization-bb90f6301001.js",
+   "bytes": 17686
+  },
+  {
+   "name": "visualization-262444b5eab7.js",
+   "bytes": 17662
+  },
+  {
+   "name": "visualization-c1f0da33c982.js",
+   "bytes": 17502
+  },
+  {
+   "name": "visualization-7134ed78fe42.js",
+   "bytes": 17300
+  },
+  {
+   "name": "visualization-fee05c039bf5.js",
+   "bytes": 16997
+  },
+  {
+   "name": "visualization-6afbba2b032f.js",
+   "bytes": 16856
+  },
+  {
+   "name": "visualization-76bd7fe9aaff.js",
+   "bytes": 16729
+  },
+  {
+   "name": "visualization-3b4cf7b16518.js",
+   "bytes": 16677
+  },
+  {
+   "name": "visualization-273cfaeb1ee3.js",
+   "bytes": 16424
+  },
+  {
+   "name": "visualization-4877809acf23.js",
+   "bytes": 16309
+  },
+  {
+   "name": "visualization-67927e29c4b7.js",
+   "bytes": 16223
+  },
+  {
+   "name": "visualization-b697f7e827c6.js",
+   "bytes": 16221
+  },
+  {
+   "name": "visualization-b667321741be.js",
+   "bytes": 16207
+  },
+  {
+   "name": "visualization-30d69109e02f.js",
+   "bytes": 16011
+  },
+  {
+   "name": "visualization-b3c2b6ffe92e.js",
+   "bytes": 15941
+  },
+  {
+   "name": "visualization-2b781e557673.js",
+   "bytes": 15822
+  },
+  {
+   "name": "visualization-869ddc075734.js",
+   "bytes": 15663
+  },
+  {
+   "name": "visualization-06bca2f51cd7.js",
+   "bytes": 15634
+  },
+  {
+   "name": "visualization-7557fc1708b2.js",
+   "bytes": 15624
+  },
+  {
+   "name": "visualization-8bbb57887e4c.js",
+   "bytes": 15564
+  },
+  {
+   "name": "visualization-86babaec94db.js",
+   "bytes": 15555
+  },
+  {
+   "name": "visualization-9ff6980eea71.js",
+   "bytes": 15544
+  },
+  {
+   "name": "visualization-c1c40c01780f.js",
+   "bytes": 15541
+  },
+  {
+   "name": "visualization-2607c6c27861.js",
+   "bytes": 15512
+  },
+  {
+   "name": "visualization-f3ffb4f3fd7c.js",
+   "bytes": 15504
+  },
+  {
+   "name": "visualization-9e11cfe426a4.js",
+   "bytes": 15425
+  },
+  {
+   "name": "visualization-bcbbfeac8901.js",
+   "bytes": 15408
+  },
+  {
+   "name": "visualization-d0f4f2598b80.js",
+   "bytes": 15253
+  },
+  {
+   "name": "visualization-f81621f05641.js",
+   "bytes": 15230
+  },
+  {
+   "name": "visualization-73f553a3fab5.js",
+   "bytes": 15227
+  },
+  {
+   "name": "visualization-647b6f04adcb.js",
+   "bytes": 15163
+  },
+  {
+   "name": "visualization-736a2b6a76ac.js",
+   "bytes": 15158
+  },
+  {
+   "name": "visualization-d16dc45b0fab.js",
+   "bytes": 15096
+  },
+  {
+   "name": "visualization-a82c54c0e369.js",
+   "bytes": 15077
+  },
+  {
+   "name": "visualization-7c5a5e22f0f0.js",
+   "bytes": 14998
+  },
+  {
+   "name": "visualization-a792f023285f.js",
+   "bytes": 14996
+  },
+  {
+   "name": "visualization-10fcaab8f40d.js",
+   "bytes": 14996
+  },
+  {
+   "name": "visualization-d1e8c005bf0e.js",
+   "bytes": 14989
+  },
+  {
+   "name": "visualization-cfc971864da7.js",
+   "bytes": 14924
+  },
+  {
+   "name": "visualization-64f91b7b4683.js",
+   "bytes": 14861
+  },
+  {
+   "name": "visualization-5eca9aca86f7.js",
+   "bytes": 14855
+  },
+  {
+   "name": "visualization-cf2e525d7e03.js",
+   "bytes": 14789
+  },
+  {
+   "name": "visualization-28fa03c80f42.js",
+   "bytes": 14737
+  },
+  {
+   "name": "visualization-8c286efc0a3e.js",
+   "bytes": 14730
+  },
+  {
+   "name": "visualization-335804109a9d.js",
+   "bytes": 14712
+  },
+  {
+   "name": "visualization-5360de206f30.js",
+   "bytes": 14648
+  },
+  {
+   "name": "visualization-3c8ac7623af3.js",
+   "bytes": 14634
+  },
+  {
+   "name": "visualization-14bc206758b9.js",
+   "bytes": 14630
+  },
+  {
+   "name": "visualization-228d5c2b01dc.js",
+   "bytes": 14618
+  },
+  {
+   "name": "visualization-604187860b3a.js",
+   "bytes": 14599
+  },
+  {
+   "name": "visualization-715d1967c147.js",
+   "bytes": 14560
+  },
+  {
+   "name": "visualization-c5da95ee9630.js",
+   "bytes": 14546
+  },
+  {
+   "name": "visualization-8d7c1d5bd6a0.js",
+   "bytes": 14426
+  },
+  {
+   "name": "visualization-246dc4ae068c.js",
+   "bytes": 14420
+  },
+  {
+   "name": "visualization-a2daddbc1bb3.js",
+   "bytes": 14416
+  },
+  {
+   "name": "visualization-3d8f78141105.js",
+   "bytes": 14408
+  },
+  {
+   "name": "visualization-ef1090b16b5a.js",
+   "bytes": 14405
+  },
+  {
+   "name": "visualization-5a2d79b1d8b2.js",
+   "bytes": 14376
+  },
+  {
+   "name": "visualization-ad964d558b53.js",
+   "bytes": 14376
+  },
+  {
+   "name": "visualization-f00f40526b9a.js",
+   "bytes": 14355
+  },
+  {
+   "name": "visualization-c5fc12113771.js",
+   "bytes": 14237
+  },
+  {
+   "name": "visualization-44799d3c7d7e.js",
+   "bytes": 14225
+  },
+  {
+   "name": "visualization-5a699514e2c8.js",
+   "bytes": 14205
+  },
+  {
+   "name": "visualization-498964429d21.js",
+   "bytes": 14164
+  },
+  {
+   "name": "visualization-702c321a7875.js",
+   "bytes": 14134
+  },
+  {
+   "name": "visualization-6add2b054301.js",
+   "bytes": 14120
+  },
+  {
+   "name": "visualization-6e4286905c5f.js",
+   "bytes": 14075
+  },
+  {
+   "name": "visualization-f7d24097ed51.js",
+   "bytes": 14072
+  },
+  {
+   "name": "visualization-f5f4dac43b0a.js",
+   "bytes": 14051
+  },
+  {
+   "name": "visualization-aba958971446.js",
+   "bytes": 14045
+  },
+  {
+   "name": "visualization-31664dafe3c1.js",
+   "bytes": 14018
+  },
+  {
+   "name": "visualization-63567374a04a.js",
+   "bytes": 13995
+  },
+  {
+   "name": "visualization-2926806c0dbd.js",
+   "bytes": 13984
+  },
+  {
+   "name": "visualization-1b3a041de46e.js",
+   "bytes": 13979
+  },
+  {
+   "name": "visualization-2d1b819f589e.js",
+   "bytes": 13971
+  },
+  {
+   "name": "visualization-3f6f77640455.js",
+   "bytes": 13835
+  },
+  {
+   "name": "visualization-1f73af5ce812.js",
+   "bytes": 13826
+  },
+  {
+   "name": "visualization-ec7253ae1b3c.js",
+   "bytes": 13814
+  },
+  {
+   "name": "visualization-33389006a9fc.js",
+   "bytes": 13724
+  },
+  {
+   "name": "visualization-287f4079b157.js",
+   "bytes": 13718
+  },
+  {
+   "name": "visualization-35c112e6f119.js",
+   "bytes": 13677
+  },
+  {
+   "name": "visualization-71a3dc236cb2.js",
+   "bytes": 13667
+  },
+  {
+   "name": "visualization-4b39fac72a77.js",
+   "bytes": 13662
+  },
+  {
+   "name": "visualization-999385800e3d.js",
+   "bytes": 13645
+  },
+  {
+   "name": "visualization-a2a6ac9808d0.js",
+   "bytes": 13571
+  },
+  {
+   "name": "visualization-a3302c713a3d.js",
+   "bytes": 13529
+  },
+  {
+   "name": "visualization-2e402985fe73.js",
+   "bytes": 13522
+  },
+  {
+   "name": "visualization-75a91a352bb1.js",
+   "bytes": 13498
+  },
+  {
+   "name": "visualization-670422af6588.js",
+   "bytes": 13441
+  },
+  {
+   "name": "visualization-4dbc693ecefd.js",
+   "bytes": 13426
+  },
+  {
+   "name": "visualization-56870b89992c.js",
+   "bytes": 13389
+  },
+  {
+   "name": "visualization-ac2994b44cad.js",
+   "bytes": 13382
+  },
+  {
+   "name": "visualization-ab0855d8b833.js",
+   "bytes": 13362
+  },
+  {
+   "name": "visualization-173be0b5d08e.js",
+   "bytes": 13358
+  },
+  {
+   "name": "visualization-4585f6c030d7.js",
+   "bytes": 13349
+  },
+  {
+   "name": "visualization-6ff4ea48424e.js",
+   "bytes": 13292
+  },
+  {
+   "name": "visualization-5047fb99adae.js",
+   "bytes": 13287
+  },
+  {
+   "name": "visualization-af8966798c45.js",
+   "bytes": 13247
+  },
+  {
+   "name": "visualization-40ababd2842a.js",
+   "bytes": 13246
+  },
+  {
+   "name": "visualization-dd63d96ade82.js",
+   "bytes": 13237
+  },
+  {
+   "name": "visualization-78598f3758da.js",
+   "bytes": 13234
+  },
+  {
+   "name": "visualization-1ba2e0c54d8e.js",
+   "bytes": 13208
+  },
+  {
+   "name": "visualization-24e8ff334878.js",
+   "bytes": 13172
+  },
+  {
+   "name": "visualization-952b7f385a98.js",
+   "bytes": 13140
+  },
+  {
+   "name": "visualization-fa5c8ffc22c2.js",
+   "bytes": 13129
+  },
+  {
+   "name": "visualization-b5ddb0203273.js",
+   "bytes": 13129
+  },
+  {
+   "name": "visualization-c897e0c1224c.js",
+   "bytes": 13113
+  },
+  {
+   "name": "visualization-8a1a3d3a87d2.js",
+   "bytes": 13091
+  },
+  {
+   "name": "visualization-f34b876d6c67.js",
+   "bytes": 13089
+  },
+  {
+   "name": "visualization-79056a883686.js",
+   "bytes": 13051
+  },
+  {
+   "name": "visualization-b7215305a40f.js",
+   "bytes": 12936
+  },
+  {
+   "name": "visualization-fb1ad9605a52.js",
+   "bytes": 12924
+  },
+  {
+   "name": "three.module-880a9b709b9c.js",
+   "bytes": 12893
+  },
+  {
+   "name": "visualization-4c250663560a.js",
+   "bytes": 12876
+  },
+  {
+   "name": "visualization-ff9e7b5662d9.js",
+   "bytes": 12871
+  },
+  {
+   "name": "visualization-63ffb7829fdd.js",
+   "bytes": 12870
+  },
+  {
+   "name": "visualization-91314d2ab333.js",
+   "bytes": 12795
+  },
+  {
+   "name": "visualization-75fc901b7908.js",
+   "bytes": 12791
+  },
+  {
+   "name": "visualization-1c505957bfdc.js",
+   "bytes": 12784
+  },
+  {
+   "name": "visualization-d1e17558da4a.js",
+   "bytes": 12666
+  },
+  {
+   "name": "visualization-4fb49ee34122.js",
+   "bytes": 12656
+  },
+  {
+   "name": "visualization-e34c7b1ebb23.js",
+   "bytes": 12652
+  },
+  {
+   "name": "visualization-91c282f57bf9.js",
+   "bytes": 12646
+  },
+  {
+   "name": "visualization-d2ef913d20a9.js",
+   "bytes": 12628
+  },
+  {
+   "name": "visualization-af225705cad2.js",
+   "bytes": 12617
+  },
+  {
+   "name": "visualization-d97781d9388b.js",
+   "bytes": 12615
+  },
+  {
+   "name": "visualization-d121ac260c7b.js",
+   "bytes": 12598
+  },
+  {
+   "name": "visualization-9cf52e334f1f.js",
+   "bytes": 12570
+  },
+  {
+   "name": "visualization-68ed7eac09cf.js",
+   "bytes": 12506
+  },
+  {
+   "name": "visualization-232f6ae9838a.js",
+   "bytes": 12503
+  },
+  {
+   "name": "visualization-556de0bf617f.js",
+   "bytes": 12485
+  },
+  {
+   "name": "visualization-377ffaed5247.js",
+   "bytes": 12436
+  },
+  {
+   "name": "visualization-6d347ae9e8a4.js",
+   "bytes": 12435
+  },
+  {
+   "name": "visualization-83f4f20d2361.js",
+   "bytes": 12415
+  },
+  {
+   "name": "visualization-5e63090380c5.js",
+   "bytes": 12404
+  },
+  {
+   "name": "visualization-fb14f052fa7c.js",
+   "bytes": 12396
+  },
+  {
+   "name": "visualization-a1b76e158929.js",
+   "bytes": 12361
+  },
+  {
+   "name": "visualization-d7f76eef6bb7.js",
+   "bytes": 12351
+  },
+  {
+   "name": "visualization-1f4fe59bf8c5.js",
+   "bytes": 12342
+  },
+  {
+   "name": "visualization-919539b7cc9c.js",
+   "bytes": 12322
+  },
+  {
+   "name": "visualization-20740a947081.js",
+   "bytes": 12309
+  },
+  {
+   "name": "visualization-cdfbaa5cb8a5.js",
+   "bytes": 12293
+  },
+  {
+   "name": "visualization-8cc0a23e1891.js",
+   "bytes": 12258
+  },
+  {
+   "name": "visualization-f6a573a51f54.js",
+   "bytes": 12242
+  },
+  {
+   "name": "visualization-ce552b53f553.js",
+   "bytes": 12235
+  },
+  {
+   "name": "visualization-75dd31e98891.js",
+   "bytes": 12230
+  },
+  {
+   "name": "visualization-4eea80bf5860.js",
+   "bytes": 12205
+  },
+  {
+   "name": "visualization-8d84eba61511.js",
+   "bytes": 12191
+  },
+  {
+   "name": "visualization-11dc290e2be7.js",
+   "bytes": 12184
+  },
+  {
+   "name": "visualization-d4eb1d4aff3d.js",
+   "bytes": 12177
+  },
+  {
+   "name": "visualization-573753fff565.js",
+   "bytes": 12163
+  },
+  {
+   "name": "visualization-be4eb885b752.js",
+   "bytes": 12145
+  },
+  {
+   "name": "visualization-1b29fb913e39.js",
+   "bytes": 12131
+  },
+  {
+   "name": "visualization-a3b98bc1fa29.js",
+   "bytes": 12126
+  },
+  {
+   "name": "visualization-c6e4006e4f27.js",
+   "bytes": 12118
+  },
+  {
+   "name": "visualization-f9f1120475a4.js",
+   "bytes": 12099
+  },
+  {
+   "name": "visualization-7065df2444d3.js",
+   "bytes": 12093
+  },
+  {
+   "name": "visualization-34b21e4e1157.js",
+   "bytes": 12087
+  },
+  {
+   "name": "visualization-6fe76771faee.js",
+   "bytes": 12055
+  },
+  {
+   "name": "visualization-bb9a8bcaea42.js",
+   "bytes": 12044
+  },
+  {
+   "name": "visualization-d4df147f8220.js",
+   "bytes": 12041
+  },
+  {
+   "name": "visualization-32b75ca6ae47.js",
+   "bytes": 12031
+  },
+  {
+   "name": "visualization-86bd0be35d12.js",
+   "bytes": 11996
+  },
+  {
+   "name": "visualization-72b5c3c6d97f.js",
+   "bytes": 11988
+  },
+  {
+   "name": "visualization-e7489ff7470e.js",
+   "bytes": 11982
+  },
+  {
+   "name": "visualization-595938d95906.js",
+   "bytes": 11973
+  },
+  {
+   "name": "visualization-31b0bf215333.js",
+   "bytes": 11957
+  },
+  {
+   "name": "visualization-dd71453a5a9a.js",
+   "bytes": 11929
+  },
+  {
+   "name": "visualization-fe80a9a1d6e2.js",
+   "bytes": 11924
+  },
+  {
+   "name": "visualization-494a3617ae85.js",
+   "bytes": 11909
+  },
+  {
+   "name": "visualization-6cc062984258.js",
+   "bytes": 11904
+  },
+  {
+   "name": "visualization-ad80573b50ca.js",
+   "bytes": 11887
+  },
+  {
+   "name": "visualization-b4cce94c0cb8.js",
+   "bytes": 11875
+  },
+  {
+   "name": "visualization-fbbdd3743d82.js",
+   "bytes": 11847
+  },
+  {
+   "name": "visualization-18e2afd79c1c.js",
+   "bytes": 11835
+  },
+  {
+   "name": "visualization-b6c644e5147f.js",
+   "bytes": 11821
+  },
+  {
+   "name": "visualization-4d2b0a1dc9e9.js",
+   "bytes": 11820
+  },
+  {
+   "name": "visualization-25e212f863be.js",
+   "bytes": 11817
+  },
+  {
+   "name": "visualization-66a76da2c098.js",
+   "bytes": 11790
+  },
+  {
+   "name": "visualization-5e3ceda1c16a.js",
+   "bytes": 11789
+  },
+  {
+   "name": "visualization-db3ec5f2e404.js",
+   "bytes": 11785
+  },
+  {
+   "name": "visualization-20176b9b9c8b.js",
+   "bytes": 11763
+  },
+  {
+   "name": "visualization-ddfa565583e3.js",
+   "bytes": 11736
+  },
+  {
+   "name": "visualization-47c23ebc8253.js",
+   "bytes": 11719
+  },
+  {
+   "name": "visualization-8e3819cece5e.js",
+   "bytes": 11674
+  },
+  {
+   "name": "visualization-e52357f86ad8.js",
+   "bytes": 11673
+  },
+  {
+   "name": "visualization-1d5125a6575f.js",
+   "bytes": 11657
+  },
+  {
+   "name": "visualization-7f34ea41535d.js",
+   "bytes": 11651
+  },
+  {
+   "name": "visualization-2e7a795ec605.js",
+   "bytes": 11624
+  },
+  {
+   "name": "visualization-19719a0b386f.js",
+   "bytes": 11620
+  },
+  {
+   "name": "visualization-98d0fdcbd396.js",
+   "bytes": 11611
+  },
+  {
+   "name": "visualization-f22aae57de93.js",
+   "bytes": 11600
+  },
+  {
+   "name": "visualization-b97635bf9e6c.js",
+   "bytes": 11583
+  },
+  {
+   "name": "visualization-a2d263ccb915.js",
+   "bytes": 11581
+  },
+  {
+   "name": "visualization-1d83fe94fb5b.js",
+   "bytes": 11563
+  },
+  {
+   "name": "visualization-d364bfe18c03.js",
+   "bytes": 11561
+  },
+  {
+   "name": "visualization-3ec5f7de1a86.js",
+   "bytes": 11530
+  },
+  {
+   "name": "visualization-153cbed8a717.js",
+   "bytes": 11529
+  },
+  {
+   "name": "visualization-a36b69af2d1e.js",
+   "bytes": 11466
+  },
+  {
+   "name": "visualization-fae037d4cbbb.js",
+   "bytes": 11456
+  },
+  {
+   "name": "visualization-e920b0737aec.js",
+   "bytes": 11447
+  },
+  {
+   "name": "visualization-3777b42cd1a9.js",
+   "bytes": 11416
+  },
+  {
+   "name": "visualization-300a13fb5a84.js",
+   "bytes": 11412
+  },
+  {
+   "name": "visualization-4ee2fb354a98.js",
+   "bytes": 11411
+  },
+  {
+   "name": "visualization-3421a4db3d34.js",
+   "bytes": 11401
+  },
+  {
+   "name": "visualization-3db82f3c04de.js",
+   "bytes": 11392
+  },
+  {
+   "name": "visualization-6270619a71f7.js",
+   "bytes": 11390
+  },
+  {
+   "name": "visualization-4ef6d91462b1.js",
+   "bytes": 11372
+  },
+  {
+   "name": "visualization-91da9d4a0cd4.js",
+   "bytes": 11353
+  },
+  {
+   "name": "visualization-a2ce91497e04.js",
+   "bytes": 11307
+  },
+  {
+   "name": "visualization-83b002656d67.js",
+   "bytes": 11265
+  },
+  {
+   "name": "visualization-62a5c09d5b6e.js",
+   "bytes": 11244
+  },
+  {
+   "name": "visualization-300eaf5bfb2a.js",
+   "bytes": 11218
+  },
+  {
+   "name": "visualization-5de3bfab18ed.js",
+   "bytes": 11193
+  },
+  {
+   "name": "visualization-b0b079007cce.js",
+   "bytes": 11189
+  },
+  {
+   "name": "visualization-918b1f9d20b5.js",
+   "bytes": 11177
+  },
+  {
+   "name": "visualization-b60237362139.js",
+   "bytes": 11167
+  },
+  {
+   "name": "visualization-2611cfe5f763.js",
+   "bytes": 11166
+  },
+  {
+   "name": "visualization-5f0040d2f5e4.js",
+   "bytes": 11164
+  },
+  {
+   "name": "visualization-3a75656c8b53.js",
+   "bytes": 11139
+  },
+  {
+   "name": "visualization-5f3b29382521.js",
+   "bytes": 11138
+  },
+  {
+   "name": "visualization-4c0a7ce8b1cf.js",
+   "bytes": 11133
+  },
+  {
+   "name": "visualization-9b8224e3cb0a.js",
+   "bytes": 11109
+  },
+  {
+   "name": "visualization-c1ae828fe5f6.js",
+   "bytes": 11105
+  },
+  {
+   "name": "visualization-8a7a304c5f6d.js",
+   "bytes": 11091
+  },
+  {
+   "name": "visualization-bfadd11782ab.js",
+   "bytes": 11084
+  },
+  {
+   "name": "visualization-353c2359a769.js",
+   "bytes": 11073
+  },
+  {
+   "name": "visualization-d56734bef038.js",
+   "bytes": 11048
+  },
+  {
+   "name": "visualization-7b9ef4eba9b8.js",
+   "bytes": 11035
+  },
+  {
+   "name": "visualization-5607d9fc6d02.js",
+   "bytes": 11034
+  },
+  {
+   "name": "visualization-9c8b6aa77693.js",
+   "bytes": 11023
+  },
+  {
+   "name": "visualization-dfd761987eda.js",
+   "bytes": 10986
+  },
+  {
+   "name": "visualization-daacb14693a6.js",
+   "bytes": 10983
+  },
+  {
+   "name": "visualization-a5a1ac01f657.js",
+   "bytes": 10973
+  },
+  {
+   "name": "visualization-e5e334d2baee.js",
+   "bytes": 10961
+  },
+  {
+   "name": "visualization-2e6452178331.js",
+   "bytes": 10961
+  },
+  {
+   "name": "visualization-ae0d3acb9ea2.js",
+   "bytes": 10960
+  },
+  {
+   "name": "visualization-540500e47c4e.js",
+   "bytes": 10944
+  },
+  {
+   "name": "visualization-6b2d80b21b75.js",
+   "bytes": 10940
+  },
+  {
+   "name": "visualization-93ca89c29cbd.js",
+   "bytes": 10935
+  },
+  {
+   "name": "visualization-f4b59171b62a.js",
+   "bytes": 10934
+  },
+  {
+   "name": "visualization-b44d68441089.js",
+   "bytes": 10929
+  },
+  {
+   "name": "visualization-946fee6c6524.js",
+   "bytes": 10920
+  },
+  {
+   "name": "visualization-1d6bb5315f2e.js",
+   "bytes": 10908
+  },
+  {
+   "name": "visualization-962fd1360136.js",
+   "bytes": 10901
+  },
+  {
+   "name": "visualization-e737d9c39f14.js",
+   "bytes": 10899
+  },
+  {
+   "name": "visualization-9586aa729550.js",
+   "bytes": 10893
+  },
+  {
+   "name": "visualization-cb4c3d082d1b.js",
+   "bytes": 10879
+  },
+  {
+   "name": "visualization-c1f82b6bb300.js",
+   "bytes": 10879
+  },
+  {
+   "name": "visualization-13dd3e999994.js",
+   "bytes": 10873
+  },
+  {
+   "name": "visualization-ddf3315bfd30.js",
+   "bytes": 10867
+  },
+  {
+   "name": "visualization-97a4094b7dc4.js",
+   "bytes": 10850
+  },
+  {
+   "name": "visualization-119538674da7.js",
+   "bytes": 10844
+  },
+  {
+   "name": "visualization-5b7aace2e529.js",
+   "bytes": 10838
+  },
+  {
+   "name": "visualization-8789cf63a544.js",
+   "bytes": 10830
+  },
+  {
+   "name": "visualization-63b06331b5eb.js",
+   "bytes": 10783
+  },
+  {
+   "name": "visualization-f85d89f76ecf.js",
+   "bytes": 10774
+  },
+  {
+   "name": "visualization-b95d7ff12a3d.js",
+   "bytes": 10749
+  },
+  {
+   "name": "visualization-a0692cc947b3.js",
+   "bytes": 10746
+  },
+  {
+   "name": "visualization-d01f1f631b7e.js",
+   "bytes": 10734
+  },
+  {
+   "name": "visualization-f671c863cd40.js",
+   "bytes": 10704
+  },
+  {
+   "name": "visualization-3568c9285a03.js",
+   "bytes": 10703
+  },
+  {
+   "name": "visualization-c667f511ef1e.js",
+   "bytes": 10696
+  },
+  {
+   "name": "visualization-9c43348bebe2.js",
+   "bytes": 10695
+  },
+  {
+   "name": "visualization-393dd619c21b.js",
+   "bytes": 10676
+  },
+  {
+   "name": "visualization-2803c3d0bd46.js",
+   "bytes": 10672
+  },
+  {
+   "name": "visualization-7960a2bf00ad.js",
+   "bytes": 10672
+  },
+  {
+   "name": "visualization-59582f4682b9.js",
+   "bytes": 10670
+  },
+  {
+   "name": "visualization-f52574e98035.js",
+   "bytes": 10670
+  },
+  {
+   "name": "visualization-57d0c87b3c03.js",
+   "bytes": 10642
+  },
+  {
+   "name": "visualization-3fecd59f33b4.js",
+   "bytes": 10616
+  },
+  {
+   "name": "visualization-9b60b45caf32.js",
+   "bytes": 10611
+  },
+  {
+   "name": "visualization-c65cc5da5f7d.js",
+   "bytes": 10611
+  },
+  {
+   "name": "visualization-83d8511e3ff5.js",
+   "bytes": 10602
+  },
+  {
+   "name": "visualization-9b2b9b6acc0a.js",
+   "bytes": 10586
+  },
+  {
+   "name": "visualization-89da25996859.js",
+   "bytes": 10581
+  },
+  {
+   "name": "visualization-5cc171ec2a9e.js",
+   "bytes": 10564
+  },
+  {
+   "name": "visualization-f048a708f849.js",
+   "bytes": 10543
+  },
+  {
+   "name": "visualization-9c812d441e85.js",
+   "bytes": 10538
+  },
+  {
+   "name": "visualization-599c5c45b1a3.js",
+   "bytes": 10534
+  },
+  {
+   "name": "visualization-f62d533bec3a.js",
+   "bytes": 10529
+  },
+  {
+   "name": "visualization-16aeafe80f73.js",
+   "bytes": 10528
+  },
+  {
+   "name": "visualization-cda4bf91e2fb.js",
+   "bytes": 10518
+  },
+  {
+   "name": "visualization-bc3b4cd9099b.js",
+   "bytes": 10470
+  },
+  {
+   "name": "visualization-7acbdabf18fe.js",
+   "bytes": 10465
+  },
+  {
+   "name": "visualization-e8fb6388e02b.js",
+   "bytes": 10461
+  },
+  {
+   "name": "visualization-234f9a9dd8dd.js",
+   "bytes": 10444
+  },
+  {
+   "name": "visualization-c038339ae55f.js",
+   "bytes": 10440
+  },
+  {
+   "name": "visualization-afd001a2636f.js",
+   "bytes": 10434
+  },
+  {
+   "name": "visualization-217bc54ff5e2.js",
+   "bytes": 10426
+  },
+  {
+   "name": "visualization-284c200bbb32.js",
+   "bytes": 10401
+  },
+  {
+   "name": "visualization-64f1148b663d.js",
+   "bytes": 10390
+  },
+  {
+   "name": "visualization-d26a0206ebd9.js",
+   "bytes": 10365
+  },
+  {
+   "name": "visualization-2c9835add7aa.js",
+   "bytes": 10364
+  },
+  {
+   "name": "visualization-12d3d8262336.js",
+   "bytes": 10347
+  },
+  {
+   "name": "visualization-4236401f72a6.js",
+   "bytes": 10338
+  },
+  {
+   "name": "visualization-879687c49882.js",
+   "bytes": 10336
+  },
+  {
+   "name": "visualization-6ce71e8dbd30.js",
+   "bytes": 10330
+  },
+  {
+   "name": "visualization-d417807ecab5.js",
+   "bytes": 10304
+  },
+  {
+   "name": "visualization-6df1902b7eff.js",
+   "bytes": 10298
+  },
+  {
+   "name": "visualization-c5b39af0407c.js",
+   "bytes": 10294
+  },
+  {
+   "name": "visualization-18b0fd4b169e.js",
+   "bytes": 10289
+  },
+  {
+   "name": "visualization-f727b757d15b.js",
+   "bytes": 10280
+  },
+  {
+   "name": "visualization-4565cc355234.js",
+   "bytes": 10277
+  },
+  {
+   "name": "visualization-c143a633978d.js",
+   "bytes": 10268
+  },
+  {
+   "name": "visualization-4ea56a56a101.js",
+   "bytes": 10217
+  },
+  {
+   "name": "visualization-a1c0da713552.js",
+   "bytes": 10206
+  },
+  {
+   "name": "visualization-a86ec7dc459b.js",
+   "bytes": 10199
+  },
+  {
+   "name": "visualization-5305fa4bb6d1.js",
+   "bytes": 10186
+  },
+  {
+   "name": "visualization-da69ee1419b9.js",
+   "bytes": 10186
+  },
+  {
+   "name": "visualization-70b2d0ad3a29.js",
+   "bytes": 10184
+  },
+  {
+   "name": "visualization-ae366cce993e.js",
+   "bytes": 10158
+  },
+  {
+   "name": "visualization-15bf5983b5ae.js",
+   "bytes": 10150
+  },
+  {
+   "name": "visualization-6ccc3e3df06e.js",
+   "bytes": 10092
+  },
+  {
+   "name": "visualization-ee2b258cd0d1.js",
+   "bytes": 10071
+  },
+  {
+   "name": "visualization-f8bd4f0bc55a.js",
+   "bytes": 10059
+  },
+  {
+   "name": "visualization-dde95a61c227.js",
+   "bytes": 10057
+  },
+  {
+   "name": "visualization-a4ae10741484.js",
+   "bytes": 10050
+  },
+  {
+   "name": "visualization-a14d30868710.js",
+   "bytes": 10049
+  },
+  {
+   "name": "visualization-5f1176d6f895.js",
+   "bytes": 10048
+  },
+  {
+   "name": "visualization-33476df5c791.js",
+   "bytes": 10033
+  },
+  {
+   "name": "visualization-741c9223b874.js",
+   "bytes": 10026
+  },
+  {
+   "name": "visualization-2e4e27993349.js",
+   "bytes": 10026
+  },
+  {
+   "name": "visualization-4019470947ff.js",
+   "bytes": 10013
+  },
+  {
+   "name": "visualization-36e5fe1869b4.js",
+   "bytes": 10009
+  },
+  {
+   "name": "visualization-db6f0f494f68.js",
+   "bytes": 9975
+  },
+  {
+   "name": "visualization-24acb1c8286a.js",
+   "bytes": 9955
+  }
+ ],
+ "totals": {
+  "chunks": 2490,
+  "raw_bytes": 45495346,
+  "formatted_bytes": 66829689
+ }
+}

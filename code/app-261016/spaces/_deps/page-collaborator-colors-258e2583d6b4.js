@@ -1,0 +1,45 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { con as t, lon as n } from "./app-initial-ad16eaadf81f.js";
+function r(e, n = 0) {
+  return i[t(e, n)];
+}
+var i;
+function a() {
+  return (a = e(() => {
+    (n(),
+      (i = {
+        blue: {
+          color: `var(--color-content-blue)`,
+          caret: `border-content-blue`,
+          label: `bg-content-blue`,
+          selection: `bg-content-blue/15`,
+        },
+        purple: {
+          color: `var(--color-content-purple)`,
+          caret: `border-content-purple`,
+          label: `bg-content-purple`,
+          selection: `bg-content-purple/15`,
+        },
+        green: {
+          color: `var(--color-content-green)`,
+          caret: `border-content-green`,
+          label: `bg-content-green`,
+          selection: `bg-content-green/15`,
+        },
+        yellow: {
+          color: `var(--color-content-yellow)`,
+          caret: `border-content-yellow`,
+          label: `bg-content-yellow`,
+          selection: `bg-content-yellow/15`,
+        },
+        red: {
+          color: `var(--color-content-red)`,
+          caret: `border-content-red`,
+          label: `bg-content-red`,
+          selection: `bg-content-red/15`,
+        },
+      }));
+  }))();
+}
+export { a as n, r as t };
+//# sourceMappingURL=page-collaborator-colors-258e2583d6b4.js.map

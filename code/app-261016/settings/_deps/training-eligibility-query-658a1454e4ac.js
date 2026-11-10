@@ -1,0 +1,24 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { cwt as t, iwt as n } from "./app-shared-2feb3d4c6fcc.js";
+import { iRr as r, tyr as i } from "./app-initial-ad16eaadf81f.js";
+function a({ account: e, userId: n, settingsAccountId: i, enabled: a = !0 }) {
+  return {
+    queryKey: [`chatgpt-training-eligibility`, n, e?.id],
+    queryFn:
+      e == null
+        ? t
+        : () =>
+            r.safeGet(`/accounts/data_usage_for_training`, {
+              additionalHeaders: { "ChatGPT-Account-ID": e.id },
+            }),
+    enabled: a && e?.structure === `workspace` && i === e.id,
+    staleTime: 0,
+  };
+}
+function o() {
+  return (o = e(() => {
+    (n(), i());
+  }))();
+}
+export { o as n, a as t };
+//# sourceMappingURL=training-eligibility-query-658a1454e4ac.js.map

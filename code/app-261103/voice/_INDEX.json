@@ -1,0 +1,71 @@
+{
+ "module": "voice",
+ "generated_at": "2026-11-09T07:57:26.375Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1103.4239.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1103.32239",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/679632.b502a10a11.js",
+   "file": "679632.b502a10a11.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 46028,
+   "formatted_bytes": 89542,
+   "formatter": "prettier",
+   "sha256_raw": "b8c0e5c7fd2b048ee29de89b9c9f96060158e3fe0e2d71b28f27ac4e05dcf6a1",
+   "message_count": 40,
+   "namespace_score": 25,
+   "namespaces": [
+    "realtimeVoice.onboarding:15",
+    "settings.general:14",
+    "realtimeVoice.nux:10",
+    "composer.realtime:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/126704.becefcdeca.js",
+   "file": "126704.becefcdeca.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 18569,
+   "formatted_bytes": 38539,
+   "formatter": "prettier",
+   "sha256_raw": "f5ef226563fb6cad4944c44538cff6b9c76db65ac73806d789e5851763fb4807",
+   "message_count": 25,
+   "namespace_score": 13,
+   "namespaces": [
+    "speechSettings.content:13",
+    "settings.voice:12"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/904323.c376207ffd.js",
+   "file": "904323.c376207ffd.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 28561,
+   "formatted_bytes": 60689,
+   "formatter": "prettier",
+   "sha256_raw": "7b5f574056dc3843846119647338c02113efdfce3b83a7271b07e4656f858bcf",
+   "message_count": 25,
+   "namespace_score": 13,
+   "namespaces": [
+    "speechSettings.content:13",
+    "settings.voice:12"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/723410.56b974f189.js",
+   "file": "723410.56b974f189.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 63734,
+   "formatted_bytes": 113464,
+   "formatter": "prettier",
+   "sha256_raw": "a02ed51016440ffdb1423e6c81bc3d4da248c6487e2e21b96fb5f6ec65939ab9",
+   "message_count": 12,
+   "namespace_score": 9,
+   "namespaces": [
+    "realtimeVoice.launch:9",
+    "codex.composer:2",
+    "composer.pluginSelectionRequiresSupportedRuntime:1"
+   ]
+  }
+ ]
+}

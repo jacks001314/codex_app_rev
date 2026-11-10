@@ -1,0 +1,2634 @@
+{
+ "module": "chronicle",
+ "generated_at": "2026-10-23T01:17:23.039Z",
+ "files_scanned": 6,
+ "message_count": 149,
+ "messages": [
+  {
+   "id": "codex.dialog.closeButton",
+   "text": "Close dialog",
+   "description": "Accessible label for the button that closes a dialog",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "electron.onboarding.computerHistory.enableMemoriesTitle",
+   "text": "Turn on Memories to use Computer History",
+   "description": "Title asking for separate Memories consent before enabling Computer History during onboarding",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.activationInProgress",
+   "text": "Resume",
+   "description": "Computer history action shown while activation is already in progress",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.consent.allowAllApps",
+   "text": "Allow all apps",
+   "description": "Accept the Computer history privacy confirmation and turn on recording without customizing application permissions",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.consent.cancel",
+   "text": "Cancel",
+   "description": "Cancel turning on Computer history from the privacy confirmation dialog",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.consent.controls",
+   "text": "You can pause or clear your history and manage which apps are included at any time.",
+   "description": "Computer history privacy confirmation explaining that users can pause or clear their history and manage which applications are included",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.consent.customizeApps",
+   "text": "Customize apps",
+   "description": "Accept the Computer history privacy confirmation and customize which applications can be recorded",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.consent.otherPeople",
+   "text": "You also agree that you'll pause Computer History during communications with others, such as in video conference or text messaging apps, unless you have their prior express consent.",
+   "description": "Computer history privacy confirmation requiring users to pause recording during communications with other people unless they have prior express consent",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.consent.sensitiveApps",
+   "text": "Consider pausing or excluding sensitive apps, such as health or finance, from your history.",
+   "description": "Computer history privacy confirmation advising users to pause recording or exclude sensitive health and finance applications",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.consent.title",
+   "text": "You're in control.",
+   "description": "Title of the Computer history privacy confirmation dialog",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.disableErrorToast",
+   "text": "Computer history could not be turned off",
+   "description": "Toast shown when Computer history disablement fails",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enable",
+   "text": "Computer history",
+   "description": "Label for the Computer history enable toggle",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableDescriptionWithLearnMore",
+   "text": "Augment memories with your computer activity so ChatGPT can help with anything you’re working on. <learnMore>Learn more</learnMore>",
+   "description": "Computer history enablement description followed by a learn-more link",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableErrorToast",
+   "text": "Computer history could not be turned on. Restart ChatGPT, and try again",
+   "description": "Toast shown when Computer history enablement fails, suggesting the user restart ChatGPT",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableMemoriesAccessibleTitle",
+   "text": "Turn on Memories",
+   "description": "Accessible title for the dialog that enables Memories before Computer history",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableMemoriesCancel",
+   "text": "Cancel",
+   "description": "Cancel enabling Memories and Computer history",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableMemoriesConfirm",
+   "text": "Turn on Memories",
+   "description": "Confirm enabling Memories before Computer history",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableMemoriesDescriptionWithLearnMore",
+   "text": "Computer history requires Memories so ChatGPT can remember your activity across tasks. Turning this on also lets ChatGPT generate memories from your chats and use them in future chats. <learnMore>Learn more</learnMore>",
+   "description": "Explanation of the broader effect of enabling Memories for Computer history, followed by a learn-more link",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableMemoriesErrorToast",
+   "text": "Memories could not be turned on",
+   "description": "Toast shown when enabling Memories for Computer history fails",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.enableMemoriesTitle",
+   "text": "Turn on Memories to use Computer history?",
+   "description": "Title for the dialog that enables Memories before Computer history",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.finishSetup",
+   "text": "Finish setup",
+   "description": "Retry Computer history startup while waiting for permissions",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.afternoon",
+   "text": "Afternoon",
+   "description": "Afternoon label for a six-hour Computer history summary",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.aiOpportunitiesPrompt",
+   "text": "Where am I being ineffective, and what should I be using AI for instead?",
+   "description": "Suggested conversation prompt asking how the user could improve their productivity by using artificial intelligence",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.applicationErrorToast",
+   "text": "The app's Computer history permission could not be updated",
+   "description": "Toast shown when updating a Computer history application policy fails",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.askAboutHistory",
+   "text": "Ask about your history",
+   "description": "Button for starting a conversation about Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clear",
+   "text": "Clear history",
+   "description": "Clear Computer history menu button",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearAll",
+   "text": "Clear all",
+   "description": "Clear all Computer history range option",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearAllTitle",
+   "text": "Clear all history?",
+   "description": "Clear all Computer history confirmation title",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearCancel",
+   "text": "Cancel",
+   "description": "Cancel clearing Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearConfirm",
+   "text": "Clear",
+   "description": "Confirm clearing Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearDay",
+   "text": "Clear last day",
+   "description": "Clear Computer history range option",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearDayTitle",
+   "text": "Clear the last day?",
+   "description": "Clear recent Computer history confirmation title",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearDialogAccessibleTitle",
+   "text": "Clear computer history",
+   "description": "Accessible title for clear Computer history dialog",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearDialogDescription",
+   "text": "Your actions and any memories created from them will be deleted. This cannot be undone.",
+   "description": "Clear Computer history confirmation description",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearErrorToast",
+   "text": "Computer history could not be cleared",
+   "description": "Toast shown when clearing Computer history fails",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearHour",
+   "text": "Clear last hour",
+   "description": "Clear Computer history range option",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearHourTitle",
+   "text": "Clear the last hour?",
+   "description": "Clear recent Computer history confirmation title",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearSuccessToast",
+   "text": "History cleared — ChatGPT memory may take up to 6 hours to update",
+   "description": "Toast shown after clearing Computer history, explaining that previously consolidated ChatGPT memories can take up to six hours to update",
+   "files": [
+    "chronicle/chronicle-service-queries-10a9f98f13fc.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearTenMinutes",
+   "text": "Clear last 10 minutes",
+   "description": "Clear Computer history range option",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.clearTenMinutesTitle",
+   "text": "Clear the last 10 minutes?",
+   "description": "Clear recent Computer history confirmation title",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.commonPhrasePrompt",
+   "text": "What is my most commonly used phrase?",
+   "description": "Suggested conversation prompt asking which phrase the user repeats most frequently in their computer activity",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.confirmDelete",
+   "text": "Delete",
+   "description": "Inline confirmation for deleting a Computer history item",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.confirmDeleteItem",
+   "text": "Confirm delete {title}",
+   "description": "Accessible label for confirming deletion of a Computer history item",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.createNamedSuggestedAutomationPrompt",
+   "text": "Create a new \"{name}\" automation based on the description below. Consult the memory at {memoryFilePath} and the events.jsonl files cited there to understand the recorded workflow and my actions.{paragraphBreak}\"{request}\"{paragraphBreak}Use my local timezone and a new chat for scheduled runs.",
+   "description": "Prefilled conversation request for creating a named automation from a Computer history suggestion",
+   "files": [
+    "_deps/computer-history-suggestion-prompt-b38af7618729.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.createNamedSuggestedSkillPrompt",
+   "text": "Create a new \"{name}\" skill based on the description below. Consult the memory at {memoryFilePath} and the events.jsonl files cited there to understand the recorded workflow and my actions.{paragraphBreak}\"{request}\"",
+   "description": "Prefilled conversation request for creating a named reusable skill from a Computer history suggestion",
+   "files": [
+    "_deps/computer-history-suggestion-prompt-b38af7618729.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.createSuggestedAutomation",
+   "text": "Create {name} automation",
+   "description": "Action to create the named automation suggested from Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.createSuggestedSkill",
+   "text": "Create {name} skill",
+   "description": "Action to create the named reusable skill suggested from Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.dailyFeedbackPrompt",
+   "text": "Give me feedback on how I operate day to day",
+   "description": "Suggested conversation prompt requesting feedback on the user's everyday work habits",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.deleteConfirm",
+   "text": "Delete",
+   "description": "Confirm deleting a Computer history item",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.deleteItem",
+   "text": "Delete {title}",
+   "description": "Accessible label for deleting a Computer history item",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.deleteItemTitle",
+   "text": "Delete this history item?",
+   "description": "Delete Computer history item confirmation title",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.deleteItemTooltip",
+   "text": "Delete",
+   "description": "Tooltip for deleting a Computer history item",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.description",
+   "text": "ChatGPT records text summaries of your computer activity. You can control what ChatGPT can reference by deleting individual records or clearing recent history.",
+   "description": "Explanation of the Computer history timeline and its deletion controls",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.descriptionAriaLabel",
+   "text": "About computer history",
+   "description": "Accessible label for the Computer history information button",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.distractionsPrompt",
+   "text": "How often do I get distracted, and what usually pulls me off task?",
+   "description": "Suggested conversation prompt asking how frequently the user gets distracted and what causes those distractions",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.empty",
+   "text": "No computer history yet",
+   "description": "Computer history empty state",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.error",
+   "text": "Computer history could not be loaded",
+   "description": "Computer history error state",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.evening",
+   "text": "Evening",
+   "description": "Evening label for a six-hour Computer history summary",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.excludeApplication",
+   "text": "Exclude {app} from future history",
+   "description": "Timeline app action that excludes the app from future Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.findDocumentPrompt",
+   "text": "Where can I find the proposal document I was looking for earlier today?",
+   "description": "Suggested conversation prompt asking to locate a recently edited document",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.focusPatternsPrompt",
+   "text": "How do I split my time between focused work, switching tabs, and returning to unfinished tasks?",
+   "description": "Suggested conversation prompt asking about focused work and task-switching patterns",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.followUpsPrompt",
+   "text": "Who contacted me today that I need to follow up with?",
+   "description": "Suggested conversation prompt asking who contacted the user today and needs a follow-up",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.includeApplication",
+   "text": "Include {app} in future history",
+   "description": "Timeline app action that includes the app in future Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.keyboardShortcutsPrompt",
+   "text": "What keyboard shortcuts do I use most? And which should I be using more?",
+   "description": "Suggested conversation prompt asking about frequently used keyboard shortcuts and shortcuts the user should use more often",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.loading",
+   "text": "Loading history…",
+   "description": "Computer history loading state",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.morning",
+   "text": "Morning",
+   "description": "Morning label for a six-hour Computer history summary",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.openApplicationMenu",
+   "text": "Open {app} menu",
+   "description": "Accessible label for opening a timeline application menu",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.overnight",
+   "text": "Overnight",
+   "description": "Overnight label for a six-hour Computer history summary",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.pluginDisplayName",
+   "text": "Computer History",
+   "description": "Display name of the Computer History plugin in a prefilled conversation mention",
+   "files": [
+    "_deps/computer-history-suggestion-prompt-b38af7618729.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.resumeWorkPrompt",
+   "text": "What was I working on before my last break?",
+   "description": "Suggested conversation prompt asking to resume previous work",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.retry",
+   "text": "Try again",
+   "description": "Retry loading Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.revealMemoryFile",
+   "text": "Reveal in Finder",
+   "description": "Tooltip for revealing a Computer history memory file in Finder",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.revealMemoryFileAriaLabel",
+   "text": "Reveal {title} in Finder",
+   "description": "Accessible label for revealing a Computer history memory file in Finder",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.roastBehaviorPrompt",
+   "text": "Roast my computer behavior",
+   "description": "Suggested conversation prompt requesting a humorous critique of the user's computer activity",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.standupPrompt",
+   "text": "Prepare a summary of what I did yesterday for standup",
+   "description": "Suggested conversation prompt requesting a standup summary from yesterday's Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.suggestedAutomation",
+   "text": "Suggested automation",
+   "description": "Heading for an automation suggested from Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.suggestedSkill",
+   "text": "Suggested skill",
+   "description": "Heading for a reusable skill suggested from Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.timeRange",
+   "text": "{start} – {end}",
+   "description": "Local time range for a Computer history item",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.title",
+   "text": "History",
+   "description": "Computer history timeline title",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.today",
+   "text": "Today",
+   "description": "Computer history group label for today",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.todayTasksPrompt",
+   "text": "Give me a list of tasks I’ve worked on today and their status",
+   "description": "Suggested conversation prompt asking about today's tasks and their status",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.writingStylePrompt",
+   "text": "Analyse the writing samples you have from me and describe my writing style with examples and guidelines",
+   "description": "Suggested conversation prompt asking to analyze the user's writing style from Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.writingStyleSkillPrompt",
+   "text": "Create a reusable skill that writes like me",
+   "description": "Suggested conversation prompt asking to create a reusable skill that matches the user's writing style",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.history.yesterday",
+   "text": "Yesterday",
+   "description": "Computer history group label for yesterday",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.benefits",
+   "text": "Ask about what you were working on, get help without explaining everything again, or discover opportunities to automate repeated tasks.",
+   "description": "Computer history off-state explanation of its benefits",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.configurationLoadingTooltip",
+   "text": "Loading your settings…",
+   "description": "Tooltip explaining that Computer history cannot be enabled while user settings are loading",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.configurationUnavailableTooltip",
+   "text": "Your settings couldn’t be loaded. Restart ChatGPT and try again.",
+   "description": "Tooltip explaining that Computer history cannot be enabled because user settings could not be loaded",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.description",
+   "text": "ChatGPT can summarize your activity across the apps and websites you use without ever recording your screen or audio.",
+   "description": "Computer history off-state explanation of activity summarization and recording privacy",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.beforeLunch.assistant",
+   "text": "You were revising the launch presentation in Google Slides, checking campaign numbers in Google Sheets, and reviewing feedback from Maya in Slack. You left off updating the rollout timeline.",
+   "description": "Example Computer history answer about resuming earlier work",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.beforeLunch.user",
+   "text": "What was I working on before lunch?",
+   "description": "Example Computer history question about resuming earlier work",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.followUp.assistant",
+   "text": "You told Sarah in Slack you’d send the Q3 budget by Friday. The latest version is in Google Sheets, and your meeting notes in Google Docs list two numbers to confirm: hiring and travel.",
+   "description": "Example Computer history answer about a follow-up",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.followUp.user",
+   "text": "What did I promise to send Sarah after yesterday’s meeting?",
+   "description": "Example Computer history question about a follow-up",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.next",
+   "text": "Next example",
+   "description": "Next Computer history example button",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.planningDocument.assistant",
+   "text": "You were reviewing the Q4 launch plan in Google Docs this morning. Here’s the document:",
+   "description": "Example Computer history answer about finding a planning document",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.planningDocument.link",
+   "text": "Q4 Launch Planning",
+   "description": "Example planning document title shown in a Computer history answer",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.planningDocument.user",
+   "text": "What was that planning document I was looking at today?",
+   "description": "Example Computer history question about finding a planning document",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.position",
+   "text": "Example {current} of {total}",
+   "description": "Computer history example carousel position",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.previous",
+   "text": "Previous example",
+   "description": "Previous Computer history example button",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.remodel.assistant",
+   "text": "You narrowed the backsplash to two options in Chrome, compared quotes in Google Sheets, and saved the contractor’s revised estimate in Google Drive. The next decision is white subway tile or blue zellige.",
+   "description": "Example Computer history answer about a home project",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.example.remodel.user",
+   "text": "Where was I on the home remodel?",
+   "description": "Example Computer history question about a home project",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.memoryFeatureLoadingTooltip",
+   "text": "Checking Memories feature availability…",
+   "description": "Tooltip explaining that Computer history cannot be enabled while Memories feature availability is being checked",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.memoryFeatureUnavailableTooltip",
+   "text": "Computer history requires Memories, which isn’t available right now",
+   "description": "Tooltip explaining that Computer history cannot be enabled because the Memories feature is unavailable",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.privacyDisclaimerWithLearnMore",
+   "text": "When turned on, ChatGPT saves text summaries of your activity across allowed apps and websites, potentially including communications. Audio and private-mode web browsing are never included, and you can pause or clear your history and manage what’s included at any time. This feature increases token usage. <learnMore>Learn more</learnMore>",
+   "description": "Privacy and token usage explanation below the Computer history onboarding card, followed by a learn-more link",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.serviceUnavailableTooltip",
+   "text": "Computer history isn’t available. Restart ChatGPT and try again.",
+   "description": "Tooltip explaining that Computer history cannot be enabled because the Chronicle service is unavailable",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.off.title",
+   "text": "Let ChatGPT follow your work",
+   "description": "Computer history off-state title",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.pause",
+   "text": "Pause",
+   "description": "Pause Computer history button",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.pauseResumeErrorToast",
+   "text": "Computer history could not be paused or resumed",
+   "description": "Toast shown when pausing or resuming Computer history fails",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.addApp",
+   "text": "Add app",
+   "description": "Add application to Computer history permissions",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.addWebsite",
+   "text": "Add website",
+   "description": "Add website to Computer history permissions",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.allAppsAdded",
+   "text": "All detected apps are added",
+   "description": "Shown when no more detected apps can be added",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.allButWebsites",
+   "text": "All but {count, plural, one {# website} other {# websites}}",
+   "description": "Browser permission subtitle when some websites are excluded",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.allWebsites",
+   "text": "All websites",
+   "description": "Browser permission subtitle when every website is included",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.appsError",
+   "text": "Detected apps could not be loaded",
+   "description": "Shown when detected Computer history applications cannot be loaded",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.cancel",
+   "text": "Cancel",
+   "description": "Cancel Computer history permission changes",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.choose",
+   "text": "Choose",
+   "description": "Choose Computer history permissions button",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.continue",
+   "text": "Continue",
+   "description": "Save initial Computer history permissions and continue turning on Computer history",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.description",
+   "text": "Choose which apps and websites to exclude or include in computer history",
+   "description": "Computer history permissions description",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.dialogTitle",
+   "text": "Computer history permissions",
+   "description": "Computer history permissions dialog title",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.domainLabel",
+   "text": "Website domain",
+   "description": "Website domain input accessible label",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.domainPlaceholder",
+   "text": "example.com",
+   "description": "Website domain input placeholder",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.done",
+   "text": "Done",
+   "description": "Save Computer history permission changes",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.errorWithOptionalCodeAndRestartGuidance",
+   "text": "<line>Computer history permissions could not be loaded{hasCode, select, yes { (error {code})} other {}}.</line><line>If the issue persists, please restart ChatGPT.</line>",
+   "description": "Computer history permissions error state with an optional technical error code, advising the user to restart ChatGPT if the issue persists",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.excludeApps",
+   "text": "Exclude these apps",
+   "description": "Application exclusion policy label",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.excludeWebsites",
+   "text": "Exclude these websites",
+   "description": "Website exclusion policy label",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.includeApps",
+   "text": "Include only these apps",
+   "description": "Application allowlist policy label",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.includeWebsites",
+   "text": "Include only these websites",
+   "description": "Website allowlist policy label",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.loading",
+   "text": "Loading permissions…",
+   "description": "Computer history permissions loading state",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.loadingApps",
+   "text": "Loading apps…",
+   "description": "Shown while detected Computer history applications are loading",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.noAppsFound",
+   "text": "No apps found",
+   "description": "Shown when no detected apps match the search",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.noWebsites",
+   "text": "No websites",
+   "description": "Browser permission subtitle when no websites are included",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.onlyWebsites",
+   "text": "Only {count, plural, one {# website} other {# websites}}",
+   "description": "Browser permission subtitle when only some websites are included",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.privateBrowsingWithLearnMore",
+   "text": "Private-mode web browsing activity is never included in computer history. <learnMore>Learn more about privacy</learnMore>",
+   "description": "Computer history private browsing behavior followed by a privacy learn-more link",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.remove",
+   "text": "Remove",
+   "description": "Remove a Computer history permission item",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.retry",
+   "text": "Try again",
+   "description": "Retry loading Computer history permissions",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.saveErrorToast",
+   "text": "Computer history permissions could not be saved",
+   "description": "Toast shown when saving Computer history permissions fails",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.saveWebsite",
+   "text": "Save",
+   "description": "Save a website in Computer history permissions",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.searchApps",
+   "text": "Search apps",
+   "description": "Placeholder for searching Computer history applications",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.searchAppsLabel",
+   "text": "Search apps",
+   "description": "Accessible label for searching Computer history applications",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.selectedCount",
+   "text": "{count} selected",
+   "description": "Number of selected Computer history permission entries",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissions.title",
+   "text": "Permissions",
+   "description": "Computer history permissions title",
+   "files": [
+    "chronicle/chronicle-permissions-dialog-677b8f830739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.permissionsDeniedToast",
+   "text": "Computer history wasn’t turned on because required permissions weren’t granted",
+   "description": "Toast shown when Computer history setup is closed before required permissions are granted",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.resume",
+   "text": "Resume",
+   "description": "Resume Computer history button",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.retryActivationErrorToast",
+   "text": "Computer history could not be resumed",
+   "description": "Toast shown when retrying Computer history activation fails",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.showIndicatorInMenuBar",
+   "text": "Show indicator in menu bar",
+   "description": "Label for showing the Computer history recording dot beside the app's macOS menu bar icon",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.showIndicatorInMenuBarError",
+   "text": "Computer history indicator visibility could not be updated",
+   "description": "Toast shown when saving the Computer history menu bar indicator visibility preference fails",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.tryAgain",
+   "text": "Try again",
+   "description": "Retry Computer history startup after a failure",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.turnOffAriaLabel",
+   "text": "Turn off Computer history",
+   "description": "Accessible label for the Computer history toggle",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.turnOn",
+   "text": "Turn on",
+   "description": "Button to enable Computer history",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.chronicle.unavailableWithLearnMore",
+   "text": "Computer history is temporarily unavailable. <learnMore>Learn more</learnMore>",
+   "description": "Status shown when Codex cannot connect to Computer history, followed by a learn-more link",
+   "files": [
+    "chronicle/chronicle-settings-page-68052b64895a.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-shared-2feb3d4c6fcc.js",
+   "count": 94,
+   "names": [
+    "$C",
+    "$St",
+    "$st",
+    "Bmt",
+    "CNt",
+    "CY",
+    "D2",
+    "DB",
+    "EO",
+    "F1",
+    "FBt",
+    "HFt",
+    "HO",
+    "I1",
+    "IO",
+    "JO",
+    "JOt",
+    "Kxt",
+    "LNt",
+    "LO",
+    "LRt",
+    "Lst",
+    "Lxt",
+    "MNt",
+    "NNt",
+    "O2",
+    "OB",
+    "PBt",
+    "Qst",
+    "RFt",
+    "RO",
+    "Rst",
+    "TO",
+    "TY",
+    "Uz",
+    "VRt",
+    "Vrt",
+    "WO",
+    "Wz",
+    "XO",
+    "XOt",
+    "Y3",
+    "YO",
+    "YOt",
+    "Z3",
+    "ZSt",
+    "ast",
+    "b2",
+    "ck",
+    "dCt",
+    "ew",
+    "gCt",
+    "git",
+    "hit",
+    "iCt",
+    "ist",
+    "l2",
+    "lB",
+    "lit",
+    "lk",
+    "mCt",
+    "nA",
+    "nB",
+    "nCt",
+    "nO",
+    "oit",
+    "okt",
+    "qO",
+    "qrt",
+    "rA",
+    "rB",
+    "rO",
+    "rk",
+    "sct",
+    "sw",
+    "tk",
+    "tkt",
+    "tut",
+    "u2",
+    "uB",
+    "uRt",
+    "uk",
+    "uw",
+    "vT",
+    "vst",
+    "wB",
+    "xB",
+    "xyt",
+    "y2",
+    "yCt",
+    "yT",
+    "yst",
+    "zFt",
+    "zO"
+   ]
+  },
+  {
+   "from": "app-initial-ad16eaadf81f.js",
+   "count": 49,
+   "names": [
+    "CBr",
+    "CIr",
+    "CMr",
+    "Cqt",
+    "DBr",
+    "Dqt",
+    "EBr",
+    "FBr",
+    "FF",
+    "IBr",
+    "Jbr",
+    "LF",
+    "Ml",
+    "N0",
+    "OBr",
+    "Os",
+    "P0",
+    "QF",
+    "RF",
+    "SBr",
+    "SIr",
+    "SRn",
+    "SSt",
+    "Tjr",
+    "U9n",
+    "UFt",
+    "WFt",
+    "b5t",
+    "bBr",
+    "bRn",
+    "cA",
+    "dIt",
+    "eI",
+    "eer",
+    "iat",
+    "ixr",
+    "jl",
+    "ks",
+    "lIt",
+    "oat",
+    "sA",
+    "v5t",
+    "vBr",
+    "wBr",
+    "wSt",
+    "xBr",
+    "xjr",
+    "yBr",
+    "yMr"
+   ]
+  },
+  {
+   "from": "chronicle-permissions-dialog-677b8f830739.js",
+   "count": 22,
+   "names": [
+    "S",
+    "_",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "x",
+    "y"
+   ]
+  },
+  {
+   "from": "chronicle-service-queries-10a9f98f13fc.js",
+   "count": 13,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "i",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "memory-settings-analytics-ff8e2bac5691.js",
+   "count": 5,
+   "names": [
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "computer-history-query-865e2a9eeb6e.js",
+   "count": 3,
+   "names": [
+    "a",
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "computer-history-suggestion-prompt-b38af7618729.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "o"
+   ]
+  },
+  {
+   "from": "chronicle-settings-d16251f05467.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "computer-use-native-app-metadata-9f2a13208dca.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "country-codes-1c845666fc28.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "app-primary-3e00728c2a4c.js",
+   "count": 2,
+   "names": [
+    "Em",
+    "Tm"
+   ]
+  },
+  {
+   "from": "color-icon-5a5a69e17a26.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 175
+  },
+  {
+   "name": "id",
+   "count": 152
+  },
+  {
+   "name": "description",
+   "count": 152
+  },
+  {
+   "name": "defaultMessage",
+   "count": 150
+  },
+  {
+   "name": "className",
+   "count": 115
+  },
+  {
+   "name": "color",
+   "count": 28
+  },
+  {
+   "name": "disabled",
+   "count": 24
+  },
+  {
+   "name": "onClick",
+   "count": 23
+  },
+  {
+   "name": "size",
+   "count": 20
+  },
+  {
+   "name": "enabled",
+   "count": 17
+  },
+  {
+   "name": "scope",
+   "count": 16
+  },
+  {
+   "name": "onOpenChange",
+   "count": 14
+  },
+  {
+   "name": "type",
+   "count": 14
+  },
+  {
+   "name": "open",
+   "count": 13
+  },
+  {
+   "name": "values",
+   "count": 13
+  },
+  {
+   "name": "data",
+   "count": 13
+  },
+  {
+   "name": "kind",
+   "count": 11
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 10
+  },
+  {
+   "name": "toastId",
+   "count": 10
+  },
+  {
+   "name": "queryKey",
+   "count": 10
+  },
+  {
+   "name": "onSuccess",
+   "count": 9
+  },
+  {
+   "name": "label",
+   "count": 9
+  },
+  {
+   "name": "isLoading",
+   "count": 8
+  },
+  {
+   "name": "title",
+   "count": 8
+  },
+  {
+   "name": "radius",
+   "count": 8
+  },
+  {
+   "name": "null",
+   "count": 8
+  },
+  {
+   "name": "onError",
+   "count": 8
+  },
+  {
+   "name": "application",
+   "count": 8
+  },
+  {
+   "name": "settings",
+   "count": 8
+  },
+  {
+   "name": "behavior",
+   "count": 7
+  },
+  {
+   "name": "onSelect",
+   "count": 7
+  },
+  {
+   "name": "mutationFn",
+   "count": 7
+  },
+  {
+   "name": "queryFn",
+   "count": 7
+  },
+  {
+   "name": "retry",
+   "count": 7
+  },
+  {
+   "name": "staleTime",
+   "count": 7
+  },
+  {
+   "name": "name",
+   "count": 7
+  },
+  {
+   "name": "subtitle",
+   "count": 6
+  },
+  {
+   "name": "isError",
+   "count": 6
+  },
+  {
+   "name": "mutationKey",
+   "count": 6
+  },
+  {
+   "name": "highlightedApplication",
+   "count": 6
+  },
+  {
+   "name": "isUpdatingApplication",
+   "count": 6
+  },
+  {
+   "name": "onHighlightApplication",
+   "count": 6
+  },
+  {
+   "name": "onApplicationObservedChange",
+   "count": 6
+  },
+  {
+   "name": "memoryFilePath",
+   "count": 6
+  },
+  {
+   "name": "learnMore",
+   "count": 5
+  },
+  {
+   "name": "loading",
+   "count": 5
+  },
+  {
+   "name": "hostId",
+   "count": 5
+  },
+  {
+   "name": "value",
+   "count": 5
+  },
+  {
+   "name": "onRemove",
+   "count": 5
+  },
+  {
+   "name": "asset",
+   "count": 5
+  },
+  {
+   "name": "tooltipContent",
+   "count": 5
+  },
+  {
+   "name": "key",
+   "count": 5
+  },
+  {
+   "name": "openTarget",
+   "count": 4
+  },
+  {
+   "name": "onTurnOn",
+   "count": 4
+  },
+  {
+   "name": "asChild",
+   "count": 4
+  },
+  {
+   "name": "as",
+   "count": 4
+  },
+  {
+   "name": "onSubmit",
+   "count": 4
+  },
+  {
+   "name": "showDialogClose",
+   "count": 4
+  },
+  {
+   "name": "setMemoryFeatureEnabled",
+   "count": 4
+  },
+  {
+   "name": "writeMemoryConfig",
+   "count": 4
+  },
+  {
+   "name": "triggerButton",
+   "count": 4
+  },
+  {
+   "name": "onChange",
+   "count": 4
+  },
+  {
+   "name": "src",
+   "count": 4
+  },
+  {
+   "name": "alt",
+   "count": 4
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 4
+  },
+  {
+   "name": "user",
+   "count": 4
+  },
+  {
+   "name": "assistant",
+   "count": 4
+  },
+  {
+   "name": "isServiceUnavailable",
+   "count": 4
+  },
+  {
+   "name": "onClearRequest",
+   "count": 4
+  },
+  {
+   "name": "isDeletingItem",
+   "count": 4
+  },
+  {
+   "name": "onConfirmingDeleteChange",
+   "count": 4
+  },
+  {
+   "name": "onDelete",
+   "count": 4
+  },
+  {
+   "name": "item",
+   "count": 4
+  },
+  {
+   "name": "suggestion",
+   "count": 4
+  },
+  {
+   "name": "request",
+   "count": 4
+  },
+  {
+   "name": "variant",
+   "count": 3
+  },
+  {
+   "name": "keyPath",
+   "count": 3
+  },
+  {
+   "name": "get",
+   "count": 3
+  },
+  {
+   "name": "code",
+   "count": 3
+  },
+  {
+   "name": "urlDomains",
+   "count": 3
+  },
+  {
+   "name": "onBehaviorChange",
+   "count": 3
+  },
+  {
+   "name": "defaultApplicationBehavior",
+   "count": 3
+  },
+  {
+   "name": "contentWidth",
+   "count": 3
+  },
+  {
+   "name": "applicationBundleIdentifiers",
+   "count": 3
+  },
+  {
+   "name": "defaultURLBehavior",
+   "count": 3
+  },
+  {
+   "name": "icon",
+   "count": 3
+  },
+  {
+   "name": "uniform",
+   "count": 3
+  },
+  {
+   "name": "hover",
+   "count": 3
+  },
+  {
+   "name": "count",
+   "count": 3
+  },
+  {
+   "name": "bundleID",
+   "count": 3
+  },
+  {
+   "name": "urlDomain",
+   "count": 3
+  },
+  {
+   "name": "refetchOnMount",
+   "count": 3
+  },
+  {
+   "name": "interval",
+   "count": 3
+  },
+  {
+   "name": "app",
+   "count": 3
+  },
+  {
+   "name": "control",
+   "count": 3
+  },
+  {
+   "name": "href",
+   "count": 2
+  },
+  {
+   "name": "isPending",
+   "count": 2
+  },
+  {
+   "name": "memoryFeatureEnabled",
+   "count": 2
+  },
+  {
+   "name": "generateMemoriesEnabled",
+   "count": 2
+  },
+  {
+   "name": "useMemoriesEnabled",
+   "count": 2
+  },
+  {
+   "name": "isMemoryFeatureEnabled",
+   "count": 2
+  },
+  {
+   "name": "enableMemories",
+   "count": 2
+  },
+  {
+   "name": "getChronicleState",
+   "count": 2
+  },
+  {
+   "name": "source",
+   "count": 2
+  },
+  {
+   "name": "onSaved",
+   "count": 2
+  },
+  {
+   "name": "error",
+   "count": 2
+  },
+  {
+   "name": "refetch",
+   "count": 2
+  },
+  {
+   "name": "applications",
+   "count": 2
+  },
+  {
+   "name": "selectedBundleIdentifiers",
+   "count": 2
+  },
+  {
+   "name": "autoFocus",
+   "count": 2
+  },
+  {
+   "name": "placeholder",
+   "count": 2
+  },
+  {
+   "name": "de",
+   "count": 2
+  },
+  {
+   "name": "rightIconAsset",
+   "count": 2
+  },
+  {
+   "name": "edits",
+   "count": 2
+  },
+  {
+   "name": "e",
+   "count": 2
+  },
+  {
+   "name": "response",
+   "count": 2
+  },
+  {
+   "name": "config",
+   "count": 2
+  },
+  {
+   "name": "observation",
+   "count": 2
+  },
+  {
+   "name": "allowlist",
+   "count": 2
+  },
+  {
+   "name": "blocklist",
+   "count": 2
+  },
+  {
+   "name": "observed",
+   "count": 2
+  },
+  {
+   "name": "onAllowAllApps",
+   "count": 2
+  },
+  {
+   "name": "onCustomizeApps",
+   "count": 2
+  },
+  {
+   "name": "disabledReason",
+   "count": 2
+  },
+  {
+   "name": "tabIndex",
+   "count": 2
+  },
+  {
+   "name": "style",
+   "count": 2
+  },
+  {
+   "name": "animationDelay",
+   "count": 2
+  },
+  {
+   "name": "onRequest",
+   "count": 2
+  },
+  {
+   "name": "group",
+   "count": 2
+  },
+  {
+   "name": "confirmingDeleteId",
+   "count": 2
+  },
+  {
+   "name": "isConfirmingDelete",
+   "count": 2
+  },
+  {
+   "name": "hasGapAfter",
+   "count": 2
+  },
+  {
+   "name": "hasGapBefore",
+   "count": 2
+  },
+  {
+   "name": "prefillPrompt",
+   "count": 2
+  },
+  {
+   "name": "defaultPrompt",
+   "count": 2
+  },
+  {
+   "name": "pluginDisplayName",
+   "count": 2
+  },
+  {
+   "name": "pluginId",
+   "count": 2
+  },
+  {
+   "name": "intl",
+   "count": 2
+  },
+  {
+   "name": "align",
+   "count": 2
+  },
+  {
+   "name": "hour",
+   "count": 2
+  },
+  {
+   "name": "minute",
+   "count": 2
+  },
+  {
+   "name": "checked",
+   "count": 2
+  },
+  {
+   "name": "activationInProgress",
+   "count": 2
+  },
+  {
+   "name": "currentState",
+   "count": 2
+  },
+  {
+   "name": "onOpenPermissions",
+   "count": 2
+  },
+  {
+   "name": "onRetryActivation",
+   "count": 2
+  },
+  {
+   "name": "onToggle",
+   "count": 2
+  },
+  {
+   "name": "toggleDisabled",
+   "count": 2
+  },
+  {
+   "name": "paragraphBreak",
+   "count": 2
+  },
+  {
+   "name": "appearance",
+   "count": 1
+  },
+  {
+   "name": "event",
+   "count": 1
+  },
+  {
+   "name": "initiator",
+   "count": 1
+  },
+  {
+   "name": "client",
+   "count": 1
+  },
+  {
+   "name": "subtitleTone",
+   "count": 1
+  },
+  {
+   "name": "subtitleClassName",
+   "count": 1
+  },
+  {
+   "name": "spacing",
+   "count": 1
+  },
+  {
+   "name": "chronicleResearchPreviewEnabled",
+   "count": 1
+  },
+  {
+   "name": "chronicleResearchPreviewVisible",
+   "count": 1
+  },
+  {
+   "name": "memoryConfig",
+   "count": 1
+  },
+  {
+   "name": "productLogger",
+   "count": 1
+  },
+  {
+   "name": "previousEnabled",
+   "count": 1
+  },
+  {
+   "name": "selectedEnabled",
+   "count": 1
+  },
+  {
+   "name": "settingName",
+   "count": 1
+  },
+  {
+   "name": "state",
+   "count": 1
+  },
+  {
+   "name": "memoryConfigPatch",
+   "count": 1
+  },
+  {
+   "name": "generateMemories",
+   "count": 1
+  },
+  {
+   "name": "useMemories",
+   "count": 1
+  },
+  {
+   "name": "initialApplicationMenuOpen",
+   "count": 1
+  },
+  {
+   "name": "bundleIdentifier",
+   "count": 1
+  },
+  {
+   "name": "displayName",
+   "count": 1
+  },
+  {
+   "name": "iconDataURL",
+   "count": 1
+  },
+  {
+   "name": "isWebBrowser",
+   "count": 1
+  },
+  {
+   "name": "onOpenAutoFocus",
+   "count": 1
+  },
+  {
+   "name": "hasCode",
+   "count": 1
+  },
+  {
+   "name": "line",
+   "count": 1
+  },
+  {
+   "name": "contentMaxHeight",
+   "count": 1
+  },
+  {
+   "name": "portalContainer",
+   "count": 1
+  },
+  {
+   "name": "onContentFocus",
+   "count": 1
+  },
+  {
+   "name": "onKeyDown",
+   "count": 1
+  },
+  {
+   "name": "contentOverflow",
+   "count": 1
+  },
+  {
+   "name": "contentProps",
+   "count": 1
+  },
+  {
+   "name": "preventScroll",
+   "count": 1
+  },
+  {
+   "name": "legacyIcon",
+   "count": 1
+  },
+  {
+   "name": "asset16",
+   "count": 1
+  },
+  {
+   "name": "legacyClassName",
+   "count": 1
+  },
+  {
+   "name": "appId",
+   "count": 1
+  },
+  {
+   "name": "appPath",
+   "count": 1
+  },
+  {
+   "name": "iconSmall",
+   "count": 1
+  },
+  {
+   "name": "t",
+   "count": 1
+  },
+  {
+   "name": "mergeStrategy",
+   "count": 1
+  },
+  {
+   "name": "filePath",
+   "count": 1
+  },
+  {
+   "name": "expectedVersion",
+   "count": 1
+  },
+  {
+   "name": "reloadUserConfig",
+   "count": 1
+  },
+  {
+   "name": "previousUserConfig",
+   "count": 1
+  },
+  {
+   "name": "safe",
+   "count": 1
+  },
+  {
+   "name": "sensitive",
+   "count": 1
+  },
+  {
+   "name": "onMutate",
+   "count": 1
+  },
+  {
+   "name": "onSettled",
+   "count": 1
+  },
+  {
+   "name": "features",
+   "count": 1
+  },
+  {
+   "name": "n",
+   "count": 1
+  },
+  {
+   "name": "showSuccessToast",
+   "count": 1
+  },
+  {
+   "name": "exampleUser",
+   "count": 1
+  },
+  {
+   "name": "exampleWord",
+   "count": 1
+  },
+  {
+   "name": "current",
+   "count": 1
+  },
+  {
+   "name": "total",
+   "count": 1
+  },
+  {
+   "name": "role",
+   "count": 1
+  },
+  {
+   "name": "granularity",
+   "count": 1
+  },
+  {
+   "name": "isWordLike",
+   "count": 1
+  },
+  {
+   "name": "segment",
+   "count": 1
+  },
+  {
+   "name": "text",
+   "count": 1
+  },
+  {
+   "name": "wordIndex",
+   "count": 1
+  },
+  {
+   "name": "confirm",
+   "count": 1
+  },
+  {
+   "name": "document",
+   "count": 1
+  },
+  {
+   "name": "link",
+   "count": 1
+  },
+  {
+   "name": "timelineItem",
+   "count": 1
+  },
+  {
+   "name": "timelineTime",
+   "count": 1
+  },
+  {
+   "name": "timelineRail",
+   "count": 1
+  },
+  {
+   "name": "timelineRailGapBefore",
+   "count": 1
+  },
+  {
+   "name": "timelineRailGapAfter",
+   "count": 1
+  },
+  {
+   "name": "timelineDot",
+   "count": 1
+  },
+  {
+   "name": "timelineContent",
+   "count": 1
+  },
+  {
+   "name": "timelineDelete",
+   "count": 1
+  },
+  {
+   "name": "currentTimeMs",
+   "count": 1
+  },
+  {
+   "name": "cloneCustomTrigger",
+   "count": 1
+  },
+  {
+   "name": "delayDuration",
+   "count": 1
+  },
+  {
+   "name": "actions",
+   "count": 1
+  },
+  {
+   "name": "dateTime",
+   "count": 1
+  },
+  {
+   "name": "cwd",
+   "count": 1
+  },
+  {
+   "name": "path",
+   "count": 1
+  },
+  {
+   "name": "target",
+   "count": 1
+  },
+  {
+   "name": "disableHoverOpen",
+   "count": 1
+  },
+  {
+   "name": "onMouseEnter",
+   "count": 1
+  },
+  {
+   "name": "onMouseLeave",
+   "count": 1
+  },
+  {
+   "name": "contentClassName",
+   "count": 1
+  },
+  {
+   "name": "sideOffset",
+   "count": 1
+  },
+  {
+   "name": "start",
+   "count": 1
+  },
+  {
+   "name": "end",
+   "count": 1
+  },
+  {
+   "name": "weekday",
+   "count": 1
+  },
+  {
+   "name": "month",
+   "count": 1
+  },
+  {
+   "name": "day",
+   "count": 1
+  },
+  {
+   "name": "date",
+   "count": 1
+  },
+  {
+   "name": "items",
+   "count": 1
+  },
+  {
+   "name": "todayTasksPrompt",
+   "count": 1
+  },
+  {
+   "name": "standupPrompt",
+   "count": 1
+  },
+  {
+   "name": "findDocumentPrompt",
+   "count": 1
+  },
+  {
+   "name": "followUpsPrompt",
+   "count": 1
+  },
+  {
+   "name": "roastBehaviorPrompt",
+   "count": 1
+  },
+  {
+   "name": "distractionsPrompt",
+   "count": 1
+  },
+  {
+   "name": "dailyFeedbackPrompt",
+   "count": 1
+  },
+  {
+   "name": "writingStylePrompt",
+   "count": 1
+  }
+ ],
+ "literal_count": 715,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261016\\chronicle.json"
+}

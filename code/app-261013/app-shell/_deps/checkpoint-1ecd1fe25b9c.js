@@ -1,0 +1,29 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { Efn as t, Ofn as n, Tfn as r, iPr as i, sPr as a } from "./app-initial-5851df3f6cb1.js";
+async function o({ pageId: e, checkpointId: t, streamKind: a, signal: o }) {
+  for (let s = 0; s < 2; s += 1) {
+    o.throwIfAborted();
+    let c = await i.safeGet(`/pages/{page_id}/versions/{checkpoint_id}/checkpoint-bootstrap`, {
+      parameters: {
+        path: { page_id: e, checkpoint_id: t },
+        query: { stream_kind: a, prefer_lite_checkpoint: !0 },
+      },
+      signal: o,
+    });
+    if (c.page_id !== e || c.checkpoint?.checkpoint_id !== t)
+      throw Error(`The requested Page checkpoint is unavailable`);
+    let l = await n(c, o, s > 0, a);
+    o.throwIfAborted();
+    let u = l == null ? void 0 : r(l);
+    if (u != null) return u.update;
+    if (Date.parse(c.checkpoint.expires_at) > Date.now()) break;
+  }
+  throw Error(`The Page checkpoint could not be verified`);
+}
+function s() {
+  return (s = e(() => {
+    (t(), a());
+  }))();
+}
+export { s as n, o as t };
+//# sourceMappingURL=checkpoint-1ecd1fe25b9c.js.map

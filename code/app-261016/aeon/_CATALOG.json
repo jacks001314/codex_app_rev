@@ -1,0 +1,4385 @@
+{
+ "module": "aeon",
+ "generated_at": "2026-10-23T01:17:22.433Z",
+ "files_scanned": 42,
+ "message_count": 229,
+ "messages": [
+  {
+   "id": "aeon.messaging.browserAuth.closed",
+   "text": "Sign-in request closed",
+   "description": "Persistent receipt for a website sign-in request that was answered or resolved elsewhere. Does not imply successful website authentication.",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.ended",
+   "text": "This sign-in request is no longer available",
+   "description": "A credential request expired or was resolved; its outcome is unknown",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.entered",
+   "text": "Sign-in details entered",
+   "description": "Persistent sign-in receipt confirming the browser entered the credentials, without claiming successful website authentication",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.failed",
+   "text": "Couldn’t start secure sign-in. Request a new sign-in to try again.",
+   "description": "A durable operation could not be started, so this form remains closed without replaying private values",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.inspect",
+   "text": "Check status",
+   "description": "Reads the status of the existing sign-in request without sending credentials or a response again",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.inspectError",
+   "text": "Couldn’t check this request",
+   "description": "An error while reading the status of a Messaging sign-in request",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.loading",
+   "text": "Checking sign-in request…",
+   "description": "Verifying that the credential request is still pending in its original task",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.open",
+   "text": "Sign in to {site}",
+   "description": "Pill opening a private website sign-in form. {site} is the website hostname, such as resy.com.",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.resume",
+   "text": "Continue task",
+   "description": "Acknowledges a recovered credential operation without submitting its credentials again",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.unavailable",
+   "text": "This sign-in request is unavailable right now",
+   "description": "The credential request could not be verified for this account",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserAuth.unconfirmed",
+   "text": "Couldn’t confirm the response. Check its status before continuing.",
+   "description": "A private submission or response may have reached the server and must not be replayed",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserEmailOtp.allow",
+   "text": "Allow",
+   "description": "Allows this email verification code to be filled into the website once",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserEmailOtp.approved",
+   "text": "Autofill approved",
+   "description": "Receipt after the email verification code autofill request was accepted. Does not claim the website signed in successfully.",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserEmailOtp.cancel",
+   "text": "Cancel",
+   "description": "Closes the email code autofill dialog without answering the pending request",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserEmailOtp.description",
+   "text": "Use the verification code sent to your connected email to sign in to {site}. ChatGPT cannot see the code.",
+   "description": "Explains email verification code autofill. {site} is the verified website hostname, including its port when present. The code is sent privately and cannot be read by ChatGPT.",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserEmailOtp.open",
+   "text": "Auto-fill OTP code from email",
+   "description": "Opens the permission dialog to fill a one-time verification code from connected email into a website. Also remains visible when the request is unavailable.",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.messaging.browserEmailOtp.title",
+   "text": "Use the code from your email?",
+   "description": "Permission dialog title for filling an email verification code into a website",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.threadTimestamp.today",
+   "text": "Today, {time}",
+   "description": "Timestamp label for a dot thread message sent today",
+   "files": [
+    "dot/aeon-onboarding-8498df35b358.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "aeon.threadTimestamp.yesterday",
+   "text": "Yesterday, {time}",
+   "description": "Timestamp label for a dot thread message sent yesterday",
+   "files": [
+    "dot/aeon-onboarding-8498df35b358.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "browserAuth.savedCredentials.outcome.skipUnknownManual",
+   "text": "Not now",
+   "description": "Declines an uncertain manual website sign-in request and resumes the task without resending credentials.",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.cloudBrowser.auth.page.returnToConversation",
+   "text": "You can return to your conversation",
+   "description": "Supporting text beneath the standalone browser sign-in confirmation. Tells the user to return manually to the originating conversation after their sign-in or skip response was sent. Does not claim website sign-in or task completion.",
+   "files": [
+    "_deps/browser-auth-header-b685c2e849ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.cloudBrowser.auth.page.signingIn",
+   "text": "Signing in to {site}",
+   "description": "Confirmation heading on the standalone browser sign-in page after the user's credentials were submitted and their response was sent to the task. Sign-in is underway, not guaranteed complete. {site} is the website's domain, such as example.com. Keep this mobile heading concise.",
+   "files": [
+    "_deps/browser-auth-header-b685c2e849ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.cloudBrowser.auth.page.skipped",
+   "text": "Sign-in skipped",
+   "description": "Confirmation heading on the standalone browser sign-in page after the user's skip or cancel response was sent to the task. No successful sign-in is implied. Short mobile heading.",
+   "files": [
+    "_deps/browser-auth-header-b685c2e849ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.cloudBrowser.auth.page.title",
+   "text": "Sign in to {site}",
+   "description": "Heading on the standalone cloud-browser credential page opened from a sign-in request. It tells the end user which website they are signing in to. Placeholder {site} is the credential provider's domain, such as resy.com, without a leading www.; it is not a translated brand name. Keep the heading concise; it may wrap on mobile.",
+   "files": [
+    "_deps/browser-auth-header-b685c2e849ed.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.composer.attachmentUploadFailed",
+   "text": "Upload failed",
+   "description": "Status shown on a ChatGPT file attachment when uploading fails",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.composer.uploadingAttachment",
+   "text": "Uploading",
+   "description": "Status shown on a ChatGPT file attachment while the file is uploading",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.hostedWidget.status",
+   "text": "{failed, select, true {Could not open this app} other {Opening app…}}",
+   "description": "Loading or failure status for an app embedded in a ChatGPT conversation",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.browserEmailOtp.description",
+   "text": "A verification code from your connected email will be sent privately to {origin}. {name} cannot see the code. You can also enter it yourself.",
+   "description": "Body of an Allow/Deny permission prompt for a website verification code. {origin} is the HTTPS website origin. {name} is the current agent's display name or ChatGPT; that agent cannot read the code delivered privately to the website.",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.browserEmailOtp.manualEntryRequired",
+   "text": "Automatic filling is unavailable here. Choose Deny to enter the code yourself.",
+   "description": "Explains why automatic email-code filling is disabled for this request. Selecting the Deny button continues to the manual code-entry prompt.",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.browserEmailOtp.title",
+   "text": "Allow {name} to fill this verification code?",
+   "description": "Permission prompt title for filling a code from connected email into a website. {name} is the current agent's display name or ChatGPT. Permission applies only to this code.",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.browserEmailOtp.unavailable",
+   "text": "Automatic filling is unavailable",
+   "description": "Title of a disabled email verification-code approval when the current agent identity could not be loaded. The user can choose Deny to enter the code manually.",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.fileAttachment.retry",
+   "text": "Retry",
+   "description": "Button to retry a failed attachment upload",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.fileAttachment.retryHint",
+   "text": "Retry upload",
+   "description": "Tooltip for retrying a failed attachment upload",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpServerElicitation.generic.serverFallbackName",
+   "text": "Server",
+   "description": "Fallback name shown when an unknown MCP server elicitation does not include a usable server name",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.connectorFallbackName",
+   "text": "Connector",
+   "description": "Fallback connector name shown when an MCP tool call approval cannot be matched to connector metadata",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.connectorLogoAlt",
+   "text": "{name} logo",
+   "description": "Alt text for connector logos in MCP tool call approvals",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.elevatedRiskLabel",
+   "text": "Elevated Risk",
+   "description": "Header label for elevated-risk MCP approval requests",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.formattedToolTitle",
+   "text": "Allow {connectorName} to run <tool>{toolName}</tool> tool?",
+   "description": "MCP tool call approval title with the tool name emphasized",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.collapse.label",
+   "text": "Collapse {label}",
+   "description": "Accessible label for collapsing an MCP tool call parameter value",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.collapse.short",
+   "text": "Collapse",
+   "description": "Short inline label for collapsing an MCP tool call parameter value",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.expand.label",
+   "text": "Expand {label}",
+   "description": "Accessible label for expanding an MCP tool call parameter value",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.expand.short",
+   "text": "Expand",
+   "description": "Short inline label for expanding an MCP tool call parameter value",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.hideDetails",
+   "text": "Hide details",
+   "description": "Button label to collapse the full arguments for an MCP tool call approval",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.less",
+   "text": "Show fewer items",
+   "description": "Button label to collapse additional MCP tool call parameters in the compact approval UI",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.more",
+   "text": "Show {count} more items",
+   "description": "Button label to reveal additional MCP tool call parameters in the compact approval UI",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mcpToolCallApproval.toolParam.showDetails",
+   "text": "Show details",
+   "description": "Button label to expand the full arguments for an MCP tool call approval",
+   "files": [
+    "_deps/mcp-request-card-6a35b7fc0e14.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversation.timestampSeparator.older",
+   "text": "<day>{date}</day> at {time}",
+   "description": "Centered timestamp separating older messages in a Codex conversation. The date is a localized calendar date, including the year when more than 365 days old; time is the localized time of day. The day tag emphasizes the date. Keep the complete label short and translate the date-time relationship naturally.",
+   "files": [
+    "_deps/timestamp-separator-aa59edf121b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversation.timestampSeparator.recent",
+   "text": "<day>{date}</day> {time}",
+   "description": "Centered timestamp separating messages in a Codex conversation. The date is a localized relative day such as Today, Yesterday, or Monday; time is the localized time of day. The day tag emphasizes the date. Keep the complete label short and adjust its order or punctuation for the locale.",
+   "files": [
+    "_deps/timestamp-separator-aa59edf121b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "elicitation.page.checkConversationResult",
+   "text": "You can close this page and check the result in your conversation",
+   "description": "Guidance to check the conversation after submitting or failing to submit an approval response",
+   "files": [
+    "_deps/status-5c61cfc2f6fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "elicitation.page.connecting",
+   "text": "Connecting to your request…",
+   "description": "Status while the standalone request page reconnects to the task that needs user input",
+   "files": [
+    "_deps/status-5c61cfc2f6fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "elicitation.page.responseCanceled",
+   "text": "Request canceled",
+   "description": "Heading after the user submits a cancel response, not merely after a modal is dismissed",
+   "files": [
+    "_deps/status-5c61cfc2f6fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "elicitation.page.responseDeclined",
+   "text": "Request declined",
+   "description": "Heading after the user submits a decline response",
+   "files": [
+    "_deps/status-5c61cfc2f6fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "elicitation.page.responseSubmitted",
+   "text": "Response submitted",
+   "description": "Heading after the user submits an approval response, without asserting that the action completed",
+   "files": [
+    "_deps/status-5c61cfc2f6fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "elicitation.page.submissionFailed",
+   "text": "Couldn't submit your response",
+   "description": "Heading when submitting a standalone approval response failed",
+   "files": [
+    "_deps/status-5c61cfc2f6fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "elicitation.page.unavailable",
+   "text": "This request is no longer available. It may already be answered or cancelled.",
+   "description": "Message when the specific linked request cannot be shown; does not claim the request or task completed",
+   "files": [
+    "_deps/status-5c61cfc2f6fa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.active",
+   "text": "Reading tab",
+   "description": "In-progress label for reading the contents of a Chrome tab.",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.activeWithTitle",
+   "text": "Reading \"{title}\"",
+   "description": "In-progress label for reading the contents of a Chrome tab with a known page title.",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completed",
+   "text": "Read tab",
+   "description": "Completed label for reading the contents of a Chrome tab.",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completed.following",
+   "text": "read tab",
+   "description": "Non-leading completed label for reading the contents of a Chrome tab in an agent activity summary",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completedWithTitle",
+   "text": "Read \"{title}\"",
+   "description": "Completed label for reading the contents of a Chrome tab with a known page title.",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.chromeExtensionToolCall.getTabContext.completedWithTitle.following",
+   "text": "read \"{title}\"",
+   "description": "Non-leading completed label for reading the contents of a Chrome tab with a known page title in an agent activity summary",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.settingsToolCall.write.waitingForApproval",
+   "text": "Waiting for approval",
+   "description": "In-progress label while a Codex configuration change is waiting for user approval.",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.active",
+   "text": "Handing off to {destination}",
+   "description": "In-progress label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.completed",
+   "text": "Handed off to {destination}",
+   "description": "Completed label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.destination.local",
+   "text": "local",
+   "description": "Destination noun used in an inline task handoff status",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.destination.worktree",
+   "text": "worktree",
+   "description": "Destination noun used in an inline task handoff status",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.failed",
+   "text": "Failed to hand off to {destination}",
+   "description": "Failed label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.threadHandoff.inline.warning",
+   "text": "Handoff to {destination} needs attention",
+   "description": "Warning label for handing the current task to another run location",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "orbit.emailOtp.unavailable",
+   "text": "We couldn’t confirm autofill",
+   "description": "The email verification code autofill request finished without confirming that the code was filled",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "orbit.fileAttachment.action",
+   "text": "{action, select, download {Download {filename}} other {Open {filename}}}",
+   "description": "Action to download or open a file attached to a dot message",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "orbit.voiceCall.history.summarizing",
+   "text": "Summarizing",
+   "description": "Status in an ended dot call card while its call summary is being generated",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.activity",
+   "text": "{status, select, loading {Loading} other {Working}}",
+   "description": "Accessible status of a task or subagent attached to a dot message. Loading means its status is being retrieved; Working means it is running.",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.environment",
+   "text": "Environment: {environment}",
+   "description": "Accessible label and hover tooltip identifying the code environment selected for a task attached to a dot message",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.fallback",
+   "text": "Created task",
+   "description": "Fallback label for a task or subagent attached to a dot conversation when it has no title",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.loading",
+   "text": "Loading attached task",
+   "description": "Accessible label for a dot task attachment while its title is being retrieved",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.loadingTitle",
+   "text": "Loading",
+   "description": "Placeholder title while a dot task attachment is loading",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.localEnvironment",
+   "text": "Environment: This computer",
+   "description": "Accessible label and hover tooltip for an attached dot task running on the computer the user is currently using",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.open",
+   "text": "Open {name}",
+   "description": "Hover hint for opening a task or subagent attached to a dot message",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.attachedThread.unread",
+   "text": "Unread updates",
+   "description": "Accessible unread status of a task attached to a dot message",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.channelRecipient.dot.productName",
+   "text": "{hasRecipient, select, true {Message recipient: @{recipient}} other {Message recipient: your {dot}}}",
+   "description": "Screen reader description giving the public recipient for a Slack or Microsoft Teams contact action. dot is a common noun for the agent and must remain untranslated.",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.emailAddress.yourDot",
+   "text": "Your dot’s email address",
+   "description": "Accessible label for the copyable email address after setting up dot. Keep dot lowercase and untranslated.",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.loading",
+   "text": "Loading…",
+   "description": "Status and disabled action while the selected contact channel loads",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.openEmail",
+   "text": "Open Email",
+   "description": "Opens the user's email app with the dot's address as the recipient",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.openTeams",
+   "text": "Open Teams",
+   "description": "Opens the connected dot’s direct message in Microsoft Teams",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailBodyLines",
+   "text": "Can you summarize the thread below and pull out any decisions we need to make? There’s been a lot of back and forth, and I want to make sure I’m caught up before we meet.<br></br><br></br>I’d love a quick overview of where things stand, any open questions, and a few talking points.<br></br><br></br>Please flag anything that might affect the timeline, especially if we’re still waiting on someone’s input.",
+   "description": "Fictional email body in the miniature contact setup illustration; no email is sent. Paired br tags separate the requests with blank lines.",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailFollowup",
+   "text": "If there’s anything I should read beforehand, send that my way too.",
+   "description": "Final sentence of a fictional email in the contact setup illustration",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailGreeting",
+   "text": "Hey {name},",
+   "description": "Example greeting in the decorative email composer; name is the assistant’s private nickname or the lowercase term dot",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailHeading",
+   "text": "Send email message",
+   "description": "Heading of the miniature email composer in contact setup",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailRecipients",
+   "text": "Cc Bcc",
+   "description": "Decorative carbon-copy and blind-carbon-copy labels in a miniature email composer",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.emailSubject",
+   "text": "Help me prep for tomorrow’s meeting",
+   "description": "Example subject in the decorative email composer in contact setup",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.sendMessage",
+   "text": "Send message",
+   "description": "Decorative send label in the miniature email, Slack, or Teams composer; it is not a real action",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.slackBody",
+   "text": "Let’s move our meeting to Wednesday so I can join after the design onsite. Happy to find another time that works for you!",
+   "description": "Fictional request in the miniature Slack or Teams composer in contact setup; no message is sent",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.slackHeading",
+   "text": "Send Slack message",
+   "description": "Heading of the miniature Slack composer in contact setup",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.teamsHeading",
+   "text": "Send Teams message",
+   "description": "Heading of the miniature Microsoft Teams composer in contact setup",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.preview.to",
+   "text": "To",
+   "description": "Recipient label in a decorative email, Slack, or Microsoft Teams message preview",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.contact.unnamedChannelRecipient.productName",
+   "text": "your {dot}",
+   "description": "Default recipient in a Slack or Microsoft Teams preview before the public name is available. dot is a common noun for the agent and must remain untranslated.",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.checkInNow.label",
+   "text": "Check in now",
+   "description": "Button in the dot summary that requests an immediate doctor check-in, starting the recurring doctor if needed",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.checkInNow.requested",
+   "text": "Check-in requested",
+   "description": "Confirmation in the dot summary that a doctor check was requested; the check may still be running",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.request.error",
+   "text": "Doctor unavailable · Try again",
+   "description": "Error in the dot summary when setting up the doctor or requesting a check-in fails; either button can be retried",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.requesting",
+   "text": "Requesting check-in…",
+   "description": "Dot doctor button while submitting a health check request",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.schedule.link",
+   "text": "View doctor schedule",
+   "description": "Link in the dot summary to inspect when health checks will run and see recent checks in Temporal",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.setup.label",
+   "text": "Set up recurring doctor",
+   "description": "Button in the dot summary that schedules recurring health checks; separate from Check in now",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.setup.pending",
+   "text": "Setting up recurring doctor…",
+   "description": "Button in the dot summary while setting up recurring health checks",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.doctor.setup.success",
+   "text": "Recurring doctor is set up",
+   "description": "Confirmation in the dot summary that recurring health checks are scheduled",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.copy",
+   "text": "Copy email address",
+   "description": "Dot email shortcut action that copies its linked email address",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.debug",
+   "text": "Debug",
+   "description": "Opens debug controls for repairing the dot's email setup or removing its linked address",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.open",
+   "text": "Open Email",
+   "description": "Dot email shortcut action that opens the user's email app with the dot's linked address as recipient",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.actions.remove",
+   "text": "Remove",
+   "description": "Disconnects the email address from this dot while keeping the address owned by the user",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.dialog.loadingTitle",
+   "text": "Email",
+   "description": "Title of the dot email setup dialog while its contents are loading",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.disconnected",
+   "text": "Email disconnected",
+   "description": "Confirmation after disconnecting the dot while keeping the user's email address",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.disconnecting",
+   "text": "Disconnecting Email…",
+   "description": "Progress while disconnecting a dot's email address",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.removeFailed",
+   "text": "Couldn’t disconnect Email. Please try again",
+   "description": "Error when disconnecting an email address from a dot fails",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.settings.cloudRequired.dot",
+   "text": "Email setup is available for active cloud dot assistants",
+   "description": "Explanation in email settings when the assistant is archived or runs locally and cannot own a cloud email binding. Keep dot lowercase and untranslated.",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.settings.loading",
+   "text": "Loading email settings…",
+   "description": "Loading indicator while reading the selected dot's email binding or available addresses",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.settings.workspaceDisabled",
+   "text": "Email is disabled by your workspace admin",
+   "description": "Explanation on the disabled dot email control when the ChatGPT workspace admin has denied dot or Email access",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.shortcut.addressLabel",
+   "text": "Email: {emailAddress}",
+   "description": "Accessible label for the button opening the agent's linked email menu. emailAddress is the full email address.",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.summary.add",
+   "text": "Add email",
+   "description": "Button in the pinned dot summary that opens a dialog to claim a new email address or link an existing address",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.summary.loading",
+   "text": "Loading email…",
+   "description": "Compact status in the pinned dot summary while its email binding is being read",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.email.summary.unavailable",
+   "text": "Email unavailable",
+   "description": "Email row in the pinned dot summary when the saved email binding cannot be read; opens recovery settings when the dot is accessible",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.delivered",
+   "text": "Delivered",
+   "description": "Receipt beneath the latest outgoing dot message confirming it was saved by the messaging service, before the dot has read it.",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.allow",
+   "text": "Allow",
+   "description": "Allow the action described by this confirmation request",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.cancel",
+   "text": "Cancel",
+   "description": "Cancel this request without approving or denying the proposed action",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.check",
+   "text": "Check status",
+   "description": "Inspect a Messaging request without submitting another response",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.connect",
+   "text": "Connect",
+   "description": "Start the shared consent flow for the requested services",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.connectionFailed",
+   "text": "Couldn’t verify all requested connections. Finish connecting the services, then continue",
+   "description": "Connection verification failed; continuing checks all requested services again",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.continueConnect",
+   "text": "Continue",
+   "description": "Recheck all requested connections and finish the request",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.fullParameters",
+   "text": "Full parameters",
+   "description": "Expand the complete raw tool parameters alongside the formatted approval details",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.retryServices",
+   "text": "Retry loading services",
+   "description": "Retry loading verified catalog information for a requested app or plugin",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.unconfirmed",
+   "text": "Couldn’t confirm this request’s status",
+   "description": "A Messaging request could not be inspected or its response outcome is unknown",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.elicitation.unsupported",
+   "text": "This request isn’t supported in Messages yet",
+   "description": "The server or this client cannot respond to this kind of Messaging request",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.greeting.withoutSender",
+   "text": "Hey {name}!",
+   "description": "Editable text-message draft greeting the user's dot. name is the dot's custom name, or the lowercase untranslated product name dot. No message is sent automatically.",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.location.cancel",
+   "text": "Not now",
+   "description": "Cancel the location request without sharing a location",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.location.failed",
+   "text": "Couldn’t get your location. Check your settings or try again",
+   "description": "Device location is unavailable because of current settings or a failed location request",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.location.share",
+   "text": "Share location",
+   "description": "Share a fresh device location with this conversation",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.olderRepliesError",
+   "text": "Could not load earlier replies",
+   "description": "Screen reader error when earlier messages in a dot reply thread could not be loaded; the user can retry",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.openLink",
+   "text": "Open link",
+   "description": "Native hover hint on a link in a dot direct message",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.read",
+   "text": "Read",
+   "description": "Receipt confirming the dot has read the latest outgoing message; the server did not provide a read time.",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.readAt",
+   "text": "Read {time}",
+   "description": "Receipt beneath the latest outgoing dot message. Time is when the dot last advanced its cumulative read cursor, not a per-message read history.",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.replyCount",
+   "text": "{count, plural, one {# reply} other {# replies}}",
+   "description": "Button below a dot message showing how many replies are in its thread; opens those replies",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.retryAppshot",
+   "text": "Retry loading Appshot",
+   "description": "Retry downloading a screenshot attached to a dot message",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.sentInPage",
+   "text": "Sent in page",
+   "description": "Source label beneath a dot message sent from a comment in a Page.",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.success.openMessages",
+   "text": "Open Messages",
+   "description": "Opens Messages on Mac with the dot's destination phone number prefilled as the recipient",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.addToContacts",
+   "text": "Add contact",
+   "description": "Button to open or download a contact card prefilled with the dot's name, phone number, and profile photo when available, so the user can review and save it in their contacts app",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.contactFailed",
+   "text": "Couldn’t open the contact card. Please try again",
+   "description": "Error when opening or downloading the prefilled contact card fails; the user can retry by clicking Add contact",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.copyNumber",
+   "text": "Copy number",
+   "description": "Copies the dot's destination phone number so the user can text it from their phone",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.copyPhoneNumber",
+   "text": "Copy phone number",
+   "description": "Accessible label for the icon button beside the dot's phone number that copies it to the clipboard",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.textQrCode.label.productName",
+   "text": "QR code to text your {dot}",
+   "description": "Accessible label for a QR code that opens a message addressed to the user's dot. It does not send a message. The dot placeholder is the untranslated term for the user's agent.",
+   "files": [
+    "_deps/text-message-instructions-b6697bc2c9ac.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.messaging.viewReplies",
+   "text": "View replies",
+   "description": "Button below a dot message with replies; opens the conversation thread containing those replies",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.slack.setup.open",
+   "text": "Open Slack",
+   "description": "Opens the connected dot's direct message in Slack",
+   "files": [
+    "_deps/contact-ready-a5c1b12887b2.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.active",
+   "text": "Active",
+   "description": "Status beneath a dot's profile while it is working, waiting on subtasks, or was active within the recent-activity grace period",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.activeRelativeTimeNatural",
+   "text": "Active {time}",
+   "description": "Relative timestamp beneath a dot's profile showing when it most recently did work, after the recent-activity grace period; time is a localized relative phrase such as '4 minutes ago'",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.identity.legacy",
+   "text": "Legacy Aeon",
+   "description": "Description beneath a legacy agent's name in the new-draft summary panel, distinguishing it from a new dot",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.identity.productName.dot",
+   "text": "Your private {productName}",
+   "description": "Description beneath the agent's name in its summary panel; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.paused",
+   "text": "Paused",
+   "description": "Status beneath a dot's name when it is paused but the pause time is unknown",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.pausedJustNow",
+   "text": "Paused just now",
+   "description": "Status beneath a dot's name during the first minute after the user pauses it",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeon.summary.pausedRelativeTime",
+   "text": "Paused {time}",
+   "description": "Status beneath a dot's name showing how long ago the user paused it",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.balancing-ball",
+   "text": "Use the blossom avatar",
+   "description": "Accessible label for selecting the blossom-shaped dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.beanie",
+   "text": "Use the beanie avatar",
+   "description": "Accessible label for selecting the dot avatar with a beanie",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.bow-tie",
+   "text": "Use the bow tie avatar",
+   "description": "Accessible label for selecting the dot avatar with a bow tie",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.bowler",
+   "text": "Use the bowler hat avatar",
+   "description": "Accessible label for selecting the dot avatar with a bowler hat",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.cowboy",
+   "text": "Use the cowboy hat avatar",
+   "description": "Accessible label for selecting the dot avatar with a cowboy hat",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.feather",
+   "text": "Use the feather avatar",
+   "description": "Accessible label for selecting the dot avatar with a feather",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.headphones",
+   "text": "Use the blob avatar",
+   "description": "Accessible label for selecting the blob-shaped dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.monocle",
+   "text": "Use the monocle avatar",
+   "description": "Accessible label for selecting the dot avatar with a monocle",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.mustache",
+   "text": "Use the red avatar",
+   "description": "Accessible label for selecting the red circular dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.party-hat",
+   "text": "Use the triangle avatar",
+   "description": "Accessible label for selecting the triangular dot avatar",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.pirate",
+   "text": "Use the pirate avatar",
+   "description": "Accessible label for selecting the dot avatar with an eye patch",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatar.sunglasses",
+   "text": "Use the sunglasses avatar",
+   "description": "Accessible label for selecting the dot avatar with sunglasses",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.avatarGroup.productName.dot",
+   "text": "Your {productName}’s avatar",
+   "description": "Accessible label for the assistant avatar picker group; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.createPetPrompt",
+   "text": "Make a pet avatar for yourself based on something you know about me",
+   "description": "Draft message placed in the dot assistant's composer when the user chooses to create a pet avatar in its appearance editor. The user can edit it before sending.",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.header.productName.dot",
+   "text": "Customize your {productName}",
+   "description": "Heading in the assistant appearance picker; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.legacyAvatar",
+   "text": "Use avatar {number}",
+   "description": "Accessible label for choosing a numbered abstract avatar for a legacy agent",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.name",
+   "text": "Nickname",
+   "description": "Label for the assistant's private nickname in the appearance dialog",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.nameFormatError",
+   "text": "Use up to 24 characters without backslashes",
+   "description": "Inline error for an invalid assistant nickname. Names can use up to 24 characters but cannot include a backslash.",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.namePlaceholder",
+   "text": "Your dot",
+   "description": "Placeholder in the empty nickname field in the dot's appearance editor and character studio. A dot is the user's customizable assistant character. Keep the singular term dot untranslated.",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.randomize",
+   "text": "Randomize",
+   "description": "Preview a random assistant appearance without changing its name or saving it",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.save",
+   "text": "Save",
+   "description": "Confirm the assistant name and appearance changes",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.saveError.dot",
+   "text": "Unable to save your dot’s avatar",
+   "description": "Error toast when a selected dot avatar could not be saved. Keep the singular term dot untranslated.",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.saveFailed",
+   "text": "Couldn’t save your changes. Try again.",
+   "description": "Failure message in the appearance dialog when saving the assistant name and avatar fails. The draft is kept for retry.",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonAppearancePicker.trigger.productName.dot",
+   "text": "Change your {productName}’s appearance",
+   "description": "Accessible label for changing an assistant's appearance; productName is the untranslated term for the user's agent, not the assistant's custom name",
+   "files": [
+    "dot/aeon-appearance-picker-a56c1776e17c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.activityState",
+   "text": "{state, select, Working {Working} Searching {Searching} Creating {Creating} Payment {Payment} Thinking {Thinking} needsInput {Needs input} Ready {Ready} Paused {Paused} unnamed {-} Simplify {Simplify} Blame {Blame} other {}}",
+   "description": "Short activity state beside the dot's public progress description in the room header and identity card. Keep select keys unchanged. Working means using a computer; Creating means making an artifact; Payment describes payment-related work, not permission; needsInput means waiting for a real user response; Ready means idle; Paused means paused by the user; Simplify means simplifying something; Blame means tracing responsibility. unnamed is an unnamed placeholder. Translate state labels only, not the separate public progress description.",
+   "files": [
+    "_deps/activity-state-label-ef8948a46851.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.email.copiedNoPreview",
+   "text": "CC • No preview available",
+   "description": "Fallback preview when the dot was copied on an email without readable preview text",
+   "files": [
+    "_deps/card-7005e7062ff8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.email.copiedPreview",
+   "text": "CC • {preview}",
+   "description": "Email preview prefixed with CC when the dot was copied rather than directly addressed",
+   "files": [
+    "_deps/card-7005e7062ff8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.email.copy",
+   "text": "Copy",
+   "description": "Menu action that copies the full text of a dot email message",
+   "files": [
+    "_deps/card-7005e7062ff8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.email.copyFull",
+   "text": "Copy full message text",
+   "description": "Action hint for copying the full legacy text of a dot email message",
+   "files": [
+    "_deps/card-7005e7062ff8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.email.noPreview",
+   "text": "No preview available",
+   "description": "Fallback preview for a dot email without readable preview text",
+   "files": [
+    "_deps/card-7005e7062ff8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.email.noSubject",
+   "text": "No subject",
+   "description": "Fallback subject for a dot email whose subject is empty",
+   "files": [
+    "_deps/card-7005e7062ff8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.email.open",
+   "text": "Open email details",
+   "description": "Action hint for opening a read-only dot email card",
+   "files": [
+    "_deps/card-7005e7062ff8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.emailShortcut",
+   "text": "Email",
+   "description": "Button opening the dot's email settings",
+   "files": [
+    "dot/aeon-summary-panel-identity-9cefb39326ec.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.retry",
+   "text": "Try again",
+   "description": "Retry loading the message room associated with a dot",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.roomUi.deliveryUnknown",
+   "text": "Message delivery is unknown; check the conversation before sending again",
+   "description": "Error shown when delivery of a message in dot messaging cannot be confirmed and retrying could send a duplicate",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonMessaging.thinking",
+   "text": "Thinking",
+   "description": "Live status in the dot header before a progress description is available",
+   "files": [
+    "_deps/activity-state-label-ef8948a46851.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonOnboarding.conversationStart",
+   "text": "Start of conversation",
+   "description": "Label beneath an agent's name at the beginning of its conversation",
+   "files": [
+    "dot/aeon-onboarding-8498df35b358.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonOnboarding.introductionAriaLabel.productName.dot",
+   "text": "Your {productName} introduction",
+   "description": "Accessible label for the agent introduction; productName is the untranslated term for the user's agent",
+   "files": [
+    "dot/aeon-onboarding-8498df35b358.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.aeonOnboarding.legacyName",
+   "text": "{name} (Legacy)",
+   "description": "Heading showing a new legacy agent's name with a Legacy label to distinguish it from a new dot",
+   "files": [
+    "dot/aeon-onboarding-8498df35b358.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.characters",
+   "text": "Characters",
+   "description": "Heading above preset characters and the custom character editor button",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.colors",
+   "text": "Colors",
+   "description": "Heading above colored ring avatars",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.createPet",
+   "text": "Create a pet",
+   "description": "Open the pet creation experience from the avatar chooser",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.custom",
+   "text": "Custom avatar",
+   "description": "Button that selects the saved custom character without opening the editor",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.customize",
+   "text": "Customize",
+   "description": "Button that opens the editor to create or edit the saved custom character",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.gray",
+   "text": "Gray",
+   "description": "Accessible name of the default gray ring avatar",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.pets",
+   "text": "Pets",
+   "description": "Heading above available pet avatars",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.avatarChooser.title",
+   "text": "Customize your dot",
+   "description": "Heading of the assistant avatar chooser",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.loadError",
+   "text": "Couldn’t load this character. Close the editor and try again",
+   "description": "Error when loading the saved assistant profile for appearance editing",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.loading",
+   "text": "Loading character…",
+   "description": "Status while the assistant's character renderer loads",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.petsLoadError",
+   "text": "Some pets couldn’t be loaded",
+   "description": "Error when the dot appearance picker could not load all saved pets",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.petsLoading",
+   "text": "Loading your pets…",
+   "description": "Status while fetching saved pets for the dot appearance picker",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.characterEditor.petsRetry",
+   "text": "Try again",
+   "description": "Button to reload saved pets in the dot appearance picker",
+   "files": [
+    "_deps/editor-placeholder-ad514bb91e1c.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.result.completed",
+   "text": "Prepared environment draft",
+   "description": "Activity shown when an environment draft has been finalized",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.result.failed",
+   "text": "Couldn’t prepare environment draft",
+   "description": "Activity shown when an environment draft could not be finalized",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.environmentSetup.result.finalizing",
+   "text": "Preparing environment draft",
+   "description": "Activity shown while an environment draft is being finalized",
+   "files": [
+    "_deps/agent-activity-item-dbfd9b291095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbit.voiceCall.history.durationAndOutcome",
+   "text": "{duration} · {outcome, select, failed {Call failed} interrupted {Call interrupted} not_connected {Call didn’t connect} other {Call ended}}",
+   "description": "Duration followed by the status of a completed dot voice call in the conversation",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbit.voiceCall.history.outcome",
+   "text": "{outcome, select, failed {Call failed} interrupted {Call interrupted} not_connected {Call didn’t connect} other {Call ended}}",
+   "description": "Status of a completed dot voice call in the conversation",
+   "files": [
+    "_deps/native-room-e0379260d6ee.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.almostThere",
+   "text": "Almost there",
+   "description": "Progress message shown while waiting for the user's first dot to send its second message.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.estimate",
+   "text": "This may take 30 seconds",
+   "description": "Initial reassurance shown while the user's first agent is being prepared.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.finalTouches",
+   "text": "Putting on the final touches",
+   "description": "Progress message shown while waiting for the user's first dot to send its second message.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.finishing",
+   "text": "Finishing up",
+   "description": "Progress message shown after the backend for the user's first dot is ready and before the dot's second message arrives.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.gettingPluginsReady",
+   "text": "Getting plugins ready",
+   "description": "Progress message shown while the user's first dot prepares its plugins.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.gettingReady.dot.brandName",
+   "text": "Getting your {productName} ready",
+   "description": "Heading shown while the user's first dot is being prepared. {productName} is the untranslated term for the user's agent.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.gettingToolsReady",
+   "text": "Getting tools ready",
+   "description": "Progress message shown while the user's first dot prepares its tools.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.nearlyReady",
+   "text": "Nearly ready",
+   "description": "Progress message shown while waiting for the user's first dot to send its second message.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.preparingSkills",
+   "text": "Preparing skills",
+   "description": "Progress message shown while the user's first dot prepares its skills.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.preparingWorkspace",
+   "text": "Preparing the workspace",
+   "description": "Progress message shown while the user's first dot prepares its workspace.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.settingUpBrowser",
+   "text": "Setting up the browser",
+   "description": "Progress message shown while the user's first dot prepares its browser.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.orbitCreation.startingComputer.dot.brandName",
+   "text": "Starting your {productName}’s computer",
+   "description": "Progress message shown while the user's first dot starts its computer. {productName} is the untranslated term for the user's agent.",
+   "files": [
+    "_deps/creation-placeholder-6c6006dd372a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.wallet.enrollment.cardAdded",
+   "text": "Card added",
+   "description": "A card was saved to Wallet and its original conversation request accepted the enrollment",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.wallet.purchase.approved",
+   "text": "Purchase approved",
+   "description": "A Wallet purchase approval was accepted; payment and order placement are not confirmed",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "restricted.wallet.purchase.statusUnconfirmed",
+   "text": "Couldn’t confirm this purchase’s status",
+   "description": "A Wallet purchase response could not be confirmed",
+   "files": [
+    "_deps/card-d6f4690fc654.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "thinkingShimmer.default",
+   "text": "Thinking",
+   "description": "Default placeholder shown while the assistant is thinking",
+   "files": [
+    "dot/aeon-onboarding-8498df35b358.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [
+  {
+   "from": "app-initial-ad16eaadf81f.js",
+   "count": 517,
+   "names": [
+    "$D",
+    "$Ln",
+    "$T",
+    "$n",
+    "A",
+    "A9",
+    "AFr",
+    "AK",
+    "Aet",
+    "Air",
+    "Asr",
+    "Aur",
+    "Ay",
+    "B9",
+    "BCr",
+    "BE",
+    "BK",
+    "BOn",
+    "BOr",
+    "BQ",
+    "BRr",
+    "B_r",
+    "Bar",
+    "Bhr",
+    "Bi",
+    "Bjn",
+    "Bq",
+    "Bqt",
+    "By",
+    "Byr",
+    "C0",
+    "CCn",
+    "CQ",
+    "CRn",
+    "CSr",
+    "Car",
+    "Cet",
+    "Cjr",
+    "Cq",
+    "D",
+    "D9",
+    "DCn",
+    "DI",
+    "DJ",
+    "DT",
+    "D_r",
+    "Dbr",
+    "Der",
+    "Dfr",
+    "Drr",
+    "E",
+    "E9",
+    "ECn",
+    "EEr",
+    "EGt",
+    "EJ",
+    "ERr",
+    "ESr",
+    "ET",
+    "E_r",
+    "Eet",
+    "Ef",
+    "Emr",
+    "Err",
+    "FBr",
+    "FCn",
+    "FLr",
+    "Fbt",
+    "Fer",
+    "Fl",
+    "Fln",
+    "Fq",
+    "Fqt",
+    "GLn",
+    "GOn",
+    "GZ",
+    "Gi",
+    "Gpr",
+    "Gwr",
+    "H",
+    "H$r",
+    "H9",
+    "H9n",
+    "HOn",
+    "HQ",
+    "H_r",
+    "Hlr",
+    "Hmr",
+    "Hsr",
+    "Hyr",
+    "I",
+    "I9",
+    "IBr",
+    "ICn",
+    "IE",
+    "IFr",
+    "IVr",
+    "I_r",
+    "Ibt",
+    "Il",
+    "Iln",
+    "Iq",
+    "Iqt",
+    "Iwn",
+    "Iyr",
+    "JRt",
+    "Jo",
+    "Jq",
+    "Jwr",
+    "Jyr",
+    "KSr",
+    "KZ",
+    "Ki",
+    "Kpr",
+    "Kwr",
+    "Kyr",
+    "L",
+    "L9",
+    "LCr",
+    "LFr",
+    "LK",
+    "LLn",
+    "LLr",
+    "LOr",
+    "LVr",
+    "L_r",
+    "Li",
+    "Lo",
+    "Lq",
+    "Lqt",
+    "Ly",
+    "M6t",
+    "MOr",
+    "MQ",
+    "MSt",
+    "MT",
+    "M_r",
+    "Mbr",
+    "Mir",
+    "Mkr",
+    "Mq",
+    "Mqt",
+    "My",
+    "N6t",
+    "NE",
+    "NOr",
+    "NSt",
+    "Nbr",
+    "Nf",
+    "Nkr",
+    "Nl",
+    "Nq",
+    "Nqt",
+    "Nvr",
+    "O",
+    "O9",
+    "OCn",
+    "OEr",
+    "OI",
+    "OMr",
+    "OSr",
+    "Oar",
+    "Obr",
+    "Oet",
+    "Okr",
+    "Our",
+    "P$r",
+    "P9",
+    "PE",
+    "PFr",
+    "POr",
+    "PVr",
+    "P_r",
+    "Pbt",
+    "Pf",
+    "Pkr",
+    "Pl",
+    "Pq",
+    "Pqt",
+    "Q9",
+    "QD",
+    "QLn",
+    "QOn",
+    "QSr",
+    "Qer",
+    "Qgr",
+    "Qn",
+    "Qtr",
+    "R",
+    "RK",
+    "Rar",
+    "Rbt",
+    "Ri",
+    "Rmr",
+    "Ro",
+    "Rq",
+    "Rqt",
+    "Ry",
+    "Ryr",
+    "Rzr",
+    "S",
+    "S0",
+    "S9",
+    "SCn",
+    "SD",
+    "SQ",
+    "SRn",
+    "SYn",
+    "Set",
+    "Sf",
+    "Sfr",
+    "Sh",
+    "Sn",
+    "Sq",
+    "Svr",
+    "T",
+    "T9",
+    "TCn",
+    "TD",
+    "TGt",
+    "TLn",
+    "TMr",
+    "TRr",
+    "TYn",
+    "Tfr",
+    "Trr",
+    "U",
+    "U7",
+    "U9",
+    "UE",
+    "UOn",
+    "Ug",
+    "Uhr",
+    "Ulr",
+    "Uor",
+    "Uwn",
+    "Uyr",
+    "V",
+    "V$r",
+    "V3n",
+    "VE",
+    "VOn",
+    "VQ",
+    "V_r",
+    "Vq",
+    "Vqt",
+    "Vsr",
+    "Vy",
+    "Vyr",
+    "Vzn",
+    "W7",
+    "W9",
+    "WLn",
+    "WOn",
+    "W_r",
+    "Wg",
+    "Wor",
+    "Wut",
+    "Wyr",
+    "X",
+    "XEn",
+    "XEr",
+    "XFr",
+    "Xj",
+    "Xmr",
+    "Xo",
+    "Xtr",
+    "Xz",
+    "Y",
+    "YEn",
+    "YFr",
+    "YRt",
+    "Ygr",
+    "Yo",
+    "Z9",
+    "ZEr",
+    "ZLn",
+    "Zgr",
+    "Zj",
+    "Zo",
+    "Zz",
+    "_Cn",
+    "_et",
+    "_jn",
+    "_n",
+    "_p",
+    "_q",
+    "_sr",
+    "_vr",
+    "aD",
+    "aGt",
+    "aVr",
+    "abr",
+    "aln",
+    "bCn",
+    "bLr",
+    "bRn",
+    "bn",
+    "bq",
+    "bzt",
+    "c1r",
+    "c6n",
+    "cCr",
+    "cDn",
+    "cE",
+    "cPn",
+    "c_r",
+    "cir",
+    "csr",
+    "d9",
+    "dD",
+    "dNt",
+    "dTn",
+    "det",
+    "dsr",
+    "dvr",
+    "eE",
+    "eMr",
+    "eO",
+    "eOt",
+    "ean",
+    "eer",
+    "enr",
+    "er",
+    "evr",
+    "f9",
+    "fD",
+    "fNt",
+    "fbr",
+    "fir",
+    "fr",
+    "fsr",
+    "fvr",
+    "g9",
+    "gCn",
+    "gGt",
+    "gLr",
+    "gSr",
+    "gen",
+    "get",
+    "gln",
+    "gn",
+    "gp",
+    "gq",
+    "gvr",
+    "gzt",
+    "h5n",
+    "hD",
+    "hDr",
+    "hGt",
+    "hbr",
+    "hen",
+    "hln",
+    "hnn",
+    "hq",
+    "hvr",
+    "hzt",
+    "iRr",
+    "iTr",
+    "iVr",
+    "ikr",
+    "j9",
+    "jA",
+    "jQ",
+    "jSr",
+    "jT",
+    "j_r",
+    "jer",
+    "jqt",
+    "jsr",
+    "jur",
+    "jy",
+    "k",
+    "k9",
+    "kA",
+    "kCn",
+    "kEr",
+    "kK",
+    "kMr",
+    "kar",
+    "kbr",
+    "kkr",
+    "ky",
+    "l1r",
+    "l9",
+    "lBr",
+    "lD",
+    "lDn",
+    "lSr",
+    "la",
+    "lar",
+    "lbr",
+    "lkr",
+    "lsr",
+    "m9",
+    "mDr",
+    "mSr",
+    "mYn",
+    "mln",
+    "mnn",
+    "mq",
+    "mvr",
+    "nCr",
+    "nD",
+    "nGt",
+    "nMr",
+    "na",
+    "njr",
+    "nnr",
+    "non",
+    "nvr",
+    "nwt",
+    "o9",
+    "oD",
+    "oE",
+    "oGn",
+    "oGt",
+    "oa",
+    "obr",
+    "oer",
+    "oet",
+    "okr",
+    "oln",
+    "p5n",
+    "p6n",
+    "pD",
+    "pDr",
+    "pNt",
+    "pbr",
+    "pen",
+    "pkr",
+    "pln",
+    "pr",
+    "pzt",
+    "qLn",
+    "qSr",
+    "qjn",
+    "qq",
+    "qv",
+    "rCr",
+    "rD",
+    "rGt",
+    "rPn",
+    "rTr",
+    "rVr",
+    "ra",
+    "ret",
+    "ron",
+    "rvr",
+    "rwt",
+    "s1r",
+    "sE",
+    "sGn",
+    "sGt",
+    "s_r",
+    "sbr",
+    "str",
+    "tCr",
+    "tD",
+    "tOt",
+    "tan",
+    "tjr",
+    "tkn",
+    "tnr",
+    "tr",
+    "tyr",
+    "u9",
+    "uBr",
+    "uCr",
+    "uD",
+    "uNt",
+    "uTn",
+    "uar",
+    "ubr",
+    "uet",
+    "v9",
+    "vLr",
+    "vSr",
+    "vsr",
+    "w6n",
+    "wCn",
+    "wD",
+    "wEr",
+    "wGt",
+    "wLn",
+    "wLr",
+    "wmr",
+    "wq",
+    "wsr",
+    "x",
+    "xYn",
+    "xar",
+    "xet",
+    "xh",
+    "xjr",
+    "xn",
+    "xq",
+    "xvr",
+    "y6n",
+    "yCn",
+    "yD",
+    "yLr",
+    "yjn",
+    "yq",
+    "yzt",
+    "z",
+    "z3n",
+    "zOr",
+    "zQ",
+    "zRr",
+    "z_r",
+    "zi",
+    "zq",
+    "zqt",
+    "zyr",
+    "zzn",
+    "zzr"
+   ]
+  },
+  {
+   "from": "app-shared-2feb3d4c6fcc.js",
+   "count": 215,
+   "names": [
+    "$3",
+    "$4",
+    "$O",
+    "$St",
+    "$j",
+    "$st",
+    "A$",
+    "AU",
+    "Adt",
+    "Aw",
+    "B1",
+    "BO",
+    "BRt",
+    "Bf",
+    "CCt",
+    "CH",
+    "CNt",
+    "CTt",
+    "DB",
+    "DY",
+    "E0",
+    "EO",
+    "EY",
+    "F3",
+    "FBt",
+    "FTt",
+    "Ff",
+    "GK",
+    "GX",
+    "HFt",
+    "HO",
+    "HTt",
+    "Hf",
+    "Hj",
+    "Hst",
+    "I3",
+    "IH",
+    "IO",
+    "ITt",
+    "If",
+    "JO",
+    "JOt",
+    "Jbt",
+    "Jx",
+    "Jz",
+    "KO",
+    "KSt",
+    "KX",
+    "L0",
+    "LNt",
+    "LO",
+    "LQ",
+    "LRt",
+    "Lf",
+    "Lst",
+    "M2",
+    "MFt",
+    "MNt",
+    "MPt",
+    "MZ",
+    "Mst",
+    "N0",
+    "NLt",
+    "NNt",
+    "NO",
+    "NSt",
+    "OB",
+    "OFt",
+    "ORt",
+    "Oit",
+    "P0",
+    "PBt",
+    "PO",
+    "Qst",
+    "R0",
+    "RFt",
+    "RO",
+    "RQ",
+    "Rf",
+    "Rst",
+    "S4",
+    "SCt",
+    "SH",
+    "SLt",
+    "SSt",
+    "SY",
+    "Smt",
+    "T0",
+    "TCt",
+    "TLt",
+    "TO",
+    "TY",
+    "UQ",
+    "UTt",
+    "Uot",
+    "Uz",
+    "VH",
+    "VRt",
+    "VSt",
+    "VTt",
+    "Vf",
+    "Vot",
+    "Vrt",
+    "Vst",
+    "WO",
+    "WQ",
+    "WTt",
+    "Wj",
+    "Wz",
+    "X0",
+    "X3",
+    "XOt",
+    "XY",
+    "Y0",
+    "Y3",
+    "YI",
+    "YOt",
+    "YY",
+    "Yst",
+    "Yx",
+    "Z3",
+    "ZOt",
+    "ZSt",
+    "Zst",
+    "_wt",
+    "_x",
+    "aCt",
+    "ast",
+    "ay",
+    "cA",
+    "cG",
+    "cQ",
+    "ck",
+    "cmt",
+    "cy",
+    "dH",
+    "dM",
+    "dQ",
+    "dSt",
+    "e3",
+    "e6",
+    "eB",
+    "eM",
+    "ek",
+    "fQ",
+    "gX",
+    "gx",
+    "hRt",
+    "hX",
+    "hst",
+    "hx",
+    "iCt",
+    "iFt",
+    "ist",
+    "iy",
+    "j2",
+    "jFt",
+    "jZ",
+    "jit",
+    "jst",
+    "k$",
+    "kCt",
+    "kFt",
+    "kLt",
+    "kRt",
+    "kw",
+    "lA",
+    "ly",
+    "mTt",
+    "mbt",
+    "mst",
+    "mx",
+    "nB",
+    "nCt",
+    "nf",
+    "oPt",
+    "okt",
+    "oy",
+    "pTt",
+    "pbt",
+    "pwt",
+    "qI",
+    "qO",
+    "qOt",
+    "qrt",
+    "qst",
+    "qz",
+    "rB",
+    "rk",
+    "rzt",
+    "sJ",
+    "sPt",
+    "sQ",
+    "sct",
+    "sy",
+    "tB",
+    "tf",
+    "tht",
+    "tk",
+    "tkt",
+    "uRt",
+    "uSt",
+    "vW",
+    "vst",
+    "wK",
+    "wTt",
+    "w_t",
+    "x4",
+    "xK",
+    "yCt",
+    "yst",
+    "z1",
+    "zFt",
+    "zO",
+    "zf"
+   ]
+  },
+  {
+   "from": "composer-controls-83dab93fd40e.js",
+   "count": 22,
+   "names": [
+    "A",
+    "D",
+    "E",
+    "M",
+    "O",
+    "_",
+    "a",
+    "c",
+    "d",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u",
+    "w"
+   ]
+  },
+  {
+   "from": "app-primary-3e00728c2a4c.js",
+   "count": 10,
+   "names": [
+    "Md",
+    "Xh",
+    "Zh",
+    "jd",
+    "lh",
+    "lu",
+    "nh",
+    "th",
+    "uh",
+    "uu"
+   ]
+  },
+  {
+   "from": "three.module-859594e5f29f.js",
+   "count": 10,
+   "names": [
+    "$r",
+    "Qr",
+    "Ui",
+    "a",
+    "fo",
+    "mo",
+    "ns",
+    "qr",
+    "s",
+    "st"
+   ]
+  },
+  {
+   "from": "mcp-tool-activity-label-1110f61411ea.js",
+   "count": 10,
+   "names": [
+    "a",
+    "c",
+    "d",
+    "f",
+    "h",
+    "i",
+    "m",
+    "n",
+    "p",
+    "u"
+   ]
+  },
+  {
+   "from": "mcp-plugin-logo-7c38d32a1075.js",
+   "count": 10,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t",
+    "u"
+   ]
+  },
+  {
+   "from": "card-d6f4690fc654.js",
+   "count": 9,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "l",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "appearance-edit-badge-b48afbab6721.js",
+   "count": 8,
+   "names": [
+    "a",
+    "c",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "dot-onboarding-ring-3a28f5d14c91.js",
+   "count": 7,
+   "names": [
+    "a",
+    "i",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "text-message-instructions-b6697bc2c9ac.js",
+   "count": 6,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "r",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "skill-exploration-labels-b9fbfd2b8bea.js",
+   "count": 6,
+   "names": [
+    "a",
+    "c",
+    "l",
+    "n",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "state-adcafba6da33.js",
+   "count": 5,
+   "names": [
+    "a",
+    "c",
+    "l",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-appearance-colors-b50b0bb628b3.js",
+   "count": 5,
+   "names": [
+    "c",
+    "i",
+    "l",
+    "o",
+    "s"
+   ]
+  },
+  {
+   "from": "editor-placeholder-ad514bb91e1c.js",
+   "count": 4,
+   "names": [
+    "n",
+    "o",
+    "s",
+    "t"
+   ]
+  },
+  {
+   "from": "editor-lazy-4b5af0d5310d.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "dot-onboarding-handoff-state-5d8cdd782f1a.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "request-panel-2cd6348080e3.js",
+   "count": 4,
+   "names": [
+    "a",
+    "n",
+    "o",
+    "t"
+   ]
+  },
+  {
+   "from": "open-file-a30e4b9354b7.js",
+   "count": 4,
+   "names": [
+    "i",
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-summary-panel-components-10c7926d4688.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "timestamps-85bd12c0e1b2.js",
+   "count": 3,
+   "names": [
+    "a",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-response-status-row-41b72492260a.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "mcp-tool-call-approval-b94fbe680732.js",
+   "count": 3,
+   "names": [
+    "i",
+    "n",
+    "r"
+   ]
+  },
+  {
+   "from": "handoff-target-a9e54f7dbeb9.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "mcp-identifier-cea5b065280d.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "transcript-state-6eb190d3a30e.js",
+   "count": 3,
+   "names": [
+    "a",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "card-7005e7062ff8.js",
+   "count": 3,
+   "names": [
+    "n",
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "rolldown-runtime-2d059c5e81f4.js",
+   "count": 2,
+   "names": [
+    "n",
+    "o"
+   ]
+  },
+  {
+   "from": "appearance-picker-button-906f8686708c.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-appearance-picker-a56c1776e17c.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "aeon-onboarding-8498df35b358.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "timestamp-separator-aa59edf121b2.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "channel-button-f5aa14ad6749.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "contact-ready-a5c1b12887b2.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "activity-state-label-ef8948a46851.js",
+   "count": 2,
+   "names": [
+    "n",
+    "r"
+   ]
+  },
+  {
+   "from": "local-conversation-turn-c29506b1be78.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "agent-activity-item-dbfd9b291095.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "generated-image-output-visibility-6eb3eb72358d.js",
+   "count": 2,
+   "names": [
+    "d",
+    "u"
+   ]
+  },
+  {
+   "from": "dot-doJTctYY-53aae83db170.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "createLucideIcon-BrIFp4GW-442249f15ec0.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "document-title-149d008a9f01.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "local-conversation-tab-runtime-bridge-fea1a6b3fc35.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "thread-app-shell-chrome-783ea972fd83.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "chat-tab-metadata-bridge-a418861b2736.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "conversation-view-bf18baad271b.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "catalog-988c81bb3059.js",
+   "count": 2,
+   "names": [
+    "r",
+    "t"
+   ]
+  },
+  {
+   "from": "color-icon-5a5a69e17a26.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "microsoft-oauth-bundle-ca8e0d4a5995.js",
+   "count": 2,
+   "names": [
+    "o",
+    "t"
+   ]
+  },
+  {
+   "from": "request-action-chip-fb3635b2e1e7.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "browser-auth-header-b685c2e849ed.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "status-5c61cfc2f6fa.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "mcp-request-card-6a35b7fc0e14.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "use-avatar-options-38297e1d0f5d.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "mcp-app-host-styles-feb07f83d29c.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "emoji-regex-xs-ae6eb0becbe3.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "context-menu-65400a32a242.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "creation-placeholder-6c6006dd372a.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "state-62d1b2b1cb7d.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "prewarm-runtime-2e238dd0f6d3.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  },
+  {
+   "from": "handoff-8870f27e881f.js",
+   "count": 2,
+   "names": [
+    "n",
+    "t"
+   ]
+  }
+ ],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 418
+  },
+  {
+   "name": "className",
+   "count": 317
+  },
+  {
+   "name": "id",
+   "count": 263
+  },
+  {
+   "name": "description",
+   "count": 243
+  },
+  {
+   "name": "defaultMessage",
+   "count": 231
+  },
+  {
+   "name": "value",
+   "count": 101
+  },
+  {
+   "name": "conversationId",
+   "count": 84
+  },
+  {
+   "name": "key",
+   "count": 81
+  },
+  {
+   "name": "null",
+   "count": 74
+  },
+  {
+   "name": "disabled",
+   "count": 59
+  },
+  {
+   "name": "hostId",
+   "count": 53
+  },
+  {
+   "name": "type",
+   "count": 44
+  },
+  {
+   "name": "title",
+   "count": 44
+  },
+  {
+   "name": "variant",
+   "count": 40
+  },
+  {
+   "name": "values",
+   "count": 39
+  },
+  {
+   "name": "roomId",
+   "count": 39
+  },
+  {
+   "name": "onClick",
+   "count": 38
+  },
+  {
+   "name": "threadId",
+   "count": 38
+  },
+  {
+   "name": "color",
+   "count": 35
+  },
+  {
+   "name": "size",
+   "count": 33
+  },
+  {
+   "name": "role",
+   "count": 30
+  },
+  {
+   "name": "accountId",
+   "count": 28
+  },
+  {
+   "name": "data",
+   "count": 27
+  },
+  {
+   "name": "userId",
+   "count": 27
+  },
+  {
+   "name": "tool",
+   "count": 26
+  },
+  {
+   "name": "message",
+   "count": 26
+  },
+  {
+   "name": "mode",
+   "count": 25
+  },
+  {
+   "name": "name",
+   "count": 24
+  },
+  {
+   "name": "client",
+   "count": 24
+  },
+  {
+   "name": "ref",
+   "count": 23
+  },
+  {
+   "name": "pauseResumeAction",
+   "count": 23
+  },
+  {
+   "name": "sm",
+   "count": 22
+  },
+  {
+   "name": "active",
+   "count": 19
+  },
+  {
+   "name": "icon",
+   "count": 19
+  },
+  {
+   "name": "label",
+   "count": 19
+  },
+  {
+   "name": "item",
+   "count": 19
+  },
+  {
+   "name": "namespace",
+   "count": 19
+  },
+  {
+   "name": "text",
+   "count": 17
+  },
+  {
+   "name": "renderAgentActivityIcon",
+   "count": 17
+  },
+  {
+   "name": "avatar",
+   "count": 16
+  },
+  {
+   "name": "fallback",
+   "count": 16
+  },
+  {
+   "name": "isError",
+   "count": 16
+  },
+  {
+   "name": "enabled",
+   "count": 16
+  },
+  {
+   "name": "requestId",
+   "count": 16
+  },
+  {
+   "name": "identity",
+   "count": 15
+  },
+  {
+   "name": "asset",
+   "count": 15
+  },
+  {
+   "name": "kind",
+   "count": 15
+  },
+  {
+   "name": "error",
+   "count": 14
+  },
+  {
+   "name": "action",
+   "count": 14
+  },
+  {
+   "name": "render",
+   "count": 14
+  },
+  {
+   "name": "status",
+   "count": 14
+  },
+  {
+   "name": "messageId",
+   "count": 14
+  },
+  {
+   "name": "onReply",
+   "count": 14
+  },
+  {
+   "name": "destination",
+   "count": 13
+  },
+  {
+   "name": "layout",
+   "count": 13
+  },
+  {
+   "name": "href",
+   "count": 13
+  },
+  {
+   "name": "opacity",
+   "count": 12
+  },
+  {
+   "name": "duration",
+   "count": 12
+  },
+  {
+   "name": "taskId",
+   "count": 12
+  },
+  {
+   "name": "src",
+   "count": 12
+  },
+  {
+   "name": "staleTime",
+   "count": 12
+  },
+  {
+   "name": "onOpenInThread",
+   "count": 12
+  },
+  {
+   "name": "signal",
+   "count": 12
+  },
+  {
+   "name": "number",
+   "count": 11
+  },
+  {
+   "name": "isPending",
+   "count": 11
+  },
+  {
+   "name": "get",
+   "count": 11
+  },
+  {
+   "name": "retry",
+   "count": 11
+  },
+  {
+   "name": "acknowledgement",
+   "count": 11
+  },
+  {
+   "name": "y",
+   "count": 10
+  },
+  {
+   "name": "operation",
+   "count": 10
+  },
+  {
+   "name": "state",
+   "count": 10
+  },
+  {
+   "name": "result",
+   "count": 10
+  },
+  {
+   "name": "scope",
+   "count": 10
+  },
+  {
+   "name": "request",
+   "count": 10
+  },
+  {
+   "name": "t",
+   "count": 10
+  },
+  {
+   "name": "after",
+   "count": 10
+  },
+  {
+   "name": "writable",
+   "count": 10
+  },
+  {
+   "name": "country",
+   "count": 10
+  },
+  {
+   "name": "done",
+   "count": 10
+  },
+  {
+   "name": "appearance",
+   "count": 9
+  },
+  {
+   "name": "pet",
+   "count": 9
+  },
+  {
+   "name": "loading",
+   "count": 9
+  },
+  {
+   "name": "radius",
+   "count": 9
+  },
+  {
+   "name": "onCreatePet",
+   "count": 9
+  },
+  {
+   "name": "time",
+   "count": 9
+  },
+  {
+   "name": "animate",
+   "count": 9
+  },
+  {
+   "name": "path",
+   "count": 9
+  },
+  {
+   "name": "e",
+   "count": 9
+  },
+  {
+   "name": "items",
+   "count": 9
+  },
+  {
+   "name": "width",
+   "count": 9
+  },
+  {
+   "name": "height",
+   "count": 9
+  },
+  {
+   "name": "turnId",
+   "count": 9
+  },
+  {
+   "name": "alt",
+   "count": 9
+  },
+  {
+   "name": "swatchClassName",
+   "count": 8
+  },
+  {
+   "name": "textClassName",
+   "count": 8
+  },
+  {
+   "name": "accentClassName",
+   "count": 8
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 8
+  },
+  {
+   "name": "footer",
+   "count": 8
+  },
+  {
+   "name": "open",
+   "count": 8
+  },
+  {
+   "name": "r",
+   "count": 8
+  },
+  {
+   "name": "sentAtMs",
+   "count": 8
+  },
+  {
+   "name": "transition",
+   "count": 8
+  },
+  {
+   "name": "initiator",
+   "count": 8
+  },
+  {
+   "name": "embedded",
+   "count": 8
+  },
+  {
+   "name": "isFetching",
+   "count": 8
+  },
+  {
+   "name": "mcpServerStatuses",
+   "count": 8
+  },
+  {
+   "name": "tabId",
+   "count": 8
+  },
+  {
+   "name": "queryFn",
+   "count": 8
+  },
+  {
+   "name": "queryKey",
+   "count": 8
+  },
+  {
+   "name": "preview",
+   "count": 8
+  },
+  {
+   "name": "orbitId",
+   "count": 8
+  },
+  {
+   "name": "clientThreadId",
+   "count": 8
+  },
+  {
+   "name": "background",
+   "count": 7
+  },
+  {
+   "name": "foreground",
+   "count": 7
+  },
+  {
+   "name": "petId",
+   "count": 7
+  },
+  {
+   "name": "triggerContent",
+   "count": 7
+  },
+  {
+   "name": "onChange",
+   "count": 7
+  },
+  {
+   "name": "productName",
+   "count": 7
+  },
+  {
+   "name": "onOpenChange",
+   "count": 7
+  },
+  {
+   "name": "onSetup",
+   "count": 7
+  },
+  {
+   "name": "refetch",
+   "count": 7
+  },
+  {
+   "name": "isLoading",
+   "count": 7
+  },
+  {
+   "name": "email",
+   "count": 7
+  },
+  {
+   "name": "subtitle",
+   "count": 7
+  },
+  {
+   "name": "heading",
+   "count": 7
+  },
+  {
+   "name": "isCodexAppsServer",
+   "count": 7
+  },
+  {
+   "name": "fill",
+   "count": 7
+  },
+  {
+   "name": "tboId",
+   "count": 7
+  },
+  {
+   "name": "summary",
+   "count": 7
+  },
+  {
+   "name": "_meta",
+   "count": 7
+  },
+  {
+   "name": "metadata",
+   "count": 7
+  },
+  {
+   "name": "origin",
+   "count": 7
+  },
+  {
+   "name": "actions",
+   "count": 7
+  },
+  {
+   "name": "persist",
+   "count": 7
+  },
+  {
+   "name": "recipient",
+   "count": 7
+  },
+  {
+   "name": "Rs",
+   "count": 7
+  },
+  {
+   "name": "nationalNumber",
+   "count": 7
+  },
+  {
+   "name": "options",
+   "count": 6
+  },
+  {
+   "name": "initial",
+   "count": 6
+  },
+  {
+   "name": "lastActiveAtMs",
+   "count": 6
+  },
+  {
+   "name": "serverName",
+   "count": 6
+  },
+  {
+   "name": "loadRemote",
+   "count": 6
+  },
+  {
+   "name": "context",
+   "count": 6
+  },
+  {
+   "name": "elicitations",
+   "count": 6
+  },
+  {
+   "name": "elicitation",
+   "count": 6
+  },
+  {
+   "name": "logoUrl",
+   "count": 6
+  },
+  {
+   "name": "count",
+   "count": 6
+  },
+  {
+   "name": "reason",
+   "count": 6
+  },
+  {
+   "name": "isExpandable",
+   "count": 6
+  },
+  {
+   "name": "sessionKey",
+   "count": 6
+  },
+  {
+   "name": "media",
+   "count": 6
+  },
+  {
+   "name": "parentConversationId",
+   "count": 6
+  },
+  {
+   "name": "messages",
+   "count": 6
+  },
+  {
+   "name": "performance",
+   "count": 6
+  },
+  {
+   "name": "controller",
+   "count": 6
+  },
+  {
+   "name": "String",
+   "count": 6
+  },
+  {
+   "name": "countryCallingCode",
+   "count": 6
+  },
+  {
+   "name": "configurable",
+   "count": 6
+  },
+  {
+   "name": "v2",
+   "count": 6
+  },
+  {
+   "name": "onClose",
+   "count": 5
+  },
+  {
+   "name": "selectedId",
+   "count": 5
+  },
+  {
+   "name": "nowMs",
+   "count": 5
+  },
+  {
+   "name": "day",
+   "count": 5
+  },
+  {
+   "name": "compact",
+   "count": 5
+  },
+  {
+   "name": "ease",
+   "count": 5
+  },
+  {
+   "name": "i",
+   "count": 5
+  },
+  {
+   "name": "aeonId",
+   "count": 5
+  },
+  {
+   "name": "onRemove",
+   "count": 5
+  },
+  {
+   "name": "onSelect",
+   "count": 5
+  },
+  {
+   "name": "hidden",
+   "count": 5
+  },
+  {
+   "name": "o",
+   "count": 5
+  },
+  {
+   "name": "transform",
+   "count": 5
+  },
+  {
+   "name": "delay",
+   "count": 5
+  },
+  {
+   "name": "d",
+   "count": 5
+  },
+  {
+   "name": "isOrbit",
+   "count": 5
+  },
+  {
+   "name": "target",
+   "count": 5
+  },
+  {
+   "name": "browserAuth",
+   "count": 5
+  },
+  {
+   "name": "ApprovalCard",
+   "count": 5
+  },
+  {
+   "name": "approveLabel",
+   "count": 5
+  },
+  {
+   "name": "logoDarkUrl",
+   "count": 5
+  },
+  {
+   "name": "walletEnrollment",
+   "count": 5
+  },
+  {
+   "name": "fingerprint",
+   "count": 5
+  },
+  {
+   "name": "approveDisabled",
+   "count": 5
+  },
+  {
+   "name": "headerContent",
+   "count": 5
+  },
+  {
+   "name": "inMini",
+   "count": 5
+  },
+  {
+   "name": "isExpanded",
+   "count": 5
+  },
+  {
+   "name": "renderMessageContent",
+   "count": 5
+  },
+  {
+   "name": "uploads",
+   "count": 5
+  },
+  {
+   "name": "renderInlineVisualizations",
+   "count": 5
+  },
+  {
+   "name": "rowRef",
+   "count": 5
+  },
+  {
+   "name": "accountUserId",
+   "count": 5
+  },
+  {
+   "name": "carrierCode",
+   "count": 5
+  },
+  {
+   "name": "enumerable",
+   "count": 5
+  },
+  {
+   "name": "onTrigger",
+   "count": 4
+  },
+  {
+   "name": "source",
+   "count": 4
+  },
+  {
+   "name": "reducedMotion",
+   "count": 4
+  },
+  {
+   "name": "disabledAppearance",
+   "count": 4
+  },
+  {
+   "name": "as",
+   "count": 4
+  },
+  {
+   "name": "onSubmit",
+   "count": 4
+  },
+  {
+   "name": "contentProps",
+   "count": 4
+  },
+  {
+   "name": "tokens",
+   "count": 4
+  },
+  {
+   "name": "hour",
+   "count": 4
+  },
+  {
+   "name": "minute",
+   "count": 4
+  },
+  {
+   "name": "isArchived",
+   "count": 4
+  },
+  {
+   "name": "parameters",
+   "count": 4
+  },
+  {
+   "name": "method",
+   "count": 4
+  },
+  {
+   "name": "event",
+   "count": 4
+  },
+  {
+   "name": "default",
+   "count": 4
+  },
+  {
+   "name": "isActive",
+   "count": 4
+  },
+  {
+   "name": "pausedAtMs",
+   "count": 4
+  },
+  {
+   "name": "unit",
+   "count": 4
+  },
+  {
+   "name": "isEqual",
+   "count": 4
+  },
+  {
+   "name": "cwd",
+   "count": 4
+  },
+  {
+   "name": "to",
+   "count": 4
+  },
+  {
+   "name": "replace",
+   "count": 4
+  },
+  {
+   "name": "debugName",
+   "count": 4
+  },
+  {
+   "name": "toolName",
+   "count": 4
+  },
+  {
+   "name": "agentActivityIcon",
+   "count": 4
+  },
+  {
+   "name": "getCompletedSummaryPartKey",
+   "count": 4
+  },
+  {
+   "name": "site",
+   "count": 4
+  },
+  {
+   "name": "requestedSchema",
+   "count": 4
+  },
+  {
+   "name": "toolParams",
+   "count": 4
+  },
+  {
+   "name": "onReconcile",
+   "count": 4
+  },
+  {
+   "name": "isMessageContent",
+   "count": 4
+  },
+  {
+   "name": "ended",
+   "count": 4
+  },
+  {
+   "name": "bb0",
+   "count": 4
+  },
+  {
+   "name": "content",
+   "count": 4
+  },
+  {
+   "name": "phone",
+   "count": 4
+  },
+  {
+   "name": "onUpdate",
+   "count": 4
+  },
+  {
+   "name": "attachment",
+   "count": 4
+  },
+  {
+   "name": "onRetry",
+   "count": 4
+  },
+  {
+   "name": "draft",
+   "count": 4
+  },
+  {
+   "name": "createdAt",
+   "count": 4
+  },
+  {
+   "name": "splitRichBlocks",
+   "count": 4
+  },
+  {
+   "name": "rootId",
+   "count": 4
+  },
+  {
+   "name": "initialMessageId",
+   "count": 4
+  },
+  {
+   "name": "deliveryState",
+   "count": 4
+  },
+  {
+   "name": "capturePageContext",
+   "count": 4
+  },
+  {
+   "name": "countryCallingCodeSource",
+   "count": 4
+  },
+  {
+   "name": "ariaLabel",
+   "count": 4
+  },
+  {
+   "name": "orbitName",
+   "count": 4
+  },
+  {
+   "name": "date",
+   "count": 4
+  },
+  {
+   "name": "previewRef",
+   "count": 3
+  },
+  {
+   "name": "previewFallback",
+   "count": 3
+  },
+  {
+   "name": "pathname",
+   "count": 3
+  },
+  {
+   "name": "month",
+   "count": 3
+  },
+  {
+   "name": "sectionKey",
+   "count": 3
+  },
+  {
+   "name": "outcome",
+   "count": 3
+  },
+  {
+   "name": "emailAddress",
+   "count": 3
+  },
+  {
+   "name": "triggerButton",
+   "count": 3
+  }
+ ],
+ "literal_count": 3243,
+ "literals_file": "D:\\qax\\reagent\\dev\\git\\Syntropy\\codex_app_rev\\.work\\literals-261016\\aeon.json"
+}

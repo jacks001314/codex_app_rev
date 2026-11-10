@@ -1,0 +1,836 @@
+{
+ "module": "composer",
+ "generated_at": "2026-10-17T04:58:40.621Z",
+ "source_archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+ "app_version": "26.1013.40934",
+ "files": [
+  {
+   "archive_path": "webview/assets/above-composer-fixed-content-surface-a287e0680749.js",
+   "file": "core/above-composer-fixed-content-surface-a287e0680749.js",
+   "selected_by": "rule",
+   "raw_bytes": 934,
+   "formatted_bytes": 1321,
+   "formatter": "prettier",
+   "sha256_raw": "0bf1c6d4cf9313459da7c990b074cf590de4d900c28ad3ca96dd32490cbf5a18"
+  },
+  {
+   "archive_path": "webview/assets/artifact-session-binding-6769673df157.js",
+   "file": "_deps/artifact-session-binding-6769673df157.js",
+   "selected_by": "closure:d1:page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "raw_bytes": 9813,
+   "formatted_bytes": 14453,
+   "formatter": "prettier",
+   "sha256_raw": "ae6d7a7dccce7d9e0ae2f306624f9b5b7bd6ebce78d8fa97be55a02c53f710a7"
+  },
+  {
+   "archive_path": "webview/assets/artifact-session-binding-8b097de08caa.js",
+   "file": "_deps/artifact-session-binding-8b097de08caa.js",
+   "selected_by": "closure:d1:page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "raw_bytes": 306,
+   "formatted_bytes": 335,
+   "formatter": "prettier",
+   "sha256_raw": "17f5d11bbbcc4dfae6fafe769828d262ea1fe6f3efeb350b1f382fe311ebf80b"
+  },
+  {
+   "archive_path": "webview/assets/browser-composer-disclaimer-270350ecc481.js",
+   "file": "core/browser-composer-disclaimer-270350ecc481.js",
+   "selected_by": "rule",
+   "raw_bytes": 160,
+   "formatted_bytes": 174,
+   "formatter": "prettier",
+   "sha256_raw": "a2074e6b96b259ee6911686c4ad7af6f9800daf01513aa473a89e17a53f70df3"
+  },
+  {
+   "archive_path": "webview/assets/browser-composer-disclaimer-96976c4a903c.js",
+   "file": "core/browser-composer-disclaimer-96976c4a903c.js",
+   "selected_by": "rule",
+   "raw_bytes": 14132,
+   "formatted_bytes": 19399,
+   "formatter": "prettier",
+   "sha256_raw": "acc17d0d0339d0ca81c7efd5a7b0d47d9607f4244fb0c3404dd6bf25f77c28ec"
+  },
+  {
+   "archive_path": "webview/assets/collaborator-avatar-cfdc8d7a57ac.js",
+   "file": "_deps/collaborator-avatar-cfdc8d7a57ac.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 1370,
+   "formatted_bytes": 2171,
+   "formatter": "prettier",
+   "sha256_raw": "d803d5b2375b02ae36db01db995943c9d4d436253ee220edbc4747680e2c019e"
+  },
+  {
+   "archive_path": "webview/assets/composer-1bf0334fecde.js",
+   "file": "core/composer-1bf0334fecde.js",
+   "selected_by": "rule",
+   "raw_bytes": 3865,
+   "formatted_bytes": 7060,
+   "formatter": "prettier",
+   "sha256_raw": "6c9c376d3bafc4b73d6285039abac62abfd8ee535646fc7c4072dcec8c0bf468"
+  },
+  {
+   "archive_path": "webview/assets/composer-action-bar-run-location-dropdown-3dfe5e572768.js",
+   "file": "core/composer-action-bar-run-location-dropdown-3dfe5e572768.js",
+   "selected_by": "rule",
+   "raw_bytes": 9626,
+   "formatted_bytes": 15030,
+   "formatter": "prettier",
+   "sha256_raw": "5161fefc89b68df6d83b69d1cdf843f7037648547ef504784b686de2d4c5178f"
+  },
+  {
+   "archive_path": "webview/assets/composer-banners-4b2eba2fde71.js",
+   "file": "core/composer-banners-4b2eba2fde71.js",
+   "selected_by": "rule",
+   "raw_bytes": 7309,
+   "formatted_bytes": 11543,
+   "formatter": "prettier",
+   "sha256_raw": "18270d0df4d6eb32ebde1bd0c7bce701ffe8e62e996c70333f83ccf0c33e897a"
+  },
+  {
+   "archive_path": "webview/assets/composer-controls-26fb26618ba3.js",
+   "file": "core/composer-controls-26fb26618ba3.js",
+   "selected_by": "rule",
+   "raw_bytes": 256815,
+   "formatted_bytes": 415518,
+   "formatter": "prettier",
+   "sha256_raw": "c5ab064b93662a7a07714259d0713c6bae482ffa6c8f9b29c259c5f47e10402b"
+  },
+  {
+   "archive_path": "webview/assets/composer-controls-d0f9925fd25f.css",
+   "file": "core/composer-controls-d0f9925fd25f.css",
+   "selected_by": "rule",
+   "raw_bytes": 1952,
+   "formatted_bytes": 2339,
+   "formatter": "prettier",
+   "sha256_raw": "767e016dac186b4e282fea66c8361b6de5dc51c03e08fc388859530631681a92"
+  },
+  {
+   "archive_path": "webview/assets/composer-entry-3b36ec52926c.js",
+   "file": "core/composer-entry-3b36ec52926c.js",
+   "selected_by": "rule",
+   "raw_bytes": 5594,
+   "formatted_bytes": 8610,
+   "formatter": "prettier",
+   "sha256_raw": "a387707d649b2e09a5239a91e40454e7fa021db9a3f54d1dd56370be6af63b8c"
+  },
+  {
+   "archive_path": "webview/assets/composer-host-5aa2d987be91.js",
+   "file": "core/composer-host-5aa2d987be91.js",
+   "selected_by": "rule",
+   "raw_bytes": 8618,
+   "formatted_bytes": 13969,
+   "formatter": "prettier",
+   "sha256_raw": "51f37bf560a9de012c6f156b39180a292b51fbbb962b7dc5264de1a8bc30b956"
+  },
+  {
+   "archive_path": "webview/assets/composer-host-b81d0083f3d3.js",
+   "file": "core/composer-host-b81d0083f3d3.js",
+   "selected_by": "rule",
+   "raw_bytes": 164,
+   "formatted_bytes": 180,
+   "formatter": "prettier",
+   "sha256_raw": "4025174bcfa7dc7952692fdf1f89bb01ffb7455cb6bd2564f7d57db30e818f49"
+  },
+  {
+   "archive_path": "webview/assets/composer-overlay-7f8dd9560897.js",
+   "file": "core/composer-overlay-7f8dd9560897.js",
+   "selected_by": "rule",
+   "raw_bytes": 524,
+   "formatted_bytes": 705,
+   "formatter": "prettier",
+   "sha256_raw": "565078b844d6ac4e1c6df03bb34e1891fcc9d57b6c8a23706643a486a29c2327"
+  },
+  {
+   "archive_path": "webview/assets/composer-placement-state-2a0d9dbc106f.js",
+   "file": "core/composer-placement-state-2a0d9dbc106f.js",
+   "selected_by": "rule",
+   "raw_bytes": 801,
+   "formatted_bytes": 1072,
+   "formatter": "prettier",
+   "sha256_raw": "2af047a99a512e5413d07e008b689ee2f389b5c34f6bd741b9bb01af78e66ea6"
+  },
+  {
+   "archive_path": "webview/assets/composer-prefill-5d18ad95c31c.js",
+   "file": "core/composer-prefill-5d18ad95c31c.js",
+   "selected_by": "rule",
+   "raw_bytes": 604,
+   "formatted_bytes": 709,
+   "formatter": "prettier",
+   "sha256_raw": "c3b2edd019880280d02059460df976f1ae4dfab61ea1faa4e0ca355ff9921a23"
+  },
+  {
+   "archive_path": "webview/assets/composer-project-picker-content-a7c08980c70e.js",
+   "file": "core/composer-project-picker-content-a7c08980c70e.js",
+   "selected_by": "rule",
+   "raw_bytes": 5136,
+   "formatted_bytes": 8721,
+   "formatter": "prettier",
+   "sha256_raw": "e0c08ec3b73c9d266e7fe73b1a6fcd432c8e1751fd2c4538950fbbc85eba127c"
+  },
+  {
+   "archive_path": "webview/assets/composer-provider-c4735dd21754.js",
+   "file": "core/composer-provider-c4735dd21754.js",
+   "selected_by": "rule",
+   "raw_bytes": 1608,
+   "formatted_bytes": 2880,
+   "formatter": "prettier",
+   "sha256_raw": "4654a64a0824f5e6ba51fd6f139b2dce1f7b851cf350ceeab155c2e2fbd6f6c6"
+  },
+  {
+   "archive_path": "webview/assets/composer-replacement-2714774d7ad3.js",
+   "file": "core/composer-replacement-2714774d7ad3.js",
+   "selected_by": "rule",
+   "raw_bytes": 1104,
+   "formatted_bytes": 1700,
+   "formatter": "prettier",
+   "sha256_raw": "74e7423e23980167a9374a2538235cf5b9443c1398958dbf4e10bbde01d2d78d"
+  },
+  {
+   "archive_path": "webview/assets/composer-replacement-state-5e5a27d05b29.js",
+   "file": "core/composer-replacement-state-5e5a27d05b29.js",
+   "selected_by": "rule",
+   "raw_bytes": 383,
+   "formatted_bytes": 457,
+   "formatter": "prettier",
+   "sha256_raw": "81bfa2959931204d53d945c31e91645eb27056093ee5571a435a29a8caf4aa71"
+  },
+  {
+   "archive_path": "webview/assets/composer-scope-provider-cb17532fb9ac.js",
+   "file": "core/composer-scope-provider-cb17532fb9ac.js",
+   "selected_by": "rule",
+   "raw_bytes": 788,
+   "formatted_bytes": 1079,
+   "formatter": "prettier",
+   "sha256_raw": "390890802b6671426a488f6b6b83fd56d698ad6ed2ea2051b69a8597c2e35548"
+  },
+  {
+   "archive_path": "webview/assets/composer-state-ad9aa9862708.js",
+   "file": "core/composer-state-ad9aa9862708.js",
+   "selected_by": "rule",
+   "raw_bytes": 101,
+   "formatted_bytes": 113,
+   "formatter": "prettier",
+   "sha256_raw": "9e919214755e655f93a0f7a556b219cce1cb4b33f768262b3978ef70033d9dc3"
+  },
+  {
+   "archive_path": "webview/assets/composer-state-c58af5c51c80.js",
+   "file": "core/composer-state-c58af5c51c80.js",
+   "selected_by": "rule",
+   "raw_bytes": 5178,
+   "formatted_bytes": 7876,
+   "formatter": "prettier",
+   "sha256_raw": "559cdf284299e8f1d6fcf4d6128112043565be2c4555e2472884a43e1191e47d"
+  },
+  {
+   "archive_path": "webview/assets/composer-state-fb90173904c6.js",
+   "file": "core/composer-state-fb90173904c6.js",
+   "selected_by": "rule",
+   "raw_bytes": 1810,
+   "formatted_bytes": 2451,
+   "formatter": "prettier",
+   "sha256_raw": "2dc5d05f108b9f3613e195ab66bb37b65d094f13142540f457dabfeb4f5718f0"
+  },
+  {
+   "archive_path": "webview/assets/composer-suggestions-b7c168e19e97.js",
+   "file": "core/composer-suggestions-b7c168e19e97.js",
+   "selected_by": "rule",
+   "raw_bytes": 4983,
+   "formatted_bytes": 6574,
+   "formatter": "prettier",
+   "sha256_raw": "66ceba829059e875aa22b8d366e731b68e9e9f7935425df96a861187924a6747"
+  },
+  {
+   "archive_path": "webview/assets/composer-tip-337f8309d57e.js",
+   "file": "core/composer-tip-337f8309d57e.js",
+   "selected_by": "rule",
+   "raw_bytes": 6747,
+   "formatted_bytes": 10530,
+   "formatter": "prettier",
+   "sha256_raw": "78bf0e4a1507f90bcc9eb4b0a5ab4b508e4090b58357abd345ae854007181a38"
+  },
+  {
+   "archive_path": "webview/assets/composer-tip-content-68a2df24acda.js",
+   "file": "core/composer-tip-content-68a2df24acda.js",
+   "selected_by": "rule",
+   "raw_bytes": 2553,
+   "formatted_bytes": 3836,
+   "formatter": "prettier",
+   "sha256_raw": "6b271143929beec56e55d8ee9fb73f82f1cc206da375af1a5163d8c86e9a4885"
+  },
+  {
+   "archive_path": "webview/assets/composer-utility-bar-6e020ef595da.js",
+   "file": "core/composer-utility-bar-6e020ef595da.js",
+   "selected_by": "rule",
+   "raw_bytes": 139201,
+   "formatted_bytes": 236283,
+   "formatter": "prettier",
+   "sha256_raw": "51e2f23bef6d327f92c343c7c66f35b7c505ad1529240fab1d6c08c2ff6f244d"
+  },
+  {
+   "archive_path": "webview/assets/composer-work-home-plugins-control-228c2ec89e4d.js",
+   "file": "core/composer-work-home-plugins-control-228c2ec89e4d.js",
+   "selected_by": "rule",
+   "raw_bytes": 6267,
+   "formatted_bytes": 9954,
+   "formatter": "prettier",
+   "sha256_raw": "7be55d1074ea53acdde3a054c8d302bdfb4c1b8cefd95dc5bb50ac85358cf1b7"
+  },
+  {
+   "archive_path": "webview/assets/confirmation-37e6c3302ec5.js",
+   "file": "_deps/confirmation-37e6c3302ec5.js",
+   "selected_by": "closure:d1:composer-controls-26fb26618ba3.js",
+   "raw_bytes": 3232,
+   "formatted_bytes": 5009,
+   "formatter": "prettier",
+   "sha256_raw": "22bd0655e42b75f1d383374ef2386b6b252156bc28bd2e469be3bfbd1b8ac342"
+  },
+  {
+   "archive_path": "webview/assets/content-quick-chat-overlay-fae2ee1c31a8.js",
+   "file": "quick-chat/content-quick-chat-overlay-fae2ee1c31a8.js",
+   "selected_by": "rule",
+   "raw_bytes": 9461,
+   "formatted_bytes": 16069,
+   "formatter": "prettier",
+   "sha256_raw": "0e10a7167c7687efcfede26cbda76c6be4b63e7a8342fe8873cea5839ac29cb3"
+  },
+  {
+   "archive_path": "webview/assets/dictation-audio-worklet-5c2f03781068.js",
+   "file": "quick-chat/dictation-audio-worklet-5c2f03781068.js",
+   "selected_by": "rule",
+   "raw_bytes": 866,
+   "formatted_bytes": 1196,
+   "formatter": "prettier",
+   "sha256_raw": "9da45cbc30f5be5918e7ad89cb1eb04c09e332170d1b341175a0390d0c069036"
+  },
+  {
+   "archive_path": "webview/assets/editor-2cfd48d71fbe.js",
+   "file": "_deps/editor-2cfd48d71fbe.js",
+   "selected_by": "closure:d1:composer-host-5aa2d987be91.js",
+   "raw_bytes": 38734,
+   "formatted_bytes": 60529,
+   "formatter": "prettier",
+   "sha256_raw": "757eaef268bf1c30372420f5de04063ce0168905a2ec5c8aa5c5f388ebdf9c1a"
+  },
+  {
+   "archive_path": "webview/assets/editor-7559e0427500.js",
+   "file": "_deps/editor-7559e0427500.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 27516,
+   "formatted_bytes": 43340,
+   "formatter": "prettier",
+   "sha256_raw": "043f1e7a2153ccb2e081cb856ecf9e84f7dc404df751c05b5aeb83542bce04c0"
+  },
+  {
+   "archive_path": "webview/assets/editor-e24d86faa779.js",
+   "file": "_deps/editor-e24d86faa779.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 112,
+   "formatted_bytes": 126,
+   "formatter": "prettier",
+   "sha256_raw": "93b500b32f0e58dff186585456a131873b047251cd301f18a31c405167722b57"
+  },
+  {
+   "archive_path": "webview/assets/entry-1f9ea350bb83.js",
+   "file": "_deps/entry-1f9ea350bb83.js",
+   "selected_by": "closure:d1:home-composer-announcement-candidates-3c1f639b8ab4.js",
+   "raw_bytes": 1641,
+   "formatted_bytes": 2381,
+   "formatter": "prettier",
+   "sha256_raw": "238966073d902b5e4ea894400f72ea4e7972abe48fbaa966bf8b7490490aac8e"
+  },
+  {
+   "archive_path": "webview/assets/entry-points-180a9292a286.js",
+   "file": "_deps/entry-points-180a9292a286.js",
+   "selected_by": "closure:d1:home-composer-announcement-candidates-3c1f639b8ab4.js",
+   "raw_bytes": 17848,
+   "formatted_bytes": 26632,
+   "formatter": "prettier",
+   "sha256_raw": "ad5ce479dd8579d4b1450f0541dedefcb7549853c072e7ddaa5615addbd2f237"
+  },
+  {
+   "archive_path": "webview/assets/facepile-4ea3da6a7b88.js",
+   "file": "_deps/facepile-4ea3da6a7b88.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 2511,
+   "formatted_bytes": 3476,
+   "formatter": "prettier",
+   "sha256_raw": "9f3c2b9ad902088967207f5371acbf05562778755aee3c02f63987ecbd746006"
+  },
+  {
+   "archive_path": "webview/assets/facepile-b69f19009d4d.js",
+   "file": "_deps/facepile-b69f19009d4d.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 4809,
+   "formatted_bytes": 7639,
+   "formatter": "prettier",
+   "sha256_raw": "60d6d9a6da3e77bb56738a949f354311a03af41740825cf428069e6a67a24205"
+  },
+  {
+   "archive_path": "webview/assets/feedback-dialog-c8222a9abbd7.js",
+   "file": "_deps/feedback-dialog-c8222a9abbd7.js",
+   "selected_by": "closure:d1:composer-controls-26fb26618ba3.js",
+   "raw_bytes": 2647,
+   "formatted_bytes": 3984,
+   "formatter": "prettier",
+   "sha256_raw": "8d12d012980c15685b32ca6d867c1392936521dcbc23d445527f26d02e8408c3"
+  },
+  {
+   "archive_path": "webview/assets/feedback-submission-dialog-9e377942c726.js",
+   "file": "_deps/feedback-submission-dialog-9e377942c726.js",
+   "selected_by": "closure:d1:composer-controls-26fb26618ba3.js",
+   "raw_bytes": 5309,
+   "formatted_bytes": 8199,
+   "formatter": "prettier",
+   "sha256_raw": "043ca0957fc2559fd57a76b5429cf87e4fcd03da1ec02f6805632bac3fbff79a"
+  },
+  {
+   "archive_path": "webview/assets/feedback-upload-bf95a64d2651.js",
+   "file": "_deps/feedback-upload-bf95a64d2651.js",
+   "selected_by": "closure:d1:composer-controls-26fb26618ba3.js",
+   "raw_bytes": 3260,
+   "formatted_bytes": 5046,
+   "formatter": "prettier",
+   "sha256_raw": "455b8ffdeec06a74d3167e1e929b2787959801faf725eeb8750dbc279e32ea21"
+  },
+  {
+   "archive_path": "webview/assets/filename-menu-actions-922625498d65.css",
+   "file": "_deps/filename-menu-actions-922625498d65.css",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 838,
+   "formatted_bytes": 1033,
+   "formatter": "prettier",
+   "sha256_raw": "7240a89db720010377b87a15d58e5bd1fcd30d5ea7e3c1839526f40b536b3728"
+  },
+  {
+   "archive_path": "webview/assets/github-connection-empty-state-6e3489c4d00a.js",
+   "file": "_deps/github-connection-empty-state-6e3489c4d00a.js",
+   "selected_by": "closure:d1:composer-utility-bar-6e020ef595da.js",
+   "raw_bytes": 3650,
+   "formatted_bytes": 5734,
+   "formatter": "prettier",
+   "sha256_raw": "32d5df3246ca774acc79f0df958f7144c787aca47efb406a6f520ed21724a786"
+  },
+  {
+   "archive_path": "webview/assets/global-dictation-page-821dddc8f0f3.js",
+   "file": "quick-chat/global-dictation-page-821dddc8f0f3.js",
+   "selected_by": "rule",
+   "raw_bytes": 28398,
+   "formatted_bytes": 43640,
+   "formatter": "prettier",
+   "sha256_raw": "67582f5d8aef0a3e08868a84165046fcd3c9b2daadcc5ffb019dea781fdfeb94"
+  },
+  {
+   "archive_path": "webview/assets/global-dictation-page-b8499575de8b.css",
+   "file": "quick-chat/global-dictation-page-b8499575de8b.css",
+   "selected_by": "rule",
+   "raw_bytes": 1136,
+   "formatted_bytes": 1376,
+   "formatter": "prettier",
+   "sha256_raw": "aa8d7941ec99f4994d4186ad0cd33fe490cd1f507a911fc7aa6a6cccc8a865ca"
+  },
+  {
+   "archive_path": "webview/assets/home-composer-announcement-candidates-3c1f639b8ab4.js",
+   "file": "core/home-composer-announcement-candidates-3c1f639b8ab4.js",
+   "selected_by": "rule",
+   "raw_bytes": 5428,
+   "formatted_bytes": 8337,
+   "formatter": "prettier",
+   "sha256_raw": "99856d0098aea25418b21784c561abc825a766820d2dcc59f5d9ee901784dbba"
+  },
+  {
+   "archive_path": "webview/assets/home-composer-route-aed53333b39d.js",
+   "file": "core/home-composer-route-aed53333b39d.js",
+   "selected_by": "rule",
+   "raw_bytes": 124,
+   "formatted_bytes": 138,
+   "formatter": "prettier",
+   "sha256_raw": "0ea7ba38992c1c012509c855219076d0529a43716e1d310d80f1e0b26e200d2b"
+  },
+  {
+   "archive_path": "webview/assets/home-suggestion-staggered-item-85bcd6ed2372.js",
+   "file": "_deps/home-suggestion-staggered-item-85bcd6ed2372.js",
+   "selected_by": "closure:d1:composer-suggestions-b7c168e19e97.js",
+   "raw_bytes": 1460,
+   "formatted_bytes": 2332,
+   "formatter": "prettier",
+   "sha256_raw": "64bcf0f5372ea8c088626a6673a9f166727507032f2c0f72b781d31407e671ec"
+  },
+  {
+   "archive_path": "webview/assets/host-3ce86ec5a2b9.js",
+   "file": "_deps/host-3ce86ec5a2b9.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 498,
+   "formatted_bytes": 750,
+   "formatter": "prettier",
+   "sha256_raw": "3193e0db92b63d5071f18db7448931e4a2a90341fa602e2836d66af8f7174fd5"
+  },
+  {
+   "archive_path": "webview/assets/hosted-template-catalog-e317c72cbbc5.js",
+   "file": "_deps/hosted-template-catalog-e317c72cbbc5.js",
+   "selected_by": "closure:d1:composer-entry-3b36ec52926c.js",
+   "raw_bytes": 904,
+   "formatted_bytes": 1160,
+   "formatter": "prettier",
+   "sha256_raw": "e490f189000c74b1d803c9144ccd223d755f1912052300c0223a7b131dbdbd11"
+  },
+  {
+   "archive_path": "webview/assets/inline-composer-3f819053103b.css",
+   "file": "core/inline-composer-3f819053103b.css",
+   "selected_by": "rule",
+   "raw_bytes": 718,
+   "formatted_bytes": 916,
+   "formatter": "prettier",
+   "sha256_raw": "e65fce8b5198e52d4aafba593412828ee95ef1eaaec1f8f36776cea222ddc4c9"
+  },
+  {
+   "archive_path": "webview/assets/inline-composer-6cb337935d22.js",
+   "file": "core/inline-composer-6cb337935d22.js",
+   "selected_by": "rule",
+   "raw_bytes": 4158,
+   "formatted_bytes": 6663,
+   "formatter": "prettier",
+   "sha256_raw": "9f1d6667b29958eeb7223e5a064c006cb3ad0dd85bcacead2b6fd3e62d66326d"
+  },
+  {
+   "archive_path": "webview/assets/launch-defaults-a1836c062b43.js",
+   "file": "_deps/launch-defaults-a1836c062b43.js",
+   "selected_by": "closure:d1:page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "raw_bytes": 1447,
+   "formatted_bytes": 2104,
+   "formatter": "prettier",
+   "sha256_raw": "79b91786f21233d715a8f9ae9342ceff1ddf6bc87b9beee6fae4671230f431a7"
+  },
+  {
+   "archive_path": "webview/assets/load-error-exposure-cf8080c748bd.js",
+   "file": "_deps/load-error-exposure-cf8080c748bd.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 1771,
+   "formatted_bytes": 2616,
+   "formatter": "prettier",
+   "sha256_raw": "533207245b1d8174447f774e592460ff23847654576b88970ecc445f9845b21d"
+  },
+  {
+   "archive_path": "webview/assets/load-metrics-state-1eeeccca7f74.js",
+   "file": "_deps/load-metrics-state-1eeeccca7f74.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 927,
+   "formatted_bytes": 1839,
+   "formatter": "prettier",
+   "sha256_raw": "a70386e56e19a3d59554af3ce1e62acdcb942582f300476c52252bf1a9f166ac"
+  },
+  {
+   "archive_path": "webview/assets/mention-appearance-8f219dc5aa6b.js",
+   "file": "_deps/mention-appearance-8f219dc5aa6b.js",
+   "selected_by": "closure:d1:composer-entry-3b36ec52926c.js",
+   "raw_bytes": 1281,
+   "formatted_bytes": 1777,
+   "formatter": "prettier",
+   "sha256_raw": "b6eb9fcca15d16f281a9cb7291a8155b6cd1cb3c1d2ab9e1a6203fb33777c177"
+  },
+  {
+   "archive_path": "webview/assets/messages-97c9f02949a5.js",
+   "file": "_deps/messages-97c9f02949a5.js",
+   "selected_by": "closure:d1:composer-controls-26fb26618ba3.js",
+   "raw_bytes": 5529,
+   "formatted_bytes": 7236,
+   "formatter": "prettier",
+   "sha256_raw": "0d3339d5cb5788f71821b36d681e7ab5ffae8535723d576aef64066abb04efd3"
+  },
+  {
+   "archive_path": "webview/assets/page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "file": "core/page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "selected_by": "rule",
+   "raw_bytes": 14855,
+   "formatted_bytes": 23821,
+   "formatter": "prettier",
+   "sha256_raw": "1e4c56a2469fa75bdbc387cccd055d621440d9baccb36da7e5c902ef15869d32"
+  },
+  {
+   "archive_path": "webview/assets/pending-4692967c2dbe.js",
+   "file": "_deps/pending-4692967c2dbe.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 13005,
+   "formatted_bytes": 21786,
+   "formatter": "prettier",
+   "sha256_raw": "7676e7d85e5f18ce169560114571b168e5c31aa58bbd158cfab854a9ba4830ab"
+  },
+  {
+   "archive_path": "webview/assets/plugin-service-preview-baa27984f338.js",
+   "file": "_deps/plugin-service-preview-baa27984f338.js",
+   "selected_by": "closure:d1:page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "raw_bytes": 246,
+   "formatted_bytes": 284,
+   "formatter": "prettier",
+   "sha256_raw": "b9c12aa5a6b362b2c115936aa449606d57cb377dbcc8fe11fb708fbbae3fcdb9"
+  },
+  {
+   "archive_path": "webview/assets/policy-7a95f76d2f92.js",
+   "file": "_deps/policy-7a95f76d2f92.js",
+   "selected_by": "closure:d1:composer-entry-3b36ec52926c.js",
+   "raw_bytes": 807,
+   "formatted_bytes": 990,
+   "formatter": "prettier",
+   "sha256_raw": "0f22f9086932a15a4c9101422a17f15c09a70e545e55d5d1523a9224c8418403"
+  },
+  {
+   "archive_path": "webview/assets/progress-1945f894d035.js",
+   "file": "_deps/progress-1945f894d035.js",
+   "selected_by": "closure:d1:page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "raw_bytes": 1515,
+   "formatted_bytes": 2243,
+   "formatter": "prettier",
+   "sha256_raw": "da5d647fff9dfdffabcc358c13e9468eca904693c984e730ed9ca7d464849377"
+  },
+  {
+   "archive_path": "webview/assets/project-repositories-6041e9c027e6.js",
+   "file": "_deps/project-repositories-6041e9c027e6.js",
+   "selected_by": "closure:d1:composer-utility-bar-6e020ef595da.js",
+   "raw_bytes": 1013,
+   "formatted_bytes": 1473,
+   "formatter": "prettier",
+   "sha256_raw": "8861f051e1569c7a64d9171ccc93af95ed392c7cc7d993c39864e5c4e43e8b9d"
+  },
+  {
+   "archive_path": "webview/assets/promote-to-page-7c64cab68e81.js",
+   "file": "_deps/promote-to-page-7c64cab68e81.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 1350,
+   "formatted_bytes": 1888,
+   "formatter": "prettier",
+   "sha256_raw": "3443bc16d4d76bac76426ade248d910fbd9ec5e45eb3bf29c126c99ac8c523b1"
+  },
+  {
+   "archive_path": "webview/assets/queries-d88f39aa01b3.js",
+   "file": "_deps/queries-d88f39aa01b3.js",
+   "selected_by": "closure:d1:composer-suggestions-b7c168e19e97.js",
+   "raw_bytes": 909,
+   "formatted_bytes": 1167,
+   "formatter": "prettier",
+   "sha256_raw": "0b86c0a063107a375a54573c9774138d558c0ca95a841eedf77d4722b2bbd671"
+  },
+  {
+   "archive_path": "webview/assets/queued-message-list-aa3e4e664a72.js",
+   "file": "queue/queued-message-list-aa3e4e664a72.js",
+   "selected_by": "rule",
+   "raw_bytes": 22895,
+   "formatted_bytes": 35432,
+   "formatter": "prettier",
+   "sha256_raw": "fb6796a6230366c6e4ef43e318b5af1cac11472d7bda01a719ef44a73b91f348"
+  },
+  {
+   "archive_path": "webview/assets/quick-chat-floating-resize-handles-884029d75925.js",
+   "file": "quick-chat/quick-chat-floating-resize-handles-884029d75925.js",
+   "selected_by": "rule",
+   "raw_bytes": 5016,
+   "formatted_bytes": 8571,
+   "formatter": "prettier",
+   "sha256_raw": "21e0d86299c536ea12d538415a28b39adfe1c05d35459218080c8858a929d142"
+  },
+  {
+   "archive_path": "webview/assets/quick-chat-floating-surface-51ff4a9417a5.js",
+   "file": "quick-chat/quick-chat-floating-surface-51ff4a9417a5.js",
+   "selected_by": "rule",
+   "raw_bytes": 38003,
+   "formatted_bytes": 61300,
+   "formatter": "prettier",
+   "sha256_raw": "487756c606bd32b6810b8b3e85a54563b3fe56c858feb6bee20c8c30e09b9ff5"
+  },
+  {
+   "archive_path": "webview/assets/quick-chat-floating-surface-aa86cc62cf7b.css",
+   "file": "quick-chat/quick-chat-floating-surface-aa86cc62cf7b.css",
+   "selected_by": "rule",
+   "raw_bytes": 401,
+   "formatted_bytes": 511,
+   "formatter": "prettier",
+   "sha256_raw": "b387b6e4f6af4254e2569b10e804d2a137b7fed0f820f9ea5f98e9ed620da664"
+  },
+  {
+   "archive_path": "webview/assets/quick-chat-window-64e69e1bef0d.js",
+   "file": "quick-chat/quick-chat-window-64e69e1bef0d.js",
+   "selected_by": "rule",
+   "raw_bytes": 38325,
+   "formatted_bytes": 64223,
+   "formatter": "prettier",
+   "sha256_raw": "d428be8f1431674f63b1ddc276b885c610f984e91268a44350804b706b357686"
+  },
+  {
+   "archive_path": "webview/assets/quick-chat-writing-block-adapter-5a13bcef1c65.css",
+   "file": "quick-chat/quick-chat-writing-block-adapter-5a13bcef1c65.css",
+   "selected_by": "rule",
+   "raw_bytes": 380,
+   "formatted_bytes": 440,
+   "formatter": "prettier",
+   "sha256_raw": "796917b01e5a6b849b1dc97ca20c9f7b75d2a06a16c84da4a379b695fea614f3"
+  },
+  {
+   "archive_path": "webview/assets/quick-chat-writing-block-adapter-cef9e8589d3e.js",
+   "file": "quick-chat/quick-chat-writing-block-adapter-cef9e8589d3e.js",
+   "selected_by": "rule",
+   "raw_bytes": 171,
+   "formatted_bytes": 185,
+   "formatter": "prettier",
+   "sha256_raw": "9ee03a00b4643fba283aaa5eacfa1f4d36de5f77c188fb40a480c1dbd9b18ee2"
+  },
+  {
+   "archive_path": "webview/assets/quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "file": "quick-chat/quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "selected_by": "rule",
+   "raw_bytes": 30744,
+   "formatted_bytes": 49701,
+   "formatter": "prettier",
+   "sha256_raw": "260fb262c8eebe3d4c16c161fdbf5b92d3cb78fa85fdb3e65763aff4e906e522"
+  },
+  {
+   "archive_path": "webview/assets/replay-completions-8e31241101a8.js",
+   "file": "_deps/replay-completions-8e31241101a8.js",
+   "selected_by": "closure:d1:home-composer-announcement-candidates-3c1f639b8ab4.js",
+   "raw_bytes": 631,
+   "formatted_bytes": 830,
+   "formatter": "prettier",
+   "sha256_raw": "ec3a6e42ec24eb5fe50fc3d1b638914c624eec07328adf7b328ed9313e50e0a3"
+  },
+  {
+   "archive_path": "webview/assets/request-composer-f2825a217f67.js",
+   "file": "core/request-composer-f2825a217f67.js",
+   "selected_by": "rule",
+   "raw_bytes": 856,
+   "formatted_bytes": 1181,
+   "formatter": "prettier",
+   "sha256_raw": "60cbcd8d58667452aa8f68c8f4dcc4c03ba906ccdfb4a7ef9b1b9546a5a3e7f6"
+  },
+  {
+   "archive_path": "webview/assets/selection-composer-visibility-81abee1029e4.js",
+   "file": "core/selection-composer-visibility-81abee1029e4.js",
+   "selected_by": "rule",
+   "raw_bytes": 635,
+   "formatted_bytes": 898,
+   "formatter": "prettier",
+   "sha256_raw": "c5f01083ef5eabcef47bbfe937032128ced9f26622c58e84e22229788536a38e"
+  },
+  {
+   "archive_path": "webview/assets/share-control-34a4e6ed1550.js",
+   "file": "_deps/share-control-34a4e6ed1550.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 4112,
+   "formatted_bytes": 6475,
+   "formatter": "prettier",
+   "sha256_raw": "2101ebddebd6994ab4c086be111ce3e5522259e42e3044aff781a2fde5496ef6"
+  },
+  {
+   "archive_path": "webview/assets/side-chat-composer-7be547a39e2e.js",
+   "file": "core/side-chat-composer-7be547a39e2e.js",
+   "selected_by": "rule",
+   "raw_bytes": 2945,
+   "formatted_bytes": 4370,
+   "formatter": "prettier",
+   "sha256_raw": "ed046465e309683912f0f02084384201c2a7d788186889973af41e853b5c4e7b"
+  },
+  {
+   "archive_path": "webview/assets/skill-icon-d58831a81a6d.js",
+   "file": "_deps/skill-icon-d58831a81a6d.js",
+   "selected_by": "closure:d1:composer-entry-3b36ec52926c.js",
+   "raw_bytes": 2584,
+   "formatted_bytes": 3952,
+   "formatter": "prettier",
+   "sha256_raw": "70c9a2ef6b42bff68de0a6c67a0d6096af6d7e0fb2962dcfc5b8df7d7ca8ced3"
+  },
+  {
+   "archive_path": "webview/assets/summary-a3fe57e6fc7d.js",
+   "file": "_deps/summary-a3fe57e6fc7d.js",
+   "selected_by": "closure:d1:composer-utility-bar-6e020ef595da.js",
+   "raw_bytes": 9948,
+   "formatted_bytes": 16509,
+   "formatter": "prettier",
+   "sha256_raw": "5728dc5f3efc43942aeb4f7070b4819232ecfd409ff6dc61b5d6b13e7f9569b2"
+  },
+  {
+   "archive_path": "webview/assets/title-menu-b70ae0e8d858.css",
+   "file": "_deps/title-menu-b70ae0e8d858.css",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 134,
+   "formatted_bytes": 149,
+   "formatter": "prettier",
+   "sha256_raw": "de623b667d775cb30c1e4f1b5fb6aee01035ee239b67d9e59aa9abab4ecfb50c"
+  },
+  {
+   "archive_path": "webview/assets/title-menu-e11b34d28710.js",
+   "file": "_deps/title-menu-e11b34d28710.js",
+   "selected_by": "closure:d1:quick-chat-writing-block-adapter-ead8ce970e15.js",
+   "raw_bytes": 22221,
+   "formatted_bytes": 34841,
+   "formatter": "prettier",
+   "sha256_raw": "c035c065b002bc732a65955702347c49dac7fff40a83e9871b9e3dd426967ae4"
+  },
+  {
+   "archive_path": "webview/assets/toggle-composer-context-menu-e889997360d6.js",
+   "file": "core/toggle-composer-context-menu-e889997360d6.js",
+   "selected_by": "rule",
+   "raw_bytes": 3390,
+   "formatted_bytes": 5539,
+   "formatter": "prettier",
+   "sha256_raw": "9e0cc30c74012c60a40e8a73edb21bd5f6bcd60556245b0915899eccb2153b7b"
+  },
+  {
+   "archive_path": "webview/assets/tooltip-6cc57bf6ccd3.js",
+   "file": "_deps/tooltip-6cc57bf6ccd3.js",
+   "selected_by": "closure:d1:queued-message-list-aa3e4e664a72.js",
+   "raw_bytes": 1836,
+   "formatted_bytes": 3004,
+   "formatter": "prettier",
+   "sha256_raw": "393b924dbe39174c006e486277a22a4670692082d6e2258de7ca66110db8543e"
+  },
+  {
+   "archive_path": "webview/assets/use-chatgpt-composer-controller-2d447301fbc7.js",
+   "file": "core/use-chatgpt-composer-controller-2d447301fbc7.js",
+   "selected_by": "rule",
+   "raw_bytes": 1952,
+   "formatted_bytes": 3187,
+   "formatter": "prettier",
+   "sha256_raw": "e39ff89c1c226141bc5f0af4f6ca70cc09e98b26561ff28fd4ab4b17a9becbef"
+  },
+  {
+   "archive_path": "webview/assets/use-create-git-repository-d1887613c605.js",
+   "file": "_deps/use-create-git-repository-d1887613c605.js",
+   "selected_by": "closure:d1:composer-utility-bar-6e020ef595da.js",
+   "raw_bytes": 2407,
+   "formatted_bytes": 3821,
+   "formatter": "prettier",
+   "sha256_raw": "0cddc9ae159e8c34bb1483e100dc0d8579df5c6ad2669b4f014e2e5658423044"
+  },
+  {
+   "archive_path": "webview/assets/use-floating-window-pointer-interactivity-af75b9ceedf3.js",
+   "file": "_deps/use-floating-window-pointer-interactivity-af75b9ceedf3.js",
+   "selected_by": "closure:d1:global-dictation-page-821dddc8f0f3.js",
+   "raw_bytes": 3309,
+   "formatted_bytes": 5365,
+   "formatter": "prettier",
+   "sha256_raw": "ad03bb677eff487a1c7a7166de74c68cb42688263fa8d368ae9937bb56dfec0a"
+  },
+  {
+   "archive_path": "webview/assets/use-git-submodule-paths-b32699424b1e.js",
+   "file": "_deps/use-git-submodule-paths-b32699424b1e.js",
+   "selected_by": "closure:d1:composer-utility-bar-6e020ef595da.js",
+   "raw_bytes": 893,
+   "formatted_bytes": 1244,
+   "formatter": "prettier",
+   "sha256_raw": "cd16e863647bbdec19728ecf7cd7cae4e8f25497bf1dd13018495003b6cbea56"
+  },
+  {
+   "archive_path": "webview/assets/work-run-location-control-b8906d5da83b.js",
+   "file": "_deps/work-run-location-control-b8906d5da83b.js",
+   "selected_by": "closure:d1:page-codex-quick-chat-composer-f7450f39ea6b.js",
+   "raw_bytes": 1889,
+   "formatted_bytes": 2959,
+   "formatter": "prettier",
+   "sha256_raw": "78c6c9878109a5ae5ec14afa150e6f05c50824148003d5a542667337c229d88b"
+  },
+  {
+   "archive_path": "webview/assets/worktree-environment-dropdown-4472c8c4acdc.js",
+   "file": "_deps/worktree-environment-dropdown-4472c8c4acdc.js",
+   "selected_by": "closure:d1:composer-utility-bar-6e020ef595da.js",
+   "raw_bytes": 27982,
+   "formatted_bytes": 50588,
+   "formatter": "prettier",
+   "sha256_raw": "2d2cb9364aba2474134cd1caa1bb93ffc683a13b802488ac31efe2e782f10e8d"
+  }
+ ]
+}

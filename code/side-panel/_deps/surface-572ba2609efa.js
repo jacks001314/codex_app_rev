@@ -1,0 +1,252 @@
+import { n as e, o as t } from "./rolldown-runtime-c05d78c594d1.js";
+import {
+  Amn as n,
+  Cpn as r,
+  RHt as i,
+  Rpn as a,
+  Spn as o,
+  hmn as s,
+  kmn as c,
+  vit as l,
+  yit as u,
+  zHt as d,
+  zpn as f,
+} from "./app-initial-f094ef01c64d.js";
+import { US as p, WS as m } from "./app-primary-4c40d73a1074.js";
+function h(e) {
+  let t = (0, C.c)(7),
+    { background: n, className: r, children: i, overflow: o } = e,
+    s = n === void 0 ? `subtle` : n,
+    c = o === void 0 ? `clip` : o,
+    l = s === `normal` ? `bg-surface` : `bg-text/5`,
+    u = c === `auto` ? `overflow-auto` : `overflow-clip`,
+    d;
+  t[0] !== r || t[1] !== l || t[2] !== u
+    ? ((d = a(`relative rounded-lg`, l, u, r)), (t[0] = r), (t[1] = l), (t[2] = u), (t[3] = d))
+    : (d = t[3]);
+  let f;
+  return (
+    t[4] !== i || t[5] !== d
+      ? ((f = (0, T.jsx)(`div`, { className: d, children: i })), (t[4] = i), (t[5] = d), (t[6] = f))
+      : (f = t[6]),
+    f
+  );
+}
+function g(e) {
+  let t = (0, C.c)(15),
+    {
+      enableMetadataPreview: n,
+      markdown: r,
+      conversationId: i,
+      cwd: a,
+      hideCodeBlocks: o,
+      hostId: s,
+      isStreaming: c,
+    } = e,
+    l = n !== void 0 && n,
+    u = i === void 0 ? null : i,
+    f = a === void 0 ? null : a,
+    p = c !== void 0 && c,
+    h;
+  t[0] !== l || t[1] !== r
+    ? ((h = l ? d(r) : null), (t[0] = l), (t[1] = r), (t[2] = h))
+    : (h = t[2]);
+  let g = h,
+    v = g?.body ?? r,
+    y;
+  t[3] === g
+    ? (y = t[4])
+    : ((y = g != null && g.entries.length > 0 ? (0, T.jsx)(_, { entries: g.entries }) : null),
+      (t[3] = g),
+      (t[4] = y));
+  let b;
+  t[5] !== u || t[6] !== f || t[7] !== o || t[8] !== s || t[9] !== p || t[10] !== v
+    ? ((b = (0, T.jsx)(m, {
+        className: `text-size-chat`,
+        conversationId: u,
+        hideCodeBlocks: o,
+        hostId: s,
+        isStreaming: p,
+        cwd: f,
+        children: v,
+      })),
+      (t[5] = u),
+      (t[6] = f),
+      (t[7] = o),
+      (t[8] = s),
+      (t[9] = p),
+      (t[10] = v),
+      (t[11] = b))
+    : (b = t[11]);
+  let x;
+  return (
+    t[12] !== y || t[13] !== b
+      ? ((x = (0, T.jsxs)(`div`, { className: `px-4 py-3`, children: [y, b] })),
+        (t[12] = y),
+        (t[13] = b),
+        (t[14] = x))
+      : (x = t[14]),
+    x
+  );
+}
+function _(e) {
+  let t = (0, C.c)(13),
+    { entries: n } = e,
+    [i, o] = (0, w.useState)(!1),
+    s = n.length > D,
+    c;
+  t[0] !== n || t[1] !== i || t[2] !== s
+    ? ((c = s && !i ? n.slice(0, D) : n), (t[0] = n), (t[1] = i), (t[2] = s), (t[3] = c))
+    : (c = t[3]);
+  let u = c,
+    d;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, T.jsx)(`div`, {
+        className: `mb-2 font-medium text-secondary`,
+        children: (0, T.jsx)(r, {
+          id: `markdown.metadata.title`,
+          defaultMessage: `Metadata`,
+          description: `Title for rendered Markdown file metadata`,
+        }),
+      })),
+      (t[4] = d))
+    : (d = t[4]);
+  let f;
+  t[5] === u ? (f = t[6]) : ((f = (0, T.jsx)(y, { entries: u })), (t[5] = u), (t[6] = f));
+  let p;
+  t[7] !== i || t[8] !== s
+    ? ((p = s
+        ? (0, T.jsxs)(`button`, {
+            type: `button`,
+            "aria-expanded": i,
+            className: `mt-1.5 inline-flex cursor-interaction items-center gap-1 text-secondary hover:text-default`,
+            onClick: () => {
+              o(v);
+            },
+            children: [
+              (0, T.jsx)(`span`, {
+                children: i
+                  ? (0, T.jsx)(r, {
+                      id: `markdown.metadata.showLess`,
+                      defaultMessage: `Show less`,
+                      description: `Disclosure control shown when a Markdown metadata preview can collapse additional fields`,
+                    })
+                  : (0, T.jsx)(r, {
+                      id: `markdown.metadata.showMore`,
+                      defaultMessage: `Show more`,
+                      description: `Disclosure control shown when a Markdown metadata preview hides additional fields`,
+                    }),
+              }),
+              (0, T.jsx)(l, {
+                className: a(`icon-2xs transition-transform`, i ? `rotate-180` : `rotate-0`),
+              }),
+            ],
+          })
+        : null),
+      (t[7] = i),
+      (t[8] = s),
+      (t[9] = p))
+    : (p = t[9]);
+  let m;
+  return (
+    t[10] !== f || t[11] !== p
+      ? ((m = (0, T.jsxs)(`div`, {
+          className: `mb-3 rounded-md border border-border/60 bg-text/5 px-3 py-2 text-xs`,
+          children: [d, f, p],
+        })),
+        (t[10] = f),
+        (t[11] = p),
+        (t[12] = m))
+      : (m = t[12]),
+    m
+  );
+}
+function v(e) {
+  return !e;
+}
+function y(e) {
+  let t = (0, C.c)(7),
+    { className: n, entries: r } = e,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i = a(`grid grid-cols-[minmax(0,8rem)_minmax(0,1fr)] gap-x-3 gap-y-1.5`, n)),
+      (t[0] = n),
+      (t[1] = i));
+  let o;
+  t[2] === r ? (o = t[3]) : ((o = r.map(b)), (t[2] = r), (t[3] = o));
+  let s;
+  return (
+    t[4] !== i || t[5] !== o
+      ? ((s = (0, T.jsx)(`dl`, { className: i, children: o })), (t[4] = i), (t[5] = o), (t[6] = s))
+      : (s = t[6]),
+    s
+  );
+}
+function b(e, t) {
+  return (0, T.jsxs)(
+    `div`,
+    {
+      className: `contents`,
+      children: [
+        (0, T.jsx)(`dt`, {
+          className: `truncate font-mono text-secondary`,
+          title: e.key,
+          children: e.key,
+        }),
+        (0, T.jsx)(`dd`, {
+          className: `min-w-0 text-default`,
+          children: (0, T.jsx)(x, { value: e.value }),
+        }),
+      ],
+    },
+    `${e.key}-${t}`,
+  );
+}
+function x(e) {
+  let t = (0, C.c)(6),
+    { value: n } = e;
+  if (Array.isArray(n)) {
+    let e;
+    t[0] === n ? (e = t[1]) : ((e = n.map(S)), (t[0] = n), (t[1] = e));
+    let r;
+    return (
+      t[2] === e
+        ? (r = t[3])
+        : ((r = (0, T.jsx)(`span`, { className: `flex min-w-0 flex-wrap gap-1`, children: e })),
+          (t[2] = e),
+          (t[3] = r)),
+      r
+    );
+  }
+  let r = n.length === 0 ? E : n,
+    i;
+  return (
+    t[4] === r
+      ? (i = t[5])
+      : ((i = (0, T.jsx)(`span`, { className: `font-mono break-words`, children: r })),
+        (t[4] = r),
+        (t[5] = i)),
+    i
+  );
+}
+function S(e, t) {
+  return (0, T.jsx)(
+    `span`,
+    {
+      className: `max-w-full rounded-sm bg-text/10 px-1.5 py-0.5 font-mono break-words`,
+      children: e.length === 0 ? E : e,
+    },
+    `${e}-${t}`,
+  );
+}
+var C,
+  w,
+  T,
+  E,
+  D,
+  O = e(() => {
+    ((C = c()), f(), (w = t(n(), 1)), o(), u(), i(), p(), (T = s()), (E = `""`), (D = 8));
+  });
+export { O as i, h as n, g as r, _ as t };
+//# sourceMappingURL=surface-572ba2609efa.js.map

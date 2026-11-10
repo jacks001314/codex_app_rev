@@ -1,0 +1,37 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { F3 as t, I3 as n, LNt as r, PBt as i } from "./app-shared-2feb3d4c6fcc.js";
+import { A5n as a, Air as o, D5n as s, Mir as c, O5n as l, T5n as u } from "./app-initial-ad16eaadf81f.js";
+import { i as d, t as f } from "./entry-9f364e710c7f.js";
+function p(e, t, { openGrid: n, onClose: r, signal: i }) {
+  if (i?.aborted) return null;
+  let s = !1,
+    c;
+  function d(e) {
+    let t = (0, m.c)(2),
+      n;
+    return (t[0] === e ? (n = t[1]) : ((n = (0, h.jsx)(g, { ...e })), (t[0] = e), (t[1] = n)), n);
+  }
+  function f() {
+    s || ((s = !0), c?.(), i?.removeEventListener(`abort`, _), r?.());
+  }
+  let p = n?.(t, f) ?? null;
+  function _() {
+    (p?.(), u(e, d), f());
+  }
+  if (p == null) {
+    let n = e.get(o).pathname;
+    (a(e, d, { ...t, onClose: f }),
+      (c = e.watch((e) => {
+        l(e, d) ? e.get(o).pathname !== n && _() : f();
+      })));
+  }
+  return (i?.addEventListener(`abort`, _, { once: !0 }), _);
+}
+var m, h, g;
+function _() {
+  return (_ = e(() => {
+    ((m = i()), f(), c(), t(), s(), (h = r()), (g = n(d)));
+  }))();
+}
+export { _ as n, p as r, g as t };
+//# sourceMappingURL=open-viewer-dad5e93e7bae.js.map

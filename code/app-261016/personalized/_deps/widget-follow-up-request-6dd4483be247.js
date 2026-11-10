@@ -1,0 +1,27 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import { HFt as t, VRt as n, kRt as r } from "./app-shared-2feb3d4c6fcc.js";
+import { Ggr as i, Kgr as a, Ugr as o } from "./app-initial-ad16eaadf81f.js";
+function s(e) {
+  let t = u.safeParse(e);
+  if (!t.success) throw Object.assign(Error(`Invalid follow-up message`), { code: l });
+  return t.data;
+}
+function c(e) {
+  let { context: t, prompt: n } = e;
+  return t == null ? n : `${n}\n\nCurrent widget context (JSON):\n${i(t)}`;
+}
+var l, u;
+function d() {
+  return (d = e(() => {
+    (o(),
+      t(),
+      (l = -32602),
+      (u = r({
+        context: a.optional(),
+        prompt: n().trim().min(1),
+        title: n().trim().min(1).max(250).optional(),
+      }).strip()));
+  }))();
+}
+export { d as n, s as r, c as t };
+//# sourceMappingURL=widget-follow-up-request-6dd4483be247.js.map

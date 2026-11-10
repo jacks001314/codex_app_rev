@@ -1,0 +1,47 @@
+import { n as e } from "./rolldown-runtime-2d059c5e81f4.js";
+import {
+  OV as t,
+  TJ as n,
+  bx as r,
+  cq as i,
+  vzt as a,
+  xMt as o,
+  yx as s,
+} from "./app-shared-bbfeca5e5737.js";
+function c(e) {
+  let n = (0, l.c)(6),
+    { className: r, isDisabled: a, onCopy: o, renderButton: c } = e,
+    d;
+  n[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = { copy: (0, u.jsx)(i, {}), copied: (0, u.jsx)(t, {}) }), (n[0] = d))
+    : (d = n[0]);
+  let f;
+  return (
+    n[1] !== r || n[2] !== a || n[3] !== o || n[4] !== c
+      ? ((f = (0, u.jsx)(s, {
+          className: r,
+          icons: d,
+          isDisabled: a,
+          iconOnly: !0,
+          renderButton: c,
+          tooltipSideOffset: 0,
+          variant: `toolbar`,
+          onCopy: o,
+        })),
+        (n[1] = r),
+        (n[2] = a),
+        (n[3] = o),
+        (n[4] = c),
+        (n[5] = f))
+      : (f = n[5]),
+    f
+  );
+}
+var l, u;
+function d() {
+  return (d = e(() => {
+    ((l = a()), r(), n(), (u = o()));
+  }))();
+}
+export { d as n, c as t };
+//# sourceMappingURL=writing-block-copy-button-6291ce056717.js.map

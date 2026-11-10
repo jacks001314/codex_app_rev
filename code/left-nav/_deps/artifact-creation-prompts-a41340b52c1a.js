@@ -1,0 +1,59 @@
+import { n as e } from "./rolldown-runtime-c05d78c594d1.js";
+import {
+  Spn as t,
+  djt as n,
+  lWt as r,
+  tmt as i,
+  uWt as a,
+  xpn as o,
+} from "./app-initial-f094ef01c64d.js";
+function s(e, t) {
+  let { artifact: r, prompt: i } = l[t];
+  return e.formatMessage(i, { artifact: a(`@${r.label}`, n(r.pluginId)) });
+}
+var c,
+  l,
+  u = e(() => {
+    (t(),
+      i(),
+      r(),
+      (c = o({
+        document: {
+          id: `home.newChatPageSuggestions.createDocument.prompt.v5`,
+          defaultMessage: `Create a new document with {artifact}. Start by asking me what it should be about.`,
+          description: `Composer prefill for creating a document`,
+        },
+        presentation: {
+          id: `home.newChatPageSuggestions.createPresentation.prompt.v5`,
+          defaultMessage: `Create a new presentation with {artifact}. Start by asking me what it should be about.`,
+          description: `Composer prefill for creating a presentation`,
+        },
+        site: {
+          id: `home.newChatPageSuggestions.createSite.prompt.v5`,
+          defaultMessage: `Create a new site with {artifact}. Start by asking me what it should be about.`,
+          description: `Composer prefill for creating a site`,
+        },
+        spreadsheet: {
+          id: `home.newChatPageSuggestions.createSpreadsheet.prompt.v5`,
+          defaultMessage: `Create a new spreadsheet with {artifact}. Start by asking me what it should be about.`,
+          description: `Composer prefill for creating a spreadsheet`,
+        },
+      })),
+      (l = {
+        document: {
+          artifact: { label: `Documents`, pluginId: `documents@openai-primary-runtime` },
+          prompt: c.document,
+        },
+        presentation: {
+          artifact: { label: `Presentations`, pluginId: `presentations@openai-primary-runtime` },
+          prompt: c.presentation,
+        },
+        site: { artifact: { label: `Sites`, pluginId: `sites@openai-bundled` }, prompt: c.site },
+        spreadsheet: {
+          artifact: { label: `Spreadsheets`, pluginId: `spreadsheets@openai-primary-runtime` },
+          prompt: c.spreadsheet,
+        },
+      }));
+  });
+export { s as n, u as r, l as t };
+//# sourceMappingURL=artifact-creation-prompts-a41340b52c1a.js.map
