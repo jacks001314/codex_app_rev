@@ -34,7 +34,7 @@ isIntelMacBuild
 `MessagePort` 通过 `ipcRenderer.postMessage("codex_desktop:connect-app-host", undefined, [port])`
 转交主进程——沙箱化 MCP App 与宿主建立直连通道的方式没有变。
 
-### 26.1103.2 `codex_desktop:*` 频道（25 个具名 + 2 个动态 worker）
+### 26.1106.2 `codex_desktop:*` 频道（26 个具名 + 2 个动态 worker）
 
 | 频道 | 用途 |
 | --- | --- |
@@ -56,6 +56,7 @@ isIntelMacBuild
 | `codex_desktop:mcp-app-sandbox-host-message` | MCP App 沙箱 host 消息 |
 | `codex_desktop:message-for-view` | 主进程 → 页面消息（含分块流） |
 | `codex_desktop:message-from-view` | 页面 → 主进程消息（invoke） |
+| `codex_desktop:network-online` | macOS + prod 的 preload 监听 `window` 的 `online` 事件后 `send`；主进程据此感知网络恢复（无参数） |
 | `codex_desktop:remote-hosted-pip-video-frame` | 远程画中画视频帧（WebCodecs） |
 | `codex_desktop:show-context-menu` | 显示原生上下文菜单 |
 | `codex_desktop:start-file-drag` | 开始原生文件拖拽（sendSync） |
@@ -407,7 +408,7 @@ codex:thread:remote:${id}
 
 > **26.1016 复核（2026-10-23）**：对 26.1013 / 26.1016 的全部抽取代码和三个共享
 > bundle 做字符串集合 diff，app-server/namespace 方法集合仍为 **246**，
-> `codex_desktop:*` 频道仍为 **25**，没有新增或删除名称。Gateway、Rosalind、
+> `codex_desktop:*` 频道由 25 增至 **26**：26.1106 新增 `codex_desktop:network-online`（仅 macOS + prod 的 preload 注册 `window` 的 `online` 监听后 `send`，无参数）。Gateway、Rosalind、
 > 浏览器凭证等功能通过已有方法的新参数或 REST 路径实现。另新增 asar 外的 stdio
 > MCP `openai_artifact_template_picker`，它不属于 Electron IPC；详见
 > [changelog-26.1016.md](changelog-26.1016.md) §5.7、§6–§7。

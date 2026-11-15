@@ -1,0 +1,240 @@
+{
+ "module": "conversation",
+ "generated_at": "2026-11-15T08:57:37.358Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1106.6628.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1106.51428",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/164460.43098a57f6.js",
+   "file": "164460.43098a57f6.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 452059,
+   "formatted_bytes": 589529,
+   "formatter": "prettier",
+   "sha256_raw": "9eaed7f9f7b8453ea40084502be82007c6f7f319dc7fb4f2c8a010c7284ce7f2",
+   "message_count": 1040,
+   "namespace_score": 1004,
+   "namespaces": [
+    "localConversation.mcpToolActivity:722",
+    "localConversation.mcpToolApproval:101",
+    "localConversation.codexTool:97",
+    "localConversation.pageToolActivity:84"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/720744.158c9ed7b0.js",
+   "file": "720744.158c9ed7b0.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 516520,
+   "formatted_bytes": 955348,
+   "formatter": "prettier",
+   "sha256_raw": "5c91a4837e7339a9e34db69787f363bcf0c0999e816d64445cd990a61e0a5bd8",
+   "message_count": 397,
+   "namespace_score": 156,
+   "namespaces": [
+    "localConversation.multiAgentAction:47",
+    "codex.unifiedDiff:30",
+    "localConversation.agentActivity:23",
+    "codex.userMessage:22"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/516636.3f3a73694a.js",
+   "file": "516636.3f3a73694a.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 815415,
+   "formatted_bytes": 1455728,
+   "formatter": "prettier",
+   "sha256_raw": "4e6bfc54cd8248683818adf15f36bbeb58ded2406f8ab4623003d5017cf0857c",
+   "message_count": 486,
+   "namespace_score": 106,
+   "namespaces": [
+    "codex.projectAppearance:38",
+    "pullRequestsPage.detail:35",
+    "composer.submit:28",
+    "pullRequestSidePanel.approvals:26"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/793430.42cfa63a68.js",
+   "file": "793430.42cfa63a68.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 614420,
+   "formatted_bytes": 1134228,
+   "formatter": "prettier",
+   "sha256_raw": "adb4e2a9ed93b7a1a798ede6dead157596ee0232a8450001a05cd18909ea9dd0",
+   "message_count": 194,
+   "namespace_score": 102,
+   "namespaces": [
+    "chatgptConversations.composer:69",
+    "chatgptConversations.lockdown:15",
+    "chatgptConversations.fileUploadLimitBanner:13",
+    "chatgpt.audioAttachment:6"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/312708.2d09486b21.js",
+   "file": "312708.2d09486b21.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 87516,
+   "formatted_bytes": 143960,
+   "formatter": "prettier",
+   "sha256_raw": "247773a7bc608bade3696d34eb20d16d118cc6af311a9a0d107e3a82394c1c3e",
+   "message_count": 89,
+   "namespace_score": 89,
+   "namespaces": [
+    "chatgptConversations.gpts:89"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/551169.05fe96755f.js",
+   "file": "551169.05fe96755f.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 116631,
+   "formatted_bytes": 197155,
+   "formatter": "prettier",
+   "sha256_raw": "322afd659fce045369aa59c6f352b8a45a2677bc1a70240dd1cfc6fb08d620cd",
+   "message_count": 103,
+   "namespace_score": 86,
+   "namespaces": [
+    "chatgptConversations.shareDialog:70",
+    "chatgptConversations.mobileImageShare:12",
+    "shareDialog.thread:7",
+    "chatgptConversations.widgetShare:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/716164.ed73b0386d.js",
+   "file": "716164.ed73b0386d.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 63930,
+   "formatted_bytes": 113821,
+   "formatter": "prettier",
+   "sha256_raw": "d9a876521addde511407bcdca8d7c7ef19523863a6721962ac72754889e025c3",
+   "message_count": 68,
+   "namespace_score": 68,
+   "namespaces": [
+    "chatgptConversations.gpts:68"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/254969.fd0fd72a05.js",
+   "file": "254969.fd0fd72a05.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 66004,
+   "formatted_bytes": 126631,
+   "formatter": "prettier",
+   "sha256_raw": "402f21064be920e536b85c32515168923c4a6d9389180e4803fc4d460b3eaff9",
+   "message_count": 79,
+   "namespace_score": 64,
+   "namespaces": [
+    "chatgptConversations.sidebar:58",
+    "chatgptConversations.projectSettings:6",
+    "chatgptProjectHome.sources:6",
+    "chatgptProjectSaves.actionFailed:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/606068.dd1869a291.js",
+   "file": "606068.dd1869a291.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 627327,
+   "formatted_bytes": 1129284,
+   "formatter": "prettier",
+   "sha256_raw": "7237b7101b615d27b6edc23e0a0afe7945171c6fbf8c860cd7b275e924ae70ea",
+   "message_count": 319,
+   "namespace_score": 63,
+   "namespaces": [
+    "chatgpt.image_gen:36",
+    "chatgptConversations.toolRequest:19",
+    "chatgptConversations.regenerate:15",
+    "chatgptConversations.imageGeneration:15"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/40030.7a8dff1b2d.js",
+   "file": "40030.7a8dff1b2d.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 81152,
+   "formatted_bytes": 144739,
+   "formatter": "prettier",
+   "sha256_raw": "339df641413235fc12592012936878947d3342e416b7792b24b6c4300f83f204",
+   "message_count": 73,
+   "namespace_score": 60,
+   "namespaces": [
+    "codeReview.mergeReason:19",
+    "pullRequestDetail.merge:13",
+    "pullRequestDetail.actions:11",
+    "pullRequestsPage.detail:8"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/349675.a0f349d1ed.js",
+   "file": "349675.a0f349d1ed.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 131610,
+   "formatted_bytes": 236026,
+   "formatter": "prettier",
+   "sha256_raw": "35ded08175bb320cd83cab458d1bdb36a7a8deda4e91b122425f30278e19f864",
+   "message_count": 73,
+   "namespace_score": 60,
+   "namespaces": [
+    "review.fileSource:44",
+    "review.fileLanguage:16",
+    "codex.goToLine:5",
+    "artifactTab.preview:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/552666.47c5053ba6.js",
+   "file": "552666.47c5053ba6.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 45768,
+   "formatted_bytes": 77416,
+   "formatter": "prettier",
+   "sha256_raw": "e7a2c9d228d8903d64796325060ef942001d22d68251a9389030013c6ac31768",
+   "message_count": 68,
+   "namespace_score": 57,
+   "namespaces": [
+    "chatgptConversations.referenceImages:51",
+    "chatgptConversations.responseError:3",
+    "chatgpt.requestUserInput:2",
+    "chatgptConversations.preciseLocation:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/647097.46a6fb52b6.js",
+   "file": "647097.46a6fb52b6.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 69191,
+   "formatted_bytes": 132227,
+   "formatter": "prettier",
+   "sha256_raw": "2b8161fab7398c1acc573141e4ceb90f34b603fecd1b8e30d5c9924408865696",
+   "message_count": 73,
+   "namespace_score": 56,
+   "namespaces": [
+    "chatgptConversations.gpts:56",
+    "plugins.create:7",
+    "skills.appsPage:6",
+    "skills.page:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/719647.6c42fdc739.js",
+   "file": "719647.6c42fdc739.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 66309,
+   "formatted_bytes": 128101,
+   "formatter": "prettier",
+   "sha256_raw": "e4cc2d05b9cbe9fe7e4cd9344dfa4c71ee585657bab8e65d9526a769214d51ad",
+   "message_count": 71,
+   "namespace_score": 54,
+   "namespaces": [
+    "chatgptConversations.gpts:54",
+    "plugins.create:7",
+    "skills.appsPage:6",
+    "skills.page:2"
+   ]
+  }
+ ]
+}

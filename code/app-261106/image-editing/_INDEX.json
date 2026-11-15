@@ -1,0 +1,142 @@
+{
+ "module": "image-editing",
+ "generated_at": "2026-11-15T08:58:34.989Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1106.6628.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1106.51428",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/87804.fcae5854d3.js",
+   "file": "87804.fcae5854d3.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 356669,
+   "formatted_bytes": 669523,
+   "formatter": "prettier",
+   "sha256_raw": "5b1562519fa7484379d4d344b4f4de739372ce23d4a19fd2bd1d3523a67d84aa",
+   "message_count": 208,
+   "namespace_score": 19,
+   "namespaces": [
+    "imageTextEditing.layer:17",
+    "codex.localConversation:15",
+    "codex.imageGen:3",
+    "imageGeneration.rail:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/115354.67ef35607b.js",
+   "file": "115354.67ef35607b.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 109559,
+   "formatted_bytes": 193794,
+   "formatter": "prettier",
+   "sha256_raw": "4e5b2378609ad969c6472875c8702994cf614d97e67147d6554dc9ddce45627f",
+   "message_count": 44,
+   "namespace_score": 30,
+   "namespaces": [
+    "images.preview:27",
+    "codex.conversation:4",
+    "chatgptConversations.fileDropTarget:3",
+    "images.reference:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/606947.ebfe970e6f.js",
+   "file": "606947.ebfe970e6f.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 88562,
+   "formatted_bytes": 172049,
+   "formatter": "prettier",
+   "sha256_raw": "25d4bb28ae4e71a46b61ba16d57d973f83cda0f7b409404dbe9efa638a5a2f80",
+   "message_count": 40,
+   "namespace_score": 22,
+   "namespaces": [
+    "images.reference:11",
+    "imagesApp.promptSections:5",
+    "images.history:5",
+    "images.catalog:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/35357.3096a2d8e9.js",
+   "file": "35357.3096a2d8e9.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 63480,
+   "formatted_bytes": 116390,
+   "formatter": "prettier",
+   "sha256_raw": "6b30af749fc9520f49dd77a34d113241ce1cd2c0c2e6c0a902ba80a1f1fa3379",
+   "message_count": 27,
+   "namespace_score": 20,
+   "namespaces": [
+    "images.reference:11",
+    "imagesApp.promptSections:5",
+    "images.catalog:4",
+    "images.onboarding:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/45428.a2da397739.js",
+   "file": "45428.a2da397739.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 39230,
+   "formatted_bytes": 68258,
+   "formatter": "prettier",
+   "sha256_raw": "74a207ed81e4e4655c368d0feb2ef0804602fe269d803e22380dc1f2b1be182c",
+   "message_count": 19,
+   "namespace_score": 15,
+   "namespaces": [
+    "images.preview:10",
+    "images.nova:5",
+    "chatgptConversations.fileDropTarget:3",
+    "codex.dialog:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/741194.3d08c62211.js",
+   "file": "741194.3d08c62211.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 69160,
+   "formatted_bytes": 129820,
+   "formatter": "prettier",
+   "sha256_raw": "a339c88940a5570ced4bad06cae54ac488c5166d824d587f05f545fbf903e353",
+   "message_count": 19,
+   "namespace_score": 14,
+   "namespaces": [
+    "images.reference:11",
+    "chatgptConversations.fileDropTarget:3",
+    "images.promptDialog:3",
+    "composer.executorSkill:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/744843.d27b33e6a3.js",
+   "file": "744843.d27b33e6a3.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 65665,
+   "formatted_bytes": 118142,
+   "formatter": "prettier",
+   "sha256_raw": "e6f94f84d10e9fed76f7bbfba0efabe5ad6fc09317f7d8fa442c47eb71b5b824",
+   "message_count": 22,
+   "namespace_score": 9,
+   "namespaces": [
+    "imageSidePanel.aspectRatio:5",
+    "imageMarkup.loadError:1",
+    "imageMarkup.back:1",
+    "imageEditViewer.imageLoadError:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/42415.613e6ec86b.js",
+   "file": "42415.613e6ec86b.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 8897,
+   "formatted_bytes": 14415,
+   "formatter": "prettier",
+   "sha256_raw": "9180fa26cb9a15996503ca8be32e1d66937cd06936853a6c239d6c19fc91d966",
+   "message_count": 4,
+   "namespace_score": 4,
+   "namespaces": [
+    "imageGenParagen.comparison:3",
+    "imageGenActionOverlay.compareImages:1"
+   ]
+  }
+ ]
+}

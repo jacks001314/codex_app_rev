@@ -1,0 +1,3996 @@
+{
+ "module": "image-editing",
+ "generated_at": "2026-11-15T08:43:22.918Z",
+ "files_scanned": 8,
+ "message_count": 325,
+ "messages": [
+  {
+   "id": "artifactComments.close",
+   "text": "Close comments",
+   "description": "Accessible label for the button that closes the artifact comments sidebar",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.deleteAllResolved",
+   "text": "Delete all",
+   "description": "Action that permanently deletes every resolved artifact comment thread",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.empty",
+   "text": "No comments yet",
+   "description": "Empty state shown when the open artifact has no native file comments or persistent ChatGPT comment threads; leave the product name ChatGPT unchanged",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.filteredEmpty",
+   "text": "Adjust filters to see comments",
+   "description": "Empty state when existing artifact comment threads do not match the selected open or resolved filter",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.filterLabel",
+   "text": "Filter comments",
+   "description": "Accessible label for the menu that filters artifact comments by open or resolved status",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.filterOpen",
+   "text": "Open",
+   "description": "Filter option showing artifact comment threads that have not been resolved",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.filterResolved",
+   "text": "Resolved",
+   "description": "Filter option showing resolved artifact comment threads",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.heading",
+   "text": "Comments",
+   "description": "Heading of the sidebar containing native file comments and persistent ChatGPT comments on the open artifact; leave the product name ChatGPT unchanged",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.newCommentPlaceholder",
+   "text": "Add a comment",
+   "description": "Placeholder in the floating artifact comment composer",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.openEmptyWithResolvedLink",
+   "text": "No open comment threads. <showResolved>Show resolved threads</showResolved>",
+   "description": "Empty state in the Open comments view when all existing comment threads have been resolved; the link switches to the Resolved view",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.resolvedCount",
+   "text": "<label>Resolved</label> · {count, number}",
+   "description": "Toolbar label showing the number of resolved artifact comment threads; label styles the word Resolved with medium weight",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.showAllOpenThreads",
+   "text": "Show all open threads",
+   "description": "Button that changes the artifact comments filter to show unresolved threads",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactEditor.fontSize",
+   "text": "Font size",
+   "description": "Open font size presets",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactEditor.sizePresetLabel",
+   "text": "{index, select, 0 {Display} 1 {Header} 2 {Subheading} 3 {Body} other {Small}}",
+   "description": null,
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.composer.memoryCorrection.placeholder",
+   "text": "Make a correction",
+   "description": "Short placeholder in the ChatGPT conversation composer after an end user selects a cited memory or memory follow-up. It tells the user that their next message will correct that specific memory.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.composer.memoryCorrection.remove",
+   "text": "Remove memory correction",
+   "description": "Short accessible label for the remove button on a cited-memory target in the ChatGPT conversation composer. Removing it makes the next message an ordinary message instead of a memory correction.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.fileDropTarget.addAnything",
+   "text": "Add anything",
+   "description": "Heading shown while a user drags files over a ChatGPT conversation, inviting them to attach files to the conversation",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "chatgptConversations.fileDropTarget.dragInstructions",
+   "text": "Drop any file here to add it to the conversation",
+   "description": "Instruction shown while a user drags files over a ChatGPT conversation, explaining that dropping the files attaches them to the conversation",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "chatgptConversations.fileDropTarget.dropToAttach",
+   "text": "Drop files to attach",
+   "description": "Overlay shown while dragging files over a ChatGPT conversation in Codex Desktop",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "codex.chatGptConversation.imageGeneration.loadingLabel",
+   "text": "Generating image...",
+   "description": "Aria label for the image generation loading placeholder",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.assistant",
+   "text": "ChatGPT said:",
+   "description": "Screen-reader-only heading announcing the start of a ChatGPT assistant message in a conversation",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.printAssistant",
+   "text": "ChatGPT",
+   "description": "Short speaker label above the assistant's answer in a printed or PDF-saved conversation. ChatGPT is the product name and should not be translated.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.printUser",
+   "text": "You",
+   "description": "Short speaker label above the user's message in a printed or PDF-saved ChatGPT conversation.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.user",
+   "text": "You said:",
+   "description": "Screen-reader-only heading announcing the start of a user message in a conversation",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.dialog.closeButton",
+   "text": "Close dialog",
+   "description": "Accessible label for the button that closes a dialog",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "codex.generatedImage.loadingSource",
+   "text": "Loading image…",
+   "description": "Accessible label while an existing generated image is being downloaded for display",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.generatedImage.thumbnailUnavailable",
+   "text": "Image unavailable",
+   "description": "Accessible label for a generated image thumbnail whose download failed; selecting it opens the viewer with a retry button",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.imageGen.animationGif",
+   "text": "GIF",
+   "description": "Compact image viewer toggle option. Plays the animated GIF. The other option, Sheet, shows the editable grid of frames. Keep the GIF file format name.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.imageGen.displayVariant",
+   "text": "Image display",
+   "description": "Accessible label for choosing which version of an image to display, such as an animation, a grid of frames, or the original image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.imageGen.displayVariant.original",
+   "text": "Original",
+   "description": "Compact image viewer option that displays the original image instead of one of its alternate versions.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.generatedImage",
+   "text": "Generated image {imageNumber}",
+   "description": "Alt text for an assistant-generated image shown in the final response",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.generatedImageTabTitle",
+   "text": "{conversationTitle} - Generated image {imageNumber}",
+   "description": "Title for a generated image preview tab, prefixed by the conversation title",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.canvasViewCoachmarkDescription",
+   "text": "Switch between a focused image and all generated images",
+   "description": "Body copy shown in the image view toggle coachmark.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.canvasViewCoachmarkDismiss",
+   "text": "Dismiss",
+   "description": "Accessible label for dismissing the image view toggle coachmark.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.canvasViewCoachmarkTitle",
+   "text": "Try Canvas view",
+   "description": "Title shown in the image view toggle coachmark when Canvas view is closed.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.commentAction",
+   "text": "Comment",
+   "description": "Toolbar action that enters canvas image comment mode.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.commentFailed",
+   "text": "Could not add image comment",
+   "description": "Error shown when an image comment could not be added in the image playground.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.commentHelper",
+   "text": "Add comments on multiple images to batch edit them",
+   "description": "Helper text shown in canvas comment mode before the user has added comments to any images.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.focusedViewCoachmarkTitle",
+   "text": "Try focused view",
+   "description": "Title shown in the image view toggle coachmark when Canvas view is open.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.multiSelectAction",
+   "text": "Multi-select",
+   "description": "Toolbar action that enters canvas image multi-select mode.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.playgroundView",
+   "text": "Canvas view",
+   "description": "Accessible label for the image canvas view.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.selectFailed",
+   "text": "Could not select image",
+   "description": "Error shown when a generated image could not be added to the composer.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.singleView",
+   "text": "Focused view",
+   "description": "Accessible label for the focused image view.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.tools",
+   "text": "Image playground tools",
+   "description": "Accessible label for the image playground toolbar.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.imagePlayground.view",
+   "text": "Image view",
+   "description": "Accessible label for the image view toggle.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.userImageAttachment",
+   "text": "User attachment",
+   "description": "Alt text for user image attachment in local conversation",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.userImageAttachmentFailedShort",
+   "text": "Failed",
+   "description": "Short visible text for a user image attachment that could not be loaded in local conversation",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.executorSkill.computerChanged",
+   "text": "The computer or folder changed. Choose the skill again before sending.",
+   "description": "Error when the selected skill no longer belongs to the cloud task's workspace",
+   "files": [
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "composer.submitButtonTooltip.send",
+   "text": "Send",
+   "description": "Accessible label for submit when no response is currently in progress",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.heading",
+   "text": "My images",
+   "description": "Heading for the person's previously generated images on the Images page",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.library-shortcut.description",
+   "text": "Find all your images and more in Library",
+   "description": "Supporting text under My images encouraging people with Library access to browse their generated and uploaded images there",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.library-shortcut.link.label",
+   "text": "Open Library",
+   "description": "Button beside My images that opens the Images tab in Library",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.library-shortcut.link.label.space",
+   "text": "Open Space",
+   "description": "Button beside My images that opens the Images tab in Space. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageEditViewer.imageLoadError",
+   "text": "Could not load this image. Close and reopen the image to try again",
+   "description": "The source image failed to load in the image viewer or editor",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagegen.composer.suggestions.upload.aria_label",
+   "text": "Recent upload {index}",
+   "description": "Accessible label for a recent upload thumbnail in the image generation composer suggestions uploads tab.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "imageGenActionOverlay.compareImages",
+   "text": "Compare images",
+   "description": "Accessible label and tooltip for a button that toggles inline image-generation comparison. The reference is the attached image or the single generated image in the preceding response. The button shows or hides a slider comparing it with each new generated result.",
+   "files": [
+    "42415.613e6ec86b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageGeneration.rail.loadingHistory",
+   "text": "Loading older images…",
+   "description": "Screen reader status while the image thumbnail rail loads an older page of conversation history",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageGeneration.rail.retryHistory",
+   "text": "Retry loading older images",
+   "description": "Accessible label and tooltip for retrying a failed older image history request in the thumbnail rail",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageGenParagen.comparison.outputImage",
+   "text": "Output image",
+   "description": "Accessible description of the generated result, shown on the right in an inline image-generation comparison while choosing between two generated results.",
+   "files": [
+    "42415.613e6ec86b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageGenParagen.comparison.referenceImage",
+   "text": "Reference image",
+   "description": "Accessible description of the attached image or the single generated image in the preceding response, shown on the left in an inline image-generation comparison while choosing between two generated results.",
+   "files": [
+    "42415.613e6ec86b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageGenParagen.comparison.slider",
+   "text": "Compare reference and generated images",
+   "description": "Accessible label for the slider below each image in an inline comparison while choosing between two generated results. Dragging reveals the reference image on the left and the generated image on the right.",
+   "files": [
+    "42415.613e6ec86b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageMarkup.back",
+   "text": "Back to image",
+   "description": "Leave the failed image markup editor",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageMarkup.loadError",
+   "text": "Could not load markup. Reload to try again",
+   "description": "The image markup editor failed to download",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.catalog.empty",
+   "text": "Start with your own idea",
+   "description": "Empty state on the Images page when no image creation prompts are available. Users can still create images by writing in the composer above.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.catalog.emptyDescription",
+   "text": "Describe the image you want to create",
+   "description": "Instruction in the Images page's empty prompt catalog, directing the user to the image creation composer.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.catalog.loadError",
+   "text": "Some image prompts couldn't be loaded",
+   "description": "Error above image creation prompt cards when the catalog or styles request fails. The neighboring Retry button reloads the missing prompts.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.catalog.retry",
+   "text": "Retry",
+   "description": "Button on the Images page that retries loading failed image creation prompt collections.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.discover.untitled",
+   "text": "Image inspiration",
+   "description": "Fallback title of a For you discovery image with no title or subject from the server",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.empty",
+   "text": "Images you create with ChatGPT will appear here",
+   "description": "Empty state below My images before the person has generated an image",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.imageTitle",
+   "text": "Generated image",
+   "description": "Accessible name for a generated image in My images when the service did not provide a title",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.loadFailed",
+   "text": "Could not load images",
+   "description": "Error in the generated image history; existing images stay visible and the following button retries the failed request",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.loading",
+   "text": "Loading images…",
+   "description": "Status while the person's generated image history loads on the Images page",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.retry",
+   "text": "Try again",
+   "description": "Button to retry loading the image history or its next page after an error",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.nova.preview.close",
+   "text": "Close preview",
+   "description": "Closes the image template detail view and returns to the image gallery",
+   "files": [
+    "45428.a2da397739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.nova.preview.prompt",
+   "text": "Prompt",
+   "description": "Heading above the image template's full generation prompt",
+   "files": [
+    "45428.a2da397739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.nova.preview.related",
+   "text": "More like this",
+   "description": "Heading above other image templates from the same gallery category",
+   "files": [
+    "45428.a2da397739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.nova.preview.remix",
+   "text": "Remix",
+   "description": "Button for remixing the reference image; currently a prototype with no action",
+   "files": [
+    "45428.a2da397739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.nova.preview.useStyle",
+   "text": "Use style",
+   "description": "Attach this image as a style reference to the Images composer without sending a message",
+   "files": [
+    "45428.a2da397739.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.onboarding.next",
+   "text": "Next image ideas",
+   "description": "Show the next page of onboarding image style cards.",
+   "files": [
+    "35357.3096a2d8e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.onboarding.previous",
+   "text": "Previous image ideas",
+   "description": "Show the previous page of onboarding image style cards.",
+   "files": [
+    "35357.3096a2d8e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.onboarding.suggestions",
+   "text": "Image ideas",
+   "description": "Accessible label for the image style cards below the image creation onboarding reply.",
+   "files": [
+    "35357.3096a2d8e9.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.page.title",
+   "text": "Images",
+   "description": "Heading of the image discovery and creation page",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.aspectRatio",
+   "text": "Aspect ratio",
+   "description": "Label for the output image proportions selector",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.aspectRatioInstruction",
+   "text": "Output aspect ratio: {aspectRatio}. Use this output ratio instead of any conflicting aspect ratio or framing instruction above.",
+   "description": "Instruction appended to the submitted image prompt to apply the user's chosen output proportions, overriding conflicting proportions in the original prompt.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.aspectRatioSelected",
+   "text": "Aspect ratio: {ratio, select, auto {Auto} other {{ratio}}}",
+   "description": "Accessible label for the image proportions dropdown, including its current selection. Auto lets the image prompt choose the proportions.",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.availabilityError",
+   "text": "Couldn't check availability",
+   "description": "Error when checking image generation or photo upload availability",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.chooseMorePhotos",
+   "text": "{count, plural, one {Choose one more photo} other {Choose # more photos}}",
+   "description": "Heading above the photo selection rail when some photos are selected but the image template needs more. Count is the number of additional ready photos required. Users can select an existing photo or upload a new one.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.choosePhotos",
+   "text": "{count, plural, one {Choose a photo} other {Choose # photos}}",
+   "description": "Heading above the photo selection rail when the image template requires photos and none are ready. Count is the number of photos required. Users can select an existing photo or upload a new one.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.imageUnavailable",
+   "text": "Preview unavailable",
+   "description": "Fallback shown when the example artwork for an image prompt cannot be displayed; the prompt can still be used",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.loadError.reload",
+   "text": "Reload and try again",
+   "description": "Recovery instruction when the image prompt preview could not load",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.loadError.title",
+   "text": "Couldn’t open preview",
+   "description": "Title shown when the image prompt preview could not load",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.photoLimitReached",
+   "text": "You've reached your photo limit. Try again later",
+   "description": "Explains why adding a reference photo is disabled after reaching the account's file attachment limit",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.photos",
+   "text": "Photos",
+   "description": "Accessible label for recently uploaded images and saved subjects or references in the image template preview",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.rateLimited",
+   "text": "Image creation is currently unavailable. Please try again later",
+   "description": "Guidance when the current account or model cannot generate an image because of a usage limit",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.ratioAuto",
+   "text": "Auto",
+   "description": "Aspect ratio option that lets the image prompt choose the output proportions",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.recentPhoto",
+   "text": "Photo {index}",
+   "description": "Accessible name of a recent photo available to use as an image subject",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.references.loadError",
+   "text": "Saved references couldn't be loaded",
+   "description": "Error in the image template preview when loading saved reference images fails. The user can retry or upload a photo.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.removePhoto",
+   "text": "Remove {name}",
+   "description": "Accessible label to remove a selected reference photo",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.retry",
+   "text": "Retry",
+   "description": "Retry checking image generation and upload availability",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.seeLess",
+   "text": "See less",
+   "description": "Collapse the image prompt back to its short preview",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.seeMore",
+   "text": "See more",
+   "description": "Expand the preview to read the full image prompt",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.sendError",
+   "text": "Couldn't start your image. Try again",
+   "description": "Error when submitting a configured image prompt fails; the user's choices are kept for retry",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.suggestedImages",
+   "text": "Suggested images",
+   "description": "Label for saved reference images and recent uploads suggested for use in the image template preview",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.suggestedImages.next",
+   "text": "Next suggested images",
+   "description": "Scroll to the next suggested reference images or uploads in the image template preview",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.suggestedImages.previous",
+   "text": "Previous suggested images",
+   "description": "Scroll to the previous suggested reference images or uploads in the image template preview",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.truncationMarker",
+   "text": "…",
+   "description": "Ellipsis marking omitted image prompt text before the See more control",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.tryIt",
+   "text": "Try it",
+   "description": "Primary action that generates an image using the previewed prompt and the selected customizations",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.uploadError",
+   "text": "Couldn't add all photos. Remove any failed upload and add it again",
+   "description": "Explains how to recover when a reference photo cannot be uploaded or exceeds the prompt's photo limit",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.uploading",
+   "text": "Uploading photos…",
+   "description": "Status while reference photos are uploading before image generation can start",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.uploadPhotoHeading",
+   "text": "Upload photo",
+   "description": "Heading and accessible label for the upload tile when a photo is optional and no photos are available to suggest.",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.uploadPhotosToTry",
+   "text": "{count, plural, one {Upload photo} other {Upload photos}}",
+   "description": "Primary action that opens the photo picker and starts image generation after a successful upload supplies enough photos for the template. Count is the number of additional ready photos required.",
+   "files": [
+    "115354.67ef35607b.js",
+    "45428.a2da397739.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.prompt.tryIt",
+   "text": "Try it",
+   "description": "Button over an image suggestion that opens its prompt setup flow. Appears on hover, keyboard focus, or touch devices.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.prompt.tryIt.ariaLabel",
+   "text": "Try it: {title}",
+   "description": "Accessible label for the Try it button over an image suggestion. Opens the existing prompt setup flow for the suggestion named by title.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.promptDialog.cancel",
+   "text": "Cancel",
+   "description": "Dismiss the image prompt dialog without starting image generation",
+   "files": [
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.promptDialog.choosePhoto",
+   "text": "Choose a new photo",
+   "description": "Open the image picker to create an image from the selected prompt and a new photo",
+   "files": [
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.promptDialog.create",
+   "text": "Create image",
+   "description": "Generate an image from the prompt previewed in the dialog",
+   "files": [
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.reference.attach",
+   "text": "Attach a photo",
+   "description": "Heading above the photo upload carousel on the Images page",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.back",
+   "text": "Back to suggestions",
+   "description": "Return from reference photos to image prompt suggestions without clearing the composer",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.loadError",
+   "text": "Recent photos couldn't be loaded",
+   "description": "Error above the recent reference-photo list on the Images page when fetching photo history fails. Uploading a new image remains available.",
+   "files": [
+    "115354.67ef35607b.js",
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "images.reference.next",
+   "text": "Next photos",
+   "description": "Show the next page of recent reference photos",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.photoError",
+   "text": "Couldn't attach photo",
+   "description": "Short error below a recent reference photo when retrieving its attachment details fails. Selecting the photo retries.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.photoName",
+   "text": "Photo {position}",
+   "description": "Name for a recently uploaded reference photo on the Images page. Position is its one-based position in the recent photos list.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.photos",
+   "text": "Reference photos",
+   "description": "Accessible label for the image creation photo upload carousel",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.previous",
+   "text": "Previous photos",
+   "description": "Show the previous page of recent reference photos",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.recents",
+   "text": "Recents",
+   "description": "Heading above recently uploaded photos in the image prompt dialog",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.retry",
+   "text": "Retry",
+   "description": "Retry loading recent reference photos on the Images creation page",
+   "files": [
+    "115354.67ef35607b.js",
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "images.reference.upload",
+   "text": "Upload a photo",
+   "description": "Button to choose a new reference photo from the device for image creation",
+   "files": [
+    "115354.67ef35607b.js",
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js",
+    "741194.3d08c62211.js"
+   ],
+   "file_count": 4
+  },
+  {
+   "id": "images.sketch.unavailable",
+   "text": "Sketch is unavailable right now",
+   "description": "Error toast when an Images sketch card cannot open the drawing editor because the composer is not ready or cannot accept a sketch attachment. The user can select the card again to retry.",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.myImages.tab",
+   "text": "My images",
+   "description": "Last tab on the Images page, showing saved reference images and previously generated images",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imagesApp.promptSections.compact.label",
+   "text": "Image category",
+   "description": "Accessible label before the selected image category in a menu button that appears when the image gallery is scrolled.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imagesApp.promptSections.loading.ariaLabel",
+   "text": "Loading image categories",
+   "description": "Accessible name for the placeholder tab while image prompt categories are loading. Selecting it returns to the loading image prompts.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imagesApp.promptSections.tab.templates",
+   "text": "Templates",
+   "description": "Short tab label in the image prompt categories on the ChatGPT Images page and the Create image composer. Selecting it shows ready-made image creation templates. Keep this label concise.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imagesApp.promptSections.tab.trending",
+   "text": "Trending",
+   "description": "Short tab label below the image composer on the ChatGPT Images page. Selecting it shows uncategorized popular image creation prompts; neighboring tabs show other available prompt categories.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imagesApp.promptSections.tabs.ariaLabel",
+   "text": "Image prompt categories",
+   "description": "Accessible name for image prompt category tabs below the image composer on the ChatGPT Images page. Includes Trending and any additional categories provided by the server.",
+   "files": [
+    "35357.3096a2d8e9.js",
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageSidePanel.addComment",
+   "text": "Add comment",
+   "description": "Accessible label for adding a comment to an image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.landscape",
+   "text": "Landscape",
+   "description": "Label for the 4:3 image resize option.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.portrait",
+   "text": "Portrait",
+   "description": "Label for the 3:4 image resize option.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.square",
+   "text": "Square",
+   "description": "Label for the 1:1 image resize option.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.story",
+   "text": "Story",
+   "description": "Label for the 9:16 image resize option.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.widescreen",
+   "text": "Widescreen",
+   "description": "Label for the 16:9 image resize option.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.cancelCommentEdit",
+   "text": "Cancel",
+   "description": "Button label for canceling an image comment edit.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.cancelRemoveMode",
+   "text": "Cancel",
+   "description": "Toolbar action that exits image remove mode.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.comment",
+   "text": "Comment",
+   "description": "Toolbar action that enters image comment mode.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.deleteComment",
+   "text": "Delete comment",
+   "description": "Accessible label for deleting a saved image comment.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.editCommentInput",
+   "text": "Edit comment",
+   "description": "Accessible label for the text field for editing an existing image comment",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.erase",
+   "text": "Erase",
+   "description": "Image panel toolbar action that lets the user brush over an area of the image to erase it.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.markup",
+   "text": "Markup",
+   "description": "Open drawing, text, shapes, and comments on an image",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.redoRemoveSelection",
+   "text": "Redo",
+   "description": "Toolbar action that redoes the last undone remove selection.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.remove",
+   "text": "Remove",
+   "description": "Toolbar action that enters image remove mode.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeBackground",
+   "text": "Remove BG",
+   "description": "Compact image panel action that immediately removes the current image's background while preserving its foreground subjects. BG is short for background.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeBrushSize",
+   "text": "Brush size",
+   "description": "Accessible label for the slider that changes the remove selection brush size.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeHelper",
+   "text": "Brush over what you want to remove",
+   "description": "Helper text shown while selecting an image area to remove.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeSurface",
+   "text": "Mark areas to remove",
+   "description": "Accessible label for the image surface where users brush over areas to remove.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.resize",
+   "text": "Resize",
+   "description": "Toolbar action that resizes the current image.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.saveCommentEdit",
+   "text": "Save",
+   "description": "Button label for saving an image comment edit.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.sendRemoveSelection",
+   "text": "Send",
+   "description": "Toolbar action that submits the selected image area to remove.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.undoRemoveSelection",
+   "text": "Undo",
+   "description": "Toolbar action that undoes the last brushed remove selection.",
+   "files": [
+    "744843.d27b33e6a3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.add",
+   "text": "Add text",
+   "description": "Add a new editable text box to this image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.addComment",
+   "text": "Add comment",
+   "description": "Add a comment to the selected image text block to include in a combined edit request",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.addExcerptCommentPlaceholder",
+   "text": "Comment on “{excerpt}”…",
+   "description": "Comment field placeholder quoting the selected words on the image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.arrange",
+   "text": "Arrange",
+   "description": "Change the stacking order of the selected text box",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.backToImage",
+   "text": "Back to image",
+   "description": "Return to the image after an empty extraction or unavailable editable version",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.backToOriginal",
+   "text": "Back to original",
+   "description": "Returns to the source image without cancelling text preparation",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.batchInstruction",
+   "text": "Apply these comments together to the attached {width} × {height} image. Harmonize the edited lettering with the surrounding image and preserve content outside the requested changes.",
+   "description": "Instructions sent with the editable image and the user's notes on individual text blocks.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.bendGuide",
+   "text": "Bend",
+   "description": "Activate points on the baseline to bend the lettering",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.bendGuideHint",
+   "text": "Drag a point to bend the text",
+   "description": "Hint in the guide editor for bending lettering along its baseline",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.blockActions",
+   "text": "Block actions",
+   "description": "Open actions for the selected editable text box",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.bringForward",
+   "text": "Bring forward",
+   "description": "Move this text one editable image text layer forward",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.bringToFront",
+   "text": "Bring to front",
+   "description": "Move this text in front of all other editable image text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.cancel",
+   "text": "Cancel",
+   "description": "Exit image text editing; unsaved edits require confirmation",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.checkLibrary",
+   "text": "Check Library",
+   "description": "Open Library to check whether an image save with an unknown outcome completed",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.choosePaintTarget",
+   "text": "Choose a text box",
+   "description": "Prompt in the image toolbar while Format Painter is active",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.closeEditsSidebar",
+   "text": "Close image edits",
+   "description": "Accessible label for closing the image edits sidebar.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.closeProperties",
+   "text": "Close text properties",
+   "description": "Close the properties panel and return to the image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.commentAuthor",
+   "text": "You",
+   "description": "The current user as the author of a local image text comment",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.commentList",
+   "text": "Text comments",
+   "description": "Title of the panel listing notes about image lettering.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.composerThumbnail",
+   "text": "Image being edited",
+   "description": "Accessible name for the source image in the Edit Text composer.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.currentAlignment",
+   "text": "{alignment, select, left {Align left} center {Align center} other {Align right}}",
+   "description": "Current horizontal alignment of the selected image text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.deleteBlock",
+   "text": "Delete",
+   "description": "Delete the selected editable text block",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.directTextAdded",
+   "text": "Added text",
+   "description": "An edit in the image edits sidebar added this editable text layer.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.directTextChanged",
+   "text": "Changed to “{text}”",
+   "description": "An edit in the image edits sidebar changed the wording of this editable text layer. The placeholder contains the new wording.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.directTextDeleted",
+   "text": "Deleted text",
+   "description": "An edit in the image edits sidebar removed this editable text layer.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.directTextUpdated",
+   "text": "Updated text layer",
+   "description": "An edit in the image edits sidebar changed the appearance or position of this editable text layer.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.discardChanges",
+   "text": "Discard changes",
+   "description": "Confirms discarding the current unsaved image text draft",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.discardDescription",
+   "text": "This discards the unsaved edits and comments on this image.",
+   "description": "Explains that discarding image text edits removes only the current unsaved draft",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.discardTitle",
+   "text": "Discard all text edits?",
+   "description": "Confirmation title before discarding all unsaved text changes to an image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.duplicateBlock",
+   "text": "Duplicate",
+   "description": "Create a copy of the selected editable text block",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editableCopy",
+   "text": "Editable copy",
+   "description": "Gallery item containing a prepared, editable copy of the source image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editedCopy",
+   "text": "Edited copy",
+   "description": "Gallery item containing a new saved version of an image after text editing",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editGuides",
+   "text": "Edit guides",
+   "description": "Edit the curve of the selected text on the image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editsLayerOrder",
+   "text": "Layer order",
+   "description": "An image edit that changed the stacking order of the editable text layers.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editsSidebarTitle",
+   "text": "Image edits",
+   "description": "Heading and accessible label of the sidebar listing changes to the current image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editText",
+   "text": "Edit text",
+   "description": "Image action that prepares existing text in the image for direct editing",
+   "files": [
+    "744843.d27b33e6a3.js",
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageTextEditing.emptyBlockNumber",
+   "text": "Empty text block {number}",
+   "description": "Identifies an empty image text block by its position in the document",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.emptyBoxLabel",
+   "text": "Text",
+   "description": "Label identifying an editable text box with empty wording",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.emptyEditsSidebar",
+   "text": "No image edits",
+   "description": "Empty state after the user removes the last edit from the image edits sidebar.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.emptyPaintTarget",
+   "text": "Apply formatting to empty text box",
+   "description": "Accessible action to use Format Painter on a box with no words",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.eraseImageWording",
+   "text": "Remove the lettering and restore the background.",
+   "description": "A request to clear the wording of text baked into an image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.extractionFailed",
+   "text": "Something went wrong",
+   "description": "Error message shown when extracting editable text from an image fails",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.finishCommentDraft",
+   "text": "Edit this comment to finish your draft before sending.",
+   "description": "Explanation when an unfinished draft prevents sending the queued image text comments.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.finishGuides",
+   "text": "Done",
+   "description": "Leave guide editing and return to text properties with changes in the draft",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.finishPainter",
+   "text": "Done",
+   "description": "Stop applying the sampled text formatting",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.formatPainter",
+   "text": "Format Painter",
+   "description": "Sample the selected image text box's formatting and apply it to another box",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.guidePoint",
+   "text": "{kind, select, baseline {Baseline} other {Upper contour}}, {line, select, block {text block} other {line {line}}}, {control, select, yes {control point} other {anchor}} {index}",
+   "description": "Accessible name of a draggable image text guide point, including its guide, line, point type and one-based index",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.guidePointHelp",
+   "text": "Drag or use the arrow keys to move this point. Hold Shift with an arrow key to move ten pixels.",
+   "description": "Keyboard and pointer instructions for an image text guide point, in source-image pixels",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.heightGuide",
+   "text": "Letter height",
+   "description": "Activate upper-contour points to change the local height of letters",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.heightGuideHint",
+   "text": "Drag a point toward or away from the baseline",
+   "description": "Hint for adjusting the height of letters at an upper guide point",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.horizontalScale",
+   "text": "Character width",
+   "description": "Horizontal scale of image text as a percentage",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.imageFonts",
+   "text": "From this image",
+   "description": "Font menu group containing styles reconstructed from the original image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.invalidGeometry",
+   "text": "This text does not fit inside the image. Move it, widen its box, or reduce its size",
+   "description": "Image text has invalid or overflowing geometry and must be adjusted before saving",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.keepEditing",
+   "text": "Keep editing",
+   "description": "Dismisses the discard confirmation and returns to the image text draft",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.keepPainting",
+   "text": "Keep painting",
+   "description": "Keep applying the same formatting to additional image text boxes",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.actions",
+   "text": "Layer actions",
+   "description": "Floating actions for the selected object or preserved lettering.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.addWording",
+   "text": "Apply to request",
+   "description": "Stage the requested lettering for Send.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.cancelWording",
+   "text": "Cancel",
+   "description": "Dismiss replacement wording without staging changes.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.editText",
+   "text": "Edit text",
+   "description": "Open a replacement wording request for lettering baked into the image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.emptyText",
+   "text": "Text",
+   "description": "Canvas label for lettering with no transcription.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resetPlacement",
+   "text": "Reset placement",
+   "description": "Remove the requested move or resize from the next image edit.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeE",
+   "text": "Resize from right",
+   "description": "Resize a selected image layer from its right edge.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeN",
+   "text": "Resize from top",
+   "description": "Resize a selected image layer from its top edge.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeNE",
+   "text": "Resize from top right",
+   "description": "Resize a selected image layer from its top right corner.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeNW",
+   "text": "Resize from top left",
+   "description": "Resize a selected image layer from its top left corner.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeS",
+   "text": "Resize from bottom",
+   "description": "Resize a selected image layer from its bottom edge.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeSE",
+   "text": "Resize from bottom right",
+   "description": "Resize a selected image layer from its bottom right corner.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeSW",
+   "text": "Resize from bottom left",
+   "description": "Resize a selected image layer from its bottom left corner.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeW",
+   "text": "Resize from left",
+   "description": "Resize a selected image layer from its left edge.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.rotate",
+   "text": "Rotate layer",
+   "description": "Accessible name of the control that rotates the selected image layer around its center in degrees",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.wording",
+   "text": "Replacement text",
+   "description": "Label for the wording to paint in the selected lettering's place.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.wordingHint",
+   "text": "Send to update the lettering in the image.",
+   "description": "Explain when a requested replacement for baked-in lettering is applied.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layerEditCount",
+   "text": "{count, plural, one {# image edit} other {# image edits}}",
+   "description": "Number of queued changes to image regions in the composer.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layerEditSource",
+   "text": "{kind, select, object {Object} other {Text}} “{name}” at ({x}, {y}), {width} × {height} pixels.",
+   "description": "The original top-left corner and size of the target in the attached image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layerRequestInstructions",
+   "text": "Apply these edits to the attached {width} × {height} image. Coordinates use the top-left corner of the image as the origin. Keep surrounding content intact.",
+   "description": "Instructions introducing position and wording edits to baked image regions.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.letterSpacing",
+   "text": "Letter spacing",
+   "description": "Space between image text letters, in pixels",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.lineGuide",
+   "text": "Line {number}",
+   "description": "Select the numbered line of extracted text to shape",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.lineHeight",
+   "text": "Line height",
+   "description": "Distance between image text lines as a multiple of font size",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.loadingAccessible",
+   "text": "Loading image text",
+   "description": "Accessible status while loading an existing image text document",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.loadingDocument",
+   "text": "Loading text…",
+   "description": "Toolbar status while reopening an existing image's editable text and fonts",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.moreFormatting",
+   "text": "More formatting options",
+   "description": "Open the formatting and layout inspector for the selected image text block",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.moveImageRegion",
+   "text": "Place it at ({x}, {y}) with a size of {width} × {height} pixels. Restore the exposed background.",
+   "description": "A requested destination, measured from its top-left corner in image pixels.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.moveText",
+   "text": "Move text",
+   "description": "Move the selected image text by dragging its body or using the arrow keys",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.nativeLayerEditMask",
+   "text": "The white areas in the selection image mark the source and destination regions for these edits.",
+   "description": "Explains the separate selection mask attached to a native image edit request.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.newText",
+   "text": "New text",
+   "description": "Initial contents of a text block added to an image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.noEditableText",
+   "text": "No editable text found",
+   "description": "The prepared image has no text that supports direct editing",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.noteExcerptTarget",
+   "text": "Originally highlighted text “{excerpt}”. Current block “{text}” at ({x}, {y}), {width} × {height} pixels, rotated {rotation}°. {body}",
+   "description": "A staged editing note targeting highlighted words, with their containing text block and source image frame.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.noteTarget",
+   "text": "Text “{text}” at ({x}, {y}), {width} × {height} pixels, rotated {rotation}°. {body}",
+   "description": "A staged editing note with the exact text and source image frame that the user selected.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.numberedComment",
+   "text": "Comment {number}",
+   "description": "Title of a numbered image text comment preview",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.objectNoteTarget",
+   "text": "Object “{text}” at ({x}, {y}), {width} × {height} pixels. {body}",
+   "description": "A staged comment describing the selected object's original bounds.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.openComment",
+   "text": "Open comment on {target}",
+   "description": "Open a saved image text comment on its target.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.openProperties",
+   "text": "Properties",
+   "description": "Open the optional text and formatting properties for this image text block",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.paintTarget",
+   "text": "Apply formatting to {text}",
+   "description": "Accessible name of a text box targeted by Format Painter. Text is the box's lettering.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.pasteFormatting",
+   "text": "Paste formatting",
+   "description": "Apply the previously sampled image text style to the selected box",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.pixelUnit",
+   "text": "px",
+   "description": "Abbreviation for source-image pixels, the unit for editable image text size",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.preparing",
+   "text": "Preparing text…",
+   "description": "Indeterminate status while preparing an image for direct text editing",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.preparingAccessible",
+   "text": "Preparing image text",
+   "description": "Accessible status for the animated image text preparation preview",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.previewUnavailable",
+   "text": "Couldn’t load the editable preview",
+   "description": "Blocking error when the editable image cannot be rendered",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.properties",
+   "text": "Text properties",
+   "description": "Title of the optional properties panel for image text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.reconnecting",
+   "text": "Reconnecting…",
+   "description": "Toolbar status while retrying the preparation connection",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.redo",
+   "text": "Redo",
+   "description": "Redo the most recently undone image text change",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.removeLayerEdit",
+   "text": "Remove edit for {name}",
+   "description": "Remove one queued change to an image region.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.removeUnnamedLayerEdit",
+   "text": "Remove text edit",
+   "description": "Accessible label for removing an image edit whose text layer has no name.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.renderFailed",
+   "text": "This image could not be rendered. Retry loading before editing",
+   "description": "The exact image text preview cannot render, so editing and saving are unavailable",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.reopenComment",
+   "text": "Reopen comment",
+   "description": "Return a resolved image text comment to open comments.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.replaceImageWording",
+   "text": "Change the lettering to “{words}”, matching its existing style.",
+   "description": "A request to change the wording of text baked into an image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.requestFailed",
+   "text": "Couldn’t send your edit. Try again.",
+   "description": "Message when sending the batch of image text notes failed and it can be retried.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.resetBlock",
+   "text": "Reset this text block",
+   "description": "Restore the selected text box to the saved version",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.resizeLeft",
+   "text": "Resize text from left",
+   "description": "Accessible label for the selected text box's left handle; drag or use arrow keys to resize its width",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.resizeRight",
+   "text": "Resize text from right",
+   "description": "Accessible label for the selected text box's right handle; drag or use arrow keys to resize its width",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.restoreLayerOrder",
+   "text": "Restore layer order",
+   "description": "Accessible label for undoing an image edit that reordered the text layers.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retryLoading",
+   "text": "Retry loading",
+   "description": "Reload the image text editor's document and required assets",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retryNotes",
+   "text": "Retry",
+   "description": "Button to resend a batch of image text notes after a failed attempt.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retryPreparation",
+   "text": "Try again",
+   "description": "Retries preparing or loading the editable text document",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retrySave",
+   "text": "Retry save",
+   "description": "Retry a known failed image save using the retained text draft",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retrySavedPreview",
+   "text": "Retry loading",
+   "description": "Retry loading the saved image without creating another snapshot",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.returnToEditing",
+   "text": "Return to editing",
+   "description": "Return to the retained unsaved text draft after a failed or unresolved image save",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.rotateImageRegion",
+   "text": "Rotate it {angle, number}° {direction, select, clockwise {clockwise} other {counterclockwise}} around its center.",
+   "description": "Instruction in an image edit request to rotate the selected object or preserved lettering after positioning and sizing it. The angle is a positive number in degrees and the direction is clockwise or counterclockwise as viewed on screen.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.rotation",
+   "text": "Rotation",
+   "description": "Image text rotation in degrees",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.save",
+   "text": "Save",
+   "description": "Save the current image text edits as a new image version",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveAnotherCopy",
+   "text": "Save another copy",
+   "description": "Explicitly save a new image despite the unknown outcome of an earlier save",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveAnotherDescription",
+   "text": "An earlier save may already exist in Library. This will save your current text edits as another copy",
+   "description": "Warns that explicitly saving after a lost response may create a duplicate image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveAnotherTitle",
+   "text": "Save another copy?",
+   "description": "Confirmation before repeating an image snapshot save whose earlier outcome is unknown",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saved",
+   "text": "Saved",
+   "description": "Brief confirmation in the image toolbar when a text-edited copy has been saved",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.savedPreviewUnavailable",
+   "text": "Saved; preview unavailable",
+   "description": "The text-edited image was saved successfully but its preview could not be loaded",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveFailed",
+   "text": "Couldn’t save this image",
+   "description": "A text-edited image could not be saved",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.savePermission",
+   "text": "You no longer have permission to save this image",
+   "description": "The image snapshot was rejected for lack of access",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveRateLimited",
+   "text": "Too many save requests. Try again in a moment",
+   "description": "The service has asked the user to wait before saving again",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveRejected",
+   "text": "Couldn’t save these changes. Return to editing to revise them",
+   "description": "The service rejected the submitted text edits",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveSourceUnavailable",
+   "text": "The source for this edit is unavailable",
+   "description": "The source document could not be found when saving an image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveUncertain",
+   "text": "Save may have completed",
+   "description": "A snapshot request lost its response. Another copy must not be created automatically.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saving",
+   "text": "Saving image",
+   "description": "Quiet status while saving an edited image; the image stays sharp",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.savingThumbnail",
+   "text": "Saving image",
+   "description": "Accessible status of a thumbnail while saving image text edits",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaledFontSize",
+   "text": "{size} px",
+   "description": "Font size in source image pixels while scaling a text box",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromBottom",
+   "text": "Scale text from bottom",
+   "description": "Label for the bottom handle which proportionally scales a text box and its lettering",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromBottomLeft",
+   "text": "Scale text from bottom left",
+   "description": "Label for the bottom left handle which proportionally scales a text box and its lettering",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromBottomRight",
+   "text": "Scale text from bottom right",
+   "description": "Label for the bottom right handle which proportionally scales a text box and its lettering",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromTop",
+   "text": "Scale text from top",
+   "description": "Label for the top handle which proportionally scales a text box and its lettering",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromTopLeft",
+   "text": "Scale text from top left",
+   "description": "Label for the top left handle which proportionally scales a text box and its lettering",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromTopRight",
+   "text": "Scale text from top right",
+   "description": "Label for the top right handle which proportionally scales a text box and its lettering",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.selectBlock",
+   "text": "Select text block",
+   "description": "Selects an existing text block, including an empty block, in image text properties",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sendBackward",
+   "text": "Send backward",
+   "description": "Move this text one editable image text layer backward",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sendEditedImage",
+   "text": "Here’s my edited image.",
+   "description": "Message sent with an edited image when the user has already applied all changes directly.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sendToBack",
+   "text": "Send to back",
+   "description": "Move this text behind all other editable image text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sentComment",
+   "text": "Sent",
+   "description": "Status for a text edit instruction already submitted with its image.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sharedGuide",
+   "text": "Shared guide",
+   "description": "The guide that shapes multiple lines together in a text box",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.spacingAndWidth",
+   "text": "Spacing & width",
+   "description": "Expand advanced controls for line spacing, letter spacing, word spacing, and character width",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.textColor",
+   "text": "Text color",
+   "description": "Change the color of the selected image text block",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.textContent",
+   "text": "Text content",
+   "description": "Edit the words inside the selected text region on the image",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.toggleProperties",
+   "text": "Text properties",
+   "description": "Show or hide the property panel for image text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.unavailableDocument",
+   "text": "Text editing is unavailable for this image",
+   "description": "The saved editable document or extraction job is no longer accessible",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.undo",
+   "text": "Undo",
+   "description": "Undo the most recent change in this image text draft",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.unreadableRequestText",
+   "text": "Text",
+   "description": "An image text region whose wording could not be recognized.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.unsupportedCharacters",
+   "text": "This font cannot render {characters}. Change the text or choose another font",
+   "description": null,
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.versionBadge",
+   "text": "v{version, number}",
+   "description": "Saved version number on a text-editable image thumbnail",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.versionThumbnailLabel",
+   "text": "Image version {version, number}",
+   "description": "Accessible name of a gallery thumbnail showing a confirmed image text editing version",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.viewNumberedComment",
+   "text": "View comment {number}",
+   "description": "Accessible label for viewing a numbered comment on image text.",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.wordSpacing",
+   "text": "Word spacing",
+   "description": "Extra space between image text words, in pixels",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.results.loading",
+   "text": "Loading library",
+   "description": "Accessible status while the Library is fetching its first page of results",
+   "files": [
+    "606947.ebfe970e6f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingProjectless.creating",
+   "text": "Starting chat",
+   "description": "Short status shown while the app creates a chat before its first turn is ready",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignCenter",
+   "text": "Align center",
+   "description": "Center align text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignLeft",
+   "text": "Align left",
+   "description": "Left align text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignment",
+   "text": "Alignment",
+   "description": "Text alignment controls",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignRight",
+   "text": "Align right",
+   "description": "Right align text",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.font",
+   "text": "Font family",
+   "description": "Font family selector",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.mixed",
+   "text": "Mixed",
+   "description": "A formatting value differs across selected objects or table cells",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textAlignment",
+   "text": "Text alignment",
+   "description": "Open text alignment controls",
+   "files": [
+    "87804.fcae5854d3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "thinkingShimmer.default",
+   "text": "Thinking",
+   "description": "Default placeholder shown while the assistant is thinking",
+   "files": [
+    "115354.67ef35607b.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 863
+  },
+  {
+   "name": "className",
+   "count": 649
+  },
+  {
+   "name": "id",
+   "count": 569
+  },
+  {
+   "name": "description",
+   "count": 421
+  },
+  {
+   "name": "defaultMessage",
+   "count": 412
+  },
+  {
+   "name": "x",
+   "count": 259
+  },
+  {
+   "name": "y",
+   "count": 251
+  },
+  {
+   "name": "width",
+   "count": 218
+  },
+  {
+   "name": "height",
+   "count": 212
+  },
+  {
+   "name": "disabled",
+   "count": 158
+  },
+  {
+   "name": "ref",
+   "count": 114
+  },
+  {
+   "name": "onClick",
+   "count": 113
+  },
+  {
+   "name": "size",
+   "count": 111
+  },
+  {
+   "name": "color",
+   "count": 107
+  },
+  {
+   "name": "null",
+   "count": 103
+  },
+  {
+   "name": "left",
+   "count": 71
+  },
+  {
+   "name": "conversationId",
+   "count": 69
+  },
+  {
+   "name": "top",
+   "count": 69
+  },
+  {
+   "name": "role",
+   "count": 60
+  },
+  {
+   "name": "get",
+   "count": 58
+  },
+  {
+   "name": "type",
+   "count": 57
+  },
+  {
+   "name": "name",
+   "count": 57
+  },
+  {
+   "name": "style",
+   "count": 56
+  },
+  {
+   "name": "fill",
+   "count": 54
+  },
+  {
+   "name": "signal",
+   "count": 52
+  },
+  {
+   "name": "onSelect",
+   "count": 52
+  },
+  {
+   "name": "value",
+   "count": 51
+  },
+  {
+   "name": "items",
+   "count": 50
+  },
+  {
+   "name": "kind",
+   "count": 49
+  },
+  {
+   "name": "src",
+   "count": 49
+  },
+  {
+   "name": "title",
+   "count": 46
+  },
+  {
+   "name": "frame",
+   "count": 45
+  },
+  {
+   "name": "md",
+   "count": 44
+  },
+  {
+   "name": "image",
+   "count": 42
+  },
+  {
+   "name": "viewBox",
+   "count": 40
+  },
+  {
+   "name": "e",
+   "count": 39
+  },
+  {
+   "name": "variant",
+   "count": 39
+  },
+  {
+   "name": "onChange",
+   "count": 38
+  },
+  {
+   "name": "label",
+   "count": 37
+  },
+  {
+   "name": "d",
+   "count": 36
+  },
+  {
+   "name": "enabled",
+   "count": 36
+  },
+  {
+   "name": "radius",
+   "count": 36
+  },
+  {
+   "name": "source",
+   "count": 35
+  },
+  {
+   "name": "status",
+   "count": 35
+  },
+  {
+   "name": "asset",
+   "count": 35
+  },
+  {
+   "name": "preventScroll",
+   "count": 35
+  },
+  {
+   "name": "imageAssetResolver",
+   "count": 35
+  },
+  {
+   "name": "body",
+   "count": 34
+  },
+  {
+   "name": "bottom",
+   "count": 33
+  },
+  {
+   "name": "content",
+   "count": 32
+  },
+  {
+   "name": "target",
+   "count": 31
+  },
+  {
+   "name": "alt",
+   "count": 31
+  },
+  {
+   "name": "surface",
+   "count": 31
+  },
+  {
+   "name": "right",
+   "count": 31
+  },
+  {
+   "name": "hostId",
+   "count": 30
+  },
+  {
+   "name": "scope",
+   "count": 29
+  },
+  {
+   "name": "text",
+   "count": 29
+  },
+  {
+   "name": "onClose",
+   "count": 29
+  },
+  {
+   "name": "ariaLabel",
+   "count": 28
+  },
+  {
+   "name": "isError",
+   "count": 27
+  },
+  {
+   "name": "foreground",
+   "count": 27
+  },
+  {
+   "name": "prompt",
+   "count": 26
+  },
+  {
+   "name": "icon",
+   "count": 26
+  },
+  {
+   "name": "align",
+   "count": 26
+  },
+  {
+   "name": "layout",
+   "count": 25
+  },
+  {
+   "name": "onPointerDown",
+   "count": 25
+  },
+  {
+   "name": "loading",
+   "count": 24
+  },
+  {
+   "name": "transform",
+   "count": 23
+  },
+  {
+   "name": "bounds",
+   "count": 23
+  },
+  {
+   "name": "center",
+   "count": 23
+  },
+  {
+   "name": "hidden",
+   "count": 23
+  },
+  {
+   "name": "open",
+   "count": 23
+  },
+  {
+   "name": "onKeyDown",
+   "count": 23
+  },
+  {
+   "name": "rendering",
+   "count": 23
+  },
+  {
+   "name": "model",
+   "count": 22
+  },
+  {
+   "name": "root",
+   "count": 22
+  },
+  {
+   "name": "canvas",
+   "count": 22
+  },
+  {
+   "name": "ink",
+   "count": 22
+  },
+  {
+   "name": "values",
+   "count": 21
+  },
+  {
+   "name": "shape",
+   "count": 21
+  },
+  {
+   "name": "message",
+   "count": 20
+  },
+  {
+   "name": "inert",
+   "count": 20
+  },
+  {
+   "name": "print",
+   "count": 20
+  },
+  {
+   "name": "group",
+   "count": 20
+  },
+  {
+   "name": "inkBounds",
+   "count": 20
+  },
+  {
+   "name": "visualBounds",
+   "count": 20
+  },
+  {
+   "name": "paint",
+   "count": 20
+  },
+  {
+   "name": "optical",
+   "count": 20
+  },
+  {
+   "name": "insets",
+   "count": 20
+  },
+  {
+   "name": "anchors",
+   "count": 20
+  },
+  {
+   "name": "capabilities",
+   "count": 20
+  },
+  {
+   "name": "side",
+   "count": 20
+  },
+  {
+   "name": "region",
+   "count": 20
+  },
+  {
+   "name": "previewSrc",
+   "count": 19
+  },
+  {
+   "name": "data",
+   "count": 19
+  },
+  {
+   "name": "rotation",
+   "count": 19
+  },
+  {
+   "name": "t",
+   "count": 18
+  },
+  {
+   "name": "i",
+   "count": 18
+  },
+  {
+   "name": "tabIndex",
+   "count": 18
+  },
+  {
+   "name": "item",
+   "count": 18
+  },
+  {
+   "name": "listClassName",
+   "count": 18
+  },
+  {
+   "name": "operationId",
+   "count": 18
+  },
+  {
+   "name": "isTemporaryChat",
+   "count": 17
+  },
+  {
+   "name": "refetch",
+   "count": 17
+  },
+  {
+   "name": "onZoomPercentChange",
+   "count": 17
+  },
+  {
+   "name": "onCancel",
+   "count": 17
+  },
+  {
+   "name": "daybreakProgramPropagationEnrolled",
+   "count": 16
+  },
+  {
+   "name": "error",
+   "count": 16
+  },
+  {
+   "name": "onFilesDropped",
+   "count": 16
+  },
+  {
+   "name": "images",
+   "count": 16
+  },
+  {
+   "name": "tabButtonClassName",
+   "count": 16
+  },
+  {
+   "name": "uniform",
+   "count": 16
+  },
+  {
+   "name": "onUpload",
+   "count": 16
+  },
+  {
+   "name": "n",
+   "count": 16
+  },
+  {
+   "name": "offset",
+   "count": 16
+  },
+  {
+   "name": "cwd",
+   "count": 15
+  },
+  {
+   "name": "r",
+   "count": 15
+  },
+  {
+   "name": "index",
+   "count": 15
+  },
+  {
+   "name": "length",
+   "count": 15
+  },
+  {
+   "name": "command",
+   "count": 15
+  },
+  {
+   "name": "zoom",
+   "count": 15
+  },
+  {
+   "name": "number",
+   "count": 15
+  },
+  {
+   "name": "clipPath",
+   "count": 14
+  },
+  {
+   "name": "clipRule",
+   "count": 14
+  },
+  {
+   "name": "path",
+   "count": 14
+  },
+  {
+   "name": "a",
+   "count": 14
+  },
+  {
+   "name": "key",
+   "count": 14
+  },
+  {
+   "name": "queryKey",
+   "count": 14
+  },
+  {
+   "name": "active",
+   "count": 14
+  },
+  {
+   "name": "onSubmit",
+   "count": 14
+  },
+  {
+   "name": "scrollContainerRef",
+   "count": 14
+  },
+  {
+   "name": "before",
+   "count": 14
+  },
+  {
+   "name": "imageSize",
+   "count": 14
+  },
+  {
+   "name": "collisionBoundary",
+   "count": 14
+  },
+  {
+   "name": "xmlns",
+   "count": 13
+  },
+  {
+   "name": "fillRule",
+   "count": 13
+  },
+  {
+   "name": "config",
+   "count": 13
+  },
+  {
+   "name": "projectId",
+   "count": 13
+  },
+  {
+   "name": "gizmoId",
+   "count": 13
+  },
+  {
+   "name": "queryFn",
+   "count": 13
+  },
+  {
+   "name": "parameters",
+   "count": 13
+  },
+  {
+   "name": "uploadDisabled",
+   "count": 13
+  },
+  {
+   "name": "unselectedClassName",
+   "count": 13
+  },
+  {
+   "name": "zoomPercent",
+   "count": 13
+  },
+  {
+   "name": "start",
+   "count": 13
+  },
+  {
+   "name": "reviewKey",
+   "count": 13
+  },
+  {
+   "name": "review",
+   "count": 13
+  },
+  {
+   "name": "reconnecting",
+   "count": 13
+  },
+  {
+   "name": "assertRequestCurrent",
+   "count": 12
+  },
+  {
+   "name": "mode",
+   "count": 12
+  },
+  {
+   "name": "uploadSlotPrefetch",
+   "count": 12
+  },
+  {
+   "name": "conversationOrigin",
+   "count": 12
+  },
+  {
+   "name": "H",
+   "count": 12
+  },
+  {
+   "name": "aspectRatio",
+   "count": 12
+  },
+  {
+   "name": "onOpenChange",
+   "count": 12
+  },
+  {
+   "name": "S",
+   "count": 12
+  },
+  {
+   "name": "maximum",
+   "count": 12
+  },
+  {
+   "name": "minimum",
+   "count": 12
+  },
+  {
+   "name": "selectedClassName",
+   "count": 12
+  },
+  {
+   "name": "trackImpressions",
+   "count": 12
+  },
+  {
+   "name": "min",
+   "count": 12
+  },
+  {
+   "name": "max",
+   "count": 12
+  },
+  {
+   "name": "opacity",
+   "count": 12
+  },
+  {
+   "name": "vectorEffect",
+   "count": 12
+  },
+  {
+   "name": "accountId",
+   "count": 11
+  },
+  {
+   "name": "input",
+   "count": 11
+  },
+  {
+   "name": "permissionProfileId",
+   "count": 11
+  },
+  {
+   "name": "additionalDeveloperInstructions",
+   "count": 11
+  },
+  {
+   "name": "mimeType",
+   "count": 11
+  },
+  {
+   "name": "referrerPolicy",
+   "count": 11
+  },
+  {
+   "name": "ratio",
+   "count": 11
+  },
+  {
+   "name": "$type",
+   "count": 11
+  },
+  {
+   "name": "presentation",
+   "count": 11
+  },
+  {
+   "name": "dir",
+   "count": 11
+  },
+  {
+   "name": "imageRef",
+   "count": 11
+  },
+  {
+   "name": "imageRect",
+   "count": 11
+  },
+  {
+   "name": "onImageLoad",
+   "count": 11
+  },
+  {
+   "name": "sourceImage",
+   "count": 11
+  },
+  {
+   "name": "stroke",
+   "count": 11
+  },
+  {
+   "name": "baseline",
+   "count": 11
+  },
+  {
+   "name": "failure",
+   "count": 11
+  },
+  {
+   "name": "onSettled",
+   "count": 10
+  },
+  {
+   "name": "thinking",
+   "count": 10
+  },
+  {
+   "name": "threadSource",
+   "count": 10
+  },
+  {
+   "name": "turnTrigger",
+   "count": 10
+  },
+  {
+   "name": "h",
+   "count": 10
+  },
+  {
+   "name": "staleTime",
+   "count": 10
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 10
+  },
+  {
+   "name": "D",
+   "count": 10
+  },
+  {
+   "name": "triggerButton",
+   "count": 10
+  },
+  {
+   "name": "position",
+   "count": 10
+  },
+  {
+   "name": "animate",
+   "count": 10
+  },
+  {
+   "name": "hover",
+   "count": 10
+  },
+  {
+   "name": "initial",
+   "count": 10
+  },
+  {
+   "name": "fontSize",
+   "count": 10
+  },
+  {
+   "name": "intl",
+   "count": 10
+  },
+  {
+   "name": "onAddToChat",
+   "count": 10
+  },
+  {
+   "name": "upper_contour",
+   "count": 10
+  },
+  {
+   "name": "lineIndex",
+   "count": 10
+  },
+  {
+   "name": "editing",
+   "count": 10
+  },
+  {
+   "name": "onEdit",
+   "count": 10
+  },
+  {
+   "name": "snapshot",
+   "count": 10
+  },
+  {
+   "name": "assets",
+   "count": 10
+  },
+  {
+   "name": "layer",
+   "count": 10
+  },
+  {
+   "name": "userId",
+   "count": 9
+  },
+  {
+   "name": "attachments",
+   "count": 9
+  },
+  {
+   "name": "memoryPreferences",
+   "count": 9
+  },
+  {
+   "name": "parentTurnId",
+   "count": 9
+  },
+  {
+   "name": "rootTurnId",
+   "count": 9
+  },
+  {
+   "name": "workspaceRoots",
+   "count": 9
+  },
+  {
+   "name": "projectAssignment",
+   "count": 9
+  },
+  {
+   "name": "method",
+   "count": 9
+  },
+  {
+   "name": "params",
+   "count": 9
+  },
+  {
+   "name": "hostConfig",
+   "count": 9
+  },
+  {
+   "name": "operationSource",
+   "count": 9
+  },
+  {
+   "name": "requiresGizmoId",
+   "count": 9
+  },
+  {
+   "name": "W",
+   "count": 9
+  },
+  {
+   "name": "retry",
+   "count": 9
+  },
+  {
+   "name": "l",
+   "count": 9
+  },
+  {
+   "name": "header",
+   "count": 9
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 9
+  },
+  {
+   "name": "draggable",
+   "count": 9
+  },
+  {
+   "name": "onError",
+   "count": 9
+  },
+  {
+   "name": "onValueChange",
+   "count": 9
+  },
+  {
+   "name": "novaEnabled",
+   "count": 9
+  },
+  {
+   "name": "groups",
+   "count": 9
+  },
+  {
+   "name": "preserveAspectRatio",
+   "count": 9
+  },
+  {
+   "name": "margin",
+   "count": 9
+  },
+  {
+   "name": "amount",
+   "count": 9
+  },
+  {
+   "name": "version",
+   "count": 9
+  },
+  {
+   "name": "placement",
+   "count": 9
+  },
+  {
+   "name": "strokeWidth",
+   "count": 9
+  },
+  {
+   "name": "end",
+   "count": 9
+  },
+  {
+   "name": "inheritedSelection",
+   "count": 8
+  },
+  {
+   "name": "workspaceKind",
+   "count": 8
+  },
+  {
+   "name": "_",
+   "count": 8
+  },
+  {
+   "name": "fileId",
+   "count": 8
+  },
+  {
+   "name": "imageId",
+   "count": 8
+  },
+  {
+   "name": "query",
+   "count": 8
+  },
+  {
+   "name": "isLoading",
+   "count": 8
+  },
+  {
+   "name": "expectedIdentity",
+   "count": 8
+  },
+  {
+   "name": "backLabel",
+   "count": 8
+  },
+  {
+   "name": "forwardLabel",
+   "count": 8
+  },
+  {
+   "name": "shouldUseReducedMotion",
+   "count": 8
+  },
+  {
+   "name": "aspectRatios",
+   "count": 8
+  },
+  {
+   "name": "step",
+   "count": 8
+  },
+  {
+   "name": "U",
+   "count": 8
+  },
+  {
+   "name": "toolbar",
+   "count": 8
+  },
+  {
+   "name": "after",
+   "count": 8
+  },
+  {
+   "name": "onRecentImageSelected",
+   "count": 8
+  }
+ ],
+ "literal_count": 3255,
+ "literals_file": ".work/261106/literals-image-editing.json"
+}

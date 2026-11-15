@@ -2,11 +2,14 @@
 
 对本机安装的 **Codex desktop app（Windows MSIX 发行版）** 的静态逆向分析。
 
-- **最新全量基线：`26.1103.4239.0`（应用版本 `26.1103.32239`，build `25471`），2026-11-09 采集**，
+- **最新全量基线：`26.1106.6628.0`（应用版本 `26.1106.51428`，build `26605`），2026-11-15 采集**，
+  覆盖 `.vite/build` 与 `webview/assets` 全量清单、19 个模块、224 个代表文件、
+  **57,893 条 i18n 文案**；仍是 **Rspack**，见 [changelog-26.1106.md](changelog-26.1106.md)、
+  `code/app-261106/`、`inventories/inventory-261106.json`
+- **上一全量基线：`26.1103.4239.0`（应用版本 `26.1103.32239`，build `25471`），2026-11-09 采集**，
   覆盖 `.vite/build` 与 `webview/assets` 全量清单、18 个模块、201 个代表文件、
-  **57,004 条 i18n 文案**；渲染层已迁移到 **Rspack**，见
-  [changelog-26.1103.md](changelog-26.1103.md)、`code/app-261103/`、
-  `inventories/inventory-261103.json`
+  57,004 条 i18n 文案；见 [changelog-26.1103.md](changelog-26.1103.md)、
+  `code/app-261103/`、`inventories/inventory-261103.json`
 - **上一全量基线：`26.1016.8622.0`（应用版本 `26.1016.62342`，build `21477`），2026-10-23 采集**，
   覆盖 `.vite/build` 与 `webview/assets` 全量清单、17 个模块、2,490 个 chunk、
   22,073 条 i18n 文案；见 [changelog-26.1016.md](changelog-26.1016.md)、
@@ -21,13 +24,13 @@
 - **Computer Use：`26.928.3736.0`（应用版本 `26.928.31416`，build `12553`），2026-10-01 采集**，见 [computer-use.md](computer-use.md)、[changelog-26.928.md](changelog-26.928.md)、`code/computer-use-26928/`
 - **外部浏览器扩展链路：`26.1007.2314.0`，2026-10-11 采集**，见 [browser-extension.md](browser-extension.md)（只覆盖 Chrome / Edge 扩展链路，未做全量抽取）
 
-也就是说本目录里有**七个不同版本**的快照，按主题分开：最新全量是 26.1103，
-上一全量是 26.1016 与 26.1013，面板与协议基线是 26.903，插件管理是 26.908，
+也就是说本目录里有**八个不同版本**的快照，按主题分开：最新全量是 26.1106，
+上一全量是 26.1103、26.1016 与 26.1013，面板与协议基线是 26.903，插件管理是 26.908，
 Computer Use 是 26.928，外部浏览器扩展链路是 26.1007。
 引用 chunk / 产物前先确认它属于哪一版。
 
 分析对象是安装包中的 `app.asar`（26.903 为 309.5 MB，26.1013 为 582.1 MB，
-26.1016 为 625.9 MB，**26.1103 为 761.0 MB**）、`AppxManifest.xml` 与安装目录结构；
+26.1016 为 625.9 MB，26.1103 为 761.0 MB，**26.1106 为 772.8 MB**）、`AppxManifest.xml` 与安装目录结构；
 仓库侧对照仍未针对最新版重新核验。
 **未修改 `C:\Program Files\WindowsApps` 下任何文件，未读取凭据、token、设置内容、
 SQLite 数据库或用户对话内容。**
@@ -35,7 +38,7 @@ SQLite 数据库或用户对话内容。**
 ## 本次范围
 
 > 下表是 **26.903 基线**的五块界面与支撑模块（历史对照）。最新模块、
-> chunk 数与代码路径见下面的“26.1103 最新结论”与 `code/app-261103/README.md`。
+> chunk 数与代码路径见下面的“26.1106 最新结论”与 `code/app-261106/README.md`。
 
 按用户要求重点覆盖五块界面，外加支撑它们的外壳与协议：
 
@@ -50,7 +53,38 @@ SQLite 数据库或用户对话内容。**
 | （支撑）主进程与 IPC                | [architecture.md](architecture.md)、[ipc-protocol.md](ipc-protocol.md)         | `code/main-process/` (84 chunks)        |
 | **Computer Use**（26.928 追加范围） | [computer-use.md](computer-use.md)、[changelog-26.928.md](changelog-26.928.md) | `code/computer-use-26928/` (116 chunks) |
 
-## 26.1103 最新结论
+## 26.1106 最新结论
+
+26.1106 是**纯产品迭代**：打包器、入口、主进程结构与 26.1103 相同，asar 只增长
+11.8 MB（+1.55%）。变化集中在 UI：
+
+- **图片文字编辑（Edit Text）**：160 条 `imageTextEditing.*` 文案与
+  `/image-gen/layer-extractions` 接口，把图片里的文字提取为可编辑图层，支持逐块批注、
+  基准线/字高引导线、格式刷、图层顺序，最后整批回传给模型重绘。见
+  [changelog-26.1106.md](changelog-26.1106.md) §4.1。
+- **GPT builder Actions / 分享**：OpenAPI 导入与校验、OAuth/PKCE、操作表与测试；
+  分享权限三档。见 §4.2。
+- **Workspace 插件模板 / MCP v2 安装向导**：URL 模板、自定义 header、OAuth 自动发现与
+  CIMD/DCR/自定义 client 高级设置。见 §4.3。
+- **插件文件编辑器与发布**：文件树、skill、版本号递增校验与 `Publish plugin`。见 §4.4。
+- **浏览器书签**：地址栏星标、文件夹编辑，新命令 `browser.bookmarkPage`（`CmdOrCtrl+D`）。见 §4.5。
+- **Level Up 提示目录**：`/learning-hub/tips`，按工作区活动生成个性化 tips。见 §4.6。
+- **设置存储清理**、**线程级网络策略**、**dot 活动侧栏与共享设备授权**、
+  **自动充值折扣**等。见 §4.7–§4.11。
+
+口径对比：i18n 57,004 → **57,893 条**（+1,342 / -453 / 70 改写），分组 7,909 → 8,202；
+设置 slug 仍为 **53**（4 组 / 41 capability / 13 web 可见，无变化）；app-server 方法
+仍为 **189**；IPC 25 → **26** 个具名频道（+`codex_desktop:network-online`）；命令表
+159 → **160**。
+
+同时**撤下 face / voice 验证实验**：`settings.biometric` 的 68 条英文文案整组消失。
+但 65 个语言包 chunk（282.4 MiB / 57 种语言）仍保留这些旧 id 的译文 ——
+**只按字符串存在性判断功能会得出相反结论**。
+
+代码：[code/app-261106/README.md](code/app-261106/README.md)（224 个代表文件 /
+raw 49.6 MB；`image-editing/` 为新模块）。
+
+## 26.1103 上一全量基线
 
 26.1103 是本目录当前**最新的全量快照**，也是一次**打包器迁移**。与 26.1016 相比：
 
@@ -174,14 +208,26 @@ SQLite 数据库或用户对话内容。**
 按 8 个模块分目录，全部经 Prettier 3.9.6 格式化；配套 **13,338 条 i18n 文案目录**。
 **26.1016 快照**是 `code/app-261016/` 下 **2,490 个 chunk / 63.7 MB**（原始 43.4 MB），
 17 个模块，配套 **22,073 条文案 / 3,926 组**、设置注册表与每模块的字符串目录。
-**26.1103 最新快照**是 `code/app-261103/` 下 **201 个代表文件 / 79.3 MB**
+**26.1103 快照**是 `code/app-261103/` 下 **201 个代表文件 / 79.3 MB**
 （原始 53.1 MB；172 个 webview chunk + 29 个主进程文件），配套
 **57,004 条文案 / 7,909 组**、设置注册表与方法表。更早的 26.1013 快照保留在
 `code/app-261013/`。
+**26.1106 最新快照**是 `code/app-261106/` 下 **224 个代表文件 / 79.5 MB**
+（原始 49.6 MB；195 个 webview chunk + 29 个主进程文件），配套
+**57,893 条文案 / 8,202 组**、设置/命令/IPC/路由四张注册表。
 
 **Computer Use（26.928 专项）**：这条能力在 26.903 只是雏形（`resources/cua_node/` 仅 `{bin, manifest.json}`），26.928 已经是一个 **239.7 MB 的独立运行时**：自带 Node `24.21.0-cua.1`、`node_repl.exe`、`@oai/{cua,sky,cua-repl,browser-desktop}`、Playwright 与 sharp，配合 asar 外的随包 marketplace（`computer-use` / `unified-computer-use` / `chrome` / `browser` 四个插件）。模型侧只看到两个 MCP server：`computer-use`（10 个原生应用工具）与隐藏的 `cua_repl`（一个 `js` 工具）；**启用哪些面由主进程在运行时改写插件 `.mcp.json` 决定**，不在磁盘上有静态答案。安全上区分「硬拒绝」（Windows 终端/密码管理器/Windows 键等 13 条）与「允许但需确认」（浏览器面 17 类风险分四档摩擦），授权模型是「一次性首用披露 + 逐应用授权」。详见 [computer-use.md](computer-use.md) 与 [changelog-26.928.md](changelog-26.928.md)。
 
 ## 文档索引
+
+### 26.1106 新功能面
+
+- [changelog-26.1106.md](changelog-26.1106.md)：26.1103 → 26.1106 的身份、体积、
+  i18n +1,342/-453、图片文字编辑、GPT Actions、workspace 插件模板、插件编辑器、
+  浏览器书签、Level Up、存储清理、网络策略与 face/voice 验证撤下。
+- 代码：[code/app-261106/README.md](code/app-261106/README.md)（224 个代表文件；
+  `image-editing/`、`_COMMAND_TABLE.json`、`_IPC_CHANNELS.json`、`_ROUTES.json`）。
+- 清单：[inventories/inventory-261106.json](inventories/inventory-261106.json)。
 
 ### 26.1103 新功能面
 
@@ -387,12 +433,20 @@ SQLite 数据库或用户对话内容。**
 17. **DIL 组件未执行**。Learning 的学习块与部分生成式 UI 以字符串源码 + `eval`
     / 函数构造执行；本分析只读源码，不运行组件，也不枚举全部 1,631 组学习块。
 18. **26.1103 的新面全部依赖服务端/账号门控**。Learning、Business Hub、Codex Security、
+19. **26.1106 同样只入库代表性 chunk**。9,405 个异步 JS / 1,581 个 CSS 映射，
+    `code/app-261106/` 保留 **195 个 webview chunk**（加 29 个主进程文件，共 224）。
+    另确认 65 个语言包 chunk（282.4 MiB / 57 种语言）是纯 `id → 译文` 映射，
+    不属于英文 descriptor，不能当作功能存在的证据。
     GPT-Rosalind、Workspace Agents 的“可见/可用”无法由静态包确认；文中 A 级只表示
     客户端实现与文案存在。
 
 ## 复现
 
 见 [code/README.md](code/README.md#重新生成) 与 [code/tools/README.md](code/tools/README.md)。
+**26.1106 的链路**与 26.1103 相同，脚本已版本化为 `*-261106.mjs`
+（`chunkmap` → `scan-messages` → `cluster` → `plan` → `extract-plan`，
+注册表另有 `settings-map` / `commands` / `ipc-channels` / `routes`；命令见
+[code/app-261106/README.md](code/app-261106/README.md#5-重新生成)）。
 **26.1103 的 Rspack 链路**是 `chunkmap.mjs` → `scan-messages.mjs` → `cluster.mjs`
 → `plan.mjs` → `extract-plan.mjs`（命令见
 [code/app-261103/README.md](code/app-261103/README.md#5-重新生成)）。
@@ -407,7 +461,10 @@ Computer Use 快照单独一份：见
 116 个 chunk 约 9 秒，命令见 [computer-use.md](computer-use.md) §11.3。
 
 > ⚠️ **升级前先存档**。MSIX 升级会替换整个版本目录，旧 `app.asar` 事后不可恢复。
-> 目前 26.903、26.928、26.1013、26.1016、26.1103 都有全量 `inventory.json`
+> 目前 26.903、26.928、26.1013、26.1016、26.1103、26.1106 都有全量 `inventory.json`
 > （`inventories/inventory-26903.json`、`inventory-26928.json`、
-> `inventory-261013.json`、`inventory-261016.json`、`inventory-261103.json`），
-> 26.908 与 26.1007 缺失。
+> `inventory-261013.json`、`inventory-261016.json`、`inventory-261103.json`、
+> `inventory-261106.json`），26.908 与 26.1007 缺失。
+
+
+

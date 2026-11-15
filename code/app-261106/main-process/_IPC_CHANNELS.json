@@ -1,0 +1,197 @@
+{
+ "generated_at": "2026-11-15T08:46:09.821Z",
+ "app_version": "26.1106.51428",
+ "source": "main-process/build/*.js",
+ "count": 26,
+ "channels": [
+  {
+   "channel": "codex_desktop:browser-page-event",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-631-8a15b3cfc1548366.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:browser-sidebar-runtime-message",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-631-8a15b3cfc1548366.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:check-for-updates",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:chunked-message-ack",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:connect-app-host",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:connect-git-worker",
+   "files": [
+    "early-bootstrap.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-browser-annotation-api-policy",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-620-1eb87a1b3aa240b6.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-browser-webmcp-policy",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-620-1eb87a1b3aa240b6.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-build-flavor",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-fast-mode-rollout-metrics",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-initial-sidebar-bootstrap",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-sentry-init-options",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-system-theme-variant",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:git-worker-port",
+   "files": [
+    "early-bootstrap.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:mcp-app-sandbox-guest-message",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "sandbox-preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:mcp-app-sandbox-host-message",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:message-for-view",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:message-from-view",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:network-online",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:remote-hosted-pip-video-frame",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:show-context-menu",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:start-file-drag",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:start-link-drag",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:system-theme-variant-updated",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:take-initial-switch-status",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:trigger-sentry-test",
+   "files": [
+    "early-bootstrap-631-8a15b3cfc1548366.js",
+    "preload.js"
+   ]
+  }
+ ],
+ "added_vs_26_1103": [
+  "codex_desktop:network-online"
+ ],
+ "removed_vs_26_1103": [
+  "codex_desktop:worker:${id}:from-view",
+  "codex_desktop:worker:${id}:for-view"
+ ]
+}

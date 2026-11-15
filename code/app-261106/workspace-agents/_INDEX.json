@@ -1,0 +1,159 @@
+{
+ "module": "workspace-agents",
+ "generated_at": "2026-11-15T08:58:28.583Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1106.6628.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1106.51428",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/487049.d418d07682.js",
+   "file": "487049.d418d07682.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 623415,
+   "formatted_bytes": 1086446,
+   "formatter": "prettier",
+   "sha256_raw": "a9533d0343e644ed649e0339524bbc59e7f2b9eb885a1bc45613d68e3aecd40c",
+   "message_count": 430,
+   "namespace_score": 380,
+   "namespaces": [
+    "workspaceAgents.builder:313",
+    "workspaceAgents.api:30",
+    "workspaceAgents.resources:17",
+    "workspaceAgents.studio:14"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/377793.dfb044e751.js",
+   "file": "377793.dfb044e751.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 59361,
+   "formatted_bytes": 94784,
+   "formatter": "prettier",
+   "sha256_raw": "85833987d0d2a22197b20672791ce786873bea56dc358b2d862f934bce28ea97",
+   "message_count": 127,
+   "namespace_score": 100,
+   "namespaces": [
+    "teams.icons:100",
+    "settings.teams:15",
+    "settings.automations:9",
+    "inbox.automations:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/111761.10e93b24ec.js",
+   "file": "111761.10e93b24ec.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 56148,
+   "formatted_bytes": 87387,
+   "formatter": "prettier",
+   "sha256_raw": "b19a701f9fb9cb918afc971f1e0ed5f130293c68477c57fdeb832f2ec43d376d",
+   "message_count": 72,
+   "namespace_score": 68,
+   "namespaces": [
+    "workspaceAgents.skillIcon:48",
+    "workspaceAgents.connections:10",
+    "workspaceAgents.discovery:10",
+    "beacons.connectApp:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/306668.38f15a0b60.js",
+   "file": "306668.38f15a0b60.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 80837,
+   "formatted_bytes": 110696,
+   "formatter": "prettier",
+   "sha256_raw": "6890ca1f4b6f5e9db9cb00771d36e895f3bbc1fad4c026791af7a2dc044fc580",
+   "message_count": 60,
+   "namespace_score": 60,
+   "namespaces": [
+    "workspaceAgents.skillIcon:48",
+    "workspaceAgents.schedules:9",
+    "workspaceAgents.detail:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/108374.12227b4bf1.js",
+   "file": "108374.12227b4bf1.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 65447,
+   "formatted_bytes": 119523,
+   "formatter": "prettier",
+   "sha256_raw": "9b7ab61ee7a0b3d51133f26c49099e4f8a4ac79489e765dc10eb5a3b34a109c1",
+   "message_count": 57,
+   "namespace_score": 57,
+   "namespaces": [
+    "workspaceAgents.resources:23",
+    "workspaceAgents.detail:19",
+    "workspaceAgents.builder:14",
+    "workspaceAgents.skillIcon:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/292001.62624bdd67.js",
+   "file": "292001.62624bdd67.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 62920,
+   "formatted_bytes": 126456,
+   "formatter": "prettier",
+   "sha256_raw": "8bde0cc5313fa68c2a6eb8b7a77fbcc749c34665d7f13e10bbec9f9daa74ab87",
+   "message_count": 86,
+   "namespace_score": 51,
+   "namespaces": [
+    "workspaceAgents.schedules:51",
+    "inbox.automations:29",
+    "settings.automations:4",
+    "automations.schedule:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/496004.b9edf1ab30.js",
+   "file": "496004.b9edf1ab30.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 66359,
+   "formatted_bytes": 112148,
+   "formatter": "prettier",
+   "sha256_raw": "3a696cd7f2613d7f04df7e0729b3b8d8e3ee1a1ddf57047d20e2a0ba91835663",
+   "message_count": 52,
+   "namespace_score": 50,
+   "namespaces": [
+    "workspaceAgents.index:43",
+    "workspaceAgents.templates:3",
+    "workspaceAgents.discovery:2",
+    "codex.ui:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/696716.eb951d6a77.js",
+   "file": "696716.eb951d6a77.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 85625,
+   "formatted_bytes": 158854,
+   "formatter": "prettier",
+   "sha256_raw": "b465483c58a01b59b55a6d401ac55e14b7d4aeb02f119b74a9a38127e7526e90",
+   "message_count": 50,
+   "namespace_score": 46,
+   "namespaces": [
+    "workspaceOwnerOnboarding.invitations:44",
+    "admin-invite.domainCompletion:2",
+    "workspaceOwnerOnboarding.inviteLink:2",
+    "onboarding.inviteAll:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/967975.71529e809c.js",
+   "file": "967975.71529e809c.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 30124,
+   "formatted_bytes": 56182,
+   "formatter": "prettier",
+   "sha256_raw": "1b152cc5ce1df2bce18dee9d708b8e96a53b3d0ce3ed96b2b4d224038d9838d7",
+   "message_count": 39,
+   "namespace_score": 39,
+   "namespaces": [
+    "workspaceAgents.publication:27",
+    "workspaceAgents.builder:9",
+    "workspaceAgents.schedules:3"
+   ]
+  }
+ ]
+}

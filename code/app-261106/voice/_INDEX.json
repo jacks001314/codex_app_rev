@@ -1,0 +1,86 @@
+{
+ "module": "voice",
+ "generated_at": "2026-11-15T08:58:37.980Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1106.6628.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1106.51428",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/679632.037e0f1624.js",
+   "file": "679632.037e0f1624.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 46710,
+   "formatted_bytes": 91324,
+   "formatter": "prettier",
+   "sha256_raw": "f80d76bd7d5f71bf97b2d6f640580dc01529b8c457cedd74c64bbad3c851c640",
+   "message_count": 40,
+   "namespace_score": 25,
+   "namespaces": [
+    "realtimeVoice.onboarding:15",
+    "settings.general:14",
+    "realtimeVoice.nux:10",
+    "composer.realtime:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/126704.70469770cb.js",
+   "file": "126704.70469770cb.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 18569,
+   "formatted_bytes": 38539,
+   "formatter": "prettier",
+   "sha256_raw": "c52a5707c2fb56b5cdc5a66e4276991f764fb38f1802651c8773ea17a1e371ee",
+   "message_count": 25,
+   "namespace_score": 13,
+   "namespaces": [
+    "speechSettings.content:13",
+    "settings.voice:12"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/904323.912e5ace55.js",
+   "file": "904323.912e5ace55.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 28595,
+   "formatted_bytes": 60723,
+   "formatter": "prettier",
+   "sha256_raw": "0ca11a231ceb12044cee696698e369b095d3536a1b2bef60aaf38cc776ec5acc",
+   "message_count": 25,
+   "namespace_score": 13,
+   "namespaces": [
+    "speechSettings.content:13",
+    "settings.voice:12"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/723410.270e83f1ed.js",
+   "file": "723410.270e83f1ed.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 61615,
+   "formatted_bytes": 109110,
+   "formatter": "prettier",
+   "sha256_raw": "0c5b6c62f7f22240346104d8309058a272539abc84e1a5d92a25d5646b2e0c3f",
+   "message_count": 10,
+   "namespace_score": 9,
+   "namespaces": [
+    "realtimeVoice.launch:9",
+    "composer.pluginSelectionRequiresSupportedRuntime:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/963873.bf36d0a6bb.js",
+   "file": "963873.bf36d0a6bb.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 42321,
+   "formatted_bytes": 75330,
+   "formatter": "prettier",
+   "sha256_raw": "da3306db82bc4b6eda1d2e6faa42b434a79b8b9e1810c2ade298cbb3f48c1978",
+   "message_count": 9,
+   "namespace_score": 5,
+   "namespaces": [
+    "realtimeVoice.launch:5",
+    "codex.profileDropdown:2",
+    "composer.modelSettings:2"
+   ]
+  }
+ ]
+}

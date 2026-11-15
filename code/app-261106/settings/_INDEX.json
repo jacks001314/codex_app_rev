@@ -1,0 +1,438 @@
+{
+ "module": "settings",
+ "generated_at": "2026-11-15T08:57:44.609Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1106.6628.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1106.51428",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/729009.c37af37fb0.js",
+   "file": "729009.c37af37fb0.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 64196,
+   "formatted_bytes": 127906,
+   "formatter": "prettier",
+   "sha256_raw": "7af6a097a02e54e6b75d0f3831d06b663f633263a99fc5991be50423c4f01884",
+   "message_count": 60,
+   "namespace_score": 60,
+   "namespaces": [
+    "settings.storage:60"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/160740.8d93ddc2e4.js",
+   "file": "160740.8d93ddc2e4.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 131707,
+   "formatted_bytes": 184903,
+   "formatter": "prettier",
+   "sha256_raw": "e334bf1168ff9976f0fd408833609b0bc6408681db37d88162bc95f1f7d7af91",
+   "message_count": 2,
+   "namespace_score": 2,
+   "namespaces": [
+    "settings.nav:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/58462.ab0d391e90.js",
+   "file": "58462.ab0d391e90.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 190467,
+   "formatted_bytes": 319949,
+   "formatter": "prettier",
+   "sha256_raw": "2240d2c2a1280065bcfd8ce360cf8ccabe76d4b3a3c4406994c0739eee053e08",
+   "message_count": 229,
+   "namespace_score": 229,
+   "namespaces": [
+    "settings.codexMicro:225",
+    "settings.keyboardShortcuts:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/499241.47a5885a9e.js",
+   "file": "499241.47a5885a9e.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 219614,
+   "formatted_bytes": 411976,
+   "formatter": "prettier",
+   "sha256_raw": "63d64bbe15930708136463fd98e9e3f702f47bb06bffebf3d55681929d97292a",
+   "message_count": 252,
+   "namespace_score": 226,
+   "namespaces": [
+    "settings.remoteConnections:191",
+    "settings.remoteControlConnections:35",
+    "codex.projectAppearance:9",
+    "electron.onboarding:6"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/977377.64ef09d49f.js",
+   "file": "977377.64ef09d49f.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 191321,
+   "formatted_bytes": 342437,
+   "formatter": "prettier",
+   "sha256_raw": "0a731e60b8c40575a5c4957154f5095aab7a54a4a760ba11cfb0259e6d06a1c7",
+   "message_count": 266,
+   "namespace_score": 218,
+   "namespaces": [
+    "settings.browserUse:206",
+    "downloads.popover:17",
+    "downloads.status:12",
+    "downloads.action:7"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/184348.76f62e0345.js",
+   "file": "184348.76f62e0345.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 247886,
+   "formatted_bytes": 445107,
+   "formatter": "prettier",
+   "sha256_raw": "5dbc042aa20eb925566dfbfd70e7b39312bc5c803c7bf4f1c3a6d68760d03879",
+   "message_count": 264,
+   "namespace_score": 216,
+   "namespaces": [
+    "settings.general:146",
+    "settings.appearance:31",
+    "settings.agent:19",
+    "externalAgentConfig.itemType:10"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/448053.2f34778a25.js",
+   "file": "448053.2f34778a25.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 226426,
+   "formatted_bytes": 388660,
+   "formatter": "prettier",
+   "sha256_raw": "8070c6cb6708e04c02b26d846a364ecc0558d8c9536367ca1c0f967bc6985e7e",
+   "message_count": 302,
+   "namespace_score": 214,
+   "namespaces": [
+    "settings.chatGpt:198",
+    "settingsModal.accountPin:16",
+    "lockedChats.pin:13",
+    "signInWithChatGPTConsent.resourcePermission:9"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/464477.6e7962c333.js",
+   "file": "464477.6e7962c333.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 307238,
+   "formatted_bytes": 526650,
+   "formatter": "prettier",
+   "sha256_raw": "13eef33dd4bc402419ddad8a9b6eab9c38e99a4e99f855977583e9ce70027006",
+   "message_count": 418,
+   "namespace_score": 206,
+   "namespaces": [
+    "settings.chatGpt:160",
+    "onboarding.health_department:145",
+    "settings.personalization:27",
+    "onboarding.departments:20"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/664717.69f48aff9a.js",
+   "file": "664717.69f48aff9a.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 227456,
+   "formatted_bytes": 409696,
+   "formatter": "prettier",
+   "sha256_raw": "95bfc77550b388c8fa4d1aadcc5c9a83143284189bb45f225c99fe95d531dfef",
+   "message_count": 199,
+   "namespace_score": 189,
+   "namespaces": [
+    "settings.consumerBilling:136",
+    "settingsModal.transactionHistory:28",
+    "settings.invoiceExpensing:21",
+    "settingsModal.walletBalance:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/28918.2950780448.js",
+   "file": "28918.2950780448.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 113237,
+   "formatted_bytes": 201763,
+   "formatter": "prettier",
+   "sha256_raw": "e9deb1116288970ec62624a1ea8dc617915dcc2e93a0e64ded666882fe35bd13",
+   "message_count": 165,
+   "namespace_score": 157,
+   "namespaces": [
+    "settings.computerUse:123",
+    "settings.browserUse:25",
+    "settings.pluginControls:7",
+    "plugins.browserExtension:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/246966.7a808d798f.js",
+   "file": "246966.7a808d798f.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 223409,
+   "formatted_bytes": 422481,
+   "formatter": "prettier",
+   "sha256_raw": "fd2ffcb98ea8fdd4470d28e627600387699b9f13f99d8070b246fe81992138e2",
+   "message_count": 159,
+   "namespace_score": 152,
+   "namespaces": [
+    "settings.usage:151",
+    "codex.rateLimitResetModal:4",
+    "consumerUsage.legend:2",
+    "common.retry:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/200452.4e72c790d9.js",
+   "file": "200452.4e72c790d9.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 96333,
+   "formatted_bytes": 170736,
+   "formatter": "prettier",
+   "sha256_raw": "d4ba8326686b1b933773d6d115224a41b8f70891f1bdfc24e6cbc78c41096765",
+   "message_count": 161,
+   "namespace_score": 149,
+   "namespaces": [
+    "settings.browserUse:61",
+    "settings.nav:56",
+    "settings.section:32",
+    "restricted.cloudComputer:5"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/201551.92fd8401c4.js",
+   "file": "201551.92fd8401c4.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 152760,
+   "formatted_bytes": 272625,
+   "formatter": "prettier",
+   "sha256_raw": "b61f4a5eb551c80feaf010cf13b7d402aee8b24e12395d6a5f38ca2997443d3f",
+   "message_count": 147,
+   "namespace_score": 145,
+   "namespaces": [
+    "settings.chronicle:145",
+    "electron.onboarding:1",
+    "codex.dialog:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/21225.709d5925a9.js",
+   "file": "21225.709d5925a9.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 152233,
+   "formatted_bytes": 257388,
+   "formatter": "prettier",
+   "sha256_raw": "8da76e125b4b7a88e22fc9053113339cf80b63bf3cfecaa920c8c5864c721d48",
+   "message_count": 263,
+   "namespace_score": 136,
+   "namespaces": [
+    "teams.icons:100",
+    "settings.nav:69",
+    "settings.section:32",
+    "settings.teams:18"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/352408.20182ccd36.js",
+   "file": "352408.20182ccd36.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 152968,
+   "formatted_bytes": 260971,
+   "formatter": "prettier",
+   "sha256_raw": "a962fd1422470ea3a1d3e31751b398f7b756563cf8053141be29ddb8ea44c13a",
+   "message_count": 230,
+   "namespace_score": 128,
+   "namespaces": [
+    "settings.teams:127",
+    "teams.icons:100",
+    "sharing.dotLabel:1",
+    "settings.panel:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/169117.19b406fd16.js",
+   "file": "169117.19b406fd16.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 125541,
+   "formatted_bytes": 231210,
+   "formatter": "prettier",
+   "sha256_raw": "543c1297642ec6b908514af13afe1891f266f8a61f8b828a71f540f03fedaf0c",
+   "message_count": 126,
+   "namespace_score": 126,
+   "namespaces": [
+    "settings.codeReview:122",
+    "settings.git:3",
+    "settings.panel:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/710096.7ba7a3e54b.js",
+   "file": "710096.7ba7a3e54b.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 68960,
+   "formatted_bytes": 144416,
+   "formatter": "prettier",
+   "sha256_raw": "b3727c5f3bbab76538257dc493d08c7f3cc844154b55959fa7f0118a20d95bb7",
+   "message_count": 117,
+   "namespace_score": 117,
+   "namespaces": [
+    "settings.cloudEnvironments:113",
+    "settings.unsavedChanges:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/412224.7feadb11f1.js",
+   "file": "412224.7feadb11f1.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 126066,
+   "formatted_bytes": 232921,
+   "formatter": "prettier",
+   "sha256_raw": "e4b86ec3931d09d5240e4c0632c3b20956fed833ff996f67077535aacdcef575",
+   "message_count": 130,
+   "namespace_score": 110,
+   "namespaces": [
+    "settings.chatGpt:109",
+    "chatgpt.settings:9",
+    "chatgptConversations.preciseLocation:8",
+    "common.cancel:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/530142.1e51e7f4b2.js",
+   "file": "530142.1e51e7f4b2.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 285511,
+   "formatted_bytes": 526562,
+   "formatter": "prettier",
+   "sha256_raw": "9b18855c9431e88f30b56bf880cd936065efe3f6595ff55dd8f76fca70b93f80",
+   "message_count": 206,
+   "namespace_score": 109,
+   "namespaces": [
+    "settings.nav:56",
+    "settings.section:32",
+    "settings.chatGpt:13",
+    "composer.mode:10"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/333192.5177e7c555.js",
+   "file": "333192.5177e7c555.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 160060,
+   "formatted_bytes": 302407,
+   "formatter": "prettier",
+   "sha256_raw": "6d9d75b57e2da795ef9594e3e9671487f226b1e92fbdb2bd75d5c27db917520f",
+   "message_count": 188,
+   "namespace_score": 104,
+   "namespaces": [
+    "settings.usage:104",
+    "usageCenter.thread:20",
+    "consumerAnalyticsPreview.limitHistory:19",
+    "composer.mode:9"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/971635.d8ceb90522.js",
+   "file": "971635.d8ceb90522.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 137554,
+   "formatted_bytes": 253719,
+   "formatter": "prettier",
+   "sha256_raw": "94057937e35d2276b983ad9814ec48b17cc2d22752605dcbf8f71838d5d90403",
+   "message_count": 126,
+   "namespace_score": 103,
+   "namespaces": [
+    "settings.general:53",
+    "settings.voice:27",
+    "settings.chatGpt:13",
+    "settings.hotkeySetter:10"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/754281.8f03aad724.js",
+   "file": "754281.8f03aad724.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 72341,
+   "formatted_bytes": 140895,
+   "formatter": "prettier",
+   "sha256_raw": "98bbbdbdc417645c98ca41c2f1137c730768a2589fa9b18aaf8727d3ee4f59df",
+   "message_count": 100,
+   "namespace_score": 97,
+   "namespaces": [
+    "settings.localEnvironments:93",
+    "settings.unsavedChanges:4",
+    "toolbarBreadcrumb.label:1",
+    "localEnvironment.needsAttention:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/496532.8540347a35.js",
+   "file": "496532.8540347a35.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 49063,
+   "formatted_bytes": 90767,
+   "formatter": "prettier",
+   "sha256_raw": "6d271f2f17734357f2bdc2ff7607cf32f3453dae8829890261013c05dd2747c4",
+   "message_count": 127,
+   "namespace_score": 94,
+   "namespaces": [
+    "settings.nav:56",
+    "settings.section:32",
+    "appgenSettings.database:6",
+    "appgenSiteDetail.navigation:5"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/474076.356300a3d0.js",
+   "file": "474076.356300a3d0.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 94129,
+   "formatted_bytes": 172475,
+   "formatter": "prettier",
+   "sha256_raw": "48b0d333a2212c92f182de73a5d1cced779b37d43a59fdea35ea119fd32aa513",
+   "message_count": 136,
+   "namespace_score": 94,
+   "namespaces": [
+    "settings.nav:56",
+    "settings.section:32",
+    "codeReview.setup:30",
+    "settings.codeReview:6"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/638310.4a63bc921c.js",
+   "file": "638310.4a63bc921c.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 47194,
+   "formatted_bytes": 85207,
+   "formatter": "prettier",
+   "sha256_raw": "7c682c50fc322d7da294b19f4e8e0b43a25e9d1c6290164688a09d491a6a9c26",
+   "message_count": 103,
+   "namespace_score": 92,
+   "namespaces": [
+    "settings.nav:56",
+    "settings.section:32",
+    "restricted.cloudComputer:5",
+    "settings.chatGpt:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/58680.6b83fe65fa.js",
+   "file": "58680.6b83fe65fa.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 126462,
+   "formatted_bytes": 233445,
+   "formatter": "prettier",
+   "sha256_raw": "0c408667e48bf761541b872fa4d4ef5d8ed3c602fc07049e5261a86a304692dd",
+   "message_count": 121,
+   "namespace_score": 91,
+   "namespaces": [
+    "settings.import:84",
+    "externalAgentImport.setupDialog:16",
+    "externalAgentConfig.itemType:10",
+    "settings.agent:7"
+   ]
+  }
+ ]
+}

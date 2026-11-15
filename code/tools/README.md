@@ -241,3 +241,25 @@ node pe-probe.mjs <file.exe>
 **已知边界**：`cluster.mjs` 的规则是启发式，一个 chunk 若同时命中多个命名空间，
 只归给得分最高的模块；共享组件因此可能落在 `misc` 或被重复引用。抽取的是
 **代表性 chunk**（172 个 webview chunk），不是 9,326 个全量。
+
+## 26.1106 采集脚本
+
+> 26.1106 沿用 26.1103 的 Rspack 链路，没有架构变化；下面这组脚本是那一版链路的
+> **版本化副本**，archive 与输出根已改到 `26.1106.6628.0` / `code/app-261106`。
+> 同时补了三个注册表提取器（命令表、IPC 频道、路由字符串）。
+> 数字 chunk id 每周会重排，**不要用 id 做跨版本 diff**；文案 id 与命名空间是稳定信号。
+
+| 脚本 | 作用 |
+| --- | --- |
+| `chunkmap-261106.mjs` | 解析 runtime `348410.1a97dde15f.js` 的 `p.u` / `p.miniCssF`，产出 `.work/261106/chunk-map.json` 并核对清单。本版 **9,405 JS / 1,581 CSS** id，1 个悬空 JS 映射（`async/3.8d72d210eb.js`）。 |
+| `scan-messages-261106.mjs` | 扫描全部 `webview/assets/**/*.js` 的 react-intl 描述符。本版 9,466 文件 / 505.9 MiB → **57,893 条 / 8,202 组**。 |
+| `cluster-261106.mjs` | 按 i18n 命名空间聚类，新增 `image-editing` 模块，并把 `workspace-plugins.*` 归到 `plugins`。 |
+| `plan-261106.mjs` | 模块配额 + 人工高信号 chunk（含新增的 `image-editing/87804`、`settings/729009`、`learning/866688`、`chatgpt-surfaces/301564`），产出 `.work/261106/extract-plan.json`。 |
+| `extract-plan-261106.mjs [plan.json]` | 抽取 + 格式化（≤800 KB Prettier，其余 lightformat），写 `_INDEX.json` / `_MODULE_INDEX.json`，并按计划清理陈旧 `.js/.css`。 |
+| `settings-map-261106.mjs` | 从 `885910.*`（53 个 slug 描述符 + 默认页）与 `21225.*`（4 个导航组 + 标题映射）、`160740.*`（capability / web 可见）产出 `settings/_SETTINGS_MAP.json`，并自动 diff 上一版。 |
+| `commands-261106.mjs` | 从主进程 `id + titleIntlId + defaultKeybindings` 提取 **命令表（160 条）**，产出 `main-process/_COMMAND_TABLE.json`，并 diff 26.1103（+`browser.bookmarkPage`）。 |
+| `ipc-channels-261106.mjs` | 扫描主进程全部 `codex_desktop:*` 字面量，产出 `main-process/_IPC_CHANNELS.json`（26 个具名 + 2 个动态 worker 模板），并 diff `ipc-protocol.md`。 |
+| `routes-261106.mjs` | 汇总 `path:"/…"`、`RQ)("/…")`、`navigate("/…")`、`to:"/…"` 四类路由字符串，产出 `app-shell/_ROUTES.json`（170 条），带来源 chunk 与命中次数。 |
+
+**判读注意**：路由/文案“存在”只证明静态注册；`imageTextEditing` 的服务端接口
+（`/image-gen/layer-extractions*`）是否对当前账号开放，需要运行时验证。
