@@ -1,0 +1,65 @@
+[
+  {
+    "args": [],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "--help"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: unknown argument: --help"
+  },
+  {
+    "args": [
+      "--version"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: unknown argument: --version"
+  },
+  {
+    "args": [
+      "--foo"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: unknown argument: --foo"
+  },
+  {
+    "args": [
+      "--parent-pid"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: missing parent pid"
+  },
+  {
+    "args": [
+      "--parent-pid",
+      "abc"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: parse parent pid\n\nCaused by:\n    invalid digit found in string"
+  },
+  {
+    "args": [
+      "--previous-notify"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: unknown argument: --previous-notify"
+  },
+  {
+    "args": [
+      "--system-cursor-manager"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: missing system cursor manager parent pid"
+  }
+]

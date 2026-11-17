@@ -1,0 +1,51 @@
+{
+  "request": {
+    "method": "list_windows",
+    "params": {}
+  },
+  "helper_pid": 38776,
+  "response": {
+    "id": 1,
+    "ok": true,
+    "result": [
+      {
+        "app": "process:C:\\Users\\huoga\\AppData\\Local\\Programs\\Syntropy\\Syntropy.exe",
+        "id": 41946070,
+        "title": "Syntropy"
+      },
+      {
+        "app": "process:C:\\Windows\\explorer.exe",
+        "id": 4919240,
+        "title": "computer-use - 文件资源管理器"
+      },
+      {
+        "app": "Chrome",
+        "id": 5113962,
+        "title": "Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. - Google Chrome"
+      },
+      {
+        "app": "MSEdge",
+        "id": 263770,
+        "title": "Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. 和另外 12 个页面 - 用户配置 1 - Microsoft​ Edge"
+      },
+      {
+        "app": "process:C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+        "id": 67308,
+        "title": "QQ"
+      },
+      {
+        "app": "process:C:\\Program Files (x86)\\LanxinSoftCustom\\main\\LxMainNew.exe",
+        "id": 331324,
+        "title": "蓝信"
+      },
+      {
+        "app": "OpenAI.Codex_2p2nqsd0c76g0!App",
+        "id": 396148,
+        "title": "ChatGPT"
+      }
+    ]
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

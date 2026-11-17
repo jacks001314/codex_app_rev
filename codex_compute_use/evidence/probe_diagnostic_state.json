@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "diagnostic_state",
+    "params": {},
+    "meta": {}
+  },
+  "helper_pid": 25476,
+  "response": {
+    "id": 1,
+    "ok": true,
+    "result": {
+      "cacheDiagnostics": {
+        "accessibilityRevision": 0,
+        "accessibilitySnapshotCount": 0,
+        "captureCachedSessionCount": 0
+      },
+      "lastWindowIdentity": null
+    }
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

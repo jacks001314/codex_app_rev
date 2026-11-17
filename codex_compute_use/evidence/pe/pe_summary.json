@@ -1,0 +1,417 @@
+{
+  "input": "C:\\Users\\huoga\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\bbc9141fe9f920ac\\bin\\node_modules\\@oai\\cua\\bin\\windows\\codex-computer-use.exe",
+  "file_size": 1548592,
+  "sha256": "14a5389ac4f060361748135f97434037e321afd3f465e9481295919bb7771285",
+  "machine": 34404,
+  "pe_magic": "0x20b",
+  "image_base": "0x140000000",
+  "entry_point_rva": 5104,
+  "entry_point_va": "0x1400013f0",
+  "timestamp_utc": "2026-11-10T22:49:19+00:00",
+  "checksum": "0x183ba7",
+  "subsystem": 3,
+  "dll_characteristics": "0x160",
+  "sections": [
+    {
+      "name": ".text",
+      "va": 5368713216,
+      "virtual_address": 4096,
+      "virtual_size": 1202464,
+      "raw_offset": 1024,
+      "raw_size": 1202688,
+      "entropy": 6.2315,
+      "sha256": "473a2ffd8ba25f9bea41c49cabcaae380407136a05bcc36f442a49e709c85476"
+    },
+    {
+      "name": ".data",
+      "va": 5369917440,
+      "virtual_address": 1208320,
+      "virtual_size": 3408,
+      "raw_offset": 1203712,
+      "raw_size": 3584,
+      "entropy": 0.5151,
+      "sha256": "10d95128217a8af5053b982d5a4733524fdabf4052c9a2fac9302032d2065472"
+    },
+    {
+      "name": ".rdata",
+      "va": 5369921536,
+      "virtual_address": 1212416,
+      "virtual_size": 161592,
+      "raw_offset": 1207296,
+      "raw_size": 161792,
+      "entropy": 6.2086,
+      "sha256": "7c9e4d08d0ac622d352070e5b7dd6705ac571b5d5fa35f5cede142218a74795f"
+    },
+    {
+      "name": ".pdata",
+      "va": 5370085376,
+      "virtual_address": 1376256,
+      "virtual_size": 33912,
+      "raw_offset": 1369088,
+      "raw_size": 34304,
+      "entropy": 6.1434,
+      "sha256": "11a749aac3f5c1ea16691fcd5b1101b1acc07e99df9635fa096c861fd1a77302"
+    },
+    {
+      "name": ".xdata",
+      "va": 5370122240,
+      "virtual_address": 1413120,
+      "virtual_size": 108808,
+      "raw_offset": 1403392,
+      "raw_size": 109056,
+      "entropy": 5.9213,
+      "sha256": "e2e8e6537292263911b81e35b65052ea4f1b93d2cae2eedc75fd1ceabc29b704"
+    },
+    {
+      "name": ".bss",
+      "va": 5370232832,
+      "virtual_address": 1523712,
+      "virtual_size": 736,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "entropy": 0.0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": ".idata",
+      "va": 5370236928,
+      "virtual_address": 1527808,
+      "virtual_size": 14236,
+      "raw_offset": 1512448,
+      "raw_size": 14336,
+      "entropy": 4.6362,
+      "sha256": "6c52d39bd43d00e655d3fee1b0bc7084cca58c449d5a7115ea6e8733da3e816f"
+    },
+    {
+      "name": ".tls",
+      "va": 5370253312,
+      "virtual_address": 1544192,
+      "virtual_size": 16,
+      "raw_offset": 1526784,
+      "raw_size": 512,
+      "entropy": -0.0,
+      "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "name": ".reloc",
+      "va": 5370257408,
+      "virtual_address": 1548288,
+      "virtual_size": 5176,
+      "raw_offset": 1527296,
+      "raw_size": 5632,
+      "entropy": 5.2955,
+      "sha256": "d9d3d55ec82e02127ca2faba501c1f7823da195f66face3824ca36653425f2d0"
+    }
+  ],
+  "pdata_function_count": 2826,
+  "debug_entries": [],
+  "authenticode": {
+    "file_offset": 1532928,
+    "size": 15664
+  },
+  "last_section_end": 1532928,
+  "overlay_size": 15664,
+  "imports": {
+    "KERNEL32.dll": [
+      "AddVectoredExceptionHandler",
+      "CancelIo",
+      "DeleteCriticalSection",
+      "EnterCriticalSection",
+      "FreeEnvironmentStringsW",
+      "GetCommandLineW",
+      "GetConsoleMode",
+      "GetConsoleOutputCP",
+      "GetCurrentDirectoryW",
+      "GetEnvironmentStringsW",
+      "GetEnvironmentVariableW",
+      "GetOverlappedResult",
+      "GetStdHandle",
+      "GetSystemDirectoryW",
+      "GetSystemTimePreciseAsFileTime",
+      "GetWindowsDirectoryW",
+      "InitializeCriticalSection",
+      "LeaveCriticalSection",
+      "QueryPerformanceCounter",
+      "QueryPerformanceFrequency",
+      "RaiseException",
+      "ReadConsoleW",
+      "ReadFile",
+      "ReadFileEx",
+      "RtlCaptureContext",
+      "RtlLookupFunctionEntry",
+      "RtlUnwindEx",
+      "RtlVirtualUnwind",
+      "SetUnhandledExceptionFilter",
+      "VirtualProtect",
+      "VirtualQuery",
+      "WriteConsoleW",
+      "WriteFileEx",
+      "__C_specific_handler"
+    ],
+    "api-ms-win-crt-environment-l1-1-0.dll": [
+      "__p__environ",
+      "__p__wenviron"
+    ],
+    "api-ms-win-crt-heap-l1-1-0.dll": [
+      "_set_new_mode",
+      "calloc",
+      "free",
+      "malloc"
+    ],
+    "api-ms-win-crt-math-l1-1-0.dll": [
+      "__setusermatherr",
+      "atan2f",
+      "cbrtf",
+      "ceilf",
+      "fmaf",
+      "fmod",
+      "fmodf",
+      "powf",
+      "round",
+      "roundf",
+      "trunc"
+    ],
+    "api-ms-win-crt-private-l1-1-0.dll": [
+      "memcmp",
+      "memcpy",
+      "memmove"
+    ],
+    "api-ms-win-crt-runtime-l1-1-0.dll": [
+      "__p___argc",
+      "__p___argv",
+      "__p___wargv",
+      "_cexit",
+      "_configure_narrow_argv",
+      "_configure_wide_argv",
+      "_crt_at_quick_exit",
+      "_crt_atexit",
+      "_exit",
+      "_fpreset",
+      "_initialize_narrow_environment",
+      "_initialize_wide_environment",
+      "_initterm",
+      "_set_app_type",
+      "_set_invalid_parameter_handler",
+      "abort",
+      "exit",
+      "signal"
+    ],
+    "api-ms-win-crt-stdio-l1-1-0.dll": [
+      "__acrt_iob_func",
+      "__p__commode",
+      "__p__fmode",
+      "__stdio_common_vfprintf",
+      "__stdio_common_vfwprintf",
+      "fwrite"
+    ],
+    "api-ms-win-crt-string-l1-1-0.dll": [
+      "memset",
+      "strlen",
+      "strncmp",
+      "wcslen"
+    ],
+    "api-ms-win-crt-time-l1-1-0.dll": [
+      "__daylight",
+      "__timezone",
+      "__tzname",
+      "_tzset"
+    ],
+    "ntdll.dll": [
+      "RtlNtStatusToDosError"
+    ],
+    "advapi32.dll": [
+      "GetSidSubAuthority",
+      "GetSidSubAuthorityCount",
+      "GetTokenInformation",
+      "OpenProcessToken",
+      "RegCloseKey",
+      "RegEnumKeyExW",
+      "RegEnumValueW",
+      "RegOpenKeyExW",
+      "RegQueryInfoKeyW",
+      "RegQueryValueExW"
+    ],
+    "api-ms-win-appmodel-runtime-l1-1-1.dll": [
+      "VerifyApplicationUserModelId"
+    ],
+    "api-ms-win-core-synch-l1-2-0.dll": [
+      "WaitOnAddress",
+      "WakeByAddressAll",
+      "WakeByAddressSingle"
+    ],
+    "api-ms-win-core-winrt-l1-1-0.dll": [
+      "RoGetActivationFactory",
+      "RoInitialize",
+      "RoUninitialize"
+    ],
+    "api-ms-win-shcore-scaling-l1-1-1.dll": [
+      "GetDpiForMonitor"
+    ],
+    "bcryptprimitives.dll": [
+      "ProcessPrng"
+    ],
+    "coremessaging.dll": [
+      "CreateDispatcherQueueController"
+    ],
+    "crypt32.dll": [
+      "CertNameToStrW"
+    ],
+    "d2d1.dll": [
+      "D2D1CreateFactory"
+    ],
+    "d3d11.dll": [
+      "CreateDirect3D11DeviceFromDXGIDevice",
+      "D3D11CreateDevice"
+    ],
+    "dwmapi.dll": [
+      "DwmFlush",
+      "DwmGetWindowAttribute"
+    ],
+    "dwrite.dll": [
+      "DWriteCreateFactory"
+    ],
+    "kernel32.dll": [
+      "FormatMessageW"
+    ],
+    "ole32.dll": [
+      "CoCreateFreeThreadedMarshaler",
+      "CoCreateInstance",
+      "CoIncrementMTAUsage",
+      "CoInitializeEx",
+      "CoTaskMemFree",
+      "CoUninitialize",
+      "PropVariantClear"
+    ],
+    "oleaut32.dll": [
+      "GetErrorInfo",
+      "SafeArrayGetDim",
+      "SafeArrayGetElement",
+      "SafeArrayGetLBound",
+      "SafeArrayGetUBound",
+      "SetErrorInfo",
+      "SysAllocStringLen",
+      "SysFreeString",
+      "SysStringLen",
+      "VariantClear"
+    ],
+    "propsys.dll": [
+      "PropVariantToStringAlloc"
+    ],
+    "shell32.dll": [
+      "SHCreateItemFromParsingName",
+      "SHGetIDListFromObject",
+      "SHGetKnownFolderItem",
+      "SHGetPropertyStoreForWindow",
+      "ShellExecuteExW",
+      "ShellExecuteW"
+    ],
+    "uiautomationcore.dll": [
+      "UiaHostProviderFromHwnd",
+      "UiaRaiseAutomationEvent",
+      "UiaRaiseNotificationEvent",
+      "UiaRaiseStructureChangedEvent",
+      "UiaReturnRawElementProvider"
+    ],
+    "user32.dll": [
+      "AttachThreadInput",
+      "BringWindowToTop",
+      "CallNextHookEx",
+      "CloseClipboard",
+      "CloseDesktop",
+      "CreateCursor",
+      "CreateWindowExW",
+      "DefWindowProcW",
+      "DestroyCursor",
+      "DestroyWindow",
+      "DispatchMessageW",
+      "EmptyClipboard",
+      "EnumChildWindows",
+      "EnumDisplayMonitors",
+      "EnumWindows",
+      "GetAncestor",
+      "GetClassNameW",
+      "GetClipboardData",
+      "GetCursorPos",
+      "GetDesktopWindow",
+      "GetDpiForSystem",
+      "GetDpiForWindow",
+      "GetForegroundWindow",
+      "GetMessageW",
+      "GetMonitorInfoW",
+      "GetSystemMetrics",
+      "GetThreadDesktop",
+      "GetTopWindow",
+      "GetUserObjectInformationW",
+      "GetWindow",
+      "GetWindowLongPtrW",
+      "GetWindowRect",
+      "GetWindowTextLengthW",
+      "GetWindowTextW",
+      "GetWindowThreadProcessId",
+      "IsClipboardFormatAvailable",
+      "IsIconic",
+      "IsWindowVisible",
+      "KillTimer",
+      "MonitorFromPoint",
+      "MonitorFromWindow",
+      "NotifyWinEvent",
+      "OpenClipboard",
+      "OpenInputDesktop",
+      "PeekMessageW",
+      "PostThreadMessageW",
+      "RegisterClassW",
+      "SendInput",
+      "SetActiveWindow",
+      "SetClipboardData",
+      "SetCursorPos",
+      "SetFocus",
+      "SetForegroundWindow",
+      "SetLayeredWindowAttributes",
+      "SetProcessDPIAware",
+      "SetProcessDpiAwarenessContext",
+      "SetSystemCursor",
+      "SetThreadDesktop",
+      "SetThreadDpiAwarenessContext",
+      "SetTimer",
+      "SetWinEventHook",
+      "SetWindowDisplayAffinity",
+      "SetWindowLongPtrW",
+      "SetWindowPos",
+      "SetWindowTextW",
+      "SetWindowsHookExW",
+      "ShowWindow",
+      "SwitchToThisWindow",
+      "SystemParametersInfoW",
+      "TranslateMessage",
+      "UnhookWinEvent",
+      "UnhookWindowsHookEx",
+      "WaitForInputIdle",
+      "WindowFromPoint",
+      "keybd_event"
+    ],
+    "version.dll": [
+      "GetFileVersionInfoExW",
+      "GetFileVersionInfoSizeExW",
+      "VerQueryValueW"
+    ],
+    "winhttp.dll": [
+      "WinHttpCloseHandle",
+      "WinHttpConnect",
+      "WinHttpCrackUrl",
+      "WinHttpOpen",
+      "WinHttpOpenRequest",
+      "WinHttpQueryHeaders",
+      "WinHttpReadData",
+      "WinHttpReceiveResponse",
+      "WinHttpSendRequest"
+    ],
+    "wintrust.dll": [
+      "WTHelperGetProvCertFromChain",
+      "WTHelperGetProvSignerFromChain",
+      "WTHelperProvDataFromStateData",
+      "WinVerifyTrust"
+    ]
+  },
+  "anchor_string_count": 41,
+  "anchor_xref_count": 124
+}

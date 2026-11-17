@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "get_window",
+    "params": {
+      "app": "Chrome",
+      "id": 5113962
+    },
+    "meta": {}
+  },
+  "helper_pid": 27484,
+  "response": {
+    "id": 1,
+    "ok": false,
+    "error": "window id 5113962 no longer belongs to Chrome; current owner is Chrome"
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

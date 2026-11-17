@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "start_audio_recording",
+    "params": {
+      "max_duration_ms": 0
+    }
+  },
+  "helper_pid": 33448,
+  "response": {
+    "id": 1,
+    "ok": false,
+    "approvalRequest": {
+      "app": "computer-audio",
+      "displayName": "computer audio",
+      "riskLevel": "high",
+      "allowPersistentApproval": true
+    }
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

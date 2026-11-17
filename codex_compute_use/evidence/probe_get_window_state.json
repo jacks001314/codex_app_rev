@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "get_window_state",
+    "params": {
+      "include_text": true,
+      "include_screenshot": false,
+      "window": {
+        "id": 41946070,
+        "app": "process:C:\\Users\\huoga\\AppData\\Local\\Programs\\Syntropy\\Syntropy.exe"
+      }
+    }
+  },
+  "helper_pid": 34376,
+  "response": {
+    "id": 1,
+    "ok": false,
+    "error": "Computer Use is not allowed on this app by policy"
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

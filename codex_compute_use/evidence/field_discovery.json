@@ -1,0 +1,773 @@
+{
+  "helper_pid": 33884,
+  "cases": [
+    {
+      "method": "get_window_state",
+      "inferred_required_fields": [
+        "window",
+        "include_text",
+        "include_screenshot"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "include_text": true,
+        "include_screenshot": false
+      },
+      "terminal_response": {
+        "id": 1,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "include_text": true,
+            "include_screenshot": false
+          },
+          "response": {
+            "id": 1,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "get_window",
+      "inferred_required_fields": [
+        "id"
+      ],
+      "final_params": {
+        "id": 4294967295
+      },
+      "terminal_response": {
+        "id": 2,
+        "ok": false,
+        "error": "window id 4294967295 was not found. Current windows: [{\"app\":\"process:C:\\\\Users\\\\huoga\\\\AppData\\\\Local\\\\Programs\\\\Syntropy\\\\Syntropy.exe\",\"id\":41946070,\"title\":\"Syntropy\"},{\"app\":\"process:C:\\\\Windows\\\\explorer.exe\",\"id\":4919240,\"title\":\"computer-use - 文件资源管理器\"},{\"app\":\"Chrome\",\"id\":5113962,\"title\":\"Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. - Google Chrome\"},{\"app\":\"MSEdge\",\"id\":263770,\"title\":\"Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. 和另外 12 个页面 - 用户配置 1 - Microsoft​ Edge\"},{\"app\":\"process:C:\\\\Program Files\\\\Tencent\\\\QQNT\\\\QQ.exe\",\"id\":67308,\"title\":\"QQ\"},{\"app\":\"process:C:\\\\Program Files (x86)\\\\LanxinSoftCustom\\\\main\\\\LxMainNew.exe\",\"id\":331324,\"title\":\"蓝信\"},{\"app\":\"OpenAI.Codex_2p2nqsd0c76g0!App\",\"id\":396148,\"title\":\"ChatGPT\"}]"
+      },
+      "history": [
+        {
+          "params": {
+            "id": 4294967295
+          },
+          "response": {
+            "id": 2,
+            "ok": false,
+            "error": "window id 4294967295 was not found. Current windows: [{\"app\":\"process:C:\\\\Users\\\\huoga\\\\AppData\\\\Local\\\\Programs\\\\Syntropy\\\\Syntropy.exe\",\"id\":41946070,\"title\":\"Syntropy\"},{\"app\":\"process:C:\\\\Windows\\\\explorer.exe\",\"id\":4919240,\"title\":\"computer-use - 文件资源管理器\"},{\"app\":\"Chrome\",\"id\":5113962,\"title\":\"Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. - Google Chrome\"},{\"app\":\"MSEdge\",\"id\":263770,\"title\":\"Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. 和另外 12 个页面 - 用户配置 1 - Microsoft​ Edge\"},{\"app\":\"process:C:\\\\Program Files\\\\Tencent\\\\QQNT\\\\QQ.exe\",\"id\":67308,\"title\":\"QQ\"},{\"app\":\"process:C:\\\\Program Files (x86)\\\\LanxinSoftCustom\\\\main\\\\LxMainNew.exe\",\"id\":331324,\"title\":\"蓝信\"},{\"app\":\"OpenAI.Codex_2p2nqsd0c76g0!App\",\"id\":396148,\"title\":\"ChatGPT\"}]"
+          }
+        }
+      ]
+    },
+    {
+      "method": "activate_window",
+      "inferred_required_fields": [
+        "window"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        }
+      },
+      "terminal_response": {
+        "id": 3,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            }
+          },
+          "response": {
+            "id": 3,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "perform_secondary_action",
+      "inferred_required_fields": [
+        "window",
+        "element_index",
+        "action"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "element_index": 0,
+        "action": "Raise"
+      },
+      "terminal_response": {
+        "id": 6,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "action": "Raise"
+          },
+          "response": {
+            "id": 4,
+            "ok": false,
+            "error": "parse perform_secondary_action params: missing field `element_index`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "action": "Raise"
+          },
+          "response": {
+            "id": 5,
+            "ok": false,
+            "error": "parse perform_secondary_action params: missing field `action`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "action": "Raise"
+          },
+          "response": {
+            "id": 6,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "set_value",
+      "inferred_required_fields": [
+        "window",
+        "element_index",
+        "value"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "element_index": 0,
+        "value": "probe"
+      },
+      "terminal_response": {
+        "id": 9,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "value": "probe"
+          },
+          "response": {
+            "id": 7,
+            "ok": false,
+            "error": "parse set_value params: missing field `element_index`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "value": "probe"
+          },
+          "response": {
+            "id": 8,
+            "ok": false,
+            "error": "parse set_value params: missing field `value`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "value": "probe"
+          },
+          "response": {
+            "id": 9,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "click_element",
+      "inferred_required_fields": [
+        "window",
+        "element_index"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "element_index": 0
+      },
+      "terminal_response": {
+        "id": 11,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0
+          },
+          "response": {
+            "id": 10,
+            "ok": false,
+            "error": "parse click_element params: missing field `element_index`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0
+          },
+          "response": {
+            "id": 11,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "scroll_element",
+      "inferred_required_fields": [
+        "window",
+        "element_index",
+        "direction",
+        "pages"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "element_index": 0,
+        "direction": "down",
+        "pages": 1
+      },
+      "terminal_response": {
+        "id": 15,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "direction": "down",
+            "pages": 1
+          },
+          "response": {
+            "id": 12,
+            "ok": false,
+            "error": "parse scroll_element params: missing field `element_index`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "direction": "down",
+            "pages": 1
+          },
+          "response": {
+            "id": 13,
+            "ok": false,
+            "error": "parse scroll_element params: missing field `direction`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "direction": "down",
+            "pages": 1
+          },
+          "response": {
+            "id": 14,
+            "ok": false,
+            "error": "parse scroll_element params: missing field `pages`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "element_index": 0,
+            "direction": "down",
+            "pages": 1
+          },
+          "response": {
+            "id": 15,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "click",
+      "inferred_required_fields": [
+        "window",
+        "x",
+        "y"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "x": 1,
+        "y": 1
+      },
+      "terminal_response": {
+        "id": 18,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1
+          },
+          "response": {
+            "id": 16,
+            "ok": false,
+            "error": "parse click params: missing field `x`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1
+          },
+          "response": {
+            "id": 17,
+            "ok": false,
+            "error": "parse click params: missing field `y`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1
+          },
+          "response": {
+            "id": 18,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "drag",
+      "inferred_required_fields": [
+        "window",
+        "from_x",
+        "from_y",
+        "to_x",
+        "to_y"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "from_x": 1,
+        "from_y": 1,
+        "to_x": 2,
+        "to_y": 2
+      },
+      "terminal_response": {
+        "id": 23,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "from_x": 1,
+            "from_y": 1,
+            "to_x": 2,
+            "to_y": 2
+          },
+          "response": {
+            "id": 19,
+            "ok": false,
+            "error": "parse drag params: missing field `from_x`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "from_x": 1,
+            "from_y": 1,
+            "to_x": 2,
+            "to_y": 2
+          },
+          "response": {
+            "id": 20,
+            "ok": false,
+            "error": "parse drag params: missing field `from_y`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "from_x": 1,
+            "from_y": 1,
+            "to_x": 2,
+            "to_y": 2
+          },
+          "response": {
+            "id": 21,
+            "ok": false,
+            "error": "parse drag params: missing field `to_x`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "from_x": 1,
+            "from_y": 1,
+            "to_x": 2,
+            "to_y": 2
+          },
+          "response": {
+            "id": 22,
+            "ok": false,
+            "error": "parse drag params: missing field `to_y`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "from_x": 1,
+            "from_y": 1,
+            "to_x": 2,
+            "to_y": 2
+          },
+          "response": {
+            "id": 23,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "scroll",
+      "inferred_required_fields": [
+        "window",
+        "x",
+        "y",
+        "scrollX",
+        "scrollY"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "x": 1,
+        "y": 1,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "terminal_response": {
+        "id": 28,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1,
+            "scrollX": 0,
+            "scrollY": 0
+          },
+          "response": {
+            "id": 24,
+            "ok": false,
+            "error": "parse scroll params: missing field `x`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1,
+            "scrollX": 0,
+            "scrollY": 0
+          },
+          "response": {
+            "id": 25,
+            "ok": false,
+            "error": "parse scroll params: missing field `y`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1,
+            "scrollX": 0,
+            "scrollY": 0
+          },
+          "response": {
+            "id": 26,
+            "ok": false,
+            "error": "parse scroll params: missing field `scrollX`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1,
+            "scrollX": 0,
+            "scrollY": 0
+          },
+          "response": {
+            "id": 27,
+            "ok": false,
+            "error": "parse scroll params: missing field `scrollY`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "x": 1,
+            "y": 1,
+            "scrollX": 0,
+            "scrollY": 0
+          },
+          "response": {
+            "id": 28,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "type_text",
+      "inferred_required_fields": [
+        "window",
+        "text"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "text": "probe"
+      },
+      "terminal_response": {
+        "id": 30,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "text": "probe"
+          },
+          "response": {
+            "id": 29,
+            "ok": false,
+            "error": "parse type_text params: missing field `text`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "text": "probe"
+          },
+          "response": {
+            "id": 30,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    },
+    {
+      "method": "press_key",
+      "inferred_required_fields": [
+        "window",
+        "key"
+      ],
+      "final_params": {
+        "window": {
+          "app": "process:does-not-exist.exe",
+          "id": 4294967295
+        },
+        "key": "a"
+      },
+      "terminal_response": {
+        "id": 32,
+        "ok": false,
+        "error": "foreground window did not report a process id"
+      },
+      "history": [
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "key": "a"
+          },
+          "response": {
+            "id": 31,
+            "ok": false,
+            "error": "parse press_key params: missing field `key`"
+          }
+        },
+        {
+          "params": {
+            "window": {
+              "app": "process:does-not-exist.exe",
+              "id": 4294967295
+            },
+            "key": "a"
+          },
+          "response": {
+            "id": 32,
+            "ok": false,
+            "error": "foreground window did not report a process id"
+          }
+        }
+      ]
+    }
+  ],
+  "close_response": {
+    "id": 33,
+    "ok": true,
+    "result": {}
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

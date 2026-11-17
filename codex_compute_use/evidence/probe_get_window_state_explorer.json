@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "get_window_state",
+    "params": {
+      "include_screenshot": false,
+      "include_text": true,
+      "window": {
+        "app": "process:C:\\Windows\\explorer.exe",
+        "id": 4919240
+      }
+    }
+  },
+  "helper_pid": 32180,
+  "response": {
+    "id": 1,
+    "ok": false,
+    "error": "executable has multiple signatures"
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

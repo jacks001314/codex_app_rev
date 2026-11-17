@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "launch_app",
+    "params": {
+      "app": "C:\\Windows\\System32\\notepad.exe"
+    },
+    "meta": {}
+  },
+  "helper_pid": 4964,
+  "response": {
+    "id": 1,
+    "ok": false,
+    "error": "Computer Use is not allowed on this app by policy"
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

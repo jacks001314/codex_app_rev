@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "file": "codex-computer-use.exe",
+    "sha256": "14a5389ac4f060361748135f97434037e321afd3f465e9481295919bb7771285",
+    "architecture": "PE32+ x86-64",
+    "request_transport": "UTF-8 JSON Lines over stdin/stdout"
+  },
+  "evidence": {
+    "field_discovery": "evidence/field_discovery.json",
+    "validation_matrix": "evidence/method_validation_matrix.json",
+    "runtime_successes": [
+      "evidence/probe_diagnostic_state.json",
+      "evidence/probe_list_apps.json",
+      "evidence/probe_list_windows_fresh.json",
+      "evidence/probe_session_syntropy.json",
+      "evidence/probe_end_turn.json"
+    ],
+    "published_windows_types": "@oai/cua/dist/project/cua/sky_js/src/types/window2/*.d.ts",
+    "client_implementation": "@oai/cua/dist/project/cua/sky_js/src/targets/windows/internal/computer_use_client_base.js"
+  },
+  "request": {
+    "required": {
+      "id": "unsigned integer (Rust u64); response correlation key",
+      "method": "string",
+      "params": "object; an empty object is required for no-argument methods"
+    },
+    "optional": {
+      "meta": "object containing request policy, approval, timeout, and Codex turn metadata"
+    },
+    "meta_keys": {
+      "x-oai-cua-approved-app": "string; carries an approval for a named app such as computer-audio",
+      "x-oai-cua-request-budget-ms": "number of milliseconds; inserted by the Node transport",
+      "session_id": "Codex conversation/session id when decoded from x-codex-turn-metadata",
+      "turn_id": "Codex turn id when decoded from x-codex-turn-metadata"
+    }
+  },
+  "response": {
+    "success": {
+      "id": "same numeric id as request",
+      "ok": true,
+      "result": "method-specific value"
+    },
+    "error": {
+      "id": "same numeric id as request, or 0 for request-envelope parse errors",
+      "ok": false,
+      "error": "human-readable string"
+    },
+    "approval": {
+      "id": "same numeric id as request",
+      "approvalRequest": {
+        "app": "approval subject",
+        "displayName": "user-visible label",
+        "riskLevel": "high or low",
+        "allowPersistentApproval": "boolean"
+      }
+    },
+    "event": "object without a numeric id; the Node transport routes it to event listeners"
+  },
+  "types": {
+    "Window": {
+      "app": "string",
+      "id": "unsigned integer",
+      "title": "optional string"
+    },
+    "App": {
+      "id": "string",
+      "displayName": "optional string",
+      "isRunning": "optional boolean",
+      "lastUsedDate": "optional ISO-8601 string",
+      "useCount": "optional number",
+      "windows": "array of Window"
+    },
+    "Screenshot": {
+      "id": "string",
+      "zIndex": "number",
+      "url": "string; image data URL",
+      "originX": "optional number",
+      "originY": "optional number",
+      "width": "optional number",
+      "height": "optional number"
+    },
+    "AccessibilityState": {
+      "tree": "string",
+      "focused_element": "optional string",
+      "selected_text": "optional string",
+      "selected_elements": "optional array of strings",
+      "document_text": "optional string"
+    },
+    "WindowState": {
+      "window": "Window",
+      "screenshots": "array of Screenshot",
+      "accessibility": "AccessibilityState or null"
+    }
+  },
+  "methods": [
+    {
+      "name": "diagnostic_state",
+      "params_required": [],
+      "params_optional": [],
+      "result": {
+        "cacheDiagnostics": {
+          "accessibilityRevision": "number",
+          "accessibilitySnapshotCount": "number",
+          "captureCachedSessionCount": "number"
+        },
+        "lastWindowIdentity": "object or null"
+      },
+      "evidence_status": "runtime success observed",
+      "evidence": ["evidence/probe_diagnostic_state.json"]
+    },
+    {
+      "name": "list_apps",
+      "params_required": [],
+      "params_optional": [],
+      "result": "array of App",
+      "evidence_status": "runtime success observed",
+      "evidence": ["evidence/probe_list_apps.json"]
+    },
+    {
+      "name": "list_windows",
+      "params_required": [],
+      "params_optional": [],
+      "result": "array of Window",
+      "evidence_status": "runtime success observed",
+      "evidence": ["evidence/probe_list_windows_fresh.json"]
+    },
+    {
+      "name": "get_window",
+      "params_required": ["id"],
+      "params_optional": ["app"],
+      "result": "Window",
+      "notes": "Passing an optional app value can trigger a strict app-owner comparison. A Chrome probe failed even when app was the same literal string returned by list_windows.",
+      "evidence_status": "id-only path observed; strict app path observed failing",
+      "evidence": [
+        "evidence/probe_session_syntropy.json",
+        "evidence/probe_get_window_chrome.json",
+        "evidence/field_discovery.json"
+      ]
+    },
+    {
+      "name": "launch_app",
+      "params_required": ["app"],
+      "params_optional": [],
+      "result": "null/void on success",
+      "notes": "Accepts installed app ids and absolute executable identifiers. Product policy can reject the target before launch.",
+      "evidence_status": "schema observed; tested targets were policy-rejected",
+      "evidence": ["evidence/probe_launch_app_unapproved.json", "evidence/probe_launch_app_notepad_unapproved.json"]
+    },
+    {
+      "name": "get_window_state",
+      "params_required": ["window", "include_text", "include_screenshot"],
+      "params_optional": [],
+      "result": "WindowState",
+      "notes": "The published JS client supplies defaults and always sends both booleans. Direct callers must send both; at least one must be true.",
+      "evidence_status": "schema observed; real target was policy-rejected; invalid target reached window validation",
+      "evidence": [
+        "evidence/probe_session_syntropy.json",
+        "evidence/field_discovery.json",
+        "evidence/probe_get_window_state_flags_off.json"
+      ]
+    },
+    {
+      "name": "activate_window",
+      "params_required": ["window"],
+      "params_optional": [],
+      "result": "null/void on success",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/method_validation_matrix.json"]
+    },
+    {
+      "name": "perform_secondary_action",
+      "params_required": ["window", "element_index", "action"],
+      "params_optional": [],
+      "result": "null/void on success",
+      "action_examples": ["Raise", "Scroll Up", "Scroll Down", "Scroll Left", "Scroll Right", "Expand", "Collapse"],
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/method_validation_matrix.json"]
+    },
+    {
+      "name": "set_value",
+      "params_required": ["window", "element_index", "value"],
+      "params_optional": [],
+      "result": "null/void on success",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/method_validation_matrix.json"]
+    },
+    {
+      "name": "click_element",
+      "params_required": ["window", "element_index"],
+      "params_optional": ["click_count", "mouse_button"],
+      "result": "null/void on success",
+      "notes": "Legacy element-indexed click method emitted directly by the helper. Current JS click() selects this method when element_index is supplied.",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/ascii_strings.txt"]
+    },
+    {
+      "name": "scroll_element",
+      "params_required": ["window", "element_index", "direction", "pages"],
+      "params_optional": [],
+      "result": "null/void on success",
+      "notes": "Legacy element-indexed scroll method. It is present in the binary method table but not in the published window2 TypeScript surface.",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/ascii_strings.txt"]
+    },
+    {
+      "name": "click",
+      "params_required": ["window", "x", "y"],
+      "params_optional": ["screenshotId", "click_count", "mouse_button"],
+      "result": "null/void on success",
+      "notes": "Coordinates are window-relative. Direct helper schema requires x and y even though the JS input type models them as optional when element_index is present; the client routes indexed clicks to click_element.",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/ascii_strings.txt"]
+    },
+    {
+      "name": "drag",
+      "params_required": ["window", "from_x", "from_y", "to_x", "to_y"],
+      "params_optional": ["screenshotId"],
+      "result": "null/void on success",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/ascii_strings.txt"]
+    },
+    {
+      "name": "scroll",
+      "params_required": ["window", "x", "y", "scrollX", "scrollY"],
+      "params_optional": ["screenshotId"],
+      "result": "null/void on success",
+      "notes": "Coordinate-based current window2 method. Horizontal and vertical deltas are signed.",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/ascii_strings.txt"]
+    },
+    {
+      "name": "type_text",
+      "params_required": ["window", "text"],
+      "params_optional": [],
+      "result": "null/void on success",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/method_validation_matrix.json"]
+    },
+    {
+      "name": "press_key",
+      "params_required": ["window", "key"],
+      "params_optional": [],
+      "result": "null/void on success",
+      "notes": "Key syntax is a plus-separated X11 keysym-style chord, for example Control_L+a.",
+      "evidence_status": "schema observed with invalid target",
+      "evidence": ["evidence/field_discovery.json", "evidence/ascii_strings.txt"]
+    },
+    {
+      "name": "start_audio_recording",
+      "params_required": [],
+      "params_optional": ["max_duration_ms"],
+      "result": "null/void on success",
+      "validation": "max_duration_ms must be 100..300000; documented default is 60000",
+      "environment_gate": "SKY_ENABLE_AUDIO=1",
+      "approval": "computer-audio, riskLevel high",
+      "evidence_status": "environment and approval gates observed; range error observed",
+      "evidence": [
+        "evidence/probe_audio_bad_duration_enabled.json",
+        "evidence/probe_audio_bad_duration_approved.json",
+        "evidence/method_validation_matrix.json"
+      ]
+    },
+    {
+      "name": "stop_audio_recording",
+      "params_required": [],
+      "params_optional": [],
+      "result": {
+        "filepath": "string",
+        "bytes": "WAV bytes (JS decodes from filepath)",
+        "data_url": "audio/wav data URL (JS adds this)"
+      },
+      "format": "24 kHz stereo WAV",
+      "environment_gate": "SKY_ENABLE_AUDIO=1",
+      "evidence_status": "disabled error observed; success shape documented by shipped type definitions",
+      "evidence": ["evidence/probe_stop_audio.json", "@oai/cua/dist/project/cua/sky_js/src/types/window2/Audio.d.ts"]
+    },
+    {
+      "name": "close",
+      "params_required": [],
+      "params_optional": [],
+      "result": {},
+      "evidence_status": "runtime success observed",
+      "evidence": ["evidence/probe_session_syntropy.json", "evidence/probe_list_windows_fresh.json"]
+    },
+    {
+      "name": "end_turn",
+      "params_required": [],
+      "params_optional": [],
+      "result": {},
+      "notes": "Lifecycle transition used to clear turn-scoped state. The Node transport invokes it when Codex turn metadata changes or the turn ends.",
+      "evidence_status": "runtime success observed",
+      "evidence": ["evidence/probe_end_turn.json", "@oai/cua/dist/project/cua/sky_js/src/targets/windows/internal/helper_transport.js"]
+    }
+  ],
+  "known_errors": {
+    "unsupported_method": "unsupported method: <name>",
+    "request_parse": "invalid request: <serde_json error>",
+    "params_parse": "parse <method> params: <serde error>",
+    "window_required": "window id is required",
+    "state_flags": "get_window_state must request include_text, include_screenshot, or both",
+    "app_policy": "Computer Use is not allowed on this app by policy",
+    "policy_disabled": "Computer Use is disabled by policy",
+    "multiple_signatures": "executable has multiple signatures",
+    "input_guard": "user input was detected in this window; call get_window_state before continuing",
+    "window_changed": "window bounds changed; call get_window_state before using this window"
+  }
+}

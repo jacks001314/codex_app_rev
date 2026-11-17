@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "start_audio_recording",
+    "params": {
+      "max_duration_ms": 0
+    },
+    "meta": {
+      "x-oai-cua-approved-app": "computer-audio"
+    }
+  },
+  "helper_pid": 3420,
+  "response": {
+    "id": 1,
+    "ok": false,
+    "error": "max_duration_ms must be from 100 through 300000"
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

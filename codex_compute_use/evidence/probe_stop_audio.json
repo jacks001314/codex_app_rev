@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "stop_audio_recording",
+    "params": {},
+    "meta": {}
+  },
+  "helper_pid": 9852,
+  "response": {
+    "id": 1,
+    "ok": false,
+    "error": "computer audio recording is not enabled"
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

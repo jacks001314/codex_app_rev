@@ -1,0 +1,92 @@
+{
+  "helper_pid": 33256,
+  "selection": {
+    "title_contains": "Ch3nYe/Syntropy"
+  },
+  "requests": [
+    {
+      "id": 1,
+      "method": "list_windows",
+      "response": {
+        "id": 1,
+        "ok": true,
+        "result": [
+          {
+            "app": "process:C:\\Users\\huoga\\AppData\\Local\\Programs\\Syntropy\\Syntropy.exe",
+            "id": 41946070,
+            "title": "Syntropy"
+          },
+          {
+            "app": "process:C:\\Windows\\explorer.exe",
+            "id": 4919240,
+            "title": "computer-use - 文件资源管理器"
+          },
+          {
+            "app": "Chrome",
+            "id": 5113962,
+            "title": "Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. - Google Chrome"
+          },
+          {
+            "app": "MSEdge",
+            "id": 263770,
+            "title": "Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. 和另外 12 个页面 - 用户配置 1 - Microsoft​ Edge"
+          },
+          {
+            "app": "process:C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+            "id": 67308,
+            "title": "QQ"
+          },
+          {
+            "app": "process:C:\\Program Files (x86)\\LanxinSoftCustom\\main\\LxMainNew.exe",
+            "id": 331324,
+            "title": "蓝信"
+          },
+          {
+            "app": "OpenAI.Codex_2p2nqsd0c76g0!App",
+            "id": 396148,
+            "title": "ChatGPT"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "method": "get_window",
+      "response": {
+        "id": 2,
+        "ok": true,
+        "result": {
+          "app": "Chrome",
+          "id": 5113962,
+          "title": "Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. - Google Chrome"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "method": "get_window_state",
+      "response": {
+        "id": 3,
+        "ok": false,
+        "error": "window id 5113962 no longer belongs to Chrome; current owner is Chrome"
+      }
+    },
+    {
+      "id": 4,
+      "method": "close",
+      "response": {
+        "id": 4,
+        "ok": true,
+        "result": {}
+      }
+    }
+  ],
+  "selected_window": {
+    "app": "Chrome",
+    "id": 5113962,
+    "title": "Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. - Google Chrome"
+  },
+  "exit_code": 0,
+  "events": [],
+  "stderr": []
+}

@@ -1,0 +1,420 @@
+[
+  {
+    "case": "unknown_method",
+    "method": "does_not_exist",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "unsupported method: does_not_exist",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "start_audio_bad_duration",
+    "method": "start_audio_recording",
+    "params": {
+      "max_duration_ms": 0
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "computer audio recording is not enabled",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "get_window_state_missing",
+    "method": "get_window_state",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse get_window_state params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "get_window_missing",
+    "method": "get_window",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse get_window params: missing field `id`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "activate_window_missing",
+    "method": "activate_window",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse activate_window params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "perform_secondary_action_missing",
+    "method": "perform_secondary_action",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse perform_secondary_action params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "set_value_missing",
+    "method": "set_value",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse set_value params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "click_element_missing",
+    "method": "click_element",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse click_element params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "scroll_element_missing",
+    "method": "scroll_element",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse scroll_element params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "click_missing",
+    "method": "click",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse click params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "drag_missing",
+    "method": "drag",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse drag params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "scroll_missing",
+    "method": "scroll",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse scroll params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "type_text_missing",
+    "method": "type_text",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse type_text params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "press_key_missing",
+    "method": "press_key",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse press_key params: missing field `window`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "launch_app_missing",
+    "method": "launch_app",
+    "params": {},
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse launch_app params: missing field `app`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "get_window_state_both_disabled",
+    "method": "get_window_state",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 0
+      },
+      "include_text": false,
+      "include_screenshot": false
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "window id is required",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "get_window_state_fake_window",
+    "method": "get_window_state",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      },
+      "include_text": true,
+      "include_screenshot": false
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "foreground window did not report a process id",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "get_window_fake_window",
+    "method": "get_window",
+    "params": {
+      "id": 4294967295
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "window id 4294967295 was not found. Current windows: [{\"app\":\"process:C:\\\\Users\\\\huoga\\\\AppData\\\\Local\\\\Programs\\\\Syntropy\\\\Syntropy.exe\",\"id\":41946070,\"title\":\"Syntropy\"},{\"app\":\"process:C:\\\\Windows\\\\explorer.exe\",\"id\":4919240,\"title\":\"computer-use - 文件资源管理器\"},{\"app\":\"Chrome\",\"id\":5113962,\"title\":\"Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. - Google Chrome\"},{\"app\":\"MSEdge\",\"id\":263770,\"title\":\"Ch3nYe/Syntropy: Syntropy: distributed human-agent interface. 和另外 12 个页面 - 用户配置 1 - Microsoft​ Edge\"},{\"app\":\"process:C:\\\\Program Files\\\\Tencent\\\\QQNT\\\\QQ.exe\",\"id\":67308,\"title\":\"QQ\"},{\"app\":\"process:C:\\\\Program Files (x86)\\\\LanxinSoftCustom\\\\main\\\\LxMainNew.exe\",\"id\":331324,\"title\":\"蓝信\"},{\"app\":\"OpenAI.Codex_2p2nqsd0c76g0!App\",\"id\":396148,\"title\":\"ChatGPT\"}]",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "activate_window_fake_window",
+    "method": "activate_window",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "foreground window did not report a process id",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "perform_secondary_action_fake_window",
+    "method": "perform_secondary_action",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse perform_secondary_action params: missing field `element_index`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "set_value_fake_window",
+    "method": "set_value",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse set_value params: missing field `element_index`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "click_element_fake_window",
+    "method": "click_element",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse click_element params: missing field `element_index`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "scroll_element_fake_window",
+    "method": "scroll_element",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse scroll_element params: missing field `element_index`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "click_fake_window",
+    "method": "click",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse click params: missing field `x`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "drag_fake_window",
+    "method": "drag",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse drag params: missing field `from_x`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "scroll_fake_window",
+    "method": "scroll",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse scroll params: missing field `x`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "type_text_fake_window",
+    "method": "type_text",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse type_text params: missing field `text`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "press_key_fake_window",
+    "method": "press_key",
+    "params": {
+      "window": {
+        "app": "process:does-not-exist.exe",
+        "id": 4294967295
+      }
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "parse press_key params: missing field `key`",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  },
+  {
+    "case": "launch_app_unknown",
+    "method": "launch_app",
+    "params": {
+      "app": "process:does-not-exist.exe"
+    },
+    "probe_exit": 0,
+    "probe_stderr": "",
+    "ok": false,
+    "error": "app policy requires an absolute executable path",
+    "approval_request": null,
+    "result_type": null,
+    "helper_exit_code": 0
+  }
+]
