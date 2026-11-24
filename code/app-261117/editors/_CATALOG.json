@@ -1,0 +1,6442 @@
+{
+ "module": "editors",
+ "generated_at": "2026-11-24T02:27:15.437Z",
+ "files_scanned": 9,
+ "message_count": 599,
+ "messages": [
+  {
+   "id": "artifactComments.heading",
+   "text": "Comments",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "artifactHandoff.untitledDocument",
+   "text": "Untitled document",
+   "description": "Fallback name for a shared local document without a title",
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.bringForward",
+   "text": "Bring forward",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.bringToFront",
+   "text": "Bring to front",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.copy",
+   "text": "Copy",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.delete",
+   "text": "Delete",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.duplicate",
+   "text": "Duplicate",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.paste",
+   "text": "Paste",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.pasteUnavailable",
+   "text": "Couldn\\u2019t access the clipboard. Press {shortcut} to paste",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.properties",
+   "text": "Properties\\u2026",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.requestEdits",
+   "text": "Request edits\\u2026",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.sendBackward",
+   "text": "Send backward",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.elementContextMenu.sendToBack",
+   "text": "Send to back",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.addSlideBelow",
+   "text": "Add slide below",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.delete",
+   "text": "Delete",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.duplicate",
+   "text": "Duplicate",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.formattingOptions",
+   "text": "Formatting options",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.hide",
+   "text": "Hide",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.slideContextMenu.show",
+   "text": "Show",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.spreadsheetContextMenu.disabledReason",
+   "text": "{reason}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactPreview.spreadsheetContextMenu.label",
+   "text": "{label}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifacts.presentation.editing.working",
+   "text": "Editing\\u2026",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifacts.presentation.generation.working",
+   "text": "Creating\\u2026",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifacts.presentationEditor.insert.shapeArrow",
+   "text": "Arrow",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.openInLibrary",
+   "text": "Open in Library",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.openInLibrary.space",
+   "text": "Open in Space",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.advance",
+   "text": "Advance slide",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.controls",
+   "text": "Slideshow controls",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.currentSlide",
+   "text": "Current slide",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.endShow",
+   "text": "End show",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.enterFullscreen",
+   "text": "Enter fullscreen",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.exit",
+   "text": "Exit presentation",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.exitFullscreen",
+   "text": "Exit fullscreen",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.fullscreenChangeFailed",
+   "text": "Could not change fullscreen",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.fullscreenFailed",
+   "text": "Could not enter fullscreen",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.goToSlide",
+   "text": "Go to slide {number}: {title}",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.mode.presentation",
+   "text": "Present",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.mode.presentationDescription",
+   "text": "One view for your audience, without notes",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.mode.withNotes",
+   "text": "Present with notes",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.mode.withNotesDescription",
+   "text": "One view for sharing, another for your notes",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.navigation",
+   "text": "Slide navigation",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.next",
+   "text": "Next slide",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.noNotes",
+   "text": "No speaker notes for this slide",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.popupBlocked",
+   "text": "Allow pop-up windows to use presenter view",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.position",
+   "text": "{current} of {total}",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.presenterView",
+   "text": "Presenter view",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.previous",
+   "text": "Previous slide",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.slideFailed",
+   "text": "Could not display this slide",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.slidePreviews",
+   "text": "Slide previews",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.slideshow",
+   "text": "Slideshow",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.slideshowWindow",
+   "text": "Slideshow",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.present.speakerNotes",
+   "text": "Speaker notes",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.executionPolicy.disabled",
+   "text": "Code execution is disabled for this workspace",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.executionPolicy.error",
+   "text": "Unable to load workspace settings",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.executionPolicy.loading",
+   "text": "Loading app",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.addingInteractivity",
+   "text": "Adding interactivity",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.arrangingPieces",
+   "text": "Arranging the pieces",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.calibratingPreview",
+   "text": "Calibrating the preview",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.composingInteractions",
+   "text": "Composing the interactions",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.creatingInterface",
+   "text": "Creating the interface",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.generatingApp",
+   "text": "Generating {title}",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.polishingVisuals",
+   "text": "Polishing the visuals",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.refiningDetails",
+   "text": "Refining the details",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.shapingLayout",
+   "text": "Shaping the layout",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.sketchingInterface",
+   "text": "Sketching the interface",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.tuningInputs",
+   "text": "Tuning the inputs",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.appBlock.loading.wiringControls",
+   "text": "Wiring the controls",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.byAuthor",
+   "text": "by {author}",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.chatgpt",
+   "text": "ChatGPT",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.close",
+   "text": "Close file info",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.collaborator",
+   "text": "a collaborator",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.created",
+   "text": "Created",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.editor",
+   "text": "Editor",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.loadFailed",
+   "text": "Couldn\\u2019t load file info",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.loading",
+   "text": "Loading file info\\u2026",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.menuItem",
+   "text": "File info",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.owner",
+   "text": "Owner",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.relatedChats",
+   "text": "Related chats",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.size",
+   "text": "Size",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.title",
+   "text": "File info",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js",
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type",
+   "text": "Type",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type.excelSpreadsheet",
+   "text": "Excel spreadsheet",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type.generic",
+   "text": "{category, select, file {File} text {Text} code {Code} audio {Audio} video {Video} image {Image} spreadsheet {Spreadsheet} presentation {Presentation} other {File}}",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type.googleDocs",
+   "text": "Google Docs",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type.googleSheets",
+   "text": "Google Sheets",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type.googleSlides",
+   "text": "Google Slides",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type.powerPoint",
+   "text": "PowerPoint",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.type.wordDocument",
+   "text": "Word document",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.untitledChat",
+   "text": "Untitled chat",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.updated",
+   "text": "Updated",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.viewer",
+   "text": "Viewer",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.you",
+   "text": "you",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.yourAccess",
+   "text": "Your access",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.chatgpt",
+   "text": "ChatGPT",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.close",
+   "text": "Close version history",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.collaborator",
+   "text": "Collaborator",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.currentVersion",
+   "text": "Current version",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.empty",
+   "text": "No saved versions",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.loadFailed",
+   "text": "Couldn\\u2019t load version history",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.loading",
+   "text": "Loading version history\\u2026",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.loadingPreview",
+   "text": "Loading file version\\u2026",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.previewFailed",
+   "text": "Couldn\\u2019t load this version",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.restoreFailed",
+   "text": "The file changed or this version couldn\\u2019t be restored. Try again",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.retryPreview",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.showMore",
+   "text": "Show more",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.title",
+   "text": "Version history",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.today",
+   "text": "Today",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.version",
+   "text": "Version {version}",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.versionKind",
+   "text": "{action, select, create {Created} restore {Restored} other {Edited}}",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.yesterday",
+   "text": "Yesterday",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgptTextDocumentPreview.cloudEnvironmentUnavailable",
+   "text": "Cloud environment unavailable. Open this file again when your chat is ready",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptTextDocumentPreview.downloadFailed",
+   "text": "Couldn\\u2019t download this file",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptTextDocumentPreview.readFailed",
+   "text": "Couldn\\u2019t load this file",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptTextDocumentPreview.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.alert.closeAriaLabel",
+   "text": "Close",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.artifacts.presentation.copyEmailAddress",
+   "text": "Copy email address",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.artifacts.presentation.copyLink",
+   "text": "Copy link",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.artifacts.presentation.editLink",
+   "text": "Edit link",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.artifacts.presentation.editLinkPreview",
+   "text": "Edit",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.link.urlField",
+   "text": "URL",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.link.urlInput",
+   "text": "Link URL",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.link.urlPlaceholder",
+   "text": "Paste a link\\u2026",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.failed",
+   "text": "Couldn\\u2019t load this preview",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.failedDescription",
+   "text": "Try again, or download the file to open it",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.retry",
+   "text": "Retry preview",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.tooLarge",
+   "text": "This file is too large to preview. Download it to open the full file",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.unavailable",
+   "text": "Preview isn\\u2019t available for this file. Download it to open it",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.viewOnlyFailedDescription",
+   "text": "Try loading the preview again",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.viewOnlyTooLarge",
+   "text": "This file is too large to preview",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.file.preview.viewOnlyUnavailable",
+   "text": "Preview isn\\u2019t available for this file",
+   "description": null,
+   "files": [
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.actionsAriaLabel",
+   "text": "Visualization actions",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.actionsPublished",
+   "text": "View shared visualization",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.actionsPublishing",
+   "text": "Publishing site\\u2026",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.actionsSharingNeedsAttention",
+   "text": "Publishing needs attention",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.annotationApplyChanges",
+   "text": "Apply the changes",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.annotationChangesContext",
+   "text": "Visualization changes",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.annotationSubmitFailure",
+   "text": "Unable to submit visualization changes",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.closePreview",
+   "text": "Close visualization preview",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.copyAsImage",
+   "text": "Copy as image",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.copyImageFailure",
+   "text": "Unable to copy visualization as image",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.copyImageSuccess",
+   "text": "Visualization copied as image",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.download.success",
+   "text": "Saved {filename} to Downloads",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.error",
+   "text": "An error occurred inside the visualization",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.error.fix",
+   "text": "Ask ChatGPT to fix it",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.error.fixPrompt",
+   "text": "Fix the inline visualization in {file}. It failed with {error}",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.error.reload",
+   "text": "Reload",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.expand",
+   "text": "Expand visualization",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.externalLinkConfirmation.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.externalLinkConfirmation.confirm",
+   "text": "Open link",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.externalLinkConfirmation.description",
+   "text": "This visualization wants to open a link that could share information with an external website. Only continue if you trust the destination",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.externalLinkConfirmation.title",
+   "text": "Open external link?",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.frame.title",
+   "text": "Interactive visualization",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.nextPreview",
+   "text": "Next visualization",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.openPublishingChat",
+   "text": "Open publishing chat",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.openSite",
+   "text": "Open site",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.preview",
+   "text": "Visualization preview",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.previousPreview",
+   "text": "Previous visualization",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.publishAsSite",
+   "text": "Publish as site",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.published",
+   "text": "Published",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.publishToSites",
+   "text": "Publish to Sites\\u2026",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.publishToSitesFailure",
+   "text": "Unable to send visualization to Sites",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.recheckSharing",
+   "text": "Check workspace sharing",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.restrictedAccess",
+   "text": "Restricted access",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.retryPublishing",
+   "text": "Retry publishing",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.runtimeWarning",
+   "text": "Part of this visualization may not be working",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.share.manage",
+   "text": "Sharing settings",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.share.publishing",
+   "text": "Publishing site\\u2026",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.sharedPublicly",
+   "text": "Shared publicly",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.sharedWithWorkspace",
+   "text": "Shared with workspace",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.shareFailure",
+   "text": "Unable to share visualization",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.shareVisualization",
+   "text": "Share visualization\\u2026",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.shareWithWorkspace",
+   "text": "Share with workspace",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.sharingWorkspace",
+   "text": "Sharing with workspace\\u2026",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.unavailable",
+   "text": "Visualization unavailable",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.visualization.viewError",
+   "text": "View visualization error",
+   "description": null,
+   "files": [
+    "35702.351118868f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "dil.modelWrittenV2.responseFailure",
+   "text": "This response couldn\\u2019t load",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "markdown.metadata.showLess",
+   "text": "Show less",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.metadata.showMore",
+   "text": "Show more",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.metadata.title",
+   "text": "Metadata",
+   "description": null,
+   "files": [
+    "459594.3ec91239f8.js",
+    "61000.a03670c2c6.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.actionFailed",
+   "text": "Could not complete this video action. Try again",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.copyLink",
+   "text": "Copy link",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.exitFullscreen",
+   "text": "Exit fullscreen",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.expand",
+   "text": "Expand video",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.fullscreen",
+   "text": "Fullscreen",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.linkCopied",
+   "text": "Link copied",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.mute",
+   "text": "Mute video",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.options",
+   "text": "Video options",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.pause",
+   "text": "Pause video",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.pictureInPicture",
+   "text": "Picture in picture",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.play",
+   "text": "Play video",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.progress",
+   "text": "{currentTime} / {duration}",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.saveCopy",
+   "text": "Save video as\\u2026",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.seek",
+   "text": "Seek in video",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.speed",
+   "text": "Playback speed",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.speedValue",
+   "text": "{rate, number}\\xd7",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "markdown.video.volume",
+   "text": "Video volume",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js",
+    "759492.c001e6638f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "pages.presentation.cursorAgentName",
+   "text": "ChatGPT",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.addGradientStop",
+   "text": "Add color stop",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignObjects",
+   "text": "Align objects",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.allBorders",
+   "text": "All borders",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.axisLabels",
+   "text": "Axis labels",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.backgroundColor",
+   "text": "Background color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.bold",
+   "text": "Bold",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.border",
+   "text": "Border",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderColor",
+   "text": "Border color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderColorLabel",
+   "text": "Color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDashDot",
+   "text": "Dash-dot",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDashDotDot",
+   "text": "Dash-dot-dot",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDashed",
+   "text": "Dashed",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderDotted",
+   "text": "Dotted",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderNone",
+   "text": "No border",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderSolid",
+   "text": "Solid",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderStyle",
+   "text": "Border style",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.borderWeight",
+   "text": "Weight",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.bullets",
+   "text": "Bulleted list",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.canvasCrop",
+   "text": "Crop image",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cellBorders",
+   "text": "Cell borders",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartBackground",
+   "text": "Background",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartColors",
+   "text": "Chart colors",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartOptions",
+   "text": "Chart options",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartType",
+   "text": "Chart type",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chartTypeName",
+   "text": "{type, select, line {Line} pie {Pie} bar {Bar} doughnut {Doughnut} scatter {Scatter} bubble {Bubble} radar {Radar} treemap {Treemap} sunburst {Sunburst} map {Map} waterfall {Waterfall} line3D {3D line} pie3D {3D pie} area3D {3D area} bar3D {3D bar} funnel {Funnel} histogram {Histogram} boxWhisker {Box and whisker} stock {Stock} surface3D {3D surface} ofPie {Pie of pie} surface {Surface} pareto {Pareto} combo {Combination} other {Area}}",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.chooseTheme",
+   "text": "Choose presentation theme",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.close",
+   "text": "Close editing panel",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.color",
+   "text": "Color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.colorFill",
+   "text": "Color fill",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.columnBorders",
+   "text": "Column borders",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.comment",
+   "text": "Add comment",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.corners",
+   "text": "Corners",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropBottom",
+   "text": "Crop bottom",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropBottomLeft",
+   "text": "Crop bottom left",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropBottomRight",
+   "text": "Crop bottom right",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropImageAction",
+   "text": "Crop",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropImageUnavailable",
+   "text": "Image is not ready to crop. Try again.",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropLeft",
+   "text": "Crop left",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropRight",
+   "text": "Crop right",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropTop",
+   "text": "Crop top",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropTopLeft",
+   "text": "Crop top left",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.cropTopRight",
+   "text": "Crop top right",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.dimensions",
+   "text": "Dimensions",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.edit",
+   "text": "More formatting options",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.editLink",
+   "text": "Add or edit link",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fill",
+   "text": "Background",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillColor",
+   "text": "Fill color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillGradientLabel",
+   "text": "Gradient",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillImageLabel",
+   "text": "Image",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillNoneLabel",
+   "text": "None",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.fillOpacity",
+   "text": "Fill opacity",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.finishCropOutside",
+   "text": "Finish cropping",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.generateFillRequest",
+   "text": "Generate an image for this background: ",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.generateImage",
+   "text": "Generate image",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.generateImageRequest",
+   "text": "Generate a replacement image: ",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientAngle",
+   "text": "Angle",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientColorNumber",
+   "text": "Color {number}",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientColorOpacity",
+   "text": "Opacity for color {number}",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientColors",
+   "text": "Colors",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientFill",
+   "text": "Gradient fill",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientLinear",
+   "text": "Linear",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientRadial",
+   "text": "Radial",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientStop",
+   "text": "Color stop {number}",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientStopOpacity",
+   "text": "Opacity",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientType",
+   "text": "Gradient type",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gradientTypeLabel",
+   "text": "Type",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.gridLines",
+   "text": "Grid lines",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.headerColumn",
+   "text": "Header column",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.headerRow",
+   "text": "Header row",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.heightPrefix",
+   "text": "H",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageCropMode",
+   "text": "Crop",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFill",
+   "text": "Image fill",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFillMenu",
+   "text": "Fill",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFillMode",
+   "text": "Fill",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFit",
+   "text": "Fit",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageFramingMode",
+   "text": "Image sizing",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageHeight",
+   "text": "Height",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imagePreviewFailed",
+   "text": "Image preview unavailable",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageUploadFailed",
+   "text": "This image could not be uploaded. Try again.",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.imageWidth",
+   "text": "Width",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.innerBorders",
+   "text": "Inner borders",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.area",
+   "text": "Area",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.bar",
+   "text": "Bar",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.callout",
+   "text": "Callout",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.chart",
+   "text": "Chart",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.chevron",
+   "text": "Chevron",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.diamond",
+   "text": "Diamond",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.ellipse",
+   "text": "Circle",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.funnel",
+   "text": "Funnel",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.generate",
+   "text": "Generate",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.histogram",
+   "text": "Histogram",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.image",
+   "text": "Insert image",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.imageError",
+   "text": "Couldn\\u2019t load image. Try another file.",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.leftArrow",
+   "text": "Left arrow",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.lineChart",
+   "text": "Line",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.pie",
+   "text": "Pie",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.plus",
+   "text": "Plus",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.rect",
+   "text": "Rectangle",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.rightArrow",
+   "text": "Right arrow",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.scatter",
+   "text": "Scatter",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.shapeLine",
+   "text": "Line",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.shapes",
+   "text": "Shapes",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.star",
+   "text": "Star",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.table",
+   "text": "Table",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.treemap",
+   "text": "Treemap",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.triangle",
+   "text": "Triangle",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.waterfall",
+   "text": "Waterfall",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.italic",
+   "text": "Italic",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.itemCount",
+   "text": "{count} items",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.layout",
+   "text": "Layout",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.legend",
+   "text": "Legend",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.linkChanged",
+   "text": "Couldn\\u2019t update this link. Select it again and retry",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.list",
+   "text": "List",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.lockAspectRatio",
+   "text": "Lock aspect ratio",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.mixed",
+   "text": "Mixed",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js",
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "presentationEditor.moveCrop",
+   "text": "Move crop area",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.noBorders",
+   "text": "No borders",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.noFill",
+   "text": "No fill",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.noList",
+   "text": "No list",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.numbered",
+   "text": "Numbered list",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectBottom",
+   "text": "Align objects bottom",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectCenter",
+   "text": "Align objects horizontally",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectLeft",
+   "text": "Align objects left",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectMiddle",
+   "text": "Align objects vertically",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectRight",
+   "text": "Align objects right",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.objectTop",
+   "text": "Align objects top",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.opacity",
+   "text": "Opacity",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.replaceImage",
+   "text": "Replace image",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.requestInput",
+   "text": "Describe your changes",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.requestPlaceholder",
+   "text": "Describe your changes\\u2026",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.rowBorders",
+   "text": "Row borders",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.selectionTitle",
+   "text": "{kind, select, slide {Slide {number}} text {Text} chart {Chart} table {Table} image {Image} other {Shape}}",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.selectionTools",
+   "text": "Selection actions",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.selectShapeText",
+   "text": "Select text",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.seriesColor",
+   "text": "Color {number}",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadow",
+   "text": "Shadow",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowAngle",
+   "text": "Angle",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowBlur",
+   "text": "Blur",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowColor",
+   "text": "Shadow color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowColorLabel",
+   "text": "Color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowCustom",
+   "text": "Custom",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowDistance",
+   "text": "Distance",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowHeavy",
+   "text": "Heavy",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowLight",
+   "text": "Light",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowMedium",
+   "text": "Medium",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowOpacity",
+   "text": "Opacity",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowSize",
+   "text": "Size",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowStrong",
+   "text": "Strong",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.shadowStyle",
+   "text": "Shadow style",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.strikethrough",
+   "text": "Strikethrough",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.submitChanges",
+   "text": "Submit requested changes",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.tableFill",
+   "text": "Fill",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.tableOptions",
+   "text": "Table options",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textAlignment",
+   "text": "Text alignment",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textColor",
+   "text": "Text color",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textOpacity",
+   "text": "Text opacity",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.theme",
+   "text": "Presentation theme",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.theme.berry",
+   "text": "Berry",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.theme.coral",
+   "text": "Coral",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.theme.midnight",
+   "text": "Midnight Sky",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.theme.moss",
+   "text": "Moss",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.theme.slate",
+   "text": "Slate",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.theme.sunset",
+   "text": "Sunset",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.toggleBorder",
+   "text": "Toggle border",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.toggleCorners",
+   "text": "Toggle corners",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.toggleShadow",
+   "text": "Toggle shadow",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.typography",
+   "text": "Typography",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.underline",
+   "text": "Underline",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.unlockAspectRatio",
+   "text": "Unlock aspect ratio",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.uploadImage",
+   "text": "Upload from computer",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.widthPrefix",
+   "text": "W",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationPanel.zoomFit",
+   "text": "Fit",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationWidget.generationPlaceholder",
+   "text": "Content generation placeholder",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationWidget.title",
+   "text": "Interactive widget",
+   "description": null,
+   "files": [
+    "687541.4551e74d0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.hotkeySetter.microphoneKey",
+   "text": "Microphone key",
+   "description": null,
+   "files": [
+    "411340.23428391e0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.alignCenter",
+   "text": "Align center",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.alignLeft",
+   "text": "Align left",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.alignRight",
+   "text": "Align right",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.back",
+   "text": "Back to formatting",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.background",
+   "text": "Background",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.backgroundControl",
+   "text": "Background color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.bold",
+   "text": "Bold",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.border",
+   "text": "Border",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderAll",
+   "text": "All borders",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderColorControl",
+   "text": "Border color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderColorLabel",
+   "text": "Color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderHorizontal",
+   "text": "Inner horizontal borders",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderInside",
+   "text": "Inner borders",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderNone",
+   "text": "No borders",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderOptions",
+   "text": "Border options",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.borderVertical",
+   "text": "Inner vertical borders",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.cellBorders",
+   "text": "Cell borders",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.area",
+   "text": "Area",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.automatic",
+   "text": "Automatic",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.axisLabels",
+   "text": "Axis labels",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.bar",
+   "text": "Bar chart",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.binCount",
+   "text": "Fixed count",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.bins",
+   "text": "Bins",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.binWidth",
+   "text": "Fixed width",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.colorNumber",
+   "text": "Color {number}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.colors",
+   "text": "Chart colors",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.dataLabels",
+   "text": "Data labels",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.doughnut",
+   "text": "Doughnut",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.fixed",
+   "text": "Fixed",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.funnel",
+   "text": "Funnel",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.gridLines",
+   "text": "Grid lines",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.histogram",
+   "text": "Histogram",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.horizontal",
+   "text": "Horizontal",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.legend",
+   "text": "Legend",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.line",
+   "text": "Line chart",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.none",
+   "text": "None",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.options",
+   "text": "Chart options",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.orientation",
+   "text": "Orientation",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.percentStacked",
+   "text": "100% stacked",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.pie",
+   "text": "Pie chart",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.pieStyle",
+   "text": "Pie",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.pointSize",
+   "text": "Point size",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.scatter",
+   "text": "Scatter",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.stacked",
+   "text": "Stacked",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.stacking",
+   "text": "Stacking",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.style",
+   "text": "Style",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.title",
+   "text": "Title",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.treemap",
+   "text": "Treemap",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.type",
+   "text": "Chart type",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.unavailable",
+   "text": "This chart setting is not available yet",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.vertical",
+   "text": "Vertical",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chart.waterfall",
+   "text": "Waterfall",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chartType",
+   "text": "Chart type",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chartTypeLabel",
+   "text": "{type, select, bar {Bar chart} line {Line chart} pie {Pie chart} area {Area} scatter {Scatter} histogram {Histogram} waterfall {Waterfall} funnel {Funnel} treemap {Treemap} other {Chart}}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.chooseImage",
+   "text": "Choose image",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.close",
+   "text": "Close editing panel",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.comment",
+   "text": "Add comment",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.applied",
+   "text": "Rule applied",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.apply",
+   "text": "Apply",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.beginsWith",
+   "text": "Text starts with",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.between",
+   "text": "Is between",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.bold",
+   "text": "Bold",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.cellColor",
+   "text": "Cell color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.containsBlanks",
+   "text": "Is empty",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.containsText",
+   "text": "Text contains",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.createAnother",
+   "text": "Create another rule",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.endsWith",
+   "text": "Text ends with",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.equal",
+   "text": "Is equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.formatCellsIf",
+   "text": "Format cells if",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.greaterThan",
+   "text": "Greater than",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.greaterThanOrEqual",
+   "text": "Greater than or equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.italic",
+   "text": "Italic",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.lessThan",
+   "text": "Less than",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.lessThanOrEqual",
+   "text": "Less than or equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notBetween",
+   "text": "Is not between",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notContainsBlanks",
+   "text": "Is not empty",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notContainsText",
+   "text": "Text does not contain",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.notEqual",
+   "text": "Is not equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.range",
+   "text": "Range",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.rules",
+   "text": "Rules",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.secondValue",
+   "text": "Second value",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.strikethrough",
+   "text": "Strikethrough",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.style",
+   "text": "Style",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.textColor",
+   "text": "Text color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.underline",
+   "text": "Underline",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.unsupportedStyle",
+   "text": "This conditional text style is not supported yet",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditional.value",
+   "text": "Value",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditionalFormatting",
+   "text": "Conditional formatting",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.conditionalTitle",
+   "text": "Conditional formatting",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.currency",
+   "text": "Currency",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataTitle",
+   "text": "Data",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType",
+   "text": "Data type",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.automatic",
+   "text": "Automatic",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.checkbox",
+   "text": "Checkbox",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.date",
+   "text": "Date",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.dateTime",
+   "text": "Date & time",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.dropdown",
+   "text": "Dropdown",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.formatUnavailable",
+   "text": "Formatting these cells is not supported yet",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.none",
+   "text": "None",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.number",
+   "text": "Number",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.option",
+   "text": "Option {number}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.plainText",
+   "text": "Plain text",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.time",
+   "text": "Time",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.dataType.validationOptions",
+   "text": "Data validation",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.decimals",
+   "text": "Decimals",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.editFailed",
+   "text": "Couldn\\u2019t apply this change. Try selecting the cells again.",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.editSelection",
+   "text": "More formatting options",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.fillOptions",
+   "text": "Fill",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.fontFamily",
+   "text": "Font family",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.fontSize",
+   "text": "Font size",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.format",
+   "text": "Format",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.formatPanel",
+   "text": "Format",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.formatSection",
+   "text": "Format",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.generateImage",
+   "text": "Generate image",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.horizontalAlignment",
+   "text": "Horizontal alignment",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.imageLoadFailed",
+   "text": "Could not upload this image. Try again.",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertChartType",
+   "text": "{type, select, bar {Bar} line {Line} pie {Pie} area {Area} scatter {Scatter} histogram {Histogram} waterfall {Waterfall} funnel {Funnel} other {Treemap}}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertCheckbox",
+   "text": "Checkbox",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertDataValidation",
+   "text": "Data validation",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertionUnavailable",
+   "text": "Not yet available for spreadsheets",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertShapeName",
+   "text": "{shape, select, ellipse {Circle} rect {Rectangle} triangle {Triangle} diamond {Diamond} star5 {Star} rightArrow {Right arrow} leftArrow {Left arrow} plus {Plus} chevron {Chevron} wedgeRoundRectCallout {Callout} line {Line} other {Diagonal arrow}}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertShapes",
+   "text": "Shapes",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertText",
+   "text": "Text box",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.italic",
+   "text": "Italic",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.loadingImage",
+   "text": "Loading image\\u2026",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.merge",
+   "text": "Merge cells",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.mixed",
+   "text": "Mixed",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.moreFormats",
+   "text": "More formats",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.noAvailableOptions",
+   "text": "No available options",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.background",
+   "text": "Background",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.border",
+   "text": "Border",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.borderColor",
+   "text": "Border color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.borderStyle",
+   "text": "Border style",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.color",
+   "text": "Color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.customShadow",
+   "text": "Custom",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.dashed",
+   "text": "Dashed",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.dotted",
+   "text": "Dotted",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.fill",
+   "text": "Background",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.fillColor",
+   "text": "Fill color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.heavyShadow",
+   "text": "Heavy",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.imageFill",
+   "text": "Image fill",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.imagePreview",
+   "text": "Selected image",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.lightShadow",
+   "text": "Light",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.mediumShadow",
+   "text": "Medium",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.noFill",
+   "text": "No fill",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.none",
+   "text": "None",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.opacity",
+   "text": "Opacity",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.previewUnavailable",
+   "text": "Image preview unavailable",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.shadow",
+   "text": "Shadow",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.solid",
+   "text": "Solid",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.solidFill",
+   "text": "Solid fill",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.strongShadow",
+   "text": "Strong",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.toggleBackground",
+   "text": "{enabled, select, true {Remove Background} other {Add Background}}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.toggleBorder",
+   "text": "{enabled, select, true {Remove Border} other {Add Border}}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.toggleShadow",
+   "text": "{enabled, select, true {Remove Shadow} other {Add Shadow}}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.unavailable",
+   "text": "This drawing setting is not available yet",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.object.weight",
+   "text": "Weight",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.objectTitle",
+   "text": "{kind, select, chart {Chart} image {Image} other {Shape}}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.percent",
+   "text": "Percent",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.rangeFormattingUnavailable",
+   "text": "Formatting these cells is not supported yet",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.requestInput",
+   "text": "Describe your changes",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.requestPlaceholder",
+   "text": "Describe your changes\\u2026",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.selectionActions",
+   "text": "Selection actions",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.submitChanges",
+   "text": "Submit requested changes",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.table.headerColumn",
+   "text": "Header column",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.table.headerRow",
+   "text": "Header row",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.table.options",
+   "text": "Table options",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.tableTitle",
+   "text": "Table",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.text",
+   "text": "Typography",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.textColor",
+   "text": "Text color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.textColorControl",
+   "text": "Text color",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.textOptions",
+   "text": "Text options",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.underline",
+   "text": "Underline",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.unmerge",
+   "text": "Unmerge cells",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.uploadImage",
+   "text": "Upload from computer",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.addValue",
+   "text": "Add option",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.apply",
+   "text": "Apply",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.between",
+   "text": "Between",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.clear",
+   "text": "Clear validation",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.custom",
+   "text": "Custom formula",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.date",
+   "text": "Date",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.decimal",
+   "text": "Decimal",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.dropdown",
+   "text": "Show dropdown in cell",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.equal",
+   "text": "Equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.error",
+   "text": "Invalid values",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.errorMessage",
+   "text": "Error message",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.errorStyle",
+   "text": "Alert style",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.errorTitle",
+   "text": "Error title",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.first",
+   "text": "Value or first bound",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.formula",
+   "text": "Formula",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.greaterThan",
+   "text": "Greater than",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.greaterThanOrEqual",
+   "text": "Greater than or equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.ignoreBlanks",
+   "text": "Allow blank cells",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.information",
+   "text": "Information",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.lessThan",
+   "text": "Less than",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.lessThanOrEqual",
+   "text": "Less than or equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.list",
+   "text": "List",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.listMode",
+   "text": "List source",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.none",
+   "text": "Any value",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.notBetween",
+   "text": "Not between",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.notEqual",
+   "text": "Not equal to",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.operator",
+   "text": "Condition",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.prompt",
+   "text": "Input message",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.promptMessage",
+   "text": "Input message text",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.promptTitle",
+   "text": "Input message title",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.remove",
+   "text": "Remove",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.removeValue",
+   "text": "Remove option {number}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.rule",
+   "text": "Allowed values",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.second",
+   "text": "Second bound",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.showError",
+   "text": "Show error alert",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.showPrompt",
+   "text": "Show input message",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.source",
+   "text": "Cell range or formula",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.stop",
+   "text": "Stop",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.textLength",
+   "text": "Text length",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.time",
+   "text": "Time",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.value",
+   "text": "Option {number}",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.values",
+   "text": "Enter values",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.warning",
+   "text": "Warning",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validation.whole",
+   "text": "Whole number",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.validationTitle",
+   "text": "Data validation",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.wrapText",
+   "text": "Wrap text",
+   "description": null,
+   "files": [
+    "715322.2f482bb44b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "thread.fileTreePanel.noMatchingFiles",
+   "text": "No matching files",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadSidePanel.workspaceBrowser.empty",
+   "text": "No files in this folder",
+   "description": null,
+   "files": [
+    "596154.a75eebaac5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "viewerHeader.libraryBreadcrumb",
+   "text": "Library",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "viewerHeader.libraryBreadcrumb.space",
+   "text": "Space",
+   "description": null,
+   "files": [
+    "270393.de665c5972.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 1459
+  },
+  {
+   "name": "className",
+   "count": 980
+  },
+  {
+   "name": "id",
+   "count": 892
+  },
+  {
+   "name": "defaultMessage",
+   "count": 685
+  },
+  {
+   "name": "label",
+   "count": 522
+  },
+  {
+   "name": "value",
+   "count": 422
+  },
+  {
+   "name": "kind",
+   "count": 376
+  },
+  {
+   "name": "type",
+   "count": 338
+  },
+  {
+   "name": "x",
+   "count": 314
+  },
+  {
+   "name": "y",
+   "count": 312
+  },
+  {
+   "name": "width",
+   "count": 303
+  },
+  {
+   "name": "height",
+   "count": 302
+  },
+  {
+   "name": "disabled",
+   "count": 258
+  },
+  {
+   "name": "onChange",
+   "count": 237
+  },
+  {
+   "name": "title",
+   "count": 212
+  },
+  {
+   "name": "onClick",
+   "count": 209
+  },
+  {
+   "name": "style",
+   "count": 204
+  },
+  {
+   "name": "controller",
+   "count": 192
+  },
+  {
+   "name": "config",
+   "count": 185
+  },
+  {
+   "name": "null",
+   "count": 169
+  },
+  {
+   "name": "color",
+   "count": 168
+  },
+  {
+   "name": "ref",
+   "count": 150
+  },
+  {
+   "name": "left",
+   "count": 142
+  },
+  {
+   "name": "top",
+   "count": 139
+  },
+  {
+   "name": "size",
+   "count": 119
+  },
+  {
+   "name": "target",
+   "count": 117
+  },
+  {
+   "name": "icon",
+   "count": 114
+  },
+  {
+   "name": "C1",
+   "count": 113
+  },
+  {
+   "name": "onSelect",
+   "count": 110
+  },
+  {
+   "name": "snapshot",
+   "count": 110
+  },
+  {
+   "name": "name",
+   "count": 92
+  },
+  {
+   "name": "frame",
+   "count": 92
+  },
+  {
+   "name": "camera",
+   "count": 83
+  },
+  {
+   "name": "min",
+   "count": 78
+  },
+  {
+   "name": "text",
+   "count": 76
+  },
+  {
+   "name": "asset",
+   "count": 76
+  },
+  {
+   "name": "onKeyDown",
+   "count": 73
+  },
+  {
+   "name": "enabled",
+   "count": 72
+  },
+  {
+   "name": "body",
+   "count": 71
+  },
+  {
+   "name": "open",
+   "count": 70
+  },
+  {
+   "name": "role",
+   "count": 68
+  },
+  {
+   "name": "signal",
+   "count": 68
+  },
+  {
+   "name": "isEditing",
+   "count": 67
+  },
+  {
+   "name": "sheetName",
+   "count": 65
+  },
+  {
+   "name": "disabledReason",
+   "count": 64
+  },
+  {
+   "name": "onClose",
+   "count": 62
+  },
+  {
+   "name": "side",
+   "count": 62
+  },
+  {
+   "name": "ariaLabel",
+   "count": 60
+  },
+  {
+   "name": "A1",
+   "count": 60
+  },
+  {
+   "name": "max",
+   "count": 59
+  },
+  {
+   "name": "source",
+   "count": 58
+  },
+  {
+   "name": "index",
+   "count": 58
+  },
+  {
+   "name": "testId",
+   "count": 58
+  },
+  {
+   "name": "tableId",
+   "count": 58
+  },
+  {
+   "name": "path",
+   "count": 57
+  },
+  {
+   "name": "slideId",
+   "count": 57
+  },
+  {
+   "name": "variant",
+   "count": 56
+  },
+  {
+   "name": "options",
+   "count": 54
+  },
+  {
+   "name": "rowHeights",
+   "count": 54
+  },
+  {
+   "name": "fill",
+   "count": 53
+  },
+  {
+   "name": "preventScroll",
+   "count": 53
+  },
+  {
+   "name": "hover",
+   "count": 52
+  },
+  {
+   "name": "threadId",
+   "count": 50
+  },
+  {
+   "name": "point",
+   "count": 50
+  },
+  {
+   "name": "freezePanes",
+   "count": 50
+  },
+  {
+   "name": "bottom",
+   "count": 48
+  },
+  {
+   "name": "columnWidths",
+   "count": 48
+  },
+  {
+   "name": "right",
+   "count": 47
+  },
+  {
+   "name": "bounds",
+   "count": 47
+  },
+  {
+   "name": "onOpenChange",
+   "count": 46
+  },
+  {
+   "name": "response",
+   "count": 45
+  },
+  {
+   "name": "e",
+   "count": 44
+  },
+  {
+   "name": "onPointerDown",
+   "count": 44
+  },
+  {
+   "name": "mode",
+   "count": 44
+  },
+  {
+   "name": "zoom",
+   "count": 43
+  },
+  {
+   "name": "content",
+   "count": 42
+  },
+  {
+   "name": "hostId",
+   "count": 41
+  },
+  {
+   "name": "chartId",
+   "count": 40
+  },
+  {
+   "name": "palette",
+   "count": 39
+  },
+  {
+   "name": "pressed",
+   "count": 39
+  },
+  {
+   "name": "align",
+   "count": 38
+  },
+  {
+   "name": "accountId",
+   "count": 37
+  },
+  {
+   "name": "shiftKey",
+   "count": 37
+  },
+  {
+   "name": "panels",
+   "count": 37
+  },
+  {
+   "name": "isActive",
+   "count": 36
+  },
+  {
+   "name": "capabilities",
+   "count": 36
+  },
+  {
+   "name": "viewBox",
+   "count": 36
+  },
+  {
+   "name": "values",
+   "count": 35
+  },
+  {
+   "name": "action",
+   "count": 35
+  },
+  {
+   "name": "active",
+   "count": 35
+  },
+  {
+   "name": "backgroundColor",
+   "count": 35
+  },
+  {
+   "name": "message",
+   "count": 34
+  },
+  {
+   "name": "onCancel",
+   "count": 34
+  },
+  {
+   "name": "elementId",
+   "count": 34
+  },
+  {
+   "name": "userId",
+   "count": 33
+  },
+  {
+   "name": "t",
+   "count": 33
+  },
+  {
+   "name": "cursor",
+   "count": 33
+  },
+  {
+   "name": "phase",
+   "count": 32
+  },
+  {
+   "name": "tabIndex",
+   "count": 32
+  },
+  {
+   "name": "canvas",
+   "count": 32
+  },
+  {
+   "name": "scope",
+   "count": 31
+  },
+  {
+   "name": "renderLayout",
+   "count": 31
+  },
+  {
+   "name": "transform",
+   "count": 31
+  },
+  {
+   "name": "queryKey",
+   "count": 30
+  },
+  {
+   "name": "error",
+   "count": 30
+  },
+  {
+   "name": "state",
+   "count": 30
+  },
+  {
+   "name": "src",
+   "count": 30
+  },
+  {
+   "name": "commit",
+   "count": 30
+  },
+  {
+   "name": "slideRect",
+   "count": 30
+  },
+  {
+   "name": "theme",
+   "count": 29
+  },
+  {
+   "name": "shape",
+   "count": 29
+  },
+  {
+   "name": "start",
+   "count": 29
+  },
+  {
+   "name": "selection",
+   "count": 28
+  },
+  {
+   "name": "direction",
+   "count": 28
+  },
+  {
+   "name": "placeholder",
+   "count": 28
+  },
+  {
+   "name": "fontSize",
+   "count": 28
+  },
+  {
+   "name": "format",
+   "count": 28
+  },
+  {
+   "name": "annotationMode",
+   "count": 28
+  },
+  {
+   "name": "center",
+   "count": 27
+  },
+  {
+   "name": "position",
+   "count": 27
+  },
+  {
+   "name": "viewportInsets",
+   "count": 27
+  },
+  {
+   "name": "axis",
+   "count": 27
+  },
+  {
+   "name": "ctrlKey",
+   "count": 26
+  },
+  {
+   "name": "portalContainer",
+   "count": 26
+  },
+  {
+   "name": "asChild",
+   "count": 25
+  },
+  {
+   "name": "insets",
+   "count": 25
+  },
+  {
+   "name": "author",
+   "count": 24
+  },
+  {
+   "name": "altKey",
+   "count": 24
+  },
+  {
+   "name": "inkBounds",
+   "count": 24
+  },
+  {
+   "name": "visualBounds",
+   "count": 24
+  },
+  {
+   "name": "paint",
+   "count": 24
+  },
+  {
+   "name": "optical",
+   "count": 24
+  },
+  {
+   "name": "anchors",
+   "count": 24
+  },
+  {
+   "name": "ink",
+   "count": 24
+  },
+  {
+   "name": "foreground",
+   "count": 24
+  },
+  {
+   "name": "strokeWidth",
+   "count": 24
+  },
+  {
+   "name": "row",
+   "count": 24
+  },
+  {
+   "name": "to",
+   "count": 23
+  },
+  {
+   "name": "actions",
+   "count": 23
+  },
+  {
+   "name": "focus",
+   "count": 23
+  },
+  {
+   "name": "panelControls",
+   "count": 23
+  },
+  {
+   "name": "onEdit",
+   "count": 23
+  },
+  {
+   "name": "parameters",
+   "count": 22
+  },
+  {
+   "name": "onSubmit",
+   "count": 22
+  },
+  {
+   "name": "onPointerMove",
+   "count": 22
+  },
+  {
+   "name": "fileInfoSource",
+   "count": 22
+  },
+  {
+   "name": "presentationVersion",
+   "count": 22
+  },
+  {
+   "name": "from",
+   "count": 22
+  },
+  {
+   "name": "viewport",
+   "count": 22
+  },
+  {
+   "name": "fileColors",
+   "count": 22
+  },
+  {
+   "name": "visible",
+   "count": 21
+  },
+  {
+   "name": "default",
+   "count": 21
+  },
+  {
+   "name": "leftIconAsset",
+   "count": 21
+  },
+  {
+   "name": "inert",
+   "count": 21
+  },
+  {
+   "name": "runtime",
+   "count": 21
+  },
+  {
+   "name": "container",
+   "count": 21
+  },
+  {
+   "name": "offset",
+   "count": 21
+  },
+  {
+   "name": "collisionBoundaryElement",
+   "count": 21
+  },
+  {
+   "name": "data",
+   "count": 20
+  },
+  {
+   "name": "key",
+   "count": 20
+  },
+  {
+   "name": "triggerButton",
+   "count": 20
+  },
+  {
+   "name": "number",
+   "count": 20
+  },
+  {
+   "name": "end",
+   "count": 20
+  },
+  {
+   "name": "__scopeSlider",
+   "count": 20
+  },
+  {
+   "name": "edit",
+   "count": 20
+  },
+  {
+   "name": "range",
+   "count": 20
+  },
+  {
+   "name": "onInteractionAttempt",
+   "count": 20
+  },
+  {
+   "name": "reviewTools",
+   "count": 20
+  },
+  {
+   "name": "items",
+   "count": 20
+  },
+  {
+   "name": "hideLabel",
+   "count": 20
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 19
+  },
+  {
+   "name": "query",
+   "count": 19
+  },
+  {
+   "name": "retry",
+   "count": 19
+  },
+  {
+   "name": "job",
+   "count": 19
+  },
+  {
+   "name": "event",
+   "count": 19
+  },
+  {
+   "name": "href",
+   "count": 19
+  },
+  {
+   "name": "annotationsEnabled",
+   "count": 19
+  },
+  {
+   "name": "alt",
+   "count": 19
+  },
+  {
+   "name": "placement",
+   "count": 19
+  },
+  {
+   "name": "display",
+   "count": 19
+  },
+  {
+   "name": "onHyperlinkClick",
+   "count": 19
+  },
+  {
+   "name": "geometry",
+   "count": 19
+  },
+  {
+   "name": "onMouseDown",
+   "count": 19
+  },
+  {
+   "name": "shortcutScopeElement",
+   "count": 19
+  },
+  {
+   "name": "checked",
+   "count": 19
+  },
+  {
+   "name": "mimeType",
+   "count": 18
+  },
+  {
+   "name": "queryFn",
+   "count": 18
+  },
+  {
+   "name": "staleTime",
+   "count": 18
+  },
+  {
+   "name": "headerRightContent",
+   "count": 18
+  },
+  {
+   "name": "boundary",
+   "count": 18
+  },
+  {
+   "name": "onCommit",
+   "count": 18
+  },
+  {
+   "name": "fillColor",
+   "count": 18
+  },
+  {
+   "name": "formatting",
+   "count": 18
+  },
+  {
+   "name": "A2",
+   "count": 18
+  },
+  {
+   "name": "pending",
+   "count": 17
+  },
+  {
+   "name": "file",
+   "count": 17
+  },
+  {
+   "name": "i",
+   "count": 17
+  },
+  {
+   "name": "contentWidth",
+   "count": 17
+  },
+  {
+   "name": "maxHeight",
+   "count": 17
+  },
+  {
+   "name": "pointerId",
+   "count": 17
+  },
+  {
+   "name": "contentOverflow",
+   "count": 17
+  },
+  {
+   "name": "panelClearsHeader",
+   "count": 17
+  },
+  {
+   "name": "header",
+   "count": 17
+  },
+  {
+   "name": "k",
+   "count": 17
+  },
+  {
+   "name": "opacity",
+   "count": 17
+  },
+  {
+   "name": "padding",
+   "count": 17
+  },
+  {
+   "name": "artifactKind",
+   "count": 17
+  },
+  {
+   "name": "settled",
+   "count": 17
+  },
+  {
+   "name": "inputFocused",
+   "count": 17
+  },
+  {
+   "name": "libraryFileId",
+   "count": 16
+  },
+  {
+   "name": "get",
+   "count": 16
+  },
+  {
+   "name": "prompt",
+   "count": 16
+  },
+  {
+   "name": "clientX",
+   "count": 16
+  },
+  {
+   "name": "clientY",
+   "count": 16
+  },
+  {
+   "name": "after",
+   "count": 16
+  },
+  {
+   "name": "comments",
+   "count": 16
+  },
+  {
+   "name": "ownerId",
+   "count": 16
+  },
+  {
+   "name": "versionHistory",
+   "count": 16
+  },
+  {
+   "name": "tS",
+   "count": 16
+  },
+  {
+   "name": "onPointerUp",
+   "count": 16
+  },
+  {
+   "name": "onBlur",
+   "count": 16
+  },
+  {
+   "name": "onFocus",
+   "count": 16
+  },
+  {
+   "name": "renderHeader",
+   "count": 16
+  },
+  {
+   "name": "scale",
+   "count": 16
+  },
+  {
+   "name": "generation",
+   "count": 16
+  },
+  {
+   "name": "dpr",
+   "count": 16
+  },
+  {
+   "name": "onRequestChanges",
+   "count": 16
+  },
+  {
+   "name": "portalContainerElement",
+   "count": 16
+  },
+  {
+   "name": "commentsSidebarOpen",
+   "count": 16
+  },
+  {
+   "name": "intent",
+   "count": 16
+  },
+  {
+   "name": "col",
+   "count": 16
+  },
+  {
+   "name": "sourceUrl",
+   "count": 15
+  },
+  {
+   "name": "r",
+   "count": 15
+  },
+  {
+   "name": "status",
+   "count": 15
+  },
+  {
+   "name": "url",
+   "count": 15
+  },
+  {
+   "name": "metaKey",
+   "count": 15
+  },
+  {
+   "name": "locale",
+   "count": 15
+  },
+  {
+   "name": "version",
+   "count": 15
+  },
+  {
+   "name": "pageId",
+   "count": 15
+  },
+  {
+   "name": "bytes",
+   "count": 15
+  },
+  {
+   "name": "background",
+   "count": 15
+  },
+  {
+   "name": "rotation",
+   "count": 15
+  },
+  {
+   "name": "floatingBar",
+   "count": 15
+  },
+  {
+   "name": "shadow",
+   "count": 15
+  },
+  {
+   "name": "drawingAnnotationsEnabled",
+   "count": 15
+  },
+  {
+   "name": "commentThreadsEnabled",
+   "count": 15
+  },
+  {
+   "name": "presets",
+   "count": 15
+  },
+  {
+   "name": "selectedFloatingElement",
+   "count": 15
+  },
+  {
+   "name": "address",
+   "count": 15
+  },
+  {
+   "name": "refColors",
+   "count": 15
+  }
+ ],
+ "literal_count": 5357,
+ "literals_file": ".work/261117/literals/editors.json"
+}

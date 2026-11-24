@@ -1,0 +1,142 @@
+{
+ "module": "image-editing",
+ "generated_at": "2026-11-24T02:31:56.973Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1117.41037",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/216721.353f71a396.js",
+   "file": "216721.353f71a396.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 208573,
+   "formatted_bytes": 398839,
+   "formatter": "prettier",
+   "sha256_raw": "e4fcd6db9d0d087ecdde20cc20ce8b5494f2c93e259c7259ffcb6a0eb84c0fbd",
+   "message_count": 190,
+   "namespace_score": 19,
+   "namespaces": [
+    "imageTextEditing.layer:17",
+    "presentationEditor.textAlignment:1",
+    "imageTextEditing.currentAlignment:1",
+    "presentationEditor.font:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/769550.c57ec748e4.js",
+   "file": "769550.c57ec748e4.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 100609,
+   "formatted_bytes": 184430,
+   "formatter": "prettier",
+   "sha256_raw": "b40d34f0691c0bf242c0f5db50c41de1a731878e630959a59e615b11a28d6086",
+   "message_count": 51,
+   "namespace_score": 35,
+   "namespaces": [
+    "images.preview:27",
+    "images.nova:5",
+    "codex.conversation:4",
+    "chatgptConversations.fileDropTarget:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/500617.e5260bbb0f.js",
+   "file": "500617.e5260bbb0f.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 67702,
+   "formatted_bytes": 138574,
+   "formatter": "prettier",
+   "sha256_raw": "1955de660fa8f28bc936aff94e65fe40ed5712f014354c8473c2b3e8a9ea1a21",
+   "message_count": 26,
+   "namespace_score": 17,
+   "namespaces": [
+    "images.reference:11",
+    "imagesApp.promptSections:5",
+    "images.catalog:4",
+    "images.discover:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/45428.67134ed709.js",
+   "file": "45428.67134ed709.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 41369,
+   "formatted_bytes": 72214,
+   "formatter": "prettier",
+   "sha256_raw": "07bbabfc01628f4f282f94981c6b3016e97d2373977b55657e4d60e55f7578d5",
+   "message_count": 19,
+   "namespace_score": 15,
+   "namespaces": [
+    "images.preview:10",
+    "images.nova:5",
+    "chatgptConversations.fileDropTarget:3",
+    "codex.dialog:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/409136.98a46e28f4.js",
+   "file": "409136.98a46e28f4.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 46691,
+   "formatted_bytes": 89851,
+   "formatter": "prettier",
+   "sha256_raw": "42152b0c7db7e9e677fa788a021d386f97fd15631a9bfe6fbf4632061949f0f3",
+   "message_count": 19,
+   "namespace_score": 14,
+   "namespaces": [
+    "images.reference:11",
+    "chatgptConversations.fileDropTarget:3",
+    "images.promptDialog:3",
+    "composer.executorSkill:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/570369.7bf6f653b0.js",
+   "file": "570369.7bf6f653b0.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 61368,
+   "formatted_bytes": 123494,
+   "formatter": "prettier",
+   "sha256_raw": "eaf4e7c63a7d89b8f1444f3c1a529eff69d80fbd18c79c15c5c25efa7f34cacb",
+   "message_count": 22,
+   "namespace_score": 11,
+   "namespaces": [
+    "images.history:9",
+    "image-gen.images-app:5",
+    "images.preview:2",
+    "codex.chatGptConversation:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/915524.f8563bce31.js",
+   "file": "915524.f8563bce31.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 224198,
+   "formatted_bytes": 435077,
+   "formatter": "prettier",
+   "sha256_raw": "9a7b36134a7bb8a73c3ff826d5c827c7c26d4fb5066ae9b23ba8596e0be27335",
+   "message_count": 99,
+   "namespace_score": 7,
+   "namespaces": [
+    "gifEditor.comments:6",
+    "imageSidePanel.aspectRatio:5",
+    "imagePreviewDialog.panorama:4",
+    "imageSidePanel.discardComments:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/975443.145d887523.js",
+   "file": "975443.145d887523.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 25972,
+   "formatted_bytes": 42417,
+   "formatter": "prettier",
+   "sha256_raw": "a93e6daddabeba9a301b5cfa899c69ec75c8433b7c431de043779d3336759427",
+   "message_count": 5,
+   "namespace_score": 5,
+   "namespaces": [
+    "images.onboarding:3",
+    "images.catalog:2"
+   ]
+  }
+ ]
+}

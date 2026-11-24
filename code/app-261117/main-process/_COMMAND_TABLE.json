@@ -1,0 +1,2116 @@
+{
+ "generated_at": "2026-11-24T02:26:04.566Z",
+ "app_version": "26.1117.41037",
+ "source": "main-process/build/*.js: id+titleIntlId+defaultKeybindings+availableIn",
+ "count": 159,
+ "commands": [
+  {
+   "id": "approval.approve",
+   "title_intl": "codex.command.approval.approve",
+   "default_keybindings": [
+    "Enter",
+    "Escape"
+   ],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "approval.decline",
+   "title_intl": "codex.command.approval.decline",
+   "default_keybindings": [
+    "Escape"
+   ],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "archiveThread",
+   "title_intl": "codex.command.archiveThread",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+A",
+    "CmdOrCtrl+Shift+Delete",
+    "Command+Shift+Backspace"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifact.sendAnnotations",
+   "title_intl": "codex.command.artifact.sendAnnotations",
+   "default_keybindings": [
+    "CmdOrCtrl+Enter",
+    "CmdOrCtrl+Enter",
+    "CmdOrCtrl+Enter"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.arrowTool",
+   "title_intl": "codex.command.artifacts.arrowTool",
+   "default_keybindings": [
+    "A",
+    "A",
+    "L",
+    "L"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.circleTool",
+   "title_intl": "codex.command.artifacts.circleTool",
+   "default_keybindings": [
+    "O",
+    "O",
+    "A",
+    "A"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.handTool",
+   "title_intl": "codex.command.artifacts.handTool",
+   "default_keybindings": [
+    "H",
+    "H",
+    "/",
+    "Shift+?"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.lineTool",
+   "title_intl": "codex.command.artifacts.lineTool",
+   "default_keybindings": [
+    "L",
+    "L",
+    "T",
+    "T"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.noteTool",
+   "title_intl": "codex.command.artifacts.noteTool",
+   "default_keybindings": [
+    "N",
+    "N",
+    "CmdOrCtrl+L"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.rectangleTool",
+   "title_intl": "codex.command.artifacts.rectangleTool",
+   "default_keybindings": [
+    "R",
+    "R",
+    "O",
+    "O"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.selectTool",
+   "title_intl": "codex.command.artifacts.selectTool",
+   "default_keybindings": [
+    "V",
+    "V",
+    "H",
+    "H"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "artifacts.textTool",
+   "title_intl": "codex.command.artifacts.textTool",
+   "default_keybindings": [
+    "T",
+    "T",
+    "N",
+    "N"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "browser.bookmarkPage",
+   "title_intl": "codex.command.browser.bookmarkPage",
+   "default_keybindings": [
+    "CmdOrCtrl+D",
+    "CmdOrCtrl+K",
+    "CmdOrCtrl+K"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "browser.toggleAnnotationMode",
+   "title_intl": "codex.command.browser.toggleAnnotationMode",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+.",
+    "CmdOrCtrl+D",
+    "CmdOrCtrl+K",
+    "CmdOrCtrl+K"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "canvas.prompt",
+   "title_intl": "codex.command.canvas.prompt",
+   "default_keybindings": [
+    "/",
+    "Shift+?",
+    "/",
+    "Shift+?"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "clearAllUnreads",
+   "title_intl": "codex.command.clearAllUnreads",
+   "default_keybindings": [
+    "Shift+Escape"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "closeOtherTabs",
+   "title_intl": "codex.command.closeOtherTabs",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+W",
+    "CmdOrCtrl+Shift+F",
+    "CmdOrCtrl+Shift+B"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "codexMicroSettings",
+   "title_intl": "codex.command.codexMicroSettings",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+I"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.addFiles",
+   "title_intl": "codex.command.composer.addFiles",
+   "default_keybindings": [
+    "CmdOrCtrl+U"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.addPhotos",
+   "title_intl": "codex.command.composer.addPhotos",
+   "default_keybindings": [
+    "CmdOrCtrl+U"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.captureAppshot",
+   "title_intl": "codex.command.composer.captureAppshot",
+   "default_keybindings": [
+    "CmdOrCtrl+U"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.clear",
+   "title_intl": "codex.command.composer.clear",
+   "default_keybindings": [
+    "CmdOrCtrl+U"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.cycleHost",
+   "title_intl": "codex.command.composer.cycleHost",
+   "default_keybindings": [
+    "Enter",
+    "Escape"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.cycleReasoningEffort",
+   "title_intl": "codex.command.composer.cycleReasoningEffort",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.decreaseReasoningEffort",
+   "title_intl": "codex.command.composer.decreaseReasoningEffort",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.increaseReasoningEffort",
+   "title_intl": "codex.command.composer.increaseReasoningEffort",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.openModelPicker",
+   "title_intl": "codex.command.composer.openModelPicker",
+   "default_keybindings": [
+    "Ctrl+Shift+M",
+    "Ctrl+Command+M",
+    "Alt+M",
+    "CmdOrCtrl+Alt+Shift+O"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.openProjectPicker",
+   "title_intl": "codex.command.composer.openProjectPicker",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+Shift+O",
+    "Ctrl+Shift+D",
+    "CmdOrCtrl+Shift+D"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.openRecentModels",
+   "title_intl": "codex.command.composer.openRecentModels",
+   "default_keybindings": [
+    "Ctrl+Command+M",
+    "Alt+M",
+    "CmdOrCtrl+Alt+Shift+O",
+    "Ctrl+Shift+D"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.queue",
+   "title_intl": "codex.command.composer.queue",
+   "default_keybindings": [
+    "CmdOrCtrl+U"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.startVoiceMode",
+   "title_intl": "codex.command.composer.startVoiceMode",
+   "default_keybindings": [
+    "Ctrl+Shift+V"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.steer",
+   "title_intl": "codex.command.composer.steer",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.submit",
+   "title_intl": "codex.command.composer.submit",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.submitInBackground",
+   "title_intl": "codex.command.composer.submitInBackground",
+   "default_keybindings": [
+    "CmdOrCtrl+Enter",
+    "CmdOrCtrl+Enter"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.toggleDictation",
+   "title_intl": "codex.command.composer.toggleDictation",
+   "default_keybindings": [
+    "Ctrl+Shift+D",
+    "CmdOrCtrl+Shift+D",
+    "Ctrl+Shift+V"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.toggleFastMode",
+   "title_intl": "codex.command.composer.toggleFastMode",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.togglePlanMode",
+   "title_intl": "codex.command.composer.togglePlanMode",
+   "default_keybindings": [
+    "Enter"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.toggleWorkRunLocation",
+   "title_intl": "codex.command.composer.toggleWorkRunLocation",
+   "default_keybindings": [
+    "Enter",
+    "Escape"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "composer.toggleWorktreeMode",
+   "title_intl": "codex.command.composer.toggleWorktreeMode",
+   "default_keybindings": [
+    "Enter"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "copyConversationMarkdown",
+   "title_intl": "codex.command.copyConversationMarkdown",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+;",
+    "CmdOrCtrl+Alt+S"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "copyLastCodeBlock",
+   "title_intl": "codex.command.copyLastCodeBlock",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+;",
+    "CmdOrCtrl+Alt+S"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "copyPageLink",
+   "title_intl": "codex.command.copyPageLink",
+   "default_keybindings": [
+    "CmdOrCtrl+L",
+    "Shift+F10",
+    "CmdOrCtrl+Alt+M"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "deleteChat",
+   "title_intl": "codex.command.deleteChat",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+Delete",
+    "Command+Shift+Backspace",
+    "CmdOrCtrl+Shift+U",
+    "CmdOrCtrl+Alt+P"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "deleteOrbit",
+   "title_intl": "codex.command.deleteOrbit",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+Delete",
+    "Command+Shift+Backspace",
+    "CmdOrCtrl+Shift+U"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction1",
+   "title_intl": "codex.command.environmentAction1",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction2",
+   "title_intl": "codex.command.environmentAction2",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction3",
+   "title_intl": "codex.command.environmentAction3",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction4",
+   "title_intl": "codex.command.environmentAction4",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction5",
+   "title_intl": "codex.command.environmentAction5",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction6",
+   "title_intl": "codex.command.environmentAction6",
+   "default_keybindings": [
+    "CmdOrCtrl+1"
+   ],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction7",
+   "title_intl": "codex.command.environmentAction7",
+   "default_keybindings": [
+    "CmdOrCtrl+1"
+   ],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction8",
+   "title_intl": "codex.command.environmentAction8",
+   "default_keybindings": [
+    "CmdOrCtrl+1",
+    "CmdOrCtrl+2"
+   ],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "environmentAction9",
+   "title_intl": "codex.command.environmentAction9",
+   "default_keybindings": [
+    "CmdOrCtrl+1",
+    "CmdOrCtrl+2",
+    "CmdOrCtrl+3"
+   ],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "feedback",
+   "title_intl": "codex.command.feedback",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "file.findReferences",
+   "title_intl": "codex.command.file.findReferences",
+   "default_keybindings": [
+    "Shift+F12",
+    "Control+-",
+    "Control+Alt+-"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "file.goToDefinition",
+   "title_intl": "codex.command.file.goToDefinition",
+   "default_keybindings": [
+    "Ctrl+]",
+    "F12",
+    "CmdOrCtrl+]",
+    "F12"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "file.navigateBack",
+   "title_intl": "codex.command.file.navigateBack",
+   "default_keybindings": [
+    "Control+-",
+    "Control+Alt+-",
+    "Control+Shift+-",
+    "Control+Shift+-"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "file.navigateForward",
+   "title_intl": "codex.command.file.navigateForward",
+   "default_keybindings": [
+    "Control+Shift+-",
+    "Control+Shift+-",
+    "CmdOrCtrl+F",
+    "Command+F"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "findInThread",
+   "title_intl": "codex.command.findInThread",
+   "default_keybindings": [
+    "CmdOrCtrl+F",
+    "Command+F",
+    "Ctrl+F",
+    "CmdOrCtrl+L"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "focusBrowserAddressBar",
+   "title_intl": "codex.command.focusBrowserAddressBar",
+   "default_keybindings": [
+    "CmdOrCtrl+L",
+    "Command+Left",
+    "Alt+Left"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "focusMainChat",
+   "title_intl": "codex.command.focusMainChat",
+   "default_keybindings": [
+    "Shift+Escape",
+    "Alt+L"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "focusPageBlockControls",
+   "title_intl": "codex.command.focusPageBlockControls",
+   "default_keybindings": [
+    "Shift+F10",
+    "CmdOrCtrl+Alt+M",
+    "CmdOrCtrl+Alt+4",
+    "CmdOrCtrl+Shift+9"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "focusSideChat",
+   "title_intl": "codex.command.focusSideChat",
+   "default_keybindings": [
+    "V",
+    "V",
+    "H"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "forceReloadSkills",
+   "title_intl": "codex.command.forceReloadSkills",
+   "default_keybindings": [],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "forkThread",
+   "title_intl": "codex.command.forkThread",
+   "default_keybindings": [
+    "Alt+Space",
+    "Super+Alt+P",
+    "CmdOrCtrl+K"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "git.commit",
+   "title_intl": "codex.command.git.commit",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "git.createBranch",
+   "title_intl": "codex.command.git.createBranch",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "git.createDraftPullRequest",
+   "title_intl": "codex.command.git.createDraftPullRequest",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "git.createPullRequest",
+   "title_intl": "codex.command.git.createPullRequest",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "git.mergePullRequest",
+   "title_intl": "codex.command.git.mergePullRequest",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "git.openPullRequest",
+   "title_intl": "codex.command.git.openPullRequest",
+   "default_keybindings": [
+    "Alt+Space"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "git.toggleBlame",
+   "title_intl": "codex.command.git.toggleBlame",
+   "default_keybindings": [
+    "Alt+Space",
+    "Super+Alt+P"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "globalDictationHold",
+   "title_intl": "codex.command.globalDictationHold",
+   "default_keybindings": [],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "globalDictationSingleTap",
+   "title_intl": "codex.command.globalDictationSingleTap",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+Shift+C"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "goToLine",
+   "title_intl": "codex.command.goToLine",
+   "default_keybindings": [
+    "CmdOrCtrl+L",
+    "CmdOrCtrl+L",
+    "Command+Left"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "importExternalAgent",
+   "title_intl": "codex.command.importExternalAgent",
+   "default_keybindings": [
+    "CmdOrCtrl+/"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "importPrismToLocal",
+   "title_intl": "codex.command.importPrismToLocal",
+   "default_keybindings": [
+    "CmdOrCtrl+/",
+    "CmdOrCtrl+/"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "keyboardShortcuts",
+   "title_intl": "codex.command.keyboardShortcuts",
+   "default_keybindings": [
+    "CmdOrCtrl+/",
+    "CmdOrCtrl+/",
+    "Shift+Escape"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "logOut",
+   "title_intl": "codex.command.logOut",
+   "default_keybindings": [],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "manageTasks",
+   "title_intl": "codex.command.manageTasks",
+   "default_keybindings": [],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "markThreadUnread",
+   "title_intl": "codex.command.markThreadUnread",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+U",
+    "CmdOrCtrl+Alt+P"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "mcpSettings",
+   "title_intl": "codex.command.mcpSettings",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+I"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "navigateBack",
+   "title_intl": "codex.command.navigateBack",
+   "default_keybindings": [
+    "CmdOrCtrl+[",
+    "MouseBack",
+    "CmdOrCtrl+]",
+    "MouseForward"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "navigateBrowserBack",
+   "title_intl": "codex.command.navigateBrowserBack",
+   "default_keybindings": [
+    "Command+Left",
+    "Alt+Left",
+    "Command+Right",
+    "Alt+Right"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "navigateBrowserForward",
+   "title_intl": "codex.command.navigateBrowserForward",
+   "default_keybindings": [
+    "Command+Right",
+    "Alt+Right",
+    "CmdOrCtrl+[",
+    "MouseBack"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "navigateForward",
+   "title_intl": "codex.command.navigateForward",
+   "default_keybindings": [
+    "CmdOrCtrl+]",
+    "MouseForward"
+   ],
+   "shortcut_scope": "app",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "newProject",
+   "title_intl": "codex.command.newProject",
+   "default_keybindings": [
+    "CmdOrCtrl+O",
+    "CmdOrCtrl+Shift+S"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "newProjectlessTask",
+   "title_intl": "codex.command.newProjectlessTask",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+O",
+    "CmdOrCtrl+Shift+N"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "newTab",
+   "title_intl": "codex.command.newTab",
+   "default_keybindings": [
+    "CmdOrCtrl+T",
+    "CmdOrCtrl+Alt+W",
+    "CmdOrCtrl+Shift+F"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "newTask",
+   "title_intl": "codex.command.newThread",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+O",
+    "CmdOrCtrl+N",
+    "CmdOrCtrl+Shift+O",
+    "ctrl+n"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "nextRecentThread",
+   "title_intl": "codex.command.nextRecentThread",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+1",
+    "CmdOrCtrl+Alt+2"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "nextTab",
+   "title_intl": "codex.command.nextTab",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+]",
+    "Command+Shift+]",
+    "Ctrl+Tab",
+    "Ctrl+Shift+]"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "nextThread",
+   "title_intl": "codex.command.nextThread",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+]",
+    "Command+Alt+]",
+    "Command+Alt+Right",
+    "Ctrl+Alt+]"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "nextThreadNeedingAttention",
+   "title_intl": "codex.command.nextThreadNeedingAttention",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+A",
+    "CmdOrCtrl+Shift+[",
+    "Command+Shift+[",
+    "Ctrl+Shift+Tab"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "notchVoice",
+   "title_intl": "codex.command.notchVoice",
+   "default_keybindings": [
+    "Alt+V",
+    "Control+Shift+4"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openAvatarOverlay",
+   "title_intl": "codex.command.showMiniOverlay",
+   "default_keybindings": [
+    "Alt+Space",
+    "Super+Alt+P",
+    "CmdOrCtrl+K"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openControlWindow",
+   "title_intl": "codex.command.openControlWindow",
+   "default_keybindings": [
+    "Ctrl+D",
+    "CmdOrCtrl+Z"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openFolder",
+   "title_intl": "codex.command.openFolder",
+   "default_keybindings": [
+    "CmdOrCtrl+O",
+    "CmdOrCtrl+Shift+S",
+    "CmdOrCtrl+Shift+S",
+    "CmdOrCtrl+B"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openOrbit",
+   "title_intl": "codex.command.openOrbit.dot",
+   "default_keybindings": [
+    "CmdOrCtrl+.",
+    "CmdOrCtrl+Alt+A"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openReviewTab",
+   "title_intl": "codex.command.openReviewTab",
+   "default_keybindings": [
+    "Ctrl+Shift+G",
+    "CmdOrCtrl+Alt+B"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron,browser",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openSideChat",
+   "title_intl": "codex.command.openSideChat",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+S",
+    "Ctrl+D"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openSkills",
+   "title_intl": "codex.command.openSkills",
+   "default_keybindings": [
+    "CmdOrCtrl+O"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "openThreadInNewWindow",
+   "title_intl": "codex.command.openThreadInNewWindow",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+A"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "page.addComment",
+   "title_intl": "codex.command.page.addComment",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+M",
+    "CmdOrCtrl+Alt+4",
+    "CmdOrCtrl+Shift+9",
+    "CmdOrCtrl+Alt+5"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "page.formatBulletedList",
+   "title_intl": "codex.command.page.formatBulletedList",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+5",
+    "CmdOrCtrl+Shift+8",
+    "CmdOrCtrl+Alt+6"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "page.formatChecklist",
+   "title_intl": "codex.command.page.formatChecklist",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+6",
+    "CmdOrCtrl+.",
+    "CmdOrCtrl+Alt+A"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "page.formatNumberedList",
+   "title_intl": "codex.command.page.formatNumberedList",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+4",
+    "CmdOrCtrl+Shift+9",
+    "CmdOrCtrl+Alt+5",
+    "CmdOrCtrl+Shift+8"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "personalitySettings",
+   "title_intl": "codex.command.personalitySettings",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+I"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "presentation.duplicateSelection",
+   "title_intl": "codex.command.presentation.duplicateSelection",
+   "default_keybindings": [
+    "CmdOrCtrl+D",
+    "CmdOrCtrl+D",
+    "CmdOrCtrl+Enter"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "presentation.editLink",
+   "title_intl": "codex.command.presentation.editLink",
+   "default_keybindings": [
+    "CmdOrCtrl+K",
+    "CmdOrCtrl+K",
+    "CmdOrCtrl+D",
+    "CmdOrCtrl+D"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "previousRecentThread",
+   "title_intl": "codex.command.previousRecentThread",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+]",
+    "Command+Shift+]",
+    "Ctrl+Tab",
+    "Ctrl+Shift+]"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "previousTab",
+   "title_intl": "codex.command.previousTab",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+[",
+    "Command+Shift+[",
+    "Ctrl+Shift+Tab",
+    "Ctrl+Shift+["
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "previousThread",
+   "title_intl": "codex.command.previousThread",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+[",
+    "Command+Alt+[",
+    "Command+Alt+Left",
+    "Ctrl+Alt+["
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "realtimeVoice",
+   "title_intl": "codex.command.realtimeVoice",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+Shift+C",
+    "CmdOrCtrl+Alt+L"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "realtimeVoice.endCall",
+   "title_intl": "codex.command.realtimeVoice.endCall",
+   "default_keybindings": [
+    "Command+Shift+M",
+    "CmdOrCtrl+Shift+."
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "realtimeVoice.toggleMicrophoneMute",
+   "title_intl": "codex.command.realtimeVoice.toggleMicrophoneMute",
+   "default_keybindings": [
+    "Command+Shift+M"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "realtimeVoice.toggleOutputMute",
+   "title_intl": "codex.command.realtimeVoice.toggleOutputMute",
+   "default_keybindings": [
+    "Command+Shift+M"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "recentThread1",
+   "title_intl": "codex.command.recentThread1",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+1",
+    "CmdOrCtrl+Alt+2",
+    "CmdOrCtrl+Alt+3"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "recentThread2",
+   "title_intl": "codex.command.recentThread2",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+2",
+    "CmdOrCtrl+Alt+3",
+    "CmdOrCtrl+Alt+4",
+    "CmdOrCtrl+Shift+9"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "recentThread3",
+   "title_intl": "codex.command.recentThread3",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+3",
+    "CmdOrCtrl+Alt+4",
+    "CmdOrCtrl+Shift+9",
+    "CmdOrCtrl+Alt+5"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "recentThread4",
+   "title_intl": "codex.command.recentThread4",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+4",
+    "CmdOrCtrl+Shift+9",
+    "CmdOrCtrl+Alt+5",
+    "CmdOrCtrl+Shift+8"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "recentThread5",
+   "title_intl": "codex.command.recentThread5",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+5",
+    "CmdOrCtrl+Shift+8",
+    "CmdOrCtrl+Alt+6"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "recentThread6",
+   "title_intl": "codex.command.recentThread6",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+6"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "redoAppAction",
+   "title_intl": "codex.command.redoAppAction",
+   "default_keybindings": [
+    "Command+Shift+Z",
+    "Ctrl+Y",
+    "Ctrl+Shift+Z",
+    "CmdOrCtrl+Shift+T"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "reopenClosedTab",
+   "title_intl": "codex.command.reopenClosedTab",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+T",
+    "Ctrl+Shift+M",
+    "Ctrl+Command+M",
+    "Alt+M"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "screenshotToCurrentChat",
+   "title_intl": "codex.command.screenshotToCurrentChat",
+   "default_keybindings": [
+    "Control+Shift+4",
+    "Control+Alt+Shift+4"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "screenshotToNewChat",
+   "title_intl": "codex.command.screenshotToNewChat",
+   "default_keybindings": [
+    "Control+Alt+Shift+4"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "searchChats",
+   "title_intl": "codex.command.searchChats",
+   "default_keybindings": [
+    "CmdOrCtrl+K",
+    "CmdOrCtrl+Alt+U"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "searchChatsPrevious",
+   "title_intl": "codex.command.searchChatsPrevious",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+U",
+    "Shift+Escape",
+    "Alt+L"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "settings",
+   "title_intl": "codex.command.settings",
+   "default_keybindings": [
+    "CmdOrCtrl+,",
+    "CmdOrCtrl+Shift+I"
+   ],
+   "shortcut_scope": null,
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "showKeyboardShortcuts",
+   "title_intl": "codex.command.showKeyboardShortcuts",
+   "default_keybindings": [
+    "CmdOrCtrl+/",
+    "CmdOrCtrl+/",
+    "Shift+Escape"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "showWorkspaceTabView",
+   "title_intl": "codex.command.showWorkspaceTabView",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+F",
+    "CmdOrCtrl+Shift+B"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron,browser",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "spotlightSearch",
+   "title_intl": "codex.command.spotlightSearch",
+   "default_keybindings": [
+    "Alt+K",
+    "Alt+C",
+    "Alt+V"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "stepWorkspaceLayout",
+   "title_intl": "codex.command.stepWorkspaceLayout",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+B",
+    "Ctrl+Shift+G"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "switchToMode1",
+   "title_intl": "codex.command.switchToChat",
+   "default_keybindings": [
+    "Ctrl+1",
+    "Alt+1",
+    "Ctrl+2",
+    "Alt+2"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "switchToMode2",
+   "title_intl": "codex.command.switchToWork",
+   "default_keybindings": [
+    "Ctrl+2",
+    "Alt+2",
+    "Ctrl+3",
+    "Alt+3"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "switchToMode3",
+   "title_intl": "codex.command.switchToCodex",
+   "default_keybindings": [
+    "Ctrl+3",
+    "Alt+3",
+    "CmdOrCtrl+,"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "temporaryChat",
+   "title_intl": "codex.command.temporaryChat",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+N"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread1",
+   "title_intl": "codex.command.thread1",
+   "default_keybindings": [
+    "CmdOrCtrl+1",
+    "CmdOrCtrl+2",
+    "CmdOrCtrl+3"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread2",
+   "title_intl": "codex.command.thread2",
+   "default_keybindings": [
+    "CmdOrCtrl+2",
+    "CmdOrCtrl+3",
+    "CmdOrCtrl+4"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread3",
+   "title_intl": "codex.command.thread3",
+   "default_keybindings": [
+    "CmdOrCtrl+3",
+    "CmdOrCtrl+4",
+    "CmdOrCtrl+5"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread4",
+   "title_intl": "codex.command.thread4",
+   "default_keybindings": [
+    "CmdOrCtrl+4",
+    "CmdOrCtrl+5",
+    "CmdOrCtrl+6"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread5",
+   "title_intl": "codex.command.thread5",
+   "default_keybindings": [
+    "CmdOrCtrl+5",
+    "CmdOrCtrl+6",
+    "CmdOrCtrl+7"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread6",
+   "title_intl": "codex.command.thread6",
+   "default_keybindings": [
+    "CmdOrCtrl+6",
+    "CmdOrCtrl+7",
+    "CmdOrCtrl+8"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread7",
+   "title_intl": "codex.command.thread7",
+   "default_keybindings": [
+    "CmdOrCtrl+7",
+    "CmdOrCtrl+8",
+    "CmdOrCtrl+9"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread8",
+   "title_intl": "codex.command.thread8",
+   "default_keybindings": [
+    "CmdOrCtrl+8",
+    "CmdOrCtrl+9"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "thread9",
+   "title_intl": "codex.command.thread9",
+   "default_keybindings": [
+    "CmdOrCtrl+9"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleBottomPanel",
+   "title_intl": "codex.command.toggleBottomPanel",
+   "default_keybindings": [
+    "CmdOrCtrl+J"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleDebugModal",
+   "title_intl": "codex.command.toggleDebugModal",
+   "default_keybindings": [
+    "Ctrl+D",
+    "CmdOrCtrl+Z",
+    "Command+Shift+Z",
+    "Ctrl+Y"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron,extension",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleFileTreePanel",
+   "title_intl": "codex.commandMenuTitle.toggleFileTreePanel",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+E",
+    "CmdOrCtrl+Shift+E",
+    "CmdOrCtrl+J"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron,browser",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleNotch",
+   "title_intl": "codex.command.toggleNotch",
+   "default_keybindings": [
+    "Alt+C",
+    "Alt+V"
+   ],
+   "shortcut_scope": "os-global",
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "togglePinnedSummary",
+   "title_intl": "codex.command.togglePinnedSummary",
+   "default_keybindings": [
+    "Control+`",
+    "CmdOrCtrl+T"
+   ],
+   "shortcut_scope": null,
+   "available_in": null,
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "togglePriorityFilter",
+   "title_intl": "codex.command.togglePriorityFilter",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+U",
+    "Shift+Escape",
+    "Alt+L"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "browser,electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleReviewTab",
+   "title_intl": "codex.command.toggleReviewTab",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+B",
+    "Ctrl+]",
+    "F12"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron,browser",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleSidebar",
+   "title_intl": "codex.command.toggleSidebar",
+   "default_keybindings": [
+    "CmdOrCtrl+Shift+S",
+    "CmdOrCtrl+Shift+S",
+    "CmdOrCtrl+B",
+    "CmdOrCtrl+Shift+E"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron,browser",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleSidePanel",
+   "title_intl": "codex.command.toggleReviewPanel",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+B",
+    "Ctrl+]",
+    "F12",
+    "CmdOrCtrl+]"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleTerminal",
+   "title_intl": "codex.command.toggleTerminal",
+   "default_keybindings": [
+    "Control+`",
+    "CmdOrCtrl+T",
+    "CmdOrCtrl+Alt+W"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "toggleThreadPin",
+   "title_intl": "codex.command.toggleThreadPin",
+   "default_keybindings": [
+    "CmdOrCtrl+Alt+P",
+    "CmdOrCtrl+Shift+;"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  },
+  {
+   "id": "undoAppAction",
+   "title_intl": "codex.command.undoAppAction",
+   "default_keybindings": [
+    "CmdOrCtrl+Z",
+    "Command+Shift+Z",
+    "Ctrl+Y",
+    "Ctrl+Shift+Z"
+   ],
+   "shortcut_scope": "app",
+   "available_in": "electron",
+   "files": [
+    "app-server-host.js"
+   ]
+  }
+ ],
+ "diff_26_1106": {
+  "added": [
+   "presentation.editLink"
+  ],
+  "removed": [
+   "exitWorkspaceFullView",
+   "hotkeyWindow"
+  ]
+ }
+}

@@ -1,0 +1,386 @@
+{
+ "module": "main-process",
+ "generated_at": "2026-11-24T02:24:55.292Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1117.41037",
+ "files": [
+  {
+   "archive_path": ".vite/build/app-server-host-352-2639f4a0ed7c166e.js",
+   "file": "build/app-server-host-352-2639f4a0ed7c166e.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 335624,
+   "formatted_bytes": 576967,
+   "formatter": "prettier",
+   "sha256_raw": "43de1b9e0079c479cfd83753738e4db0a35a1a24c67fd9185887088d10b1f36c"
+  },
+  {
+   "archive_path": ".vite/build/app-server-host-818-fbf466624f6b1f72.js",
+   "file": "build/app-server-host-818-fbf466624f6b1f72.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 86273,
+   "formatted_bytes": 159617,
+   "formatter": "prettier",
+   "sha256_raw": "94a09cd0b31e8eeac96d9d50387601feebf3e3f92b45af3a5228ebb091654156"
+  },
+  {
+   "archive_path": ".vite/build/app-server-host-844-7c3b3130c600cabc.js",
+   "file": "build/app-server-host-844-7c3b3130c600cabc.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 1671,
+   "formatted_bytes": 2890,
+   "formatter": "prettier",
+   "sha256_raw": "cd0456146a7a14cd5ca267071fa96dd5dbafcafee399e7e04fb39c1d0675356e"
+  },
+  {
+   "archive_path": ".vite/build/app-server-host.js",
+   "file": "build/app-server-host.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 3176760,
+   "formatted_bytes": 4743109,
+   "formatter": "light",
+   "sha256_raw": "4382c08b3045b9c39cc36482c342bc0cfa0d2af84065e8e990d9863b5b24e901"
+  },
+  {
+   "archive_path": ".vite/build/application-websocket-preload.js",
+   "file": "build/application-websocket-preload.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 55827,
+   "formatted_bytes": 88821,
+   "formatter": "prettier",
+   "sha256_raw": "6c693aa4f1e4ec07bbd32f278fa156f8851d8cf44b605713feeaa1d7e3d348d1"
+  },
+  {
+   "archive_path": ".vite/build/browser-page-preload.js",
+   "file": "build/browser-page-preload.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 557775,
+   "formatted_bytes": 1109116,
+   "formatter": "prettier",
+   "sha256_raw": "536c4bef3b653df9451c94b1367b68026b5277c6c9e1a0a144fb73ab314ef86c"
+  },
+  {
+   "archive_path": ".vite/build/chat-search-worker.js",
+   "file": "build/chat-search-worker.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 828080,
+   "formatted_bytes": 1082032,
+   "formatter": "light",
+   "sha256_raw": "c3f24800e2b22d3d19842e814caf63b82bd21cf75a39f1c94a9f648221310d29"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-176-f9b18f792cc535b1.js",
+   "file": "build/early-bootstrap-176-f9b18f792cc535b1.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 1898,
+   "formatted_bytes": 3543,
+   "formatter": "prettier",
+   "sha256_raw": "e32380f4082a22d171486b049bf56480b33b2dbad954f719d5e0e4667d287da3"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-207-650163685606ae20.js",
+   "file": "build/early-bootstrap-207-650163685606ae20.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 851,
+   "formatted_bytes": 1440,
+   "formatter": "prettier",
+   "sha256_raw": "fde9a650520963798c36290922cb951483ee0a11feea2ec906528126d7530354"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-217-693574dde6e08ba2.js",
+   "file": "build/early-bootstrap-217-693574dde6e08ba2.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 4129,
+   "formatted_bytes": 6215,
+   "formatter": "prettier",
+   "sha256_raw": "231db23e1840a72bb3259b776200a7aa461ddc7f98fcd6dcb05df19828ecb556"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-238-7e7d910d46ec7d57.js",
+   "file": "build/early-bootstrap-238-7e7d910d46ec7d57.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 181528,
+   "formatted_bytes": 187526,
+   "formatter": "prettier",
+   "sha256_raw": "5353f805df8447f874bc0a7bfab8243a4a5416a8ecd472f58dbaa615ac46dcd0"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-300-84e82dcbcf3e9362.js",
+   "file": "build/early-bootstrap-300-84e82dcbcf3e9362.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 1906,
+   "formatted_bytes": 3744,
+   "formatter": "prettier",
+   "sha256_raw": "beb8c1318f4a6e2a946c64b21223a5c209f56fe72591d0a0ba8c8f6a437d0d80"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-337-586c97155defdf81.js",
+   "file": "build/early-bootstrap-337-586c97155defdf81.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 9721,
+   "formatted_bytes": 17633,
+   "formatter": "prettier",
+   "sha256_raw": "a89bca3343386ab0d41e6fae0418f95e596ea219d36d038ca65810b1df325a38"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-35-4a401639174c6adf.js",
+   "file": "build/early-bootstrap-35-4a401639174c6adf.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 8364,
+   "formatted_bytes": 15110,
+   "formatter": "prettier",
+   "sha256_raw": "7e4f654488bee3a467fd499208981ef52d03540468aeb56526495e766eeabb41"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-441-16b3dfee683f3646.js",
+   "file": "build/early-bootstrap-441-16b3dfee683f3646.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 479300,
+   "formatted_bytes": 576949,
+   "formatter": "prettier",
+   "sha256_raw": "0d30882f66e67f251f6c96658c1476300c5965ddbc4d683eeb43799ceb5f18c0"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-507-bb196959312428b7.js",
+   "file": "build/early-bootstrap-507-bb196959312428b7.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 2275,
+   "formatted_bytes": 3837,
+   "formatter": "prettier",
+   "sha256_raw": "a0a976aea2dcaedfdc854f7d563e541acc70ce26bb24b08e60510b494bb46930"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-623-793323257ed31f5e.js",
+   "file": "build/early-bootstrap-623-793323257ed31f5e.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 713,
+   "formatted_bytes": 1049,
+   "formatter": "prettier",
+   "sha256_raw": "cf4df8883db85ed3fcb8eb6e0e51d56a6cc4727cde3510160652c1077ea48ab0"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-650-677fb0ac5aafeb17.js",
+   "file": "build/early-bootstrap-650-677fb0ac5aafeb17.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 7250,
+   "formatted_bytes": 11154,
+   "formatter": "prettier",
+   "sha256_raw": "869f8481e37c052d90ec587989bfc6191c50e933c0959f710701dd93f411ddc9"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-683-10e6326b5a084418.js",
+   "file": "build/early-bootstrap-683-10e6326b5a084418.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 30051,
+   "formatted_bytes": 47781,
+   "formatter": "prettier",
+   "sha256_raw": "7b7fd17f1a7e2db0d8be68b1a340599fe77601cacf76f8d550decaa8972740cf"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-694-69d8eace30d87705.js",
+   "file": "build/early-bootstrap-694-69d8eace30d87705.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 148,
+   "formatted_bytes": 204,
+   "formatter": "prettier",
+   "sha256_raw": "fab23d8fe1f8b838b259e9c6eaf91412bd6bc7a4927954de60f54704ec8240f5"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-7-a5d632ed685e6979.js",
+   "file": "build/early-bootstrap-7-a5d632ed685e6979.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 1538557,
+   "formatted_bytes": 2068807,
+   "formatter": "light",
+   "sha256_raw": "0b8d5055f63f62191e36a9ef13fb72a2a23d6ad02b8270ad311c260039eac6ba"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-718-fe77df518c1b6f73.js",
+   "file": "build/early-bootstrap-718-fe77df518c1b6f73.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 49137,
+   "formatted_bytes": 81539,
+   "formatter": "prettier",
+   "sha256_raw": "add475239c75806fe5bea355963c744446063d9851b4fba88f2f97a7cf807752"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-719-3f2c0f5e5974a155.js",
+   "file": "build/early-bootstrap-719-3f2c0f5e5974a155.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 19235,
+   "formatted_bytes": 32240,
+   "formatter": "prettier",
+   "sha256_raw": "62ab2ba3598125097de4dc4d803f862b00c903c7698cac975389fbdb0665d9d6"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-800-ea0bfe6c2dec424f.js",
+   "file": "build/early-bootstrap-800-ea0bfe6c2dec424f.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 170,
+   "formatted_bytes": 254,
+   "formatter": "prettier",
+   "sha256_raw": "c9064e4e20035d7db626db7221b814d465eebaafa771e9f3e2538b073cd2499d"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-824-de8313738dd96f7c.js",
+   "file": "build/early-bootstrap-824-de8313738dd96f7c.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 285744,
+   "formatted_bytes": 487206,
+   "formatter": "prettier",
+   "sha256_raw": "ce3373370d368986f7dded81824e41c445cd20f1c96fb1d9ccefb242b3a123e4"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-887-f7ed78e57a5e2e4f.js",
+   "file": "build/early-bootstrap-887-f7ed78e57a5e2e4f.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 724,
+   "formatted_bytes": 1181,
+   "formatter": "prettier",
+   "sha256_raw": "be2970891e186b4e77e0528475070f920fb6ea950875d0799c062d6f3b5f6e06"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-904-7cf0df7d2b242d62.js",
+   "file": "build/early-bootstrap-904-7cf0df7d2b242d62.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 1567,
+   "formatted_bytes": 2926,
+   "formatter": "prettier",
+   "sha256_raw": "2e5e79d050f1861dff8484d9aaf4057a8da43b3d165b9eda004fefdc9580cfae"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-916-2fd4cc5178eaa3b5.js",
+   "file": "build/early-bootstrap-916-2fd4cc5178eaa3b5.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 5507393,
+   "formatted_bytes": 7429109,
+   "formatter": "light",
+   "sha256_raw": "c1e3b6391ba975e558b8dd524bf54c7587dd25e5b8e022a58624cbabcee6c736"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-927-c1255fa39aa718b7.js",
+   "file": "build/early-bootstrap-927-c1255fa39aa718b7.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 3731,
+   "formatted_bytes": 6743,
+   "formatter": "prettier",
+   "sha256_raw": "704851937b13022c52f417e22f79967b8705565e89058b0edb48c3a31b3474f0"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap-966-ff3074313522caad.js",
+   "file": "build/early-bootstrap-966-ff3074313522caad.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 27744,
+   "formatted_bytes": 48735,
+   "formatter": "prettier",
+   "sha256_raw": "0f697d05c4d0acd78944aeb788a315fc6ce9fdb0362f3dcfc549168cfd933fab"
+  },
+  {
+   "archive_path": ".vite/build/early-bootstrap.js",
+   "file": "build/early-bootstrap.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 607065,
+   "formatted_bytes": 972360,
+   "formatter": "prettier",
+   "sha256_raw": "d821066bc0bfac19c1e16d7faa5f0cbcd9f487cce0162a4a7b114d58ca20be62"
+  },
+  {
+   "archive_path": ".vite/build/experian-verification-preload.js",
+   "file": "build/experian-verification-preload.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 701,
+   "formatted_bytes": 978,
+   "formatter": "prettier",
+   "sha256_raw": "ead037f6f49a3141182b393b6f0d3d1427b8fca41435c3124a8446989ae56887"
+  },
+  {
+   "archive_path": ".vite/build/mcp-annotation-runtime.js",
+   "file": "build/mcp-annotation-runtime.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 523415,
+   "formatted_bytes": 1015656,
+   "formatter": "prettier",
+   "sha256_raw": "4dd2c93480d30010fda0cda0072caf8b193696331ada5ca34bb9956ad7f51af3"
+  },
+  {
+   "archive_path": ".vite/build/preload.js",
+   "file": "build/preload.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 13723,
+   "formatted_bytes": 19025,
+   "formatter": "prettier",
+   "sha256_raw": "31ed590aefeb821468617ff1ea47cebfe2e98b434918421993e2d49694c938ce"
+  },
+  {
+   "archive_path": ".vite/build/process-telemetry-worker-555-157a1ed2f6755dc3.js",
+   "file": "build/process-telemetry-worker-555-157a1ed2f6755dc3.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 111656,
+   "formatted_bytes": 170047,
+   "formatter": "prettier",
+   "sha256_raw": "61708eb6d66ef5dd2023240155a5eff84494c3224fc36b176c0ca1c9f23a4b8d"
+  },
+  {
+   "archive_path": ".vite/build/process-telemetry-worker.js",
+   "file": "build/process-telemetry-worker.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 852328,
+   "formatted_bytes": 1261590,
+   "formatter": "light",
+   "sha256_raw": "58a3cd877763c72dde343219b47c757a9e73b001cd43dd707302147255e2da24"
+  },
+  {
+   "archive_path": ".vite/build/process-tree-worker.js",
+   "file": "build/process-tree-worker.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 8064,
+   "formatted_bytes": 15564,
+   "formatter": "prettier",
+   "sha256_raw": "58e576f4d7102ac5132fb6ca681ce183659a4526d801fa883b237a32022dd8f8"
+  },
+  {
+   "archive_path": ".vite/build/sandbox-preload.js",
+   "file": "build/sandbox-preload.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 117646,
+   "formatted_bytes": 190572,
+   "formatter": "prettier",
+   "sha256_raw": "d9be07b5e340c53759ee0e90eb524ea040139f46c6aa4bc613cbd4a898b401a3"
+  },
+  {
+   "archive_path": ".vite/build/sqlite-writer.js",
+   "file": "build/sqlite-writer.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 770680,
+   "formatted_bytes": 1280858,
+   "formatter": "prettier",
+   "sha256_raw": "33d2e254cb514b9961f31492f5e9b9f7d83031e19568f9a868c6da03e30d963f"
+  },
+  {
+   "archive_path": ".vite/build/visualize-cache-worker.js",
+   "file": "build/visualize-cache-worker.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 80615,
+   "formatted_bytes": 131212,
+   "formatter": "prettier",
+   "sha256_raw": "9e1995c03ba235f6286e2323086d15250ee7677f9168632b8db372013e55159f"
+  },
+  {
+   "archive_path": ".vite/build/worker-718-fd9f599baf51a9c8.js",
+   "file": "build/worker-718-fd9f599baf51a9c8.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 49128,
+   "formatted_bytes": 81530,
+   "formatter": "prettier",
+   "sha256_raw": "8b4b565c989f8be4b9cb460eb68ff221fb288f9d29bcdf516930d06919abb520"
+  },
+  {
+   "archive_path": ".vite/build/worker.js",
+   "file": "build/worker.js",
+   "selected_by": "path:.vite/build/",
+   "raw_bytes": 2130475,
+   "formatted_bytes": 2661577,
+   "formatter": "light",
+   "sha256_raw": "1d04a9d1e6e654c5cc262fa26b7207a14a4a8013c47372c6b750900d339d2474"
+  }
+ ]
+}

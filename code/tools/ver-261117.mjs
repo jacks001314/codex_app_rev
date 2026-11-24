@@ -1,0 +1,12 @@
+import fs from "node:fs";
+export const ARCHIVE="C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar";
+export const INSTALL_ROOT="C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0";
+export const APP_VERSION="26.1117.41037";
+export const BUILD_NUMBER="29803";
+export const MSIX_VERSION="26.1117.4957.0";
+export const INVENTORY="inventories/inventory-261117.json";
+export const WORK=".work/261117";
+export const OUT="code/app-261117";
+export const PREV_VERSION="26.1106.51428";
+export const PREV_OUT="code/app-261106";
+export const PREV_INVENTORY="inventories/inventory-261106.json";

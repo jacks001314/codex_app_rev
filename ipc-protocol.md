@@ -1,5 +1,22 @@
 # IPC 与协议面
 
+## 26.1117 复核（2026-11-24）
+
+> 静态提取自 `code/app-261117/main-process/build/*.js`。未做运行时抓包；
+> 方向与 request/response 分类仍属 **C 级**。机器可读全集：
+> `code/app-261117/main-process/_IPC_CHANNELS.json` 与
+> `_APP_SERVER_METHODS.json`。
+
+- **IPC 具名频道 26 → 30**：新增 `app-server-window-port`、`app-server-window-ready`、
+  `connect-app-server-manager`、`get-initial-window-appearance`、
+  `get-preload-bootstrap-info`、`read-dragged-image`、`startup-progress`；
+  移除 `get-build-flavor`、`get-sentry-init-options`、`get-system-theme-variant`。
+- **app-server 方法 189 → 191**：新增 `thread/items/read` 与 `thread/search/partial`；
+  分组计数见 `_APP_SERVER_METHODS.json`（thread 83 → 85）。
+- preload 仍不暴露 `ipcRenderer`，`connect-app-host` 端口转交方式未变（A）。
+
+下面是 26.1103 及更早的历史复核，保留作对照。
+
 ## 26.1103 复核（2026-11-09）
 
 > 静态提取自 `code/app-261103/main-process/build/preload.js` 与同目录的
@@ -627,3 +644,4 @@ MCP App（含插件 UI）运行在独立沙箱页，双方通过 `MessagePort` �
 建立连接的握手是页面侧 `window.postMessage({type:"connect-app-host", port})`，由 preload 捕获并 `ipcRenderer.postMessage("codex_desktop:connect-app-host", undefined, [port])` 把 port 转交主进程。相关路由：`/mcp-app`、`/mcp-app/:server/:toolName`、`/mcp-app/plugins`、`/mcp-app/plugins/:pluginId/:toolName`。
 
 另有 `codex_desktop:get-browser-webmcp-policy` 用于浏览器内 WebMCP 的策略下发，对应渲染层的 `local-conversation-webmcp-tools-model`。
+

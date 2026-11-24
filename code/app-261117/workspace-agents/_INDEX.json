@@ -1,0 +1,174 @@
+{
+ "module": "workspace-agents",
+ "generated_at": "2026-11-24T02:31:56.606Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1117.41037",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/648406.402b135744.js",
+   "file": "648406.402b135744.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 643736,
+   "formatted_bytes": 1128421,
+   "formatter": "prettier",
+   "sha256_raw": "7ec16f4d42e6fea101a630e43e329dfcab22a782742dbc08412f3c40389f9542",
+   "message_count": 489,
+   "namespace_score": 434,
+   "namespaces": [
+    "workspaceAgents.builder:311",
+    "Hermes.GptStudio:63",
+    "workspaceAgents.api:30",
+    "workspaceAgents.resources:17"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/292001.a8b57383af.js",
+   "file": "292001.a8b57383af.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 56194,
+   "formatted_bytes": 116351,
+   "formatter": "prettier",
+   "sha256_raw": "1ea8e353045c49d15c7c9a4c46120b006cf7f43e8090c241dd2ca4ba482e737e",
+   "message_count": 86,
+   "namespace_score": 51,
+   "namespaces": [
+    "workspaceAgents.schedules:51",
+    "inbox.automations:29",
+    "settings.automations:4",
+    "automations.schedule:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/122960.3fef7b24de.js",
+   "file": "122960.3fef7b24de.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 47085,
+   "formatted_bytes": 76439,
+   "formatter": "prettier",
+   "sha256_raw": "1e8e6bc9a47abc61d606c147b217cc11756289b3a5a2b7a8fe5505145f521d19",
+   "message_count": 129,
+   "namespace_score": 100,
+   "namespaces": [
+    "teams.icons:100",
+    "settings.teams:15",
+    "settings.automations:9",
+    "inbox.automations:5"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/309293.532a3692fc.js",
+   "file": "309293.532a3692fc.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 63168,
+   "formatted_bytes": 106987,
+   "formatter": "prettier",
+   "sha256_raw": "297548d749e8d574fb6fb8501bbad7311a3ef9889da3a4dea85cee2e5a1a6039",
+   "message_count": 118,
+   "namespace_score": 100,
+   "namespaces": [
+    "teams.icons:100",
+    "settings.teams:15",
+    "codex.userMessage:2",
+    "composer.mode:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/111761.08fca884ac.js",
+   "file": "111761.08fca884ac.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 49776,
+   "formatted_bytes": 77415,
+   "formatter": "prettier",
+   "sha256_raw": "c19b233ba1020e11bb0c4997682e0e6db4cd920da942c69d37c663c73ae22d49",
+   "message_count": 72,
+   "namespace_score": 68,
+   "namespaces": [
+    "workspaceAgents.skillIcon:48",
+    "workspaceAgents.connections:10",
+    "workspaceAgents.discovery:10",
+    "beacons.connectApp:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/306668.c5ce1bbaba.js",
+   "file": "306668.c5ce1bbaba.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 76533,
+   "formatted_bytes": 103529,
+   "formatter": "prettier",
+   "sha256_raw": "019099ce728559e149f3b3164c9b820b67ae0ebe60d95c2198c863ae08579087",
+   "message_count": 60,
+   "namespace_score": 60,
+   "namespaces": [
+    "workspaceAgents.skillIcon:48",
+    "workspaceAgents.schedules:9",
+    "workspaceAgents.detail:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/201745.cfeebbf3e6.js",
+   "file": "201745.cfeebbf3e6.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 79946,
+   "formatted_bytes": 140677,
+   "formatter": "prettier",
+   "sha256_raw": "714f5f7b36953330b2b62184a07ec5dfccf13771277ee956886dfaed130ddeaf",
+   "message_count": 67,
+   "namespace_score": 48,
+   "namespaces": [
+    "workspaceAgents.index:43",
+    "composer.skillMentionList:13",
+    "workspaceAgents.templates:3",
+    "composer.suggestionList:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/443855.0649a1f046.js",
+   "file": "443855.0649a1f046.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 92313,
+   "formatted_bytes": 173884,
+   "formatter": "prettier",
+   "sha256_raw": "efc29594d98c9ad806a4a50b2a3d8f3bc21e35e7905fb558d67a97b2815534e1",
+   "message_count": 58,
+   "namespace_score": 47,
+   "namespaces": [
+    "workspaceOwnerOnboarding.invitations:45",
+    "workspaceInvite.suggestions:7",
+    "admin-invite.domainCompletion:2",
+    "workspaceOwnerOnboarding.inviteLink:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/219033.2aa5c1c391.js",
+   "file": "219033.2aa5c1c391.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 59706,
+   "formatted_bytes": 118774,
+   "formatter": "prettier",
+   "sha256_raw": "93d118b6e28c8f7c89e95be87b6b789290dcc18096a760d154c03e8a0de839ec",
+   "message_count": 41,
+   "namespace_score": 41,
+   "namespaces": [
+    "workspaceAgents.studio:21",
+    "Hermes.GptStudio:20"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/506627.b391bfc0e1.js",
+   "file": "506627.b391bfc0e1.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 24820,
+   "formatted_bytes": 48892,
+   "formatter": "prettier",
+   "sha256_raw": "ff90c0345fdbf3428b4bb90f3896723be6cd9e77bc158c5e0a66e5d86a928566",
+   "message_count": 39,
+   "namespace_score": 39,
+   "namespaces": [
+    "workspaceAgents.publication:27",
+    "workspaceAgents.builder:9",
+    "workspaceAgents.schedules:3"
+   ]
+  }
+ ]
+}

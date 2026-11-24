@@ -1,0 +1,238 @@
+{
+ "module": "enterprise-trust",
+ "generated_at": "2026-11-24T02:31:56.948Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1117.41037",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/185223.93b5e63728.js",
+   "file": "185223.93b5e63728.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 189437,
+   "formatted_bytes": 323727,
+   "formatter": "prettier",
+   "sha256_raw": "bce457e687d3826dad547f395458c47cd02c0129df1dcfbb60bb495396cb8071",
+   "message_count": 351,
+   "namespace_score": 345,
+   "namespaces": [
+    "chatgpt.rosalind_access:312",
+    "rosalind.customerApplication:20",
+    "rosalind.application:6",
+    "codex.rosalind:5"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/899333.11d349e59b.js",
+   "file": "899333.11d349e59b.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 267286,
+   "formatted_bytes": 499163,
+   "formatter": "prettier",
+   "sha256_raw": "a34b306107bac826e3213157560c80733f59fbde00fe5845e25b59bb7dd78d95",
+   "message_count": 358,
+   "namespace_score": 291,
+   "namespaces": [
+    "security.scanDetail:74",
+    "security.repositories:61",
+    "security.findingReview:56",
+    "security.scanSetup:50"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/583345.e569e2b948.js",
+   "file": "583345.e569e2b948.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 163963,
+   "formatted_bytes": 331399,
+   "formatter": "prettier",
+   "sha256_raw": "0b420109070c59d273bd2ab50a3aaaa2355b41b07e739e85cf817b27a994c448",
+   "message_count": 240,
+   "namespace_score": 197,
+   "namespaces": [
+    "restricted.environmentSetup:139",
+    "environmentSetup.httpPortals:14",
+    "environmentSetup.review:12",
+    "environmentSetup.saveErrors:12"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/66689.b13f7bff3c.js",
+   "file": "66689.b13f7bff3c.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 551478,
+   "formatted_bytes": 1039570,
+   "formatter": "prettier",
+   "sha256_raw": "bf164924580487f937a1a346d5749878d727697159216a839606cd2d10bb93b0",
+   "message_count": 247,
+   "namespace_score": 132,
+   "namespaces": [
+    "restricted.aeonMessaging:132",
+    "orbit.messaging:17",
+    "chatgptConversations.composer:10",
+    "orbit.safety:10"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/356876.10d9c55373.js",
+   "file": "356876.10d9c55373.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 16451,
+   "formatted_bytes": 28270,
+   "formatter": "prettier",
+   "sha256_raw": "5fb923f6e6e645a39a819d4a3e07effe24f2e3a20188d7269db2078474cf49a4",
+   "message_count": 30,
+   "namespace_score": 19,
+   "namespaces": [
+    "restricted.aeon:19",
+    "orbit.email:11"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/840125.83666371b5.js",
+   "file": "840125.83666371b5.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 147870,
+   "formatted_bytes": 264873,
+   "formatter": "prettier",
+   "sha256_raw": "9315f21a8bdfaeab1dff7e622250470c2392207ab58e25ffbba5f4cf0bf27ab2",
+   "message_count": 216,
+   "namespace_score": 163,
+   "namespaces": [
+    "rosalind.labActivation:46",
+    "rosalind.review:33",
+    "rosalind.labDetails:29",
+    "rosalind.members:20"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/962147.d4f75d1ba0.js",
+   "file": "962147.d4f75d1ba0.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 124198,
+   "formatted_bytes": 165304,
+   "formatter": "prettier",
+   "sha256_raw": "5f7750a897d79e27c8f119f2bc86550ca94c2369955408840a12248d5f446d42",
+   "message_count": 128,
+   "namespace_score": 128,
+   "namespaces": [
+    "chatgpt.privacy_center:128"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/936926.57a49561de.js",
+   "file": "936926.57a49561de.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 60840,
+   "formatted_bytes": 105368,
+   "formatter": "prettier",
+   "sha256_raw": "39a7e2b6aab86f506d5c7978206697b7302e867054d0cfa9ca02c22b1aa84f78",
+   "message_count": 150,
+   "namespace_score": 124,
+   "namespaces": [
+    "environmentSetup.banner:53",
+    "environmentSetup.vpnFailure:21",
+    "restricted.environmentSetup:18",
+    "environmentSetup.conflict:17"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/825699.997a1f71dc.js",
+   "file": "825699.997a1f71dc.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 74280,
+   "formatted_bytes": 133029,
+   "formatter": "prettier",
+   "sha256_raw": "3c1720bc7bc4fd4102b575e296644d961571043533b3f58e7deae7219cd167fa",
+   "message_count": 104,
+   "namespace_score": 101,
+   "namespaces": [
+    "restricted.environmentSetup:63",
+    "environmentSetup.tcpAccess:17",
+    "environmentSetup.vpn:15",
+    "environmentSetup.oic:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/305126.aaab4df98e.js",
+   "file": "305126.aaab4df98e.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 82784,
+   "formatted_bytes": 153652,
+   "formatter": "prettier",
+   "sha256_raw": "6a1636c0fe2fd05a8e0df9ab74a5d3643bf9b8f109bf358e54f478db8c6065df",
+   "message_count": 84,
+   "namespace_score": 80,
+   "namespaces": [
+    "restricted.aeon:54",
+    "restricted.aeonAppearancePicker:23",
+    "orbit.email:3",
+    "restricted.aeonMessaging:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/549927.361b5037c4.js",
+   "file": "549927.361b5037c4.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 92962,
+   "formatted_bytes": 173415,
+   "formatter": "prettier",
+   "sha256_raw": "4836a2dbce9af962ee7ef00924735b8d2dcc478f1984190adbd879fedd90645e",
+   "message_count": 107,
+   "namespace_score": 60,
+   "namespaces": [
+    "environmentSetup.banner:53",
+    "threadEnvironment.network:15",
+    "restricted.environmentSetup:5",
+    "threadEnvironment.networkPolicyLimit:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/39295.b979f21ec6.js",
+   "file": "39295.b979f21ec6.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 47966,
+   "formatted_bytes": 96139,
+   "formatter": "prettier",
+   "sha256_raw": "7f110fee813a692835e740ddccda23108facac2693339ccfd7055dfca28450e4",
+   "message_count": 67,
+   "namespace_score": 51,
+   "namespaces": [
+    "restricted.environmentSetup:38",
+    "environmentSetup.repositoryPicker:10",
+    "composer.submitToast:3",
+    "environmentSetup.onboarding:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/678000.2a4f5cde23.js",
+   "file": "678000.2a4f5cde23.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 35432,
+   "formatted_bytes": 66387,
+   "formatter": "prettier",
+   "sha256_raw": "b04a726c462a37490ae6a8d512672511631c27e671c56f5b08629e0c43385be3",
+   "message_count": 48,
+   "namespace_score": 48,
+   "namespaces": [
+    "restricted.aeon:48"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/699245.f92cb736f2.js",
+   "file": "699245.f92cb736f2.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 112218,
+   "formatted_bytes": 147606,
+   "formatter": "prettier",
+   "sha256_raw": "e1351bf65e6ee556cb84a1ac13916e5b3975d59ba2aecf89107d1086f692ae7e",
+   "message_count": 53,
+   "namespace_score": 47,
+   "namespaces": [
+    "rosalind.researchDetails:16",
+    "rosalind.locations:15",
+    "rosalind.researchPurpose:8",
+    "rosalindAccess.application:5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5428 @@
+{
+ "module": "profile",
+ "generated_at": "2026-11-24T02:27:17.032Z",
+ "files_scanned": 8,
+ "message_count": 474,
+ "messages": [
+  {
+   "id": "annotationMode.askChatGpt",
+   "text": "Ask ChatGPT",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "annotationMode.askForChanges",
+   "text": "Ask for changes",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "App.forceLogInModalButton",
+   "text": "Log in",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "App.forceLogInModalDescription",
+   "text": "Please log in again to continue using the app",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "App.forceLogInModalTitle",
+   "text": "Your session has expired",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.share",
+   "text": "Share",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "avatarOverlay.realtime.usageLimitReset",
+   "text": "Voice limit reached. Try again at {resetTime}.",
+   "description": null,
+   "files": [
+    "690257.756fe5dfef.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.chart.activity.aria_label",
+   "text": "Activity",
+   "description": "Accessible label for the unified profile chart showing chat and token activity. Daily and weekly views use the stronger of the independently scaled chat and token levels; cumulative accumulates unified weekly activity.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.chart.aria_label",
+   "text": "Codex token activity",
+   "description": "Accessible label for the colored grid displaying the current user's daily, weekly, or cumulative Codex token activity on their profile page.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.chart.chats.aria_label",
+   "text": "Chat activity",
+   "description": "Accessible label for the profile chart showing daily, weekly, or cumulative chat counts.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.tooltip.activity",
+   "text": "{view, select, daily {{chats, plural, one {# chat} other {# chats}} \\xb7 {tokens} tokens on {date}} weekly {{chats, plural, one {# chat} other {# chats}} \\xb7 {tokens} tokens on week of {date}} other {{chats, plural, one {# chat} other {# chats}} \\xb7 {tokens} tokens through week of {date}}}",
+   "description": "Tooltip for the unified profile activity chart, showing separate chat and token counts. chats is a nonnegative chat count, tokens is a localized compact token count, and date is a localized UTC date. view selects daily totals, weekly totals, or running totals from the start of the chart through that week.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.tooltip.chats",
+   "text": "{view, select, daily {{count, plural, one {# chat} other {# chats}} on {date}} weekly {{count, plural, one {# chat} other {# chats}} on week of {date}} other {{count, plural, one {# chat} other {# chats}} through week of {date}}}",
+   "description": "Tooltip for the profile chat activity chart. count is the nonnegative number of chats, date is a localized UTC date, and view selects daily, weekly, or cumulative totals.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.tooltip.cumulative",
+   "text": "{tokens} tokens through week of {date}",
+   "description": "Short tooltip and accessible label for a column in the user's profile cumulative Codex token-activity chart. {tokens} is the localized compact running token total from the start of the chart through that week, possibly zero; {date} is the localized UTC date and year of the week's first day. This is a cumulative total, not the total for only that week.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.tooltip.daily",
+   "text": "{tokens} tokens on {date}",
+   "description": "Short tooltip and accessible label for a day in the user's profile Codex token-activity grid. Shown when hovering over a day, including days with no usage. {tokens} is a localized compact token count, possibly zero; {date} is the localized UTC calendar date, including the year for dates outside the current year.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.tooltip.summary_multiline",
+   "text": "{view, select, daily {{date}} weekly {Week of {date}} other {Through week of {date}}}{lineBreak}{metric, select, activity {{chats, plural, one {# chat} other {# chats}}{lineBreak}{tokens} tokens} chats {{chats, plural, one {# chat} other {# chats}}} other {{tokens} tokens}}",
+   "description": "Small popup describing a day or week in a ChatGPT profile's activity chart. Show the date or period first, then each count on its own line. For example, combined activity reads 'May 13', then '12 chats', then '4K tokens' on three separate lines. The lineBreak placeholder starts a new line; preserve it between the date and counts and between counts. The metric selector chooses what to show: activity includes both counts, chats includes only the chat count, and other includes only tokens. The UI calls individual messages sent by the user 'chats'; the chats placeholder supplies this count, not the number of entire conversations. Tokens are small pieces of text processed by the AI, not money or credits. The date and tokens placeholders are already formatted for the reader's language; for example, 4K means 4,000. Dates use UTC (the worldwide time reference), not the reader's local time zone. The view selector chooses the period: daily shows the date alone; weekly means the week starting on that date; other means the running total from the start of the chart through the selected week, including earlier weeks. The plural expression chooses the appropriate form of 'chat'; # inserts the number of chats. Preserve placeholders and selector names; translate the wording and use the plural forms appropriate for your language. Keep chats and tokens separate; never add them together.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.usage.tooltip.weekly",
+   "text": "{tokens} tokens on week of {date}",
+   "description": "Short tooltip and accessible label for a column in the user's profile weekly Codex token-activity chart. {tokens} is the localized compact token total for that week, possibly zero; {date} is the localized UTC date and year of the week's first day.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.activity.period.cumulative",
+   "text": "Cumulative",
+   "description": "Profile token activity chart button displaying running token totals. Other options are Daily and Weekly.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.activity.period.daily",
+   "text": "Daily",
+   "description": "Profile activity chart button displaying individual days. Other options are Weekly and Cumulative.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.activity.period.weekly",
+   "text": "Weekly",
+   "description": "Profile activity chart button displaying weekly totals. Other options are Daily and Cumulative.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.showcase.filter.all",
+   "text": "All",
+   "description": "Profile Showcase filter showing both Sites and Skills. Short button label.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.showcase.filter.sites",
+   "text": "Sites",
+   "description": "Profile Showcase filter showing websites created by the user. Sibling filters are All and Skills.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.showcase.filter.skills",
+   "text": "Skills",
+   "description": "Profile Showcase filter showing reusable agent skills created by the user. Sibling filters are All and Sites.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.showcase.skills.empty",
+   "text": "No skills to showcase yet",
+   "description": "Empty-state text under the Skills filter on the user's profile Showcase. No published skills are available.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.showcase.title",
+   "text": "Showcase",
+   "description": "Heading above the signed-in user's featured creations on their profile.",
+   "files": [
+    "403035.6125ee3031.js",
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "chatgpt.profile.v2.stats.days.value",
+   "text": "{days, plural, one {# day} other {# days}}",
+   "description": "Day count on the profile statistics row. The numeric placeholder days is a nonnegative integer.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.stats.longest_task.label",
+   "text": "Longest task",
+   "description": "Short profile statistic label for the duration of the user's longest-running agent turn in Codex or ChatGPT Work.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgpt.profile.v2.stats.peak_tokens.label",
+   "text": "Peak tokens",
+   "description": "Short profile statistic label for the highest number of tokens used in one day by a user of Codex or ChatGPT Work.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.loadFailed",
+   "text": "Couldn't load this file",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pageExplorer.addSubpage",
+   "text": "Add subpage",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pageExplorer.close",
+   "text": "Close pages",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pageExplorer.heading",
+   "text": "Pages",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pageExplorer.pagesNavigation",
+   "text": "Pages",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.pages.invitation.accountUnavailable",
+   "text": "We couldn\\u2019t verify the account for this invitation",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.profileDropdown.personalAccountTitle",
+   "text": "Personal account",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.aria_label",
+   "text": "Use {colorName}",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.projectAppearance.color.option.black",
+   "text": "Default",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.color.option.blue",
+   "text": "Blue",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.color.option.green",
+   "text": "Green",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.color.option.orange",
+   "text": "Orange",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.color.option.pink",
+   "text": "Pink",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.color.option.purple",
+   "text": "Purple",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.color.option.red",
+   "text": "Red",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.color.option.yellow",
+   "text": "Yellow",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.bar_chart",
+   "text": "Bar Chart",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.book",
+   "text": "Book",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.brain",
+   "text": "Brain",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.currency_dollar",
+   "text": "Currency Dollar",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.customize",
+   "text": "Customize",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.desk_globe",
+   "text": "Globe Spin",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.dumbbell",
+   "text": "Dumbbell",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.edit",
+   "text": "Pencil",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.flask",
+   "text": "Flask",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.folder",
+   "text": "Folder",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.function",
+   "text": "Code Brackets",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.globe",
+   "text": "Globe",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.graduation_cap",
+   "text": "Graduation Cap",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.health",
+   "text": "Health",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.heart",
+   "text": "Heart",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.kettlebell",
+   "text": "Kettlebell",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.logs",
+   "text": "Logs",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.lotus",
+   "text": "Lotus",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.music",
+   "text": "Music",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.palette",
+   "text": "Palette",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.paw",
+   "text": "Paw",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.plane",
+   "text": "Plane",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.plant",
+   "text": "Plant",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.popcorn",
+   "text": "Popcorn",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.scale",
+   "text": "Balancing Scale",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.stethoscope",
+   "text": "Stethoscope",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.suitcase",
+   "text": "Suitcase",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.terminal",
+   "text": "Terminal",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.wrench",
+   "text": "Wrench",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.projectAppearance.icon.option.writing",
+   "text": "Writing",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "codex.referralInviteModal.close",
+   "text": "Close",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.consent.multiple",
+   "text": "I have the consent of these people to send them this invite",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.consent.single",
+   "text": "I have the consent of this person to send them this invite",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.creditOfferTitle",
+   "text": "Get {amount, plural, one {# credit} other {# credits}} per invite",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.dialogDescription",
+   "text": "Send referral invites",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.done",
+   "text": "Done",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.eligibilityLink",
+   "text": "View eligibility criteria",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.emailLabel",
+   "text": "Email",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.emailPlaceholder",
+   "text": "Add emails",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.failedEmailsDetailedError",
+   "text": "{message}: {emails}",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.failedEmailsError",
+   "text": "Couldn\\u2019t send invites to: {emails}",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.invalidEmailsError",
+   "text": "Fix these emails: {emails}",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.invitesUnavailable",
+   "text": "Invites are unavailable right now",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.maxEmailsError.personal",
+   "text": "You can invite up to {maxEmails, plural, one {# friend} other {# friends}} at a time. Remove one to add another",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.maxEmailsError.workspace",
+   "text": "You can invite up to {maxEmails, plural, one {# coworker} other {# coworkers}} at a time. Remove one to add another",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.removeEmail",
+   "text": "Remove {email}",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.sendInvite",
+   "text": "Send",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.sentInviteCount",
+   "text": "{count} sent",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.successDescription.desktopApp",
+   "text": "{count, plural, one {Your friend will receive an invite to use ChatGPT Desktop for questions, work, and code.} other {Your friends will receive invites to use ChatGPT Desktop for questions, work, and code.}}",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.successDescription.desktopApp.workspace",
+   "text": "{count, plural, one {Your coworker will receive an invite to use ChatGPT for questions, work, and code} other {Your coworkers will receive invites to use ChatGPT for questions, work, and code}}",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.successDialogDescription",
+   "text": "Referral invites sent",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.summaryDescription.desktopApp",
+   "text": "Invite a friend to ChatGPT Desktop: one place to ask questions, get work done, and build with Codex",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.summaryDescription.desktopApp.workspace",
+   "text": "Invite a coworker to ChatGPT Desktop: one place to ask questions, get work done, and build with Codex",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.timeline.inviteSent",
+   "text": "{count, plural, one {Invite sent} other {Invites sent}}",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.title.desktopApp",
+   "text": "Invite a friend to ChatGPT Desktop",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.title.desktopApp.workspace",
+   "text": "Invite a coworker to ChatGPT Desktop",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.copiedInviteLink",
+   "text": "Copied",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.copyInviteLink",
+   "text": "Copy invite link",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.description",
+   "text": "Review referral invite history and status",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.emailUnavailable",
+   "text": "Email unavailable",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.empty",
+   "text": "No invites in this period",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.expired",
+   "text": "Expired",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.goBack",
+   "text": "Go back",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.loadError",
+   "text": "Couldn\\u2019t load your invites",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.loadMore",
+   "text": "Load more",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.loadMoreError",
+   "text": "Couldn\\u2019t load more invites",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.past90Days",
+   "text": "Past 90 days",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.pending",
+   "text": "Pending",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.redeemed",
+   "text": "Accepted",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.resendCooldown",
+   "text": "Invite sent",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.resendEmail",
+   "text": "Resend email",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.resendError",
+   "text": "Couldn\\u2019t resend invite",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.resendSuccess",
+   "text": "Invite email resent",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.retryLoadMore",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.retryResendEmail",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.thisMonth",
+   "text": "This month",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.tracking.title",
+   "text": "Track your invites",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.trackInvites",
+   "text": "Track your invites",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.referralInviteModal.trackInvitesWithSentCount",
+   "text": "Track your invites, {count} sent",
+   "description": null,
+   "files": [
+    "351719.df098f4545.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.artifact.openError",
+   "text": "Could not open this artifact",
+   "description": "Error shown when an artifact linked in a Page is no longer available",
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.createError",
+   "text": "Could not create page",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.retry",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.page.surfaceLoading.byDocumentType",
+   "text": "{documentType, select, granola_presentation {Loading slide} granola_workbook {Loading sheet} other {Loading page}}",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.space.sidebar.spaceSetupNeedsAttention",
+   "text": "Space setup needs attention",
+   "description": "Toast displayed when a shared Space setup needs retry or recovery. Translate Space/Spaces as a common noun for an area or collection of Pages and files, not a proper name or outer space. Keep the term consistent with navigation.",
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.high.label",
+   "text": "High",
+   "description": "Reasoning effort label for a given model: high. The adjective modifies reasoning effort and should match the grammatical gender of the localized term for reasoning effort.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.low.label.v2",
+   "text": "Light",
+   "description": null,
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.max.label",
+   "text": "Max",
+   "description": "Reasoning effort label for a given model: maximum",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.medium.label",
+   "text": "Medium",
+   "description": "Reasoning effort label for a given model: medium. The adjective modifies reasoning effort and should match the grammatical gender of the localized term for reasoning effort.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.minimal.label",
+   "text": "Minimal",
+   "description": "Reasoning effort label for a given model: minimal",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.none.label",
+   "text": "None",
+   "description": "Reasoning effort label for a given model: none",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.persistent.label",
+   "text": "Persistent",
+   "description": "Reasoning effort label for a mode that keeps the agent working through automatic continuation until paused or interrupted",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.ultra.label",
+   "text": "Ultra",
+   "description": "Reasoning effort label for a given model: ultra",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.mode.local.reasoning.xhigh.label",
+   "text": "Extra High",
+   "description": "Reasoning effort label for a given model: extra high. The adjective modifies reasoning effort and should match the grammatical gender of the localized term for reasoning effort.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.categories.label",
+   "text": "Emoji categories",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.activities",
+   "text": "Activities",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.flags",
+   "text": "Flags",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.food",
+   "text": "Food and drink",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.nature",
+   "text": "Animals and nature",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.objects",
+   "text": "Objects",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.people",
+   "text": "People and body",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.recent",
+   "text": "Recently used",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.smileys",
+   "text": "Smileys and emotion",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.suggested",
+   "text": "Suggested",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.symbols",
+   "text": "Symbols",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.category.travel",
+   "text": "Travel and places",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.choices.heading",
+   "text": "Emojis",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.grid.label",
+   "text": "Emojis",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.search.count",
+   "text": "{count, plural, one {# emoji} other {# emojis}}",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.search.empty",
+   "text": "No matching emoji",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emoji.search.results",
+   "text": "Search results",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.results.loading",
+   "text": "Loading library",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.search.label",
+   "text": "Search library",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "libraryNext.view.grid",
+   "text": "Grid view",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "libraryNext.view.gridTooltip",
+   "text": "Grid",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "libraryNext.view.list",
+   "text": "List view",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "libraryNext.view.listTooltip",
+   "text": "List",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "localConversation.agentActivity.completed",
+   "text": "Worked",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.workingFor",
+   "text": "Working for {time}",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.academicResearchersLabel",
+   "text": "Academic Researchers",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.cfcLabel",
+   "text": "ChatGPT for Clinicians",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.eduLabel",
+   "text": "EDU",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "navigation.enterpriseLabel",
+   "text": "Enterprise",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.native.addComments",
+   "text": "Add comments",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.native.format",
+   "text": "Format",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.newWindow.unavailable",
+   "text": "This new Page could not be restored",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.newWindow.unavailableDescription",
+   "text": "Check Personal for a Page that may already have been created, or open a new Page from Space",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.sharedViewer.returnToChatGPT",
+   "text": "Back to ChatGPT",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.sharedViewer.signedInAccount",
+   "text": "Signed-in account",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.sharedViewer.switchAccount",
+   "text": "Switch account or workspace",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.sharedViewer.workspace",
+   "text": "Workspace",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.upgradeLanding.action",
+   "text": "Upgrade to Plus",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.upgradeLanding.page.description",
+   "text": "Upgrade to ChatGPT Plus to view this file in Space",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.upgradeLanding.page.title",
+   "text": "View this file with ChatGPT Plus",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.upgradeLanding.space.description",
+   "text": "Create and collaborate on pages, slides, and files",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pages.upgradeLanding.space.title",
+   "text": "Use Space with ChatGPT Plus",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.image",
+   "text": "Insert image",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.slide",
+   "text": "New slide",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.text",
+   "text": "Insert text",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.insert.tools",
+   "text": "Charts, tables, and more",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationPanel.zoomFit",
+   "text": "Fit",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.close",
+   "text": "Close pricing",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.loading",
+   "text": "Loading plans\\u2026",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricing.comparison.title",
+   "text": "Upgrade your plan",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.free.name",
+   "text": "Free",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.go.name",
+   "text": "Go",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.plus.name",
+   "text": "Plus",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.pro.name",
+   "text": "Pro",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "pricingPlanConstants.teams.teamPlanName",
+   "text": "Business",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.ariaLabel",
+   "text": "Activity",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.fastMode",
+   "text": "Fast Mode",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.fastModeTooltip",
+   "text": "How often you use /fast mode",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.mostUsedReasoning",
+   "text": "Most used reasoning",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.none",
+   "text": "None",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.notUsed",
+   "text": "Not used",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.reasoningEffortTooltip",
+   "text": "Your most used reasoning effort",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.skillsExplored",
+   "text": "Skills explored",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.skillsExploredTooltip",
+   "text": "The number of unique skills you've used",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalSkillsUsed",
+   "text": "Total skills used",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalSkillsUsedTooltip",
+   "text": "Total skill uses",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalThreads",
+   "text": "Total chats",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.features.totalThreadsTooltip",
+   "text": "Total unique conversations",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.browse",
+   "text": "Browse",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.empty",
+   "text": "No plugins used yet \\xb7",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.runs",
+   "text": "{runs, plural, one {# run} other {# runs}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.plugins.unavailable",
+   "text": "Plugin activity unavailable",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.activity.unavailable",
+   "text": "Activity insights unavailable",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.bioCharacterCount",
+   "text": "{count, number}/{limit, number} characters",
+   "description": "Character count shown near the profile bio limit; count includes spaces, and limit is the maximum allowed length",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.bioInputLabel",
+   "text": "Bio",
+   "description": "Label for the personal biography in the profile editor",
+   "files": [
+    "403035.6125ee3031.js",
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "profile.bioModerationError",
+   "text": "Your bio wasn\\u2019t accepted. Try revising it.",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.empty",
+   "text": "You haven\\u2019t created any sites yet",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.emptyPage",
+   "text": "No sites to show on this page",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.error",
+   "text": "Couldn\\u2019t load sites",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.loading",
+   "text": "Loading sites\\u2026",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.next",
+   "text": "Next sites",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.ownerTitle",
+   "text": "Sites by you",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.page",
+   "text": "Page {page}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.previous",
+   "text": "Previous sites",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.createdSites.visitorTitleWithName",
+   "text": "Sites by {name}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.displayNameModerationError",
+   "text": "Your display name wasn\\u2019t accepted. Try a different name.",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.displayNameUpdateError",
+   "text": "Unable to update display name",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.bioPlaceholder",
+   "text": "A little about you",
+   "description": "Placeholder for an empty biography while editing a profile inline",
+   "files": [
+    "403035.6125ee3031.js",
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "profile.edit.displayOptions",
+   "text": "Display options",
+   "description": "Heading for choosing which sections appear on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.dotVisibility.label",
+   "text": "Show your {dot}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.loadingStickers",
+   "text": "Loading stickers\\u2026",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.photo",
+   "text": "Photo",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.resizeSticker",
+   "text": "Resize sticker",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.retryStickers",
+   "text": "Couldn't load stickers. Try again",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.rotateSticker",
+   "text": "Rotate sticker",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.shape.blossom",
+   "text": "Blossom photo shape",
+   "description": "Accessible label for the flower-shaped profile photo",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.shape.circle",
+   "text": "Circle photo shape",
+   "description": "Accessible label for the circular profile photo shape",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.shape.oval",
+   "text": "Oval photo shape",
+   "description": "Accessible label for the oval profile photo shape",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.shape.scalloped",
+   "text": "Scalloped photo shape",
+   "description": "Accessible label for the scalloped profile photo shape",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.shape.square",
+   "text": "Rounded square photo shape",
+   "description": "Accessible label for the rounded square profile photo shape",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.sharedDisplayOptions.description",
+   "text": "Choose which sections are visible to others",
+   "description": "Help text below the What others see heading in the profile editor. These settings control the sections visible to other people viewing a public personal profile or a profile shared within a workspace; they do not hide sections from the owner.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.sharedDisplayOptions.privateDescription",
+   "text": "Choose which sections are visible to others when you share your profile",
+   "description": "Help text below the What others see heading for a private profile. The owner can configure these settings before making their personal profile public or sharing their workspace profile with workspace members. Changing these settings does not change profile visibility or hide sections from the owner.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.sharedDisplayOptions.title",
+   "text": "What others see",
+   "description": "Heading in the profile editor for choosing which sections other people see on the shared profile. The owner can still see all available sections on their own profile. Applies to public personal profiles and profiles shared within a workspace.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.showActivityGraph",
+   "text": "Show activity graph",
+   "description": "Setting for displaying the activity graph on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.showInsights",
+   "text": "Show insights",
+   "description": "Setting for displaying usage insights on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.showSiteArtifacts",
+   "text": "Show Sites by you",
+   "description": "Setting for displaying sites created by the owner on their workspace profile",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.showTopPlugins",
+   "text": "Show top plugins",
+   "description": "Setting for displaying the most used plugins on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.showUsageStatistics",
+   "text": "Show usage statistics",
+   "description": "Setting for displaying the summary statistics on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickerCanvas",
+   "text": "Profile sticker placement",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickerLayoutConflict",
+   "text": "Your stickers changed elsewhere. The latest layout is loaded; reapply your sticker edits and save again.",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickers",
+   "text": "Stickers",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickers.gallery.hint",
+   "text": "Drag onto your profile header, or click to add",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.stickers.internalOnly",
+   "text": "Internal only",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.edit.uploadPhoto",
+   "text": "Upload photo",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfile",
+   "text": "Edit",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileCancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileDescriptionWithoutUsername",
+   "text": "Update your profile picture and display name",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileLabel",
+   "text": "Edit profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileSave",
+   "text": "Save",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editProfileTitle",
+   "text": "Edit profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editUsername",
+   "text": "Edit username",
+   "description": "Accessible label for the profile username edit button",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editUsername.cancel",
+   "text": "Cancel",
+   "description": "Button to discard changes to a profile username",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editUsername.change",
+   "text": "Change username",
+   "description": "Button to confirm changing the profile username after checking availability",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editUsername.changeWarning",
+   "text": "Your old profile link won't redirect to your new profile. Your site URLs will also change to use your new username. These updates may take some time.",
+   "description": "Warning before changing a profile username: the old profile link will not redirect, existing site URLs will change to use the new username, and the updates may take time",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editUsername.changeWarning.workspace",
+   "text": "Your old profile link won't redirect to your new profile. This update may take some time.",
+   "description": "Warning in the Edit username dialog for a workspace member changing their existing profile username. Explains that their old profile link will not redirect and the change may take time to appear.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editUsername.invalidEdge",
+   "text": "Username can't start or end with a period, underscore, or hyphen",
+   "description": "Inline error in the focused profile username editor when an end user enters punctuation at the beginning or end of a new username. Periods, underscores, and hyphens are allowed between other characters.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.editUsername.title",
+   "text": "Edit username",
+   "description": "Title of the focused profile username editor",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.fetchError",
+   "text": "We\\u2019re having trouble loading your profile. Please try again later.",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.fetchErrorDetail",
+   "text": "[Employee only] Error: {details}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.inlineEdit.saving",
+   "text": "Saving\\u2026",
+   "description": "Status shown while an inline profile text edit is being saved",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.nameFallback",
+   "text": "ChatGPT user",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.nameInputLabel",
+   "text": "Display name",
+   "description": "Accessible label for the editable profile display name",
+   "files": [
+    "403035.6125ee3031.js",
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "profile.notFound",
+   "text": "Profile not found or private",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.page.documentTitle",
+   "text": "{displayName} (@{username}) | ChatGPT",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.description",
+   "text": "Drag the image to reposition it, and adjust zoom with the slider",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.error",
+   "text": "Unable to process the profile picture",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.save",
+   "text": "Save",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.title",
+   "text": "Adjust your image",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.zoomIn",
+   "text": "Zoom in",
+   "description": "Accessible label for the profile picture zoom in button",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.zoomLabel",
+   "text": "Zoom profile picture",
+   "description": "Accessible label for the profile picture crop zoom slider",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoCrop.zoomOut",
+   "text": "Zoom out",
+   "description": "Accessible label for the profile picture zoom out button",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoInputLabel",
+   "text": "Change profile picture",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoModerationError",
+   "text": "Your profile picture wasn\\u2019t accepted. Try another picture.",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.photoUpdateError",
+   "text": "Unable to update profile picture",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview",
+   "text": "Preview",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview.exit",
+   "text": "Exit preview",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview.publicViewer",
+   "text": "Previewing as a public visitor",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.preview.workspaceViewer",
+   "text": "Viewing as a workspace member",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.private",
+   "text": "Private",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.privateTooltip",
+   "text": "Only visible to you",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sharing.coachmark.dismiss",
+   "text": "Dismiss coachmark",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sharing.coachmark.title",
+   "text": "Share your profile to show what you're working on",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sharing.open",
+   "text": "Share profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sharing.share",
+   "text": "Share",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.edit",
+   "text": "Edit showcase",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.edit.label",
+   "text": "Edit",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.edit.separator",
+   "text": "\\xb7",
+   "description": "Decorative middle dot separating the inline Edit action from the Showcase filters on a profile.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.accessAudience",
+   "text": "\\xb7 {accessLevel, select, private {Only you} custom {Selected people} workspace {Your workspace} other {Public}}",
+   "description": "Short access label after a middle-dot separator in a profile Showcase picker row. Private means only the owner can access the item; custom means specific people or groups have access; workspace means the whole workspace; public means everyone. Selected people includes access granted through selected groups.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.empty",
+   "text": "No sites or skills to showcase yet",
+   "description": "Empty Showcase editor when no sites or skills are available",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.filterTabsLabel",
+   "text": "Showcase item types",
+   "description": "Accessible name for tabs that filter the Showcase editor to all items, sites, or skills.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.noResults",
+   "text": "No items match your search",
+   "description": "Empty search results in the Showcase editor.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.reordered",
+   "text": "{title} moved to position {position} of {count}. Save to apply your order",
+   "description": "Screen reader announcement after moving an item in the Showcase editor. Position and count refer to the visible search results.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.reorderInstructions",
+   "text": "Drag to reorder, or use the Up and Down arrow keys. Home and End move to the first and last visible positions. Save applies your order",
+   "description": "Keyboard instructions read when a screen reader user focuses an item's reorder handle in the Showcase editor.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.reorderSite",
+   "text": "Reorder {title}",
+   "description": "Accessible label on the drag handle used to reorder an item in the Showcase editor.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.searchLabel",
+   "text": "Search sites and skills",
+   "description": "Accessible label for filtering sites and skills in the Showcase editor.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.searchLabel.sitesOnly",
+   "text": "Search sites",
+   "description": "Accessible label for filtering sites in the Showcase editor when skill pinning is unavailable.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.searchPlaceholder",
+   "text": "Search sites and skills",
+   "description": "Placeholder for the search field in the Showcase editor.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.searchPlaceholder.sitesOnly",
+   "text": "Search sites",
+   "description": "Placeholder for the Showcase editor search field when only sites can be pinned.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.sitesLimitDescription",
+   "text": "Choose up to {limit} sites. Drag to reorder.",
+   "description": "Description of the Showcase editor when only sites are available. The limit is the maximum number of selected sites.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.title",
+   "text": "Edit showcase",
+   "description": "Title of the dialog for selecting and ordering sites and skills on a profile.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.editor.totalLimitDescription",
+   "text": "Choose up to {limit} sites and skills. Drag to reorder.",
+   "description": "Description of the Showcase editor when both sites and skills are available. The limit is the combined maximum number of selected sites and skills.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty",
+   "text": "Nothing in showcase yet",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.createSite",
+   "text": "Create a site",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.other",
+   "text": "{name} hasn't added anything to their showcase yet",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.self",
+   "text": "Feature sites and skills on your profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.empty.self.sitesOnly",
+   "text": "Feature sites on your profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.error",
+   "text": "Some showcase items are temporarily unavailable",
+   "description": "Status when available sites or skills could not be loaded in the profile Showcase editor",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.loading",
+   "text": "Loading sites and skills\\u2026",
+   "description": "Status while loading available sites and skills in the profile Showcase editor",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.loading.sitesOnly",
+   "text": "Loading sites\\u2026",
+   "description": "Status while loading available sites in the profile Showcase editor when skill pinning is unavailable",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.pinLimitReachedWithLimit",
+   "text": "You can only pin {limit, plural, one {# item} other {# items}}",
+   "description": "Error in the profile Showcase editor when saving too many pinned sites or skills. The numeric limit is the maximum number of pins returned by the server. Existing saved pins remain unchanged; users must reduce their selection before saving.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.retrySites",
+   "text": "Retry",
+   "description": "Retry loading sites and skills in the Showcase editor",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.saveError",
+   "text": "Your showcase couldn't be saved. Try again",
+   "description": "Error when saving the profile Showcase fails. The current draft is retained for retry.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.sharing.failed",
+   "text": "Some items couldn't be shared. Your showcase hasn't been saved. Try again",
+   "description": "Error in the Showcase editor when sharing fails and the showcase selection is not saved. The draft remains available for retry; some items may already have been shared.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.sharingPublicDescription",
+   "text": "Anyone will be able to access these sites",
+   "description": "Explains public access before publishing selected sites on a personal profile",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.sharingTitle",
+   "text": "{kinds, select, sites {Your sites will be published} skills {Your skills will be published} other {Your sites and skills will be published}}",
+   "description": "Title of the confirmation listing showcase items whose sharing must be broadened",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.sharingWorkspaceDescription",
+   "text": "All members of your workspace will be able to access these items",
+   "description": "Explains workspace-wide access before publishing selected sites or skills",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.showLess",
+   "text": "Show less",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.showMore",
+   "text": "Show more",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.sites.empty",
+   "text": "No sites to showcase yet",
+   "description": "Empty Sites filter when the profile only has pinned skills",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.addToProfile",
+   "text": "Add to profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.sites.capped",
+   "text": "You have {count, plural, one {{countDisplay} site} other {{countDisplay} sites}} to feature",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.sitesAndSkills.capped",
+   "text": "You have {sites, plural, one {{sitesDisplay} site} other {{sitesDisplay} sites}} and {skills, plural, one {{skillsDisplay} skill} other {{skillsDisplay} skills}} to feature",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.suggestions.skills.capped",
+   "text": "You have {count, plural, one {{countDisplay} skill} other {{countDisplay} skills}} to feature",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.showcase.upgradeToEdit",
+   "text": "Upgrade to edit your showcase",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.currentStreak",
+   "text": "Current streak",
+   "description": "Label for current usage streak on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.durationDays",
+   "text": "{days}d",
+   "description": "Compact longest task duration on a profile, in days",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.durationDaysHours",
+   "text": "{days}d {hours}h",
+   "description": "Compact longest task duration on a profile, in days and hours",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.durationHours",
+   "text": "{hours}h",
+   "description": "Formatted profile duration with hours",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.durationHoursMinutes",
+   "text": "{hours}h {minutes}m",
+   "description": "Formatted profile duration with hours and minutes",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.durationMinutes",
+   "text": "{minutes}m",
+   "description": "Formatted profile duration with minutes",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.durationMinutesSeconds",
+   "text": "{minutes}m {seconds}s",
+   "description": "Formatted profile duration with minutes and seconds",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.durationSeconds",
+   "text": "{seconds}s",
+   "description": "Formatted profile duration with seconds",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.lifetimeTokens",
+   "text": "Lifetime tokens",
+   "description": "Label for lifetime token usage on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.longestStreak",
+   "text": "Longest streak",
+   "description": "Label for longest usage streak on the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.stats.unavailable",
+   "text": "Profile stats unavailable",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.arrow-network.label",
+   "text": "{action, select, add {Add arrow network sticker} other {Move arrow network sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.bloop-robot.label",
+   "text": "{action, select, add {Add Bloop robot sticker} other {Move Bloop robot sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blossom-key.label",
+   "text": "{action, select, add {Add blossom key sticker} other {Move blossom key sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blue-folding-chair.label",
+   "text": "{action, select, add {Add blue folding chair sticker} other {Move blue folding chair sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blue-oval.label",
+   "text": "{action, select, add {Add blue oval sticker} other {Move blue oval sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.blue-pixel-chair.label",
+   "text": "{action, select, add {Add blue pixel chair sticker} other {Move blue pixel chair sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.chat-button.label",
+   "text": "{action, select, add {Add chat button sticker} other {Move chat button sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.circle-in-square.label",
+   "text": "{action, select, add {Add circle in square sticker} other {Move circle in square sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.colorful-dot-grid.label",
+   "text": "{action, select, add {Add colorful dot grid sticker} other {Move colorful dot grid sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.fallback.label",
+   "text": "{action, select, add {Add sticker} other {Move sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.goblin.label",
+   "text": "{action, select, add {Add goblin sticker} other {Move goblin sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.green-frog-plush.label",
+   "text": "{action, select, add {Add green frog plush sticker} other {Move green frog plush sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.green-pixel-hand.label",
+   "text": "{action, select, add {Add green pixel hand sticker} other {Move green pixel hand sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.green-sunburst.label",
+   "text": "{action, select, add {Add green sunburst sticker} other {Move green sunburst sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.iridescent-flower.label",
+   "text": "{action, select, add {Add iridescent flower sticker} other {Move iridescent flower sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.lavender-dot-grid.label",
+   "text": "{action, select, add {Add lavender dot grid sticker} other {Move lavender dot grid sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.letter-a-key.label",
+   "text": "{action, select, add {Add letter A key sticker} other {Move letter A key sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.letter-i-key.label",
+   "text": "{action, select, add {Add letter I key sticker} other {Move letter I key sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.letter-o-key.label",
+   "text": "{action, select, add {Add letter O key sticker} other {Move letter O key sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.orange-dot-scale.label",
+   "text": "{action, select, add {Add orange dot scale sticker} other {Move orange dot scale sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.orange-zigzag.label",
+   "text": "{action, select, add {Add orange zigzag sticker} other {Move orange zigzag sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.pink-berry.label",
+   "text": "{action, select, add {Add pink berry sticker} other {Move pink berry sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.plus-symbol.label",
+   "text": "{action, select, add {Add plus symbol sticker} other {Move plus symbol sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.saxophone-keychain.label",
+   "text": "{action, select, add {Add saxophone keychain sticker} other {Move saxophone keychain sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.send-button.label",
+   "text": "{action, select, add {Add send button sticker} other {Move send button sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.square-grid.label",
+   "text": "{action, select, add {Add square grid sticker} other {Move square grid sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.voice-button.label",
+   "text": "{action, select, add {Add voice button sticker} other {Move voice button sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.sticker.yellow-telescope.label",
+   "text": "{action, select, add {Add yellow telescope sticker} other {Move yellow telescope sticker}}",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.tokenUsage.title",
+   "text": "Token activity",
+   "description": "Heading above the token usage chart",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.tokenUsage.unavailable",
+   "text": "Token usage unavailable",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.updateError",
+   "text": "Unable to update profile",
+   "description": "Fallback error shown when profile update fails",
+   "files": [
+    "403035.6125ee3031.js",
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "profile.username.prefix",
+   "text": "@",
+   "description": "At-sign displayed before a profile username. Preserve the symbol.",
+   "files": [
+    "403035.6125ee3031.js",
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "profile.usernameAvailability.available",
+   "text": "Username available",
+   "description": "Status in the username editor when the entered username can be used",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameAvailability.checkError",
+   "text": "Couldn't check username availability. Try again",
+   "description": "Error in the username editor when the availability request fails",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameAvailability.checking",
+   "text": "Checking username availability\\u2026",
+   "description": "Status in the username editor while checking whether the entered username is available",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameAvailability.retry",
+   "text": "Retry",
+   "description": "Button to retry a failed username availability check",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameAvailability.unavailable",
+   "text": "Username is not available",
+   "description": "Error in the username editor when the entered username is taken",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameHelper",
+   "text": "Use 3-20 lowercase letters, numbers, periods, underscores, or hyphens",
+   "description": "Helper text explaining allowed username characters",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameInputLabel",
+   "text": "Username",
+   "description": "Accessible label for the editable profile username",
+   "files": [
+    "403035.6125ee3031.js",
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "profile.usernameLink.blockedSuffix",
+   "text": "Your username cannot end with \\u201C{suffix}\\u201D",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameRecovery.description",
+   "text": "Your username can\\u2019t end with \\u201C{suffix}\\u201D. Change it to continue to your profile.",
+   "description": "Explanation of why a username must be updated. The suffix includes its leading dot, for example .data.",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameRecovery.save",
+   "text": "Save and continue",
+   "description": "Button to save a new valid username and continue to the profile page",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameRecovery.title",
+   "text": "Update your username",
+   "description": "Title of the page requiring a username change before the user can view their profile",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameUpdateError",
+   "text": "Unable to update username",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameValidation.empty",
+   "text": "Enter a username",
+   "description": "Error shown when submitting an empty profile username",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameValidation.invalidCharacters",
+   "text": "Use only lowercase letters, numbers, periods, underscores, or hyphens",
+   "description": "Error shown when a profile username contains unsupported characters",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameValidation.tooLong",
+   "text": "Username must be 20 characters or fewer",
+   "description": "Error shown when a profile username is too long",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.usernameValidation.tooShort",
+   "text": "Username must be at least 3 characters long",
+   "description": "Error shown when a profile username is too short",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.v2.fastMode.value",
+   "text": "{percent, number, percent} of runs",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.v2.insights.title",
+   "text": "Insights",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.v2.plugins.title",
+   "text": "Top plugins",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.view.label",
+   "text": "Profile view",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.view.personal",
+   "text": "Personal",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.view.personalReadOnly",
+   "text": "Switch to your personal account to edit your personal profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewFetchError",
+   "text": "This profile couldn\\u2019t be loaded",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewPersonal",
+   "text": "Personal",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewScope",
+   "text": "Profile page",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewScope.heading",
+   "text": "View profile",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "profile.viewWorkspace",
+   "text": "Workspace",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.dock.dragHint",
+   "text": "Drag to move \\xb7 Click for options",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.dock.minimizeComposer",
+   "text": "Minimize composer",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.dock.openTab",
+   "text": "Open in full view",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.mainConversation",
+   "text": "Chat",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "quickChat.moreOptions",
+   "text": "Chat options",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.failedTitle",
+   "text": "Voice chat couldn\\u2019t start",
+   "description": "Title shown when an optimistic realtime voice launch fails",
+   "files": [
+    "690257.756fe5dfef.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedDescription",
+   "text": "Allow microphone access in system settings to start a voice chat",
+   "description": "Instructions shown when operating-system microphone permission must be enabled before starting realtime voice chat",
+   "files": [
+    "690257.756fe5dfef.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedTitle",
+   "text": "Microphone permission denied",
+   "description": "Title shown when realtime voice chat cannot start because the operating system denied microphone permission",
+   "files": [
+    "690257.756fe5dfef.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.openMicrophoneSettings",
+   "text": "Open system settings",
+   "description": "Button that opens the operating-system microphone privacy settings after microphone permission blocks realtime voice chat",
+   "files": [
+    "690257.756fe5dfef.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.retry",
+   "text": "Try again",
+   "description": "Button that retries a failed realtime voice launch",
+   "files": [
+    "690257.756fe5dfef.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "requestInputPanel.dismiss",
+   "text": "Dismiss",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "requestInputPanel.dismissCountdown",
+   "text": "Dismiss, {seconds, plural, one {# second} other {# seconds}} remaining",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "requestInputPanel.dismissCountdownSeconds",
+   "text": "{seconds}s",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "requestInputPanel.escapeKey",
+   "text": "ESC",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.pageSearchInput.clear",
+   "text": "Clear search",
+   "description": "Accessible label for clearing a search field",
+   "files": [
+    "584510.c1d851429e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.home.create.new",
+   "text": "New",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "space.list.searchPlaceholder",
+   "text": "Search",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "space.teamHome.continueWithoutAppearance",
+   "text": "Continue without custom icon",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.continueWithoutInvitations",
+   "text": "Continue without remaining invitations",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.creationError",
+   "text": "Could not finish creating space",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.creationOutcomeUnknown",
+   "text": "We could not confirm whether this space was created. Check your spaces before creating another one",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.creationRetry",
+   "text": "Check your connection and try again",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.dismissUnknownSetup",
+   "text": "Dismiss and view spaces",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.invitationShared",
+   "text": "Shared with {name}",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.invitationUnconfirmed",
+   "text": "Not confirmed: {name}",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.removeInvitation",
+   "text": "Remove",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.removeUnconfirmedInvitation",
+   "text": "Remove invitation for {name}",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.resumeSetup",
+   "text": "Try again to finish setting up this space",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.setupError",
+   "text": "Space setup needs attention",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.teamHome.setupUnavailable",
+   "text": "This space is no longer available",
+   "description": "Shown when an unfinished Space can no longer be opened.",
+   "files": [
+    "211440.f313ef3e83.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.chatStartFailed",
+   "text": "Couldn\\u2019t start your chat",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.checkChat",
+   "text": "Check your chat",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.draft.addAttachments",
+   "text": "Add attachments",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.draft.stop",
+   "text": "Stop",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.draft.working",
+   "text": "Working\\u2026",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.inputKept",
+   "text": "Your text is still here",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.pageSaveFailed",
+   "text": "Your Page isn\\u2019t saved yet",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.preparing",
+   "text": "Getting ready\\u2026",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.retry",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templateSetup.unconfirmed",
+   "text": "We couldn\\u2019t confirm whether your request was sent. Check the chat before starting again",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.views.content",
+   "text": "Content",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "space.views.label",
+   "text": "Space views",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "space.views.overview",
+   "text": "Overview",
+   "description": null,
+   "files": [
+    "211440.f313ef3e83.js",
+    "997680.117d42adff.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "spreadsheetEditor.insertChart",
+   "text": "Insert chart",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertImage",
+   "text": "Insert image",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "spreadsheetEditor.insertTools",
+   "text": "Shapes, Checkboxes, and more",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.iconGrid.label",
+   "text": "Icons",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.category.creative",
+   "text": "Creative",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "symbolPicker.icons.category.learning",
+   "text": "Learning",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "symbolPicker.icons.category.nature",
+   "text": "Nature",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "symbolPicker.icons.category.travel",
+   "text": "Travel and places",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "symbolPicker.icons.category.wellbeing",
+   "text": "Health and wellbeing",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "symbolPicker.icons.category.work",
+   "text": "Work",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js",
+    "211440.f313ef3e83.js",
+    "690257.756fe5dfef.js",
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 5
+  },
+  {
+   "id": "symbolPicker.icons.colors",
+   "text": "Icon colors",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.count",
+   "text": "{count, plural, one {# icon} other {# icons}}",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.empty",
+   "text": "No matching icons",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.icons.heading",
+   "text": "Icons",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIconGrid.label",
+   "text": "Team icons",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.activities",
+   "text": "Activities",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.food",
+   "text": "Food and drink",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.nature",
+   "text": "Animals and nature",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.people",
+   "text": "People and work",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.technology",
+   "text": "Technology and science",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.category.travel",
+   "text": "Travel and places",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "symbolPicker.teamIcons.search.results",
+   "text": "Search results",
+   "description": null,
+   "files": [
+    "192656.1020aa3fa3.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadWorkspace.newTab.chat",
+   "text": "Chat",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "threadWorkspace.tab.chat",
+   "text": "Chat",
+   "description": null,
+   "files": [
+    "752759.4138b8f3b5.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.freeWorkspacePlanName",
+   "text": "Business Free",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "useWorkspaces.k12PlanName",
+   "text": "ChatGPT for Teachers",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceOwnerOnboarding.logo.cropError",
+   "text": "Unable to process the workspace logo",
+   "description": null,
+   "files": [
+    "403035.6125ee3031.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "a",
+   "count": 1931
+  },
+  {
+   "name": "n",
+   "count": 1925
+  },
+  {
+   "name": "u",
+   "count": 1921
+  },
+  {
+   "name": "children",
+   "count": 1128
+  },
+  {
+   "name": "id",
+   "count": 842
+  },
+  {
+   "name": "className",
+   "count": 768
+  },
+  {
+   "name": "defaultMessage",
+   "count": 698
+  },
+  {
+   "name": "v",
+   "count": 327
+  },
+  {
+   "name": "x",
+   "count": 246
+  },
+  {
+   "name": "y",
+   "count": 237
+  },
+  {
+   "name": "width",
+   "count": 215
+  },
+  {
+   "name": "height",
+   "count": 214
+  },
+  {
+   "name": "disabled",
+   "count": 155
+  },
+  {
+   "name": "categoryId",
+   "count": 154
+  },
+  {
+   "name": "keywords",
+   "count": 152
+  },
+  {
+   "name": "description",
+   "count": 151
+  },
+  {
+   "name": "value",
+   "count": 122
+  },
+  {
+   "name": "null",
+   "count": 112
+  },
+  {
+   "name": "name",
+   "count": 106
+  },
+  {
+   "name": "size",
+   "count": 106
+  },
+  {
+   "name": "title",
+   "count": 106
+  },
+  {
+   "name": "fill",
+   "count": 101
+  },
+  {
+   "name": "label",
+   "count": 94
+  },
+  {
+   "name": "onClick",
+   "count": 91
+  },
+  {
+   "name": "pageId",
+   "count": 91
+  },
+  {
+   "name": "kind",
+   "count": 88
+  },
+  {
+   "name": "ref",
+   "count": 84
+  },
+  {
+   "name": "accountId",
+   "count": 83
+  },
+  {
+   "name": "type",
+   "count": 79
+  },
+  {
+   "name": "icon",
+   "count": 75
+  },
+  {
+   "name": "style",
+   "count": 70
+  },
+  {
+   "name": "userId",
+   "count": 68
+  },
+  {
+   "name": "enabled",
+   "count": 67
+  },
+  {
+   "name": "color",
+   "count": 66
+  },
+  {
+   "name": "role",
+   "count": 62
+  },
+  {
+   "name": "d",
+   "count": 60
+  },
+  {
+   "name": "variant",
+   "count": 58
+  },
+  {
+   "name": "get",
+   "count": 58
+  },
+  {
+   "name": "signal",
+   "count": 58
+  },
+  {
+   "name": "onClose",
+   "count": 49
+  },
+  {
+   "name": "result",
+   "count": 45
+  },
+  {
+   "name": "data",
+   "count": 43
+  },
+  {
+   "name": "scope",
+   "count": 43
+  },
+  {
+   "name": "transform",
+   "count": 43
+  },
+  {
+   "name": "frame",
+   "count": 42
+  },
+  {
+   "name": "onChange",
+   "count": 42
+  },
+  {
+   "name": "__scopeSlider",
+   "count": 40
+  },
+  {
+   "name": "values",
+   "count": 39
+  },
+  {
+   "name": "action",
+   "count": 38
+  },
+  {
+   "name": "viewBox",
+   "count": 35
+  },
+  {
+   "name": "direction",
+   "count": 35
+  },
+  {
+   "name": "top",
+   "count": 34
+  },
+  {
+   "name": "query",
+   "count": 33
+  },
+  {
+   "name": "target",
+   "count": 32
+  },
+  {
+   "name": "left",
+   "count": 31
+  },
+  {
+   "name": "rx",
+   "count": 31
+  },
+  {
+   "name": "shape",
+   "count": 30
+  },
+  {
+   "name": "content",
+   "count": 30
+  },
+  {
+   "name": "queryKey",
+   "count": 30
+  },
+  {
+   "name": "min",
+   "count": 29
+  },
+  {
+   "name": "open",
+   "count": 29
+  },
+  {
+   "name": "hostId",
+   "count": 29
+  },
+  {
+   "name": "t",
+   "count": 28
+  },
+  {
+   "name": "error",
+   "count": 28
+  },
+  {
+   "name": "conversationId",
+   "count": 28
+  },
+  {
+   "name": "sourceWidth",
+   "count": 28
+  },
+  {
+   "name": "sourceHeight",
+   "count": 28
+  },
+  {
+   "name": "cropX",
+   "count": 28
+  },
+  {
+   "name": "cropY",
+   "count": 28
+  },
+  {
+   "name": "actions",
+   "count": 27
+  },
+  {
+   "name": "isLoading",
+   "count": 27
+  },
+  {
+   "name": "right",
+   "count": 26
+  },
+  {
+   "name": "body",
+   "count": 26
+  },
+  {
+   "name": "form",
+   "count": 26
+  },
+  {
+   "name": "bottom",
+   "count": 25
+  },
+  {
+   "name": "src",
+   "count": 25
+  },
+  {
+   "name": "emoji",
+   "count": 25
+  },
+  {
+   "name": "intl",
+   "count": 25
+  },
+  {
+   "name": "username",
+   "count": 25
+  },
+  {
+   "name": "canvas",
+   "count": 24
+  },
+  {
+   "name": "center",
+   "count": 24
+  },
+  {
+   "name": "capabilities",
+   "count": 24
+  },
+  {
+   "name": "layout",
+   "count": 24
+  },
+  {
+   "name": "onSlideStart",
+   "count": 24
+  },
+  {
+   "name": "onSlideMove",
+   "count": 24
+  },
+  {
+   "name": "onSlideEnd",
+   "count": 24
+  },
+  {
+   "name": "onStepKeyDown",
+   "count": 24
+  },
+  {
+   "name": "onSelect",
+   "count": 23
+  },
+  {
+   "name": "spaceId",
+   "count": 23
+  },
+  {
+   "name": "loading",
+   "count": 23
+  },
+  {
+   "name": "isError",
+   "count": 23
+  },
+  {
+   "name": "staleTime",
+   "count": 23
+  },
+  {
+   "name": "message",
+   "count": 22
+  },
+  {
+   "name": "onDownload",
+   "count": 22
+  },
+  {
+   "name": "inkBounds",
+   "count": 21
+  },
+  {
+   "name": "visualBounds",
+   "count": 21
+  },
+  {
+   "name": "paint",
+   "count": 21
+  },
+  {
+   "name": "optical",
+   "count": 21
+  },
+  {
+   "name": "bounds",
+   "count": 21
+  },
+  {
+   "name": "insets",
+   "count": 21
+  },
+  {
+   "name": "anchors",
+   "count": 21
+  },
+  {
+   "name": "ink",
+   "count": 21
+  },
+  {
+   "name": "foreground",
+   "count": 21
+  },
+  {
+   "name": "shortcode",
+   "count": 21
+  },
+  {
+   "name": "status",
+   "count": 21
+  },
+  {
+   "name": "view",
+   "count": 21
+  },
+  {
+   "name": "max",
+   "count": 21
+  },
+  {
+   "name": "pageScope",
+   "count": 21
+  },
+  {
+   "name": "asset",
+   "count": 20
+  },
+  {
+   "name": "onKeyDown",
+   "count": 20
+  },
+  {
+   "name": "space",
+   "count": 20
+  },
+  {
+   "name": "commit",
+   "count": 20
+  },
+  {
+   "name": "visible",
+   "count": 20
+  },
+  {
+   "name": "page",
+   "count": 20
+  },
+  {
+   "name": "opacity",
+   "count": 20
+  },
+  {
+   "name": "radius",
+   "count": 19
+  },
+  {
+   "name": "symbol",
+   "count": 19
+  },
+  {
+   "name": "replace",
+   "count": 19
+  },
+  {
+   "name": "e",
+   "count": 19
+  },
+  {
+   "name": "onOpenChange",
+   "count": 19
+  },
+  {
+   "name": "animate",
+   "count": 19
+  },
+  {
+   "name": "placement",
+   "count": 19
+  },
+  {
+   "name": "tabId",
+   "count": 19
+  },
+  {
+   "name": "search",
+   "count": 18
+  },
+  {
+   "name": "count",
+   "count": 18
+  },
+  {
+   "name": "scale",
+   "count": 18
+  },
+  {
+   "name": "queryFn",
+   "count": 18
+  },
+  {
+   "name": "items",
+   "count": 18
+  },
+  {
+   "name": "in",
+   "count": 18
+  },
+  {
+   "name": "listClassName",
+   "count": 18
+  },
+  {
+   "name": "path",
+   "count": 17
+  },
+  {
+   "name": "fallback",
+   "count": 17
+  },
+  {
+   "name": "workspaceSlug",
+   "count": 17
+  },
+  {
+   "name": "fileName",
+   "count": 17
+  },
+  {
+   "name": "choices",
+   "count": 16
+  },
+  {
+   "name": "alt",
+   "count": 16
+  },
+  {
+   "name": "tabIndex",
+   "count": 16
+  },
+  {
+   "name": "heading",
+   "count": 16
+  },
+  {
+   "name": "appearance",
+   "count": 16
+  },
+  {
+   "name": "retry",
+   "count": 16
+  },
+  {
+   "name": "limit",
+   "count": 16
+  },
+  {
+   "name": "state",
+   "count": 16
+  },
+  {
+   "name": "to",
+   "count": 16
+  },
+  {
+   "name": "inverted",
+   "count": 16
+  },
+  {
+   "name": "preventScroll",
+   "count": 16
+  },
+  {
+   "name": "onSubmit",
+   "count": 16
+  },
+  {
+   "name": "libraryFileId",
+   "count": 16
+  },
+  {
+   "name": "libraryFavoriteFile",
+   "count": 16
+  },
+  {
+   "name": "tabButtonClassName",
+   "count": 16
+  },
+  {
+   "name": "index",
+   "count": 15
+  },
+  {
+   "name": "parameters",
+   "count": 15
+  },
+  {
+   "name": "key",
+   "count": 15
+  },
+  {
+   "name": "r",
+   "count": 15
+  },
+  {
+   "name": "textSizeClassName",
+   "count": 15
+  },
+  {
+   "name": "viewMode",
+   "count": 14
+  },
+  {
+   "name": "onPointerDown",
+   "count": 14
+  },
+  {
+   "name": "hover",
+   "count": 14
+  },
+  {
+   "name": "align",
+   "count": 14
+  },
+  {
+   "name": "after",
+   "count": 14
+  },
+  {
+   "name": "params",
+   "count": 14
+  },
+  {
+   "name": "side",
+   "count": 14
+  },
+  {
+   "name": "mode",
+   "count": 14
+  },
+  {
+   "name": "revealAndFocus",
+   "count": 14
+  },
+  {
+   "name": "autoFocus",
+   "count": 13
+  },
+  {
+   "name": "heart",
+   "count": 13
+  },
+  {
+   "name": "C",
+   "count": 13
+  },
+  {
+   "name": "placeholder",
+   "count": 13
+  },
+  {
+   "name": "documentType",
+   "count": 13
+  },
+  {
+   "name": "step",
+   "count": 13
+  },
+  {
+   "name": "event",
+   "count": 13
+  },
+  {
+   "name": "stopColor",
+   "count": 13
+  },
+  {
+   "name": "domain",
+   "count": 13
+  },
+  {
+   "name": "unselectedClassName",
+   "count": 13
+  },
+  {
+   "name": "inert",
+   "count": 12
+  },
+  {
+   "name": "compact",
+   "count": 12
+  },
+  {
+   "name": "source",
+   "count": 12
+  },
+  {
+   "name": "surface",
+   "count": 12
+  },
+  {
+   "name": "ariaLabel",
+   "count": 12
+  },
+  {
+   "name": "configurable",
+   "count": 12
+  },
+  {
+   "name": "startEdge",
+   "count": 12
+  },
+  {
+   "name": "endEdge",
+   "count": 12
+  },
+  {
+   "name": "active",
+   "count": 12
+  },
+  {
+   "name": "i",
+   "count": 12
+  },
+  {
+   "name": "onSave",
+   "count": 12
+  },
+  {
+   "name": "allowSkills",
+   "count": 12
+  },
+  {
+   "name": "onRetry",
+   "count": 12
+  },
+  {
+   "name": "displayName",
+   "count": 12
+  },
+  {
+   "name": "initial",
+   "count": 12
+  },
+  {
+   "name": "md",
+   "count": 12
+  },
+  {
+   "name": "profilePlugin",
+   "count": 12
+  },
+  {
+   "name": "in2",
+   "count": 12
+  },
+  {
+   "name": "gizmoId",
+   "count": 12
+  },
+  {
+   "name": "libraryFile",
+   "count": 12
+  },
+  {
+   "name": "selectedClassName",
+   "count": 12
+  },
+  {
+   "name": "uniform",
+   "count": 11
+  },
+  {
+   "name": "url",
+   "count": 11
+  },
+  {
+   "name": "onPointerMove",
+   "count": 11
+  },
+  {
+   "name": "controls",
+   "count": 11
+  },
+  {
+   "name": "before",
+   "count": 11
+  },
+  {
+   "name": "presentation",
+   "count": 11
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 11
+  },
+  {
+   "name": "onCancel",
+   "count": 11
+  },
+  {
+   "name": "once",
+   "count": 10
+  },
+  {
+   "name": "compactSize",
+   "count": 10
+  },
+  {
+   "name": "book",
+   "count": 10
+  },
+  {
+   "name": "brain",
+   "count": 10
+  },
+  {
+   "name": "customize",
+   "count": 10
+  },
+  {
+   "name": "dumbbell",
+   "count": 10
+  },
+  {
+   "name": "edit",
+   "count": 10
+  },
+  {
+   "name": "flask",
+   "count": 10
+  },
+  {
+   "name": "folder",
+   "count": 10
+  },
+  {
+   "name": "function",
+   "count": 10
+  },
+  {
+   "name": "globe",
+   "count": 10
+  },
+  {
+   "name": "health",
+   "count": 10
+  },
+  {
+   "name": "kettlebell",
+   "count": 10
+  },
+  {
+   "name": "logs",
+   "count": 10
+  },
+  {
+   "name": "lotus",
+   "count": 10
+  },
+  {
+   "name": "music",
+   "count": 10
+  },
+  {
+   "name": "palette",
+   "count": 10
+  },
+  {
+   "name": "paw",
+   "count": 10
+  },
+  {
+   "name": "plane",
+   "count": 10
+  },
+  {
+   "name": "plant",
+   "count": 10
+  },
+  {
+   "name": "popcorn",
+   "count": 10
+  },
+  {
+   "name": "stethoscope",
+   "count": 10
+  },
+  {
+   "name": "suitcase",
+   "count": 10
+  },
+  {
+   "name": "terminal",
+   "count": 10
+  },
+  {
+   "name": "wrench",
+   "count": 10
+  },
+  {
+   "name": "writing",
+   "count": 10
+  },
+  {
+   "name": "searchQuery",
+   "count": 10
+  },
+  {
+   "name": "onSearchQueryChange",
+   "count": 10
+  },
+  {
+   "name": "maxLength",
+   "count": 10
+  },
+  {
+   "name": "subtitle",
+   "count": 10
+  },
+  {
+   "name": "navigation",
+   "count": 10
+  },
+  {
+   "name": "pathname",
+   "count": 10
+  },
+  {
+   "name": "onSelectView",
+   "count": 10
+  },
+  {
+   "name": "xmlns",
+   "count": 10
+  },
+  {
+   "name": "Z",
+   "count": 10
+  },
+  {
+   "name": "item",
+   "count": 10
+  },
+  {
+   "name": "currentPlan",
+   "count": 10
+  },
+  {
+   "name": "stiffness",
+   "count": 10
+  },
+  {
+   "name": "damping",
+   "count": 10
+  },
+  {
+   "name": "mass",
+   "count": 10
+  },
+  {
+   "name": "displayOptions",
+   "count": 10
+  },
+  {
+   "name": "duration",
+   "count": 10
+  },
+  {
+   "name": "transition",
+   "count": 10
+  },
+  {
+   "name": "filter",
+   "count": 10
+  },
+  {
+   "name": "offset",
+   "count": 10
+  },
+  {
+   "name": "browserPreview",
+   "count": 10
+  },
+  {
+   "name": "length",
+   "count": 9
+  },
+  {
+   "name": "onFocus",
+   "count": 9
+  }
+ ],
+ "literal_count": 11565,
+ "literals_file": ".work/261117/literals/profile.json"
+}

@@ -1,0 +1,4492 @@
+{
+ "module": "image-editing",
+ "generated_at": "2026-11-24T02:27:15.686Z",
+ "files_scanned": 8,
+ "message_count": 381,
+ "messages": [
+  {
+   "id": "annotationCommentComposer.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.addCommentAction",
+   "text": "Add comment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.close",
+   "text": "Close comments",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "artifactComments.empty",
+   "text": "No comments yet",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.heading",
+   "text": "Comments",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "artifactComments.newCommentPlaceholder",
+   "text": "Add a comment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactEditor.fontSize",
+   "text": "Font size",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactEditor.sizePresetLabel",
+   "text": "{index, select, 0 {Display} 1 {Header} 2 {Subheading} 3 {Body} other {Small}}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.composer.memoryCorrection.placeholder",
+   "text": "Make a correction",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.composer.memoryCorrection.remove",
+   "text": "Remove memory correction",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.fileDropTarget.addAnything",
+   "text": "Add anything",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "chatgptConversations.fileDropTarget.dragInstructions",
+   "text": "Drop any file here to add it to the conversation",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "chatgptConversations.fileDropTarget.dropToAttach",
+   "text": "Drop files to attach",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "codex.chatGptConversation.imageGeneration.loadingLabel",
+   "text": "Generating image...",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.assistant",
+   "text": "ChatGPT said:",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.printAssistant",
+   "text": "ChatGPT",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.printUser",
+   "text": "You",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.conversation.roleHeading.user",
+   "text": "You said:",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.dialog.closeButton",
+   "text": "Close dialog",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "codex.localConversation.userImageAttachment",
+   "text": "User attachment",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.localConversation.userImageAttachmentFailedShort",
+   "text": "Failed",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.userMessage.showLess",
+   "text": "Show less",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.userMessage.showMore",
+   "text": "Show more",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.executorSkill.computerChanged",
+   "text": "The computer or folder changed. Choose the skill again before sending.",
+   "description": "Error when the selected skill no longer belongs to the cloud task's workspace",
+   "files": [
+    "409136.98a46e28f4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.submitButtonTooltip.send",
+   "text": "Send",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.actionFailed",
+   "text": "Couldn\\u2019t download this GIF. Try again",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.comments.comment",
+   "text": "(x: {x}, y: {y}): {comment}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.comments.frameCoordinates",
+   "text": "Frame #{frameNumber} (x: {x}, y: {y}): {comment}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.comments.frameHeading",
+   "text": "Frame #{frameNumber}:",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.comments.prompt",
+   "text": "Re-animate the GIF with these changes. Coordinates are relative to each frame. Make sure all frames are equal sized.",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.comments.sheetCoordinates",
+   "text": "Sprite sheet (x: {x}, y: {y}): {comment}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.comments.sheetFramesPromptFrameDuration",
+   "text": "Re-animate the GIF with these changes at {durationMs, number, ::.##} ms per frame. Coordinates are relative to each identified frame; comments labeled Sprite sheet use coordinates relative to the whole sheet. Make sure all frames remain equal sized.",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.copyFrame",
+   "text": "Copy frame",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.downloadFrame",
+   "text": "Download frame",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.downloadGif",
+   "text": "Download GIF",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.downloadOriginal",
+   "text": "Download original GIF",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.edit",
+   "text": "Edit",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.frameCopied",
+   "text": "Frame copied",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.framePosition",
+   "text": "Frame {current} of {total}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.frames",
+   "text": "GIF frames",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.pause",
+   "text": "Pause GIF",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.play",
+   "text": "Play GIF",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.playbackControls",
+   "text": "GIF playback controls",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.retry",
+   "text": "Retry loading GIF controls",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.sendComments",
+   "text": "Send ({count})",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.speed",
+   "text": "Playback speed",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.speedChangeFailed",
+   "text": "Couldn\\u2019t change GIF speed. Try again",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "gifEditor.speedValue",
+   "text": "{speed}\\xd7",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.heading",
+   "text": "My images",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.library-shortcut.description",
+   "text": "Find all your images and more in Library",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.library-shortcut.link.label",
+   "text": "Open Library",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.my-images.library-shortcut.link.label.space",
+   "text": "Open Space",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "image-gen.images-app.your-images.heading",
+   "text": "Your images",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageEditViewer.imageLoadError",
+   "text": "Could not load this image. Close and reopen the image to try again",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagegen.composer.suggestions.upload.aria_label",
+   "text": "Recent upload {index}",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageMarkup.back",
+   "text": "Back to image",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageMarkup.loadError",
+   "text": "Could not load markup. Reload to try again",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageMarkup.prepareError",
+   "text": "Could not prepare markup. Try again",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePanorama.close",
+   "text": "Close 360 viewer",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePanorama.currentZoom",
+   "text": "Current zoom {zoomPercent}%",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePanorama.enter",
+   "text": "Enter 360 world",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePanorama.title",
+   "text": "360 viewer",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePanorama.zoomPercent",
+   "text": "{zoomPercent}%",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePlayground.commentSurface",
+   "text": "Comment on {imageName}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePreview.headerActions",
+   "text": "Image actions",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePreview.openInSidePanel",
+   "text": "Open in side panel",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePreviewDialog.label",
+   "text": "Image preview",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePreviewDialog.panorama.loadError",
+   "text": "Could not load 360 viewer",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePreviewDialog.panorama.loading",
+   "text": "Loading 360 viewer\\u2026",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePreviewDialog.panorama.zoomIn",
+   "text": "Zoom in",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagePreviewDialog.panorama.zoomOut",
+   "text": "Zoom out",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.catalog.empty",
+   "text": "Start with your own idea",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.catalog.emptyDescription",
+   "text": "Describe the image you want to create",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.catalog.loadError",
+   "text": "Some image prompts couldn't be loaded",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js",
+    "975443.145d887523.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.catalog.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js",
+    "975443.145d887523.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.discover.closeSearch",
+   "text": "Close content search",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.discover.search",
+   "text": "Search contents",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.discover.untitled",
+   "text": "Image inspiration",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.editPending",
+   "text": "Editing image\\u2026",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.empty",
+   "text": "Images you create with ChatGPT will appear here",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.generating",
+   "text": "Creating image\\u2026",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.imageTitle",
+   "text": "Generated image",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.loadFailed",
+   "text": "Could not load images",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.loading",
+   "text": "Loading images\\u2026",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.moreImages",
+   "text": "+{count}",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.openGenerating",
+   "text": "Open image being created",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.history.retry",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.nova.preview.close",
+   "text": "Close preview",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.nova.preview.prompt",
+   "text": "Prompt",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.nova.preview.related",
+   "text": "More like this",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.nova.preview.remix",
+   "text": "Remix",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.nova.preview.useStyle",
+   "text": "Use style",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.onboarding.next",
+   "text": "Next image ideas",
+   "description": null,
+   "files": [
+    "975443.145d887523.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.onboarding.previous",
+   "text": "Previous image ideas",
+   "description": null,
+   "files": [
+    "975443.145d887523.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.onboarding.suggestions",
+   "text": "Image ideas",
+   "description": null,
+   "files": [
+    "975443.145d887523.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.page.title",
+   "text": "Images",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.aspectRatio",
+   "text": "Aspect ratio",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.aspectRatioInstruction",
+   "text": "Output aspect ratio: {aspectRatio}. Use this output ratio instead of any conflicting aspect ratio or framing instruction above.",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.aspectRatioSelected",
+   "text": "Aspect ratio: {ratio, select, auto {Auto} other {{ratio}}}",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.availabilityError",
+   "text": "Couldn't check availability",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.chooseMorePhotos",
+   "text": "{count, plural, one {Choose one more photo} other {Choose # more photos}}",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.choosePhotos",
+   "text": "{count, plural, one {Choose a photo} other {Choose # photos}}",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.imageUnavailable",
+   "text": "Preview unavailable",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.loadError.reload",
+   "text": "Reload and try again",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.loadError.title",
+   "text": "Couldn\\u2019t open preview",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.photoLimitReached",
+   "text": "You've reached your photo limit. Try again later",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.photos",
+   "text": "Photos",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.rateLimited",
+   "text": "Image creation is currently unavailable. Please try again later",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.ratioAuto",
+   "text": "Auto",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.recentPhoto",
+   "text": "Photo {index}",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.references.loadError",
+   "text": "Saved references couldn't be loaded",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.removePhoto",
+   "text": "Remove {name}",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.seeLess",
+   "text": "See less",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.seeMore",
+   "text": "See more",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.sendError",
+   "text": "Couldn't start your image. Try again",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.suggestedImages",
+   "text": "Suggested images",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.suggestedImages.next",
+   "text": "Next suggested images",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.suggestedImages.previous",
+   "text": "Previous suggested images",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.truncationMarker",
+   "text": "\\u2026",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.tryIt",
+   "text": "Try it",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.preview.uploadError",
+   "text": "Couldn't add all photos. Remove any failed upload and add it again",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.uploading",
+   "text": "Uploading photos\\u2026",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.uploadPhotoHeading",
+   "text": "Upload photo",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.preview.uploadPhotosToTry",
+   "text": "{count, plural, one {Upload photo} other {Upload photos}}",
+   "description": null,
+   "files": [
+    "45428.67134ed709.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.promptDialog.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.promptDialog.choosePhoto",
+   "text": "Choose a new photo",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.promptDialog.create",
+   "text": "Create image",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "images.reference.attach",
+   "text": "Attach a photo",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.back",
+   "text": "Back to suggestions",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.loadError",
+   "text": "Recent photos couldn't be loaded",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.next",
+   "text": "Next photos",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.photoError",
+   "text": "Couldn't attach photo",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.photoName",
+   "text": "Photo {position}",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.photos",
+   "text": "Reference photos",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.previous",
+   "text": "Previous photos",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.recents",
+   "text": "Recents",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "images.reference.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.reference.upload",
+   "text": "Upload a photo",
+   "description": null,
+   "files": [
+    "409136.98a46e28f4.js",
+    "500617.e5260bbb0f.js",
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "images.sketch.unavailable",
+   "text": "Sketch is unavailable right now",
+   "description": "Error toast when an Images sketch card cannot open the drawing editor because the composer is not ready or cannot accept a sketch attachment. The user can select the card again to retry.",
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.myImages.tab",
+   "text": "My images",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.promptSections.compact.label",
+   "text": "Image category",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.promptSections.loading.ariaLabel",
+   "text": "Loading image categories",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.promptSections.tab.templates",
+   "text": "Templates",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.promptSections.tab.trending",
+   "text": "Trending",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.promptSections.tabs.ariaLabel",
+   "text": "Image prompt categories",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imagesApp.yourImages.tab",
+   "text": "Your images",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.addComment",
+   "text": "Add comment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageSidePanel.addCommentPlaceholder",
+   "text": "Add a comment\\u2026",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.landscape",
+   "text": "Landscape",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.portrait",
+   "text": "Portrait",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.square",
+   "text": "Square",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.story",
+   "text": "Story",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.aspectRatio.widescreen",
+   "text": "Widescreen",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.cancelCommentEdit",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageSidePanel.cancelCommentMode",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.cancelRemoveMode",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.comment",
+   "text": "Comment",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.commentCount",
+   "text": "{count, plural, one {# comment} other {# comments}}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageSidePanel.commentHelperDesktop",
+   "text": "Click on the image to add comments",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.commentSurface",
+   "text": "Image comment surface",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.commentUploadFailure",
+   "text": "Failed to add image comment",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.deleteComment",
+   "text": "Delete comment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageSidePanel.discardComments.description",
+   "text": "Your unsent comments on this image will be lost.",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.discardComments.title",
+   "text": "Discard comments?",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.downloadFailure",
+   "text": "Could not download image",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.editComment",
+   "text": "Edit comment {number}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.editCommentInput",
+   "text": "Edit comment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageSidePanel.erase",
+   "text": "Erase",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.imageDownloadFailed",
+   "text": "Couldn\\u2019t load this image. Please try again",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.imageUnavailable",
+   "text": "This image is no longer available. Try uploading it again",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.markup",
+   "text": "Markup",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.moveToolbar",
+   "text": "Move toolbar",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.moveToolbarDescription",
+   "text": "Drag or use arrow keys to move. Press Home to reset.",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.pointComment.editInstructionPlaceholder",
+   "text": "Describe what to change here\\u2026",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.redoRemoveSelection",
+   "text": "Redo",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.regionComment.selectedBounds",
+   "text": "Selected region: {name}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.remove",
+   "text": "Remove",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeBackground",
+   "text": "Remove BG",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeBackgroundPrompt",
+   "text": "Remove the background from this image. Keep all foreground subjects unchanged and fully intact, with clean, smooth edges. Make the background transparent.",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeBrushSize",
+   "text": "Brush size",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeHelper",
+   "text": "Brush over what you want to remove",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removePrompt",
+   "text": "Remove the area marked in the second image from the first image",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeSelectionPrompt",
+   "text": "Remove the selected area from this image",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.removeSurface",
+   "text": "Mark areas to remove",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.resize",
+   "text": "Resize",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.resizePrompt",
+   "text": "Make the aspect ratio {aspectRatio}",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.saveCommentEdit",
+   "text": "Save",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageSidePanel.sendComments",
+   "text": "Send",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.sendRemoveSelection",
+   "text": "Send",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.tools",
+   "text": "Image editing tools",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageSidePanel.undoRemoveSelection",
+   "text": "Undo",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.add",
+   "text": "Add text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.addComment",
+   "text": "Add comment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.adjustedTextGuides",
+   "text": "Adjusted text guides",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.backToImage",
+   "text": "Back to image",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.backToOriginal",
+   "text": "Back to original",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.backwardLabel",
+   "text": "Backward",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.batchInstruction",
+   "text": "Apply these comments together to the attached {width} \\xd7 {height} image. Harmonize the edited lettering with the surrounding image and preserve content outside the requested changes.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.bendGuide",
+   "text": "Bend",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.bringForward",
+   "text": "Bring forward",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.bringToFront",
+   "text": "Bring to front",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.cancelPainter",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.checkLibrary",
+   "text": "Check Library",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.closeEditsSidebar",
+   "text": "Close image edits",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.closeLayerProperties",
+   "text": "Close Layer Properties",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.commentList",
+   "text": "Text comments",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.currentAlignment",
+   "text": "{alignment, select, left {Align left} center {Align center} other {Align right}}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.currentGuideLine",
+   "text": "Text line, {line}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.deleteBlock",
+   "text": "Delete",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.deleteLayerRequest",
+   "text": "Request deletion",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.directTextAdded",
+   "text": "Added text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.directTextChanged",
+   "text": "Changed to \\u201C{text}\\u201D",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.directTextDeleted",
+   "text": "Deleted text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.discardChanges",
+   "text": "Discard changes",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.discardDescription",
+   "text": "This discards the unsaved edits and comments on this image.",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.discardTitle",
+   "text": "Discard all text edits?",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editAddedPosition",
+   "text": "Position ({x, number}, {y, number}) px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editAlignment",
+   "text": "{alignment, select, left {Aligned left} center {Aligned center} other {Aligned right}}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editBoxSize",
+   "text": "Box size {width, number} \\xd7 {height, number} px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editCharacterWidth",
+   "text": "Character width {value, number, percent}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editFontFamily",
+   "text": "Font {name}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editFontSize",
+   "text": "Font size {value, number} px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editGuides",
+   "text": "Edit text guides",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editLetterSpacing",
+   "text": "Letter spacing {value, number} px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editLineHeight",
+   "text": "Line height {value, number}\\xd7",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editMovedTo",
+   "text": "Moved text to ({x, number}, {y, number}) px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editRotation",
+   "text": "Rotation {value, number}\\xb0",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editsLayerOrder",
+   "text": "Layer order",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editsSidebarTitle",
+   "text": "Image edits",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editStackPosition",
+   "text": "\\u201C{name}\\u201D moved from layer {from, number} to {to, number}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editTextColor",
+   "text": "Text color {color}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editTextGradient",
+   "text": "Gradient fill ({colors})",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editTextLayout",
+   "text": "Updated text layout",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.editWordSpacing",
+   "text": "Word spacing {value, number} px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.emptyBoxLabel",
+   "text": "Text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.emptyEditsSidebar",
+   "text": "No image edits",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.emptyPaintTarget",
+   "text": "Apply formatting to empty text box",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.eraseImageWording",
+   "text": "Remove the lettering and restore the background.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.expandLayerChanges",
+   "text": "{count, plural, one {# change} other {# changes}}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.extractionFailed",
+   "text": "Something went wrong",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.finishGuides",
+   "text": "Done",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.fontSize",
+   "text": "Font size",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.formatPainter",
+   "text": "Format Painter",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.forwardLabel",
+   "text": "Forward",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.frameHeight",
+   "text": "Scale to height",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.frameWidth",
+   "text": "Width",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.frameX",
+   "text": "X position",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.frameY",
+   "text": "Y position",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.guideLineWording",
+   "text": "Line {number} \\xb7 {text}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.guideMode",
+   "text": "Text guide",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.guidePoint",
+   "text": "{kind, select, baseline {Baseline} other {Upper contour}}, {line, select, block {text block} other {line {line}}}, {control, select, yes {control point} other {anchor}} {index}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.guidePointHelp",
+   "text": "Drag or use the arrow keys to move this point. Hold Shift with an arrow key to move ten pixels.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.guideTextLine",
+   "text": "Text line",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.heightGuide",
+   "text": "Letter height",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.horizontalScale",
+   "text": "Character width",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.imageFonts",
+   "text": "From this image",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.invalidGeometry",
+   "text": "This text does not fit inside the image. Move it, widen its box, or reduce its size",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.keepEditing",
+   "text": "Keep editing",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.actions",
+   "text": "Layer actions",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.addWording",
+   "text": "Apply to request",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.cancelWording",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.editText",
+   "text": "Edit text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.emptyText",
+   "text": "Text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resetPlacement",
+   "text": "Reset placement",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeE",
+   "text": "Resize from right",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeN",
+   "text": "Resize from top",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeNE",
+   "text": "Resize from top right",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeNW",
+   "text": "Resize from top left",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeS",
+   "text": "Resize from bottom",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeSE",
+   "text": "Resize from bottom right",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeSW",
+   "text": "Resize from bottom left",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.resizeW",
+   "text": "Resize from left",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.rotate",
+   "text": "Rotate layer",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.wording",
+   "text": "Replacement text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layer.wordingHint",
+   "text": "Send to update the lettering in the image.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layerChanges",
+   "text": "Changes",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layerEditSource",
+   "text": "{kind, select, object {Object} other {Text}} \\u201C{name}\\u201D at ({x}, {y}), {width} \\xd7 {height} pixels.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layerProperties",
+   "text": "Layer Properties",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layerRequestInstructions",
+   "text": "Apply these edits to the attached {width} \\xd7 {height} image. Coordinates use the top-left corner of the image as the origin. Keep surrounding content intact.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.layers",
+   "text": "Layers",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.letterSpacing",
+   "text": "Letter spacing",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.lineHeight",
+   "text": "Line height",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.loadingAccessible",
+   "text": "Loading image layers",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.loadingDocument",
+   "text": "Loading layers\\u2026",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.moveText",
+   "text": "Move text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.nativeLayerEditMask",
+   "text": "The white areas in the selection image mark the source and destination regions for these edits.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.newText",
+   "text": "New text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.noEditableText",
+   "text": "No editable text found",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.noGuides",
+   "text": "This text layer has no editable guides.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.noteExcerptTarget",
+   "text": "Originally highlighted text \\u201C{excerpt}\\u201D. Current block \\u201C{text}\\u201D at ({x}, {y}), {width} \\xd7 {height} pixels, rotated {rotation}\\xb0. {body}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.noteTarget",
+   "text": "Text \\u201C{text}\\u201D at ({x}, {y}), {width} \\xd7 {height} pixels, rotated {rotation}\\xb0. {body}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.numberedComment",
+   "text": "Comment {number}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageTextEditing.objectNoteTarget",
+   "text": "Object \\u201C{text}\\u201D at ({x}, {y}), {width} \\xd7 {height} pixels. {body}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.openComment",
+   "text": "Open comment on {target}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.openLayerProperties",
+   "text": "Layer Properties",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.paintTarget",
+   "text": "Apply formatting to {text}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.pixelUnit",
+   "text": "px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.preparing",
+   "text": "Preparing layers\\u2026",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.preparingAccessible",
+   "text": "Preparing image layers",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.previewUnavailable",
+   "text": "Couldn\\u2019t load the editable preview",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.reconnecting",
+   "text": "Reconnecting\\u2026",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.redo",
+   "text": "Redo",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.removalRequested",
+   "text": "Removal requested",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.removeImageObject",
+   "text": "Remove the object and restore the background.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.renderFailed",
+   "text": "This image could not be rendered. Retry loading before editing",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.replaceImageWording",
+   "text": "Change the lettering to \\u201C{words}\\u201D, matching its existing style.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.requestedLayerHint",
+   "text": "Changes to this layer are applied when you send the image edit.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.requestedObjectHint",
+   "text": "Adjust position and size, or add a comment for other changes. Choose Send to apply your edits.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.requestFailed",
+   "text": "Couldn\\u2019t send your edit. Try again.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.requestHeight",
+   "text": "Height",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.requestLayerPosition",
+   "text": "Move it to ({x}, {y}) pixels and restore the exposed background.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.requestLayerSize",
+   "text": "Resize it to {width} \\xd7 {height} pixels and restore the exposed background.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.resizeLeft",
+   "text": "Resize text from left",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.resizeRight",
+   "text": "Resize text from right",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retryLoading",
+   "text": "Retry loading",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retryPreparation",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retrySave",
+   "text": "Retry save",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.retrySavedPreview",
+   "text": "Retry loading",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.returnToEditing",
+   "text": "Return to editing",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.revertIndividualChange",
+   "text": "Revert this change",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.revertLayerEditGroup",
+   "text": "Revert all changes to {name}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.revertLayerOrder",
+   "text": "Revert layer order",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.revertUnnamedLayerEdit",
+   "text": "Revert text edit",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.rotateImageRegion",
+   "text": "Rotate it {angle, number}\\xb0 {direction, select, clockwise {clockwise} other {counterclockwise}} around its center.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.rotation",
+   "text": "Rotation",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.save",
+   "text": "Save",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveAndSend",
+   "text": "Save and Send",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveAnotherCopy",
+   "text": "Save another copy",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageTextEditing.saveAnotherDescription",
+   "text": "An earlier save may already exist in Library. This will save your current text edits as another copy",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveAnotherTitle",
+   "text": "Save another copy?",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saved",
+   "text": "Saved",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.savedPreviewUnavailable",
+   "text": "Saved; preview unavailable",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveFailed",
+   "text": "Couldn\\u2019t save this image",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.savePermission",
+   "text": "You no longer have permission to save this image",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveRateLimited",
+   "text": "Too many save requests. Try again in a moment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveRejected",
+   "text": "Couldn\\u2019t save these changes. Return to editing to revise them",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveSourceUnavailable",
+   "text": "The source for this edit is unavailable",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saveUncertain",
+   "text": "Save may have completed",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.saving",
+   "text": "Saving image",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.savingThumbnail",
+   "text": "Saving image",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaledFontSize",
+   "text": "{size} px",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromBottom",
+   "text": "Scale text from bottom",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromBottomLeft",
+   "text": "Scale text from bottom left",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromBottomRight",
+   "text": "Scale text from bottom right",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromTop",
+   "text": "Scale text from top",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromTopLeft",
+   "text": "Scale text from top left",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.scaleFromTopRight",
+   "text": "Scale text from top right",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.selectFormatTarget",
+   "text": "Select another text layer to apply this formatting.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.selectLayerProperties",
+   "text": "Select a layer to view its properties",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sendBackward",
+   "text": "Send backward",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sendEditedImage",
+   "text": "Here\\u2019s my edited image.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sendToBack",
+   "text": "Send to back",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.shapeLetterHeightOnImage",
+   "text": "Drag a point on the upper guide to change the letter height.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.shapeTextOnImage",
+   "text": "Drag a guide point on the image to bend the text.",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.sharedGuide",
+   "text": "Shared guide",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.spacingSection",
+   "text": "Spacing",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.stackingOrder",
+   "text": "Text Stacking Order",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.textColor",
+   "text": "Text color",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.textContent",
+   "text": "Text content",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.toggleProperties",
+   "text": "Text properties",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.toolbarEditCount",
+   "text": "{count, plural, one {# edit} other {# edits}}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.transformSection",
+   "text": "Position & size",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.unavailableDocument",
+   "text": "Can\\u2019t open Layers for this image",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.undo",
+   "text": "Undo",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.unreadableRequestText",
+   "text": "Text",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.unsupportedCharacters",
+   "text": "This font cannot render {characters}. Change the text or choose another font",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.versionBadge",
+   "text": "v{version, number}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageTextEditing.viewNumberedComment",
+   "text": "View comment {number}",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js",
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "imageTextEditing.wordSpacing",
+   "text": "Word spacing",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "imageViewer.zoomUnavailable",
+   "text": "\\u2014",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.results.loading",
+   "text": "Loading library",
+   "description": null,
+   "files": [
+    "570369.7bf6f653b0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.pendingProjectless.creating",
+   "text": "Starting chat",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.alignment",
+   "text": "Alignment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.font",
+   "text": "Font family",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.mixed",
+   "text": "Mixed",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "presentationEditor.textAlignment",
+   "text": "Text alignment",
+   "description": null,
+   "files": [
+    "216721.353f71a396.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "skills.pageSearchInput.clear",
+   "text": "Clear search",
+   "description": null,
+   "files": [
+    "500617.e5260bbb0f.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "thinkingShimmer.default",
+   "text": "Thinking",
+   "description": null,
+   "files": [
+    "769550.c57ec748e4.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "viewerHeader.zoom",
+   "text": "Zoom",
+   "description": null,
+   "files": [
+    "915524.f8563bce31.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 1006
+  },
+  {
+   "name": "className",
+   "count": 733
+  },
+  {
+   "name": "id",
+   "count": 580
+  },
+  {
+   "name": "defaultMessage",
+   "count": 462
+  },
+  {
+   "name": "x",
+   "count": 324
+  },
+  {
+   "name": "y",
+   "count": 324
+  },
+  {
+   "name": "width",
+   "count": 283
+  },
+  {
+   "name": "height",
+   "count": 275
+  },
+  {
+   "name": "disabled",
+   "count": 186
+  },
+  {
+   "name": "ref",
+   "count": 161
+  },
+  {
+   "name": "size",
+   "count": 129
+  },
+  {
+   "name": "onClick",
+   "count": 129
+  },
+  {
+   "name": "color",
+   "count": 121
+  },
+  {
+   "name": "null",
+   "count": 120
+  },
+  {
+   "name": "top",
+   "count": 92
+  },
+  {
+   "name": "left",
+   "count": 86
+  },
+  {
+   "name": "style",
+   "count": 77
+  },
+  {
+   "name": "title",
+   "count": 70
+  },
+  {
+   "name": "src",
+   "count": 64
+  },
+  {
+   "name": "name",
+   "count": 62
+  },
+  {
+   "name": "frame",
+   "count": 62
+  },
+  {
+   "name": "conversationId",
+   "count": 61
+  },
+  {
+   "name": "value",
+   "count": 60
+  },
+  {
+   "name": "onChange",
+   "count": 60
+  },
+  {
+   "name": "role",
+   "count": 60
+  },
+  {
+   "name": "variant",
+   "count": 58
+  },
+  {
+   "name": "kind",
+   "count": 56
+  },
+  {
+   "name": "md",
+   "count": 56
+  },
+  {
+   "name": "radius",
+   "count": 50
+  },
+  {
+   "name": "label",
+   "count": 49
+  },
+  {
+   "name": "text",
+   "count": 49
+  },
+  {
+   "name": "onClose",
+   "count": 49
+  },
+  {
+   "name": "viewBox",
+   "count": 48
+  },
+  {
+   "name": "fill",
+   "count": 48
+  },
+  {
+   "name": "type",
+   "count": 46
+  },
+  {
+   "name": "image",
+   "count": 46
+  },
+  {
+   "name": "alt",
+   "count": 44
+  },
+  {
+   "name": "preventScroll",
+   "count": 43
+  },
+  {
+   "name": "asset",
+   "count": 42
+  },
+  {
+   "name": "body",
+   "count": 40
+  },
+  {
+   "name": "bottom",
+   "count": 39
+  },
+  {
+   "name": "items",
+   "count": 39
+  },
+  {
+   "name": "content",
+   "count": 36
+  },
+  {
+   "name": "bounds",
+   "count": 35
+  },
+  {
+   "name": "onPointerDown",
+   "count": 34
+  },
+  {
+   "name": "right",
+   "count": 33
+  },
+  {
+   "name": "layout",
+   "count": 33
+  },
+  {
+   "name": "source",
+   "count": 32
+  },
+  {
+   "name": "onKeyDown",
+   "count": 31
+  },
+  {
+   "name": "signal",
+   "count": 31
+  },
+  {
+   "name": "surface",
+   "count": 30
+  },
+  {
+   "name": "icon",
+   "count": 30
+  },
+  {
+   "name": "onSelect",
+   "count": 30
+  },
+  {
+   "name": "target",
+   "count": 30
+  },
+  {
+   "name": "enabled",
+   "count": 30
+  },
+  {
+   "name": "canvas",
+   "count": 29
+  },
+  {
+   "name": "shape",
+   "count": 29
+  },
+  {
+   "name": "center",
+   "count": 29
+  },
+  {
+   "name": "ink",
+   "count": 29
+  },
+  {
+   "name": "foreground",
+   "count": 29
+  },
+  {
+   "name": "d",
+   "count": 29
+  },
+  {
+   "name": "e",
+   "count": 29
+  },
+  {
+   "name": "inkBounds",
+   "count": 28
+  },
+  {
+   "name": "visualBounds",
+   "count": 28
+  },
+  {
+   "name": "paint",
+   "count": 28
+  },
+  {
+   "name": "optical",
+   "count": 28
+  },
+  {
+   "name": "insets",
+   "count": 28
+  },
+  {
+   "name": "anchors",
+   "count": 28
+  },
+  {
+   "name": "capabilities",
+   "count": 28
+  },
+  {
+   "name": "transform",
+   "count": 28
+  },
+  {
+   "name": "onCancel",
+   "count": 27
+  },
+  {
+   "name": "mode",
+   "count": 27
+  },
+  {
+   "name": "prompt",
+   "count": 27
+  },
+  {
+   "name": "region",
+   "count": 26
+  },
+  {
+   "name": "opacity",
+   "count": 26
+  },
+  {
+   "name": "open",
+   "count": 26
+  },
+  {
+   "name": "get",
+   "count": 26
+  },
+  {
+   "name": "item",
+   "count": 25
+  },
+  {
+   "name": "presentation",
+   "count": 24
+  },
+  {
+   "name": "selected",
+   "count": 23
+  },
+  {
+   "name": "values",
+   "count": 23
+  },
+  {
+   "name": "inert",
+   "count": 23
+  },
+  {
+   "name": "rotation",
+   "count": 22
+  },
+  {
+   "name": "onSubmit",
+   "count": 22
+  },
+  {
+   "name": "isTemporaryChat",
+   "count": 22
+  },
+  {
+   "name": "zoom",
+   "count": 21
+  },
+  {
+   "name": "isError",
+   "count": 21
+  },
+  {
+   "name": "number",
+   "count": 20
+  },
+  {
+   "name": "tabIndex",
+   "count": 20
+  },
+  {
+   "name": "print",
+   "count": 20
+  },
+  {
+   "name": "imageSize",
+   "count": 19
+  },
+  {
+   "name": "t",
+   "count": 18
+  },
+  {
+   "name": "data",
+   "count": 18
+  },
+  {
+   "name": "ariaLabel",
+   "count": 18
+  },
+  {
+   "name": "onEdit",
+   "count": 18
+  },
+  {
+   "name": "uniform",
+   "count": 18
+  },
+  {
+   "name": "transition",
+   "count": 18
+  },
+  {
+   "name": "scope",
+   "count": 18
+  },
+  {
+   "name": "imageRef",
+   "count": 18
+  },
+  {
+   "name": "hostId",
+   "count": 18
+  },
+  {
+   "name": "listClassName",
+   "count": 18
+  },
+  {
+   "name": "dir",
+   "count": 17
+  },
+  {
+   "name": "rendering",
+   "count": 17
+  },
+  {
+   "name": "key",
+   "count": 17
+  },
+  {
+   "name": "viewport",
+   "count": 17
+  },
+  {
+   "name": "comments",
+   "count": 17
+  },
+  {
+   "name": "status",
+   "count": 17
+  },
+  {
+   "name": "onOpen",
+   "count": 16
+  },
+  {
+   "name": "count",
+   "count": 16
+  },
+  {
+   "name": "error",
+   "count": 16
+  },
+  {
+   "name": "onFilesDropped",
+   "count": 16
+  },
+  {
+   "name": "inset",
+   "count": 16
+  },
+  {
+   "name": "referrerPolicy",
+   "count": 16
+  },
+  {
+   "name": "imageSource",
+   "count": 16
+  },
+  {
+   "name": "tabButtonClassName",
+   "count": 16
+  },
+  {
+   "name": "min",
+   "count": 15
+  },
+  {
+   "name": "hover",
+   "count": 15
+  },
+  {
+   "name": "previewSrc",
+   "count": 15
+  },
+  {
+   "name": "hidden",
+   "count": 15
+  },
+  {
+   "name": "loading",
+   "count": 15
+  },
+  {
+   "name": "zoomPercent",
+   "count": 15
+  },
+  {
+   "name": "n",
+   "count": 14
+  },
+  {
+   "name": "stroke",
+   "count": 14
+  },
+  {
+   "name": "vectorEffect",
+   "count": 14
+  },
+  {
+   "name": "placement",
+   "count": 14
+  },
+  {
+   "name": "initial",
+   "count": 14
+  },
+  {
+   "name": "operationId",
+   "count": 14
+  },
+  {
+   "name": "conversationOrigin",
+   "count": 14
+  },
+  {
+   "name": "aspectRatio",
+   "count": 14
+  },
+  {
+   "name": "after",
+   "count": 13
+  },
+  {
+   "name": "l",
+   "count": 13
+  },
+  {
+   "name": "animate",
+   "count": 13
+  },
+  {
+   "name": "clipRule",
+   "count": 13
+  },
+  {
+   "name": "onOpenChange",
+   "count": 13
+  },
+  {
+   "name": "onCloseAutoFocus",
+   "count": 13
+  },
+  {
+   "name": "returnFocusTo",
+   "count": 13
+  },
+  {
+   "name": "gizmoId",
+   "count": 13
+  },
+  {
+   "name": "accountId",
+   "count": 13
+  },
+  {
+   "name": "onUpload",
+   "count": 13
+  },
+  {
+   "name": "refetch",
+   "count": 13
+  },
+  {
+   "name": "root",
+   "count": 13
+  },
+  {
+   "name": "clientX",
+   "count": 13
+  },
+  {
+   "name": "clientY",
+   "count": 13
+  },
+  {
+   "name": "unselectedClassName",
+   "count": 13
+  },
+  {
+   "name": "max",
+   "count": 12
+  },
+  {
+   "name": "align",
+   "count": 12
+  },
+  {
+   "name": "active",
+   "count": 12
+  },
+  {
+   "name": "onPointerMove",
+   "count": 12
+  },
+  {
+   "name": "onPointerCancel",
+   "count": 12
+  },
+  {
+   "name": "strokeWidth",
+   "count": 12
+  },
+  {
+   "name": "onDelete",
+   "count": 12
+  },
+  {
+   "name": "fillRule",
+   "count": 12
+  },
+  {
+   "name": "imageRect",
+   "count": 12
+  },
+  {
+   "name": "toolbarRef",
+   "count": 12
+  },
+  {
+   "name": "duration",
+   "count": 12
+  },
+  {
+   "name": "a",
+   "count": 12
+  },
+  {
+   "name": "uploadSlotPrefetch",
+   "count": 12
+  },
+  {
+   "name": "uploadDisabled",
+   "count": 12
+  },
+  {
+   "name": "onZoomPercentChange",
+   "count": 12
+  },
+  {
+   "name": "selectedClassName",
+   "count": 12
+  },
+  {
+   "name": "suffix",
+   "count": 11
+  },
+  {
+   "name": "rows",
+   "count": 11
+  },
+  {
+   "name": "action",
+   "count": 11
+  },
+  {
+   "name": "onPointerUp",
+   "count": 11
+  },
+  {
+   "name": "clipPath",
+   "count": 11
+  },
+  {
+   "name": "review",
+   "count": 11
+  },
+  {
+   "name": "reviewKey",
+   "count": 11
+  },
+  {
+   "name": "toolbar",
+   "count": 11
+  },
+  {
+   "name": "header",
+   "count": 11
+  },
+  {
+   "name": "mimeType",
+   "count": 11
+  },
+  {
+   "name": "userId",
+   "count": 11
+  },
+  {
+   "name": "ratio",
+   "count": 11
+  },
+  {
+   "name": "search",
+   "count": 11
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 11
+  },
+  {
+   "name": "toastId",
+   "count": 11
+  },
+  {
+   "name": "navigationDisabled",
+   "count": 11
+  },
+  {
+   "name": "$type",
+   "count": 11
+  },
+  {
+   "name": "menuPlacement",
+   "count": 10
+  },
+  {
+   "name": "side",
+   "count": 10
+  },
+  {
+   "name": "lineIndex",
+   "count": 10
+  },
+  {
+   "name": "pointerEvents",
+   "count": 10
+  },
+  {
+   "name": "position",
+   "count": 10
+  },
+  {
+   "name": "onPointerLeave",
+   "count": 10
+  },
+  {
+   "name": "onSave",
+   "count": 10
+  },
+  {
+   "name": "placeholder",
+   "count": 10
+  },
+  {
+   "name": "windowZoom",
+   "count": 10
+  },
+  {
+   "name": "i",
+   "count": 10
+  },
+  {
+   "name": "ease",
+   "count": 10
+  },
+  {
+   "name": "thumbnail",
+   "count": 10
+  },
+  {
+   "name": "comment",
+   "count": 10
+  },
+  {
+   "name": "xmlns",
+   "count": 10
+  },
+  {
+   "name": "portalRoot",
+   "count": 10
+  },
+  {
+   "name": "scrollContainerRef",
+   "count": 10
+  },
+  {
+   "name": "group",
+   "count": 10
+  },
+  {
+   "name": "viewerId",
+   "count": 10
+  },
+  {
+   "name": "isSubmitting",
+   "count": 10
+  },
+  {
+   "name": "maxLength",
+   "count": 9
+  },
+  {
+   "name": "baseline",
+   "count": 9
+  },
+  {
+   "name": "fontSize",
+   "count": 9
+  },
+  {
+   "name": "offset",
+   "count": 9
+  },
+  {
+   "name": "passive",
+   "count": 9
+  },
+  {
+   "name": "onFocus",
+   "count": 9
+  },
+  {
+   "name": "destination",
+   "count": 9
+  },
+  {
+   "name": "field",
+   "count": 9
+  },
+  {
+   "name": "onRevert",
+   "count": 9
+  },
+  {
+   "name": "rtl",
+   "count": 9
+  },
+  {
+   "name": "autoFocus",
+   "count": 9
+  },
+  {
+   "name": "regions",
+   "count": 9
+  },
+  {
+   "name": "renderToolbar",
+   "count": 9
+  },
+  {
+   "name": "preview",
+   "count": 9
+  },
+  {
+   "name": "o",
+   "count": 9
+  },
+  {
+   "name": "requiresGizmoId",
+   "count": 9
+  },
+  {
+   "name": "draggable",
+   "count": 9
+  },
+  {
+   "name": "focus",
+   "count": 9
+  },
+  {
+   "name": "commentMode",
+   "count": 9
+  },
+  {
+   "name": "before",
+   "count": 8
+  },
+  {
+   "name": "upper_contour",
+   "count": 8
+  },
+  {
+   "name": "onKeyDownCapture",
+   "count": 8
+  },
+  {
+   "name": "onValueChange",
+   "count": 8
+  },
+  {
+   "name": "pointerId",
+   "count": 8
+  },
+  {
+   "name": "onLostPointerCapture",
+   "count": 8
+  },
+  {
+   "name": "s",
+   "count": 8
+  },
+  {
+   "name": "actions",
+   "count": 8
+  },
+  {
+   "name": "selection",
+   "count": 8
+  },
+  {
+   "name": "reducedMotion",
+   "count": 8
+  },
+  {
+   "name": "session",
+   "count": 8
+  },
+  {
+   "name": "queryKey",
+   "count": 8
+  },
+  {
+   "name": "queryFn",
+   "count": 8
+  },
+  {
+   "name": "W",
+   "count": 8
+  },
+  {
+   "name": "h",
+   "count": 8
+  },
+  {
+   "name": "maximum",
+   "count": 8
+  },
+  {
+   "name": "minimum",
+   "count": 8
+  },
+  {
+   "name": "D",
+   "count": 8
+  },
+  {
+   "name": "S",
+   "count": 8
+  },
+  {
+   "name": "description",
+   "count": 8
+  },
+  {
+   "name": "cwd",
+   "count": 8
+  },
+  {
+   "name": "contentProps",
+   "count": 8
+  },
+  {
+   "name": "onError",
+   "count": 8
+  },
+  {
+   "name": "aspectRatios",
+   "count": 8
+  },
+  {
+   "name": "browser",
+   "count": 8
+  },
+  {
+   "name": "navigation",
+   "count": 8
+  },
+  {
+   "name": "novaEnabled",
+   "count": 8
+  },
+  {
+   "name": "imageAssetResolver",
+   "count": 8
+  },
+  {
+   "name": "sourceImage",
+   "count": 8
+  },
+  {
+   "name": "message",
+   "count": 8
+  },
+  {
+   "name": "libraryFileId",
+   "count": 8
+  },
+  {
+   "name": "speed",
+   "count": 8
+  },
+  {
+   "name": "fileInfoSource",
+   "count": 8
+  },
+  {
+   "name": "toolbarVariant",
+   "count": 8
+  },
+  {
+   "name": "B",
+   "count": 7
+  }
+ ],
+ "literal_count": 3081,
+ "literals_file": ".work/261117/literals/image-editing.json"
+}

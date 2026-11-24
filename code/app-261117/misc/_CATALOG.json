@@ -1,0 +1,6260 @@
+{
+ "module": "misc",
+ "generated_at": "2026-11-24T02:27:16.719Z",
+ "files_scanned": 10,
+ "message_count": 583,
+ "messages": [
+  {
+   "id": "admin-invite.addEmailButton",
+   "text": "Add more",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.addEmailsFieldName.0",
+   "text": "Emails",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.domainCompletion.hint",
+   "text": "Press Tab to complete the email address with @{domain}.",
+   "description": "Screen reader hint while entering a workspace invitation. The domain is the part of the inviter's email after the at sign. Tab accepts the suggested address.",
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.domainCompletion.key",
+   "text": "Tab",
+   "description": "Small keyboard key label after a suggested email domain in workspace invites. Use the local name of the Tab key.",
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.duplicateEmailWarning",
+   "text": "This email is a duplicate.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.emailInputPlaceholder",
+   "text": "Email",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.fileIncorrectTypeWarning",
+   "text": "Please upload a CSV file.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.fileTooLargeWarning",
+   "text": "File is too large. Please upload a CSV file smaller than {maxSize}.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.freeTrialInviteLimitWarning",
+   "text": "You can only invite 10 users while on an active free trial. Upgrade now to invite more.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.freeTrialInviteLimitWarningAskAdmin",
+   "text": "You can only invite 10 users while on an active free trial. Ask your workspace admin to upgrade for more.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.freeTrialInviteLimitWarningTitle",
+   "text": "Trial invite limit reached",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.importCSVButton",
+   "text": "Upload CSV",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.importCSVTooltip",
+   "text": "Upload a CSV file. Your file must include an email on each line.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.invalidEmailWarning",
+   "text": "Please enter a valid email address.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteLimitWarning",
+   "text": "You can invite up to {maxInvites} people at a time. Extra emails were not added.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteMemberInviteSubmitButton",
+   "text": "Send invites",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteMemberInviteSubmitButtonLoading",
+   "text": "Sending invites...",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteMessageFailure",
+   "text": "Unable to invite {emailsStr}",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteRoleAdmin",
+   "text": "Admin",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteRoleAnalyticsViewer",
+   "text": "Analytics viewer",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteRoleMember",
+   "text": "Member",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteRoleOwner",
+   "text": "Owner",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.inviteSuccessCount",
+   "text": "Invited {count, plural, one {# user} other {# users}} to {workspaceName}",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.mismatchedDomainWarning",
+   "text": "Enter an email address with the {domain} domain.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.prohibitedExternalEmailDescription",
+   "text": "The following emails are not a part of your organization's verified domains:",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.reimportCSVButton",
+   "text": "Re-upload CSV",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "admin-invite.upgradeButton",
+   "text": "Upgrade",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.description.invited",
+   "text": "You and people you\\u2019ve added can view",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.description.ownerOnly",
+   "text": "People who already have access can view",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.description.public",
+   "text": "Anyone on the internet with the link can view",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.description.workspace",
+   "text": "Workspace members with the link can view",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.description.workspaceMemberCount",
+   "text": "{count, plural, one {# workspace member with the link can view} other {# workspace members with the link can view}}",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.label.public",
+   "text": "Public",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.label.workspace",
+   "text": "Workspace",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.ownerOnly",
+   "text": "Just me",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.privatelyShared",
+   "text": "Only those invited",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.public",
+   "text": "Anyone on the Internet",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenAccess.state.workspaceAll",
+   "text": "Anyone in this workspace with the link",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.advanced.section.label",
+   "text": "Advanced",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.copyLink",
+   "text": "Copy link",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.copyLinkDisabled.notPublished",
+   "text": "Publish this site to copy its link",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.editorInvite.rejected",
+   "text": "Couldn\\u2019t add this editor. Check that the email is for an eligible personal ChatGPT account.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.error",
+   "text": "Unable to load sharing settings",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.externalEmailPlaceholder",
+   "text": "Enter an email address",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.groups",
+   "text": "Groups",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.invitation.pending",
+   "text": "Pending",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.linkAccess.ownerOnly",
+   "text": "Only the owner can change link access",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.noWorkspaceRecipients",
+   "text": "No matching people or groups",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.people",
+   "text": "People",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.peopleGroupsPlaceholder",
+   "text": "Add people or groups",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.peopleTeamsPlaceholder",
+   "text": "Add people or teams",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.permission.editDescription",
+   "text": "Edit the site and publish updates. Access, download, change, or delete its data.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.permission.editor",
+   "text": "Editor",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.permission.owner",
+   "text": "Owner",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.permission.remove",
+   "text": "Remove access",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.permission.viewer",
+   "text": "Viewer",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.permission.visitDescription",
+   "text": "View and use the site.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.conflict",
+   "text": "Your profile changed. Try again.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.label",
+   "text": "Allow this to be discovered and show it on your profile",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.limit",
+   "text": "Your profile showcase is full. Remove an item before pinning this Site.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.loading",
+   "text": "Loading profile settings\\u2026",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.publicOnly",
+   "text": "You can only pin Sites shared with \\u201CAnyone on the Internet\\u201D to your profile",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.saveError",
+   "text": "Unable to update your profile. Try again.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.showcase.label",
+   "text": "Showcase on <profile>your profile</profile>",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.profilePin.workspaceOnly",
+   "text": "You can only pin Sites shared to your workspace on your profile",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.publicPrivateServicesWarning",
+   "text": "If this site uses private tunnels, anyone with the link may be able to use features that reach connected private services.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.publish",
+   "text": "Publish",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.publish.ownerRequired",
+   "text": "Only the owner can publish the first version",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.publishBeforeSharing",
+   "text": "You can save sharing changes after this Site publishes successfully.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.refresh.button",
+   "text": "Refresh permissions",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.remix.info",
+   "text": "Remixing lets viewers make their own version of this site. Only the code is copied; your site\\u2019s data isn\\u2019t included.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.remix.info.label",
+   "text": "About remixing",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.remix.label",
+   "text": "Allow viewers to remix",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.remix.saveFailed",
+   "text": "Couldn\\u2019t save your remix setting. Try again.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.remix.unavailable",
+   "text": "Remix settings are unavailable right now. Try again later.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.remix.workspaceViewers.label",
+   "text": "Allow workspace viewers to remix",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.removeDialog.accessListDescription",
+   "text": "This removes {label} from this site\\u2019s access list. Other sharing settings may still give them access.",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.removeDialog.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.removeDialog.confirm",
+   "text": "Remove",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.removeDialog.editorDescription",
+   "text": "{label} will no longer be able to edit {siteTitle}",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.removeDialog.title",
+   "text": "Remove {label}?",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.retryGroups",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.save.error",
+   "text": "Unable to save sharing settings",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.visit",
+   "text": "Visit",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.visitDisabled.notPublished",
+   "text": "Publish this site before visiting it",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "appgenShareDialog.yourTeams",
+   "text": "Your teams",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.privacy",
+   "text": "Privacy Policy",
+   "description": "Link to the OpenAI privacy policy",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.privacySentenceCase",
+   "text": "Privacy policy",
+   "description": "Link to the OpenAI privacy policy in the compact legal footer",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.terms",
+   "text": "Terms of Use",
+   "description": "Link to the OpenAI terms of use",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "authlayout.termsSentenceCase",
+   "text": "Terms of use",
+   "description": "Link to the OpenAI terms of use in the compact legal footer",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.anchored-label",
+   "text": "{structure} \\xb7 {functionText}",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.animal",
+   "text": "animal",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.animal-option",
+   "text": "Animal",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-cell-wall",
+   "text": "Support and protection",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-central-vacuole",
+   "text": "Water storage",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-chloroplast",
+   "text": "Photosynthesis",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-cytoplasm",
+   "text": "Reaction space",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-golgi",
+   "text": "Protein sorting",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-lysosome",
+   "text": "Material breakdown",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-mitochondria",
+   "text": "ATP production",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-nucleus",
+   "text": "DNA storage",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-plasma-membrane",
+   "text": "Selective barrier",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-ribosomes",
+   "text": "Protein synthesis",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-rough-er",
+   "text": "Protein processing",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.brief-function-smooth-er",
+   "text": "Lipid synthesis",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.cell-aria",
+   "text": "Cell type",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.cell-wall",
+   "text": "Cell wall",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.central-vacuole",
+   "text": "Central vacuole",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.chloroplast",
+   "text": "Chloroplast",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.controls-help",
+   "text": "Choose a cell type and a structure to locate it and learn its function.",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.cytoplasm",
+   "text": "Cytoplasm",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.er-ribosomes",
+   "text": "ribosomes on rough ER",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-cell-wall",
+   "text": "rigid outer layer beyond the membrane",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-central-vacuole",
+   "text": "large fluid-filled central compartment",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-chloroplast",
+   "text": "internal stacks of photosynthetic membranes",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-cytoplasm",
+   "text": "fluid-filled space around organelles",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-golgi",
+   "text": "stacked membranes with budding vesicles",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-lysosome",
+   "text": "small enzyme-filled sac",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-mitochondria",
+   "text": "inner membrane folded into cristae",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-nucleus",
+   "text": "nucleolus within the nuclear envelope",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-plasma-membrane",
+   "text": "thin selective boundary around cytoplasm",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-ribosomes",
+   "text": "small dots, free or on rough ER",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-rough-er",
+   "text": "folded membranes studded with ribosomes",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.feature-smooth-er",
+   "text": "smooth membrane tubules",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-cell-wall",
+   "text": "Supports and protects the plant cell; the membrane just inside controls traffic",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-central-vacuole",
+   "text": "Stores water and other materials; helps maintain pressure and shape",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-chloroplast",
+   "text": "Captures light for photosynthesis; plant mitochondria still carry out respiration",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-cytoplasm",
+   "text": "Surrounds the organelles; many cellular activities happen here",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-golgi",
+   "text": "Modifies, sorts, and packages proteins into transport vesicles",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-lysosome",
+   "text": "Breaks down worn-out parts and other cellular material",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-mitochondria",
+   "text": "Carry out cellular respiration and supply ATP in animal and plant cells",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-nucleus",
+   "text": "Stores DNA; its instructions guide ribosomes to build proteins",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-plasma-membrane",
+   "text": "Controls what enters and leaves through the selective cell boundary",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-ribosomes",
+   "text": "Build proteins; rough-ER ribosomes make many membrane and secreted proteins",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-rough-er",
+   "text": "Processes proteins from its ribosomes, then sends them in vesicles to the Golgi",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.function-smooth-er",
+   "text": "Synthesizes lipids and has no attached ribosomes",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.golgi",
+   "text": "Golgi",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.lysosome",
+   "text": "Lysosome",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.mitochondria",
+   "text": "Mitochondria",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.nucleus",
+   "text": "Nucleus",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.plant",
+   "text": "plant",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.plant-option",
+   "text": "Plant",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.plasma-membrane",
+   "text": "Plasma membrane",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.protein-path-aria",
+   "text": "Protein path: nucleus to rough-ER ribosomes to a transport vesicle to the Golgi to a transport vesicle.",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.ribosomes",
+   "text": "Ribosomes",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.rough-er",
+   "text": "Rough ER",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.smooth-er",
+   "text": "Smooth ER",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.structure-aria",
+   "text": "Cell structure",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.vesicle",
+   "text": "vesicle",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "cell-organelles.visual-aria",
+   "text": "Typical {cellType} cell cutaway. Selected: {structure}; {feature}. {functionText}. {pathText}",
+   "description": null,
+   "files": [
+    "948928.9d706e1808.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.business-onboarding.invite.toast.already_member",
+   "text": "{count, plural, one {Already a member \\u2014 no invitation sent} other {# people are already members \\u2014 no invitations sent}}",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.inviteFileReadError",
+   "text": "Unable to read this CSV file. Please try again.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.invitePaymentRequired.member",
+   "text": "Invitations couldn't be sent because your workspace has an unpaid subscription. Ask a workspace owner to update the payment details, then try again.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.invitePaymentRequired.owner",
+   "text": "Invitations couldn't be sent because your workspace has an unpaid subscription. Update your payment details, then try sending the invitations again.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.invitePaymentRequired.updatePayment",
+   "text": "Update payment",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.inviteSendError",
+   "text": "Some invitations could not be sent. Please try again.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.inviteSettingsError",
+   "text": "Unable to load invitation settings",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.loadingInvites",
+   "text": "Loading invitation settings\\u2026",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.removeInvite",
+   "text": "Remove invitation",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.businessOnboarding.retryInvites",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.addToMessage.action",
+   "text": "Add to message",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.badge",
+   "text": "TIP",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.browserUse.action",
+   "text": "Install extension",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.browserUse.content",
+   "text": "Let ChatGPT navigate websites and take action in your browser.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.calendar.action",
+   "text": "Connect Calendar",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.calendar.content",
+   "text": "Connect your calendar to prepare for upcoming meetings.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.computerUse.action",
+   "text": "Set up",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.computerUse.content",
+   "text": "Control apps on your computer using Computer Use.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.dismiss",
+   "text": "Dismiss tip",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.documents.action",
+   "text": "Create document",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.documents.content",
+   "text": "Turn your work into a document you can download and share.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.documents.prompt",
+   "text": "Turn this work into a document I can download and share.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.gmail.action",
+   "text": "Connect Gmail",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.gmail.content",
+   "text": "Connect Gmail to summarize emails and draft replies.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.googleDrive.action",
+   "text": "Connect Drive",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.googleDrive.content",
+   "text": "Connect Google Drive to find and work with your files.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.morningBriefing.content",
+   "text": "Get a morning briefing from your connected apps.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.multipleThreads.action",
+   "text": "Start new chat",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.multipleThreads.content",
+   "text": "ChatGPT can work on multiple tasks at once",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.notifications.action",
+   "text": "Enable notifications",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.notifications.content",
+   "text": "Get notified when a task finishes or needs you.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.planMode.action",
+   "text": "Create plan",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.planMode.content",
+   "text": "Ask ChatGPT to make a plan before starting a complex task.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.planMode.prompt",
+   "text": "Create a plan for this task before making changes.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.plugins.action",
+   "text": "Explore plugins",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.plugins.content",
+   "text": "Explore plugins to connect more of the tools you use.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.presentations.action",
+   "text": "Create presentation",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.presentations.content",
+   "text": "Turn your notes or research into a presentation.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.presentations.prompt",
+   "text": "Turn these notes and research into a presentation.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.recurringWork.content",
+   "text": "Save time by turning a repeated request into a scheduled task.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.scheduledTasks.content",
+   "text": "Create a scheduled task to handle recurring work automatically.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.scheduleTask.action",
+   "text": "Schedule task",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.sites.content",
+   "text": "Ask ChatGPT to create a website from your idea.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.sites.prompt",
+   "text": "Create a website from this idea: ",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.skills.action",
+   "text": "Explore skills",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.skills.content",
+   "text": "Try a specialized skill for writing, research, or spreadsheets.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.spreadsheets.action",
+   "text": "Create spreadsheet",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.spreadsheets.content",
+   "text": "Create a spreadsheet to organize data, formulas, and next steps.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.spreadsheets.prompt",
+   "text": "Turn this work into a spreadsheet with organized data, formulas, and next steps.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.steering.content",
+   "text": "Tell ChatGPT what to change while it\\u2019s working.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.steering.prompt",
+   "text": "Change the current approach by ",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.voiceChat.action",
+   "text": "Start voice",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.voiceChat.content",
+   "text": "Start a voice chat when it\\u2019s easier to talk things through.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.webSearch.action",
+   "text": "Search the web",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.webSearch.content",
+   "text": "Search the web to bring current information into your work.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.webSearch.prompt",
+   "text": "Search the web for current information relevant to this work.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.workMode.action",
+   "text": "Try Work",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composerTips.workMode.content",
+   "text": "Switch to Work for tasks that involve multiple steps or files.",
+   "description": null,
+   "files": [
+    "892323.5e2ff24ac6.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.alreadyImported",
+   "text": "Already imported",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.back",
+   "text": "Back",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.accountChanged",
+   "text": "The selected account changed. Remaining imports were stopped. Reopen this tool to import into the new account.",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.alreadyDownloaded",
+   "text": "I already downloaded my data",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.clear",
+   "text": "Clear selection",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.download",
+   "text": "Download",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.downloadedStep",
+   "text": "1. Conversations downloaded",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.downloadStep",
+   "text": "1. Download your conversations",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.exclusions",
+   "text": "Files, artifacts, and projects are not imported",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.exportHelp",
+   "text": "How to export your Claude data",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.extractHelpLabel",
+   "text": "How to unzip your conversations",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.failed",
+   "text": "Failed",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.import",
+   "text": "Import",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.invalidExport",
+   "text": "Could not read this export. Make sure you selected a valid <code>conversations.json</code> file.",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.invalidManifest",
+   "text": "Could not read this export. Make sure you selected a valid manifest JSON file.",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.manifestInstructions",
+   "text": "<help>Export your data from Claude</help>, then upload the manifest JSON file",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.multipleBatchesWarning",
+   "text": "Your export has multiple batches of conversations. Only the first batch will be imported.",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.next",
+   "text": "Next",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.page",
+   "text": "Page {page} of {pages}",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.prepareExport",
+   "text": "Prepare your conversations",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.previous",
+   "text": "Previous",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.select",
+   "text": "Import {title}",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.selectAll",
+   "text": "Select all",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.skipped",
+   "text": "Skipped: no supported messages",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.sourceMessages",
+   "text": "Messages",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.sourceName",
+   "text": "Claude",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.sourceTitle",
+   "text": "Title",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.stopped",
+   "text": "Import stopped unexpectedly. Check the sidebar before retrying.",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.submit",
+   "text": "Import selected ({count})",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.untitled",
+   "text": "Untitled",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.unzipArchiveHelp",
+   "text": "Double click the downloaded ZIP file to unzip it. You should see conversations.json.",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.unzipArchiveStep",
+   "text": "2. Unzip your conversations ZIP file",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.unzipNamedArchiveHelp",
+   "text": "Double click the downloaded {filename} file to unzip it. You should see conversations.json.",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.unzipNamedArchiveStep",
+   "text": "2. Unzip <code>{filename}</code>",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.upload",
+   "text": "Upload",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.uploadManifest",
+   "text": "Upload manifest",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.claude.uploadStep",
+   "text": "3. Upload extracted <code>conversations.json</code>",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.done",
+   "text": "Done",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.foundCount",
+   "text": "Found {count, plural, one {# conversation} other {# conversations}}",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.imported",
+   "text": "Imported",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.importedCount",
+   "text": "{imported} of {total} imported",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.notImported",
+   "text": "Not imported",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.reading",
+   "text": "Discovering conversations\\u2026",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.selectTitle",
+   "text": "Select conversations",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.source",
+   "text": "Import from",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.statusTitle",
+   "text": "Import status",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.step",
+   "text": "Step {step} of 2",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.title",
+   "text": "Import conversations",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.uploadingConversation",
+   "text": "Importing {title}",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "conversationImport.waiting",
+   "text": "Waiting",
+   "description": null,
+   "files": [
+    "585811.122d1bdfd7.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emailsTextarea.placeholder",
+   "text": "Type an email and press enter...",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "emailsTextarea.removeMember",
+   "text": "Remove {member}",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.cardiovascular",
+   "text": "Heart \\xb7 arteries \\xb7 veins",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.digestive",
+   "text": "Mouth \\xb7 stomach \\xb7 liver \\xb7 intestines",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.endocrine",
+   "text": "Pituitary \\xb7 thyroid \\xb7 pancreas \\xb7 adrenal glands",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.integumentary",
+   "text": "Skin \\xb7 hair \\xb7 nails",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.lymphatic-immune",
+   "text": "Lymph nodes \\xb7 vessels \\xb7 spleen",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.muscular",
+   "text": "Shoulder \\xb7 arm \\xb7 trunk \\xb7 leg muscles",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.nervous",
+   "text": "Brain \\xb7 spinal cord \\xb7 peripheral nerves",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.reproductive",
+   "text": "Gonads \\xb7 reproductive organs",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.respiratory",
+   "text": "Nose \\xb7 trachea \\xb7 lungs",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.skeletal",
+   "text": "Skull \\xb7 ribs \\xb7 spine \\xb7 joints",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.anchors.urinary-excretory",
+   "text": "Kidneys \\xb7 ureters \\xb7 bladder",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.movement",
+   "text": "Nerves signal muscles; muscles pull on bones to produce movement",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.nutrient",
+   "text": "Intestines pass nutrients to blood and fats to lymph; vessels deliver both to tissues",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.oxygen",
+   "text": "Lungs pass oxygen to blood; the heart and vessels carry it to body tissues",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.caption.waste",
+   "text": "Carbon dioxide leaves via lungs; dissolved wastes via urine; undigested material via the gut",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.instructions",
+   "text": "Select an organ system and a bodily need to compare locations and trace how systems cooperate.",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.need",
+   "text": "Need",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.need-aria",
+   "text": "Select a bodily need",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.system",
+   "text": "System",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.controls.system-aria",
+   "text": "Select an organ system",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.movement-response",
+   "text": "Move/respond",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.nutrient-delivery",
+   "text": "Nutrients",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.oxygen-delivery",
+   "text": "Oxygen",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need-control.waste-removal",
+   "text": "Waste",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.movement-response",
+   "text": "Movement and response",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.nutrient-delivery",
+   "text": "Nutrient delivery",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.oxygen-delivery",
+   "text": "Oxygen delivery",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.need.waste-removal",
+   "text": "Waste removal",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.cardiovascular",
+   "text": "Blood moves gases, nutrients, signals, and wastes",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.digestive",
+   "text": "Breaks down food and absorbs nutrients",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.endocrine",
+   "text": "Hormones regulate body processes",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.integumentary",
+   "text": "Protects and senses the outside world",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.lymphatic-immune",
+   "text": "Returns fluid, transports dietary fats, and helps defend",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.muscular",
+   "text": "Pulls on bones to move and maintain posture",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.nervous",
+   "text": "Detects change and coordinates responses",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.reproductive",
+   "text": "Produces sex cells and hormones; supports reproduction",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.respiratory",
+   "text": "Exchanges oxygen and carbon dioxide with air",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.skeletal",
+   "text": "Supports and protects; bones are levers for movement",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.role.urinary-excretory",
+   "text": "Removes dissolved wastes and balances water",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.movement",
+   "text": "Stimulus \\u2192 nerves \\u2192 muscles pull on bones \\u2192 movement",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.nutrient-blood",
+   "text": "Many nutrients: food \\u2192 intestines \\u2192 blood \\u2192 body tissues",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.nutrient-lymph",
+   "text": "Dietary fats: food \\u2192 intestines \\u2192 lymph \\u2192 blood \\u2192 body tissues",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.oxygen",
+   "text": "Air \\u2192 lungs \\u2192 blood \\u2192 body tissues",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.waste-carbon-dioxide",
+   "text": "Carbon dioxide: tissues \\u2192 blood \\u2192 lungs \\u2192 air",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.waste-dissolved",
+   "text": "Dissolved wastes: tissues \\u2192 blood \\u2192 kidneys \\u2192 urine",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.route.waste-undigested",
+   "text": "Undigested material: intestines \\u2192 digestive tract \\u2192 out",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.cardiovascular",
+   "text": "Circulation",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.digestive",
+   "text": "Digestion",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.endocrine",
+   "text": "Hormones",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.integumentary",
+   "text": "Skin",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.lymphatic-immune",
+   "text": "Lymph/immune",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.muscular",
+   "text": "Muscles",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.nervous",
+   "text": "Nerves",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.reproductive",
+   "text": "Reproduction",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.respiratory",
+   "text": "Breathing",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.skeletal",
+   "text": "Skeleton",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system-control.urinary-excretory",
+   "text": "Urinary",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.cardiovascular",
+   "text": "Cardiovascular",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.digestive",
+   "text": "Digestive",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.endocrine",
+   "text": "Endocrine",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.integumentary",
+   "text": "Integumentary",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.lymphatic-immune",
+   "text": "Lymphatic/immune",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.muscular",
+   "text": "Muscular",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.nervous",
+   "text": "Nervous",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.reproductive",
+   "text": "Reproductive",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.respiratory",
+   "text": "Respiratory",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.skeletal",
+   "text": "Skeletal",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.system.urinary-excretory",
+   "text": "Urinary/excretory",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.visualization.aria",
+   "text": "Human body systems map. {system} is selected: {anchors}. {role}. {need} involves {participants}. {routes}. {focusNote}",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.visualization.cooperating",
+   "text": "In this pathway",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "human-body-systems-map.visualization.inspection-aria",
+   "text": "{system} is shown for inspection and is not part of this pathway",
+   "description": null,
+   "files": [
+    "103438.e605699800.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.apple",
+   "text": "Apple logo",
+   "description": "Alt text for the Apple logo",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.google",
+   "text": "Google logo",
+   "description": "Alt text for the Google logo",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.microsoft",
+   "text": "Microsoft logo",
+   "description": "Alt text for the Microsoft logo",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "logo.openAI",
+   "text": "OpenAI logo",
+   "description": "Alt text for the OpenAI logo",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oauthConsentChoices.planLimits",
+   "text": "Allow {appName} to consume usage from your ChatGPT Plan's limits.",
+   "description": "Description beneath the ChatPass permission title in SIWC consent and linked-app settings. {appName} is the requesting third-party app display name, such as Acme. The app's usage counts toward the user's ChatGPT plan limits.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.axis.days",
+   "text": "D",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.axis.hours",
+   "text": "Hr",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.axis.months",
+   "text": "Mo",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.axis.weeks",
+   "text": "Wk",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.axis.years",
+   "text": "Yr",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.heavy.days",
+   "text": "Water-in-oil emulsification peaks; surface residue can persist.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.heavy.hours",
+   "text": "Spreading leads; evaporation and dispersion stay limited.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.heavy.months",
+   "text": "Oxidation, biodegradation, and sediment association dominate.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.heavy.weeks",
+   "text": "Emulsification tapers while residue and slower processes persist.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.heavy.years",
+   "text": "Surface residue and possible sediment-associated sinking persist.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.light.days",
+   "text": "Evaporation and dispersion remain prominent; slower processes begin.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.light.hours",
+   "text": "Spreading, evaporation, and oil-in-water dispersion dominate early.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.light.months",
+   "text": "Oxidation and biodegradation dominate; little surface residue remains.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.light.weeks",
+   "text": "Early processes taper as oxidation and biodegradation grow.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.light.years",
+   "text": "Oxidation and biodegradation still act on limited residue.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.caption.title",
+   "text": "{time} after the spill",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.controls.help",
+   "text": "Select elapsed time and oil type to compare overlapping weathering processes.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.controls.oil",
+   "text": "Oil type",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.controls.time",
+   "text": "Elapsed time after spill",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.oil.heavy",
+   "text": "Heavy oil",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.oil.light",
+   "text": "Light oil",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.biodegradation",
+   "text": "Biodegradation",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.dispersion",
+   "text": "Dispersion",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.dispersion-hint",
+   "text": "oil \\u2192 water",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.dissolution",
+   "text": "Dissolution",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.emulsification",
+   "text": "Emulsification",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.emulsification-hint",
+   "text": "water \\u2192 oil",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.evaporation",
+   "text": "Evaporation",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.oxidation",
+   "text": "Oxidation",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.sedimentation",
+   "text": "Sedimentation / sinking",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.sedimentation-compact",
+   "text": "Sedimentation",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.process.spreading",
+   "text": "Spreading",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.residue.limited",
+   "text": "limited",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.residue.prominent",
+   "text": "prominent",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.thumbnail.title",
+   "text": "Oil \\xb7 {time}",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.time.days",
+   "text": "Days",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.time.hours",
+   "text": "Hours",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.time.months",
+   "text": "Months",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.time.weeks",
+   "text": "Weeks",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.time.years",
+   "text": "Years",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.visual.aria",
+   "text": "{oilType}, {time} after the spill. The most prominent weathering processes are {processes}. The surface-residue cue is {residue}. Band widths show qualitative relative importance from hours to years, not mass fractions.",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.visual.residue",
+   "text": "Oil residue",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "oil-spill-fate.visual.subtitle",
+   "text": "Band width = relative importance",
+   "description": null,
+   "files": [
+    "830629.5317b8ce88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.done",
+   "text": "Done",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.mixedRoles",
+   "text": "Mixed",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.invite",
+   "text": "Invite",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.save",
+   "text": "Save",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "shareDialog.primaryAction.saving",
+   "text": "Saving",
+   "description": null,
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sharing.dotLabel",
+   "text": "{dot}",
+   "description": "Label below an agent's name in a team member list or sharing dialog. {dot} is the untranslated product term Dot.",
+   "files": [
+    "400895.0ce5149a61.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTBranding.appLogoAlt",
+   "text": "{appDisplayName} logo",
+   "description": "Alt text for the logo of the external application using Sign in with ChatGPT.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTBranding.externalAppLogoAlt",
+   "text": "External application logo",
+   "description": "Generic alt text for an external application logo when the application name is unavailable.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.adsOfflineDescription",
+   "text": "Keep this connection active when you\\u2019re not using the app.",
+   "description": "Description beneath the offline-access permission title in SIWC consent and linked-app settings. Explains that the app can keep the connection active without requiring repeated sign-in.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.adsReadDescription",
+   "text": "Read information in your Ads accounts.",
+   "description": "Explains the required permission to read Ads Manager data",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.adsWriteDescription",
+   "text": "Make changes in your Ads accounts.",
+   "description": "Explains the required permission to modify Ads Manager data",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.emailDescription",
+   "text": "View your email address.",
+   "description": "Explains the OAuth email permission",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.identityDescription",
+   "text": "Confirm your identity to sign in.",
+   "description": "Explains the OpenID permission without implying profile or email access",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.profileDescription",
+   "text": "View your basic profile information.",
+   "description": "Explains the OAuth profile permission",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourceInvokeDescription",
+   "text": "Use the requested service on your behalf.",
+   "description": "Explains permission to invoke the requested OAuth resource",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.adsRead",
+   "text": "View ad account data",
+   "description": "Permission label for viewing ad account data, requested or granted by a third-party app. Used in developer registration, user consent and settings, and granted-access emails; does not imply write access.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.adsWrite",
+   "text": "Manage ad account data",
+   "description": "Permission label for changing ad account data, requested or granted by a third-party app. Used in developer registration, user consent and settings, and granted-access emails.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.chatgptAllowance",
+   "text": "ChatGPT plan",
+   "description": "Label explaining that a third-party app can consume the user's ChatGPT plan allowance for API requests.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.chatgptPlugins",
+   "text": "Connected apps",
+   "description": "Label for permission to invoke the user's connected ChatGPT apps, requested or granted by a third-party app.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.chatgptPlugins.description",
+   "text": "{appName} will be able to use apps you\\u2019ve connected to ChatGPT to work on your requests.",
+   "description": "Description beneath the connected-app permission title in SIWC consent and linked-app settings. {appName} is the requesting third-party app display name, such as Acme; ChatGPT is a product name.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.identity",
+   "text": "Identity",
+   "description": "Label for identity permissions requested or granted by a third-party app. Covers the openid, profile, and email OAuth scopes.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.identity.description",
+   "text": "Basic information including your name, email, and profile picture.",
+   "description": "Description beneath the shared identity permission title in SIWC consent and linked-app settings. The openid, profile, and email scopes share this one description.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.offlineAccess",
+   "text": "Stay connected to your ChatGPT account",
+   "description": "Label for offline access requested or granted by a third-party app.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.resourcePermission.resourceInvoke",
+   "text": "Resource actions",
+   "description": "Label for permission to invoke an OAuth resource, requested or granted by a third-party app.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "signInWithChatGPTConsent.unformattedTitle.generic",
+   "text": "Sign in to {originatorDisplayName} with ChatGPT",
+   "description": "Title for the the third party app selection page. originatorDisplayName is the display name of the 3rd party app that the user is signing in to with their ChatGPT account.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sites.connectorConsent.site",
+   "text": "Site",
+   "description": null,
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.access",
+   "text": "Access for {connectorName}",
+   "description": "Accessible label for the connected app permission dropdown",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.account",
+   "text": "Account for {connectorName}",
+   "description": "Label for the connector's provider account selector",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.allowThisSiteApps",
+   "text": "Allow this site to use connected apps",
+   "description": "Connector-level consent heading; this site is the requesting site named in the page title",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.cancel",
+   "text": "Cancel",
+   "description": "Cancel this Site sign-in without changing connector access",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.chooseAccount",
+   "text": "Choose an account",
+   "description": "Requires an explicit provider account choice before allowing a connector",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.connectionManagement",
+   "text": "You can manage this connection anytime in ChatGPT settings.",
+   "description": "Settings guidance below connector consent",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.continueLabel",
+   "text": "Continue",
+   "description": "Complete sign-in with the reviewed connector choices",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.defaultAccess",
+   "text": "Default",
+   "description": "Badge marking the access requested by the site, independent of the current selection",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.expandedDescription",
+   "text": "{appName} can read information and take actions in apps you\\u2019ve connected to ChatGPT, based on the access you choose below.",
+   "description": "Disclosure above the expanded per-app consent controls",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.failed",
+   "text": "We couldn't load your connected apps. Refresh this page, or continue without this feature.",
+   "description": "A failed catalog read does not imply that the user has no connectors",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.futureActions",
+   "text": "Your choices apply to current and future actions of each type.",
+   "description": "Explain that read and write consent covers each capability, including future eligible actions",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.install",
+   "text": "Install",
+   "description": "Visible action to install a connected app in ChatGPT",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.installed",
+   "text": "Installed",
+   "description": "Heading above apps already connected to ChatGPT",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.installInWorkspace",
+   "text": "Install {connectorName} in {workspaceName}",
+   "description": "Tooltip and accessible label for the connector installation action",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.installRequired",
+   "text": "Install a connected app to enable access",
+   "description": "Explains the disabled main switch when apps need installation",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.loading",
+   "text": "Loading connected apps\\u2026",
+   "description": "Status while reading or refreshing connector eligibility",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.manage",
+   "text": "Manage",
+   "description": "Expand the connected app list to review and change permissions",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.manageApp",
+   "text": "Manage {connectorName} access",
+   "description": "Accessible name of a connected app icon that expands the permissions list",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.manageMoreApps",
+   "text": "Manage {count} more apps",
+   "description": "Accessible label for the compact app icon grid that expands the installed apps",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.offAccess",
+   "text": "Off",
+   "description": "Permission menu choice withholding access to a connected app",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.preparingSignIn",
+   "text": "Preparing sign-in\\u2026",
+   "description": "Status before the Site's connector eligibility is known",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.read",
+   "text": "Read data from {connectorName}",
+   "description": "Read-only permission granted for a selected connector",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readAccess",
+   "text": "Read",
+   "description": "Permission menu choice allowing a site to read a connected app",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readActions",
+   "text": "Read actions",
+   "description": "Heading above the current read actions for a connected app",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readOnlyDescription",
+   "text": "{appName} can read information in apps you\\u2019ve connected to ChatGPT.",
+   "description": "Disclosure when the Site requests only read access to connected apps",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readWrite",
+   "text": "Read and write data in {connectorName}",
+   "description": "Permission disclosure on the Site connector consent page. Allowing this connected app lets the site read and modify data on the user's behalf. The connectorName placeholder is the connected app's name.",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.readWriteAccess",
+   "text": "Read and write",
+   "description": "Permission menu choice allowing a site to read and change a connected app",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.recommended",
+   "text": "Recommended",
+   "description": "Heading above requested apps that are not connected to ChatGPT",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.refresh",
+   "text": "Refresh connected apps",
+   "description": "Reload the current connector eligibility after installation",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.requestId",
+   "text": "Request ID: {requestId}",
+   "description": "Request identifier for troubleshooting a failed Site consent request",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.selectedWorkspace",
+   "text": "your selected workspace",
+   "description": "Fallback when the selected workspace has no display name",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.sessionOnlyAccess",
+   "text": "This signs you in without connector access for this session. It does not change this site\\u2019s saved connector access on your other devices.",
+   "description": "Declining connectors is session-local, not an app-wide revocation",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.sharedAccess",
+   "text": "These changes apply to this site\\u2019s connector access across your browsers and devices. Changes take effect shortly. Your connected accounts stay connected to ChatGPT.",
+   "description": "Explain that editing the app's saved approval affects existing sessions without disconnecting provider accounts",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.signInFailed",
+   "text": "We couldn\\u2019t complete sign-in. Please try again.",
+   "description": "An unsuccessful identity-only Site sign-in can be retried explicitly",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.signInUnavailable",
+   "text": "We couldn\\u2019t load the permissions for this sign-in. Refresh this page to try again.",
+   "description": "Sign-in cannot continue without valid protected permission disclosures",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteAppsDescription",
+   "text": "{appName} can read information or take actions on your behalf in apps you\\u2019ve connected to ChatGPT.",
+   "description": "Explains the Site's access to selected connected apps",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteDefaultAccessDescription",
+   "text": "Default access requested by this site.",
+   "description": "Screen reader explanation of the requested-access badge; this site is named in the page title",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteOffAccessDescription",
+   "text": "This site can\\u2019t access this app.",
+   "description": "Explanation below the option to disable a connected app; this site is named in the page title",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteReadAccessDescription",
+   "text": "This site can view information from this app.",
+   "description": "Explanation below the read-only permission menu option; this site is named in the page title",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteReadWriteAccessDescription",
+   "text": "This site can view information and take actions in this app on your behalf.",
+   "description": "Explanation below the read and write permission menu option; this site is named in the page title",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.siteWriteAccessDescription",
+   "text": "This site can take actions in this app on your behalf.",
+   "description": "Explanation below an existing write-only permission option; this site is named in the page title",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.thisSiteConnectedAppsDescription",
+   "text": "This site will be able to use apps you\\u2019ve connected to ChatGPT to work on your requests.",
+   "description": "Explains why the site named in the page title requests access to connected apps",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.title",
+   "text": "Connect ChatGPT and {appName}",
+   "description": "Title of the Site connector consent page",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.unavailable",
+   "text": "This connected app is not available for this sign-in.",
+   "description": "Explains why a connector cannot be selected",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.unavailableApps",
+   "text": "Unavailable",
+   "description": "Heading above requested apps that cannot be used for this sign-in",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.viewConnectorActions",
+   "text": "View actions for {connectorName}, {accountName}",
+   "description": "Accessible label for the connected account text that expands its current actions",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.without",
+   "text": "Continue without connector access",
+   "description": "Complete this sign-in without issuing connector credentials",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.writeAccess",
+   "text": "Write",
+   "description": "Short write-access label; the menu explains whether this includes read access",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sitesConnectorConsent.writeActions",
+   "text": "Write actions",
+   "description": "Heading above the current write actions for a connected app",
+   "files": [
+    "53143.a9a4c12988.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.candidate.proposed",
+   "text": "Proposed row",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.candidate.rejected",
+   "text": "Rejected row",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.accepted",
+   "text": "Accepted: all key constraints remain valid",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.duplicate_proposed",
+   "text": "PK 10 already belongs to an existing department",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.duplicate_rejected",
+   "text": "Rejected: PK 10 is already used; the stored rows stay unchanged",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.insert_missing_proposed",
+   "text": "FK 99 has no matching department",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.insert_missing_rejected",
+   "text": "Rejected: FK 99 has no parent; the stored rows stay unchanged",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.insert_valid_accepted",
+   "text": "Accepted: employees 102 and 104 now share the valid FK 20",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.insert_valid_proposed",
+   "text": "PK 104 is new; FK 20 matches an existing department",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.null_fk_accepted",
+   "text": "Accepted: employee 104 has no department reference",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.null_fk_proposed",
+   "text": "A nullable FK may be NULL; it creates no parent reference",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.null_pk_proposed",
+   "text": "A primary key cannot be NULL",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.null_pk_rejected",
+   "text": "Rejected: a primary key cannot be NULL",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.parent_update_proposed",
+   "text": "Employees 101 and 103 still reference PK 10",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.parent_update_rejected",
+   "text": "Rejected: PK 10 is still referenced by employees 101 and 103",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.rejected",
+   "text": "Rejected: the stored rows stay unchanged",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.update_missing_proposed",
+   "text": "Employee 102 cannot change its FK to the missing PK 99",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.update_missing_rejected",
+   "text": "Rejected: employee 102 still references 20; no row is changed",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.update_valid_accepted",
+   "text": "Accepted: employee 103 now references department 20",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.caption.update_valid_proposed",
+   "text": "Employee 103 can change its FK from 10 to the existing PK 20",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.column.dept_id",
+   "text": "id",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.column.emp_id",
+   "text": "id",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.column.employee_dept_id",
+   "text": "dept",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.column.employee_name",
+   "text": "name",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.column.name",
+   "text": "name",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.controls.apply",
+   "text": "Apply",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.controls.help",
+   "text": "Choose a proposed row change, apply it to test the key constraints, or restore the initial rows.",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.controls.mutation",
+   "text": "Proposed row change",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.controls.restore",
+   "text": "Reset",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_duplicate",
+   "text": "Insert \\xb7 duplicate PK",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_duplicate_aria",
+   "text": "Insert a duplicate parent key",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_missing",
+   "text": "Insert \\xb7 missing FK",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_missing_aria",
+   "text": "Insert a child with a missing parent",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_null_fk",
+   "text": "Insert \\xb7 NULL FK",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_null_fk_aria",
+   "text": "Insert a child with a nullable foreign key",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_null_pk",
+   "text": "Insert \\xb7 NULL PK",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_null_pk_aria",
+   "text": "Insert a child with a null primary key",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_valid",
+   "text": "Insert \\xb7 valid FK",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.insert_valid_aria",
+   "text": "Insert a child with an existing parent",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.update_missing",
+   "text": "Update child \\xb7 missing",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.update_missing_aria",
+   "text": "Update a child to a missing parent",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.update_parent",
+   "text": "Update parent key",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.update_parent_aria",
+   "text": "Update a referenced parent key",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.update_valid",
+   "text": "Update child \\xb7 valid",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.option.update_valid_aria",
+   "text": "Update a child to another existing parent",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.ana",
+   "text": "Ana",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.bo",
+   "text": "Bo",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.cy",
+   "text": "Cy",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.dee",
+   "text": "Dee",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.design",
+   "text": "Design",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.ops",
+   "text": "Ops",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.sales",
+   "text": "Sales",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.row.support",
+   "text": "Support",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.status.accepted",
+   "text": "Accepted",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.status.proposed",
+   "text": "Proposed",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.status.rejected",
+   "text": "Rejected",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.table.departments",
+   "text": "Departments",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.table.departments_aria",
+   "text": "Stored departments and their primary keys",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.table.employees",
+   "text": "Employees",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.table.employees_aria",
+   "text": "Stored employees with foreign and primary keys",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "sql_key_constraints.visualization.aria",
+   "text": "{outcome}: {statement} {result}",
+   "description": null,
+   "files": [
+    "567182.6e75a7a243.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.action",
+   "text": "Suggest teammates",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.empty",
+   "text": "No suggestions found. You can enter emails manually.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.error",
+   "text": "Couldn't load suggestions. Try again or enter emails manually.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.historyDisclosure",
+   "text": "We\\u2019ll use your chat history and plugins to suggest people you should invite.",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.loading",
+   "text": "Finding teammates\\u2026",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.manual",
+   "text": "Enter emails manually",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.readyCount",
+   "text": "{count, plural, one {# suggestion ready} other {# suggestions ready}}",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceInvite.suggestions.sendCount",
+   "text": "Send {count, plural, one {# invite} other {# invites}}",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "WorkspaceMembers.seatTypeChatgpt",
+   "text": "ChatGPT",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "WorkspaceMembers.seatTypeChatgptSubtitle",
+   "text": "ChatGPT, ChatGPT Work, and Codex, fixed price per seat",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "WorkspaceMembers.seatTypeCodex",
+   "text": "Codex",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "WorkspaceMembers.seatTypeCodexSubtitle",
+   "text": "No fixed costs, pay as you go pricing",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "WorkspaceMembers.seatTypePremium",
+   "text": "Premium",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "WorkspaceMembers.seatTypeStandard",
+   "text": "Standard",
+   "description": null,
+   "files": [
+    "650404.01da027e60.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.authenticationRequired",
+   "text": "It looks like you're currently unable to access any of your accounts. Try waiting a minute and logging in again.",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.authenticationTitle",
+   "text": "No Accessible Workspaces",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.checkingDescription",
+   "text": "Your workspace must be checked before you can continue",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.checkingTitle",
+   "text": "Checking workspace\\u2026",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.createPersonal",
+   "text": "Create a personal workspace",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.createPersonalExplanation",
+   "text": "Because your workspace has been deactivated, you need to create a personal workspace to continue using ChatGPT",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.createPersonalTitle",
+   "text": "Create a personal workspace to continue",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.anotherAccount",
+   "text": "Log in to another account",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.bringTeamBack",
+   "text": "Bring your team back to ChatGPT",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.businessData",
+   "text": "Business data isn't used for training by default",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.collaborateInChatGPTSpace",
+   "text": "Collaborate with your team and agents in ChatGPT Space",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.handOffToAgents",
+   "text": "Hand off work to always-on agents for Premium seats",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.memberHeading",
+   "text": "Ask your workspace owner to bring your team back to ChatGPT",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.namedHeading",
+   "text": "Your {workspaceName} workspace has been deactivated",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.namedStatus",
+   "text": "Your {workspaceName} workspace is deactivated",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.pickerBack",
+   "text": "Back",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.reactivate",
+   "text": "Reactivate your workspace",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.restoreWork",
+   "text": "Restore past chats and continue building with Codex",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.status",
+   "text": "Your workspace is deactivated",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.switchPersonal",
+   "text": "Switch to personal account",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.teamPhoto",
+   "text": "A team working together around a table",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.teamPhotoWithNames",
+   "text": "A team working together around a table, with cursors for {names}",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.deactivated.wordmark",
+   "text": "ChatGPT",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.description",
+   "text": "Choose how to continue after this workspace was deactivated",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.error",
+   "text": "We couldn\\u2019t complete that request",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.historyUnavailable",
+   "text": "Your chat history and settings will not be available",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.launchWorkspace",
+   "text": "Launch a workspace",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.logIn",
+   "text": "Log in",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.logInWithSso",
+   "text": "Log in with SSO",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.logOut",
+   "text": "Log out",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.manageSubscription",
+   "text": "Manage subscription",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.noSsoSuggestion",
+   "text": "Logging in without SSO may fix these issues",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.openWorkspace",
+   "text": "Open",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.otherWorkspaces",
+   "text": "You will still be able to use ChatGPT with the other workspaces associated with this email address",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.outstandingPayment",
+   "text": "Resolve the outstanding payment to reactivate your workspace",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.personalAccount",
+   "text": "Personal account",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.personalAccountFallback",
+   "text": "Personal account",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.pickerUnavailable",
+   "text": "Unavailable with this sign-in",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.purchaseSubscription",
+   "text": "Purchase a new subscription to reactivate your workspace",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.purchaseSubscriptionButton",
+   "text": "Purchase subscription",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.renewalPayment",
+   "text": "Payment failed when we tried to renew your subscription. Resolve the outstanding payment to reactivate your workspace.",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.retrySignIn",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.seatIncreasePayment",
+   "text": "{additionalPaidSeats, plural, one {<b># seat</b> was} other {<b># seats</b> were}} recently added to your organization, and payment failed when we tried to charge you. Resolve the outstanding payment to reactivate your workspace.",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.selectWorkspace",
+   "text": "Select a workspace to continue",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.signInError",
+   "text": "We couldn\\u2019t sign you in. Please try again.",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.signInErrorTitle",
+   "text": "Oops!",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.signInToAnotherWorkspace",
+   "text": "Sign in to another workspace",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.ssoSuggestion",
+   "text": "Logging in with SSO may fix these issues",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.switchError",
+   "text": "We couldn\\u2019t switch workspaces. Please try again.",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.title",
+   "text": "Your workspace has been deactivated",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.unavailableTitle",
+   "text": "Workspace unavailable",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.unnamedWorkspace",
+   "text": "Unnamed workspace",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "workspaceRecovery.workspaceCount",
+   "text": "{email} has access to {count, plural, one {# workspace} other {# workspaces}}",
+   "description": null,
+   "files": [
+    "219125.8b7ce3311a.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "id",
+   "count": 723
+  },
+  {
+   "name": "children",
+   "count": 691
+  },
+  {
+   "name": "defaultMessage",
+   "count": 605
+  },
+  {
+   "name": "className",
+   "count": 447
+  },
+  {
+   "name": "y",
+   "count": 169
+  },
+  {
+   "name": "x",
+   "count": 168
+  },
+  {
+   "name": "fill",
+   "count": 115
+  },
+  {
+   "name": "size",
+   "count": 97
+  },
+  {
+   "name": "color",
+   "count": 94
+  },
+  {
+   "name": "description",
+   "count": 87
+  },
+  {
+   "name": "d",
+   "count": 83
+  },
+  {
+   "name": "height",
+   "count": 82
+  },
+  {
+   "name": "action",
+   "count": 76
+  },
+  {
+   "name": "strokeWidth",
+   "count": 75
+  },
+  {
+   "name": "width",
+   "count": 72
+  },
+  {
+   "name": "disabled",
+   "count": 72
+  },
+  {
+   "name": "type",
+   "count": 68
+  },
+  {
+   "name": "role",
+   "count": 62
+  },
+  {
+   "name": "offset",
+   "count": 57
+  },
+  {
+   "name": "stopColor",
+   "count": 54
+  },
+  {
+   "name": "label",
+   "count": 50
+  },
+  {
+   "name": "onClick",
+   "count": 50
+  },
+  {
+   "name": "stroke",
+   "count": 48
+  },
+  {
+   "name": "path",
+   "count": 46
+  },
+  {
+   "name": "value",
+   "count": 45
+  },
+  {
+   "name": "name",
+   "count": 45
+  },
+  {
+   "name": "variant",
+   "count": 45
+  },
+  {
+   "name": "content",
+   "count": 45
+  },
+  {
+   "name": "null",
+   "count": 44
+  },
+  {
+   "name": "r",
+   "count": 42
+  },
+  {
+   "name": "cx",
+   "count": 41
+  },
+  {
+   "name": "cy",
+   "count": 41
+  },
+  {
+   "name": "values",
+   "count": 40
+  },
+  {
+   "name": "signal",
+   "count": 37
+  },
+  {
+   "name": "accountId",
+   "count": 36
+  },
+  {
+   "name": "queryKey",
+   "count": 35
+  },
+  {
+   "name": "title",
+   "count": 35
+  },
+  {
+   "name": "to",
+   "count": 33
+  },
+  {
+   "name": "onChange",
+   "count": 33
+  },
+  {
+   "name": "kind",
+   "count": 32
+  },
+  {
+   "name": "data",
+   "count": 32
+  },
+  {
+   "name": "style",
+   "count": 29
+  },
+  {
+   "name": "from",
+   "count": 28
+  },
+  {
+   "name": "viewBox",
+   "count": 27
+  },
+  {
+   "name": "target",
+   "count": 26
+  },
+  {
+   "name": "userId",
+   "count": 25
+  },
+  {
+   "name": "email",
+   "count": 24
+  },
+  {
+   "name": "source",
+   "count": 22
+  },
+  {
+   "name": "capabilities",
+   "count": 22
+  },
+  {
+   "name": "ariaLabel",
+   "count": 21
+  },
+  {
+   "name": "badgeLabel",
+   "count": 21
+  },
+  {
+   "name": "actionLabel",
+   "count": 21
+  },
+  {
+   "name": "isEligible",
+   "count": 21
+  },
+  {
+   "name": "opacity",
+   "count": 20
+  },
+  {
+   "name": "endTangent",
+   "count": 20
+  },
+  {
+   "name": "href",
+   "count": 20
+  },
+  {
+   "name": "enabled",
+   "count": 19
+  },
+  {
+   "name": "ref",
+   "count": 19
+  },
+  {
+   "name": "key",
+   "count": 19
+  },
+  {
+   "name": "error",
+   "count": 18
+  },
+  {
+   "name": "isLoading",
+   "count": 18
+  },
+  {
+   "name": "parameters",
+   "count": 17
+  },
+  {
+   "name": "user",
+   "count": 17
+  },
+  {
+   "name": "frame",
+   "count": 16
+  },
+  {
+   "name": "importance",
+   "count": 16
+  },
+  {
+   "name": "options",
+   "count": 15
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 15
+  },
+  {
+   "name": "queryFn",
+   "count": 15
+  },
+  {
+   "name": "loading",
+   "count": 15
+  },
+  {
+   "name": "workspace",
+   "count": 15
+  },
+  {
+   "name": "status",
+   "count": 15
+  },
+  {
+   "name": "seatType",
+   "count": 14
+  },
+  {
+   "name": "staleTime",
+   "count": 14
+  },
+  {
+   "name": "count",
+   "count": 14
+  },
+  {
+   "name": "get",
+   "count": 14
+  },
+  {
+   "name": "avatar",
+   "count": 14
+  },
+  {
+   "name": "strokeLinecap",
+   "count": 14
+  },
+  {
+   "name": "left",
+   "count": 13
+  },
+  {
+   "name": "retry",
+   "count": 13
+  },
+  {
+   "name": "query",
+   "count": 13
+  },
+  {
+   "name": "onClose",
+   "count": 13
+  },
+  {
+   "name": "fillOpacity",
+   "count": 12
+  },
+  {
+   "name": "asset",
+   "count": 12
+  },
+  {
+   "name": "xmlns",
+   "count": 12
+  },
+  {
+   "name": "e",
+   "count": 12
+  },
+  {
+   "name": "right",
+   "count": 12
+  },
+  {
+   "name": "icon",
+   "count": 12
+  },
+  {
+   "name": "row",
+   "count": 12
+  },
+  {
+   "name": "busy",
+   "count": 12
+  },
+  {
+   "name": "rx",
+   "count": 11
+  },
+  {
+   "name": "bounds",
+   "count": 11
+  },
+  {
+   "name": "top",
+   "count": 11
+  },
+  {
+   "name": "radius",
+   "count": 11
+  },
+  {
+   "name": "alt",
+   "count": 11
+  },
+  {
+   "name": "exact",
+   "count": 11
+  },
+  {
+   "name": "isWorkspaceAccount",
+   "count": 11
+  },
+  {
+   "name": "projectId",
+   "count": 11
+  },
+  {
+   "name": "selected",
+   "count": 10
+  },
+  {
+   "name": "bottom",
+   "count": 10
+  },
+  {
+   "name": "account_id",
+   "count": 10
+  },
+  {
+   "name": "message",
+   "count": 10
+  },
+  {
+   "name": "surface",
+   "count": 10
+  },
+  {
+   "name": "openTarget",
+   "count": 10
+  },
+  {
+   "name": "checked",
+   "count": 10
+  },
+  {
+   "name": "itemId",
+   "count": 10
+  },
+  {
+   "name": "anchors",
+   "count": 9
+  },
+  {
+   "name": "step",
+   "count": 9
+  },
+  {
+   "name": "minimumSeats",
+   "count": 9
+  },
+  {
+   "name": "subtitle",
+   "count": 9
+  },
+  {
+   "name": "md",
+   "count": 9
+  },
+  {
+   "name": "requestBody",
+   "count": 9
+  },
+  {
+   "name": "initiator",
+   "count": 9
+  },
+  {
+   "name": "isError",
+   "count": 9
+  },
+  {
+   "name": "secondaryLabel",
+   "count": 9
+  },
+  {
+   "name": "filter",
+   "count": 9
+  },
+  {
+   "name": "state",
+   "count": 9
+  },
+  {
+   "name": "departmentId",
+   "count": 9
+  },
+  {
+   "name": "t",
+   "count": 8
+  },
+  {
+   "name": "canvas",
+   "count": 8
+  },
+  {
+   "name": "inkBounds",
+   "count": 8
+  },
+  {
+   "name": "visualBounds",
+   "count": 8
+  },
+  {
+   "name": "paint",
+   "count": 8
+  },
+  {
+   "name": "optical",
+   "count": 8
+  },
+  {
+   "name": "shape",
+   "count": 8
+  },
+  {
+   "name": "center",
+   "count": 8
+  },
+  {
+   "name": "insets",
+   "count": 8
+  },
+  {
+   "name": "ink",
+   "count": 8
+  },
+  {
+   "name": "foreground",
+   "count": 8
+  },
+  {
+   "name": "body",
+   "count": 8
+  },
+  {
+   "name": "tabIndex",
+   "count": 8
+  },
+  {
+   "name": "pending",
+   "count": 8
+  },
+  {
+   "name": "stage",
+   "count": 8
+  },
+  {
+   "name": "l",
+   "count": 8
+  },
+  {
+   "name": "_",
+   "count": 8
+  },
+  {
+   "name": "profile",
+   "count": 8
+  },
+  {
+   "name": "scope",
+   "count": 8
+  },
+  {
+   "name": "footer",
+   "count": 8
+  },
+  {
+   "name": "placeholder",
+   "count": 8
+  },
+  {
+   "name": "isSaving",
+   "count": 8
+  },
+  {
+   "name": "items",
+   "count": 8
+  },
+  {
+   "name": "default",
+   "count": 8
+  },
+  {
+   "name": "xlinkHref",
+   "count": 8
+  },
+  {
+   "name": "gradientUnits",
+   "count": 8
+  },
+  {
+   "name": "prompt",
+   "count": 8
+  },
+  {
+   "name": "availablePaidSeatCounts",
+   "count": 8
+  },
+  {
+   "name": "ry",
+   "count": 7
+  },
+  {
+   "name": "min",
+   "count": 7
+  },
+  {
+   "name": "max",
+   "count": 7
+  },
+  {
+   "name": "quantity",
+   "count": 7
+  },
+  {
+   "name": "onSubmit",
+   "count": 7
+  },
+  {
+   "name": "owner",
+   "count": 7
+  },
+  {
+   "name": "workspaceName",
+   "count": 7
+  },
+  {
+   "name": "expectedIdentity",
+   "count": 7
+  },
+  {
+   "name": "rel",
+   "count": 7
+  },
+  {
+   "name": "transform",
+   "count": 7
+  },
+  {
+   "name": "gradientTransform",
+   "count": 7
+  },
+  {
+   "name": "fx",
+   "count": 7
+  },
+  {
+   "name": "fy",
+   "count": 7
+  },
+  {
+   "name": "invalid",
+   "count": 7
+  },
+  {
+   "name": "conversations",
+   "count": 7
+  },
+  {
+   "name": "legacyStatsigEventName",
+   "count": 7
+  },
+  {
+   "name": "completed",
+   "count": 7
+  },
+  {
+   "name": "preserveAspectRatio",
+   "count": 6
+  },
+  {
+   "name": "maxSeats",
+   "count": 6
+  },
+  {
+   "name": "seat_type",
+   "count": 6
+  },
+  {
+   "name": "onBack",
+   "count": 6
+  },
+  {
+   "name": "control",
+   "count": 6
+  },
+  {
+   "name": "trailingContent",
+   "count": 6
+  },
+  {
+   "name": "groupId",
+   "count": 6
+  },
+  {
+   "name": "accessMode",
+   "count": 6
+  },
+  {
+   "name": "canManageProjectSharing",
+   "count": 6
+  },
+  {
+   "name": "onRemoveAccess",
+   "count": 6
+  },
+  {
+   "name": "onCancel",
+   "count": 6
+  },
+  {
+   "name": "p",
+   "count": 6
+  },
+  {
+   "name": "n",
+   "count": 6
+  },
+  {
+   "name": "Component",
+   "count": 6
+  },
+  {
+   "name": "weight",
+   "count": 6
+  },
+  {
+   "name": "connectorName",
+   "count": 6
+  },
+  {
+   "name": "connector",
+   "count": 6
+  },
+  {
+   "name": "onSelectionChange",
+   "count": 6
+  },
+  {
+   "name": "outcome",
+   "count": 6
+  },
+  {
+   "name": "rows",
+   "count": 6
+  },
+  {
+   "name": "nucleus",
+   "count": 6
+  },
+  {
+   "name": "ribosomes",
+   "count": 6
+  },
+  {
+   "name": "golgi",
+   "count": 6
+  },
+  {
+   "name": "mitochondria",
+   "count": 6
+  },
+  {
+   "name": "cytoplasm",
+   "count": 6
+  },
+  {
+   "name": "lysosome",
+   "count": 6
+  },
+  {
+   "name": "chloroplast",
+   "count": 6
+  },
+  {
+   "name": "rotate",
+   "count": 6
+  },
+  {
+   "name": "scale",
+   "count": 6
+  },
+  {
+   "name": "a",
+   "count": 5
+  },
+  {
+   "name": "open",
+   "count": 5
+  },
+  {
+   "name": "as",
+   "count": 5
+  },
+  {
+   "name": "member",
+   "count": 5
+  },
+  {
+   "name": "onSelect",
+   "count": 5
+  },
+  {
+   "name": "isDisabled",
+   "count": 5
+  },
+  {
+   "name": "b",
+   "count": 5
+  },
+  {
+   "name": "src",
+   "count": 5
+  },
+  {
+   "name": "appearance",
+   "count": 5
+  },
+  {
+   "name": "inset",
+   "count": 5
+  },
+  {
+   "name": "controlSizing",
+   "count": 5
+  },
+  {
+   "name": "audienceControl",
+   "count": 5
+  },
+  {
+   "name": "onError",
+   "count": 5
+  },
+  {
+   "name": "project_id",
+   "count": 5
+  },
+  {
+   "name": "workspaceId",
+   "count": 5
+  },
+  {
+   "name": "liveUrl",
+   "count": 5
+  },
+  {
+   "name": "currentAccessMode",
+   "count": 5
+  },
+  {
+   "name": "availableAccessModes",
+   "count": 5
+  },
+  {
+   "name": "deployment",
+   "count": 5
+  },
+  {
+   "name": "url",
+   "count": 5
+  },
+  {
+   "name": "lookupUnavailable",
+   "count": 5
+  },
+  {
+   "name": "autoDispose",
+   "count": 5
+  },
+  {
+   "name": "isEqual",
+   "count": 5
+  },
+  {
+   "name": "conversationId",
+   "count": 5
+  },
+  {
+   "name": "logoUri",
+   "count": 5
+  },
+  {
+   "name": "typeaheadValue",
+   "count": 5
+  },
+  {
+   "name": "highlighted",
+   "count": 5
+  },
+  {
+   "name": "sourceTitle",
+   "count": 5
+  },
+  {
+   "name": "Pay",
+   "count": 5
+  },
+  {
+   "name": "elapsedStage",
+   "count": 5
+  },
+  {
+   "name": "oilType",
+   "count": 5
+  },
+  {
+   "name": "beacon",
+   "count": 5
+  },
+  {
+   "name": "absolutePosition",
+   "count": 5
+  },
+  {
+   "name": "active",
+   "count": 5
+  },
+  {
+   "name": "integumentary",
+   "count": 4
+  },
+  {
+   "name": "skeletal",
+   "count": 4
+  },
+  {
+   "name": "muscular",
+   "count": 4
+  },
+  {
+   "name": "nervous",
+   "count": 4
+  },
+  {
+   "name": "endocrine",
+   "count": 4
+  },
+  {
+   "name": "cardiovascular",
+   "count": 4
+  },
+  {
+   "name": "respiratory",
+   "count": 4
+  },
+  {
+   "name": "digestive",
+   "count": 4
+  },
+  {
+   "name": "reproductive",
+   "count": 4
+  },
+  {
+   "name": "system",
+   "count": 4
+  },
+  {
+   "name": "presentationMode",
+   "count": 4
+  },
+  {
+   "name": "setValues",
+   "count": 4
+  },
+  {
+   "name": "screenReaderContent",
+   "count": 4
+  },
+  {
+   "name": "inputs",
+   "count": 4
+  },
+  {
+   "name": "variable",
+   "count": 4
+  },
+  {
+   "name": "standardSeats",
+   "count": 4
+  },
+  {
+   "name": "premiumSeats",
+   "count": 4
+  },
+  {
+   "name": "$type",
+   "count": 4
+  },
+  {
+   "name": "position",
+   "count": 4
+  },
+  {
+   "name": "onChooseWorkspace",
+   "count": 4
+  },
+  {
+   "name": "onSelectWorkspace",
+   "count": 4
+  },
+  {
+   "name": "showDialogClose",
+   "count": 4
+  },
+  {
+   "name": "shouldIgnoreClickOutside",
+   "count": 4
+  },
+  {
+   "name": "fillRule",
+   "count": 4
+  },
+  {
+   "name": "isDeactivated",
+   "count": 4
+  }
+ ],
+ "literal_count": 2997,
+ "literals_file": ".work/261117/literals/misc.json"
+}

@@ -1,0 +1,192 @@
+{
+ "module": "plugins",
+ "generated_at": "2026-11-24T02:31:56.966Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1117.41037",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/819365.8f30b55acf.js",
+   "file": "819365.8f30b55acf.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 66507,
+   "formatted_bytes": 129607,
+   "formatter": "prettier",
+   "sha256_raw": "850bc25ca10c8c37fefcd4e7630c282e37e816abad11bff712c38ddce6141854",
+   "message_count": 134,
+   "namespace_score": 131,
+   "namespaces": [
+    "plugins.create:131",
+    "chatgpt.connectors:1",
+    "chatgpt.apps:1",
+    "createCustomConnectorModal.acceptLabelTitle:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/737004.691c04328c.js",
+   "file": "737004.691c04328c.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 151164,
+   "formatted_bytes": 277498,
+   "formatter": "prettier",
+   "sha256_raw": "c541a13ed38bbbdcb5512b05b904c1c72276ead2e67075c3926649d72e5a4a0e",
+   "message_count": 109,
+   "namespace_score": 107,
+   "namespaces": [
+    "plugins.editor:89",
+    "plugins.detail:8",
+    "plugins.management:3",
+    "plugins.category:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/958430.41a0eac9a5.js",
+   "file": "958430.41a0eac9a5.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 207928,
+   "formatted_bytes": 366903,
+   "formatter": "prettier",
+   "sha256_raw": "bf96ddabd719bbd17f6104900834e52ffe6d5ce8d1ed0b966f93d5e5501dfa46",
+   "message_count": 194,
+   "namespace_score": 82,
+   "namespaces": [
+    "workspace-plugins.template:44",
+    "workspace-plugins.mcp-template-setup:38",
+    "chatgpt.connector_settings:13",
+    "admin.plugins:9"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/947156.998208fdbe.js",
+   "file": "947156.998208fdbe.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 80430,
+   "formatted_bytes": 139443,
+   "formatter": "prettier",
+   "sha256_raw": "1a8e25e95eb859718a80b7faea03f0b2298a3cf1eb5181ab1d764640c16cdd81",
+   "message_count": 0,
+   "namespace_score": 0,
+   "namespaces": [
+    "(no i18n):0"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/249533.8c8e57d069.js",
+   "file": "249533.8c8e57d069.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 93191,
+   "formatted_bytes": 173373,
+   "formatter": "prettier",
+   "sha256_raw": "546c46251433a2d97ce1efdd730e31003a9f5d152e31c142698c6108fbd1e573",
+   "message_count": 77,
+   "namespace_score": 71,
+   "namespaces": [
+    "plugins.installModal:27",
+    "skills.appsPage:26",
+    "plugins.browserExtension:7",
+    "plugins.detail:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/74892.c785770f67.js",
+   "file": "74892.c785770f67.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 74291,
+   "formatted_bytes": 138333,
+   "formatter": "prettier",
+   "sha256_raw": "974c528bff2d73d6dbaa399df256a51b29be0a71bcdbe59001d6b0f597b83d42",
+   "message_count": 67,
+   "namespace_score": 67,
+   "namespaces": [
+    "plugins.detail:47",
+    "plugins.dependencies:14",
+    "plugins.description:3",
+    "plugins.install:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/771643.297732358d.js",
+   "file": "771643.297732358d.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 77988,
+   "formatted_bytes": 152039,
+   "formatter": "prettier",
+   "sha256_raw": "8f7783552ecf8363542b1c16f66aae834b9ea582122daa8cab5beef78922770c",
+   "message_count": 74,
+   "namespace_score": 62,
+   "namespaces": [
+    "browserSkills.editor:42",
+    "browserSkills.sharing:17",
+    "codex.writingBlock:4",
+    "browserSkills.tryPrompt:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/375488.651e5ccf3a.js",
+   "file": "375488.651e5ccf3a.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 163037,
+   "formatted_bytes": 314120,
+   "formatter": "prettier",
+   "sha256_raw": "4becf5ea3b487031dd16dbbcfd24019b18e86b3264521d59fcd5eb554397ee02",
+   "message_count": 120,
+   "namespace_score": 61,
+   "namespaces": [
+    "plugins.detail:34",
+    "settings.browserUse:17",
+    "skills.appsPage:16",
+    "codex.mcpTool:13"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/587355.0f810f85cc.js",
+   "file": "587355.0f810f85cc.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 98789,
+   "formatted_bytes": 182634,
+   "formatter": "prettier",
+   "sha256_raw": "ae9d985ae2ba4339262d1a53a0c44975870bb29bbee5642c8e75dbfac438c0b1",
+   "message_count": 64,
+   "namespace_score": 59,
+   "namespaces": [
+    "plugins.detail:34",
+    "plugins.management:10",
+    "plugins.card:6",
+    "skills.card:4"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/604319.2bc75ad42a.js",
+   "file": "604319.2bc75ad42a.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 84962,
+   "formatted_bytes": 170228,
+   "formatter": "prettier",
+   "sha256_raw": "3a76d27d93560b60a965b2e5d730fae30fe87137535e7dd2ad1c3c0a0b11eb44",
+   "message_count": 81,
+   "namespace_score": 58,
+   "namespaces": [
+    "skills.card:25",
+    "settings.chronicle:15",
+    "skills.page:11",
+    "skills.appsPage:9"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/686745.58101adba7.js",
+   "file": "686745.58101adba7.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 47745,
+   "formatted_bytes": 90728,
+   "formatter": "prettier",
+   "sha256_raw": "64701318f7d6f7a9873968b279bdf4cc3b4da237af8f7e3fa9282b8d4621a34d",
+   "message_count": 57,
+   "namespace_score": 55,
+   "namespaces": [
+    "skills.appsPage:27",
+    "skills.card:25",
+    "plugins.detail:2",
+    "dil.modelWrittenV2:1"
+   ]
+  }
+ ]
+}

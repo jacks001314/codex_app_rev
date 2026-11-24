@@ -1,0 +1,3064 @@
+{
+ "generated_at": "2026-11-24T02:26:09.129Z",
+ "app_version": "26.1117.41037",
+ "source": "webview/assets/**/*.js: path:\"/…\" (route table), RQ)() match, navigate(), to: link",
+ "note": "Route strings are registration evidence; component ownership is inferred from the containing chunk.",
+ "by_kind": {
+  "link": 37,
+  "match": 41,
+  "navigate": 5,
+  "route": 113
+ },
+ "count": 177,
+ "prefixes": [
+  {
+   "prefix": "/settings",
+   "count": 35
+  },
+  {
+   "prefix": "/backend-api",
+   "count": 16
+  },
+  {
+   "prefix": "/space",
+   "count": 10
+  },
+  {
+   "prefix": "/security",
+   "count": 8
+  },
+  {
+   "prefix": "/business-hub",
+   "count": 5
+  },
+  {
+   "prefix": "/classes",
+   "count": 5
+  },
+  {
+   "prefix": "/library",
+   "count": 4
+  },
+  {
+   "prefix": "/rosalind",
+   "count": 3
+  },
+  {
+   "prefix": "/spaces",
+   "count": 3
+  },
+  {
+   "prefix": "/trusted-contact",
+   "count": 3
+  },
+  {
+   "prefix": "/{containerName}",
+   "count": 2
+  },
+  {
+   "prefix": "/codex",
+   "count": 2
+  },
+  {
+   "prefix": "/gpts",
+   "count": 2
+  },
+  {
+   "prefix": "/o",
+   "count": 2
+  },
+  {
+   "prefix": "/payments",
+   "count": 2
+  },
+  {
+   "prefix": "/plugins",
+   "count": 2
+  },
+  {
+   "prefix": "/sites",
+   "count": 2
+  },
+  {
+   "prefix": "/skills",
+   "count": 2
+  },
+  {
+   "prefix": "/students",
+   "count": 2
+  },
+  {
+   "prefix": "/(root)",
+   "count": 1
+  },
+  {
+   "prefix": "/:locale?",
+   "count": 1
+  },
+  {
+   "prefix": "/?paid_image_handoff_carryover=unavailable",
+   "count": 1
+  },
+  {
+   "prefix": "/accounts",
+   "count": 1
+  },
+  {
+   "prefix": "/api",
+   "count": 1
+  },
+  {
+   "prefix": "/archive",
+   "count": 1
+  },
+  {
+   "prefix": "/automations",
+   "count": 1
+  },
+  {
+   "prefix": "/automations?automationMode=create",
+   "count": 1
+  },
+  {
+   "prefix": "/avatar-overlay",
+   "count": 1
+  },
+  {
+   "prefix": "/branch",
+   "count": 1
+  },
+  {
+   "prefix": "/business-profiles",
+   "count": 1
+  },
+  {
+   "prefix": "/cfc-verification",
+   "count": 1
+  },
+  {
+   "prefix": "/chatgpt_health_oauth_redirect",
+   "count": 1
+  },
+  {
+   "prefix": "/checkout",
+   "count": 1
+  },
+  {
+   "prefix": "/cloud-environments",
+   "count": 1
+  },
+  {
+   "prefix": "/cme",
+   "count": 1
+  },
+  {
+   "prefix": "/codex-mobile",
+   "count": 1
+  },
+  {
+   "prefix": "/college-plan",
+   "count": 1
+  },
+  {
+   "prefix": "/connector",
+   "count": 1
+  },
+  {
+   "prefix": "/create-workspace",
+   "count": 1
+  },
+  {
+   "prefix": "/diff",
+   "count": 1
+  },
+  {
+   "prefix": "/dots",
+   "count": 1
+  },
+  {
+   "prefix": "/elicitation",
+   "count": 1
+  },
+  {
+   "prefix": "/explore",
+   "count": 1
+  },
+  {
+   "prefix": "/extension",
+   "count": 1
+  },
+  {
+   "prefix": "/first-run",
+   "count": 1
+  },
+  {
+   "prefix": "/g",
+   "count": 1
+  },
+  {
+   "prefix": "/images",
+   "count": 1
+  },
+  {
+   "prefix": "/inbox",
+   "count": 1
+  },
+  {
+   "prefix": "/internal",
+   "count": 1
+  },
+  {
+   "prefix": "/ledger",
+   "count": 1
+  },
+  {
+   "prefix": "/level-up",
+   "count": 1
+  },
+  {
+   "prefix": "/local",
+   "count": 1
+  },
+  {
+   "prefix": "/login",
+   "count": 1
+  },
+  {
+   "prefix": "/maps",
+   "count": 1
+  },
+  {
+   "prefix": "/meetings",
+   "count": 1
+  },
+  {
+   "prefix": "/mission-control",
+   "count": 1
+  },
+  {
+   "prefix": "/onboarding",
+   "count": 1
+  },
+  {
+   "prefix": "/plan-summary",
+   "count": 1
+  },
+  {
+   "prefix": "/plugins-redirect",
+   "count": 1
+  },
+  {
+   "prefix": "/plugins?search=Calendar",
+   "count": 1
+  },
+  {
+   "prefix": "/plugins?search=Gmail",
+   "count": 1
+  },
+  {
+   "prefix": "/plugins?search=Google%20Drive",
+   "count": 1
+  },
+  {
+   "prefix": "/pricing-plan",
+   "count": 1
+  },
+  {
+   "prefix": "/pricing",
+   "count": 1
+  },
+  {
+   "prefix": "/products",
+   "count": 1
+  },
+  {
+   "prefix": "/profile",
+   "count": 1
+  },
+  {
+   "prefix": "/projects",
+   "count": 1
+  },
+  {
+   "prefix": "/pull-requests",
+   "count": 1
+  },
+  {
+   "prefix": "/purchase",
+   "count": 1
+  },
+  {
+   "prefix": "/redeem",
+   "count": 1
+  },
+  {
+   "prefix": "/refer",
+   "count": 1
+  },
+  {
+   "prefix": "/remote-connections",
+   "count": 1
+  },
+  {
+   "prefix": "/remote",
+   "count": 1
+  },
+  {
+   "prefix": "/scheduled",
+   "count": 1
+  },
+  {
+   "prefix": "/select-workspace",
+   "count": 1
+  },
+  {
+   "prefix": "/shopping",
+   "count": 1
+  },
+  {
+   "prefix": "/space?tab=suggested",
+   "count": 1
+  },
+  {
+   "prefix": "/spotlight",
+   "count": 1
+  },
+  {
+   "prefix": "/u",
+   "count": 1
+  },
+  {
+   "prefix": "/verify_age",
+   "count": 1
+  },
+  {
+   "prefix": "/verify_guardian",
+   "count": 1
+  },
+  {
+   "prefix": "/voice",
+   "count": 1
+  },
+  {
+   "prefix": "/w",
+   "count": 1
+  },
+  {
+   "prefix": "/welcome",
+   "count": 1
+  },
+  {
+   "prefix": "/work",
+   "count": 1
+  },
+  {
+   "prefix": "/workspace",
+   "count": 1
+  }
+ ],
+ "routes": [
+  {
+   "route": "/",
+   "kinds": [
+    "link",
+    "match",
+    "navigate",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 30
+    },
+    {
+     "file": "734039.a56d4689c9.js",
+     "count": 8
+    },
+    {
+     "file": "364313.d749d31da5.js",
+     "count": 6
+    },
+    {
+     "file": "448236.4cf4771504.js",
+     "count": 6
+    },
+    {
+     "file": "124983.af62a6f144.js",
+     "count": 5
+    },
+    {
+     "file": "292567.564228b7fc.js",
+     "count": 4
+    }
+   ],
+   "hits": 188
+  },
+  {
+   "route": "/:locale?/veterans-claim",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/?paid_image_handoff_carryover=unavailable",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "553558.e1a4326c94.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/{containerName}",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "734039.a56d4689c9.js",
+     "count": 18
+    }
+   ],
+   "hits": 18
+  },
+  {
+   "route": "/{containerName}/{blob}",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "734039.a56d4689c9.js",
+     "count": 43
+    }
+   ],
+   "hits": 43
+  },
+  {
+   "route": "/accounts/add_email/verify",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "124983.af62a6f144.js",
+     "count": 1
+    },
+    {
+     "file": "673345.7b63199753.js",
+     "count": 1
+    },
+    {
+     "file": "856083.ac54ec1a78.js",
+     "count": 1
+    },
+    {
+     "file": "933249.4458305c0b.js",
+     "count": 1
+    }
+   ],
+   "hits": 4
+  },
+  {
+   "route": "/api/v2/profiling/quota",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "751201.d887a0b34d.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/archive",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "601050.adaf07012c.js",
+     "count": 1
+    },
+    {
+     "file": "642253.9a395494a6.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/automations",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/automations?automationMode=create",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "444466.2fa255848e.js",
+     "count": 3
+    },
+    {
+     "file": "892323.5e2ff24ac6.js",
+     "count": 3
+    },
+    {
+     "file": "835890.db80351047.js",
+     "count": 1
+    }
+   ],
+   "hits": 7
+  },
+  {
+   "route": "/avatar-overlay",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/credit/connection",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/backend-api/aip/ledger/credit/score",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/credit/verification/complete",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/credit/verification/start",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/funnel-events",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/institutions",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/links",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/backend-api/aip/ledger/oauth/start",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/backend-api/aip/ledger/oauth/state/",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/oauth/submit-public-token",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/backend-api/aip/ledger/profile",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/backend-api/aip/ledger/tax_checkup",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "512351.2a91ce214d.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/aip/ledger/widgets",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/ecosystem/call_mcp",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "526580.b8f6752d19.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/explore/feed/dil",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "441763.0111704300.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/backend-api/telemetry/sentry",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "356413.dc455e830b.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/branch/:conversationId/:messageId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/business-hub/:profileId/agent",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "281600.56dd86d557.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/business-hub/:profileId/edit/:section",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "281600.56dd86d557.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/business-hub/:profileId/insights",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "281600.56dd86d557.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/business-hub/:profileId/products",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "281600.56dd86d557.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/business-hub/:profileId/verification/:flowId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "281600.56dd86d557.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/business-profiles/shopify/connect",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "281600.56dd86d557.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/cfc-verification",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/chatgpt_health_oauth_redirect",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/checkout/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/classes",
+   "kinds": [
+    "link",
+    "match",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "850756.db640d2d9e.js",
+     "count": 4
+    },
+    {
+     "file": "486014.21d779b768.js",
+     "count": 1
+    },
+    {
+     "file": "581340.42417af9f6.js",
+     "count": 1
+    },
+    {
+     "file": "881612.d5f896add0.js",
+     "count": 1
+    }
+   ],
+   "hits": 7
+  },
+  {
+   "route": "/classes/*",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/classes/instructor",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "581340.42417af9f6.js",
+     "count": 1
+    },
+    {
+     "file": "850756.db640d2d9e.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/classes/new",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "581340.42417af9f6.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/classes/offerings/:offeringReceipt",
+   "kinds": [
+    "match",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "486014.21d779b768.js",
+     "count": 1
+    },
+    {
+     "file": "850756.db640d2d9e.js",
+     "count": 1
+    }
+   ],
+   "hits": 3
+  },
+  {
+   "route": "/cloud-environments/new",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "579232.381d316217.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/cme",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/codex-mobile",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/codex/cloud",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "277790.d33f5bfa9c.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/codex/purchase/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/college-plan/share/:planId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "364313.d749d31da5.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/connector/oauth_callback",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/create-workspace",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/diff",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/dots",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/elicitation",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/explore",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/extension/panel/new",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/first-run",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "104053.034d0373e5.js",
+     "count": 1
+    },
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "937045.097efaf6ba.js",
+     "count": 1
+    }
+   ],
+   "hits": 3
+  },
+  {
+   "route": "/g/g-TYEliDU6A-actionsgpt",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "750100.a0e08077cb.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/gpts",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/gpts/editor/:gizmoId?",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/images",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "365750.711f4b3fe0.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/inbox",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/internal/demo-tools",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/ledger/plaid/web/oauth_redirect",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/level-up",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/library",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "216721.353f71a396.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/library/*",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/library/file/:libraryFileId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/library/share/*",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/local/:conversationId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 2
+    },
+    {
+     "file": "288123.4c221539d7.js",
+     "count": 1
+    },
+    {
+     "file": "804632.aee727bb64.js",
+     "count": 1
+    },
+    {
+     "file": "825164.69e2b739ab.js",
+     "count": 1
+    },
+    {
+     "file": "835890.db80351047.js",
+     "count": 1
+    },
+    {
+     "file": "897450.5361002a6d.js",
+     "count": 1
+    }
+   ],
+   "hits": 7
+  },
+  {
+   "route": "/login",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/maps/:entityId?",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/meetings",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "911644.eaf037cac0.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/mission-control",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/o",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/o/*",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/onboarding/owner",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/payments/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/payments/success-team",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/plan-summary",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/plugins",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/plugins-redirect",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/plugins?search=Calendar",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "444466.2fa255848e.js",
+     "count": 1
+    },
+    {
+     "file": "892323.5e2ff24ac6.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/plugins?search=Gmail",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "444466.2fa255848e.js",
+     "count": 1
+    },
+    {
+     "file": "892323.5e2ff24ac6.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/plugins?search=Google%20Drive",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "444466.2fa255848e.js",
+     "count": 1
+    },
+    {
+     "file": "892323.5e2ff24ac6.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/plugins/:pluginId/app/:toolName",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/pricing-plan",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "162421.3138efa511.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/pricing/credits",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/products/:entityShareId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/profile",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/projects",
+   "kinds": [
+    "match",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/pull-requests",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/purchase/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/redeem",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/refer/:linkId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/remote-connections",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/remote/:taskId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/rosalind/application",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/rosalind/application/status",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/rosalind/lab/application",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/scheduled",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "168356.a01990cc84.js",
+     "count": 2
+    },
+    {
+     "file": "911644.eaf037cac0.js",
+     "count": 1
+    }
+   ],
+   "hits": 3
+  },
+  {
+   "route": "/security/*",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/security/findings",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "899333.11d349e59b.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/security/findings/:findingId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "899333.11d349e59b.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/security/new",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "899333.11d349e59b.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/security/repositories",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "899333.11d349e59b.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/security/repositories/:targetId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "899333.11d349e59b.js",
+     "count": 2
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/security/scans/:scanId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "899333.11d349e59b.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/security/scans/:scanId/findings/:occurrenceId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "899333.11d349e59b.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/select-workspace",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "178725.9b4f01101b.js",
+     "count": 1
+    },
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "911644.eaf037cac0.js",
+     "count": 1
+    }
+   ],
+   "hits": 3
+  },
+  {
+   "route": "/settings/:section",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/:section/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 2
+    },
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    },
+    {
+     "file": "468418.d29c9693b2.js",
+     "count": 1
+    }
+   ],
+   "hits": 4
+  },
+  {
+   "route": "/settings/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "154206.f88a662855.js",
+     "count": 1
+    },
+    {
+     "file": "176219.fd04b5863c.js",
+     "count": 1
+    },
+    {
+     "file": "180682.5e85675387.js",
+     "count": 1
+    },
+    {
+     "file": "21395.7ba02bc63b.js",
+     "count": 1
+    },
+    {
+     "file": "218192.6a4ef660cd.js",
+     "count": 1
+    },
+    {
+     "file": "278282.af0531b2d3.js",
+     "count": 1
+    }
+   ],
+   "hits": 18
+  },
+  {
+   "route": "/settings/account",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "119390.a7a8520c79.js",
+     "count": 1
+    },
+    {
+     "file": "193602.c473a880fd.js",
+     "count": 1
+    },
+    {
+     "file": "744039.631c4f21c5.js",
+     "count": 1
+    },
+    {
+     "file": "856083.ac54ec1a78.js",
+     "count": 1
+    }
+   ],
+   "hits": 4
+  },
+  {
+   "route": "/settings/agreements",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "984770.c11d082add.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/archived-chats",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "673345.7b63199753.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/billing",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "665991.cb36b4f6fb.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/billing?expense_invoice=latest",
+   "kinds": [
+    "navigate"
+   ],
+   "files": [
+    {
+     "file": "486447.9ac059f6d3.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/browser-use",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "524289.c06aee7c60.js",
+     "count": 5
+    },
+    {
+     "file": "969257.d0a46e6410.js",
+     "count": 1
+    }
+   ],
+   "hits": 6
+  },
+  {
+   "route": "/settings/cloud-environments",
+   "kinds": [
+    "navigate"
+   ],
+   "files": [
+    {
+     "file": "486447.9ac059f6d3.js",
+     "count": 1
+    },
+    {
+     "file": "901175.c2f005b5f7.js",
+     "count": 1
+    }
+   ],
+   "hits": 2
+  },
+  {
+   "route": "/settings/cloud-environments?tab=preferences",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/code-review?tab=app",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "524289.c06aee7c60.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/codex-cloud",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "126799.9d512cd7e1.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/codex-micro",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "911644.eaf037cac0.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/computer-use",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "721731.07541e9d01.js",
+     "count": 3
+    },
+    {
+     "file": "444466.2fa255848e.js",
+     "count": 2
+    },
+    {
+     "file": "892323.5e2ff24ac6.js",
+     "count": 2
+    },
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 8
+  },
+  {
+   "route": "/settings/connections",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "49517.291d3390a5.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/connections/ssh",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "178725.9b4f01101b.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/connections/wsl",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "25051.f5d7b08f7d.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/keyboard-shortcuts",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "911644.eaf037cac0.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/local-environments",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "754281.551bb02fa4.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/mcp-settings",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "911644.eaf037cac0.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/personalization",
+   "kinds": [
+    "navigate",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "361976.a36c0a4ae6.js",
+     "count": 1
+    },
+    {
+     "file": "493889.907634cbcf.js",
+     "count": 1
+    },
+    {
+     "file": "698876.af0ce6657e.js",
+     "count": 1
+    },
+    {
+     "file": "911644.eaf037cac0.js",
+     "count": 1
+    }
+   ],
+   "hits": 4
+  },
+  {
+   "route": "/settings/personalization?about_you=summary#chatgpt-memory",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "962147.d4f75d1ba0.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/personalization?instructions=nickname",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "104053.034d0373e5.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/plugins-settings",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "397116.a8b64231c6.js",
+     "count": 2
+    },
+    {
+     "file": "199339.63a50285a0.js",
+     "count": 1
+    },
+    {
+     "file": "380495.8cf38b5bd5.js",
+     "count": 1
+    },
+    {
+     "file": "43752.8ad320437b.js",
+     "count": 1
+    },
+    {
+     "file": "52086.d2702816e5.js",
+     "count": 1
+    },
+    {
+     "file": "871717.5713132ca3.js",
+     "count": 1
+    }
+   ],
+   "hits": 7
+  },
+  {
+   "route": "/settings/plugins-settings/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "623136.65fbfd2ce4.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/plugins-settings/hosts/:hostId/plugins/:pluginId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "154206.f88a662855.js",
+     "count": 1
+    },
+    {
+     "file": "176219.fd04b5863c.js",
+     "count": 1
+    },
+    {
+     "file": "180682.5e85675387.js",
+     "count": 1
+    },
+    {
+     "file": "199339.63a50285a0.js",
+     "count": 1
+    },
+    {
+     "file": "21395.7ba02bc63b.js",
+     "count": 1
+    },
+    {
+     "file": "218192.6a4ef660cd.js",
+     "count": 1
+    }
+   ],
+   "hits": 18
+  },
+  {
+   "route": "/settings/profile",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/security",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "717933.b27df71604.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/security?view=account-pin",
+   "kinds": [
+    "navigate"
+   ],
+   "files": [
+    {
+     "file": "206372.dc6dc2cada.js",
+     "count": 2
+    },
+    {
+     "file": "810953.8578e3150b.js",
+     "count": 2
+    }
+   ],
+   "hits": 4
+  },
+  {
+   "route": "/settings/teams",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "468418.d29c9693b2.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/teams/:teamId",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "468418.d29c9693b2.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/teams/:teamId/join",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "329299.8a1747c2a1.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/settings/usage",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "71320.1460eb0aa0.js",
+     "count": 1
+    },
+    {
+     "file": "897450.5361002a6d.js",
+     "count": 1
+    },
+    {
+     "file": "921241.5ac358a4ce.js",
+     "count": 1
+    }
+   ],
+   "hits": 3
+  },
+  {
+   "route": "/shopping",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/sites",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 2
+    },
+    {
+     "file": "111855.1c19861eba.js",
+     "count": 1
+    },
+    {
+     "file": "209638.af792d02db.js",
+     "count": 1
+    },
+    {
+     "file": "45553.8711e91358.js",
+     "count": 1
+    },
+    {
+     "file": "55485.1c4b8f2115.js",
+     "count": 1
+    },
+    {
+     "file": "568175.9c08e09871.js",
+     "count": 1
+    }
+   ],
+   "hits": 10
+  },
+  {
+   "route": "/sites/:projectId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/skills",
+   "kinds": [
+    "link",
+    "match",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "444466.2fa255848e.js",
+     "count": 2
+    },
+    {
+     "file": "892323.5e2ff24ac6.js",
+     "count": 2
+    },
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "350905.9cb56bfebd.js",
+     "count": 1
+    },
+    {
+     "file": "375488.651e5ccf3a.js",
+     "count": 1
+    },
+    {
+     "file": "403035.6125ee3031.js",
+     "count": 1
+    }
+   ],
+   "hits": 11
+  },
+  {
+   "route": "/skills/*",
+   "kinds": [
+    "match"
+   ],
+   "files": [
+    {
+     "file": "881612.d5f896add0.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space",
+   "kinds": [
+    "link",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "590627.af777c34bd.js",
+     "count": 3
+    },
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 2
+    },
+    {
+     "file": "752759.4138b8f3b5.js",
+     "count": 2
+    },
+    {
+     "file": "10219.1249a297a3.js",
+     "count": 1
+    },
+    {
+     "file": "211440.f313ef3e83.js",
+     "count": 1
+    },
+    {
+     "file": "364313.d749d31da5.js",
+     "count": 1
+    }
+   ],
+   "hits": 12
+  },
+  {
+   "route": "/space?tab=suggested",
+   "kinds": [
+    "link"
+   ],
+   "files": [
+    {
+     "file": "176964.9b2d84150e.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/:pageId",
+   "kinds": [
+    "match",
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "303047.bfdf47b7ff.js",
+     "count": 1
+    },
+    {
+     "file": "586395.49432e3fd8.js",
+     "count": 1
+    },
+    {
+     "file": "734780.7ca936ca7b.js",
+     "count": 1
+    }
+   ],
+   "hits": 4
+  },
+  {
+   "route": "/space/:pageId/:instanceId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/browser/:url/:instanceId?",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/d/:directoryId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "364313.d749d31da5.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/file/:libraryFileId/:instanceId?",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/files",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "364313.d749d31da5.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/files/d/:directoryId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "364313.d749d31da5.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/local-file/:path/:instanceId?",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/space/sites/*",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/spaces",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "364313.d749d31da5.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/spaces/:spaceId",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/spaces/new",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/spotlight",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/students/claim",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/students/verify",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/trusted-contact/decline",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/trusted-contact/nominee",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/trusted-contact/remove",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/u/:username",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/verify_age",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/verify_guardian",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/voice",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "195729.0fd4b11df8.js",
+     "count": 1
+    },
+    {
+     "file": "263520.674ed29c8d.js",
+     "count": 1
+    },
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    },
+    {
+     "file": "479674.504919838e.js",
+     "count": 1
+    },
+    {
+     "file": "589508.c340cf9c2c.js",
+     "count": 1
+    }
+   ],
+   "hits": 5
+  },
+  {
+   "route": "/w/:slug/:username",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/welcome",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  },
+  {
+   "route": "/work",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    },
+    {
+     "file": "195729.0fd4b11df8.js",
+     "count": 1
+    },
+    {
+     "file": "263520.674ed29c8d.js",
+     "count": 1
+    },
+    {
+     "file": "308531.4c2e7da693.js",
+     "count": 1
+    },
+    {
+     "file": "479674.504919838e.js",
+     "count": 1
+    },
+    {
+     "file": "589508.c340cf9c2c.js",
+     "count": 1
+    }
+   ],
+   "hits": 6
+  },
+  {
+   "route": "/workspace/deactivated",
+   "kinds": [
+    "route"
+   ],
+   "files": [
+    {
+     "file": "191628.7c4ce6e8ec.js",
+     "count": 1
+    }
+   ],
+   "hits": 1
+  }
+ ],
+ "diff_26_1106": {
+  "added": [
+   "/:locale?/veterans-claim",
+   "/backend-api/aip/ledger/tax_checkup",
+   "/business-hub/:profileId/products",
+   "/classes",
+   "/classes/*",
+   "/classes/instructor",
+   "/classes/new",
+   "/classes/offerings/:offeringReceipt",
+   "/onboarding/owner",
+   "/settings/:section",
+   "/settings/billing?expense_invoice=latest",
+   "/settings/cloud-environments"
+  ],
+  "removed": [
+   "/backend-api/multiplayer/documents/",
+   "/hotkey-window/remote/:taskId",
+   "/hotkey-window/thread/:conversationId",
+   "/remote/:conversationId",
+   "/space/personal"
+  ]
+ }
+}

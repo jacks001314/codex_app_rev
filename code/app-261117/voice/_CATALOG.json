@@ -1,0 +1,1862 @@
+{
+ "module": "voice",
+ "generated_at": "2026-11-24T02:27:17.554Z",
+ "files_scanned": 5,
+ "message_count": 91,
+ "messages": [
+  {
+   "id": "artifactHandoff.untitledDocument",
+   "text": "Untitled document",
+   "description": "Fallback name for a shared local document without a title",
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.customizePrompt",
+   "text": "Help me customize a personal copy of {template} using {templateCreator}",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactTemplate.resultCard.editPrompt",
+   "text": "Help me make updates to {template} using {templateCreator}",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "avatarOverlay.realtime.usageLimitReset",
+   "text": "Voice limit reached. Try again at {resetTime}.",
+   "description": null,
+   "files": [
+    "83716.6b28ba36da.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "composer.realtime.createThreadError",
+   "text": "Unable to start voice chat",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "dil.modelWrittenV2.responseFailure",
+   "text": "This response couldn\\u2019t load",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createDocument.prompt",
+   "text": "Create a new document template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createPresentation.prompt",
+   "text": "Create a new presentation template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createSite.prompt",
+   "text": "Create a new site template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.createSpreadsheet.prompt",
+   "text": "Create a new spreadsheet template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.documents",
+   "text": "Documents",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.presentations",
+   "text": "Presentations",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.sites",
+   "text": "Sites",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "home.artifactTemplates.spreadsheets",
+   "text": "Spreadsheets",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "localConversation.sideChat.title",
+   "text": "Side chat",
+   "description": "Title for the first side chat tab",
+   "files": [
+    "83716.6b28ba36da.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.back",
+   "text": "Back",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.failedDescription",
+   "text": "Try again, or go back",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.failedTitle",
+   "text": "Voice chat couldn\\u2019t start",
+   "description": "Title shown when an optimistic realtime voice launch fails",
+   "files": [
+    "83716.6b28ba36da.js",
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "realtimeVoice.launch.feedback",
+   "text": "Send feedback",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedDescription",
+   "text": "Allow microphone access in system settings to start a voice chat",
+   "description": "Instructions shown when operating-system microphone permission must be enabled before starting realtime voice chat",
+   "files": [
+    "83716.6b28ba36da.js",
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "realtimeVoice.launch.microphonePermissionDeniedTitle",
+   "text": "Microphone permission denied",
+   "description": "Title shown when realtime voice chat cannot start because the operating system denied microphone permission",
+   "files": [
+    "83716.6b28ba36da.js",
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "realtimeVoice.launch.openMicrophoneSettings",
+   "text": "Open system settings",
+   "description": "Button that opens the operating-system microphone privacy settings after microphone permission blocks realtime voice chat",
+   "files": [
+    "83716.6b28ba36da.js",
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "realtimeVoice.launch.retry",
+   "text": "Try again",
+   "description": "Button that retries a failed realtime voice launch",
+   "files": [
+    "83716.6b28ba36da.js",
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "realtimeVoice.launch.starting",
+   "text": "Starting voice chat",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.desktop.description",
+   "text": "Use your files, apps, and connected tools\\u2014from Slack and GitHub to Notion and beyond",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.desktop.description.chatgpt",
+   "text": "Bring together your files, apps, and connected tools\\u2014from Slack and Notion to the documents you use every day",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.desktop.title",
+   "text": "Work across your desktop",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.learn.description",
+   "text": "Talk through a PR, ask questions about a codebase, or learn a new topic through natural back-and-forth",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.learn.description.chatgpt",
+   "text": "Brainstorm ideas, prepare for a big meeting, or learn something new through natural back-and-forth",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.learn.title",
+   "text": "Explore, plan, and learn",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.projects.description",
+   "text": "Start new tasks, coordinate work in progress, and pick up where you left off\\u2014without micromanaging",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.projects.description.chatgpt",
+   "text": "Turn ideas into action, keep work moving, and pick up where you left off\\u2014without micromanaging",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.projects.title",
+   "text": "Work across projects",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.nux.title",
+   "text": "Meet ChatGPT Voice",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.description",
+   "text": "Appshots let ChatGPT use the active window\\u2019s image and text when you ask about what\\u2019s on screen",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.error",
+   "text": "Appshots couldn\\u2019t be updated",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.saving",
+   "text": "Saving Appshots preference",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.title",
+   "text": "Bring your screen into the conversation",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.toggleAriaLabel",
+   "text": "Use Appshots",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.toggleDescription",
+   "text": "You can turn this off anytime in Settings",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.toggleLabel",
+   "text": "Use Appshots",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.appshots.unavailable",
+   "text": "Appshots aren\\u2019t available on this device",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.back",
+   "text": "Back",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.close",
+   "text": "Close voice chat setup",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.next",
+   "text": "Next",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.start",
+   "text": "Start voice chat",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.title",
+   "text": "Set up voice chat",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.voice.description",
+   "text": "You can change this anytime in Settings",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "realtimeVoice.onboarding.voice.title",
+   "text": "Choose your voice",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.choose",
+   "text": "Choose a voice",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.loading",
+   "text": "Loading\\u2026",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.next",
+   "text": "Next voice",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.noVoices",
+   "text": "No compatible voices are available",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.optionLabel",
+   "text": "{name}: {description}",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewPause",
+   "text": "Pause {name} preview",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewPlay",
+   "text": "Play {name} preview",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewReplay",
+   "text": "Replay {name} preview",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewRetry",
+   "text": "Retry {name} preview",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previewUnavailable",
+   "text": "Preview unavailable",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.previous",
+   "text": "Previous voice",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.saveError",
+   "text": "Unable to save voice",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.general.realtimeVoice.selectedAnnouncement",
+   "text": "Selected voice: {name}. {description}",
+   "description": null,
+   "files": [
+    "679632.aaa23d2b88.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "settings.voice.dictionary.atCapacity",
+   "text": "Your dictionary is full. Your saved words are kept. Remove words to make room for new ones",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.cancelImport",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.capacityError",
+   "text": "Your dictionary is full. Remove a saved word before adding more. Words from this device are kept for retry",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.confirmImport",
+   "text": "Import words",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.duplicateError",
+   "text": "This word is already in your dictionary",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.importDescription",
+   "text": "Import these words from this device into your current account and workspace. Saved words will be available on your other devices",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.invalidEntryError",
+   "text": "Check the word\\u2019s length and remove any line breaks or attachments.",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.limits",
+   "text": "Dictionary capacity: {maxWords, number}. Each word can contain up to {maxLength, plural, one {# character} other {# characters}} after text normalization. Some characters, including emoji, count as two or more",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.loading",
+   "text": "Loading words\\u2026",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.reviewImport",
+   "text": "Import words from this device\\u2026",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.saveError",
+   "text": "Couldn\\u2019t save dictionary changes. Check the words and try again",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "settings.voice.dictionary.serverTooLong",
+   "text": "This word is too long after text normalization. Shorten it to the current limit shown above",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "space.pageTemplates.category",
+   "text": "Pages",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "space.templates.create.prompt",
+   "text": "Create a new template using {templateCreator}. First, explain how templates work and how to use them. Then ask me to upload a reference file and if needed interview me on how and when to use the template.",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "speechSettings.content.customDictionary.addWord.heading",
+   "text": "Add word",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.button.add",
+   "text": "Add",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.button.remove.ariaLabel",
+   "text": "Remove {word}",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.button.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.empty",
+   "text": "No words yet",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.emptySearch",
+   "text": "No matching words",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.input.add.placeholder",
+   "text": "Word ChatGPT should recognize when spoken",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.input.search.ariaLabel",
+   "text": "Search words",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.input.search.placeholder",
+   "text": "Search",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.loadError",
+   "text": "We couldn\\u2019t load your saved words",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.page.title",
+   "text": "Voice dictionary",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.savedWords.heading",
+   "text": "Words",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "speechSettings.content.customDictionary.wordCount",
+   "text": "{wordCount}/{maxWords}",
+   "description": null,
+   "files": [
+    "19319.32331f0b22.js",
+    "241700.243f7c3e48.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "voice.rateLimitModal.dismiss",
+   "text": "OK",
+   "description": null,
+   "files": [
+    "887931.45f426ea0e.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 235
+  },
+  {
+   "name": "className",
+   "count": 208
+  },
+  {
+   "name": "id",
+   "count": 154
+  },
+  {
+   "name": "defaultMessage",
+   "count": 124
+  },
+  {
+   "name": "type",
+   "count": 35
+  },
+  {
+   "name": "disabled",
+   "count": 33
+  },
+  {
+   "name": "onClick",
+   "count": 32
+  },
+  {
+   "name": "size",
+   "count": 29
+  },
+  {
+   "name": "label",
+   "count": 25
+  },
+  {
+   "name": "description",
+   "count": 24
+  },
+  {
+   "name": "variant",
+   "count": 22
+  },
+  {
+   "name": "null",
+   "count": 21
+  },
+  {
+   "name": "error",
+   "count": 20
+  },
+  {
+   "name": "name",
+   "count": 19
+  },
+  {
+   "name": "icon",
+   "count": 19
+  },
+  {
+   "name": "hostId",
+   "count": 19
+  },
+  {
+   "name": "color",
+   "count": 18
+  },
+  {
+   "name": "listClassName",
+   "count": 18
+  },
+  {
+   "name": "role",
+   "count": 16
+  },
+  {
+   "name": "tabButtonClassName",
+   "count": 16
+  },
+  {
+   "name": "value",
+   "count": 15
+  },
+  {
+   "name": "before",
+   "count": 14
+  },
+  {
+   "name": "after",
+   "count": 14
+  },
+  {
+   "name": "hover",
+   "count": 13
+  },
+  {
+   "name": "y",
+   "count": 13
+  },
+  {
+   "name": "$type",
+   "count": 13
+  },
+  {
+   "name": "unselectedClassName",
+   "count": 13
+  },
+  {
+   "name": "accountId",
+   "count": 12
+  },
+  {
+   "name": "userId",
+   "count": 12
+  },
+  {
+   "name": "signal",
+   "count": 12
+  },
+  {
+   "name": "title",
+   "count": 12
+  },
+  {
+   "name": "style",
+   "count": 12
+  },
+  {
+   "name": "x",
+   "count": 12
+  },
+  {
+   "name": "selectedClassName",
+   "count": 12
+  },
+  {
+   "name": "phase",
+   "count": 11
+  },
+  {
+   "name": "stack",
+   "count": 11
+  },
+  {
+   "name": "hasError",
+   "count": 11
+  },
+  {
+   "name": "onChange",
+   "count": 10
+  },
+  {
+   "name": "tabIndex",
+   "count": 10
+  },
+  {
+   "name": "width",
+   "count": 10
+  },
+  {
+   "name": "height",
+   "count": 10
+  },
+  {
+   "name": "presentation",
+   "count": 10
+  },
+  {
+   "name": "ref",
+   "count": 10
+  },
+  {
+   "name": "text",
+   "count": 9
+  },
+  {
+   "name": "surface",
+   "count": 9
+  },
+  {
+   "name": "control",
+   "count": 9
+  },
+  {
+   "name": "sm",
+   "count": 9
+  },
+  {
+   "name": "dark",
+   "count": 9
+  },
+  {
+   "name": "queryKey",
+   "count": 8
+  },
+  {
+   "name": "checked",
+   "count": 8
+  },
+  {
+   "name": "autoFocus",
+   "count": 8
+  },
+  {
+   "name": "onSubmit",
+   "count": 8
+  },
+  {
+   "name": "verticalAlignment",
+   "count": 8
+  },
+  {
+   "name": "projectId",
+   "count": 8
+  },
+  {
+   "name": "locator",
+   "count": 8
+  },
+  {
+   "name": "paletteIndex",
+   "count": 8
+  },
+  {
+   "name": "voiceActivity",
+   "count": 8
+  },
+  {
+   "name": "onClose",
+   "count": 7
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 7
+  },
+  {
+   "name": "expectedErrorStatuses",
+   "count": 7
+  },
+  {
+   "name": "loading",
+   "count": 7
+  },
+  {
+   "name": "ariaLabel",
+   "count": 7
+  },
+  {
+   "name": "t",
+   "count": 7
+  },
+  {
+   "name": "source",
+   "count": 7
+  },
+  {
+   "name": "previewAudioLevel",
+   "count": 7
+  },
+  {
+   "name": "conversationId",
+   "count": 7
+  },
+  {
+   "name": "get",
+   "count": 7
+  },
+  {
+   "name": "threadId",
+   "count": 7
+  },
+  {
+   "name": "unselectedTextClassName",
+   "count": 7
+  },
+  {
+   "name": "isPending",
+   "count": 6
+  },
+  {
+   "name": "onError",
+   "count": 6
+  },
+  {
+   "name": "htmlFor",
+   "count": 6
+  },
+  {
+   "name": "labelSizing",
+   "count": 6
+  },
+  {
+   "name": "labelWeight",
+   "count": 6
+  },
+  {
+   "name": "scope",
+   "count": 6
+  },
+  {
+   "name": "primaryAction",
+   "count": 6
+  },
+  {
+   "name": "onBack",
+   "count": 6
+  },
+  {
+   "name": "enabled",
+   "count": 6
+  },
+  {
+   "name": "safe",
+   "count": 6
+  },
+  {
+   "name": "sensitive",
+   "count": 6
+  },
+  {
+   "name": "previewTimeMs",
+   "count": 6
+  },
+  {
+   "name": "duration",
+   "count": 6
+  },
+  {
+   "name": "queryFn",
+   "count": 5
+  },
+  {
+   "name": "staleTime",
+   "count": 5
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 5
+  },
+  {
+   "name": "toastId",
+   "count": 5
+  },
+  {
+   "name": "values",
+   "count": 5
+  },
+  {
+   "name": "entryPoint",
+   "count": 5
+  },
+  {
+   "name": "memoryPreferences",
+   "count": 5
+  },
+  {
+   "name": "e",
+   "count": 5
+  },
+  {
+   "name": "opacity",
+   "count": 5
+  },
+  {
+   "name": "retry",
+   "count": 4
+  },
+  {
+   "name": "data",
+   "count": 4
+  },
+  {
+   "name": "path",
+   "count": 4
+  },
+  {
+   "name": "queryClient",
+   "count": 4
+  },
+  {
+   "name": "maxWords",
+   "count": 4
+  },
+  {
+   "name": "placeholder",
+   "count": 4
+  },
+  {
+   "name": "layout",
+   "count": 4
+  },
+  {
+   "name": "open",
+   "count": 4
+  },
+  {
+   "name": "onOpenChange",
+   "count": 4
+  },
+  {
+   "name": "labelId",
+   "count": 4
+  },
+  {
+   "name": "descriptionId",
+   "count": 4
+  },
+  {
+   "name": "searchAnchor",
+   "count": 4
+  },
+  {
+   "name": "fill",
+   "count": 4
+  },
+  {
+   "name": "prompt",
+   "count": 4
+  },
+  {
+   "name": "workspaceRoots",
+   "count": 4
+  },
+  {
+   "name": "sourceComposerScope",
+   "count": 4
+  },
+  {
+   "name": "originPath",
+   "count": 4
+  },
+  {
+   "name": "request",
+   "count": 4
+  },
+  {
+   "name": "workHomePolicyAcceptance",
+   "count": 4
+  },
+  {
+   "name": "isAppshotAvailable",
+   "count": 4
+  },
+  {
+   "name": "updateError",
+   "count": 4
+  },
+  {
+   "name": "onEnabledChange",
+   "count": 4
+  },
+  {
+   "name": "onboarding",
+   "count": 4
+  },
+  {
+   "name": "isOpenRef",
+   "count": 4
+  },
+  {
+   "name": "backAction",
+   "count": 4
+  },
+  {
+   "name": "initialVoice",
+   "count": 4
+  },
+  {
+   "name": "voices",
+   "count": 4
+  },
+  {
+   "name": "onVoiceChange",
+   "count": 4
+  },
+  {
+   "name": "activeCollaborationMode",
+   "count": 4
+  },
+  {
+   "name": "pageCompanion",
+   "count": 4
+  },
+  {
+   "name": "serviceTier",
+   "count": 4
+  },
+  {
+   "name": "memoryPreferencesToInitialize",
+   "count": 4
+  },
+  {
+   "name": "P",
+   "count": 4
+  },
+  {
+   "name": "glowEnabled",
+   "count": 4
+  },
+  {
+   "name": "onDraw",
+   "count": 4
+  },
+  {
+   "name": "onRenderError",
+   "count": 4
+  },
+  {
+   "name": "onStateSample",
+   "count": 4
+  },
+  {
+   "name": "placement",
+   "count": 4
+  },
+  {
+   "name": "V",
+   "count": 4
+  },
+  {
+   "name": "document",
+   "count": 4
+  },
+  {
+   "name": "spreadsheet",
+   "count": 4
+  },
+  {
+   "name": "site",
+   "count": 4
+  },
+  {
+   "name": "itemClassName",
+   "count": 4
+  },
+  {
+   "name": "md",
+   "count": 4
+  },
+  {
+   "name": "initial",
+   "count": 4
+  },
+  {
+   "name": "transition",
+   "count": 4
+  },
+  {
+   "name": "reduceMotion",
+   "count": 4
+  },
+  {
+   "name": "isError",
+   "count": 3
+  },
+  {
+   "name": "refetch",
+   "count": 3
+  },
+  {
+   "name": "onSuccess",
+   "count": 3
+  },
+  {
+   "name": "requestBody",
+   "count": 3
+  },
+  {
+   "name": "as",
+   "count": 3
+  },
+  {
+   "name": "contentProps",
+   "count": 3
+  },
+  {
+   "name": "s",
+   "count": 3
+  },
+  {
+   "name": "inset",
+   "count": 3
+  },
+  {
+   "name": "jj",
+   "count": 3
+  },
+  {
+   "name": "indicator",
+   "count": 3
+  },
+  {
+   "name": "product",
+   "count": 3
+  },
+  {
+   "name": "attemptId",
+   "count": 3
+  },
+  {
+   "name": "viewBox",
+   "count": 3
+  },
+  {
+   "name": "d",
+   "count": 3
+  },
+  {
+   "name": "i",
+   "count": 3
+  },
+  {
+   "name": "src",
+   "count": 3
+  },
+  {
+   "name": "primaryDisabled",
+   "count": 3
+  },
+  {
+   "name": "previewEnabled",
+   "count": 3
+  },
+  {
+   "name": "agentMode",
+   "count": 3
+  },
+  {
+   "name": "currentLocalExecutionCwd",
+   "count": 3
+  },
+  {
+   "name": "permissionProfileId",
+   "count": 3
+  },
+  {
+   "name": "shouldSendPermissionOverrides",
+   "count": 3
+  },
+  {
+   "name": "workspaceRootsForLocalExecution",
+   "count": 3
+  },
+  {
+   "name": "realtimeVoiceDynamicTools",
+   "count": 3
+  },
+  {
+   "name": "filter",
+   "count": 3
+  },
+  {
+   "name": "o",
+   "count": 3
+  },
+  {
+   "name": "v",
+   "count": 3
+  },
+  {
+   "name": "documentType",
+   "count": 3
+  },
+  {
+   "name": "pageId",
+   "count": 3
+  },
+  {
+   "name": "caption",
+   "count": 3
+  },
+  {
+   "name": "closeButtonClassName",
+   "count": 3
+  },
+  {
+   "name": "segmentedEdges",
+   "count": 3
+  },
+  {
+   "name": "selectionIndicator",
+   "count": 3
+  },
+  {
+   "name": "textSizeClassName",
+   "count": 3
+  },
+  {
+   "name": "N",
+   "count": 3
+  },
+  {
+   "name": "layoutId",
+   "count": 3
+  },
+  {
+   "name": "ease",
+   "count": 3
+  },
+  {
+   "name": "animate",
+   "count": 3
+  },
+  {
+   "name": "DictionaryDialog",
+   "count": 2
+  },
+  {
+   "name": "max_entry_utf16_units",
+   "count": 2
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 2
+  },
+  {
+   "name": "isFetching",
+   "count": 2
+  },
+  {
+   "name": "parameters",
+   "count": 2
+  },
+  {
+   "name": "word_id",
+   "count": 2
+  },
+  {
+   "name": "optimistic",
+   "count": 2
+  },
+  {
+   "name": "cancelRefetch",
+   "count": 2
+  },
+  {
+   "name": "mutationFn",
+   "count": 2
+  },
+  {
+   "name": "onSettled",
+   "count": 2
+  },
+  {
+   "name": "mutate",
+   "count": 2
+  },
+  {
+   "name": "variables",
+   "count": 2
+  },
+  {
+   "name": "words",
+   "count": 2
+  },
+  {
+   "name": "capacity",
+   "count": 2
+  },
+  {
+   "name": "maxLength",
+   "count": 2
+  },
+  {
+   "name": "onCheckedChange",
+   "count": 2
+  },
+  {
+   "name": "wordCount",
+   "count": 2
+  },
+  {
+   "name": "word",
+   "count": 2
+  },
+  {
+   "name": "r",
+   "count": 2
+  },
+  {
+   "name": "$5",
+   "count": 2
+  },
+  {
+   "name": "compactLabelInset",
+   "count": 2
+  },
+  {
+   "name": "valueAlignment",
+   "count": 2
+  },
+  {
+   "name": "electron",
+   "count": 2
+  },
+  {
+   "name": "ic",
+   "count": 2
+  },
+  {
+   "name": "controlSizing",
+   "count": 2
+  },
+  {
+   "name": "empty",
+   "count": 2
+  },
+  {
+   "name": "kG",
+   "count": 2
+  },
+  {
+   "name": "actions",
+   "count": 2
+  },
+  {
+   "name": "actionsPlacement",
+   "count": 2
+  },
+  {
+   "name": "ariaControls",
+   "count": 2
+  },
+  {
+   "name": "ariaExpanded",
+   "count": 2
+  },
+  {
+   "name": "edgeRounding",
+   "count": 2
+  },
+  {
+   "name": "highlightOnFocus",
+   "count": 2
+  },
+  {
+   "name": "trailing",
+   "count": 2
+  },
+  {
+   "name": "wrapActions",
+   "count": 2
+  },
+  {
+   "name": "last",
+   "count": 2
+  },
+  {
+   "name": "l",
+   "count": 2
+  },
+  {
+   "name": "kf",
+   "count": 2
+  },
+  {
+   "name": "lu",
+   "count": 2
+  },
+  {
+   "name": "highlightSelected",
+   "count": 2
+  },
+  {
+   "name": "contentOverflow",
+   "count": 2
+  },
+  {
+   "name": "dividers",
+   "count": 2
+  },
+  {
+   "name": "decoration",
+   "count": 2
+  },
+  {
+   "name": "backgroundColor",
+   "count": 2
+  },
+  {
+   "name": "dictationSessionId",
+   "count": 2
+  },
+  {
+   "name": "productExperience",
+   "count": 2
+  },
+  {
+   "name": "action",
+   "count": 2
+  },
+  {
+   "name": "xmlns",
+   "count": 2
+  },
+  {
+   "name": "p",
+   "count": 2
+  },
+  {
+   "name": "projectAssignment",
+   "count": 2
+  },
+  {
+   "name": "c",
+   "count": 2
+  },
+  {
+   "name": "pendingEnabled",
+   "count": 2
+  },
+  {
+   "name": "onNext",
+   "count": 2
+  },
+  {
+   "name": "alt",
+   "count": 2
+  },
+  {
+   "name": "isSaving",
+   "count": 2
+  },
+  {
+   "name": "voiceCatalog",
+   "count": 2
+  },
+  {
+   "name": "preserveSelectionOnRefresh",
+   "count": 2
+  },
+  {
+   "name": "promoteSelectedGroup",
+   "count": 2
+  },
+  {
+   "name": "primaryLoading",
+   "count": 2
+  },
+  {
+   "name": "startupAnalytics",
+   "count": 2
+  },
+  {
+   "name": "existingThreadVoiceEnabled",
+   "count": 2
+  },
+  {
+   "name": "newThreadBaseInstructions",
+   "count": 2
+  },
+  {
+   "name": "newThreadDeveloperInstructions",
+   "count": 2
+  },
+  {
+   "name": "realtimeVoiceToolsDeveloperInstructions",
+   "count": 2
+  },
+  {
+   "name": "presentationAnchorRef",
+   "count": 2
+  },
+  {
+   "name": "subscribeToAudio",
+   "count": 2
+  },
+  {
+   "name": "displayScale",
+   "count": 2
+  },
+  {
+   "name": "background",
+   "count": 2
+  },
+  {
+   "name": "accentColor",
+   "count": 2
+  },
+  {
+   "name": "fallbackColors",
+   "count": 2
+  },
+  {
+   "name": "S",
+   "count": 2
+  },
+  {
+   "name": "autoFocusSelectedVoice",
+   "count": 2
+  },
+  {
+   "name": "playPreviewOnInitialRender",
+   "count": 2
+  },
+  {
+   "name": "B",
+   "count": 2
+  }
+ ],
+ "literal_count": 1038,
+ "literals_file": ".work/261117/literals/voice.json"
+}

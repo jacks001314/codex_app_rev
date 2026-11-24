@@ -1,0 +1,188 @@
+{
+ "module": "composer",
+ "generated_at": "2026-11-24T02:31:56.587Z",
+ "source_archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+ "app_version": "26.1117.41037",
+ "files": [
+  {
+   "archive_path": "webview/assets/async/839700.c1fe868f96.js",
+   "file": "839700.c1fe868f96.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 737005,
+   "formatted_bytes": 1408815,
+   "formatter": "prettier",
+   "sha256_raw": "2b6c6ccb38bd166bc28b2ed8d6601df3ea2bf319de958bd9955d9dbbae2979b6",
+   "message_count": 513,
+   "namespace_score": 86,
+   "namespaces": [
+    "settings.agent:61",
+    "composer.threadGoal:30",
+    "composer.submit:29",
+    "composer.statusPlain:27"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/122854.9cf45fbb6f.js",
+   "file": "122854.9cf45fbb6f.js",
+   "selected_by": "mandatory",
+   "raw_bytes": 192525,
+   "formatted_bytes": 360889,
+   "formatter": "prettier",
+   "sha256_raw": "5a0a5388e816ba16124902b9562fad20a4f1b389f9af23187f11bf25043f1055",
+   "message_count": 148,
+   "namespace_score": 75,
+   "namespaces": [
+    "composer.mode:36",
+    "threadPage.remoteConnectionStatusBadge:19",
+    "composer.localCwdDropdown:16",
+    "composer.worktreeEnvironment:14"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/355340.de1f371a7a.js",
+   "file": "355340.de1f371a7a.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 344770,
+   "formatted_bytes": 645588,
+   "formatter": "prettier",
+   "sha256_raw": "313348d6cbeada2f98483851661787869bafa6ebaa0800938304d3dd4b63d0bf",
+   "message_count": 154,
+   "namespace_score": 53,
+   "namespaces": [
+    "avatarOverlay.waitingRequest:38",
+    "localConversation.toolActivity:14",
+    "avatarOverlay.session:10",
+    "realtimeVoice.taskUpdate:8"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/517070.d1f301a808.js",
+   "file": "517070.d1f301a808.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 38024,
+   "formatted_bytes": 64139,
+   "formatter": "prettier",
+   "sha256_raw": "830631bd3fc636841b6cfb38f94d605080a2e74a0b3088b8579e669c984e99fa",
+   "message_count": 44,
+   "namespace_score": 44,
+   "namespaces": [
+    "composer.walletRequest:44"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/81745.30f8598cb7.js",
+   "file": "81745.30f8598cb7.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 67537,
+   "formatted_bytes": 122516,
+   "formatter": "prettier",
+   "sha256_raw": "75501ff50e7e58857a662ce156e83181522bafe6492d4415c512b6676b7b76f3",
+   "message_count": 51,
+   "namespace_score": 42,
+   "namespaces": [
+    "composer.permissionsDropdown:28",
+    "composer.mode:13",
+    "workPreferences.composer:4",
+    "composer.permissionSelection:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/923712.d5a3af247d.js",
+   "file": "923712.d5a3af247d.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 106944,
+   "formatted_bytes": 204757,
+   "formatter": "prettier",
+   "sha256_raw": "f9f3e55b6c38bc4a394cb614f59db3967e8cf9430c99f677e752ae4e76155450",
+   "message_count": 54,
+   "namespace_score": 41,
+   "namespaces": [
+    "composer.atMentionList:33",
+    "computerUse.nativeApps:7",
+    "composer.atMentionTabs:5",
+    "composer.mentionSearch:3"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/847740.7dba15b337.js",
+   "file": "847740.7dba15b337.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 56926,
+   "formatted_bytes": 98574,
+   "formatter": "prettier",
+   "sha256_raw": "bf9477a9fb1e74d89f33774b09e9d9c20c13948928c228bd2b717fa86a3edf3f",
+   "message_count": 40,
+   "namespace_score": 40,
+   "namespaces": [
+    "composer.userVerification:29",
+    "composer.urlAction:5",
+    "composer.walletRequest:5",
+    "composer.toolSuggestion:1"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/411750.69776b4e9c.js",
+   "file": "411750.69776b4e9c.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 28770,
+   "formatted_bytes": 48802,
+   "formatter": "prettier",
+   "sha256_raw": "6001ccaf445f7042a2e41c9151a201c7dfccdda4f3c581719089af078205c041",
+   "message_count": 39,
+   "namespace_score": 39,
+   "namespaces": [
+    "dictation.setup:29",
+    "dictation.setupPrototype:10"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/309399.a696fd70cf.js",
+   "file": "309399.a696fd70cf.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 32633,
+   "formatted_bytes": 54975,
+   "formatter": "prettier",
+   "sha256_raw": "7059e4b85bbdf84364ba6a3ca8e5a0bd78cf5dd1d816bd1ce9e5ed513b97bf3e",
+   "message_count": 39,
+   "namespace_score": 39,
+   "namespaces": [
+    "dictation.setup:29",
+    "dictation.setupPrototype:10"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/210038.7eead78b28.js",
+   "file": "210038.7eead78b28.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 52808,
+   "formatted_bytes": 105489,
+   "formatter": "prettier",
+   "sha256_raw": "ac79692cca2921a3a7cff3597b3a22c3f2eda02e7ba0840da84a4e8657abbf9f",
+   "message_count": 55,
+   "namespace_score": 39,
+   "namespaces": [
+    "composer.newTask:38",
+    "restricted.environmentSetup:5",
+    "restricted.cloudV2:5",
+    "cloudEnvironmentPicker.github:2"
+   ]
+  },
+  {
+   "archive_path": "webview/assets/async/377960.1fb21cd25d.js",
+   "file": "377960.1fb21cd25d.js",
+   "selected_by": "namespace-score",
+   "raw_bytes": 121560,
+   "formatted_bytes": 214519,
+   "formatter": "prettier",
+   "sha256_raw": "5047ecc621c63dad49a78170d52381b6d8a1376fff23849278f0cc1b1a2d4d73",
+   "message_count": 46,
+   "namespace_score": 38,
+   "namespaces": [
+    "composer.modelPicker:28",
+    "composer.intelligencePicker:8",
+    "modelDescription.copyV1:7",
+    "composer.intelligenceDropdown:2"
+   ]
+  }
+ ]
+}

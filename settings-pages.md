@@ -1,5 +1,13 @@
 # 配置及其各个配置页面（Settings）
 
+> **26.1117 增量（2026-11-24）**：53 个 slug 与 26.1106 相同，但导航从 4 组
+> 拆成 **7 组**（profile / account / app / data-privacy / teams / integrations / coding）；
+> capability 41 → **40**（`notifications` 取消门控）；`allowed_on_web` 仍为 13。
+> 代码 `code/app-261117/settings/`，注册表 `_SETTINGS_MAP.json`，
+> 证据 chunk：`364313`（描述符）、`468418`（导航）、`559869`（可见性）、
+> `left-nav/881612`（slug→chunk 加载表）。详见
+> [changelog-26.1117.md](changelog-26.1117.md) §6.1。
+
 > **26.1016 快照（历史）**。53 项导航、54 个 slug、55 个 loader；
 > 代码在 `code/app-261016/settings/`，注册表在
 > `code/app-261016/settings/_SETTINGS_MAP.json`。旧的 26.903 / 26.928 /
@@ -594,3 +602,4 @@ time-management
 2. 扫描 `slug:lazy(...)`，验证候选对象至少含 10 个合法 slug，再回溯提取完整对象；
 3. 对 `$` 开头的别名（例如 `$Hs`）使用标识符边界而不是 `\b`；
 4. 回归结果为 55 loader、0 missing、0 resolved chunk 未抽取。
+

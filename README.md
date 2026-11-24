@@ -2,7 +2,11 @@
 
 对本机安装的 **Codex desktop app（Windows MSIX 发行版）** 的静态逆向分析。
 
-- **最新全量基线：`26.1106.6628.0`（应用版本 `26.1106.51428`，build `26605`），2026-11-15 采集**，
+- **最新全量基线：`26.1117.4957.0`（应用版本 `26.1117.41037`，build `29803`），2026-11-24 采集**，
+  覆盖 `.vite/build` 与 `webview/assets` 全量清单、20 个模块、272 个代表文件、
+  **59,872 条 i18n 文案**；仍是 **Rspack**，语言包改为 gzip、asar 降到 443.8 MB。见
+  [changelog-26.1117.md](changelog-26.1117.md)、`code/app-261117/`、`inventories/inventory-261117.json`
+- **上一全量基线：`26.1106.6628.0`（应用版本 `26.1106.51428`，build `26605`），2026-11-15 采集**，
   覆盖 `.vite/build` 与 `webview/assets` 全量清单、19 个模块、224 个代表文件、
   **57,893 条 i18n 文案**；仍是 **Rspack**，见 [changelog-26.1106.md](changelog-26.1106.md)、
   `code/app-261106/`、`inventories/inventory-261106.json`
@@ -24,13 +28,13 @@
 - **Computer Use：`26.928.3736.0`（应用版本 `26.928.31416`，build `12553`），2026-10-01 采集**，见 [computer-use.md](computer-use.md)、[changelog-26.928.md](changelog-26.928.md)、`code/computer-use-26928/`
 - **外部浏览器扩展链路：`26.1007.2314.0`，2026-10-11 采集**，见 [browser-extension.md](browser-extension.md)（只覆盖 Chrome / Edge 扩展链路，未做全量抽取）
 
-也就是说本目录里有**八个不同版本**的快照，按主题分开：最新全量是 26.1106，
-上一全量是 26.1103、26.1016 与 26.1013，面板与协议基线是 26.903，插件管理是 26.908，
+也就是说本目录里有**九个不同版本**的快照，按主题分开：最新全量是 26.1117，
+上一全量是 26.1106、26.1103、26.1016 与 26.1013，面板与协议基线是 26.903，插件管理是 26.908，
 Computer Use 是 26.928，外部浏览器扩展链路是 26.1007。
 引用 chunk / 产物前先确认它属于哪一版。
 
 分析对象是安装包中的 `app.asar`（26.903 为 309.5 MB，26.1013 为 582.1 MB，
-26.1016 为 625.9 MB，26.1103 为 761.0 MB，**26.1106 为 772.8 MB**）、`AppxManifest.xml` 与安装目录结构；
+26.1016 为 625.9 MB，26.1103 为 761.0 MB，26.1106 为 772.8 MB，**26.1117 为 443.8 MB**）、`AppxManifest.xml` 与安装目录结构；
 仓库侧对照仍未针对最新版重新核验。
 **未修改 `C:\Program Files\WindowsApps` 下任何文件，未读取凭据、token、设置内容、
 SQLite 数据库或用户对话内容。**
@@ -38,7 +42,7 @@ SQLite 数据库或用户对话内容。**
 ## 本次范围
 
 > 下表是 **26.903 基线**的五块界面与支撑模块（历史对照）。最新模块、
-> chunk 数与代码路径见下面的“26.1106 最新结论”与 `code/app-261106/README.md`。
+> chunk 数与代码路径见下面的“26.1117 最新结论”与 `code/app-261117/README.md`。
 
 按用户要求重点覆盖五块界面，外加支撑它们的外壳与协议：
 
@@ -53,7 +57,37 @@ SQLite 数据库或用户对话内容。**
 | （支撑）主进程与 IPC                | [architecture.md](architecture.md)、[ipc-protocol.md](ipc-protocol.md)         | `code/main-process/` (84 chunks)        |
 | **Computer Use**（26.928 追加范围） | [computer-use.md](computer-use.md)、[changelog-26.928.md](changelog-26.928.md) | `code/computer-use-26928/` (116 chunks) |
 
-## 26.1106 最新结论
+## 26.1117 最新结论
+
+这一版同时是**打包瘦身**与**产品面扩张**：
+
+- **asar 772.8 → 443.8 MB（-42.6%）**：65 个语言包从 JS chunk 改为
+  `webview/assets/locales/*.json.codex-gzip`（68 个 / 35.2 MB）；渲染 JS 从 520.6 MB
+  降到 225.6 MB，`>3 MB` 的 JS chunk 从 68 个降到 3 个。见
+  [changelog-26.1117.md](changelog-26.1117.md) §2。
+- **i18n 57,893 → 59,872**（+3,162 / -1,183 / 268 改写），分组 8,202 → 8,462。
+  生产构建把大多数 `description` 裁掉：36,878 → **3,508**；旧 id 的开发者意图需回溯
+  26.1106 目录并标 B 级。
+- **新增**：Ads Manager 的 Business Profile 工具化与商品 feed 校验、
+  **工作区加入审批**（席位购买/角色变更）、**GPT Studio / Hermes** 发布检查、
+  **Classroom** 课程→offering→content set、**餐厅地图**、**退伍军人一年 Plus**（ID.me）、
+  **Presence workstream**、Orbit 的 Gmail/Slack onboarding、Code Navigation 语言服务器、
+  浏览器书签管理器、Gateways（Bedrock Runtime/Mantle/Google Cloud）。
+- **移除**：hotkey window（命令/路由/文案）、multiplayer debug/image/liveNotes、
+  `learning.course`、`space.list`、`chatgpt.account_transfer`、`composer.newTask`、
+  `codex.remoteConversation`、`threadWorkspace.newTab`。
+- **设置**：53 个 slug 不变，导航从 4 组拆成 **7 组**
+  （profile/account/app/data-privacy/teams/integrations/coding）；
+  `notifications` 取消 capability 门控（capability 41 → 40）。
+- **协议/命令**：命令 159（+`presentation.editLink`，-`exitWorkspaceFullView`、
+  -`hotkeyWindow`）；IPC 30（+7/-3）；app-server 方法 191（+`thread/items/read`、
+  +`thread/search/partial`）；路由 177（+12/-5）。
+- Chromium **158.0.8127.37**；AppxManifest 的 `startupTask` 默认 **Enabled=false**。
+
+代码：[code/app-261117/README.md](code/app-261117/README.md)（272 个代表文件 /
+raw 59.0 MiB；新增 `profile` 与 `mobile` 模块）。
+
+## 26.1106 上一全量基线
 
 26.1106 是**纯产品迭代**：打包器、入口、主进程结构与 26.1103 相同，asar 只增长
 11.8 MB（+1.55%）。变化集中在 UI：
@@ -465,6 +499,9 @@ Computer Use 快照单独一份：见
 > （`inventories/inventory-26903.json`、`inventory-26928.json`、
 > `inventory-261013.json`、`inventory-261016.json`、`inventory-261103.json`、
 > `inventory-261106.json`），26.908 与 26.1007 缺失。
+
+
+
 
 
 

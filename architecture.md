@@ -1,5 +1,13 @@
 # 应用架构与分层
 
+> **26.1117 增量（2026-11-24）**：安装根为
+> `OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0`，应用版本 `26.1117.41037`，
+> build `29803`，`app.asar` **443,800,006 B（423.2 MiB）**，Chromium
+> **158.0.8127.37**。仍是 Rspack，但入口从 4 个 chunk 变成 6 个，且最大的
+> runtime 只有 283 KB；语言包改为 `locales/*.json.codex-gzip`，
+> 渲染 JS 从 520.6 MB 降到 225.6 MB。详见
+> [changelog-26.1117.md](changelog-26.1117.md) §2。
+
 > **26.1106 增量（2026-11-15）**：安装根为
 > `OpenAI.Codex_26.1106.6628.0_x64__2p2nqsd0c76g0`，应用版本 `26.1106.51428`，build `26605`。
 > 架构与 26.1103 相同（Rspack、四个数字入口 chunk、Owl 157.0.8103.51），只增长
@@ -219,3 +227,4 @@ resources\codex.exe (Codex runtime)
 `CODEX_HOME` 解析规则（渲染侧同名逻辑）：`process.env.CODEX_HOME` 优先，否则 `path.posix.join($HOME, ".codex")`，兜底字面量 `"/.codex"`；路径统一 `replaceAll("\\","/")` 后 `normalize`，Windows 盘符路径比较时忽略大小写。
 
 > 本次分析**只读取了目录名与文件大小**，没有打开 `settings.dat`、任何 `.sqlite`、`auth.json`、日志正文或会话缓存。
+

@@ -1,0 +1,2969 @@
+{
+ "module": "writing",
+ "generated_at": "2026-11-24T02:27:17.758Z",
+ "files_scanned": 6,
+ "message_count": 217,
+ "messages": [
+  {
+   "id": "appConnectModal.loadError",
+   "text": "Couldn\\u2019t open app connection",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "apps.disable.success",
+   "text": "{appName} app disabled",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "apps.enable.success",
+   "text": "{appName} app enabled",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "apps.update.error",
+   "text": "Failed to update app",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactComments.heading",
+   "text": "Comments",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.openInLibrary",
+   "text": "Open in Library",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "artifactViewer.openInLibrary.space",
+   "text": "Open in Space",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.button.cancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.button.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.description",
+   "text": "Try again, or cancel and return to the previous page",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loadError.title",
+   "text": "Couldn\\u2019t load connector",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loading.description",
+   "text": "Loading connection details\\u2026",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "beacons.connectApp.loading.title",
+   "text": "Connect app",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.libraryWritingBlock.created",
+   "text": "Created document",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.libraryWritingBlock.createdFile",
+   "text": "Created {fileName}",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.libraryWritingBlock.createdWithHistorySummaryRow",
+   "text": "<label>Created {hasTitle, select, yes {{title}} other {Document}}</label>{hasView, select, yes { <separator>\\u2022</separator> <view>View</view>} other {}}",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.dropdown.ariaLabel",
+   "text": "Open email in app",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.default.ariaLabel",
+   "text": "Open email using default email app",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.default.label",
+   "text": "Default email app",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.gmail.ariaLabel",
+   "text": "Open email using Gmail",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.gmail.label",
+   "text": "Gmail",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.outlook.ariaLabel",
+   "text": "Open email using Outlook",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.option.outlook.label",
+   "text": "Outlook",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.open.tooltip",
+   "text": "Open in email",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.sender.field.label",
+   "text": "From",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.email.sender.selector.ariaLabel",
+   "text": "Select the email account to send from",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailAccountsLoading",
+   "text": "Loading email accounts",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailConnect",
+   "text": "Connect email",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailReconnect",
+   "text": "Reconnect email",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSend",
+   "text": "Send",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSendAs",
+   "text": "Send as {email}",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSendFailed",
+   "text": "Couldn't send this email",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSending",
+   "text": "Sending",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSendMissingRecipients",
+   "text": "Add at least one valid email recipient before sending.",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailSent",
+   "text": "Sent",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailUndoFailed",
+   "text": "Couldn't undo sending this email",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.emailUndoSend",
+   "text": "Undo send",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.followup.error",
+   "text": "Couldn't send follow-up",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptConversations.writingBlock.patch.summaryWithOptionalHistoryRow",
+   "text": "<label>{hasSummary, select, yes {{summary}} other {Edited}}</label>{hasView, select, yes { <separator>\\u2022</separator> <view>View</view>} other {}}",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.menuItem",
+   "text": "File info",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.fileInfo.title",
+   "text": "File info",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.chatgpt",
+   "text": "ChatGPT",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.close",
+   "text": "Close version history",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.collaborator",
+   "text": "Collaborator",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.currentVersion",
+   "text": "Current version",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.empty",
+   "text": "No saved versions",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.loadFailed",
+   "text": "Couldn\\u2019t load version history",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.loading",
+   "text": "Loading version history\\u2026",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.showMore",
+   "text": "Show more",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.title",
+   "text": "Version history",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.today",
+   "text": "Today",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.version",
+   "text": "Version {version}",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.versionKind",
+   "text": "{action, select, create {Created} restore {Restored} other {Edited}}",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "chatgptFilePreview.versionHistory.yesterday",
+   "text": "Yesterday",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.actions.moreActions",
+   "text": "More actions",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseCancel",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseConfirm",
+   "text": "Close",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmClosePendingEdits",
+   "text": "You have pending edits - are you sure you want to close?",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.confirmCloseTitle",
+   "text": "Close editor?",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.documentTabTitle",
+   "text": "Document",
+   "description": "Title of a document writing block tab when the document has no title.",
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.error",
+   "text": "Download failed",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.label",
+   "text": "Download",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.markdown",
+   "text": "Markdown document",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.pdf",
+   "text": "PDF document",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.download.word",
+   "text": "Microsoft Word",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.editor.placeholder",
+   "text": "Start writing",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.header.title.fallback",
+   "text": "Email",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.avatar.ariaLabel",
+   "text": "Profile avatar",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.copy.ariaLabel.action",
+   "text": "Copy email address",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.copy.ariaLabel.copied",
+   "text": "Copied email address",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.contact.remove.ariaLabel",
+   "text": "Remove {recipient}",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.empty.placeholder",
+   "text": "Recipients",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.field.bcc.label",
+   "text": "Bcc",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.field.cc.label",
+   "text": "Cc",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.field.to.label",
+   "text": "To",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.input.ariaLabel.bcc",
+   "text": "Bcc recipients",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.input.ariaLabel.cc",
+   "text": "Cc recipients",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.input.ariaLabel.to",
+   "text": "To recipients",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.toggle.bcc.label",
+   "text": "Bcc",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.recipient.toggle.cc.label",
+   "text": "Cc",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.email.subject.field.label",
+   "text": "Subject",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.description",
+   "text": "Tell us what\\u2019s working and what\\u2019s not. The more specific the feedback, the better",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.inputLabel",
+   "text": "Additional feedback",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.placeholder",
+   "text": "What did you like or dislike?",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.submit",
+   "text": "Share feedback",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.submitted",
+   "text": "Your feedback has been submitted",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.title",
+   "text": "This is a writing block, a new feature we\\u2019re testing",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.trigger",
+   "text": "What is this?",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.feedback.visibleTrigger",
+   "text": "What is this?",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.askForChanges",
+   "text": "Ask for changes",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.askForSelectionEdit",
+   "text": "Ask for changes",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.bold",
+   "text": "Bold",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.cancelEdit",
+   "text": "Cancel",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.code",
+   "text": "Code",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.copyLink",
+   "text": "Copy link",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.copyLinkLabel",
+   "text": "Copy",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.editExistingLink",
+   "text": "Edit link",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.editInput",
+   "text": "Edit instruction",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.editPlaceholder",
+   "text": "Describe the edit\\u2026",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.italic",
+   "text": "Italic",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.link",
+   "text": "Link",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.linkInput",
+   "text": "Link URL",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.linkPlaceholder",
+   "text": "Paste a link\\u2026",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.openLink",
+   "text": "Open link",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.openLinkLabel",
+   "text": "Open",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.removeLink",
+   "text": "Remove link",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.saveLink",
+   "text": "Save link",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.submitEdit",
+   "text": "Submit edit instruction",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.bulletedList",
+   "text": "Bulleted list",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.checklist",
+   "text": "Checklist",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.heading1",
+   "text": "Heading 1",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.heading2",
+   "text": "Heading 2",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.heading3",
+   "text": "Heading 3",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.numberedList",
+   "text": "Numbered list",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyle.text",
+   "text": "Text",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.format.textStyles",
+   "text": "Text styles",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.header.title.fallback",
+   "text": "Writing",
+   "description": "Short fallback title in the header of a writing block shared by local Codex threads and Quick Chat when the block does not provide a custom title.",
+   "files": [
+    "591210.be229a2122.js",
+    "639670.66a9154c73.js",
+    "645403.1084c42095.js"
+   ],
+   "file_count": 3
+  },
+  {
+   "id": "codex.writingBlock.header.title.untitled",
+   "text": "Untitled",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.loading",
+   "text": "Loading\\u2026",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.previewError",
+   "text": "Could not load this version",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.previewLabel",
+   "text": "Version {version} preview",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.redo.button.ariaLabel",
+   "text": "Redo last edit",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.redo.button.tooltip",
+   "text": "Redo",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.restoreError",
+   "text": "{conflict, select, yes {The document changed. Review the latest version and try again.} other {Could not restore this version. Try again.}}",
+   "description": "Error when restoring a saved writing-block revision fails; the selected historical preview stays open",
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.retry",
+   "text": "Try again",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.undo.button.ariaLabel",
+   "text": "Undo last edit",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.undo.button.tooltip",
+   "text": "Undo",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.history.versionUnavailable",
+   "text": "This version is no longer available",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.addingToLibrary",
+   "text": "Adding to Library",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.addingToLibrary.space",
+   "text": "Adding to Space",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.location",
+   "text": "Library",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.location.space",
+   "text": "Space",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.openLibrary",
+   "text": "Open in Library",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.openLibrary.space",
+   "text": "Open in Space",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.save",
+   "text": "Add to Library",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.save.space",
+   "text": "Add to Space",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.storageFull.storage.space",
+   "text": "Your storage is full. Free up space and try again.",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.inlineLibrary.versionHistory",
+   "text": "Version history",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.document",
+   "text": "Document",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.loading",
+   "text": "Loading document\\u2026",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.notePromotionError",
+   "text": "Couldn\\u2019t sync this note with Library \\xb7 <retry>Try again</retry>",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.notePromotionError.space",
+   "text": "Couldn\\u2019t sync this note with Space \\xb7 <retry>Try again</retry>",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.library.syncError",
+   "text": "Couldn\\u2019t sync this document \\xb7 <retry>Try again</retry>",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.messageTabTitle",
+   "text": "Message",
+   "description": "Title of an expanded chat-message writing block tab when the block has no custom title.",
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.openEditor",
+   "text": "Open editor",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.page.save",
+   "text": "Save as Page",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.page.saved",
+   "text": "Saved as a Page",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.page.saveFailed",
+   "text": "Couldn\\u2019t create Page. Try again",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js",
+    "996976.d6a767f3a0.js"
+   ],
+   "file_count": 2
+  },
+  {
+   "id": "codex.writingBlock.page.saving",
+   "text": "Creating Page",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.share.failed",
+   "text": "Couldn\\u2019t save this document for sharing. Try again",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.showLessEarlierVersion",
+   "text": "Show less",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.showMoreEarlierVersion",
+   "text": "Show more",
+   "description": null,
+   "files": [
+    "867839.8af34c80aa.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.menu.ariaLabel",
+   "text": "Insert options",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.checklist.label",
+   "text": "Checklist",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.columnDelete.label",
+   "text": "Delete column",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.columnLeft.label",
+   "text": "Add column left",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.columnRight.label",
+   "text": "Add column right",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.divider.label",
+   "text": "Divider",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.emoji.label",
+   "text": "Emoji",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.generate.label",
+   "text": "Generate text",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.heading1.label",
+   "text": "Heading 1",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.heading2.label",
+   "text": "Heading 2",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.heading3.label",
+   "text": "Heading 3",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.orderedList.label",
+   "text": "Numbered list",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.paragraph.label",
+   "text": "Text",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.table.label",
+   "text": "Table",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slashMenu.option.unorderedList.label",
+   "text": "Bulleted list",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.chooseFormat",
+   "text": "Choose presentation format",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.error",
+   "text": "Couldn\\u2019t create slides from the presentation outline",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.googleSlidesButton",
+   "text": "Create Google Slides",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.googleSlidesOption",
+   "text": "Google Slides",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.powerPointButton",
+   "text": "Create PowerPoint",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.powerPointOption",
+   "text": "PowerPoint",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.promptWithOutlineAbove",
+   "text": "make a presentation with the outline above",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.spacesButton",
+   "text": "Create presentation",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.create.spacesOption",
+   "text": "Spaces",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.header.title.fallback",
+   "text": "Presentation outline",
+   "description": null,
+   "files": [
+    "996976.d6a767f3a0.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.button",
+   "text": "{count, plural, one {# slide} other {# slides}}",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.cancel",
+   "text": "Cancel slide count change",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.confirm",
+   "text": "Confirm slide count",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.slider",
+   "text": "Number of presentation slides",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.updated",
+   "text": "Slide count updated",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.slides.slideCount.value",
+   "text": "{count, plural, one {# slide} other {# slides}}",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.toneVariants.original",
+   "text": "Original",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.toneVariants.tabs.ariaLabel",
+   "text": "Writing style variants",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.toneVariants.writeLikeMe",
+   "text": "Write Like Me",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.saveToLibrary",
+   "text": "Add to Library",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.saveToLibrary.space",
+   "text": "Add to Space",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.savingToLibrary",
+   "text": "Adding to Library",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codex.writingBlock.viewer.savingToLibrary.space",
+   "text": "Adding to Space",
+   "description": null,
+   "files": [
+    "645403.1084c42095.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "copyButton.copy",
+   "text": "Copy",
+   "description": null,
+   "files": [
+    "639670.66a9154c73.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.image.originalChatDeleted",
+   "text": "This chat was deleted",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.image.originalChatUnavailable",
+   "text": "This chat is unavailable",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "library.image.viewOriginalChat",
+   "text": "View original chat",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "libraryNext.actions.delete",
+   "text": "Delete",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tabThumbnail.writingBlock.empty",
+   "text": "Empty document",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tabThumbnail.writingBlock.pendingEdits",
+   "text": "Changes to review",
+   "description": null,
+   "files": [
+    "591210.be229a2122.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "tpp.write_like_me.sample_prompt.grounded_demo",
+   "text": "Look through my chats, Library files, and any connected apps for a new and real writing task you could help with. Briefly explain what you found, why you chose it, and which examples of my own writing you\\u2019ll use. Then produce a useful draft closely matching my style. Point out two specific choices you made to match my style. If you can\\u2019t find a clear task or enough examples, ask me for a draft, template, or writing sample instead of inventing one. Show the draft here; do not send, post, or modify anything.",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.connected",
+   "text": "Connected",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.error",
+   "text": "Couldn't finish Writing style setup. Try again.",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.loading",
+   "text": "Checking connected apps\\u2026",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.sourceAction",
+   "text": "{action, select, reauth {Reconnect} disabled {Enable} other {Refresh}}",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.sourceActionLabel",
+   "text": "{action, select, reauth {Reconnect} disabled {Enable} refresh {Refresh} other {Connect}} {appName}",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.apps.unavailable",
+   "text": "Unavailable",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.remoteProjectRequired",
+   "text": "Close this dialog and select a project on the remote host to start Writing style",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.retry",
+   "text": "Retry",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.back",
+   "text": "Back",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.category",
+   "text": "{category, select, email {Email} messaging {Messaging} other {Documents}}",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.connectedCategoryAction",
+   "text": "{category, select, email {Connect more email apps} messaging {Connect more messaging apps} other {Connect more document apps}}. Connected: {apps}",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.descriptionWithManage",
+   "text": "ChatGPT uses your chats and Library files to write in your style. <manage>Manage</manage>",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.enabledTitle",
+   "text": "Writing style is personalized",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.improve",
+   "text": "Connect apps to improve writing (optional)",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.openCategory",
+   "text": "{category, select, email {Set up email} messaging {Set up messaging} other {Set up documents}}",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.setUp",
+   "text": "Set up",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.showMe",
+   "text": "Show me",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "writingStyle.setup.title",
+   "text": "Set up writing style",
+   "description": null,
+   "files": [
+    "493889.907634cbcf.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 498
+  },
+  {
+   "name": "className",
+   "count": 350
+  },
+  {
+   "name": "id",
+   "count": 316
+  },
+  {
+   "name": "defaultMessage",
+   "count": 226
+  },
+  {
+   "name": "disabled",
+   "count": 101
+  },
+  {
+   "name": "content",
+   "count": 91
+  },
+  {
+   "name": "y",
+   "count": 90
+  },
+  {
+   "name": "x",
+   "count": 84
+  },
+  {
+   "name": "size",
+   "count": 78
+  },
+  {
+   "name": "title",
+   "count": 75
+  },
+  {
+   "name": "null",
+   "count": 73
+  },
+  {
+   "name": "height",
+   "count": 64
+  },
+  {
+   "name": "onClick",
+   "count": 64
+  },
+  {
+   "name": "conversationId",
+   "count": 62
+  },
+  {
+   "name": "width",
+   "count": 61
+  },
+  {
+   "name": "libraryFileId",
+   "count": 60
+  },
+  {
+   "name": "messageId",
+   "count": 56
+  },
+  {
+   "name": "name",
+   "count": 54
+  },
+  {
+   "name": "variant",
+   "count": 52
+  },
+  {
+   "name": "label",
+   "count": 52
+  },
+  {
+   "name": "ref",
+   "count": 49
+  },
+  {
+   "name": "kind",
+   "count": 49
+  },
+  {
+   "name": "signal",
+   "count": 48
+  },
+  {
+   "name": "metadata",
+   "count": 47
+  },
+  {
+   "name": "isStreaming",
+   "count": 43
+  },
+  {
+   "name": "color",
+   "count": 42
+  },
+  {
+   "name": "type",
+   "count": 42
+  },
+  {
+   "name": "value",
+   "count": 39
+  },
+  {
+   "name": "style",
+   "count": 38
+  },
+  {
+   "name": "status",
+   "count": 38
+  },
+  {
+   "name": "enabled",
+   "count": 35
+  },
+  {
+   "name": "hostId",
+   "count": 34
+  },
+  {
+   "name": "writingBlockId",
+   "count": 34
+  },
+  {
+   "name": "accountId",
+   "count": 33
+  },
+  {
+   "name": "userId",
+   "count": 32
+  },
+  {
+   "name": "onSelect",
+   "count": 32
+  },
+  {
+   "name": "serverConversationId",
+   "count": 31
+  },
+  {
+   "name": "bcc",
+   "count": 29
+  },
+  {
+   "name": "cc",
+   "count": 29
+  },
+  {
+   "name": "onOpenChange",
+   "count": 28
+  },
+  {
+   "name": "asset",
+   "count": 28
+  },
+  {
+   "name": "role",
+   "count": 27
+  },
+  {
+   "name": "get",
+   "count": 27
+  },
+  {
+   "name": "queryKey",
+   "count": 26
+  },
+  {
+   "name": "parameters",
+   "count": 25
+  },
+  {
+   "name": "scope",
+   "count": 25
+  },
+  {
+   "name": "icon",
+   "count": 25
+  },
+  {
+   "name": "recipient",
+   "count": 24
+  },
+  {
+   "name": "index",
+   "count": 24
+  },
+  {
+   "name": "path",
+   "count": 23
+  },
+  {
+   "name": "sm",
+   "count": 22
+  },
+  {
+   "name": "toneSections",
+   "count": 22
+  },
+  {
+   "name": "versionHistory",
+   "count": 21
+  },
+  {
+   "name": "subject",
+   "count": 21
+  },
+  {
+   "name": "editorView",
+   "count": 21
+  },
+  {
+   "name": "loading",
+   "count": 20
+  },
+  {
+   "name": "additionalHeaders",
+   "count": 20
+  },
+  {
+   "name": "e",
+   "count": 20
+  },
+  {
+   "name": "editorKey",
+   "count": 20
+  },
+  {
+   "name": "frame",
+   "count": 20
+  },
+  {
+   "name": "error",
+   "count": 19
+  },
+  {
+   "name": "retry",
+   "count": 18
+  },
+  {
+   "name": "staleTime",
+   "count": 18
+  },
+  {
+   "name": "onClose",
+   "count": 18
+  },
+  {
+   "name": "body",
+   "count": 18
+  },
+  {
+   "name": "open",
+   "count": 17
+  },
+  {
+   "name": "values",
+   "count": 17
+  },
+  {
+   "name": "category",
+   "count": 17
+  },
+  {
+   "name": "actions",
+   "count": 17
+  },
+  {
+   "name": "mimeType",
+   "count": 17
+  },
+  {
+   "name": "state",
+   "count": 17
+  },
+  {
+   "name": "writingBlockIndex",
+   "count": 17
+  },
+  {
+   "name": "queryFn",
+   "count": 16
+  },
+  {
+   "name": "data",
+   "count": 16
+  },
+  {
+   "name": "viewBox",
+   "count": 16
+  },
+  {
+   "name": "source",
+   "count": 16
+  },
+  {
+   "name": "query",
+   "count": 16
+  },
+  {
+   "name": "document",
+   "count": 16
+  },
+  {
+   "name": "emailMetadata",
+   "count": 16
+  },
+  {
+   "name": "padding",
+   "count": 16
+  },
+  {
+   "name": "isDisabled",
+   "count": 16
+  },
+  {
+   "name": "opacity",
+   "count": 16
+  },
+  {
+   "name": "send_id",
+   "count": 16
+  },
+  {
+   "name": "surface",
+   "count": 14
+  },
+  {
+   "name": "onChange",
+   "count": 14
+  },
+  {
+   "name": "fill",
+   "count": 14
+  },
+  {
+   "name": "provider",
+   "count": 14
+  },
+  {
+   "name": "placement",
+   "count": 14
+  },
+  {
+   "name": "context",
+   "count": 14
+  },
+  {
+   "name": "displayMode",
+   "count": 14
+  },
+  {
+   "name": "labels",
+   "count": 14
+  },
+  {
+   "name": "connectorId",
+   "count": 13
+  },
+  {
+   "name": "t",
+   "count": 13
+  },
+  {
+   "name": "isLoading",
+   "count": 13
+  },
+  {
+   "name": "outcome",
+   "count": 13
+  },
+  {
+   "name": "fileInfoSource",
+   "count": 13
+  },
+  {
+   "name": "library_file_id",
+   "count": 13
+  },
+  {
+   "name": "uniform",
+   "count": 13
+  },
+  {
+   "name": "requestBody",
+   "count": 13
+  },
+  {
+   "name": "bottom",
+   "count": 13
+  },
+  {
+   "name": "left",
+   "count": 13
+  },
+  {
+   "name": "contacts",
+   "count": 13
+  },
+  {
+   "name": "to",
+   "count": 13
+  },
+  {
+   "name": "errorAnalytics",
+   "count": 12
+  },
+  {
+   "name": "toastId",
+   "count": 12
+  },
+  {
+   "name": "email",
+   "count": 12
+  },
+  {
+   "name": "instanceId",
+   "count": 12
+  },
+  {
+   "name": "key",
+   "count": 12
+  },
+  {
+   "name": "isEditable",
+   "count": 12
+  },
+  {
+   "name": "proseMirrorStore",
+   "count": 12
+  },
+  {
+   "name": "activeToneSectionId",
+   "count": 12
+  },
+  {
+   "name": "href",
+   "count": 11
+  },
+  {
+   "name": "ariaLabel",
+   "count": 11
+  },
+  {
+   "name": "description",
+   "count": 11
+  },
+  {
+   "name": "d",
+   "count": 11
+  },
+  {
+   "name": "ownerId",
+   "count": 11
+  },
+  {
+   "name": "refIndex",
+   "count": 11
+  },
+  {
+   "name": "fileId",
+   "count": 11
+  },
+  {
+   "name": "testId",
+   "count": 11
+  },
+  {
+   "name": "onBlur",
+   "count": 11
+  },
+  {
+   "name": "top",
+   "count": 11
+  },
+  {
+   "name": "right",
+   "count": 11
+  },
+  {
+   "name": "capabilities",
+   "count": 11
+  },
+  {
+   "name": "isEditingDisabled",
+   "count": 11
+  },
+  {
+   "name": "app",
+   "count": 10
+  },
+  {
+   "name": "expectedErrorStatuses",
+   "count": 10
+  },
+  {
+   "name": "hover",
+   "count": 10
+  },
+  {
+   "name": "canvas",
+   "count": 10
+  },
+  {
+   "name": "inkBounds",
+   "count": 10
+  },
+  {
+   "name": "visualBounds",
+   "count": 10
+  },
+  {
+   "name": "paint",
+   "count": 10
+  },
+  {
+   "name": "optical",
+   "count": 10
+  },
+  {
+   "name": "shape",
+   "count": 10
+  },
+  {
+   "name": "bounds",
+   "count": 10
+  },
+  {
+   "name": "center",
+   "count": 10
+  },
+  {
+   "name": "insets",
+   "count": 10
+  },
+  {
+   "name": "anchors",
+   "count": 10
+  },
+  {
+   "name": "ink",
+   "count": 10
+  },
+  {
+   "name": "foreground",
+   "count": 10
+  },
+  {
+   "name": "getContactsForQuery",
+   "count": 10
+  },
+  {
+   "name": "initial",
+   "count": 10
+  },
+  {
+   "name": "duration",
+   "count": 10
+  },
+  {
+   "name": "attributes",
+   "count": 10
+  },
+  {
+   "name": "__scopeSlider",
+   "count": 10
+  },
+  {
+   "name": "isFetching",
+   "count": 9
+  },
+  {
+   "name": "appId",
+   "count": 9
+  },
+  {
+   "name": "initiator",
+   "count": 9
+  },
+  {
+   "name": "connector",
+   "count": 9
+  },
+  {
+   "name": "tabIndex",
+   "count": 9
+  },
+  {
+   "name": "s",
+   "count": 9
+  },
+  {
+   "name": "panels",
+   "count": 9
+  },
+  {
+   "name": "contentReferences",
+   "count": 9
+  },
+  {
+   "name": "placeholder",
+   "count": 9
+  },
+  {
+   "name": "onCopy",
+   "count": 9
+  },
+  {
+   "name": "align",
+   "count": 9
+  },
+  {
+   "name": "contentWidth",
+   "count": 9
+  },
+  {
+   "name": "direction",
+   "count": 9
+  },
+  {
+   "name": "isOriginal",
+   "count": 9
+  },
+  {
+   "name": "transition",
+   "count": 9
+  },
+  {
+   "name": "sendId",
+   "count": 9
+  },
+  {
+   "name": "preserveEmptySections",
+   "count": 9
+  },
+  {
+   "name": "onRetry",
+   "count": 8
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 8
+  },
+  {
+   "name": "appConnectOptions",
+   "count": 8
+  },
+  {
+   "name": "o",
+   "count": 8
+  },
+  {
+   "name": "onConnect",
+   "count": 8
+  },
+  {
+   "name": "version",
+   "count": 8
+  },
+  {
+   "name": "contentOverflow",
+   "count": 8
+  },
+  {
+   "name": "panelClearsHeader",
+   "count": 8
+  },
+  {
+   "name": "n",
+   "count": 8
+  },
+  {
+   "name": "entry",
+   "count": 8
+  },
+  {
+   "name": "fileName",
+   "count": 8
+  },
+  {
+   "name": "inlineContent",
+   "count": 8
+  },
+  {
+   "name": "onPointerDown",
+   "count": 8
+  },
+  {
+   "name": "focus",
+   "count": 8
+  },
+  {
+   "name": "link",
+   "count": 8
+  },
+  {
+   "name": "options",
+   "count": 8
+  },
+  {
+   "name": "triggerButton",
+   "count": 8
+  },
+  {
+   "name": "animate",
+   "count": 8
+  },
+  {
+   "name": "min",
+   "count": 8
+  },
+  {
+   "name": "selectedSenderAccount",
+   "count": 8
+  },
+  {
+   "name": "errorMessage",
+   "count": 8
+  },
+  {
+   "name": "blockId",
+   "count": 8
+  },
+  {
+   "name": "rawText",
+   "count": 8
+  },
+  {
+   "name": "productSku",
+   "count": 7
+  },
+  {
+   "name": "expectedIdentity",
+   "count": 7
+  },
+  {
+   "name": "alt",
+   "count": 7
+  },
+  {
+   "name": "src",
+   "count": 7
+  },
+  {
+   "name": "action",
+   "count": 7
+  },
+  {
+   "name": "refetch",
+   "count": 7
+  },
+  {
+   "name": "entry_point",
+   "count": 7
+  },
+  {
+   "name": "isEqual",
+   "count": 7
+  },
+  {
+   "name": "controls",
+   "count": 7
+  },
+  {
+   "name": "versionNumber",
+   "count": 7
+  },
+  {
+   "name": "collapsedContent",
+   "count": 7
+  },
+  {
+   "name": "closeTabOnUnmount",
+   "count": 7
+  },
+  {
+   "name": "showMagicEditAction",
+   "count": 7
+  },
+  {
+   "name": "limit",
+   "count": 7
+  },
+  {
+   "name": "onSubjectChange",
+   "count": 7
+  },
+  {
+   "name": "renderMenu",
+   "count": 7
+  },
+  {
+   "name": "onToneSectionSelect",
+   "count": 7
+  },
+  {
+   "name": "max",
+   "count": 7
+  },
+  {
+   "name": "reason_code",
+   "count": 7
+  },
+  {
+   "name": "directive",
+   "count": 7
+  },
+  {
+   "name": "embedded",
+   "count": 6
+  },
+  {
+   "name": "subtitle",
+   "count": 6
+  },
+  {
+   "name": "queryClient",
+   "count": 6
+  },
+  {
+   "name": "oauthReferrer",
+   "count": 6
+  },
+  {
+   "name": "v",
+   "count": 6
+  },
+  {
+   "name": "radius",
+   "count": 6
+  },
+  {
+   "name": "stage",
+   "count": 6
+  },
+  {
+   "name": "sourceId",
+   "count": 6
+  },
+  {
+   "name": "onCancel",
+   "count": 6
+  },
+  {
+   "name": "failed",
+   "count": 6
+  },
+  {
+   "name": "r",
+   "count": 6
+  },
+  {
+   "name": "layout",
+   "count": 6
+  },
+  {
+   "name": "xmlns",
+   "count": 6
+  },
+  {
+   "name": "sections",
+   "count": 6
+  },
+  {
+   "name": "mapping",
+   "count": 6
+  },
+  {
+   "name": "mode",
+   "count": 6
+  },
+  {
+   "name": "h",
+   "count": 6
+  },
+  {
+   "name": "conversation_id",
+   "count": 6
+  },
+  {
+   "name": "versionHistoryAction",
+   "count": 6
+  },
+  {
+   "name": "sourceUrl",
+   "count": 6
+  },
+  {
+   "name": "externalAccount",
+   "count": 6
+  },
+  {
+   "name": "parentDirectoryId",
+   "count": 6
+  },
+  {
+   "name": "headerActions",
+   "count": 6
+  },
+  {
+   "name": "createdAt",
+   "count": 6
+  },
+  {
+   "name": "identity",
+   "count": 6
+  },
+  {
+   "name": "auxiliaryContent",
+   "count": 6
+  },
+  {
+   "name": "previewContent",
+   "count": 6
+  },
+  {
+   "name": "sideOffset",
+   "count": 6
+  },
+  {
+   "name": "hidden",
+   "count": 6
+  },
+  {
+   "name": "renderFrame",
+   "count": 6
+  },
+  {
+   "name": "writingBlockMetadata",
+   "count": 6
+  },
+  {
+   "name": "render",
+   "count": 6
+  },
+  {
+   "name": "i",
+   "count": 6
+  },
+  {
+   "name": "createEditor",
+   "count": 6
+  },
+  {
+   "name": "text",
+   "count": 6
+  },
+  {
+   "name": "renderSender",
+   "count": 6
+  },
+  {
+   "name": "onMouseDown",
+   "count": 6
+  },
+  {
+   "name": "avatarFallbackColors",
+   "count": 6
+  },
+  {
+   "name": "ariaLabels",
+   "count": 6
+  },
+  {
+   "name": "onCopyEmail",
+   "count": 6
+  },
+  {
+   "name": "onMetadataChange",
+   "count": 6
+  },
+  {
+   "name": "onSearch",
+   "count": 6
+  },
+  {
+   "name": "onValueChange",
+   "count": 6
+  },
+  {
+   "name": "elements",
+   "count": 6
+  },
+  {
+   "name": "contact",
+   "count": 6
+  },
+  {
+   "name": "token",
+   "count": 6
+  }
+ ],
+ "literal_count": 1442,
+ "literals_file": ".work/261117/literals/writing.json"
+}

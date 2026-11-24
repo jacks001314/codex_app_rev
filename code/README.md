@@ -1,10 +1,11 @@
 # code/ — Codex desktop app 逆向代码库
 
-> **最新全量快照：`26.1106.51428` 对应的 `app-261106/`**（224 个代表文件 /
-> raw 49.6 MB / formatted 79.5 MB，19 模块，57,893 条 i18n；仍是 Rspack）。
-> 上一全量是 `app-261103/`、`app-261016/` 与 `app-261013/`。本文件其余内容仍是
-> 26.903 基线的说明，作为历史对照保留。本版新增模块 `image-editing/`，
-> 并补齐命令 / IPC / 路由三张注册表。
+> **最新全量快照：`26.1117.41037` 对应的 `app-261117/`**（272 个代表文件 /
+> raw 59.0 MB / formatted 93.8 MB，20 模块，59,872 条 i18n；仍是 Rspack，
+> 但语言包改为 gzip、asar 降到 443.8 MB）。上一全量是 `app-261106/`，
+> 再往前是 `app-261103/`、`app-261016/` 与 `app-261013/`。本文件其余内容仍是
+> 26.903 基线的说明，作为历史对照保留。本版新增模块 `profile/` 与 `mobile/`，
+> 并补齐设置 / 命令 / IPC / 协议方法 / 路由五张注册表。
 
 本目录是从本机安装的 Codex desktop app（Windows MSIX，`OpenAI.Codex 26.903.9818.0` / 应用版本 `26.903.71938`，build `8576`，Electron `42.3.0`）的 `app.asar` 中**抽取并格式化**后的前端/主进程代码，按 UI 模块分目录存放。
 
@@ -26,9 +27,10 @@
 | `app-261013/`    | **26.1013 全量快照** | **2,415** | **62.0 MB** | 17 个模块：新增 `spaces`、`aeon`、`personalized`、`chronicle`、`voice`、`writing`、`tasks`、`codex-micro`、`chatgpt-surfaces`；旧 8 个模块也按 26.1013 重抽。见 `app-261013/README.md` |
 | `app-261016/`    | 26.1016 全量快照 | **2,490** | **63.7 MB** | 17 个模块；Gateways、Biometric、Passwords、Rosalind、Sites appearance 等。见 `app-261016/README.md` |
 | `app-261103/`    | **26.1103 全量快照（Rspack）** | **201** | **79.3 MB** | 18 个模块；172 个 webview chunk + 29 个主进程文件；57,004 条 i18n。见 `app-261103/README.md` |
-| `app-261106/`    | **26.1106 最新全量快照（Rspack）** | **224** | **79.5 MB** | 19 个模块；195 个 webview chunk + 29 个主进程文件；57,893 条 i18n；新增 `image-editing/`。见 `app-261106/README.md` |
+| `app-261106/`    | 26.1106 上一全量快照（Rspack） | **224** | **79.5 MB** | 19 个模块；195 个 webview chunk + 29 个主进程文件；57,893 条 i18n；新增 `image-editing/`。见 `app-261106/README.md` |
+| `app-261117/`    | **26.1117 最新全量快照（Rspack）** | **272** | **93.8 MB** | 20 个模块；主进程 42 + 6 个入口 chunk + 224 个 async chunk；59,872 条 i18n；新增 `profile/`、`mobile/`。见 `app-261117/README.md` |
 | `tools/`         | 分析工具                      |       34 |        — | 通用工具 + 26.1103/26.1106 Rspack 专项脚本；零第三方依赖（Prettier 复用仓库） |
-| `_catalog/`      | 26.903 全局字符串目录          |        1 |   3.8 MB | `i18n-messages.json`：13,338 条（历史）；26.1103/26.1106 的全量目录分别在 `app-261103/_catalog/`（57,004 条）与 `app-261106/_catalog/`（57,893 条） |
+| `_catalog/`      | 26.903 全局字符串目录          |        1 |   3.8 MB | `i18n-messages.json`：13,338 条（历史）；26.1103 / 26.1106 / 26.1117 的全量目录分别在 `app-261103/_catalog/`（57,004 条）、`app-261106/_catalog/`（57,893 条）与 `app-261117/_catalog/`（59,872 条） |
 
 每个模块目录下：
 
@@ -84,3 +86,4 @@ app 升级后需要改的只有两处：`tools/module-map.json` 的 `version_tar
 3. 各模块 `README.md` — 按你关心的界面区域进入
 4. `../settings-pages.md` — 35 个配置页的注册表、可见性门控与内容分组
 5. `../changelog-26.903.md` — 与上一版（26.901.6511.0）的差异
+

@@ -1,0 +1,1574 @@
+{
+ "generated_at": "2026-11-24T02:25:58.055Z",
+ "source": {
+  "archive": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1117.4957.0_x64__2p2nqsd0c76g0/app/resources/app.asar",
+  "descriptor_chunk": "webview/assets/async/364313.d749d31da5.js",
+  "nav_chunk": "webview/assets/async/468418.d29c9693b2.js",
+  "visibility_chunk": "webview/assets/async/559869.1b50ec65da.js",
+  "loader_chunk": "webview/assets/async/881612.d5f896add0.js",
+  "app_version": "26.1117.41037"
+ },
+ "slug_list": [
+  "general-settings",
+  "notifications",
+  "import",
+  "profile",
+  "security",
+  "account",
+  "age",
+  "agreements",
+  "parental-controls",
+  "trusted-contact",
+  "safety",
+  "time-management",
+  "appearance",
+  "voice",
+  "storage",
+  "pets",
+  "chronicle",
+  "appshots",
+  "git-settings",
+  "connections",
+  "cloud-settings",
+  "codex-cloud",
+  "cloud-environments",
+  "code-review",
+  "local-environments",
+  "worktrees",
+  "agent",
+  "work-settings",
+  "personalization",
+  "keyboard-shortcuts",
+  "codex-micro",
+  "usage",
+  "billing",
+  "analytics",
+  "consumer-view",
+  "usage-code-review",
+  "debug",
+  "browser-use",
+  "extension",
+  "computer-use",
+  "mcp-settings",
+  "gateways",
+  "hooks-settings",
+  "plugins-settings",
+  "file-type-handlers",
+  "rosalind",
+  "skills-settings",
+  "data-controls",
+  "archived-chats",
+  "ads-controls",
+  "teams",
+  "cloud-computer",
+  "passwords"
+ ],
+ "nav_order_list": [
+  "general-settings",
+  "notifications",
+  "import",
+  "profile",
+  "security",
+  "account",
+  "parental-controls",
+  "trusted-contact",
+  "safety",
+  "appearance",
+  "voice",
+  "storage",
+  "chronicle",
+  "appshots",
+  "agent",
+  "personalization",
+  "pets",
+  "usage",
+  "billing",
+  "analytics",
+  "consumer-view",
+  "usage-code-review",
+  "debug",
+  "keyboard-shortcuts",
+  "codex-micro",
+  "mcp-settings",
+  "gateways",
+  "rosalind",
+  "hooks-settings",
+  "connections",
+  "cloud-settings",
+  "codex-cloud",
+  "cloud-environments",
+  "code-review",
+  "git-settings",
+  "local-environments",
+  "worktrees",
+  "browser-use",
+  "cloud-computer",
+  "passwords",
+  "extension",
+  "computer-use",
+  "data-controls",
+  "archived-chats",
+  "agreements",
+  "ads-controls"
+ ],
+ "descriptor_order": [
+  {
+   "slug": "general-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "notifications",
+   "appRoute": null
+  },
+  {
+   "slug": "import",
+   "appRoute": null
+  },
+  {
+   "slug": "profile",
+   "appRoute": "/profile"
+  },
+  {
+   "slug": "security",
+   "appRoute": null
+  },
+  {
+   "slug": "account",
+   "appRoute": null
+  },
+  {
+   "slug": "age",
+   "appRoute": null
+  },
+  {
+   "slug": "agreements",
+   "appRoute": null
+  },
+  {
+   "slug": "parental-controls",
+   "appRoute": null
+  },
+  {
+   "slug": "trusted-contact",
+   "appRoute": null
+  },
+  {
+   "slug": "safety",
+   "appRoute": null
+  },
+  {
+   "slug": "time-management",
+   "appRoute": null
+  },
+  {
+   "slug": "appearance",
+   "appRoute": null
+  },
+  {
+   "slug": "voice",
+   "appRoute": null
+  },
+  {
+   "slug": "storage",
+   "appRoute": null
+  },
+  {
+   "slug": "pets",
+   "appRoute": null
+  },
+  {
+   "slug": "chronicle",
+   "appRoute": null
+  },
+  {
+   "slug": "appshots",
+   "appRoute": null
+  },
+  {
+   "slug": "git-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "connections",
+   "appRoute": null
+  },
+  {
+   "slug": "cloud-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "codex-cloud",
+   "appRoute": null
+  },
+  {
+   "slug": "cloud-environments",
+   "appRoute": null
+  },
+  {
+   "slug": "code-review",
+   "appRoute": null
+  },
+  {
+   "slug": "local-environments",
+   "appRoute": null
+  },
+  {
+   "slug": "worktrees",
+   "appRoute": null
+  },
+  {
+   "slug": "agent",
+   "appRoute": null
+  },
+  {
+   "slug": "work-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "personalization",
+   "appRoute": null
+  },
+  {
+   "slug": "keyboard-shortcuts",
+   "appRoute": null
+  },
+  {
+   "slug": "codex-micro",
+   "appRoute": null
+  },
+  {
+   "slug": "usage",
+   "appRoute": null
+  },
+  {
+   "slug": "billing",
+   "appRoute": null
+  },
+  {
+   "slug": "analytics",
+   "appRoute": null
+  },
+  {
+   "slug": "consumer-view",
+   "appRoute": null
+  },
+  {
+   "slug": "usage-code-review",
+   "appRoute": null
+  },
+  {
+   "slug": "debug",
+   "appRoute": null
+  },
+  {
+   "slug": "browser-use",
+   "appRoute": null
+  },
+  {
+   "slug": "extension",
+   "appRoute": null
+  },
+  {
+   "slug": "computer-use",
+   "appRoute": null
+  },
+  {
+   "slug": "mcp-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "gateways",
+   "appRoute": null
+  },
+  {
+   "slug": "hooks-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "plugins-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "file-type-handlers",
+   "appRoute": null
+  },
+  {
+   "slug": "rosalind",
+   "appRoute": null
+  },
+  {
+   "slug": "skills-settings",
+   "appRoute": null
+  },
+  {
+   "slug": "data-controls",
+   "appRoute": null
+  },
+  {
+   "slug": "archived-chats",
+   "appRoute": null
+  },
+  {
+   "slug": "ads-controls",
+   "appRoute": null
+  },
+  {
+   "slug": "teams",
+   "appRoute": null
+  },
+  {
+   "slug": "cloud-computer",
+   "appRoute": null
+  },
+  {
+   "slug": "passwords",
+   "appRoute": null
+  }
+ ],
+ "default_section": "general-settings",
+ "default_section_note": "取描述符表第一项；26.1106 的独立默认常量本版未找到（C 级）。",
+ "nav_groups": [
+  {
+   "key": "profile",
+   "heading_id": "settings.nav.heading.profile",
+   "slugs": [
+    "profile"
+   ]
+  },
+  {
+   "key": "account",
+   "heading_id": "settings.nav.heading.account",
+   "slugs": [
+    "security",
+    "account",
+    "parental-controls",
+    "trusted-contact",
+    "safety",
+    "usage",
+    "billing",
+    "analytics",
+    "consumer-view",
+    "usage-code-review"
+   ]
+  },
+  {
+   "key": "app",
+   "heading_id": "settings.nav.heading.app",
+   "slugs": [
+    "general-settings",
+    "appearance",
+    "notifications",
+    "voice",
+    "agent",
+    "personalization",
+    "pets",
+    "keyboard-shortcuts",
+    "debug"
+   ]
+  },
+  {
+   "key": "data-privacy",
+   "heading_id": "settings.nav.heading.dataPrivacy",
+   "slugs": [
+    "import",
+    "data-controls",
+    "archived-chats",
+    "ads-controls",
+    "storage",
+    "agreements"
+   ]
+  },
+  {
+   "key": "teams",
+   "heading_id": null,
+   "slugs": [
+    "teams"
+   ]
+  },
+  {
+   "key": "integrations",
+   "heading_id": null,
+   "slugs": [
+    "plugins-settings",
+    "file-type-handlers",
+    "rosalind",
+    "passwords",
+    "computer-use",
+    "chronicle",
+    "appshots",
+    "codex-micro",
+    "mcp-settings",
+    "skills-settings",
+    "browser-use",
+    "cloud-computer",
+    "extension"
+   ]
+  },
+  {
+   "key": "coding",
+   "heading_id": "settings.nav.heading.coding",
+   "slugs": [
+    "hooks-settings",
+    "gateways",
+    "connections",
+    "cloud-settings",
+    "codex-cloud",
+    "cloud-environments",
+    "code-review",
+    "git-settings",
+    "local-environments",
+    "environments",
+    "worktrees"
+   ]
+  }
+ ],
+ "allowed_on_web": [
+  "profile",
+  "agent",
+  "personalization",
+  "mcp-settings",
+  "plugins-settings",
+  "file-type-handlers",
+  "hooks-settings",
+  "gateways",
+  "local-environments",
+  "worktrees",
+  "storage",
+  "archived-chats",
+  "voice"
+ ],
+ "capability": {
+  "account": "chatGpt",
+  "age": "chatGpt",
+  "agreements": "chatGpt",
+  "work-settings": "chatGpt",
+  "ads-controls": "chatGpt",
+  "parental-controls": "chatGpt",
+  "trusted-contact": "chatGpt",
+  "safety": "chatGpt",
+  "billing": "chatGpt",
+  "agent": "chatGptOrCodex",
+  "analytics": "codex",
+  "usage-code-review": "codex",
+  "appshots": "codexOrWorkLocal",
+  "extension": "chatGpt",
+  "cloud-computer": "chatGpt",
+  "passwords": "chatGpt",
+  "chronicle": "codexOrWorkLocal",
+  "codex-micro": "codexLocal",
+  "computer-use": "codexOrWorkLocal",
+  "connections": "codexLocal",
+  "consumer-view": "codex",
+  "data-controls": "chatGptOrCodex",
+  "archived-chats": "chatGptOrCodex",
+  "git-settings": "codexLocal",
+  "hooks-settings": "codexLocal",
+  "gateways": "codexLocal",
+  "import": "codexOrWorkLocal",
+  "keyboard-shortcuts": "codex",
+  "local-environments": "codexLocal",
+  "mcp-settings": "codexOrWorkLocal",
+  "plugins-settings": "codexOrWorkLocal",
+  "file-type-handlers": "codexOrWorkLocal",
+  "rosalind": "codexOrWorkLocal",
+  "profile": "codex",
+  "security": "chatGpt",
+  "storage": "chatGptOrCodex",
+  "skills-settings": "codexOrWorkLocal",
+  "usage": "codex",
+  "voice": "chatGptOrCodex",
+  "worktrees": "codexLocal"
+ },
+ "slug_chunks": {
+  "gateways": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "978336",
+     "file": "async/978336.8c5d1c9527.js"
+    },
+    {
+     "id": "433468",
+     "file": "async/433468.338ed49a79.js"
+    }
+   ]
+  },
+  "rosalind": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "579325",
+     "file": "async/579325.ea4942f2c1.js"
+    },
+    {
+     "id": "712262",
+     "file": "async/712262.8cec71c36e.js"
+    },
+    {
+     "id": "978338",
+     "file": "async/978338.a81a8583d1.js"
+    },
+    {
+     "id": "141674",
+     "file": "async/141674.9b708b2989.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "634780",
+     "file": "async/634780.288e89ae9d.js"
+    },
+    {
+     "id": "493884",
+     "file": "async/493884.e5a61a5988.js"
+    },
+    {
+     "id": "897624",
+     "file": "async/897624.02552a0554.js"
+    }
+   ]
+  },
+  "notifications": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "484744",
+     "file": "async/484744.e9d17e0f38.js"
+    }
+   ]
+  },
+  "import": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "280944",
+     "file": "async/280944.44f33a3dc4.js"
+    },
+    {
+     "id": "886045",
+     "file": "async/886045.10c39ea1f0.js"
+    },
+    {
+     "id": "234284",
+     "file": "async/234284.a818c85e3b.js"
+    }
+   ]
+  },
+  "profile": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "584510",
+     "file": "async/584510.c1d851429e.js"
+    },
+    {
+     "id": "403035",
+     "file": "async/403035.6125ee3031.js"
+    },
+    {
+     "id": "46798",
+     "file": "async/46798.c9aa025a54.js"
+    }
+   ]
+  },
+  "security": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "963703",
+     "file": "async/963703.cfc7222960.js"
+    },
+    {
+     "id": "357381",
+     "file": "async/357381.6ebeb82c34.js"
+    },
+    {
+     "id": "294701",
+     "file": "async/294701.20c3180966.js"
+    },
+    {
+     "id": "134292",
+     "file": "async/134292.90a56e1fcf.js"
+    },
+    {
+     "id": "171560",
+     "file": "async/171560.76bbbe2207.js"
+    },
+    {
+     "id": "872510",
+     "file": "async/872510.4dc6873c7a.js"
+    }
+   ]
+  },
+  "account": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "856083",
+     "file": "async/856083.ac54ec1a78.js"
+    }
+   ]
+  },
+  "age": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "193602",
+     "file": "async/193602.c473a880fd.js"
+    }
+   ]
+  },
+  "agreements": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "187392",
+     "file": "async/187392.de2b78dda7.js"
+    }
+   ]
+  },
+  "trusted-contact": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "963703",
+     "file": "async/963703.cfc7222960.js"
+    },
+    {
+     "id": "357381",
+     "file": "async/357381.6ebeb82c34.js"
+    },
+    {
+     "id": "294701",
+     "file": "async/294701.20c3180966.js"
+    },
+    {
+     "id": "106668",
+     "file": "async/106668.028631ed74.js"
+    },
+    {
+     "id": "983550",
+     "file": "async/983550.283f4b9aae.js"
+    }
+   ]
+  },
+  "safety": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "525342",
+     "file": "async/525342.d322c20b1e.js"
+    }
+   ]
+  },
+  "time-management": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "671133",
+     "file": "async/671133.94a229eefa.js"
+    }
+   ]
+  },
+  "keyboard-shortcuts": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "972506",
+     "file": "async/972506.f0867de5ad.js"
+    },
+    {
+     "id": "928366",
+     "file": "async/928366.784ad82eec.js"
+    }
+   ]
+  },
+  "codex-micro": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "975992",
+     "file": "async/975992.b641496678.js"
+    }
+   ]
+  },
+  "appshots": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "827401",
+     "file": "async/827401.4911aeccca.js"
+    }
+   ]
+  },
+  "appearance": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "280944",
+     "file": "async/280944.44f33a3dc4.js"
+    },
+    {
+     "id": "25051",
+     "file": "async/25051.f5d7b08f7d.js"
+    },
+    {
+     "id": "466880",
+     "file": "async/466880.0b0f88e6e1.js"
+    }
+   ]
+  },
+  "voice": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "972506",
+     "file": "async/972506.f0867de5ad.js"
+    },
+    {
+     "id": "506449",
+     "file": "async/506449.997239b562.js"
+    }
+   ]
+  },
+  "storage": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "463215",
+     "file": "async/463215.f06886893c.js"
+    }
+   ]
+  },
+  "pets": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "579325",
+     "file": "async/579325.ea4942f2c1.js"
+    },
+    {
+     "id": "712262",
+     "file": "async/712262.8cec71c36e.js"
+    },
+    {
+     "id": "978338",
+     "file": "async/978338.a81a8583d1.js"
+    },
+    {
+     "id": "923712",
+     "file": "async/923712.d5a3af247d.js"
+    },
+    {
+     "id": "214739",
+     "file": "async/214739.0c22e18df7.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "972506",
+     "file": "async/972506.f0867de5ad.js"
+    },
+    {
+     "id": "654905",
+     "file": "async/654905.3b5fa04de1.js"
+    },
+    {
+     "id": "69751",
+     "file": "async/69751.3a13e513e3.js"
+    }
+   ]
+  },
+  "agent": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "904485",
+     "file": "async/904485.761fadeb1d.js"
+    },
+    {
+     "id": "777710",
+     "file": "async/777710.070f8d763e.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "181649",
+     "file": "async/181649.e1acfb5048.js"
+    }
+   ]
+  },
+  "work-settings": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "78809",
+     "file": "async/78809.cd0ee9bfe7.js"
+    }
+   ]
+  },
+  "git-settings": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "899348",
+     "file": "async/899348.90288defba.js"
+    }
+   ]
+  },
+  "ads-controls": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "141546",
+     "file": "async/141546.9f2ae510d2.js"
+    },
+    {
+     "id": "217577",
+     "file": "async/217577.1ce8737dd5.js"
+    }
+   ]
+  },
+  "archived-chats": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "660973",
+     "file": "async/660973.936cbb1aea.js"
+    },
+    {
+     "id": "147079",
+     "file": "async/147079.e543389c2b.js"
+    }
+   ]
+  },
+  "data-controls": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "673345",
+     "file": "async/673345.7b63199753.js"
+    }
+   ]
+  },
+  "code-review": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "854102",
+     "file": "async/854102.0fb5834fd9.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "71320",
+     "file": "async/71320.1460eb0aa0.js"
+    }
+   ]
+  },
+  "cloud-settings": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "666047",
+     "file": "async/666047.412610d2d4.js"
+    }
+   ]
+  },
+  "codex-cloud": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "222773",
+     "file": "async/222773.c7d6805d0f.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "95962",
+     "file": "async/95962.8bbb0bd3e8.js"
+    },
+    {
+     "id": "178155",
+     "file": "async/178155.14e2595677.js"
+    },
+    {
+     "id": "576312",
+     "file": "async/576312.5a6ce877f5.js"
+    },
+    {
+     "id": "664496",
+     "file": "async/664496.090ec1db11.js"
+    },
+    {
+     "id": "851043",
+     "file": "async/851043.39954a704d.js"
+    },
+    {
+     "id": "583345",
+     "file": "async/583345.e569e2b948.js"
+    },
+    {
+     "id": "825699",
+     "file": "async/825699.997a1f71dc.js"
+    },
+    {
+     "id": "999152",
+     "file": "async/999152.c5d49af864.js"
+    },
+    {
+     "id": "832322",
+     "file": "async/832322.d7369a1928.js"
+    }
+   ]
+  },
+  "cloud-environments": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "777478",
+     "file": "async/777478.835bba9397.js"
+    },
+    {
+     "id": "710096",
+     "file": "async/710096.40d5ac6b75.js"
+    },
+    {
+     "id": "521872",
+     "file": "async/521872.4e2e345a23.js"
+    }
+   ]
+  },
+  "personalization": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "753405",
+     "file": "async/753405.511e99a830.js"
+    },
+    {
+     "id": "321957",
+     "file": "async/321957.3a9dd0dc53.js"
+    },
+    {
+     "id": "585419",
+     "file": "async/585419.ee5eb0daeb.js"
+    },
+    {
+     "id": "579325",
+     "file": "async/579325.ea4942f2c1.js"
+    },
+    {
+     "id": "712262",
+     "file": "async/712262.8cec71c36e.js"
+    },
+    {
+     "id": "978338",
+     "file": "async/978338.a81a8583d1.js"
+    },
+    {
+     "id": "904485",
+     "file": "async/904485.761fadeb1d.js"
+    },
+    {
+     "id": "777710",
+     "file": "async/777710.070f8d763e.js"
+    },
+    {
+     "id": "141674",
+     "file": "async/141674.9b708b2989.js"
+    },
+    {
+     "id": "678690",
+     "file": "async/678690.142831d0af.js"
+    },
+    {
+     "id": "877700",
+     "file": "async/877700.20be112589.js"
+    },
+    {
+     "id": "843292",
+     "file": "async/843292.18124c174b.js"
+    },
+    {
+     "id": "49871",
+     "file": "async/49871.a287d62d95.js"
+    },
+    {
+     "id": "314719",
+     "file": "async/314719.7183bf4063.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "583579",
+     "file": "async/583579.50499b9d31.js"
+    },
+    {
+     "id": "353230",
+     "file": "async/353230.277403940d.js"
+    },
+    {
+     "id": "909395",
+     "file": "async/909395.d581bc9b60.js"
+    },
+    {
+     "id": "960583",
+     "file": "async/960583.1b9497f455.js"
+    },
+    {
+     "id": "778901",
+     "file": "async/778901.35377d9cb4.js"
+    },
+    {
+     "id": "301030",
+     "file": "async/301030.3d5c0e4517.js"
+    },
+    {
+     "id": "77282",
+     "file": "async/77282.777f2bda21.js"
+    },
+    {
+     "id": "587936",
+     "file": "async/587936.47af5e2b51.js"
+    },
+    {
+     "id": "612928",
+     "file": "async/612928.7ee428bee0.js"
+    },
+    {
+     "id": "452048",
+     "file": "async/452048.a0c776c376.js"
+    },
+    {
+     "id": "684598",
+     "file": "async/684598.d3a5523bbb.js"
+    },
+    {
+     "id": "299268",
+     "file": "async/299268.d827691846.js"
+    },
+    {
+     "id": "212487",
+     "file": "async/212487.b68bd2ef0f.js"
+    },
+    {
+     "id": "536061",
+     "file": "async/536061.d2235f606b.js"
+    },
+    {
+     "id": "17983",
+     "file": "async/17983.5ef211d949.js"
+    },
+    {
+     "id": "882456",
+     "file": "async/882456.cabb45e999.js"
+    },
+    {
+     "id": "148766",
+     "file": "async/148766.885b28b3f0.js"
+    },
+    {
+     "id": "81461",
+     "file": "async/81461.800bccad89.js"
+    },
+    {
+     "id": "513017",
+     "file": "async/513017.9c7bb27ff8.js"
+    },
+    {
+     "id": "167649",
+     "file": "async/167649.2aac41b4f9.js"
+    },
+    {
+     "id": "15963",
+     "file": "async/15963.13aad3d96f.js"
+    },
+    {
+     "id": "16212",
+     "file": "async/16212.a2fb93b784.js"
+    },
+    {
+     "id": "722053",
+     "file": "async/722053.30c2e8e35a.js"
+    },
+    {
+     "id": "900082",
+     "file": "async/900082.e9b17a8c39.js"
+    },
+    {
+     "id": "51677",
+     "file": "async/51677.626b99bd2f.js"
+    },
+    {
+     "id": "396600",
+     "file": null
+    },
+    {
+     "id": "345897",
+     "file": "async/345897.d3c6d4315d.js"
+    }
+   ]
+  },
+  "chronicle": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "842839",
+     "file": "async/842839.ac08d6d6d7.js"
+    }
+   ]
+  },
+  "debug": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "954476",
+     "file": "async/954476.c1cfec0d6c.js"
+    }
+   ]
+  },
+  "computer-use": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "324941",
+     "file": "async/324941.cc5ea341de.js"
+    },
+    {
+     "id": "721731",
+     "file": "async/721731.07541e9d01.js"
+    }
+   ]
+  },
+  "browser-use": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "324941",
+     "file": "async/324941.cc5ea341de.js"
+    },
+    {
+     "id": "524289",
+     "file": "async/524289.c06aee7c60.js"
+    }
+   ]
+  },
+  "extension": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "324941",
+     "file": "async/324941.cc5ea341de.js"
+    },
+    {
+     "id": "345855",
+     "file": "async/345855.01c7da9c06.js"
+    }
+   ]
+  },
+  "local-environments": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "777478",
+     "file": "async/777478.835bba9397.js"
+    },
+    {
+     "id": "754281",
+     "file": "async/754281.551bb02fa4.js"
+    },
+    {
+     "id": "687878",
+     "file": "async/687878.c8b93acd6f.js"
+    }
+   ]
+  },
+  "worktrees": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "854102",
+     "file": "async/854102.0fb5834fd9.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "430642",
+     "file": "async/430642.ec44c43167.js"
+    }
+   ]
+  },
+  "environments": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "218032",
+     "file": "async/218032.15d10ddc9a.js"
+    }
+   ]
+  },
+  "mcp-settings": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "904485",
+     "file": "async/904485.761fadeb1d.js"
+    },
+    {
+     "id": "777710",
+     "file": "async/777710.070f8d763e.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "704837",
+     "file": "async/704837.36b5fa8649.js"
+    },
+    {
+     "id": "587355",
+     "file": "async/587355.0f810f85cc.js"
+    },
+    {
+     "id": "239343",
+     "file": "async/239343.0f46f32a4e.js"
+    },
+    {
+     "id": "686745",
+     "file": "async/686745.58101adba7.js"
+    },
+    {
+     "id": "269406",
+     "file": "async/269406.8a295c2c13.js"
+    },
+    {
+     "id": "623136",
+     "file": "async/623136.65fbfd2ce4.js"
+    },
+    {
+     "id": "213158",
+     "file": "async/213158.82bf454781.js"
+    }
+   ]
+  },
+  "hooks-settings": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "136096",
+     "file": "async/136096.839b2c60b2.js"
+    }
+   ]
+  },
+  "connections": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "777478",
+     "file": "async/777478.835bba9397.js"
+    },
+    {
+     "id": "996150",
+     "file": "async/996150.e9fe4b3b4b.js"
+    },
+    {
+     "id": "178725",
+     "file": "async/178725.9b4f01101b.js"
+    }
+   ]
+  },
+  "plugins-settings": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "904485",
+     "file": "async/904485.761fadeb1d.js"
+    },
+    {
+     "id": "777710",
+     "file": "async/777710.070f8d763e.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "704837",
+     "file": "async/704837.36b5fa8649.js"
+    },
+    {
+     "id": "587355",
+     "file": "async/587355.0f810f85cc.js"
+    },
+    {
+     "id": "239343",
+     "file": "async/239343.0f46f32a4e.js"
+    },
+    {
+     "id": "686745",
+     "file": "async/686745.58101adba7.js"
+    },
+    {
+     "id": "269406",
+     "file": "async/269406.8a295c2c13.js"
+    },
+    {
+     "id": "623136",
+     "file": "async/623136.65fbfd2ce4.js"
+    },
+    {
+     "id": "500428",
+     "file": null
+    }
+   ]
+  },
+  "file-type-handlers": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "802665",
+     "file": "async/802665.bfe7cea6df.js"
+    }
+   ]
+  },
+  "skills-settings": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "725599",
+     "file": "async/725599.52f00b4d9c.js"
+    },
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "704837",
+     "file": "async/704837.36b5fa8649.js"
+    },
+    {
+     "id": "587355",
+     "file": "async/587355.0f810f85cc.js"
+    },
+    {
+     "id": "269406",
+     "file": "async/269406.8a295c2c13.js"
+    },
+    {
+     "id": "871717",
+     "file": "async/871717.5713132ca3.js"
+    },
+    {
+     "id": "604319",
+     "file": "async/604319.2bc75ad42a.js"
+    },
+    {
+     "id": "262777",
+     "file": "async/262777.12e5ef3dc9.js"
+    }
+   ]
+  },
+  "cloud-computer": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "237549",
+     "file": "async/237549.b0bf1145f4.js"
+    }
+   ]
+  },
+  "passwords": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "844220",
+     "file": "async/844220.5143ba37be.js"
+    },
+    {
+     "id": "452582",
+     "file": "async/452582.c4603f5977.js"
+    }
+   ]
+  },
+  "teams": {
+   "component": null,
+   "chunks": [
+    {
+     "id": "141546",
+     "file": "async/141546.9f2ae510d2.js"
+    },
+    {
+     "id": "329299",
+     "file": "async/329299.8a1747c2a1.js"
+    }
+   ]
+  }
+ },
+ "diff_26_1106": {
+  "slug_list_added": [],
+  "slug_list_removed": [],
+  "capability_added": [],
+  "capability_removed": [
+   "notifications"
+  ],
+  "allowed_on_web_added": [],
+  "allowed_on_web_removed": []
+ },
+ "coverage": {
+  "slug_list": 53,
+  "nav_order_list": 46,
+  "descriptor_order": 53,
+  "nav_groups": 7,
+  "capability": 40,
+  "allowed_on_web": 13,
+  "slug_chunks": 47
+ }
+}

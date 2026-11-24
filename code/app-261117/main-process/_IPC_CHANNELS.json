@@ -1,0 +1,232 @@
+{
+ "generated_at": "2026-11-24T02:26:08.471Z",
+ "app_version": "26.1117.41037",
+ "source": "main-process/build/*.js",
+ "count": 30,
+ "channels": [
+  {
+   "channel": "codex_desktop:app-server-window-port",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:app-server-window-ready",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:browser-page-event",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-7-a5d632ed685e6979.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:browser-sidebar-runtime-message",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-7-a5d632ed685e6979.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:check-for-updates",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:chunked-message-ack",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:connect-app-host",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:connect-app-server-manager",
+   "files": [
+    "early-bootstrap-916-2fd4cc5178eaa3b5.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:connect-git-worker",
+   "files": [
+    "early-bootstrap.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-browser-annotation-api-policy",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-916-2fd4cc5178eaa3b5.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-browser-webmcp-policy",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-916-2fd4cc5178eaa3b5.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-fast-mode-rollout-metrics",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-initial-sidebar-bootstrap",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-initial-window-appearance",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:get-preload-bootstrap-info",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:git-worker-port",
+   "files": [
+    "early-bootstrap.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:mcp-app-sandbox-guest-message",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "sandbox-preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:mcp-app-sandbox-host-message",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:message-for-view",
+   "files": [
+    "browser-page-preload.js",
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:message-from-view",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:network-online",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:read-dragged-image",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:remote-hosted-pip-video-frame",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:show-context-menu",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:start-file-drag",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:start-link-drag",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:startup-progress",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:system-theme-variant-updated",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:take-initial-switch-status",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  },
+  {
+   "channel": "codex_desktop:trigger-sentry-test",
+   "files": [
+    "early-bootstrap-7-a5d632ed685e6979.js",
+    "preload.js"
+   ]
+  }
+ ],
+ "added_vs_26_1106": [
+  "codex_desktop:app-server-window-port",
+  "codex_desktop:app-server-window-ready",
+  "codex_desktop:connect-app-server-manager",
+  "codex_desktop:get-initial-window-appearance",
+  "codex_desktop:get-preload-bootstrap-info",
+  "codex_desktop:read-dragged-image",
+  "codex_desktop:startup-progress"
+ ],
+ "removed_vs_26_1106": [
+  "codex_desktop:get-build-flavor",
+  "codex_desktop:get-sentry-init-options",
+  "codex_desktop:get-system-theme-variant"
+ ]
+}

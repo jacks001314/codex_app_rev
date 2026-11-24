@@ -1,0 +1,1679 @@
+{
+ "module": "mobile",
+ "generated_at": "2026-11-24T02:27:16.798Z",
+ "files_scanned": 1,
+ "message_count": 74,
+ "messages": [
+  {
+   "id": "codexMobile.setupDialog.allowHost.description",
+   "text": "This lets authorized devices, such as your phone, connect to ChatGPT and control this computer remotely",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.allowHost.error",
+   "text": "Couldn\\u2019t enable remote control. Try again",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.allowHost.heading",
+   "text": "Allow devices to control this computer?",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.allowHost.primary",
+   "text": "Allow",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.allowHost.title",
+   "text": "Allow devices to control this computer?",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.chromeExtension.description",
+   "text": "Let ChatGPT navigate websites and fill out forms",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.chromeExtension.title",
+   "text": "Set up Chrome extension",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.chromeExtension.toggle",
+   "text": "Set up Chrome extension",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.computerUse.description",
+   "text": "Let ChatGPT control apps on your Mac",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.computerUse.description.windows",
+   "text": "Let ChatGPT control apps on your PC",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.computerUse.title",
+   "text": "Enable computer use",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.computerUse.toggle",
+   "text": "Enable computer use",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.description",
+   "text": "Make the most out of your new connection. You can change these later in Settings.",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.finish",
+   "text": "Done",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.heading",
+   "text": "You\\u2019re connected",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.keepAwake.description",
+   "text": "Prevent sleep when this computer is plugged in and remote access is enabled",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.keepAwake.title",
+   "text": "Keep this Mac awake",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.keepAwake.title.windows",
+   "text": "Keep this PC awake",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.keepAwake.toggle",
+   "text": "Keep this Mac awake",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.keepAwake.toggle.windows",
+   "text": "Keep this PC awake",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.lockedComputerUse.description",
+   "text": "Control Mac apps from your phone. <a>Learn more</a>",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.lockedComputerUse.title",
+   "text": "Use your Mac apps while locked",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.lockedComputerUse.toggle",
+   "text": "Use your Mac apps while locked",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.connected.title",
+   "text": "You\\u2019re connected",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.description",
+   "text": "Continue chats from the ChatGPT desktop app on your phone or another device",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.feature.actions.description",
+   "text": "Just send a message to start a chat on your desktop",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.feature.actions.title",
+   "text": "Start something new",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.feature.notifications.description",
+   "text": "Get notified when ChatGPT finishes a task or needs your attention",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.feature.notifications.title",
+   "text": "Stay in the loop",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.feature.threads.description",
+   "text": "Continue any chat or project from the ChatGPT desktop app",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.feature.threads.title",
+   "text": "Pick up where you left off",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.heading",
+   "text": "Connect your phone to this Mac",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.heading.desktop",
+   "text": "Connect a device to this Mac",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.heading.windows",
+   "text": "Connect a device to this PC",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.primary",
+   "text": "Get started",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.skip",
+   "text": "Later",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.startSetupError",
+   "text": "Couldn\\u2019t check security requirements. Try again",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.title.desktop",
+   "text": "Connect a device to this Mac",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.initial.title.windows",
+   "text": "Connect a device to this PC",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.mfaRequired.description",
+   "text": "To enable this feature, you\\u2019ll need to turn on Multi-Factor Authentication for your ChatGPT account",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.mfaRequired.heading",
+   "text": "Turn on Multi-Factor Authentication",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.mfaRequired.primary",
+   "text": "Continue on chatgpt.com",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.mfaRequired.title",
+   "text": "Turn on Multi-Factor Authentication",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.computer.step.allow",
+   "text": "Click <strong>Set up</strong> in the <strong>Control other devices</strong> tab",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.computer.step.openDesktopApp",
+   "text": "Open the <strong>ChatGPT desktop app</strong> on the computer you want to authorize",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.computer.step.settingsConnections",
+   "text": "Go to <strong>Connections</strong> tab in settings",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.deviceType",
+   "text": "Device type",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.deviceType.computer",
+   "text": "Computer",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.deviceType.phone",
+   "text": "Phone",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.heading.mac",
+   "text": "Approve on your device to control this Mac remotely",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.heading.pc",
+   "text": "Approve on your device to control this computer remotely",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupDialog.waiting.title",
+   "text": "Approve on your device",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.connected.manageConnections",
+   "text": "Manage connections",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.initial.heading.windows",
+   "text": "Connect your phone to this PC",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.initial.securityNotice",
+   "text": "ChatGPT can access your desktop\\u2014including files, apps, and your browser\\u2014to complete tasks you send from your phone. This can introduce security risks. Only connect devices that you own and trust.",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.ready.description",
+   "text": "Scan QR code to set up a new phone or manage existing connections",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.ready.phoneDeepLink.deviceType",
+   "text": "Phone type",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.ready.remoteHeading",
+   "text": "Remote",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.remoteTitle",
+   "text": "Set up Remote",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.computerPairingCode.caption",
+   "text": "Click <strong>Add</strong> in the <strong>Settings > Connections > Control other devices</strong> tab on your other computer and enter this code",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.closeFullscreenQrCode",
+   "text": "Close fullscreen QR code",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.copy",
+   "text": "Copy pairing code",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.fullscreenQrCodeTitle",
+   "text": "Pairing QR code",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.loading",
+   "text": "Loading pairing code",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.refresh",
+   "text": "Refresh pairing code",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.showQrCodeFullscreen",
+   "text": "Show QR code fullscreen",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.unavailable",
+   "text": "Pairing code unavailable",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.pairing.unavailableWithError",
+   "text": "Pairing code unavailable: {error}",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.phoneDeepLink.animateQrCode",
+   "text": "Animate QR code",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.phoneDeepLink.caption",
+   "text": "Scan to continue setup in ChatGPT",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.phoneDeepLink.deviceType.android",
+   "text": "Android",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.phoneDeepLink.deviceType.ios",
+   "text": "iPhone",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.phoneDeepLink.qrCode",
+   "text": "QR code to continue setup in ChatGPT",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  },
+  {
+   "id": "codexMobile.setupPage.waiting.upgradeMessage",
+   "text": "Please upgrade to the latest version of the ChatGPT app to pair",
+   "description": null,
+   "files": [
+    "996150.e9fe4b3b4b.js"
+   ],
+   "file_count": 1
+  }
+ ],
+ "imports": [],
+ "hot_props": [
+  {
+   "name": "children",
+   "count": 104
+  },
+  {
+   "name": "className",
+   "count": 88
+  },
+  {
+   "name": "id",
+   "count": 80
+  },
+  {
+   "name": "defaultMessage",
+   "count": 74
+  },
+  {
+   "name": "x",
+   "count": 50
+  },
+  {
+   "name": "y",
+   "count": 50
+  },
+  {
+   "name": "width",
+   "count": 33
+  },
+  {
+   "name": "height",
+   "count": 32
+  },
+  {
+   "name": "variant",
+   "count": 31
+  },
+  {
+   "name": "hostId",
+   "count": 28
+  },
+  {
+   "name": "ariaLabel",
+   "count": 27
+  },
+  {
+   "name": "size",
+   "count": 26
+  },
+  {
+   "name": "onClick",
+   "count": 16
+  },
+  {
+   "name": "step",
+   "count": 14
+  },
+  {
+   "name": "setupInProgress",
+   "count": 13
+  },
+  {
+   "name": "description",
+   "count": 13
+  },
+  {
+   "name": "enabled",
+   "count": 13
+  },
+  {
+   "name": "frame",
+   "count": 12
+  },
+  {
+   "name": "platform",
+   "count": 12
+  },
+  {
+   "name": "onManageConnections",
+   "count": 12
+  },
+  {
+   "name": "centerLogoAriaLabel",
+   "count": 12
+  },
+  {
+   "name": "onSkip",
+   "count": 11
+  },
+  {
+   "name": "onStartSetup",
+   "count": 11
+  },
+  {
+   "name": "showStartSetupError",
+   "count": 11
+  },
+  {
+   "name": "onAllowHost",
+   "count": 11
+  },
+  {
+   "name": "showAllowHostError",
+   "count": 11
+  },
+  {
+   "name": "heading",
+   "count": 10
+  },
+  {
+   "name": "icon",
+   "count": 10
+  },
+  {
+   "name": "bit",
+   "count": 9
+  },
+  {
+   "name": "mode",
+   "count": 9
+  },
+  {
+   "name": "data",
+   "count": 9
+  },
+  {
+   "name": "asset",
+   "count": 9
+  },
+  {
+   "name": "title",
+   "count": 9
+  },
+  {
+   "name": "onFinishSetup",
+   "count": 9
+  },
+  {
+   "name": "queryKey",
+   "count": 9
+  },
+  {
+   "name": "queryFn",
+   "count": 9
+  },
+  {
+   "name": "staleTime",
+   "count": 9
+  },
+  {
+   "name": "get",
+   "count": 8
+  },
+  {
+   "name": "length",
+   "count": 8
+  },
+  {
+   "name": "viewBox",
+   "count": 8
+  },
+  {
+   "name": "fill",
+   "count": 7
+  },
+  {
+   "name": "onContinueOnChatGPT",
+   "count": 7
+  },
+  {
+   "name": "default",
+   "count": 6
+  },
+  {
+   "name": "color",
+   "count": 6
+  },
+  {
+   "name": "name",
+   "count": 6
+  },
+  {
+   "name": "canvas",
+   "count": 6
+  },
+  {
+   "name": "inkBounds",
+   "count": 6
+  },
+  {
+   "name": "visualBounds",
+   "count": 6
+  },
+  {
+   "name": "paint",
+   "count": 6
+  },
+  {
+   "name": "kind",
+   "count": 6
+  },
+  {
+   "name": "optical",
+   "count": 6
+  },
+  {
+   "name": "shape",
+   "count": 6
+  },
+  {
+   "name": "bounds",
+   "count": 6
+  },
+  {
+   "name": "center",
+   "count": 6
+  },
+  {
+   "name": "insets",
+   "count": 6
+  },
+  {
+   "name": "top",
+   "count": 6
+  },
+  {
+   "name": "right",
+   "count": 6
+  },
+  {
+   "name": "bottom",
+   "count": 6
+  },
+  {
+   "name": "left",
+   "count": 6
+  },
+  {
+   "name": "anchors",
+   "count": 6
+  },
+  {
+   "name": "ink",
+   "count": 6
+  },
+  {
+   "name": "foreground",
+   "count": 6
+  },
+  {
+   "name": "capabilities",
+   "count": 6
+  },
+  {
+   "name": "body",
+   "count": 6
+  },
+  {
+   "name": "disabled",
+   "count": 6
+  },
+  {
+   "name": "onSuccess",
+   "count": 6
+  },
+  {
+   "name": "src",
+   "count": 6
+  },
+  {
+   "name": "values",
+   "count": 6
+  },
+  {
+   "name": "role",
+   "count": 6
+  },
+  {
+   "name": "error",
+   "count": 6
+  },
+  {
+   "name": "index",
+   "count": 5
+  },
+  {
+   "name": "type",
+   "count": 5
+  },
+  {
+   "name": "waitingHeading",
+   "count": 5
+  },
+  {
+   "name": "surface",
+   "count": 5
+  },
+  {
+   "name": "trailing",
+   "count": 5
+  },
+  {
+   "name": "__html",
+   "count": 5
+  },
+  {
+   "name": "dangerouslySetInnerHTML",
+   "count": 5
+  },
+  {
+   "name": "pairingCode",
+   "count": 5
+  },
+  {
+   "name": "signal",
+   "count": 5
+  },
+  {
+   "name": "refetchOnMount",
+   "count": 5
+  },
+  {
+   "name": "refetchOnWindowFocus",
+   "count": 5
+  },
+  {
+   "name": "ccBits",
+   "count": 4
+  },
+  {
+   "name": "d",
+   "count": 4
+  },
+  {
+   "name": "onOpenChange",
+   "count": 4
+  },
+  {
+   "name": "open",
+   "count": 4
+  },
+  {
+   "name": "action",
+   "count": 4
+  },
+  {
+   "name": "href",
+   "count": 4
+  },
+  {
+   "name": "artworkSrc",
+   "count": 4
+  },
+  {
+   "name": "checked",
+   "count": 4
+  },
+  {
+   "name": "onChange",
+   "count": 4
+  },
+  {
+   "name": "approvalDeviceMode",
+   "count": 4
+  },
+  {
+   "name": "onApprovalDeviceModeChange",
+   "count": 4
+  },
+  {
+   "name": "gradient",
+   "count": 4
+  },
+  {
+   "name": "onArtworkReady",
+   "count": 4
+  },
+  {
+   "name": "ref",
+   "count": 4
+  },
+  {
+   "name": "svgMarkup",
+   "count": 4
+  },
+  {
+   "name": "fullscreen",
+   "count": 4
+  },
+  {
+   "name": "cornersMarkup",
+   "count": 4
+  },
+  {
+   "name": "dotsMarkup",
+   "count": 4
+  },
+  {
+   "name": "strong",
+   "count": 4
+  },
+  {
+   "name": "scope",
+   "count": 4
+  },
+  {
+   "name": "h",
+   "count": 3
+  },
+  {
+   "name": "xmlns",
+   "count": 3
+  },
+  {
+   "name": "showDeviceTypeSelector",
+   "count": 3
+  },
+  {
+   "name": "event",
+   "count": 3
+  },
+  {
+   "name": "initiator",
+   "count": 3
+  },
+  {
+   "name": "mutationFn",
+   "count": 3
+  },
+  {
+   "name": "style",
+   "count": 3
+  },
+  {
+   "name": "alt",
+   "count": 3
+  },
+  {
+   "name": "plugin",
+   "count": 3
+  },
+  {
+   "name": "pluginDisplayName",
+   "count": 3
+  },
+  {
+   "name": "pluginId",
+   "count": 3
+  },
+  {
+   "name": "label",
+   "count": 3
+  },
+  {
+   "name": "triggerRipple",
+   "count": 3
+  },
+  {
+   "name": "stillSrc",
+   "count": 3
+  },
+  {
+   "name": "videoSrc",
+   "count": 3
+  },
+  {
+   "name": "null",
+   "count": 3
+  },
+  {
+   "name": "consumer",
+   "count": 3
+  },
+  {
+   "name": "remoteControlConnectionsState",
+   "count": 3
+  },
+  {
+   "name": "slingshotEnabled",
+   "count": 3
+  },
+  {
+   "name": "includeBrowserClients",
+   "count": 3
+  },
+  {
+   "name": "existingClientIds",
+   "count": 3
+  },
+  {
+   "name": "localRemoteControlClientId",
+   "count": 3
+  },
+  {
+   "name": "waiting",
+   "count": 3
+  },
+  {
+   "name": "maskPattern",
+   "count": 2
+  },
+  {
+   "name": "version",
+   "count": 2
+  },
+  {
+   "name": "is",
+   "count": 2
+  },
+  {
+   "name": "errorCorrectionLevel",
+   "count": 2
+  },
+  {
+   "name": "start",
+   "count": 2
+  },
+  {
+   "name": "a",
+   "count": 2
+  },
+  {
+   "name": "dark",
+   "count": 2
+  },
+  {
+   "name": "light",
+   "count": 2
+  },
+  {
+   "name": "loading",
+   "count": 2
+  },
+  {
+   "name": "headerAdornment",
+   "count": 2
+  },
+  {
+   "name": "openTarget",
+   "count": 2
+  },
+  {
+   "name": "contentProps",
+   "count": 2
+  },
+  {
+   "name": "contentClassName",
+   "count": 2
+  },
+  {
+   "name": "remoteControlHostEnabled",
+   "count": 2
+  },
+  {
+   "name": "hasEnrolledRemoteControlClient",
+   "count": 2
+  },
+  {
+   "name": "onError",
+   "count": 2
+  },
+  {
+   "name": "artworkAlignment",
+   "count": 2
+  },
+  {
+   "name": "isMfaSetupRequiredError",
+   "count": 2
+  },
+  {
+   "name": "mfaSetupRequired",
+   "count": 2
+  },
+  {
+   "name": "remoteControlStatus",
+   "count": 2
+  },
+  {
+   "name": "isLoading",
+   "count": 2
+  },
+  {
+   "name": "refetch",
+   "count": 2
+  },
+  {
+   "name": "plugins",
+   "count": 2
+  },
+  {
+   "name": "marketplaceAnalytics",
+   "count": 2
+  },
+  {
+   "name": "deviceType",
+   "count": 2
+  },
+  {
+   "name": "onDeviceTypeChange",
+   "count": 2
+  },
+  {
+   "name": "maskRect",
+   "count": 2
+  },
+  {
+   "name": "clearPaint",
+   "count": 2
+  },
+  {
+   "name": "paintDots",
+   "count": 2
+  },
+  {
+   "name": "rootRef",
+   "count": 2
+  },
+  {
+   "name": "path",
+   "count": 2
+  },
+  {
+   "name": "stops",
+   "count": 2
+  },
+  {
+   "name": "markup",
+   "count": 2
+  },
+  {
+   "name": "xml",
+   "count": 2
+  },
+  {
+   "name": "manualPairingCode",
+   "count": 2
+  },
+  {
+   "name": "onPlatformChange",
+   "count": 2
+  },
+  {
+   "name": "content",
+   "count": 2
+  },
+  {
+   "name": "appServerHostId",
+   "count": 2
+  },
+  {
+   "name": "refetchInterval",
+   "count": 2
+  },
+  {
+   "name": "e",
+   "count": 2
+  },
+  {
+   "name": "single_source_shortest_paths",
+   "count": 1
+  },
+  {
+   "name": "extract_shortest_path_from_predecessor_list",
+   "count": 1
+  },
+  {
+   "name": "find_path",
+   "count": 1
+  },
+  {
+   "name": "PriorityQueue",
+   "count": 1
+  },
+  {
+   "name": "make",
+   "count": 1
+  },
+  {
+   "name": "default_sorter",
+   "count": 1
+  },
+  {
+   "name": "push",
+   "count": 1
+  },
+  {
+   "name": "value",
+   "count": 1
+  },
+  {
+   "name": "cost",
+   "count": 1
+  },
+  {
+   "name": "pop",
+   "count": 1
+  },
+  {
+   "name": "empty",
+   "count": 1
+  },
+  {
+   "name": "put",
+   "count": 1
+  },
+  {
+   "name": "getLengthInBits",
+   "count": 1
+  },
+  {
+   "name": "putBit",
+   "count": 1
+  },
+  {
+   "name": "Level",
+   "count": 1
+  },
+  {
+   "name": "character",
+   "count": 1
+  },
+  {
+   "name": "PATTERN000",
+   "count": 1
+  },
+  {
+   "name": "PATTERN001",
+   "count": 1
+  },
+  {
+   "name": "PATTERN010",
+   "count": 1
+  },
+  {
+   "name": "PATTERN011",
+   "count": 1
+  },
+  {
+   "name": "PATTERN100",
+   "count": 1
+  },
+  {
+   "name": "PATTERN101",
+   "count": 1
+  },
+  {
+   "name": "PATTERN110",
+   "count": 1
+  },
+  {
+   "name": "PATTERN111",
+   "count": 1
+  },
+  {
+   "name": "modules",
+   "count": 1
+  },
+  {
+   "name": "segments",
+   "count": 1
+  },
+  {
+   "name": "node",
+   "count": 1
+  },
+  {
+   "name": "lastCount",
+   "count": 1
+  },
+  {
+   "name": "map",
+   "count": 1
+  },
+  {
+   "name": "table",
+   "count": 1
+  },
+  {
+   "name": "r",
+   "count": 1
+  },
+  {
+   "name": "g",
+   "count": 1
+  },
+  {
+   "name": "b",
+   "count": 1
+  },
+  {
+   "name": "hex",
+   "count": 1
+  },
+  {
+   "name": "scale",
+   "count": 1
+  },
+  {
+   "name": "margin",
+   "count": 1
+  },
+  {
+   "name": "rendererOpts",
+   "count": 1
+  },
+  {
+   "name": "fillRule",
+   "count": 1
+  },
+  {
+   "name": "clipRule",
+   "count": 1
+  },
+  {
+   "name": "Ri",
+   "count": 1
+  },
+  {
+   "name": "hD",
+   "count": 1
+  },
+  {
+   "name": "QB",
+   "count": 1
+  },
+  {
+   "name": "D9",
+   "count": 1
+  },
+  {
+   "name": "fn",
+   "count": 1
+  },
+  {
+   "name": "_",
+   "count": 1
+  },
+  {
+   "name": "k",
+   "count": 1
+  },
+  {
+   "name": "n",
+   "count": 1
+  },
+  {
+   "name": "initialStep",
+   "count": 1
+  },
+  {
+   "name": "onClose",
+   "count": 1
+  },
+  {
+   "name": "G",
+   "count": 1
+  },
+  {
+   "name": "exact",
+   "count": 1
+  },
+  {
+   "name": "refetchType",
+   "count": 1
+  },
+  {
+   "name": "replace",
+   "count": 1
+  },
+  {
+   "name": "xc",
+   "count": 1
+  },
+  {
+   "name": "tj",
+   "count": 1
+  },
+  {
+   "name": "D5",
+   "count": 1
+  },
+  {
+   "name": "footer",
+   "count": 1
+  },
+  {
+   "name": "lg",
+   "count": 1
+  },
+  {
+   "name": "backgroundImage",
+   "count": 1
+  },
+  {
+   "name": "Pl",
+   "count": 1
+  },
+  {
+   "name": "QE",
+   "count": 1
+  },
+  {
+   "name": "wh",
+   "count": 1
+  },
+  {
+   "name": "zV",
+   "count": 1
+  },
+  {
+   "name": "initialRemoteControlStatus",
+   "count": 1
+  },
+  {
+   "name": "setupStepDebugOverride",
+   "count": 1
+  },
+  {
+   "name": "T",
+   "count": 1
+  },
+  {
+   "name": "f",
+   "count": 1
+  },
+  {
+   "name": "roots",
+   "count": 1
+  },
+  {
+   "name": "marketplaceKind",
+   "count": 1
+  },
+  {
+   "name": "buildFlavor",
+   "count": 1
+  },
+  {
+   "name": "isComputerUseAvailable",
+   "count": 1
+  },
+  {
+   "name": "isExternalBrowserUseAvailable",
+   "count": 1
+  },
+  {
+   "name": "isInAppBrowserUseAvailable",
+   "count": 1
+  },
+  {
+   "name": "isMessagesAvailable",
+   "count": 1
+  },
+  {
+   "name": "pendingPluginId",
+   "count": 1
+  },
+  {
+   "name": "setPluginEnabled",
+   "count": 1
+  },
+  {
+   "name": "installPlugin",
+   "count": 1
+  },
+  {
+   "name": "status",
+   "count": 1
+  },
+  {
+   "name": "computerIconDataURL",
+   "count": 1
+  },
+  {
+   "name": "lockIconDataURL",
+   "count": 1
+  },
+  {
+   "name": "chromeExtensionEnabled",
+   "count": 1
+  },
+  {
+   "name": "chromeExtensionToggleDisabled",
+   "count": 1
+  },
+  {
+   "name": "computerUseEnabled",
+   "count": 1
+  },
+  {
+   "name": "computerUseToggleDisabled",
+   "count": 1
+  },
+  {
+   "name": "keepComputerAwake",
+   "count": 1
+  },
+  {
+   "name": "keepComputerAwakeToggleDisabled",
+   "count": 1
+  }
+ ],
+ "literal_count": 597,
+ "literals_file": ".work/261117/literals/mobile.json"
+}

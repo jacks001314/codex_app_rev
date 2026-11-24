@@ -14,6 +14,8 @@
 | `inventory-261013.json` | `26.1013.4894.0` | `26.1013.40934` | `20770` | 2026-10-17 | 21,396 | 2.7 MB |
 | `inventory-261016.json` | `26.1016.8622.0` | `26.1016.62342` | `21477` | 2026-10-23 | 21,559 | 2.8 MB |
 | `inventory-261103.json` | `26.1103.4239.0` | `26.1103.32239` | `25471` | 2026-11-09 | 20,127 | 2.6 MB |
+| `inventory-261106.json` | `26.1106.6628.0` | `26.1106.51428` | `26605` | 2026-11-15 | 20,220 | 2.5 MB |
+| `inventory-261117.json` | `26.1117.4957.0` | `26.1117.41037` | `29803` | 2026-11-24 | 15,862 | 1.9 MB |
 
 ## 缺失的基线
 
@@ -24,6 +26,24 @@
 | `26.1007.2314.0` | 2026-10-11 | 只做了浏览器扩展链路的定向分析，没有全量清单 |
 
 这两段缺口导致 26.903 → 26.928 之间的中间态无法回填。
+
+## 已就绪但尚未生效的下一版（26.1123 runtime）
+
+2026-11-24 10:06 装机了一个**新版 Primary Runtime**，但主程序包仍是 26.1117.4957.0：
+
+| 包 | 版本 | 安装时间 | 文件 / 体积 |
+| --- | --- | --- | --- |
+| `OpenAI.CodexPrimaryRuntime.v26-1123-915-0` | `26.1123.915.0` | 2026-11-24 10:06 | 17,568 / 1,088.4 MiB |
+| `OpenAI.CodexPrimaryRuntime.v26-1117-835-0`（上一版） | `26.1117.835.0` | 2026-11-21 | 22,536 / 1,371.7 MiB |
+
+`runtime.json` 的 `bundleVersion` 从 `26.1117.11355` 变为 **`26.1123.11515`**，
+`artifactToolVersion` `2.8.169` → `2.8.194`，`nativeDependencies` 重新包含 **`tectonic`**
+（26.1117 主程序里它只剩 4 文件 / 46 KB）。`dependencies/` 从约 1.37 GiB 降到 1.08 GiB。
+
+**这还不是可分析的目标**：`app.asar` 属于 `OpenAI.Codex` 包，目前没有 26.1123 的
+`OpenAI.Codex` 包（`C:\Program Files\WindowsApps\OpenAI.Codex_26.1123.*` 不存在）。
+记录这些是为了在升级替换前留下运行时侧的基线；主程序升级后仍须立刻跑一次 `inventory.mjs`。
+
 
 ## 用法
 
@@ -40,11 +60,12 @@ node "codex_app_rev\.work\inv-diff.mjs" inventories\inventory-26928.json invento
 node "codex_app_rev\.work\inv-diff.mjs" inventories\inventory-261013.json inventories\inventory-261016.json
 
 # 26.1016 → 26.1103：Rspack 后不能按 chunk 名对比，改为解析 runtime 的 p.u 映射
-node "codex_app_rev\code\tools\chunkmap.mjs"
-node "codex_app_rev\code\tools\scan-messages.mjs"
+node "codex_app_rev\code\tools\chunkmap-261117.mjs"
+node "codex_app_rev\code\tools\scan-messages-261117.mjs"
 ```
 
 对比脚本本身不入库（在 `.work/`，被 gitignore），需要时按
 [changelog-26.928.md](../changelog-26.928.md) §H 重建。
 
 > ⚠️ **下次升级前先跑一遍 `inventory.mjs`。** 这是成本最低、收益最高的一条纪律。
+
